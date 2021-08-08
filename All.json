@@ -1,1 +1,12 @@
-[{"UniqueName":"docq","DocumentationUrl":"https://docs.microsoft.com/en-us/connectors/connector-reference/../docq/","Actions":[]},{"UniqueName":"10to8","DocumentationUrl":"https://docs.microsoft.com/en-us/connectors/connector-reference/../10to8/","Actions":[]}]
+[
+  {
+    "UniqueName": "docq",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../docq/",
+    "Actions": []
+  },
+  {
+    "UniqueName": "10to8",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../10to8/",
+    "Actions": []
+  }
+]
