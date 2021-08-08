@@ -1,0 +1,20 @@
+{
+  "UniqueName": "saperp",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../saperp/",
+  "Actions": [
+    {
+      "OperationId": "Invoke",
+      "Name": "Call SAP function",
+      "Description": "Call SAP function.",
+      "Anchor": "#call-sap-function",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunDiagnostics",
+      "Name": "Run Diagnostics",
+      "Description": "Run Diagnostics.",
+      "Anchor": "#run-diagnostics",
+      "IsDeprecated": false
+    }
+  ]
+}

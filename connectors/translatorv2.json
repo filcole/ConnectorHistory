@@ -1,0 +1,27 @@
+{
+  "UniqueName": "translatorv2",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../translatorv2/",
+  "Actions": [
+    {
+      "OperationId": "Detect",
+      "Name": "Detect language",
+      "Description": "Detects the source language of the given text.",
+      "Anchor": "#detect-language",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Languages",
+      "Name": "Get languages",
+      "Description": "Retrieves all languages that Microsoft Translator supports for translation, transliteration or dictionary scopes",
+      "Anchor": "#get-languages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Translate",
+      "Name": "Translate text",
+      "Description": "Translates text to a specified language using Microsoft Translator.",
+      "Anchor": "#translate-text",
+      "IsDeprecated": false
+    }
+  ]
+}

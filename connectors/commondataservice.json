@@ -1,0 +1,132 @@
+{
+  "UniqueName": "commondataservice",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../commondataservice/",
+  "Actions": [
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete a row",
+      "Description": "This operation deletes a row from a table collection",
+      "Anchor": "#delete-a-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Gets a row from table [DEPRECATED]",
+      "Description": "Gets a row from table",
+      "Anchor": "#gets-a-row-from-table-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetItem_V2",
+      "Name": "Get row",
+      "Description": "This operation retrieves the specified row for a table",
+      "Anchor": "#get-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "List rows [DEPRECATED]",
+      "Description": "This operation gets rows for a table",
+      "Anchor": "#list-rows-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetItems_V2",
+      "Name": "List rows",
+      "Description": "This operation gets rows for a table",
+      "Anchor": "#list-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnDeletedItems",
+      "Name": "When a row is deleted (Admin Only) [DEPRECATED]",
+      "Description": "Triggers a flow when a row is deleted in Dataverse",
+      "Anchor": "#when-a-row-is-deleted-(admin-only)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetOnNewItems",
+      "Name": "When a row is added (Admin Only) [DEPRECATED]",
+      "Description": "Triggers a flow when a row is added in Dataverse",
+      "Anchor": "#when-a-row-is-added-(admin-only)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetOnNewItems",
+      "Name": "When a row is added (Admin Only) [DEPRECATED]",
+      "Description": "Triggers a flow when a row is added in Dataverse",
+      "Anchor": "#when-a-row-is-added-(admin-only)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetOnUpdatedItems",
+      "Name": "When a row is modified (Admin Only) [DEPRECATED]",
+      "Description": "Triggers a flow when a row is modified in Dataverse",
+      "Anchor": "#when-a-row-is-modified-(admin-only)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetOnUpdatedItems",
+      "Name": "When a row is modified (Admin Only) [DEPRECATED]",
+      "Description": "Triggers a flow when a row is modified in Dataverse",
+      "Anchor": "#when-a-row-is-modified-(admin-only)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnItemSelected",
+      "Name": "When a row is selected",
+      "Description": "Triggers a flow when a row is selected from the Flow menu in the command bar. (Available only for Power Automate.)",
+      "Anchor": "#when-a-row-is-selected",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update a row [DEPRECATED]",
+      "Description": "This operation updates an existing row for a table",
+      "Anchor": "#update-a-row-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PatchItem_V2",
+      "Name": "Update a row",
+      "Description": "This operation updates an existing row for a table",
+      "Anchor": "#update-a-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Add a new row [DEPRECATED]",
+      "Description": "This operation adds a new row of a table",
+      "Anchor": "#add-a-new-row-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PostItem_V2",
+      "Name": "Add a new row",
+      "Description": "This operation adds a new row of a table",
+      "Anchor": "#add-a-new-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscribeOnDeletedItems",
+      "Name": "When a row is deleted",
+      "Description": "Triggers a flow when a row is deleted in Dataverse.",
+      "Anchor": "#when-a-row-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscribeOnNewItems",
+      "Name": "When a row is added",
+      "Description": "Triggers a flow when a row is added in Dataverse.",
+      "Anchor": "#when-a-row-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscribeOnUpdatedItems",
+      "Name": "When a row is modified",
+      "Description": "Triggers a flow when a row is modified in Dataverse.",
+      "Anchor": "#when-a-row-is-modified",
+      "IsDeprecated": false
+    }
+  ]
+}

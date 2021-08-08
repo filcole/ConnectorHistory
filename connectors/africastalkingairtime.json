@@ -1,0 +1,27 @@
+{
+  "UniqueName": "africastalkingairtime",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../africastalkingairtime/",
+  "Actions": [
+    {
+      "OperationId": "AirtimeStatusNotification",
+      "Name": "When you receive an Airtime Status Notification",
+      "Description": "Triggered when you receive an delivery status notification for an initial request to send airtime.",
+      "Anchor": "#when-you-receive-an-airtime-status-notification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindTransactionStatus",
+      "Name": "Find transaction status",
+      "Description": "Find a particular airtime transaction's status",
+      "Anchor": "#find-transaction-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendAirtime",
+      "Name": "Send Airtime",
+      "Description": "Send airtime to multiple recipients",
+      "Anchor": "#send-airtime",
+      "IsDeprecated": false
+    }
+  ]
+}

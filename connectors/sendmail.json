@@ -1,0 +1,20 @@
+{
+  "UniqueName": "sendmail",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sendmail/",
+  "Actions": [
+    {
+      "OperationId": "SendEmail",
+      "Name": "Send an email notification [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Send an email notification (V3) instead.\nSend an email notification to the specified email addresses.",
+      "Anchor": "#send-an-email-notification-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SendEmailV3",
+      "Name": "Send an email notification (V3)",
+      "Description": "Send an email notification to the specified email addresses.",
+      "Anchor": "#send-an-email-notification-(v3)",
+      "IsDeprecated": false
+    }
+  ]
+}

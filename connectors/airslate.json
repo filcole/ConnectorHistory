@@ -1,0 +1,20 @@
+{
+  "UniqueName": "airslate",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../airslate/",
+  "Actions": [
+    {
+      "OperationId": "SendFlow",
+      "Name": "Send Slate (Preview)",
+      "Description": "Send a Slate with documents and forms by email",
+      "Anchor": "#send-slate-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartFlow",
+      "Name": "Create a new Slate",
+      "Description": "Generate a new Slate for editing or signing from the Flow in your airSlate Workspace",
+      "Anchor": "#create-a-new-slate",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "UniqueName": "smartsheet",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../smartsheet/",
+  "Actions": [
+    {
+      "OperationId": "AddCommentToDiscussion",
+      "Name": "Add a comment to a discussion",
+      "Description": "Add a comment to an existing discussion.",
+      "Anchor": "#add-a-comment-to-a-discussion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddDiscussionToRow",
+      "Name": "Add a discussion to a row",
+      "Description": "Add a discussion to a specific row in a sheet.",
+      "Anchor": "#add-a-discussion-to-a-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddDiscussionToSheet",
+      "Name": "Add a discussion to a sheet",
+      "Description": "Add a discussion to a sheet",
+      "Anchor": "#add-a-discussion-to-a-sheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetColumns",
+      "Name": "Get the columns of a sheet",
+      "Description": "Get the columns of a specific sheet.",
+      "Anchor": "#get-the-columns-of-a-sheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetColumnsSchema",
+      "Name": "Get the columns of a sheet (dynamic schema)",
+      "Description": "Get the columns of a specific sheet in dynamic schema format.",
+      "Anchor": "#get-the-columns-of-a-sheet-(dynamic-schema)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDiscussion",
+      "Name": "Get a discussion",
+      "Description": "Get a specific discussion.",
+      "Anchor": "#get-a-discussion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDiscussionsForSheet",
+      "Name": "Get discussions for a sheet",
+      "Description": "Get the discussions for a specific sheet.",
+      "Anchor": "#get-discussions-for-a-sheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSheet",
+      "Name": "Get a sheet",
+      "Description": "Get a specific sheet.",
+      "Anchor": "#get-a-sheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSheetData",
+      "Name": "Get a sheet data (dynamic schema)",
+      "Description": "Get a specific sheet data.",
+      "Anchor": "#get-a-sheet-data-(dynamic-schema)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InsertRow",
+      "Name": "Insert row",
+      "Description": "Insert a row into a specific sheet.",
+      "Anchor": "#insert-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListSheets",
+      "Name": "List the sheets",
+      "Description": "Get a list of the sheets.",
+      "Anchor": "#list-the-sheets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListSubFolders",
+      "Name": "Get subfolders of a folder",
+      "Description": "Get subfolders of a specific folder.",
+      "Anchor": "#get-subfolders-of-a-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnCommentAdded",
+      "Name": "When a comment is added to a discussion",
+      "Description": "Triggers when a comment is added to a specific discussion.",
+      "Anchor": "#when-a-comment-is-added-to-a-discussion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnDiscussionCreated",
+      "Name": "When a discussion is added to a sheet",
+      "Description": "Triggers when a discussion is added to a sheet.",
+      "Anchor": "#when-a-discussion-is-added-to-a-sheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewComment",
+      "Name": "When a comment is added to a sheet",
+      "Description": "Triggers when a comment is added to a specific sheet.",
+      "Anchor": "#when-a-comment-is-added-to-a-sheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewSheet",
+      "Name": "When a new sheet is created",
+      "Description": "Triggers when a new sheet is created.",
+      "Anchor": "#when-a-new-sheet-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnRowCreated",
+      "Name": "When a new row is created",
+      "Description": "Triggers when a new row is created in a specific sheet.",
+      "Anchor": "#when-a-new-row-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedSheet",
+      "Name": "When any sheet is updated",
+      "Description": "Triggers when any sheet is updated.",
+      "Anchor": "#when-any-sheet-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedSpecificSheet",
+      "Name": "When a sheet is updated",
+      "Description": "Triggers when a specific sheet is updated.",
+      "Anchor": "#when-a-sheet-is-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

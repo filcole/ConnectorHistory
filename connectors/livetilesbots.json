@@ -1,0 +1,69 @@
+{
+  "UniqueName": "livetilesbots",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../livetilesbots/",
+  "Actions": [
+    {
+      "OperationId": "FlowComplete",
+      "Name": "Flow Complete",
+      "Description": "Finish the current flow and allow the user to ask something else",
+      "Anchor": "#flow-complete",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IntentRecognized",
+      "Name": "When an intent is recognized",
+      "Description": "This operation triggers when the related intent is recognized in the bot's LUIS model.",
+      "Anchor": "#when-an-intent-is-recognized",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostMessage",
+      "Name": "Post Message",
+      "Description": "Posts a message back to the bot user.",
+      "Anchor": "#post-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PromptBoolean",
+      "Name": "Prompt Boolean",
+      "Description": "Prompts the bot user for a bool value.",
+      "Anchor": "#prompt-boolean",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PromptChoice",
+      "Name": "Prompt Choice",
+      "Description": "Prompts the bot user with a choice variable.",
+      "Anchor": "#prompt-choice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PromptFile",
+      "Name": "Prompt File",
+      "Description": "Prompts the bot user for a file variable.",
+      "Anchor": "#prompt-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PromptForm",
+      "Name": "Prompt Form",
+      "Description": "Prompts the bot user for a form input.",
+      "Anchor": "#prompt-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PromptNumber",
+      "Name": "Prompt Number",
+      "Description": "Prompts the bot user for a number input.",
+      "Anchor": "#prompt-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PromptString",
+      "Name": "Prompt String",
+      "Description": "Prompts the bot user for a string input.",
+      "Anchor": "#prompt-string",
+      "IsDeprecated": false
+    }
+  ]
+}

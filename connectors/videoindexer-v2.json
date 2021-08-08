@@ -1,0 +1,111 @@
+{
+  "UniqueName": "videoindexer-v2",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../videoindexer-v2/",
+  "Actions": [
+    {
+      "OperationId": "Delete-video",
+      "Name": "Delete Video",
+      "Description": "This operation deletes the specified video and all related insights found when the video was indexed.",
+      "Anchor": "#delete-video",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-video-source-file",
+      "Name": "Delete Video Source File",
+      "Description": "This operation deletes the video source file, but does not delete the insights found when the video was indexed.",
+      "Anchor": "#delete-video-source-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Account",
+      "Name": "Get Account",
+      "Description": "This operation returns the details of the user's account.",
+      "Anchor": "#get-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Account-Access-Token",
+      "Name": "Get Account Access Token",
+      "Description": "Gets an account access token (expires after an hour).",
+      "Anchor": "#get-account-access-token",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Accounts",
+      "Name": "Get Accounts",
+      "Description": "This operation returns the details of the user's accounts.",
+      "Anchor": "#get-accounts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-thumbnail",
+      "Name": "Get Video Thumbnail",
+      "Description": "Get thumbnail image of a video.",
+      "Anchor": "#get-video-thumbnail",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-video-captions",
+      "Name": "Get Video Captions",
+      "Description": "This operation returns the captions extracted when the video was indexed.",
+      "Anchor": "#get-video-captions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-video-id-by-external-id",
+      "Name": "Get Video ID by External ID",
+      "Description": "This operation retrieves the video ID corresponding to the external ID.",
+      "Anchor": "#get-video-id-by-external-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Video-Index",
+      "Name": "Get Video Index",
+      "Description": "This operation gets a video and its insights.",
+      "Anchor": "#get-video-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-videos",
+      "Name": "List Videos",
+      "Description": "This operation gets a list of all videos in the account.",
+      "Anchor": "#list-videos",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Re-index-video",
+      "Name": "Re-index Video",
+      "Description": "This operation re-indexes the given video.",
+      "Anchor": "#re-index-video",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Search-videos",
+      "Name": "Search Videos",
+      "Description": "This operation performs a search for text, keywords, and visual content.",
+      "Anchor": "#search-videos",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-face",
+      "Name": "Update Face Name",
+      "Description": "This operation updates the name of the given face and trains the face model to recognize that face in future videos.",
+      "Anchor": "#update-face-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-Transcript",
+      "Name": "Update Video Transcript",
+      "Description": "Updates the transcript of the video.",
+      "Anchor": "#update-video-transcript",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Upload-video",
+      "Name": "Upload video and index",
+      "Description": "This operation uploads the given video, starts indexing it, and returns a new video index ID.\nThe supported formats are listed here:\nhttps://docs.microsoft.com/azure/media-services/media-services-media-encoder-standard-formats).",
+      "Anchor": "#upload-video-and-index",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "UniqueName": "telephonyxtendedsrv",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../telephonyxtendedsrv/",
+  "Actions": [
+    {
+      "OperationId": "call.Answer",
+      "Name": "Call Answer",
+      "Description": "Answer a call.",
+      "Anchor": "#call-answer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "call.End",
+      "Name": "Call End",
+      "Description": "Hangup/End a call.",
+      "Anchor": "#call-end",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "call.Hold",
+      "Name": "Call Hold",
+      "Description": "Put a call on hold.",
+      "Anchor": "#call-hold",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "call.New",
+      "Name": "New Call",
+      "Description": "Make a call",
+      "Anchor": "#new-call",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "call.recording",
+      "Name": "Toggle Call Recording",
+      "Description": "Toggle call recording state.",
+      "Anchor": "#toggle-call-recording",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "call.Transfer",
+      "Name": "Transfer a Call",
+      "Description": "Transfer a call.",
+      "Anchor": "#transfer-a-call",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "call.TransfertoVoicemail",
+      "Name": "Transfer Call to Voicemail",
+      "Description": "Transfer call to voicemail.",
+      "Anchor": "#transfer-call-to-voicemail",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "events",
+      "Name": "Raw Event Subscription",
+      "Description": "Events.",
+      "Anchor": "#raw-event-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "events.call",
+      "Name": "On Call Event",
+      "Description": "When something happens to a call.",
+      "Anchor": "#on-call-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "events.callCenterAgent",
+      "Name": "On Call Center Agent ACD State Change",
+      "Description": "React to a call center agent's ACD (Automatic Call Distribution) state change.",
+      "Anchor": "#on-call-center-agent-acd-state-change",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "events.callCenterMonitoring",
+      "Name": "On Call Center Monitoring Change",
+      "Description": "React to call center average wait time, calls vs. agent count, etc.",
+      "Anchor": "#on-call-center-monitoring-change",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "events.callCenterQueue",
+      "Name": "On Call Center Queue Change",
+      "Description": "React to calls in a call center queue.",
+      "Anchor": "#on-call-center-queue-change",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "events.doNotDisturb",
+      "Name": "On Do Not Disturb Change",
+      "Description": "React to a user's DND state change.",
+      "Anchor": "#on-do-not-disturb-change",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "events.voicemail",
+      "Name": "On Voice Mail Message Summary",
+      "Description": "React to new or removed voicemail messages.",
+      "Anchor": "#on-voice-mail-message-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "raw",
+      "Name": "Raw Request",
+      "Description": "Send a raw request. Find more resources at: https://labxsp1.masteraccess.com/com.broadsoft.xsi-actions/test/v2.0/",
+      "Anchor": "#raw-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "toggle.AgentACDState",
+      "Name": "Toggle Agent ACD State",
+      "Description": "Toggle the Agent ACD State.",
+      "Anchor": "#toggle-agent-acd-state",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "user.calls",
+      "Name": "Get User Calls",
+      "Description": "Get user calls.",
+      "Anchor": "#get-user-calls",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "user.profile",
+      "Name": "Get User Profile",
+      "Description": "Get user profile.",
+      "Anchor": "#get-user-profile",
+      "IsDeprecated": false
+    }
+  ]
+}

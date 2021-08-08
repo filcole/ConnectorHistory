@@ -1,0 +1,279 @@
+{
+  "UniqueName": "tpcportal",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tpcportal/",
+  "Actions": [
+    {
+      "OperationId": "TpcActionAssignRole",
+      "Name": "Assign Role",
+      "Description": "Assign a role to a sitefinity user on the portal site.",
+      "Anchor": "#assign-role",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionCreateContent",
+      "Name": "Create Content",
+      "Description": "Create content on the portal site.",
+      "Anchor": "#create-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionCreatePortalUser",
+      "Name": "Create Portal User",
+      "Description": "Create a portal user on the portal site.",
+      "Anchor": "#create-portal-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionDeleteContent",
+      "Name": "Delete Content",
+      "Description": "Delete content on the portal site.",
+      "Anchor": "#delete-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionDeletePortalUser",
+      "Name": "Delete Portal User",
+      "Description": "Deletes a portal user on the portal site.",
+      "Anchor": "#delete-portal-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionEditContent",
+      "Name": "Edit Content",
+      "Description": "Edit content on the portal site.",
+      "Anchor": "#edit-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionEditPortalUser",
+      "Name": "Edit Portal User",
+      "Description": "Edit a portal user on the portal site.",
+      "Anchor": "#edit-portal-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionGetAllContent",
+      "Name": "Get All Content",
+      "Description": "Get all content on the portal site.",
+      "Anchor": "#get-all-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionGetAllPortalUsers",
+      "Name": "Get All Portal Users",
+      "Description": "Get all portal users on the portal site.",
+      "Anchor": "#get-all-portal-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionGetContent",
+      "Name": "Get Content",
+      "Description": "Get content on the portal site.",
+      "Anchor": "#get-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionGetPortalUser",
+      "Name": "Get Portal User",
+      "Description": "Get a portal user on the portal site.",
+      "Anchor": "#get-portal-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionLockoutUser",
+      "Name": "Lockout User",
+      "Description": "Lockout a user on the portal site.",
+      "Anchor": "#lockout-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionPublishContent",
+      "Name": "Publish Content",
+      "Description": "Publish content on the portal site.",
+      "Anchor": "#publish-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionSyncMetadata",
+      "Name": "Sync Metadata",
+      "Description": "Trigger a metadata sync on the portal site.",
+      "Anchor": "#sync-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionUnassignRole",
+      "Name": "Unassign Role",
+      "Description": "Unassign a role from a sitefinity user on the portal site.",
+      "Anchor": "#unassign-role",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionUnlockUser",
+      "Name": "Unlock User",
+      "Description": "Unlock a user on the portal site.",
+      "Anchor": "#unlock-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcActionUnpublishContent",
+      "Name": "Unpublish Content",
+      "Description": "Unpublish content on the portal site.",
+      "Anchor": "#unpublish-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerCommentCreated",
+      "Name": "Comment Created",
+      "Description": "Subscribes to the comment created event.",
+      "Anchor": "#comment-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerCommentDeleted",
+      "Name": "Comment Deleted",
+      "Description": "Subscribes to the comment deleted event.",
+      "Anchor": "#comment-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerCommentUpdated",
+      "Name": "Comment Updated",
+      "Description": "Subscribes to the comment updated event.",
+      "Anchor": "#comment-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerContentCreated",
+      "Name": "Content Created",
+      "Description": "Subscribes to the content created event.",
+      "Anchor": "#content-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerContentDeleted",
+      "Name": "Content Deleted",
+      "Description": "Subscribes to the content deleted event.",
+      "Anchor": "#content-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerContentUpdated",
+      "Name": "Content Updated",
+      "Description": "Subscribes to the content updated event.",
+      "Anchor": "#content-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerFormEntryCreated",
+      "Name": "Form Entry Created",
+      "Description": "Subscribes to the form entry created event.",
+      "Anchor": "#form-entry-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerFormEntryUpdated",
+      "Name": "Form Entry Updated",
+      "Description": "Subscribes to the form entry updated event.",
+      "Anchor": "#form-entry-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerFormSubmission",
+      "Name": "TPC Form Submission",
+      "Description": "Subscribes to the TPC form submission event.",
+      "Anchor": "#tpc-form-submission",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerKnowledgeSearch",
+      "Name": "TPC Knowledge Search",
+      "Description": "Subscribes to the TPC knowledge search event.",
+      "Anchor": "#tpc-knowledge-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerLogin",
+      "Name": "Login",
+      "Description": "Subscribes to the login event.",
+      "Anchor": "#login",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerLogout",
+      "Name": "Logout",
+      "Description": "Subscribes to the logout event.",
+      "Anchor": "#logout",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerPageNavigation",
+      "Name": "Page Navigation",
+      "Description": "Subscribes to the page navigation event.",
+      "Anchor": "#page-navigation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerPortalUserCreated",
+      "Name": "Portal User Created",
+      "Description": "Subscribes to a portal user created event.",
+      "Anchor": "#portal-user-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerPortalUserDeleted",
+      "Name": "Portal User Deleted",
+      "Description": "Subscribes to a portal user deleted event.",
+      "Anchor": "#portal-user-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerPortalUserUpdated",
+      "Name": "Portal User Updated",
+      "Description": "Subscribes to a portal user updated event.",
+      "Anchor": "#portal-user-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerRoleAssigned",
+      "Name": "Role Assigned",
+      "Description": "Subscribes to the role assigned event.",
+      "Anchor": "#role-assigned",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerRoleUnassigned",
+      "Name": "Role Unassigned",
+      "Description": "Subscribes to the role unassigned event.",
+      "Anchor": "#role-unassigned",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerSearch",
+      "Name": "Search",
+      "Description": "Subscribes to the search event.",
+      "Anchor": "#search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerUserCreated",
+      "Name": "User Created",
+      "Description": "Subscribes to a user created event.",
+      "Anchor": "#user-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerUserDeleted",
+      "Name": "User Deleted",
+      "Description": "Subscribes to a user deleted event.",
+      "Anchor": "#user-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TpcTriggerUserUpdated",
+      "Name": "User Updated",
+      "Description": "Subscribes to a user updated event.",
+      "Anchor": "#user-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

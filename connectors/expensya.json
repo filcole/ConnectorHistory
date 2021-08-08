@@ -1,0 +1,167 @@
+{
+  "UniqueName": "expensya",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../expensya/",
+  "Actions": [
+    {
+      "OperationId": "AddProjects",
+      "Name": "Add Projects",
+      "Description": "Add new projects to Expensya.",
+      "Anchor": "#add-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddQuickExpenseV2",
+      "Name": "Add QuickExpense",
+      "Description": "Add a new expense to your expensya account.",
+      "Anchor": "#add-quickexpense",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddReciept",
+      "Name": "Add Reciept",
+      "Description": "Add a new expense to your expensya account with a receipt.",
+      "Anchor": "#add-reciept",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompanyReports",
+      "Name": "Get Reports",
+      "Description": "Get the list of reports with paging.",
+      "Anchor": "#get-reports",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompanyUsers",
+      "Name": "Get Users",
+      "Description": "Get the list of users with paging.",
+      "Anchor": "#get-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExportExpenses",
+      "Name": "Export Expense",
+      "Description": "Export expenses on specified export format based on given filters.",
+      "Anchor": "#export-expense",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExportFormats",
+      "Name": "Get Export Formats",
+      "Description": "List of export formats.",
+      "Anchor": "#get-export-formats",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCategoriesV2",
+      "Name": "Get Categories",
+      "Description": "Get the list of categories with paging.",
+      "Anchor": "#get-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetExpenseImage",
+      "Name": "Get Expense Image",
+      "Description": "This API returns the image of the expense as Stream. The image can be jpg, jpeg, png or pdf. The type of the image is mentioned in the expense object property &quot;FileType&quot;.",
+      "Anchor": "#get-expense-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetExpensesWithPagingV2",
+      "Name": "Get Expenses",
+      "Description": "Get the list of expenses with paging.",
+      "Anchor": "#get-expenses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProjectDetailsV2",
+      "Name": "Get Project Details",
+      "Description": "Get the details of the project.",
+      "Anchor": "#get-project-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProjectsV2",
+      "Name": "Get Projects",
+      "Description": "Get the list of projects.",
+      "Anchor": "#get-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetReportHistoryV2",
+      "Name": "Get Report History",
+      "Description": "Get the history of the report.",
+      "Anchor": "#get-report-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InviteUserV2",
+      "Name": "Invite User",
+      "Description": "Add user to Expensya.",
+      "Anchor": "#invite-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PrintMission",
+      "Name": "Export Report",
+      "Description": "Export report as pdf.",
+      "Anchor": "#export-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RefreshUserTokenV2",
+      "Name": "Refresh Token",
+      "Description": "Refresh your userToken.",
+      "Anchor": "#refresh-token",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RevokeUserToken",
+      "Name": "Revoke Token",
+      "Description": "Revoke your user token.",
+      "Anchor": "#revoke-token",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpateUserV2",
+      "Name": "Update User",
+      "Description": "Update user already added in Expensya.",
+      "Anchor": "#update-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProjects",
+      "Name": "Update Projects",
+      "Description": "Update projects already added to Expensya",
+      "Anchor": "#update-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProjectStateV2",
+      "Name": "Update Projects State",
+      "Description": "Batch update list of projects state.",
+      "Anchor": "#update-projects-state",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateReportStatus",
+      "Name": "Update Report Status",
+      "Description": "Update the statuts of the report.",
+      "Anchor": "#update-report-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateUsersStateV2",
+      "Name": "Update Users Status",
+      "Description": "Update expensya users status.",
+      "Anchor": "#update-users-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidatorReports",
+      "Name": "Get Validator Reports",
+      "Description": "Get the list of validator's reports with paging.",
+      "Anchor": "#get-validator-reports",
+      "IsDeprecated": false
+    }
+  ]
+}

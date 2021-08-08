@@ -1,0 +1,27 @@
+{
+  "UniqueName": "waaila",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../waaila/",
+  "Actions": [
+    {
+      "OperationId": "GetDepots",
+      "Name": "Get list of Depots",
+      "Description": "Returns list of all Waaila Depots for the user.",
+      "Anchor": "#get-list-of-depots",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTestsuite",
+      "Name": "Get Testsuite details",
+      "Description": "Returns Testsuite details within a specified Depot.",
+      "Anchor": "#get-testsuite-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetToken",
+      "Name": "Get Access Token",
+      "Description": "Returns an access token to authorize other connector actions. Use this token as the 'Wauth' value.",
+      "Anchor": "#get-access-token",
+      "IsDeprecated": false
+    }
+  ]
+}

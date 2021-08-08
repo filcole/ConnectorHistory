@@ -1,0 +1,41 @@
+{
+  "UniqueName": "alembaitsm",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../alembaitsm/",
+  "Actions": [
+    {
+      "OperationId": "CreateResource",
+      "Name": "Create Entity",
+      "Description": "Creates new entity.",
+      "Anchor": "#create-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourceInteractions",
+      "Name": "Interaction",
+      "Description": "Interact with existing entity.",
+      "Anchor": "#interaction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchResource",
+      "Name": "Search Entity",
+      "Description": "Searches for entity using advanced querying.",
+      "Anchor": "#search-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateResource",
+      "Name": "Update Entity",
+      "Description": "Update existing entity.",
+      "Anchor": "#update-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookTrigger",
+      "Name": "Event Trigger",
+      "Description": "Registers event trigger.",
+      "Anchor": "#event-trigger",
+      "IsDeprecated": false
+    }
+  ]
+}

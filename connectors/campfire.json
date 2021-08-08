@@ -1,0 +1,41 @@
+{
+  "UniqueName": "campfire",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../campfire/",
+  "Actions": [
+    {
+      "OperationId": "CreateMessage",
+      "Name": "Create a message",
+      "Description": "Sends a message to the given room.",
+      "Anchor": "#create-a-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user by ID",
+      "Description": "Retrieves information about a user by given ID",
+      "Anchor": "#get-user-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewMessage",
+      "Name": "When a new message is received",
+      "Description": "Triggers when a new message is received in a given room.",
+      "Anchor": "#when-a-new-message-is-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewRoom",
+      "Name": "When a room is created",
+      "Description": "Triggers when a new room is added to the authenticated user's account. Not applicable to Basecamp.",
+      "Anchor": "#when-a-room-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewUpload",
+      "Name": "When a file is uploaded",
+      "Description": "Triggers when a file is uploaded to a given room. Not applicable to Basecamp.",
+      "Anchor": "#when-a-file-is-uploaded",
+      "IsDeprecated": false
+    }
+  ]
+}

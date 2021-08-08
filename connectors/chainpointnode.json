@@ -1,0 +1,34 @@
+{
+  "UniqueName": "chainpointnode",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../chainpointnode/",
+  "Actions": [
+    {
+      "OperationId": "GetProof",
+      "Name": "Retrieve a proof",
+      "Description": "Retrieve a Chainpoint proof",
+      "Anchor": "#retrieve-a-proof",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SHA256FromString",
+      "Name": "Generate a SHA256 Hash from a string",
+      "Description": "Generate a SHA256 Hash for the given string",
+      "Anchor": "#generate-a-sha256-hash-from-a-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubmitHash",
+      "Name": "Submit a hash",
+      "Description": "Submit a hash to be anchored using Chainpoint",
+      "Anchor": "#submit-a-hash",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VerifyProof",
+      "Name": "Verify a proof",
+      "Description": "Verify that a Chainpoint proof is valid",
+      "Anchor": "#verify-a-proof",
+      "IsDeprecated": false
+    }
+  ]
+}

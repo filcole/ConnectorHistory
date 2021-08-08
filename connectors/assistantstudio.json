@@ -1,0 +1,34 @@
+{
+  "UniqueName": "assistantstudio",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../assistantstudio/",
+  "Actions": [
+    {
+      "OperationId": "CreateActionCard",
+      "Name": "Create card for assistant [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create card for assistant V3 instead.\nCreate Card for Sales Assistant.",
+      "Anchor": "#create-card-for-assistant-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateActionCard_V2",
+      "Name": "Create card for assistant V2 [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create card for assistant V3 instead.\nCreate Card for Sales Assistant.",
+      "Anchor": "#create-card-for-assistant-v2-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateActionCard_V3",
+      "Name": "Create card for assistant V3",
+      "Description": "Create Card for Sales Assistant.",
+      "Anchor": "#create-card-for-assistant-v3",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCustomActionDefinition",
+      "Name": "Choose custom action (CRM process) for insight card",
+      "Description": "The output of this step should be used in the &quot;Create card for assistant V2&quot; step, when Button type is Custom action (CRM process)",
+      "Anchor": "#choose-custom-action-(crm-process)-for-insight-card",
+      "IsDeprecated": false
+    }
+  ]
+}

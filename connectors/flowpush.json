@@ -1,0 +1,20 @@
+{
+  "UniqueName": "flowpush",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../flowpush/",
+  "Actions": [
+    {
+      "OperationId": "SendEmailNotification",
+      "Name": "Send me an email notification",
+      "Description": "Sends an email notification to the account you signed in to Microsoft Flow with.",
+      "Anchor": "#send-me-an-email-notification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendNotification",
+      "Name": "Send me a mobile notification",
+      "Description": "Sends a push notification to your Microsoft Flow mobile app.",
+      "Anchor": "#send-me-a-mobile-notification",
+      "IsDeprecated": false
+    }
+  ]
+}

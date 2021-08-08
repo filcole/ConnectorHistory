@@ -1,0 +1,111 @@
+{
+  "UniqueName": "cloudmersivevideoandmedia",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudmersivevideoandmedia/",
+  "Actions": [
+    {
+      "OperationId": "Audio_ConvertToAac",
+      "Name": "Convert Audio File to AAC format",
+      "Description": "Automatically detect audio file format and convert it to AAC format. Supports many input audio formats, including AAC, FLAC, M4A, MP2, MP3, OGG, WMA, and WAV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB.",
+      "Anchor": "#convert-audio-file-to-aac-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Audio_ConvertToM4a",
+      "Name": "Convert Audio File to M4A format",
+      "Description": "Automatically detect audio file format and convert it to M4A format. Supports many input audio formats, including AAC, FLAC, M4A, MP2, MP3, OGG, WMA, and WAV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB.",
+      "Anchor": "#convert-audio-file-to-m4a-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Audio_ConvertToMp3",
+      "Name": "Convert Audio File to MP3 format",
+      "Description": "Automatically detect audio file format and convert it to MP3 format. Supports many input audio formats, including AAC, FLAC, M4A, MP2, MP3, OGG, WMA, and WAV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB.",
+      "Anchor": "#convert-audio-file-to-mp3-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Audio_ConvertToWav",
+      "Name": "Convert Audio File to WAV format",
+      "Description": "Automatically detect audio file format and convert it to WAV format. Supports many input audio formats, including AAC, FLAC, M4A, MP2, MP3, OGG, WMA, and WAV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB.",
+      "Anchor": "#convert-audio-file-to-wav-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Video_ConvertToGif",
+      "Name": "Convert Video to Animated GIF format",
+      "Description": "Automatically detect video file format and convert it to animated GIF format. Supports many input video formats, including AVI, ASF, FLV, MP4, MPEG/MPG, Matroska/WEBM, 3G2, OGV, MKV, M4V and MOV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB. Default height is 250 pixels, while preserving the video's aspect ratio.",
+      "Anchor": "#convert-video-to-animated-gif-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Video_ConvertToMov",
+      "Name": "Convert Video to MOV format",
+      "Description": "Automatically detect video file format and convert it to MOV format. Supports many input video formats, including AVI, ASF, FLV, MP4, MPEG/MPG, Matroska/WEBM, 3G2, OGV, MKV, M4V and MOV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB.",
+      "Anchor": "#convert-video-to-mov-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Video_ConvertToMp4",
+      "Name": "Convert Video to MP4 format",
+      "Description": "Automatically detect video file format and convert it to MP4 format. Supports many input video formats, including AVI, ASF, FLV, MP4, MPEG/MPG, Matroska/WEBM, 3G2, OGV, MKV, M4V and MOV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB.",
+      "Anchor": "#convert-video-to-mp4-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Video_ConvertToStillFrames",
+      "Name": "Convert Video to PNG Still Frames",
+      "Description": "Automatically detect video file format and convert it to an array of still frame PNG images. Supports many input video formats, including AVI, ASF, FLV, MP4, MPEG/MPG, Matroska/WEBM, 3G2, OGV, MKV, M4V and MOV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time.",
+      "Anchor": "#convert-video-to-png-still-frames",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Video_ConvertToWebm",
+      "Name": "Convert Video to WEBM format",
+      "Description": "Automatically detect video file format and convert it to WEBM format. Supports many input video formats, including AVI, ASF, FLV, MP4, MPEG/MPG, Matroska/WEBM, 3G2, OGV, MKV, M4V and MOV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB.",
+      "Anchor": "#convert-video-to-webm-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Video_CutVideo",
+      "Name": "Cut a Video to a Shorter Length",
+      "Description": "Cuts a video to the specified start and end times. Supports many input video formats, including AVI, ASF, FLV, MP4, MPEG/MPG, Matroska/WEBM, 3G2, MKV, M4V and MOV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB.",
+      "Anchor": "#cut-a-video-to-a-shorter-length",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Video_GetInfo",
+      "Name": "Get detailed information about a video or audio file",
+      "Description": "Retrieve detailed information about a video or audio file, including format, dimensions, file size, bit rate, duration and start time. Compatible with many formats, including: AVI, ASF, FLV, GIF, MP4, MPEG/MPG, Matroska/WEBM, MOV, AIFF, ASF, CAF, MP3, MP2, MP1, Ogg, OMG/OMA, and WAV. Uses 1 API call per 10 MB of file size.",
+      "Anchor": "#get-detailed-information-about-a-video-or-audio-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Video_ResizeVideo",
+      "Name": "Resizes a Video Preserving the Original Aspect Ratio",
+      "Description": "Resizes a video, while maintaining the original aspect ratio and encoding. Supports many input video formats, including AVI, ASF, FLV, MP4, MPEG/MPG, Matroska/WEBM, 3G2, MKV, M4V and MOV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB.",
+      "Anchor": "#resizes-a-video-preserving-the-original-aspect-ratio",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Video_ResizeVideoSimple",
+      "Name": "Resizes a Video without Preserving Aspect Ratio",
+      "Description": "Resizes a video without maintaining original aspect ratio, allowing fully customizable dimensions. May cause image skewing. Supports many input video formats, including AVI, ASF, FLV, MP4, MPEG/MPG, Matroska/WEBM, 3G2, MKV, M4V and MOV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB.",
+      "Anchor": "#resizes-a-video-without-preserving-aspect-ratio",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Video_ScanForNsfw",
+      "Name": "Scan a Video for NSFW content",
+      "Description": "Automatically detect video file format and scan it for Not Safe For Work (NSFW)/Porn/Racy content. Supports many input video formats, including AVI, ASF, FLV, MP4, MPEG/MPG, Matroska/WEBM, 3G2, OGV, MKV, M4V and MOV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per frame scanned.",
+      "Anchor": "#scan-a-video-for-nsfw-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Video_SplitVideo",
+      "Name": "Split a Video into Two Shorter Videos",
+      "Description": "Cuts a video into two videos based on the specified start time. Supports many input video formats, including AVI, ASF, FLV, MP4, MPEG/MPG, Matroska/WEBM, 3G2, MKV, M4V and MOV. Uses 1 API call per 10 MB of file size. Also uses 1 API call per additional minute of processing time over 5 minutes, up to a maximum of 25 minutes total processing time. Maximum output file size is 50GB.",
+      "Anchor": "#split-a-video-into-two-shorter-videos",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "UniqueName": "aquaforest",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aquaforest/",
+  "Actions": [
+    {
+      "OperationId": "Extract-by-barcode",
+      "Name": "Extract PDF pages by barcode",
+      "Description": "Extract PDF files based on barcode matches defined by the user. Visit [https://www.aquaforest.com/en/aquaforest-flow-doc.asp] for more information.",
+      "Anchor": "#extract-pdf-pages-by-barcode",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Extract-by-text",
+      "Name": "Extract PDF pages by text",
+      "Description": "Extract PDF files based on text matches defined by the user. Visit [https://www.aquaforest.com/en/aquaforest-flow-doc.asp] for more information.",
+      "Anchor": "#extract-pdf-pages-by-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-barcode-value",
+      "Name": "Get barcode value",
+      "Description": "Get Barcode From PDF. Visit [https://www.aquaforest.com/en/aquaforest-flow-doc.asp] for more information.",
+      "Anchor": "#get-barcode-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-data-from-pdf",
+      "Name": "Get data from PDF",
+      "Description": "This action will extract important data from PDF files in the form of Key/Value pairs.",
+      "Anchor": "#get-data-from-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-pdf-information",
+      "Name": "Get PDF properties",
+      "Description": "Gets the information about a PDF file",
+      "Anchor": "#get-pdf-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-text-value",
+      "Name": "Get text from PDF",
+      "Description": "Get Text From PDF files based on the text location and regular expressions. Visit [https://www.aquaforest.com/en/aquaforest-flow-doc.asp] for more information.",
+      "Anchor": "#get-text-from-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Ocr-file-to-pdf",
+      "Name": "OCR PDF or images",
+      "Description": "Generate searchable PDF from an image PDF or scanned images. Visit [https://www.aquaforest.com/en/aquaforest-flow-doc.asp] for more information.",
+      "Anchor": "#ocr-pdf-or-images",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Split-by-barcode",
+      "Name": "Split PDF by barcode",
+      "Description": "Splits PDF files based on barcode matches defined by the user. Visit [https://www.aquaforest.com/en/aquaforest-flow-doc.asp] for documentation. In addition the Aquaforest Zonal Extraction Tool is available at [https://www.aquaforest.com/en/zone/get-pdf-zone.html].",
+      "Anchor": "#split-pdf-by-barcode",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Split-by-page-range",
+      "Name": "Split PDF by page",
+      "Description": "Splits PDF files based on split options defined by the user. Visit [https://www.aquaforest.com/en/aquaforest-flow-doc.asp] for documentation.",
+      "Anchor": "#split-pdf-by-page",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Split-by-text",
+      "Name": "Split PDF by text match",
+      "Description": "Splits PDF files based on text matches defined by the user. Visit [https://www.aquaforest.com/en/aquaforest-flow-doc.asp] for documentation. In addition the Aquaforest Zonal Extraction Tool is available at [https://www.aquaforest.com/en/zone/get-pdf-zone.html].",
+      "Anchor": "#split-pdf-by-text-match",
+      "IsDeprecated": false
+    }
+  ]
+}

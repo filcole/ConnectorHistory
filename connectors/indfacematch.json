@@ -1,0 +1,13 @@
+{
+  "UniqueName": "indfacematch",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../indfacematch/",
+  "Actions": [
+    {
+      "OperationId": "FaceMatch",
+      "Name": "Face Match",
+      "Description": "Match Human faces against the ID card photograph",
+      "Anchor": "#face-match",
+      "IsDeprecated": false
+    }
+  ]
+}

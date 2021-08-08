@@ -1,0 +1,69 @@
+{
+  "UniqueName": "lifx",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../lifx/",
+  "Actions": [
+    {
+      "OperationId": "ActivateScene",
+      "Name": "Activate a scene",
+      "Description": "Activate a scene",
+      "Anchor": "#activate-a-scene",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BreatheEffect",
+      "Name": "Breathe effect by slowly fading between the given colors",
+      "Description": "Breathe effect by slowly fading between the given colors",
+      "Anchor": "#breathe-effect-by-slowly-fading-between-the-given-colors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EffectsOff",
+      "Name": "Turn off any running effects on the device",
+      "Description": "Turn off any running effects on the device",
+      "Anchor": "#turn-off-any-running-effects-on-the-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MorphEffect",
+      "Name": "Morph effect on Tiles",
+      "Description": "Morph effect on Tiles",
+      "Anchor": "#morph-effect-on-tiles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveEffect",
+      "Name": "Move current pattern across Beam or Z Strip",
+      "Description": "Move current pattern across Beam or Z Strip",
+      "Anchor": "#move-current-pattern-across-beam-or-z-strip",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PulseEffect",
+      "Name": "Pulse effect by quickly flashing between the given colors",
+      "Description": "Pulse effect by quickly flashing between the given colors",
+      "Anchor": "#pulse-effect-by-quickly-flashing-between-the-given-colors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetState",
+      "Name": "Set state of the lights",
+      "Description": "Set state of the lights",
+      "Anchor": "#set-state-of-the-lights",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetStates",
+      "Name": "Set different states on multiple sets of lights",
+      "Description": "Set different states on multiple sets of lights",
+      "Anchor": "#set-different-states-on-multiple-sets-of-lights",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TogglePower",
+      "Name": "Turn off lights if any of them are on, or turn them on if they are all off",
+      "Description": "Turn off lights if any of them are on, or turn them on if they are all off",
+      "Anchor": "#turn-off-lights-if-any-of-them-are-on,-or-turn-them-on-if-they-are-all-off",
+      "IsDeprecated": false
+    }
+  ]
+}

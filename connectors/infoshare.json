@@ -1,0 +1,160 @@
+{
+  "UniqueName": "infoshare",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../infoshare/",
+  "Actions": [
+    {
+      "OperationId": "CloseProcess",
+      "Name": "Close an open process",
+      "Description": "Close an open process",
+      "Anchor": "#close-an-open-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseTask",
+      "Name": "Close task and continue process",
+      "Description": "Close task and continue process",
+      "Anchor": "#close-task-and-continue-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseTaskAndAssignToUsers",
+      "Name": "Close current task and assign user to next task",
+      "Description": "Close current task and assign user to next task",
+      "Anchor": "#close-current-task-and-assign-user-to-next-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create document",
+      "Description": "Create document",
+      "Anchor": "#create-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProcess",
+      "Name": "Create process",
+      "Description": "Create process",
+      "Anchor": "#create-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentSearch",
+      "Name": "Document Search",
+      "Description": "Document Search",
+      "Anchor": "#document-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocument",
+      "Name": "Get document",
+      "Description": "Get document",
+      "Anchor": "#get-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentProperties",
+      "Name": "Get document properties",
+      "Description": "Get document properties",
+      "Anchor": "#get-document-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContent",
+      "Name": "Get file content",
+      "Description": "Get file content",
+      "Anchor": "#get-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContentConverted",
+      "Name": "Get file content converted",
+      "Description": "Convert file content to different format. Add annotation or overlay to file content",
+      "Anchor": "#get-file-content-converted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProcess",
+      "Name": "Get process",
+      "Description": "Get Process",
+      "Anchor": "#get-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProcessProperties",
+      "Name": "Get process properties",
+      "Description": "Get process properties",
+      "Anchor": "#get-process-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProcesses",
+      "Name": "List processes",
+      "Description": "List processes",
+      "Anchor": "#list-processes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Logoff",
+      "Name": "Logoff",
+      "Description": "Logoff",
+      "Anchor": "#logoff",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Logon",
+      "Name": "Logon",
+      "Description": "Logon",
+      "Anchor": "#logon",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LogonWithHashedPassword",
+      "Name": "Logon with hashed password",
+      "Description": "Logon with hashed password",
+      "Anchor": "#logon-with-hashed-password",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocument",
+      "Name": "Update document",
+      "Description": "Update document",
+      "Anchor": "#update-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProcess",
+      "Name": "Update process",
+      "Description": "Update process",
+      "Anchor": "#update-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserTableCreateTable",
+      "Name": "Create a user table",
+      "Description": "Create a user table",
+      "Anchor": "#create-a-user-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserTableDeleteRecords",
+      "Name": "Delete user table rows",
+      "Description": "Delete user table rows",
+      "Anchor": "#delete-user-table-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserTableGetRecords",
+      "Name": "Get rows from a user table",
+      "Description": "Get rows from a user table",
+      "Anchor": "#get-rows-from-a-user-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserTableImportData",
+      "Name": "Insert rows into a user table",
+      "Description": "Import table rows into a user table",
+      "Anchor": "#insert-rows-into-a-user-table",
+      "IsDeprecated": false
+    }
+  ]
+}

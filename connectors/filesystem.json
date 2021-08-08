@@ -1,0 +1,111 @@
+{
+  "UniqueName": "filesystem",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../filesystem/",
+  "Actions": [
+    {
+      "OperationId": "AppendFile",
+      "Name": "Append file",
+      "Description": "This operation appends data to a file.",
+      "Anchor": "#append-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyFile",
+      "Name": "Copy file",
+      "Description": "This operation copies a file to a file system.",
+      "Anchor": "#copy-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFile",
+      "Name": "Create file",
+      "Description": "This operation creates a file. If the file already exists, the existing content is replaced.",
+      "Anchor": "#create-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFile",
+      "Name": "Delete file",
+      "Description": "This operation deletes a file.",
+      "Anchor": "#delete-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractFolderV2",
+      "Name": "Extract archive to folder",
+      "Description": "This operation extracts an archive file into a folder (example: .zip).",
+      "Anchor": "#extract-archive-to-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContent",
+      "Name": "Get file content",
+      "Description": "This operation gets the content of a file.",
+      "Anchor": "#get-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContentByPath",
+      "Name": "Get file content using path",
+      "Description": "This operation gets the content of a file using the path.",
+      "Anchor": "#get-file-content-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadata",
+      "Name": "Get file metadata",
+      "Description": "This operation gets the metadata for a file.",
+      "Anchor": "#get-file-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadataByPath",
+      "Name": "Get file metadata using path",
+      "Description": "This operation gets the metadata of a file using the path.",
+      "Anchor": "#get-file-metadata-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFolder",
+      "Name": "List files in folder",
+      "Description": "This operation gets the list of files and subfolders in a folder.",
+      "Anchor": "#list-files-in-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRootFolder",
+      "Name": "List files in root folder",
+      "Description": "This operation gets the list of files and subfolders in the root folder.",
+      "Anchor": "#list-files-in-root-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewFiles",
+      "Name": "When a file is created (properties only)",
+      "Description": "This operation triggers a flow when one or more files are created in a folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-file-is-created-(properties-only)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedFiles",
+      "Name": "When a file is added or modified (properties only)",
+      "Description": "This operation triggers a flow when one or more files are added or modified in a folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-file-is-added-or-modified-(properties-only)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenameFile",
+      "Name": "Rename File",
+      "Description": "This operation renames a file.",
+      "Anchor": "#rename-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFile",
+      "Name": "Update file",
+      "Description": "This operation updates a file.",
+      "Anchor": "#update-file",
+      "IsDeprecated": false
+    }
+  ]
+}

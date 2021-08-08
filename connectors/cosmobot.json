@@ -1,0 +1,188 @@
+{
+  "UniqueName": "cosmobot",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cosmobot/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "When a ticket's topic is updated",
+      "Description": "When a topic of an existing Ticket is updated.",
+      "Anchor": "#when-a-ticket's-topic-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddAnswer",
+      "Name": "Add a new question-answer set",
+      "Description": "Adds a new question-answer set to the connected instance.",
+      "Anchor": "#add-a-new-question-answer-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddExpert",
+      "Name": "Add an expert to a topic",
+      "Description": "The bot will add the expert to the provided topic.",
+      "Anchor": "#add-an-expert-to-a-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddSubAnswer",
+      "Name": "Create a shadow copy of a question-answer set",
+      "Description": "Adds a new shadow copy for the question-answer set specified by the short description. Careful! These shadow copies are deleted when the answer is updated. It is therefore recommended to automatically call this action using the &quot;when a question-answer set is updated&quot; trigger.",
+      "Anchor": "#create-a-shadow-copy-of-a-question-answer-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddTopic",
+      "Name": "Add a new topic",
+      "Description": "Adds a new topic to the connected instance.",
+      "Anchor": "#add-a-new-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AskQuestion",
+      "Name": "Ask COSMO Bot a question",
+      "Description": "The bot will search through the knowledgebase and return the answer with the best match. Also returns the score.",
+      "Anchor": "#ask-cosmo-bot-a-question",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseTicket",
+      "Name": "Close a ticket",
+      "Description": "Closes an open ticket on the connected instance.",
+      "Anchor": "#close-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteAnswer",
+      "Name": "Delete a question-answer set",
+      "Description": "Delete an existing question-answer set from the connected instance.",
+      "Anchor": "#delete-a-question-answer-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditAnswer",
+      "Name": "Edit an existing question-answer set",
+      "Description": "Edit an existing question-answer set from the connected instance.",
+      "Anchor": "#edit-an-existing-question-answer-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllAnswers",
+      "Name": "Get all question-answer sets",
+      "Description": "Gets all answers from the connected instance.",
+      "Anchor": "#get-all-question-answer-sets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllTopics",
+      "Name": "Get all topics",
+      "Description": "Gets all topics from the connected bot instance.",
+      "Anchor": "#get-all-topics",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetExperts",
+      "Name": "Get experts for a topic",
+      "Description": "Gets all expoerts from the connected instance.",
+      "Anchor": "#get-experts-for-a-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGlobalSettings",
+      "Name": "Get global settings",
+      "Description": "Gets the global settings from the connected instance.",
+      "Anchor": "#get-global-settings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOpenTickets",
+      "Name": "Get open tickets",
+      "Description": "Gets all open tickets from the connected instance.",
+      "Anchor": "#get-open-tickets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTopic",
+      "Name": "Get topic",
+      "Description": "Gets a specific topic from the connected instance.",
+      "Anchor": "#get-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnAskedQuestion",
+      "Name": "When a user asks a question",
+      "Description": "When a user asks a question.",
+      "Anchor": "#when-a-user-asks-a-question",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewAnswer",
+      "Name": "When a new question-answer set is created",
+      "Description": "When a new question-answer set is created.",
+      "Anchor": "#when-a-new-question-answer-set-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewTicket",
+      "Name": "When a new ticket is created",
+      "Description": "When a new Ticket is created.",
+      "Anchor": "#when-a-new-ticket-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnResolvedTicket",
+      "Name": "When a ticket is resolved",
+      "Description": "When a existing Ticket is resolved.",
+      "Anchor": "#when-a-ticket-is-resolved",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdateAnswer",
+      "Name": "When a question-answer set is created or modified",
+      "Description": "When a question-answer set is created or modified.",
+      "Anchor": "#when-a-question-answer-set-is-created-or-modified",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenTicketFeedback",
+      "Name": "Open a ticket (feedback)",
+      "Description": "Open a new ticket of type feedback on the connected instance.",
+      "Anchor": "#open-a-ticket-(feedback)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenTicketQuestion",
+      "Name": "Open a ticket (question)",
+      "Description": "Open a new ticket on the connected instance.",
+      "Anchor": "#open-a-ticket-(question)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ParseText",
+      "Name": "Convert COSMO Bot Script",
+      "Description": "Run the given text through the COSMO Bot Script parser.",
+      "Anchor": "#convert-cosmo-bot-script",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveExpert",
+      "Name": "Remove an expert from a topic",
+      "Description": "The bot will remove an expert from the provided topic. If no topic is given, the expert will be removed from all topics.",
+      "Anchor": "#remove-an-expert-from-a-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenameTopic",
+      "Name": "Rename an existing topic",
+      "Description": "Rename a existing topic from the connected instance.",
+      "Anchor": "#rename-an-existing-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Translate",
+      "Name": "Translate (markdown friendly)",
+      "Description": "Translate the given text while respecting the COSMO Bot dialect Markdown syntax.",
+      "Anchor": "#translate-(markdown-friendly)",
+      "IsDeprecated": false
+    }
+  ]
+}

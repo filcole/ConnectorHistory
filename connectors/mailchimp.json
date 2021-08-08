@@ -1,0 +1,97 @@
+{
+  "UniqueName": "mailchimp",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mailchimp/",
+  "Actions": [
+    {
+      "OperationId": "addmember",
+      "Name": "Add member to list",
+      "Description": "Add or update a list member",
+      "Anchor": "#add-member-to-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddMembers",
+      "Name": "Subscribe or unsubscribe list members",
+      "Description": "Batch subscribe or unsubscribe list members.",
+      "Anchor": "#subscribe-or-unsubscribe-list-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCampaigns",
+      "Name": "List campaigns",
+      "Description": "This operation retrieves a list of campaigns in an account",
+      "Anchor": "#list-campaigns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetListMembers",
+      "Name": "Show list members",
+      "Description": "Show all the members of a list",
+      "Anchor": "#show-list-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLists",
+      "Name": "Get all the lists",
+      "Description": "Find all the lists for the current user",
+      "Anchor": "#get-all-the-lists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "newcampaign",
+      "Name": "New Campaign [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use New Campaign (V2) instead.\nCreate a new campaign based on a Campaign Type, Recipients list and Campaign Settings (subject line, title, from_name and reply_to)",
+      "Anchor": "#new-campaign-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "newcampaignV2",
+      "Name": "New Campaign (V2)",
+      "Description": "Create a new campaign based on a Campaign Type, Recipients list and Campaign Settings (subject line, title, from_name and reply_to) (V2).",
+      "Anchor": "#new-campaign-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "newlist",
+      "Name": "New List",
+      "Description": "Create a new list in your MailChimp account",
+      "Anchor": "#new-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnCreateList",
+      "Name": "When a new list is created",
+      "Description": "Triggers a workflow when a new list is created",
+      "Anchor": "#when-a-new-list-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnMemberSubscribed",
+      "Name": "When a Member has been added to a list",
+      "Description": "Triggers a workflow when a new member has been added to a list",
+      "Anchor": "#when-a-member-has-been-added-to-a-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "removemember_v2",
+      "Name": "Remove Member from list",
+      "Description": "Delete a member from a list.",
+      "Anchor": "#remove-member-from-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "sendcampaign",
+      "Name": "Send Campaign (Preview)",
+      "Description": "Send an existing campaign",
+      "Anchor": "#send-campaign-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "updatemember_v2",
+      "Name": "Update member information",
+      "Description": "Update information for a specific list member.",
+      "Anchor": "#update-member-information",
+      "IsDeprecated": false
+    }
+  ]
+}

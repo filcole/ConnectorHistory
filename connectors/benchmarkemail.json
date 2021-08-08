@@ -1,0 +1,20 @@
+{
+  "UniqueName": "benchmarkemail",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../benchmarkemail/",
+  "Actions": [
+    {
+      "OperationId": "CreateContact",
+      "Name": "Create contact",
+      "Description": "This operation is used to add a new contact to an existing mailing list.",
+      "Anchor": "#create-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateContactList",
+      "Name": "Create list",
+      "Description": "This operation is used to create a new mailing list.",
+      "Anchor": "#create-list",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "UniqueName": "ahead",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ahead/",
+  "Actions": [
+    {
+      "OperationId": "AheadReceiveExternalActivity",
+      "Name": "Add an external activity",
+      "Description": "Add an external activity to appear in ahead.",
+      "Anchor": "#add-an-external-activity",
+      "IsDeprecated": false
+    }
+  ]
+}

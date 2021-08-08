@@ -1,0 +1,90 @@
+{
+  "UniqueName": "azuretables",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azuretables/",
+  "Actions": [
+    {
+      "OperationId": "CreateEntity",
+      "Name": "Insert Entity",
+      "Description": "Operation to add an entity to a table.",
+      "Anchor": "#insert-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTable",
+      "Name": "Create table",
+      "Description": "This operation adds a table to the storage account.",
+      "Anchor": "#create-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteEntity",
+      "Name": "Delete Entity",
+      "Description": "Operation to delete an entity.",
+      "Anchor": "#delete-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTable",
+      "Name": "Delete a table",
+      "Description": "Delete a table.",
+      "Anchor": "#delete-a-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEntities",
+      "Name": "Get entities",
+      "Description": "This operation queries the entities in a table.",
+      "Anchor": "#get-entities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEntity",
+      "Name": "Get entity",
+      "Description": "This operation gets the entity in a table based on the partition and row key.",
+      "Anchor": "#get-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTable",
+      "Name": "Get a table",
+      "Description": "This operation gets the metadata of a table.",
+      "Anchor": "#get-a-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "List tables",
+      "Description": "This operation lists the tables in the account.",
+      "Anchor": "#list-tables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InsertMergeEntity",
+      "Name": "Insert or Merge Entity",
+      "Description": "Operation to merge data with an entity in a table, creating a new entity if needed.",
+      "Anchor": "#insert-or-merge-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InsertReplaceEntity",
+      "Name": "Insert or Replace Entity",
+      "Description": "Operation to replace an entity in a table, creating a new entity if needed.",
+      "Anchor": "#insert-or-replace-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeEntity",
+      "Name": "Merge Entity",
+      "Description": "Operation to merge data with an entity in a table.",
+      "Anchor": "#merge-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplaceEntity",
+      "Name": "Replace Entity",
+      "Description": "Operation to replace an entity in a table.",
+      "Anchor": "#replace-entity",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "UniqueName": "basecamp",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../basecamp/",
+  "Actions": [
+    {
+      "OperationId": "CompleteToDo",
+      "Name": "Complete a to-do",
+      "Description": "Mark a to-do as completed",
+      "Anchor": "#complete-a-to-do",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create a document",
+      "Description": "Add a document",
+      "Anchor": "#create-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateScheduleEntry",
+      "Name": "Create a schedule entry",
+      "Description": "Create a schedule entry",
+      "Anchor": "#create-a-schedule-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateToDo",
+      "Name": "Create a to-do",
+      "Description": "Add a to-do to a to-do list",
+      "Anchor": "#create-a-to-do",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteDocument",
+      "Name": "Delete a document",
+      "Description": "Put a document in the trash",
+      "Anchor": "#delete-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteObject",
+      "Name": "Delete an object [DEPRECATED]",
+      "Description": "Put an object in the trash",
+      "Anchor": "#delete-an-object-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DeleteScheduledEntry",
+      "Name": "Delete a scheduled entry",
+      "Description": "Put a scheduled entry in the trash",
+      "Anchor": "#delete-a-scheduled-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteToDo",
+      "Name": "Delete a to-do",
+      "Description": "Put a to-do in the trash",
+      "Anchor": "#delete-a-to-do",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAccounts",
+      "Name": "List Accounts",
+      "Description": "List Accounts you're a part of",
+      "Anchor": "#list-accounts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBasecamps",
+      "Name": "List Basecamps",
+      "Description": "List Basecamps you're a part of",
+      "Anchor": "#list-basecamps",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListToDoLists",
+      "Name": "List to-do lists",
+      "Description": "List the to-do lists in the basecamp",
+      "Anchor": "#list-to-do-lists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListToDos",
+      "Name": "List to-dos",
+      "Description": "List the to-dos in a to-do list",
+      "Anchor": "#list-to-dos",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnDocumentCreated",
+      "Name": "When a document is created",
+      "Description": "This operation triggers when a new document is created in Basecamp.",
+      "Anchor": "#when-a-document-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnDocumentDeleted",
+      "Name": "When a document is deleted",
+      "Description": "This operation triggers when a document is deleted in Basecamp.",
+      "Anchor": "#when-a-document-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnDocumentUpdated",
+      "Name": "When a document is updated",
+      "Description": "This operation triggers when a document is updated in Basecamp.",
+      "Anchor": "#when-a-document-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnFileUpdated",
+      "Name": "When a file is updated",
+      "Description": "This operation triggers when a file is updated in Basecamp.",
+      "Anchor": "#when-a-file-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnFileUploaded",
+      "Name": "When a file is uploaded",
+      "Description": "This operation triggers when a file is uploaded in Basecamp.",
+      "Anchor": "#when-a-file-is-uploaded",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnMessagePosted",
+      "Name": "When a message is posted",
+      "Description": "This operation triggers when a new message is posted in Basecamp.",
+      "Anchor": "#when-a-message-is-posted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnScheduledEntryCreated",
+      "Name": "When a schedule entry is created",
+      "Description": "This operation triggers when a new schedule entry is created in Basecamp.",
+      "Anchor": "#when-a-schedule-entry-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnScheduledEntryDeleted",
+      "Name": "When a schedule entry is deleted",
+      "Description": "This operation triggers when a schedule entry is deleted in Basecamp.",
+      "Anchor": "#when-a-schedule-entry-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnScheduledEntryUpdated",
+      "Name": "When a schedule entry is updated",
+      "Description": "This operation triggers when a schedule entry is updated in Basecamp.",
+      "Anchor": "#when-a-schedule-entry-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnToDoCreated",
+      "Name": "When a to-do is created",
+      "Description": "This operation triggers when a new to-do is created in Basecamp.",
+      "Anchor": "#when-a-to-do-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnToDoUpdated",
+      "Name": "When a to-do is updated",
+      "Description": "This operation triggers when an existing to-do is updated in Basecamp.",
+      "Anchor": "#when-a-to-do-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostMessage",
+      "Name": "Post a message",
+      "Description": "Add a message to a basecamp",
+      "Anchor": "#post-a-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UncompleteToDo",
+      "Name": "Uncomplete a to-do",
+      "Description": "Mark a to-do as not completed",
+      "Anchor": "#uncomplete-a-to-do",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadFile",
+      "Name": "Upload file",
+      "Description": "Upload a file",
+      "Anchor": "#upload-file",
+      "IsDeprecated": false
+    }
+  ]
+}

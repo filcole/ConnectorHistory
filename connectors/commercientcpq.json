@@ -1,0 +1,111 @@
+{
+  "UniqueName": "commercientcpq",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../commercientcpq/",
+  "Actions": [
+    {
+      "OperationId": "CommercientCPQ_CreateNewCustomer",
+      "Name": "Create new Customer in CPQ",
+      "Description": "Create new Customer in CPQ",
+      "Anchor": "#create-new-customer-in-cpq",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommercientCPQ_CreateNewProduct",
+      "Name": "Create new Product in CPQ",
+      "Description": "Create new Product in CPQ",
+      "Anchor": "#create-new-product-in-cpq",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommercientCPQ_CreateNewSalesOrder",
+      "Name": "Create new Salesorder in CPQ",
+      "Description": "Create new Salesorder in CPQ",
+      "Anchor": "#create-new-salesorder-in-cpq",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuickBook_CreateNewCustomer",
+      "Name": "Create new customer in QuickBooks Desktop",
+      "Description": "Create new customer in QuickBooks Desktop",
+      "Anchor": "#create-new-customer-in-quickbooks-desktop",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuickBook_CreateNewSalesOrder",
+      "Name": "Create new Salesorder in QuickBooks Desktop",
+      "Description": "Create new Salesorder in QuickBooks Desktop",
+      "Anchor": "#create-new-salesorder-in-quickbooks-desktop",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAGE100_CreateNewCustomer",
+      "Name": "Create new customer in SAGE 100",
+      "Description": "Create new customer in SAGE 100",
+      "Anchor": "#create-new-customer-in-sage-100",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAGE100_CreateNewSalesOrder",
+      "Name": "Create new Salesorder in SAGE 100",
+      "Description": "Create new Salesorder in SAGE 100",
+      "Anchor": "#create-new-salesorder-in-sage-100",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAGE50UK_CreateNewCustomer",
+      "Name": "Create new customer in SAGE50UK",
+      "Description": "Create new customer in SAGE50UK",
+      "Anchor": "#create-new-customer-in-sage50uk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAGE50UK_CreateNewSalesOrder",
+      "Name": "Create new order in SAGE50UK",
+      "Description": "Create new order in SAGE50UK",
+      "Anchor": "#create-new-order-in-sage50uk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAGE50US_CreateNewCustomer",
+      "Name": "Create new customer in SAGE50US",
+      "Description": "Create new customer in SAGE50 US",
+      "Anchor": "#create-new-customer-in-sage50us",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAGE50US_CreateNewSalesOrder",
+      "Name": "Create new Salesorder in SAGE50US",
+      "Description": "Create new Salesorder in SAGE50US",
+      "Anchor": "#create-new-salesorder-in-sage50us",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPB1_CreateNewCustomer",
+      "Name": "Create new customer in SAPB1,  SAP B1, SAP Business One",
+      "Description": "Create new customer in SAPB1,  SAP B1, SAP Business One",
+      "Anchor": "#create-new-customer-in-sapb1,-sap-b1,-sap-business-one",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPB1_CreateNewSalesOrder",
+      "Name": "Create new order in SAPB1,  SAP B1, SAP Business One",
+      "Description": "Create new order in SAPB1,  SAP B1, SAP Business One",
+      "Anchor": "#create-new-order-in-sapb1,-sap-b1,-sap-business-one",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SYSPRO_CreateNewCustomer",
+      "Name": "Create new customer in SYSPRO",
+      "Description": "Create new customer in SYSPRO",
+      "Anchor": "#create-new-customer-in-syspro",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SYSPRO_CreateNewSalesOrder",
+      "Name": "Create new Salesorder in SYSPRO",
+      "Description": "Create new Salesorder in SYSPRO",
+      "Anchor": "#create-new-salesorder-in-syspro",
+      "IsDeprecated": false
+    }
+  ]
+}

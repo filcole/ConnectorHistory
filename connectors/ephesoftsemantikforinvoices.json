@@ -1,0 +1,48 @@
+{
+  "UniqueName": "ephesoftsemantikforinvoices",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ephesoftsemantikforinvoices/",
+  "Actions": [
+    {
+      "OperationId": "CreateDocumentUpload",
+      "Name": "Create document upload",
+      "Description": "Starts the document upload process by retrieving a pre-signed URL where you can upload a file for processing.",
+      "Anchor": "#create-document-upload",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateVendorUpload",
+      "Name": "Create vendor upload",
+      "Description": "Starts the vendor upload process by retrieving a pre-signed URL where you can upload a file for processing.",
+      "Anchor": "#create-vendor-upload",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteSemantikWebhook",
+      "Name": "Remove Semantik Webhook",
+      "Description": "Removes a Semantik webhook",
+      "Anchor": "#remove-semantik-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigSemantikInvoiceCompleted",
+      "Name": "When a Semantik invoice has completed review",
+      "Description": "Triggers a flow using data from a completed Semantik invoice.",
+      "Anchor": "#when-a-semantik-invoice-has-completed-review",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocumentUpload",
+      "Name": "Update document upload",
+      "Description": "Updates a document upload in Semantik.  Marking an upload 'Completed' will start document processing in Semantik.",
+      "Anchor": "#update-document-upload",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateVendorUpload",
+      "Name": "Update vendor upload",
+      "Description": "Updates a vendor upload in Semantik.  Marking an upload 'Completed' will begin ingesting the vendor records into the Semantik system.",
+      "Anchor": "#update-vendor-upload",
+      "IsDeprecated": false
+    }
+  ]
+}

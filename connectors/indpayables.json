@@ -1,0 +1,27 @@
+{
+  "UniqueName": "indpayables",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../indpayables/",
+  "Actions": [
+    {
+      "OperationId": "ExportValidatedData",
+      "Name": "Export validated data",
+      "Description": "Export validated invoice data using particular batch id",
+      "Anchor": "#export-validated-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvoiceCapture",
+      "Name": "Invoice process",
+      "Description": "Process invoices to extract only the useful details like invoice numbers, PO number, vendor name, etc., and the line items in the table automatically without a need to input a template.",
+      "Anchor": "#invoice-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidatedBatches",
+      "Name": "Validated batches",
+      "Description": "The List of batches validated so far",
+      "Anchor": "#validated-batches",
+      "IsDeprecated": false
+    }
+  ]
+}

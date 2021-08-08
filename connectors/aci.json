@@ -1,0 +1,97 @@
+{
+  "UniqueName": "aci",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aci/",
+  "Actions": [
+    {
+      "OperationId": "ContainerGroups_CreateOrUpdate",
+      "Name": "Create or update a container group",
+      "Description": "Create or update a container group with specified configurations.",
+      "Anchor": "#create-or-update-a-container-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContainerGroups_Delete",
+      "Name": "Delete a container group",
+      "Description": "Delete the specified container group in the specified subscription and resource group. The operation does not delete other resources provided by the user, such as volumes.",
+      "Anchor": "#delete-a-container-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContainerGroups_Get",
+      "Name": "Get properties of a container group",
+      "Description": "Gets the properties of the specified container group in the specified subscription and resource group. The operation returns the properties of each container group including containers, image registry credentials, restart policy, IP address type, OS type, state, and volumes.",
+      "Anchor": "#get-properties-of-a-container-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContainerGroups_List",
+      "Name": "Get a list of container groups in a subscription",
+      "Description": "Get a list of container groups in the specified subscription. This operation returns properties of each container group including containers, image registry credentials, restart policy, IP address type, OS type, state, and volumes.",
+      "Anchor": "#get-a-list-of-container-groups-in-a-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContainerGroups_ListByResourceGroup",
+      "Name": "Get a list of container groups in a resource group",
+      "Description": "Get a list of container groups in a specified subscription and resource group. This operation returns properties of each container group including containers, image registry credentials, restart policy, IP address type, OS type, state, and volumes.",
+      "Anchor": "#get-a-list-of-container-groups-in-a-resource-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContainerGroups_Restart",
+      "Name": "Restart containers in a container group",
+      "Description": "Restarts all containers in a container group in place. If container image has updates, new image will be downloaded.",
+      "Anchor": "#restart-containers-in-a-container-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContainerGroups_Start",
+      "Name": "Start containers in a container group",
+      "Description": "Starts all containers in a container group. Compute resources will be allocated and billing will start.",
+      "Anchor": "#start-containers-in-a-container-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContainerGroups_Stop",
+      "Name": "Stop containers in a container group",
+      "Description": "Stops all containers in a container group. Compute resources will be deallocated and billing will stop.",
+      "Anchor": "#stop-containers-in-a-container-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContainerGroups_Update",
+      "Name": "Update a container group location or tags",
+      "Description": "Update a container group with the specified tags and/or location.",
+      "Anchor": "#update-a-container-group-location-or-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContainerLogs_List",
+      "Name": "Get logs from a container instance",
+      "Description": "Get the logs for a specified container instance in a specified resource group and container group.",
+      "Anchor": "#get-logs-from-a-container-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Location_ListCachedImages",
+      "Name": "Get cached images",
+      "Description": "Get the list of cached images on specific OS type for a subscription in a region.",
+      "Anchor": "#get-cached-images",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Location_ListCapabilities",
+      "Name": "Get capabilities",
+      "Description": "Get the list of CPU/memory/GPU capabilities for a subscription in a region.",
+      "Anchor": "#get-capabilities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Location_ListUsage",
+      "Name": "Get current usage",
+      "Description": "Get the usage for a subscription",
+      "Anchor": "#get-current-usage",
+      "IsDeprecated": false
+    }
+  ]
+}

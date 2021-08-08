@@ -1,0 +1,55 @@
+{
+  "UniqueName": "parseur",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../parseur/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Get's the item schema of the selected mailbox",
+      "Description": "Gets the schema of the selected mailbox",
+      "Anchor": "#get's-the-item-schema-of-the-selected-mailbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get's the item schema of the selected table",
+      "Description": "Gets the schema of the selected table",
+      "Anchor": "#get's-the-item-schema-of-the-selected-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListMailbox",
+      "Name": "List mailboxes",
+      "Description": "List all your mailboxes",
+      "Anchor": "#list-mailboxes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTable",
+      "Name": "List tables",
+      "Description": "List all tables for this mailbox",
+      "Anchor": "#list-tables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewDocumentExpanded",
+      "Name": "New document processed",
+      "Description": "When an email is successfully processed",
+      "Anchor": "#new-document-processed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TableProcessed",
+      "Name": "Table processed",
+      "Description": "When a table is successfully processed",
+      "Anchor": "#table-processed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TemplateNeeded",
+      "Name": "Document failed to process",
+      "Description": "When an email fails to process",
+      "Anchor": "#document-failed-to-process",
+      "IsDeprecated": false
+    }
+  ]
+}

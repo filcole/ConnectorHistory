@@ -1,0 +1,104 @@
+{
+  "UniqueName": "k2workflow",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../k2workflow/",
+  "Actions": [
+    {
+      "OperationId": "GetWorkflow",
+      "Name": "Get Workflow",
+      "Description": "Gets a workflow definition by ID.",
+      "Anchor": "#get-workflow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWorkflows",
+      "Name": "Get Workflows",
+      "Description": "Get a list of available workflows.",
+      "Anchor": "#get-workflows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ServerEvent_Finish",
+      "Name": "Finish Server Event",
+      "Description": "Send a finish response to an async server task awaiting a response",
+      "Anchor": "#finish-server-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ServerEvent_Get",
+      "Name": "Get Server Event",
+      "Description": "Gets a server event by serial number.",
+      "Anchor": "#get-server-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartWorkflow",
+      "Name": "Start Workflow",
+      "Description": "Creates and starts a new workflow instance.",
+      "Anchor": "#start-workflow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks_Get",
+      "Name": "Get Tasks",
+      "Description": "Obtain a list of tasks available to the connected user.",
+      "Anchor": "#get-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks_GetTask",
+      "Name": "Get Task",
+      "Description": "Gets a task by serial number.",
+      "Anchor": "#get-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks_GetTaskActions",
+      "Name": "Get Task Actions",
+      "Description": "Gets a list of actions for the task.",
+      "Anchor": "#get-task-actions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks_PostAssignAction",
+      "Name": "Assign Task",
+      "Description": "Assigns a task to the current user.",
+      "Anchor": "#assign-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks_PostRedirectAction",
+      "Name": "Redirect Task",
+      "Description": "Sends a task to another person.",
+      "Anchor": "#redirect-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks_PostReleaseAction",
+      "Name": "Release Task",
+      "Description": "Releases a task.",
+      "Anchor": "#release-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks_PostSleepAction",
+      "Name": "Sleep Task",
+      "Description": "Sleeps a task for a duration, either number of seconds or until a date.",
+      "Anchor": "#sleep-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks_PostWakeAction",
+      "Name": "Wake Task",
+      "Description": "Awakens a sleeping task.",
+      "Anchor": "#wake-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks_TaskCustomAction",
+      "Name": "Action Task",
+      "Description": "Performs a workflow action.",
+      "Anchor": "#action-task",
+      "IsDeprecated": false
+    }
+  ]
+}

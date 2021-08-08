@@ -1,0 +1,48 @@
+{
+  "UniqueName": "yeelight",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../yeelight/",
+  "Actions": [
+    {
+      "OperationId": "Brightness",
+      "Name": "Brightness",
+      "Description": "Brightness",
+      "Anchor": "#brightness",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Color",
+      "Name": "Color",
+      "Description": "Color",
+      "Anchor": "#color",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Discover",
+      "Name": "Discover",
+      "Description": "Discover",
+      "Anchor": "#discover",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Query",
+      "Name": "Query",
+      "Description": "Query",
+      "Anchor": "#query",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Switch",
+      "Name": "Switch",
+      "Description": "Switch",
+      "Anchor": "#switch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Temperature",
+      "Name": "Temperature",
+      "Description": "Temperature",
+      "Anchor": "#temperature",
+      "IsDeprecated": false
+    }
+  ]
+}

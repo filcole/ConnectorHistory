@@ -1,0 +1,34 @@
+{
+  "UniqueName": "notiivybrowsernotif",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../notiivybrowsernotif/",
+  "Actions": [
+    {
+      "OperationId": "AddSubscriber",
+      "Name": "Add a recipient as a subscriber",
+      "Description": "Adds a recipient as a subscriber and returns their unique subscription url",
+      "Anchor": "#add-a-recipient-as-a-subscriber",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveSubscriber",
+      "Name": "Remove a recipient as a subscriber",
+      "Description": "Removes a recipient as a subscriber.",
+      "Anchor": "#remove-a-recipient-as-a-subscriber",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendToAll",
+      "Name": "Send a notification to many recipients",
+      "Description": "Send a notification to all recipients in a specific category",
+      "Anchor": "#send-a-notification-to-many-recipients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendToIndividual",
+      "Name": "Send notification to recipient",
+      "Description": "Send a defined browser notification to an individual recipient",
+      "Anchor": "#send-notification-to-recipient",
+      "IsDeprecated": false
+    }
+  ]
+}

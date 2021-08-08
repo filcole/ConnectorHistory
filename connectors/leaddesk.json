@@ -1,0 +1,62 @@
+{
+  "UniqueName": "leaddesk",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../leaddesk/",
+  "Actions": [
+    {
+      "OperationId": "AgentCampaignAccess",
+      "Name": "Agent Campaign Access",
+      "Description": "This operation edits an agent's campaign access rights.",
+      "Anchor": "#agent-campaign-access",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAgent",
+      "Name": "Create an Agent",
+      "Description": "This operation creates a new agent.",
+      "Anchor": "#create-an-agent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCallback",
+      "Name": "Create a Callback",
+      "Description": "This operation creates a new public or private callback.",
+      "Anchor": "#create-a-callback",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateContact",
+      "Name": "Create a Contact",
+      "Description": "This operation creates a new contact in a calling list.",
+      "Anchor": "#create-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindAgent",
+      "Name": "Find an Agent",
+      "Description": "This operation finds an agent's name and ID based on their username.",
+      "Anchor": "#find-an-agent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindContact",
+      "Name": "Find a Contact",
+      "Description": "This operation gets a list of contact IDs fitting the given information.",
+      "Anchor": "#find-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ModifyAgent",
+      "Name": "Modify an Agent",
+      "Description": "This operation edits an agent's personal and work related information.",
+      "Anchor": "#modify-an-agent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ModifyContact",
+      "Name": "Modify a Contact",
+      "Description": "This operation edits a contact's information.",
+      "Anchor": "#modify-a-contact",
+      "IsDeprecated": false
+    }
+  ]
+}

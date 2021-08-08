@@ -1,0 +1,20 @@
+{
+  "UniqueName": "pureleads",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pureleads/",
+  "Actions": [
+    {
+      "OperationId": "Created-Lead-Submission",
+      "Name": "New Lead Submission",
+      "Description": "New Lead Submission",
+      "Anchor": "#new-lead-submission",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Created-Lead-Submission",
+      "Name": "New Lead Submission",
+      "Description": "New Lead Submission",
+      "Anchor": "#new-lead-submission",
+      "IsDeprecated": false
+    }
+  ]
+}

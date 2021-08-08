@@ -1,0 +1,34 @@
+{
+  "UniqueName": "sqldw",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sqldw/",
+  "Actions": [
+    {
+      "OperationId": "ExecutePassThroughNativeQuery",
+      "Name": "Execute a SQL query",
+      "Description": "Execute a SQL query",
+      "Anchor": "#execute-a-sql-query",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteProcedure",
+      "Name": "Execute stored procedure",
+      "Description": "This operation runs a stored procedure.",
+      "Anchor": "#execute-stored-procedure",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get rows",
+      "Description": "This operation gets rows from a table.",
+      "Anchor": "#get-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get tables",
+      "Description": "This operation gets tables from a database.",
+      "Anchor": "#get-tables",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UniqueName": "latinsharedocuments",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../latinsharedocuments/",
+  "Actions": [
+    {
+      "OperationId": "DocxFromTemplate",
+      "Name": "Create document from DOCX template",
+      "Description": "Create document from DOCX template",
+      "Anchor": "#create-document-from-docx-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HtmlFromTemplate",
+      "Name": "Create HTML from template",
+      "Description": "Create HTML from template",
+      "Anchor": "#create-html-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HTMLtoPDF",
+      "Name": "Convert HTML to PDF",
+      "Description": "Convert HTML to PDF",
+      "Anchor": "#convert-html-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PDF_fromTemplateDocx",
+      "Name": "Create PDF from template Docx",
+      "Description": "Create PDF from template Docx",
+      "Anchor": "#create-pdf-from-template-docx",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PDF_fromTemplateHTML",
+      "Name": "Create PDF from template HTML",
+      "Description": "Create PDF from template HTML",
+      "Anchor": "#create-pdf-from-template-html",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WordToPDF",
+      "Name": "Convert DOCX to PDF",
+      "Description": "Convert DOCX to PDF",
+      "Anchor": "#convert-docx-to-pdf",
+      "IsDeprecated": false
+    }
+  ]
+}

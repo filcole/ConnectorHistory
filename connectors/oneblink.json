@@ -1,0 +1,20 @@
+{
+  "UniqueName": "oneblink",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../oneblink/",
+  "Actions": [
+    {
+      "OperationId": "FormSubmissionMetaWebhookTrigger",
+      "Name": "Triggers when a Form submission occurs",
+      "Description": "Creates a Form Submission Meta Webhook",
+      "Anchor": "#triggers-when-a-form-submission-occurs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFormSubmissionData",
+      "Name": "Retrieve Form Submission Data",
+      "Description": "Allows for Form Submission data to be retrieved",
+      "Anchor": "#retrieve-form-submission-data",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "UniqueName": "intellihr",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../intellihr/",
+  "Actions": [
+    {
+      "OperationId": "CreateanewBusinessUnit",
+      "Name": "Create a new Business Unit",
+      "Description": "Returns the created Business Unit.",
+      "Anchor": "#create-a-new-business-unit",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateanewJob",
+      "Name": "Create a new Job",
+      "Description": "Create a new Job record with the provided data.",
+      "Anchor": "#create-a-new-job",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateaPerson",
+      "Name": "Create a new person record",
+      "Description": "Create a person",
+      "Anchor": "#create-a-new-person-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateaTraining",
+      "Name": "Create a Training record",
+      "Description": "Create a new Training record",
+      "Anchor": "#create-a-training-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWebhook",
+      "Name": "Create a webhook and subscribe to a type of event in your tenant",
+      "Description": "Create a webhook and subscribe to a type of event in your tenant",
+      "Anchor": "#create-a-webhook-and-subscribe-to-a-type-of-event-in-your-tenant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteaBusinessUnitbyID",
+      "Name": "Delete a Business Unit by ID",
+      "Description": "Delete a Business Unit by the given ID.",
+      "Anchor": "#delete-a-business-unit-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteaTrainingbyID",
+      "Name": "Delete a Training record by ID",
+      "Description": "Deletes the provided Training record.",
+      "Anchor": "#delete-a-training-record-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteaWebhookbyID",
+      "Name": "Delete a Webhook by ID",
+      "Description": "Deletes the provided webhook.",
+      "Anchor": "#delete-a-webhook-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EndJob",
+      "Name": "Set the end date for a job",
+      "Description": "Set the end date for a job",
+      "Anchor": "#set-the-end-date-for-a-job",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaBusinessEntitybyID",
+      "Name": "Find a Business Entity by ID",
+      "Description": "Returns a single Business Entity by its identifier.",
+      "Anchor": "#find-a-business-entity-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaBusinessUnitbyID",
+      "Name": "Find a Business Unit by ID",
+      "Description": "Returns a single Business Unit.",
+      "Anchor": "#find-a-business-unit-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaCustomFieldDefinitionbyID",
+      "Name": "Find a Custom Field Definition by ID",
+      "Description": "Returns a single Custom Field Definition.",
+      "Anchor": "#find-a-custom-field-definition-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaDefaultRemunerationComponentbyID",
+      "Name": "Find a Default Remuneration Component by ID",
+      "Description": "Returns a single default remuneration component.",
+      "Anchor": "#find-a-default-remuneration-component-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaJobbyID",
+      "Name": "Find a Job by ID",
+      "Description": "Get a single Job record by UUIDv4 identifier.",
+      "Anchor": "#find-a-job-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaLocationbyID",
+      "Name": "Find a Location by ID",
+      "Description": "Returns a single location.",
+      "Anchor": "#find-a-location-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindanEmploymentConditionbyID",
+      "Name": "Find an Employment Condition by ID",
+      "Description": "Returns a single employment condition.",
+      "Anchor": "#find-an-employment-condition-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaPayGradebyID",
+      "Name": "Find a Pay Grade by ID",
+      "Description": "Returns a single pay grade.",
+      "Anchor": "#find-a-pay-grade-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaPersonbyID",
+      "Name": "Find a Person by ID",
+      "Description": "Get a single Person record by UUIDv4 identifier.",
+      "Anchor": "#find-a-person-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaRecruitmentSourcebyID",
+      "Name": "Find a Recruitment Source by ID",
+      "Description": "Returns a single recruitment source.",
+      "Anchor": "#find-a-recruitment-source-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaTrainingbyID",
+      "Name": "Find a Training record by ID",
+      "Description": "Returns a single Training record.",
+      "Anchor": "#find-a-training-record-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaTrainingProviderbyID",
+      "Name": "Find a Training Provider by ID",
+      "Description": "Returns a single Training Provider.",
+      "Anchor": "#find-a-training-provider-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaTrainingTypebyID",
+      "Name": "Find a Training Type by ID",
+      "Description": "Returns a single Training Type.",
+      "Anchor": "#find-a-training-type-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaWebhookbyID",
+      "Name": "Find a Webhook by ID",
+      "Description": "Returns a single webhook.",
+      "Anchor": "#find-a-webhook-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaWebhookEventbyID",
+      "Name": "Find a Webhook Event by ID",
+      "Description": "Returns a single Webhook Event.",
+      "Anchor": "#find-a-webhook-event-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaWorkClassbyID",
+      "Name": "Find a Work Class by ID",
+      "Description": "Returns a single work class.",
+      "Anchor": "#find-a-work-class-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaWorkRightbyID",
+      "Name": "Find a Work Right by ID",
+      "Description": "Returns a single work right.",
+      "Anchor": "#find-a-work-right-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindaWorkTypebyID",
+      "Name": "Find a Work Type by ID",
+      "Description": "Returns a single work type.",
+      "Anchor": "#find-a-work-type-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListallBusinessEntities",
+      "Name": "List all Business Entities",
+      "Description": "Returns a list of all Business Entities.",
+      "Anchor": "#list-all-business-entities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListallBusinessUnits",
+      "Name": "List all Business Units",
+      "Description": "Returns a list of all Business Units recorded in the system.",
+      "Anchor": "#list-all-business-units",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListallCustomFieldDefinitions",
+      "Name": "List all Custom Field Definitions",
+      "Description": "Returns a list of all Custom Field Definitions.",
+      "Anchor": "#list-all-custom-field-definitions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListallDefaultRemunerationComponents",
+      "Name": "List all Default Remuneration Components",
+      "Description": "Returns a list of all Default Remuneration Components recorded in the system.",
+      "Anchor": "#list-all-default-remuneration-components",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Listallemploymentconditions",
+      "Name": "List all employment conditions",
+      "Description": "Returns a list of all employment conditions.",
+      "Anchor": "#list-all-employment-conditions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListallJobs",
+      "Name": "List all Jobs",
+      "Description": "Returns a list of all Job entity records as at the current date.",
+      "Anchor": "#list-all-jobs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Listalllocations",
+      "Name": "List all locations",
+      "Description": "Returns a list of all locations.",
+      "Anchor": "#list-all-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Listallpaygrades",
+      "Name": "List all pay grades",
+      "Description": "Returns a list of all pay grades.",
+      "Anchor": "#list-all-pay-grades",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Listallpeople",
+      "Name": "List all people",
+      "Description": "Returns a list of all People as at the current date.",
+      "Anchor": "#list-all-people",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Listallrecruitmentsources",
+      "Name": "List all recruitment sources",
+      "Description": "Returns a list of all recruitment sources.",
+      "Anchor": "#list-all-recruitment-sources",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListallTrainingProviders",
+      "Name": "List all Training Providers",
+      "Description": "Returns a list of all Training Providers.",
+      "Anchor": "#list-all-training-providers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListallTrainings",
+      "Name": "List all Trainings",
+      "Description": "Returns a list of all Training records.",
+      "Anchor": "#list-all-trainings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListallTrainingTypes",
+      "Name": "List all Training Types",
+      "Description": "Returns a list of all Training Types.",
+      "Anchor": "#list-all-training-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Listallworkclasses",
+      "Name": "List all work classes",
+      "Description": "Returns a list of all Work Classes recorded in the system.",
+      "Anchor": "#list-all-work-classes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListallWorkRights",
+      "Name": "List all Work Rights",
+      "Description": "Returns a list of all Work Rights recorded in the system.",
+      "Anchor": "#list-all-work-rights",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListallWorkTypes",
+      "Name": "List all Work Types",
+      "Description": "Returns a list of all Work Types recorded in the system.",
+      "Anchor": "#list-all-work-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchanexistingJob",
+      "Name": "Patch an existing Job",
+      "Description": "Patch attributes of an existing Job record with the provided data.",
+      "Anchor": "#patch-an-existing-job",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PersonDocuments_POST",
+      "Name": "Create a presigned upload URL",
+      "Description": "Create a presigned upload URL",
+      "Anchor": "#create-a-presigned-upload-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PersonDocumentsById_PATCH",
+      "Name": "Update a document by id",
+      "Description": "Update a Document",
+      "Anchor": "#update-a-document-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateaBusinessUnitbyID",
+      "Name": "Update a Business Unit by ID",
+      "Description": "Returns the updated Business Unit.",
+      "Anchor": "#update-a-business-unit-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateAWebhook",
+      "Name": "UpdateAWebhook",
+      "Description": "Patch a Webhook",
+      "Anchor": "#updateawebhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatePersonByID",
+      "Name": "Update a Person by ID",
+      "Description": "Update a person",
+      "Anchor": "#update-a-person-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTrainingByID",
+      "Name": "Update a Training record by ID",
+      "Description": "Update a Training record",
+      "Anchor": "#update-a-training-record-by-id",
+      "IsDeprecated": false
+    }
+  ]
+}

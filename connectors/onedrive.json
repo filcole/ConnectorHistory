@@ -1,0 +1,265 @@
+{
+  "UniqueName": "onedrive",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../onedrive/",
+  "Actions": [
+    {
+      "OperationId": "AddFileTag",
+      "Name": "Add file tag",
+      "Description": "This operation adds a tag to a file.",
+      "Anchor": "#add-file-tag",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertFile",
+      "Name": "Convert file (Preview)",
+      "Description": "This operation converts a file to another format. The list of supported conversions can be found at https://aka.ms/onedriveconversions",
+      "Anchor": "#convert-file-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertFileByPath",
+      "Name": "Convert file using path (Preview)",
+      "Description": "This operation converts a file to another format using the path. The list of supported conversions can be found at https://aka.ms/onedriveconversions",
+      "Anchor": "#convert-file-using-path-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyDriveFile",
+      "Name": "Copy file",
+      "Description": "This operation copies a file within OneDrive.",
+      "Anchor": "#copy-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyDriveFileByPath",
+      "Name": "Copy file using path",
+      "Description": "This operation copies a file within OneDrive by path.",
+      "Anchor": "#copy-file-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyFile",
+      "Name": "Upload file from URL",
+      "Description": "This operation uploads a file from a URL to OneDrive.",
+      "Anchor": "#upload-file-from-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFile",
+      "Name": "Create file",
+      "Description": "This operation creates a file.",
+      "Anchor": "#create-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateShareLink",
+      "Name": "Create share link [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create share link instead.\nThis operation creates a share link for a file.",
+      "Anchor": "#create-share-link-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateShareLinkByPath",
+      "Name": "Create share link by path [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create share link by path instead.\nThis operation creates a share link for a file using the path.",
+      "Anchor": "#create-share-link-by-path-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateShareLinkByPathV2",
+      "Name": "Create share link by path",
+      "Description": "This operation creates a share link for a file using the path.",
+      "Anchor": "#create-share-link-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateShareLinkV2",
+      "Name": "Create share link",
+      "Description": "This operation creates a share link for a file.",
+      "Anchor": "#create-share-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFile",
+      "Name": "Delete file",
+      "Description": "This operation deletes a file.",
+      "Anchor": "#delete-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractFolderV2",
+      "Name": "Extract archive to folder",
+      "Description": "This operation extracts an archive file into a folder (example: .zip). Maximum archive size is 50 MB and 100 files inside.",
+      "Anchor": "#extract-archive-to-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindFiles",
+      "Name": "Find files in folder",
+      "Description": "This operation finds files within a folder using search or name pattern match.",
+      "Anchor": "#find-files-in-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindFilesByPath",
+      "Name": "Find files in folder by path",
+      "Description": "This operation finds files within a folder by path using search or name pattern match.",
+      "Anchor": "#find-files-in-folder-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContent",
+      "Name": "Get file content",
+      "Description": "This operation gets the content of a file.",
+      "Anchor": "#get-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContentByPath",
+      "Name": "Get file content using path",
+      "Description": "This operation gets the content of a file using the path.",
+      "Anchor": "#get-file-content-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadata",
+      "Name": "Get file metadata",
+      "Description": "This operation gets the metadata for a file.",
+      "Anchor": "#get-file-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadataByPath",
+      "Name": "Get file metadata using path",
+      "Description": "This operation gets the metadata of a file using the path.",
+      "Anchor": "#get-file-metadata-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileTags",
+      "Name": "Get file tags",
+      "Description": "This operation gets the tags of a file.",
+      "Anchor": "#get-file-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileThumbnail",
+      "Name": "Get file thumbnail",
+      "Description": "This operation gets the thumbnail of a file. The thumbnail will only be valid for 6 hours.",
+      "Anchor": "#get-file-thumbnail",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFolder",
+      "Name": "List files in folder [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List files in folder instead.\nThis operation gets the list of files and subfolders in a folder.",
+      "Anchor": "#list-files-in-folder-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListFolderV2",
+      "Name": "List files in folder",
+      "Description": "This operation gets the list of files and subfolders in a folder.",
+      "Anchor": "#list-files-in-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRootFolder",
+      "Name": "List files in root folder",
+      "Description": "This operation gets the list of files and subfolders in the root folder.",
+      "Anchor": "#list-files-in-root-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveFile",
+      "Name": "Move or rename a file",
+      "Description": "This operation moves or renames a file.",
+      "Anchor": "#move-or-rename-a-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveFileByPath",
+      "Name": "Move or rename a file using path",
+      "Description": "This operation moves or renames a file using the path.",
+      "Anchor": "#move-or-rename-a-file-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnDeletedFiles",
+      "Name": "When a file is deleted (properties only)",
+      "Description": "This operation triggers a flow when a file is deleted from a folder.",
+      "Anchor": "#when-a-file-is-deleted-(properties-only)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewFile",
+      "Name": "When a file is created [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a file is created instead.\nThis operation triggers a flow when a new file is created in a folder. Files larger than 50 MB will be skipped and not returned by this trigger. Files moved within OneDrive are not considered new files.",
+      "Anchor": "#when-a-file-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewFiles",
+      "Name": "When a file is created (properties only) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a file is created (properties only) instead.\nThis operation triggers a flow when a new file is created in a folder. Files moved within OneDrive are not considered new files.",
+      "Anchor": "#when-a-file-is-created-(properties-only)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewFilesV2",
+      "Name": "When a file is created (properties only)",
+      "Description": "This operation triggers a flow when a new file is created in a folder. Files moved within OneDrive are not considered new files.",
+      "Anchor": "#when-a-file-is-created-(properties-only)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewFileV2",
+      "Name": "When a file is created",
+      "Description": "This operation triggers a flow when a new file is created in a folder. Files larger than 50 MB will be skipped and not returned by this trigger. Files moved within OneDrive are not considered new files.",
+      "Anchor": "#when-a-file-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedFile",
+      "Name": "When a file is modified [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a file is modified instead.\nThis operation triggers a flow when a file is modified in a folder. Files larger than 50 MB will be skipped and not returned by this trigger.",
+      "Anchor": "#when-a-file-is-modified-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnUpdatedFiles",
+      "Name": "When a file is modified (properties only) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a file is modified (properties only) instead.\nThis operation triggers a flow when a file is modified in a folder.",
+      "Anchor": "#when-a-file-is-modified-(properties-only)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnUpdatedFilesV2",
+      "Name": "When a file is modified (properties only)",
+      "Description": "This operation triggers a flow when a file is modified in a folder.",
+      "Anchor": "#when-a-file-is-modified-(properties-only)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedFileV2",
+      "Name": "When a file is modified",
+      "Description": "This operation triggers a flow when a file is modified in a folder. Files larger than 50 MB will be skipped and not returned by this trigger.",
+      "Anchor": "#when-a-file-is-modified",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveFileTag",
+      "Name": "Remove file tag",
+      "Description": "This operation removes a tag from a file.",
+      "Anchor": "#remove-file-tag",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFile",
+      "Name": "Update file",
+      "Description": "This operation updates a file.",
+      "Anchor": "#update-file",
+      "IsDeprecated": false
+    }
+  ]
+}

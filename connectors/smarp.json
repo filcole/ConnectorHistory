@@ -1,0 +1,20 @@
+{
+  "UniqueName": "smarp",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../smarp/",
+  "Actions": [
+    {
+      "OperationId": "SmarpCreatePost",
+      "Name": "Create Post",
+      "Description": "Create a post when an item is created for your list",
+      "Anchor": "#create-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SmarpRetrieveChannelList",
+      "Name": "Retrieve Channel List",
+      "Description": "Retrieve channel list for creating a new post",
+      "Anchor": "#retrieve-channel-list",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "UniqueName": "acumatica",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../acumatica/",
+  "Actions": [
+    {
+      "OperationId": "CreatesOrUpdatesAnExistingCase",
+      "Name": "I want to create or update an existing Case",
+      "Description": "I want to create or update an existing Case",
+      "Anchor": "#i-want-to-create-or-update-an-existing-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatesOrUpdatesAnExistingCustomer",
+      "Name": "I want to create or update an existing Customer",
+      "Description": "I want to create or update an existing Customer",
+      "Anchor": "#i-want-to-create-or-update-an-existing-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatesOrUpdatesAnExistingOpportunity",
+      "Name": "I want to create or update an existing Opportunity",
+      "Description": "I want to create or update an existing Opportunity",
+      "Anchor": "#i-want-to-create-or-update-an-existing-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeletesCaseUsingCaseid",
+      "Name": "I want to delete Case using CaseID",
+      "Description": "I want to delete Case using CaseID",
+      "Anchor": "#i-want-to-delete-case-using-caseid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeletesCustomerUsingCustomerid",
+      "Name": "I want to delete Customer using CustomerID",
+      "Description": "I want to delete Customer using CustomerID",
+      "Anchor": "#i-want-to-delete-customer-using-customerid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeletesOpportunityUsingOpportunityid",
+      "Name": "I want to delete Opportunity using OpportunityID",
+      "Description": "I want to delete Opportunity using OpportunityID",
+      "Anchor": "#i-want-to-delete-opportunity-using-opportunityid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrievesCaseUsingCaseid",
+      "Name": "I want to retrieve Case information using CaseID",
+      "Description": "I want to retrieve Case information using CaseID",
+      "Anchor": "#i-want-to-retrieve-case-information-using-caseid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrievesCustomerUsingCustomerid",
+      "Name": "I want to retrieve Customer information using CustomerID",
+      "Description": "I want to retrieve Customer information using CustomerID",
+      "Anchor": "#i-want-to-retrieve-customer-information-using-customerid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrievesListOfCasesThatSatisfyTheSpecifiedConditions",
+      "Name": "I want to retrieve list of Cases that satisfy specified conditions",
+      "Description": "I want to retrieve list of Cases that satisfy specified conditions",
+      "Anchor": "#i-want-to-retrieve-list-of-cases-that-satisfy-specified-conditions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrievesListOfCustomersThatSatisfyTheSpecifiedConditions",
+      "Name": "I want to retrieve list of Customers that satisfy specified conditions",
+      "Description": "I want to retrieve list of Customers that satisfy specified conditions",
+      "Anchor": "#i-want-to-retrieve-list-of-customers-that-satisfy-specified-conditions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrievesListOfOpportunitiesThatSatisfyTheSpecifiedConditions",
+      "Name": "I want to retrieve list of Opportunities that satisfy specified conditions",
+      "Description": "I want to retrieve list of Opportunities that satisfy specified conditions",
+      "Anchor": "#i-want-to-retrieve-list-of-opportunities-that-satisfy-specified-conditions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrievesOpportunityUsingOpportunityid",
+      "Name": "I want to retrieve Opportunity information using OpportunityID",
+      "Description": "I want to retrieve Opportunity information using OpportunityID",
+      "Anchor": "#i-want-to-retrieve-opportunity-information-using-opportunityid",
+      "IsDeprecated": false
+    }
+  ]
+}

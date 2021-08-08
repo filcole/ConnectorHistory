@@ -1,0 +1,146 @@
+{
+  "UniqueName": "meetingroommap",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../meetingroommap/",
+  "Actions": [
+    {
+      "OperationId": "GetCategories",
+      "Name": "GetCategories",
+      "Description": "Get custom categories",
+      "Anchor": "#getcategories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCustomLocationImage",
+      "Name": "Get image for location",
+      "Description": "Get image for specific custom location",
+      "Anchor": "#get-image-for-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCustomLocations",
+      "Name": "Get all custom locations",
+      "Description": "Get all custom locations",
+      "Anchor": "#get-all-custom-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCustomLocationsByImageName",
+      "Name": "Get locations by image",
+      "Description": "Get all custom locations for a given image",
+      "Anchor": "#get-locations-by-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMeetingRoomDetails",
+      "Name": "Get meetingroom details",
+      "Description": "Get meetingroom details",
+      "Anchor": "#get-meetingroom-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMeetingRoomImage",
+      "Name": "Get image for meeting room",
+      "Description": "Get image for a specific meeting room",
+      "Anchor": "#get-image-for-meeting-room",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOfficeLocationImage",
+      "Name": "Get image of office location",
+      "Description": "Get image of specific office location",
+      "Anchor": "#get-image-of-office-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOfficeLocations",
+      "Name": "Get all office locations",
+      "Description": "Get all office locations",
+      "Anchor": "#get-all-office-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOfficeLocationsByImage",
+      "Name": "Get office locations on image",
+      "Description": "Get all office locations mapped to a specific image",
+      "Anchor": "#get-office-locations-on-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRooms",
+      "Name": "Get all rooms",
+      "Description": "Get all rooms (defined in Azure AD as meeting rooms)",
+      "Anchor": "#get-all-rooms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRoomsByImageName",
+      "Name": "Get all meeting rooms by image",
+      "Description": "Get all meeting rooms mapped to a specific image",
+      "Anchor": "#get-all-meeting-rooms-by-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRoomWithPersonsDetails",
+      "Name": "Get office location details",
+      "Description": "Get office location details including list of people for that office location",
+      "Anchor": "#get-office-location-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Images",
+      "Name": "Get all images",
+      "Description": "Get list of all floorplans/images",
+      "Anchor": "#get-all-images",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LocationDetails",
+      "Name": "Get location by id",
+      "Description": "Get location details including image url by the location id",
+      "Anchor": "#get-location-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NextMeetings",
+      "Name": "Get next meetings",
+      "Description": "Get the next meetings for the current user",
+      "Anchor": "#get-next-meetings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RoomLists",
+      "Name": "Get meeting rooms lists",
+      "Description": "Get meeting rooms lists as defined in Azure AD",
+      "Anchor": "#get-meeting-rooms-lists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RoomsByListAddress",
+      "Name": "Get meeting rooms by list",
+      "Description": "Get all meeting rooms from specific list name",
+      "Anchor": "#get-meeting-rooms-by-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchCoworkers",
+      "Name": "Search coworker",
+      "Description": "Search coworker by name/email",
+      "Anchor": "#search-coworker",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchLocations",
+      "Name": "Search location by name",
+      "Description": "Search custom locations by name",
+      "Anchor": "#search-location-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchMeetingRooms",
+      "Name": "Search for meeting room",
+      "Description": "Get rooms by name search (from Azure AD meeting rooms)",
+      "Anchor": "#search-for-meeting-room",
+      "IsDeprecated": false
+    }
+  ]
+}

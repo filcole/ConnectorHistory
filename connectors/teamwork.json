@@ -1,0 +1,104 @@
+{
+  "UniqueName": "teamwork",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../teamwork/",
+  "Actions": [
+    {
+      "OperationId": "CreateProject",
+      "Name": "Create project",
+      "Description": "This operation is used to create a new Teamwork project.",
+      "Anchor": "#create-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create task",
+      "Description": "This operation is used to create a new task.",
+      "Anchor": "#create-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUser",
+      "Name": "Create user",
+      "Description": "This operation is used to create a new user.",
+      "Anchor": "#create-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTask",
+      "Name": "Delete task",
+      "Description": "This operation is used to delete a task.",
+      "Anchor": "#delete-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProject",
+      "Name": "Get project",
+      "Description": "This operation returns all properties asosciated with a specific project, given its id.",
+      "Anchor": "#get-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTask",
+      "Name": "Get task",
+      "Description": "This operation returns all properties asosciated with a specific task, given its id.",
+      "Anchor": "#get-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user",
+      "Description": "This operation is used to get all details of a user.",
+      "Anchor": "#get-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProjects",
+      "Name": "List projects",
+      "Description": "This operation returns a list of all projects associated with your account.",
+      "Anchor": "#list-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTasks",
+      "Name": "List tasks",
+      "Description": "This operation is used to return a list of tasks for a given project.",
+      "Anchor": "#list-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListUsers",
+      "Name": "List users",
+      "Description": "This operation returns a list of all users asosciated with a specific project.",
+      "Anchor": "#list-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTask",
+      "Name": "Update task",
+      "Description": "This operation is used to update the properties of a specific task.",
+      "Anchor": "#update-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookCreateProject",
+      "Name": "When a project is created",
+      "Description": "This operation triggers when a new project is created.",
+      "Anchor": "#when-a-project-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookCreateTask",
+      "Name": "When a task is created",
+      "Description": "This operation triggers when a new task is created.",
+      "Anchor": "#when-a-task-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookCreateUser",
+      "Name": "When a user is created",
+      "Description": "This operation triggers when a new user is created.",
+      "Anchor": "#when-a-user-is-created",
+      "IsDeprecated": false
+    }
+  ]
+}

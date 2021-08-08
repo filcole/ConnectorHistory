@@ -1,0 +1,139 @@
+{
+  "UniqueName": "powerappsforappmakers",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../powerappsforappmakers/",
+  "Actions": [
+    {
+      "OperationId": "Edit-AppRoleAssignment",
+      "Name": "Edit App Role Assignment",
+      "Description": "Sets permissions to a PowerApp.",
+      "Anchor": "#edit-app-role-assignment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit-ConnectionRoleAssignment",
+      "Name": "Edit Connection Role Assignment",
+      "Description": "Sets permissions to a Connection.",
+      "Anchor": "#edit-connection-role-assignment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit-ConnectorRoleAssignment",
+      "Name": "Edit Connector Role Assignment",
+      "Description": "Sets permissions to a Connector.",
+      "Anchor": "#edit-connector-role-assignment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-App",
+      "Name": "Get App",
+      "Description": "Returns a PowerApp.",
+      "Anchor": "#get-app",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AppRoleAssignment",
+      "Name": "Get App Role Assignments",
+      "Description": "Returns a list of permissions for the specified PowerApp name.",
+      "Anchor": "#get-app-role-assignments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Apps",
+      "Name": "Get Apps",
+      "Description": "Returns a list of apps.",
+      "Anchor": "#get-apps",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AppVersions",
+      "Name": "Get App Versions",
+      "Description": "Returns a list of versions for a given PowerApp.",
+      "Anchor": "#get-app-versions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-ConnectionRoleAssignment",
+      "Name": "Get Connection Role Assignment",
+      "Description": "Returns a list of permissions to a Connection.",
+      "Anchor": "#get-connection-role-assignment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Connections",
+      "Name": "Get Connections",
+      "Description": "Returns a list of Connections.",
+      "Anchor": "#get-connections",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Connector",
+      "Name": "Get Connector",
+      "Description": "Returns a Connector.",
+      "Anchor": "#get-connector",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-ConnectorRoleAssignment",
+      "Name": "Get Connector Role Assignment",
+      "Description": "Returns a list of permissions for the specified Connector.",
+      "Anchor": "#get-connector-role-assignment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Connectors",
+      "Name": "Get Connectors",
+      "Description": "Returns a list of Connectors.",
+      "Anchor": "#get-connectors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Environments",
+      "Name": "Get Environments",
+      "Description": "Returns a list of Environments.",
+      "Anchor": "#get-environments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Publish-App",
+      "Name": "Publish App",
+      "Description": "Publishes the latest saved version of a PowerApp to all users with view access.",
+      "Anchor": "#publish-app",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove-App",
+      "Name": "Remove App",
+      "Description": "Deletes a PowerApp.",
+      "Anchor": "#remove-app",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove-Connection",
+      "Name": "Remove Connection",
+      "Description": "Deletes a Connection.",
+      "Anchor": "#remove-connection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove-Connector",
+      "Name": "Remove Connector",
+      "Description": "Deletes a Connector.",
+      "Anchor": "#remove-connector",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Restore-AppVersion",
+      "Name": "Restore App Version",
+      "Description": "Restores the specified App Version as the current version.",
+      "Anchor": "#restore-app-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Set-AppDisplayName",
+      "Name": "Set App Display Name",
+      "Description": "Updates the display name of a PowerApp.",
+      "Anchor": "#set-app-display-name",
+      "IsDeprecated": false
+    }
+  ]
+}

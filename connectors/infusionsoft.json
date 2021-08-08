@@ -1,0 +1,34 @@
+{
+  "UniqueName": "infusionsoft",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../infusionsoft/",
+  "Actions": [
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create a task",
+      "Description": "Create a new task.",
+      "Anchor": "#create-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewOrder",
+      "Name": "When there is a new order",
+      "Description": "Trigger an action when there is a new order.",
+      "Anchor": "#when-there-is-a-new-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewTask",
+      "Name": "When a new task is created",
+      "Description": "Trigger a flow on a new task.",
+      "Anchor": "#when-a-new-task-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTask",
+      "Name": "Update a task",
+      "Description": "Update an existing task.",
+      "Anchor": "#update-a-task",
+      "IsDeprecated": false
+    }
+  ]
+}

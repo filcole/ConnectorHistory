@@ -1,0 +1,13 @@
+{
+  "UniqueName": "cioplenu",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cioplenu/",
+  "Actions": [
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create task",
+      "Description": "Create a new task on cioplenu",
+      "Anchor": "#create-task",
+      "IsDeprecated": false
+    }
+  ]
+}

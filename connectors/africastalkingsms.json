@@ -1,0 +1,41 @@
+{
+  "UniqueName": "africastalkingsms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../africastalkingsms/",
+  "Actions": [
+    {
+      "OperationId": "BulkSMSOptOutNotification",
+      "Name": "When a number opts out of receiving your bulk messages",
+      "Description": "Triggered whenever a user opts out of receiving messages from your alphanumeric sender ID",
+      "Anchor": "#when-a-number-opts-out-of-receiving-your-bulk-messages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DlrNotification",
+      "Name": "When you receive a Delivery Report for a sent message",
+      "Description": "Triggered when you receive a Delivery Report for a message initially sent",
+      "Anchor": "#when-you-receive-a-delivery-report-for-a-sent-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FetchInbox",
+      "Name": "Fetch inbox",
+      "Description": "Fetch messages in your inbox.",
+      "Anchor": "#fetch-inbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InboxNotification",
+      "Name": "When you receive a message in your inbox",
+      "Description": "Triggered whenever a message is sent to any of your registered shortcodes",
+      "Anchor": "#when-you-receive-a-message-in-your-inbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSms",
+      "Name": "Send SMS",
+      "Description": "Send an SMS to multiple numbers.",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    }
+  ]
+}

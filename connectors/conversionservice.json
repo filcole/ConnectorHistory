@@ -1,0 +1,13 @@
+{
+  "UniqueName": "conversionservice",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../conversionservice/",
+  "Actions": [
+    {
+      "OperationId": "HtmlToText",
+      "Name": "Html to text",
+      "Description": "Converts an HTML document to plain text.",
+      "Anchor": "#html-to-text",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "UniqueName": "secplugscan",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../secplugscan/",
+  "Actions": [
+    {
+      "OperationId": "emailscan",
+      "Name": "Scan Emails using SecPlug Scan",
+      "Description": "Scan Emails using SecPlug Scan",
+      "Anchor": "#scan-emails-using-secplug-scan",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "filescan",
+      "Name": "Scan files using SecPlug Scan",
+      "Description": "Scan files using SecPlug Scan",
+      "Anchor": "#scan-files-using-secplug-scan",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "UniqueName": "azureappservice",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azureappservice/",
+  "Actions": [
+    {
+      "OperationId": "WebApp_Restart",
+      "Name": "Restart web app",
+      "Description": "Restarts a web app.",
+      "Anchor": "#restart-web-app",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebApp_Start",
+      "Name": "Start web app",
+      "Description": "Starts a web app.",
+      "Anchor": "#start-web-app",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebApp_Stop",
+      "Name": "Stop web app",
+      "Description": "Stops a web app.",
+      "Anchor": "#stop-web-app",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "UniqueName": "freshservice",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../freshservice/",
+  "Actions": [
+    {
+      "OperationId": "AddNote",
+      "Name": "Add a note to a ticket",
+      "Description": "Add a private or public note to a ticket.",
+      "Anchor": "#add-a-note-to-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTicket",
+      "Name": "Create a ticket",
+      "Description": "Create a ticket.",
+      "Anchor": "#create-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTicketCreated",
+      "Name": "When a ticket is created",
+      "Description": "Triggers when a new ticket is created.",
+      "Anchor": "#when-a-ticket-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTicket",
+      "Name": "Update a ticket",
+      "Description": "Update a ticket (only specified values will be updated).",
+      "Anchor": "#update-a-ticket",
+      "IsDeprecated": false
+    }
+  ]
+}

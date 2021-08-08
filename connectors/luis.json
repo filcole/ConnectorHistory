@@ -1,0 +1,20 @@
+{
+  "UniqueName": "luis",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../luis/",
+  "Actions": [
+    {
+      "OperationId": "GetPredictions",
+      "Name": "Get prediction",
+      "Description": "Given some input text, this operations returns a prediction based on a pre-trained model. The prediction object returned can also be used as input for other LUIS actions.",
+      "Anchor": "#get-prediction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTopScoringMatchingEntity",
+      "Name": "Get entity by type",
+      "Description": "For a given entity type, the operation returns the best matching entity model from the LUIS prediction object.",
+      "Anchor": "#get-entity-by-type",
+      "IsDeprecated": false
+    }
+  ]
+}

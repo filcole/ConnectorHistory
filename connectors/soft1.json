@@ -1,0 +1,300 @@
+{
+  "UniqueName": "soft1",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../soft1/",
+  "Actions": [
+    {
+      "OperationId": "GetCFNCUSDOC",
+      "Name": "Get Collections Document",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a Collections Object.",
+      "Anchor": "#get-collections-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCfnsupdoc",
+      "Name": "Get Payments Document",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a Payment Object.",
+      "Anchor": "#get-payments-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCheque",
+      "Name": "Get Cheque",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of an Cheque Object",
+      "Anchor": "#get-cheque",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContact",
+      "Name": "Get Contact",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a contact object",
+      "Anchor": "#get-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCustomer",
+      "Name": "Get Customer",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a Customer Object.",
+      "Anchor": "#get-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDraftEntry",
+      "Name": "Get Draft entry",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a Draft entry object",
+      "Anchor": "#get-draft-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetExpense",
+      "Name": "Get Expenses",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of an Expense Object.",
+      "Anchor": "#get-expenses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetExpensesDoc",
+      "Name": "Get Expenses Document",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of an Expenses Object.",
+      "Anchor": "#get-expenses-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItedoc",
+      "Name": "Get Stock Document",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a Stock Document Object.",
+      "Anchor": "#get-stock-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get Item",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of an Item Object.",
+      "Anchor": "#get-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMeeting",
+      "Name": "Get Meeting",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a Meeting Object.",
+      "Anchor": "#get-meeting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProject",
+      "Name": "Get Project",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a project object",
+      "Anchor": "#get-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPurdoc",
+      "Name": "Get Purchases Document",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a Purchase Object.",
+      "Anchor": "#get-purchases-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSaldoc",
+      "Name": "Get Sales Document",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a Sales Object.",
+      "Anchor": "#get-sales-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetService",
+      "Name": "Get Services",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of an Service Object.",
+      "Anchor": "#get-services",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSOEMAIL",
+      "Name": "Get Email",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a Email Object",
+      "Anchor": "#get-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSOTASK",
+      "Name": "Get Task",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a Task Object.",
+      "Anchor": "#get-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSupplier",
+      "Name": "Get Supplier",
+      "Description": "Returns all data (or the selected ones from LOCATEINFO) of a record of a Supplier Object.",
+      "Anchor": "#get-supplier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSystemParams",
+      "Name": "Get System parameters",
+      "Description": "Returns parameters of the installation",
+      "Anchor": "#get-system-parameters",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Microservice",
+      "Name": "Microservice",
+      "Description": "Makes a call to a Soft1 microservice. Insert request's body and web service's endpoint.",
+      "Anchor": "#microservice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetCFNCUSDOC",
+      "Name": "Insert or Modify Collections Document",
+      "Description": "Insert or Modify the data of a Collections document Object identified by a KEY (Document ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-collections-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetCfnsupdoc",
+      "Name": "Insert or Modify Payments Document",
+      "Description": "Insert or Modify the data of a Payments document Object identified by a KEY (Document ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-payments-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetCheque",
+      "Name": "Insert or Modify Cheque",
+      "Description": "Insert or Modify the data of a Cheque Object identified by a KEY (Cheque ID) . If the KEY is empty or missing a record is inserted.he data of a record in an Cheque Object identified by a KEY. If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-cheque",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetContact",
+      "Name": "Insert or Modify Contact",
+      "Description": "Insert or Modify the data of a Contact Object identified by a KEY (Contact ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetCustomer",
+      "Name": "Insert or Modify Customer",
+      "Description": "Insert or Modify the data of a Customer Object identified by a KEY (Customer ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetDraftEntry",
+      "Name": "Insert or Modify Draft entry",
+      "Description": "Insert or Modify the data of a Draft entry Object identified by a KEY (Draft entry ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-draft-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetExpense",
+      "Name": "Insert or Modify Expenses",
+      "Description": "Insert or Modify the data of an Expense Object identified by a KEY (Expense ID) . If the KEY is empty or missing a record is inserted.he data of a record in an Expense Object identified by a KEY. If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-expenses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetExpensesDoc",
+      "Name": "Insert or Modify Expenses Document",
+      "Description": "Insert or Modify the data of an Expenses document object identified by a KEY (Document ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-expenses-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetItedoc",
+      "Name": "Insert or Modify Stock Document",
+      "Description": "Insert or Modify the data of a Stock Document record, identified by a KEY. If the KEY is empty or missing, a new record will be created",
+      "Anchor": "#insert-or-modify-stock-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetItem",
+      "Name": "Insert or Modify Item",
+      "Description": "Insert or Modify the data of an Item Object identified by a KEY (Item ID) . If the KEY is empty or missing a record is inserted.he data of a record in an Item Object identified by a KEY. If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetMeeting",
+      "Name": "Insert or Modify Meeting",
+      "Description": "Insert or Modify the data of a Meeting Object identified by a KEY (Meeting ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-meeting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetProject",
+      "Name": "Insert or Modify Project",
+      "Description": "Insert or Modify the data of a Project Object identified by a KEY (Project ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetPurdoc",
+      "Name": "Insert or Modify Purchases Document",
+      "Description": "Insert or Modify the data of a Purchase document Object identified by a KEY (Document ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-purchases-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetSaldoc",
+      "Name": "Insert or Modify Sales Document",
+      "Description": "Insert or Modify the data of a Sales Document record, identified by a KEY. If the KEY is empty or missing, a new record will be created",
+      "Anchor": "#insert-or-modify-sales-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetService",
+      "Name": "Insert or Modify Service",
+      "Description": "Insert or Modify the data of a Service Object identified by a KEY (Service ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-service",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetSOEMAIL",
+      "Name": "Insert or Modify Email",
+      "Description": "Insert or Modify the data of an Email Object identified by a KEY (Email ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetSOTASK",
+      "Name": "Insert or Modify Task",
+      "Description": "Insert or Modify the data of a Task Object identified by a KEY (Task ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetSupplier",
+      "Name": "Insert or Modify Supplier",
+      "Description": "Insert or Modify the data of a Supplier Object identified by a KEY (Supplier ID) . If the KEY is empty or missing a record is inserted.",
+      "Anchor": "#insert-or-modify-supplier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhook",
+      "Name": "When a record is created or modified",
+      "Description": "This operation triggers when there are newly created or modified records of the selected object",
+      "Anchor": "#when-a-record-is-created-or-modified",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookOnDelete",
+      "Name": "When a record is deleted",
+      "Description": "This operation triggers when a record of the selected object is deleted",
+      "Anchor": "#when-a-record-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookOnInsert",
+      "Name": "When a record is created",
+      "Description": "This operation triggers when there are newly created records of the selected object",
+      "Anchor": "#when-a-record-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookOnUpdate",
+      "Name": "When a record is modified",
+      "Description": "This operation triggers when there are modified records of the selected object",
+      "Anchor": "#when-a-record-is-modified",
+      "IsDeprecated": false
+    }
+  ]
+}

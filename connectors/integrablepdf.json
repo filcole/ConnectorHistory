@@ -1,0 +1,62 @@
+{
+  "UniqueName": "integrablepdf",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../integrablepdf/",
+  "Actions": [
+    {
+      "OperationId": "LockPdf",
+      "Name": "Lock PDF",
+      "Description": "Lock and set restrictions of a PDF document. https://integrable.net/microsoft-flow/lock-pdf",
+      "Anchor": "#lock-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergePdf",
+      "Name": "Merge PDF",
+      "Description": "Combine multiple PDF documents into a single PDF document. https://integrable.net/microsoft-flow/merge-pdf",
+      "Anchor": "#merge-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PasswordProtectPdf",
+      "Name": "Password Protect PDF",
+      "Description": "Protect a PDF document with a password. https://integrable.net/microsoft-flow/password-protect-pdf",
+      "Anchor": "#password-protect-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitPdf",
+      "Name": "Split PDF",
+      "Description": "Extract one or more pages from a PDF document. https://integrable.net/microsoft-flow/split-pdf",
+      "Anchor": "#split-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnlockPdf",
+      "Name": "Unlock PDF",
+      "Description": "Unlock and remove restrictions of a PDF document. https://integrable.net/microsoft-flow/unlock-pdf",
+      "Anchor": "#unlock-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WatermarkPdfBackground",
+      "Name": "Watermark PDF (Background)",
+      "Description": "Add a background watermark to the PDF document. https://integrable.net/microsoft-flow/watermark-pdf",
+      "Anchor": "#watermark-pdf-(background)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WatermarkPdfCustom",
+      "Name": "Watermark PDF (Custom)",
+      "Description": "Add a custom watermark to the PDF document. https://integrable.net/microsoft-flow/watermark-pdf-custom",
+      "Anchor": "#watermark-pdf-(custom)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WatermarkPdfOverlay",
+      "Name": "Watermark PDF (Overlay)",
+      "Description": "Add an overlay watermark to the PDF document. https://integrable.net/microsoft-flow/watermark-pdf",
+      "Anchor": "#watermark-pdf-(overlay)",
+      "IsDeprecated": false
+    }
+  ]
+}

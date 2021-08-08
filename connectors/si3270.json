@@ -1,0 +1,13 @@
+{
+  "UniqueName": "si3270",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../si3270/",
+  "Actions": [
+    {
+      "OperationId": "ExecuteMethod",
+      "Name": "Runs a mainframe program over a TN3270 connection",
+      "Description": "Access a definition file to call a program on a mainframe via TN3270. The definition file must be created by a separate Microsoft design tool and uploaded to an Azure Integration Account.",
+      "Anchor": "#runs-a-mainframe-program-over-a-tn3270-connection",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UniqueName": "surveymonkey",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../surveymonkey/",
+  "Actions": [
+    {
+      "OperationId": "GetSurvey",
+      "Name": "Get a survey",
+      "Description": "Get details of a specific survey.",
+      "Anchor": "#get-a-survey",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewResponseAddedCollector",
+      "Name": "When a new collector response is added",
+      "Description": "Triggers a new flow when a response is added (paid account only).",
+      "Anchor": "#when-a-new-collector-response-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewResponseAddedSurvey",
+      "Name": "When a new survey response is added",
+      "Description": "Triggers a new flow when a survey response is added (paid account only).",
+      "Anchor": "#when-a-new-survey-response-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnSurveyCollectorCreated",
+      "Name": "When a new collector is created",
+      "Description": "Triggers a new flow when a collector is created.",
+      "Anchor": "#when-a-new-collector-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnSurveyCreated",
+      "Name": "When a new survey is created",
+      "Description": "Triggers a new flow when a survey is created.",
+      "Anchor": "#when-a-new-survey-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "Schedule an existing invite message",
+      "Description": "Send or schedule to send an existing message to all message recipients.",
+      "Anchor": "#schedule-an-existing-invite-message",
+      "IsDeprecated": false
+    }
+  ]
+}

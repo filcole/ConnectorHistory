@@ -1,0 +1,153 @@
+{
+  "UniqueName": "sql",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sql/",
+  "Actions": [
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete row [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Delete row (V2) instead.\nThis operation deletes a row from a table.",
+      "Anchor": "#delete-row-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DeleteItem_V2",
+      "Name": "Delete row (V2)",
+      "Description": "This operation deletes a row from a table.",
+      "Anchor": "#delete-row-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecutePassThroughNativeQuery",
+      "Name": "Execute a SQL query [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Execute a SQL query (V2) instead.\nExecute a SQL query",
+      "Anchor": "#execute-a-sql-query-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ExecutePassThroughNativeQuery_V2",
+      "Name": "Execute a SQL query (V2)",
+      "Description": "Execute a SQL query (V2)",
+      "Anchor": "#execute-a-sql-query-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteProcedure",
+      "Name": "Execute stored procedure [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Execute stored procedure (V2) instead.\nThis operation runs a stored procedure.",
+      "Anchor": "#execute-stored-procedure-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ExecuteProcedure_V2",
+      "Name": "Execute stored procedure (V2)",
+      "Description": "This operation runs a stored procedure.",
+      "Anchor": "#execute-stored-procedure-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get row [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get row (V2) instead.\nThis operation gets a row from a table.",
+      "Anchor": "#get-row-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetItem_V2",
+      "Name": "Get row (V2)",
+      "Description": "This operation gets a row from a table.",
+      "Anchor": "#get-row-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get rows [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get rows (V2) instead.\nThis operation gets rows from a table.",
+      "Anchor": "#get-rows-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetItems_V2",
+      "Name": "Get rows (V2)",
+      "Description": "This operation gets rows from a table.",
+      "Anchor": "#get-rows-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnNewItems",
+      "Name": "When an item is created [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When an item is created (V2) instead.\nTriggers a flow when an item is created in SQL",
+      "Anchor": "#when-an-item-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetOnNewItems_V2",
+      "Name": "When an item is created (V2)",
+      "Description": "Triggers a flow when an item is created in SQL",
+      "Anchor": "#when-an-item-is-created-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnUpdatedItems",
+      "Name": "When an item is modified [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When an item is modified (V2) instead.\nTriggers a flow when an item is modified/inserted in SQL",
+      "Anchor": "#when-an-item-is-modified-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetOnUpdatedItems_V2",
+      "Name": "When an item is modified (V2)",
+      "Description": "Triggers a flow when an item is modified/inserted in SQL",
+      "Anchor": "#when-an-item-is-modified-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get tables [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get tables (V2) instead.\nThis operation gets tables from a database.",
+      "Anchor": "#get-tables-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetTables_V2",
+      "Name": "Get tables (V2)",
+      "Description": "This operation gets tables from a database.",
+      "Anchor": "#get-tables-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update row [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update row (V2) instead.\nThis operation updates an existing row in a table.",
+      "Anchor": "#update-row-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PatchItem_V2",
+      "Name": "Update row (V2)",
+      "Description": "This operation updates an existing row in a table.",
+      "Anchor": "#update-row-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Insert row [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Insert row (V2) instead.\nThis operation inserts a new row into a table.",
+      "Anchor": "#insert-row-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PostItem_V2",
+      "Name": "Insert row (V2)",
+      "Description": "This operation inserts a new row into a table.",
+      "Anchor": "#insert-row-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SqlExecutePassThroughPowerQuery",
+      "Name": "Transform data using Power Query",
+      "Description": "Transform data using Power Query. Note: This operation does not work when connecting using SQL Azure AD.",
+      "Anchor": "#transform-data-using-power-query",
+      "IsDeprecated": false
+    }
+  ]
+}

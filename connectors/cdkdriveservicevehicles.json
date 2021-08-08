@@ -1,0 +1,34 @@
+{
+  "UniqueName": "cdkdriveservicevehicles",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cdkdriveservicevehicles/",
+  "Actions": [
+    {
+      "OperationId": "createVehicle",
+      "Name": "Create a vehicle",
+      "Description": "Create a vehicle",
+      "Anchor": "#create-a-vehicle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "queryVehicleById",
+      "Name": "Query a vehicle by identifier",
+      "Description": "Query a vehicle by identifier",
+      "Anchor": "#query-a-vehicle-by-identifier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "queryVehicles",
+      "Name": "Query vehicles",
+      "Description": "Query vehicles",
+      "Anchor": "#query-vehicles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "updateVehicle",
+      "Name": "Update a vehicle",
+      "Description": "Update a vehicle",
+      "Anchor": "#update-a-vehicle",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "UniqueName": "xooadb",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../xooadb/",
+  "Actions": [
+    {
+      "OperationId": "Del",
+      "Name": "Xooa DEL [DEPRECATED]",
+      "Description": "This action is used to perform a 'del' operation on the Xooa App. This operation invokes the del function in the Smart Contract to delete the key from the Blockchain. This operation generates a transaction in the blockchain and stores it in the ledger.",
+      "Anchor": "#xooa-del-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "Get",
+      "Name": "Xooa GET [DEPRECATED]",
+      "Description": "This action is used to perform a 'get' operation on the Xooa App. This operation invokes the get function in the Smart Contract to give the latest state from the Blockchain.",
+      "Anchor": "#xooa-get-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "Invoke",
+      "Name": "Invoke a function",
+      "Description": "Invoke a given custom smart contract function to write to the ledger.Such operations create transactions in the ledger.",
+      "Anchor": "#invoke-a-function",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Query",
+      "Name": "Perform a query function",
+      "Description": "Query the ledger using a given smart contract function. The query end-point is used to perform read operations. Such operations do not create transactions in the ledger.",
+      "Anchor": "#perform-a-query-function",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Set",
+      "Name": "Xooa SET [DEPRECATED]",
+      "Description": "This action is used to perform a 'set' operation on the Xooa App. This operation invokes the set function in the Smart Contract to store the key value pairs in the Blockchain. This operation generates a transaction in the blockchain and stores it in the ledger.",
+      "Anchor": "#xooa-set-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

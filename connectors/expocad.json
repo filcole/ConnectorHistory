@@ -1,0 +1,342 @@
+{
+  "UniqueName": "expocad",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../expocad/",
+  "Actions": [
+    {
+      "OperationId": "Booths_AddChildExhibitor",
+      "Name": "Add a child exhibitor to the specified booth",
+      "Description": "When adding a child exhibitor, the child exhibitor must already exist",
+      "Anchor": "#add-a-child-exhibitor-to-the-specified-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_ChangeBoothNumber",
+      "Name": "Change the number of the specified booth",
+      "Description": "Changes the number of the specified booth in the supplied event.",
+      "Anchor": "#change-the-number-of-the-specified-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_ClearBoothClass",
+      "Name": "Remove a single booth class from the specified booth",
+      "Description": "Removes a single booth class from the specified booth in the supplied event.",
+      "Anchor": "#remove-a-single-booth-class-from-the-specified-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_ClearBoothDisplayName",
+      "Name": "Reset the display on drawing override for the specified booth",
+      "Description": "Resets the display on drawing override for the specified booth.",
+      "Anchor": "#reset-the-display-on-drawing-override-for-the-specified-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_CombineBooths",
+      "Name": "Combine the specified booths into a new booth",
+      "Description": "Combines the specified booths into a new booth in the supplied event.",
+      "Anchor": "#combine-the-specified-booths-into-a-new-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_DeleteBooths",
+      "Name": "Delete the specified booths",
+      "Description": "Deletes the specified booths in the supplied event.",
+      "Anchor": "#delete-the-specified-booths",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_Get",
+      "Name": "Get Specific Booth",
+      "Description": "Returns the specified booth.",
+      "Anchor": "#get-specific-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_GetAllAvailableBooths",
+      "Name": "Get All Available Booths",
+      "Description": "Returns a collection of all available booths in the supplied event",
+      "Anchor": "#get-all-available-booths",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_GetAllBooths",
+      "Name": "Get All Booths",
+      "Description": "Returns an array of all booths in the supplied event.",
+      "Anchor": "#get-all-booths",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_GetAllRentedBooths",
+      "Name": "Get All Rented Booths",
+      "Description": "Returns a collection of all rented booths in the supplied event.",
+      "Anchor": "#get-all-rented-booths",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_HoldBooth",
+      "Name": "Holds the specified booth",
+      "Description": "EXPOCAD allows for a booth to be placed on hold to either an existing Exhibitor (by Id) or to a temporary Exhibitor (by Name). Choose one parameter or the other -  'ExhibitorId' or 'ExhibitorName'. If both paramerters are supplied, the hold will default to the Exhibitor ID.",
+      "Anchor": "#holds-the-specified-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_HoldToRent",
+      "Name": "Convert Held booth to Rented",
+      "Description": "Rents the specified held booth to the held exhibitor in the supplied event. This operation will fail if the booth is currently held to a temporary exhibitor.",
+      "Anchor": "#convert-held-booth-to-rented",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_RemoveChildExhibitor",
+      "Name": "Remove a child exhibitor from the specified booth",
+      "Description": "Removes a child exhibitor from the specified booth in the supplied event.",
+      "Anchor": "#remove-a-child-exhibitor-from-the-specified-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_RentBooth",
+      "Name": "Rent a Booth",
+      "Description": "Rents the specified booth in the supplied event.",
+      "Anchor": "#rent-a-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_RentToHold",
+      "Name": "Convert Rented booth to Hold",
+      "Description": "Converts the specified rented booth to a booth on hold to the same exhibitor in the supplied event.",
+      "Anchor": "#convert-rented-booth-to-hold",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_SetBoothClass",
+      "Name": "Apply a single booth class to the specified booth",
+      "Description": "Applys a single booth class to the specified booth in the supplied event.",
+      "Anchor": "#apply-a-single-booth-class-to-the-specified-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_SetBoothDisplayName",
+      "Name": "Override the display on drawing property for the specified booth",
+      "Description": "Overrides the display on drawing property for the specified booth.",
+      "Anchor": "#override-the-display-on-drawing-property-for-the-specified-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_UncombineBooth",
+      "Name": "Uncombine the specified booth",
+      "Description": "Uncombines the specified booth in the supplied event.",
+      "Anchor": "#uncombine-the-specified-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_UndeleteBooths",
+      "Name": "Undelete the specified booths",
+      "Description": "Undeletes the specified booths in the supplied event.",
+      "Anchor": "#undelete-the-specified-booths",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_UnHoldBooth",
+      "Name": "Unholds the specified booth",
+      "Description": "Unholds the specified booth in the supplied event.",
+      "Anchor": "#unholds-the-specified-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Booths_UnRentBooth",
+      "Name": "Unrent a Booth",
+      "Description": "Unrents the specified booth in the supplied event.",
+      "Anchor": "#unrent-a-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Classes_Create",
+      "Name": "Add a new booth class",
+      "Description": "Adds a new booth class to the supplied event.",
+      "Anchor": "#add-a-new-booth-class",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Classes_Delete",
+      "Name": "Delete a booth class",
+      "Description": "Deletes a booth class in the supplied event.",
+      "Anchor": "#delete-a-booth-class",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Classes_Get",
+      "Name": "Return the specified booth class",
+      "Description": "Returns the specified booth class.",
+      "Anchor": "#return-the-specified-booth-class",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Classes_GetAllBoothClasses",
+      "Name": "Return a collection of all booth classes",
+      "Description": "Returns a collection of all booth classes in the supplied event.",
+      "Anchor": "#return-a-collection-of-all-booth-classes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Classes_Update",
+      "Name": "Update the specified booth class",
+      "Description": "Updates the specified booth class.",
+      "Anchor": "#update-the-specified-booth-class",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Events_GetAllEvents",
+      "Name": "Get All Events",
+      "Description": "Returns a collection of registered events.",
+      "Anchor": "#get-all-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Events_GetEventInformation",
+      "Name": "Get Event Information",
+      "Description": "Returns basic information about the supplied event.",
+      "Anchor": "#get-event-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Events_GetEventStatistics",
+      "Name": "Get Event Statistics",
+      "Description": "Returns basic statistics describing the supplied event.",
+      "Anchor": "#get-event-statistics",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Exhibitors_AddExhibitor",
+      "Name": "Add a new exhibitor",
+      "Description": "Adds a new exhibitor to the supplied event.",
+      "Anchor": "#add-a-new-exhibitor",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Exhibitors_DeleteExhibitor",
+      "Name": "Delete an exhibitor",
+      "Description": "Deletes an exhibitor in the supplied event.",
+      "Anchor": "#delete-an-exhibitor",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Exhibitors_Get",
+      "Name": "Get an Exhibitor",
+      "Description": "Returns the specified exhibitor.",
+      "Anchor": "#get-an-exhibitor",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Exhibitors_GetAllExhibitors",
+      "Name": "Get All Exhibitors",
+      "Description": "Returns a collection of all exhibitors in the supplied event.",
+      "Anchor": "#get-all-exhibitors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Exhibitors_UpdateExhibitor",
+      "Name": "Update an exhibitor",
+      "Description": "Updates an exhibitor in the supplied event.",
+      "Anchor": "#update-an-exhibitor",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Financials_Get",
+      "Name": "Get financial information for the specified booth",
+      "Description": "Returns financial information for the specified booth.",
+      "Anchor": "#get-financial-information-for-the-specified-booth",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Financials_GetAllInvoices",
+      "Name": "Returns all invoices in supplied event",
+      "Description": "Returns all invoices in the supplied event.",
+      "Anchor": "#returns-all-invoices-in-supplied-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Financials_GetAllTransactions",
+      "Name": "Get a collection of transactions",
+      "Description": "Parameters startDate and endDate allow you to filter by a date range.\nIf you do decide to filter by a range, you must supply at least one valid date.\nValid dates are in the format of: YYYY-MM-DD",
+      "Anchor": "#get-a-collection-of-transactions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Financials_GetAssignedRequestItems",
+      "Name": "Get a list of all assigned request items",
+      "Description": "Returns a list of all assigned request items. If any parameter is omitted, that filter will not be applied.",
+      "Anchor": "#get-a-list-of-all-assigned-request-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Financials_GetInvoice",
+      "Name": "Get details of a single invoice",
+      "Description": "Gets details of a single invoice Either invoiceNo or exhibtitorId is required.",
+      "Anchor": "#get-details-of-a-single-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Financials_GetPayments",
+      "Name": "Get a list of payments in the Expocad Event",
+      "Description": "Returns list of payments in the Expocad Event.For Non-Credit Card Payments, The Check Number is returned in the CCLast4 field.",
+      "Anchor": "#get-a-list-of-payments-in-the-expocad-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Financials_GetPaymentTypeList",
+      "Name": "Get the master list of payment types",
+      "Description": "Returns the master list of payment types.",
+      "Anchor": "#get-the-master-list-of-payment-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Financials_GetRequestItemList",
+      "Name": "Returns the master list of requestable items",
+      "Description": "Will return items that match either the glCode or the transactionCode. For TotalNumberAvailable, 0 = Unlimited",
+      "Anchor": "#returns-the-master-list-of-requestable-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pavilions_GetAllPavilions",
+      "Name": "Get a collection of all pavilions",
+      "Description": "Returns a collection of all pavilions in the supplied event.",
+      "Anchor": "#get-a-collection-of-all-pavilions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RatePlans_AddRatePlan",
+      "Name": "Add a new rate plan",
+      "Description": "Adds a new rate plan to the supplied event.",
+      "Anchor": "#add-a-new-rate-plan",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RatePlans_GetAllRatePlans",
+      "Name": "Get a collection of all rate plans",
+      "Description": "Returns a collection of all rate plans in the supplied event.",
+      "Anchor": "#get-a-collection-of-all-rate-plans",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RatePlans_GetDefaultRatePlan",
+      "Name": "Get the currently set default rate plan",
+      "Description": "Returns the currently set default rate plan from the supplied event.",
+      "Anchor": "#get-the-currently-set-default-rate-plan",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RatePlans_SetDefaultRatePlan",
+      "Name": "Set the default rate plan",
+      "Description": "Sets the default rate plan for the supplied event.",
+      "Anchor": "#set-the-default-rate-plan",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShowInShows_GetAllShowinShows",
+      "Name": "Get a collection of all showinshows",
+      "Description": "Returns a collection of all showinshows in the supplied event.",
+      "Anchor": "#get-a-collection-of-all-showinshows",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "UniqueName": "elfsquaddata",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../elfsquaddata/",
+  "Actions": [
+    {
+      "OperationId": "create_trigger",
+      "Name": "Custom trigger",
+      "Description": "When a event is triggered",
+      "Anchor": "#custom-trigger",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "delete_entity_by_id",
+      "Name": "Delete entity",
+      "Description": "Delete entity",
+      "Anchor": "#delete-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "get_entities",
+      "Name": "Get entities",
+      "Description": "Get entities",
+      "Anchor": "#get-entities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "get_entity_by_id",
+      "Name": "Get entity by id",
+      "Description": "Get entity by id",
+      "Anchor": "#get-entity-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "invoke_function",
+      "Name": "Invoke function",
+      "Description": "Invoke function",
+      "Anchor": "#invoke-function",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "post_entity_by_id",
+      "Name": "Create entity",
+      "Description": "Create entity",
+      "Anchor": "#create-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "put_entity_by_id",
+      "Name": "Update entity",
+      "Description": "Update entity",
+      "Anchor": "#update-entity",
+      "IsDeprecated": false
+    }
+  ]
+}

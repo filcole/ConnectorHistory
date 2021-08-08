@@ -1,0 +1,104 @@
+{
+  "UniqueName": "mq",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mq/",
+  "Actions": [
+    {
+      "OperationId": "Delete",
+      "Name": "Delete message",
+      "Description": "Deletes one message from the queue, by doing a destructive get.",
+      "Anchor": "#delete-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteAll",
+      "Name": "Delete messages",
+      "Description": "Deletes messages from the queue, by doing a destructive get.",
+      "Anchor": "#delete-messages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteAllV2",
+      "Name": "Delete messages (v2) (Preview)",
+      "Description": "Deletes messages from the queue, by doing a destructive get.",
+      "Anchor": "#delete-messages-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteV2",
+      "Name": "Delete message (v2) (Preview)",
+      "Description": "Deletes one message from the queue, by doing a destructive get.",
+      "Anchor": "#delete-message-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Read",
+      "Name": "Browse message",
+      "Description": "Browse one message from the queue.",
+      "Anchor": "#browse-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadAll",
+      "Name": "Browse messages",
+      "Description": "Browse messages in a queue.",
+      "Anchor": "#browse-messages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadAllV2",
+      "Name": "Browse messages (v2) (Preview)",
+      "Description": "Browse messages in a queue.",
+      "Anchor": "#browse-messages-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadV2",
+      "Name": "Browse message (v2) (Preview)",
+      "Description": "Browse one message from the queue.",
+      "Anchor": "#browse-message-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Receive",
+      "Name": "Receive message",
+      "Description": "Returns one message from the queue, by doing a destructive get.",
+      "Anchor": "#receive-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReceiveAll",
+      "Name": "Receive messages",
+      "Description": "Returns messages from the queue, by doing a destructive get.",
+      "Anchor": "#receive-messages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReceiveAllV2",
+      "Name": "Receive messages (v2) (Preview)",
+      "Description": "Returns messages from the queue, by doing a destructive get.",
+      "Anchor": "#receive-messages-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReceiveV2",
+      "Name": "Receive message (v2) (Preview)",
+      "Description": "Returns one message from the queue, by doing a destructive get.",
+      "Anchor": "#receive-message-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Send",
+      "Name": "Send message",
+      "Description": "Send a message to a queue.",
+      "Anchor": "#send-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendV2",
+      "Name": "Send message (v2) (Preview)",
+      "Description": "Send a message to a queue.",
+      "Anchor": "#send-message-(v2)-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

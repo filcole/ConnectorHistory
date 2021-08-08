@@ -1,0 +1,55 @@
+{
+  "UniqueName": "signl4",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../signl4/",
+  "Actions": [
+    {
+      "OperationId": "AlertsAcknowledgeAllPost",
+      "Name": "Confirm all",
+      "Description": "This method confirms all unhandled alerts your team currently has.",
+      "Anchor": "#confirm-all",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AlertsPost",
+      "Name": "Trigger Alert",
+      "Description": "Triggers a new alert for your team. All team members on duty will receive alert notifications.",
+      "Anchor": "#trigger-alert",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAlertsReport",
+      "Name": "Get Alert Report",
+      "Description": "Returns information about the occurred alert volume in different time periods as well as information about the response behavior (amount of confirmed and unhandled alerts) of your team members.",
+      "Anchor": "#get-alert-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllUsers",
+      "Name": "Get all Users",
+      "Description": "Returns a list of user objects with details such as their email address. Only users who are part of your team will be returned.",
+      "Anchor": "#get-all-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserById",
+      "Name": "Get user by id",
+      "Description": "Returns a user's details such as name, email address, etc.",
+      "Anchor": "#get-user-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PunchInUserById",
+      "Name": "Punch user in",
+      "Description": "Using this operation, the specified user will be punched in to duty.",
+      "Anchor": "#punch-user-in",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PunchOutUserById",
+      "Name": "Punch user out",
+      "Description": "Using this operation, the specified user will be punched out from duty.",
+      "Anchor": "#punch-user-out",
+      "IsDeprecated": false
+    }
+  ]
+}

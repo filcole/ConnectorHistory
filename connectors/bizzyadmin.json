@@ -1,0 +1,55 @@
+{
+  "UniqueName": "bizzyadmin",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bizzyadmin/",
+  "Actions": [
+    {
+      "OperationId": "Admin_RedactBotMessage",
+      "Name": "Redact bot message",
+      "Description": "Replace a bot message with a redaction message.",
+      "Anchor": "#redact-bot-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAdminItem",
+      "Name": "Create Admin Item by Type",
+      "Description": "Create an Admin Item by Type",
+      "Anchor": "#create-admin-item-by-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteAdminItem",
+      "Name": "Delete Admin Item by Type and Id",
+      "Description": "Delete an Admin Item by Type and Id",
+      "Anchor": "#delete-admin-item-by-type-and-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAdminItem",
+      "Name": "Get Admin Items by Type",
+      "Description": "Get an Admin Items by Type",
+      "Anchor": "#get-admin-items-by-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAdminItemById",
+      "Name": "Get Admin Item by Type and Id",
+      "Description": "Get an Admin Item by Type and Id",
+      "Anchor": "#get-admin-item-by-type-and-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateAdminItem",
+      "Name": "Update Admin Item by Type and Id",
+      "Description": "Update an Admin Item by Type and Id",
+      "Anchor": "#update-admin-item-by-type-and-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_Post_SkillModified",
+      "Name": "When a skill is created or modified",
+      "Description": "This operation triggers when a skill is created or updated.",
+      "Anchor": "#when-a-skill-is-created-or-modified",
+      "IsDeprecated": false
+    }
+  ]
+}

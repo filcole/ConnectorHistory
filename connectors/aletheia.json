@@ -1,0 +1,97 @@
+{
+  "UniqueName": "aletheia",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aletheia/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "List an entity's SEC filings",
+      "Description": "Request a list of latest SEC filings for an entity (company or person)",
+      "Anchor": "#list-an-entity's-sec-filings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AffiliatedOwners",
+      "Name": "List Affiliated Owners",
+      "Description": "List the owners who in the past have had transactions with a particular company's securities",
+      "Anchor": "#list-affiliated-owners",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FinancialFactTrend",
+      "Name": "Get Financial Fact Trend",
+      "Description": "Examine the trend in a fundamental financial data point. For example, get all annual revenue since 2013 for Apple",
+      "Anchor": "#get-financial-fact-trend",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCommonFinancials",
+      "Name": "Get Common Financials",
+      "Description": "Access a set of financial statements for any publicly traded company in simple form",
+      "Anchor": "#get-common-financials",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEntity",
+      "Name": "Get Entity",
+      "Description": "Get information about an entity like CIK, name, and trading symbol",
+      "Anchor": "#get-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFiling",
+      "Name": "Get Filing",
+      "Description": "Get details of a particular SEC filing that has already been processed by Aletheia systems",
+      "Anchor": "#get-filing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InsiderTrading",
+      "Name": "When a new insider trade is reported to the SEC",
+      "Description": "Company insiders are required to report their security transactions to the SEC. Be notified within seconds of a new insider transaction in any particular company.",
+      "Anchor": "#when-a-new-insider-trade-is-reported-to-the-sec",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LatestTransactions",
+      "Name": "Latest Insider Transactions",
+      "Description": "Get the latest insider transactions for a person or company",
+      "Anchor": "#latest-insider-transactions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewFilings",
+      "Name": "When a new filing is filed with the SEC",
+      "Description": "Trigger a workflow when a new filing is filed with the SEC and use details from that filing",
+      "Anchor": "#when-a-new-filing-is-filed-with-the-sec",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenCommonFinancials",
+      "Name": "Open Common Financial Statements",
+      "Description": "Open financial statements from a 10-K or 10-Q filing",
+      "Anchor": "#open-common-financial-statements",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenForm4",
+      "Name": "Open Form 4",
+      "Description": "Parse a Form 4 (changes in ownership) document",
+      "Anchor": "#open-form-4",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchEntities",
+      "Name": "Search Entities",
+      "Description": "Search the Aletheia database for an entity. An entity represents either a company (serving as an security issuer) or a person (serving as a security owner).",
+      "Anchor": "#search-entities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StockData",
+      "Name": "Get Stock Data",
+      "Description": "Access stock data for any US-based publicly traded equity security",
+      "Anchor": "#get-stock-data",
+      "IsDeprecated": false
+    }
+  ]
+}

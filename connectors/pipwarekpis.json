@@ -1,0 +1,20 @@
+{
+  "UniqueName": "pipwarekpis",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pipwarekpis/",
+  "Actions": [
+    {
+      "OperationId": "SaveKpiActuals",
+      "Name": "Save KPI Actuals",
+      "Description": "Save KPI Actuals",
+      "Anchor": "#save-kpi-actuals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SaveKpiTargets",
+      "Name": "Save KPI Targets",
+      "Description": "Save KPI Targets",
+      "Anchor": "#save-kpi-targets",
+      "IsDeprecated": false
+    }
+  ]
+}

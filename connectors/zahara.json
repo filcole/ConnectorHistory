@@ -1,0 +1,132 @@
+{
+  "UniqueName": "zahara",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zahara/",
+  "Actions": [
+    {
+      "OperationId": "CreateDraftInvoice",
+      "Name": "Create Draft Invoice",
+      "Description": "Creates a new draft invoice.",
+      "Anchor": "#create-draft-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateInvoice",
+      "Name": "Create Invoice",
+      "Description": "Creates a new invoice.",
+      "Anchor": "#create-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePurchaseOrder",
+      "Name": "Create Purchase Order",
+      "Description": "Creates a new purchase order.",
+      "Anchor": "#create-purchase-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSupplier",
+      "Name": "Create Supplier",
+      "Description": "Creates a new supplier.",
+      "Anchor": "#create-supplier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewApprovalComment",
+      "Name": "New Approval Comment",
+      "Description": "When a new approval comment is added at a step.",
+      "Anchor": "#new-approval-comment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewCostCode",
+      "Name": "New Cost Code",
+      "Description": "When a new cost code is created.",
+      "Anchor": "#new-cost-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewDocumentApproved",
+      "Name": "New Document Approved",
+      "Description": "When a new document is approved.",
+      "Anchor": "#new-document-approved",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewInvoice",
+      "Name": "New Invoice",
+      "Description": "When a new invoice is created.",
+      "Anchor": "#new-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewInvoiceSetAsExported",
+      "Name": "New Invoice Set as Exported",
+      "Description": "When a new invoice is set as exported.",
+      "Anchor": "#new-invoice-set-as-exported",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewNominalCode",
+      "Name": "New Nominal Code",
+      "Description": "When a new nominal code is created.",
+      "Anchor": "#new-nominal-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewProject",
+      "Name": "New Project",
+      "Description": "When a new project is created.",
+      "Anchor": "#new-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewPurchaseOrder",
+      "Name": "New Purchase Order",
+      "Description": "When a new purchase order is created.",
+      "Anchor": "#new-purchase-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewPurchaseOrderSentToSupplier",
+      "Name": "New Purchase Order Sent to Supplier",
+      "Description": "When a new purchase order is sent to supplier.",
+      "Anchor": "#new-purchase-order-sent-to-supplier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewPurchaseRequsition",
+      "Name": "New Purchase Requsition",
+      "Description": "When a new purchase requsition is created.",
+      "Anchor": "#new-purchase-requsition",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewSupplier",
+      "Name": "New Supplier",
+      "Description": "When a new supplier is created.",
+      "Anchor": "#new-supplier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewTaxCode",
+      "Name": "New Tax Code",
+      "Description": "When a new tax code is created.",
+      "Anchor": "#new-tax-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SupplierAmended",
+      "Name": "Supplier Amended",
+      "Description": "When an existing supplier is updated.",
+      "Anchor": "#supplier-amended",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateSupplier",
+      "Name": "Update Supplier",
+      "Description": "Updates an existing supplier.",
+      "Anchor": "#update-supplier",
+      "IsDeprecated": false
+    }
+  ]
+}

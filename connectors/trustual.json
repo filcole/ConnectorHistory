@@ -1,0 +1,20 @@
+{
+  "UniqueName": "trustual",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../trustual/",
+  "Actions": [
+    {
+      "OperationId": "certify-file",
+      "Name": "Certify file",
+      "Description": "Certifies the existence and integrity of a file.",
+      "Anchor": "#certify-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "certify-hash",
+      "Name": "Certify hash",
+      "Description": "Certifies the existence and integrity of a file given its hash.",
+      "Anchor": "#certify-hash",
+      "IsDeprecated": false
+    }
+  ]
+}

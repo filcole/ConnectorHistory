@@ -1,0 +1,34 @@
+{
+  "UniqueName": "wordpress",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../wordpress/",
+  "Actions": [
+    {
+      "OperationId": "CreatePost",
+      "Name": "Create post",
+      "Description": "Create post",
+      "Anchor": "#create-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPost",
+      "Name": "Get post",
+      "Description": "Get post",
+      "Anchor": "#get-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTriggerNewPost",
+      "Name": "When a post is created",
+      "Description": "Triggers a new flow when there is a new post on the logged in user's timeline",
+      "Anchor": "#when-a-post-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SiteStats",
+      "Name": "Get site statistics",
+      "Description": "Get statistics for a specified site",
+      "Anchor": "#get-site-statistics",
+      "IsDeprecated": false
+    }
+  ]
+}

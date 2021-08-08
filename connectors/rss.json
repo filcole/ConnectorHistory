@@ -1,0 +1,20 @@
+{
+  "UniqueName": "rss",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rss/",
+  "Actions": [
+    {
+      "OperationId": "ListFeedItems",
+      "Name": "List all RSS feed items",
+      "Description": "This operation retrieves all items from an RSS feed.",
+      "Anchor": "#list-all-rss-feed-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewFeed",
+      "Name": "When a feed item is published",
+      "Description": "This operation triggers a workflow when a new item is published in an RSS feed.",
+      "Anchor": "#when-a-feed-item-is-published",
+      "IsDeprecated": false
+    }
+  ]
+}

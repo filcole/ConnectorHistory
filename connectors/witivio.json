@@ -1,0 +1,69 @@
+{
+  "UniqueName": "witivio",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../witivio/",
+  "Actions": [
+    {
+      "OperationId": "SendAdaptive",
+      "Name": "The chatbot replies with adaptive card",
+      "Description": "The chatbot replies with adaptive card",
+      "Anchor": "#the-chatbot-replies-with-adaptive-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendFeedback",
+      "Name": "The chatbot launch feedback",
+      "Description": "The chatbot launch feedback",
+      "Anchor": "#the-chatbot-launch-feedback",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "The chatbot replies",
+      "Description": "The chatbot replies",
+      "Anchor": "#the-chatbot-replies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessageInput",
+      "Name": "The chatbot asks a question",
+      "Description": "The chatbot asks a question",
+      "Anchor": "#the-chatbot-asks-a-question",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessageInputArray",
+      "Name": "The chatbot asks a question with an list of dynamics choices",
+      "Description": "The chatbot asks a question with an list of dynamics choices",
+      "Anchor": "#the-chatbot-asks-a-question-with-an-list-of-dynamics-choices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessageInputList",
+      "Name": "The chatbot asks a question with a list of choices",
+      "Description": "The chatbot asks a question with a list of choices",
+      "Anchor": "#the-chatbot-asks-a-question-with-a-list-of-choices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartEscalation",
+      "Name": "The chatbot launch the next escalation available",
+      "Description": "The chatbot launch the next escalation available",
+      "Anchor": "#the-chatbot-launch-the-next-escalation-available",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookEscalationTrigger",
+      "Name": "When the chatbot launch an escalation",
+      "Description": "When the chatbot launch an escalation",
+      "Anchor": "#when-the-chatbot-launch-an-escalation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookTrigger",
+      "Name": "When the chatbot understand",
+      "Description": "When the chatbot understand",
+      "Anchor": "#when-the-chatbot-understand",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "UniqueName": "excelonline",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../excelonline/",
+  "Actions": [
+    {
+      "OperationId": "AddRow",
+      "Name": "Add a row into a table [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Add a row into a table instead.\nAdd a new row into the Excel table.",
+      "Anchor": "#add-a-row-into-a-table-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "AddRowV2",
+      "Name": "Add a row into a table",
+      "Description": "Add a new row into the Excel table.",
+      "Anchor": "#add-a-row-into-a-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateIdColumn",
+      "Name": "Add a key column to a table",
+      "Description": "Add a key column to an Excel table. The new column will be appended to the right. The new key column must be unique in the table.",
+      "Anchor": "#add-a-key-column-to-a-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTable",
+      "Name": "Create table",
+      "Description": "Create a new table in the Excel workbook.",
+      "Anchor": "#create-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorksheet",
+      "Name": "Create worksheet",
+      "Description": "Create a new worksheet in the Excel workbook.",
+      "Anchor": "#create-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete a row",
+      "Description": "Delete a row using a key column.",
+      "Anchor": "#delete-a-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllWorksheets",
+      "Name": "Get worksheets",
+      "Description": "Get a list of worksheets in the Excel workbook.",
+      "Anchor": "#get-worksheets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get a row",
+      "Description": "Get a row using a key column. This action will retrieve all the values of the specified row given a column and key column.",
+      "Anchor": "#get-a-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "List rows present in a table",
+      "Description": "List rows present in a table.",
+      "Anchor": "#list-rows-present-in-a-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get tables",
+      "Description": "Get a list of tables in the Excel workbook.",
+      "Anchor": "#get-tables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update a row",
+      "Description": "Update a row using a key column. The input value will overwrite the specified cells and columns left blank will not be updated. In order to append (instead of overwrite) a value, use the &quot;Get a row&quot; action to retrieve the content first.",
+      "Anchor": "#update-a-row",
+      "IsDeprecated": false
+    }
+  ]
+}

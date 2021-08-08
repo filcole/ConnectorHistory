@@ -1,0 +1,174 @@
+{
+  "UniqueName": "plumsailhelpdesk",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../plumsailhelpdesk/",
+  "Actions": [
+    {
+      "OperationId": "_flowV4ContactsByEmailByEmailGet",
+      "Name": "Get a single contact by Email",
+      "Description": "Gets a contact by email and returns it.",
+      "Anchor": "#get-a-single-contact-by-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4ContactsByEmailByEmailPut",
+      "Name": "Update a contact by Email",
+      "Description": "Finds a contact by email and updates it. Returns updated contact.",
+      "Anchor": "#update-a-contact-by-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4ContactsByIdDelete",
+      "Name": "Delete a contact",
+      "Description": "Deletes contact by Id",
+      "Anchor": "#delete-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4ContactsByIdGet",
+      "Name": "Get a single contact by Id",
+      "Description": "Gets a contact by Id and returs it.",
+      "Anchor": "#get-a-single-contact-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4ContactsByIdPut",
+      "Name": "Update a contact",
+      "Description": "Finds a contact by Id and updates it. Returns updated contact.",
+      "Anchor": "#update-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4ContactsGet",
+      "Name": "Get contacts",
+      "Description": "Get contacts list",
+      "Anchor": "#get-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4ContactsPost",
+      "Name": "Create a contact",
+      "Description": "Creates new contact and returns it.",
+      "Anchor": "#create-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4OrganizationsByIdDelete",
+      "Name": "Delete an organization",
+      "Description": "Deletes organization by Id.",
+      "Anchor": "#delete-an-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4OrganizationsByIdGet",
+      "Name": "Get a single organization",
+      "Description": "Gets organization by Id and returns it",
+      "Anchor": "#get-a-single-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4OrganizationsByIdPut",
+      "Name": "Update an organization",
+      "Description": "Gets an organization by Id and returns it.",
+      "Anchor": "#update-an-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4OrganizationsByTitleByTitleDelete",
+      "Name": "Delete an organization by title",
+      "Description": "Deletes organization by title",
+      "Anchor": "#delete-an-organization-by-title",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4OrganizationsByTitleByTitleGet",
+      "Name": "Get a single organization by title",
+      "Description": "Gets an organization by title and returns it.",
+      "Anchor": "#get-a-single-organization-by-title",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4OrganizationsByTitleByTitlePut",
+      "Name": "Update an organization by title",
+      "Description": "Gets an organization by title and updates it. Returns updated organization.",
+      "Anchor": "#update-an-organization-by-title",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4OrganizationsGet",
+      "Name": "Get organizations",
+      "Description": "Get organizations list",
+      "Anchor": "#get-organizations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4OrganizationsPost",
+      "Name": "Create an organization",
+      "Description": "Creates new item in Organizations list and return it",
+      "Anchor": "#create-an-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4TicketsByIdAttachmentsByFilenameGet",
+      "Name": "Download attachment",
+      "Description": "Returns attachment file for specific ticket by its name, or returns error code",
+      "Anchor": "#download-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4TicketsByIdDelete",
+      "Name": "Delete a ticket",
+      "Description": "Deletes ticket by Id.",
+      "Anchor": "#delete-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4TicketsByIdGet",
+      "Name": "Get a single ticket",
+      "Description": "Gets a ticket by Id and returns it",
+      "Anchor": "#get-a-single-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4TicketsByIdPut",
+      "Name": "Update a ticket",
+      "Description": "Gets a ticket by Id and updates it. Returns updated ticket.",
+      "Anchor": "#update-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4TicketsByTicketIdCommentsByIdGet",
+      "Name": "Get a single comment",
+      "Description": "Gets a comment by ID and returns it.",
+      "Anchor": "#get-a-single-comment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4TicketsByTicketIdCommentsGet",
+      "Name": "Get all comments for a ticket",
+      "Description": "Gets all comments for a ticket with specified Id.",
+      "Anchor": "#get-all-comments-for-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4TicketsByTicketIdCommentsPost",
+      "Name": "Create a comment",
+      "Description": "Creates new comment for a ticket with specified ID and returns it.",
+      "Anchor": "#create-a-comment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4TicketsGet",
+      "Name": "Get tickets",
+      "Description": "Get tickets list",
+      "Anchor": "#get-tickets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "_flowV4TicketsPost",
+      "Name": "Create a ticket",
+      "Description": "Creates new ticket and returns created ticket.",
+      "Anchor": "#create-a-ticket",
+      "IsDeprecated": false
+    }
+  ]
+}

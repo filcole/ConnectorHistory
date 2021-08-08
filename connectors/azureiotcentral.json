@@ -1,0 +1,76 @@
+{
+  "UniqueName": "azureiotcentral",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azureiotcentral/",
+  "Actions": [
+    {
+      "OperationId": "Devices_ExecuteComponentCommand",
+      "Name": "Execute a device command",
+      "Description": "Execute a command on a device.",
+      "Anchor": "#execute-a-device-command",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_Get",
+      "Name": "Get a device by ID",
+      "Description": "Get details about an existing device by device ID.",
+      "Anchor": "#get-a-device-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_GetCloudProperties",
+      "Name": "Get device cloud properties",
+      "Description": "Get all cloud property values of a device by device ID.",
+      "Anchor": "#get-device-cloud-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_GetComponentTelemetryValue",
+      "Name": "Get device telemetry value",
+      "Description": "Get the last telemetry value from a device.",
+      "Anchor": "#get-device-telemetry-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_GetProperties",
+      "Name": "Get device properties",
+      "Description": "Get all property values of a device by device ID.",
+      "Anchor": "#get-device-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_Remove",
+      "Name": "Delete a device",
+      "Description": "Delete an existing device by device ID.",
+      "Anchor": "#delete-a-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_Set",
+      "Name": "Create or update a device",
+      "Description": "Create a new device or update an existing one by device ID.",
+      "Anchor": "#create-or-update-a-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_UpdateCloudProperties",
+      "Name": "Update device cloud properties",
+      "Description": "Update all cloud property values of a device by device ID.",
+      "Anchor": "#update-device-cloud-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_UpdateProperties",
+      "Name": "Update device properties",
+      "Description": "Update all property values of a device by device ID.",
+      "Anchor": "#update-device-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Workflow_CreateTrigger",
+      "Name": "When a rule is fired",
+      "Description": "Create an action which triggers when a rule is fired in IoT Central.",
+      "Anchor": "#when-a-rule-is-fired",
+      "IsDeprecated": false
+    }
+  ]
+}

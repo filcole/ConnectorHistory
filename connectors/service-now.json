@@ -1,0 +1,48 @@
+{
+  "UniqueName": "service-now",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../service-now/",
+  "Actions": [
+    {
+      "OperationId": "CreateRecord",
+      "Name": "Create Record",
+      "Description": "Create a record in a ServiceNow table.",
+      "Anchor": "#create-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteRecord",
+      "Name": "Delete Record",
+      "Description": "Deletes a record for a ServiceNow object type like 'Incidents",
+      "Anchor": "#delete-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRecord",
+      "Name": "Get Record",
+      "Description": "Gets a record for a ServiceNow object type like 'Incidents'",
+      "Anchor": "#get-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRecords",
+      "Name": "List Records",
+      "Description": "Gets records of a certain ServiceNow object type like 'Incidents'",
+      "Anchor": "#list-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRecordTypes",
+      "Name": "Get Record Types",
+      "Description": "Lists the available record types",
+      "Anchor": "#get-record-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRecord",
+      "Name": "Update Record",
+      "Description": "Updates a record for a ServiceNow object type like 'Incidents'",
+      "Anchor": "#update-record",
+      "IsDeprecated": false
+    }
+  ]
+}

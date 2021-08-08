@@ -1,0 +1,272 @@
+{
+  "UniqueName": "planner",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../planner/",
+  "Actions": [
+    {
+      "OperationId": "AssignUsers",
+      "Name": "Add assignees to a task",
+      "Description": "Add assignees to an existing Planner task.",
+      "Anchor": "#add-assignees-to-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateBucket",
+      "Name": "Create a bucket [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a bucket instead.\nCreate a bucket in Planner.",
+      "Anchor": "#create-a-bucket-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateBucket_V2",
+      "Name": "Create a bucket",
+      "Description": "Create a bucket in Planner for the specified plan and group.",
+      "Anchor": "#create-a-bucket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create a task [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a task instead.\nCreate a new task in Planner.",
+      "Anchor": "#create-a-task-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create a task [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a task instead.\nCreate a new task in Planner.",
+      "Anchor": "#create-a-task-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateTask_V3",
+      "Name": "Create a task",
+      "Description": "Create a new task in Planner.",
+      "Anchor": "#create-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask_V4",
+      "Name": "Create a task (Preview)",
+      "Description": "Create a new task in Planner.",
+      "Anchor": "#create-a-task-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTask",
+      "Name": "Delete a task (Preview)",
+      "Description": "Deletes an existing Planner task.",
+      "Anchor": "#delete-a-task-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPlanDetails",
+      "Name": "Get plan details (Preview)",
+      "Description": "Get plan details where the task belongs to",
+      "Anchor": "#get-plan-details-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTask",
+      "Name": "Get a task [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a task instead.\nGet an existing Planner task.",
+      "Anchor": "#get-a-task-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetTask_V2",
+      "Name": "Get a task",
+      "Description": "Get an existing Planner task.",
+      "Anchor": "#get-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTaskDetails",
+      "Name": "Get task details [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get task details instead.\nGet the task details for an existing task.",
+      "Anchor": "#get-task-details-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetTaskDetails_V2",
+      "Name": "Get task details",
+      "Description": "Get the task details for an existing task.",
+      "Anchor": "#get-task-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBuckets",
+      "Name": "List buckets [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List buckets instead.\nList the buckets in a plan.",
+      "Anchor": "#list-buckets-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListBuckets",
+      "Name": "List buckets [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List buckets instead.\nList the buckets in a plan.",
+      "Anchor": "#list-buckets-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListBuckets_V3",
+      "Name": "List buckets",
+      "Description": "List the buckets in a plan.",
+      "Anchor": "#list-buckets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGroupPlans",
+      "Name": "List plans for a group",
+      "Description": "List plans owned by the group specified.",
+      "Anchor": "#list-plans-for-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListMyPlans",
+      "Name": "List my plans [DEPRECATED]",
+      "Description": "List the plans the user has subscribed to.",
+      "Anchor": "#list-my-plans-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListMyPlans",
+      "Name": "List my plans [DEPRECATED]",
+      "Description": "List the plans the user has subscribed to.",
+      "Anchor": "#list-my-plans-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListMyTasks",
+      "Name": "List my tasks [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List my tasks instead.\nList the tasks assigned to me.",
+      "Anchor": "#list-my-tasks-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListMyTasks_V2",
+      "Name": "List my tasks",
+      "Description": "List the tasks assigned to me.",
+      "Anchor": "#list-my-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTasks_V2",
+      "Name": "List tasks [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List tasks instead.\nList the tasks in a plan.",
+      "Anchor": "#list-tasks-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListTasks_V2",
+      "Name": "List tasks [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List tasks instead.\nList the tasks in a plan.",
+      "Anchor": "#list-tasks-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListTasks_V3",
+      "Name": "List tasks",
+      "Description": "List the tasks in a plan.",
+      "Anchor": "#list-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnCompleteTask",
+      "Name": "When a task is completed [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a task is completed instead.\nThis operation triggers when a task is completed.",
+      "Anchor": "#when-a-task-is-completed-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnCompleteTask",
+      "Name": "When a task is completed [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a task is completed instead.\nThis operation triggers when a task is completed.",
+      "Anchor": "#when-a-task-is-completed-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnCompleteTask_V3",
+      "Name": "When a task is completed",
+      "Description": "This operation triggers when a task is completed.",
+      "Anchor": "#when-a-task-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewTask",
+      "Name": "When a new task is created [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a new task is created instead.\nThis operation triggers when a new task is created.",
+      "Anchor": "#when-a-new-task-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewTask",
+      "Name": "When a new task is created [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a new task is created instead.\nThis operation triggers when a new task is created.",
+      "Anchor": "#when-a-new-task-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewTask_V3",
+      "Name": "When a new task is created",
+      "Description": "This operation triggers when a new task is created.",
+      "Anchor": "#when-a-new-task-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTaskAssignedToMe",
+      "Name": "When a task is assigned to me [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a task is assigned to me instead.\nThis operation triggers when a task is assigned to me.",
+      "Anchor": "#when-a-task-is-assigned-to-me-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnTaskAssignedToMe_V2",
+      "Name": "When a task is assigned to me",
+      "Description": "This operation triggers when a task is assigned to me.",
+      "Anchor": "#when-a-task-is-assigned-to-me",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnassignUsers",
+      "Name": "Remove assignees from a task",
+      "Description": "Remove assignees from an existing Planner task.",
+      "Anchor": "#remove-assignees-from-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTask",
+      "Name": "Update a task [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update a task (V2) instead.\nUpdate an existing Planner task.",
+      "Anchor": "#update-a-task-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateTask_V2",
+      "Name": "Update a task",
+      "Description": "Update an existing Planner task.",
+      "Anchor": "#update-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTask_V3",
+      "Name": "Update a task (V2) (Preview)",
+      "Description": "Update an existing Planner task.",
+      "Anchor": "#update-a-task-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTaskDetails",
+      "Name": "Update task details [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update task details instead.\nUpdate the task details for an existing task.",
+      "Anchor": "#update-task-details-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateTaskDetails_V2",
+      "Name": "Update task details",
+      "Description": "Update the task details for an existing task.",
+      "Anchor": "#update-task-details",
+      "IsDeprecated": false
+    }
+  ]
+}

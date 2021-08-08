@@ -1,0 +1,34 @@
+{
+  "UniqueName": "projectroadmap",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../projectroadmap/",
+  "Actions": [
+    {
+      "OperationId": "GetPortfolioLink",
+      "Name": "Get PortfolioLink",
+      "Description": "This operation is used to retrieve the PortfolioLink associated with a portfolio in a Roadmap. This object contains information about the external project that this portfolio is linked to.",
+      "Anchor": "#get-portfoliolink",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRoadmapItemLinksForPortfolio",
+      "Name": "Get RoadmapItemLinks for a Portfolio",
+      "Description": "This operation is used to retrieve all the RoadmapItemLinks associated with a portfolio in a Roadmap. RoadmapItemLinks contain information about the external tasks that are imported in this portfolio.",
+      "Anchor": "#get-roadmapitemlinks-for-a-portfolio",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatePortfolioLink",
+      "Name": "Update PortfolioLink",
+      "Description": "This operation is used to update the PortfolioLink associated with a portfolio in a Roadmap.",
+      "Anchor": "#update-portfoliolink",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRoadmapItemLink",
+      "Name": "Update RoadmapItemLink",
+      "Description": "This operation is used to update a RoadmapItemLink.",
+      "Anchor": "#update-roadmapitemlink",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "UniqueName": "hithorizons",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hithorizons/",
+  "Actions": [
+    {
+      "OperationId": "Company-Get",
+      "Name": "Retrieve company detail data by ID",
+      "Description": "Retrieve data of company specified by HitHorizonsId.",
+      "Anchor": "#retrieve-company-detail-data-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-Search",
+      "Name": "Search for companies using structured query",
+      "Description": "Search for companies using structured query.",
+      "Anchor": "#search-for-companies-using-structured-query",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-SearchUnstructured",
+      "Name": "Search for companies using unstructured query",
+      "Description": "Search for companies using unstructured query.",
+      "Anchor": "#search-for-companies-using-unstructured-query",
+      "IsDeprecated": false
+    }
+  ]
+}

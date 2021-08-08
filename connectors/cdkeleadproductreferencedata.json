@@ -1,0 +1,90 @@
+{
+  "UniqueName": "cdkeleadproductreferencedata",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cdkeleadproductreferencedata/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Gets the \"from\" email addresses for the specified company",
+      "Description": "Gets the &quot;from&quot; email addresses for the specified company",
+      "Anchor": "#gets-the-",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCompanyEmployees",
+      "Name": "Gets the employees for the specified company and position",
+      "Description": "Gets the employees for the specified company and position",
+      "Anchor": "#gets-the-employees-for-the-specified-company-and-position",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCompanyOpportunitySources",
+      "Name": "Gets the opportunity sources for the specified company and up types",
+      "Description": "Gets the opportunity sources for the specified company and up types",
+      "Anchor": "#gets-the-opportunity-sources-for-the-specified-company-and-up-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCompanyOpportunityStatuses",
+      "Name": "Gets the opportunity statuses for the specified company",
+      "Description": "Gets the opportunity statuses for the specified company",
+      "Anchor": "#gets-the-opportunity-statuses-for-the-specified-company",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCompanyPositions",
+      "Name": "Gets the positions for the specified company",
+      "Description": "Gets the positions for the specified company",
+      "Anchor": "#gets-the-positions-for-the-specified-company",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCompanySalesSteps",
+      "Name": "Gets the sales steps for the specified company",
+      "Description": "Gets the sales steps for the specified company",
+      "Anchor": "#gets-the-sales-steps-for-the-specified-company",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOpportunitySubSources",
+      "Name": "Retrieves the opportunity subsources for the specified source and up types",
+      "Description": "Retrieves the opportunity subsources for the specified source and up types",
+      "Anchor": "#retrieves-the-opportunity-subsources-for-the-specified-source-and-up-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVehicleClasses",
+      "Name": "Gets the available vehicle class types",
+      "Description": "Gets the available vehicle class types",
+      "Anchor": "#gets-the-available-vehicle-class-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVehicleMakes",
+      "Name": "Gets the available vehicle makes by year and vehicle class (optional)",
+      "Description": "Gets the available vehicle makes by year and vehicle class (optional)",
+      "Anchor": "#gets-the-available-vehicle-makes-by-year-and-vehicle-class-(optional)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVehicleModels",
+      "Name": "Gets the available vehicle models by year and make",
+      "Description": "Gets the available vehicle models by year and make",
+      "Anchor": "#gets-the-available-vehicle-models-by-year-and-make",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVehicleTrims",
+      "Name": "Gets the available vehicle trims by year, make, and model",
+      "Description": "Gets the available vehicle trims by year, make, and model",
+      "Anchor": "#gets-the-available-vehicle-trims-by-year,-make,-and-model",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVehicleYears",
+      "Name": "Gets the available vehicle years",
+      "Description": "Gets the available vehicle years",
+      "Anchor": "#gets-the-available-vehicle-years",
+      "IsDeprecated": false
+    }
+  ]
+}

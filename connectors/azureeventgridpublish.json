@@ -1,0 +1,13 @@
+{
+  "UniqueName": "azureeventgridpublish",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azureeventgridpublish/",
+  "Actions": [
+    {
+      "OperationId": "PublishEvent",
+      "Name": "Publish Event",
+      "Description": "Publish an event to an Event Grid Custom Topic.",
+      "Anchor": "#publish-event",
+      "IsDeprecated": false
+    }
+  ]
+}

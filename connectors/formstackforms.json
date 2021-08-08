@@ -1,0 +1,20 @@
+{
+  "UniqueName": "formstackforms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../formstackforms/",
+  "Actions": [
+    {
+      "OperationId": "FormstackFormSubmitted",
+      "Name": "Triggers when a form is submitted",
+      "Description": "Triggers when a form is submitted",
+      "Anchor": "#triggers-when-a-form-is-submitted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAvailableForms",
+      "Name": "Get Available Forms",
+      "Description": "Returns all available forms",
+      "Anchor": "#get-available-forms",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "UniqueName": "zreports",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zreports/",
+  "Actions": [
+    {
+      "OperationId": "GetStores",
+      "Name": "Get list of stores",
+      "Description": "Get list of stores that one can upload documents to and receive EDI notifications for.",
+      "Anchor": "#get-list-of-stores",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewDispatchAdvice",
+      "Name": "When a despatch advice is received",
+      "Description": "When an EDI despatch advice document is received by zReports this notification is triggered.",
+      "Anchor": "#when-a-despatch-advice-is-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewInvoice",
+      "Name": "When an invoice is received",
+      "Description": "When an EDI invoice document is received by zReports this notification is triggered.",
+      "Anchor": "#when-an-invoice-is-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadDocument",
+      "Name": "Upload delivery or invoice document",
+      "Description": "Upload delivery or invoice document.",
+      "Anchor": "#upload-delivery-or-invoice-document",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "UniqueName": "langai",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../langai/",
+  "Actions": [
+    {
+      "OperationId": "Analyze",
+      "Name": "Analyze document",
+      "Description": "Returns the classification for a given document and the specified project.",
+      "Anchor": "#analyze-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Documents",
+      "Name": "Save Documents",
+      "Description": "Saves a given document into the specified project. It supports passing metadata that can be later used in the project's Dashboard. New metadata values passed via API will be available to use in the project's setup section.",
+      "Anchor": "#save-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Projects",
+      "Name": "List Projects",
+      "Description": "Returns the list of projects.",
+      "Anchor": "#list-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tags",
+      "Name": "List project tags",
+      "Description": "Returns the list of the project's tags.",
+      "Anchor": "#list-project-tags",
+      "IsDeprecated": false
+    }
+  ]
+}

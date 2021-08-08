@@ -1,0 +1,83 @@
+{
+  "UniqueName": "politemail",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../politemail/",
+  "Actions": [
+    {
+      "OperationId": "Campaigns_NewCampaign",
+      "Name": "Create a campaign",
+      "Description": "This action will create a Campaign.",
+      "Anchor": "#create-a-campaign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contacts_GetContactsFromList",
+      "Name": "Get contacts from a list",
+      "Description": "This action will retrieve all contacts from a list.",
+      "Anchor": "#get-contacts-from-a-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contacts_NewContact",
+      "Name": "Create a contact",
+      "Description": "This action will create a contact.",
+      "Anchor": "#create-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Images_NewImage",
+      "Name": "Upload an image",
+      "Description": "This action will upload an image to the PoliteMail server.",
+      "Anchor": "#upload-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Lists_AddEmailsById",
+      "Name": "Add emails to a list",
+      "Description": "This action allows you to add contacts to a PoliteMail list by email address.",
+      "Anchor": "#add-emails-to-a-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Lists_NewList",
+      "Name": "Create a list",
+      "Description": "This action allows you to create a list.",
+      "Anchor": "#create-a-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Lists_RemoveEmailsById",
+      "Name": "Remove emails from list",
+      "Description": "This action allows you to remove contacts from a PoliteMail list by email address.",
+      "Anchor": "#remove-emails-from-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewContact",
+      "Name": "When there is a new contact",
+      "Description": "Triggers when a new contact is created",
+      "Anchor": "#when-there-is-a-new-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SentMessages_Send",
+      "Name": "Send a message",
+      "Description": "This allows you to send a tracked message using PoliteMail.",
+      "Anchor": "#send-a-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SmartAttachments_NewAttachment",
+      "Name": "Upload a SmartAttachment",
+      "Description": "This action allows you to upload a file as a Smart Attachment.",
+      "Anchor": "#upload-a-smartattachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Templates_NewTemplate",
+      "Name": "Create a template",
+      "Description": "This action allows you to create a template.",
+      "Anchor": "#create-a-template",
+      "IsDeprecated": false
+    }
+  ]
+}

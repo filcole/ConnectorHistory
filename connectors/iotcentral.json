@@ -1,0 +1,48 @@
+{
+  "UniqueName": "iotcentral",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iotcentral/",
+  "Actions": [
+    {
+      "OperationId": "Actions_Create",
+      "Name": "When a rule is fired",
+      "Description": "Create an action which triggers when a rule is fired in IoT Central.",
+      "Anchor": "#when-a-rule-is-fired",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeviceCommands_Run",
+      "Name": "Run a command",
+      "Description": "Run a command by ID on a device.",
+      "Anchor": "#run-a-command",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_Create",
+      "Name": "Create a device",
+      "Description": "Create a new real or simulated device of a specified device template.",
+      "Anchor": "#create-a-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_Get",
+      "Name": "Get a device",
+      "Description": "Get details about an existing device by device ID.",
+      "Anchor": "#get-a-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_Remove",
+      "Name": "Delete a device",
+      "Description": "Delete an existing device by device ID.",
+      "Anchor": "#delete-a-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Devices_Update",
+      "Name": "Update a device",
+      "Description": "Update an existing device by device ID.",
+      "Anchor": "#update-a-device",
+      "IsDeprecated": false
+    }
+  ]
+}

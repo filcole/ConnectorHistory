@@ -1,0 +1,230 @@
+{
+  "UniqueName": "adobesign",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../adobesign/",
+  "Actions": [
+    {
+      "OperationId": "CreateAgreementById",
+      "Name": "Create an agreement from an uploaded document and send for signature (Old) [DEPRECATED]",
+      "Description": "This operation creates an agreement from a document uploaded in Adobe Sign and sends it for signature.",
+      "Anchor": "#create-an-agreement-from-an-uploaded-document-and-send-for-signature-(old)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateAgreementById_V2",
+      "Name": "Create an agreement from an uploaded document and send for signature",
+      "Description": "This operation creates an agreement from a document uploaded in Adobe Sign and sends it for signature.",
+      "Anchor": "#create-an-agreement-from-an-uploaded-document-and-send-for-signature",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAgreementByTemplate",
+      "Name": "Create an agreement from a library template and send for signature (Old) [DEPRECATED]",
+      "Description": "This operation creates an agreement from a template stored in the user's Adobe Sign library and sends it for signature.",
+      "Anchor": "#create-an-agreement-from-a-library-template-and-send-for-signature-(old)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateAgreementByTemplate_V2",
+      "Name": "Create an agreement from a library template and send for signature",
+      "Description": "This operation creates an agreement from a template stored in the user's Adobe Sign library and sends it for signature.",
+      "Anchor": "#create-an-agreement-from-a-library-template-and-send-for-signature",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAgreementByUrl",
+      "Name": "Create an agreement from a document URL and send for signature (Old) [DEPRECATED]",
+      "Description": "This operation creates an agreement from a document uploaded in Adobe Sign and sends it for signature.",
+      "Anchor": "#create-an-agreement-from-a-document-url-and-send-for-signature-(old)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateAgreementByUrl_V2",
+      "Name": "Create an agreement from a document URL and send for signature",
+      "Description": "This operation creates an agreement from a document uploaded in Adobe Sign and sends it for signature.",
+      "Anchor": "#create-an-agreement-from-a-document-url-and-send-for-signature",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateLibraryDocumentById",
+      "Name": "Create a library template from an uploaded document (Old) [DEPRECATED]",
+      "Description": "This operation creates a template in Adobe Sign library from an uploaded document. Use this template for sending agreements.",
+      "Anchor": "#create-a-library-template-from-an-uploaded-document-(old)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateLibraryDocumentById_V2",
+      "Name": "Create a library template from an uploaded document",
+      "Description": "This operation creates a template in Adobe Sign library from an uploaded document. Use this template for sending agreements.",
+      "Anchor": "#create-a-library-template-from-an-uploaded-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateLibraryDocumentByUrl",
+      "Name": "Create a library template from a document URL (Old) [DEPRECATED]",
+      "Description": "This operation creates a template in Adobe Sign library from a document URL. Use this template for sending agreements",
+      "Anchor": "#create-a-library-template-from-a-document-url-(old)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateLibraryDocumentByUrl_V2",
+      "Name": "Create a library template from a document URL",
+      "Description": "This operation creates a template in Adobe Sign library from a document URL. Use this template for sending agreements",
+      "Anchor": "#create-a-library-template-from-a-document-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTransientDocument",
+      "Name": "Upload a document and get a document ID (Old) [DEPRECATED]",
+      "Description": "This operation uploads a document in your Adobe Sign account and returns a document ID for it. This document is temporarily stored in Adobe Sign and the document ID can be used for further operations like creating an agreement.",
+      "Anchor": "#upload-a-document-and-get-a-document-id-(old)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateTransientDocument_V2",
+      "Name": "Upload a document and get a document ID",
+      "Description": "This operation uploads a document in your Adobe Sign account and returns a document ID for it. This document is temporarily stored in Adobe Sign and the document ID can be used for further operations like creating an agreement.",
+      "Anchor": "#upload-a-document-and-get-a-document-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWebhookForAgreementCreatedEvent",
+      "Name": "When a new agreement is created",
+      "Description": "Triggers a new flow when a new agreement is created.",
+      "Anchor": "#when-a-new-agreement-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWebhookForAgreementSignatureRequestedEvent",
+      "Name": "When an agreement is sent to a participant",
+      "Description": "Triggers a new flow when an agreement is sent to a participant.",
+      "Anchor": "#when-an-agreement-is-sent-to-a-participant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWebhookForAgreementSignedEvent",
+      "Name": "When an agreement workflow is completed successfully",
+      "Description": "Triggers a new flow when an agreement workflow is completed successfully",
+      "Anchor": "#when-an-agreement-workflow-is-completed-successfully",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWebhookForAgreementStatusUpdated",
+      "Name": "When the state of an agreement changes",
+      "Description": "Triggers a new flow when the status of an agreement changes. Covers most common Agreement events such as creation, completion, etc.",
+      "Anchor": "#when-the-state-of-an-agreement-changes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWebhookGeneric",
+      "Name": "When an event occurs",
+      "Description": "Triggers a new flow when an event occurs. Covers all Agreement, Mega Sign and Widget events.",
+      "Anchor": "#when-an-event-occurs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAgreementFormFieldData",
+      "Name": "Get form field data of agreement (Old) [DEPRECATED]",
+      "Description": "Retrieves data entered into the interactive form fields of the agreement.",
+      "Anchor": "#get-form-field-data-of-agreement-(old)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetAgreementFormFieldData_V2",
+      "Name": "Get form field data of agreement",
+      "Description": "Retrieves data entered into the interactive form fields of the agreement.",
+      "Anchor": "#get-form-field-data-of-agreement",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAgreementInfo",
+      "Name": "Get the status of an agreement [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get the status of an agreement instead.\nThis operation fetches all the current information of an agreement, like status.",
+      "Anchor": "#get-the-status-of-an-agreement-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetAgreementInfo_V2",
+      "Name": "Get the status of an agreement",
+      "Description": "This operation fetches all the current information of an agreement, like status.",
+      "Anchor": "#get-the-status-of-an-agreement",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllAgreements",
+      "Name": "Get a list of all agreements (Old) [DEPRECATED]",
+      "Description": "This operation fetches the list of all agreements of the user.",
+      "Anchor": "#get-a-list-of-all-agreements-(old)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetAllAgreements_V2",
+      "Name": "Get a list of all agreements",
+      "Description": "This operation fetches the list of all agreements of the user.",
+      "Anchor": "#get-a-list-of-all-agreements",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllDocumentsofAnAgreement",
+      "Name": "Get a list of all the document IDs from an agreement [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a list of all the document IDs from an agreement instead.\nThis operation fetches the IDs of all documents and supporting documents of an agreement.",
+      "Anchor": "#get-a-list-of-all-the-document-ids-from-an-agreement-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetAllDocumentsofAnAgreement_V2",
+      "Name": "Get a list of all the document IDs from an agreement",
+      "Description": "This operation fetches the IDs of all documents and supporting documents of an agreement.",
+      "Anchor": "#get-a-list-of-all-the-document-ids-from-an-agreement",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCombinedDocument",
+      "Name": "Get a PDF of a signed agreement [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a PDF of a signed agreement instead.\nThis operation fetches the PDF file stream of the combined or signed agreement. Note that the file stream should be stored with a filename ending in .pdf file extension.",
+      "Anchor": "#get-a-pdf-of-a-signed-agreement-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetCombinedDocument_V2",
+      "Name": "Get a PDF of a signed agreement",
+      "Description": "This operation fetches the PDF file stream of the combined or signed agreement. Note that the file stream should be stored with a filename ending in .pdf file extension.",
+      "Anchor": "#get-a-pdf-of-a-signed-agreement",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocument",
+      "Name": "Get a document from an agreement [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a document from an agreement instead.\nThis operation fetches the file stream of a specific document of the agreement.",
+      "Anchor": "#get-a-document-from-an-agreement-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetDocument_V2",
+      "Name": "Get a document from an agreement",
+      "Description": "This operation fetches the file stream of a specific document of the agreement.",
+      "Anchor": "#get-a-document-from-an-agreement",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLibraryDocuments",
+      "Name": "Get a list of all library templates (Old) [DEPRECATED]",
+      "Description": "This operation fetches the list of all documents stored as templates in the Adobe Sign library of the user.",
+      "Anchor": "#get-a-list-of-all-library-templates-(old)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetLibraryDocuments_V2",
+      "Name": "Get a list of all library templates",
+      "Description": "This operation fetches the list of all documents stored as templates in the Adobe Sign library of the user.",
+      "Anchor": "#get-a-list-of-all-library-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSigningUrls",
+      "Name": "Retrieve the Signing URL",
+      "Description": "This operation retrieves the URL for the e-sign page for the current signer(s) of an agreement.",
+      "Anchor": "#retrieve-the-signing-url",
+      "IsDeprecated": false
+    }
+  ]
+}

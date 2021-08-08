@@ -1,0 +1,118 @@
+{
+  "UniqueName": "safetyculture",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../safetyculture/",
+  "Actions": [
+    {
+      "OperationId": "ArchiveRestoreAudit",
+      "Name": "Set the archived state of an inspection",
+      "Description": "Choose 'Yes' to archive the inspection and 'No' to restore the archived inspection.",
+      "Anchor": "#set-the-archived-state-of-an-inspection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAction",
+      "Name": "Create an action",
+      "Description": "Create a new action",
+      "Anchor": "#create-an-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAuditLink",
+      "Name": "Generate a link to an inspection [DEPRECATED]",
+      "Description": "Generate a link to a specific inspection that opens in iAuditor/SafetyCulture.",
+      "Anchor": "#generate-a-link-to-an-inspection-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DeleteAction",
+      "Name": "Delete an action",
+      "Description": "Delete an existing action",
+      "Anchor": "#delete-an-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteWebReportLink",
+      "Name": "Disable an inspection web report link",
+      "Description": "Disable the web report link to an inspection.",
+      "Anchor": "#disable-an-inspection-web-report-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAuditById",
+      "Name": "Get a specific inspection",
+      "Description": "Retrieve the full data of an inspection.",
+      "Anchor": "#get-a-specific-inspection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAuditExport",
+      "Name": "Download an audit report (legacy)",
+      "Description": "Download the audit report submitted earlier.",
+      "Anchor": "#download-an-audit-report-(legacy)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMedia",
+      "Name": "Get an inspection media",
+      "Description": "Get a media file from an inspection",
+      "Anchor": "#get-an-inspection-media",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWebReportLink",
+      "Name": "Retrieve an inspection web report link",
+      "Description": "If a link has previously been generated for this inspection, it is returned. Otherwise a new link is generated.",
+      "Anchor": "#retrieve-an-inspection-web-report-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InitiateAuditExport",
+      "Name": "Export an audit report (legacy)",
+      "Description": "Submit an export request for an audit into the format passed as a query parameter.",
+      "Anchor": "#export-an-audit-report-(legacy)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InitiateInspectionExport",
+      "Name": "Export an inspection report",
+      "Description": "Submit an export request for an inspection report in the selected format.",
+      "Anchor": "#export-an-inspection-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PollExportStatus",
+      "Name": "Check the status of the export request submitted earlier (legacy)",
+      "Description": "Check whether the download report submitted earlier is ready for download.",
+      "Anchor": "#check-the-status-of-the-export-request-submitted-earlier-(legacy)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PollInspectionExportStatus",
+      "Name": "Check inspection export status",
+      "Description": "Check the inspection export status.",
+      "Anchor": "#check-inspection-export-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchActions",
+      "Name": "Search actions",
+      "Description": "Find actions related based upon their status, priority, assignees, item, inspection and more.",
+      "Anchor": "#search-actions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchAudits",
+      "Name": "Search modified inspections",
+      "Description": "Retrieve the list of inspections filtered by dates, template, completion status and more.",
+      "Anchor": "#search-modified-inspections",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateAction",
+      "Name": "Update an action",
+      "Description": "Update an existing action",
+      "Anchor": "#update-an-action",
+      "IsDeprecated": false
+    }
+  ]
+}

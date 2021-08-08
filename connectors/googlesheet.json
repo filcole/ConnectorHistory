@@ -1,0 +1,48 @@
+{
+  "UniqueName": "googlesheet",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../googlesheet/",
+  "Actions": [
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete Row",
+      "Description": "This operation is used to retrieve a row from a Google Sheet.",
+      "Anchor": "#delete-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get row",
+      "Description": "This operation retrieves a single row from a Google Sheet.",
+      "Anchor": "#get-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get rows",
+      "Description": "This operation retrieves the records from a specific Google Sheet.",
+      "Anchor": "#get-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get sheets",
+      "Description": "Retrieves sheet names from a Google Sheet file",
+      "Anchor": "#get-sheets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update row",
+      "Description": "This operation updates a row in a Google Sheet.",
+      "Anchor": "#update-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Insert row",
+      "Description": "This operation is used to insert a new row in a Google Sheet.",
+      "Anchor": "#insert-row",
+      "IsDeprecated": false
+    }
+  ]
+}

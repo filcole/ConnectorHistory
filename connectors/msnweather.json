@@ -1,0 +1,41 @@
+{
+  "UniqueName": "msnweather",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../msnweather/",
+  "Actions": [
+    {
+      "OperationId": "CurrentWeather",
+      "Name": "Get current weather",
+      "Description": "Get the current weather for a location.",
+      "Anchor": "#get-current-weather",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnCurrentConditionsChange",
+      "Name": "When the current conditions change",
+      "Description": "Triggers a new flow when the conditions change for a location.",
+      "Anchor": "#when-the-current-conditions-change",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnCurrentWeatherChange",
+      "Name": "When the current weather changes",
+      "Description": "Triggers a new flow when the specified weather measure changes for a location.",
+      "Anchor": "#when-the-current-weather-changes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TodaysForecast",
+      "Name": "Get forecast for today",
+      "Description": "Get the forecast for the current day in the specified location.",
+      "Anchor": "#get-forecast-for-today",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TomorrowsForecast",
+      "Name": "Get the forecast for tomorrow",
+      "Description": "Get the forecast for tomorrow in the specified location.",
+      "Anchor": "#get-the-forecast-for-tomorrow",
+      "IsDeprecated": false
+    }
+  ]
+}

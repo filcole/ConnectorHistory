@@ -1,0 +1,62 @@
+{
+  "UniqueName": "dynamicsnavision",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamicsnavision/",
+  "Actions": [
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete item",
+      "Description": "Deletes a DynamicsNavision item",
+      "Anchor": "#delete-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get item",
+      "Description": "Retrieves a DynamicsNavision item",
+      "Anchor": "#get-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnDeletedItems",
+      "Name": "When a record is deleted [DEPRECATED]",
+      "Description": "Triggers a flow when a record is deleted in Dynamics NAV",
+      "Anchor": "#when-a-record-is-deleted-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetOnNewItems",
+      "Name": "When a record is created [DEPRECATED]",
+      "Description": "Triggers a flow when a record is created in Dynamics NAV",
+      "Anchor": "#when-a-record-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetOnUpdatedItems",
+      "Name": "When a record is modified [DEPRECATED]",
+      "Description": "Triggers a flow when a record is modified in Dynamics NAV",
+      "Anchor": "#when-a-record-is-modified-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get item types",
+      "Description": "Retrieves Dynamics NAV item types",
+      "Anchor": "#get-item-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update item",
+      "Description": "Updates an existing DynamicsNavision item",
+      "Anchor": "#update-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Create item",
+      "Description": "Creates a DynamicsNavision item",
+      "Anchor": "#create-item",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UniqueName": "rescocloud",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rescocloud/",
+  "Actions": [
+    {
+      "OperationId": "Record-Create",
+      "Name": "Create a new record",
+      "Description": "Create a new record",
+      "Anchor": "#create-a-new-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Record-Delete",
+      "Name": "Delete record",
+      "Description": "Delete record by ID",
+      "Anchor": "#delete-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Record-Get",
+      "Name": "Get record",
+      "Description": "Get record by ID",
+      "Anchor": "#get-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Record-List",
+      "Name": "List records",
+      "Description": "Get list of records",
+      "Anchor": "#list-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Record-Update",
+      "Name": "Update a record",
+      "Description": "Update record by ID",
+      "Anchor": "#update-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "User-Get",
+      "Name": "Get current user",
+      "Description": "Get current user record by ID",
+      "Anchor": "#get-current-user",
+      "IsDeprecated": false
+    }
+  ]
+}

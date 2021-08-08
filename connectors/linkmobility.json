@@ -1,0 +1,13 @@
+{
+  "UniqueName": "linkmobility",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../linkmobility/",
+  "Actions": [
+    {
+      "OperationId": "Sendsms",
+      "Name": "Send SMS",
+      "Description": "Send an SMS Message",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    }
+  ]
+}

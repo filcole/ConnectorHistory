@@ -1,0 +1,27 @@
+{
+  "UniqueName": "aweber",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aweber/",
+  "Actions": [
+    {
+      "OperationId": "CreateSubscriber",
+      "Name": "Add subscriber",
+      "Description": "This operation is used to add a contact to an existing list.",
+      "Anchor": "#add-subscriber",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListLists",
+      "Name": "Get all lists",
+      "Description": "This operation returns a list of all mailing lists associated with your AWeber account.",
+      "Anchor": "#get-all-lists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnsubscribeEmail",
+      "Name": "Remove subscriber",
+      "Description": "This operation is used to remove an email from a mailing list.",
+      "Anchor": "#remove-subscriber",
+      "IsDeprecated": false
+    }
+  ]
+}

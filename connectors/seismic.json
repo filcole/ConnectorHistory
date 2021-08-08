@@ -1,0 +1,118 @@
+{
+  "UniqueName": "seismic",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../seismic/",
+  "Actions": [
+    {
+      "OperationId": "CreateFile",
+      "Name": "Add a File [Workspace]",
+      "Description": "Adds a new file using a multi-part POST containing the file's metadata and the file contents. Using a multipart/form-data body, send body parts named 'metadata' and 'content'. The metadata should be a JSON object. The content part should contain the bytes of the file.",
+      "Anchor": "#add-a-file-[workspace]",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateLibraryFile",
+      "Name": "Add a File [Library]",
+      "Description": "Adds a new file using a multipart/form-data POST containing the file's metadata and the file contents. The metadata part includes required properties such as the name, format, and parentFolderId, but can also include any properties documented in the PATCH /files/:libraryContentId operation. Use the special keyword &quot;root&quot; to add files to the root folder of a teamsite. The content part includes the file's binary content to be uploaded.",
+      "Anchor": "#add-a-file-[library]",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkspaceContextualFolder",
+      "Name": "Add or get a contextual folder [Workspace]",
+      "Description": "Creates a contextual folder or gets the workspaceContentId for a contextual folder if it already exists. These contextual folders are identified by the combination of systemType, contextType, contextTypePlural, and contextId.\n\nCaution: Folders Cannot be Deleted!\nAny folders created with this API cannot be deleted including the folder for the systemType, contextTypePlural, and contextId, so take extreme caution when using this endpoint.  Any typo in any of these fields will yield invalid non-removable folders.  Each of the values is case sensitive.",
+      "Anchor": "#add-or-get-a-contextual-folder-[workspace]",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkspaceFolder",
+      "Name": "Add a folder [Workspace]",
+      "Description": "Adds a new workspace folder inside a given folder. Use the special keywork &quot;root&quot; as the parentFolderId to create a new folder in the user's root.",
+      "Anchor": "#add-a-folder-[workspace]",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateAsync",
+      "Name": "Generate a LiveDoc",
+      "Description": "This is where you start a generation, with all the necessary options. Each of the desired outputs must be specified in the &quot;outputs&quot; array. If you do not specify any outputs, this endpoint will return a 4xx error. Note: Generated outputs are only available for download for 24 hours from time of generation\nBODY PARAMETER DEFINITIONS\nADHOCINPUTS\nSingle variables are represented as an object such as:\n\n{&quot;name&quot; : &quot;field name here&quot;, &quot;value&quot; : &quot;the value to pass in&quot;}\n\nAdhoc tables are represented as an object with columns and a set of rows such as:\n\n{ &quot;name&quot;: &quot;adhoc_4&quot;, &quot;value&quot;: { &quot;columns&quot;: [&quot;StrCol&quot;, &quot;IntCol&quot;], &quot;rows&quot;: [[&quot;hello&quot;, 1], [&quot;goodbye&quot;, 2]] }\n\nOUTPUTS\n\nimageDpi for PPT and DOC can be set to 0, 96, 120, 144, 200, 300, 400. When set to 0, we will use placeholders rather than rasterized images in place of dynamic images.\nlayout for PDF can be set to Full Page Slides or Notes Pages to produce slides or note pages\nopenPassword specifies the password required to open the PDF, if not provided, it will default to no password\nownerPassword specifies the password required to open the PDF as an edit mode owner, if not provided, it will default to no password",
+      "Anchor": "#generate-a-livedoc",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGeneratedLiveDocContent",
+      "Name": "Download LiveDoc output",
+      "Description": "This is where you can download a particular generated output such as a PPTX, DOCX, PDF, or XLSX. This endpoint also supports the\nspecial keywords of &quot;pptx&quot;, &quot;docx&quot;, &quot;pdf&quot; as special aliases of the generatedOutputId such that you do not need to first get the generatedOutputId\nin order to use this endpoint.",
+      "Anchor": "#download-livedoc-output",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGenerationResultAsync",
+      "Name": "Get status of LiveDoc generation",
+      "Description": "This is where you get the status for a generation process, it will give you the overall status for all underlying steps, but will also provide\na breakdown for the readiness of the underlying assets. For example if you just want the PPTX, you may be able to download that before the PDF is done rendering.",
+      "Anchor": "#get-status-of-livedoc-generation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get item details [Workspace]",
+      "Description": "Get details for any item type in Workspace",
+      "Anchor": "#get-item-details-[workspace]",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItemInformation",
+      "Name": "Get item details [Library]",
+      "Description": "Get details for any item type in Library",
+      "Anchor": "#get-item-details-[library]",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLiveDocInputParams",
+      "Name": "Get list of inputs for LiveDoc",
+      "Description": "Gets the list of adHoc inputs required to generate a LiveDoc. Each input has a name and type in the following format: {&quot;name&quot;: &quot;variable_name_here&quot;, &quot;type&quot;: &quot;string&quot;}",
+      "Anchor": "#get-list-of-inputs-for-livedoc",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPredictiveContentResultSet",
+      "Name": "Get predictive content",
+      "Description": "Gets the list of predictive content for a given predictive content setting for the currently authenticated user. In the case of predictive content which is dynamically grouped or inherits its hierarchy from the parent DocCenter folder, the hierarchy is provided in the hierarchy object with levels represented sequentially in the array. It is up to the UI to render the hierarchy.",
+      "Anchor": "#get-predictive-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTeamsitesAsync",
+      "Name": "Get teamsites",
+      "Description": "Provides the full list of teamsites in a tenant, regardless of user access.",
+      "Anchor": "#get-teamsites",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserDetails",
+      "Name": "Get user details",
+      "Description": "Get the user details for the specified id",
+      "Anchor": "#get-user-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWorkspaceFolderItems",
+      "Name": "Get items in a folder [Workspace]",
+      "Description": "Gets a list of items (file, folder, url, etc) in a parent folder.",
+      "Anchor": "#get-items-in-a-folder-[workspace]",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublishLibraryItems",
+      "Name": "Publish one or more documents [Library]",
+      "Description": "This endpoint can be used to immediately promote and publish content, or schedule publish of content for a future date for any number of unpublished documents.\nThe content list is a list of library content. The publish endpoint will always publish the latest version of the document, taking it from a draft to a published document.",
+      "Anchor": "#publish-one-or-more-documents-[library]",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubmitLibraryItemToWorkflow",
+      "Name": "Submit a document into workflow [Library]",
+      "Description": "Submit a document into workflow",
+      "Anchor": "#submit-a-document-into-workflow-[library]",
+      "IsDeprecated": false
+    }
+  ]
+}

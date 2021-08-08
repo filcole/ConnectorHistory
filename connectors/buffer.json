@@ -1,0 +1,34 @@
+{
+  "UniqueName": "buffer",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../buffer/",
+  "Actions": [
+    {
+      "OperationId": "CreateUpdate",
+      "Name": "Create an update",
+      "Description": "Create an update for a specific profile.",
+      "Anchor": "#create-an-update",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShareUpdate",
+      "Name": "Share an update",
+      "Description": "Share a pending update.",
+      "Anchor": "#share-an-update",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigPendingUpdates",
+      "Name": "When an update is pending",
+      "Description": "Triggers a new flow When an update is pending.",
+      "Anchor": "#when-an-update-is-pending",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigSentUpdates",
+      "Name": "When an update is shared",
+      "Description": "Triggers a new flow When an update is shared.",
+      "Anchor": "#when-an-update-is-shared",
+      "IsDeprecated": false
+    }
+  ]
+}

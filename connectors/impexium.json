@@ -1,0 +1,111 @@
+{
+  "UniqueName": "impexium",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../impexium/",
+  "Actions": [
+    {
+      "OperationId": "Add-Activity",
+      "Name": "Add Activity",
+      "Description": "Add Activity.",
+      "Anchor": "#add-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Individual",
+      "Name": "Add Individual",
+      "Description": "Adds an Individual.",
+      "Anchor": "#add-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Organization",
+      "Name": "Add Organization",
+      "Description": "Add Organization.",
+      "Anchor": "#add-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-relationship-to-individual",
+      "Name": "Add Relationship to Individual",
+      "Description": "Add Relationship to Individual.",
+      "Anchor": "#add-relationship-to-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-To-Committee",
+      "Name": "Add Individual to Committee",
+      "Description": "Add Individual to Committee.",
+      "Anchor": "#add-individual-to-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find-Customer-Phone",
+      "Name": "Find Customer by Phone Number",
+      "Description": "Find Customer by Phone Number.",
+      "Anchor": "#find-customer-by-phone-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find-Individual-IDOrEmail",
+      "Name": "Find Individual by Id or Email or Record Number",
+      "Description": "Find Individual by Id or Email.",
+      "Anchor": "#find-individual-by-id-or-email-or-record-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-custom-field-value",
+      "Name": "Update Custom Field Value",
+      "Description": "Update Custom Field Value.",
+      "Anchor": "#update-custom-field-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-Organization",
+      "Name": "Update Organization",
+      "Description": "Update Organization",
+      "Anchor": "#update-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Committee-Member-Updated",
+      "Name": "When committee member is updated",
+      "Description": "Triggers when a individual is added, deleted or updated to/from a commiteee.",
+      "Anchor": "#when-committee-member-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Email-Updated",
+      "Name": "When customer email is updated",
+      "Description": "Triggers when an email is added/edited or deleted.",
+      "Anchor": "#when-customer-email-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Individual-Created",
+      "Name": "When an individual is created",
+      "Description": "Triggers when an individual is created.",
+      "Anchor": "#when-an-individual-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-product-purchased",
+      "Name": "When product is purchased",
+      "Description": "Triggers when a product is purchased. Supported Product Types: Course, Event (Sessions are included), Exam, Fund, Membership, Merchandise and Publication.",
+      "Anchor": "#when-product-is-purchased",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-purchase-cancelled",
+      "Name": "When purchase is cancelled",
+      "Description": "Triggers when a purchase is cancelled. Supported Product Types: Course, Event (Sessions are included), Exam, Fund, Membership, Merchandise, Publication.",
+      "Anchor": "#when-purchase-is-cancelled",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Request-Updated",
+      "Name": "When customer request is updated",
+      "Description": "Triggers when a customer request is added or closed.",
+      "Anchor": "#when-customer-request-is-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

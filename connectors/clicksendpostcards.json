@@ -1,0 +1,20 @@
+{
+  "UniqueName": "clicksendpostcards",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../clicksendpostcards/",
+  "Actions": [
+    {
+      "OperationId": "send_postcard",
+      "Name": "Send Postcard",
+      "Description": "Send one or more postcards",
+      "Anchor": "#send-postcard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "upload_media",
+      "Name": "Convert Media File for Postcards",
+      "Description": "Convert Media File for Postcards",
+      "Anchor": "#convert-media-file-for-postcards",
+      "IsDeprecated": false
+    }
+  ]
+}

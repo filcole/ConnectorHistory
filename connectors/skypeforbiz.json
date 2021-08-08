@@ -1,0 +1,20 @@
+{
+  "UniqueName": "skypeforbiz",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../skypeforbiz/",
+  "Actions": [
+    {
+      "OperationId": "CreateMeeting",
+      "Name": "Create an online meeting [DEPRECATED]",
+      "Description": "Create an online meeting",
+      "Anchor": "#create-an-online-meeting-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "Send an instant message [DEPRECATED]",
+      "Description": "Send an instant message",
+      "Anchor": "#send-an-instant-message-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

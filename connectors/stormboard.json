@@ -1,0 +1,55 @@
+{
+  "UniqueName": "stormboard",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../stormboard/",
+  "Actions": [
+    {
+      "OperationId": "CommentCreated",
+      "Name": "Comment Created",
+      "Description": "Trigger when an new comment was posted on an idea.",
+      "Anchor": "#comment-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateIdea",
+      "Name": "Create an Idea",
+      "Description": "Creates a new Idea in an existing Storm.",
+      "Anchor": "#create-an-idea",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateStorm",
+      "Name": "Create a Storm",
+      "Description": "Creates a new Storm.",
+      "Anchor": "#create-a-storm",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IdeaCreated",
+      "Name": "Idea Created",
+      "Description": "Trigger when an idea was added to a storm.",
+      "Anchor": "#idea-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IdeaDeleted",
+      "Name": "Idea Deleted",
+      "Description": "Trigger when an idea was delete from a storm.",
+      "Anchor": "#idea-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IdeaSection",
+      "Name": "Idea Moved",
+      "Description": "Trigger when an idea was moved to a different section of a storm.",
+      "Anchor": "#idea-moved",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LegendChange",
+      "Name": "Legend Change",
+      "Description": "Legend Change",
+      "Anchor": "#legend-change",
+      "IsDeprecated": false
+    }
+  ]
+}

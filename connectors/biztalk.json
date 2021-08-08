@@ -1,0 +1,27 @@
+{
+  "UniqueName": "biztalk",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../biztalk/",
+  "Actions": [
+    {
+      "OperationId": "EncodeJson",
+      "Name": "Prepare message from JSON",
+      "Description": "Prepare message from JSON.",
+      "Anchor": "#prepare-message-from-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EncodeXml",
+      "Name": "Prepare message from XML",
+      "Description": "Prepare message from XML.",
+      "Anchor": "#prepare-message-from-xml",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Send",
+      "Name": "Send message",
+      "Description": "Send message.",
+      "Anchor": "#send-message",
+      "IsDeprecated": false
+    }
+  ]
+}

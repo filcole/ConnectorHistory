@@ -1,0 +1,69 @@
+{
+  "UniqueName": "elasticocr",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../elasticocr/",
+  "Actions": [
+    {
+      "OperationId": "CompleteJob",
+      "Name": "Complete a job [DEPRECATED]",
+      "Description": "Marks a job as complete after successful retrieval of the processed file.",
+      "Anchor": "#complete-a-job-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateJobWithFile",
+      "Name": "Create a job with a file [DEPRECATED]",
+      "Description": "Create an ElasticOCR job for a supplied binary file.",
+      "Anchor": "#create-a-job-with-a-file-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateJobWithoutFile",
+      "Name": "Create a job without a file [DEPRECATED]",
+      "Description": "Create an ElasticOCR job without supplying a file; supply a file later using [PUT] /v{version}/jobs/{jobId}.",
+      "Anchor": "#create-a-job-without-a-file-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DeleteJob",
+      "Name": "Delete a job [DEPRECATED]",
+      "Description": "Delete an ElasticOCR job before it begins processing. Only jobs with a status of Pending or Uploaded may be\ndeleted.",
+      "Anchor": "#delete-a-job-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DownloadJob",
+      "Name": "Download a job [DEPRECATED]",
+      "Description": "Downloads an available job's processed file.",
+      "Anchor": "#download-a-job-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetJob",
+      "Name": "Retrieve a job [DEPRECATED]",
+      "Description": "Retrieve a specific job.",
+      "Anchor": "#retrieve-a-job-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetJobs",
+      "Name": "Get all jobs [DEPRECATED]",
+      "Description": "Retrieve all jobs and their current statuses. By default, a maximum of 1,000 jobs are returned.",
+      "Anchor": "#get-all-jobs-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetLicense",
+      "Name": "Retrieve a license [DEPRECATED]",
+      "Description": "Validate a license and identify the associated processing region.",
+      "Anchor": "#retrieve-a-license-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateJobWithFile",
+      "Name": "Update an existing job with a file [DEPRECATED]",
+      "Description": "Add a file to an existing ElasticOCR job. Only jobs with a status of Pending may be updated.",
+      "Anchor": "#update-an-existing-job-with-a-file-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

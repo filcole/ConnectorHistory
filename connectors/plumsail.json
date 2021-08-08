@@ -1,0 +1,216 @@
+{
+  "UniqueName": "plumsail",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../plumsail/",
+  "Actions": [
+    {
+      "OperationId": "FlowV1DocumentsJobsAddWatermarkToPdfPost",
+      "Name": "Add a watermark to PDF",
+      "Description": "Adds a text watermark to PDF",
+      "Anchor": "#add-a-watermark-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsApplyDocxPost",
+      "Name": "Fill merge fields in DOCX document",
+      "Description": "It takes a DOCX document with merge fields and replaces them by specified data. The keys in data object should be the same as names of MergeFields (Express block) in document",
+      "Anchor": "#fill-merge-fields-in-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsApplyDocxTemplatePost",
+      "Name": "Create DOCX document from template",
+      "Description": "Created Word DOCX document from template. More information: https://plumsail.com/docs/actions/v1.x/document-generation/docx/index.html",
+      "Anchor": "#create-docx-document-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsApplyHtmlPost",
+      "Name": "Create HTML from template",
+      "Description": "It takes input HTML template string or file and replaces special {{Tokens}} by specified data. We use Mustache framework for templates internally. More information about templates in Mustache docs: http://mustache.github.io/mustache.5.html",
+      "Anchor": "#create-html-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsApplyPptxPost",
+      "Name": "Create PPTX document from template",
+      "Description": "Created PowerPoint PPTX document from template.",
+      "Anchor": "#create-pptx-document-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsApplyXlsxTemplatePost",
+      "Name": "Create XLSX document from template",
+      "Description": "Created Excel XLSX document from template. More information:  https://plumsail.com/docs/actions/v1.x/document-generation/xlsx/index.html",
+      "Anchor": "#create-xlsx-document-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsCompressPdfPost",
+      "Name": "Compress PDF document",
+      "Description": "Compress pdf document size if possible",
+      "Anchor": "#compress-pdf-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsCsv2XlsxPost",
+      "Name": "Csv to Excel",
+      "Description": "Converts CSV file to Excel",
+      "Anchor": "#csv-to-excel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsDoc2DocxPost",
+      "Name": "Convert DOC to DOCX",
+      "Description": "It takes DOC document and converts it to DOCX",
+      "Anchor": "#convert-doc-to-docx",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsDocx2PdfPost",
+      "Name": "Convert DOCX to PDF",
+      "Description": "It takes DOCX document and converts it to PDF",
+      "Anchor": "#convert-docx-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsExtractTextFromPdfPost",
+      "Name": "Extract text from PDF document",
+      "Description": "It takes PDF document and extracts text to Raw or HTML format",
+      "Anchor": "#extract-text-from-pdf-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsFillInPdfFormPost",
+      "Name": "Fill in PDF Form",
+      "Description": "Filling out PDF form by provided data",
+      "Anchor": "#fill-in-pdf-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsGetPdfFormPost",
+      "Name": "Get Form from PDF",
+      "Description": "Returns fillable form data from PDF as JSON",
+      "Anchor": "#get-form-from-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsGetPdfProtectionInfoPost",
+      "Name": "Get information about PDF protection",
+      "Description": "Returns information whether the document is password protected",
+      "Anchor": "#get-information-about-pdf-protection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsHtml2PdfPost",
+      "Name": "Convert HTML to PDF",
+      "Description": "It takes HTML markup, renders it and converts to PDF document",
+      "Anchor": "#convert-html-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsMergeDocxPost",
+      "Name": "Merge Docx",
+      "Description": "It takes an array of Docx documents and merge it into single file",
+      "Anchor": "#merge-docx",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsMergePdfPost",
+      "Name": "Merge PDF",
+      "Description": "It takes an array of PDF documents and merge it",
+      "Anchor": "#merge-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsParseCsvPost",
+      "Name": "Parse CSV",
+      "Description": "It works like Parse JSON but for CSV file",
+      "Anchor": "#parse-csv",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsPdf2ImagePost",
+      "Name": "Convert PDF to Image",
+      "Description": "It takes PDF document and converts it to Image (jpeg, png, gif, bmp)",
+      "Anchor": "#convert-pdf-to-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsPpt2PptxPost",
+      "Name": "Convert PPT to PPTX",
+      "Description": "It takes PPT document and converts it to PPTX",
+      "Anchor": "#convert-ppt-to-pptx",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsPptx2PdfPost",
+      "Name": "Convert PPTX to PDF",
+      "Description": "It takes PPTX document and converts it to PDF",
+      "Anchor": "#convert-pptx-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsProtectPdfPost",
+      "Name": "Protect PDF document",
+      "Description": "Adds passwords, copy-, printing-, and other protections to PDF file",
+      "Anchor": "#protect-pdf-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsRegExpMatchPost",
+      "Name": "Regular Expression Match",
+      "Description": "Searches an input string for all occurrences of a regular expression and returns all the matches. We would recommend you to use Regex Hero to test your expressions. It supports the same syntax as actions",
+      "Anchor": "#regular-expression-match",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsRegExpReplacePost",
+      "Name": "Regular Expression Replace",
+      "Description": "In a specified input string, replaces all strings that match a regular expression pattern with a specified replacement string. We would recommend you to use Regex Hero to test your expressions. It supports the same syntax as actions",
+      "Anchor": "#regular-expression-replace",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsRegExpTestPost",
+      "Name": "Regular Expression Test",
+      "Description": "Indicates whether the regular expression specified in the Regex constructor finds a match in a specified input string. We would recommend you to use Regex Hero to test your expressions. It supports the same syntax as actions",
+      "Anchor": "#regular-expression-test",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsSplitPdfPost",
+      "Name": "Split PDF",
+      "Description": "It takes PDF document and split it",
+      "Anchor": "#split-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsXls2XlsxPost",
+      "Name": "Convert XLS to XLSX",
+      "Description": "It takes XLS document and converts it to XLSX",
+      "Anchor": "#convert-xls-to-xlsx",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1DocumentsJobsXslx2PdfPost",
+      "Name": "Convert XLSX to PDF",
+      "Description": "It takes XLSX document and converts it to PDF",
+      "Anchor": "#convert-xlsx-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1ProcessesFlowJobsExecuteProcessPost",
+      "Name": "Start document generation process",
+      "Description": "Fill a template related to the selected process with the JSON data",
+      "Anchor": "#start-document-generation-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1ProcessesFlowTriggersPost",
+      "Name": "Triggers when a process is finished",
+      "Description": "Creates a webhook that runs when the process is finished",
+      "Anchor": "#triggers-when-a-process-is-finished",
+      "IsDeprecated": false
+    }
+  ]
+}

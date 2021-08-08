@@ -1,0 +1,76 @@
+{
+  "UniqueName": "livechat",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../livechat/",
+  "Actions": [
+    {
+      "OperationId": "CreateAgent",
+      "Name": "Create a new agent",
+      "Description": "This operation is used to add a new agent to your LiveChat account.",
+      "Anchor": "#create-a-new-agent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTicket",
+      "Name": "Create a new ticket",
+      "Description": "This operation is used to add a new ticket to your LiveChat account.",
+      "Anchor": "#create-a-new-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteAgent",
+      "Name": "Remove an agent",
+      "Description": "This operation is used to delete an agent from your LiveChat account.",
+      "Anchor": "#remove-an-agent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTicket",
+      "Name": "Get ticket",
+      "Description": "This operation is used to fetch the details of a specific ticket in your LiveChat account.",
+      "Anchor": "#get-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAgents",
+      "Name": "List agents",
+      "Description": "This operation returns a list of all the agents in your LiveChat account.",
+      "Anchor": "#list-agents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTickets",
+      "Name": "List tickets",
+      "Description": "This operation returns a list of tickets in your LiveChat account.",
+      "Anchor": "#list-tickets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTicket",
+      "Name": "Update ticket",
+      "Description": "This operation is used to update the details of an existing ticket in your LiveChat account.",
+      "Anchor": "#update-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookChatEnded",
+      "Name": "When a chat ends",
+      "Description": "This operation triggers when a chat ends.",
+      "Anchor": "#when-a-chat-ends",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookChatStarted",
+      "Name": "When a chat starts",
+      "Description": "This operation triggers when new a chat starts.",
+      "Anchor": "#when-a-chat-starts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookTicketCreated",
+      "Name": "When a ticket is created",
+      "Description": "This operation triggers when a new ticket is added.",
+      "Anchor": "#when-a-ticket-is-created",
+      "IsDeprecated": false
+    }
+  ]
+}

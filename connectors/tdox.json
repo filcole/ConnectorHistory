@@ -1,0 +1,27 @@
+{
+  "UniqueName": "tdox",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tdox/",
+  "Actions": [
+    {
+      "OperationId": "CustomerImport",
+      "Name": "Customer Import",
+      "Description": "Customer Import",
+      "Anchor": "#customer-import",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListImport",
+      "Name": "List Import",
+      "Description": "List Import",
+      "Anchor": "#list-import",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProductImport",
+      "Name": "Product Import",
+      "Description": "Product Import",
+      "Anchor": "#product-import",
+      "IsDeprecated": false
+    }
+  ]
+}

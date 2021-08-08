@@ -1,0 +1,48 @@
+{
+  "UniqueName": "powerbi",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../powerbi/",
+  "Actions": [
+    {
+      "OperationId": "AddRows",
+      "Name": "Add rows to a dataset",
+      "Description": "Use Power BI REST API to add rows to a dataset.",
+      "Anchor": "#add-rows-to-a-dataset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CheckAlertStatus",
+      "Name": "When a data driven alert is triggered",
+      "Description": "Return the details of the specified data driven alert from Power BI when the alert triggered.",
+      "Anchor": "#when-a-data-driven-alert-is-triggered",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InitiateExportToFileForPaginatedReports",
+      "Name": "Export To File for Paginated Reports",
+      "Description": "Use Power BI Rest API to inititate export for paginated reports",
+      "Anchor": "#export-to-file-for-paginated-reports",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InitiateExportToFileForPbiReports",
+      "Name": "Export To File for Power BI Reports",
+      "Description": "Use Power BI Rest API to inititate export for Power BI reports",
+      "Anchor": "#export-to-file-for-power-bi-reports",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PowerBiButtonClicked",
+      "Name": "Power BI button clicked",
+      "Description": "This trigger allows you to run a flow when a Power BI button is clicked. (Available only for Power Automate.)",
+      "Anchor": "#power-bi-button-clicked",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RefreshDataset",
+      "Name": "Refresh a dataset",
+      "Description": "Use Power BI REST API to refresh a powerbi dataset.",
+      "Anchor": "#refresh-a-dataset",
+      "IsDeprecated": false
+    }
+  ]
+}

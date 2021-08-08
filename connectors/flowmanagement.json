@@ -1,0 +1,153 @@
+{
+  "UniqueName": "flowmanagement",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../flowmanagement/",
+  "Actions": [
+    {
+      "OperationId": "AdminGetFlow",
+      "Name": "Get Flow as Admin",
+      "Description": "Get the given flow from an environment you have admin access to.",
+      "Anchor": "#get-flow-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AdminModifyFlowOwners",
+      "Name": "Modify Flow Owners as Admin",
+      "Description": "Modify owners of the given flow created in an environment you have admin access to.",
+      "Anchor": "#modify-flow-owners-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConnection",
+      "Name": "Create Connection",
+      "Description": "Create a connection for the given connector in an environment.",
+      "Anchor": "#create-connection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFlow",
+      "Name": "Create Flow",
+      "Description": "Create flow",
+      "Anchor": "#create-flow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFlow",
+      "Name": "Delete Flow",
+      "Description": "Delete the given flow in an environment",
+      "Anchor": "#delete-flow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetApi",
+      "Name": "Get Connector",
+      "Description": "Get the given connector in an environment.",
+      "Anchor": "#get-connector",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFlow",
+      "Name": "Get Flow",
+      "Description": "Get the given flow in an environment.",
+      "Anchor": "#get-flow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListApis",
+      "Name": "List Connectors",
+      "Description": "Lists all of the connectors available in the given environment. This list will include custom connectors as well as the built-in connectors.",
+      "Anchor": "#list-connectors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCallbackUrl",
+      "Name": "List Callback URL",
+      "Description": "List callback URL for the given flow in an environment.",
+      "Anchor": "#list-callback-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConnections",
+      "Name": "List My Connections",
+      "Description": "Lists all your connection available in the given environment.",
+      "Anchor": "#list-my-connections",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFlowOwners",
+      "Name": "List Flow Owners",
+      "Description": "List all owners of the given flow in an environment.",
+      "Anchor": "#list-flow-owners",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFlowsInEnvironment",
+      "Name": "List Flows as Admin",
+      "Description": "List all flows in the given environment you have admin access to.",
+      "Anchor": "#list-flows-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFlowUsers",
+      "Name": "List Flow Run-Only Users",
+      "Description": "List all run only users of the given flow in an environment.",
+      "Anchor": "#list-flow-run-only-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListMyFlows",
+      "Name": "List My Flows",
+      "Description": "List all flows you created in the given environment.",
+      "Anchor": "#list-my-flows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListUserEnvironments",
+      "Name": "List My Environments",
+      "Description": "List the environments you have access to.",
+      "Anchor": "#list-my-environments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ModifyFlowOwners",
+      "Name": "Modify Flow Owners",
+      "Description": "Modify owners of the given flow in an environment.",
+      "Anchor": "#modify-flow-owners",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ModifyRunOnlyUsers",
+      "Name": "Modify Run-Only Users",
+      "Description": "Modify run-only users of the given flow in an environment.",
+      "Anchor": "#modify-run-only-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResubmitFlow",
+      "Name": "Resubmit Flow",
+      "Description": "Resubmit the given flow run in an environment.",
+      "Anchor": "#resubmit-flow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartFlow",
+      "Name": "Turn On Flow",
+      "Description": "Start the given flow in an environment.",
+      "Anchor": "#turn-on-flow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StopFlow",
+      "Name": "Turn Off Flow",
+      "Description": "Stop the given flow in an environment.",
+      "Anchor": "#turn-off-flow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFlow",
+      "Name": "Update Flow",
+      "Description": "Update the given flow in an environment.",
+      "Anchor": "#update-flow",
+      "IsDeprecated": false
+    }
+  ]
+}

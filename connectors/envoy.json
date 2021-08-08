@@ -1,0 +1,90 @@
+{
+  "UniqueName": "envoy",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../envoy/",
+  "Actions": [
+    {
+      "OperationId": "addBlockListFilter",
+      "Name": "Add blocklist filter",
+      "Description": "POST request to add a blocklist filter",
+      "Anchor": "#add-blocklist-filter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "addInvite",
+      "Name": "Create Invites",
+      "Description": "This is the POST request to create an invite",
+      "Anchor": "#create-invites",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getblockListFilters",
+      "Name": "Get blocklist filters",
+      "Description": "GET request to retrieve block list filters.",
+      "Anchor": "#get-blocklist-filters",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getCompanyInfo",
+      "Name": "Get company info",
+      "Description": "Retrieve information around the company (GET)",
+      "Anchor": "#get-company-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getEmployee",
+      "Name": "Get list of employees",
+      "Description": "GET request to retrieve the employees list",
+      "Anchor": "#get-list-of-employees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getEntryInfoByID",
+      "Name": "Get one Entry",
+      "Description": "GET request to retrieve information about a single Entry.",
+      "Anchor": "#get-one-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getFlowsInfo",
+      "Name": "Get flows",
+      "Description": "GET request to retrieve information around the flows for your location.",
+      "Anchor": "#get-flows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getInviteByID",
+      "Name": "Get one Invite",
+      "Description": "GET request to retrieve information about a single Invite.",
+      "Anchor": "#get-one-invite",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getInviteInfo",
+      "Name": "Get invites",
+      "Description": "GET request to retrieve Invite information based on filtering.",
+      "Anchor": "#get-invites",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getLocationInfo",
+      "Name": "Get locations",
+      "Description": "GET request for retrieving Locations",
+      "Anchor": "#get-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InviteCreated",
+      "Name": "Invite-Created Trigger",
+      "Description": "Trigger an action in MS Flow when an Envoy Invite is created.",
+      "Anchor": "#invite-created-trigger",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "updateInvite",
+      "Name": "Update one Invite",
+      "Description": "PATCH request to update an Invite's information.",
+      "Anchor": "#update-one-invite",
+      "IsDeprecated": false
+    }
+  ]
+}

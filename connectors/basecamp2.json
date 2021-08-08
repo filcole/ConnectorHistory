@@ -1,0 +1,55 @@
+{
+  "UniqueName": "basecamp2",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../basecamp2/",
+  "Actions": [
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create Document",
+      "Description": "Create a new document.",
+      "Anchor": "#create-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEvent",
+      "Name": "Create an event",
+      "Description": "Create a new scheduled event in a project.",
+      "Anchor": "#create-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateToDo",
+      "Name": "Create a to-do",
+      "Description": "Add a to-do to a to-do list.",
+      "Anchor": "#create-a-to-do",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnDocumentCreated",
+      "Name": "When a document is created",
+      "Description": "Trigger a flow when there is a new document in a project.",
+      "Anchor": "#when-a-document-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnEventCreated",
+      "Name": "When an event is created",
+      "Description": "Trigger a flow when there is a new event.",
+      "Anchor": "#when-an-event-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnToDoCreated",
+      "Name": "When a to-do is created",
+      "Description": "Trigger a flow when there is a new to-do.",
+      "Anchor": "#when-a-to-do-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostMessage",
+      "Name": "Post a message",
+      "Description": "Create a new message in a project.",
+      "Anchor": "#post-a-message",
+      "IsDeprecated": false
+    }
+  ]
+}

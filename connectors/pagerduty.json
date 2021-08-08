@@ -1,0 +1,104 @@
+{
+  "UniqueName": "pagerduty",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pagerduty/",
+  "Actions": [
+    {
+      "OperationId": "AcknowledgeIncident",
+      "Name": "Acknowledge incident",
+      "Description": "Acknowledge a given incident.",
+      "Anchor": "#acknowledge-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddNoteToIncident",
+      "Name": "Add note to incident",
+      "Description": "Add note to a given incident.",
+      "Anchor": "#add-note-to-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateIncident",
+      "Name": "Create incident",
+      "Description": "Creates a new incident for a given service identifiable by the integration key.",
+      "Anchor": "#create-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EscalateIncident",
+      "Name": "Escalate incident",
+      "Description": "Use a given escalation policy on an incident.",
+      "Anchor": "#escalate-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIncidentByKey",
+      "Name": "Get incident",
+      "Description": "Retrieves incident object by incident key.",
+      "Anchor": "#get-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user by ID",
+      "Description": "Retrieves the user's information for a given ID.",
+      "Anchor": "#get-user-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnIncidentAcknowledged",
+      "Name": "When an incident is acknowledged",
+      "Description": "Triggers when an existing incident is acknowledged.",
+      "Anchor": "#when-an-incident-is-acknowledged",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnIncidentAssigned",
+      "Name": "When an incident is assigned to a user",
+      "Description": "Triggers when an incident is assigned to the given user.",
+      "Anchor": "#when-an-incident-is-assigned-to-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnIncidentResolved",
+      "Name": "When an incident is resolved",
+      "Description": "Triggers when an existing incident is resolved.",
+      "Anchor": "#when-an-incident-is-resolved",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewIncidentCreated",
+      "Name": "When an incident is created",
+      "Description": "Triggers when a new incident is created.",
+      "Anchor": "#when-an-incident-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewIncidentNote",
+      "Name": "When a note is added",
+      "Description": "Triggers when a note is added to the given incident.",
+      "Anchor": "#when-a-note-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReassignIncident",
+      "Name": "Reassign incident",
+      "Description": "Reassign a given incident.",
+      "Anchor": "#reassign-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResolveIncident",
+      "Name": "Resolve incident",
+      "Description": "Mark a given incident as resolved.",
+      "Anchor": "#resolve-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SnoozeIncident",
+      "Name": "Snooze incident",
+      "Description": "Snooze a given incident by a certain time.",
+      "Anchor": "#snooze-incident",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "UniqueName": "easyvistaselfhelp",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../easyvistaselfhelp/",
+  "Actions": [
+    {
+      "OperationId": "Execute",
+      "Name": "Execute",
+      "Description": "Start a procedure without user interaction",
+      "Anchor": "#execute",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPausedProcedureList",
+      "Name": "Get paused procedure list",
+      "Description": "Get paused procedure list",
+      "Anchor": "#get-paused-procedure-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProcedureList",
+      "Name": "Get procedure list",
+      "Description": "Get procedure list",
+      "Anchor": "#get-procedure-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProjectList",
+      "Name": "Get project list",
+      "Description": "Get project list",
+      "Anchor": "#get-project-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get User",
+      "Description": "Retrieve information from the logged in user",
+      "Anchor": "#get-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Login",
+      "Name": "Login",
+      "Description": "Log in to an EasyVista Self Help session",
+      "Anchor": "#login",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Search",
+      "Name": "Search",
+      "Description": "Search a keyword in one or more projects",
+      "Anchor": "#search",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "UniqueName": "dynamicssmbonprem",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamicssmbonprem/",
+  "Actions": [
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete item",
+      "Description": "Deletes a Dynamics 365 Business Central (on-premises) item",
+      "Anchor": "#delete-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get item",
+      "Description": "Retrieves a Dynamics 365 Business Central (on-premises) item",
+      "Anchor": "#get-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get item types",
+      "Description": "Retrieves Dynamics 365 Business Central (on-premises) item types",
+      "Anchor": "#get-item-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update item",
+      "Description": "Updates an existing Dynamics 365 Business Central (on-premises) item",
+      "Anchor": "#update-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Create item",
+      "Description": "Creates a Dynamics 365 Business Central (on-premises) item",
+      "Anchor": "#create-item",
+      "IsDeprecated": false
+    }
+  ]
+}

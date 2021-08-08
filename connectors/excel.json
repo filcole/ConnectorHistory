@@ -1,0 +1,48 @@
+{
+  "UniqueName": "excel",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../excel/",
+  "Actions": [
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete row",
+      "Description": "Deletes a row from an Excel table",
+      "Anchor": "#delete-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get row",
+      "Description": "Retrieves a single row from an Excel table",
+      "Anchor": "#get-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get rows",
+      "Description": "Retrieves rows from an Excel table",
+      "Anchor": "#get-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get tables",
+      "Description": "Retrieves table names from an Excel file",
+      "Anchor": "#get-tables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update row",
+      "Description": "Updates an existing row in an Excel table",
+      "Anchor": "#update-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Insert row",
+      "Description": "Inserts a new row into an Excel table",
+      "Anchor": "#insert-row",
+      "IsDeprecated": false
+    }
+  ]
+}

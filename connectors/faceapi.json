@@ -1,0 +1,83 @@
+{
+  "UniqueName": "faceapi",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../faceapi/",
+  "Actions": [
+    {
+      "OperationId": "AddFaceToFaceList",
+      "Name": "Add face to face list",
+      "Description": "Add face to face list.",
+      "Anchor": "#add-face-to-face-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddPersonFace",
+      "Name": "Add a person face",
+      "Description": "Add a representative face to a person for identification.",
+      "Anchor": "#add-a-person-face",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFaceList",
+      "Name": "Create a face list",
+      "Description": "Create an empty face list with user-specified faceListId, name and an optional userData.",
+      "Anchor": "#create-a-face-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePerson",
+      "Name": "Create a person",
+      "Description": "Create a new person in a specified person group.",
+      "Anchor": "#create-a-person",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePersonGroup",
+      "Name": "Create a person group",
+      "Description": "Create a new person group with specified personGroupId, name and user-provided userData.",
+      "Anchor": "#create-a-person-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Detect",
+      "Name": "Detect faces",
+      "Description": "Detect human faces in an image and returns face locations, and optionally with faceIds, landmarks, and attributes.",
+      "Anchor": "#detect-faces",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFaceList",
+      "Name": "Get a face list",
+      "Description": "Retrieve a face list's information, including faceListId, name, userData and faces in the face list.",
+      "Anchor": "#get-a-face-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPerson",
+      "Name": "Get a person",
+      "Description": "Retrieve a person's information, including registered persisted faces, name and userData.",
+      "Anchor": "#get-a-person",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPersonFace",
+      "Name": "Get a person face",
+      "Description": "Retrieve information about a persisted face specified by persistedFaceId, personId and its belonging personGroupId.",
+      "Anchor": "#get-a-person-face",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPersonGroup",
+      "Name": "Get a person group",
+      "Description": "Retrieve the information of a person group, including its name and userData.",
+      "Anchor": "#get-a-person-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Verify",
+      "Name": "Find person from face",
+      "Description": "Verify whether two faces belong to a same person or whether one face belongs to a person.",
+      "Anchor": "#find-person-from-face",
+      "IsDeprecated": false
+    }
+  ]
+}

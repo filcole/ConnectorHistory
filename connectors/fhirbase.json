@@ -1,0 +1,510 @@
+{
+  "UniqueName": "fhirbase",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../fhirbase/",
+  "Actions": [
+    {
+      "OperationId": "DELETE_Appointment_ID",
+      "Name": "Delete Appointment ID",
+      "Description": "A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).",
+      "Anchor": "#delete-appointment-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_AppointmentResponse_ID",
+      "Name": "Delete AppointmentResponse ID",
+      "Description": "A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.",
+      "Anchor": "#delete-appointmentresponse-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_Device_ID",
+      "Name": "Delete Device ID",
+      "Description": "A type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.",
+      "Anchor": "#delete-device-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_Encounter_ID",
+      "Name": "Delete Encounter ID",
+      "Description": "An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.",
+      "Anchor": "#delete-encounter-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_Flag_ID",
+      "Name": "DELETE Flag ID",
+      "Description": "Prospective warnings of potential issues when providing care to the patient.",
+      "Anchor": "#delete-flag-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_Location_ID",
+      "Name": "Delete Location ID",
+      "Description": "Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated.",
+      "Anchor": "#delete-location-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_Patient_ID",
+      "Name": "Delete Patient ID",
+      "Description": "Demographics and other administrative information about an individual or animal receiving care or other health-related services.",
+      "Anchor": "#delete-patient-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_Person_ID",
+      "Name": "Delete Person ID",
+      "Description": "Demographics and administrative information about a person independent of a specific health-related context.",
+      "Anchor": "#delete-person-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_Practitioner_ID",
+      "Name": "Delete Practitioner ID",
+      "Description": "A person who is directly or indirectly involved in the provisioning of healthcare.",
+      "Anchor": "#delete-practitioner-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Appointment",
+      "Name": "Get Appointment",
+      "Description": "A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).",
+      "Anchor": "#get-appointment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Appointment_History",
+      "Name": "Get Appointment History",
+      "Description": "A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.",
+      "Anchor": "#get-appointment-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Appointment_History",
+      "Name": "Get Appointment History",
+      "Description": "A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).",
+      "Anchor": "#get-appointment-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Appointment_ID",
+      "Name": "Get Appointment ID",
+      "Description": "A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).",
+      "Anchor": "#get-appointment-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Appointment_ID_VERSION",
+      "Name": "Get Appointment ID History",
+      "Description": "A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).",
+      "Anchor": "#get-appointment-id-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Appointment_ID_VERSION",
+      "Name": "Get Appointment ID History",
+      "Description": "A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).",
+      "Anchor": "#get-appointment-id-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_AppointmentResponse",
+      "Name": "Appointment Response",
+      "Description": "A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.",
+      "Anchor": "#appointment-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_AppointmentResponse_History",
+      "Name": "Get Appointment Response History",
+      "Description": "A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.",
+      "Anchor": "#get-appointment-response-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_AppointmentResponse_ID",
+      "Name": "Post Appointment Response ID",
+      "Description": "A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.",
+      "Anchor": "#post-appointment-response-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_AppointmentResponse_ID_Version",
+      "Name": "Get AppointmentResponse ID Version",
+      "Description": "A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.",
+      "Anchor": "#get-appointmentresponse-id-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Device",
+      "Name": "Get Device",
+      "Description": "A type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.",
+      "Anchor": "#get-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Device_HISTORY",
+      "Name": "Get Device History",
+      "Description": "A type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.",
+      "Anchor": "#get-device-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Device_ID",
+      "Name": "Get Device ID",
+      "Description": "A type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.",
+      "Anchor": "#get-device-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Device_ID_HISTORY",
+      "Name": "Get Device ID History",
+      "Description": "A type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.",
+      "Anchor": "#get-device-id-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Device_ID_VERSION",
+      "Name": "Get Device ID Version",
+      "Description": "A type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.",
+      "Anchor": "#get-device-id-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Encounter",
+      "Name": "Get Encounter",
+      "Description": "An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.",
+      "Anchor": "#get-encounter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Encounter_HISTORY",
+      "Name": "Get Enouncter History",
+      "Description": "An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.",
+      "Anchor": "#get-enouncter-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Encounter_ID",
+      "Name": "Get Encounter ID",
+      "Description": "An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.",
+      "Anchor": "#get-encounter-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Encounter_ID_HISTORY",
+      "Name": "Get Encounter ID History",
+      "Description": "An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.",
+      "Anchor": "#get-encounter-id-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Encounter_ID_Version",
+      "Name": "Get Encounter ID Version",
+      "Description": "An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.",
+      "Anchor": "#get-encounter-id-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Flag",
+      "Name": "Get Flag",
+      "Description": "Prospective warnings of potential issues when providing care to the patient.",
+      "Anchor": "#get-flag",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Flag_HISTORY",
+      "Name": "Get Flag History",
+      "Description": "Prospective warnings of potential issues when providing care to the patient.",
+      "Anchor": "#get-flag-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Flag_ID",
+      "Name": "Get Flag ID",
+      "Description": "Prospective warnings of potential issues when providing care to the patient.",
+      "Anchor": "#get-flag-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Flag_ID_History",
+      "Name": "Get Flag ID History",
+      "Description": "Prospective warnings of potential issues when providing care to the patient.",
+      "Anchor": "#get-flag-id-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Flag_ID_Version",
+      "Name": "Get Flag ID Version",
+      "Description": "Prospective warnings of potential issues when providing care to the patient.",
+      "Anchor": "#get-flag-id-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Location",
+      "Name": "Get Location",
+      "Description": "Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated.",
+      "Anchor": "#get-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Location_History",
+      "Name": "Get Location History",
+      "Description": "Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated.",
+      "Anchor": "#get-location-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Location_ID",
+      "Name": "Get Location ID",
+      "Description": "Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated.",
+      "Anchor": "#get-location-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Location_ID_History",
+      "Name": "Get Location ID History",
+      "Description": "Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated.",
+      "Anchor": "#get-location-id-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Location_ID_Version",
+      "Name": "Get Location Version",
+      "Description": "Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated.",
+      "Anchor": "#get-location-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Patient",
+      "Name": "Get Patient",
+      "Description": "Demographics and other administrative information about an individual or animal receiving care or other health-related services.",
+      "Anchor": "#get-patient",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Patient_History",
+      "Name": "Get Patient History",
+      "Description": "Demographics and other administrative information about an individual or animal receiving care or other health-related services.",
+      "Anchor": "#get-patient-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Patient_ID",
+      "Name": "Get Patient ID",
+      "Description": "Demographics and other administrative information about an individual or animal receiving care or other health-related services.",
+      "Anchor": "#get-patient-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Patient_ID_History",
+      "Name": "Get Patient ID History",
+      "Description": "Demographics and other administrative information about an individual or animal receiving care or other health-related services.",
+      "Anchor": "#get-patient-id-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Patient_ID_Version",
+      "Name": "Get Patient ID Version",
+      "Description": "Demographics and other administrative information about an individual or animal receiving care or other health-related services.",
+      "Anchor": "#get-patient-id-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Person",
+      "Name": "Get Person",
+      "Description": "Demographics and administrative information about a person independent of a specific health-related context.",
+      "Anchor": "#get-person",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Person_History",
+      "Name": "Get Person History",
+      "Description": "Demographics and administrative information about a person independent of a specific health-related context.",
+      "Anchor": "#get-person-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Person_ID",
+      "Name": "Get Person ID",
+      "Description": "Demographics and administrative information about a person independent of a specific health-related context.",
+      "Anchor": "#get-person-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Person_ID_History",
+      "Name": "Get Person ID History",
+      "Description": "Demographics and administrative information about a person independent of a specific health-related context.",
+      "Anchor": "#get-person-id-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Person_ID_Version",
+      "Name": "Get Person ID Version",
+      "Description": "Demographics and administrative information about a person independent of a specific health-related context.",
+      "Anchor": "#get-person-id-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Practitioner",
+      "Name": "Get Practitioner",
+      "Description": "A person who is directly or indirectly involved in the provisioning of healthcare.",
+      "Anchor": "#get-practitioner",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Practitioner_History",
+      "Name": "Get Practitioner History",
+      "Description": "A person who is directly or indirectly involved in the provisioning of healthcare.",
+      "Anchor": "#get-practitioner-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Practitioner_ID",
+      "Name": "Get Practitioner ID",
+      "Description": "A person who is directly or indirectly involved in the provisioning of healthcare.",
+      "Anchor": "#get-practitioner-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Practitioner_ID_History",
+      "Name": "Get Pracitioner ID History",
+      "Description": "A person who is directly or indirectly involved in the provisioning of healthcare.",
+      "Anchor": "#get-pracitioner-id-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Practitioner_ID_Version",
+      "Name": "Get Practitioner ID Version",
+      "Description": "A person who is directly or indirectly involved in the provisioning of healthcare.",
+      "Anchor": "#get-practitioner-id-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_Appointment",
+      "Name": "Post Appointment",
+      "Description": "A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).",
+      "Anchor": "#post-appointment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_AppointmentResponse",
+      "Name": "Post Appointment Response",
+      "Description": "A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.",
+      "Anchor": "#post-appointment-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_Device",
+      "Name": "Post Device",
+      "Description": "A type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.",
+      "Anchor": "#post-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_Encounter",
+      "Name": "Post Encounter",
+      "Description": "An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.",
+      "Anchor": "#post-encounter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_FLAG",
+      "Name": "Post Flag",
+      "Description": "Prospective warnings of potential issues when providing care to the patient.",
+      "Anchor": "#post-flag",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_Location",
+      "Name": "Post Location",
+      "Description": "Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated.",
+      "Anchor": "#post-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_Patient",
+      "Name": "Post Patient",
+      "Description": "Demographics and other administrative information about an individual or animal receiving care or other health-related services.",
+      "Anchor": "#post-patient",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_Person",
+      "Name": "Post Person",
+      "Description": "Demographics and administrative information about a person independent of a specific health-related context.",
+      "Anchor": "#post-person",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_Practitioner",
+      "Name": "Post Practitioner",
+      "Description": "A person who is directly or indirectly involved in the provisioning of healthcare.",
+      "Anchor": "#post-practitioner",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Appointment_ID",
+      "Name": "Put Appointment ID",
+      "Description": "A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).",
+      "Anchor": "#put-appointment-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_AppointmentResponse_ID",
+      "Name": "Put AppointmentResponse ID",
+      "Description": "A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.",
+      "Anchor": "#put-appointmentresponse-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Device_ID",
+      "Name": "Put Device ID",
+      "Description": "A type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.",
+      "Anchor": "#put-device-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Encounter_ID",
+      "Name": "Put Encounter ID",
+      "Description": "An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.",
+      "Anchor": "#put-encounter-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Flag_ID",
+      "Name": "Put Flag ID",
+      "Description": "Prospective warnings of potential issues when providing care to the patient.",
+      "Anchor": "#put-flag-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Location_ID",
+      "Name": "Put Location ID",
+      "Description": "Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated.",
+      "Anchor": "#put-location-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Patient_ID",
+      "Name": "Put Patient ID",
+      "Description": "Demographics and other administrative information about an individual or animal receiving care or other health-related services.",
+      "Anchor": "#put-patient-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Person_ID",
+      "Name": "Put Person ID",
+      "Description": "Demographics and administrative information about a person independent of a specific health-related context.",
+      "Anchor": "#put-person-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Practitioner_ID",
+      "Name": "Put Practitioner ID",
+      "Description": "A person who is directly or indirectly involved in the provisioning of healthcare.",
+      "Anchor": "#put-practitioner-id",
+      "IsDeprecated": false
+    }
+  ]
+}

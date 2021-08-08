@@ -1,0 +1,111 @@
+{
+  "UniqueName": "assentlyesign",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../assentlyesign/",
+  "Actions": [
+    {
+      "OperationId": "CaseEventTrigger",
+      "Name": "Case trigger event",
+      "Description": "Trigger when:",
+      "Anchor": "#case-trigger-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCase",
+      "Name": "Create a case",
+      "Description": "Create a new Case",
+      "Anchor": "#create-a-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCaseFromTemplate",
+      "Name": "Create Case from Template",
+      "Description": "Create Case from Template",
+      "Anchor": "#create-case-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteCase",
+      "Name": "Delete a Case",
+      "Description": "Case is deleted permanently. If the case is sent, it will be recalled prior to deletion.",
+      "Anchor": "#delete-a-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindCases",
+      "Name": "Find and list Cases",
+      "Description": "Finds and Lists cases based upon the input parameters. More info at https://app.assently.com/api#Findandlistcases",
+      "Anchor": "#find-and-list-cases",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindTemplates",
+      "Name": "Find and list templates",
+      "Description": "Finds and Lists templates based upon the input parameters. More info at https://app.assently.com/api#Findandlisttemplates",
+      "Anchor": "#find-and-list-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCase",
+      "Name": "Get a Case",
+      "Description": "Get a Case by its CaseId",
+      "Anchor": "#get-a-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCaseByTemporaryId",
+      "Name": "Get a case by temporary id",
+      "Description": "Gets a case by its temporaryId. A temporary id is a 4+ digit number that is only valid for 24 hours.",
+      "Anchor": "#get-a-case-by-temporary-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileOfCase",
+      "Name": "Get file content of a Case Document",
+      "Description": "Gets file of a case by caseId and documentId",
+      "Anchor": "#get-file-content-of-a-case-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecallCase",
+      "Name": "Recall a case",
+      "Description": "If the case is sent, it will be recalled. Finished cases cannot be recalled.",
+      "Anchor": "#recall-a-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemindCase",
+      "Name": "Send a reminder",
+      "Description": "Sends reminders to all parties that have not yet signed. If signing order is enforced, only the next party in turn will be reminded.",
+      "Anchor": "#send-a-reminder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RequestApproval",
+      "Name": "Request Approval to send",
+      "Description": "Used when a case is set to require approval before sent. Sends a request to approver stakeholders to approve and send the case. Approvals are requested in the name of the API user.",
+      "Anchor": "#request-approval-to-send",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendCase",
+      "Name": "Send a Case",
+      "Description": "Changes the status of the case to Sent, making it available for signing. In order to send a case the parameters Parties, Documents and AllowedSignatureTypes must be specified on the case. If notifications are enabled, parties will be notified.",
+      "Anchor": "#send-a-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateCase",
+      "Name": "Update a Case",
+      "Description": "Updates properties and collections of a case. It is recommended to use GetCase action before making an update. Collections: missing items will be removed, others updated or added. Documents collection: Only filename and formfields can be changed. To modify size, hash or data, the document must be removed first and a new document (with a new id) must be added.",
+      "Anchor": "#update-a-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateCaseMetadata",
+      "Name": "Update Case Metadata",
+      "Description": "Allows updating metadata regardless of the case status. Existing metadata will be replaced with new metadata. Metadata cannot be complex objects.",
+      "Anchor": "#update-case-metadata",
+      "IsDeprecated": false
+    }
+  ]
+}

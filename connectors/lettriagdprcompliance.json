@@ -1,0 +1,13 @@
+{
+  "UniqueName": "lettriagdprcompliance",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../lettriagdprcompliance/",
+  "Actions": [
+    {
+      "OperationId": "Analyze",
+      "Name": "Analyze GDPR Compliance",
+      "Description": "Lettria GDPR Compliance analyzes all the text data within your Microsoft apps and raises GDPR non-compliance issues.",
+      "Anchor": "#analyze-gdpr-compliance",
+      "IsDeprecated": false
+    }
+  ]
+}

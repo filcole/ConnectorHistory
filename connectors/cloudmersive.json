@@ -1,0 +1,20 @@
+{
+  "UniqueName": "cloudmersive",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudmersive/",
+  "Actions": [
+    {
+      "OperationId": "Scan_File",
+      "Name": "Scan a file for viruses",
+      "Description": "Scan files and content for viruses. Leverage continuously updated signatures for millions of threats, and advanced high-performance scanning capabilities.  Over 5 million virus and malware signatures.  Continuous cloud-based updates.  Wide file format support including Office, PDF, HTML, Flash.  Zip support including .Zip, .Rar, .DMG, .Tar, and other archive formats.  Multi-threat scanning across viruses, malware, trojans, ransomware, and spyware.  High-speed in-memory scanning delivers subsecond typical response time.",
+      "Anchor": "#scan-a-file-for-viruses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Scan_Website",
+      "Name": "Scan a website for malicious content and threats",
+      "Description": "Operation includes scanning the content of the URL for various types of malicious content and threats, including viruses and threats (including Phishing).",
+      "Anchor": "#scan-a-website-for-malicious-content-and-threats",
+      "IsDeprecated": false
+    }
+  ]
+}

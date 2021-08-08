@@ -1,0 +1,111 @@
+{
+  "UniqueName": "customerinsights",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../customerinsights/",
+  "Actions": [
+    {
+      "OperationId": "GetItem",
+      "Name": "Get item",
+      "Description": "This operation gets an item from an entity",
+      "Anchor": "#get-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get items from an entity",
+      "Description": "This operation gets items from an entity",
+      "Anchor": "#get-items-from-an-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnBusinessMeasureUpdated",
+      "Name": "Triggers a flow when a business measure threshold is crossed",
+      "Description": "This operation triggers a flow when a business measure threshold is crossed in Dynamics 365 Customer Insights.",
+      "Anchor": "#triggers-a-flow-when-a-business-measure-threshold-is-crossed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnDataSourceRefreshComplete",
+      "Name": "Endpoint for notifications from the data source when refresh is completed",
+      "Description": "Endpoint for notifications from the data source when refresh is completed.",
+      "Anchor": "#endpoint-for-notifications-from-the-data-source-when-refresh-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnDataSourceRefreshFail",
+      "Name": "Endpoint for notifications from the data source when refresh is failed",
+      "Description": "Endpoint for notifications from the data source when refresh is failed.",
+      "Anchor": "#endpoint-for-notifications-from-the-data-source-when-refresh-is-failed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnFullDagRefreshCompleted",
+      "Name": "Triggers a flow when a full refresh of Customer Insights is completed",
+      "Description": "This operation triggers a flow when a full refresh of Customer Insights (data sources, segments, measures,...) is completed.",
+      "Anchor": "#triggers-a-flow-when-a-full-refresh-of-customer-insights-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnProcessCompleted",
+      "Name": "Triggers a flow when a process in Customer Insights is completed",
+      "Description": "A flow is triggered for scheduled refreshes of selected process. Additionally, you can choose to trigger a flow for manual refreshes.",
+      "Anchor": "#triggers-a-flow-when-a-process-in-customer-insights-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnSegmentUpdated",
+      "Name": "Triggers a flow when a segment threshold is crossed",
+      "Description": "This operation triggers a flow when a segment threshold is crossed in Dynamics 365 Customer Insights.",
+      "Anchor": "#triggers-a-flow-when-a-segment-threshold-is-crossed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPartitionData",
+      "Name": "Retrieve data from a partition (Preview)",
+      "Description": "Retrieve data from a partition.",
+      "Anchor": "#retrieve-data-from-a-partition-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPartitions",
+      "Name": "Retrieve partitions for an entity (Preview)",
+      "Description": "Retrieve partitions for an entity.",
+      "Anchor": "#retrieve-partitions-for-an-entity-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPartitionsV2",
+      "Name": "Retrieve partitions for an entity V2 (Preview)",
+      "Description": "Retrieve partitions for an entity V2.",
+      "Anchor": "#retrieve-partitions-for-an-entity-v2-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get entities",
+      "Description": "This operation gets entities from an instance",
+      "Anchor": "#get-entities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update item (Preview)",
+      "Description": "This operation updates an item on an entity",
+      "Anchor": "#update-item-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Create item (Preview)",
+      "Description": "This operation creates an item on an entity",
+      "Anchor": "#create-item-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendStatusReport",
+      "Name": "Sends the status report",
+      "Description": "Sends the status report.",
+      "Anchor": "#sends-the-status-report",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "UniqueName": "blockchaincorda",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blockchaincorda/",
+  "Actions": [
+    {
+      "OperationId": "CreateContractActionRequest",
+      "Name": "Create Contract Action message [DEPRECATED]",
+      "Description": "Create Contract Action message.",
+      "Anchor": "#create-contract-action-message-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateContractReadRequest",
+      "Name": "Read state [DEPRECATED]",
+      "Description": "Read state.",
+      "Anchor": "#read-state-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateContractRequest",
+      "Name": "Create Contract message [DEPRECATED]",
+      "Description": "Create Contract message.",
+      "Anchor": "#create-contract-message-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ParseContractFunctionInvocationResponse",
+      "Name": "Parse the contract function invocation response [DEPRECATED]",
+      "Description": "Parse the contract function invocation response.",
+      "Anchor": "#parse-the-contract-function-invocation-response-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ParseContractMessageResponse",
+      "Name": "Parse the contract message response [DEPRECATED]",
+      "Description": "Parse the contract message response.",
+      "Anchor": "#parse-the-contract-message-response-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ParseCreateContractActionResponse",
+      "Name": "Parse the create contract action response [DEPRECATED]",
+      "Description": "Parse the create contract action response.",
+      "Anchor": "#parse-the-create-contract-action-response-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ParseCreateContractActionUpdateResponse",
+      "Name": "Parse the create contract action update response [DEPRECATED]",
+      "Description": "Parse the create contract action update response.",
+      "Anchor": "#parse-the-create-contract-action-update-response-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ParseCreateContractResponse",
+      "Name": "Parse the create contract response [DEPRECATED]",
+      "Description": "Parse the create contract response.",
+      "Anchor": "#parse-the-create-contract-response-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ParseCreateContractUpdateResponse",
+      "Name": "Parse the create contract update response [DEPRECATED]",
+      "Description": "Parse the create contract update response.",
+      "Anchor": "#parse-the-create-contract-update-response-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ParseMessageTypeResponse",
+      "Name": "Parse message type from the response [DEPRECATED]",
+      "Description": "Parse message type from the response.",
+      "Anchor": "#parse-message-type-from-the-response-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

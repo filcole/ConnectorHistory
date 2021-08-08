@@ -1,0 +1,69 @@
+{
+  "UniqueName": "hotprofile",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hotprofile/",
+  "Actions": [
+    {
+      "OperationId": "Action_create_business_card",
+      "Name": "Register a business card",
+      "Description": "Register a business card in HotProfile",
+      "Anchor": "#register-a-business-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Action_create_client",
+      "Name": "Register a client",
+      "Description": "Register a client to HotProfile",
+      "Anchor": "#register-a-client",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Action_create_lead",
+      "Name": "Register a lead",
+      "Description": "Register a lead to HotProfile",
+      "Anchor": "#register-a-lead",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Action_get_business_cards",
+      "Name": "Get business cards",
+      "Description": "Get business cards registered in HotProfile",
+      "Anchor": "#get-business-cards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Action_get_clients",
+      "Name": "Get clients",
+      "Description": "Get clients registered in HotProfile",
+      "Anchor": "#get-clients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Action_get_leads",
+      "Name": "Get leads",
+      "Description": "Get leads registered in HotProfile",
+      "Anchor": "#get-leads",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Action_update_business_card",
+      "Name": "Update a business card",
+      "Description": "Update a business card in HotProfile",
+      "Anchor": "#update-a-business-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Action_update_client",
+      "Name": "Update a client",
+      "Description": "Update a client in HotProfile",
+      "Anchor": "#update-a-client",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Action_update_lead",
+      "Name": "Update a lead",
+      "Description": "Update a lead in HotProfile",
+      "Anchor": "#update-a-lead",
+      "IsDeprecated": false
+    }
+  ]
+}

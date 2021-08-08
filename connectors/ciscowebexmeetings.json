@@ -1,0 +1,13 @@
+{
+  "UniqueName": "ciscowebexmeetings",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ciscowebexmeetings/",
+  "Actions": [
+    {
+      "OperationId": "NewMeeting",
+      "Name": "Schedule a meeting",
+      "Description": "This operation is used to schedule a meeting",
+      "Anchor": "#schedule-a-meeting",
+      "IsDeprecated": false
+    }
+  ]
+}

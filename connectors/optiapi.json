@@ -1,0 +1,167 @@
+{
+  "UniqueName": "optiapi",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../optiapi/",
+  "Actions": [
+    {
+      "OperationId": "AddOrSubtractFromTimeOrDates",
+      "Name": "Add or subtract from time or dates",
+      "Description": "Manipulate datetime by adding or subtracting values.",
+      "Anchor": "#add-or-subtract-from-time-or-dates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateAverage",
+      "Name": "Calculate average",
+      "Description": "Calculates the average value of a given key.",
+      "Anchor": "#calculate-average",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CheckIfArrayContainAValue",
+      "Name": "Check if array contain a value",
+      "Description": "Determines whether the array contains a given item.",
+      "Anchor": "#check-if-array-contain-a-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChunkAnArray",
+      "Name": "Chunk an array",
+      "Description": "Break an array down into chunks.",
+      "Anchor": "#chunk-an-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CombineArray",
+      "Name": "Combine array",
+      "Description": "Combine the keys of one array with the values of another array.",
+      "Anchor": "#combine-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CombineMultiplePdfFiles",
+      "Name": "Combine multiple PDF files",
+      "Description": "Combine multiple PDF files into one.",
+      "Anchor": "#combine-multiple-pdf-files",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertAPdfFileToText",
+      "Name": "Convert a PDF file to text",
+      "Description": "Converts a PDF file to text.",
+      "Anchor": "#convert-a-pdf-file-to-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertAStringToADatetimeObject",
+      "Name": "Convert a string to a datetime object",
+      "Description": "Transform a string to a valid datetime format.",
+      "Anchor": "#convert-a-string-to-a-datetime-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterAnArray",
+      "Name": "Filter an array for false values",
+      "Description": "This action removes false entries from an array.",
+      "Anchor": "#filter-an-array-for-false-values",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDifferenceBetweenArrays",
+      "Name": "Find difference between arrays",
+      "Description": "This action compares an array against another array.",
+      "Anchor": "#find-difference-between-arrays",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDuplicatesInArrays",
+      "Name": "Find duplicates in arrays",
+      "Description": "This action retrieves and returns duplicate values from an array.",
+      "Anchor": "#find-duplicates-in-arrays",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindValuesFromAStringBasedOnARegularExpression",
+      "Name": "Find values from a string based on a regular expression",
+      "Description": "Find one or more values in a string.",
+      "Anchor": "#find-values-from-a-string-based-on-a-regular-expression",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FirstWhereWithinAnArray",
+      "Name": "First Where within an array",
+      "Description": "This action returns the first element in an array with the given key / value pair.",
+      "Anchor": "#first-where-within-an-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlattenAnArray",
+      "Name": "Flatten an array",
+      "Description": "This action flattens a multi-dimensional array into a single dimension array.",
+      "Anchor": "#flatten-an-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPdfMetadataInformation",
+      "Name": "Get PDF metadata information",
+      "Description": "Get metadata from a PDF file.",
+      "Anchor": "#get-pdf-metadata-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUniqueItemsInAnArray",
+      "Name": "Get unique items in an array",
+      "Description": "The action returns all of the unique items in an array.",
+      "Anchor": "#get-unique-items-in-an-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupByAnArrayKey",
+      "Name": "Group By an array key",
+      "Description": "This action groups an array's items by a given key.",
+      "Anchor": "#group-by-an-array-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PerformOcrOnAScannedPdfOrImageFile",
+      "Name": "Perform OCR on a scanned PDF or image file",
+      "Description": "Replaces a string with another word.",
+      "Anchor": "#perform-ocr-on-a-scanned-pdf-or-image-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveItemFromArray",
+      "Name": "Remove item from array",
+      "Description": "Removes an item from an array by its key value.",
+      "Anchor": "#remove-item-from-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplaceTextInString",
+      "Name": "Replace text in string",
+      "Description": "Replace one or more words with another word.",
+      "Anchor": "#replace-text-in-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplaceTextInStringBasedOnARegularExpression",
+      "Name": "Replace text in string based on a regular expression",
+      "Description": "Replace one or more words with another word, based on a regular expression.",
+      "Anchor": "#replace-text-in-string-based-on-a-regular-expression",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetPasswordOnAPdfFile",
+      "Name": "Set password on a PDF file",
+      "Description": "Dynamically sets a custom password on a PDF file.",
+      "Anchor": "#set-password-on-a-pdf-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SortAnArray",
+      "Name": "Sort an array",
+      "Description": "Sort an array from high to low or from descending to ascending.",
+      "Anchor": "#sort-an-array",
+      "IsDeprecated": false
+    }
+  ]
+}

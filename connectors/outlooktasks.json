@@ -1,0 +1,223 @@
+{
+  "UniqueName": "outlooktasks",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../outlooktasks/",
+  "Actions": [
+    {
+      "OperationId": "CompleteTask",
+      "Name": "Complete a task",
+      "Description": "This operation marks the given task as complete.",
+      "Anchor": "#complete-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompleteTask_V2",
+      "Name": "Complete a task (Preview)",
+      "Description": "Completes a task and sets the CompletedDateTime property to the current date, and Status property to Completed.",
+      "Anchor": "#complete-a-task-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create a task [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a task instead.\nThis operation is used to create a task in the specified task folder (defaults to My Tasks).",
+      "Anchor": "#create-a-task-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateTask_V3",
+      "Name": "Create a task (Preview)",
+      "Description": "This operation creates a new task in the default task folder (Tasks) in your mailbox.",
+      "Anchor": "#create-a-task-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTaskFolder",
+      "Name": "Create a task folder",
+      "Description": "This operation creates a new folder. Optionally, you may choose to put the new folder in an existing task group.",
+      "Anchor": "#create-a-task-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTaskFolder_V2",
+      "Name": "Create a task folder (Preview)",
+      "Description": "This operation creates a new task folder in the default task group (My Tasks) in your mailbox.",
+      "Anchor": "#create-a-task-folder-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTaskFolderInGroup_V2",
+      "Name": "Create a task folder in a task group (Preview)",
+      "Description": "This operation creates a new task folder in the specified task group in your mailbox.",
+      "Anchor": "#create-a-task-folder-in-a-task-group-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTaskGroup",
+      "Name": "Create a task group",
+      "Description": "This operation is used to create a new task group in your mailbox.",
+      "Anchor": "#create-a-task-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTaskGroup_V2",
+      "Name": "Create a task group (Preview)",
+      "Description": "This operation creates a new task group in your mailbox.",
+      "Anchor": "#create-a-task-group-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTaskInFolder_V3",
+      "Name": "Create a task in folder (Preview)",
+      "Description": "This operation creates a new task in the specified task folder in your mailbox.",
+      "Anchor": "#create-a-task-in-folder-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTaskV2",
+      "Name": "Create a task (V2)",
+      "Description": "This operation is used to create a task in the specified task folder (defaults to My Tasks).",
+      "Anchor": "#create-a-task-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTask_V1",
+      "Name": "Delete a task (Preview)",
+      "Description": "This operation will delete an existing task.",
+      "Anchor": "#delete-a-task-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllTaskFolders_V2",
+      "Name": "List all task folders (Preview)",
+      "Description": "Returns a list of all the task folders in your mailbox.",
+      "Anchor": "#list-all-task-folders-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllTaskGroups_V2",
+      "Name": "List all task groups (Preview)",
+      "Description": "Returns a list of all the task groups in your mailbox.",
+      "Anchor": "#list-all-task-groups-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllTasks",
+      "Name": "List all tasks",
+      "Description": "This operation returns a list of all your tasks.",
+      "Anchor": "#list-all-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllTasks_V2",
+      "Name": "List all tasks (Preview)",
+      "Description": "Returns a list of all your tasks in your mailbox.",
+      "Anchor": "#list-all-tasks-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTask",
+      "Name": "Get a task",
+      "Description": "This operation is used to retrieve the details of a task by its id.",
+      "Anchor": "#get-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTask_V2",
+      "Name": "Get a task (Preview)",
+      "Description": "This operation gets a specific task.",
+      "Anchor": "#get-a-task-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTaskFolder",
+      "Name": "Get a task folder (Preview)",
+      "Description": "This operation gets a specific task folder.",
+      "Anchor": "#get-a-task-folder-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTaskFolders",
+      "Name": "List task folders in group",
+      "Description": "Returns a list of task folders in the given task group.",
+      "Anchor": "#list-task-folders-in-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTaskFoldersInGroup_V2",
+      "Name": "List task folders in group (Preview)",
+      "Description": "Returns a list of all the task folders in the specified task group in your mailbox.",
+      "Anchor": "#list-task-folders-in-group-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTaskGroup_V1",
+      "Name": "Get a task group (Preview)",
+      "Description": "This operation gets a specific task group.",
+      "Anchor": "#get-a-task-group-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTaskGroups",
+      "Name": "List all task groups",
+      "Description": "Returns a list of all the task groups in your mailbox.",
+      "Anchor": "#list-all-task-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTasksByFolder",
+      "Name": "List tasks in folder",
+      "Description": "This operation returns a list of tasks in a given folder.",
+      "Anchor": "#list-tasks-in-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTasksInFolder_V2",
+      "Name": "List tasks in folder (Preview)",
+      "Description": "Returns a list of all your tasks in the specified task folder in your mailbox.",
+      "Anchor": "#list-tasks-in-folder-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IncompleteTask",
+      "Name": "Mark a task as incomplete",
+      "Description": "This operation is used to mark the given task as incomplete.",
+      "Anchor": "#mark-a-task-as-incomplete",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Trigger_OnCompletedTask",
+      "Name": "When a task is completed",
+      "Description": "This operation triggers when a task is marked as complete.",
+      "Anchor": "#when-a-task-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Trigger_OnNewTask",
+      "Name": "When a task is added",
+      "Description": "This operation triggers when a new task is created.",
+      "Anchor": "#when-a-task-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTask_V2",
+      "Name": "Update a task (Preview)",
+      "Description": "This operation is used to modify an existing task.",
+      "Anchor": "#update-a-task-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTaskFolder",
+      "Name": "Update a task folder (Preview)",
+      "Description": "This operation is used to modify an existing task folder.",
+      "Anchor": "#update-a-task-folder-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTaskGroup_V1",
+      "Name": "Update a task group (Preview)",
+      "Description": "This operation is used to modify an existing task group.",
+      "Anchor": "#update-a-task-group-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

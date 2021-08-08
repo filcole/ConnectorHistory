@@ -1,0 +1,13 @@
+{
+  "UniqueName": "documentmerge",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../documentmerge/",
+  "Actions": [
+    {
+      "OperationId": "Values_DocumentMerge",
+      "Name": "Document Merge",
+      "Description": "Document Merge",
+      "Anchor": "#document-merge",
+      "IsDeprecated": false
+    }
+  ]
+}

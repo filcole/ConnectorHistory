@@ -1,0 +1,13 @@
+{
+  "UniqueName": "mtarget",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mtarget/",
+  "Actions": [
+    {
+      "OperationId": "SendSms",
+      "Name": "Send an sms",
+      "Description": "Send an sms with multiple options",
+      "Anchor": "#send-an-sms",
+      "IsDeprecated": false
+    }
+  ]
+}

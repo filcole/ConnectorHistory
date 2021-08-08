@@ -1,0 +1,20 @@
+{
+  "UniqueName": "dataflows",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dataflows/",
+  "Actions": [
+    {
+      "OperationId": "OnRefreshComplete",
+      "Name": "When a dataflow refresh completes",
+      "Description": "This operation triggers when a dataflow refresh completes.",
+      "Anchor": "#when-a-dataflow-refresh-completes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RefreshDataflow",
+      "Name": "Refresh a dataflow",
+      "Description": "Initiate a dataflow refresh operation.",
+      "Anchor": "#refresh-a-dataflow",
+      "IsDeprecated": false
+    }
+  ]
+}

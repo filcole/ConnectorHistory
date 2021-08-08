@@ -1,0 +1,20 @@
+{
+  "UniqueName": "d7sms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../d7sms/",
+  "Actions": [
+    {
+      "OperationId": "Balance",
+      "Name": "Check Balance",
+      "Description": "Check account balance",
+      "Anchor": "#check-balance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSMS",
+      "Name": "Send SMS",
+      "Description": "Send SMS  to recipients using D7 SMS Gateway",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    }
+  ]
+}

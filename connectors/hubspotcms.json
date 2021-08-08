@@ -1,0 +1,69 @@
+{
+  "UniqueName": "hubspotcms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hubspotcms/",
+  "Actions": [
+    {
+      "OperationId": "PagesArchive",
+      "Name": "Delete a page (V2)",
+      "Description": "Marks a page as deleted. Returns 204 No Content letting you know that the page was successfully deleted. The page can be restored later via a POST to the restore-deleted endpoint.",
+      "Anchor": "#delete-a-page-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PagesCreate",
+      "Name": "Create a new page (V2)",
+      "Description": "Create a new page.",
+      "Anchor": "#create-a-new-page-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PagesList",
+      "Name": "List pages (V2)",
+      "Description": "Get all of your pages. Supports paging and filtering.",
+      "Anchor": "#list-pages-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PagesPublish",
+      "Name": "Publish or unpublish a page (V2)",
+      "Description": "Either publishes or cancels publishing based on the POSTed JSON.",
+      "Anchor": "#publish-or-unpublish-a-page-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PagesUpdate",
+      "Name": "Update a page (V2)",
+      "Description": "Updates a page in the database. If not all top level fields are included in the body, we will only update the included fields.",
+      "Anchor": "#update-a-page-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TemplatesArchive",
+      "Name": "Delete a template (V2)",
+      "Description": "Marks the selected Template as deleted. The Template can be restored later via a POST to the restore-deleted endpoint.",
+      "Anchor": "#delete-a-template-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TemplatesCreate",
+      "Name": "Create a new template (V2)",
+      "Description": "Create a new coded template object in Design Manager.",
+      "Anchor": "#create-a-new-template-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TemplatesList",
+      "Name": "List templates (V2)",
+      "Description": "Get all templates.",
+      "Anchor": "#list-templates-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TemplatesUpdate",
+      "Name": "Update a template (V2)",
+      "Description": "Updates a template. If not all the fields are included in the body, we will only update the included fields.",
+      "Anchor": "#update-a-template-(v2)",
+      "IsDeprecated": false
+    }
+  ]
+}

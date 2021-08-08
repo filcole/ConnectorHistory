@@ -1,0 +1,62 @@
+{
+  "UniqueName": "pivotaltracker",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pivotaltracker/",
+  "Actions": [
+    {
+      "OperationId": "CreateStory",
+      "Name": "Create a story",
+      "Description": "This operation is used to create a new story.",
+      "Anchor": "#create-a-story",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteStory",
+      "Name": "Delete a story",
+      "Description": "Deletes the specified story.",
+      "Anchor": "#delete-a-story",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStory",
+      "Name": "Get a story",
+      "Description": "This operation retrieves all information about a story, given its id.",
+      "Anchor": "#get-a-story",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProjects",
+      "Name": "List projects",
+      "Description": "List all projects for the current user.",
+      "Anchor": "#list-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigStoryCompleted",
+      "Name": "When a story is completed",
+      "Description": "Triggers when an existing story is completed in the given project.",
+      "Anchor": "#when-a-story-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigStoryCreated",
+      "Name": "When a new story is created",
+      "Description": "Triggers when a new story is added to the given project.",
+      "Anchor": "#when-a-new-story-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigStoryUpdated",
+      "Name": "When a story is updated",
+      "Description": "Triggers when a story is created or the details of an existing story are updated in the given project.",
+      "Anchor": "#when-a-story-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateStory",
+      "Name": "Update a story",
+      "Description": "This operation is used to update the details of a story, given its id.",
+      "Anchor": "#update-a-story",
+      "IsDeprecated": false
+    }
+  ]
+}

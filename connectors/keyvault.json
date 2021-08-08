@@ -1,0 +1,104 @@
+{
+  "UniqueName": "keyvault",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../keyvault/",
+  "Actions": [
+    {
+      "OperationId": "DecryptData",
+      "Name": "Decrypt data with key",
+      "Description": "Decrypt data using the latest version of a key. Output of this operation is typically classified as secret and can be visible in the run history.",
+      "Anchor": "#decrypt-data-with-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DecryptDataWithVersion",
+      "Name": "Decrypt data with key version",
+      "Description": "Decrypt data using a specific version of a key. Output of this operation is typically classified as secret and can be visible in the run history.",
+      "Anchor": "#decrypt-data-with-key-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EncryptData",
+      "Name": "Encrypt data with key",
+      "Description": "Encrypt data using the latest version of a key.",
+      "Anchor": "#encrypt-data-with-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EncryptDataWithVersion",
+      "Name": "Encrypt data with key version",
+      "Description": "Encrypt data using a specific version of a key.",
+      "Anchor": "#encrypt-data-with-key-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetKeyMetadata",
+      "Name": "Get key metadata",
+      "Description": "Gets metadata of a key.",
+      "Anchor": "#get-key-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetKeyVersionMetadata",
+      "Name": "Get key version metadata",
+      "Description": "Gets metadata of a version of a key.",
+      "Anchor": "#get-key-version-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSecret",
+      "Name": "Get secret",
+      "Description": "Gets a secret. Output of this operation is typically classified as secret and can be visible in the run history.",
+      "Anchor": "#get-secret",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSecretMetadata",
+      "Name": "Get secret metadata",
+      "Description": "Gets metadata of a secret.",
+      "Anchor": "#get-secret-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSecretVersion",
+      "Name": "Get secret version",
+      "Description": "Gets a version of a secret. Output of this operation is typically classified as secret and can be visible in the run history.",
+      "Anchor": "#get-secret-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSecretVersionMetadata",
+      "Name": "Get secret version metadata",
+      "Description": "Gets metadata of a version of a secret.",
+      "Anchor": "#get-secret-version-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListKeys",
+      "Name": "List keys",
+      "Description": "List keys.",
+      "Anchor": "#list-keys",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListKeyVersions",
+      "Name": "List key versions",
+      "Description": "List versions of a key.",
+      "Anchor": "#list-key-versions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListSecrets",
+      "Name": "List secrets",
+      "Description": "List secrets.",
+      "Anchor": "#list-secrets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListSecretVersions",
+      "Name": "List secret versions",
+      "Description": "List versions of a secret.",
+      "Anchor": "#list-secret-versions",
+      "IsDeprecated": false
+    }
+  ]
+}

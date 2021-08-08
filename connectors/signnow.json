@@ -1,0 +1,125 @@
+{
+  "UniqueName": "signnow",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../signnow/",
+  "Actions": [
+    {
+      "OperationId": "CreateFromTemplate",
+      "Name": "Create Document from Template",
+      "Description": "Generate a document from a selected template",
+      "Anchor": "#create-document-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSigningLink",
+      "Name": "Create Signing Link",
+      "Description": "Generate a link to the document and share it to have the document signed",
+      "Anchor": "#create-signing-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteDoc",
+      "Name": "Delete Document",
+      "Description": "Delete a document from SignNow",
+      "Anchor": "#delete-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DownloadDocument",
+      "Name": "Download Document",
+      "Description": "Download a document from SignNow",
+      "Anchor": "#download-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDoc",
+      "Name": "Get Document Information",
+      "Description": "Get document properties like name, id, create/update dates etc.",
+      "Anchor": "#get-document-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocFields",
+      "Name": "Get Document Fields [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get Document Fields instead.\nGet document field values.",
+      "Anchor": "#get-document-fields-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetDocFields_V2",
+      "Name": "Get Document Fields (Preview)",
+      "Description": "Retrieve values from the fillable fields in the document",
+      "Anchor": "#get-document-fields-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocSchema",
+      "Name": "Get document schema [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get document schema instead.\nGet OpenAPI document schema",
+      "Anchor": "#get-document-schema-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetListDoc",
+      "Name": "Get Document List",
+      "Description": "Retrieve a list of user's documents",
+      "Anchor": "#get-document-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PrefillSmartFields",
+      "Name": "Prefill Smart Field Values",
+      "Description": "Prefill Smart Field values for the specified document",
+      "Anchor": "#prefill-smart-field-values",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendInvite",
+      "Name": "Invite to sign",
+      "Description": "Invite others to fill out and sign the document",
+      "Anchor": "#invite-to-sign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendUserDefinedInvite",
+      "Name": "Advanced Document Invite",
+      "Description": "Invite request with manually defined schema. It allows to setup invite for a document that will be generated in the future",
+      "Anchor": "#advanced-document-invite",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Triggers",
+      "Name": "Start flow on document event [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Start flow on document event instead.\nYou can create trigger for one of this event: document create, document update, document delete, document complete, invite create, invite update",
+      "Anchor": "#start-flow-on-document-event-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "Triggers_V2",
+      "Name": "Start flow on document event (Preview)",
+      "Description": "Select the event to trigger on: the new or updated signature invite; when someone creates, updates, completes, or deletes a document",
+      "Anchor": "#start-flow-on-document-event-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFieldValues",
+      "Name": "Prefill Document Field Values [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Prefill Document Field Values instead.\nPrefill field values and properties.",
+      "Anchor": "#prefill-document-field-values-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateFieldValues_V2",
+      "Name": "Prefill Document Field Values (Preview)",
+      "Description": "Automatically populate fillable fields in the document with specific values",
+      "Anchor": "#prefill-document-field-values-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadDocument",
+      "Name": "Upload Document",
+      "Description": "Upload a document to SignNow",
+      "Anchor": "#upload-document",
+      "IsDeprecated": false
+    }
+  ]
+}

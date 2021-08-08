@@ -1,0 +1,83 @@
+{
+  "UniqueName": "twitter",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../twitter/",
+  "Actions": [
+    {
+      "OperationId": "Followers",
+      "Name": "Get followers",
+      "Description": "This operation gets the list of users that follow a given user.",
+      "Anchor": "#get-followers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Following",
+      "Name": "Get following",
+      "Description": "The operation gets the list of people the given user follows.",
+      "Anchor": "#get-following",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HomeTimeline",
+      "Name": "Get home timeline",
+      "Description": "This operation gets the most recent tweets and re-tweets posted by me and my followers.",
+      "Anchor": "#get-home-timeline",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MyFollowers",
+      "Name": "Get my followers",
+      "Description": "This operation gets the list of users who are following me.",
+      "Anchor": "#get-my-followers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MyFollowing",
+      "Name": "Get my following",
+      "Description": "This operation gets the list of users that I am following.",
+      "Anchor": "#get-my-following",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewTweet",
+      "Name": "When a new tweet is posted",
+      "Description": "This operation triggers a flow when a new tweet that matches a given search query is posted.",
+      "Anchor": "#when-a-new-tweet-is-posted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Retweet",
+      "Name": "Retweet",
+      "Description": "This operation retweets a tweet.",
+      "Anchor": "#retweet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchTweet",
+      "Name": "Search tweets",
+      "Description": "This operation gets a list of relevant tweets matching the search query.",
+      "Anchor": "#search-tweets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tweet",
+      "Name": "Post a tweet",
+      "Description": "This operation posts a new tweet.",
+      "Anchor": "#post-a-tweet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "User",
+      "Name": "Get user",
+      "Description": "This operation gets the profile details for a given user, such as user name, description, followers count, and more.",
+      "Anchor": "#get-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserTimeline",
+      "Name": "Get user timeline",
+      "Description": "This operation gets a list of the most recent tweets posted by a given user.",
+      "Anchor": "#get-user-timeline",
+      "IsDeprecated": false
+    }
+  ]
+}

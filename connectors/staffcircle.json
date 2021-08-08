@@ -1,0 +1,118 @@
+{
+  "UniqueName": "staffcircle",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../staffcircle/",
+  "Actions": [
+    {
+      "OperationId": "CreateAlert",
+      "Name": "Create a new alert",
+      "Description": "Creates a new alert that can be distributed to StaffCircle users via multiple communication channels",
+      "Anchor": "#create-a-new-alert",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateArticle",
+      "Name": "Create a new article",
+      "Description": "Creates a new article that can be distributed to StaffCircle users via multiple communication channels",
+      "Anchor": "#create-a-new-article",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateObjective",
+      "Name": "Create a new objective",
+      "Description": "Creates a new objective",
+      "Anchor": "#create-a-new-objective",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateObjectiveByTemplate",
+      "Name": "Create a new objective by template",
+      "Description": "Creates a new objective using an objective template",
+      "Anchor": "#create-a-new-objective-by-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePerson",
+      "Name": "Create a new Person",
+      "Description": "Creates a Person",
+      "Anchor": "#create-a-new-person",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create a new task",
+      "Description": "Creates a new task and assigns it to a user",
+      "Anchor": "#create-a-new-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetObjectives",
+      "Name": "Search for objectives",
+      "Description": "Search for objectives",
+      "Anchor": "#search-for-objectives",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPerson",
+      "Name": "Get Person by email",
+      "Description": "Attempts to find a person record by email",
+      "Anchor": "#get-person-by-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewAbsence",
+      "Name": "When a new absence is added",
+      "Description": "Triggers when a new absence is added",
+      "Anchor": "#when-a-new-absence-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewObjective",
+      "Name": "When a new objective is added",
+      "Description": "Triggers when a new objective is added",
+      "Anchor": "#when-a-new-objective-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewPerson",
+      "Name": "When a new person is added",
+      "Description": "Triggers when a new person is added",
+      "Anchor": "#when-a-new-person-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewReview",
+      "Name": "When a new review is added",
+      "Description": "Triggers when a new review is added",
+      "Anchor": "#when-a-new-review-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewTask",
+      "Name": "When a new task is added",
+      "Description": "Triggers when a new task is added",
+      "Anchor": "#when-a-new-task-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublishedArticle",
+      "Name": "when a new article is published",
+      "Description": "Trigger when a new article is published",
+      "Anchor": "#when-a-new-article-is-published",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateObjective",
+      "Name": "When an objective is updated",
+      "Description": "Triggers when an objective is updated",
+      "Anchor": "#when-an-objective-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateObjectiveScore",
+      "Name": "Update an objective score",
+      "Description": "Updates an objective with a new score and a description",
+      "Anchor": "#update-an-objective-score",
+      "IsDeprecated": false
+    }
+  ]
+}

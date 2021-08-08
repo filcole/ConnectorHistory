@@ -1,0 +1,97 @@
+{
+  "UniqueName": "cdkeleadsalesopportunities",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cdkeleadsalesopportunities/",
+  "Actions": [
+    {
+      "OperationId": "Opportunities_AddComment",
+      "Name": "Add comment to opportunity",
+      "Description": "Adds a comment to the specified opportunity",
+      "Anchor": "#add-comment-to-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_AddSalesperson",
+      "Name": "Add salesperson to opportunity",
+      "Description": "Adds a salesperson to the specified opportunity",
+      "Anchor": "#add-salesperson-to-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_AddTradeIn",
+      "Name": "Add trade-in to opportunity",
+      "Description": "Adds a trade-in to the specified opportunity",
+      "Anchor": "#add-trade-in-to-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_AddVehicleSought",
+      "Name": "Add vehicle sought to opportunity",
+      "Description": "Adds a vehicle sought to the specified opportunity",
+      "Anchor": "#add-vehicle-sought-to-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_CreateOpportunity",
+      "Name": "Create new opportunity",
+      "Description": "Creates a new opportunity",
+      "Anchor": "#create-new-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_DeleteTradeIn",
+      "Name": "Remove trade-in from opportunity",
+      "Description": "Removes the specified trade-in from the opportunity",
+      "Anchor": "#remove-trade-in-from-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_DeleteVehicleSought",
+      "Name": "Remove vehicle sought from opportunity",
+      "Description": "Removes the specified vehicle sought from the opportunity",
+      "Anchor": "#remove-vehicle-sought-from-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_ReassignPrimaryBDCAgent",
+      "Name": "Reassign the primary bdc agent for the specified opportunity",
+      "Description": "Reassigns the primary bdc agent for the specified opportunity",
+      "Anchor": "#reassign-the-primary-bdc-agent-for-the-specified-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_ReassignPrimarySalesPerson",
+      "Name": "Reassign the primary salesperson for the specified opportunity",
+      "Description": "Reassigns the primary salesperson for the specified opportunity",
+      "Anchor": "#reassign-the-primary-salesperson-for-the-specified-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_RemoveSalesperson",
+      "Name": "Remove salesperson from opportunity",
+      "Description": "Removes a salesperson from the specified opportunity",
+      "Anchor": "#remove-salesperson-from-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_Search",
+      "Name": "Query sales opportunities by date range",
+      "Description": "Retrieve sales opportunities by date range",
+      "Anchor": "#query-sales-opportunities-by-date-range",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_SearchDelta",
+      "Name": "Query sales opportunities since the provided date and time",
+      "Description": "Retrieve sales opportunities by the provided date/time (within the past 7 days)",
+      "Anchor": "#query-sales-opportunities-since-the-provided-date-and-time",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Opportunities_SendEmail",
+      "Name": "Send an email and create the corresponding activity",
+      "Description": "Sends an email and creates the corresponding activity",
+      "Anchor": "#send-an-email-and-create-the-corresponding-activity",
+      "IsDeprecated": false
+    }
+  ]
+}

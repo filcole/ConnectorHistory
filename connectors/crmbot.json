@@ -1,0 +1,62 @@
+{
+  "UniqueName": "crmbot",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../crmbot/",
+  "Actions": [
+    {
+      "OperationId": "build-card-message",
+      "Name": "Build Card Response",
+      "Description": "Creates Card response to send to the user.",
+      "Anchor": "#build-card-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "build-custom-message",
+      "Name": "Build Adaptive Card Response",
+      "Description": "Creates Microsoft Adaptive Card response to send to the user.",
+      "Anchor": "#build-adaptive-card-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "build-media-message",
+      "Name": "Build Media Response",
+      "Description": "Creates an image or video to send to the user.",
+      "Anchor": "#build-media-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "build-quickreplies-message",
+      "Name": "Build Quick Reply Response",
+      "Description": "Creates a small menu of suggested actions for the user.",
+      "Anchor": "#build-quick-reply-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "build-text-message",
+      "Name": "Build Text Response",
+      "Description": "Creates a standard text response to send to the user.",
+      "Anchor": "#build-text-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "intent-detected",
+      "Name": "When Intent is detected",
+      "Description": "Triggers when CRM Bot matches user request to one of your Intents with fullfilment.",
+      "Anchor": "#when-intent-is-detected",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send-proactive-message",
+      "Name": "Send Proactive Message",
+      "Description": "Sends your response to the user outside of the standard conversation (requires User ID).",
+      "Anchor": "#send-proactive-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send-response",
+      "Name": "Send Response",
+      "Description": "Sends your response to the user within the context of existing conversation (Requires Bot Trigger).",
+      "Anchor": "#send-response",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UniqueName": "dynamicsax",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamicsax/",
+  "Actions": [
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete record",
+      "Description": "Deletes a single record in an entity",
+      "Anchor": "#delete-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteProcedure",
+      "Name": "Execute action",
+      "Description": "Execute action",
+      "Anchor": "#execute-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get a record",
+      "Description": "Retrieves a single record",
+      "Anchor": "#get-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Lists items present in table",
+      "Description": "Lists items present in table",
+      "Anchor": "#lists-items-present-in-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get list of entities",
+      "Description": "Retrieves a list of entities",
+      "Anchor": "#get-list-of-entities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update a record",
+      "Description": "Updates a single record in an entity",
+      "Anchor": "#update-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Create record",
+      "Description": "Create a new record in an entity",
+      "Anchor": "#create-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscribeOnABusinessEvent",
+      "Name": "When a Business Event occurs",
+      "Description": "Triggers a flow when a Business Event occurs in Dynamics 365.",
+      "Anchor": "#when-a-business-event-occurs",
+      "IsDeprecated": false
+    }
+  ]
+}

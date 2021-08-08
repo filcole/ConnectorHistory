@@ -1,0 +1,20 @@
+{
+  "UniqueName": "firetext",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../firetext/",
+  "Actions": [
+    {
+      "OperationId": "sendsms",
+      "Name": "Send SMS",
+      "Description": "Send a SMS message from your FireText account.",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "subscribe",
+      "Name": "Add Contact",
+      "Description": "Adds a new contact to your FireText account.",
+      "Anchor": "#add-contact",
+      "IsDeprecated": false
+    }
+  ]
+}

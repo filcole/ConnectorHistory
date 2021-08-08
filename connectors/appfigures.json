@@ -1,0 +1,34 @@
+{
+  "UniqueName": "appfigures",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../appfigures/",
+  "Actions": [
+    {
+      "OperationId": "GetMyProducts",
+      "Name": "Get my products",
+      "Description": "Returns a list of products for the current user.",
+      "Anchor": "#get-my-products",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewEvent",
+      "Name": "When an event occurs",
+      "Description": "Trigger an action on an event for the apps in the current account.",
+      "Anchor": "#when-an-event-occurs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewRating",
+      "Name": "When an app is rated",
+      "Description": "Trigger an action when an app is rated.",
+      "Anchor": "#when-an-app-is-rated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewReview",
+      "Name": "When there is a new review",
+      "Description": "Trigge an action when there is a new review.",
+      "Anchor": "#when-there-is-a-new-review",
+      "IsDeprecated": false
+    }
+  ]
+}

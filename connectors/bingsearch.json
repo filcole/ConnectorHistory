@@ -1,0 +1,20 @@
+{
+  "UniqueName": "bingsearch",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bingsearch/",
+  "Actions": [
+    {
+      "OperationId": "GetNews",
+      "Name": "List news by query",
+      "Description": "Returns a list of news articles for a given query.",
+      "Anchor": "#list-news-by-query",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewNews",
+      "Name": "On new news article",
+      "Description": "Triggers when a news article matches the given query.",
+      "Anchor": "#on-new-news-article",
+      "IsDeprecated": false
+    }
+  ]
+}

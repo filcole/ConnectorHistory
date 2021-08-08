@@ -1,0 +1,209 @@
+{
+  "UniqueName": "wdatp",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../wdatp/",
+  "Actions": [
+    {
+      "OperationId": "AdvancedHunting",
+      "Name": "Advanced Hunting",
+      "Description": "Run a custom query in Windows Defender ATP",
+      "Anchor": "#advanced-hunting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectInvestigationPackage",
+      "Name": "Actions - Collect investigation package",
+      "Description": "Collect investigation package from a machine",
+      "Anchor": "#actions---collect-investigation-package",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAlertByReference",
+      "Name": "Alerts - Create alert",
+      "Description": "Create Alert based on specific Event",
+      "Anchor": "#alerts---create-alert",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAlerts",
+      "Name": "Alerts - Get list of alerts",
+      "Description": "Retrieve from Windows Defender ATP the most recent alerts",
+      "Anchor": "#alerts---get-list-of-alerts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDomainStats",
+      "Name": "Domains - Get the statistics for the given domain name",
+      "Description": "Retrieve from Windows Defender ATP statistics related to a given domain name",
+      "Anchor": "#domains---get-the-statistics-for-the-given-domain-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileStats",
+      "Name": "Files - Get the statistics for the given file",
+      "Description": "Retrieve from Windows Defender ATP statistics for the given file to a given file by identifier Sha1, or Sha256",
+      "Anchor": "#files---get-the-statistics-for-the-given-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInvestigationPackageUri",
+      "Name": "Actions - Get investigation package download URI",
+      "Description": "Get a URI that allows downloading of an investigation package",
+      "Anchor": "#actions---get-investigation-package-download-uri",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInvestigations",
+      "Name": "Actions - Get list of investigation",
+      "Description": "Retrieve from Microsoft Defender ATP the most recent investigations",
+      "Anchor": "#actions---get-list-of-investigation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIpStats",
+      "Name": "Ips - Get the statistics for the given ip address",
+      "Description": "Retrieve from Windows Defender ATP statistics related to a given ip address - given in ipv4 or ipv6 format.",
+      "Anchor": "#ips---get-the-statistics-for-the-given-ip-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMachineActions",
+      "Name": "Actions - Get list of machine actions",
+      "Description": "Retrieve from Windows Defender ATP the most recent machine actions",
+      "Anchor": "#actions---get-list-of-machine-actions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMachines",
+      "Name": "Machines - Get list of machines",
+      "Description": "Retrieve from Windows Defender ATP the most recent machines",
+      "Anchor": "#machines---get-list-of-machines",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRemediationActivities",
+      "Name": "Remediation tasks - Get list of remediation activities (Preview)",
+      "Description": "Retrieve from Windows Defender ATP the remdiation activities",
+      "Anchor": "#remediation-tasks---get-list-of-remediation-activities-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRemediationActivityMachineList",
+      "Name": "Remediation activities - Get list of related machines (Preview)",
+      "Description": "Retrieve from Windows Defender ATP the related machines to a specific remediation activity",
+      "Anchor": "#remediation-activities---get-list-of-related-machines-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSingleAlert",
+      "Name": "Alerts - Get single alert",
+      "Description": "Retrieve from Windows Defender ATP a specific alert",
+      "Anchor": "#alerts---get-single-alert",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSingleInvestigation",
+      "Name": "Actions - Get single investigation",
+      "Description": "Retrieve from Microsoft Defender ATP a specific investigation",
+      "Anchor": "#actions---get-single-investigation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSingleMachine",
+      "Name": "Machines - Get single machine",
+      "Description": "Retrieve from Windows Defender ATP a specific machine",
+      "Anchor": "#machines---get-single-machine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSingleMachineAction",
+      "Name": "Actions - Get single machine action",
+      "Description": "Retrieve from Windows Defender ATP a specific machine action",
+      "Anchor": "#actions---get-single-machine-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSingleRemediationActivity",
+      "Name": "RemediationActivities - Get single remediation activity (Preview)",
+      "Description": "Retrieve from Windows Defender ATP a specific remediation activity",
+      "Anchor": "#remediationactivities---get-single-remediation-activity-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InitiateInvestigation",
+      "Name": "Actions - Initiate investigation on a machine (to be deprecated)",
+      "Description": "Initiate investigation on a machine",
+      "Anchor": "#actions---initiate-investigation-on-a-machine-(to-be-deprecated)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsolateMachine",
+      "Name": "Actions - Isolate machine",
+      "Description": "Isolate a machine from network",
+      "Anchor": "#actions---isolate-machine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MachineTag",
+      "Name": "Machines - Tag machine",
+      "Description": "Add or remove a tag to/from a machine",
+      "Anchor": "#machines---tag-machine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewRemediationActivity",
+      "Name": "Triggers when a new remediation activity is created (Preview)",
+      "Description": "Triggers when a new remediation activity is created",
+      "Anchor": "#triggers-when-a-new-remediation-activity-is-created-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchAlert",
+      "Name": "Alerts - Update alert",
+      "Description": "Update a Windows Defender ATP alert",
+      "Anchor": "#alerts---update-alert",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RestrictAppExecution",
+      "Name": "Actions - Restrict app execution",
+      "Description": "Restrict execution of all applications on the machine except a predefined set",
+      "Anchor": "#actions---restrict-app-execution",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunAntivirusScan",
+      "Name": "Actions - Run antivirus scan",
+      "Description": "Initiate Windows Defender Antivirus scan on a machine",
+      "Anchor": "#actions---run-antivirus-scan",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartInvestigation",
+      "Name": "Actions - Start automated investigation on a machine (Preview)",
+      "Description": "Start automated investigation on a machine",
+      "Anchor": "#actions---start-automated-investigation-on-a-machine-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnisolateMachine",
+      "Name": "Actions - Unisolate machine",
+      "Description": "Unisolate a machine from network",
+      "Anchor": "#actions---unisolate-machine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnrestrictAppExecution",
+      "Name": "Actions - Remove app execution restriction",
+      "Description": "Enable execution of any application on the machine",
+      "Anchor": "#actions---remove-app-execution-restriction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHooks_CreateWebHook",
+      "Name": "Triggers - Trigger when new WDATP alert occurs",
+      "Description": "Subscribe for Windows Defender ATP alerts",
+      "Anchor": "#triggers---trigger-when-new-wdatp-alert-occurs",
+      "IsDeprecated": false
+    }
+  ]
+}

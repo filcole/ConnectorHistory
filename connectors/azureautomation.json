@@ -1,0 +1,27 @@
+{
+  "UniqueName": "azureautomation",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azureautomation/",
+  "Actions": [
+    {
+      "OperationId": "CreateJob",
+      "Name": "Create job",
+      "Description": "Create Job to run on hybrid worker",
+      "Anchor": "#create-job",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetJobOutput",
+      "Name": "Get job output",
+      "Description": "Get outputs of an Azure Automation job.",
+      "Anchor": "#get-job-output",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStatusOfJob",
+      "Name": "Get status of job",
+      "Description": "Get Status of a Job",
+      "Anchor": "#get-status-of-job",
+      "IsDeprecated": false
+    }
+  ]
+}

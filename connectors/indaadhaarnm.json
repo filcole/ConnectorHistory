@@ -1,0 +1,13 @@
+{
+  "UniqueName": "indaadhaarnm",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../indaadhaarnm/",
+  "Actions": [
+    {
+      "OperationId": "Aadharredaction",
+      "Name": "Aadhaar Number Masking",
+      "Description": "Eliminate risks and ensure compliance by redacting first 8 digits of Aadhaar No. from Aadhaar images",
+      "Anchor": "#aadhaar-number-masking",
+      "IsDeprecated": false
+    }
+  ]
+}

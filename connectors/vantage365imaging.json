@@ -1,0 +1,13 @@
+{
+  "UniqueName": "vantage365imaging",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../vantage365imaging/",
+  "Actions": [
+    {
+      "OperationId": "GenerateBarCode",
+      "Name": "Generate Bar Code",
+      "Description": "Encode data in a graphical format using a 1D or 2D bar code",
+      "Anchor": "#generate-bar-code",
+      "IsDeprecated": false
+    }
+  ]
+}

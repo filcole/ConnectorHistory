@@ -1,0 +1,41 @@
+{
+  "UniqueName": "virustotal",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../virustotal/",
+  "Actions": [
+    {
+      "OperationId": "VirusTotalAnalyesFile",
+      "Name": "Upload and analyse a file",
+      "Description": "Upload and analyse a file",
+      "Anchor": "#upload-and-analyse-a-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirusTotalAnalysisurlV3",
+      "Name": "Analyse an URL",
+      "Description": "Analyse an URL",
+      "Anchor": "#analyse-an-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirusTotalGetIpScanV3",
+      "Name": "Ip scan report V3",
+      "Description": "Scan Ip to get full report",
+      "Anchor": "#ip-scan-report-v3",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirusTotalRetrieveInfo",
+      "Name": "Retrieve information about a file or URL analysis",
+      "Description": "Retrieve information about a file or URL analysis. This action uses the output id of Analyse an URL or Upload and analyse a file.",
+      "Anchor": "#retrieve-information-about-a-file-or-url-analysis",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirusTotalRetrieveInfoaboutFile",
+      "Name": "Retrieve information about a file",
+      "Description": "Retrieve information about a file. This action uses the output id of Upload and analyse a file.",
+      "Anchor": "#retrieve-information-about-a-file",
+      "IsDeprecated": false
+    }
+  ]
+}

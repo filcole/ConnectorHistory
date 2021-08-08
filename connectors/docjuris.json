@@ -1,0 +1,111 @@
+{
+  "UniqueName": "docjuris",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../docjuris/",
+  "Actions": [
+    {
+      "OperationId": "CreateContract",
+      "Name": "Create a contract",
+      "Description": "Create a contract document",
+      "Anchor": "#create-a-contract",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateImport",
+      "Name": "Create an import file",
+      "Description": "Import files can be used to create contracts or contract turns within the DocJuris app.",
+      "Anchor": "#create-an-import-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTurn",
+      "Name": "Create turn",
+      "Description": "Create contract turn.",
+      "Anchor": "#create-turn",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteSubscription",
+      "Name": "Delete a callback subscription",
+      "Description": "Deletes a subscription",
+      "Anchor": "#delete-a-callback-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContract",
+      "Name": "Get a contract",
+      "Description": "Get details for a contract.",
+      "Anchor": "#get-a-contract",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContractDocument",
+      "Name": "Download latest turn document",
+      "Description": "For &quot;completedWithMarkup&quot; and &quot;completedClean&quot; the return document corresponds to the latest turn. For &quot;original&quot; the return document belongs to the first turn.",
+      "Anchor": "#download-latest-turn-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContractDocumentMeta",
+      "Name": "Download latest turn document description",
+      "Description": "Get information about a turn document, such as file name and extension.",
+      "Anchor": "#download-latest-turn-document-description",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContractType",
+      "Name": "Get contract types",
+      "Description": "Get available contract types.",
+      "Anchor": "#get-contract-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTestMessages",
+      "Name": "Get test callback messages",
+      "Description": "Get test messages.",
+      "Anchor": "#get-test-callback-messages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTurn",
+      "Name": "Get turn details",
+      "Description": "Get contract turn details.",
+      "Anchor": "#get-turn-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTurnDocument",
+      "Name": "Download turn document",
+      "Description": "Get contract turn documents.",
+      "Anchor": "#download-turn-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTurnDocumentMeta",
+      "Name": "Download turn document description",
+      "Description": "Get information about a turn document, such as file name and extension.",
+      "Anchor": "#download-turn-document-description",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TurnCompletedTrigger",
+      "Name": "Turn Completed",
+      "Description": "Turn Completed",
+      "Anchor": "#turn-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TurnCreatedTrigger",
+      "Name": "Turn Created",
+      "Description": "Turn Created",
+      "Anchor": "#turn-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TurnTaggedTrigger",
+      "Name": "Turn Tagged",
+      "Description": "Turn Tagged",
+      "Anchor": "#turn-tagged",
+      "IsDeprecated": false
+    }
+  ]
+}

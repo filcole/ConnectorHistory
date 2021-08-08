@@ -1,0 +1,160 @@
+{
+  "UniqueName": "instapaper",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../instapaper/",
+  "Actions": [
+    {
+      "OperationId": "AddHighlight",
+      "Name": "Add a highlight to a bookmark",
+      "Description": "Add a highlight to a bookmark",
+      "Anchor": "#add-a-highlight-to-a-bookmark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ArchiveBookmark",
+      "Name": "Archive a bookmark",
+      "Description": "Archive a bookmark",
+      "Anchor": "#archive-a-bookmark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolder",
+      "Name": "Create a folder",
+      "Description": "Create a folder",
+      "Anchor": "#create-a-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteBookmark",
+      "Name": "Delete a bookmark permenantly (warning: can not be undone)",
+      "Description": "Delete a bookmark permenantly (warning: can not be undone)",
+      "Anchor": "#delete-a-bookmark-permenantly-(warning:-can-not-be-undone)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LikeBookmark",
+      "Name": "Like a bookmark",
+      "Description": "Like a bookmark",
+      "Anchor": "#like-a-bookmark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBookmarksArchived",
+      "Name": "Get all archived bookmarks",
+      "Description": "Get all archived bookmarks",
+      "Anchor": "#get-all-archived-bookmarks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBookmarksInFolder",
+      "Name": "Get bookmarks in a folder",
+      "Description": "Get bookmarks in a folder",
+      "Anchor": "#get-bookmarks-in-a-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBookmarksLiked",
+      "Name": "Get all liked bookmarks",
+      "Description": "Get all liked bookmarks",
+      "Anchor": "#get-all-liked-bookmarks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFolders",
+      "Name": "Get folders",
+      "Description": "Get folders",
+      "Anchor": "#get-folders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListHighlights",
+      "Name": "List highlights",
+      "Description": "List the highlights from a specific bookmark.",
+      "Anchor": "#list-highlights",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarkReadBookmark",
+      "Name": "Mark a bookmark read",
+      "Description": "Mark a bookmark read",
+      "Anchor": "#mark-a-bookmark-read",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarkUnreadBookmark",
+      "Name": "Mark a bookmark unread",
+      "Description": "Mark a bookmark unread",
+      "Anchor": "#mark-a-bookmark-unread",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnBookmarkAdded",
+      "Name": "When a bookmark is added to a folder",
+      "Description": "When a bookmark is added to a folder",
+      "Anchor": "#when-a-bookmark-is-added-to-a-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnBookmarkArchived",
+      "Name": "When a bookmark is archived",
+      "Description": "When a bookmark is archived",
+      "Anchor": "#when-a-bookmark-is-archived",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnBookmarkLiked",
+      "Name": "When a bookmark is liked",
+      "Description": "When a bookmark is liked",
+      "Anchor": "#when-a-bookmark-is-liked",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnBookmarkProgressRead",
+      "Name": "When a bookmark is marked read",
+      "Description": "When a bookmark is marked read",
+      "Anchor": "#when-a-bookmark-is-marked-read",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnBookmarkProgressUpdated",
+      "Name": "When the read progress of a bookmark is updated",
+      "Description": "When the read progress of a bookmark is updated",
+      "Anchor": "#when-the-read-progress-of-a-bookmark-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnBookmarkRemoved",
+      "Name": "When a bookmark is removed from a folder",
+      "Description": "When a bookmark is removed from a folder",
+      "Anchor": "#when-a-bookmark-is-removed-from-a-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnFolderCreated",
+      "Name": "When a folder is created",
+      "Description": "When a folder is created",
+      "Anchor": "#when-a-folder-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnHighlightAdded",
+      "Name": "When a highlight is added to a bookmark",
+      "Description": "When a highlight is added to a bookmark",
+      "Anchor": "#when-a-highlight-is-added-to-a-bookmark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnarchiveBookmark",
+      "Name": "Unarchive a bookmark",
+      "Description": "Unarchive a bookmark",
+      "Anchor": "#unarchive-a-bookmark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnlikeBookmark",
+      "Name": "Unlike a bookmark",
+      "Description": "Unlike a bookmark",
+      "Anchor": "#unlike-a-bookmark",
+      "IsDeprecated": false
+    }
+  ]
+}

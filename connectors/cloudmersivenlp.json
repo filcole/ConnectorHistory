@@ -1,0 +1,153 @@
+{
+  "UniqueName": "cloudmersivenlp",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudmersivenlp/",
+  "Actions": [
+    {
+      "OperationId": "Analytics_Profanity",
+      "Name": "Perform Profanity and Obscene Language Analysis and Detection on Text",
+      "Description": "Analyze input text using advanced Profanity and Obscene Language Analysis to determine if the input contains profane language.  Supports English language input.  Consumes 1-2 API calls per sentence.",
+      "Anchor": "#perform-profanity-and-obscene-language-analysis-and-detection-on-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Analytics_Sentiment",
+      "Name": "Perform Sentiment Analysis and Classification on Text",
+      "Description": "Analyze input text using advanced Sentiment Analysis to determine if the input is positive, negative, or neutral.  Supports English language input.  Consumes 1-2 API calls per sentence.",
+      "Anchor": "#perform-sentiment-analysis-and-classification-on-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Analytics_Subjectivity",
+      "Name": "Perform Subjectivity and Objectivity Analysis on Text",
+      "Description": "Analyze input text using advanced Subjectivity and Objectivity Language Analysis to determine if the input text is objective or subjective, and how much.  Supports English language input.  Consumes 1-2 API calls per sentence.",
+      "Anchor": "#perform-subjectivity-and-objectivity-analysis-on-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractEntities_Post",
+      "Name": "Extract entities from string",
+      "Description": "Extract the named entitites from an input string.",
+      "Anchor": "#extract-entities-from-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LanguageDetection_getLanguage",
+      "Name": "Detect language of text",
+      "Description": "Automatically determine which language a text string is written in.  Supports Danish (DAN), German (DEU), English (ENG), French (FRA), Italian (ITA), Japanese (JPN), Korean (KOR), Dutch (NLD), Norwegian (NOR), Portuguese (POR), Russian (RUS), Spanish (SPA), Swedish (SWE), Chinese (ZHO).",
+      "Anchor": "#detect-language-of-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LanguageTranslation_TranslateDeuToEng",
+      "Name": "Translate German to English text with Deep Learning AI",
+      "Description": "Automatically translates input text in German to output text in English using advanced Deep Learning and Neural NLP.  Consumes 1-2 API calls per input sentence.",
+      "Anchor": "#translate-german-to-english-text-with-deep-learning-ai",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LanguageTranslation_TranslateEngToDeu",
+      "Name": "Translate English to German text with Deep Learning AI",
+      "Description": "Automatically translates input text in English to output text in German using advanced Deep Learning and Neural NLP.  Consumes 1-2 API calls per input sentence.",
+      "Anchor": "#translate-english-to-german-text-with-deep-learning-ai",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LanguageTranslation_TranslateEngToRus",
+      "Name": "Translate English to Russian text with Deep Learning AI",
+      "Description": "Automatically translates input text in English to output text in Russian using advanced Deep Learning and Neural NLP.  Consumes 1-2 API calls per input sentence.",
+      "Anchor": "#translate-english-to-russian-text-with-deep-learning-ai",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LanguageTranslation_TranslateRusToEng",
+      "Name": "Translate Russian to English text with Deep Learning AI",
+      "Description": "Automatically translates input text in Russian to output text in English using advanced Deep Learning and Neural NLP.  Consumes 1-2 API calls per input sentence.",
+      "Anchor": "#translate-russian-to-english-text-with-deep-learning-ai",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Parse_ParseString",
+      "Name": "Parse string to syntax tree",
+      "Description": "Parses the input string into a Penn Treebank syntax tree",
+      "Anchor": "#parse-string-to-syntax-tree",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PosTagger_TagAdjectives",
+      "Name": "Part-of-speech tag a string, filter to adjectives",
+      "Description": "Part-of-speech (POS) tag a string, find the adjectives, and return result as JSON",
+      "Anchor": "#part-of-speech-tag-a-string,-filter-to-adjectives",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PosTagger_TagAdverbs",
+      "Name": "Part-of-speech tag a string, filter to adverbs",
+      "Description": "Part-of-speech (POS) tag a string, find the adverbs, and return result as JSON",
+      "Anchor": "#part-of-speech-tag-a-string,-filter-to-adverbs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PosTagger_TagNouns",
+      "Name": "Part-of-speech tag a string, filter to nouns",
+      "Description": "Part-of-speech (POS) tag a string, find the nouns, and return result as JSON",
+      "Anchor": "#part-of-speech-tag-a-string,-filter-to-nouns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PosTagger_TagPronouns",
+      "Name": "Part-of-speech tag a string, filter to pronouns",
+      "Description": "Part-of-speech (POS) tag a string, find the pronouns, and return result as JSON",
+      "Anchor": "#part-of-speech-tag-a-string,-filter-to-pronouns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PosTagger_TagSentence",
+      "Name": "Part-of-speech tag a string",
+      "Description": "Part-of-speech (POS) tag a string and return result as JSON",
+      "Anchor": "#part-of-speech-tag-a-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PosTagger_TagVerbs",
+      "Name": "Part-of-speech tag a string, filter to verbs",
+      "Description": "Part-of-speech (POS) tag a string, find the verbs, and return result as JSON",
+      "Anchor": "#part-of-speech-tag-a-string,-filter-to-verbs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Rephrase_EnglishRephrase_SentenceBySentence",
+      "Name": "Rephrase, paraphrase English text sentence-by-sentence using Deep Learning AI",
+      "Description": "Automatically rephrases or paraphrases input text in English sentence by sentence using advanced Deep Learning and Neural NLP.  Creates multiple reprhasing candidates per input sentence, from 1 to 10 possible rephrasings of the original sentence.  Seeks to preserve original semantic meaning in rephrased output candidates.  Consumes 1-2 API calls per output rephrasing option generated, per sentence.",
+      "Anchor": "#rephrase,-paraphrase-english-text-sentence-by-sentence-using-deep-learning-ai",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Segmentation_GetSentences",
+      "Name": "Extract sentences from string",
+      "Description": "Segment an input string into separate sentences, output result as a string.",
+      "Anchor": "#extract-sentences-from-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Segmentation_GetWords",
+      "Name": "Get words in input string",
+      "Description": "Get the component words in an input string",
+      "Anchor": "#get-words-in-input-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Spellcheck_CheckSentence",
+      "Name": "Check if sentence is spelled correctly",
+      "Description": "Checks whether the sentence is spelled correctly and returns the result as JSON",
+      "Anchor": "#check-if-sentence-is-spelled-correctly",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Spellcheck_CorrectJson",
+      "Name": "Find spelling corrections",
+      "Description": "Find spelling correction suggestions and return result as JSON",
+      "Anchor": "#find-spelling-corrections",
+      "IsDeprecated": false
+    }
+  ]
+}

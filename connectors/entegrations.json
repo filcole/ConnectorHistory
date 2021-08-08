@@ -1,0 +1,153 @@
+{
+  "UniqueName": "entegrations",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../entegrations/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Delete the IPN's express_checkout completed webhook",
+      "Description": "Deletes the Entegrations.io webhook that corresponds to the PayPal IPN's express_checkout completed webhook.",
+      "Anchor": "#delete-the-ipn's-express_checkout-completed-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Delete the IPN's new_case created webhook",
+      "Description": "Deletes the Entegrations.io webhook that corresponds to the PayPal IPN's new_case created webhook.",
+      "Anchor": "#delete-the-ipn's-new_case-created-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Delete the IPN's recurring_payment completed webhook",
+      "Description": "Deletes the Entegrations.io webhook that corresponds to the PayPal IPN's recurring_payment completed webhook.",
+      "Anchor": "#delete-the-ipn's-recurring_payment-completed-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAndSendPayPalInvoice",
+      "Name": "Create a PayPal Invoice",
+      "Description": "Create a draft PayPal Invoice and immediately sends it to a receiver as per their APIs https://developer.paypal.com/docs/api/invoicing/v1/#invoices_create and https://developer.paypal.com/docs/api/invoicing/v1/#invoices_send",
+      "Anchor": "#create-a-paypal-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAndSendQuickBooksInvoice",
+      "Name": "Create a QBO Invoice",
+      "Description": "Create and sends and a QuickBooks Online Invoice as per their API https://developer.intuit.com/app/developer/qbo/docs/api/accounting/ecommerce/invoice",
+      "Anchor": "#create-a-qbo-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePayouts",
+      "Name": "Create PayPal Payouts",
+      "Description": "Create PayPal Payouts to one or more receivers as per their API https://developer.paypal.com/docs/api/payments.payouts-batch/v1/#payouts_create",
+      "Anchor": "#create-paypal-payouts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4PayPalDefaultCreateTrigger",
+      "Name": "Advanced Use: When invoicing, payouts updates received",
+      "Description": "Advanced Use: Creates an entegrations.io webhook for PayPal Invoicing, Payouts etc webhooks data and it triggers whenever entegrations.io receives an on-behalf-of webhook payload from PayPal. Note that this is default payload, getting you whatever PayPal sends out.",
+      "Anchor": "#advanced-use:-when-invoicing,-payouts-updates-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4PayPalDeleteTrigger",
+      "Name": "Advanced Use: Delete the invoicing, payouts etc webhook",
+      "Description": "Advanced Use: Deletes the Entegrations.io webhook that corresponds to the PayPal webhook.",
+      "Anchor": "#advanced-use:-delete-the-invoicing,-payouts-etc-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4PayPalInvoiceDeleteTrigger",
+      "Name": "Delete the invoice paid webhook",
+      "Description": "Deletes the Entegrations.io webhook that corresponds to the PayPal Invoice paid webhook.",
+      "Anchor": "#delete-the-invoice-paid-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4PayPalInvoicingPaidCreateTrigger",
+      "Name": "Whenever an invoice (at PayPal) is paid",
+      "Description": "Creates an entegrations.io webhook for PayPal Invoicing Paid data and it triggers whenever entegrations.io receives an on-behalf-of webhook payload for Invoice Paid from PayPal.",
+      "Anchor": "#whenever-an-invoice-(at-paypal)-is-paid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4PayPalIpnDynamicCreateTrigger",
+      "Name": "Advanced Use: When an IPN (generic) update is received",
+      "Description": "Advanced Use: Creates an entegrations.io webhook for PayPal IPN event data and it triggers whenever entegrations.io receives an on-behalf-of IPN payload from PayPal. Note that this is default payload, getting you whatever PayPal sends out.",
+      "Anchor": "#advanced-use:-when-an-ipn-(generic)-update-is-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4PayPalIpnDynamicDeleteTrigger",
+      "Name": "Delete the generic IPN webhook",
+      "Description": "Deletes the Entegrations.io webhook that corresponds to the PayPal IPN's generic webhook.",
+      "Anchor": "#delete-the-generic-ipn-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4PayPalIpnEcCompletedCreateTrigger",
+      "Name": "Whenever Express Checkout payment is completed",
+      "Description": "Creates an entegrations.io webhook for PayPal express_checkout completed IPN event and it triggers whenever entegrations.io receives an on-behalf-of ipn payload from PayPal.",
+      "Anchor": "#whenever-express-checkout-payment-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4PayPalIpnNewCaseCreatedCreateTrigger",
+      "Name": "Whenever New Case is created",
+      "Description": "Creates an entegrations.io webhook for PayPal new case created IPN event and it triggers whenever entegrations.io receives an on-behalf-of ipn payload from PayPal.",
+      "Anchor": "#whenever-new-case-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4PayPalIpnRecurringPaymentCompletedCreateTrigger",
+      "Name": "Whenever Recurring Payment is completed",
+      "Description": "Creates an entegrations.io webhook for PayPal recurring payment completed IPN event and it triggers whenever entegrations.io receives an on-behalf-of ipn payload from PayPal.",
+      "Anchor": "#whenever-recurring-payment-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4PayPalPayoutsDeleteTrigger",
+      "Name": "Delete the payouts success webhook",
+      "Description": "Deletes the Entegrations.io webhook that corresponds to the PayPal Payouts success webhook.",
+      "Anchor": "#delete-the-payouts-success-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4PayPalPayoutsPaidCreateTrigger",
+      "Name": "Whenever payouts is paid",
+      "Description": "Creates an entegrations.io webhook for PayPal Payouts Paid data and it triggers whenever entegrations.io receives an on-behalf-of webhook payload for Payouts Paid from PayPal.",
+      "Anchor": "#whenever-payouts-is-paid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4XeroContactsCreateTrigger",
+      "Name": "Whenever a Contact is created or updated at Xero",
+      "Description": "Creates an entegrations.io webhook for Xero Contacts data and it triggers whenever entegrations.io receives an on-behalf-of webhook payload for Contacts from Xero.",
+      "Anchor": "#whenever-a-contact-is-created-or-updated-at-xero",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4XeroContactsDeleteTrigger",
+      "Name": "Delete the Contacts webhook",
+      "Description": "Deletes the Entegrations.io webhook that corresponds to the Xero Contacts updates webhook.",
+      "Anchor": "#delete-the-contacts-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4XeroInvoicesCreateTrigger",
+      "Name": "Whenever an Invoice is created or updated at Xero",
+      "Description": "Creates an entegrations.io webhook for Xero Invoices updates data and it triggers whenever entegrations.io receives an on-behalf-of webhook payload for Invoices from Xero.",
+      "Anchor": "#whenever-an-invoice-is-created-or-updated-at-xero",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntegrationsWebhook4XeroInvoicesDeleteTrigger",
+      "Name": "Delete the Invoices webhook",
+      "Description": "Deletes the Entegrations.io webhook that corresponds to the Xero Invoices webhook.",
+      "Anchor": "#delete-the-invoices-webhook",
+      "IsDeprecated": false
+    }
+  ]
+}

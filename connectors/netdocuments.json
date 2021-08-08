@@ -1,0 +1,419 @@
+{
+  "UniqueName": "netdocuments",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../netdocuments/",
+  "Actions": [
+    {
+      "OperationId": "AddOrRemoveGroupMember",
+      "Name": "Add or remove group member",
+      "Description": "Add or remove group member",
+      "Anchor": "#add-or-remove-group-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddOrRemoveUserRepository",
+      "Name": "Add user to or remove user from repository",
+      "Description": "Add user to or remove user from repository",
+      "Anchor": "#add-user-to-or-remove-user-from-repository",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddToOrRemoveGroupFromCabinet",
+      "Name": "Add to or remove group from cabinet",
+      "Description": "Add group to cabinet and default access rights",
+      "Anchor": "#add-to-or-remove-group-from-cabinet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CheckinDoc",
+      "Name": "Check in document",
+      "Description": "Check in a checked-out document",
+      "Anchor": "#check-in-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CheckOutDoc",
+      "Name": "Check out document",
+      "Description": "Check out a document",
+      "Anchor": "#check-out-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCabinetExternalGroup",
+      "Name": "Create a cabinet external group",
+      "Description": "Create a cabinet external group",
+      "Anchor": "#create-a-cabinet-external-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateChildEntry",
+      "Name": "Create or update a child lookup table entry",
+      "Description": "Create or update a child lookup table entry",
+      "Anchor": "#create-or-update-a-child-lookup-table-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCollabSpace",
+      "Name": "Create CollabSpace",
+      "Description": "Create a new CollabSpace",
+      "Anchor": "#create-collabspace",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create document",
+      "Description": "Create a new document",
+      "Anchor": "#create-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEntry",
+      "Name": "Create or update a lookup table entry",
+      "Description": "Create or update a lookup table entry",
+      "Anchor": "#create-or-update-a-lookup-table-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolder",
+      "Name": "Create folder",
+      "Description": "Create a new folder",
+      "Anchor": "#create-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateRepositoryGroup",
+      "Name": "Create repository group",
+      "Description": "Create a repository group",
+      "Anchor": "#create-repository-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSecuredLink",
+      "Name": "Create secured link",
+      "Description": "Generate a link to a document that can be accessed by anyone",
+      "Anchor": "#create-secured-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUser",
+      "Name": "Create user",
+      "Description": "Create a user in a repository",
+      "Anchor": "#create-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkspaceParentChild",
+      "Name": "Get or create a workspace (with parent and child attributes)",
+      "Description": "Get or create a workspace (with parent and child attributes)",
+      "Anchor": "#get-or-create-a-workspace-(with-parent-and-child-attributes)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkspaceSingle",
+      "Name": "Get or create a workspace (with a single attribute)",
+      "Description": "Get or create a workspace (with a single attribute)",
+      "Anchor": "#get-or-create-a-workspace-(with-a-single-attribute)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteChildEntry",
+      "Name": "Delete a child lookup table entry",
+      "Description": "Delete a child lookup table entry",
+      "Anchor": "#delete-a-child-lookup-table-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteDoc",
+      "Name": "Delete document",
+      "Description": "Delete a document",
+      "Anchor": "#delete-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFolder",
+      "Name": "Delete folder",
+      "Description": "Delete a folder",
+      "Anchor": "#delete-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteLookupEntry",
+      "Name": "Delete a lookup table entry",
+      "Description": "Delete a lookup table entry",
+      "Anchor": "#delete-a-lookup-table-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteRepositoryGroup",
+      "Name": "Delete repository group",
+      "Description": "Delete a repository group",
+      "Anchor": "#delete-repository-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FileFolder",
+      "Name": "File or unfile document to folder",
+      "Description": "File an item in a folder or unfile an item from a folder.",
+      "Anchor": "#file-or-unfile-document-to-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FollowDocument",
+      "Name": "Follow document",
+      "Description": "Receive alerts when the document is updated",
+      "Anchor": "#follow-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FollowFolder",
+      "Name": "Follow folder",
+      "Description": "Receive alerts when new content is added to a folder",
+      "Anchor": "#follow-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCabinetCustomAttributes",
+      "Name": "Get cabinet custom attributes",
+      "Description": "Get cabinet custom attributes",
+      "Anchor": "#get-cabinet-custom-attributes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCabinetDefaultAccess",
+      "Name": "Get unhidden cabinet groups access rights",
+      "Description": "Get unhidden cabinet groups access rights",
+      "Anchor": "#get-unhidden-cabinet-groups-access-rights",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCabinetGroups",
+      "Name": "Get cabinet groups",
+      "Description": "Get all of the groups added to a cabinet",
+      "Anchor": "#get-cabinet-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCabinetInformation",
+      "Name": "Get cabinet information",
+      "Description": "Get cabinet information",
+      "Anchor": "#get-cabinet-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCabinetSettings",
+      "Name": "Get cabinet settings",
+      "Description": "Get cabinet settings",
+      "Anchor": "#get-cabinet-settings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetChildEntry",
+      "Name": "Get a child lookup table entry",
+      "Description": "Get a child lookup table entry",
+      "Anchor": "#get-a-child-lookup-table-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContainerContents",
+      "Name": "Get container contents",
+      "Description": "Get the contents of the selected container",
+      "Anchor": "#get-container-contents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCurrentUserInfo",
+      "Name": "Get current user info",
+      "Description": "Get info about current user, ID isn't required",
+      "Anchor": "#get-current-user-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocContent",
+      "Name": "Get document content",
+      "Description": "Retrieve a document",
+      "Anchor": "#get-document-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocHistory",
+      "Name": "Document history",
+      "Description": "Retrieve a list of actions taken on a document",
+      "Anchor": "#document-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocInfo",
+      "Name": "Get document profile",
+      "Description": "Get information about a document",
+      "Anchor": "#get-document-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentVersions",
+      "Name": "Get document versions",
+      "Description": "Get document versions",
+      "Anchor": "#get-document-versions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFldContent",
+      "Name": "Get folder items",
+      "Description": "Retrieve the contents of a folder, including documents and subfolders",
+      "Anchor": "#get-folder-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroupInformation",
+      "Name": "Get group information",
+      "Description": "Get group information",
+      "Anchor": "#get-group-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroupMembership",
+      "Name": "Get group membership",
+      "Description": "Get group membership",
+      "Anchor": "#get-group-membership",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLookupEntry",
+      "Name": "Get a lookup table entry or search for child table entries",
+      "Description": "Get a lookup table entry or search for child table entries",
+      "Anchor": "#get-a-lookup-table-entry-or-search-for-child-table-entries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRepositoryGroups",
+      "Name": "Get repository groups",
+      "Description": "Get repository groups",
+      "Anchor": "#get-repository-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRepositoryInformation",
+      "Name": "Get repository information",
+      "Description": "Get repository information",
+      "Anchor": "#get-repository-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRepositoryLog",
+      "Name": "Get repository log",
+      "Description": "Get repository log",
+      "Anchor": "#get-repository-log",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRepositoryUsers",
+      "Name": "Get repository users",
+      "Description": "Get repository users",
+      "Anchor": "#get-repository-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserCabinets",
+      "Name": "Get list of user cabinets",
+      "Description": "Get User cabinets",
+      "Anchor": "#get-list-of-user-cabinets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserInfo",
+      "Name": "Get user info",
+      "Description": "Get information about a user",
+      "Anchor": "#get-user-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWorkspaceInformation",
+      "Name": "Get workspace information",
+      "Description": "Get workspace information",
+      "Anchor": "#get-workspace-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LockDocument",
+      "Name": "Lock document",
+      "Description": "Lock document",
+      "Anchor": "#lock-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LockDocumentVersion",
+      "Name": "Lock document version",
+      "Description": "Lock document version",
+      "Anchor": "#lock-document-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewVersion",
+      "Name": "Create a new version of a document",
+      "Description": "Create new version of a document",
+      "Anchor": "#create-a-new-version-of-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RefreshWorkspace",
+      "Name": "Refresh a workspace",
+      "Description": "Refresh a workspace",
+      "Anchor": "#refresh-a-workspace",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenameDocument",
+      "Name": "Rename document",
+      "Description": "Rename a document",
+      "Anchor": "#rename-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenameFolder",
+      "Name": "Rename folder",
+      "Description": "Rename a folder",
+      "Anchor": "#rename-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchCab",
+      "Name": "Search cabinet",
+      "Description": "Search the specified cabinet",
+      "Anchor": "#search-cabinet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchCabinetModifyACLs",
+      "Name": "Search a cabinet and modify ACLs",
+      "Description": "Search a cabinet and modify ACLs",
+      "Anchor": "#search-a-cabinet-and-modify-acls",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchCabinets",
+      "Name": "Search one or more cabinets",
+      "Description": "Search one or more cabinets",
+      "Anchor": "#search-one-or-more-cabinets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchLookupEntries",
+      "Name": "Search for lookup table entries",
+      "Description": "Search for lookup table entries",
+      "Anchor": "#search-for-lookup-table-entries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnockDocument",
+      "Name": "Unlock document",
+      "Description": "Unock document",
+      "Anchor": "#unlock-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocument",
+      "Name": "Update document",
+      "Description": "Update the content of a document",
+      "Anchor": "#update-document",
+      "IsDeprecated": false
+    }
+  ]
+}

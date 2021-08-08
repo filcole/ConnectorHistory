@@ -1,0 +1,69 @@
+{
+  "UniqueName": "engagementcloud",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../engagementcloud/",
+  "Actions": [
+    {
+      "OperationId": "BulkContactsImport",
+      "Name": "Bulk creates or bulk updates contacts in an address book",
+      "Description": "Bulk creates or bulk updates contacts in an address book",
+      "Anchor": "#bulk-creates-or-bulk-updates-contacts-in-an-address-book",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAddressBook",
+      "Name": "Create address book",
+      "Description": "Creates an address book",
+      "Anchor": "#create-address-book",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateContact",
+      "Name": "Create contact",
+      "Description": "Creates a contact",
+      "Anchor": "#create-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProgramEnrolment",
+      "Name": "Create program enrolment",
+      "Description": "Creates a program enrolment",
+      "Anchor": "#create-program-enrolment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContactsImportReport",
+      "Name": "GetContactsImportReport",
+      "Description": "Gets a report with statistics about what was successfully imported and what was unable to be imported",
+      "Anchor": "#getcontactsimportreport",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContactsImportStatus",
+      "Name": "GetContactsImportStatus",
+      "Description": "Gets the import status of a previously started contact import",
+      "Anchor": "#getcontactsimportstatus",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEmailCampaign",
+      "Name": "Send email campaign",
+      "Description": "Sends a specified campaign to one or more address books, segments or contacts, either as an immediate or scheduled send",
+      "Anchor": "#send-email-campaign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSmsMessage",
+      "Name": "Send SMS message",
+      "Description": "Sends a single SMS message",
+      "Anchor": "#send-sms-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendTransactionalEmailUsingTriggeredCampagin",
+      "Name": "Send transactional email using a triggered campaign",
+      "Description": "Sends a transactional email using a triggered campaign",
+      "Anchor": "#send-transactional-email-using-a-triggered-campaign",
+      "IsDeprecated": false
+    }
+  ]
+}

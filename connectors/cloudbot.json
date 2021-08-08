@@ -1,0 +1,20 @@
+{
+  "UniqueName": "cloudbot",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudbot/",
+  "Actions": [
+    {
+      "OperationId": "BotDone",
+      "Name": "When BOT execution is completed",
+      "Description": "Triggers when a BOT at the end of execution. (The API must be enabled and the BOT must be published on Cloud BOT website.)",
+      "Anchor": "#when-bot-execution-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteBot",
+      "Name": "Execute BOT",
+      "Description": "Execute your BOT. (The API must be enabled and the BOT must be published on Cloud BOT website.)",
+      "Anchor": "#execute-bot",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "UniqueName": "sendgrid",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sendgrid/",
+  "Actions": [
+    {
+      "OperationId": "AddGlobalSuppression",
+      "Name": "Add a global suppression",
+      "Description": "Add a global suppression",
+      "Anchor": "#add-a-global-suppression",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddRecipientToList",
+      "Name": "Add recipient to list",
+      "Description": "Add an individual recipient to a recipient list.",
+      "Anchor": "#add-recipient-to-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CheckEmailIsInUnsubscribesList",
+      "Name": "Check if email is in unsubscribed email list",
+      "Description": "Check if email is in unsubscribed email list.",
+      "Anchor": "#check-if-email-is-in-unsubscribed-email-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteBounce",
+      "Name": "Delete an email from bounce list",
+      "Description": "Delete an email address from your bounce list.",
+      "Anchor": "#delete-an-email-from-bounce-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteGlobalSuppression",
+      "Name": "Delete the global suppression",
+      "Description": "Delete the global suppression",
+      "Anchor": "#delete-the-global-suppression",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBounce",
+      "Name": "Get bounce for an email",
+      "Description": "Get a specific bounce for a given email address.",
+      "Anchor": "#get-bounce-for-an-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGlobalSuppression",
+      "Name": "Get the global suppression",
+      "Description": "Get the global suppression",
+      "Anchor": "#get-the-global-suppression",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEmailApiV3",
+      "Name": "Send email (V2) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Send email (V4) instead.\nSends an email (V2). Limited to 1000 recipients.",
+      "Anchor": "#send-email-(v2)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SendEmailV3",
+      "Name": "Send email (V3) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Send email (V4) instead.\nSends an email (V3). Limited to 1000 recipients.",
+      "Anchor": "#send-email-(v3)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SendEmailV4",
+      "Name": "Send email (V4)",
+      "Description": "Sends an email (V4). Limited to 1000 recipients.",
+      "Anchor": "#send-email-(v4)",
+      "IsDeprecated": false
+    }
+  ]
+}

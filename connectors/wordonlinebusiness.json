@@ -1,0 +1,20 @@
+{
+  "UniqueName": "wordonlinebusiness",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../wordonlinebusiness/",
+  "Actions": [
+    {
+      "OperationId": "CreateFileItem",
+      "Name": "Populate a Microsoft Word template",
+      "Description": "Reads a Microsoft Word template to then fill the template fields with selected dynamic values to generate a Word Document.",
+      "Anchor": "#populate-a-microsoft-word-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFilePDF",
+      "Name": "Convert Word Document to PDF",
+      "Description": "Gets a PDF version of the selected file",
+      "Anchor": "#convert-word-document-to-pdf",
+      "IsDeprecated": false
+    }
+  ]
+}

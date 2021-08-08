@@ -1,0 +1,27 @@
+{
+  "UniqueName": "cognitoforms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cognitoforms/",
+  "Actions": [
+    {
+      "OperationId": "CreateEntry",
+      "Name": "Create entry",
+      "Description": "Creates a new entry.",
+      "Anchor": "#create-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewEntry",
+      "Name": "When a new entry is created",
+      "Description": "Triggers when someone creates a new entry.",
+      "Anchor": "#when-a-new-entry-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEntry",
+      "Name": "When a new entry is updated",
+      "Description": "Triggers when someone updates an entry.",
+      "Anchor": "#when-a-new-entry-is-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

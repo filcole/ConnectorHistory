@@ -1,0 +1,41 @@
+{
+  "UniqueName": "bttn",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bttn/",
+  "Actions": [
+    {
+      "OperationId": "GetBttnCounter",
+      "Name": "Get bttn counter value",
+      "Description": "Gets the bttn counter value.",
+      "Anchor": "#get-bttn-counter-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBttnInfo",
+      "Name": "Get bttn info",
+      "Description": "Gets the bttn device identification information.",
+      "Anchor": "#get-bttn-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBttns",
+      "Name": "Get list of bttns",
+      "Description": "Gets list of bttns associated with the account.",
+      "Anchor": "#get-list-of-bttns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RegisterWebhook",
+      "Name": "When a bttn is pressed",
+      "Description": "Trigger a flow with a press of a bttn.",
+      "Anchor": "#when-a-bttn-is-pressed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReturnFlowResult",
+      "Name": "Return Flow result",
+      "Description": "Reflect Flow result via bttn device lights.",
+      "Anchor": "#return-flow-result",
+      "IsDeprecated": false
+    }
+  ]
+}

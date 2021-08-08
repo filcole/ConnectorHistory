@@ -1,0 +1,41 @@
+{
+  "UniqueName": "skypointcloud",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../skypointcloud/",
+  "Actions": [
+    {
+      "OperationId": "GetEntities",
+      "Name": "Get Entities",
+      "Description": "This operation gets entities from an instance",
+      "Anchor": "#get-entities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get item of an entitiy",
+      "Description": "This operation gets an item from an entity",
+      "Anchor": "#get-item-of-an-entitiy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get items from an entity",
+      "Description": "This operation gets items from an entity",
+      "Anchor": "#get-items-from-an-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnDataflowRefreshComplete",
+      "Name": "When a dataflow refresh is completed",
+      "Description": "Endpoint for notifications when a dataflow refresh is completed.",
+      "Anchor": "#when-a-dataflow-refresh-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnDataflowRefreshFail",
+      "Name": "When a dataflow refresh is failed",
+      "Description": "Endpoint for notifications when a dataflow refresh is failed.",
+      "Anchor": "#when-a-dataflow-refresh-is-failed",
+      "IsDeprecated": false
+    }
+  ]
+}

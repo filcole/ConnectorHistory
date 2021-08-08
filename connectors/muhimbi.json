@@ -1,0 +1,132 @@
+{
+  "UniqueName": "muhimbi",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../muhimbi/",
+  "Actions": [
+    {
+      "OperationId": "composite_watermark",
+      "Name": "Add composite watermark",
+      "Description": "Add a complex watermark to a PDF file.",
+      "Anchor": "#add-composite-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "convert",
+      "Name": "Convert document",
+      "Description": "Convert a file to PDF or other format.",
+      "Anchor": "#convert-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "convert_html",
+      "Name": "Convert HTML to PDF",
+      "Description": "Convert URLs or HTML to PDF.",
+      "Anchor": "#convert-html-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "copy_metadata",
+      "Name": "Copy metadata (SharePoint only)",
+      "Description": "Copy metadata and set content type.",
+      "Anchor": "#copy-metadata-(sharepoint-only)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ellipse_watermark",
+      "Name": "Add ellipse watermark",
+      "Description": "Add an ellipse watermark to a PDF file.",
+      "Anchor": "#add-ellipse-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "image_watermark",
+      "Name": "Add image watermark",
+      "Description": "Add an image based watermark to a PDF file.",
+      "Anchor": "#add-image-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "line_watermark",
+      "Name": "Add line watermark",
+      "Description": "Add a line watermark to a PDF file.",
+      "Anchor": "#add-line-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "linear_barcode_watermark",
+      "Name": "Add Linear Barcode watermark",
+      "Description": "Add a Linear Barcode watermark to a PDF file.",
+      "Anchor": "#add-linear-barcode-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "merge_to_pdf",
+      "Name": "Merge documents",
+      "Description": "Merge multiple files into a single PDF.",
+      "Anchor": "#merge-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ocr_pdf",
+      "Name": "Convert to OCRed PDF",
+      "Description": "Convert a file to an OCRed PDF.",
+      "Anchor": "#convert-to-ocred-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ocr_text",
+      "Name": "Extract text using OCR",
+      "Description": "Extract text from a file using OCR.",
+      "Anchor": "#extract-text-using-ocr",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pdf_watermark",
+      "Name": "Add PDF watermark",
+      "Description": "Add a PDF based watermark to a PDF file.",
+      "Anchor": "#add-pdf-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "qr_code_watermark",
+      "Name": "Add QR Code watermark",
+      "Description": "Add a QR Code watermark to a PDF file.",
+      "Anchor": "#add-qr-code-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "rectangle_watermark",
+      "Name": "Add rectangle watermark",
+      "Description": "Add a rectangle watermark to a PDF file.",
+      "Anchor": "#add-rectangle-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "rtf_watermark",
+      "Name": "Add RTF watermark",
+      "Description": "Add a rich-text watermark to a PDF file.",
+      "Anchor": "#add-rtf-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "secure_pdf",
+      "Name": "Secure document",
+      "Description": "Apply security and encryption settings.",
+      "Anchor": "#secure-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "split_pdf",
+      "Name": "Split PDF",
+      "Description": "Split a PDF file into multiple PDFs.",
+      "Anchor": "#split-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "text_watermark",
+      "Name": "Add text watermark",
+      "Description": "Add a plain-text watermark to a PDF file.",
+      "Anchor": "#add-text-watermark",
+      "IsDeprecated": false
+    }
+  ]
+}

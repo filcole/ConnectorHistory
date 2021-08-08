@@ -1,0 +1,69 @@
+{
+  "UniqueName": "nexmo",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nexmo/",
+  "Actions": [
+    {
+      "OperationId": "CreateApplication",
+      "Name": "Create new application",
+      "Description": "This operation is used to create a new application in your account.",
+      "Anchor": "#create-new-application",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteApplication",
+      "Name": "Delete an application",
+      "Description": "This operation is used to delete an existing application in your account.",
+      "Anchor": "#delete-an-application",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetApplication",
+      "Name": "Get application by Id",
+      "Description": "This operation is used to retrieve information about a single application, given its id.",
+      "Anchor": "#get-application-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListApplications",
+      "Name": "List applications",
+      "Description": "Retrieves a list of all applications associated with your account.",
+      "Anchor": "#list-applications",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListInboundNumbers",
+      "Name": "List inbound numbers",
+      "Description": "This operation is used to retrieve all the inbound numbers that are avialble for a given country.",
+      "Anchor": "#list-inbound-numbers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOwnedNumbers",
+      "Name": "List owned numbers",
+      "Description": "This operation retrieves all numbers associated with your account.",
+      "Anchor": "#list-owned-numbers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSms",
+      "Name": "Send an SMS",
+      "Description": "This operation is used to send an SMS.",
+      "Anchor": "#send-an-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendTts",
+      "Name": "Send a speech file",
+      "Description": "This operation is used to send a synthesized speech or recorded sound file to a phone number.",
+      "Anchor": "#send-a-speech-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateApplication",
+      "Name": "Update an application",
+      "Description": "This operation is used to modify an existing application in your account.",
+      "Anchor": "#update-an-application",
+      "IsDeprecated": false
+    }
+  ]
+}

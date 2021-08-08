@@ -1,0 +1,13 @@
+{
+  "UniqueName": "triggercmd",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../triggercmd/",
+  "Actions": [
+    {
+      "OperationId": "RunCommand",
+      "Name": "Run command",
+      "Description": "Run a command on your computer.",
+      "Anchor": "#run-command",
+      "IsDeprecated": false
+    }
+  ]
+}

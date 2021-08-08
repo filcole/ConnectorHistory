@@ -1,0 +1,55 @@
+{
+  "UniqueName": "zenkraft",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zenkraft/",
+  "Actions": [
+    {
+      "OperationId": "cancelshipment",
+      "Name": "Cancel Shipment",
+      "Description": "Cancels a shipment with a given shipment ID or tracking number",
+      "Anchor": "#cancel-shipment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createshipment",
+      "Name": "Create a shipment",
+      "Description": "Books a shipment with a carrier and returns a shipping label.",
+      "Anchor": "#create-a-shipment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getprinters",
+      "Name": "Get Printers",
+      "Description": "Request returns credentials, the list of available printers, their trays and some additional data.",
+      "Anchor": "#get-printers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getrates",
+      "Name": "Get Available Rates",
+      "Description": "Obtains available shipping rates based on shipping accounts provided.",
+      "Anchor": "#get-available-rates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pickupshipment",
+      "Name": "Schedule Pickup",
+      "Description": "Schedules a shipment for pickup",
+      "Anchor": "#schedule-pickup",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "print",
+      "Name": "Print Shipping Label",
+      "Description": "Sends a command to print the shipping label based on the base64 string",
+      "Anchor": "#print-shipping-label",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "trackshipment",
+      "Name": "Track Shipment",
+      "Description": "Tracks a shipment with a carrier and returns the checkpoints.",
+      "Anchor": "#track-shipment",
+      "IsDeprecated": false
+    }
+  ]
+}

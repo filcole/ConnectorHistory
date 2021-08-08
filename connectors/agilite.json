@@ -1,0 +1,97 @@
+{
+  "UniqueName": "agilite",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../agilite/",
+  "Actions": [
+    {
+      "OperationId": "assignRole",
+      "Name": "Assign Role (Roles)",
+      "Description": "Assign user specified role that is applicable to a specific record. An example of this would be a document reviewer or a leave approver",
+      "Anchor": "#assign-role-(roles)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "executeBPM",
+      "Name": "Execute (BPM)",
+      "Description": "Submits an option in its current workflow step. Depending on the business rules, the record wil be progressed to the next step in the process and return information about the next step to the calling api",
+      "Anchor": "#execute-(bpm)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "executeTemplates",
+      "Name": "Execute (Templates)",
+      "Description": "Processes and returns a Template from Agilit-e based on the 'profile-key' provided",
+      "Anchor": "#execute-(templates)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "generateNumber",
+      "Name": "Generate Number (Numbering)",
+      "Description": "Generates a unique number based on 'profile-key' provided",
+      "Anchor": "#generate-number-(numbering)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getAssignedRoles",
+      "Name": "Get Assigned Roles (Roles)",
+      "Description": "Get responsible person(s) for previously assigned role for a specific record",
+      "Anchor": "#get-assigned-roles-(roles)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBPMByProfileKey",
+      "Name": "Get By Profile Key (BPM)",
+      "Description": "Get the full BPM Profile with configuration and options for the process.",
+      "Anchor": "#get-by-profile-key-(bpm)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBPMRecordState",
+      "Name": "Get Record State (BPM)",
+      "Description": "Get BPM Record State for one or more records to include the current status, who is responsible for the record, the workflow history and other information to describe the current state and rules for the record",
+      "Anchor": "#get-record-state-(bpm)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getKeywordProfileKeysByGroup",
+      "Name": "Get Profile Keys By Group (Keywords)",
+      "Description": "Returns all Keyword profile keys based on the 'group-name' provided",
+      "Anchor": "#get-profile-keys-by-group-(keywords)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getKeywordsByProfileKey",
+      "Name": "Get By Profile Key (Keywords)",
+      "Description": "Returns Key/Value pairs of a specific Keyword profile based on the 'profile-key' provided",
+      "Anchor": "#get-by-profile-key-(keywords)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getKeywordsLabelByValue",
+      "Name": "Get Label By Value (Keywords)",
+      "Description": "Returns a Keyword Label based on the 'profile-key' and 'value-key' provided",
+      "Anchor": "#get-label-by-value-(keywords)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getKeywordsValueByLabel",
+      "Name": "Get Value By Label (Keywords)",
+      "Description": "Returns a Keyword Value based on the 'profile-key' and 'label-key' provided",
+      "Anchor": "#get-value-by-label-(keywords)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getRole",
+      "Name": "Get Role (Roles)",
+      "Description": "Get responsible person(s) that are assigned to roles in the Agilit-e admin portal. These roles are not only relevant to specific records or business processes and are more typically used for company wide roles in the organization",
+      "Anchor": "#get-role-(roles)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "registerBPMRecord",
+      "Name": "Register BPM Record (BPM)",
+      "Description": "Register new BPM Record. The record is assigned with a recordID that is used for the record life cycle to identify the record, it's progress, history and status at all time",
+      "Anchor": "#register-bpm-record-(bpm)",
+      "IsDeprecated": false
+    }
+  ]
+}

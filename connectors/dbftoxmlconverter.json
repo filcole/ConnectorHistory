@@ -1,0 +1,13 @@
+{
+  "UniqueName": "dbftoxmlconverter",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dbftoxmlconverter/",
+  "Actions": [
+    {
+      "OperationId": "Dbf2XmlConvert",
+      "Name": "Convert DBF to XML",
+      "Description": "Convert base64 content db file to xml file.",
+      "Anchor": "#convert-dbf-to-xml",
+      "IsDeprecated": false
+    }
+  ]
+}

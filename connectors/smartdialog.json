@@ -1,0 +1,27 @@
+{
+  "UniqueName": "smartdialog",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../smartdialog/",
+  "Actions": [
+    {
+      "OperationId": "NewMessage",
+      "Name": "New Message",
+      "Description": "When a new message arrives to a 2-Way service.",
+      "Anchor": "#new-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "Send Message",
+      "Description": "Send a Message to recipients.",
+      "Anchor": "#send-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendWhatsappTemplateMessage",
+      "Name": "Send WhatsApp Message",
+      "Description": "Send WhatsApp template message.",
+      "Anchor": "#send-whatsapp-message",
+      "IsDeprecated": false
+    }
+  ]
+}

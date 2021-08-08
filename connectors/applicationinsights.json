@@ -1,0 +1,20 @@
+{
+  "UniqueName": "applicationinsights",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../applicationinsights/",
+  "Actions": [
+    {
+      "OperationId": "RunQuery",
+      "Name": "Run Analytics query",
+      "Description": "Runs an Analytics query on the specified Application Insights resource",
+      "Anchor": "#run-analytics-query",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VisualizeQuery",
+      "Name": "Visualize Analytics query",
+      "Description": "Creates a visualization from the results of an Analytics query",
+      "Anchor": "#visualize-analytics-query",
+      "IsDeprecated": false
+    }
+  ]
+}

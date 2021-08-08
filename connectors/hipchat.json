@@ -1,0 +1,55 @@
+{
+  "UniqueName": "hipchat",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hipchat/",
+  "Actions": [
+    {
+      "OperationId": "AddUserToRoom",
+      "Name": "Add a user to a room",
+      "Description": "Adds a member to a private room.",
+      "Anchor": "#add-a-user-to-a-room",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserByID",
+      "Name": "Get user by Id",
+      "Description": "Get a user's details by user id.",
+      "Anchor": "#get-user-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListUsers",
+      "Name": "List users in a room",
+      "Description": "Gets all members of an existing room.",
+      "Anchor": "#list-users-in-a-room",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewFile",
+      "Name": "When a file is uploaded to a room",
+      "Description": "Triggers when a file is uploaded an existing room.",
+      "Anchor": "#when-a-file-is-uploaded-to-a-room",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewMessage",
+      "Name": "When a message is posted to a room",
+      "Description": "Triggers when a new message is posted to an existing room.",
+      "Anchor": "#when-a-message-is-posted-to-a-room",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewRoom",
+      "Name": "When a new room is added",
+      "Description": "Triggers when a room is created.",
+      "Anchor": "#when-a-new-room-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostMessage",
+      "Name": "Post message to a room",
+      "Description": "Post new message to an existing room.",
+      "Anchor": "#post-message-to-a-room",
+      "IsDeprecated": false
+    }
+  ]
+}

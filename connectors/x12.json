@@ -1,0 +1,76 @@
+{
+  "UniqueName": "x12",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../x12/",
+  "Actions": [
+    {
+      "OperationId": "AddOrUpdateControlNumbers",
+      "Name": "Add or update control numbers",
+      "Description": "Add or update control numbers",
+      "Anchor": "#add-or-update-control-numbers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BatchEncodeResolveByAgreementName",
+      "Name": "Batch encode by agreement name (Preview)",
+      "Description": "Batch encode by agreement name",
+      "Anchor": "#batch-encode-by-agreement-name-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BatchEncodeResolveByPartnerIdentities",
+      "Name": "Batch encode X12 messages using identities (Preview)",
+      "Description": "Batch encode X12 messages using identities",
+      "Anchor": "#batch-encode-x12-messages-using-identities-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Decode",
+      "Name": "Decode X12 message",
+      "Description": "Decode X12 message",
+      "Anchor": "#decode-x12-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EncodeResolveByAgreementName",
+      "Name": "Encode to X12 message by agreement name",
+      "Description": "Encode to X12 message by agreement name",
+      "Anchor": "#encode-to-x12-message-by-agreement-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EncodeResolveByPartnerIdentities",
+      "Name": "Encode to X12 message by identities",
+      "Description": "Encode to X12 message by identities",
+      "Anchor": "#encode-to-x12-message-by-identities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EncodeV2ResolveByAgreementName",
+      "Name": "Encode to X12 message by agreement name (V2) (Preview)",
+      "Description": "Encode XML interchange to X12 interchange by agreement name. The interchange can have one or more transaction sets.",
+      "Anchor": "#encode-to-x12-message-by-agreement-name-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EncodeV2ResolveByPartnerIdentities",
+      "Name": "Encode to X12 message by identities (V2) (Preview)",
+      "Description": "Encode XML interchange to X12 interchange by identities. The interchange can have one or more transaction sets.",
+      "Anchor": "#encode-to-x12-message-by-identities-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnModifiedControlNumber",
+      "Name": "When a control number is modified",
+      "Description": "When a control number is modified",
+      "Anchor": "#when-a-control-number-is-modified",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResolveAgreement",
+      "Name": "Resolve X12 agreement",
+      "Description": "Resolve X12 agreement",
+      "Anchor": "#resolve-x12-agreement",
+      "IsDeprecated": false
+    }
+  ]
+}

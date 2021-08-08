@@ -1,0 +1,20 @@
+{
+  "UniqueName": "azuremonitorlogs",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azuremonitorlogs/",
+  "Actions": [
+    {
+      "OperationId": "QueryData",
+      "Name": "Run query and list results",
+      "Description": "Returns each row as its own object. Use this action when you want to work with each row separately in the rest of the workflow.",
+      "Anchor": "#run-query-and-list-results",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VisualizeQuery",
+      "Name": "Run query and visualize results",
+      "Description": "Returns all rows in the result set as a single formatted object. Use this action when you want to use the result set together in the rest of the workflow.",
+      "Anchor": "#run-query-and-visualize-results",
+      "IsDeprecated": false
+    }
+  ]
+}

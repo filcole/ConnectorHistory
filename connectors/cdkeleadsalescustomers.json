@@ -1,0 +1,41 @@
+{
+  "UniqueName": "cdkeleadsalescustomers",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cdkeleadsalescustomers/",
+  "Actions": [
+    {
+      "OperationId": "Customers_CreateCustomer",
+      "Name": "Create a customer",
+      "Description": "Creates a prospect/customer",
+      "Anchor": "#create-a-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Customers_GetCustomer",
+      "Name": "Get Customer by Id",
+      "Description": "Retrieves a prospect/customer record by Elead customer ID. An Elead customer ID is currently obtained as follows:\n\nCreate customer via POST /sales/v1/elead/customers\n\nSearch opportunities via GET /sales/v1/elead/opportunities/search",
+      "Anchor": "#get-customer-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Customers_GetCustomerOwnedVehicles",
+      "Name": "Get Vehicles by Id",
+      "Description": "Retrieves a prospect/customer vehicle record(s) by Elead customer ID. An Elead customer ID is currently obtained as follows:\n\nCreate customer via POST /sales/v1/elead/customers\n\nSearch opportunities via GET /sales/v1/elead/opportunities/search",
+      "Anchor": "#get-vehicles-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Customers_SearchCustomers",
+      "Name": "Search customers",
+      "Description": "Search customers",
+      "Anchor": "#search-customers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Customers_UpdateCustomer",
+      "Name": "Update a customer",
+      "Description": "Updates prospect/customer information",
+      "Anchor": "#update-a-customer",
+      "IsDeprecated": false
+    }
+  ]
+}

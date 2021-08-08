@@ -1,0 +1,825 @@
+{
+  "UniqueName": "entersoft",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../entersoft/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Delete an entity's Related Document",
+      "Description": "Delete an entity's Related Document",
+      "Anchor": "#delete-an-entity's-related-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a Public Query's Layout",
+      "Description": "Get a Public Query's Layout",
+      "Anchor": "#get-a-public-query's-layout",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get an entity's Blob data",
+      "Description": "Get an entity's Blob data",
+      "Anchor": "#get-an-entity's-blob-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get Document's Information",
+      "Description": "Get the ES00Document(s) of an Entity by the Unique Identifier",
+      "Anchor": "#get-document's-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get Entity's Blob data by Type",
+      "Description": "Get ES00Blob byte array by the Unique Identifier and the ExtType",
+      "Anchor": "#get-entity's-blob-data-by-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ES00Documents_AddOrUpdateAttachedDocument",
+      "Name": "Add a New or Update an existing Related Document",
+      "Description": "Add or Update an entity's Related Document",
+      "Anchor": "#add-a-new-or-update-an-existing-related-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ES00Documents_BlobDataByGid",
+      "Name": "Get Blob data of a Blob Record by unique identifier",
+      "Description": "Get ES00Blob byte array as identified by the Unique Identifier",
+      "Anchor": "#get-blob-data-of-a-blob-record-by-unique-identifier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ES00Documents_DownloadBlobDataByGID",
+      "Name": "Download Blob data of a Blob Record",
+      "Description": "Download ES00Blob byte array as identified by the Unique Identifier",
+      "Anchor": "#download-blob-data-of-a-blob-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ES00Documents_GetBodyFromES00Blob",
+      "Name": "Get information for a Blob record",
+      "Description": "Get the ES00Blob details for the specified Blob object",
+      "Anchor": "#get-information-for-a-blob-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ES00Documents_Info",
+      "Name": "Get ES00Document Information",
+      "Description": "Get an ES00DocumentInfo object of an entity without the need to load the entire entity to which this ES00Document belongs to.",
+      "Anchor": "#get-es00document-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ES00Documents_PostBodyToES00Blob",
+      "Name": "Add data to a Blob record",
+      "Description": "Create or Update an ES00Blob object",
+      "Anchor": "#add-data-to-a-blob-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESAsset2_downloadAsset",
+      "Name": "Download a Web Asset",
+      "Description": "ID of the Web Asset to be downloaded from EAS",
+      "Anchor": "#download-a-web-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESAsset2_fetchWebAsset",
+      "Name": "Get a Web Asset",
+      "Description": "ID of the Web Asset to get its byte array data",
+      "Anchor": "#get-a-web-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESBudget_ESBGBudgetSheet",
+      "Name": "Get the ESBGBudgetSheet object",
+      "Description": "Get the ESBGBudgetSheetObj",
+      "Anchor": "#get-the-esbgbudgetsheet-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESBusinessHook_Get",
+      "Name": "Get Business WebHook definition",
+      "Description": "Get the definition of a registration on a Business WebHook",
+      "Anchor": "#get-business-webhook-definition",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESBusinessHook_Post",
+      "Name": "When an Entersoft Business Event occurs",
+      "Description": "The subscription data to register on a Business Event hook",
+      "Anchor": "#when-an-entersoft-business-event-occurs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESCollaboration_BroadcastMessage",
+      "Name": "Broadcast an Entersoft type of message",
+      "Description": "Broadcasts a message to connected users",
+      "Anchor": "#broadcast-an-entersoft-type-of-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESCollaboration_CreateRFARequest",
+      "Name": "Create a Request to be Approved or Declined",
+      "Description": "Create a Request to be Approved or Declined",
+      "Anchor": "#create-a-request-to-be-approved-or-declined",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESCollaboration_FetchRequest",
+      "Name": "Get a RFA Request by ID",
+      "Description": "Get a RFA Request by ID",
+      "Anchor": "#get-a-rfa-request-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESCollaboration_RespondToRFARequest",
+      "Name": "Approve or Decline an RFA Request",
+      "Description": "The response to an RFA Request",
+      "Anchor": "#approve-or-decline-an-rfa-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESCollaboration_SendEmail",
+      "Name": "Send and eMail",
+      "Description": "Send email through EAS configured email system",
+      "Anchor": "#send-and-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESCollaboration_SendSMS",
+      "Name": "Send an SMS",
+      "Description": "Send an SMS through EAS configured SMS system",
+      "Anchor": "#send-an-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESCollaboration_SendViberMessage",
+      "Name": "Send a ViberMessage",
+      "Description": "Send a Viber Message through EAS Viber messaging system",
+      "Anchor": "#send-a-vibermessage",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESDevice_fetchDeviceInfo",
+      "Name": "Get Information for a Mobile Device",
+      "Description": "Get Information for a Registered Mobile Device",
+      "Anchor": "#get-information-for-a-mobile-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_CreateEntityByID",
+      "Name": "Create a new Entity By ID",
+      "Description": "Create a new entity by ID",
+      "Anchor": "#create-a-new-entity-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_CreateEntityByType",
+      "Name": "Create a new entity by Type",
+      "Description": "Create a new entity by Type",
+      "Anchor": "#create-a-new-entity-by-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_DeleteEntityByID",
+      "Name": "Delete an entity by ID and PK",
+      "Description": "Delete an entity by ID and PK",
+      "Anchor": "#delete-an-entity-by-id-and-pk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_DeleteEntityByType",
+      "Name": "Delete an entity by Type and PK",
+      "Description": "Delete and entity specified by the PK (either Code or internal identifier)",
+      "Anchor": "#delete-an-entity-by-type-and-pk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_EntitiesByID",
+      "Name": "Get a list of Entities by ID",
+      "Description": "Get a list of Entities by ID",
+      "Anchor": "#get-a-list-of-entities-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_EntitiesByType",
+      "Name": "Get a list of Entities by Type",
+      "Description": "Get a list of Entities by Type",
+      "Anchor": "#get-a-list-of-entities-by-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_EntityAutomationNew",
+      "Name": "Execute a New Entity Automation",
+      "Description": "Execute a New Entity Automation",
+      "Anchor": "#execute-a-new-entity-automation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_EntityAutomationUpdate",
+      "Name": "Execute an Update Entity Automation",
+      "Description": "Execute an Update Entity Automation",
+      "Anchor": "#execute-an-update-entity-automation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_EntityAutomationUpdateByCode",
+      "Name": "Execute an Update Entity Automation by Code",
+      "Description": "Execute an Update Entity Automation by Code",
+      "Anchor": "#execute-an-update-entity-automation-by-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_EntityByID",
+      "Name": "Get the object for an entity by ID and PK",
+      "Description": "Get the object for an entity by ID and PK",
+      "Anchor": "#get-the-object-for-an-entity-by-id-and-pk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_EntityByType",
+      "Name": "Get the object for an entity by Type and PK",
+      "Description": "Get the object for an entity by Type and PK",
+      "Anchor": "#get-the-object-for-an-entity-by-type-and-pk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_UpdateEntityByID",
+      "Name": "Update an entity by ID and PK",
+      "Description": "Update an entity by ID and PK",
+      "Anchor": "#update-an-entity-by-id-and-pk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESEntity_UpdateEntityByType",
+      "Name": "Update an entity by Type and PK",
+      "Description": "Update an entity by Type and PK",
+      "Anchor": "#update-an-entity-by-type-and-pk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFICashAccount",
+      "Name": "Get the ESFICashAccount object",
+      "Description": "Get the ESFICashAccountObj",
+      "Anchor": "#get-the-esficashaccount-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFICreditor",
+      "Name": "Get the ESFICreditor object",
+      "Description": "Get the ESFICreditorObj",
+      "Anchor": "#get-the-esficreditor-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFICustomer",
+      "Name": "Get the ESFICustomer object",
+      "Description": "Get the ESFICustomerObj",
+      "Anchor": "#get-the-esficustomer-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIDebtor",
+      "Name": "Get the ESFIDebtor object",
+      "Description": "Get the ESFIDebtorObj",
+      "Anchor": "#get-the-esfidebtor-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIDocumentAdjustment",
+      "Name": "Get the ESFIDocumentAdjustment object",
+      "Description": "Get the ESFIDocumentAdjustmentObj",
+      "Anchor": "#get-the-esfidocumentadjustment-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIDocumentCash",
+      "Name": "Get the ESFIDocumentCash object",
+      "Description": "Get the ESFIDocumentCashObj",
+      "Anchor": "#get-the-esfidocumentcash-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIDocumentStock",
+      "Name": "Get the ESFIDocumentStock object",
+      "Description": "Get the ESFIDocumentStockObj",
+      "Anchor": "#get-the-esfidocumentstock-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIDocumentTrade",
+      "Name": "Get the ESFIDocumentTrade object",
+      "Description": "Get the ESFIDocumentTradeObj",
+      "Anchor": "#get-the-esfidocumenttrade-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIItem",
+      "Name": "Get the ESFIItem object",
+      "Description": "Get the ESFIItemObj",
+      "Anchor": "#get-the-esfiitem-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIItemExpense",
+      "Name": "Get the ESFIItemExpense object",
+      "Description": "Get the ESFIItemExpenseObj",
+      "Anchor": "#get-the-esfiitemexpense-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIItemExpenses",
+      "Name": "Get the ESFIItemExpenses object",
+      "Description": "Get the ESFIItemExpensesObj",
+      "Anchor": "#get-the-esfiitemexpenses-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIItemService",
+      "Name": "Get the ESFIItemService object",
+      "Description": "Get the ESFIItemServiceObj",
+      "Anchor": "#get-the-esfiitemservice-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFINote",
+      "Name": "Get the ESFINote object",
+      "Description": "Get the ESFINoteObj",
+      "Anchor": "#get-the-esfinote-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIPaymentMethod",
+      "Name": "Get the ESFIPaymentMethod object",
+      "Description": "Get the ESFIPaymentMethodObj",
+      "Anchor": "#get-the-esfipaymentmethod-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIPricelist",
+      "Name": "Get the ESFIPricelist object",
+      "Description": "Get the ESFIPricelistObj",
+      "Anchor": "#get-the-esfipricelist-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFISalesPerson",
+      "Name": "Get the ESFISalesPerson object",
+      "Description": "Get the ESFISalesPersonObj",
+      "Anchor": "#get-the-esfisalesperson-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFISpecialAccount",
+      "Name": "Get the ESFISpecialAccount object",
+      "Description": "Get the ESFISpecialAccountObj",
+      "Anchor": "#get-the-esfispecialaccount-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFISupplier",
+      "Name": "Get the ESFISupplier object",
+      "Description": "Get the ESFISupplierObj",
+      "Anchor": "#get-the-esfisupplier-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFITradeAccount",
+      "Name": "Get the ESFITradeAccount object",
+      "Description": "Get the ESFITradeAccountObj",
+      "Anchor": "#get-the-esfitradeaccount-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFITradeAccountContract",
+      "Name": "Get the ESFITradeAccountContract object",
+      "Description": "Get the ESFITradeAccountContractObj",
+      "Anchor": "#get-the-esfitradeaccountcontract-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESFIVoucher",
+      "Name": "Get the ESFIVoucher object",
+      "Description": "Get the ESFIVoucherObj",
+      "Anchor": "#get-the-esfivoucher-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFinancials_ESMMStockOrderPlan",
+      "Name": "Get the ESMMStockOrderPlan object",
+      "Description": "Get the ESMMStockOrderPlanObj",
+      "Anchor": "#get-the-esmmstockorderplan-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESFixedAsset_ESFAFixedAsset",
+      "Name": "Get the ESFAFixedAsset object",
+      "Description": "Get the ESFAFixedAssetObj",
+      "Anchor": "#get-the-esfafixedasset-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESGlobalObjects_ES00Device",
+      "Name": "Get the ES00Device object",
+      "Description": "Get the ES00DeviceObj",
+      "Anchor": "#get-the-es00device-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESGlobalObjects_ESGOPerson",
+      "Name": "Get the ESGOPerson object",
+      "Description": "Get the ESGOPersonObj",
+      "Anchor": "#get-the-esgoperson-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESGlobalObjects_ESGOUser",
+      "Name": "Get the ESGOUser object",
+      "Description": "Get the ESGOUserObj",
+      "Anchor": "#get-the-esgouser-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESGlobalObjects_ESGOWebUser",
+      "Name": "Get the ESGOWebUser object",
+      "Description": "Get the ESGOWebUserObj",
+      "Anchor": "#get-the-esgowebuser-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESHook_Get",
+      "Name": "Get the definition of an Entity WebHook",
+      "Description": "Get the definition of an Entity WebHook",
+      "Anchor": "#get-the-definition-of-an-entity-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESHook_Post",
+      "Name": "When an Entity is being affected",
+      "Description": "Create a registration on a exposed Entity WebHook",
+      "Anchor": "#when-an-entity-is-being-affected",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESMachineLearning_ESMLModel",
+      "Name": "Get the ESMLModel object",
+      "Description": "Get the ESMLModelObj",
+      "Anchor": "#get-the-esmlmodel-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESMaterialManagement_ESMMCatalogueItem",
+      "Name": "Get the ESMMCatalogueItem object",
+      "Description": "Get the ESMMCatalogueItemObj",
+      "Anchor": "#get-the-esmmcatalogueitem-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESMaterialManagement_ESMMCommercialProfile",
+      "Name": "Get the ESMMCommercialProfile object",
+      "Description": "Get the ESMMCommercialProfileObj",
+      "Anchor": "#get-the-esmmcommercialprofile-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESMaterialManagement_ESMMLot",
+      "Name": "Get the ESMMLot object",
+      "Description": "Get the ESMMLotObj",
+      "Anchor": "#get-the-esmmlot-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESMaterialManagement_ESMMProductionPlan",
+      "Name": "Get the ESMMProductionPlan object",
+      "Description": "Get the ESMMProductionPlanObj",
+      "Anchor": "#get-the-esmmproductionplan-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESMaterialManagement_ESMMSerialNumber",
+      "Name": "Get the ESMMSerialNumber object",
+      "Description": "Get the ESMMSerialNumberObj",
+      "Anchor": "#get-the-esmmserialnumber-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESMaterialManagement_ESMMSortiment",
+      "Name": "Get the ESMMSortiment object",
+      "Description": "Get the ESMMSortimentObj",
+      "Anchor": "#get-the-esmmsortiment-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESMaterialManagement_ESMMStockItem",
+      "Name": "Get the ESMMStockItem object",
+      "Description": "Get the ESMMStockItemObj",
+      "Anchor": "#get-the-esmmstockitem-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESMaterialManagement_ESMMStorageLocation",
+      "Name": "Get the ESMMStorageLocation object",
+      "Description": "Get the ESMMStorageLocationObj",
+      "Anchor": "#get-the-esmmstoragelocation-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESPodHook_Get",
+      "Name": "Get the definition of a Pod Event WebHook",
+      "Description": "Get the definition of a Pod Event WebHook",
+      "Anchor": "#get-the-definition-of-a-pod-event-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESPodHook_Post",
+      "Name": "When an Entersoft Pod Event occurs",
+      "Description": "Create a registration on a Pod WebHook",
+      "Anchor": "#when-an-entersoft-pod-event-occurs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRFAHook_Get",
+      "Name": "Get the definition of an RFA Event WebHook",
+      "Description": "Get the definition of an RFA Event WebHook",
+      "Anchor": "#get-the-definition-of-an-rfa-event-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRFAHook_Post",
+      "Name": "When an Entersoft RFA Event occurs",
+      "Description": "Create a registration on a RFA Event WebHook",
+      "Anchor": "#when-an-entersoft-rfa-event-occurs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_ExecuteCommand",
+      "Name": "Execute a context-less Automation Command",
+      "Description": "Execute a context-less Automation Command",
+      "Anchor": "#execute-a-context-less-automation-command",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_ExecuteFormCommand",
+      "Name": "Execute a Form Automation Command",
+      "Description": "Execute a Form Automation Command",
+      "Anchor": "#execute-a-form-automation-command",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_ExecuteScrollerCommand",
+      "Name": "Execute a Scroller Automation Command",
+      "Description": "Execute a Scroller Automation Command",
+      "Anchor": "#execute-a-scroller-automation-command",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_FetchCompanyParam",
+      "Name": "Get the details of the specified Company Parameter",
+      "Description": "Get the details of the specified Company Parameter",
+      "Anchor": "#get-the-details-of-the-specified-company-parameter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_FetchCompanyParams",
+      "Name": "Get the list of details for all the specified Company Parameters",
+      "Description": "Get the list of details for all the specified Company Parameters",
+      "Anchor": "#get-the-list-of-details-for-all-the-specified-company-parameters",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_fetchESScale",
+      "Name": "Get a Scale Defintion",
+      "Description": "Get a Scale definition",
+      "Anchor": "#get-a-scale-defintion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_fetchPropertySet",
+      "Name": "Get a Property Set",
+      "Description": "Get a Property Set",
+      "Anchor": "#get-a-property-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_FIImportDocument",
+      "Name": "Create or Update a Finacial Document",
+      "Description": "Create or Update a Finacial Document",
+      "Anchor": "#create-or-update-a-finacial-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_GetPQData",
+      "Name": "Get the data of a Public Query",
+      "Description": "Get the data of a Public Query",
+      "Anchor": "#get-the-data-of-a-public-query",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_GetPQData2",
+      "Name": "Get paged data of a Public Query",
+      "Description": "Get paged data of a Public Query",
+      "Anchor": "#get-paged-data-of-a-public-query",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_Log",
+      "Name": "Log an event into Entersoft Business loggin subsystem",
+      "Description": "Log an event into Entersoft Business loggin subsystem",
+      "Anchor": "#log-an-event-into-entersoft-business-loggin-subsystem",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_ParameterValue",
+      "Name": "Get the value of the specified Company Parameter",
+      "Description": "Get the value of the specified Company Parameter",
+      "Anchor": "#get-the-value-of-the-specified-company-parameter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESRPC_PingServer",
+      "Name": "Ping the Entersoft Application Server",
+      "Description": "Ping the Entersoft Application Server",
+      "Anchor": "#ping-the-entersoft-application-server",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESSystemHook_Get",
+      "Name": "Get the definition of a System Event WebHook",
+      "Description": "Get the definition of a System Event WebHook",
+      "Anchor": "#get-the-definition-of-a-system-event-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESSystemHook_Post",
+      "Name": "When an Entersoft System Event occurs",
+      "Description": "Create a registration on a System Event WebHook",
+      "Anchor": "#when-an-entersoft-system-event-occurs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTaskManagement_ESTMCampaign",
+      "Name": "Get the ESTMCampaign object",
+      "Description": "Get the ESTMCampaignObj",
+      "Anchor": "#get-the-estmcampaign-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTaskManagement_ESTMInteraction",
+      "Name": "Get the ESTMInteraction object",
+      "Description": "Get the ESTMInteractionObj",
+      "Anchor": "#get-the-estminteraction-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTaskManagement_ESTMMobileTaskType",
+      "Name": "Get the ESTMMobileTaskType object",
+      "Description": "Get the ESTMMobileTaskTypeObj",
+      "Anchor": "#get-the-estmmobiletasktype-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTaskManagement_ESTMNewsletterRecipient",
+      "Name": "Get the ESTMNewsletterRecipient object",
+      "Description": "Get the ESTMNewsletterRecipientObj",
+      "Anchor": "#get-the-estmnewsletterrecipient-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTaskManagement_ESTMObjectRating",
+      "Name": "Get the ESTMObjectRating object",
+      "Description": "Get the ESTMObjectRatingObj",
+      "Anchor": "#get-the-estmobjectrating-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTaskManagement_ESTMOpportunity",
+      "Name": "Get the ESTMOpportunity object",
+      "Description": "Get the ESTMOpportunityObj",
+      "Anchor": "#get-the-estmopportunity-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTaskManagement_ESTMResource",
+      "Name": "Get the ESTMResource object",
+      "Description": "Get the ESTMResourceObj",
+      "Anchor": "#get-the-estmresource-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTaskManagement_ESTMRFMModel",
+      "Name": "Get the ESTMRFMModel object",
+      "Description": "Get the ESTMRFMModelObj",
+      "Anchor": "#get-the-estmrfmmodel-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTaskManagement_ESTMServiceRequest",
+      "Name": "Get the ESTMServiceRequest object",
+      "Description": "Get the ESTMServiceRequestObj",
+      "Anchor": "#get-the-estmservicerequest-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTaskManagement_ESTMSMActivity",
+      "Name": "Get the ESTMSMActivity object",
+      "Description": "Get the ESTMSMActivityObj",
+      "Anchor": "#get-the-estmsmactivity-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTaskManagement_ESTMTask",
+      "Name": "Get the ESTMTask object",
+      "Description": "Get the ESTMTaskObj",
+      "Anchor": "#get-the-estmtask-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESTest_EBSConnectionTest",
+      "Name": "Test Connectivity to Entersoft Business Suite",
+      "Description": "Test Connectivity to Entersoft Business Suite",
+      "Anchor": "#test-connectivity-to-entersoft-business-suite",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESWarehouseManagement_ESWMAction",
+      "Name": "Get the ESWMAction object",
+      "Description": "Get the ESWMActionObj",
+      "Anchor": "#get-the-eswmaction-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESWarehouseManagement_ESWMContainer",
+      "Name": "Get the ESWMContainer object",
+      "Description": "Get the ESWMContainerObj",
+      "Anchor": "#get-the-eswmcontainer-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESWarehouseManagement_ESWMRequest",
+      "Name": "Get the ESWMRequest object",
+      "Description": "Get the ESWMRequestObj",
+      "Anchor": "#get-the-eswmrequest-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESWarehouseManagement_ESWMShipment",
+      "Name": "Get the ESWMShipment object",
+      "Description": "Get the ESWMShipmentObj",
+      "Anchor": "#get-the-eswmshipment-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESWarehouseManagement_ESWMTransportAction",
+      "Name": "Get the ESWMTransportAction object",
+      "Description": "Get the ESWMTransportActionObj",
+      "Anchor": "#get-the-eswmtransportaction-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESWarehouseManagement_ESWMWorkPackage",
+      "Name": "Get the ESWMWorkPackage object",
+      "Description": "Get the ESWMWorkPackageObj",
+      "Anchor": "#get-the-eswmworkpackage-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESWorkInProgress_ESWPActualTask",
+      "Name": "Get the ESWPActualTask object",
+      "Description": "Get the ESWPActualTaskObj",
+      "Anchor": "#get-the-eswpactualtask-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESWorkInProgress_ESWPTaskRequest",
+      "Name": "Get the ESWPTaskRequest object",
+      "Description": "Get the ESWPTaskRequestObj",
+      "Anchor": "#get-the-eswptaskrequest-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ESWorkInProgress_ESWPWorkPackage",
+      "Name": "Get the ESWPWorkPackage object",
+      "Description": "Get the ESWPWorkPackageObj",
+      "Anchor": "#get-the-eswpworkpackage-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_ESRPC_EbsService2",
+      "Name": "Execute an Entersoft Business Suite service v2",
+      "Description": "Execute an Entersoft Business Suite service v2",
+      "Anchor": "#execute-an-entersoft-business-suite-service-v2",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_ESRPC_EbsService2",
+      "Name": "Execute an Entersoft Business Suite service",
+      "Description": "Execute an Entersoft Business Suite service",
+      "Anchor": "#execute-an-entersoft-business-suite-service",
+      "IsDeprecated": false
+    }
+  ]
+}

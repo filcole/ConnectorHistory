@@ -1,0 +1,34 @@
+{
+  "UniqueName": "infobip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../infobip/",
+  "Actions": [
+    {
+      "OperationId": "CheckCurrentBalance",
+      "Name": "Check current balance",
+      "Description": "This action will return you the current balance of your account.",
+      "Anchor": "#check-current-balance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateInfobipSMSWebhook",
+      "Name": "When you receive an incoming text message",
+      "Description": "This operation triggers when you receive an incoming text message (SMS) on the number you bought from Infobip.",
+      "Anchor": "#when-you-receive-an-incoming-text-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MakeInfobipVoiceCall",
+      "Name": "Make a voice call",
+      "Description": "This action will make an outbound voice call and read your message using text to speech synthesis.",
+      "Anchor": "#make-a-voice-call",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendInfobipSMS",
+      "Name": "Send a text message (SMS)",
+      "Description": "This action will send an outbound text message (SMS).",
+      "Anchor": "#send-a-text-message-(sms)",
+      "IsDeprecated": false
+    }
+  ]
+}

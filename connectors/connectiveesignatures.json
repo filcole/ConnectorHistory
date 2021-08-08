@@ -1,0 +1,132 @@
+{
+  "UniqueName": "connectiveesignatures",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../connectiveesignatures/",
+  "Actions": [
+    {
+      "OperationId": "AddDocumentToPackage",
+      "Name": "Add document to package",
+      "Description": "This call will add a document to an existing package.",
+      "Anchor": "#add-document-to-package",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateInstantPackage",
+      "Name": "Create Instant Package",
+      "Description": "This call creates a package with a single document in it and instantly prepares it for signing",
+      "Anchor": "#create-instant-package",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePackage",
+      "Name": "Create Package",
+      "Description": "This call creates an empty package, allowing documents to be added to it",
+      "Anchor": "#create-package",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeletePackage",
+      "Name": "Delete Package",
+      "Description": "eSignatures does not automatically delete packages from the database once they have reached a final state. They are stored indefinitely. To delete packages from the database, users can use the Delete Package call.",
+      "Anchor": "#delete-package",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentCorrelationAuditProof",
+      "Name": "Document Correlation Audit Proof Download",
+      "Description": "Correlation ids are used to track packages or documents across several passes through the eSignatures application.",
+      "Anchor": "#document-correlation-audit-proof-download",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DownloadPackage",
+      "Name": "Download Package",
+      "Description": "The package containing the signed documents can be downloaded by an external system using this call.",
+      "Anchor": "#download-package",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExpiryTimeStamp",
+      "Name": "Expiry Time Stamp",
+      "Description": "A package may have the status Expired when a package passed a value for the ExpiryTimestamp parameter in the Create Package call. Such a package can no longer be signed.",
+      "Anchor": "#expiry-time-stamp",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPackageStatus",
+      "Name": "Get Package Status",
+      "Description": "Retrieves the current state of the package and its documents.",
+      "Anchor": "#get-package-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSigningLocations",
+      "Name": "Get Signing Locations",
+      "Description": "This call provides an overview of all signing locations inside the documents within a package.",
+      "Anchor": "#get-signing-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PackageAuditProof",
+      "Name": "Package Audit Proof",
+      "Description": "A package’s audit proofs xml can be retrieved when the package is fully signed. The same applies for a document: it only works when the containing package is fully signed.",
+      "Anchor": "#package-audit-proof",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PackageAuditProofDoc",
+      "Name": "Package Audit Proof with document ID",
+      "Description": "A package’s audit proofs xml can be retrieved when the package is fully signed. The same applies for a document: it only works when the containing package is fully signed.",
+      "Anchor": "#package-audit-proof-with-document-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PackageCorrelationAuditProof",
+      "Name": "Package Correlation Audit Proof Download",
+      "Description": "Correlation ids are used to track packages or documents across several passes through the eSignatures application.",
+      "Anchor": "#package-correlation-audit-proof-download",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PackageList",
+      "Name": "Package List",
+      "Description": "Get a list of packages with their current status",
+      "Anchor": "#package-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProofExternalSource",
+      "Name": "Add Proof from External Source",
+      "Description": "This call allows API users to add extra proofs from an external source to a location on a document.",
+      "Anchor": "#add-proof-from-external-source",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendPackageReminders",
+      "Name": "Send Package Reminders",
+      "Description": "Company policy might require that a document is handled within a given timespan. Triggering the “send reminders” call will look up everybody who hasn’t signed and send them an extra notification as a reminder.",
+      "Anchor": "#send-package-reminders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetPackageStatus",
+      "Name": "Set Package Status",
+      "Description": "By means of the Set Package Status call, you can change the status of a package.",
+      "Anchor": "#set-package-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetProcessInformation",
+      "Name": "Set Process Information",
+      "Description": "This webservice method updates the people involved in the process (stakeholders) and assigns them steps which need to be taken.",
+      "Anchor": "#set-process-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SkipSigners",
+      "Name": "Skip Signers",
+      "Description": "This call skips all signers that haven’t signed yet and sets their status to “Skipped”, which results in the complete package being marked as “Finished”.",
+      "Anchor": "#skip-signers",
+      "IsDeprecated": false
+    }
+  ]
+}

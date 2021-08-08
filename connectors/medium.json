@@ -1,0 +1,27 @@
+{
+  "UniqueName": "medium",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../medium/",
+  "Actions": [
+    {
+      "OperationId": "TriggerPublicationAdded",
+      "Name": "When a publication is created or subscribed to",
+      "Description": "Triggers a new flow when a publication is created or subscribed to",
+      "Anchor": "#when-a-publication-is-created-or-subscribed-to",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WriteStory",
+      "Name": "Write a story",
+      "Description": "Write a new story.",
+      "Anchor": "#write-a-story",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WriteStoryToPublication",
+      "Name": "Write a story under a publication",
+      "Description": "Write a story under a publication.",
+      "Anchor": "#write-a-story-under-a-publication",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "UniqueName": "googlecalendar",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../googlecalendar/",
+  "Actions": [
+    {
+      "OperationId": "CreateEvent",
+      "Name": "Create an event",
+      "Description": "This operation is used to create an event on a specific calendar.",
+      "Anchor": "#create-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteEvent",
+      "Name": "Delete an event",
+      "Description": "This operation is used to delete an event from a calendar.",
+      "Anchor": "#delete-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEvent",
+      "Name": "Get an event",
+      "Description": "This operation is used to get the details of a specific event from a calendar.",
+      "Anchor": "#get-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCalendars",
+      "Name": "List calendars",
+      "Description": "This operation is used to list all calendars in your Google account.",
+      "Anchor": "#list-calendars",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEvents",
+      "Name": "List the events on a calendar",
+      "Description": "This operation is used to return the first page of arbitrarily ordered events on the selected calendar.",
+      "Anchor": "#list-the-events-on-a-calendar",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnChangedEventInCalendar",
+      "Name": "When an event is added, updated or deleted from a calendar",
+      "Description": "This operation triggers when a new event is added, updated or deleted from a calendar.",
+      "Anchor": "#when-an-event-is-added,-updated-or-deleted-from-a-calendar",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnDeletedEventInCalendar",
+      "Name": "When an event is deleted from a calendar",
+      "Description": "This operation triggers when a new event is deleted from a calendar.",
+      "Anchor": "#when-an-event-is-deleted-from-a-calendar",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnEventStarted",
+      "Name": "When an event starts",
+      "Description": "This operation triggers when an event starts.",
+      "Anchor": "#when-an-event-starts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewEventInCalendar",
+      "Name": "When an event is added to a calendar",
+      "Description": "This operation triggers when a new event is added to a calendar.",
+      "Anchor": "#when-an-event-is-added-to-a-calendar",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedEventInCalendar",
+      "Name": "When an event is updated in a calendar",
+      "Description": "This operation triggers when an event is updated in a calendar.",
+      "Anchor": "#when-an-event-is-updated-in-a-calendar",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEvent",
+      "Name": "Update an event",
+      "Description": "This operation is used to update an existing event on a calendar.",
+      "Anchor": "#update-an-event",
+      "IsDeprecated": false
+    }
+  ]
+}

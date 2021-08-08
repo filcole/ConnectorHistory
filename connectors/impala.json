@@ -1,0 +1,27 @@
+{
+  "UniqueName": "impala",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../impala/",
+  "Actions": [
+    {
+      "OperationId": "GetItem",
+      "Name": "Get row",
+      "Description": "Retrieves a single row from an Impala table",
+      "Anchor": "#get-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get rows",
+      "Description": "Retrieves rows from an Impala table",
+      "Anchor": "#get-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get tables",
+      "Description": "Retrieves tables from an Impala database",
+      "Anchor": "#get-tables",
+      "IsDeprecated": false
+    }
+  ]
+}

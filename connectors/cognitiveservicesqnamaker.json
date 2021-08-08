@@ -1,0 +1,34 @@
+{
+  "UniqueName": "cognitiveservicesqnamaker",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cognitiveservicesqnamaker/",
+  "Actions": [
+    {
+      "OperationId": "DownloadKnowledgeBase",
+      "Name": "Download knowledge base [DEPRECATED]",
+      "Description": "This operation downloads all the data associated wiht the specified knowledge base.",
+      "Anchor": "#download-knowledge-base-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DownloadKnowledgeBaseOld",
+      "Name": "Download knowledgebase details",
+      "Description": "Gets details of a specific knowledgebase.",
+      "Anchor": "#download-knowledgebase-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateAnswer",
+      "Name": "Generate answer",
+      "Description": "This operation returns the top ranking answer for the given question.",
+      "Anchor": "#generate-answer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateAnswerOld",
+      "Name": "Generate answer [DEPRECATED]",
+      "Description": "This operation returns the top ranking answer for the given question.",
+      "Anchor": "#generate-answer-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

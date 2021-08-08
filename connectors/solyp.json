@@ -1,0 +1,97 @@
+{
+  "UniqueName": "solyp",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../solyp/",
+  "Actions": [
+    {
+      "OperationId": "CreateItem",
+      "Name": "Create a new item",
+      "Description": "Create a new item.",
+      "Anchor": "#create-a-new-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindItemsByIntegrationSystem",
+      "Name": "Find items by integration system",
+      "Description": "Find items by integration system.",
+      "Anchor": "#find-items-by-integration-system",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFactImpacts",
+      "Name": "Get all roadmap impacts",
+      "Description": "Get all roadmap impacts",
+      "Anchor": "#get-all-roadmap-impacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetImpacts",
+      "Name": "Get all item impacts",
+      "Description": "Get all item impacts",
+      "Anchor": "#get-all-item-impacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get an item",
+      "Description": "Get an item.",
+      "Anchor": "#get-an-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get all items",
+      "Description": "Get all items.",
+      "Anchor": "#get-all-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItemTypes",
+      "Name": "Get all item types",
+      "Description": "Get all item types.",
+      "Anchor": "#get-all-item-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRoadmap",
+      "Name": "Get a roadmap",
+      "Description": "Get a roadmap.",
+      "Anchor": "#get-a-roadmap",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRoadmaps",
+      "Name": "Get all roadmaps",
+      "Description": "Get all roadmaps.",
+      "Anchor": "#get-all-roadmaps",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get a user",
+      "Description": "Get a user.",
+      "Anchor": "#get-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MapValue",
+      "Name": "Map a value",
+      "Description": "Map a value to another value.",
+      "Anchor": "#map-a-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetImpactValue",
+      "Name": "Set an impact value",
+      "Description": "Set an impact value.",
+      "Anchor": "#set-an-impact-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateItem",
+      "Name": "Update an item",
+      "Description": "Update an item.",
+      "Anchor": "#update-an-item",
+      "IsDeprecated": false
+    }
+  ]
+}

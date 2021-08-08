@@ -1,0 +1,27 @@
+{
+  "UniqueName": "linkedinv2",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../linkedinv2/",
+  "Actions": [
+    {
+      "OperationId": "ListCompaniesV2",
+      "Name": "List my companies V2",
+      "Description": "This operation returns a list of all companies that you are an administrator of.",
+      "Anchor": "#list-my-companies-v2",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShareCompanyUpdateV2",
+      "Name": "Share a company update V2",
+      "Description": "Post a company update (article) using a URL to the content you wish to share. LinkedIn analyzes the included URL and automatically identifies the title, description, image, etc. You can overwrite the auto-identified content by providing the title, description and image directly.",
+      "Anchor": "#share-a-company-update-v2",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShareUpdateV2",
+      "Name": "Share an article V2",
+      "Description": "Post an article using a URL to the content you wish to share. LinkedIn analyzes the included URL and automatically identifies the title, description, image, etc. You can overwrite the auto-identified content by providing the title, description and image directly.",
+      "Anchor": "#share-an-article-v2",
+      "IsDeprecated": false
+    }
+  ]
+}

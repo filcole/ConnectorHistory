@@ -1,0 +1,76 @@
+{
+  "UniqueName": "easyredmine",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../easyredmine/",
+  "Actions": [
+    {
+      "OperationId": "CreateIssue",
+      "Name": "Create a task",
+      "Description": "Create a task",
+      "Anchor": "#create-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProject",
+      "Name": "Create a project",
+      "Description": "Create a project",
+      "Anchor": "#create-a-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIssue",
+      "Name": "Get task by ID",
+      "Description": "Get task by ID",
+      "Anchor": "#get-task-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProject",
+      "Name": "Get project by ID",
+      "Description": "Get project by ID",
+      "Anchor": "#get-project-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user by ID",
+      "Description": "Get user by ID",
+      "Anchor": "#get-user-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListUsers",
+      "Name": "List users",
+      "Description": "List users",
+      "Anchor": "#list-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewIssue",
+      "Name": "When a task is created",
+      "Description": "When a task is created",
+      "Anchor": "#when-a-task-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewProject",
+      "Name": "When a project is created",
+      "Description": "When a project is created",
+      "Anchor": "#when-a-project-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedIssue",
+      "Name": "When a task is updated",
+      "Description": "When a task is updated",
+      "Anchor": "#when-a-task-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateIssue",
+      "Name": "Update a task",
+      "Description": "Update a task",
+      "Anchor": "#update-a-task",
+      "IsDeprecated": false
+    }
+  ]
+}

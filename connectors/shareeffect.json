@@ -1,0 +1,34 @@
+{
+  "UniqueName": "shareeffect",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../shareeffect/",
+  "Actions": [
+    {
+      "OperationId": "AddUpdateTerm",
+      "Name": "Add or update term",
+      "Description": "Add or update a term in a termset",
+      "Anchor": "#add-or-update-term",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddUpdateTermByKeyValue",
+      "Name": "Add or update term by key value",
+      "Description": "Add or update a term in a termset using a keyvalue. For example: A static ID field from a CRM system.",
+      "Anchor": "#add-or-update-term-by-key-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTermByKeyValue",
+      "Name": "Get terms by key value",
+      "Description": "Get terms by key value",
+      "Anchor": "#get-terms-by-key-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTermByLabel",
+      "Name": "Get terms by label",
+      "Description": "Get terms by label name",
+      "Anchor": "#get-terms-by-label",
+      "IsDeprecated": false
+    }
+  ]
+}

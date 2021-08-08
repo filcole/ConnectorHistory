@@ -1,0 +1,34 @@
+{
+  "UniqueName": "bitvorecellenus",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bitvorecellenus/",
+  "Actions": [
+    {
+      "OperationId": "getVersionUsingGET_2",
+      "Name": "Return API Version",
+      "Description": "Deprecated",
+      "Anchor": "#return-api-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "handleGetOrgUsingGET",
+      "Name": "Organization Details",
+      "Description": "Returns detailed information about the company with the given Bitvore ID.",
+      "Anchor": "#organization-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "handleOrgLookupUsingGET",
+      "Name": "Organization Search",
+      "Description": "Search can be performed using one of two approaches, a lookup or a parameterized query. A lookup takes a single string as input to matching entities. A paramaterized query takes one or more search parameters.",
+      "Anchor": "#organization-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "handleOrgMatchingUsingPOST",
+      "Name": "Organization Matching",
+      "Description": "Attempts to find companies matching input specifications made up of a list of property values. Multiple companies can be matched in a single call.",
+      "Anchor": "#organization-matching",
+      "IsDeprecated": false
+    }
+  ]
+}

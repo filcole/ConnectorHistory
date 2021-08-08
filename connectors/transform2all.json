@@ -1,0 +1,13 @@
+{
+  "UniqueName": "transform2all",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../transform2all/",
+  "Actions": [
+    {
+      "OperationId": "Transform",
+      "Name": "Transform data format",
+      "Description": "Apply transformation schemas to transform the representation of your data from one format (JSON, XML, TXT, ...) to another.",
+      "Anchor": "#transform-data-format",
+      "IsDeprecated": false
+    }
+  ]
+}

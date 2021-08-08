@@ -1,0 +1,13 @@
+{
+  "UniqueName": "peltarion",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../peltarion/",
+  "Actions": [
+    {
+      "OperationId": "callapi",
+      "Name": "Call Peltarion API",
+      "Description": "This function calls your model deployed on the Peltarion Platform.",
+      "Anchor": "#call-peltarion-api",
+      "IsDeprecated": false
+    }
+  ]
+}

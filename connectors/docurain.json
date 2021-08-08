@@ -1,0 +1,34 @@
+{
+  "UniqueName": "docurain",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../docurain/",
+  "Actions": [
+    {
+      "OperationId": "GetAsyncResult",
+      "Name": "Get the processing result",
+      "Description": "Get the processing result of the specified result ID.",
+      "Anchor": "#get-the-processing-result",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAsyncStatus",
+      "Name": "Get the processing status",
+      "Description": "Get the processing status of the specified result ID.",
+      "Anchor": "#get-the-processing-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Render",
+      "Name": "Render a form",
+      "Description": "This API renders a form by specifying the name of a template saved in Docurain beforehand.",
+      "Anchor": "#render-a-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenderAsync",
+      "Name": "Render a form asynchronously",
+      "Description": "API to render a form asynchronously by specifying the name of a template saved in Docurain beforehand.",
+      "Anchor": "#render-a-form-asynchronously",
+      "IsDeprecated": false
+    }
+  ]
+}

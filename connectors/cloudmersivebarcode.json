@@ -1,0 +1,55 @@
+{
+  "UniqueName": "cloudmersivebarcode",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudmersivebarcode/",
+  "Actions": [
+    {
+      "OperationId": "BarcodeLookup_EanLookup",
+      "Name": "Lookup EAN barcode value, return product data",
+      "Description": "Lookup an input EAN barcode and return key details about the product",
+      "Anchor": "#lookup-ean-barcode-value,-return-product-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BarcodeScan_Image",
+      "Name": "Scan and recognize an image of a barcode",
+      "Description": "Scan an image or photo of a barcode and return the result.  Supported barcode types include AZTEC, CODABAR, CODE_39, CODE_93, CODE_128, DATA_MATRIX, EAN_8, EAN_13, ITF, MAXICODE, PDF_417, QR_CODE, RSS_14, RSS_EXPANDED, UPC_A, UPC_E, All_1D, UPC_EAN_EXTENSION, MSI, PLESSEY, IMB",
+      "Anchor": "#scan-and-recognize-an-image-of-a-barcode",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateBarcode_EAN13",
+      "Name": "Generate a EAN-13 code barcode as PNG file",
+      "Description": "Validates and generate a EAN-13 barcode as a PNG file, a type of 1D barcode",
+      "Anchor": "#generate-a-ean-13-code-barcode-as-png-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateBarcode_EAN8",
+      "Name": "Generate a EAN-8 code barcode as PNG file",
+      "Description": "Validates and generate a EAN-8 barcode as a PNG file, a type of 1D barcode",
+      "Anchor": "#generate-a-ean-8-code-barcode-as-png-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateBarcode_QRCode",
+      "Name": "Generate a QR code barcode as PNG file",
+      "Description": "Generate a QR code barcode as a PNG file, a type of 2D barcode which can encode free-form text information",
+      "Anchor": "#generate-a-qr-code-barcode-as-png-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateBarcode_UPCA",
+      "Name": "Generate a UPC-A code barcode as PNG file",
+      "Description": "Validate and generate a UPC-A barcode as a PNG file, a type of 1D barcode",
+      "Anchor": "#generate-a-upc-a-code-barcode-as-png-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateBarcode_UPCE",
+      "Name": "Generate a UPC-E code barcode as PNG file",
+      "Description": "Validates and generate a UPC-E barcode as a PNG file, a type of 1D barcode",
+      "Anchor": "#generate-a-upc-e-code-barcode-as-png-file",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UniqueName": "indinsurance",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../indinsurance/",
+  "Actions": [
+    {
+      "OperationId": "CPTAuto-coding-FromDiagnosisName",
+      "Name": "CPT Auto-coding - From Diagnosis Name",
+      "Description": "Automatically does CPT coding when given the diagnosis name as the input",
+      "Anchor": "#cpt-auto-coding---from-diagnosis-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CPTAuto-coding-FromDischargeSummary",
+      "Name": "CPT Auto-coding - From Discharge Summary Document",
+      "Description": "Smartly understand the Diagnosis from a Discharge Summary document without the need to set up any templates beforehand and does CPT auto-coding",
+      "Anchor": "#cpt-auto-coding---from-discharge-summary-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HighlightDiagnosis_MedicalTerms",
+      "Name": "Highlight diagnosis and medical terms - From Discharge Summary Document",
+      "Description": "Automatically highlights the diagnosis and other medical terms in a discharge summary document once uploaded",
+      "Anchor": "#highlight-diagnosis-and-medical-terms---from-discharge-summary-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HighlightDisease_MedicalTerms",
+      "Name": "Highlight disease and medical terms - From Discharge Summary Document",
+      "Description": "Automatically highlights the disease and other medical terms in a discharge summary document once uploaded",
+      "Anchor": "#highlight-disease-and-medical-terms---from-discharge-summary-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ICD10Auto-coding-FromDischargeSummary",
+      "Name": "ICD10 Auto-coding - From Discharge Summary Document",
+      "Description": "Smartly understand the disease from a Discharge Summary document without the need to set up any templates beforehand and does ICD10 auto-coding",
+      "Anchor": "#icd10-auto-coding---from-discharge-summary-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ICD10Auto-coding-FromDiseaseName",
+      "Name": "ICD10 Auto-coding - From Disease Name",
+      "Description": "Automatically does ICD10 coding when given the disease name as the input",
+      "Anchor": "#icd10-auto-coding---from-disease-name",
+      "IsDeprecated": false
+    }
+  ]
+}

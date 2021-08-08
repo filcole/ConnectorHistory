@@ -1,0 +1,34 @@
+{
+  "UniqueName": "serwersms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../serwersms/",
+  "Actions": [
+    {
+      "OperationId": "add_blacklist",
+      "Name": "Add to blacklist",
+      "Description": "This operation add phone number to blacklist",
+      "Anchor": "#add-to-blacklist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "add_contact",
+      "Name": "Add a new contact",
+      "Description": "This operation add contact to customer account",
+      "Anchor": "#add-a-new-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "new_answer",
+      "Name": "When new SMS message is received",
+      "Description": "This operation triggers when a new message is received",
+      "Anchor": "#when-new-sms-message-is-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send_sms",
+      "Name": "Send SMS message",
+      "Description": "This operation send SMS messages",
+      "Anchor": "#send-sms-message",
+      "IsDeprecated": false
+    }
+  ]
+}

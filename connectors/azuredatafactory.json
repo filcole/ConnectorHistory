@@ -1,0 +1,27 @@
+{
+  "UniqueName": "azuredatafactory",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azuredatafactory/",
+  "Actions": [
+    {
+      "OperationId": "CancelPipelineRun",
+      "Name": "Cancel a pipeline run",
+      "Description": "This operation cancels a pipeline run by its run ID.",
+      "Anchor": "#cancel-a-pipeline-run",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePipelineRun",
+      "Name": "Create a pipeline run",
+      "Description": "This operation creates a new pipeline run in your factory",
+      "Anchor": "#create-a-pipeline-run",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPipelineRun",
+      "Name": "Get a pipeline run",
+      "Description": "Get a particular pipeline run execution",
+      "Anchor": "#get-a-pipeline-run",
+      "IsDeprecated": false
+    }
+  ]
+}

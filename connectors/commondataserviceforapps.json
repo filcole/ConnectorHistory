@@ -1,0 +1,118 @@
+{
+  "UniqueName": "commondataserviceforapps",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../commondataserviceforapps/",
+  "Actions": [
+    {
+      "OperationId": "AssociateEntities",
+      "Name": "Relate rows",
+      "Description": "This action allows you to link a row in one Microsoft Dataverse table to another if the tables have a one-to-many or many-to-many relationship. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#relate-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BusinessEventsTrigger",
+      "Name": "When an action is performed (preview)",
+      "Description": "Triggers when a Microsoft Dataverse action has completed.",
+      "Anchor": "#when-an-action-is-performed-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateRecord",
+      "Name": "Add a new row",
+      "Description": "This action allows you to add a new row in the selected Microsoft Dataverse table. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#add-a-new-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteRecord",
+      "Name": "Delete a row",
+      "Description": "This action allows you to delete a row from a Microsoft Dataverse table. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#delete-a-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DisassociateEntities",
+      "Name": "Unrelate rows",
+      "Description": "This action allows you to remove the link between a row in one Microsoft Dataverse table to another if the tables have a one-to-many or many-to-many relationship. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#unrelate-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteChangeset",
+      "Name": "Perform a changeset request",
+      "Description": "This action allows you to perform a group of Microsoft Dataverse connector operations as a single transaction. If one of the operations fails, all the successful actions are rolled back. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#perform-a-changeset-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEntityFileImageFieldContent",
+      "Name": "Download a file or an image",
+      "Description": "This action allows you to download a file or an image content from a Microsoft Dataverse table. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#download-a-file-or-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get a row by ID",
+      "Description": "This action allows you to get the row that matches an ID in a Microsoft Dataverse table. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#get-a-row-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRelevantRows",
+      "Name": "Search rows (preview)",
+      "Description": "This action allows you to search a Microsoft Dataverse environment using Relevance Search, and returns the rows that match the search term most closely. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#search-rows-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRecords",
+      "Name": "List rows",
+      "Description": "This action allows you to list the rows in a Microsoft Dataverse table that match the selected options. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#list-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnFlowStepRun",
+      "Name": "When a flow step is run from a business process flow",
+      "Description": "This trigger allows you to start a flow when the Run Flow button in a business process flow step is clicked. (Available only for Power Automate.)",
+      "Anchor": "#when-a-flow-step-is-run-from-a-business-process-flow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PerformBoundAction",
+      "Name": "Perform a bound action",
+      "Description": "This action allows you to perform Microsoft Dataverse actions associated with a selected table. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#perform-a-bound-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PerformUnboundAction",
+      "Name": "Perform an unbound action",
+      "Description": "This action allows you to perform Microsoft Dataverse actions available in the environment that are not associated with any table. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#perform-an-unbound-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscribeWebhookTrigger",
+      "Name": "When a row is added, modified or deleted",
+      "Description": "This trigger allows you to start a flow when a row is added, modified or deleted in a Microsoft Dataverse table, such that it matches the selected options. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#when-a-row-is-added,-modified-or-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEntityFileImageFieldContent",
+      "Name": "Upload a file or an image",
+      "Description": "This action allows you to upload a file or an image content to a Microsoft Dataverse table with a compatible column type. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#upload-a-file-or-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRecord",
+      "Name": "Update a row",
+      "Description": "This action allows you to modify any selected row in a Microsoft Dataverse table, or adds a new row if it doesn’t exist. This connector was formerly known as Common Data Service (current environment).",
+      "Anchor": "#update-a-row",
+      "IsDeprecated": false
+    }
+  ]
+}

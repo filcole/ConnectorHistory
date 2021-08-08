@@ -1,0 +1,55 @@
+{
+  "UniqueName": "gotowebinar",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../gotowebinar/",
+  "Actions": [
+    {
+      "OperationId": "AddRegistrant",
+      "Name": "Add registrant",
+      "Description": "Registers one person, identified by a unique email address, for a webinar.",
+      "Anchor": "#add-registrant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRegistrant",
+      "Name": "Get Registrant",
+      "Description": "Retrieves details of a specific registrant in a webinar.",
+      "Anchor": "#get-registrant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWebinar",
+      "Name": "Get webinar",
+      "Description": "Retrieves all information about a scheduled webinar.",
+      "Anchor": "#get-webinar",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRegistrations",
+      "Name": "List registrants",
+      "Description": "Retrieves a list of all registrants for a specific webinar.",
+      "Anchor": "#list-registrants",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListWebinars",
+      "Name": "List Webinars",
+      "Description": "Retrieves a list of all webinars for the authenticated user.",
+      "Anchor": "#list-webinars",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewRegistration",
+      "Name": "When a registrant is added",
+      "Description": "Triggers when a new registrant is added to a webinar.",
+      "Anchor": "#when-a-registrant-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewWebinar",
+      "Name": "When a webinar is created",
+      "Description": "Triggers when a new webinar is created.",
+      "Anchor": "#when-a-webinar-is-created",
+      "IsDeprecated": false
+    }
+  ]
+}

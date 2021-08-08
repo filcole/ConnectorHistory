@@ -1,0 +1,202 @@
+{
+  "UniqueName": "riskiqintelligence",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../riskiqintelligence/",
+  "Actions": [
+    {
+      "OperationId": "COOKIES_HOST",
+      "Name": "Get cookies associated with host",
+      "Description": "Cookies by host",
+      "Anchor": "#get-cookies-associated-with-host",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "COOKIES_IP",
+      "Name": "Get cookies associated with IPv4 address",
+      "Description": "Cookies by IP address",
+      "Anchor": "#get-cookies-associated-with-ipv4-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ENRICHMENT_HOST",
+      "Name": "Get enriched information by host",
+      "Description": "Enrichment by host",
+      "Anchor": "#get-enriched-information-by-host",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ENRICHMENT_IP",
+      "Name": "Get enriched information by IPv4",
+      "Description": "Enrichment by IP address",
+      "Anchor": "#get-enriched-information-by-ipv4",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HOST_PAIRS_CHILD",
+      "Name": "Get children host pairs of host",
+      "Description": "Children Host Pairs by host",
+      "Anchor": "#get-children-host-pairs-of-host",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HOST_PAIRS_PARENT",
+      "Name": "Get parent host pairs of host",
+      "Description": "Parent Host Pairs by host",
+      "Anchor": "#get-parent-host-pairs-of-host",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HOSTS_BY_SSL_SHA1",
+      "Name": "Get hosts by certificate",
+      "Description": "Hosts by SSL Certificate SHA-1",
+      "Anchor": "#get-hosts-by-certificate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PDNS_IP",
+      "Name": "Passive DNS results by IP address",
+      "Description": "Passive DNS results by IP address",
+      "Anchor": "#passive-dns-results-by-ip-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PDNS_NAME",
+      "Name": "Passive DNS results by name",
+      "Description": "Passive DNS results by name",
+      "Anchor": "#passive-dns-results-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PDNS_RESOURCE_DATA",
+      "Name": "Passive DNS results by resource name",
+      "Description": "Passive DNS results by resource name",
+      "Anchor": "#passive-dns-results-by-resource-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PDNS_RESOURCE_DATA_HEX",
+      "Name": "Passive DNS results by hex bytes in data field",
+      "Description": "Passive DNS results by hex bytes in data field",
+      "Anchor": "#passive-dns-results-by-hex-bytes-in-data-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SSL_BY_HOST",
+      "Name": "Get SSL certificates by host name",
+      "Description": "SSL Certificates by host name",
+      "Anchor": "#get-ssl-certificates-by-host-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SSL_BY_NAME",
+      "Name": "Get SSL certificates by name",
+      "Description": "SSL Certificates by name",
+      "Anchor": "#get-ssl-certificates-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SSL_BY_SERIAL",
+      "Name": "Get SSL certificates by serial number",
+      "Description": "SSL Certificates by serial number",
+      "Anchor": "#get-ssl-certificates-by-serial-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SSL_BY_SHA1",
+      "Name": "Get SSL certificate by SHA1 hash",
+      "Description": "SSL Certificate details by SHA-1",
+      "Anchor": "#get-ssl-certificate-by-sha1-hash",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TRACKERS_DOMAIN",
+      "Name": "Get trackers for a domain",
+      "Description": "Trackers for a domain",
+      "Anchor": "#get-trackers-for-a-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TRACKERS_HOST",
+      "Name": "Get trackers for a host",
+      "Description": "Trackers for a host",
+      "Anchor": "#get-trackers-for-a-host",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TRACKERS_IP",
+      "Name": "Get trackers for a IPv4 address",
+      "Description": "Trackers for an IP address",
+      "Anchor": "#get-trackers-for-a-ipv4-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WEB_COMPONENT_HOST",
+      "Name": "Get the web components for a host",
+      "Description": "Web Components by host",
+      "Anchor": "#get-the-web-components-for-a-host",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WEB_COMPONENTS_DOMAIN",
+      "Name": "Get the web components for a domain",
+      "Description": "Web Components by domain",
+      "Anchor": "#get-the-web-components-for-a-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WEB_COMPONENTS_IP",
+      "Name": "Get the web components for a IPv4 address",
+      "Description": "Web Components by IP address",
+      "Anchor": "#get-the-web-components-for-a-ipv4-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WHOIS_BY_EMAIL",
+      "Name": "Get WHOIS records associated with an email address",
+      "Description": "WHOIS records by email address",
+      "Anchor": "#get-whois-records-associated-with-an-email-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WHOIS_BY_NAME",
+      "Name": "Get WHOIS records associated with a name",
+      "Description": "WHOIS records by name",
+      "Anchor": "#get-whois-records-associated-with-a-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WHOIS_BY_NAMESERVER",
+      "Name": "Get WHOIS records associated with a name server",
+      "Description": "WHOIS records by name server",
+      "Anchor": "#get-whois-records-associated-with-a-name-server",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WHOIS_BY_ORGANIZATION",
+      "Name": "Get WHOIS records associated with an organization",
+      "Description": "WHOIS records by organization",
+      "Anchor": "#get-whois-records-associated-with-an-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WHOIS_BY_PHONE",
+      "Name": "Get WHOIS records associated with a phone number",
+      "Description": "WHOIS records by phone number",
+      "Anchor": "#get-whois-records-associated-with-a-phone-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WHOIS_DOMAIN",
+      "Name": "Get the current WHOIS for a domain",
+      "Description": "WHOIS record by domain",
+      "Anchor": "#get-the-current-whois-for-a-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WHOIS_IP",
+      "Name": "Get WHOIS records associated with an address",
+      "Description": "WHOIS record by IP address",
+      "Anchor": "#get-whois-records-associated-with-an-address",
+      "IsDeprecated": false
+    }
+  ]
+}

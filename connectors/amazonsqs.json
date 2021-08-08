@@ -1,0 +1,34 @@
+{
+  "UniqueName": "amazonsqs",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../amazonsqs/",
+  "Actions": [
+    {
+      "OperationId": "DeleteMessageFromQueue",
+      "Name": "Deletes a message from the SQS queue",
+      "Description": "Deletes a message from the SQS queue.",
+      "Anchor": "#deletes-a-message-from-the-sqs-queue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessageFromQueue",
+      "Name": "When a message is received from the SQS queue",
+      "Description": "When a message is received from the SQS queue.",
+      "Anchor": "#when-a-message-is-received-from-the-sqs-queue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessagesFromQueue",
+      "Name": "When messages are received from the SQS queue",
+      "Description": "When messages are received from the SQS queue.",
+      "Anchor": "#when-messages-are-received-from-the-sqs-queue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessageToQueue",
+      "Name": "Sends a message to the SQS queue",
+      "Description": "Sends a message to the SQS queue.",
+      "Anchor": "#sends-a-message-to-the-sqs-queue",
+      "IsDeprecated": false
+    }
+  ]
+}

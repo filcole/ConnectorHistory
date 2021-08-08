@@ -1,0 +1,384 @@
+{
+  "UniqueName": "imprezian",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../imprezian/",
+  "Actions": [
+    {
+      "OperationId": "Campaign_GetValue",
+      "Name": "Retrieve Campaign Details",
+      "Description": "Retrieves the details of a specific campaign request by id",
+      "Anchor": "#retrieve-campaign-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Campaign_GetValues",
+      "Name": "Get Campaign List",
+      "Description": "Returns a list of campaigns",
+      "Anchor": "#get-campaign-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Campaign_PostValue",
+      "Name": "Create New Campaign",
+      "Description": "Creates a new marketing campaign in the CRM",
+      "Anchor": "#create-new-campaign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Campaign_PutValue",
+      "Name": "Update Campaign Data",
+      "Description": "Updates a marketing campaign in the CRM",
+      "Anchor": "#update-campaign-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ComLog_GetValue",
+      "Name": "Retrieve ComLog Details",
+      "Description": "Returns field details",
+      "Anchor": "#retrieve-comlog-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ComLog_GetValues",
+      "Name": "Get ComLogs",
+      "Description": "Returns a list of requested communication ID's",
+      "Anchor": "#get-comlogs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ComLog_PostValue",
+      "Name": "Create New ComLog",
+      "Description": "New Communication Entry",
+      "Anchor": "#create-new-comlog",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ComLog_PutValue",
+      "Name": "Update Comlog Data",
+      "Description": "Updates a communication entry",
+      "Anchor": "#update-comlog-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contact_GetValue",
+      "Name": "Retrieve CRM Contact Details",
+      "Description": "Retrieves details about the specified contact",
+      "Anchor": "#retrieve-crm-contact-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contact_GetValues",
+      "Name": "Get Contact List",
+      "Description": "retrieves a list of contacts",
+      "Anchor": "#get-contact-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contact_PostValue",
+      "Name": "Create new CRM Contact",
+      "Description": "Creates a qualified prospect, customer or vendor",
+      "Anchor": "#create-new-crm-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contact_PutValue",
+      "Name": "Update CRM Contact Data",
+      "Description": "Update the specified CRM contact",
+      "Anchor": "#update-crm-contact-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FollowUp_GetValue",
+      "Name": "Retrieve followup Details",
+      "Description": "Followup details",
+      "Anchor": "#retrieve-followup-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FollowUp_GetValues",
+      "Name": "Get FollowUp List",
+      "Description": "Retrieve list of followups",
+      "Anchor": "#get-followup-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FollowUp_PostValue",
+      "Name": "Create New FollowUp",
+      "Description": "Creates a new followup",
+      "Anchor": "#create-new-followup",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FollowUp_PutValue",
+      "Name": "Update followup Data",
+      "Description": "Updates a followup",
+      "Anchor": "#update-followup-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemList_GetValue",
+      "Name": "Retrieve Item Details",
+      "Description": "Details about a specific item",
+      "Anchor": "#retrieve-item-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemList_GetValues",
+      "Name": "Get Item List",
+      "Description": "Returns a list of all items",
+      "Anchor": "#get-item-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemList_PostValue",
+      "Name": "Create New Item",
+      "Description": "All tags are required to be present, even if blank.",
+      "Anchor": "#create-new-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemList_PutValue",
+      "Name": "Update Item Data",
+      "Description": "Updates an existing item",
+      "Anchor": "#update-item-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Lead_GetValue",
+      "Name": "Retrieve Lead Details",
+      "Description": "retrieves the lead details",
+      "Anchor": "#retrieve-lead-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Lead_GetValues",
+      "Name": "Get Active Leads",
+      "Description": "Returns a list of active sales leads",
+      "Anchor": "#get-active-leads",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Lead_PostValue",
+      "Name": "Create New Lead",
+      "Description": "Creates a new sales lead",
+      "Anchor": "#create-new-lead",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Lead_PutValue",
+      "Name": "Update Lead Data",
+      "Description": "Update an existing sales lead",
+      "Anchor": "#update-lead-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Members_GetValue",
+      "Name": "Retrieve Member Details",
+      "Description": "retrieve details about a member",
+      "Anchor": "#retrieve-member-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Members_GetValues",
+      "Name": "Get Member List",
+      "Description": "Marketing campaign members",
+      "Anchor": "#get-member-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Members_PostValue",
+      "Name": "Add New Member",
+      "Description": "Adds a marketing campaign member",
+      "Anchor": "#add-new-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Members_PutValue",
+      "Name": "Remove Campaign Member",
+      "Description": "Removes a marketing campaign member",
+      "Anchor": "#remove-campaign-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "New-Marketing-Campaign",
+      "Name": "New Marketing Campaign Created",
+      "Description": "triggers when a new marketing campaign is created",
+      "Anchor": "#new-marketing-campaign-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "New-Members-Leads",
+      "Name": "New Lead Campaign Members",
+      "Description": "triggers when a lead has been added to a campaign",
+      "Anchor": "#new-lead-campaign-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "New-Proposal-Created",
+      "Name": "New Proposal Created",
+      "Description": "triggers when a new proposal is created",
+      "Anchor": "#new-proposal-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "New-Sales-Lead",
+      "Name": "New Sales Lead Created",
+      "Description": "triggers when a new sales lead is created",
+      "Anchor": "#new-sales-lead-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "New-Sales-Order",
+      "Name": "New Sales Order Created",
+      "Description": "triggers when a new sales order is created",
+      "Anchor": "#new-sales-order-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Order-In-History",
+      "Name": "Order In History",
+      "Description": "triggers when an order is complete and in history",
+      "Anchor": "#order-in-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Order-In-Processing",
+      "Name": "Order In Processing",
+      "Description": "triggers when an order enters the processing phase",
+      "Anchor": "#order-in-processing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Order-Is-Shipping",
+      "Name": "Order Is Shipping",
+      "Description": "triggers when an order enters the shipping phase",
+      "Anchor": "#order-is-shipping",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Order-Status-Changed",
+      "Name": "Order Status Has Changed",
+      "Description": "triggers when the custom status of a quote or order changes",
+      "Anchor": "#order-status-has-changed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Proposal-Needs-Approval",
+      "Name": "Proposal Needs Approval",
+      "Description": "triggers when a proposal enters the approval phase",
+      "Anchor": "#proposal-needs-approval",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Shipping_GetValue",
+      "Name": "Retrieve Shipment Details",
+      "Description": "get shipment details",
+      "Anchor": "#retrieve-shipment-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Shipping_GetValues",
+      "Name": "Get Shipment List",
+      "Description": "Returns a list of shipments",
+      "Anchor": "#get-shipment-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Shipping_PostValue",
+      "Name": "Create New Shipment",
+      "Description": "Creates a shipment",
+      "Anchor": "#create-new-shipment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Shipping_PutValue",
+      "Name": "Update Shipment Data",
+      "Description": "Updates an existing shipment",
+      "Anchor": "#update-shipment-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SO_GetValue",
+      "Name": "Retrieve Order Details",
+      "Description": "Retrieve details of an order",
+      "Anchor": "#retrieve-order-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SO_GetValues",
+      "Name": "Get Active Orders",
+      "Description": "Returns a list of active orders",
+      "Anchor": "#get-active-orders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SO_PostValue",
+      "Name": "Create New Order",
+      "Description": "Creates a new order",
+      "Anchor": "#create-new-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SO_PutValue",
+      "Name": "Update Order Data",
+      "Description": "Updates an existing order",
+      "Anchor": "#update-order-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkOrder_GetValue",
+      "Name": "Retrieve WorkOrder Details",
+      "Description": "Returns details of a WO",
+      "Anchor": "#retrieve-workorder-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkOrder_GetValues",
+      "Name": "Get WorkOrder List",
+      "Description": "List of workorders",
+      "Anchor": "#get-workorder-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkOrder_PostValue",
+      "Name": "Create New WorkOrder",
+      "Description": "New Work-Order",
+      "Anchor": "#create-new-workorder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkOrder_PutValue",
+      "Name": "Update WorkOrder Data",
+      "Description": "Updates an existing WO",
+      "Anchor": "#update-workorder-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkOrder-Closed",
+      "Name": "WorkOrder Closed",
+      "Description": "triggers when a workorder is closed",
+      "Anchor": "#workorder-closed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkOrder-Created",
+      "Name": "WorkOrder Created",
+      "Description": "triggers when a workorder is created",
+      "Anchor": "#workorder-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkOrder-Past-Due",
+      "Name": "WorkOrder is Past Due",
+      "Description": "triggers when a workorder is past the due date",
+      "Anchor": "#workorder-is-past-due",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkOrder-Status-Changed",
+      "Name": "WorkOrder Status Changed",
+      "Description": "triggers when the status of the workorder has changed",
+      "Anchor": "#workorder-status-changed",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "UniqueName": "mandrill",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mandrill/",
+  "Actions": [
+    {
+      "OperationId": "CurrentUser",
+      "Name": "Current user info",
+      "Description": "Return the information about the API-connected user.",
+      "Anchor": "#current-user-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ScheduledMessageInfo",
+      "Name": "List scheduled message",
+      "Description": "Queries your scheduled emails.",
+      "Anchor": "#list-scheduled-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "Send mail [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Send mail (V2) instead.\nSend a new transactional message through Mandrill.",
+      "Anchor": "#send-mail-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SendMessageV2",
+      "Name": "Send mail (V2)",
+      "Description": "Send a new transactional message through Mandrill.",
+      "Anchor": "#send-mail-(v2)",
+      "IsDeprecated": false
+    }
+  ]
+}

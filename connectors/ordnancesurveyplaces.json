@@ -1,0 +1,55 @@
+{
+  "UniqueName": "ordnancesurveyplaces",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ordnancesurveyplaces/",
+  "Actions": [
+    {
+      "OperationId": "BBox",
+      "Name": "Bounding box operation",
+      "Description": "Takes two points and creates a bounding box. All addresses within this bounding box are then returned.",
+      "Anchor": "#bounding-box-operation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find",
+      "Name": "Find Operation",
+      "Description": "A free text search designed for quick use e.g. form filling.",
+      "Anchor": "#find-operation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Nearest",
+      "Name": "Nearest operation",
+      "Description": "Takes a pair of coordinates (X and Y) as an input to determine the closest address.",
+      "Anchor": "#nearest-operation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Polygon",
+      "Name": "Polygon Operation",
+      "Description": "A POST Request that takes a geoJSON polygon or multi-polygon object and returns all addresses that are in the object.",
+      "Anchor": "#polygon-operation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Postcode",
+      "Name": "Postcode operation",
+      "Description": "A search based on a property's postcode. The minimum for the resource is the area and district e.g. SO16, and will accept a full postcode consisting of the area, district, sector and unit e.g. SO16 0AS",
+      "Anchor": "#postcode-operation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Radius",
+      "Name": "Radius operation",
+      "Description": "Takes a pair of coordinates as the centre for a circle and returns all addresses that are intersected by it.",
+      "Anchor": "#radius-operation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UPRN",
+      "Name": "UPRN Operation",
+      "Description": "A search that takes a Unique Property Reference Number (UPRN) as the search parameter.",
+      "Anchor": "#uprn-operation",
+      "IsDeprecated": false
+    }
+  ]
+}

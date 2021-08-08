@@ -1,0 +1,20 @@
+{
+  "UniqueName": "survey123",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../survey123/",
+  "Actions": [
+    {
+      "OperationId": "AddData",
+      "Name": "When a survey response is submitted",
+      "Description": "Triggers a new flow when a survey response is submitted by a user",
+      "Anchor": "#when-a-survey-response-is-submitted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOwnedSurveyList",
+      "Name": "Get surveys",
+      "Description": "This action retrieves a list of surveys owned by the logged in-user",
+      "Anchor": "#get-surveys",
+      "IsDeprecated": false
+    }
+  ]
+}

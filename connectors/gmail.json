@@ -1,0 +1,62 @@
+{
+  "UniqueName": "gmail",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../gmail/",
+  "Actions": [
+    {
+      "OperationId": "DeleteEmail",
+      "Name": "Delete email",
+      "Description": "This operation is used to delete a specific email permanently.",
+      "Anchor": "#delete-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEmail",
+      "Name": "Get email details",
+      "Description": "This operation retrieves the details of a specific email.",
+      "Anchor": "#get-email-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewEmail",
+      "Name": "When a new email arrives",
+      "Description": "This operation triggers when a new email matching the specified criteria arrives.",
+      "Anchor": "#when-a-new-email-arrives",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplyTo",
+      "Name": "Reply to email [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Reply to email (V2) instead.\nThis operation is used to reply to a specific email.",
+      "Anchor": "#reply-to-email-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ReplyToV2",
+      "Name": "Reply to email (V2)",
+      "Description": "This operation is used to reply to a specific email.",
+      "Anchor": "#reply-to-email-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEmail",
+      "Name": "Send email [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Send email (V2) instead.\nThis operation is used to send an email to specific recipients.",
+      "Anchor": "#send-email-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SendEmailV2",
+      "Name": "Send email (V2)",
+      "Description": "This operation is used to send an email to specific recipients.",
+      "Anchor": "#send-email-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrashEmail",
+      "Name": "Move email to trash",
+      "Description": "This operation is used to move a specific email to trash.",
+      "Anchor": "#move-email-to-trash",
+      "IsDeprecated": false
+    }
+  ]
+}

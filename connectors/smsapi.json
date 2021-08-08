@@ -1,0 +1,13 @@
+{
+  "UniqueName": "smsapi",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../smsapi/",
+  "Actions": [
+    {
+      "OperationId": "send_sms",
+      "Name": "Send SMS",
+      "Description": "This method allows you to send either single or many sms in one request.",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    }
+  ]
+}

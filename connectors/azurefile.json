@@ -1,0 +1,76 @@
+{
+  "UniqueName": "azurefile",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azurefile/",
+  "Actions": [
+    {
+      "OperationId": "CopyFile",
+      "Name": "Copy file",
+      "Description": "This operation copies a file.",
+      "Anchor": "#copy-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFile",
+      "Name": "Create file",
+      "Description": "This operation uploads a file to Azure File Storage.",
+      "Anchor": "#create-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFile",
+      "Name": "Delete file",
+      "Description": "This operation deletes a file.",
+      "Anchor": "#delete-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractFolderV2",
+      "Name": "Extract archive to folder",
+      "Description": "This operation extracts an archive file into a folder (example: .zip).",
+      "Anchor": "#extract-archive-to-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContent",
+      "Name": "Get file content",
+      "Description": "This operation retrieves file contents using id.",
+      "Anchor": "#get-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContentByPath",
+      "Name": "Get file content using path",
+      "Description": "This operation retrieves file contents using path",
+      "Anchor": "#get-file-content-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadata",
+      "Name": "Get file metadata",
+      "Description": "This operation retrieves file metadata using file id.",
+      "Anchor": "#get-file-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadataByPath",
+      "Name": "Get file metadata using path",
+      "Description": "This operation retrieves file metadata using path.",
+      "Anchor": "#get-file-metadata-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFolderV2",
+      "Name": "List files",
+      "Description": "This operation lists files in a folder.",
+      "Anchor": "#list-files",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFile",
+      "Name": "Update file",
+      "Description": "This operation updates a file in Azure File Storage.",
+      "Anchor": "#update-file",
+      "IsDeprecated": false
+    }
+  ]
+}

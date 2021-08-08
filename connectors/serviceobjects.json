@@ -1,0 +1,55 @@
+{
+  "UniqueName": "serviceobjects",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../serviceobjects/",
+  "Actions": [
+    {
+      "OperationId": "AGI-PlaceSearch",
+      "Name": "DOTS Address Geocode International - PlaceSearch",
+      "Description": "The PlaceSearch operation returns the latitude and longitude for a given International Address, along with additional address and location information. It will attempt to geocode addresses at the property level, which is often a rooftop coordinate for some properties and then cascade to the next best available resolution such as the street, neighborhood, postal code, locality and so on. For non-address places such as streets, cities and postal codes, the coordinates will return a coordinate point that is commonly associated with the location or a centroid for the area.",
+      "Anchor": "#dots-address-geocode-international---placesearch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AGI-ReverseSearch",
+      "Name": "DOTS Address Geocode International - ReverseSearch",
+      "Description": "The ReverseSearch operation returns the address or place information for a given set of coordinates, along with additional address and location information. It will attempt to reverse geocode coordinates and return international addresses at the property level, which is often at the premise level resolution for some properties and then cascade to the next best available resolution such as the street, neighborhood, postal code, locality and so on. For non-address places such as streets, cities and postal codes returned by the service, the coordinates output in the response body will represent a coordinate point that is commonly associated with the location or a centroid for the area.",
+      "Anchor": "#dots-address-geocode-international---reversesearch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AV3-GetBestMatches",
+      "Name": "DOTS Address Validation USA 3- GetBestMatches",
+      "Description": "Returns parsed and validated address elements including Delivery Point Validation (DPV), Residential Delivery Indicator (RDI), and Suite data. GetBestMatches will attempt to validate the input address against a CASS approved engine, and make corrections where possible. Multiple address candidates may be returned if a definitive decision cannot be made by the service.",
+      "Anchor": "#dots-address-validation-usa-3--getbestmatches",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AVI-GetAddressInfo",
+      "Name": "DOTS Address Validation International - GetAddressInfo",
+      "Description": "Our real-time International Address Validation API service verifies and corrects global mailing addresses to the unique requirements of each countrys postal address formats and cultural idiosyncrasies. With continual updates from country-specific postal authorities, our data is always up-to-date with genuine and accurate addresses.",
+      "Anchor": "#dots-address-validation-international---getaddressinfo",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IPAV-GetLocationByIP_V4",
+      "Name": "DOTS IP Address Validation - GetLocationByIP_V4",
+      "Description": "Returns geographic location, proxy, host name and US region information for a given IP address.",
+      "Anchor": "#dots-ip-address-validation---getlocationbyip_v4",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LVI-ValidateLeadInternational",
+      "Name": "DOTS Lead Validation International - ValidateLeadInternational",
+      "Description": "DOTS Lead Validation International (LVI) evaluates international lead data and scores the data quality into pass/fail/review categories. By evaluating the information quality of a contact, online marketers can more effectively weed-out fraudulent contacts.Online fraudsters are more likely to provide inaccurate contact information because the address and phone number can be easily traced. Unlike other validation services that perform simple data checks on single variables, Service Objects Lead Validation solution is able to cross-validate that a contact's name, address, phone numbers, e-mail and IP address are all matched each other and are related to the consumer.",
+      "Anchor": "#dots-lead-validation-international---validateleadinternational",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PE2I-GetInternationalExchangeInfo",
+      "Name": "DOTS Phone Exchange International - GetInternationalExchangeInfo",
+      "Description": "Our international Phone Exchange service validates and formats phone numbers for international direct dialing, while returning line type, country code and geocoding information.",
+      "Anchor": "#dots-phone-exchange-international---getinternationalexchangeinfo",
+      "IsDeprecated": false
+    }
+  ]
+}

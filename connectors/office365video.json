@@ -1,0 +1,48 @@
+{
+  "UniqueName": "office365video",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../office365video/",
+  "Actions": [
+    {
+      "OperationId": "GetPlaybackUrl",
+      "Name": "Get playback url of the Azure Media Services manifest for a video [DEPRECATED]",
+      "Description": "Get playback url of the Azure Media Services manifest for a video",
+      "Anchor": "#get-playback-url-of-the-azure-media-services-manifest-for-a-video-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetStreamingKeyAccessToken",
+      "Name": "Get the bearer token to get access to decrypt the video [DEPRECATED]",
+      "Description": "Get the bearer token to get access to decrypt the video",
+      "Anchor": "#get-the-bearer-token-to-get-access-to-decrypt-the-video-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetVideo",
+      "Name": "Gets information about a particular office365 video [DEPRECATED]",
+      "Description": "Gets information about a particular office365 video",
+      "Anchor": "#gets-information-about-a-particular-office365-video-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "IsVideoPortalEnabled",
+      "Name": "Checks video portal status [DEPRECATED]",
+      "Description": "Checks the video portal status to see if video services are enabled",
+      "Anchor": "#checks-video-portal-status-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListVideos",
+      "Name": "Lists all the office365 videos present in a channel [DEPRECATED]",
+      "Description": "Lists all the office365 videos present in a channel",
+      "Anchor": "#lists-all-the-office365-videos-present-in-a-channel-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListViewableChannels",
+      "Name": "Get all viewable Channels [DEPRECATED]",
+      "Description": "Gets all the channels the user has viewing access to",
+      "Anchor": "#get-all-viewable-channels-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

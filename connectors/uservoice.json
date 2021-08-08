@@ -1,0 +1,62 @@
+{
+  "UniqueName": "uservoice",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../uservoice/",
+  "Actions": [
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete item",
+      "Description": "Deletes a UserVoice item",
+      "Anchor": "#delete-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get item",
+      "Description": "Retrieves a UserVoice item",
+      "Anchor": "#get-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get items",
+      "Description": "Retrieves UserVoice items of a certain UserVoice type (example: 'Suggestion')",
+      "Anchor": "#get-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnNewItems",
+      "Name": "When an item is created",
+      "Description": "Triggers a flow when an item is created in UserVoice",
+      "Anchor": "#when-an-item-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnUpdatedItems",
+      "Name": "When an item is modified",
+      "Description": "Triggers a flow when an item is modified in UserVoice",
+      "Anchor": "#when-an-item-is-modified",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get item types",
+      "Description": "Retrieves UserVoice item types",
+      "Anchor": "#get-item-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update item",
+      "Description": "Updates an existing UserVoice item",
+      "Anchor": "#update-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Create item",
+      "Description": "Creates a UserVoice item",
+      "Anchor": "#create-item",
+      "IsDeprecated": false
+    }
+  ]
+}

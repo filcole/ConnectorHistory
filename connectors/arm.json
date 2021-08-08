@@ -1,0 +1,251 @@
+{
+  "UniqueName": "arm",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../arm/",
+  "Actions": [
+    {
+      "OperationId": "DeploymentOperations_Get",
+      "Name": "Read a template deployment operation",
+      "Description": "Reads a particular resource group template deployment operation. This is useful for troubleshooting failed template deployments.",
+      "Anchor": "#read-a-template-deployment-operation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeploymentOperations_List",
+      "Name": "Lists template deployment operations",
+      "Description": "Lists all the template deployment operations. This is useful for troubleshooting failed template deployments.",
+      "Anchor": "#lists-template-deployment-operations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Deployments_Cancel",
+      "Name": "Cancel a template deployment",
+      "Description": "Cancel a currently running template deployment. All pending template operations will be suspended.",
+      "Anchor": "#cancel-a-template-deployment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Deployments_CreateOrUpdate",
+      "Name": "Create or update a template deployment",
+      "Description": "Create or update a named resource group template deployment. A template and parameters are expected for the request to succeed.",
+      "Anchor": "#create-or-update-a-template-deployment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Deployments_Delete",
+      "Name": "Delete template deployment",
+      "Description": "Deletes a resource group template deployment. The resources will not be deleted; only the metadata about the template deployment.",
+      "Anchor": "#delete-template-deployment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Deployments_ExportTemplate",
+      "Name": "Export deployment template",
+      "Description": "Exports a template from a past resource group deployment.",
+      "Anchor": "#export-deployment-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Deployments_Get",
+      "Name": "Read a template deployment",
+      "Description": "Reads a template deployment within a resource group.",
+      "Anchor": "#read-a-template-deployment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Deployments_List",
+      "Name": "List template deployments",
+      "Description": "Lists all the resource group template deployments. This operation is useful to know what has been provisioned thus far.",
+      "Anchor": "#list-template-deployments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Deployments_Validate",
+      "Name": "Validate a template deployment",
+      "Description": "Validates a deployment template. This operation does not have side effects and can be used to test a template deployment for syntax or logical errors.",
+      "Anchor": "#validate-a-template-deployment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Provider_Resources_GetById",
+      "Name": "Read a resource in provider",
+      "Description": "Reads a resource object.",
+      "Anchor": "#read-a-resource-in-provider",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Provider_Resources_Invoke",
+      "Name": "Invoke resource operation in provider",
+      "Description": "Invokes an operation on an Azure resource.",
+      "Anchor": "#invoke-resource-operation-in-provider",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Providers_Get",
+      "Name": "Read resource provider",
+      "Description": "Reads a particular resource provider within the subscription.",
+      "Anchor": "#read-resource-provider",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Providers_List",
+      "Name": "List resource providers",
+      "Description": "Lists the resource providers available for the subscription.",
+      "Anchor": "#list-resource-providers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Providers_Register",
+      "Name": "Register resource provider",
+      "Description": "Registers a resource provider to be used with a subscription. This will provision permissions for the service into your subscription.",
+      "Anchor": "#register-resource-provider",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Providers_Unregister",
+      "Name": "Unregister resource provider",
+      "Description": "Unregisters provider from a subscription. This operation will fail if there are any resources from that resource provider in the subscription.",
+      "Anchor": "#unregister-resource-provider",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourceGroups_CreateOrUpdate",
+      "Name": "Create or update a resource group",
+      "Description": "Creates or updates a resource group. The response code can be used to distinguish between a create (201) or update (200).",
+      "Anchor": "#create-or-update-a-resource-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourceGroups_Delete",
+      "Name": "Delete a resource group",
+      "Description": "Delete a particular resource group within the subscription.",
+      "Anchor": "#delete-a-resource-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourceGroups_ExportTemplate",
+      "Name": "Export a resource group template",
+      "Description": "Exports a deployment template from an existing resource group. This can only be successful if the underlying resources have a schema defined by Microsoft.",
+      "Anchor": "#export-a-resource-group-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourceGroups_Get",
+      "Name": "Read a resource group",
+      "Description": "Reads a particular resource group within the subscription.",
+      "Anchor": "#read-a-resource-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourceGroups_List",
+      "Name": "List resource groups",
+      "Description": "Lists all the resource groups within the subscription. The results are paginated at 1,000+ records.",
+      "Anchor": "#list-resource-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourceGroups_ListResources",
+      "Name": "List resources by resource group",
+      "Description": "Lists all the resources under a resource group.",
+      "Anchor": "#list-resources-by-resource-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourceGroups_Patch",
+      "Name": "Update an existing resource group",
+      "Description": "Updates an existing resource group. If the resource does not exist, this request will fail.",
+      "Anchor": "#update-an-existing-resource-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Resources_CreateOrUpdateById",
+      "Name": "Create or update a resource",
+      "Description": "Creates or updates a resource. The response code can be used to distinguish between a create (201) or update (200).",
+      "Anchor": "#create-or-update-a-resource",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Resources_DeleteById",
+      "Name": "Delete a resource",
+      "Description": "Deletes a resource.",
+      "Anchor": "#delete-a-resource",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Resources_GetById",
+      "Name": "Read a resource",
+      "Description": "Reads a resource object.",
+      "Anchor": "#read-a-resource",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Resources_Invoke",
+      "Name": "Invoke resource operation",
+      "Description": "Invokes an operation on an Azure resource.",
+      "Anchor": "#invoke-resource-operation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Resources_List",
+      "Name": "List resources by subscription",
+      "Description": "Reads all of the resources under a particular subscription. The results are paginated at 1,000+ records.",
+      "Anchor": "#list-resources-by-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Subscriptions_Get",
+      "Name": "Read a subscription",
+      "Description": "Reads the details for a particular subscription.",
+      "Anchor": "#read-a-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Subscriptions_List",
+      "Name": "List subscriptions",
+      "Description": "Gets a list of all the subscriptions to which the principal has access.",
+      "Anchor": "#list-subscriptions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Subscriptions_ListLocations",
+      "Name": "Lists the subscription locations",
+      "Description": "Lists the locations available for the subscription.",
+      "Anchor": "#lists-the-subscription-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tags_CreateOrUpdate",
+      "Name": "Create or update a subscription resource tag name",
+      "Description": "Create or update a subscription resource tag name.",
+      "Anchor": "#create-or-update-a-subscription-resource-tag-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tags_CreateOrUpdateValue",
+      "Name": "Create or update a subscription resource tag value",
+      "Description": "Create or update a subscription resource tag value.",
+      "Anchor": "#create-or-update-a-subscription-resource-tag-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tags_Delete",
+      "Name": "Delete a subscription resource tag name",
+      "Description": "Delete a subscription resource tag name.",
+      "Anchor": "#delete-a-subscription-resource-tag-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tags_DeleteValue",
+      "Name": "Delete a subscription resource tag value",
+      "Description": "Delete a subscription resource tag value.",
+      "Anchor": "#delete-a-subscription-resource-tag-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tags_List",
+      "Name": "List subscription resource tags",
+      "Description": "Lists all the subscription resource tags.",
+      "Anchor": "#list-subscription-resource-tags",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "UniqueName": "sap",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sap/",
+  "Actions": [
+    {
+      "OperationId": "AddRfcToTransaction",
+      "Name": "[RFC] Add RFC to transaction (Preview)",
+      "Description": "Adds an RFC call to a transaction identified by tId and-or queue name, creating a new transaction if none exists.",
+      "Anchor": "#[rfc]-add-rfc-to-transaction-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CallBapi",
+      "Name": "[BAPI] Call method in SAP (Preview)",
+      "Description": "Calls the BAPI method on the SAP system.",
+      "Anchor": "#[bapi]-call-method-in-sap-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CallRfc",
+      "Name": "[RFC] Call function in SAP (Preview)",
+      "Description": "Calls an sRFC, tRFC or qRFC on the SAP system.",
+      "Anchor": "#[rfc]-call-function-in-sap-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseSession",
+      "Name": "[BAPI - RFC] Close stateful session (Preview)",
+      "Description": "Closes an existing stateful connection session to the SAP system.",
+      "Anchor": "#[bapi---rfc]-close-stateful-session-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitBapiTransaction",
+      "Name": "[BAPI] Commit transaction (Preview)",
+      "Description": "Commits the BAPI transaction for the given session.",
+      "Anchor": "#[bapi]-commit-transaction-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitRfcTransaction",
+      "Name": "[RFC] Commit transaction (Preview)",
+      "Description": "Commits the RFC transaction for the given session and-or queue.",
+      "Anchor": "#[rfc]-commit-transaction-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConfirmTid",
+      "Name": "[IDOC - RFC] Confirm transaction Id (Preview)",
+      "Description": "Sends transaction Id confirmation to SAP.",
+      "Anchor": "#[idoc---rfc]-confirm-transaction-id-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateRfcTransaction",
+      "Name": "[RFC] Create transaction (Preview)",
+      "Description": "Creates a new transaction if none exists, using the provided transaction Id and-or queue name.\nIf the transaction exists, gets the details of the existing transaction.\nThe transaction Id can be provided in either GUID or 24-character string format.",
+      "Anchor": "#[rfc]-create-transaction-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSession",
+      "Name": "[BAPI - RFC] Create stateful session (Preview)",
+      "Description": "Creates a stateful connection session to the SAP system.",
+      "Anchor": "#[bapi---rfc]-create-stateful-session-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateSchemas",
+      "Name": "Generate schemas",
+      "Description": "Generates XML schemas for the provided SAP action or URI.",
+      "Anchor": "#generate-schemas",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIdocStatus",
+      "Name": "[IDOC] Get IDOC status (Preview)",
+      "Description": "[IDOC] Get IDOC status.",
+      "Anchor": "#[idoc]-get-idoc-status-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTransactionDetails",
+      "Name": "[RFC] Get transaction (Preview)",
+      "Description": "Gets the details of a transaction identified by transaction Id and-or queue name, creating a new transaction if it none exists.\nThe transaction Id can be provided in either GUID or 24-character string format.\nBoth the queue name and the transaction Id must be provided to find an existing qRFC transaction.",
+      "Anchor": "#[rfc]-get-transaction-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTransactionIdocs",
+      "Name": "[IDOC] Get IDOC list for transaction (Preview)",
+      "Description": "Gets the list of IDOCs for the transaction identified by either session identifier GUID or transaction identifier (TID).",
+      "Anchor": "#[idoc]-get-idoc-list-for-transaction-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadTable",
+      "Name": "Read SAP table (obsolete) [DEPRECATED]",
+      "Description": "This action requires that the user has access to 'BBP_RFC_READ_TABLE' or 'RFC_READ_TABLE' RFC.",
+      "Anchor": "#read-sap-table-(obsolete)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ReadTableVersion2",
+      "Name": "Read SAP table (Preview)",
+      "Description": "This action requires that the user has access to 'BBP_RFC_READ_TABLE' or 'RFC_READ_TABLE' RFC.",
+      "Anchor": "#read-sap-table-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RollbackBapiTransaction",
+      "Name": "[BAPI] Roll back transaction (Preview)",
+      "Description": "Rolls back the BAPI transaction for the given session.",
+      "Anchor": "#[bapi]-roll-back-transaction-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Send",
+      "Name": "Send message to SAP",
+      "Description": "Sends any message type RFC, BAPI, IDOC to SAP.",
+      "Anchor": "#send-message-to-sap",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendIDoc",
+      "Name": "[IDOC] Send document to SAP (Preview)",
+      "Description": "Sends IDOC message to SAP.",
+      "Anchor": "#[idoc]-send-document-to-sap-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Subscribe",
+      "Name": "When a message is received",
+      "Description": "When a message is received from SAP.",
+      "Anchor": "#when-a-message-is-received",
+      "IsDeprecated": false
+    }
+  ]
+}

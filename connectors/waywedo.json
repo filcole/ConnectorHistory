@@ -1,0 +1,111 @@
+{
+  "UniqueName": "waywedo",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../waywedo/",
+  "Actions": [
+    {
+      "OperationId": "Checklist_Create_WebHook",
+      "Name": "When a checklist instance is started",
+      "Description": "This operation triggers when a checklist instance is started.",
+      "Anchor": "#when-a-checklist-instance-is-started",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Checklist_Step_Completed_WebHook",
+      "Name": "When a checklist step is completed",
+      "Description": "This operation triggers when a checklist step is completed.",
+      "Anchor": "#when-a-checklist-step-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChecklistInstances_Activity",
+      "Name": "Get Checklist Instance Activity",
+      "Description": "Retrieve all activity for a checklist instance",
+      "Anchor": "#get-checklist-instance-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChecklistInstances_Post",
+      "Name": "Create Checklist Instance",
+      "Description": "Creates a new activated checklist instance.",
+      "Anchor": "#create-checklist-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChecklistSteps_Complete",
+      "Name": "Complete a Checklist Step",
+      "Description": "Mark a specific step in a checklist instance as complete.",
+      "Anchor": "#complete-a-checklist-step",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Comment_Add",
+      "Name": "Add a comment to a checklist instance step",
+      "Description": "Adds a new comment to an Activated Checklist Instance step.",
+      "Anchor": "#add-a-comment-to-a-checklist-instance-step",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find_Checklist",
+      "Name": "Find Checklist",
+      "Description": "Search for a checklist by title",
+      "Anchor": "#find-checklist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find_Checklist_Instances",
+      "Name": "Find Checklist Instance",
+      "Description": "Search for a checklist instance by title.",
+      "Anchor": "#find-checklist-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find_Steps",
+      "Name": "Find Checklist Step",
+      "Description": "Find a step of a checklist instance",
+      "Anchor": "#find-checklist-step",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find_User",
+      "Name": "Find User",
+      "Description": "Search for a user by name or email.",
+      "Anchor": "#find-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Finish_Checklist_WebHook",
+      "Name": "When a checklist is finished",
+      "Description": "This operation triggers when a checklist is finished.",
+      "Anchor": "#when-a-checklist-is-finished",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Generate_Acceptance_PDF_WebHook",
+      "Name": "When a procedure is accepted",
+      "Description": "This operation triggers when a procedure is accepted.",
+      "Anchor": "#when-a-procedure-is-accepted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Invite_Supervisor_WebHook",
+      "Name": "When a supervisor is invited",
+      "Description": "This operation triggers when a supervisor invite is generated.",
+      "Anchor": "#when-a-supervisor-is-invited",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "New_Comment_WebHook",
+      "Name": "When a comment is added to a checklist",
+      "Description": "This operation triggers when a new comment is added to a checklist.",
+      "Anchor": "#when-a-comment-is-added-to-a-checklist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Users_Post",
+      "Name": "Add a New User",
+      "Description": "Creates and invites a new user.",
+      "Anchor": "#add-a-new-user",
+      "IsDeprecated": false
+    }
+  ]
+}

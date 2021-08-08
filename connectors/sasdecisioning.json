@@ -1,0 +1,34 @@
+{
+  "UniqueName": "sasdecisioning",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sasdecisioning/",
+  "Actions": [
+    {
+      "OperationId": "createGenericWebhook",
+      "Name": "When a pre-defined event happened",
+      "Description": "Creates a new webhook for pre-defined callback content type event.",
+      "Anchor": "#when-a-pre-defined-event-happened",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createPublishWebhook",
+      "Name": "When a resource is published",
+      "Description": "Creates a new webhook for publish event.",
+      "Anchor": "#when-a-resource-is-published",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createValidateWebhook",
+      "Name": "When a resource is validated",
+      "Description": "Creates a new webhook for completion of any scoring event.",
+      "Anchor": "#when-a-resource-is-validated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "executeStep",
+      "Name": "Run step",
+      "Description": "Executes the step with the specified input values. The outputs variable in the reply contains the output of the execution.",
+      "Anchor": "#run-step",
+      "IsDeprecated": false
+    }
+  ]
+}

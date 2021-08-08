@@ -1,0 +1,132 @@
+{
+  "UniqueName": "cloudmersivepdf",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudmersivepdf/",
+  "Actions": [
+    {
+      "OperationId": "EditPdf_AddAnnotations",
+      "Name": "Add one or more PDF annotations, comments in the PDF document",
+      "Description": "Adds one or more annotations, comments to a PDF document.",
+      "Anchor": "#add-one-or-more-pdf-annotations,-comments-in-the-pdf-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_Decrypt",
+      "Name": "Decrypt and password-protect a PDF",
+      "Description": "Decrypt a PDF document with a password.  Decrypted PDF will no longer require a password to open.",
+      "Anchor": "#decrypt-and-password-protect-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_DeletePages",
+      "Name": "Remove, delete pages from a PDF document",
+      "Description": "Remove one or more pages from a PDF document",
+      "Anchor": "#remove,-delete-pages-from-a-pdf-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_Encrypt",
+      "Name": "Encrypt and password-protect a PDF",
+      "Description": "Encrypt a PDF document with a password.  Set an owner password to control owner (editor/creator) permissions, and set a user (reader) password to control the viewer of the PDF.  Set the password fields null to omit the given password.",
+      "Anchor": "#encrypt-and-password-protect-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_GetAnnotations",
+      "Name": "Get PDF annotations, including comments in the document",
+      "Description": "Enumerates the annotations, including comments and notes, in a PDF document.",
+      "Anchor": "#get-pdf-annotations,-including-comments-in-the-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_GetFormFields",
+      "Name": "Gets PDF Form fields and values",
+      "Description": "Encrypt a PDF document with a password.  Set an owner password to control owner (editor/creator) permissions, and set a user (reader) password to control the viewer of the PDF.  Set the password fields null to omit the given password.",
+      "Anchor": "#gets-pdf-form-fields-and-values",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_GetMetadata",
+      "Name": "Get PDF document metadata",
+      "Description": "Returns the metadata from the PDF document, including Title, Author, etc.",
+      "Anchor": "#get-pdf-document-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_GetPdfTextByPages",
+      "Name": "Get text in a PDF document by page",
+      "Description": "Gets the text in a PDF by page",
+      "Anchor": "#get-text-in-a-pdf-document-by-page",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_InsertPages",
+      "Name": "Insert, copy pages from one PDF document into another",
+      "Description": "Copy one or more pages from one PDF document (source document) and insert them into a second PDF document (destination document).",
+      "Anchor": "#insert,-copy-pages-from-one-pdf-document-into-another",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_Rasterize",
+      "Name": "Rasterize a PDF to an image-based PDF",
+      "Description": "Rasterize a PDF into an image-based PDF.  The output is a PDF where each page is comprised of a high-resolution image, with all text, figures and other components removed.",
+      "Anchor": "#rasterize-a-pdf-to-an-image-based-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_RemoveAllAnnotations",
+      "Name": "Remove all PDF annotations, including comments in the document",
+      "Description": "Removes all of the annotations, including comments and notes, in a PDF document.",
+      "Anchor": "#remove-all-pdf-annotations,-including-comments-in-the-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_RemoveAnnotationItem",
+      "Name": "Remove a specific PDF annotation, comment in the document",
+      "Description": "Removes a specific annotation in a PDF document, using the AnnotationIndex.  To enumerate AnnotationIndex for all of the annotations in the PDF document, use the /edit/pdf/annotations/list API.",
+      "Anchor": "#remove-a-specific-pdf-annotation,-comment-in-the-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_RotateAllPages",
+      "Name": "Rotate all pages in a PDF document",
+      "Description": "Rotate all of the pages in a PDF document by a multiple of 90 degrees",
+      "Anchor": "#rotate-all-pages-in-a-pdf-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_RotatePageRange",
+      "Name": "Rotate a range, subset of pages in a PDF document",
+      "Description": "Rotate a range of specific pages in a PDF document by a multiple of 90 degrees",
+      "Anchor": "#rotate-a-range,-subset-of-pages-in-a-pdf-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_SetFormFields",
+      "Name": "Sets ands fills PDF Form field values",
+      "Description": "Fill in the form fields in a PDF form with specific values.  Use form/get-fields to enumerate the available fields and their data types in an input form.",
+      "Anchor": "#sets-ands-fills-pdf-form-field-values",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_SetMetadata",
+      "Name": "Sets PDF document metadata",
+      "Description": "Sets (writes) metadata into the input PDF document, including Title, Author, etc.",
+      "Anchor": "#sets-pdf-document-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_SetPermissions",
+      "Name": "Encrypt, password-protect and set restricted permissions on a PDF",
+      "Description": "Encrypt a PDF document with a password, and set permissions on the PDF.  Set an owner password to control owner (editor/creator) permissions [required], and set a user (reader) password to control the viewer of the PDF [optional].  Set the reader password to null to omit the password.  Restrict or allow printing, copying content, document assembly, editing (read-only), form filling, modification of annotations, and degraded printing through document Digital Rights Management (DRM).",
+      "Anchor": "#encrypt,-password-protect-and-set-restricted-permissions-on-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPdf_WatermarkText",
+      "Name": "Add a text watermark to a PDF",
+      "Description": "Adds a text watermark to a PDF",
+      "Anchor": "#add-a-text-watermark-to-a-pdf",
+      "IsDeprecated": false
+    }
+  ]
+}

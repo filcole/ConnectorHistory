@@ -1,0 +1,76 @@
+{
+  "UniqueName": "redmine",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../redmine/",
+  "Actions": [
+    {
+      "OperationId": "CreateIssue",
+      "Name": "Create an issue",
+      "Description": "Create an issue.",
+      "Anchor": "#create-an-issue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProject",
+      "Name": "Create a project",
+      "Description": "Create a project.",
+      "Anchor": "#create-a-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIssue",
+      "Name": "Get issue by ID",
+      "Description": "Get issue by ID.",
+      "Anchor": "#get-issue-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProject",
+      "Name": "Get project by ID",
+      "Description": "Get project by ID.",
+      "Anchor": "#get-project-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user by ID",
+      "Description": "Get user by ID.",
+      "Anchor": "#get-user-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListUsers",
+      "Name": "List users",
+      "Description": "List users.",
+      "Anchor": "#list-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewIssue",
+      "Name": "When an issue is created",
+      "Description": "When an issue is created.",
+      "Anchor": "#when-an-issue-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewProject",
+      "Name": "When a project is created",
+      "Description": "When a project is created.",
+      "Anchor": "#when-a-project-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedIssue",
+      "Name": "When an issue is updated",
+      "Description": "When an issue is updated.",
+      "Anchor": "#when-an-issue-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateIssue",
+      "Name": "Update an issue",
+      "Description": "Update an issue.",
+      "Anchor": "#update-an-issue",
+      "IsDeprecated": false
+    }
+  ]
+}

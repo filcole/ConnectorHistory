@@ -1,0 +1,48 @@
+{
+  "UniqueName": "toodledo",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../toodledo/",
+  "Actions": [
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create a task",
+      "Description": "Create a new task with the specified fields.",
+      "Anchor": "#create-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFolders",
+      "Name": "Get folders",
+      "Description": "Get a list of folders.",
+      "Anchor": "#get-folders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTaskById",
+      "Name": "Get task",
+      "Description": "Get a task by id.",
+      "Anchor": "#get-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTasks",
+      "Name": "Get a list of tasks",
+      "Description": "Returns a list of tasks (up to 1000 results).",
+      "Anchor": "#get-a-list-of-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigOnNewTask",
+      "Name": "When a new task is created or updated",
+      "Description": "Triggers a new workflow when a task is created or updated.",
+      "Anchor": "#when-a-new-task-is-created-or-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTask",
+      "Name": "Update task",
+      "Description": "Update the fields for an existing task.",
+      "Anchor": "#update-task",
+      "IsDeprecated": false
+    }
+  ]
+}

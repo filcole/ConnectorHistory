@@ -1,0 +1,13 @@
+{
+  "UniqueName": "rencore",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rencore/",
+  "Actions": [
+    {
+      "OperationId": "api-analyze-post",
+      "Name": "Analyze the contents of the specified file",
+      "Description": "Analyzes the contents of the specified file. If the analysis request is accepted, returns a 202 Accepted response with a URL to poll to check the analysis status.",
+      "Anchor": "#analyze-the-contents-of-the-specified-file",
+      "IsDeprecated": false
+    }
+  ]
+}

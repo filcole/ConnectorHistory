@@ -1,0 +1,69 @@
+{
+  "UniqueName": "intercom",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../intercom/",
+  "Actions": [
+    {
+      "OperationId": "CreateLead",
+      "Name": "Create new lead",
+      "Description": "Creates a new lead for your Intercom account.",
+      "Anchor": "#create-new-lead",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUser",
+      "Name": "Create or update user",
+      "Description": "Creates a new user for your Intercom account. Users found via email will be updated.",
+      "Anchor": "#create-or-update-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLead",
+      "Name": "Get lead",
+      "Description": "Given the id for an existing lead, this operation returns all information about the  lead.",
+      "Anchor": "#get-lead",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user",
+      "Description": "Given the id for an existing user, this operation returns all information about the user.",
+      "Anchor": "#get-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListLeads",
+      "Name": "List all leads",
+      "Description": "Returns a list of all leads within your Intercom account.",
+      "Anchor": "#list-all-leads",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewConversation",
+      "Name": "When a new conversation starts",
+      "Description": "Triggers when a user starts a new conversation.",
+      "Anchor": "#when-a-new-conversation-starts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewLead",
+      "Name": "When a lead is created",
+      "Description": "Triggers when a new lead is created.",
+      "Anchor": "#when-a-lead-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewUser",
+      "Name": "When a user is created",
+      "Description": "Triggers when a new user is created.",
+      "Anchor": "#when-a-user-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigUpdateUser",
+      "Name": "When a user is updated",
+      "Description": "Triggers when an existing user's information is updated.",
+      "Anchor": "#when-a-user-is-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

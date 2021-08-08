@@ -1,0 +1,48 @@
+{
+  "UniqueName": "esign",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../esign/",
+  "Actions": [
+    {
+      "OperationId": "CompletedEnvelope",
+      "Name": "Completed Envelope",
+      "Description": "When an envelope is fully completed by all signees",
+      "Anchor": "#completed-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatedEnvelope",
+      "Name": "Created Envelope",
+      "Description": "When a new envelope is created within E-Sign",
+      "Anchor": "#created-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEnvelope",
+      "Name": "Create Envelope",
+      "Description": "Create and send a new E-Sign envelope",
+      "Anchor": "#create-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEnvelopeFromTemplate",
+      "Name": "Create Envelope From Template",
+      "Description": "Create a new envelope for signing using one of your E-Sign templates.",
+      "Anchor": "#create-envelope-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SignDocument",
+      "Name": "Signee Signs",
+      "Description": "When an individual signer signs a document of the Envelope",
+      "Anchor": "#signee-signs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadFile",
+      "Name": "Upload File to E-Sign Action",
+      "Description": "Uploads a file to the E-Sign platform which can be used to create a document for signing",
+      "Anchor": "#upload-file-to-e-sign-action",
+      "IsDeprecated": false
+    }
+  ]
+}

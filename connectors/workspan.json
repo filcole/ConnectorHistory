@@ -1,0 +1,83 @@
+{
+  "UniqueName": "workspan",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../workspan/",
+  "Actions": [
+    {
+      "OperationId": "BulkloadData",
+      "Name": "Bulk Load Data (data in body)",
+      "Description": "Upload input data as a request body to your integration. Allowed formats are .csv and .json",
+      "Anchor": "#bulk-load-data-(data-in-body)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BulkloadDataFileAttachment",
+      "Name": "Bulk Load Data (attachment)",
+      "Description": "Upload an input file to your integration. Allowed formats are .xlsx, .json and .csv",
+      "Anchor": "#bulk-load-data-(attachment)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BulkloadOpportunity",
+      "Name": "Bulk Load Opportunities (data in body)",
+      "Description": "Upload input data as a request body to your integration. Allowed formats are .csv and .json",
+      "Anchor": "#bulk-load-opportunities-(data-in-body)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BulkloadOpportunityFileAttachment",
+      "Name": "Bulk Load Opportunities (attachment)",
+      "Description": "Upload an input file to your integration. Allowed formats are .xlsx, .json and .csv",
+      "Anchor": "#bulk-load-opportunities-(attachment)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBulkloadStatus",
+      "Name": "Get the status of the bulkload operation",
+      "Description": "Get status of bulkload operation",
+      "Anchor": "#get-the-status-of-the-bulkload-operation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetExternalId",
+      "Name": "Get external ID for WorkSpan ID",
+      "Description": "Get the  external application’s primary unique identifier",
+      "Anchor": "#get-external-id-for-workspan-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ObjectAudit",
+      "Name": "Add Audit information to WorkSpan Object",
+      "Description": "Add Audit information to WorkSpanObject",
+      "Anchor": "#add-audit-information-to-workspan-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubmitToPartnerCenterObjectEvent",
+      "Name": "Submit Referral to Microsoft Partner Center from WorkSpan",
+      "Description": "This trigger is fired when WorkSpan user asks to submit opportunity to Microsoft Partner Center",
+      "Anchor": "#submit-referral-to-microsoft-partner-center-from-workspan",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Subscribe",
+      "Name": "Subscribe to WorkSpan Collaboration Events",
+      "Description": "Subscribe to various collaboration events such as creates and updates on membership, tasks and comments to drive and enhance communication with your internal and partner network.",
+      "Anchor": "#subscribe-to-workspan-collaboration-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscribeObjectEvent",
+      "Name": "Subscribe to WorkSpan Object Events",
+      "Description": "Subscribe to various object events such as creates and updates on Opportunities to increase the visibility of your partner influence",
+      "Anchor": "#subscribe-to-workspan-object-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateExternalId",
+      "Name": "Connect an external ID to a WorkSpan ID",
+      "Description": "Update WorkSpan Object with external application’s primary unique identifier",
+      "Anchor": "#connect-an-external-id-to-a-workspan-id",
+      "IsDeprecated": false
+    }
+  ]
+}

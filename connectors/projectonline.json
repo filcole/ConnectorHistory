@@ -1,0 +1,125 @@
+{
+  "UniqueName": "projectonline",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../projectonline/",
+  "Actions": [
+    {
+      "OperationId": "CheckoutProject",
+      "Name": "Checkout project",
+      "Description": "Checks out an existing project in your site.",
+      "Anchor": "#checkout-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProject",
+      "Name": "Creates new project",
+      "Description": "Creates a new project in your project online site.",
+      "Anchor": "#creates-new-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateResource",
+      "Name": "Create new resource",
+      "Description": "Creates an Enterprise Resource in your Project Online site.",
+      "Anchor": "#create-new-resource",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Creates new task",
+      "Description": "Creates a new task in you project.",
+      "Anchor": "#creates-new-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProjectSummaryTask",
+      "Name": "Get project summary task",
+      "Description": "Gets the project summary task for a given project.",
+      "Anchor": "#get-project-summary-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProject",
+      "Name": "List project",
+      "Description": "Lists a project by Id in your project online site.",
+      "Anchor": "#list-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProjects",
+      "Name": "List projects",
+      "Description": "Lists the projects in your project online site.",
+      "Anchor": "#list-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTasks",
+      "Name": "Lists tasks",
+      "Description": "Lists the published tasks in a project.",
+      "Anchor": "#lists-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewProject",
+      "Name": "When a new project is created",
+      "Description": "Triggers a flow whenever a new project is created.",
+      "Anchor": "#when-a-new-project-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewProjectV2",
+      "Name": "When a new project is created (V2) (Preview)",
+      "Description": "Triggers a flow whenever a new project is created.",
+      "Anchor": "#when-a-new-project-is-created-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewResource",
+      "Name": "When a new resource is created",
+      "Description": "Triggers a new flow when a new resource is created.",
+      "Anchor": "#when-a-new-resource-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewResourceV2",
+      "Name": "When a new resource is created (V2) (Preview)",
+      "Description": "Triggers a new flow when a new resource is created.",
+      "Anchor": "#when-a-new-resource-is-created-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewTask",
+      "Name": "When a new task is created",
+      "Description": "Triggers a flow when a new task is created.",
+      "Anchor": "#when-a-new-task-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewTaskV2",
+      "Name": "When a new task is created (V2) (Preview)",
+      "Description": "Triggers a flow when a new task is created.",
+      "Anchor": "#when-a-new-task-is-created-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnProjectPublished",
+      "Name": "When a project is published",
+      "Description": "Triggers a flow whenever a project is published.",
+      "Anchor": "#when-a-project-is-published",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnProjectPublishedV2",
+      "Name": "When a project is published (V2) (Preview)",
+      "Description": "Triggers a flow whenever a project is published.",
+      "Anchor": "#when-a-project-is-published-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublishProject",
+      "Name": "Checkin and publish project",
+      "Description": "Check in and publish an existing project in your site.",
+      "Anchor": "#checkin-and-publish-project",
+      "IsDeprecated": false
+    }
+  ]
+}

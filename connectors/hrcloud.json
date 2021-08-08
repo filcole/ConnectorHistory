@@ -1,0 +1,62 @@
+{
+  "UniqueName": "hrcloud",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hrcloud/",
+  "Actions": [
+    {
+      "OperationId": "AddEmployee",
+      "Name": "Adds Employee",
+      "Description": "Adds Employee",
+      "Anchor": "#adds-employee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDepartment",
+      "Name": "Gets Department Data",
+      "Description": "Gets Department Data",
+      "Anchor": "#gets-department-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDivision",
+      "Name": "Gets Division Data",
+      "Description": "Gets Division Data",
+      "Anchor": "#gets-division-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEmployee",
+      "Name": "Gets Employee Data",
+      "Description": "Gets Employee Data",
+      "Anchor": "#gets-employee-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEmploymentStatus",
+      "Name": "Gets Employment Status Data",
+      "Description": "Gets Employment Status Data",
+      "Anchor": "#gets-employment-status-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLocation",
+      "Name": "Gets Location Data",
+      "Description": "Gets Location Data",
+      "Anchor": "#gets-location-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPosition",
+      "Name": "Gets Position Data",
+      "Description": "Gets Position Data",
+      "Anchor": "#gets-position-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEmployee",
+      "Name": "Updates Employee Data",
+      "Description": "Updates Employee Data",
+      "Anchor": "#updates-employee-data",
+      "IsDeprecated": false
+    }
+  ]
+}

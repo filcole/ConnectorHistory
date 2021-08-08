@@ -1,0 +1,153 @@
+{
+  "UniqueName": "github",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../github/",
+  "Actions": [
+    {
+      "OperationId": "AddSelectedRepoToOrgSecret",
+      "Name": "Add selected repository to an organization secret (Preview)",
+      "Description": "Adds a repository to an organization secret when the visibility for repository access is set to selected. The visibility is set when you Create or update an organization secret. You must authenticate using an access token with the admin:org scope to use this endpoint. GitHub Apps must have the secrets organization permission to use this endpoint.",
+      "Anchor": "#add-selected-repository-to-an-organization-secret-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompareRepositoryCommits",
+      "Name": "Compare two commits (Preview)",
+      "Description": "Both base and head must be branch names in repositoryName. To compare branches across other repositories in the same network as repositoryName, use the format &lt;USERNAME&gt;:branch. The response is equivalent to running the git log base..head command; however, commits are returned in chronological order.",
+      "Anchor": "#compare-two-commits-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateIssue",
+      "Name": "Create an issue",
+      "Description": "This operation is used to create a new issue for a specific repository.",
+      "Anchor": "#create-an-issue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePullRequest",
+      "Name": "Create a pull request (Preview)",
+      "Description": "This operation is to create a pull request in a repository. To open or update a pull request in a public repository, you must have write access to the head or the source branch. For organization-owned repositories, you must be a member of the organization that owns the repository to create a pull request.",
+      "Anchor": "#create-a-pull-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateReference",
+      "Name": "Create a reference (Preview)",
+      "Description": "Creates a reference for your repository. You are unable to create new references for empty repositories, even if the commit SHA-1 hash used exists. Empty repositories are repositories without branches.",
+      "Anchor": "#create-a-reference-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateRepositoryDispatchEvent",
+      "Name": "Create a repository dispatch event (Preview)",
+      "Description": "This operation is to trigger a webhook event called repository_dispatch when you want activity that happens outside of GitHub to trigger a GitHub Actions workflow or GitHub App webhook. You must configure your GitHub Actions workflow or GitHub App to run when the repository_dispatch event occurs.",
+      "Anchor": "#create-a-repository-dispatch-event-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateRepositoryUsingTemplate",
+      "Name": "Create a repository using a template (Preview)",
+      "Description": "Creates a new repository using a repository template. The authenticated user must own or be a member of an organization that owns the repository.",
+      "Anchor": "#create-a-repository-using-a-template-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUpdateRepositorySecret",
+      "Name": "Create or update a repository secret (Preview)",
+      "Description": "Creates or updates a repository secret with an encrypted value. Encrypt your secret using LibSodium.",
+      "Anchor": "#create-or-update-a-repository-secret-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteWebhookTrigger",
+      "Name": "Deletes a Github Webhook (Preview)",
+      "Description": "Deletes a Github Webhook",
+      "Anchor": "#deletes-a-github-webhook-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPullRequest",
+      "Name": "Get a pull request (Preview)",
+      "Description": "This operation is used to get a pull request for the repository.",
+      "Anchor": "#get-a-pull-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPullRequestFiles",
+      "Name": "Get the list of files from a pull request (Preview)",
+      "Description": "This operation is used to get the list of files from a pull request for the repository.",
+      "Anchor": "#get-the-list-of-files-from-a-pull-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetReference",
+      "Name": "Get a reference (Preview)",
+      "Description": "Returns a single reference from your Git database. The reference parameter must be formatted as heads/&lt;branch name&gt; for branches and tags/&lt;tag name&gt; for tags. If the reference doesn't match an existing ref, a 404 is returned.",
+      "Anchor": "#get-a-reference-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRepositoryById",
+      "Name": "Get a repository by Id (Preview)",
+      "Description": "Gets a repository by Id.",
+      "Anchor": "#get-a-repository-by-id-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRepositoryPublicKey",
+      "Name": "Get a repository public key (Preview)",
+      "Description": "Gets your public key, which you need to encrypt secrets. You need to encrypt a secret before you can create or update secrets.",
+      "Anchor": "#get-a-repository-public-key-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IssueAssigned",
+      "Name": "When an issue is assigned to me",
+      "Description": "This operation triggers when an issue is assigned to the logged in user.",
+      "Anchor": "#when-an-issue-is-assigned-to-me",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IssueClosed",
+      "Name": "When an issue assigned to me is closed",
+      "Description": "This operation triggers when an issue assigned to the logged in user is closed.",
+      "Anchor": "#when-an-issue-assigned-to-me-is-closed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IssueOpened",
+      "Name": "When a new issue is opened and assigned to me",
+      "Description": "This operation triggers when an issue is opened and assigned to the logged in user.",
+      "Anchor": "#when-a-new-issue-is-opened-and-assigned-to-me",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergePullRequest",
+      "Name": "Merge a pull request (Preview)",
+      "Description": "This operation is used to merge a pull request for the repository.",
+      "Anchor": "#merge-a-pull-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveSelectedRepoFromOrgSecret",
+      "Name": "Remove selected repository from an organization secret (Preview)",
+      "Description": "Removes a repository from an organization secret when the visibility for repository access is set to selected. The visibility is set when you Create or update an organization secret. You must authenticate using an access token with the admin:org scope to use this endpoint. GitHub Apps must have the secrets organization permission to use this endpoint.",
+      "Anchor": "#remove-selected-repository-from-an-organization-secret-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatePullRequest",
+      "Name": "Update a pull request (Preview)",
+      "Description": "This operation is used to update a pull request for the repository. To update a pull request in a public repository, you must have write access to the head or the source branch. For organization-owned repositories, you must be a member of the organization that owns the repository to open or update a pull request.",
+      "Anchor": "#update-a-pull-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookPullRequestTrigger",
+      "Name": "When a pull request is created or modified (Preview)",
+      "Description": "Creates a Github Webhook for Pull Requests",
+      "Anchor": "#when-a-pull-request-is-created-or-modified-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

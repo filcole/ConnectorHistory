@@ -1,0 +1,34 @@
+{
+  "UniqueName": "expirationreminder",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../expirationreminder/",
+  "Actions": [
+    {
+      "OperationId": "CreateContact",
+      "Name": "Create contact",
+      "Description": "Create a new contact in Expiration Reminder",
+      "Anchor": "#create-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateExpirationItem",
+      "Name": "Create expiration item",
+      "Description": "Create an expiration item in Expiration Reminder",
+      "Anchor": "#create-expiration-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindExpiration",
+      "Name": "Find expiration",
+      "Description": "Find an expiration item in Expiration Reminder",
+      "Anchor": "#find-expiration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenewExpiration",
+      "Name": "Renew expiration",
+      "Description": "Renew an expiration item in Expiration Reminder",
+      "Anchor": "#renew-expiration",
+      "IsDeprecated": false
+    }
+  ]
+}

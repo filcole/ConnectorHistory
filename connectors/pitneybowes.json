@@ -1,0 +1,34 @@
+{
+  "UniqueName": "pitneybowes",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pitneybowes/",
+  "Actions": [
+    {
+      "OperationId": "ValidateEmailAddress",
+      "Name": "Validate Email Address [DEPRECATED]",
+      "Description": "The ValidateEmailAddress service takes an email address and determines if it is valid. It can fix common typos to return a valid email address. It also identifies problematic email addresses. Learn more in our documentation: https://aka.ms/Yqv7pc",
+      "Anchor": "#validate-email-address-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ValidateMailingAddress",
+      "Name": "Validate Mailing Address [DEPRECATED]",
+      "Description": "ValidateMailingAddress analyses and compares the input addresses against the known address databases around the world to output a standardized detail. Learn more in our documentation: https://aka.ms/wzsawb",
+      "Anchor": "#validate-mailing-address-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ValidateMailingAddressPremium",
+      "Name": "Validate Mailing Address Premium [DEPRECATED]",
+      "Description": "ValidateMailing AddressPremium expands on the ValidateMailingAddressPro service by adding premium address data sources to get the best address validation result possible. Learn more in our documentation: https://aka.ms/s9jl1k",
+      "Anchor": "#validate-mailing-address-premium-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ValidateMailingAddressPro",
+      "Name": "Validate Mailing Address Pro [DEPRECATED]",
+      "Description": "ValidateMailingAddressPro builds upon the ValidateMailingAddress service by using additional address databases so it can provide enhanced detail. Learn more in our documentation: https://aka.ms/pbv0v9",
+      "Anchor": "#validate-mailing-address-pro-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

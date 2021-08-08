@@ -1,0 +1,223 @@
+{
+  "UniqueName": "lms365",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../lms365/",
+  "Actions": [
+    {
+      "OperationId": "ApproveEnrollmentRequest",
+      "Name": "Approve enrollment request",
+      "Description": "This action will approve the training enrollment request",
+      "Anchor": "#approve-enrollment-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CancelEnrollment",
+      "Name": "Cancel enrollment",
+      "Description": "This action will cancel the training enrollment",
+      "Anchor": "#cancel-enrollment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompleteEnrollmentById",
+      "Name": "Set enrollment status to completed",
+      "Description": "This action will change the enrollment status to completed for the related training",
+      "Anchor": "#set-enrollment-status-to-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CourseCompleted",
+      "Name": "When a learner has completed training",
+      "Description": "This operation is triggered when a learner has completed assigned training",
+      "Anchor": "#when-a-learner-has-completed-training",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CourseCreated",
+      "Name": "When training has been created",
+      "Description": "This operation is triggered when a course or training plan has been created",
+      "Anchor": "#when-training-has-been-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CourseDeleted",
+      "Name": "When training has been deleted from a catalog",
+      "Description": "This operation is triggered when a course or training plan has been deleted from a catalog",
+      "Anchor": "#when-training-has-been-deleted-from-a-catalog",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CourseEnrollment",
+      "Name": "When a learner has enrolled into training",
+      "Description": "This operation is triggered when a learner has enrolled into training",
+      "Anchor": "#when-a-learner-has-enrolled-into-training",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoursePublished",
+      "Name": "When training has been published to a catalog",
+      "Description": "This operation is triggered when a course or training plan has been published to a catalog",
+      "Anchor": "#when-training-has-been-published-to-a-catalog",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CourseStarted",
+      "Name": "When a learner has started any of the course activities",
+      "Description": "This operation is triggered when a learner has started any of the course activities",
+      "Anchor": "#when-a-learner-has-started-any-of-the-course-activities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CourseUnenrollment",
+      "Name": "When a learner has unenrolled from training",
+      "Description": "This operation is triggered when a learner has unenrolled from assigned training",
+      "Anchor": "#when-a-learner-has-unenrolled-from-training",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CourseUnpublished",
+      "Name": "When training has been unpublished from a catalog",
+      "Description": "This operation is triggered when a course or training plan has been unpublished from a catalog",
+      "Anchor": "#when-training-has-been-unpublished-from-a-catalog",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCourse",
+      "Name": "Create training course",
+      "Description": "This action will create a new course",
+      "Anchor": "#create-training-course",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCourseCategory",
+      "Name": "Create course category",
+      "Description": "This action will create a new course category",
+      "Anchor": "#create-course-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCourseSession",
+      "Name": "Create course session",
+      "Description": "This action will create a new course session",
+      "Anchor": "#create-course-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCourseTag",
+      "Name": "Create course tag",
+      "Description": "This action will create a new course tag",
+      "Anchor": "#create-course-tag",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EnrollmentApprovalRequest",
+      "Name": "When a learner has requested approval for training",
+      "Description": "This operation is triggered when a learner enrolls into training configured for External Approval Flow",
+      "Anchor": "#when-a-learner-has-requested-approval-for-training",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EnrollUserToCourse",
+      "Name": "Enroll user to training",
+      "Description": "This action will enroll user to training object by user login name and course id",
+      "Anchor": "#enroll-user-to-training",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FileUpload",
+      "Name": "Upload File",
+      "Description": "Uploads and create a file in LMS365 cloud storage.",
+      "Anchor": "#upload-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCourseCategories",
+      "Name": "Get course categories",
+      "Description": "This action will get all course categories",
+      "Anchor": "#get-course-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCourseInfo",
+      "Name": "Get course details",
+      "Description": "This action will provide all available information about selected course and related catalog",
+      "Anchor": "#get-course-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCourseProvisioningStatus",
+      "Name": "Get course provisioning status",
+      "Description": "This action will get course provisioning status",
+      "Anchor": "#get-course-provisioning-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCoursesFromCatalog",
+      "Name": "Get all courses from related course catalog",
+      "Description": "This action will retrieve all courses from related course catalog",
+      "Anchor": "#get-all-courses-from-related-course-catalog",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCourseTags",
+      "Name": "Get course tags",
+      "Description": "This action will get all course tags",
+      "Anchor": "#get-course-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnrollmentById",
+      "Name": "Get enrollment info",
+      "Description": "This action will get enrollment info",
+      "Anchor": "#get-enrollment-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUsers",
+      "Name": "Get users",
+      "Description": "This action will get list of user",
+      "Anchor": "#get-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HttpRequest",
+      "Name": "Send an HTTP request",
+      "Description": "Construct a REST API request to invoke.",
+      "Anchor": "#send-an-http-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HttpRequest_v2",
+      "Name": "Send an HTTP request (Preview)",
+      "Description": "Construct a REST API request to invoke.",
+      "Anchor": "#send-an-http-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RejectEnrollmentRequest",
+      "Name": "Reject enrollment request",
+      "Description": "This action will reject the training enrollment request",
+      "Anchor": "#reject-enrollment-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetakeEnrollmentById",
+      "Name": "Force user to retake training",
+      "Description": "This action will force the user to retake the related training",
+      "Anchor": "#force-user-to-retake-training",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserCreated",
+      "Name": "When a user has been created",
+      "Description": "This operation is triggered when a user entity has been enabled/created in LMS365",
+      "Anchor": "#when-a-user-has-been-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserDeleted",
+      "Name": "When a user has been deleted",
+      "Description": "This operation is triggered when a user entity has been disabled/deleted from LMS365",
+      "Anchor": "#when-a-user-has-been-deleted",
+      "IsDeprecated": false
+    }
+  ]
+}

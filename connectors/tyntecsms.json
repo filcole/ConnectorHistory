@@ -1,0 +1,27 @@
+{
+  "UniqueName": "tyntecsms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tyntecsms/",
+  "Actions": [
+    {
+      "OperationId": "incoming",
+      "Name": "Incoming message",
+      "Description": "Triggers on Incoming message",
+      "Anchor": "#incoming-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSMS",
+      "Name": "Send a custom SMS",
+      "Description": "Send a custom SMS",
+      "Anchor": "#send-a-custom-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StatusCheck",
+      "Name": "Status Check",
+      "Description": "Check for status of your message",
+      "Anchor": "#status-check",
+      "IsDeprecated": false
+    }
+  ]
+}

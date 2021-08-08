@@ -1,0 +1,125 @@
+{
+  "UniqueName": "office365groupsmail",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../office365groupsmail/",
+  "Actions": [
+    {
+      "OperationId": "CreateConversation",
+      "Name": "Create a new conversation in a group",
+      "Description": "Create a new conversation in this group.",
+      "Anchor": "#create-a-new-conversation-in-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConversationThread",
+      "Name": "Create a conversation thread",
+      "Description": "Create a new thread in the specified conversation.",
+      "Anchor": "#create-a-conversation-thread",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGroupThread",
+      "Name": "Start a new group conversation by creating a thread",
+      "Description": "Start a new group conversation by first creating a thread.",
+      "Anchor": "#start-a-new-group-conversation-by-creating-a-thread",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteConversationThread",
+      "Name": "Delete a conversation thread",
+      "Description": "Deletes the specified conversation thread.",
+      "Anchor": "#delete-a-conversation-thread",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ForwardPost",
+      "Name": "Forward a post [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Forward a post instead.\nForward a post to a recipient.",
+      "Anchor": "#forward-a-post-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ForwardPost_V2",
+      "Name": "Forward a post (Preview)",
+      "Description": "Forward a post to a recipient.",
+      "Anchor": "#forward-a-post-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAttachments",
+      "Name": "List the attachments of a post",
+      "Description": "Retrieve a list of attachments that belong to a post.",
+      "Anchor": "#list-the-attachments-of-a-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConversationThread",
+      "Name": "Get a conversation thread",
+      "Description": "Get a specific thread that belongs to a group.",
+      "Anchor": "#get-a-conversation-thread",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroupConversation",
+      "Name": "Get a group conversation",
+      "Description": "Retrieves the properties of a particular conversation.",
+      "Anchor": "#get-a-group-conversation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetThreadPost",
+      "Name": "Get a thread post",
+      "Description": "Retrieves a post in a specified thread.",
+      "Anchor": "#get-a-thread-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConversations",
+      "Name": "List the conversations of a group",
+      "Description": "Get all the conversations in this group.",
+      "Anchor": "#list-the-conversations-of-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConversationThreads",
+      "Name": "List the conversation threads of a conversation",
+      "Description": "Get all the threads in a group conversation.",
+      "Anchor": "#list-the-conversation-threads-of-a-conversation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGroupThreads",
+      "Name": "List the threads of a group",
+      "Description": "Get all the threads of a group.",
+      "Anchor": "#list-the-threads-of-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListThreadPosts",
+      "Name": "List the posts of a conversation thread",
+      "Description": "Get all the posts of the specified conversation thread.",
+      "Anchor": "#list-the-posts-of-a-conversation-thread",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewEmailInGroup",
+      "Name": "When a new email arrives to a group",
+      "Description": "When a new email arrives to a group.",
+      "Anchor": "#when-a-new-email-arrives-to-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplyPost",
+      "Name": "Reply to a post",
+      "Description": "Reply to a post and add a new post to the specified thread in a group conversation.",
+      "Anchor": "#reply-to-a-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplyToAThread",
+      "Name": "Reply to a conversation thread",
+      "Description": "Reply to a thread in a group conversation and add a new post to it.",
+      "Anchor": "#reply-to-a-conversation-thread",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "UniqueName": "azureadip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azureadip/",
+  "Actions": [
+    {
+      "OperationId": "ConfirmRiskUser",
+      "Name": "Confirm a risky user as compromised",
+      "Description": "Confirm a risky user as compromised",
+      "Anchor": "#confirm-a-risky-user-as-compromised",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DismissRiskUser",
+      "Name": "Dismiss a risky user",
+      "Description": "Dismiss a risky user",
+      "Anchor": "#dismiss-a-risky-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRiskUser",
+      "Name": "Get risky user",
+      "Description": "Get a specific risky user and its properties",
+      "Anchor": "#get-risky-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRiskUserHistory",
+      "Name": "Get the risk history of a risky user",
+      "Description": "Get the risk history",
+      "Anchor": "#get-the-risk-history-of-a-risky-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "riskDetections",
+      "Name": "Get risk detections",
+      "Description": "Get riskDetections",
+      "Anchor": "#get-risk-detections",
+      "IsDeprecated": false
+    }
+  ]
+}

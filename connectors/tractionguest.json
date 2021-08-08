@@ -1,0 +1,41 @@
+{
+  "UniqueName": "tractionguest",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tractionguest/",
+  "Actions": [
+    {
+      "OperationId": "CreateInviteWebhook",
+      "Name": "When a guest is invited",
+      "Description": "This trigger is executed when an invite is created in Guest",
+      "Anchor": "#when-a-guest-is-invited",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSigninWebhook",
+      "Name": "When a guest signs in",
+      "Description": "This action will trigger when a guest signs in, either at an iPad or in the Guest web interface",
+      "Anchor": "#when-a-guest-signs-in",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSignoutWebhook",
+      "Name": "When a guest signs out",
+      "Description": "This operation is triggered when a guest signs out",
+      "Anchor": "#when-a-guest-signs-out",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWatchlistWebhook",
+      "Name": "When a guest triggers a watchlist",
+      "Description": "This action will fire when a guest is flagged on a watchlist",
+      "Anchor": "#when-a-guest-triggers-a-watchlist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteWebhook",
+      "Name": "Deletes a webhook",
+      "Description": "Unsubscribe a specific webhook",
+      "Anchor": "#deletes-a-webhook",
+      "IsDeprecated": false
+    }
+  ]
+}

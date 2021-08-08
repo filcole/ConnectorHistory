@@ -1,0 +1,83 @@
+{
+  "UniqueName": "googledrive",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../googledrive/",
+  "Actions": [
+    {
+      "OperationId": "CopyFile",
+      "Name": "Copy file",
+      "Description": "Copies a file on Google Drive",
+      "Anchor": "#copy-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFile",
+      "Name": "Create file",
+      "Description": "Uploads a file to Google Drive",
+      "Anchor": "#create-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFile",
+      "Name": "Delete file",
+      "Description": "Deletes a file from Google Drive",
+      "Anchor": "#delete-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractFolderV2",
+      "Name": "Extract archive to folder",
+      "Description": "Extracts an archive file into a folder in Google Drive (example: .zip)",
+      "Anchor": "#extract-archive-to-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContent",
+      "Name": "Get file content using id",
+      "Description": "Retrieves file content from Google Drive using id",
+      "Anchor": "#get-file-content-using-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContentByPath",
+      "Name": "Get file content using path",
+      "Description": "Retrieves file content from Google Drive using path",
+      "Anchor": "#get-file-content-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadata",
+      "Name": "Get file metadata using id",
+      "Description": "Retrieves file metadata from Google Drive using id",
+      "Anchor": "#get-file-metadata-using-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadataByPath",
+      "Name": "Get file metadata using path",
+      "Description": "Retrieves file metadata from Google Drive using path",
+      "Anchor": "#get-file-metadata-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFolder",
+      "Name": "List files in folder",
+      "Description": "List files in a Google Drive folder",
+      "Anchor": "#list-files-in-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRootFolder",
+      "Name": "List files in root folder",
+      "Description": "Lists files in the Google Drive root folder",
+      "Anchor": "#list-files-in-root-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFile",
+      "Name": "Update file",
+      "Description": "Updates a file in Google Drive",
+      "Anchor": "#update-file",
+      "IsDeprecated": false
+    }
+  ]
+}

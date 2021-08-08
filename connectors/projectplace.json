@@ -1,0 +1,41 @@
+{
+  "UniqueName": "projectplace",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../projectplace/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "When a card's properties are changed",
+      "Description": "Triggers when one of the card's properties are changed",
+      "Anchor": "#when-a-card's-properties-are-changed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "create_card",
+      "Name": "Create Card",
+      "Description": "Creates a new card with the parameters provided",
+      "Anchor": "#create-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "move_card",
+      "Name": "Move card to another column",
+      "Description": "Move a card on the selected board",
+      "Anchor": "#move-card-to-another-column",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "set_webhook_card_create",
+      "Name": "When a card is created",
+      "Description": "Triggers when a card is created on the defined board",
+      "Anchor": "#when-a-card-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "set_webhook_card_due_date",
+      "Name": "When a card is due",
+      "Description": "Triggers on the date that the card is due",
+      "Anchor": "#when-a-card-is-due",
+      "IsDeprecated": false
+    }
+  ]
+}

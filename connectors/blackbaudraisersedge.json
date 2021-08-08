@@ -1,0 +1,1007 @@
+{
+  "UniqueName": "blackbaudraisersedge",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudraisersedge/",
+  "Actions": [
+    {
+      "OperationId": "AddGiftToBatch",
+      "Name": "Add a gift to batch",
+      "Description": "Add a gift to the specified gift batch.",
+      "Anchor": "#add-a-gift-to-batch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AppendIDsToList",
+      "Name": "Add records to a list",
+      "Description": "Add a set of records to an existing list.",
+      "Anchor": "#add-records-to-a-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAction",
+      "Name": "Create a constituent action",
+      "Description": "Creates a new constituent action.",
+      "Anchor": "#create-a-constituent-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateActionAttachment",
+      "Name": "Create an action attachment",
+      "Description": "Creates a new action attachment.",
+      "Anchor": "#create-an-action-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateActionCustomField",
+      "Name": "Create an action custom field",
+      "Description": "Creates a new action custom field.",
+      "Anchor": "#create-an-action-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAppealAttachment",
+      "Name": "Create an appeal attachment",
+      "Description": "Creates a new appeal attachment.",
+      "Anchor": "#create-an-appeal-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAppealCustomField",
+      "Name": "Create an appeal custom field",
+      "Description": "Creates a new appeal custom field.",
+      "Anchor": "#create-an-appeal-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCampaignAttachment",
+      "Name": "Create a campaign attachment",
+      "Description": "Creates a new campaign attachment.",
+      "Anchor": "#create-a-campaign-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCampaignCustomField",
+      "Name": "Create a campaign custom field",
+      "Description": "Creates a new campaign custom field.",
+      "Anchor": "#create-a-campaign-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentAddress",
+      "Name": "Create a constituent address",
+      "Description": "Creates a new constituent address.",
+      "Anchor": "#create-a-constituent-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentAlias",
+      "Name": "Create a constituent alias",
+      "Description": "Creates a new constituent alias.",
+      "Anchor": "#create-a-constituent-alias",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentAttachment",
+      "Name": "Create a constituent attachment",
+      "Description": "Creates a new constituent attachment.",
+      "Anchor": "#create-a-constituent-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentCode",
+      "Name": "Create a constituent code",
+      "Description": "Creates a new constituent code.",
+      "Anchor": "#create-a-constituent-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentConsent",
+      "Name": "Create a constituent consent record",
+      "Description": "Creates a new constituent consent record.",
+      "Anchor": "#create-a-constituent-consent-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentCustomField",
+      "Name": "Create a constituent custom field",
+      "Description": "Creates a new constituent custom field.",
+      "Anchor": "#create-a-constituent-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentEducation",
+      "Name": "Create a constituent education",
+      "Description": "Creates a new constituent education.",
+      "Anchor": "#create-a-constituent-education",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentEmailAddress",
+      "Name": "Create a constituent email address",
+      "Description": "Creates a new constituent email address.",
+      "Anchor": "#create-a-constituent-email-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentNote",
+      "Name": "Create a constituent note",
+      "Description": "Creates a new constituent note.",
+      "Anchor": "#create-a-constituent-note",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentOnlinePresence",
+      "Name": "Create a constituent online presence",
+      "Description": "Creates a new constituent online presence.",
+      "Anchor": "#create-a-constituent-online-presence",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentPhone",
+      "Name": "Create a constituent phone",
+      "Description": "Creates a new constituent phone.",
+      "Anchor": "#create-a-constituent-phone",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentRating",
+      "Name": "Create a constituent rating",
+      "Description": "Creates a new constituent rating.",
+      "Anchor": "#create-a-constituent-rating",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConstituentSolicitCode",
+      "Name": "Create a constituent solicit code",
+      "Description": "Creates a new constituent solicit code.",
+      "Anchor": "#create-a-constituent-solicit-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create a document location",
+      "Description": "Creates a new unique document identifier and upload location for use with physical attachments.  The response will include instructions for where and how to upload the document contents.",
+      "Anchor": "#create-a-document-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEvent",
+      "Name": "Create an event",
+      "Description": "Creates a new event.",
+      "Anchor": "#create-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEventFee",
+      "Name": "Create an event fee",
+      "Description": "Creates a new fee for an event.",
+      "Anchor": "#create-an-event-fee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEventParticipantOption",
+      "Name": "Create an event participant option",
+      "Description": "Creates a new participant option for an event.",
+      "Anchor": "#create-an-event-participant-option",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFundAttachment",
+      "Name": "Create a fund attachment",
+      "Description": "Creates a new fund attachment.",
+      "Anchor": "#create-a-fund-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFundCustomField",
+      "Name": "Create a fund custom field",
+      "Description": "Creates a new fund custom field.",
+      "Anchor": "#create-a-fund-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFundraiserAssignment",
+      "Name": "Create a fundraiser assignment",
+      "Description": "Creates a new fundraiser assignment.",
+      "Anchor": "#create-a-fundraiser-assignment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGift",
+      "Name": "Create a gift",
+      "Description": "Creates a new gift.",
+      "Anchor": "#create-a-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGiftAttachment",
+      "Name": "Create a gift attachment",
+      "Description": "Creates a new gift attachment.",
+      "Anchor": "#create-a-gift-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGiftBatch",
+      "Name": "Create a gift batch",
+      "Description": "Creates a new gift batch.",
+      "Anchor": "#create-a-gift-batch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGiftCustomField",
+      "Name": "Create a gift custom field",
+      "Description": "Creates a new gift custom field.",
+      "Anchor": "#create-a-gift-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateIndividualConstituent",
+      "Name": "Create an individual constituent",
+      "Description": "Creates a new individual constituent.",
+      "Anchor": "#create-an-individual-constituent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateIndividualRelationship",
+      "Name": "Create an individual relationship",
+      "Description": "Creates a new individual relationship.  If the relationship is with another constituent, a reciprocal relationship is created for that constituent.",
+      "Anchor": "#create-an-individual-relationship",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateListFromIDs",
+      "Name": "Create a list from a set of records",
+      "Description": "Creates a new list filtered to the specified set of records.",
+      "Anchor": "#create-a-list-from-a-set-of-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOpportunity",
+      "Name": "Create an opportunity",
+      "Description": "Creates a new opportunity.",
+      "Anchor": "#create-an-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOpportunityAttachment",
+      "Name": "Create an opportunity attachment",
+      "Description": "Creates a new opportunity attachment.",
+      "Anchor": "#create-an-opportunity-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOpportunityCustomField",
+      "Name": "Create an opportunity custom field",
+      "Description": "Creates a new opportunity custom field.",
+      "Anchor": "#create-an-opportunity-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOrganizationConstituent",
+      "Name": "Create an organization constituent",
+      "Description": "Creates a new organization constituent.",
+      "Anchor": "#create-an-organization-constituent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOrganizationRelationship",
+      "Name": "Create an organization relationship",
+      "Description": "Creates a new organization relationship.  If the relationship is with another constituent, a reciprocal relationship is created for that constituent.",
+      "Anchor": "#create-an-organization-relationship",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateParticipant",
+      "Name": "Create a participant",
+      "Description": "Creates a new participant for an event.",
+      "Anchor": "#create-a-participant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateParticipantDonation",
+      "Name": "Create a participant donation",
+      "Description": "Creates a new donation for a participant.",
+      "Anchor": "#create-a-participant-donation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateParticipantFee",
+      "Name": "Create a participant fee",
+      "Description": "Creates a new fee for a participant.",
+      "Anchor": "#create-a-participant-fee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateParticipantFeePayment",
+      "Name": "Create a participant fee payment",
+      "Description": "Creates a new fee payment for a participant.",
+      "Anchor": "#create-a-participant-fee-payment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateParticipantOption",
+      "Name": "Create a participant option",
+      "Description": "Creates a new participant option for a participant.",
+      "Anchor": "#create-a-participant-option",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteConstituentCode",
+      "Name": "Delete a constituent code",
+      "Description": "Deletes a constituent code.",
+      "Anchor": "#delete-a-constituent-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditAction",
+      "Name": "Update a constituent action",
+      "Description": "Updates a constituent action.",
+      "Anchor": "#update-a-constituent-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditActionAttachment",
+      "Name": "Update an action attachment",
+      "Description": "Updates an action attachment.",
+      "Anchor": "#update-an-action-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditActionCustomField",
+      "Name": "Update an action custom field",
+      "Description": "Updates an action custom field.",
+      "Anchor": "#update-an-action-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditAppealAttachment",
+      "Name": "Update an appeal attachment",
+      "Description": "Updates an appeal attachment.",
+      "Anchor": "#update-an-appeal-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditAppealCustomField",
+      "Name": "Update an appeal custom field",
+      "Description": "Updates an appeal custom field.",
+      "Anchor": "#update-an-appeal-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditCampaignAttachment",
+      "Name": "Update a campaign attachment",
+      "Description": "Updates a campaign attachment.",
+      "Anchor": "#update-a-campaign-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditCampaignCustomField",
+      "Name": "Update a campaign custom field",
+      "Description": "Updates a campaign custom field.",
+      "Anchor": "#update-a-campaign-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituent",
+      "Name": "Update a constituent",
+      "Description": "Updates a constituent.",
+      "Anchor": "#update-a-constituent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentAddress",
+      "Name": "Update a constituent address",
+      "Description": "Updates a constituent address.",
+      "Anchor": "#update-a-constituent-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentAlias",
+      "Name": "Update a constituent alias",
+      "Description": "Updates an constituent alias.",
+      "Anchor": "#update-a-constituent-alias",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentAttachment",
+      "Name": "Update a constituent attachment",
+      "Description": "Updates a constituent attachment.",
+      "Anchor": "#update-a-constituent-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentCode",
+      "Name": "Update a constituent code",
+      "Description": "Updates a constituent code.",
+      "Anchor": "#update-a-constituent-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentCustomField",
+      "Name": "Update a constituent custom field",
+      "Description": "Updates a constituent custom field.",
+      "Anchor": "#update-a-constituent-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentEducation",
+      "Name": "Update a constituent education",
+      "Description": "Updates a constituent education.",
+      "Anchor": "#update-a-constituent-education",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentEmailAddress",
+      "Name": "Update a constituent email address",
+      "Description": "Updates a constituent email address.",
+      "Anchor": "#update-a-constituent-email-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentNote",
+      "Name": "Update a constituent note",
+      "Description": "Updates a constituent note.",
+      "Anchor": "#update-a-constituent-note",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentOnlinePresence",
+      "Name": "Update a constituent online presence",
+      "Description": "Updates a constituent online presence.",
+      "Anchor": "#update-a-constituent-online-presence",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentPhone",
+      "Name": "Update a constituent phone",
+      "Description": "Updates a constituent phone.",
+      "Anchor": "#update-a-constituent-phone",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentProfilePicture",
+      "Name": "Update a constituent profile picture",
+      "Description": "Updates the current profile picture for a constituent.",
+      "Anchor": "#update-a-constituent-profile-picture",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentRelationship",
+      "Name": "Update a constituent relationship",
+      "Description": "Updates a relationship for a constituent. If a reciprocal relationship exists, it is also modified to reflect the changes. This does not include changes to the &quot;comments&quot; property, which is specific to each record and can be modified independently on each record.",
+      "Anchor": "#update-a-constituent-relationship",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentSolicitCode",
+      "Name": "Update a constituent solicit code",
+      "Description": "Updates a constituent solicit code.",
+      "Anchor": "#update-a-constituent-solicit-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditEvent",
+      "Name": "Update an event",
+      "Description": "Updates the details about an event.",
+      "Anchor": "#update-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditFundAttachment",
+      "Name": "Update a fund attachment",
+      "Description": "Updates a fund attachment.",
+      "Anchor": "#update-a-fund-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditFundCustomField",
+      "Name": "Update a fund custom field",
+      "Description": "Updates a fund custom field.",
+      "Anchor": "#update-a-fund-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditGiftAcknowledgement",
+      "Name": "Update gift acknowledgement details",
+      "Description": "Updates the acknowledgement details for a gift.",
+      "Anchor": "#update-gift-acknowledgement-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditGiftAttachment",
+      "Name": "Update a gift attachment",
+      "Description": "Updates a gift attachment.",
+      "Anchor": "#update-a-gift-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditGiftCustomField",
+      "Name": "Update a gift custom field",
+      "Description": "Updates a gift custom field.",
+      "Anchor": "#update-a-gift-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditGiftReceipt",
+      "Name": "Update gift receipt details",
+      "Description": "Updates the receipt details for a gift.",
+      "Anchor": "#update-gift-receipt-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditOpportunity",
+      "Name": "Update an opportunity",
+      "Description": "Updates an opportunity.",
+      "Anchor": "#update-an-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditOpportunityAttachment",
+      "Name": "Update an opportunity attachment",
+      "Description": "Updates an opportunity attachment.",
+      "Anchor": "#update-an-opportunity-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditOpportunityCustomField",
+      "Name": "Update an opportunity custom field",
+      "Description": "Updates an opportunity custom field.",
+      "Anchor": "#update-an-opportunity-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditParticipant",
+      "Name": "Update a participant",
+      "Description": "Updates the details about a participant.",
+      "Anchor": "#update-a-participant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditParticipantOption",
+      "Name": "Update a participant option",
+      "Description": "Updates the details about a participant option.",
+      "Anchor": "#update-a-participant-option",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAction",
+      "Name": "Get a constituent action",
+      "Description": "Returns information about a constituent action.",
+      "Anchor": "#get-a-constituent-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAppeal",
+      "Name": "Get an appeal",
+      "Description": "Returns information about an appeal.",
+      "Anchor": "#get-an-appeal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCampaign",
+      "Name": "Get a campaign",
+      "Description": "Returns information about a campaign.",
+      "Anchor": "#get-a-campaign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituent",
+      "Name": "Get a constituent",
+      "Description": "Returns information about a constituent.",
+      "Anchor": "#get-a-constituent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentFirstGift",
+      "Name": "Get constituent first gift",
+      "Description": "Returns the first gift for a constituent.",
+      "Anchor": "#get-constituent-first-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentGreatestGift",
+      "Name": "Get constituent greatest gift",
+      "Description": "Returns the greatest gift for a constituent.",
+      "Anchor": "#get-constituent-greatest-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentLatestGift",
+      "Name": "Get constituent latest gift",
+      "Description": "Returns the latest gift for a constituent.",
+      "Anchor": "#get-constituent-latest-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentLifetimeGiving",
+      "Name": "Get constituent lifetime giving",
+      "Description": "Returns the lifetime giving summary for a constituent.",
+      "Anchor": "#get-constituent-lifetime-giving",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentProfilePicture",
+      "Name": "Get a constituent profile picture",
+      "Description": "Returns the current profile picture for a constituent.",
+      "Anchor": "#get-a-constituent-profile-picture",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentProspectStatus",
+      "Name": "Get constituent prospect status",
+      "Description": "Returns the current prospect status for a constituent.",
+      "Anchor": "#get-constituent-prospect-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEvent",
+      "Name": "Get an event",
+      "Description": "Returns information about an event.",
+      "Anchor": "#get-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFund",
+      "Name": "Get a fund",
+      "Description": "Returns information about a fund.",
+      "Anchor": "#get-a-fund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGift",
+      "Name": "Get a gift",
+      "Description": "Returns information about a gift.",
+      "Anchor": "#get-a-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOpportunity",
+      "Name": "Get an opportunity",
+      "Description": "Returns information about an opportunity.  Note: This endpoint returns the status property with a latency of about 10 minutes.",
+      "Anchor": "#get-an-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPackage",
+      "Name": "Get a package",
+      "Description": "Returns information about a package.",
+      "Anchor": "#get-a-package",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetParticipant",
+      "Name": "Get a participant",
+      "Description": "Returns information about a specific event participant.",
+      "Anchor": "#get-a-participant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListActionAttachments",
+      "Name": "List action attachments",
+      "Description": "Lists the attachments for an action.",
+      "Anchor": "#list-action-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListActionCustomFields",
+      "Name": "List action custom fields",
+      "Description": "Lists the custom fields for an action.",
+      "Anchor": "#list-action-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListActions",
+      "Name": "List actions",
+      "Description": "Returns a list of actions.",
+      "Anchor": "#list-actions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAppealAttachments",
+      "Name": "List appeal attachments",
+      "Description": "Lists the attachments for an appeal.",
+      "Anchor": "#list-appeal-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAppealCustomFields",
+      "Name": "List appeal custom fields",
+      "Description": "Lists the custom fields for an appeal.",
+      "Anchor": "#list-appeal-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAppeals",
+      "Name": "List appeals",
+      "Description": "Returns a list of appeals.",
+      "Anchor": "#list-appeals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCampaignAttachments",
+      "Name": "List campaign attachments",
+      "Description": "Lists the attachments for an campaign.",
+      "Anchor": "#list-campaign-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCampaignCustomFields",
+      "Name": "List campaign custom fields",
+      "Description": "Lists the custom fields for a campaign.",
+      "Anchor": "#list-campaign-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCampaigns",
+      "Name": "List campaigns",
+      "Description": "Returns a list of campaigns.",
+      "Anchor": "#list-campaigns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentActions",
+      "Name": "List constituent actions",
+      "Description": "Lists the actions for a constituent.",
+      "Anchor": "#list-constituent-actions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentAddresses",
+      "Name": "List constituent addresses",
+      "Description": "Lists the addresses for a constituent.",
+      "Anchor": "#list-constituent-addresses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentAliases",
+      "Name": "List constituent aliases",
+      "Description": "Lists the aliases for a constituent.",
+      "Anchor": "#list-constituent-aliases",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentAttachments",
+      "Name": "List constituent attachments",
+      "Description": "Lists the attachments for a constituent.",
+      "Anchor": "#list-constituent-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentCodes",
+      "Name": "List constituent codes",
+      "Description": "Lists the constituent codes for a constituent.",
+      "Anchor": "#list-constituent-codes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentConsents",
+      "Name": "List constituent consent records",
+      "Description": "Lists the consent records for a constituent.",
+      "Anchor": "#list-constituent-consent-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentCustomFields",
+      "Name": "List constituent custom fields",
+      "Description": "Lists the custom fields for a constituent.",
+      "Anchor": "#list-constituent-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentEducations",
+      "Name": "List constituent educations",
+      "Description": "Lists the education records for a constituent.",
+      "Anchor": "#list-constituent-educations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentEmailAddresses",
+      "Name": "List constituent email addresses",
+      "Description": "Lists the email addresses for a constituent.",
+      "Anchor": "#list-constituent-email-addresses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentFundraiserAssignments",
+      "Name": "List constituent fundraisers",
+      "Description": "Lists the fundraiser assignments for a constituent.",
+      "Anchor": "#list-constituent-fundraisers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentNotes",
+      "Name": "List constituent notes",
+      "Description": "Lists the notes for a constituent.",
+      "Anchor": "#list-constituent-notes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentOnlinePresences",
+      "Name": "List constituent online presences",
+      "Description": "Lists the online presences for a constituent.",
+      "Anchor": "#list-constituent-online-presences",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentPhones",
+      "Name": "List constituent phones",
+      "Description": "Lists the phones for a constituent.",
+      "Anchor": "#list-constituent-phones",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentRatings",
+      "Name": "List constituent ratings",
+      "Description": "Returns the list of ratings for a constituent.",
+      "Anchor": "#list-constituent-ratings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentRelationships",
+      "Name": "List constituent relationships",
+      "Description": "Lists the relationships for a constituent.",
+      "Anchor": "#list-constituent-relationships",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituents",
+      "Name": "List constituents",
+      "Description": "Returns a list of constituents.",
+      "Anchor": "#list-constituents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentSolicitCodes",
+      "Name": "List constituent solicit codes",
+      "Description": "Lists the solicit codes for a constituent.",
+      "Anchor": "#list-constituent-solicit-codes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEventFees",
+      "Name": "List event fees",
+      "Description": "Lists the fees for an event.",
+      "Anchor": "#list-event-fees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEventParticipantOptions",
+      "Name": "List event participant options",
+      "Description": "Lists the participant options for an event.",
+      "Anchor": "#list-event-participant-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEventParticipants",
+      "Name": "List event participants",
+      "Description": "Lists the participants for an event.",
+      "Anchor": "#list-event-participants",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEvents",
+      "Name": "List events",
+      "Description": "Returns a list of events.",
+      "Anchor": "#list-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFundAttachments",
+      "Name": "List fund attachments",
+      "Description": "Lists the attachments for a fund.",
+      "Anchor": "#list-fund-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFundCustomFields",
+      "Name": "List fund custom fields",
+      "Description": "Lists the custom fields for a fund.",
+      "Anchor": "#list-fund-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFundraiserAssignments",
+      "Name": "List fundraiser assignments",
+      "Description": "List the assignments for a fundraiser.",
+      "Anchor": "#list-fundraiser-assignments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFunds",
+      "Name": "List funds",
+      "Description": "Returns a list of funds.",
+      "Anchor": "#list-funds",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGiftAttachments",
+      "Name": "List gift attachments",
+      "Description": "Lists the attachments for a gift.",
+      "Anchor": "#list-gift-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGiftBatches",
+      "Name": "List gift batches",
+      "Description": "List the gift batches.",
+      "Anchor": "#list-gift-batches",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGiftCustomFields",
+      "Name": "List gift custom fields",
+      "Description": "Lists the custom fields for a gift.",
+      "Anchor": "#list-gift-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGifts",
+      "Name": "List gifts",
+      "Description": "Returns a list of gifts.",
+      "Anchor": "#list-gifts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOpportunities",
+      "Name": "List opportunities",
+      "Description": "Returns a list of opportunities.",
+      "Anchor": "#list-opportunities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOpportunityAttachments",
+      "Name": "List opportunity attachments",
+      "Description": "Lists the attachments for an opportunity.",
+      "Anchor": "#list-opportunity-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOpportunityCustomFields",
+      "Name": "List opportunity custom fields",
+      "Description": "Lists the custom fields for an opportunity.",
+      "Anchor": "#list-opportunity-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPackages",
+      "Name": "List packages",
+      "Description": "Returns a list of packages.",
+      "Anchor": "#list-packages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListParticipantDonations",
+      "Name": "List participant donations",
+      "Description": "Lists the donations for a participant.",
+      "Anchor": "#list-participant-donations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListParticipantFeePayments",
+      "Name": "List participant fee payments",
+      "Description": "Lists the fee payments for a participant.",
+      "Anchor": "#list-participant-fee-payments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListParticipantFees",
+      "Name": "List participant fees",
+      "Description": "Lists the fees for a participant.",
+      "Anchor": "#list-participant-fees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListParticipantOptions",
+      "Name": "List participant options",
+      "Description": "Lists the participant options for a participant.",
+      "Anchor": "#list-participant-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchConstituent",
+      "Name": "Search for a constituent",
+      "Description": "Performs a constituent search based on the provided search text. Supports first name, last name, preferred name, former name, alias, email address, phone number, address, or lookup ID. Name combinations such as first name and last name or preferred name and last name are valid, but otherwise search only supports one parameter at a time. By default, searches include results that sound similar to your criteria. For example, searches for &quot;Smith&quot; include matches for &quot;Smyth&quot; and other alternative spellings. This search does not support wildcard characters such as * or ?. Search results are limited to 500 records.",
+      "Anchor": "#search-for-a-constituent",
+      "IsDeprecated": false
+    }
+  ]
+}

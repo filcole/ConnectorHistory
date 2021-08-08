@@ -1,0 +1,76 @@
+{
+  "UniqueName": "geotax",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../geotax/",
+  "Actions": [
+    {
+      "OperationId": "getBatchTaxByAddress",
+      "Name": "Post Tax By Address [DEPRECATED]",
+      "Description": "This is a Batch offering for 'Tax By Address' service. It accepts a single address, purchase amount or a list of addresses, purchase amounts and retrieve applicable taxes.",
+      "Anchor": "#post-tax-by-address-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "getBatchTaxByLocation",
+      "Name": "Post Tax By Location [DEPRECATED]",
+      "Description": "This is a Batch offering for 'Tax By Location' service. It accepts a single location coordinate, purchase amount or a list of location coordinates, purchase amounts and retrieve applicable tax.",
+      "Anchor": "#post-tax-by-location-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "getBatchTaxRateByAddress",
+      "Name": "Post Taxrate By Address [DEPRECATED]",
+      "Description": "This is a Batch offering for 'Taxrate By Address' service. It accepts a single address or a list of addresses and retrieve applicable tax rates.",
+      "Anchor": "#post-taxrate-by-address-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "getBatchTaxRateByLocation",
+      "Name": "Post Taxrate By Location [DEPRECATED]",
+      "Description": "This is a Batch offering for 'Taxrate By Location' service. It accepts a single location coordinate or a list of location coordinates and retrieve applicable tax rates.",
+      "Anchor": "#post-taxrate-by-location-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "getIPDTaxByAddress",
+      "Name": "Get IPD Tax by Address [DEPRECATED]",
+      "Description": "This will accept 'address' as a parameter and will return one or many IPDs details for that region in which address will fall.",
+      "Anchor": "#get-ipd-tax-by-address-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "getIPDTaxByAddressBatch",
+      "Name": "Get IPD Tax for batch requests [DEPRECATED]",
+      "Description": "Get IPD Tax for batch requests",
+      "Anchor": "#get-ipd-tax-for-batch-requests-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "getSpecificTaxByAddress",
+      "Name": "Get Tax By Address [DEPRECATED]",
+      "Description": "This service calculates and returns taxes applicable at a specific address. Address, purchase amount and supported tax rate type are inputs to the service.",
+      "Anchor": "#get-tax-by-address-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "getSpecificTaxByLocation",
+      "Name": "Get Tax By Location [DEPRECATED]",
+      "Description": "This service calculates and returns tax applicable at a specific location. Longitude, latitude, purchase amount and supported tax rate type are inputs to the service.",
+      "Anchor": "#get-tax-by-location-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "getSpecificTaxRateByAddress",
+      "Name": "Get Taxrate By Address [DEPRECATED]",
+      "Description": "Retrieves tax rates applicable to a specific address. This service accepts address and supported tax rate type as inputs to retrieve applicable tax rates.",
+      "Anchor": "#get-taxrate-by-address-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "getSpecificTaxRateByLocation",
+      "Name": "Get Taxrate By Location [DEPRECATED]",
+      "Description": "Retrieves tax rates applicable to a specific location. This service accepts longitude, latitude and supported tax rate type as inputs to retrieve applicable tax rates.",
+      "Anchor": "#get-taxrate-by-location-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UniqueName": "chatter",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../chatter/",
+  "Actions": [
+    {
+      "OperationId": "AddUserToGroup",
+      "Name": "Add user to a group",
+      "Description": "Adds a member to an existing group.",
+      "Anchor": "#add-user-to-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePostInGroup",
+      "Name": "Post to a group",
+      "Description": "Create a new post in an existing group.",
+      "Anchor": "#post-to-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPost",
+      "Name": "Get post by ID",
+      "Description": "Get details of a post by post id.",
+      "Anchor": "#get-post-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user by ID",
+      "Description": "Get a user's details by id.",
+      "Anchor": "#get-user-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGroupMembers",
+      "Name": "List users in a group",
+      "Description": "List group membership.",
+      "Anchor": "#list-users-in-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewPostInGroup",
+      "Name": "When a post is added to a group",
+      "Description": "Triggers when a new post is added to an existing group.",
+      "Anchor": "#when-a-post-is-added-to-a-group",
+      "IsDeprecated": false
+    }
+  ]
+}

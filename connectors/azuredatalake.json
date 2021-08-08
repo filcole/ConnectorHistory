@@ -1,0 +1,55 @@
+{
+  "UniqueName": "azuredatalake",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azuredatalake/",
+  "Actions": [
+    {
+      "OperationId": "AppendFile_Concurrent",
+      "Name": "Append File (concurrent)",
+      "Description": "Concurrent append to a file.",
+      "Anchor": "#append-file-(concurrent)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AppendFile_Sequential",
+      "Name": "Append File (sequential)",
+      "Description": "Append to a file serially.",
+      "Anchor": "#append-file-(sequential)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolder",
+      "Name": "Create Folder",
+      "Description": "Create a folder in a Data Lake Store account.",
+      "Anchor": "#create-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFile",
+      "Name": "Delete File",
+      "Description": "Delete a file from a Data Lake Store account.",
+      "Anchor": "#delete-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFiles",
+      "Name": "List Files",
+      "Description": "List files and folders in a Data Lake Store account.",
+      "Anchor": "#list-files",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadFile",
+      "Name": "Read File",
+      "Description": "Read data from a Data Lake Store account.",
+      "Anchor": "#read-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadFile",
+      "Name": "Upload File",
+      "Description": "Upload data into a Data Lake Store account.",
+      "Anchor": "#upload-file",
+      "IsDeprecated": false
+    }
+  ]
+}

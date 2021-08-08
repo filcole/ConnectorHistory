@@ -1,0 +1,27 @@
+{
+  "UniqueName": "powerform7",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../powerform7/",
+  "Actions": [
+    {
+      "OperationId": "CreateWebhook",
+      "Name": "When a Contact Form 7 form is submitted",
+      "Description": "Fires when a Contact Form 7 form is submitted successfully",
+      "Anchor": "#when-a-contact-form-7-form-is-submitted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCF7Forms",
+      "Name": "Get Contact Form 7 forms",
+      "Description": "Gets a list of all Contact Form 7 forms",
+      "Anchor": "#get-contact-form-7-forms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubmitForm",
+      "Name": "Submit a Contact Form 7 form",
+      "Description": "Submit a Contact Form 7 form",
+      "Anchor": "#submit-a-contact-form-7-form",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "UniqueName": "asana",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../asana/",
+  "Actions": [
+    {
+      "OperationId": "AddComment",
+      "Name": "Add Comment [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Add Comment (V2) instead.\nThis operation is used to add a comment to an existing task.",
+      "Anchor": "#add-comment-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "AddCommentV2",
+      "Name": "Add Comment (V2)",
+      "Description": "This operation is used to add a comment to an existing task (V2).",
+      "Anchor": "#add-comment-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompleteTask",
+      "Name": "Complete Task [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Complete Task (V2) instead.\nThis operation is used to mark an existing task as complete.",
+      "Anchor": "#complete-task-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CompleteTaskV2",
+      "Name": "Complete Task (V2)",
+      "Description": "This operation is used to mark an existing task as complete (V2).",
+      "Anchor": "#complete-task-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProject",
+      "Name": "Create new project [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a new project (V2) instead.\nThis operation is used to create a new project.",
+      "Anchor": "#create-new-project-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateProjectV2",
+      "Name": "Create a new project (V2)",
+      "Description": "This operation is used to create a new project (V2).",
+      "Anchor": "#create-a-new-project-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create Task [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create Task (V2) instead.\nThis operation is used to create a new task in your Asana project.",
+      "Anchor": "#create-task-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateTaskV2",
+      "Name": "Create Task (V2)",
+      "Description": "This operation is used to create a new task in your Asana project (V2).",
+      "Anchor": "#create-task-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProject",
+      "Name": "Get project by ID [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get project by ID (V2) instead.\nThis operation retrieves project object by Project ID.",
+      "Anchor": "#get-project-by-id-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetProjectV2",
+      "Name": "Get project by ID (V2)",
+      "Description": "This operation retrieves project object by Project ID (V2).",
+      "Anchor": "#get-project-by-id-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTask",
+      "Name": "Get task by ID [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get task by ID (V2) instead.\nThis operation retrieves a task object by Task ID.",
+      "Anchor": "#get-task-by-id-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetTaskV2",
+      "Name": "Get task by ID (V2)",
+      "Description": "This operation retrieves a task object by Task ID (V2).",
+      "Anchor": "#get-task-by-id-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user by ID [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get user by ID (V2) instead.\nThis operation retrieves user object by User ID.",
+      "Anchor": "#get-user-by-id-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetUserV2",
+      "Name": "Get user by ID (V2)",
+      "Description": "This operation retrieves user object by User ID (V2).",
+      "Anchor": "#get-user-by-id-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListUsers",
+      "Name": "List users by workspace [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List users by workspace (V2) instead.\nThis operation retrieves the list of users for a given workspace.",
+      "Anchor": "#list-users-by-workspace-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListUsersV2",
+      "Name": "List users by workspace (V2)",
+      "Description": "This operation retrieves the list of users for a given workspace (V2).",
+      "Anchor": "#list-users-by-workspace-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListWorkspaceTeams",
+      "Name": "List teams by workspace [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List teams by workspace (V2) instead.\nThis operation is used to view teams in the workspace or organization.",
+      "Anchor": "#list-teams-by-workspace-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListWorkspaceTeamsV2",
+      "Name": "List teams by workspace (V2)",
+      "Description": "This operation is used to view teams in the workspace or organization (V2).",
+      "Anchor": "#list-teams-by-workspace-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnProjectCreated",
+      "Name": "When a project is created [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a project is created (V2) instead.\nTriggers when a new project is created.",
+      "Anchor": "#when-a-project-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnProjectCreatedV2",
+      "Name": "When a project is created (V2)",
+      "Description": "Triggers when a new project is created (V2).",
+      "Anchor": "#when-a-project-is-created-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTaskCompleted",
+      "Name": "When a task is completed [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a task is completed (V2) instead.\nTriggers when an existing task is completed.",
+      "Anchor": "#when-a-task-is-completed-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnTaskCompletedV2",
+      "Name": "When a task is completed (V2)",
+      "Description": "Triggers when an existing task is completed (V2).",
+      "Anchor": "#when-a-task-is-completed-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTaskCreated",
+      "Name": "When a task is created [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a task is created (V2) instead.\nTriggers when a new task is created.",
+      "Anchor": "#when-a-task-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnTaskCreatedV2",
+      "Name": "When a task is created (V2)",
+      "Description": "Triggers when a new task is created (V2).",
+      "Anchor": "#when-a-task-is-created-(v2)",
+      "IsDeprecated": false
+    }
+  ]
+}

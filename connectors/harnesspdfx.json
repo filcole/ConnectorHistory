@@ -1,0 +1,13 @@
+{
+  "UniqueName": "harnesspdfx",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../harnesspdfx/",
+  "Actions": [
+    {
+      "OperationId": "post-pdf",
+      "Name": "Post PDF for Extraction",
+      "Description": "Submits a PDF to PDFx for processing.",
+      "Anchor": "#post-pdf-for-extraction",
+      "IsDeprecated": false
+    }
+  ]
+}

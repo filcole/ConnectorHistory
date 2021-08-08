@@ -1,0 +1,83 @@
+{
+  "UniqueName": "txtsync",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../txtsync/",
+  "Actions": [
+    {
+      "OperationId": "AddContact",
+      "Name": "Add a Contact",
+      "Description": "Adds a contact and applies tags",
+      "Anchor": "#add-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteContact",
+      "Name": "Delete Contact",
+      "Description": "Deletes a contact",
+      "Anchor": "#delete-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteContactByExternalReference",
+      "Name": "Delete Contact By External Reference",
+      "Description": "Deletes a contact by the external system reference",
+      "Anchor": "#delete-contact-by-external-reference",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContactByExternalReference",
+      "Name": "Get Contact By External Reference",
+      "Description": "Get contact by external system reference",
+      "Anchor": "#get-contact-by-external-reference",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InboundSMS",
+      "Name": "Inbound SMS Notification",
+      "Description": "Raises a notification for an inbound SMS",
+      "Anchor": "#inbound-sms-notification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OutboundSMS",
+      "Name": "Outbound SMS Notification",
+      "Description": "Raises a notification for an outbound SMS. Please note to protect you from potentially causing an infinite loop of sending SMS the Outbound SMS trigger is not invoked when sending an SMS from Flow",
+      "Anchor": "#outbound-sms-notification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchContact",
+      "Name": "Search Contacts",
+      "Description": "Search for contacts by name or number",
+      "Anchor": "#search-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendBulkSMS",
+      "Name": "Send Bulk SMS",
+      "Description": "Send SMS by List of Numbers or Tag Names",
+      "Anchor": "#send-bulk-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSMS",
+      "Name": "Send an SMS",
+      "Description": "Sends out a single SMS to an E164 number",
+      "Anchor": "#send-an-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateContact",
+      "Name": "Update Contact",
+      "Description": "Updates a Contact",
+      "Anchor": "#update-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateContactByExternalReference",
+      "Name": "Update Contact By External Reference",
+      "Description": "Updates a contact by the external system reference",
+      "Anchor": "#update-contact-by-external-reference",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "UniqueName": "onenote",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../onenote/",
+  "Actions": [
+    {
+      "OperationId": "CreatePageInQuickNotes",
+      "Name": "Create a page in Quick Notes",
+      "Description": "Create a new page in the Quick Notes section.",
+      "Anchor": "#create-a-page-in-quick-notes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePageInSection",
+      "Name": "Create page in a section",
+      "Description": "Create new page in a specified section.",
+      "Anchor": "#create-page-in-a-section",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSectionInNotebook",
+      "Name": "Create section in a notebook",
+      "Description": "Create section in a notebook.",
+      "Anchor": "#create-section-in-a-notebook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeletePage",
+      "Name": "Delete a page (Preview)",
+      "Description": "Delete a page.",
+      "Anchor": "#delete-a-page-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNotebooks",
+      "Name": "Get recent notebooks",
+      "Description": "Get recent notebooks.",
+      "Anchor": "#get-recent-notebooks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPageContent",
+      "Name": "Get page content",
+      "Description": "Get HTML page content.",
+      "Anchor": "#get-page-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPagesInSection",
+      "Name": "Get pages for a specific section",
+      "Description": "Get pages for a specific section.",
+      "Anchor": "#get-pages-for-a-specific-section",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSectionsInNotebook",
+      "Name": "Get sections in notebook",
+      "Description": "Get sections in a specific notebook.",
+      "Anchor": "#get-sections-in-notebook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewPageInSection",
+      "Name": "When a new page is created in a section",
+      "Description": "Triggers a flow when a new page is added to a section.",
+      "Anchor": "#when-a-new-page-is-created-in-a-section",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewSectionGroupInNotebook",
+      "Name": "When a new section group is created",
+      "Description": "Triggers a flow when a new section group is added to a notebook.",
+      "Anchor": "#when-a-new-section-group-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewSectionInNotebook",
+      "Name": "When a new section is created",
+      "Description": "Triggers a flow when a new section is added to a notebook.",
+      "Anchor": "#when-a-new-section-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatePageContent",
+      "Name": "Update page content (Preview)",
+      "Description": "Update HTML page content.",
+      "Anchor": "#update-page-content-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

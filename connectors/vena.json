@@ -1,0 +1,41 @@
+{
+  "UniqueName": "vena",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../vena/",
+  "Actions": [
+    {
+      "OperationId": "ETLUpload",
+      "Name": "Trigger an ETL job to import data into Vena",
+      "Description": "Upload hierarchy, intersections, lids, or attributes to a model",
+      "Anchor": "#trigger-an-etl-job-to-import-data-into-vena",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExportAttributes",
+      "Name": "Export attributes from a model",
+      "Description": "Export attributes from a model",
+      "Anchor": "#export-attributes-from-a-model",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExportHierarchies",
+      "Name": "Export hierarchies from a model",
+      "Description": "Exports hierarchies from a model",
+      "Anchor": "#export-hierarchies-from-a-model",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExportLIDs",
+      "Name": "Export LIDs from a model",
+      "Description": "Export LIDs from a model",
+      "Anchor": "#export-lids-from-a-model",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExportValues",
+      "Name": "Export values from a model",
+      "Description": "Export values from a model",
+      "Anchor": "#export-values-from-a-model",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "UniqueName": "microsoftformspro",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../microsoftformspro/",
+  "Actions": [
+    {
+      "OperationId": "createSurveyInvite",
+      "Name": "Create an invitation",
+      "Description": "This action creates a survey invitation and returns a personalized invitation link.",
+      "Anchor": "#create-an-invitation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "sendSurvey",
+      "Name": "Send a survey",
+      "Description": "This action sends a survey to a specified list of recipients and creates a survey invitation for each recipient.",
+      "Anchor": "#send-a-survey",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "UniqueName": "latinshareshpmanagement",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../latinshareshpmanagement/",
+  "Actions": [
+    {
+      "OperationId": "CheckInDocument",
+      "Name": "Check In SharePoint Document",
+      "Description": "Check-in a SharePoint document at the specified URL",
+      "Anchor": "#check-in-sharepoint-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CheckOutDocument",
+      "Name": "Check Out SharePoint Document",
+      "Description": "Check-out a SharePoint document at the specified URL",
+      "Anchor": "#check-out-sharepoint-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyDocumentByUrl",
+      "Name": "Copy SharePoint Document by URL",
+      "Description": "Copy a document from the document URL to a specific library URL",
+      "Anchor": "#copy-sharepoint-document-by-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyFolder_fromLibrary",
+      "Name": "Copy SharePoint Folder By URL",
+      "Description": "Copy a SharePoint folder from the document library to the specified URL",
+      "Anchor": "#copy-sharepoint-folder-by-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolder",
+      "Name": "Create SharePoint Folder in List",
+      "Description": "Creates a new SharePoint folder in the document library using the specified path.",
+      "Anchor": "#create-sharepoint-folder-in-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolderByURL",
+      "Name": "Create SharePoint Folder by URL",
+      "Description": "Creates a new SharePoint folder in the document library by the specified URL.",
+      "Anchor": "#create-sharepoint-folder-by-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EnableVersionControl",
+      "Name": "Enable List Version Control",
+      "Description": "Enable version control for list or library",
+      "Anchor": "#enable-list-version-control",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveDocumentByUrl",
+      "Name": "Move SharePoint Document by URL",
+      "Description": "Move a document from the document URL to a specific library URL",
+      "Anchor": "#move-sharepoint-document-by-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveFolder_fromLibrary",
+      "Name": "Move SharePoint Folder URL",
+      "Description": "Move a SharePoint folder from the document library to the specified URL",
+      "Anchor": "#move-sharepoint-folder-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveDocumentByUrl",
+      "Name": "Remove SharePoint Document by URL",
+      "Description": "Copy a document from the document URL.",
+      "Anchor": "#remove-sharepoint-document-by-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveFolderbyURL",
+      "Name": "Remove Sharepoint  Folder by URL",
+      "Description": "Remove folder from Sharepoint library by URL",
+      "Anchor": "#remove-sharepoint-folder-by-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveSiteByURL",
+      "Name": "Remove Sharepoint Site By URL",
+      "Description": "Remove Site Sharepoint by URL",
+      "Anchor": "#remove-sharepoint-site-by-url",
+      "IsDeprecated": false
+    }
+  ]
+}

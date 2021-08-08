@@ -1,0 +1,132 @@
+{
+  "UniqueName": "evocom",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../evocom/",
+  "Actions": [
+    {
+      "OperationId": "ChangedProcessTrigger",
+      "Name": "When a process is changed",
+      "Description": "Triggered when a process is changed or completed",
+      "Anchor": "#when-a-process-is-changed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChangedTaskTrigger",
+      "Name": "When a task is changed",
+      "Description": "Is triggered when a task is changed",
+      "Anchor": "#when-a-task-is-changed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChangedTeamTrigger",
+      "Name": "When a team is changed",
+      "Description": "Is triggered when a team is changed",
+      "Anchor": "#when-a-team-is-changed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create task",
+      "Description": "Create a new task",
+      "Anchor": "#create-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditTask",
+      "Name": "Edit task",
+      "Description": "Edit an existing task",
+      "Anchor": "#edit-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProcess",
+      "Name": "Get process",
+      "Description": "Get a single process by id",
+      "Anchor": "#get-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProcesses",
+      "Name": "Get processes",
+      "Description": "Get process list",
+      "Anchor": "#get-processes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTask",
+      "Name": "Get task",
+      "Description": "Get a single task by it's Id",
+      "Anchor": "#get-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTasks",
+      "Name": "Get tasks",
+      "Description": "Get task list",
+      "Anchor": "#get-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTeams",
+      "Name": "Get teams",
+      "Description": "Get a list of all teams",
+      "Anchor": "#get-teams",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTemplate",
+      "Name": "Get a process template",
+      "Description": "Get a single process template",
+      "Anchor": "#get-a-process-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTemplates",
+      "Name": "Get templates",
+      "Description": "Get process templates models",
+      "Anchor": "#get-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTemplateSteps",
+      "Name": "Get template steps",
+      "Description": "Get process template steps",
+      "Anchor": "#get-template-steps",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user",
+      "Description": "Get user",
+      "Anchor": "#get-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewProcessTrigger",
+      "Name": "When a new process is started",
+      "Description": "Triggered when a new process is started",
+      "Anchor": "#when-a-new-process-is-started",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewTaskTrigger",
+      "Name": "When a new task is created",
+      "Description": "Is triggered when a new task is created",
+      "Anchor": "#when-a-new-task-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewTeamTrigger",
+      "Name": "When a new team is created",
+      "Description": "Is triggered when a new team is created",
+      "Anchor": "#when-a-new-team-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartProcess",
+      "Name": "Start process",
+      "Description": "Start a new process instance",
+      "Anchor": "#start-process",
+      "IsDeprecated": false
+    }
+  ]
+}

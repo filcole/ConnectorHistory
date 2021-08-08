@@ -1,0 +1,13 @@
+{
+  "UniqueName": "telesignsms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../telesignsms/",
+  "Actions": [
+    {
+      "OperationId": "SendSMS",
+      "Name": "Send SMS Message",
+      "Description": "Send SMS message through your TeleSign account",
+      "Anchor": "#send-sms-message",
+      "IsDeprecated": false
+    }
+  ]
+}

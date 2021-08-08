@@ -1,0 +1,902 @@
+{
+  "UniqueName": "cloudmersiveconvert",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudmersiveconvert/",
+  "Actions": [
+    {
+      "OperationId": "CompareDocument_Docx",
+      "Name": "Compare Two Word DOCX",
+      "Description": "Compare two Office Word Documents (docx) files and highlight the differences",
+      "Anchor": "#compare-two-word-docx",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_CsvToJson",
+      "Name": "Convert CSV to JSON conversion",
+      "Description": "Convert a CSV file to a JSON object array",
+      "Anchor": "#convert-csv-to-json-conversion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_JsonToXml",
+      "Name": "Convert JSON to XML conversion",
+      "Description": "Convert a JSON object into XML",
+      "Anchor": "#convert-json-to-xml-conversion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XlsToJson",
+      "Name": "Convert Excel (97-2003) XLS to JSON conversion",
+      "Description": "Convert an Excel (97-2003) XLS file to a JSON object array",
+      "Anchor": "#convert-excel-(97-2003)-xls-to-json-conversion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XlsxToJson",
+      "Name": "Convert Excel XLSX to JSON conversion",
+      "Description": "Convert an Excel XLSX file to a JSON object array",
+      "Anchor": "#convert-excel-xlsx-to-json-conversion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XmlEditAddAttributeWithXPath",
+      "Name": "Adds an attribute to all XML nodes matching XPath expression",
+      "Description": "Return the reuslts of editing an XML document by adding an attribute to all of the nodes that match an input XPath expression.",
+      "Anchor": "#adds-an-attribute-to-all-xml-nodes-matching-xpath-expression",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XmlEditAddChildWithXPath",
+      "Name": "Adds an XML node as a child to XML nodes matching XPath expression",
+      "Description": "Return the reuslts of editing an XML document by adding an XML node as a child to all of the nodes that match an input XPath expression.",
+      "Anchor": "#adds-an-xml-node-as-a-child-to-xml-nodes-matching-xpath-expression",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XmlEditRemoveAllChildNodesWithXPath",
+      "Name": "Removes, deletes all children of nodes matching XPath expression, but",
+      "Description": "Return the reuslts of editing an XML document by removing all child nodes of the nodes that match an input XPath expression.",
+      "Anchor": "#removes,-deletes-all-children-of-nodes-matching-xpath-expression,-but",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XmlEditReplaceWithXPath",
+      "Name": "Replaces XML nodes matching XPath expression with new node",
+      "Description": "Return the reuslts of editing an XML document by replacing all of the nodes that match an input XPath expression with a new XML node expression.",
+      "Anchor": "#replaces-xml-nodes-matching-xpath-expression-with-new-node",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XmlEditSetValueWithXPath",
+      "Name": "Sets the value contents of XML nodes matching XPath expression",
+      "Description": "Return the reuslts of editing an XML document by setting the contents of all of the nodes that match an input XPath expression.  Supports elements and attributes.",
+      "Anchor": "#sets-the-value-contents-of-xml-nodes-matching-xpath-expression",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XmlFilterWithXPath",
+      "Name": "Filter, select XML nodes using XPath expression, get results",
+      "Description": "Return the reuslts of filtering, selecting an XML document with an XPath expression",
+      "Anchor": "#filter,-select-xml-nodes-using-xpath-expression,-get-results",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XmlQueryWithXQuery",
+      "Name": "Query an XML file using XQuery query, get results",
+      "Description": "Return the reuslts of querying a single XML document with an XQuery expression.  Supports XQuery 3.1 and earlier.  This API is optimized for a single XML document as input.  Provided XML document is automatically loaded as the default context; to access elements in the document, simply refer to them without a document reference, such as bookstore/book",
+      "Anchor": "#query-an-xml-file-using-xquery-query,-get-results",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XmlQueryWithXQueryMulti",
+      "Name": "Query multiple XML files using XQuery query, get results",
+      "Description": "Return the reuslts of querying an XML document with an XQuery expression.  Supports XQuery 3.1 and earlier.  This API is optimized for multiple XML documents as input.  You can refer to the contents of a given document by name, for example doc(&quot;books.xml&quot;) or doc(&quot;restaurants.xml&quot;) if you included two input files named books.xml and restaurants.xml.  If input files contain no file name, they will default to file names input1.xml, input2.xml and so on.",
+      "Anchor": "#query-multiple-xml-files-using-xquery-query,-get-results",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XmlRemoveWithXPath",
+      "Name": "Remove, delete XML nodes and items matching XPath expression",
+      "Description": "Return the reuslts of editing an XML document by removing all of the nodes that match an input XPath expression",
+      "Anchor": "#remove,-delete-xml-nodes-and-items-matching-xpath-expression",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XmlToJson",
+      "Name": "Convert XML to JSON conversion",
+      "Description": "Convert an XML string or file into JSON",
+      "Anchor": "#convert-xml-to-json-conversion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertData_XmlTransformWithXsltToXml",
+      "Name": "Transform XML document file with XSLT into a new XML document",
+      "Description": "Convert an XML string or file into JSON",
+      "Anchor": "#transform-xml-document-file-with-xslt-into-a-new-xml-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_AutodetectGetInfo",
+      "Name": "Get document type information",
+      "Description": "Auto-detects a document's type information; does not require file extension.  Analyzes file contents to confirm file type.  Even if no file extension is present, the auto-detect system will reliably analyze the contents of the file and identify its file type.  Supports over 100 image file formats, Office document file formats, PDF, and more.",
+      "Anchor": "#get-document-type-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_AutodetectToPdf",
+      "Name": "Convert Document to PDF",
+      "Description": "Automatically detect file type and convert it to PDF.  Supports all of the major Office document file formats including Word (DOCX, DOC), Excel (XLSX, XLS), PowerPoint (PPTX, PPT), over 100 image formats, HTML files, and even multi-page TIFF files.",
+      "Anchor": "#convert-document-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_AutodetectToPngArray",
+      "Name": "Convert Document to PNG array",
+      "Description": "Automatically detect file type and convert it to an array of PNG images.  Supports all of the major Office document file formats, over 100 image formats, and even multi-page TIFF files.",
+      "Anchor": "#convert-document-to-png-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_AutodetectToTxt",
+      "Name": "Convert Document to Text (txt)",
+      "Description": "Automatically detect file type and convert it to Text.  Supports all of the major Office document file formats including Word (DOCX, DOC), Excel (XLSX, XLS), PowerPoint (PPTX, PPT) and PDF files.  For spreadsheets, all worksheets will be included.  If you wish to exclude certain pages, worksheets, slides, etc. use the Split document API first, or the delete pages/slides/worksheet APIs first to adjust the document to the target state prior to converting to text.",
+      "Anchor": "#convert-document-to-text-(txt)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_CsvToXlsx",
+      "Name": "Convert CSV to Excel XLSX Spreadsheet",
+      "Description": "Convert CSV file to Office Excel XLSX Workbooks file format.",
+      "Anchor": "#convert-csv-to-excel-xlsx-spreadsheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_DocToDocx",
+      "Name": "Convert Word DOC (97-03) Document to DOCX",
+      "Description": "Convert/upgrade Office Word (97-2003 Format) Documents (doc) to the modern DOCX format",
+      "Anchor": "#convert-word-doc-(97-03)-document-to-docx",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_DocToPdf",
+      "Name": "Convert Word DOC (97-03) Document to PDF",
+      "Description": "Convert Office Word (97-2003 Format) Documents (doc) to standard PDF",
+      "Anchor": "#convert-word-doc-(97-03)-document-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_DocToTxt",
+      "Name": "Convert Word DOC (97-03) Document to Text (txt)",
+      "Description": "Convert Office Word DOC (97-03) Document (doc) to text",
+      "Anchor": "#convert-word-doc-(97-03)-document-to-text-(txt)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_DocxToPdf",
+      "Name": "Convert Word DOCX Document to PDF",
+      "Description": "Convert Office Word Documents (docx) to standard PDF",
+      "Anchor": "#convert-word-docx-document-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_DocxToTxt",
+      "Name": "Convert Word DOCX Document to Text (txt)",
+      "Description": "Convert Office Word Documents (docx) to text",
+      "Anchor": "#convert-word-docx-document-to-text-(txt)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_HtmlToPdf",
+      "Name": "Convert HTML document file to PDF Document",
+      "Description": "Convert standard HTML, with full support for CSS, JavaScript, Images, and other complex behavior to PDF.  To use external files such as images, use an absolute URL to the file.",
+      "Anchor": "#convert-html-document-file-to-pdf-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_HtmlToPng",
+      "Name": "Convert HTML document file to PNG image array",
+      "Description": "Convert standard HTML, with full support for CSS, JavaScript, Images, and other complex behavior to an array of PNG images, one for each page.  To use external files in your HTML such as images, use an absolute URL to the file.",
+      "Anchor": "#convert-html-document-file-to-png-image-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_HtmlToTxt",
+      "Name": "HTML Document file to Text (txt)",
+      "Description": "HTML document to text",
+      "Anchor": "#html-document-file-to-text-(txt)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_PdfToDocx",
+      "Name": "Convert PDF to Word DOCX Document",
+      "Description": "Convert standard PDF to Office Word Documents (docx).    Converts a PDF at high fidelity into Word format, where it can be easily edited and processed.",
+      "Anchor": "#convert-pdf-to-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_PdfToDocxRasterize",
+      "Name": "Convert PDF to Word DOCX Document based on rasterized version of the PDF",
+      "Description": "Convert standard PDF to Office Word Documents (docx), but first rasterize the PDF.    Converts a PDF at high fidelity into Word format.",
+      "Anchor": "#convert-pdf-to-word-docx-document-based-on-rasterized-version-of-the-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_PdfToPngArray",
+      "Name": "Convert PDF to PNG Image Array",
+      "Description": "Convert PDF document to PNG array, one image per page.",
+      "Anchor": "#convert-pdf-to-png-image-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_PdfToPngSingle",
+      "Name": "Convert PDF to Single PNG image",
+      "Description": "Convert PDF document to a single tall PNG image, by stacking/concatenating the images vertically into a single &quot;tall&quot; image",
+      "Anchor": "#convert-pdf-to-single-png-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_PdfToPptx",
+      "Name": "Convert PDF to PowerPoint PPTX Presentation",
+      "Description": "Convert standard PDF to Office PowerPoint Presentation (pptx).  Converts a PDF file at high fidelity into PowerPoint format, where it can be easily edited and processed.",
+      "Anchor": "#convert-pdf-to-powerpoint-pptx-presentation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_PdfToTxt",
+      "Name": "Convert PDF Document to Text (txt)",
+      "Description": "PDF document to text",
+      "Anchor": "#convert-pdf-document-to-text-(txt)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_PngArrayToPdf",
+      "Name": "Convert PNG Array to PDF",
+      "Description": "Convert an array of PNG images, one image per page, into a newly-created PDF.  Supports images of different sizes as input.",
+      "Anchor": "#convert-png-array-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_PptToPdf",
+      "Name": "Convert PowerPoint PPT (97-03) Presentation to PDF",
+      "Description": "Convert Office PowerPoint (97-2003) Documents (ppt) to standard PDF",
+      "Anchor": "#convert-powerpoint-ppt-(97-03)-presentation-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_PptToPptx",
+      "Name": "Convert PowerPoint PPT (97-03) Presentation to PPTX",
+      "Description": "Convert/upgrade Office PowerPoint (97-2003) Documents (ppt) to modern PPTX",
+      "Anchor": "#convert-powerpoint-ppt-(97-03)-presentation-to-pptx",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_PptxToPdf",
+      "Name": "Convert PowerPoint PPTX Presentation to PDF",
+      "Description": "Convert Office PowerPoint Documents (pptx) to standard PDF",
+      "Anchor": "#convert-powerpoint-pptx-presentation-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_PptxToTxt",
+      "Name": "Convert PowerPoint PPTX Presentation to Text (txt)",
+      "Description": "Convert Office PowerPoint Documents (pptx) to standard Text",
+      "Anchor": "#convert-powerpoint-pptx-presentation-to-text-(txt)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_XlsToCsv",
+      "Name": "Convert Excel XLS (97-03) Spreadsheet to CSV",
+      "Description": "Convert/upgrade Office Excel (97-2003) Workbooks (xls) to standard CSV format.",
+      "Anchor": "#convert-excel-xls-(97-03)-spreadsheet-to-csv",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_XlsToPdf",
+      "Name": "Convert Excel XLS (97-03) Spreadsheet to PDF",
+      "Description": "Convert Office Excel (97-2003) Workbooks (xls) to standard PDF.  Converts all worksheets in the workbook to PDF.",
+      "Anchor": "#convert-excel-xls-(97-03)-spreadsheet-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_XlsToXlsx",
+      "Name": "Convert Excel XLS (97-03) Spreadsheet to XLSX",
+      "Description": "Convert/upgrade Office Excel (97-2003) Workbooks (xls) to modern XLSX format.",
+      "Anchor": "#convert-excel-xls-(97-03)-spreadsheet-to-xlsx",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_XlsxToCsv",
+      "Name": "Convert Excel XLSX Spreadsheet to CSV",
+      "Description": "Convert Office Excel Workbooks (XLSX) to standard Comma-Separated Values (CSV) format.  Supports both XLSX and XLSB file Excel formats.",
+      "Anchor": "#convert-excel-xlsx-spreadsheet-to-csv",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_XlsxToPdf",
+      "Name": "Convert Excel XLSX Spreadsheet to PDF",
+      "Description": "Convert Office Excel Workbooks (XLSX) to standard PDF.  Converts all worksheets in the workbook to PDF.  Supports both XLSX and XLSB Excel file formats.",
+      "Anchor": "#convert-excel-xlsx-spreadsheet-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDocument_XlsxToTxt",
+      "Name": "Convert Excel XLSX Spreadsheet to Text (txt)",
+      "Description": "Convert Office Excel Workbooks (XLSX) to standard Text.  Converts all worksheets in the workbook to Text.  Supports both XLSX and XLSB file formats.  When a spreadsheet contains multiple worksheets, will export all of the text from all of the worksheets.  If you wish to export the text from only one worksheet, try using the Split XLSX API to split the spreadsheet into multiple worksheet files, and then run XLSX to Text on the individual worksheet file that you need to extract the text from.",
+      "Anchor": "#convert-excel-xlsx-spreadsheet-to-text-(txt)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertImage_GetImageInfo",
+      "Name": "Get information about an image",
+      "Description": "Get details from an image such as size, format and MIME type, compression, EXIF data such as location, DPI, unique colors, transparency information, and more",
+      "Anchor": "#get-information-about-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertImage_ImageFormatConvert",
+      "Name": "Image format conversion",
+      "Description": "Convert between over 100 file formats, including key formats such as Photoshop (PSD), PNG, JPG, GIF, NEF, and BMP.",
+      "Anchor": "#image-format-conversion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertImage_ImageSetDPI",
+      "Name": "Change image DPI",
+      "Description": "Resize an image to have a different DPI",
+      "Anchor": "#change-image-dpi",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertImage_MultipageImageFormatConvert",
+      "Name": "Multi-page image format conversion",
+      "Description": "Convert between over 100 file formats, including support for Multiple-Page formats (e.g. PDFs, TIFFs, etc. with multiple pages).",
+      "Anchor": "#multi-page-image-format-conversion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertTemplate_ApplyHtmlTemplate",
+      "Name": "Apply HTML template",
+      "Description": "Apply operations to fill in an HTML template, generating a final HTML result",
+      "Anchor": "#apply-html-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertWeb_HtmlToDocx",
+      "Name": "Convert HTML to Word DOCX Document",
+      "Description": "Convert HTML to Office Word Document (DOCX) format",
+      "Anchor": "#convert-html-to-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertWeb_HtmlToPdf",
+      "Name": "Convert HTML string to PDF",
+      "Description": "Fully renders a website and returns a PDF of the HTML.  Javascript, HTML5, CSS and other advanced features are all supported.",
+      "Anchor": "#convert-html-string-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertWeb_HtmlToPng",
+      "Name": "Convert HTML string to PNG screenshot",
+      "Description": "Fully renders a website and returns a PNG (screenshot) of the HTML.  Javascript, HTML5, CSS and other advanced features are all supported.",
+      "Anchor": "#convert-html-string-to-png-screenshot",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertWeb_HtmlToTxt",
+      "Name": "Convert HTML string to text (txt)",
+      "Description": "Converts an HTML string input into text (txt); extracts text from HTML",
+      "Anchor": "#convert-html-string-to-text-(txt)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertWeb_MdToHtml",
+      "Name": "Convert Markdown to HTML",
+      "Description": "Convert a markdown file (.md) to HTML",
+      "Anchor": "#convert-markdown-to-html",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertWeb_UrlToPdf",
+      "Name": "Convert a URL to PDF",
+      "Description": "Fully renders a website and returns a PDF of the full page.  Javascript, HTML5, CSS and other advanced features are all supported.",
+      "Anchor": "#convert-a-url-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertWeb_UrlToScreenshot",
+      "Name": "Take screenshot of URL",
+      "Description": "Fully renders a website and returns a PNG screenshot of the full page image.  Javascript, HTML5, CSS and other advanced features are all supported.",
+      "Anchor": "#take-screenshot-of-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertWeb_UrlToTxt",
+      "Name": "Convert website URL page to text (txt)",
+      "Description": "Converts a website URL page into text (txt); extracts text from HTML",
+      "Anchor": "#convert-website-url-page-to-text-(txt)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_BeginEditing",
+      "Name": "Begin editing a document",
+      "Description": "Uploads a document to Cloudmersive to begin a series of one or more editing operations.  To edit a document, first call Begin Editing on the document.  Then perform operations on the document using the secure URL returned from BeginEditing, such as Word DOCX Delete Pages and Insert Table.  Finally, perform finish editing on the URL to return the resulting edited document.  The editing URL is temporary and only stored in-memory cache, and will automatically expire from the cache after 30 minutes, and cannot be directly accessed.",
+      "Anchor": "#begin-editing-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxBody",
+      "Name": "Get body from a Word DOCX document",
+      "Description": "Returns the body defined in the Word Document (DOCX) format file; this is the main content part of a DOCX document",
+      "Anchor": "#get-body-from-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxCreateBlankDocument",
+      "Name": "Create a blank Word DOCX document",
+      "Description": "Returns a blank Word DOCX Document format file.  The file is blank, with no contents.  Use additional editing commands such as Insert Paragraph or Insert Table or Insert Image to populate the document.",
+      "Anchor": "#create-a-blank-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxDeletePages",
+      "Name": "Delete, remove pages from a Word DOCX document",
+      "Description": "Returns the edited Word Document in the Word Document (DOCX) format file with the specified pages removed",
+      "Anchor": "#delete,-remove-pages-from-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxDeleteTableRow",
+      "Name": "Deletes a table row in an existing table in a Word DOCX document",
+      "Description": "Deletes an existing table row in a Word DOCX Document and returns the result.",
+      "Anchor": "#deletes-a-table-row-in-an-existing-table-in-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxDeleteTableRowRange",
+      "Name": "Deletes a range of multiple table rows in an existing table in a Word",
+      "Description": "Deletes a range of 1 or more existing table rows in a Word DOCX Document and returns the result.",
+      "Anchor": "#deletes-a-range-of-multiple-table-rows-in-an-existing-table-in-a-word",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxGetCommentsHierarchical",
+      "Name": "Get comments from a Word DOCX document hierarchically",
+      "Description": "Returns the comments and review annotations stored in the Word Document (DOCX) format file hierarchically, where reply comments are nested as children under top-level comments in the results returned.",
+      "Anchor": "#get-comments-from-a-word-docx-document-hierarchically",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxGetHeadersAndFooters",
+      "Name": "Get content of a footer from a Word DOCX document",
+      "Description": "Returns the footer content from a Word Document (DOCX) format file",
+      "Anchor": "#get-content-of-a-footer-from-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxGetImages",
+      "Name": "Get images from a Word DOCX document",
+      "Description": "Returns the images defined in the Word Document (DOCX) format file",
+      "Anchor": "#get-images-from-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxGetSections",
+      "Name": "Get sections from a Word DOCX document",
+      "Description": "Returns the sections defined in the Word Document (DOCX) format file",
+      "Anchor": "#get-sections-from-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxGetStyles",
+      "Name": "Get styles from a Word DOCX document",
+      "Description": "Returns the styles defined in the Word Document (DOCX) format file",
+      "Anchor": "#get-styles-from-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxGetTableByIndex",
+      "Name": "Get a specific table by index in a Word DOCX document",
+      "Description": "Returns the specific table object by its 0-based index in an Office Word Document (DOCX)",
+      "Anchor": "#get-a-specific-table-by-index-in-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxGetTableRow",
+      "Name": "Gets the contents of an existing table row in an existing table in a W",
+      "Description": "Gets the contents of an existing table row in a Word DOCX Document and returns the result.",
+      "Anchor": "#gets-the-contents-of-an-existing-table-row-in-an-existing-table-in-a-w",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxGetTables",
+      "Name": "Get all tables in Word DOCX document",
+      "Description": "Returns all the table objects in an Office Word Document (docx)",
+      "Anchor": "#get-all-tables-in-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxInsertCommentOnParagraph",
+      "Name": "Insert a new comment into a Word DOCX document attached to a paragraph",
+      "Description": "Adds a new comment into a Word DOCX document attached to a paragraph and returns the result.  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#insert-a-new-comment-into-a-word-docx-document-attached-to-a-paragraph",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxInsertImage",
+      "Name": "Insert image into a Word DOCX document",
+      "Description": "Set the footer in a Word Document (DOCX).  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#insert-image-into-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxInsertParagraph",
+      "Name": "Insert a new paragraph into a Word DOCX document",
+      "Description": "Adds a new paragraph into a DOCX and returns the result.  You can insert at the beginning/end of a document, or before/after an existing object using its Path (location within the document).  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#insert-a-new-paragraph-into-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxInsertTable",
+      "Name": "Insert a new table into a Word DOCX document",
+      "Description": "Adds a new table into a DOCX and returns the result.  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#insert-a-new-table-into-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxInsertTableRow",
+      "Name": "Insert a new row into an existing table in a Word DOCX document",
+      "Description": "Adds a new table row into a DOCX Document and returns the result.  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#insert-a-new-row-into-an-existing-table-in-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxPages",
+      "Name": "Get pages and content from a Word DOCX document",
+      "Description": "Returns the pages and contents of each page defined in the Word Document (DOCX) format file",
+      "Anchor": "#get-pages-and-content-from-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxRemoveHeadersAndFooters",
+      "Name": "Remove headers and footers from Word DOCX document",
+      "Description": "Remove all headers, or footers, or both from a Word Document (DOCX).  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#remove-headers-and-footers-from-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxRemoveObject",
+      "Name": "Delete any object in a Word DOCX document",
+      "Description": "Delete any object, such as a paragraph, table, image, etc. from a Word Document (DOCX).  Pass in the Path of the object you would like to delete.  You can call other functions such as Get-Tables, Get-Images, Get-Body, etc. to get the paths of the objects in the document.  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#delete-any-object-in-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxReplace",
+      "Name": "Replace string in Word DOCX document",
+      "Description": "Replace all instances of a string in an Office Word Document (docx)",
+      "Anchor": "#replace-string-in-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxSetFooter",
+      "Name": "Set the footer in a Word DOCX document",
+      "Description": "Set the footer in a Word Document (DOCX).  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#set-the-footer-in-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxSetFooterAddPageNumber",
+      "Name": "Add page number to footer in a Word DOCX document",
+      "Description": "Set the footer in a Word Document (DOCX) to contain a page number.  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#add-page-number-to-footer-in-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxSetHeader",
+      "Name": "Set the header in a Word DOCX document",
+      "Description": "Set the header in a Word Document (DOCX).  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#set-the-header-in-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxUpdateTableCell",
+      "Name": "Update, set contents of a table cell in an existing table in a Word DO",
+      "Description": "Sets the contents of a table cell into a DOCX Document and returns the result.  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#update,-set-contents-of-a-table-cell-in-an-existing-table-in-a-word-do",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_DocxUpdateTableRow",
+      "Name": "Update, set contents of a table row in an existing table in a Word DOCX document",
+      "Description": "Sets the contents of a table row into a DOCX Document and returns the result.  Call Finish Editing on the output URL to complete the operation.",
+      "Anchor": "#update,-set-contents-of-a-table-row-in-an-existing-table-in-a-word-docx-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_FinishEditing",
+      "Name": "Finish editing document, and download result from document editing",
+      "Description": "Once done editing a document, download the result.  Begin editing a document by calling begin-editing, then perform operations, then call finish-editing to get the result.",
+      "Anchor": "#finish-editing-document,-and-download-result-from-document-editing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_PptxDeleteSlides",
+      "Name": "Delete, remove slides from a PowerPoint PPTX presentation document",
+      "Description": "Edits the input PowerPoint PPTX presentation document to remove the specified slides",
+      "Anchor": "#delete,-remove-slides-from-a-powerpoint-pptx-presentation-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_PptxReplace",
+      "Name": "Replace string in PowerPoint PPTX presentation",
+      "Description": "Replace all instances of a string in an Office PowerPoint Document (pptx)",
+      "Anchor": "#replace-string-in-powerpoint-pptx-presentation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxClearCellByIndex",
+      "Name": "Clear cell contents in an Excel XLSX spreadsheet, worksheet by index",
+      "Description": "Clears, sets to blank, the contents of a specific cell in an Excel XLSX spreadsheet, worksheet",
+      "Anchor": "#clear-cell-contents-in-an-excel-xlsx-spreadsheet,-worksheet-by-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxCreateBlankSpreadsheet",
+      "Name": "Create a blank Excel XLSX spreadsheet",
+      "Description": "Returns a blank Excel XLSX Spreadsheet (XLSX) format file",
+      "Anchor": "#create-a-blank-excel-xlsx-spreadsheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxCreateSpreadsheetFromData",
+      "Name": "Create a new Excel XLSX spreadsheet from column and row data",
+      "Description": "Returns a new Excel XLSX Spreadsheet (XLSX) format file populated with column and row data specified as input",
+      "Anchor": "#create-a-new-excel-xlsx-spreadsheet-from-column-and-row-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxDeleteWorksheet",
+      "Name": "Delete, remove worksheet from an Excel XLSX spreadsheet document",
+      "Description": "Edits the input Excel XLSX spreadsheet document to remove the specified worksheet (tab).  Use the Get Worksheets API to enumerate available worksheets in a spreadsheet.",
+      "Anchor": "#delete,-remove-worksheet-from-an-excel-xlsx-spreadsheet-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxGetCellByIdentifier",
+      "Name": "Get cell from an Excel XLSX spreadsheet, worksheet by cell identifier",
+      "Description": "Returns the value of a specific cell based on its identifier (e.g. A1, B22, C33, etc.) in the Excel Spreadsheet worksheet",
+      "Anchor": "#get-cell-from-an-excel-xlsx-spreadsheet,-worksheet-by-cell-identifier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxGetCellByIndex",
+      "Name": "Get cell from an Excel XLSX spreadsheet, worksheet by index",
+      "Description": "Returns the value and definition of a specific cell in a specific row in the Excel Spreadsheet worksheet",
+      "Anchor": "#get-cell-from-an-excel-xlsx-spreadsheet,-worksheet-by-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxGetImages",
+      "Name": "Get images from a Excel XLSX spreadsheet, worksheet",
+      "Description": "Returns the images defined in the Excel Spreadsheet worksheet",
+      "Anchor": "#get-images-from-a-excel-xlsx-spreadsheet,-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxGetRowsAndCells",
+      "Name": "Get rows and cells from a Excel XLSX spreadsheet, worksheet",
+      "Description": "Returns the rows and cells defined in the Excel Spreadsheet worksheet",
+      "Anchor": "#get-rows-and-cells-from-a-excel-xlsx-spreadsheet,-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxGetRowsAndCells",
+      "Name": "Get rows and cells from a Excel XLSX spreadsheet, worksheet",
+      "Description": "Returns the rows and cells defined in the Excel Spreadsheet worksheet",
+      "Anchor": "#get-rows-and-cells-from-a-excel-xlsx-spreadsheet,-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxGetStyles",
+      "Name": "Get styles from a Excel XLSX spreadsheet, worksheet",
+      "Description": "Returns the style defined in the Excel Spreadsheet",
+      "Anchor": "#get-styles-from-a-excel-xlsx-spreadsheet,-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxGetWorksheets",
+      "Name": "Get worksheets from a Excel XLSX spreadsheet",
+      "Description": "Returns the worksheets (tabs) defined in the Excel Spreadsheet (XLSX) format file",
+      "Anchor": "#get-worksheets-from-a-excel-xlsx-spreadsheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxInsertWorksheet",
+      "Name": "Insert a new worksheet into an Excel XLSX spreadsheet",
+      "Description": "Inserts a new worksheet into an Excel Spreadsheet",
+      "Anchor": "#insert-a-new-worksheet-into-an-excel-xlsx-spreadsheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxSetCellByIdentifier",
+      "Name": "Set, update cell contents in an Excel XLSX spreadsheet, worksheet by c",
+      "Description": "Sets, updates the contents of a specific cell in an Excel XLSX spreadsheet, worksheet using its cell identifier (e.g. A1, B22, C33) in the worksheet",
+      "Anchor": "#set,-update-cell-contents-in-an-excel-xlsx-spreadsheet,-worksheet-by-c",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_XlsxSetCellByIndex",
+      "Name": "Set, update cell contents in an Excel XLSX spreadsheet, worksheet by index",
+      "Description": "Sets, updates the contents of a specific cell in an Excel XLSX spreadsheet, worksheet",
+      "Anchor": "#set,-update-cell-contents-in-an-excel-xlsx-spreadsheet,-worksheet-by-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocument_Docx",
+      "Name": "Merge Two Word DOCX Together",
+      "Description": "Combine two Office Word Documents (docx) into one single Office Word document",
+      "Anchor": "#merge-two-word-docx-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocument_DocxMulti",
+      "Name": "Merge Multple Word DOCX Together",
+      "Description": "Combine multiple Office Word Documents (docx) into one single Office Word document",
+      "Anchor": "#merge-multple-word-docx-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocument_Pdf",
+      "Name": "Merge Two PDF Files Together",
+      "Description": "Combine two PDF files (pdf) into a single PDF document, preserving the order of the input documents in the combined document",
+      "Anchor": "#merge-two-pdf-files-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocument_PdfMulti",
+      "Name": "Merge Multple PDF Files Together",
+      "Description": "Combine multiple PDF files (pdf) into a single PDF document, preserving the order of the input documents in the combined document",
+      "Anchor": "#merge-multple-pdf-files-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocument_Png",
+      "Name": "Merge Multple PNG Files Together",
+      "Description": "Combine multiple PNG files into a single PNG document, preserving the order of the input documents in the combined document by stacking them vertically",
+      "Anchor": "#merge-multple-png-files-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocument_Pptx",
+      "Name": "Merge Two PowerPoint PPTX Together",
+      "Description": "Combine two Office PowerPoint presentations (pptx) into one single Office PowerPoint presentation",
+      "Anchor": "#merge-two-powerpoint-pptx-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocument_PptxMulti",
+      "Name": "Merge Multple PowerPoint PPTX Together",
+      "Description": "Combine multiple Office PowerPoint presentations (pptx) into one single Office PowerPoint presentation",
+      "Anchor": "#merge-multple-powerpoint-pptx-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocument_Txt",
+      "Name": "Merge Two Text (TXT) Files Together",
+      "Description": "Combine two Text (.TXT) files into a single text document, preserving the order of the input documents in the combined document by stacking them vertically.",
+      "Anchor": "#merge-two-text-(txt)-files-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocument_TxtMulti",
+      "Name": "Merge Multple Text (TXT) Files Together",
+      "Description": "Combine multiple Text (.TXT) files into a single text document, preserving the order of the input documents in the combined document by stacking them vertically.",
+      "Anchor": "#merge-multple-text-(txt)-files-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocument_Xlsx",
+      "Name": "Merge Two Excel XLSX Together",
+      "Description": "Combine two Office Excel spreadsheets (xlsx) into a single Office Excel spreadsheet",
+      "Anchor": "#merge-two-excel-xlsx-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocument_XlsxMulti",
+      "Name": "Merge Multple Excel XLSX Together",
+      "Description": "Combine multiple Office Excel spreadsheets (xlsx) into a single Office Excel spreadsheet",
+      "Anchor": "#merge-multple-excel-xlsx-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocument_Docx",
+      "Name": "Split a single Word Document DOCX into Separate Documents by Page",
+      "Description": "Split a Word DOCX Document, comprised of multiple pages into separate Word DOCX document files, with each containing exactly one page.",
+      "Anchor": "#split-a-single-word-document-docx-into-separate-documents-by-page",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocument_PdfByPage",
+      "Name": "Split a PDF file into separate PDF files, one per page",
+      "Description": "Split an input PDF file into separate pages, comprised of one PDF file per page.",
+      "Anchor": "#split-a-pdf-file-into-separate-pdf-files,-one-per-page",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocument_Pptx",
+      "Name": "Split a single PowerPoint Presentation PPTX into Separate Slides",
+      "Description": "Split an PowerPoint PPTX Presentation, comprised of multiple slides into separate PowerPoint PPTX presentation files, with each containing exactly one slide.",
+      "Anchor": "#split-a-single-powerpoint-presentation-pptx-into-separate-slides",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocument_TxtByLine",
+      "Name": "Split a single Text file (txt) into lines",
+      "Description": "Split a Text (txt) Document by line, returning each line separately in order.  Supports multiple types of newlines.",
+      "Anchor": "#split-a-single-text-file-(txt)-into-lines",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocument_TxtByString",
+      "Name": "Split a single Text file (txt) by a string delimiter",
+      "Description": "Split a Text (txt) Document by a string delimiter, returning each component of the string as an array of strings.",
+      "Anchor": "#split-a-single-text-file-(txt)-by-a-string-delimiter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocument_Xlsx",
+      "Name": "Split a single Excel XLSX into Separate Worksheets",
+      "Description": "Split an Excel XLSX Spreadsheet, comprised of multiple Worksheets (or Tabs) into separate Excel XLSX spreadsheet files, with each containing exactly one Worksheet.",
+      "Anchor": "#split-a-single-excel-xlsx-into-separate-worksheets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateDocument_AutodetectValidation",
+      "Name": "Autodetect content type and validate",
+      "Description": "Automatically detect the type of content, verify and validate that the content is indeed fully valid at depth, and then report the validation result.",
+      "Anchor": "#autodetect-content-type-and-validate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateDocument_DocxValidation",
+      "Name": "Validate a Word document (DOCX)",
+      "Description": "Validate a Word document (DOCX); if the document is not valid, identifies the errors in the document",
+      "Anchor": "#validate-a-word-document-(docx)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateDocument_JsonValidation",
+      "Name": "Validate a JSON file",
+      "Description": "Validate a JSON (JavaScript Object Notation) document file; if the document is not valid, identifies the errors in the document",
+      "Anchor": "#validate-a-json-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateDocument_PdfValidation",
+      "Name": "Validate a PDF document file",
+      "Description": "Validate a PDF document; if the document is not valid, identifies the errors in the document",
+      "Anchor": "#validate-a-pdf-document-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateDocument_PptxValidation",
+      "Name": "Validate a PowerPoint presentation (PPTX)",
+      "Description": "Validate a PowerPoint presentation (PPTX); if the document is not valid, identifies the errors in the document",
+      "Anchor": "#validate-a-powerpoint-presentation-(pptx)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateDocument_XlsxValidation",
+      "Name": "Validate a Excel document (XLSX)",
+      "Description": "Validate a Excel document (XLSX); if the document is not valid, identifies the errors in the document",
+      "Anchor": "#validate-a-excel-document-(xlsx)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateDocument_XmlValidation",
+      "Name": "Validate an XML file",
+      "Description": "Validate an XML document file; if the document is not valid, identifies the errors in the document",
+      "Anchor": "#validate-an-xml-file",
+      "IsDeprecated": false
+    }
+  ]
+}

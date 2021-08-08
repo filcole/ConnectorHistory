@@ -1,0 +1,125 @@
+{
+  "UniqueName": "motimate",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../motimate/",
+  "Actions": [
+    {
+      "OperationId": "_me",
+      "Name": "GET me",
+      "Description": "Me",
+      "Anchor": "#get-me",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Group_Create",
+      "Name": "Group - create",
+      "Description": "Create new group",
+      "Anchor": "#group---create",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Group_DeleteById",
+      "Name": "Group - delete by id",
+      "Description": "Delete group by group_id",
+      "Anchor": "#group---delete-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Group_GetAll",
+      "Name": "Group - get all",
+      "Description": "Get all groups",
+      "Anchor": "#group---get-all",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Group_GetById",
+      "Name": "Group - get by id",
+      "Description": "Get group by group_id",
+      "Anchor": "#group---get-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Group_UpdateById",
+      "Name": "Group - Update by id",
+      "Description": "Update group by group_id",
+      "Anchor": "#group---update-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Position_Create",
+      "Name": "Position - create",
+      "Description": "Create new position",
+      "Anchor": "#position---create",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Position_DeleteById",
+      "Name": "DELETE positions",
+      "Description": "Delete position by position_id",
+      "Anchor": "#delete-positions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Position_GetAll",
+      "Name": "Position - get all",
+      "Description": "Get all positions in organization",
+      "Anchor": "#position---get-all",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Position_GetById",
+      "Name": "Position - get by id",
+      "Description": "Get position by position_id",
+      "Anchor": "#position---get-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Position_UpdateById",
+      "Name": "Position - update by id",
+      "Description": "Update position by position_id",
+      "Anchor": "#position---update-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Token_Get",
+      "Name": "POST token",
+      "Description": "Get oauth token",
+      "Anchor": "#post-token",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "User_Create",
+      "Name": "User - create",
+      "Description": "Create new user",
+      "Anchor": "#user---create",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "User_DeleteById",
+      "Name": "User - delete by id",
+      "Description": "Delete user by user_id",
+      "Anchor": "#user---delete-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "User_GetAll",
+      "Name": "User - get all",
+      "Description": "Get  all users in organization",
+      "Anchor": "#user---get-all",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "User_GetById",
+      "Name": "User - Get by id",
+      "Description": "Get user by user_id",
+      "Anchor": "#user---get-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "User_UpdateById",
+      "Name": "User - update by id",
+      "Description": "Update user by user_id",
+      "Anchor": "#user---update-by-id",
+      "IsDeprecated": false
+    }
+  ]
+}

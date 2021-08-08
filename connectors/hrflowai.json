@@ -1,0 +1,20 @@
+{
+  "UniqueName": "hrflowai",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hrflowai/",
+  "Actions": [
+    {
+      "OperationId": "DocumentParsing",
+      "Name": "Post an HR document for parsing",
+      "Description": "The Document API is a general purpose API design for real-time processing of HR documents.",
+      "Anchor": "#post-an-hr-document-for-parsing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostProfile",
+      "Name": "Post a document Profile for sync or async parsing",
+      "Description": "The Profile API helps you connect HrFlow.ai with the applications of your choice. Mainly, the API allows you to POST profiles and GET outbound data after the processing of choice is done.",
+      "Anchor": "#post-a-document-profile-for-sync-or-async-parsing",
+      "IsDeprecated": false
+    }
+  ]
+}

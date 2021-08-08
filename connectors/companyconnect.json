@@ -1,0 +1,62 @@
+{
+  "UniqueName": "companyconnect",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../companyconnect/",
+  "Actions": [
+    {
+      "OperationId": "ChoicePrompt",
+      "Name": "Prompt user for a choice",
+      "Description": "This operation is used to prompt the user for input.",
+      "Anchor": "#prompt-user-for-a-choice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConfirmPrompt",
+      "Name": "Prompt user to confirm",
+      "Description": "This operation is used to prompt the user confirm",
+      "Anchor": "#prompt-user-to-confirm",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProactiveDialog_Start",
+      "Name": "Start a proactive dialog with a user",
+      "Description": "This operation is used start a proactive dialog with a user.",
+      "Anchor": "#start-a-proactive-dialog-with-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProactiveDialog_Subscribe",
+      "Name": "Start proactive dialog",
+      "Description": "Starts a new dialog initiated by the bot",
+      "Anchor": "#start-proactive-dialog",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Reply",
+      "Name": "Send a message to the user",
+      "Description": "This operation is used to send a message to the user.",
+      "Anchor": "#send-a-message-to-the-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SmartDialog_Subscribe",
+      "Name": "Start dialog",
+      "Description": "Starts a new dialog when the given intent is used",
+      "Anchor": "#start-dialog",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SmartSource_Subscribe",
+      "Name": "Smart Source",
+      "Description": "Register a new Smart Source for use in Connect web parts",
+      "Anchor": "#smart-source",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TextPrompt",
+      "Name": "Prompt user for text",
+      "Description": "This operation is used to prompt the user for input.",
+      "Anchor": "#prompt-user-for-text",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "UniqueName": "cdkdrivecustomer",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cdkdrivecustomer/",
+  "Actions": [
+    {
+      "OperationId": "createCustomer",
+      "Name": "Create a customer",
+      "Description": "Create a customer",
+      "Anchor": "#create-a-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "queryCustomerById",
+      "Name": "Query a customer",
+      "Description": "Query a customer",
+      "Anchor": "#query-a-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "queryCustomers",
+      "Name": "Query customers",
+      "Description": "Query customers",
+      "Anchor": "#query-customers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "updateCustomer",
+      "Name": "Update a customer",
+      "Description": "Update a customer",
+      "Anchor": "#update-a-customer",
+      "IsDeprecated": false
+    }
+  ]
+}

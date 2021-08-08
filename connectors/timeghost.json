@@ -1,0 +1,216 @@
+{
+  "UniqueName": "timeghost",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../timeghost/",
+  "Actions": [
+    {
+      "OperationId": "Add_Client",
+      "Name": "Add Client",
+      "Description": "Add a client to a workspace.",
+      "Anchor": "#add-client",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add_CustomFeedEvent",
+      "Name": "Add Custom Feed Event",
+      "Description": "Add an event to the users feed. Entry is automatically deleted after 180 days.",
+      "Anchor": "#add-custom-feed-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add_Group",
+      "Name": "Add Group",
+      "Description": "Add a group to a workspace.",
+      "Anchor": "#add-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add_Project",
+      "Name": "Add Project",
+      "Description": "Add a project to a workspace.",
+      "Anchor": "#add-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add_Task",
+      "Name": "Add Task",
+      "Description": "Add a task to a workspace.",
+      "Anchor": "#add-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add_Time",
+      "Name": "Add Time",
+      "Description": "Add a time to a project within a workspace.",
+      "Anchor": "#add-time",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add_Time_Tag",
+      "Name": "Add Time Tag",
+      "Description": "Add a time tag to a workspace.",
+      "Anchor": "#add-time-tag",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClientChanges",
+      "Name": "Client Trigger",
+      "Description": "If a client is created, changed or deleted in timeghost, this trigger runs.",
+      "Anchor": "#client-trigger",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Create_Excel_Report",
+      "Name": "Create Times Excel Report",
+      "Description": "Returns an Excel file containing a report of the specified time.",
+      "Anchor": "#create-times-excel-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete_Item",
+      "Name": "Delete Item",
+      "Description": "Delete an item from a workspace.",
+      "Anchor": "#delete-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Client_Projects",
+      "Name": "Get Client Projects",
+      "Description": "Get all projects of one client in one workspace.",
+      "Anchor": "#get-client-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Client_Times",
+      "Name": "Get Client Times",
+      "Description": "Get all times of one client in one workspace.",
+      "Anchor": "#get-client-times",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Clients",
+      "Name": "Get Clients",
+      "Description": "Get all clients from a workspace.",
+      "Anchor": "#get-clients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Groups",
+      "Name": "Get Workspace Groups",
+      "Description": "Get all groups from a workspace.",
+      "Anchor": "#get-workspace-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Project_Tasks",
+      "Name": "Get Project Tasks",
+      "Description": "Get all tasks of one project in one workspace.",
+      "Anchor": "#get-project-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Project_Times",
+      "Name": "Get Project Times",
+      "Description": "Get all times of one project in one workspace.",
+      "Anchor": "#get-project-times",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Projects",
+      "Name": "Get Projects",
+      "Description": "Get all projects from a workspace.",
+      "Anchor": "#get-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Time_Tags",
+      "Name": "Get Time Tags",
+      "Description": "Get all time tags from a workspace.",
+      "Anchor": "#get-time-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Times",
+      "Name": "Get Times",
+      "Description": "Get all times from a workspace.",
+      "Anchor": "#get-times",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectChanges",
+      "Name": "Project Trigger",
+      "Description": "If a project is created, changed or deleted in timeghost, this trigger runs.",
+      "Anchor": "#project-trigger",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TagChanges",
+      "Name": "Tag Trigger",
+      "Description": "If a tag is created, changed or deleted in timeghost, this trigger runs.",
+      "Anchor": "#tag-trigger",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TaskChanges",
+      "Name": "Task Trigger",
+      "Description": "If a task is created, changed or deleted in timeghost, this trigger runs.",
+      "Anchor": "#task-trigger",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimeChanges",
+      "Name": "Time Trigger",
+      "Description": "If a time is created, changed or deleted in timeghost, this trigger runs.",
+      "Anchor": "#time-trigger",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update_Client",
+      "Name": "Update Client",
+      "Description": "Update a client in a workspace.",
+      "Anchor": "#update-client",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update_CustomFeedEvent",
+      "Name": "Update Custom Feed Event",
+      "Description": "Update a custom feed entry in a workspace.",
+      "Anchor": "#update-custom-feed-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update_Group",
+      "Name": "Update Group",
+      "Description": "Update a group in a workspace.",
+      "Anchor": "#update-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update_Project",
+      "Name": "Update Project",
+      "Description": "Update a project in a workspace.",
+      "Anchor": "#update-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update_Task",
+      "Name": "Update Task",
+      "Description": "Update a task in a workspace.",
+      "Anchor": "#update-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update_Time",
+      "Name": "Update Time",
+      "Description": "Update a time in a workspace.",
+      "Anchor": "#update-time",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update_Time_Tag",
+      "Name": "Update Time Tag",
+      "Description": "Update a time tag in a workspace.",
+      "Anchor": "#update-time-tag",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "UniqueName": "blockchainethereum",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blockchainethereum/",
+  "Actions": [
+    {
+      "OperationId": "DeployContract",
+      "Name": "Deploy smart contract [DEPRECATED]",
+      "Description": "Deploy smart contract.",
+      "Anchor": "#deploy-smart-contract-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ExecuteContractFunction",
+      "Name": "Execute smart contract function (incurring gas cost) [DEPRECATED]",
+      "Description": "Execute smart contract function (incurring gas cost).",
+      "Anchor": "#execute-smart-contract-function-(incurring-gas-cost)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ExecuteSmartContractFunction",
+      "Name": "Query smart contract function (incurring no gas cost) [DEPRECATED]",
+      "Description": "Query smart contract function (incurring no gas cost).",
+      "Anchor": "#query-smart-contract-function-(incurring-no-gas-cost)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetSmartContractProperties",
+      "Name": "Get smart contract state (all properties) [DEPRECATED]",
+      "Description": "Get smart contract state (all properties).",
+      "Anchor": "#get-smart-contract-state-(all-properties)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewEvent",
+      "Name": "When a smart contract event occurs [DEPRECATED]",
+      "Description": "When a smart contract event occurs.",
+      "Anchor": "#when-a-smart-contract-event-occurs-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

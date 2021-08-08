@@ -1,0 +1,104 @@
+{
+  "UniqueName": "objectiveconnect",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../objectiveconnect/",
+  "Actions": [
+    {
+      "OperationId": "AddParticipant",
+      "Name": "Add or update participant",
+      "Description": "Invite new participant or edit assigned roles",
+      "Anchor": "#add-or-update-participant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create document",
+      "Description": "If Request is application:hal+json, it creates metadata only. If Request is multipart:form-data, it creates document with content in one single call.",
+      "Anchor": "#create-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkspace",
+      "Name": "Create workspace",
+      "Description": "Create workspace",
+      "Anchor": "#create-workspace",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteParticipant",
+      "Name": "Delete participant",
+      "Description": "Removes participant from the workspace",
+      "Anchor": "#delete-participant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentContent",
+      "Name": "Get document content",
+      "Description": "Returns the contents of a document",
+      "Anchor": "#get-document-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentVersion",
+      "Name": "Get document version",
+      "Description": "Get an asset version",
+      "Anchor": "#get-document-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentVersionContent",
+      "Name": "Get document version content",
+      "Description": "Returns the contents of a Document version",
+      "Anchor": "#get-document-version-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetParticipants",
+      "Name": "Get participants",
+      "Description": "Get workspace participants",
+      "Anchor": "#get-participants",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user",
+      "Description": "Get users",
+      "Anchor": "#get-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWorkspace",
+      "Name": "Get workspace",
+      "Description": "Get workspace by ID",
+      "Anchor": "#get-workspace",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListDocuments",
+      "Name": "List shared documents",
+      "Description": "Get a list of Assets by Workspace UUID",
+      "Anchor": "#list-shared-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListDocumentVersions",
+      "Name": "List document versions",
+      "Description": "Get a list of Asset versions",
+      "Anchor": "#list-document-versions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListWorkspaces",
+      "Name": "List workspaces",
+      "Description": "Get a list of Shares which the requesting user has privilege to see",
+      "Anchor": "#list-workspaces",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadDocumentContent",
+      "Name": "Upload document content",
+      "Description": "Upload content for a Document",
+      "Anchor": "#upload-document-content",
+      "IsDeprecated": false
+    }
+  ]
+}

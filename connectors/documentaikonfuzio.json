@@ -1,0 +1,34 @@
+{
+  "UniqueName": "documentaikonfuzio",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../documentaikonfuzio/",
+  "Actions": [
+    {
+      "OperationId": "v2_docs_create",
+      "Name": "Upload a new document",
+      "Description": "Upload a new document",
+      "Anchor": "#upload-a-new-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "v2_docs_delete",
+      "Name": "Delete a document",
+      "Description": "Delete a document.",
+      "Anchor": "#delete-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "v2_docs_partial_update",
+      "Name": "Give feedback to the extraction results of a document",
+      "Description": "You can give feedback by sending the adapted extraction result dictionary.\nExample python code:\nimport requests\nimport json\nfrom requests.auth import HTTPBasicAuth\n\nurl = f&quot;https://app.konfuzio.com/api/v2/docs/{DOC_ID}/&quot;\nauth = HTTPBasicAuth(KONFUZIO_USER, KONFUZIO_PASSWORD)\ndata = requests.get(url=url, auth=auth).json()\n\n# Mark Extraction as correct.\ndata['labels']['Bruttozahlweise']['extractions'][0]['correct'] = True\n\n# Add new Extraction which has not been in result list.\ndata['labels']['Bruttozahlweise']['extractions'].append({'value': '123,45'})\n\nr = requests.patch(url = url, data=json.dumps(data), auth=auth, headers={'Content-Type': 'application/json'},)",
+      "Anchor": "#give-feedback-to-the-extraction-results-of-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "v2_docs_read",
+      "Name": "Retrieve the extraction results for a document",
+      "Description": "Get all information for a document using its id. The extraction results are available once the processing has finished",
+      "Anchor": "#retrieve-the-extraction-results-for-a-document",
+      "IsDeprecated": false
+    }
+  ]
+}

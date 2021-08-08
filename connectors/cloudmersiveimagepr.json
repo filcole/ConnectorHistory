@@ -1,0 +1,328 @@
+{
+  "UniqueName": "cloudmersiveimagepr",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudmersiveimagepr/",
+  "Actions": [
+    {
+      "OperationId": "Artistic_Painting",
+      "Name": "Transform an image into an artistic painting automatically",
+      "Description": "Uses machine learning to automatically transform an image into an artistic painting.  Due to depth of AI processing, depending on image size this operation can take up to 20 seconds.",
+      "Anchor": "#transform-an-image-into-an-artistic-painting-automatically",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Convert_ToBmp",
+      "Name": "Convert input image to Bitmap BMP format",
+      "Description": "Converts the input image into PSD format.  Supported input file formats include AAI, ART, ARW, AVS, BPG, BMP, BMP2, BMP3, BRF, CALS, CGM, CIN, CMYK, CMYKA, CR2, CRW, CUR, CUT, DCM, DCR, DCX, DDS, DIB, DJVU, DNG, DOT, DPX, EMF, EPDF, EPI, EPS, EPS2, EPS3, EPSF, EPSI, EPT, EXR, FAX, FIG, FITS, FPX, GIF, GPLT, GRAY, HDR, HEIC, HPGL, HRZ, ICO, ISOBRL, ISBRL6, JBIG, JNG, JP2, JPT, J2C, J2K, JPEG/JPG, JXR, MAT, MONO, MNG, M2V, MRW, MTV, NEF, ORF, OTB, P7, PALM, PAM, PBM, PCD, PCDS, PCL, PCX, PDF, PEF, PES, PFA, PFB, PFM, PGM, PICON, PICT, PIX, PNG, PNG8, PNG00, PNG24, PNG32, PNG48, PNG64, PNM, PPM, PSB, PSD, PTIF, PWB, RAD, RAF, RGB, RGBA, RGF, RLA, RLE, SCT, SFW, SGI, SID, SUN, SVG, TGA, TIFF, TIM, UIL, VIFF, VICAR, VBMP, WDP, WEBP, WPG, X, XBM, XCF, XPM, XWD, X3F, YCbCr, YCbCrA, YUV.",
+      "Anchor": "#convert-input-image-to-bitmap-bmp-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Convert_ToGif",
+      "Name": "Convert input image to GIF format",
+      "Description": "Converts the input image into GIF format.  Supported input file formats include AAI, ART, ARW, AVS, BPG, BMP, BMP2, BMP3, BRF, CALS, CGM, CIN, CMYK, CMYKA, CR2, CRW, CUR, CUT, DCM, DCR, DCX, DDS, DIB, DJVU, DNG, DOT, DPX, EMF, EPDF, EPI, EPS, EPS2, EPS3, EPSF, EPSI, EPT, EXR, FAX, FIG, FITS, FPX, GIF, GPLT, GRAY, HDR, HEIC, HPGL, HRZ, ICO, ISOBRL, ISBRL6, JBIG, JNG, JP2, JPT, J2C, J2K, JPEG/JPG, JXR, MAT, MONO, MNG, M2V, MRW, MTV, NEF, ORF, OTB, P7, PALM, PAM, PBM, PCD, PCDS, PCL, PCX, PDF, PEF, PES, PFA, PFB, PFM, PGM, PICON, PICT, PIX, PNG, PNG8, PNG00, PNG24, PNG32, PNG48, PNG64, PNM, PPM, PSB, PSD, PTIF, PWB, RAD, RAF, RGB, RGBA, RGF, RLA, RLE, SCT, SFW, SGI, SID, SUN, SVG, TGA, TIFF, TIM, UIL, VIFF, VICAR, VBMP, WDP, WEBP, WPG, X, XBM, XCF, XPM, XWD, X3F, YCbCr, YCbCrA, YUV.",
+      "Anchor": "#convert-input-image-to-gif-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Convert_ToJpg",
+      "Name": "Convert input image to JPG, JPEG format",
+      "Description": "Converts the input image into JPEG/JPG format.  Customize encoding parameters.  Supported input file formats include AAI, ART, ARW, AVS, BPG, BMP, BMP2, BMP3, BRF, CALS, CGM, CIN, CMYK, CMYKA, CR2, CRW, CUR, CUT, DCM, DCR, DCX, DDS, DIB, DJVU, DNG, DOT, DPX, EMF, EPDF, EPI, EPS, EPS2, EPS3, EPSF, EPSI, EPT, EXR, FAX, FIG, FITS, FPX, GIF, GPLT, GRAY, HDR, HEIC, HPGL, HRZ, ICO, ISOBRL, ISBRL6, JBIG, JNG, JP2, JPT, J2C, J2K, JPEG/JPG, JXR, MAT, MONO, MNG, M2V, MRW, MTV, NEF, ORF, OTB, P7, PALM, PAM, PBM, PCD, PCDS, PCL, PCX, PDF, PEF, PES, PFA, PFB, PFM, PGM, PICON, PICT, PIX, PNG, PNG8, PNG00, PNG24, PNG32, PNG48, PNG64, PNM, PPM, PSB, PSD, PTIF, PWB, RAD, RAF, RGB, RGBA, RGF, RLA, RLE, SCT, SFW, SGI, SID, SUN, SVG, TGA, TIFF, TIM, UIL, VIFF, VICAR, VBMP, WDP, WEBP, WPG, X, XBM, XCF, XPM, XWD, X3F, YCbCr, YCbCrA, YUV.",
+      "Anchor": "#convert-input-image-to-jpg,-jpeg-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Convert_ToPhotoshop",
+      "Name": "Convert input image to Photoshop PSD format",
+      "Description": "Converts the input image into PSD format.  Supported input file formats include AAI, ART, ARW, AVS, BPG, BMP, BMP2, BMP3, BRF, CALS, CGM, CIN, CMYK, CMYKA, CR2, CRW, CUR, CUT, DCM, DCR, DCX, DDS, DIB, DJVU, DNG, DOT, DPX, EMF, EPDF, EPI, EPS, EPS2, EPS3, EPSF, EPSI, EPT, EXR, FAX, FIG, FITS, FPX, GIF, GPLT, GRAY, HDR, HEIC, HPGL, HRZ, ICO, ISOBRL, ISBRL6, JBIG, JNG, JP2, JPT, J2C, J2K, JPEG/JPG, JXR, MAT, MONO, MNG, M2V, MRW, MTV, NEF, ORF, OTB, P7, PALM, PAM, PBM, PCD, PCDS, PCL, PCX, PDF, PEF, PES, PFA, PFB, PFM, PGM, PICON, PICT, PIX, PNG, PNG8, PNG00, PNG24, PNG32, PNG48, PNG64, PNM, PPM, PSB, PSD, PTIF, PWB, RAD, RAF, RGB, RGBA, RGF, RLA, RLE, SCT, SFW, SGI, SID, SUN, SVG, TGA, TIFF, TIM, UIL, VIFF, VICAR, VBMP, WDP, WEBP, WPG, X, XBM, XCF, XPM, XWD, X3F, YCbCr, YCbCrA, YUV.",
+      "Anchor": "#convert-input-image-to-photoshop-psd-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Convert_ToPng",
+      "Name": "Convert input image to PNG format",
+      "Description": "Converts the input image into PNG format.  Transparency is preserved when present.  Supported input file formats include AAI, ART, ARW, AVS, BPG, BMP, BMP2, BMP3, BRF, CALS, CGM, CIN, CMYK, CMYKA, CR2, CRW, CUR, CUT, DCM, DCR, DCX, DDS, DIB, DJVU, DNG, DOT, DPX, EMF, EPDF, EPI, EPS, EPS2, EPS3, EPSF, EPSI, EPT, EXR, FAX, FIG, FITS, FPX, GIF, GPLT, GRAY, HDR, HEIC, HPGL, HRZ, ICO, ISOBRL, ISBRL6, JBIG, JNG, JP2, JPT, J2C, J2K, JPEG/JPG, JXR, MAT, MONO, MNG, M2V, MRW, MTV, NEF, ORF, OTB, P7, PALM, PAM, PBM, PCD, PCDS, PCL, PCX, PDF, PEF, PES, PFA, PFB, PFM, PGM, PICON, PICT, PIX, PNG, PNG8, PNG00, PNG24, PNG32, PNG48, PNG64, PNM, PPM, PSB, PSD, PTIF, PWB, RAD, RAF, RGB, RGBA, RGF, RLA, RLE, SCT, SFW, SGI, SID, SUN, SVG, TGA, TIFF, TIM, UIL, VIFF, VICAR, VBMP, WDP, WEBP, WPG, X, XBM, XCF, XPM, XWD, X3F, YCbCr, YCbCrA, YUV.",
+      "Anchor": "#convert-input-image-to-png-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Convert_ToTiff",
+      "Name": "Convert input image to TIFF format",
+      "Description": "Converts the input image into TIFF format.  Supported input file formats include AAI, ART, ARW, AVS, BPG, BMP, BMP2, BMP3, BRF, CALS, CGM, CIN, CMYK, CMYKA, CR2, CRW, CUR, CUT, DCM, DCR, DCX, DDS, DIB, DJVU, DNG, DOT, DPX, EMF, EPDF, EPI, EPS, EPS2, EPS3, EPSF, EPSI, EPT, EXR, FAX, FIG, FITS, FPX, GIF, GPLT, GRAY, HDR, HEIC, HPGL, HRZ, ICO, ISOBRL, ISBRL6, JBIG, JNG, JP2, JPT, J2C, J2K, JPEG/JPG, JXR, MAT, MONO, MNG, M2V, MRW, MTV, NEF, ORF, OTB, P7, PALM, PAM, PBM, PCD, PCDS, PCL, PCX, PDF, PEF, PES, PFA, PFB, PFM, PGM, PICON, PICT, PIX, PNG, PNG8, PNG00, PNG24, PNG32, PNG48, PNG64, PNM, PPM, PSB, PSD, PTIF, PWB, RAD, RAF, RGB, RGBA, RGF, RLA, RLE, SCT, SFW, SGI, SID, SUN, SVG, TGA, TIFF, TIM, UIL, VIFF, VICAR, VBMP, WDP, WEBP, WPG, X, XBM, XCF, XPM, XWD, X3F, YCbCr, YCbCrA, YUV.",
+      "Anchor": "#convert-input-image-to-tiff-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Convert_ToWebP",
+      "Name": "Convert input image to WebP format",
+      "Description": "Converts the input image into WebP format.  Supported input file formats include AAI, ART, ARW, AVS, BPG, BMP, BMP2, BMP3, BRF, CALS, CGM, CIN, CMYK, CMYKA, CR2, CRW, CUR, CUT, DCM, DCR, DCX, DDS, DIB, DJVU, DNG, DOT, DPX, EMF, EPDF, EPI, EPS, EPS2, EPS3, EPSF, EPSI, EPT, EXR, FAX, FIG, FITS, FPX, GIF, GPLT, GRAY, HDR, HEIC, HPGL, HRZ, ICO, ISOBRL, ISBRL6, JBIG, JNG, JP2, JPT, J2C, J2K, JPEG/JPG, JXR, MAT, MONO, MNG, M2V, MRW, MTV, NEF, ORF, OTB, P7, PALM, PAM, PBM, PCD, PCDS, PCL, PCX, PDF, PEF, PES, PFA, PFB, PFM, PGM, PICON, PICT, PIX, PNG, PNG8, PNG00, PNG24, PNG32, PNG48, PNG64, PNM, PPM, PSB, PSD, PTIF, PWB, RAD, RAF, RGB, RGBA, RGF, RLA, RLE, SCT, SFW, SGI, SID, SUN, SVG, TGA, TIFF, TIM, UIL, VIFF, VICAR, VBMP, WDP, WEBP, WPG, X, XBM, XCF, XPM, XWD, X3F, YCbCr, YCbCrA, YUV.",
+      "Anchor": "#convert-input-image-to-webp-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit_AutoOrient",
+      "Name": "Normalizes image rotation and removes EXIF rotation data",
+      "Description": "Automatically orients the input image based on EXIF information and then removes the EXIF information.  EXIF is an additional set of information stored in some images taken with cell phone cameras based on the orientation of the camera.  By normalizing rotation and removing EXIF data these images become much easier to process.",
+      "Anchor": "#normalizes-image-rotation-and-removes-exif-rotation-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit_CompositeBasic",
+      "Name": "Composite two images together",
+      "Description": "Composites two input images together; a layered image onto a base image.  The first image you input is the base image.  The second image (the layered image) will be composited on top of this base image.  Supports PNG transparency.  To control padding you can include transparent pixels at the border(s) of your layered images as appropriate.",
+      "Anchor": "#composite-two-images-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit_ContrastAdaptive",
+      "Name": "Adaptively adjust the contrast of the image to be more appealing and easy to see",
+      "Description": "Uses Gamma to adjust the contrast adaptively the way the human eye sees the world.  Results significantly improve the viewability and visual appeal of the image.",
+      "Anchor": "#adaptively-adjust-the-contrast-of-the-image-to-be-more-appealing-and-easy-to-see",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit_CropRectangle",
+      "Name": "Crop an image to a rectangular area",
+      "Description": "Crop an image to a target rectangular area",
+      "Anchor": "#crop-an-image-to-a-rectangular-area",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit_DrawPolygon",
+      "Name": "Draw a polygon onto an image",
+      "Description": "Draw one or more polygons, with customized visuals, onto an image",
+      "Anchor": "#draw-a-polygon-onto-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit_DrawRectangle",
+      "Name": "Draw a rectangle onto an image",
+      "Description": "Draw one or more rectangles, with customized visuals, onto an image",
+      "Anchor": "#draw-a-rectangle-onto-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit_DrawText",
+      "Name": "Draw text onto an image",
+      "Description": "Draw one or more pieces of text, with customized visuals, onto an image",
+      "Anchor": "#draw-text-onto-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit_DropShadow",
+      "Name": "Add a customizeable drop shadow to an image",
+      "Description": "Add a customizeable drop shadow to the image",
+      "Anchor": "#add-a-customizeable-drop-shadow-to-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit_RemoveTransparency",
+      "Name": "Remove transparency from the image",
+      "Description": "Removes any active transparency in the image.  Effectively renders the image at the same resolution, in the same file format, over a white background, thus removing transparency.",
+      "Anchor": "#remove-transparency-from-the-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit_Rotate",
+      "Name": "Rotate an image any number of degrees",
+      "Description": "Rotates an image by an arbitrary number of degrees",
+      "Anchor": "#rotate-an-image-any-number-of-degrees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Face_Compare",
+      "Name": "Compare and match faces",
+      "Description": "Find the faces in an input image, and compare against a reference image to determine if there is a match against the face in the reference image.  The reference image (second parameter) should contain exactly one face.",
+      "Anchor": "#compare-and-match-faces",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Face_CropFirst",
+      "Name": "Crop image to face with square crop",
+      "Description": "Crop an image to the face (rectangular crop).  If there is more than one face present, choose the first one.",
+      "Anchor": "#crop-image-to-face-with-square-crop",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Face_CropFirstRound",
+      "Name": "Crop image to face with round crop",
+      "Description": "Crop an image to the face (circular/round crop).  If there is more than one face present, choose the first one.",
+      "Anchor": "#crop-image-to-face-with-round-crop",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Face_DetectAge",
+      "Name": "Detect the age of people in an image",
+      "Description": "Identify the age, position, and size of human faces in an image, along with a recognition confidence level.  People in the image do NOT need to be facing the camera; they can be facing away, edge-on, etc.",
+      "Anchor": "#detect-the-age-of-people-in-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Face_DetectGender",
+      "Name": "Detect the gender of people in an image",
+      "Description": "Identify the gender, position, and size of human faces in an image, along with a recognition confidence level.  People in the image should be facing the camera.",
+      "Anchor": "#detect-the-gender-of-people-in-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Face_Locate",
+      "Name": "Detect and find faces in an image",
+      "Description": "Locate the positions of all faces in an image",
+      "Anchor": "#detect-and-find-faces-in-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Face_LocateWithLandmarks",
+      "Name": "Detect and find faces and landmarks eyes and nose and mouth in image",
+      "Description": "Locate the positions of all faces in an image, along with the eyes, eye brows, nose and mouth components of each",
+      "Anchor": "#detect-and-find-faces-and-landmarks-eyes-and-nose-and-mouth-in-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Filter_BlackAndWhite",
+      "Name": "Convert image to black-and-white grayscale",
+      "Description": "Remove color from the image by converting to a grayscale, black-and-white image",
+      "Anchor": "#convert-image-to-black-and-white-grayscale",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Filter_Despeckle",
+      "Name": "Despeckle to remove point noise from the image",
+      "Description": "Remove point noise / despeckle the input image",
+      "Anchor": "#despeckle-to-remove-point-noise-from-the-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Filter_EdgeDetect",
+      "Name": "Detect and highlight edges in an image",
+      "Description": "Perform an edge detection operation on the input image",
+      "Anchor": "#detect-and-highlight-edges-in-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Filter_Emboss",
+      "Name": "Emboss an image",
+      "Description": "Perform an emboss operation on the input image",
+      "Anchor": "#emboss-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Filter_GaussianBlur",
+      "Name": "Perform a guassian blur on the input image",
+      "Description": "Perform a gaussian blur on the input image",
+      "Anchor": "#perform-a-guassian-blur-on-the-input-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Filter_MotionBlur",
+      "Name": "Perform a motion blur on the input image",
+      "Description": "Perform a motion blur on the input image at a specific angle",
+      "Anchor": "#perform-a-motion-blur-on-the-input-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Filter_Posterize",
+      "Name": "Posterize the image by reducing distinct colors",
+      "Description": "Reduce the unique number of colors in the image to the specified level",
+      "Anchor": "#posterize-the-image-by-reducing-distinct-colors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Filter_Swirl",
+      "Name": "Swirl distort the image",
+      "Description": "Swirl distort the image by the specified number of degrees",
+      "Anchor": "#swirl-distort-the-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Info_GetDominantColor",
+      "Name": "Returns the dominant colors of the image",
+      "Description": "Uses advanced image processing to extract the top 5 dominant colors in the image, returned in the order of dominance with the most-dominant color first.  These are the primary perceptual colors used in the image as perceived by a viewer.",
+      "Anchor": "#returns-the-dominant-colors-of-the-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Info_GetMetadata",
+      "Name": "Returns the image metadata including EXIF and resolution",
+      "Description": "Returns the metadata information on the image, including file type, EXIF (if available), and resolution.",
+      "Anchor": "#returns-the-image-metadata-including-exif-and-resolution",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Nsfw_Classify",
+      "Name": "Not safe for work NSFW racy content classification",
+      "Description": "Classify an image into Not Safe For Work (NSFW)/Porn/Racy content and Safe Content.",
+      "Anchor": "#not-safe-for-work-nsfw-racy-content-classification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Recognize_Describe",
+      "Name": "Describe an image in natural language",
+      "Description": "Generate an English language text description of the image as a sentence.",
+      "Anchor": "#describe-an-image-in-natural-language",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Recognize_DetectAndUnskewDocument",
+      "Name": "Detect and unskew a photo of a document",
+      "Description": "Detect and unskew a photo of a document (e.g. taken on a cell phone) into a perfectly square image.  Great for document scanning applications; once unskewed, this image is perfect for converting to PDF using the Convert API or optical character recognition using the OCR API.",
+      "Anchor": "#detect-and-unskew-a-photo-of-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Recognize_DetectObjects",
+      "Name": "Detect objects including types and locations in an image",
+      "Description": "Identify the position, size and description of objects in an image, along with a recognition confidence level.  Detects both human people and objects in an image.",
+      "Anchor": "#detect-objects-including-types-and-locations-in-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Recognize_DetectPeople",
+      "Name": "Detect people including locations in an image",
+      "Description": "Identify the position, and size of human people in an image, along with a recognition confidence level.  People in the image do NOT need to be facing the camera; they can be facing away, edge-on, etc.",
+      "Anchor": "#detect-people-including-locations-in-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Recognize_DetectTextFine",
+      "Name": "Detect fine text in a photo of a document",
+      "Description": "Identify the position, and size of small/fine text within a photograph of a document.  Identify the location of small text in a photo - such as words and other forms of high density text.  Can be used on a scan of a document or a photograph (e.g. smartphone camera) of a document, page or receipt.  For OCR purposes - please see our Deep Learning OCR APIs.",
+      "Anchor": "#detect-fine-text-in-a-photo-of-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Recognize_DetectTextLarge",
+      "Name": "Detect large text in a photo",
+      "Description": "Identify the position, and size of large text within a photograph.  Identify the location of large text in a photo - such as signs, titles, etc. and other forms of large, low-density text.  Not suitable for high-density text (e.g. scans of documents, receipts, etc.) for OCR purposes - for OCR, please see our Deep Learning OCR APIs.",
+      "Anchor": "#detect-large-text-in-a-photo",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Recognize_DetectVehicleLicensePlates",
+      "Name": "Detect vehicle license plates in an image",
+      "Description": "Identify the position, and size, and content of vehicle license plates in an image.  License plates should be within 15-20 degrees on-axis to the camera.",
+      "Anchor": "#detect-vehicle-license-plates-in-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Recognize_FindSymbol",
+      "Name": "Find the location of a symbol in an image",
+      "Description": "Determine if an image contains a symbol, and if so, the location of that symbol in the image.",
+      "Anchor": "#find-the-location-of-a-symbol-in-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Resize_Post",
+      "Name": "Resize an image while preserving aspect ratio",
+      "Description": "Resize an image to a maximum width and maximum height, while preserving the image's original aspect ratio",
+      "Anchor": "#resize-an-image-while-preserving-aspect-ratio",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Resize_ResizeSimple",
+      "Name": "Resize an image",
+      "Description": "Resize an image to a specific width and specific height",
+      "Anchor": "#resize-an-image",
+      "IsDeprecated": false
+    }
+  ]
+}

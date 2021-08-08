@@ -1,0 +1,265 @@
+{
+  "UniqueName": "egnyte",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../egnyte/",
+  "Actions": [
+    {
+      "OperationId": "copyFileById",
+      "Name": "Copy File By Id",
+      "Description": "Copy a file by using an id.",
+      "Anchor": "#copy-file-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "copyFileByPath",
+      "Name": "Copy File By Path",
+      "Description": "Copy a file by using a path.",
+      "Anchor": "#copy-file-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "copyFolderById",
+      "Name": "Copy Folder By Id",
+      "Description": "Copy a folder using an id.",
+      "Anchor": "#copy-folder-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "copyFolderByPath",
+      "Name": "Copy Folder By Path",
+      "Description": "Copy a folder by using a path.",
+      "Anchor": "#copy-folder-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createFile",
+      "Name": "Create file",
+      "Description": "Uploads a file to Egnyte.",
+      "Anchor": "#create-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createFolder",
+      "Name": "Create Folder",
+      "Description": "Create a folder in Egnyte.",
+      "Anchor": "#create-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "deleteFileById",
+      "Name": "Delete File By Id",
+      "Description": "Delete a file using an id.",
+      "Anchor": "#delete-file-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "deleteFileByPath",
+      "Name": "Delete File By Path",
+      "Description": "Delete a file using a path.",
+      "Anchor": "#delete-file-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "deleteFolderById",
+      "Name": "Delete Folder By Id",
+      "Description": "Delete a folder using an id.",
+      "Anchor": "#delete-folder-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "deleteFolderByPath",
+      "Name": "Delete Folder By Path",
+      "Description": "Delete a folder using a path.",
+      "Anchor": "#delete-folder-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "fileInfoById",
+      "Name": "File Info By Id",
+      "Description": "Retrieve file info using file id.",
+      "Anchor": "#file-info-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "fileInfoByPath",
+      "Name": "File Info By Path",
+      "Description": "Retrieve file info using path.",
+      "Anchor": "#file-info-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "folderInfoById",
+      "Name": "Folder Info By Id",
+      "Description": "Retrieve folder info using id.",
+      "Anchor": "#folder-info-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "folderInfoByPath",
+      "Name": "Folder Info By Path",
+      "Description": "Retrieve folder info using path.",
+      "Anchor": "#folder-info-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getFileContentById",
+      "Name": "Get file content by id",
+      "Description": "Retrieves the file content from Egnyte using id.",
+      "Anchor": "#get-file-content-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getFileContentByPath",
+      "Name": "Get file content by path",
+      "Description": "Retrieves the file contents from Egnyte using path.",
+      "Anchor": "#get-file-content-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "lockFileById",
+      "Name": "Lock File By Id",
+      "Description": "Lock file using id.",
+      "Anchor": "#lock-file-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "lockFileByPath",
+      "Name": "Lock File By Path",
+      "Description": "Lock file using path.",
+      "Anchor": "#lock-file-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "moveFileById",
+      "Name": "Move File By Id",
+      "Description": "Move a file in Egnyte using file id.",
+      "Anchor": "#move-file-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "moveFileByPath",
+      "Name": "Move File By Path",
+      "Description": "Move a file in Egnyte using path.",
+      "Anchor": "#move-file-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "moveFolderById",
+      "Name": "Move Folder By Id",
+      "Description": "Move a folder using id.",
+      "Anchor": "#move-folder-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "moveFolderByPath",
+      "Name": "Move Folder By Path",
+      "Description": "Move a folder in Egnyte using path.",
+      "Anchor": "#move-folder-by-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pollCopiedFiles",
+      "Name": "When a file is copied (properties)",
+      "Description": "This operation triggers a flow when a file is copied in a folder.",
+      "Anchor": "#when-a-file-is-copied-(properties)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pollCopiedFolders",
+      "Name": "When a folder is copied (properties)",
+      "Description": "This operation triggers a flow when a sub-folder is copied in a folder.",
+      "Anchor": "#when-a-folder-is-copied-(properties)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pollCreatedFiles",
+      "Name": "When a file is created (properties)",
+      "Description": "This operation triggers a flow when a new file is created in a folder.",
+      "Anchor": "#when-a-file-is-created-(properties)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pollCreatedFolders",
+      "Name": "When a folder is created (properties)",
+      "Description": "This operation triggers a flow when a sub-folder is created in a folder.",
+      "Anchor": "#when-a-folder-is-created-(properties)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pollDeletedFiles",
+      "Name": "When a file is deleted (properties)",
+      "Description": "This operation triggers a flow when a file is deleted in a folder.",
+      "Anchor": "#when-a-file-is-deleted-(properties)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pollDeletedFolders",
+      "Name": "When a folder is deleted (properties)",
+      "Description": "This operation triggers a flow when a sub-folder is deleted in a folder.",
+      "Anchor": "#when-a-folder-is-deleted-(properties)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pollMovedFiles",
+      "Name": "When a file is moved (properties)",
+      "Description": "This operation triggers a flow when a file is moved in a folder.",
+      "Anchor": "#when-a-file-is-moved-(properties)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pollMovedFolders",
+      "Name": "When a folder is moved (properties)",
+      "Description": "This operation triggers a flow when a sub-folder is moved in a folder.",
+      "Anchor": "#when-a-folder-is-moved-(properties)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pollRenamedFiles",
+      "Name": "When a file is renamed (properties)",
+      "Description": "This operation triggers a flow when a file is renamed in a folder.",
+      "Anchor": "#when-a-file-is-renamed-(properties)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pollRenamedFolders",
+      "Name": "When a folder is renamed (properties)",
+      "Description": "This operation triggers a flow when a sub-folder is renamed in a folder.",
+      "Anchor": "#when-a-folder-is-renamed-(properties)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "setMetadataByFileId",
+      "Name": "Set Metadata By File Id",
+      "Description": "Write metadata to a file by using file id.",
+      "Anchor": "#set-metadata-by-file-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "shareFile",
+      "Name": "Share File",
+      "Description": "Share a file in Egnyte.",
+      "Anchor": "#share-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "shareFolder",
+      "Name": "Share Folder",
+      "Description": "Share a folder in Egnyte.",
+      "Anchor": "#share-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "unlockFileById",
+      "Name": "Unlock File By Id",
+      "Description": "Unlock file using id.",
+      "Anchor": "#unlock-file-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "unlockFileByPath",
+      "Name": "Unlock File By Path",
+      "Description": "Unlock file using path.",
+      "Anchor": "#unlock-file-by-path",
+      "IsDeprecated": false
+    }
+  ]
+}

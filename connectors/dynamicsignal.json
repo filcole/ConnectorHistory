@@ -1,0 +1,111 @@
+{
+  "UniqueName": "dynamicsignal",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamicsignal/",
+  "Actions": [
+    {
+      "OperationId": "AddImageToPost",
+      "Name": "Add an image to a post via URL",
+      "Description": "Sets the post image via a URL.",
+      "Anchor": "#add-an-image-to-a-post-via-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePost",
+      "Name": "Create a post",
+      "Description": "Creates a post.",
+      "Anchor": "#create-a-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCategories",
+      "Name": "Get categories",
+      "Description": "Gets a list of categories that are visible to the authenticated user",
+      "Anchor": "#get-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDivisions",
+      "Name": "Get divisions",
+      "Description": "Gets the list of divisions",
+      "Anchor": "#get-divisions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPost",
+      "Name": "Get a post",
+      "Description": "Gets a specific post by ID",
+      "Anchor": "#get-a-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPostTags",
+      "Name": "Get post tags",
+      "Description": "Gets the post tags defined in the system",
+      "Anchor": "#get-post-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTargets",
+      "Name": "Get targets",
+      "Description": "Gets a list of the community's targets and target definitions",
+      "Anchor": "#get-targets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserByEmail",
+      "Name": "Get a user by email",
+      "Description": "Retrieves a user by their email address",
+      "Anchor": "#get-a-user-by-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserTags",
+      "Name": "Get user tags",
+      "Description": "Gets a list of user tags defined in the system",
+      "Anchor": "#get-user-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ManageImage",
+      "Name": "Upload image",
+      "Description": "Uploads an image via binary upload",
+      "Anchor": "#upload-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ManagePosts",
+      "Name": "Manage posts",
+      "Description": "Allows server-authenticated calls to update properties for multiple posts in a single request",
+      "Anchor": "#manage-posts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PreregisterUser",
+      "Name": "Preregister a user",
+      "Description": "Creates a new user in the preregistered state",
+      "Anchor": "#preregister-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PutDocument",
+      "Name": "Upload a document to a post",
+      "Description": "Uploads a document to a post via binary upload",
+      "Anchor": "#upload-a-document-to-a-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PutImageToPost",
+      "Name": "Add an image to a post via upload",
+      "Description": "Sets the post image via binary upload.",
+      "Anchor": "#add-an-image-to-a-post-via-upload",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatePost",
+      "Name": "Update a post",
+      "Description": "Edits an existing post.",
+      "Anchor": "#update-a-post",
+      "IsDeprecated": false
+    }
+  ]
+}

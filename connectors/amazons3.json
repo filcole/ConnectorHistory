@@ -1,0 +1,41 @@
+{
+  "UniqueName": "amazons3",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../amazons3/",
+  "Actions": [
+    {
+      "OperationId": "GetObjectContent",
+      "Name": "Get S3 object content",
+      "Description": "Gets the content of an S3 object.",
+      "Anchor": "#get-s3-object-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetObjectMetadata",
+      "Name": "Get S3 object metadata",
+      "Description": "Gets the metadata of an S3 object.",
+      "Anchor": "#get-s3-object-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBuckets",
+      "Name": "List S3 buckets",
+      "Description": "List S3 buckets.",
+      "Anchor": "#list-s3-buckets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListObjects",
+      "Name": "List S3 objects",
+      "Description": "List S3 objects in a bucket.",
+      "Anchor": "#list-s3-objects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnObjectUpdate",
+      "Name": "When an S3 object is updated",
+      "Description": "Gets the metadata of an S3 object.",
+      "Anchor": "#when-an-s3-object-is-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

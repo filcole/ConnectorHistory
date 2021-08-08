@@ -1,0 +1,13 @@
+{
+  "UniqueName": "knowledgelake",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../knowledgelake/",
+  "Actions": [
+    {
+      "OperationId": "ImportJobsPost",
+      "Name": "Calls a KnowledgeLake RPA process",
+      "Description": "Call a KnowledgeLake RPA process",
+      "Anchor": "#calls-a-knowledgelake-rpa-process",
+      "IsDeprecated": false
+    }
+  ]
+}

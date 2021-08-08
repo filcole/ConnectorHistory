@@ -1,0 +1,20 @@
+{
+  "UniqueName": "azureloganalytics",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azureloganalytics/",
+  "Actions": [
+    {
+      "OperationId": "RunOmsQuery",
+      "Name": "Run query and list results [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Run query and list results instead.\nRuns the query and returns the result as a set of lines which can be iterated over in the following connectors.",
+      "Anchor": "#run-query-and-list-results-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "VisualizeOmsQuery",
+      "Name": "Run query and visualize results [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Run query and visualize results instead.\nReturns the OMS query results as a chart of your choice.",
+      "Anchor": "#run-query-and-visualize-results-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

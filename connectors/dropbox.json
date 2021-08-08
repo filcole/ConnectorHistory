@@ -1,0 +1,111 @@
+{
+  "UniqueName": "dropbox",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dropbox/",
+  "Actions": [
+    {
+      "OperationId": "CopyFile",
+      "Name": "Copy file",
+      "Description": "This operation copies a file to Dropbox.",
+      "Anchor": "#copy-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFile",
+      "Name": "Create file",
+      "Description": "This operation creates a file in a folder.",
+      "Anchor": "#create-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFile",
+      "Name": "Delete file",
+      "Description": "This operation deletes a file.",
+      "Anchor": "#delete-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractFolderV2",
+      "Name": "Extract archive to folder",
+      "Description": "This operation extracts an archive file into a folder (example: .zip).",
+      "Anchor": "#extract-archive-to-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContent",
+      "Name": "Get file content",
+      "Description": "This operation gets the content of a file.",
+      "Anchor": "#get-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContentByPath",
+      "Name": "Get file content using path",
+      "Description": "This operation gets the content of a file using the path.",
+      "Anchor": "#get-file-content-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadata",
+      "Name": "Get file metadata",
+      "Description": "This operation gets the metadata for a file.",
+      "Anchor": "#get-file-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadataByPath",
+      "Name": "Get file metadata using path",
+      "Description": "This operation gets the metadata of a file using the path.",
+      "Anchor": "#get-file-metadata-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFolder",
+      "Name": "List files in folder",
+      "Description": "This operation gets the list of files and subfolders in a folder.",
+      "Anchor": "#list-files-in-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRootFolder",
+      "Name": "List files in root folder",
+      "Description": "This operation gets the list of files and subfolders in the root folder.",
+      "Anchor": "#list-files-in-root-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewFile",
+      "Name": "When a file is created",
+      "Description": "This operation triggers a flow when a new file is created in a folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-file-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewFiles",
+      "Name": "When a file is created (properties only)",
+      "Description": "This operation triggers a flow when a new file is created in a folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-file-is-created-(properties-only)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedFile",
+      "Name": "When a file is modified",
+      "Description": "This operation triggers a flow when a file is modified in a folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-file-is-modified",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedFiles",
+      "Name": "When a file is modified (properties only)",
+      "Description": "This operation triggers a flow when a file is modified in a folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-file-is-modified-(properties-only)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFile",
+      "Name": "Update file",
+      "Description": "This operation updates a file.",
+      "Anchor": "#update-file",
+      "IsDeprecated": false
+    }
+  ]
+}

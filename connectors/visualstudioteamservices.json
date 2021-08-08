@@ -1,0 +1,223 @@
+{
+  "UniqueName": "visualstudioteamservices",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../visualstudioteamservices/",
+  "Actions": [
+    {
+      "OperationId": "CreateRelease",
+      "Name": "Create a new release",
+      "Description": "Create a release, based on an existing release definition.",
+      "Anchor": "#create-a-new-release",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkItem",
+      "Name": "Create a work item",
+      "Description": "Create a new work item with the provided attributes.",
+      "Anchor": "#create-a-work-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetQueryResults",
+      "Name": "Get query results [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get query results instead.\nRetrieves the result of a work item query.",
+      "Anchor": "#get-query-results-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetQueryResultsV2",
+      "Name": "Get query results",
+      "Description": "Retrieves the result of a work item query.",
+      "Anchor": "#get-query-results",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWorkItemChildren",
+      "Name": "Get work item children",
+      "Description": "Get a list of children (max size 1000) of a single work item.",
+      "Anchor": "#get-work-item-children",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWorkItemDetails",
+      "Name": "Get work item details",
+      "Description": "Get the details of a single work item.",
+      "Anchor": "#get-work-item-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HttpRequest",
+      "Name": "Send an HTTP request to Azure DevOps",
+      "Description": "Construct an Azure DevOps REST API request to invoke. Please refer to the following link for all available endpoints: https://docs.microsoft.com/rest/api/azure/devops",
+      "Anchor": "#send-an-http-request-to-azure-devops",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAccounts",
+      "Name": "List Organizations",
+      "Description": "Retrieves the list of Organizations the user is a member of.",
+      "Anchor": "#list-organizations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGitRepositories",
+      "Name": "List Git repositories",
+      "Description": "Retrieves the list of Git repositories in a project.",
+      "Anchor": "#list-git-repositories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListIterations",
+      "Name": "List iterations",
+      "Description": "Retrieves the list of iterations for a project.",
+      "Anchor": "#list-iterations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProjects",
+      "Name": "List projects",
+      "Description": "Retrieves the list of projects in an Organization.",
+      "Anchor": "#list-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListQueriesInFolder",
+      "Name": "List queries within folder",
+      "Description": "Retrieves the list of work item queries within a folder for a given project.",
+      "Anchor": "#list-queries-within-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListReleaseDefinitions",
+      "Name": "List release definitions",
+      "Description": "Retrieves the list of release definitions associated with a project.",
+      "Anchor": "#list-release-definitions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRootQueryFolders",
+      "Name": "List root level queries",
+      "Description": "Retrieves the list of root-level work item queries in a project.",
+      "Anchor": "#list-root-level-queries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListWorkItems",
+      "Name": "List work items",
+      "Description": "Returns a list of work items.",
+      "Anchor": "#list-work-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListWorkItemTypes",
+      "Name": "List work item types",
+      "Description": "Retrieves the list of Work Item Types accessible in a given Azure DevOps project.",
+      "Anchor": "#list-work-item-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnBuildCompleted",
+      "Name": "When a build completes",
+      "Description": "Triggers a flow when a build completes.",
+      "Anchor": "#when-a-build-completes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnGitPullClosed",
+      "Name": "When a pull request is closed (Git)",
+      "Description": "Triggers a flow when a pull request which matches provided criteria is closed.",
+      "Anchor": "#when-a-pull-request-is-closed-(git)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnGitPullCreated",
+      "Name": "When a pull request is created (Git)",
+      "Description": "Triggers a flow when a pull request which matches provided criteria is created.",
+      "Anchor": "#when-a-pull-request-is-created-(git)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnGitPush",
+      "Name": "When code is pushed (Git)",
+      "Description": "Triggers a flow when code is pushed to a Git repository.",
+      "Anchor": "#when-code-is-pushed-(git)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTfvcCheckIn",
+      "Name": "When code is checked in (TFVC)",
+      "Description": "Triggers a flow when code is checked in to a Team Foundation Version Control project.",
+      "Anchor": "#when-code-is-checked-in-(tfvc)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnWorkItemAssigned",
+      "Name": "When a work item is assigned [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a work item is assigned instead.\nTriggers a flow when a work item which matches provided criteria is assigned to the given user.",
+      "Anchor": "#when-a-work-item-is-assigned-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnWorkItemAssignedV2",
+      "Name": "When a work item is assigned",
+      "Description": "Triggers a flow when a work item which matches provided criteria is assigned to the given user.",
+      "Anchor": "#when-a-work-item-is-assigned",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnWorkItemClosed",
+      "Name": "When a work item is closed [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a work item is closed instead.\nTriggers a flow when a work item which matches provided criteria is closed.",
+      "Anchor": "#when-a-work-item-is-closed-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnWorkItemClosedV2",
+      "Name": "When a work item is closed",
+      "Description": "Triggers a flow when a work item which matches provided criteria is closed.",
+      "Anchor": "#when-a-work-item-is-closed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnWorkItemCreated",
+      "Name": "When a work item is created [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a work item is created instead.\nTriggers a flow when a work item which matches provided criteria is created.",
+      "Anchor": "#when-a-work-item-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnWorkItemCreatedV2",
+      "Name": "When a work item is created",
+      "Description": "Triggers a flow when a work item which matches provided criteria is created.",
+      "Anchor": "#when-a-work-item-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnWorkItemUpdated",
+      "Name": "When a work item is updated [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a work item is updated instead.\nTriggers a flow when a work item which matches provided criteria is updated.",
+      "Anchor": "#when-a-work-item-is-updated-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnWorkItemUpdatedV2",
+      "Name": "When a work item is updated",
+      "Description": "Triggers a flow when a work item which matches provided criteria is updated.",
+      "Anchor": "#when-a-work-item-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QueueNewBuild",
+      "Name": "Queue a new build",
+      "Description": "Create a build, based on an existing build definition, and add it to the build queue.",
+      "Anchor": "#queue-a-new-build",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateWorkItem",
+      "Name": "Update a work item",
+      "Description": "Update an existing work item by id.",
+      "Anchor": "#update-a-work-item",
+      "IsDeprecated": false
+    }
+  ]
+}

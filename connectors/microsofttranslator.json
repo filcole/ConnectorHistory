@@ -1,0 +1,41 @@
+{
+  "UniqueName": "microsofttranslator",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../microsofttranslator/",
+  "Actions": [
+    {
+      "OperationId": "Detect",
+      "Name": "Detect language [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Detect language instead.\nDetects the source language of the given text.",
+      "Anchor": "#detect-language-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "Languages",
+      "Name": "Get languages [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get languages instead.\nRetrieves all languages that Microsoft Translator supports.",
+      "Anchor": "#get-languages-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SpeechLanguages",
+      "Name": "Get speech languages [DEPRECATED]",
+      "Description": "Retrieves the languages available for speech synthesis.",
+      "Anchor": "#get-speech-languages-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "TextToSpeech",
+      "Name": "Text to speech [DEPRECATED]",
+      "Description": "Converts a given text into speech as an audio stream in wave format.",
+      "Anchor": "#text-to-speech-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "Translate",
+      "Name": "Translate text [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Translate text instead.\nTranslates text to a specified language using Microsoft Translator.",
+      "Anchor": "#translate-text-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

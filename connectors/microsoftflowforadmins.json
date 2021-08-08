@@ -1,0 +1,62 @@
+{
+  "UniqueName": "microsoftflowforadmins",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../microsoftflowforadmins/",
+  "Actions": [
+    {
+      "OperationId": "Disable-AdminFlow",
+      "Name": "Disable Flow as Admin",
+      "Description": "Disables a Flow.",
+      "Anchor": "#disable-flow-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit-AdminFlowOwnerRole",
+      "Name": "Edit Flow Owner Role as Admin",
+      "Description": "Sets permissions for a Flow.",
+      "Anchor": "#edit-flow-owner-role-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Enable-AdminFlow",
+      "Name": "Enable Flow as Admin",
+      "Description": "Enables a Flow.",
+      "Anchor": "#enable-flow-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminFlowOwnerRole",
+      "Name": "Get Flow Owner Role as Admin",
+      "Description": "Returns permissions for a Flow.",
+      "Anchor": "#get-flow-owner-role-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminFlowUserDetails",
+      "Name": "Get Flow User Details",
+      "Description": "Returns the details of a specified user in the scope of Power Automate.",
+      "Anchor": "#get-flow-user-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove-AdminFlow",
+      "Name": "Remove Flow as Admin",
+      "Description": "Deletes a Flow.",
+      "Anchor": "#remove-flow-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove-AdminFlowApproval",
+      "Name": "Remove Flow Approval",
+      "Description": "Deletes Flow Approvals.",
+      "Anchor": "#remove-flow-approval",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove-AdminFlowUserDetails",
+      "Name": "Remove Flow User Details",
+      "Description": "Deletes a Power Automate user details record.",
+      "Anchor": "#remove-flow-user-details",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "UniqueName": "inoreader",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../inoreader/",
+  "Actions": [
+    {
+      "OperationId": "AddSubscription",
+      "Name": "Add subscription",
+      "Description": "Add a new subscription.",
+      "Anchor": "#add-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddSubscriptionToFolder",
+      "Name": "Add a subscription to a folder",
+      "Description": "Add a subscription to a specific folder.",
+      "Anchor": "#add-a-subscription-to-a-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTag",
+      "Name": "Delete tag",
+      "Description": "Delete a tag from the account.",
+      "Anchor": "#delete-tag",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditSubscription",
+      "Name": "Edit subscription",
+      "Description": "Edit the information for a specific subscription.",
+      "Anchor": "#edit-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUnreadCount",
+      "Name": "Get number of unread items",
+      "Description": "Get the number of unread items across all streams.",
+      "Anchor": "#get-number-of-unread-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUnreadCountForStream",
+      "Name": "Get number of unread items in a stream",
+      "Description": "Get the number of unread items for a specific stream.",
+      "Anchor": "#get-number-of-unread-items-in-a-stream",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewSubscription",
+      "Name": "When a new subscription is added",
+      "Description": "Triggers when a new subscription is added to your account.",
+      "Anchor": "#when-a-new-subscription-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUnreadItemCountForStreamExceedsTarget",
+      "Name": "When unread count reaches a target",
+      "Description": "Triggers when the number of unread items for a subscription reaches or exceeds the target value.",
+      "Anchor": "#when-unread-count-reaches-a-target",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveSubscriptionFromFolder",
+      "Name": "Remove a subscription from a folder",
+      "Description": "Remove a subscription from a specific folder.",
+      "Anchor": "#remove-a-subscription-from-a-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StreamContents",
+      "Name": "Stream contents",
+      "Description": "Lists the articles for a given collection.",
+      "Anchor": "#stream-contents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnsubscribeSubscription",
+      "Name": "Unsubscribe subscription",
+      "Description": "Unsubscribe from a subscription.",
+      "Anchor": "#unsubscribe-subscription",
+      "IsDeprecated": false
+    }
+  ]
+}

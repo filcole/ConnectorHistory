@@ -1,0 +1,104 @@
+{
+  "UniqueName": "azurequeues",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azurequeues/",
+  "Actions": [
+    {
+      "OperationId": "DeleteMessage",
+      "Name": "Delete message [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Delete message (V2) instead.\nDelete a specific message from the queue.",
+      "Anchor": "#delete-message-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DeleteMessage_V2",
+      "Name": "Delete message (V2)",
+      "Description": "Delete a specific message from the queue.",
+      "Anchor": "#delete-message-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessages",
+      "Name": "Get messages [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get messages (V2) instead.\nGet a specific set of messages from the queue. The messages will be hidden but remain on the queue until the delete action is used.",
+      "Anchor": "#get-messages-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetMessages_V2",
+      "Name": "Get messages (V2)",
+      "Description": "Get a specific set of messages from the queue. The messages will be hidden but remain on the queue until the delete action is used.",
+      "Anchor": "#get-messages-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListQueues",
+      "Name": "List queues [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List queues (V2) instead.\nList all the queues for your storage account.",
+      "Anchor": "#list-queues-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListQueues_V2",
+      "Name": "List queues (V2)",
+      "Description": "List all the queues for your storage account.",
+      "Anchor": "#list-queues-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnMessages",
+      "Name": "When there are messages in a queue [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When there are messages in a queue (V2) instead.\nTriggers any time there are messages in the queue, returning up to 32 messages. The messages will be hidden but remain on the queue until the delete action is used.",
+      "Anchor": "#when-there-are-messages-in-a-queue-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnMessages_V2",
+      "Name": "When there are messages in a queue (V2)",
+      "Description": "Triggers any time there are messages in the queue, returning up to 32 messages. The messages will be hidden but remain on the queue until the delete action is used.",
+      "Anchor": "#when-there-are-messages-in-a-queue-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnMessageThresholdReached",
+      "Name": "When a specified number of messages are in a given queue [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a specified number of messages are in a given queue (V2) instead.\nTriggers when a specified number of messages are in the given queue.",
+      "Anchor": "#when-a-specified-number-of-messages-are-in-a-given-queue-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnMessageThresholdReached_V2",
+      "Name": "When a specified number of messages are in a given queue (V2)",
+      "Description": "Triggers when a specified number of messages are in the given queue.",
+      "Anchor": "#when-a-specified-number-of-messages-are-in-a-given-queue-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PutMessage",
+      "Name": "Put a message on a queue [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Put a message on a queue (V2) instead.\nAdds a message to the given queue.",
+      "Anchor": "#put-a-message-on-a-queue-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PutMessage_V2",
+      "Name": "Put a message on a queue (V2)",
+      "Description": "Adds a message to the given queue.",
+      "Anchor": "#put-a-message-on-a-queue-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PutQueue",
+      "Name": "Create a new queue [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a new queue (V2) instead.\nAdds a queue to your account.",
+      "Anchor": "#create-a-new-queue-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PutQueue_V2",
+      "Name": "Create a new queue (V2)",
+      "Description": "Adds a queue to your account.",
+      "Anchor": "#create-a-new-queue-(v2)",
+      "IsDeprecated": false
+    }
+  ]
+}

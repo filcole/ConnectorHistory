@@ -1,0 +1,608 @@
+{
+  "UniqueName": "elfsquad",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../elfsquad/",
+  "Actions": [
+    {
+      "OperationId": "Categories_DeleteById",
+      "Name": "Delete category",
+      "Description": "Delete a category by its identifier",
+      "Anchor": "#delete-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Categories_Get",
+      "Name": "Get categories",
+      "Description": "Retrieves a list of all available categories",
+      "Anchor": "#get-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Categories_GetById",
+      "Name": "Get category by id",
+      "Description": "Retrieve a category by its identifier",
+      "Anchor": "#get-category-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Categories_Patch",
+      "Name": "Patch category",
+      "Description": "Update a category",
+      "Anchor": "#patch-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Categories_Post",
+      "Name": "Create category",
+      "Description": "Create a new category",
+      "Anchor": "#create-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Categories_Subcategories_GetById",
+      "Name": "Retrieve subcategories",
+      "Description": "Retrieve a list of available subcategories for a given category",
+      "Anchor": "#retrieve-subcategories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Categories_Update",
+      "Name": "Update category",
+      "Description": "Update a category",
+      "Anchor": "#update-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmAccounts_DeleteById",
+      "Name": "Delete CRM Account",
+      "Description": "Delete a CRM Account by it's id",
+      "Anchor": "#delete-crm-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmAccounts_Get",
+      "Name": "Get CRM Accounts",
+      "Description": "Retrieves a list of all avaible CRM Accounts",
+      "Anchor": "#get-crm-accounts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmAccounts_GetById",
+      "Name": "Get CRM Account by id",
+      "Description": "Retrieves a CRM Account by its identifier",
+      "Anchor": "#get-crm-account-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmAccounts_Patch",
+      "Name": "Patch CRM Account",
+      "Description": "Update a CRM Account",
+      "Anchor": "#patch-crm-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmAccounts_Post",
+      "Name": "Create new CRM Account",
+      "Description": "Create new CRM Account",
+      "Anchor": "#create-new-crm-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmAccounts_Update",
+      "Name": "Update CRM Account",
+      "Description": "Update a CRM Account",
+      "Anchor": "#update-crm-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmContacts_DeleteById",
+      "Name": "Delete CRM Contact",
+      "Description": "Delete a CRM Contact by it's id",
+      "Anchor": "#delete-crm-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmContacts_Get",
+      "Name": "Get CRM Contacts",
+      "Description": "Retrieves a list of all avaible CRM Contacts",
+      "Anchor": "#get-crm-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmContacts_GetById",
+      "Name": "Get CRM Contact by id",
+      "Description": "Retrieves a CRM Contact by its identifier",
+      "Anchor": "#get-crm-contact-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmContacts_Patch",
+      "Name": "Patch CRM Contact",
+      "Description": "Update a CRM Contact",
+      "Anchor": "#patch-crm-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmContacts_Post",
+      "Name": "Create new CRM Contact",
+      "Description": "Create new CRM Contact",
+      "Anchor": "#create-new-crm-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CrmContacts_Update",
+      "Name": "Update CRM Contact",
+      "Description": "Update a CRM Contact",
+      "Anchor": "#update-crm-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeatureHasProperties_Delete",
+      "Name": "Delete a feature has property relationship",
+      "Description": "Deletes a relationship between a feature a feature property",
+      "Anchor": "#delete-a-feature-has-property-relationship",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeatureHasProperties_Get",
+      "Name": "Get feature has properties",
+      "Description": "Retrieves a list of all relationships between features and properties",
+      "Anchor": "#get-feature-has-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeatureHasProperties_Patch",
+      "Name": "Patch a relationship between feature and property",
+      "Description": "Updates a relationship between feature and property",
+      "Anchor": "#patch-a-relationship-between-feature-and-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeatureHasProperties_Post",
+      "Name": "Create a relationship between feature and property",
+      "Description": "Creates a relationship between feature and property",
+      "Anchor": "#create-a-relationship-between-feature-and-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeatureHasProperties_Update",
+      "Name": "Update a relationship between feature and property",
+      "Description": "Updates a relationship between feature and property",
+      "Anchor": "#update-a-relationship-between-feature-and-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeatureModels_DeleteById",
+      "Name": "Delete feature model",
+      "Description": "Deletes a feature model by its identifier",
+      "Anchor": "#delete-feature-model",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeatureModels_Get",
+      "Name": "Get feature models",
+      "Description": "Retrieve a list of all available feature models",
+      "Anchor": "#get-feature-models",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeatureModels_GetById",
+      "Name": "Get feature model by id",
+      "Description": "Retrieves a feature model its identifier",
+      "Anchor": "#get-feature-model-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeatureModels_Patch",
+      "Name": "Patch feature model",
+      "Description": "Updates a feature model",
+      "Anchor": "#patch-feature-model",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeatureModels_Post",
+      "Name": "Create feature model",
+      "Description": "Creates a feature model",
+      "Anchor": "#create-feature-model",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeatureModels_Update",
+      "Name": "Update feature model",
+      "Description": "Updates a feature model",
+      "Anchor": "#update-feature-model",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Features_Copy",
+      "Name": "Copy features",
+      "Description": "Copies multiple features and returns the newly created features",
+      "Anchor": "#copy-features",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Features_DeleteById",
+      "Name": "Delete feature",
+      "Description": "Deletes a feature by its identifier",
+      "Anchor": "#delete-feature",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Features_Get",
+      "Name": "Get features",
+      "Description": "Retrieves a list of all available features",
+      "Anchor": "#get-features",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Features_GetById",
+      "Name": "Get feature by id",
+      "Description": "Gets a feature by its identifier",
+      "Anchor": "#get-feature-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Features_Patch",
+      "Name": "Patch feature",
+      "Description": "Update a feature",
+      "Anchor": "#patch-feature",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Features_Post",
+      "Name": "Create new feature",
+      "Description": "Creates a new feature",
+      "Anchor": "#create-new-feature",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Features_Update",
+      "Name": "Update feature",
+      "Description": "Update a feature",
+      "Anchor": "#update-feature",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeaturesProperties_Delete",
+      "Name": "Delete feature property",
+      "Description": "Deletes a feature property by its identifier",
+      "Anchor": "#delete-feature-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeaturesProperties_Get",
+      "Name": "Get feature properties",
+      "Description": "Retrieves a list of all available feature properties",
+      "Anchor": "#get-feature-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeaturesProperties_GetById",
+      "Name": "Get feature property by id",
+      "Description": "Retrieves a feature property by its identifier",
+      "Anchor": "#get-feature-property-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeaturesProperties_Patch",
+      "Name": "Patch a feature property",
+      "Description": "Updates a feature property",
+      "Anchor": "#patch-a-feature-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeaturesProperties_Post",
+      "Name": "Create new feature property",
+      "Description": "Creates a new feature property",
+      "Anchor": "#create-new-feature-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FeaturesProperties_Update",
+      "Name": "Update a feature property",
+      "Description": "Updates a feature property",
+      "Anchor": "#update-a-feature-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Files_Post",
+      "Name": "Upload a new file",
+      "Description": "Uploads a new file and returns its url",
+      "Anchor": "#upload-a-new-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Notifications_Send",
+      "Name": "Open a prompt dialog for a specific user",
+      "Description": "If the user is logged in, open a prompt dialog",
+      "Anchor": "#open-a-prompt-dialog-for-a-specific-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrgSellsFeature_Delete",
+      "Name": "Delete OrganizationSellsFeature relationship",
+      "Description": "Deletes a OrganizationSellsFeature relationship",
+      "Anchor": "#delete-organizationsellsfeature-relationship",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrgSellsFeature_Get",
+      "Name": "Get OrganizationSellsFeatures",
+      "Description": "Retrieves OrganizationSellsFeatures relationships",
+      "Anchor": "#get-organizationsellsfeatures",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrgSellsFeature_GetByFeatureId",
+      "Name": "Retrieve OrganizationSellsFeature relationships by feature id",
+      "Description": "Retrieves OrganizationSellsFeature relationships by feature id",
+      "Anchor": "#retrieve-organizationsellsfeature-relationships-by-feature-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrgSellsFeature_GetById",
+      "Name": "Retrieve OrganizationSellsFeature relationship by id",
+      "Description": "Retrieves a OrganizationSellsFeature relationship by its identifier",
+      "Anchor": "#retrieve-organizationsellsfeature-relationship-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrgSellsFeature_Patch",
+      "Name": "Patch OrganizationSellsFeature relationship",
+      "Description": "Updates a OrganizationSellsFeature relationship",
+      "Anchor": "#patch-organizationsellsfeature-relationship",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrgSellsFeature_Post",
+      "Name": "Create a OrganizationSellsFeature relationship",
+      "Description": "Creates a OrganizationSellsFeature relationship",
+      "Anchor": "#create-a-organizationsellsfeature-relationship",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrgSellsFeature_Update",
+      "Name": "Update OrganizationSellsFeature relationship",
+      "Description": "Updates a OrganizationSellsFeature relationship",
+      "Anchor": "#update-organizationsellsfeature-relationship",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuotationProperties_Get",
+      "Name": "Delete quotation property",
+      "Description": "Deletes a quotation by property by id",
+      "Anchor": "#delete-quotation-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuotationProperties_Get55",
+      "Name": "Get quotation properties",
+      "Description": "Retrieves a list of all available quotation properties",
+      "Anchor": "#get-quotation-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuotationProperties_GetById",
+      "Name": "Get quotation property by id",
+      "Description": "Retrieves a quotation property by its identifier",
+      "Anchor": "#get-quotation-property-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuotationProperties_Patch",
+      "Name": "Patch quotation property",
+      "Description": "Updates a quotation property",
+      "Anchor": "#patch-quotation-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuotationProperties_Post",
+      "Name": "Create quotation property",
+      "Description": "Creates a new quotation property",
+      "Anchor": "#create-quotation-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuotationProperties_Update",
+      "Name": "Update quotation property",
+      "Description": "Updates a quotation property",
+      "Anchor": "#update-quotation-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuotationPropertyFields_Delete",
+      "Name": "Delete quotation property field",
+      "Description": "Deletes a quotation property fields by its id",
+      "Anchor": "#delete-quotation-property-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuotationPropertyFields_Get",
+      "Name": "Get quotation property fields",
+      "Description": "Retrieves a list of all available quotation property fields",
+      "Anchor": "#get-quotation-property-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_AddConfigurations",
+      "Name": "Add configurations to a quotation",
+      "Description": "Adds multiple configurations to a quotation",
+      "Anchor": "#add-configurations-to-a-quotation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_AddFile",
+      "Name": "Add file to quotation",
+      "Description": "Adds a file to a quotation",
+      "Anchor": "#add-file-to-quotation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_Copy",
+      "Name": "Copy quotation",
+      "Description": "Copies an existing quotation",
+      "Anchor": "#copy-quotation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_DeleteById",
+      "Name": "Delete quotation",
+      "Description": "Deletes a quotation by its identifier",
+      "Anchor": "#delete-quotation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_Get",
+      "Name": "Get quotations",
+      "Description": "Retrieves a list of all available quotations",
+      "Anchor": "#get-quotations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_GetById",
+      "Name": "Get quotation by id",
+      "Description": "Retrieves a quotation by its identifier",
+      "Anchor": "#get-quotation-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_GetPdf",
+      "Name": "Generate quotation PDF",
+      "Description": "Generates a PDF of a quotation",
+      "Anchor": "#generate-quotation-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_Patch",
+      "Name": "Patch a quotation",
+      "Description": "Updates a quotation",
+      "Anchor": "#patch-a-quotation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_Patch_Bulk",
+      "Name": "Patch multiple quotations",
+      "Description": "Updates multiple quotations",
+      "Anchor": "#patch-multiple-quotations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_Post",
+      "Name": "Create new quotation",
+      "Description": "Creates a new quotation",
+      "Anchor": "#create-new-quotation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_Revise",
+      "Name": "Create quotation revision",
+      "Description": "Create a revision of a existing quotation",
+      "Anchor": "#create-quotation-revision",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotations_Update",
+      "Name": "Update a quotation",
+      "Description": "Updates a quotation",
+      "Anchor": "#update-a-quotation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Steps_DeleteById",
+      "Name": "Delete step",
+      "Description": "Deletes a step by its identifier",
+      "Anchor": "#delete-step",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Steps_Get",
+      "Name": "Get steps",
+      "Description": "Retrieves a list of all available steps",
+      "Anchor": "#get-steps",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Steps_GetById",
+      "Name": "Get step by id",
+      "Description": "Gets a step by its identifier",
+      "Anchor": "#get-step-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Steps_Patch",
+      "Name": "Patch step",
+      "Description": "Update a step",
+      "Anchor": "#patch-step",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Steps_Post",
+      "Name": "Create new step",
+      "Description": "Creates a new step",
+      "Anchor": "#create-new-step",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Steps_Update",
+      "Name": "Update step",
+      "Description": "Update a step",
+      "Anchor": "#update-step",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhooks_Custom",
+      "Name": "Custom trigger",
+      "Description": "Create your own custom triggers",
+      "Anchor": "#custom-trigger",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhooks_QuotationAccepted",
+      "Name": "When a quotation is accepted",
+      "Description": "Triggered when a quotation is accepted",
+      "Anchor": "#when-a-quotation-is-accepted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhooks_QuotationConfigurationAdded",
+      "Name": "When a configuration is added to a quotation",
+      "Description": "Triggered when a configuration is added to a quotation",
+      "Anchor": "#when-a-configuration-is-added-to-a-quotation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhooks_QuotationDenied",
+      "Name": "When a quotation is declined",
+      "Description": "Triggered when a quotation is declined",
+      "Anchor": "#when-a-quotation-is-declined",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhooks_QuotationRequested",
+      "Name": "When a quotation is requested",
+      "Description": "Triggered when a quotation is requested",
+      "Anchor": "#when-a-quotation-is-requested",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhooks_QuotationRevised",
+      "Name": "When a quotation is revised",
+      "Description": "Triggered when a quotation is revised",
+      "Anchor": "#when-a-quotation-is-revised",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhooks_QuotationSubmitted",
+      "Name": "When a quotation is submitted",
+      "Description": "Triggered when a quotation is submitted",
+      "Anchor": "#when-a-quotation-is-submitted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhooks_QuotationVerified",
+      "Name": "When a quotation is verified",
+      "Description": "Triggered when a quotation is verified",
+      "Anchor": "#when-a-quotation-is-verified",
+      "IsDeprecated": false
+    }
+  ]
+}

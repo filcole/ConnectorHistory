@@ -1,0 +1,426 @@
+{
+  "UniqueName": "teams",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../teams/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Shifts: Get a schedule's details [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a Schedule's details instead.\nThis operation returns details of a schedule using the schedule's unique ID.",
+      "Anchor": "#shifts:-get-a-schedule's-details-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "",
+      "Name": "When I'm @mentioned (Preview)",
+      "Description": "Creates a webhook for @mentions in chats or channels.",
+      "Anchor": "#when-i'm-@mentioned-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddMemberToTeam",
+      "Name": "Add a member to a team",
+      "Description": "This operation adds a member to a team.",
+      "Anchor": "#add-a-member-to-a-team",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AtMentionUser",
+      "Name": "Get @mention token for a user",
+      "Description": "This operation creates a token that can be inserted into a message or adaptive card to @mention a user.",
+      "Anchor": "#get-@mention-token-for-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateATeam",
+      "Name": "Create a team",
+      "Description": "This operation a creates a new team.",
+      "Anchor": "#create-a-team",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateChannel",
+      "Name": "Create a channel (Preview)",
+      "Description": "This operation is used to create a new channel for a specific Team.",
+      "Anchor": "#create-a-channel-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateChat",
+      "Name": "Create a chat",
+      "Description": "This operation creates a one on one or group chat",
+      "Anchor": "#create-a-chat",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOpenShift",
+      "Name": "Shifts: Create a new Open Shift [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a new Open Shift instead.\nCreate a new open shift in a schedule",
+      "Anchor": "#shifts:-create-a-new-open-shift-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateTeamsMeeting",
+      "Name": "Create a Teams meeting",
+      "Description": "Create a meeting with a link at the bottom of the invite to join the meeting online on Teams",
+      "Anchor": "#create-a-teams-meeting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteOpenShift",
+      "Name": "Shifts: Delete an open shift [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Delete an Open Shift instead.\nThis operation deletes an open shift.",
+      "Anchor": "#shifts:-delete-an-open-shift-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DeleteShift",
+      "Name": "Shifts: Delete a shift [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Delete a Shift instead.\nThis operation deletes a shift using the shift's unique ID.",
+      "Anchor": "#shifts:-delete-a-shift-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetAllTeams",
+      "Name": "List teams (Preview)",
+      "Description": "This operation retrieves a list of all the Teams (Office 365 Groups) you are a member of.",
+      "Anchor": "#list-teams-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetChannelsForGroup",
+      "Name": "List channels (Preview)",
+      "Description": "This operation retrieves a list of all the channels for a specific Team.",
+      "Anchor": "#list-channels-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetChats",
+      "Name": "List chats (Preview)",
+      "Description": "This operation retrieves a list of recent chats.",
+      "Anchor": "#list-chats-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessageDetails",
+      "Name": "Get message details",
+      "Description": "This operation gets details of a message in a chat or a channel.",
+      "Anchor": "#get-message-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessagesFromChannel",
+      "Name": "Get messages (Preview)",
+      "Description": "This operation is used to get messages from a channel in a specific Team.",
+      "Anchor": "#get-messages-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOpenShift",
+      "Name": "Shifts: Get an open shift [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get an Open Shift instead.\nThis operation returns details for an open shift.",
+      "Anchor": "#shifts:-get-an-open-shift-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetSchedulingGroup",
+      "Name": "Shifts: Get a scheduling group [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a Scheduling Group instead.\nThis operation returns details for a scheduling group using its unique ID.",
+      "Anchor": "#shifts:-get-a-scheduling-group-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetShift",
+      "Name": "Shifts: Get a shift [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a Shift instead.\nThis operation returns details for a shift using the shift's unique ID.",
+      "Anchor": "#shifts:-get-a-shift-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetTeam",
+      "Name": "Get a team (Preview)",
+      "Description": "This operation returns details for a team using the team's unique ID.",
+      "Anchor": "#get-a-team-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOfferShiftRequests",
+      "Name": "Shifts: List all Offer Shift requests [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Offer Shift requests instead.\nThis operation returns all offer shift requests in a schedule",
+      "Anchor": "#shifts:-list-all-offer-shift-requests-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListOpenShiftChangeRequests",
+      "Name": "Shifts: List all Open Shift requests [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Open Shift requests instead.\nThis operation returns all open shift change requests in a schedule",
+      "Anchor": "#shifts:-list-all-open-shift-requests-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListOpenShifts",
+      "Name": "Shifts: List all Open Shifts [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Open Shifts instead.\nThis operation returns all open shifts in a team",
+      "Anchor": "#shifts:-list-all-open-shifts-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListSchedulingGroups",
+      "Name": "Shifts: List all scheduling groups [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Scheduling Groups instead.\nThis operation returns all scheduling groups in a schedule",
+      "Anchor": "#shifts:-list-all-scheduling-groups-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListShifts",
+      "Name": "Shifts: List all shifts [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Shifts instead.\nThis operation returns all shifts assigned to members of a team",
+      "Anchor": "#shifts:-list-all-shifts-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListSwapShiftsChangeRequests",
+      "Name": "Shifts: List all Swap Shifts requests [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Swap Shifts requests instead.\nThis operation returns all swap shifts requests in a schedule",
+      "Anchor": "#shifts:-list-all-swap-shifts-requests-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListTimeOffReasons",
+      "Name": "Shifts: List all Time Off reasons [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Time Off Reasons instead.\nThis operation returns the list of time off reasons associated with a team.",
+      "Anchor": "#shifts:-list-all-time-off-reasons-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListTimeOffRequests",
+      "Name": "Shifts: List all Time Off requests [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Time Off requests instead.\nThis operation returns all time off requests in a schedule",
+      "Anchor": "#shifts:-list-all-time-off-requests-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OfferShiftRequestApprove",
+      "Name": "Shifts: Approve an Offer Shift request [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Approve an Offer Shift request instead.\nThis operation allows recipients/managers to approve an offer shift request.",
+      "Anchor": "#shifts:-approve-an-offer-shift-request-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OfferShiftRequestDecline",
+      "Name": "Shifts: Decline an Offer Shift request [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Decline an Offer Shift request instead.\nThis operation allows users to decline an offer shift request.",
+      "Anchor": "#shifts:-decline-an-offer-shift-request-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnGroupMembershipAdd",
+      "Name": "When a new team member is added",
+      "Description": "This operation triggers when a member is added to the given team.",
+      "Anchor": "#when-a-new-team-member-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnGroupMembershipRemoval",
+      "Name": "When a new team member is removed",
+      "Description": "This operation triggers when a member is removed from the given team.",
+      "Anchor": "#when-a-new-team-member-is-removed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnMessageSelected",
+      "Name": "For a selected message",
+      "Description": "This trigger allows you to start a flow for a selected message in Microsoft Teams. (Available only for Power Automate.)",
+      "Anchor": "#for-a-selected-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewChannelMessage",
+      "Name": "When a new channel message is added (Preview)",
+      "Description": "This operation triggers when a new message is posted to a channel in a Team. Note that this trigger only fires when a root messages is added in the channel. Replies to an existing channel message will not result in the trigger event firing.",
+      "Anchor": "#when-a-new-channel-message-is-added-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewChannelMessageMentioningMe",
+      "Name": "When I am mentioned in a channel message (Preview)",
+      "Description": "This operation triggers when a new message is added to a channel in a Team, that mentions the current user.",
+      "Anchor": "#when-i-am-mentioned-in-a-channel-message-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenShiftChangeRequestApprove",
+      "Name": "Shifts: Approve an Open Shift request [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Approve an Open Shift request instead.\nThis operation allows managers to approve an Open Shift request.",
+      "Anchor": "#shifts:-approve-an-open-shift-request-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OpenShiftChangeRequestDecline",
+      "Name": "Shifts: Decline an Open Shift request [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Decline an Open Shift request instead.\nThis operation allows managers to decline an open shift request.",
+      "Anchor": "#shifts:-decline-an-open-shift-request-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PostCardAndWaitForResponse",
+      "Name": "Post adaptive card and wait for a response",
+      "Description": "This operation posts an adaptive card to a chat or a channel and waits for a response.",
+      "Anchor": "#post-adaptive-card-and-wait-for-a-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostCardToConversation",
+      "Name": "Post adaptive card in a chat or channel",
+      "Description": "This operation posts an adaptive card to a chat or a channel.",
+      "Anchor": "#post-adaptive-card-in-a-chat-or-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostChannelAdaptiveCard",
+      "Name": "Post your own adaptive card as the Flow bot to a channel",
+      "Description": "Add the JSON card definition to create a custom post for a Teams channel. The post can contain images, graphs, text, and more.",
+      "Anchor": "#post-your-own-adaptive-card-as-the-flow-bot-to-a-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostChannelNotification",
+      "Name": "Post a message as the Flow bot to a channel",
+      "Description": "Easily automate the process of posting a message to a Teams channel.",
+      "Anchor": "#post-a-message-as-the-flow-bot-to-a-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostMessageToChannel",
+      "Name": "Post a message [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Post a message (V3) instead.\nThis operation is used to post a message to a channel in a specific Team.",
+      "Anchor": "#post-a-message-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PostMessageToChannelV2",
+      "Name": "Post a message (V2) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Post a message (V3) instead.\nThis operation is used to post a message to a channel in a specific Team.",
+      "Anchor": "#post-a-message-(v2)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PostMessageToChannelV3",
+      "Name": "Post a message (V3) (Preview)",
+      "Description": "This operation is used to post a message to a channel in a specific Team.",
+      "Anchor": "#post-a-message-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostMessageToConversation",
+      "Name": "Post message in a chat or channel",
+      "Description": "This operation posts a message to a chat or a channel.",
+      "Anchor": "#post-message-in-a-chat-or-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostReplyToMessage",
+      "Name": "Post a reply to a message [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Post a reply to a message (V2) instead.\nThis operation is used to post a reply to a message in a channel in a specific Team.",
+      "Anchor": "#post-a-reply-to-a-message-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PostReplyToMessageV2",
+      "Name": "Post a reply to a message (V2) (Preview)",
+      "Description": "This operation is used to post a reply to a message in a channel in a specific Team.",
+      "Anchor": "#post-a-reply-to-a-message-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostUserAdaptiveCard",
+      "Name": "Post your own adaptive card as the Flow bot to a user",
+      "Description": "Add the JSON card definition to create a custom message for a Teams user. The message can contain images, graphs, text, and more.",
+      "Anchor": "#post-your-own-adaptive-card-as-the-flow-bot-to-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostUserNotification",
+      "Name": "Post a message as the Flow bot to a user",
+      "Description": "Easily automate the process of sending a message to someone in Teams.",
+      "Anchor": "#post-a-message-as-the-flow-bot-to-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplyWithCardToConversation",
+      "Name": "Reply with adaptive card in a channel",
+      "Description": "This operation replies with an adaptive card to a channel.",
+      "Anchor": "#reply-with-adaptive-card-in-a-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplyWithMessageToConversation",
+      "Name": "Reply with a message in a channel",
+      "Description": "This operation replies with a message in a channel.",
+      "Anchor": "#reply-with-a-message-in-a-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscribeChannelFlowContinuation",
+      "Name": "Post an Adaptive Card to a Teams channel and wait for a response",
+      "Description": "Easily automate the process of sending a message to a Teams channel that contains actions to continue a waiting flow.",
+      "Anchor": "#post-an-adaptive-card-to-a-teams-channel-and-wait-for-a-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscribeUserFlowContinuation",
+      "Name": "Post an Adaptive Card to a Teams user and wait for a response",
+      "Description": "Easily automate the process of sending a message to a Teams user that contains actions to continue a waiting flow.",
+      "Anchor": "#post-an-adaptive-card-to-a-teams-user-and-wait-for-a-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscribeUserMessageWithOptions",
+      "Name": "Post a choice of options as the Flow bot to a user",
+      "Description": "Easily automate the process of sending a message to a Teams user that contains a set of options they must choose from before they respond.",
+      "Anchor": "#post-a-choice-of-options-as-the-flow-bot-to-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SwapShiftsChangeRequestApprove",
+      "Name": "Shifts: Approve a Swap Shifts request [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Approve a Swap Shifts request instead.\nThis operation allows a user to approve a Swap Shifts request.",
+      "Anchor": "#shifts:-approve-a-swap-shifts-request-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SwapShiftsChangeRequestDecline",
+      "Name": "Shifts: Decline a Swap Shifts request [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Decline a Swap Shifts request instead.\nThis operation allows users to decline a swap shifts request.",
+      "Anchor": "#shifts:-decline-a-swap-shifts-request-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "TimeOffRequestApprove",
+      "Name": "Shifts: Approve a Time Off request [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Approve a Time Off request instead.\nThis operation allows managers to approve a time off request.",
+      "Anchor": "#shifts:-approve-a-time-off-request-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "TimeOffRequestDecline",
+      "Name": "Shifts: Decline a Time Off request [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Decline a Time Off request instead.\nThis operation allows managers to decline a time off request.",
+      "Anchor": "#shifts:-decline-a-time-off-request-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateOpenShift",
+      "Name": "Shifts: Update an Open Shift [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update an Open Shift instead.\nUpdate an open shift in a schedule.",
+      "Anchor": "#shifts:-update-an-open-shift-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "WebhookKeywordTrigger",
+      "Name": "When keywords are mentioned (Preview)",
+      "Description": "Creates a webhook for keyword mentions in chats or channels.",
+      "Anchor": "#when-keywords-are-mentioned-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

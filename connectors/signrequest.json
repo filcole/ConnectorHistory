@@ -1,0 +1,20 @@
+{
+  "UniqueName": "signrequest",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../signrequest/",
+  "Actions": [
+    {
+      "OperationId": "SignrequestQuickCreateCreate",
+      "Name": "Send SignRequest",
+      "Description": "Creates and sends a new SignRequest.",
+      "Anchor": "#send-signrequest",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhooksCreate",
+      "Name": "When a document status changes",
+      "Description": "Triggers when the document status of a SignRequest changes.",
+      "Anchor": "#when-a-document-status-changes",
+      "IsDeprecated": false
+    }
+  ]
+}

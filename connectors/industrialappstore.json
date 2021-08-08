@@ -1,0 +1,48 @@
+{
+  "UniqueName": "industrialappstore",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../industrialappstore/",
+  "Actions": [
+    {
+      "OperationId": "ias_getdata_plot",
+      "Name": "Get Plot Data",
+      "Description": "Perform a plot query on a data source.",
+      "Anchor": "#get-plot-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ias_getdata_processed",
+      "Name": "Get Processed Data",
+      "Description": "Perform a processed/aggregation query on a data source.",
+      "Anchor": "#get-processed-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ias_getdata_raw",
+      "Name": "Get Raw Data",
+      "Description": "Perform a raw query on a data source.",
+      "Anchor": "#get-raw-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ias_getdata_snapshot",
+      "Name": "Get Snapshot",
+      "Description": "Perform a snapshot/now query on a data source.",
+      "Anchor": "#get-snapshot",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ias_getdsns",
+      "Name": "Get Data Sources",
+      "Description": "Retrieve list of available data sources.",
+      "Anchor": "#get-data-sources",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ias_tagsearch",
+      "Name": "Get Tags",
+      "Description": "Perform a tag search on a data source.",
+      "Anchor": "#get-tags",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UniqueName": "leankit",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../leankit/",
+  "Actions": [
+    {
+      "OperationId": "AddComment",
+      "Name": "Add comment to a card",
+      "Description": "This operation is used to add a comment to an existing card in LeanKit.",
+      "Anchor": "#add-comment-to-a-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateBoard",
+      "Name": "Create a new board",
+      "Description": "This operation is used to create a new LeanKit board.",
+      "Anchor": "#create-a-new-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCard",
+      "Name": "Create a new card",
+      "Description": "This operation is used to create a new card in LeanKit.",
+      "Anchor": "#create-a-new-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteCard",
+      "Name": "Delete a card",
+      "Description": "This operation is used to delete an existing card in LeaKit.",
+      "Anchor": "#delete-a-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCard",
+      "Name": "Get a card",
+      "Description": "This operation is used to retrieve all information about a card, given its id.",
+      "Anchor": "#get-a-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewCard",
+      "Name": "When a new card is added",
+      "Description": "Triggers when a new card is added to the given board and lane.",
+      "Anchor": "#when-a-new-card-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigUpdateCard",
+      "Name": "When a card is updated",
+      "Description": "Triggers when the details of an existing card are updated.",
+      "Anchor": "#when-a-card-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateCard",
+      "Name": "Update a card",
+      "Description": "This operation is used to update the details of an existing card given its id.",
+      "Anchor": "#update-a-card",
+      "IsDeprecated": false
+    }
+  ]
+}

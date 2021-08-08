@@ -1,0 +1,69 @@
+{
+  "UniqueName": "groupmgr",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../groupmgr/",
+  "Actions": [
+    {
+      "OperationId": "GroupMgrArchiveGroup",
+      "Name": "Archive or Unarchive a group",
+      "Description": "Archive a group. Make SharePoint and Teams read-only for this group.",
+      "Anchor": "#archive-or-unarchive-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupMgrCreateGroup",
+      "Name": "Create a group",
+      "Description": "Create a new group.",
+      "Anchor": "#create-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupMgrDeleteGroup",
+      "Name": "Delete a group",
+      "Description": "Delete a group.",
+      "Anchor": "#delete-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupMgrGroupApproval",
+      "Name": "Approve or Reject a requested group",
+      "Description": "Will send an approval back to GroupMgr for the requested group.",
+      "Anchor": "#approve-or-reject-a-requested-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupMgrGroupCreated",
+      "Name": "When a new group is created",
+      "Description": "This will trigger when a new group is created.",
+      "Anchor": "#when-a-new-group-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupMgrGroupDeleted",
+      "Name": "When a group is removed",
+      "Description": "This will trigger when a group is removed.",
+      "Anchor": "#when-a-group-is-removed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupMgrGroupRequested",
+      "Name": "When a new group is requested. (Approval flow)",
+      "Description": "This will trigger when a new group is requested within GroupMgr (Only groups with this approval flow).",
+      "Anchor": "#when-a-new-group-is-requested.-(approval-flow)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupMgrGroupUpdated",
+      "Name": "When a group is updated",
+      "Description": "This will trigger when a group is updated.",
+      "Anchor": "#when-a-group-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupMgrUpdateGroup",
+      "Name": "Update a group",
+      "Description": "Update an existing group.",
+      "Anchor": "#update-a-group",
+      "IsDeprecated": false
+    }
+  ]
+}

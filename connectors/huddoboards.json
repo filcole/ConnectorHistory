@@ -1,0 +1,167 @@
+{
+  "UniqueName": "huddoboards",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../huddoboards/",
+  "Actions": [
+    {
+      "OperationId": "AddedToBoard",
+      "Name": "Board Added",
+      "Description": "Triggers when you get added to a Board",
+      "Anchor": "#board-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Assign",
+      "Name": "Assign a task",
+      "Description": "Assign a Member to a Task (Task Nodes only)",
+      "Anchor": "#assign-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssignedTask",
+      "Name": "Assigned Task",
+      "Description": "Triggers when you get assigned a Task",
+      "Anchor": "#assigned-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Board",
+      "Name": "Get board by id",
+      "Description": "Get Board by ID (includes all Nodes of the Board)",
+      "Anchor": "#get-board-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BoardCreate",
+      "Name": "Create a Board",
+      "Description": "Create a Board",
+      "Anchor": "#create-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BoardMembers",
+      "Name": "Get Board members",
+      "Description": "Get Members of the Board",
+      "Anchor": "#get-board-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BoardMy",
+      "Name": "My Boards",
+      "Description": "Get Boards that I am a Member of",
+      "Anchor": "#my-boards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BoardSearch",
+      "Name": "Search for a Board",
+      "Description": "Search for a Board",
+      "Anchor": "#search-for-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BoardTaskCompleted",
+      "Name": "Task completed in board",
+      "Description": "Watch a specific Board for Completed Tasks",
+      "Anchor": "#task-completed-in-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Cards",
+      "Name": "Get cards in board",
+      "Description": "Get all Cards in a Board",
+      "Anchor": "#get-cards-in-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Children",
+      "Name": "Get child cards or lists",
+      "Description": "Get Children of a Board / List / Card",
+      "Anchor": "#get-child-cards-or-lists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Comments",
+      "Name": "Get comments",
+      "Description": "Get comments from a Board / List / Card",
+      "Anchor": "#get-comments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompleteTask",
+      "Name": "Complete a task",
+      "Description": "Mark a Task as Complete",
+      "Anchor": "#complete-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAComment",
+      "Name": "Create a comment",
+      "Description": "Create a comment",
+      "Anchor": "#create-a-comment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatedNode",
+      "Name": "Card added to board",
+      "Description": "Watch a specific Board for new Cards",
+      "Anchor": "#card-added-to-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindTask",
+      "Name": "Find a task",
+      "Description": "Finds a Task assigned to you by its name",
+      "Anchor": "#find-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IncompleteTask",
+      "Name": "Incomplete a task",
+      "Description": "Mark a Task as Incomplete",
+      "Anchor": "#incomplete-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MyTaskCompleted",
+      "Name": "Completed Task",
+      "Description": "Triggers when you Complete a Task",
+      "Anchor": "#completed-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Node",
+      "Name": "Get Card details",
+      "Description": "Get a single Node",
+      "Anchor": "#get-card-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NodeCreate",
+      "Name": "Create a card or list",
+      "Description": "Create a Node",
+      "Anchor": "#create-a-card-or-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NodeDate",
+      "Name": "Change card or board dates",
+      "Description": "Change Start, End or Due dates on a Card / Board",
+      "Anchor": "#change-card-or-board-dates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "User",
+      "Name": "Find a user",
+      "Description": "Search for Users",
+      "Anchor": "#find-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserMe",
+      "Name": "My Profile",
+      "Description": "Returns logged in User",
+      "Anchor": "#my-profile",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UniqueName": "freshbooks",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../freshbooks/",
+  "Actions": [
+    {
+      "OperationId": "AddClient",
+      "Name": "Add new client",
+      "Description": "This operation creates a new client in your account. At least one field of the client (i.e. first name, last name, organization, email, etc) must be specified otherwise the operation will fail.",
+      "Anchor": "#add-new-client",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddExpense",
+      "Name": "Create new expense",
+      "Description": "This operation creates a new expense in your account.",
+      "Anchor": "#create-new-expense",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteExpense",
+      "Name": "Delete expense",
+      "Description": "This operation is used to delete an existing expense from your account.",
+      "Anchor": "#delete-expense",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListExpenses",
+      "Name": "List expenses",
+      "Description": "Retrieves a list of all your expenses.",
+      "Anchor": "#list-expenses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigUpdatedExpense",
+      "Name": "When an expense is created or updated",
+      "Description": "Triggers when a new expense is created or an existing one is updated.",
+      "Anchor": "#when-an-expense-is-created-or-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigUpdatedInvoice",
+      "Name": "When an invoice is created or updated",
+      "Description": "Triggers when a new invoice is created or an existing one is updated.",
+      "Anchor": "#when-an-invoice-is-created-or-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigUpdatedPayment",
+      "Name": "When a payment is recorded or updated",
+      "Description": "Triggers when a new payment is recorded or an existing one is updated.",
+      "Anchor": "#when-a-payment-is-recorded-or-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateExpense",
+      "Name": "Update expense",
+      "Description": "This operation is used to update an existing expense in your account.",
+      "Anchor": "#update-expense",
+      "IsDeprecated": false
+    }
+  ]
+}

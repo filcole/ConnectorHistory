@@ -1,0 +1,237 @@
+{
+  "UniqueName": "powerplatformforadmins",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../powerplatformforadmins/",
+  "Actions": [
+    {
+      "OperationId": "Add-AdminPowerAppsSyncUser",
+      "Name": "Force Sync user",
+      "Description": "Used to sync PowerApps user to CRM.",
+      "Anchor": "#force-sync-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePolicyV2",
+      "Name": "Create DLP Policy V2",
+      "Description": "Creates a new DLP policy.",
+      "Anchor": "#create-dlp-policy-v2",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeletePolicyV2",
+      "Name": "Delete DLP Policy V2",
+      "Description": "Deletes a DLP Policy.",
+      "Anchor": "#delete-dlp-policy-v2",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit-AdminDlpPolicy",
+      "Name": "Update Tenant DLP Policy",
+      "Description": "Updates the fields in a DLP Policy.",
+      "Anchor": "#update-tenant-dlp-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit-AdminEnvironmentRoleAssignment",
+      "Name": "Edit Environment Role Assignment",
+      "Description": "Sets permissions for an Environment.",
+      "Anchor": "#edit-environment-role-assignment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditEnvironmentPolicy",
+      "Name": "Update Environment DLP Policy",
+      "Description": "Updates an Environment DLP Policy.",
+      "Anchor": "#update-environment-dlp-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminDlpPolicies",
+      "Name": "List DLP Policies",
+      "Description": "Returns a list of all Tenant and Environment DLP Policies.",
+      "Anchor": "#list-dlp-policies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminEnvironment",
+      "Name": "List Environments as Admin",
+      "Description": "Returns a list of Environments.",
+      "Anchor": "#list-environments-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminEnvironmentRoleAssignment",
+      "Name": "List Environment Role Assignments",
+      "Description": "Returns a list of permissions for an Environment without CDS for Apps.",
+      "Anchor": "#list-environment-role-assignments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvironmentOperation",
+      "Name": "Get Environment Operation Status (Preview)",
+      "Description": "Used to check the status of an environment operation, sucn as deletion.",
+      "Anchor": "#get-environment-operation-status-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvironmentPolicy",
+      "Name": "Get Environment DLP Policy",
+      "Description": "Returns an Environment DLP Policy.",
+      "Anchor": "#get-environment-dlp-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLifecycleOperationStatus",
+      "Name": "Get Lifecycle Operation Status",
+      "Description": "Returns the current status of the lifecycle operation that occurs after an environment patch.",
+      "Anchor": "#get-lifecycle-operation-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPolicyV2",
+      "Name": "Get DLP Policy V2",
+      "Description": "Returns a DLP Policy.",
+      "Anchor": "#get-dlp-policy-v2",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProvisionOperation",
+      "Name": "Get CDS Provisioning Status",
+      "Description": "Used to check the status of a provisioning operation.",
+      "Anchor": "#get-cds-provisioning-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProvisionOperationV2",
+      "Name": "Get database provisioning status",
+      "Description": "Used to check the status of a provisioning operation.",
+      "Anchor": "#get-database-provisioning-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSingleEnvironment",
+      "Name": "Get Environment as Admin",
+      "Description": "Returns a single Environment as Admin.",
+      "Anchor": "#get-environment-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTenantPolicy",
+      "Name": "Get Tenant DLP Policy",
+      "Description": "Returns a Tenant DLP Policy.",
+      "Anchor": "#get-tenant-dlp-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEnvironmentCurrencies",
+      "Name": "List Supported Environment Currencies",
+      "Description": "Returns a list of supported Currencies based on the location.",
+      "Anchor": "#list-supported-environment-currencies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEnvironmentLanguages",
+      "Name": "List Supported Environment Languages",
+      "Description": "Returns a list of supported Languages based on the location.",
+      "Anchor": "#list-supported-environment-languages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPoliciesV2",
+      "Name": "List DLP Policies V2",
+      "Description": "Returns an list of all DLP policies the account can access.",
+      "Anchor": "#list-dlp-policies-v2",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListSupportedLocations",
+      "Name": "List Supported Locations",
+      "Description": "Returns a list of Locations where BAP service is supported.",
+      "Anchor": "#list-supported-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListUnblockableConnectors",
+      "Name": "List Unblockable Connectors",
+      "Description": "Returns a list of connectors that cannot be blocked with a DLP policy.",
+      "Anchor": "#list-unblockable-connectors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListVirtualConnectors",
+      "Name": "List Virtual Connectors",
+      "Description": "Returns a list of virtual connectors.",
+      "Anchor": "#list-virtual-connectors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewAdminEnvironment",
+      "Name": "Create Environment",
+      "Description": "Creates a new Environment.",
+      "Anchor": "#create-environment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewEnvironmentPolicy",
+      "Name": "Create Environment DLP Policy",
+      "Description": "Creates an Environment DLP Policy.",
+      "Anchor": "#create-environment-dlp-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewTenantPolicy",
+      "Name": "Create Tenant DLP Policy",
+      "Description": "Creates a new Tenant DLP Policy.",
+      "Anchor": "#create-tenant-dlp-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProvisionInstance",
+      "Name": "Create CDS Database",
+      "Description": "Creates a new CDS instance in the specified Environment.",
+      "Anchor": "#create-cds-database",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove-AdminEnvironment",
+      "Name": "Delete Environment",
+      "Description": "Deletes an Environment.",
+      "Anchor": "#delete-environment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveEnvironmentPolicy",
+      "Name": "Delete Environment DLP Policy",
+      "Description": "Deletes an Environment DLP Policy.",
+      "Anchor": "#delete-environment-dlp-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveTenantPolicy",
+      "Name": "Delete Tenant DLP Policy",
+      "Description": "Deletes a Tenant DLP Policy.",
+      "Anchor": "#delete-tenant-dlp-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEnvironment",
+      "Name": "Update Environment",
+      "Description": "Updates properties of an environment.",
+      "Anchor": "#update-environment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatePolicyV2",
+      "Name": "Update DLP Policy V2",
+      "Description": "Updates a DLP Policy.",
+      "Anchor": "#update-dlp-policy-v2",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateDelete",
+      "Name": "Validate Environment Delete",
+      "Description": "Used to check if an Environment can be deleted.",
+      "Anchor": "#validate-environment-delete",
+      "IsDeprecated": false
+    }
+  ]
+}

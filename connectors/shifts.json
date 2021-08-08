@@ -1,0 +1,258 @@
+{
+  "UniqueName": "shifts",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../shifts/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Get a Schedule's details (Preview)",
+      "Description": "This operation returns details of a Schedule using the Schedule's unique ID.",
+      "Anchor": "#get-a-schedule's-details-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOpenShift",
+      "Name": "Create a new Open Shift",
+      "Description": "Create a new Open Shift in a Schedule.",
+      "Anchor": "#create-a-new-open-shift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteOpenShift",
+      "Name": "Delete an Open Shift (Preview)",
+      "Description": "This operation deletes an Open Shift.",
+      "Anchor": "#delete-an-open-shift-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteShift",
+      "Name": "Delete a Shift (Preview)",
+      "Description": "This operation deletes a Shift using the Shift's unique ID.",
+      "Anchor": "#delete-a-shift-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTimeOff",
+      "Name": "Delete a Time Off instance (Preview)",
+      "Description": "This operation deletes a Time Off using its unique ID.",
+      "Anchor": "#delete-a-time-off-instance-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOfferShiftRequest",
+      "Name": "Get an Offer Shift request (Preview)",
+      "Description": "This operation returns an Offer Shift request by ID.",
+      "Anchor": "#get-an-offer-shift-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOpenShift",
+      "Name": "Get an Open Shift (Preview)",
+      "Description": "This operation returns details for an Open Shift.",
+      "Anchor": "#get-an-open-shift-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOpenShiftChangeRequest",
+      "Name": "Get an Open Shift request (Preview)",
+      "Description": "This operation returns an Open Shift change request by ID.",
+      "Anchor": "#get-an-open-shift-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSchedulingGroup",
+      "Name": "Get a Scheduling Group (Preview)",
+      "Description": "This operation returns details for a Scheduling Group using its unique ID.",
+      "Anchor": "#get-a-scheduling-group-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetShift",
+      "Name": "Get a Shift (Preview)",
+      "Description": "This operation returns details for a Shift using the Shift's unique ID.",
+      "Anchor": "#get-a-shift-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSwapShiftsChangeRequest",
+      "Name": "Get a Swap Shifts request (Preview)",
+      "Description": "This operation returns a Swap Shifts request by ID.",
+      "Anchor": "#get-a-swap-shifts-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTimeOff",
+      "Name": "Get a Time Off instance (Preview)",
+      "Description": "This operation returns details for a Time Off using its unique ID.",
+      "Anchor": "#get-a-time-off-instance-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTimeOffShiftRequest",
+      "Name": "Get a Time Off request (Preview)",
+      "Description": "This operation returns a Time Off request by ID.",
+      "Anchor": "#get-a-time-off-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOfferShiftRequests",
+      "Name": "List all Offer Shift requests (Preview)",
+      "Description": "This operation returns all Offer Shift requests in a Schedule.",
+      "Anchor": "#list-all-offer-shift-requests-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOpenShiftChangeRequests",
+      "Name": "List all Open Shift requests (Preview)",
+      "Description": "This operation returns all Open Shift change requests in a Schedule.",
+      "Anchor": "#list-all-open-shift-requests-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOpenShifts",
+      "Name": "List all Open Shifts (Preview)",
+      "Description": "This operation returns all Open Shifts in a team.",
+      "Anchor": "#list-all-open-shifts-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListSchedulingGroups",
+      "Name": "List all Scheduling Groups (Preview)",
+      "Description": "This operation returns all Scheduling Groups in a Schedule.",
+      "Anchor": "#list-all-scheduling-groups-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListShifts",
+      "Name": "List all Shifts (Preview)",
+      "Description": "This operation returns all Shifts assigned to members of a team",
+      "Anchor": "#list-all-shifts-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListSwapShiftsChangeRequests",
+      "Name": "List all Swap Shifts requests (Preview)",
+      "Description": "This operation returns all Swap Shifts requests in a Schedule.",
+      "Anchor": "#list-all-swap-shifts-requests-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTimeOffReasons",
+      "Name": "List all Time Off Reasons (Preview)",
+      "Description": "This operation returns the list of Time Off Reasons associated with a team.",
+      "Anchor": "#list-all-time-off-reasons-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTimeOffRequests",
+      "Name": "List all Time Off requests (Preview)",
+      "Description": "This operation returns all Time Off requests in a Schedule.",
+      "Anchor": "#list-all-time-off-requests-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTimesOff",
+      "Name": "List all Time Off instances (Preview)",
+      "Description": "This operation returns all Time Off instances in a Schedule",
+      "Anchor": "#list-all-time-off-instances-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OfferShiftRequestApprove",
+      "Name": "Approve an Offer Shift request (Preview)",
+      "Description": "This operation allows recipients/managers to approve an Offer Shift request.",
+      "Anchor": "#approve-an-offer-shift-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OfferShiftRequestDecline",
+      "Name": "Decline an Offer Shift request (Preview)",
+      "Description": "This operation allows users to decline an Offer Shift request.",
+      "Anchor": "#decline-an-offer-shift-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenShiftChangeRequestApprove",
+      "Name": "Approve an Open Shift request (Preview)",
+      "Description": "This operation allows managers to approve an Open Shift request.",
+      "Anchor": "#approve-an-open-shift-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenShiftChangeRequestDecline",
+      "Name": "Decline an Open Shift request (Preview)",
+      "Description": "This operation allows managers to decline an Open Shift request.",
+      "Anchor": "#decline-an-open-shift-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SwapShiftsChangeRequestApprove",
+      "Name": "Approve a Swap Shifts request (Preview)",
+      "Description": "This operation allows a user to approve a Swap Shifts request.",
+      "Anchor": "#approve-a-swap-shifts-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SwapShiftsChangeRequestDecline",
+      "Name": "Decline a Swap Shifts request (Preview)",
+      "Description": "This operation allows users to decline a Swap Shifts request.",
+      "Anchor": "#decline-a-swap-shifts-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimeOffRequestApprove",
+      "Name": "Approve a Time Off request (Preview)",
+      "Description": "This operation allows managers to approve a Time Off request.",
+      "Anchor": "#approve-a-time-off-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimeOffRequestDecline",
+      "Name": "Decline a Time Off request (Preview)",
+      "Description": "This operation allows managers to decline a Time Off request.",
+      "Anchor": "#decline-a-time-off-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerForOfferShiftRequests",
+      "Name": "When an Offer Shift request is created, updated or deleted",
+      "Description": "This operation triggers when an Offer Shift request is created, updated or deleted.",
+      "Anchor": "#when-an-offer-shift-request-is-created,-updated-or-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerForOpenShiftChangeRequests",
+      "Name": "When an Open Shift request is created, updated or deleted",
+      "Description": "This operation triggers when an Open Shift request is created, updated or deleted.",
+      "Anchor": "#when-an-open-shift-request-is-created,-updated-or-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerForShifts",
+      "Name": "When a Shift is created, updated or deleted",
+      "Description": "This operation triggers when a Shift is created, updated or deleted.",
+      "Anchor": "#when-a-shift-is-created,-updated-or-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerForSwapShiftsChangeRequests",
+      "Name": "When a Swap Shifts request is created, updated or deleted",
+      "Description": "This operation triggers when a Swap Shifts request is created, updated or deleted.",
+      "Anchor": "#when-a-swap-shifts-request-is-created,-updated-or-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerForTimeOffRequests",
+      "Name": "When a Time Off request is created, updated or deleted",
+      "Description": "This operation triggers when a Time Off request is created, updated or deleted.",
+      "Anchor": "#when-a-time-off-request-is-created,-updated-or-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateOpenShift",
+      "Name": "Update an Open Shift",
+      "Description": "Update an Open Shift in a Schedule.",
+      "Anchor": "#update-an-open-shift",
+      "IsDeprecated": false
+    }
+  ]
+}

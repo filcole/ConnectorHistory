@@ -1,0 +1,174 @@
+{
+  "UniqueName": "getaccept",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../getaccept/",
+  "Actions": [
+    {
+      "OperationId": "CreateContact",
+      "Name": "Create contact",
+      "Description": "This will create a new contact in the database for the current entity",
+      "Anchor": "#create-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create and send document or template",
+      "Description": "You must create a document to be able to send it to a recipient. When creating a document you can refer to previously uploaded files with file_id or you can choose to create a document and upload the files in on API post. You can only upload ONE file when including a file in the create document POST.\nUse either file_ids parameter to use existing uploaded file(s), file_content to send the document as base64 encoded string or do a multipart post with file parameter.\nAll recipients must have either a valid e-mail or a mobile number.\nAll events are recorded using requestor IP address. You can override this using header CLIENT_IP containing the end-users public IP address.",
+      "Anchor": "#create-and-send-document-or-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateRejectedSubscription",
+      "Name": "When a document has been rejected",
+      "Description": "Triggers when a document has been rejected by any of the recipients",
+      "Anchor": "#when-a-document-has-been-rejected",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateReviewedSubscription",
+      "Name": "When a document has been reviewed",
+      "Description": "Triggers when a document has been reviewed by any of the recipients",
+      "Anchor": "#when-a-document-has-been-reviewed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSignedSubscription",
+      "Name": "When a document has been signed",
+      "Description": "Triggers when a document has been signed by all signing parties",
+      "Anchor": "#when-a-document-has-been-signed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSubscription",
+      "Name": "Subscribe to document events",
+      "Description": "This call will create a new subscription.\nThe response will be wrapped in an array even for single object according to REST hook standards.\n\nEvents\n\n\ndocument.created - Document is created\ndocument.sent - Document is sent\ndocument.viewed - Document is sent\ndocument.signed - Document is signed\ndocument.approved - Document is approved\ndocument.expired - Document has expired\ndocument.rejected - Document is rejected\ndocument.downloaded - Document is downloaded\ndocument.printed - Document is printed\ndocument.forwarded - Document is forwarded\ndocument.partially_signed - Document has been partially signed\ndocument.commented - Document is commented\ndocument.hardbounced - Document is hardbounced\ndocument.imported - Document is imported",
+      "Anchor": "#subscribe-to-document-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUser",
+      "Name": "Create user",
+      "Description": "This will create a new contact in the database for the current entity",
+      "Anchor": "#create-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DownloadDocument",
+      "Name": "Download document",
+      "Description": "Document file can always be downloaded but most likely you want to download it when it has status Signed.\nYou can select to receive a download-url or get the binary file.\nThe download URL is accessable 10 minutes after a request has been made.",
+      "Anchor": "#download-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentDetails",
+      "Name": "Get document details",
+      "Description": "Get document details by specifying a document id.",
+      "Anchor": "#get-document-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserDetails",
+      "Name": "Get user details",
+      "Description": "This call will return details of a single user.\nReceive details and available entities of the current authenticated user using user-id me",
+      "Anchor": "#get-user-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAttachments",
+      "Name": "List attachments",
+      "Description": "Receive a list of available attachments. You can add new attachments in GetAccept using a new document.",
+      "Anchor": "#list-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListContacts",
+      "Name": "List contacts",
+      "Description": "Receive a list of available contact for the current entity.\nAll contacts added as a recipient are saved as a contact and is available for later use on that entity.",
+      "Anchor": "#list-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListDocumentFields",
+      "Name": "Get document fields",
+      "Description": "Get a list of fields for a document or template. Can be used both before and after a document has been signed.",
+      "Anchor": "#get-document-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListDocuments",
+      "Name": "List documents",
+      "Description": "Get a list of available documents",
+      "Anchor": "#list-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFields",
+      "Name": "Get template fields",
+      "Description": "Receive a list of fields for a specific template.",
+      "Anchor": "#get-template-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRecipients",
+      "Name": "Get document recipients",
+      "Description": "Get a list of recipients for a specific document.",
+      "Anchor": "#get-document-recipients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRoles",
+      "Name": "Get template roles",
+      "Description": "Receive a list of roles for a specific template.",
+      "Anchor": "#get-template-roles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTemplates",
+      "Name": "List templates",
+      "Description": "Receive a list of available document templates. You can add new templates under the Templates-section in GetAccept.",
+      "Anchor": "#list-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListUsers",
+      "Name": "List users",
+      "Description": "Fetch a list of active users for the current authenticated entity",
+      "Anchor": "#list-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListVideos",
+      "Name": "List videos",
+      "Description": "Receive a list of available videos on the entity. You can add new videos in the mobile app or inside GetAccept.",
+      "Anchor": "#list-videos",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendDocument",
+      "Name": "Send existing document",
+      "Description": "When you send a document via GetAccept, we deliver an email to all recipients, each containing a unique, secured link. This API call triggers the document send action and can only be performed on documents with document_status = draft. The document will be sent to recipients you provided when it was created.\nIf document was created using self-sign option it will also be self-signed by the authenticated or specified user before sending.",
+      "Anchor": "#send-existing-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadAttachment",
+      "Name": "Upload an attachment",
+      "Description": "You can upload attachment files to include with documents you send.\nSuccessful request will return the attachment_id. Use attachment_id to assign an attachment to a document.",
+      "Anchor": "#upload-an-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadDocument",
+      "Name": "Upload a document file",
+      "Description": "You can upload one file at a time and get a file id. The file id is used to connect a file with a GetAccept document which is sent to recipients. If you want to upload mutliple files you run multiple POST. We only accept files up to 10 MB as default. Uploaded file need to be imported/added to a document within 48 hours after uploading.\nWe recommended you to upload PDF files in order to guarantee the same look when sent. Other file types can be converted, such as:\nMirosoft Office: doc, docx, xl, xls, xlsx, ppt, pptx\nMac: numbers, key\nImages: jpg, jpeg, png\nOther: html, tex, csv",
+      "Anchor": "#upload-a-document-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadVideo",
+      "Name": "Upload a video",
+      "Description": "You can upload attachment files to include with documents you send.\nSuccessful request will return the attachment_id. Use attachment_id to assign an attachment to a document.",
+      "Anchor": "#upload-a-video",
+      "IsDeprecated": false
+    }
+  ]
+}

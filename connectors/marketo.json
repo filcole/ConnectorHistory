@@ -1,0 +1,27 @@
+{
+  "UniqueName": "marketo",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../marketo/",
+  "Actions": [
+    {
+      "OperationId": "GetItem",
+      "Name": "Get row",
+      "Description": "Retrieves a single row from the selected table",
+      "Anchor": "#get-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get rows",
+      "Description": "Retrieves rows from the selected table",
+      "Anchor": "#get-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get tables list",
+      "Description": "Retrieves the list of tables",
+      "Anchor": "#get-tables-list",
+      "IsDeprecated": false
+    }
+  ]
+}

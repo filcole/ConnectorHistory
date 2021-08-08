@@ -1,0 +1,62 @@
+{
+  "UniqueName": "docusigndemo",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../docusigndemo/",
+  "Actions": [
+    {
+      "OperationId": "AddRecipientToEnvelope",
+      "Name": "Add recipient to an envelope",
+      "Description": "Add recipient to an envelope",
+      "Anchor": "#add-recipient-to-an-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateHookEnvelope",
+      "Name": "When an envelope status changes (Connect)",
+      "Description": "Triggers a new flow when an envelope status changes.",
+      "Anchor": "#when-an-envelope-status-changes-(connect)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocuments",
+      "Name": "Get envelope documents",
+      "Description": "Get envelope documents.",
+      "Anchor": "#get-envelope-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLoginAccounts",
+      "Name": "Login",
+      "Description": "Login",
+      "Anchor": "#login",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRecipientStatus",
+      "Name": "List recipients",
+      "Description": "List recipients for a specific envelope.",
+      "Anchor": "#list-recipients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveRecipientFromEnvelope",
+      "Name": "Remove recipient from an envelope",
+      "Description": "Remove recipient from an envelope",
+      "Anchor": "#remove-recipient-from-an-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendDraftEnvelope",
+      "Name": "Send envelope",
+      "Description": "Send an existing envelope.",
+      "Anchor": "#send-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEnvelope",
+      "Name": "Send envelope using template",
+      "Description": "Send a new envelope using a specified template.",
+      "Anchor": "#send-envelope-using-template",
+      "IsDeprecated": false
+    }
+  ]
+}

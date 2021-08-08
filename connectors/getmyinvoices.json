@@ -1,0 +1,13 @@
+{
+  "UniqueName": "getmyinvoices",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../getmyinvoices/",
+  "Actions": [
+    {
+      "OperationId": "GetInvoiceFromGetMyInvoices",
+      "Name": "Get invoice document from GetMyInvoices",
+      "Description": "Get invoice document data one by one from GetMyInvoices.",
+      "Anchor": "#get-invoice-document-from-getmyinvoices",
+      "IsDeprecated": false
+    }
+  ]
+}

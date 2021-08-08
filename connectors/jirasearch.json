@@ -1,0 +1,13 @@
+{
+  "UniqueName": "jirasearch",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../jirasearch/",
+  "Actions": [
+    {
+      "OperationId": "SimpleSearch",
+      "Name": "Searches for issues using JQL",
+      "Description": "Get all issue from digital board",
+      "Anchor": "#searches-for-issues-using-jql",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "UniqueName": "todo",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../todo/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "List all to-do's (Preview)",
+      "Description": "This operation is used to retrieve all to-do's from all lists.",
+      "Anchor": "#list-all-to-do's-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "List to-do's by folder (V2) (Preview)",
+      "Description": "This operation is used to retrieve all to-do's from a specific list.",
+      "Anchor": "#list-to-do's-by-folder-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "List to-do's by folder [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List to-do's by folder (V2) instead.\nThis operation is used to retrieve all to-do's from a specific list.",
+      "Anchor": "#list-to-do's-by-folder-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateToDo",
+      "Name": "Add a to-do [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Add a to-do (V3) instead.\nThis operation is used to create a to-do in the specified to-do list (defaults to To-Do).",
+      "Anchor": "#add-a-to-do-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateToDoList",
+      "Name": "Create a to-do list [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a to-do list (V2) instead.\nThis operation is used to create a new to-do list.",
+      "Anchor": "#create-a-to-do-list-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateToDoListV2",
+      "Name": "Create a to-do list (V2) (Preview)",
+      "Description": "This operation is used to create a new to-do list.",
+      "Anchor": "#create-a-to-do-list-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateToDoV2",
+      "Name": "Add a to-do (V2) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Add a to-do (V3) instead.\nThis operation is used to create a to-do in the specified to-do list (defaults to To-Do).",
+      "Anchor": "#add-a-to-do-(v2)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateToDoV3",
+      "Name": "Add a to-do (V3) (Preview)",
+      "Description": "This operation is used to create a to-do in the specified to-do list.",
+      "Anchor": "#add-a-to-do-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteToDo",
+      "Name": "Delete to-do [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Delete to-do (V2) instead.\nThis operation is used to delete a task.",
+      "Anchor": "#delete-to-do-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DeleteToDoList",
+      "Name": "Delete a to-do list (Preview)",
+      "Description": "This operation is used to delete a specific to-do list.",
+      "Anchor": "#delete-a-to-do-list-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteToDoV2",
+      "Name": "Delete to-do (V2) (Preview)",
+      "Description": "This operation is used to delete a task.",
+      "Anchor": "#delete-to-do-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllTodoLists",
+      "Name": "List all to-do lists [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all to-do lists (V2) instead.\nReturns a list of all the to-do lists.",
+      "Anchor": "#list-all-to-do-lists-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetAllTodoListsV2",
+      "Name": "List all to-do lists (V2) (Preview)",
+      "Description": "Returns a list of all the to-do lists.",
+      "Anchor": "#list-all-to-do-lists-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetToDo",
+      "Name": "Get a to-do [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a to-do (V3) instead.\nThis operation is used to get the to-Do with the given Id.",
+      "Anchor": "#get-a-to-do-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetToDoList",
+      "Name": "Get a to-do list [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a to-do list (V2) instead.\nThis operation is used to get a specific to-do list.",
+      "Anchor": "#get-a-to-do-list-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetToDoListV2",
+      "Name": "Get a to-do list (V2) (Preview)",
+      "Description": "This operation is used to get a specific to-do list.",
+      "Anchor": "#get-a-to-do-list-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetToDoV2",
+      "Name": "Get a to-do (V2) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a to-do (V3) instead.\nThis operation is used to get the to-do with the given Id.",
+      "Anchor": "#get-a-to-do-(v2)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetToDoV3",
+      "Name": "Get a to-do (V3) (Preview)",
+      "Description": "This operation is used to get the to-do with the given Id.",
+      "Anchor": "#get-a-to-do-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewToDo",
+      "Name": "When a new to-do is created [DEPRECATED]",
+      "Description": "Triggers when a new to-do is created.",
+      "Anchor": "#when-a-new-to-do-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewToDoInFolder",
+      "Name": "When a new to-do in a specific folder is created [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a new to-do in a specific folder is created (V2) instead.\nTriggers when a new to-do in a specific folder is created.",
+      "Anchor": "#when-a-new-to-do-in-a-specific-folder-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewToDoInFolderV2",
+      "Name": "When a new to-do in a specific folder is created (V2) (Preview)",
+      "Description": "Triggers when a new to-do in a specific folder is created.",
+      "Anchor": "#when-a-new-to-do-in-a-specific-folder-is-created-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdateToDo",
+      "Name": "When a to-do is updated [DEPRECATED]",
+      "Description": "Triggers when a to-do is updated.",
+      "Anchor": "#when-a-to-do-is-updated-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnUpdateToDoInFolder",
+      "Name": "When a to-do in a specific folder is updated [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a to-do in a specific folder is updated (V2) instead.\nTriggers when a to-do in a specific folder is updated.",
+      "Anchor": "#when-a-to-do-in-a-specific-folder-is-updated-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnUpdateToDoInFolderV2",
+      "Name": "When a to-do in a specific folder is updated (V2) (Preview)",
+      "Description": "Triggers when a to-do in a specific folder is updated.",
+      "Anchor": "#when-a-to-do-in-a-specific-folder-is-updated-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateToDo",
+      "Name": "Update to-do [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update to-do (V2) instead.\nThis operation is used to update a specific to-do.",
+      "Anchor": "#update-to-do-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateToDoList",
+      "Name": "Update a to-do list (Preview)",
+      "Description": "This operation is used to update a specific to-do list.",
+      "Anchor": "#update-a-to-do-list-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateToDoV2",
+      "Name": "Update to-do (V2) (Preview)",
+      "Description": "This operation is used to update a specific to-do.",
+      "Anchor": "#update-to-do-(v2)-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

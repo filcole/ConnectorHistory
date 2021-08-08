@@ -1,0 +1,27 @@
+{
+  "UniqueName": "nitro",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nitro/",
+  "Actions": [
+    {
+      "OperationId": "TemplateSignatureRequest",
+      "Name": "Send a signature request using a template",
+      "Description": "Send a signature request using an existing template.",
+      "Anchor": "#send-a-signature-request-using-a-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "webhookDocumentSignedTriggerV2",
+      "Name": "When a signature request is completed",
+      "Description": "Triggers when a signature request is completed by all parties",
+      "Anchor": "#when-a-signature-request-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "webhookDocumentSignedTriggetr",
+      "Name": "Triggers when a document is signed [DEPRECATED]",
+      "Description": "Creates a webhook to notify signed document events",
+      "Anchor": "#triggers-when-a-document-is-signed-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

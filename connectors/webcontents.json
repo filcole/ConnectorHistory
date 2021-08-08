@@ -1,0 +1,20 @@
+{
+  "UniqueName": "webcontents",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../webcontents/",
+  "Actions": [
+    {
+      "OperationId": "GetFileContent",
+      "Name": "Get web resource",
+      "Description": "Retrieves a web resource by issuing an HTTP GET request.",
+      "Anchor": "#get-web-resource",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvokeHttp",
+      "Name": "Invoke an HTTP request",
+      "Description": "Invokes an HTTP endpoint.",
+      "Anchor": "#invoke-an-http-request",
+      "IsDeprecated": false
+    }
+  ]
+}

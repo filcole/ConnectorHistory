@@ -1,0 +1,104 @@
+{
+  "UniqueName": "scriveesign",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../scriveesign/",
+  "Actions": [
+    {
+      "OperationId": "AddParty",
+      "Name": "Add new party",
+      "Description": "Adds a new party to the document as a signatory, viewer or approver.",
+      "Anchor": "#add-new-party",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocJson",
+      "Name": "Get Document JSON",
+      "Description": "Gets the document JSON.",
+      "Anchor": "#get-document-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentPdfContent",
+      "Name": "Get document PDF file content",
+      "Description": "Gets the content of the document PDF file.",
+      "Anchor": "#get-document-pdf-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewDocumentFromTemplate",
+      "Name": "Create new document from template",
+      "Description": "Create a new document from the selected template.",
+      "Anchor": "#create-new-document-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewFromPdf",
+      "Name": "Create new document from PDF",
+      "Description": "Creates a document from a PDF file.",
+      "Anchor": "#create-new-document-from-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetAuthorAttachment",
+      "Name": "Set attachment",
+      "Description": "Adds a PDF to a document as an attachment. Choose between existing attachments from your Scrive account or create a new attachment by providing a PDF file.",
+      "Anchor": "#set-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetFile",
+      "Name": "Set file for document",
+      "Description": "Sets the main PDF file for the document.",
+      "Anchor": "#set-file-for-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartAndOnDocumentSign",
+      "Name": "When a document is signed by all signatories (Start Signing)",
+      "Description": "Starts the signing process for a document and waits for it to be signed.",
+      "Anchor": "#when-a-document-is-signed-by-all-signatories-(start-signing)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartSigning",
+      "Name": "Start signing process",
+      "Description": "Start the signing process for a document.",
+      "Anchor": "#start-signing-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocJson",
+      "Name": "Update document JSON",
+      "Description": "Updates the document JSON with a provided JSON.",
+      "Anchor": "#update-document-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatePartiesFields",
+      "Name": "Update fields based on template",
+      "Description": "Updates party fields based on the selected template.",
+      "Anchor": "#update-fields-based-on-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatePartiesProperties",
+      "Name": "Update properties of parties based on template",
+      "Description": "Updates properties based on the selected template.",
+      "Anchor": "#update-properties-of-parties-based-on-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookFromTemplateSign",
+      "Name": "When a document from template is signed by all signatories",
+      "Description": "Watches a template and waits for one of its documents to be signed.",
+      "Anchor": "#when-a-document-from-template-is-signed-by-all-signatories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookOnDocumentSign",
+      "Name": "When a document is signed by all signatories",
+      "Description": "Waits for a document to be signed.",
+      "Anchor": "#when-a-document-is-signed-by-all-signatories",
+      "IsDeprecated": false
+    }
+  ]
+}

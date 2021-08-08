@@ -1,0 +1,90 @@
+{
+  "UniqueName": "junglemail365",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../junglemail365/",
+  "Actions": [
+    {
+      "OperationId": "Emails_Get",
+      "Name": "Get processed emails list",
+      "Description": "Get processed emails list",
+      "Anchor": "#get-processed-emails-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Job_Approve",
+      "Name": "Approve newsletter",
+      "Description": "Approve and execute JungleMail 365 newsletter.",
+      "Anchor": "#approve-newsletter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Job_Create",
+      "Name": "Create newsletter",
+      "Description": "Create JungleMail 365 newsletter.",
+      "Anchor": "#create-newsletter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Job_Get",
+      "Name": "Get newsletter details",
+      "Description": "Get newsletter details.",
+      "Anchor": "#get-newsletter-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Job_GetAll",
+      "Name": "Get newsletters",
+      "Description": "Get the list of recently completed newsletters.",
+      "Anchor": "#get-newsletters",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Job_GetReport",
+      "Name": "Get analytics report",
+      "Description": "Get newsletter analytics report.",
+      "Anchor": "#get-analytics-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Job_Reject",
+      "Name": "Reject newsletter",
+      "Description": "Reject JungleMail 365 newsletter.",
+      "Anchor": "#reject-newsletter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrackerLog_Get",
+      "Name": "Get analytics log",
+      "Description": "Get analytics log",
+      "Anchor": "#get-analytics-log",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Unsubscribes_Get",
+      "Name": "Get unsubscribes",
+      "Description": "Get unsubscribes",
+      "Anchor": "#get-unsubscribes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhook_JobCompleted",
+      "Name": "When newsletter processing is completed",
+      "Description": "This operation triggers a flow when a JungleMail 365 newsletter processing is completed.",
+      "Anchor": "#when-newsletter-processing-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhook_JobStarted",
+      "Name": "When newsletter processing is started",
+      "Description": "This operation triggers a flow when a JungleMail 365 newsletter processing is started.",
+      "Anchor": "#when-newsletter-processing-is-started",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Webhook_JobSumitted",
+      "Name": "When a newsletter is submitted",
+      "Description": "This operation triggers a flow when a JungleMail 365 newsletter is submitted.",
+      "Anchor": "#when-a-newsletter-is-submitted",
+      "IsDeprecated": false
+    }
+  ]
+}

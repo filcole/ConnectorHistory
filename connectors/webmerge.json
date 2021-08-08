@@ -1,0 +1,20 @@
+{
+  "UniqueName": "webmerge",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../webmerge/",
+  "Actions": [
+    {
+      "OperationId": "MergeDocument",
+      "Name": "Merge Document",
+      "Description": "This endpoint merges data into a document.",
+      "Anchor": "#merge-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeRoute",
+      "Name": "Merge Data Route",
+      "Description": "This endpoint merges data into a data route.",
+      "Anchor": "#merge-data-route",
+      "IsDeprecated": false
+    }
+  ]
+}

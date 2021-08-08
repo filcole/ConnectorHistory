@@ -1,0 +1,139 @@
+{
+  "UniqueName": "panviva",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../panviva/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Container",
+      "Description": "Return a container using the container ID provided",
+      "Anchor": "#container",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Document",
+      "Description": "Return a document using the document ID provided",
+      "Anchor": "#document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Folder",
+      "Description": "Return information about a Panviva folder and references to each of its direct children",
+      "Anchor": "#folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OperationsArtefactNls",
+      "Name": "Search Artefacts",
+      "Description": "Return search results for a given query",
+      "Anchor": "#search-artefacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OperationsLiveCsh",
+      "Name": "Live CSH",
+      "Description": "Present a CSH search result page of the passing query on Panviva client to specified user on Panviva client",
+      "Anchor": "#live-csh",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OperationsLiveDocument",
+      "Name": "Live Document",
+      "Description": "Present a document page to specified user on Panviva client",
+      "Anchor": "#live-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OperationsLiveSearch",
+      "Name": "Live Search",
+      "Description": "Present a search result page of the passing query on Panviva client to specified user on Panviva client",
+      "Anchor": "#live-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OperationsSearch",
+      "Name": "Search",
+      "Description": "Searches documents, folders, and files (external documents) for a term and returns paginated results",
+      "Anchor": "#search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesArtefactById",
+      "Name": "Artefact",
+      "Description": "Return an artefact using the ID provided",
+      "Anchor": "#artefact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesArtefactCategoriesGet",
+      "Name": "Get Artefact Categories",
+      "Description": "Gets a list of all available artefact categories",
+      "Anchor": "#get-artefact-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesArtefactCategoryPost",
+      "Name": "Create Artefact Category",
+      "Description": "Creates a category for classifying artefacts",
+      "Anchor": "#create-artefact-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesDocumentByIdContainers",
+      "Name": "Document Containers",
+      "Description": "Return a list of containers using the document ID provided",
+      "Anchor": "#document-containers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesDocumentByIdContainersRelationships",
+      "Name": "Document Container Relationships",
+      "Description": "Return a list of the parent-child relationship between each container for the document ID provided",
+      "Anchor": "#document-container-relationships",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesDocumentByIdTranslations",
+      "Name": "Document Translations",
+      "Description": "Return a list of all translations (per language and locale) of a Panviva document",
+      "Anchor": "#document-translations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesFileById",
+      "Name": "File",
+      "Description": "Returns a file (external document) from Panviva",
+      "Anchor": "#file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesFolderByIdChildren",
+      "Name": "Folder Children",
+      "Description": "Gets all the immediate children of a Panviva folder, not including grandchildren. Children can be folders, documents, or files (external documents)",
+      "Anchor": "#folder-children",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesFolderByIdTranslations",
+      "Name": "Folder Translations",
+      "Description": "Gets all the translations of a Panviva folder, along with each translated folders respective children",
+      "Anchor": "#folder-translations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesFolderRoot",
+      "Name": "Folder Root",
+      "Description": "Gets the root/home folder in all of Panviva, which can be drilled into using the Get Folder Children endpoint. Note this endpoint was formerly referred to as the 'Folder Search' endpoint",
+      "Anchor": "#folder-root",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesImageById",
+      "Name": "Image",
+      "Description": "Returns an image from Panviva. Image data is represented as a base64 string",
+      "Anchor": "#image",
+      "IsDeprecated": false
+    }
+  ]
+}

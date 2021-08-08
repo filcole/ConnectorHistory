@@ -1,0 +1,90 @@
+{
+  "UniqueName": "disqus",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../disqus/",
+  "Actions": [
+    {
+      "OperationId": "CloseThread",
+      "Name": "Close a discussion",
+      "Description": "Closes a discussion (for moderators of this forum only).",
+      "Anchor": "#close-a-discussion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePost",
+      "Name": "Create a comment",
+      "Description": "Create a comment on a specified thread.",
+      "Anchor": "#create-a-comment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFollowedForums",
+      "Name": "Get followed channels",
+      "Description": "Get a list of the channels the current user follows.",
+      "Anchor": "#get-followed-channels",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetForumThreads",
+      "Name": "Get discussions in a channel",
+      "Description": "Returns a list of discussions in the specified channel.",
+      "Anchor": "#get-discussions-in-a-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetThread",
+      "Name": "Get discussion by Id",
+      "Description": "Returns the details of a discussion by Id.",
+      "Anchor": "#get-discussion-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnPostCreated",
+      "Name": "When a comment is created",
+      "Description": "Triggers a flow when a comment is created on a specified discussion.",
+      "Anchor": "#when-a-comment-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnThreadCreated",
+      "Name": "When a discussion is created",
+      "Description": "Triggers a flow when a discussion is created on a specified forum.",
+      "Anchor": "#when-a-discussion-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenThread",
+      "Name": "Open a discussion",
+      "Description": "Opens a discussion (for moderators of this forum only).",
+      "Anchor": "#open-a-discussion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecommendThread",
+      "Name": "Recommend a discussion",
+      "Description": "Recommend a discussion.",
+      "Anchor": "#recommend-a-discussion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemovePost",
+      "Name": "Remove a comment",
+      "Description": "Remove a comment.",
+      "Anchor": "#remove-a-comment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplyToPost",
+      "Name": "Reply to a comment",
+      "Description": "Reply to a specified comment.",
+      "Anchor": "#reply-to-a-comment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscribeToThread",
+      "Name": "Follow a discussion",
+      "Description": "Follow a discussion.",
+      "Anchor": "#follow-a-discussion",
+      "IsDeprecated": false
+    }
+  ]
+}

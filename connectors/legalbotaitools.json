@@ -1,0 +1,34 @@
+{
+  "UniqueName": "legalbotaitools",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../legalbotaitools/",
+  "Actions": [
+    {
+      "OperationId": "Document_Similarity_NLP",
+      "Name": "Document Similarity NLP",
+      "Description": "Calculates the similarity of two documents using Natural Language Processing",
+      "Anchor": "#document-similarity-nlp",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Top_Keywords",
+      "Name": "Top Keywords",
+      "Description": "Extracts and returns the top N keywords from a document.",
+      "Anchor": "#top-keywords",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Translate_Documents",
+      "Name": "Translate Documents",
+      "Description": "Translates file content from source language to target language.",
+      "Anchor": "#translate-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Translate_Text",
+      "Name": "Translate Text",
+      "Description": "Translates text from target language to source language",
+      "Anchor": "#translate-text",
+      "IsDeprecated": false
+    }
+  ]
+}

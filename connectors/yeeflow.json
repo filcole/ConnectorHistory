@@ -1,0 +1,111 @@
+{
+  "UniqueName": "yeeflow",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../yeeflow/",
+  "Actions": [
+    {
+      "OperationId": "AddItem",
+      "Name": "Add an item to a list",
+      "Description": "Add an item to a list",
+      "Anchor": "#add-an-item-to-a-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddItemFile",
+      "Name": "Add file to item",
+      "Description": "Adds a new file to a field of the specified list item.",
+      "Anchor": "#add-file-to-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddLibraryFile",
+      "Name": "Add file to library",
+      "Description": "Uploads a file to a library",
+      "Anchor": "#add-file-to-library",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete an item",
+      "Description": "Delete an item",
+      "Anchor": "#delete-an-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContent",
+      "Name": "Get file content",
+      "Description": "Get file content by file id",
+      "Anchor": "#get-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileProperty",
+      "Name": "Get file properties",
+      "Description": "Get file properties array from a file field",
+      "Anchor": "#get-file-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get an item by ID",
+      "Description": "Get an item by ID",
+      "Anchor": "#get-an-item-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLibraryFile",
+      "Name": "Get library file",
+      "Description": "Get file content from library",
+      "Anchor": "#get-library-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetListFields",
+      "Name": "Get fields of a list",
+      "Description": "Get fields of a list",
+      "Anchor": "#get-fields-of-a-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnItemCreated",
+      "Name": "When an item is created",
+      "Description": "When an item is created",
+      "Anchor": "#when-an-item-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnItemCreatedModified",
+      "Name": "When an item is created or modified",
+      "Description": "When an item is created or modified",
+      "Anchor": "#when-an-item-is-created-or-modified",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnItemDeleted",
+      "Name": "When an item is deleted",
+      "Description": "When an item is deleted",
+      "Anchor": "#when-an-item-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnItemModified",
+      "Name": "When an item is modified",
+      "Description": "When an item is modified",
+      "Anchor": "#when-an-item-is-modified",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QueryItems",
+      "Name": "Query items",
+      "Description": "Query items",
+      "Anchor": "#query-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateItem",
+      "Name": "Update an item by ID",
+      "Description": "Update an item by ID",
+      "Anchor": "#update-an-item-by-id",
+      "IsDeprecated": false
+    }
+  ]
+}

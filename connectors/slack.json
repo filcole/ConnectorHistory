@@ -1,0 +1,90 @@
+{
+  "UniqueName": "slack",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../slack/",
+  "Actions": [
+    {
+      "OperationId": "CreateChannel",
+      "Name": "Create a channel [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a channel instead.\nCreate a channel in slack.",
+      "Anchor": "#create-a-channel-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateChannel_V2",
+      "Name": "Create a channel",
+      "Description": "Create a channel in slack.",
+      "Anchor": "#create-a-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGroup",
+      "Name": "Create a group [DEPRECATED]",
+      "Description": "Creates a group in slack.",
+      "Anchor": "#create-a-group-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "JoinChannel",
+      "Name": "Join a channel [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Join a public channel instead.\nJoin a channel in slack.",
+      "Anchor": "#join-a-channel-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "JoinChannel_V2",
+      "Name": "Join a public channel",
+      "Description": "Join a public channel in slack.",
+      "Anchor": "#join-a-public-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListChannels",
+      "Name": "List channels [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List public channels (Pagination support) instead.\nList the channels in slack.",
+      "Anchor": "#list-channels-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListChannels_V2",
+      "Name": "List public channels",
+      "Description": "List the public channels in slack.",
+      "Anchor": "#list-public-channels",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListChannels_V3",
+      "Name": "List public channels (Pagination support) (Preview)",
+      "Description": "List the public channels in slack.",
+      "Anchor": "#list-public-channels-(pagination-support)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewFile",
+      "Name": "When a file is created",
+      "Description": "When a file is created",
+      "Anchor": "#when-a-file-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostMessage",
+      "Name": "Post message [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Post message (V2) instead.\nThis operation is used to post a message to the specified channel.",
+      "Anchor": "#post-message-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PostMessage_V2",
+      "Name": "Post message (V2)",
+      "Description": "This operation is used to post a message to the specified channel.",
+      "Anchor": "#post-message-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetDND",
+      "Name": "Set do not disturb",
+      "Description": "Set the do not disturb status for the user.",
+      "Anchor": "#set-do-not-disturb",
+      "IsDeprecated": false
+    }
+  ]
+}

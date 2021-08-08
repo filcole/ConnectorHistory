@@ -1,0 +1,139 @@
+{
+  "UniqueName": "eduframe",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../eduframe/",
+  "Actions": [
+    {
+      "OperationId": "Get_accounts",
+      "Name": "List all accounts",
+      "Description": "Get all accounts.",
+      "Anchor": "#list-all-accounts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_accounts_id",
+      "Name": "Get an account",
+      "Description": "Get an account by id",
+      "Anchor": "#get-an-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_categories",
+      "Name": "List all categories",
+      "Description": "Get all categories.",
+      "Anchor": "#list-all-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_categories_id",
+      "Name": "Get a category",
+      "Description": "Get a category by id",
+      "Anchor": "#get-a-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_courses",
+      "Name": "List all courses",
+      "Description": "Get all courses.",
+      "Anchor": "#list-all-courses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_courses_id",
+      "Name": "Get a course",
+      "Description": "Get a single course by id",
+      "Anchor": "#get-a-course",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_invoice_vats",
+      "Name": "List all invoice vats",
+      "Description": "Get all invoice vats",
+      "Anchor": "#list-all-invoice-vats",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_invoices",
+      "Name": "List all invoices",
+      "Description": "Get all invoices.",
+      "Anchor": "#list-all-invoices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_invoices_id",
+      "Name": "Get an invoice",
+      "Description": "Get a single invoice by id",
+      "Anchor": "#get-an-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_labels",
+      "Name": "List all labels",
+      "Description": "Get all labels.",
+      "Anchor": "#list-all-labels",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_users",
+      "Name": "List all users",
+      "Description": "Get all users.",
+      "Anchor": "#list-all-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_users_id",
+      "Name": "Get a user",
+      "Description": "Get a single user by id",
+      "Anchor": "#get-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post_accounts",
+      "Name": "Add an account",
+      "Description": "Add a account to your administration",
+      "Anchor": "#add-an-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post_categories",
+      "Name": "Add a category",
+      "Description": "Add a category to your administration",
+      "Anchor": "#add-a-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post_courses",
+      "Name": "Add a course",
+      "Description": "Add a course to your administration",
+      "Anchor": "#add-a-course",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post_invoice_vats",
+      "Name": "Add an invoice vat",
+      "Description": "Add an invoice vat which can be used on the invoice",
+      "Anchor": "#add-an-invoice-vat",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post_invoices",
+      "Name": "Add an invoice",
+      "Description": "Add an invoice to your administration",
+      "Anchor": "#add-an-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post_users",
+      "Name": "Add a user",
+      "Description": "Add a user to your administration",
+      "Anchor": "#add-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post_webhooks",
+      "Name": "Subscribe to a webhook",
+      "Description": "Subscribe to a webhook to get notified on record updates",
+      "Anchor": "#subscribe-to-a-webhook",
+      "IsDeprecated": false
+    }
+  ]
+}

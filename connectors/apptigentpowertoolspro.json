@@ -1,0 +1,622 @@
+{
+  "UniqueName": "apptigentpowertoolspro",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../apptigentpowertoolspro/",
+  "Actions": [
+    {
+      "OperationId": "AddToCollection",
+      "Name": "Collections - Add to collection",
+      "Description": "Add an item to a collection",
+      "Anchor": "#collections---add-to-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateAbsolute",
+      "Name": "Math - Calculate Absolute",
+      "Description": "Calculate the absolute value of a number",
+      "Anchor": "#math---calculate-absolute",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateAddition",
+      "Name": "Math - Calculate Addition",
+      "Description": "Calculate the sum of two numbers",
+      "Anchor": "#math---calculate-addition",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateAverage",
+      "Name": "Math - Calculate average",
+      "Description": "Calculate the average of two or more numbers",
+      "Anchor": "#math---calculate-average",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateCosine",
+      "Name": "Math - Calculate Cosine",
+      "Description": "Calculate the cosine value of an angle",
+      "Anchor": "#math---calculate-cosine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateDivision",
+      "Name": "Math - Calculate Division",
+      "Description": "Calculate the quotient of two numbers",
+      "Anchor": "#math---calculate-division",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateLogarithm",
+      "Name": "Math - Calculate Logarithm",
+      "Description": "Calculate the logarithm of a number",
+      "Anchor": "#math---calculate-logarithm",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateMedian",
+      "Name": "Math - Calculate median",
+      "Description": "Calculate the median of two or more numbers",
+      "Anchor": "#math---calculate-median",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateMinMax",
+      "Name": "Math - Calculate minimum or maximum",
+      "Description": "Calculate the minimum or maximum value in a sequence of numbers",
+      "Anchor": "#math---calculate-minimum-or-maximum",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateModulo",
+      "Name": "Math - Calculate Modulo",
+      "Description": "Calculate the remainder of dividing two numbers",
+      "Anchor": "#math---calculate-modulo",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateMultiplication",
+      "Name": "Math - Calculate Multiplication",
+      "Description": "Calculate the product of two numbers",
+      "Anchor": "#math---calculate-multiplication",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateNthRoot",
+      "Name": "Math - Calculate Nth Root",
+      "Description": "Calculate the n-th root of a number",
+      "Anchor": "#math---calculate-nth-root",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculatePower",
+      "Name": "Math - Calculate power",
+      "Description": "Raise number to a specified power",
+      "Anchor": "#math---calculate-power",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateSine",
+      "Name": "Math - Calculate Sine",
+      "Description": "Calculate the sine value of an angle",
+      "Anchor": "#math---calculate-sine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateSquareRoot",
+      "Name": "Math - Calculate Square Root",
+      "Description": "Calculate the square root of a number",
+      "Anchor": "#math---calculate-square-root",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateSubtraction",
+      "Name": "Math - Calculate Subtraction",
+      "Description": "Calculate the difference between two numbers",
+      "Anchor": "#math---calculate-subtraction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateSum",
+      "Name": "Math - Calculate sum",
+      "Description": "Calculate the sum of two or more numbers",
+      "Anchor": "#math---calculate-sum",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateTangent",
+      "Name": "Math - Calculate Tangent",
+      "Description": "Calculate the tangent value of an angle",
+      "Anchor": "#math---calculate-tangent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateVariance",
+      "Name": "Math - Calculate variance",
+      "Description": "Calculate the statistical variance of two or more numbers",
+      "Anchor": "#math---calculate-variance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectionContainsNumber",
+      "Name": "Collections - Contains number",
+      "Description": "Determine if a collection contains a specific number",
+      "Anchor": "#collections---contains-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectionContainsString",
+      "Name": "Collections - Contains string",
+      "Description": "Determine if any items in a collection contain a specific string",
+      "Anchor": "#collections---contains-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectionEndsWithString",
+      "Name": "Collections - Ends with string",
+      "Description": "Determine if any items in a collection end with a specific string",
+      "Anchor": "#collections---ends-with-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectionStartsWithString",
+      "Name": "Collections - Starts with string",
+      "Description": "Determine if any items in a collection start with a specific string",
+      "Anchor": "#collections---starts-with-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectionToJSON",
+      "Name": "Collections - Collection to JSON",
+      "Description": "Convert a collection to a named JSON object",
+      "Anchor": "#collections---collection-to-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectionToXml",
+      "Name": "Collections - Collection to XML",
+      "Description": "Convert a collection to an XML string",
+      "Anchor": "#collections---collection-to-xml",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompareStrings",
+      "Name": "Text - Compare strings",
+      "Description": "Perform a comparison of two strings",
+      "Anchor": "#text---compare-strings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContainsString",
+      "Name": "Text - Contains string",
+      "Description": "Determine if a string contains another string",
+      "Anchor": "#text---contains-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertAngle",
+      "Name": "Math - Convert angle",
+      "Description": "Convert value from one angle measurement to another",
+      "Anchor": "#math---convert-angle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertArea",
+      "Name": "Math - Convert area",
+      "Description": "Convert value from one area measurement to another",
+      "Anchor": "#math---convert-area",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertCase",
+      "Name": "Text - Convert case",
+      "Description": "Convert string to upper, lower or title case",
+      "Anchor": "#text---convert-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertCurrency",
+      "Name": "Currency - Convert currency",
+      "Description": "Calculate monetary value in a different currency",
+      "Anchor": "#currency---convert-currency",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDistance",
+      "Name": "Math - Convert distance",
+      "Description": "Convert value from one distance measurement to another",
+      "Anchor": "#math---convert-distance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertDuration",
+      "Name": "Math - Convert duration",
+      "Description": "Convert value from one duration measurement to another",
+      "Anchor": "#math---convert-duration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertEnergy",
+      "Name": "Math - Convert energy",
+      "Description": "Convert value from one energy measurement to another",
+      "Anchor": "#math---convert-energy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertImage",
+      "Name": "Files - Convert Image",
+      "Description": "Convert an image from one format to another",
+      "Anchor": "#files---convert-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertPower",
+      "Name": "Math - Convert power",
+      "Description": "Convert value from one power measurement to another",
+      "Anchor": "#math---convert-power",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertSpeed",
+      "Name": "Math - Convert speed",
+      "Description": "Convert value from one speed measurement to another",
+      "Anchor": "#math---convert-speed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertTemperature",
+      "Name": "Math - Convert temperature",
+      "Description": "Convert value from one temperature measurement to another",
+      "Anchor": "#math---convert-temperature",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertVolume",
+      "Name": "Math - Convert volume",
+      "Description": "Convert value from one volume measurement to another",
+      "Anchor": "#math---convert-volume",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertWeight",
+      "Name": "Math - Convert weight",
+      "Description": "Convert value from one weight measurement to another",
+      "Anchor": "#math---convert-weight",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CountCollection",
+      "Name": "Collections - Count collection",
+      "Description": "Count a collection of items",
+      "Anchor": "#collections---count-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CropImage",
+      "Name": "Files - Crop Image",
+      "Description": "Crop an image",
+      "Anchor": "#files---crop-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CsvToJson",
+      "Name": "Data - CSV to JSON",
+      "Description": "Convert a CSV string to a JSON array",
+      "Anchor": "#data---csv-to-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DateTimeDifference",
+      "Name": "DateTime - DateTime difference",
+      "Description": "Calculate the difference between two dates",
+      "Anchor": "#datetime---datetime-difference",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DateTimeInfo",
+      "Name": "DateTime - Get date and time information",
+      "Description": "Retrieve useful date and time information, such as day of year, total seconds and ticks",
+      "Anchor": "#datetime---get-date-and-time-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DecodeString",
+      "Name": "Text - Decode string",
+      "Description": "Decode a string encoded with Base64 encoding",
+      "Anchor": "#text---decode-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EncodeString",
+      "Name": "Text - Encode string",
+      "Description": "Encode a string using Base64 encoding",
+      "Anchor": "#text---encode-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FileToString",
+      "Name": "Files - File to string",
+      "Description": "Convert a file to a Base64 string",
+      "Anchor": "#files---file-to-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterCollection",
+      "Name": "Collections - Filter collection",
+      "Description": "Filter a collection of strings by keyword",
+      "Anchor": "#collections---filter-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlipImage",
+      "Name": "Files - Flip Image",
+      "Description": "Flip an image (horizontal or vertical)",
+      "Anchor": "#files---flip-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormatCurrency",
+      "Name": "Currency - Format currency",
+      "Description": "Apply currency symbol to a numeric value",
+      "Anchor": "#currency---format-currency",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormatDateTime",
+      "Name": "DateTime - Format date and time",
+      "Description": "Create a date/time string in a specific format",
+      "Anchor": "#datetime---format-date-and-time",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateGuid",
+      "Name": "Text - Generate GUID",
+      "Description": "Generate a globally unique identifier",
+      "Anchor": "#text---generate-guid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateHash",
+      "Name": "Text - Generate hash",
+      "Description": "Generate a hash value from a string",
+      "Anchor": "#text---generate-hash",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateQRCode",
+      "Name": "Files - Generate QR code",
+      "Description": "Generate a QR code image",
+      "Anchor": "#files---generate-qr-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "JoinStrings",
+      "Name": "Text - Join strings",
+      "Description": "Join a collection of strings",
+      "Anchor": "#text---join-strings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "JsonToCsv",
+      "Name": "Data - JSON to CSV",
+      "Description": "Convert a JSON array to CSV string",
+      "Anchor": "#data---json-to-csv",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "JsonToHtml",
+      "Name": "Data - JSON to HTML Table",
+      "Description": "Convert a JSON array to an HTML table",
+      "Anchor": "#data---json-to-html-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "JsonToXml",
+      "Name": "Data - JSON to XML",
+      "Description": "Convert a JSON object to an XML string",
+      "Anchor": "#data---json-to-xml",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarketIndex",
+      "Name": "Finance - Market index",
+      "Description": "Get current and historical market index information",
+      "Anchor": "#finance---market-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QueryJson",
+      "Name": "Data - Query JSON",
+      "Description": "Query a JSON object using a JSONPath expression",
+      "Anchor": "#data---query-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QueryXml",
+      "Name": "Data - Query XML",
+      "Description": "Query an XML string using an XPath expression",
+      "Anchor": "#data---query-xml",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RandomNumber",
+      "Name": "Math - Random number",
+      "Description": "Generate a random number within a specified range",
+      "Anchor": "#math---random-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RedactString",
+      "Name": "Text - Redact string",
+      "Description": "Redact a strng containing sensitive content",
+      "Anchor": "#text---redact-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveFromCollection",
+      "Name": "Collections - Remove from collection",
+      "Description": "Remove an item from a collection",
+      "Anchor": "#collections---remove-from-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplaceString",
+      "Name": "Text - Replace string",
+      "Description": "Replace one value with another in a string",
+      "Anchor": "#text---replace-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplaceValuesInCollection",
+      "Name": "Collections - Replace values in collection",
+      "Description": "Replace whole or partial strings in a collection",
+      "Anchor": "#collections---replace-values-in-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResizeImage",
+      "Name": "Files - Resize Image",
+      "Description": "Resize an image",
+      "Anchor": "#files---resize-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RotateImage",
+      "Name": "Files - Rotate Image",
+      "Description": "Rotate an image by specified number of degrees",
+      "Anchor": "#files---rotate-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RoundNumber",
+      "Name": "Math - Round number",
+      "Description": "Round a numeric value up or down",
+      "Anchor": "#math---round-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShortenLink",
+      "Name": "Text - Shorten hyperlink",
+      "Description": "Generate a simple, short URL from a complex URL",
+      "Anchor": "#text---shorten-hyperlink",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SortCollection",
+      "Name": "Collections - Sort collection",
+      "Description": "Sort a collection of strings",
+      "Anchor": "#collections---sort-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SpeechToText",
+      "Name": "Text - Speech to Text",
+      "Description": "Convert audio file to text (10MB limit)",
+      "Anchor": "#text---speech-to-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitCollection",
+      "Name": "Collections - Split collection",
+      "Description": "Split a collection of items by matching value or index",
+      "Anchor": "#collections---split-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitString",
+      "Name": "Text - Split string",
+      "Description": "Split a string based upon one or more characters",
+      "Anchor": "#text---split-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StandardDeviation",
+      "Name": "Math - Calculate standard deviation",
+      "Description": "Calculate the standard deviation of two or more numbers",
+      "Anchor": "#math---calculate-standard-deviation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StockPrices",
+      "Name": "Finance - Stock prices",
+      "Description": "Get current and historical stock price information",
+      "Anchor": "#finance---stock-prices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StringToFile",
+      "Name": "Text - String to File",
+      "Description": "Convert text string to file",
+      "Anchor": "#text---string-to-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TextToSpeech",
+      "Name": "Text - Text to Speech",
+      "Description": "Convert text to an audio file using AI-driven speech synthesis.",
+      "Anchor": "#text---text-to-speech",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TranslateString",
+      "Name": "Text - Translate string",
+      "Description": "Translate a string into a different language",
+      "Anchor": "#text---translate-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrimString",
+      "Name": "Text - Trim string",
+      "Description": "Trim leading or trailing whitespace from a string",
+      "Anchor": "#text---trim-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UrlDecode",
+      "Name": "Text - Decode URL",
+      "Description": "Decode an encoded URL",
+      "Anchor": "#text---decode-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UrlEncode",
+      "Name": "Text - Encode URL",
+      "Description": "Generate an encoded string from a complex hyperlink",
+      "Anchor": "#text---encode-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateEmail",
+      "Name": "Text - Validate email",
+      "Description": "Determine if an email address is valid",
+      "Anchor": "#text---validate-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VerifyHash",
+      "Name": "Text - Verify hash",
+      "Description": "Verify a hashed value against the original source string",
+      "Anchor": "#text---verify-hash",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WatermarkImage",
+      "Name": "Files - Watermark Image",
+      "Description": "Add watermark text to an image",
+      "Anchor": "#files---watermark-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorldTime",
+      "Name": "DateTime - Get world time",
+      "Description": "Convert date and time from one time zone to another",
+      "Anchor": "#datetime---get-world-time",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "XmlToJson",
+      "Name": "Data - XML to JSON",
+      "Description": "Convert an XML string to a JSON object",
+      "Anchor": "#data---xml-to-json",
+      "IsDeprecated": false
+    }
+  ]
+}

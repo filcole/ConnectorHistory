@@ -1,0 +1,27 @@
+{
+  "UniqueName": "microsoftschooldatasync",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../microsoftschooldatasync/",
+  "Actions": [
+    {
+      "OperationId": "GetSynchronizationprofiles",
+      "Name": "Get Profiles",
+      "Description": "Get all the synchronization profiles in a tenant",
+      "Anchor": "#get-profiles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUploadUrl",
+      "Name": "Get Upload Url for CSV Profle",
+      "Description": "Gets the SAS Url for uploading csv files for a given profile",
+      "Anchor": "#get-upload-url-for-csv-profle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostStartSync",
+      "Name": "Verify Uploaded Files and Start Sync",
+      "Description": "Triggers validation of uploaded files and starts sync if no errors are found.",
+      "Anchor": "#verify-uploaded-files-and-start-sync",
+      "IsDeprecated": false
+    }
+  ]
+}

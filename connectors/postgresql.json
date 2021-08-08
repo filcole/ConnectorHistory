@@ -1,0 +1,48 @@
+{
+  "UniqueName": "postgresql",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../postgresql/",
+  "Actions": [
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete row",
+      "Description": "This operation deletes a row from a table.",
+      "Anchor": "#delete-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get row",
+      "Description": "This operation gets a row from a table.",
+      "Anchor": "#get-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get rows",
+      "Description": "This operation gets rows from a table.",
+      "Anchor": "#get-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get tables",
+      "Description": "This operation gets tables from a database.",
+      "Anchor": "#get-tables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update row",
+      "Description": "This operation updates an existing row in a table.",
+      "Anchor": "#update-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Insert row",
+      "Description": "This operation inserts a new row into a table.",
+      "Anchor": "#insert-row",
+      "IsDeprecated": false
+    }
+  ]
+}

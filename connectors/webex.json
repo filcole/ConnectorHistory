@@ -1,0 +1,125 @@
+{
+  "UniqueName": "webex",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../webex/",
+  "Actions": [
+    {
+      "OperationId": "CreateSpace",
+      "Name": "Create Space",
+      "Description": "Create space or team space",
+      "Anchor": "#create-space",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSpaceMember",
+      "Name": "Add Member to Space",
+      "Description": "Add a member to an existing space",
+      "Anchor": "#add-member-to-space",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTeamMember",
+      "Name": "Add Member to Team",
+      "Description": "Add a member to a team",
+      "Anchor": "#add-member-to-team",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessageDetails",
+      "Name": "Get Message Details",
+      "Description": "Shows details for a message, by message ID.",
+      "Anchor": "#get-message-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessages",
+      "Name": "Get Messages",
+      "Description": "Get a list of recent messages for a space",
+      "Anchor": "#get-messages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMyOwnDetails",
+      "Name": "Get My Own Details",
+      "Description": "Lookup your own details",
+      "Anchor": "#get-my-own-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPeople",
+      "Name": "Get People",
+      "Description": "Lookup details and presence information for people in your organization",
+      "Anchor": "#get-people",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSpaceDetail",
+      "Name": "Get Space Details",
+      "Description": "Return details of a given space",
+      "Anchor": "#get-space-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSpaces",
+      "Name": "Get Spaces List",
+      "Description": "This action retrieves a list of spaces",
+      "Anchor": "#get-spaces-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MembershipsCreated",
+      "Name": "When a membership is created",
+      "Description": "Someone joined a room that you're in or you've been added to a new room",
+      "Anchor": "#when-a-membership-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MembershipsDeleted",
+      "Name": "When a membership is deleted",
+      "Description": "Someone left or was kicked out of a room that you're in, or you left or were removed from a room; only triggers for group rooms, not 1-to-1 rooms",
+      "Anchor": "#when-a-membership-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MembershipsUpdated",
+      "Name": "When a membership is updated",
+      "Description": "Someone's membership was updated in a room that you're in; primarily used to detect moderator changes",
+      "Anchor": "#when-a-membership-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MessagesCreated",
+      "Name": "When a message is created",
+      "Description": "New message posted into a room that you're in",
+      "Anchor": "#when-a-message-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MessagesDeleted",
+      "Name": "When a message is deleted",
+      "Description": "A message was deleted from a room that you're in",
+      "Anchor": "#when-a-message-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "Send a Message",
+      "Description": "Send a message to webex",
+      "Anchor": "#send-a-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SpaceCreated",
+      "Name": "When a space is created",
+      "Description": "A new space was created by you or one of your integrations",
+      "Anchor": "#when-a-space-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SpaceUpdated",
+      "Name": "When a space is updated",
+      "Description": "A space that you're in was updated; primarily used to detect when a space becomes Locked or Unlocked",
+      "Anchor": "#when-a-space-is-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

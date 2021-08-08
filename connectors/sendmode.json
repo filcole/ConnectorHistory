@@ -1,0 +1,34 @@
+{
+  "UniqueName": "sendmode",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sendmode/",
+  "Actions": [
+    {
+      "OperationId": "Check_Credits",
+      "Name": "Check Credits",
+      "Description": "Check your SendMode credits balance.",
+      "Anchor": "#check-credits",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Import_Customer",
+      "Name": "Import Customer",
+      "Description": "Import your customer details into your SendMode account.",
+      "Anchor": "#import-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Optout_Customer",
+      "Name": "Optout Customer",
+      "Description": "Optout Customer number from database.",
+      "Anchor": "#optout-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Send_SMS",
+      "Name": "Send SMS",
+      "Description": "Send an SMS to one or more recipients.",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "UniqueName": "yammer",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../yammer/",
+  "Actions": [
+    {
+      "OperationId": "GetAllMessages",
+      "Name": "Get all messages [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get all messages (V2) instead.\nThis operation returns all public messages in the logged in user's Yammer network. Corresponds to &quot;All&quot; conversations in the Yammer web interface.",
+      "Anchor": "#get-all-messages-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetAllMessagesV2",
+      "Name": "Get all messages (V2)",
+      "Description": "This operation returns all public messages in the logged in user's Yammer network. Corresponds to &quot;All&quot; conversations in the Yammer web interface.",
+      "Anchor": "#get-all-messages-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroups",
+      "Name": "Get groups",
+      "Description": "Gets all groups. If mine = 1, get only groups to which the user belongs",
+      "Anchor": "#get-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessagesFollowing",
+      "Name": "Get the messages from my Following feed [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get the messages from my Following feed (V2) instead.\nThis operation returns the messages from Following feed which is conversations involving people, groups and topics that the user is following.",
+      "Anchor": "#get-the-messages-from-my-following-feed-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetMessagesFollowingV2",
+      "Name": "Get the messages from my Following feed (V2)",
+      "Description": "This operation returns the messages from Following feed which is conversations involving people, groups and topics that the user is following.",
+      "Anchor": "#get-the-messages-from-my-following-feed-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessagesInGroup",
+      "Name": "Get messages in a group [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get messages in a group (V2) instead.\nThis operation returns the messages posted in a group.",
+      "Anchor": "#get-messages-in-a-group-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetMessagesInGroupV2",
+      "Name": "Get messages in a group (V2)",
+      "Description": "This operation returns the messages posted in a group.",
+      "Anchor": "#get-messages-in-a-group-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessagesInThread",
+      "Name": "Get messages in a thread [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get messages in a thread (V2) instead.\nThis operation returns the messages posted in a thread.",
+      "Anchor": "#get-messages-in-a-thread-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetMessagesInThreadV2",
+      "Name": "Get messages in a thread (V2)",
+      "Description": "This operation returns the messages posted in a thread.",
+      "Anchor": "#get-messages-in-a-thread-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNetworks",
+      "Name": "Get my networks",
+      "Description": "Gets all the networks that the user belongs to.",
+      "Anchor": "#get-my-networks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserDetailsById",
+      "Name": "Get user details",
+      "Description": "This operation returns user profile details.",
+      "Anchor": "#get-user-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LikeMessage",
+      "Name": "Like message",
+      "Description": "This operation is used to like the specified message.",
+      "Anchor": "#like-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewMessagesFollowing",
+      "Name": "When there is a new message in my followed feed",
+      "Description": "This operation triggers when there is a new message in a network followed by you.",
+      "Anchor": "#when-there-is-a-new-message-in-my-followed-feed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewMessagesInGroup",
+      "Name": "When there is a new message in a group",
+      "Description": "This operation triggers when a new message is posted in a group.",
+      "Anchor": "#when-there-is-a-new-message-in-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostMessage",
+      "Name": "Post message",
+      "Description": "This operation is used to post a Message to a Group or All Company Feed. If group ID is provided, message will be posted to the specified group else it will be posted in All Company Feed.",
+      "Anchor": "#post-message",
+      "IsDeprecated": false
+    }
+  ]
+}

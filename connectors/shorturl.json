@@ -1,0 +1,34 @@
+{
+  "UniqueName": "shorturl",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../shorturl/",
+  "Actions": [
+    {
+      "OperationId": "ShortUrl_CreateShortUrl",
+      "Name": "Create Short URL",
+      "Description": "This action allows you to generate a Short URL or Tiny link for your long URL.",
+      "Anchor": "#create-short-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShortUrl_DeleteShortUrl",
+      "Name": "Delete Short URL",
+      "Description": "This action allows you to delete any existing Short URL which was created previously.",
+      "Anchor": "#delete-short-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShortUrl_GetAllShortUrls",
+      "Name": "Get All Short URL",
+      "Description": "This action allows you to get list of all Short URL generated with specified Username and License Key",
+      "Anchor": "#get-all-short-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShortUrl_ModifyShortUrl",
+      "Name": "Modify Short URL properties",
+      "Description": "This action is allows you to modify/update properties for any existing Short URL.",
+      "Anchor": "#modify-short-url-properties",
+      "IsDeprecated": false
+    }
+  ]
+}

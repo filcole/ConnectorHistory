@@ -1,0 +1,160 @@
+{
+  "UniqueName": "workpoint",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../workpoint/",
+  "Actions": [
+    {
+      "OperationId": "ActionManagement_Actions",
+      "Name": "Gets all active actions on a business module",
+      "Description": "Gets all active actions on a business module",
+      "Anchor": "#gets-all-active-actions-on-a-business-module",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActionManagement_RunAction",
+      "Name": "Executes an action on a business module entity",
+      "Description": "Executes an action on a business module entity",
+      "Anchor": "#executes-an-action-on-a-business-module-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActionManagement_Triggers",
+      "Name": "Gets all active triggers on a business module",
+      "Description": "Gets all active triggers on a business module",
+      "Anchor": "#gets-all-active-triggers-on-a-business-module",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BusinessModules_Get",
+      "Name": "Gets all business modules",
+      "Description": "Gets all business modules",
+      "Anchor": "#gets-all-business-modules",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Document_ConvertToPdfAndSaveOutput",
+      "Name": "Converts a document to pdf and saves it to a list",
+      "Description": "Converts a document to pdf and saves it to a list",
+      "Anchor": "#converts-a-document-to-pdf-and-saves-it-to-a-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Document_DigitalSignatureAddDocumentToTransaction",
+      "Name": "Adds a document to a digital signature transaction",
+      "Description": "Adds a document to a digital signature transaction",
+      "Anchor": "#adds-a-document-to-a-digital-signature-transaction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Document_DigitalSignatureBase64CompleteDocumentInTransaction",
+      "Name": "Completes a digital signature transaction (base64)",
+      "Description": "Completes a document in a digital signature transaction using a pdf file represented as a base64 string",
+      "Anchor": "#completes-a-digital-signature-transaction-(base64)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Document_DigitalSignatureCompleteDocumentInTransaction",
+      "Name": "Completes digital signature transaction (byte array)",
+      "Description": "Completes a document in a digital signature transaction using a pdf file represented as a byte array",
+      "Anchor": "#completes-digital-signature-transaction-(byte-array)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Document_DigitalSignatureCreateLogEntryForTransaction",
+      "Name": "Creates a log entry for a digital signature transaction",
+      "Description": "Creates a log entry for a digital signature transaction",
+      "Anchor": "#creates-a-log-entry-for-a-digital-signature-transaction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Document_DigitalSignatureGenerateXwsseHeader",
+      "Name": "Generates a xwsse header to use for digital signature",
+      "Description": "Generates a xwsse header to use for digital signature",
+      "Anchor": "#generates-a-xwsse-header-to-use-for-digital-signature",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Document_DigitalSignatureUnixTimeMilliseconds",
+      "Name": "Gets DateTimeOffset.UtcNow converted to Unix time milliseconds",
+      "Description": "Gets DateTimeOffset.UtcNow converted to Unix time milliseconds",
+      "Anchor": "#gets-datetimeoffset.utcnow-converted-to-unix-time-milliseconds",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Entity_ChangeStage",
+      "Name": "Changes the stage for an entity and set field values",
+      "Description": "Changes the stage for an entity and set field values",
+      "Anchor": "#changes-the-stage-for-an-entity-and-set-field-values",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Entity_Create",
+      "Name": "Create business module entity in WorkPoint",
+      "Description": "Create business module entity in WorkPoint",
+      "Anchor": "#create-business-module-entity-in-workpoint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Entity_Move",
+      "Name": "Moves an entity",
+      "Description": "Moves an entity",
+      "Anchor": "#moves-an-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Entity_Update",
+      "Name": "Update business module entity in WorkPoint",
+      "Description": "Update business module entity in WorkPoint",
+      "Anchor": "#update-business-module-entity-in-workpoint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListItem_ChangeStage",
+      "Name": "Changes the stage for an entity",
+      "Description": "Changes the stage for an entity",
+      "Anchor": "#changes-the-stage-for-an-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MailMerge_GetMailMergedWordDocument",
+      "Name": "Creates a Word document based on a template and returns the document",
+      "Description": "Creates a Word document based on a template and returns the document",
+      "Anchor": "#creates-a-word-document-based-on-a-template-and-returns-the-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MailMerge_GetMailMergedWordDocumentAsHtml",
+      "Name": "Creates a Word document based on a template and returns the document as html",
+      "Description": "Creates a Word document based on a template and returns the document as html",
+      "Anchor": "#creates-a-word-document-based-on-a-template-and-returns-the-document-as-html",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Parameter_GetPowerAppAndFlowParameter",
+      "Name": "Gets a parameter for App or flow integration",
+      "Description": "Gets a parameter for app or flow integration.",
+      "Anchor": "#gets-a-parameter-for-app-or-flow-integration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecordManagement_Declare",
+      "Name": "Declares a document as record",
+      "Description": "Declares a document as record",
+      "Anchor": "#declares-a-document-as-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecordManagement_Undeclare",
+      "Name": "Undeclares a document as record",
+      "Description": "Undeclares a document as record.",
+      "Anchor": "#undeclares-a-document-as-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_Post",
+      "Name": "Triggers when a WorkPoint event occurs",
+      "Description": "Creates a WorkPoint webhook",
+      "Anchor": "#triggers-when-a-workpoint-event-occurs",
+      "IsDeprecated": false
+    }
+  ]
+}

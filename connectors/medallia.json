@@ -1,0 +1,20 @@
+{
+  "UniqueName": "medallia",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../medallia/",
+  "Actions": [
+    {
+      "OperationId": "Send_Experience_Signals",
+      "Name": "Send Experience Signals",
+      "Description": "Connect with Medallia to manage your experience data.",
+      "Anchor": "#send-experience-signals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Trigger_Invitation",
+      "Name": "Trigger Invitation",
+      "Description": "Send Invitation Request on Case and Opportunity Closure.",
+      "Anchor": "#trigger-invitation",
+      "IsDeprecated": false
+    }
+  ]
+}

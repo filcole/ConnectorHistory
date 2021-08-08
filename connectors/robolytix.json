@@ -1,0 +1,13 @@
+{
+  "UniqueName": "robolytix",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../robolytix/",
+  "Actions": [
+    {
+      "OperationId": "Sonar",
+      "Name": "Sonar",
+      "Description": "Monitors and views this process in Robolytix.",
+      "Anchor": "#sonar",
+      "IsDeprecated": false
+    }
+  ]
+}

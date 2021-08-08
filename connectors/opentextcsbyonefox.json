@@ -1,0 +1,125 @@
+{
+  "UniqueName": "opentextcsbyonefox",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../opentextcsbyonefox/",
+  "Actions": [
+    {
+      "OperationId": "AdvancedSearch",
+      "Name": "Advanced search",
+      "Description": "Search in Content Server",
+      "Anchor": "#advanced-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyDocument",
+      "Name": "Copy document",
+      "Description": "Copy the document to a different folder in Content Server",
+      "Anchor": "#copy-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create document",
+      "Description": "Create the document in Content Server",
+      "Anchor": "#create-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolder",
+      "Name": "Create folder",
+      "Description": "Create the folder in Content Server",
+      "Anchor": "#create-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteDocument",
+      "Name": "Delete document",
+      "Description": "Delete the document from Content Server",
+      "Anchor": "#delete-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFolder",
+      "Name": "Delete folder",
+      "Description": "Delete the folder from Content Server",
+      "Anchor": "#delete-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocument",
+      "Name": "Get document",
+      "Description": "Get the document from Content Server",
+      "Anchor": "#get-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentContent",
+      "Name": "Get document content",
+      "Description": "Get the content of the document from Content Server",
+      "Anchor": "#get-document-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentProperties",
+      "Name": "Get document properties",
+      "Description": "Get the properties of the document from Content Server",
+      "Anchor": "#get-document-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFolder",
+      "Name": "Get folder",
+      "Description": "Get the folder from Content Server",
+      "Anchor": "#get-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFolderChildren",
+      "Name": "Get folder children",
+      "Description": "Get the children of the folder from Content Server",
+      "Anchor": "#get-folder-children",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveDocument",
+      "Name": "Move document",
+      "Description": "Move the document to a new folder in Content Server",
+      "Anchor": "#move-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SimpleSearch",
+      "Name": "Search",
+      "Description": "Search in Content Server",
+      "Anchor": "#search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocument",
+      "Name": "Update document",
+      "Description": "Update the document in Content Server",
+      "Anchor": "#update-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocumentContent",
+      "Name": "Update document content",
+      "Description": "Update the content of the document in Content Server",
+      "Anchor": "#update-document-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocumentProperties",
+      "Name": "Update document properties",
+      "Description": "Update the document properties in Content Server",
+      "Anchor": "#update-document-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFolder",
+      "Name": "Update folder",
+      "Description": "Update the folder in Content Server",
+      "Anchor": "#update-folder",
+      "IsDeprecated": false
+    }
+  ]
+}

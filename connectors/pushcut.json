@@ -1,0 +1,20 @@
+{
+  "UniqueName": "pushcut",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pushcut/",
+  "Actions": [
+    {
+      "OperationId": "ActionExecuted",
+      "Name": "When an action is executed",
+      "Description": "Triggers when an online action is executed.",
+      "Anchor": "#when-an-action-is-executed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendNotification",
+      "Name": "Send a notification",
+      "Description": "Sends a smart notification to your devices",
+      "Anchor": "#send-a-notification",
+      "IsDeprecated": false
+    }
+  ]
+}

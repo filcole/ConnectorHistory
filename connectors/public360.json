@@ -1,0 +1,27 @@
+{
+  "UniqueName": "public360",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../public360/",
+  "Actions": [
+    {
+      "OperationId": "CreateCase",
+      "Name": "Create Case",
+      "Description": "This operation is used to create a case in Public 360.",
+      "Anchor": "#create-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create Document",
+      "Description": "This operation is used to create a document in Public 360.",
+      "Anchor": "#create-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFile",
+      "Name": "Create File",
+      "Description": "This operation is used to create a file in Public 360.",
+      "Anchor": "#create-file",
+      "IsDeprecated": false
+    }
+  ]
+}

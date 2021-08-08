@@ -1,0 +1,342 @@
+{
+  "UniqueName": "easyvista",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../easyvista/",
+  "Actions": [
+    {
+      "OperationId": "CloseRequest-Incident",
+      "Name": "Close Request - Incident",
+      "Description": "To close an incident or request.",
+      "Anchor": "#close-request---incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAsset",
+      "Name": "Create Asset",
+      "Description": "This resource allows to create a new Asset.",
+      "Anchor": "#create-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAssetLink",
+      "Name": "Create Asset Link",
+      "Description": "This resource allows to create a new Asset Link.",
+      "Anchor": "#create-asset-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateConfigurationItemLink",
+      "Name": "Create Configuration Item Link",
+      "Description": "Creates a new configuration item relationship.",
+      "Anchor": "#create-configuration-item-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEmployee",
+      "Name": "Create Employee",
+      "Description": "This resource allows to create a new Employee.",
+      "Anchor": "#create-employee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateRequest_incident",
+      "Name": "Create Request-Incident",
+      "Description": "This resource allows to create a new request or incident.",
+      "Anchor": "#create-request-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create Task",
+      "Description": "This resource allows to create a task.",
+      "Anchor": "#create-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteAssetLink",
+      "Name": "Delete Asset Link",
+      "Description": "This resource allows to delete the specified Asset Link.",
+      "Anchor": "#delete-asset-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteConfigurationItemLink",
+      "Name": "Delete Configuration Item Link",
+      "Description": "Removes a configuration item relationship.",
+      "Anchor": "#delete-configuration-item-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FinishAction",
+      "Name": "Finish action",
+      "Description": "This resource allows to finish the specified action.",
+      "Anchor": "#finish-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRequest_IncidentDocumentList",
+      "Name": "Get Request - Incident Document List",
+      "Description": "Returns the URLs of all documents attached to the specified incident or request.",
+      "Anchor": "#get-request---incident-document-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RestartRequest_Incident",
+      "Name": "Restart Request - Incident",
+      "Description": "To restart an incident or request, update it with the optional &quot;restarted&quot; object along with a comment.",
+      "Anchor": "#restart-request---incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SuspendRequest_Incident",
+      "Name": "Suspend Request - Incident",
+      "Description": "To suspend an incident or request, update it with the optional &quot;suspended&quot; object along with a comment.",
+      "Anchor": "#suspend-request---incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateAsset",
+      "Name": "Update Asset",
+      "Description": "This resource allows to update the specified Asset.",
+      "Anchor": "#update-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateAssetLink",
+      "Name": "Update Asset Link",
+      "Description": "This resource allows to update the specified Asset Link.",
+      "Anchor": "#update-asset-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateConfigurationItemLink",
+      "Name": "Update Configuration Item Link",
+      "Description": "Updates the configuration item link. Only relation_type and blocking property can be updated.",
+      "Anchor": "#update-configuration-item-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEmployee",
+      "Name": "Update Employee",
+      "Description": "This resource allows to update the specified Employee.",
+      "Anchor": "#update-employee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRequest_Incident",
+      "Name": "Update Request - Incident",
+      "Description": "This resource allows to update the specified request or incident.",
+      "Anchor": "#update-request---incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadAndAttachADocumentToARequest-Incident",
+      "Name": "Upload and attach a Document to a Request - Incident",
+      "Description": "Uploads a file (docx, pdf, txt or image file) and attach it to the specified request.",
+      "Anchor": "#upload-and-attach-a-document-to-a-request---incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewAsset",
+      "Name": "View Asset",
+      "Description": "Returns the specified Asset.",
+      "Anchor": "#view-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewAssetLink",
+      "Name": "View Asset Link",
+      "Description": "Returns a specific link corresponding to a {parent_asset_id} and a {asset_id}.",
+      "Anchor": "#view-asset-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewAssetLinks",
+      "Name": "View Asset Links",
+      "Description": "Returns all the links for a specific asset.",
+      "Anchor": "#view-asset-links",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewAssetsList",
+      "Name": "View Assets List",
+      "Description": "Returns List of assets.",
+      "Anchor": "#view-assets-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewCatalogAsset",
+      "Name": "View Catalog Asset",
+      "Description": "Returns an asset catalog entry.",
+      "Anchor": "#view-catalog-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewCatalogAssetsList",
+      "Name": "View Catalog Assets List",
+      "Description": "Returns List of catalog assets.",
+      "Anchor": "#view-catalog-assets-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewCatalogRequest",
+      "Name": "View Catalog Request",
+      "Description": "Returns a catalog requests item.",
+      "Anchor": "#view-catalog-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewCatalogRequestPath",
+      "Name": "View Catalog Request Path",
+      "Description": "Returns a catalog requests path item.",
+      "Anchor": "#view-catalog-request-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewCatalogRequestsList",
+      "Name": "View Catalog Requests List",
+      "Description": "Returns List of catalog requests.",
+      "Anchor": "#view-catalog-requests-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewCatalogRequestsPathList",
+      "Name": "View Catalog Requests Path List",
+      "Description": "Returns List of catalog request path.",
+      "Anchor": "#view-catalog-requests-path-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewConfigurationItem",
+      "Name": "View Configuration Item",
+      "Description": "Returns the specified Configuration Item.",
+      "Anchor": "#view-configuration-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewConfigurationItemLink",
+      "Name": "View Configuration Item Link",
+      "Description": "Returns a specific link corresponding to a {parent_ci_id} and a {child_ci_id}",
+      "Anchor": "#view-configuration-item-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewConfigurationItemLinks",
+      "Name": "View Configuration Item Links",
+      "Description": "Returns all the links for a specific configuration item {ci_id}.",
+      "Anchor": "#view-configuration-item-links",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewConfigurationItemsList",
+      "Name": "View Configuration Items List",
+      "Description": "Returns List of configuration items.",
+      "Anchor": "#view-configuration-items-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewEmployee",
+      "Name": "View Employee",
+      "Description": "Returns the specified Employee.",
+      "Anchor": "#view-employee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewEmployeesList",
+      "Name": "View Employees List",
+      "Description": "Returns List of Employees.",
+      "Anchor": "#view-employees-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewEntitiesList",
+      "Name": "View Entities List",
+      "Description": "Returns List of entities.",
+      "Anchor": "#view-entities-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewEntity",
+      "Name": "View Entity",
+      "Description": "Returns the specified entity.",
+      "Anchor": "#view-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewKnownErrors",
+      "Name": "View Known Errors",
+      "Description": "Returns the specified known Errors.",
+      "Anchor": "#view-known-errors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewKnownErrorsList",
+      "Name": "View Known Errors List",
+      "Description": "Returns List of known errors.",
+      "Anchor": "#view-known-errors-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewLocation",
+      "Name": "View Location",
+      "Description": "Returns the specified location.",
+      "Anchor": "#view-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewLocationsList",
+      "Name": "View Locations List",
+      "Description": "Returns List of locations.",
+      "Anchor": "#view-locations-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewManufacturer",
+      "Name": "View Manufacturer",
+      "Description": "Returns the specified Manufacturer.",
+      "Anchor": "#view-manufacturer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewManufacturerList",
+      "Name": "View Manufacturer List",
+      "Description": "Returns List of manufacturers.",
+      "Anchor": "#view-manufacturer-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewRequest_Incident",
+      "Name": "View Request - Incident",
+      "Description": "Returns the specified incident or request.",
+      "Anchor": "#view-request---incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewRequest_IncidentComment",
+      "Name": "View Request - Incident Comment",
+      "Description": "Returns the comment associated to the specified incident or request.",
+      "Anchor": "#view-request---incident-comment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewRequests_IncidentsList",
+      "Name": "View Requests - Incidents list",
+      "Description": "Returns List of Incidents or Requests.",
+      "Anchor": "#view-requests---incidents-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewSla",
+      "Name": "View SLA",
+      "Description": "Returns the specified SLA.",
+      "Anchor": "#view-sla",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewSlasList",
+      "Name": "View SLAs List",
+      "Description": "Returns List of SLAs.",
+      "Anchor": "#view-slas-list",
+      "IsDeprecated": false
+    }
+  ]
+}

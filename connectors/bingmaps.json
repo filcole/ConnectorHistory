@@ -1,0 +1,48 @@
+{
+  "UniqueName": "bingmaps",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bingmaps/",
+  "Actions": [
+    {
+      "OperationId": "GetLocationByAddress",
+      "Name": "Get location by address",
+      "Description": "Get the location information associated with an address. If no location is found, an empty result will be returned.",
+      "Anchor": "#get-location-by-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLocationByPoint",
+      "Name": "Get location by point",
+      "Description": "Get the location information associated with latitude and longitude coordinates.",
+      "Anchor": "#get-location-by-point",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMap",
+      "Name": "Get static map [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get static map instead.\nGet static map.",
+      "Anchor": "#get-static-map-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetMapV2",
+      "Name": "Get static map (Preview)",
+      "Description": "Get static map.",
+      "Anchor": "#get-static-map-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRoute",
+      "Name": "Get route [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get route instead.\nCalculate a route using waypoints.",
+      "Anchor": "#get-route-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetRouteV2",
+      "Name": "Get route (Preview)",
+      "Description": "Calculate a route using waypoints.",
+      "Anchor": "#get-route-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

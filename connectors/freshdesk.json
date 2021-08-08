@@ -1,0 +1,76 @@
+{
+  "UniqueName": "freshdesk",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../freshdesk/",
+  "Actions": [
+    {
+      "OperationId": "AddNote",
+      "Name": "Add a note to a ticket",
+      "Description": "Add a private or public note to a ticket.",
+      "Anchor": "#add-a-note-to-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTicket",
+      "Name": "Create a ticket",
+      "Description": "Create a ticket.",
+      "Anchor": "#create-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTicket",
+      "Name": "Get ticket",
+      "Description": "Get a ticket by Id.",
+      "Anchor": "#get-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerAgentAdded",
+      "Name": "When an agent is added",
+      "Description": "When an agent is added (for admin use only). This trigger works only if the Freshdesk account has less than 100 agents.",
+      "Anchor": "#when-an-agent-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerContactAdded",
+      "Name": "When a contact is added",
+      "Description": "When a contact is added. This trigger works only if the Freshdesk account has less than 100 contacts.",
+      "Anchor": "#when-a-contact-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerTicketAssignedToAgent",
+      "Name": "When a ticket assigned to an agent is updated",
+      "Description": "When any ticket assigned to the selected agent is updated.",
+      "Anchor": "#when-a-ticket-assigned-to-an-agent-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerTicketCreated",
+      "Name": "When a ticket is created",
+      "Description": "When any ticket is created.",
+      "Anchor": "#when-a-ticket-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerTicketStatusChanged",
+      "Name": "When a ticket status changes",
+      "Description": "When the status of the ticket changes.",
+      "Anchor": "#when-a-ticket-status-changes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerTicketUpdated",
+      "Name": "When a ticket is updated",
+      "Description": "When a ticket is updated.",
+      "Anchor": "#when-a-ticket-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTicket",
+      "Name": "Update a ticket",
+      "Description": "Update a ticket (only specified values will be updated).",
+      "Anchor": "#update-a-ticket",
+      "IsDeprecated": false
+    }
+  ]
+}

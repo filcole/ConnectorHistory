@@ -1,0 +1,27 @@
+{
+  "UniqueName": "act",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../act/",
+  "Actions": [
+    {
+      "OperationId": "CreateContact",
+      "Name": "Create a contact",
+      "Description": "Create a new contact.",
+      "Anchor": "#create-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContact",
+      "Name": "Get a contact",
+      "Description": "Get details of a specific contact.",
+      "Anchor": "#get-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewContact",
+      "Name": "When there is a new contact",
+      "Description": "Triggers when there is a new contact (up to 100 contacts).",
+      "Anchor": "#when-there-is-a-new-contact",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "UniqueName": "kusto",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../kusto/",
+  "Actions": [
+    {
+      "OperationId": "listKustoResultsPost",
+      "Name": "Run query and list results",
+      "Description": "Runs the query and returns the result as a set of rows which can be iterated over in the following connectors.",
+      "Anchor": "#run-query-and-list-results",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "listKustoShowCommandResultsPost",
+      "Name": "Run control show command and list results",
+      "Description": "Runs the show control command and returns the result as a set of rows which can be iterated over in the following connectors.",
+      "Anchor": "#run-control-show-command-and-list-results",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "runKustoCommandAndVisualizeResultsPost",
+      "Name": "Run control command and visualize results",
+      "Description": "Returns the Kusto control command result as a chart of your choice.",
+      "Anchor": "#run-control-command-and-visualize-results",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "runKustoQueryAndVisualizeResultsPost",
+      "Name": "Run query and visualize results",
+      "Description": "Returns the Kusto query result as a chart of your choice.",
+      "Anchor": "#run-query-and-visualize-results",
+      "IsDeprecated": false
+    }
+  ]
+}

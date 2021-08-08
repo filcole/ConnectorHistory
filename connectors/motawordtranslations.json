@@ -1,0 +1,48 @@
+{
+  "UniqueName": "motawordtranslations",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../motawordtranslations/",
+  "Actions": [
+    {
+      "OperationId": "AddDocumentsForTranslation",
+      "Name": "Add Document(s) For Translation",
+      "Description": "Add document(s) to your translation project. You can only add a new document to a project that you haven't yet launched.",
+      "Anchor": "#add-document(s)-for-translation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DownloadTranslations",
+      "Name": "Download Translations",
+      "Description": "Download translated documents as a ZIP archive from your MotaWord project",
+      "Anchor": "#download-translations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProjectDetails",
+      "Name": "Get project details",
+      "Description": "Get your project details, including quote price and word count. You can also use this endpoint to get your latest price and word count after uploading new source documents or changing language pairs.",
+      "Anchor": "#get-project-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InitializeTranslationProject",
+      "Name": "Initialize Translation Project",
+      "Description": "Initialize a new translation project at MotaWord. You can later add document(s) to it, and then launch it.",
+      "Anchor": "#initialize-translation-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaunchTranslationProject",
+      "Name": "Launch Translation Project",
+      "Description": "Launch your existing project (quote) for translation, we'll get to it right away. Remember to add your documents to a project before you launch it. Once launched, you can also track your translation progress in real-time on our web and mobile platforms.",
+      "Anchor": "#launch-translation-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WhenTranslationProjectCompleted",
+      "Name": "When Translation Project Completed",
+      "Description": "Triggered when your translation project is completed. Register project status webhook here.",
+      "Anchor": "#when-translation-project-completed",
+      "IsDeprecated": false
+    }
+  ]
+}

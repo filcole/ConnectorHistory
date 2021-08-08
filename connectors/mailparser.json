@@ -1,0 +1,20 @@
+{
+  "UniqueName": "mailparser",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mailparser/",
+  "Actions": [
+    {
+      "OperationId": "InboxList",
+      "Name": "This will return an array of inboxes that you have created",
+      "Description": "This will return an array of inboxes that the user has created.",
+      "Anchor": "#this-will-return-an-array-of-inboxes-that-you-have-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookCreate",
+      "Name": "New parsed email is available",
+      "Description": "Creates a Mailparser Webhook",
+      "Anchor": "#new-parsed-email-is-available",
+      "IsDeprecated": false
+    }
+  ]
+}

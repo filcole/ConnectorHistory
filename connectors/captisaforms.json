@@ -1,0 +1,34 @@
+{
+  "UniqueName": "captisaforms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../captisaforms/",
+  "Actions": [
+    {
+      "OperationId": "CreateEntry",
+      "Name": "Create an Entry",
+      "Description": "Create an Entry",
+      "Anchor": "#create-an-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEntry",
+      "Name": "Update an Entry",
+      "Description": "Update an Entry",
+      "Anchor": "#update-an-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookCreateTrigger",
+      "Name": "When a form record is created",
+      "Description": "This operation triggers a flow each time a form gets a new submission",
+      "Anchor": "#when-a-form-record-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookUpdateTrigger",
+      "Name": "When a form record is updated",
+      "Description": "This operation triggers a flow each time an entry in your form is updated",
+      "Anchor": "#when-a-form-record-is-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

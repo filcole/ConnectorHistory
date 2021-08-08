@@ -1,0 +1,34 @@
+{
+  "UniqueName": "npstoday",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../npstoday/",
+  "Actions": [
+    {
+      "OperationId": "AddEmployee",
+      "Name": "Add Employee",
+      "Description": "Adds an employee to your organization on the nps.today platform",
+      "Anchor": "#add-employee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewCampaignMember",
+      "Name": "Subscribe to new Campaign Members being added",
+      "Description": "This triggers when a new campaign member is added and returns associated information about that new campaign member",
+      "Anchor": "#subscribe-to-new-campaign-members-being-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewResponse",
+      "Name": "Subscribe to New Responses being added",
+      "Description": "Triggers when a new response is recieved",
+      "Anchor": "#subscribe-to-new-responses-being-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSurvey",
+      "Name": "Send Survey",
+      "Description": "Add a respondent and send a survey to that person",
+      "Anchor": "#send-survey",
+      "IsDeprecated": false
+    }
+  ]
+}

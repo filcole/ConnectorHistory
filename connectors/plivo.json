@@ -1,0 +1,34 @@
+{
+  "UniqueName": "plivo",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../plivo/",
+  "Actions": [
+    {
+      "OperationId": "GetMessage",
+      "Name": "Get message",
+      "Description": "This operation is used to fetch the details of a message, given the message ID.",
+      "Anchor": "#get-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListMessages",
+      "Name": "List all messages",
+      "Description": "This operation returns a list of all messages associated with your Plivo account.",
+      "Anchor": "#list-all-messages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MakeCall",
+      "Name": "Make a call",
+      "Description": "This operation is used to make a call.",
+      "Anchor": "#make-a-call",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSMS",
+      "Name": "Send SMS",
+      "Description": "This operation is used to send a text message.",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "UniqueName": "cqcdata",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cqcdata/",
+  "Actions": [
+    {
+      "OperationId": "Changes",
+      "Name": "List of organisations of specified type that have changed in given timeframe",
+      "Description": "The Changes service provides a mechanism of staying informed about updates to providers and locations, to allow users to refresh their cached data if necessary Changes for two organisation types are available: provider or location API consumers must specify a start and end date range, see the API reference for more detail This service allows identification of which organisations have changed over time For successive calls to this service, the startTime parameter should be set to the endTime of the previous call The times correspond to the time that this service itself acquires the data and is not, for example, the time of data entry onto a source system",
+      "Anchor": "#list-of-organisations-of-specified-type-that-have-changed-in-given-timeframe",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InspectionAreas",
+      "Name": "Get the global taxonomy of all CQC Inspection Areas",
+      "Description": "Get the global taxonomy of all CQC Inspection Areas including their current status for new inspections",
+      "Anchor": "#get-the-global-taxonomy-of-all-cqc-inspection-areas",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LocationDetails",
+      "Name": "The details of the location specified",
+      "Description": "Retrieve a location details eg address, related codes, inspection area, local authority, etc",
+      "Anchor": "#the-details-of-the-location-specified",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LocationInspectionAreas",
+      "Name": "Retrieve a list of inspection areas related to the specified location area",
+      "Description": "Retrieve the list of Inspection Areas which have been inspected at this location excluding any that may have been globally retired (covering services no longer inspected by CQC) Although an Inspection area may be Superseded globally for the purpose of new inspections, it will remain active (along with the ratings for that area) at a given organisation until it has been re-inspected under the superseding inspection area(s)",
+      "Anchor": "#retrieve-a-list-of-inspection-areas-related-to-the-specified-location-area",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Locations",
+      "Name": "Location a place where a Proivder operates",
+      "Description": "Retrieve a list of locations Locations are sites where a Provider operates",
+      "Anchor": "#location-a-place-where-a-proivder-operates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MainReport",
+      "Name": "Retrieve a PDF file or alternatively the text content of th specified report",
+      "Description": "Retrieve a PDF file or its text content of the report specified in the URL",
+      "Anchor": "#retrieve-a-pdf-file-or-alternatively-the-text-content-of-th-specified-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProviderDetails",
+      "Name": "The specified individual Providers details",
+      "Description": "An individual providers details",
+      "Anchor": "#the-specified-individual-providers-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProviderInspectionAreas",
+      "Name": "Provider Inspection Areas for the given location",
+      "Description": "Retrieve the list of Provider Inspection Areas which have been inspected for this organisation at Provider level, excluding any that may have been globally retired (covering services no longer inspected by CQC) Although an Inspection area may be Superseded globally for the purpose of new inspections, it will remain active (along with the ratings for that area) at a given organisation until it has been re-inspected under the superseding inspection area(s)",
+      "Anchor": "#provider-inspection-areas-for-the-given-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProviderInspectionAreas",
+      "Name": "Provider Inspection Areas for the given location",
+      "Description": "Retrieve the list of Provider Inspection Areas which have been inspected for this organisation at Provider level, excluding any that may have been globally retired (covering services no longer inspected by CQC) Although an Inspection area may be Superseded globally for the purpose of new inspections, it will remain active (along with the ratings for that area) at a given organisation until it has been re-inspected under the superseding inspection area(s)",
+      "Anchor": "#provider-inspection-areas-for-the-given-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProviderLocations",
+      "Name": "Locations related to the given Provider id",
+      "Description": "Retrieve the list of locations for this provider Locations are sites where a Provider operates Some Providers will have only one location, whereas others may have many",
+      "Anchor": "#locations-related-to-the-given-provider-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Providers",
+      "Name": "Providers, organisations for health, social care services regulated by the CQC",
+      "Description": "Get a list of provider codes",
+      "Anchor": "#providers,-organisations-for-health,-social-care-services-regulated-by-the-cqc",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReportAndRelatedDoc",
+      "Name": "Retrieve a PDF file or text content of the specified report and related document",
+      "Description": "Retrieve a PDF file or text content of the specified report and it's related document",
+      "Anchor": "#retrieve-a-pdf-file-or-text-content-of-the-specified-report-and-related-document",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UniqueName": "gotomeeting",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../gotomeeting/",
+  "Actions": [
+    {
+      "OperationId": "CreateMeeting",
+      "Name": "Create a meeting [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a meeting instead.\nCreate a new meeting based on the parameters specified.",
+      "Anchor": "#create-a-meeting-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateMeeting_V2",
+      "Name": "Create a meeting (Preview)",
+      "Description": "Create a new meeting based on the parameters specified.",
+      "Anchor": "#create-a-meeting-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMeeting",
+      "Name": "Get a meeting",
+      "Description": "Returns the meeting details for the specified meeting.",
+      "Anchor": "#get-a-meeting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMeetingAttendees",
+      "Name": "Get meeting attendees",
+      "Description": "Returns a list of attendees for a meeting with the given ID.",
+      "Anchor": "#get-meeting-attendees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUpcomingMeetings",
+      "Name": "List upcoming meetings",
+      "Description": "Returns upcoming meetings for the authenticated organizer.",
+      "Anchor": "#list-upcoming-meetings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnMeetingComplete",
+      "Name": "When a meeting ends",
+      "Description": "Triggers when a meeting ends.",
+      "Anchor": "#when-a-meeting-ends",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewMeeting",
+      "Name": "When a meeting is created",
+      "Description": "Triggers a flow when a new meeting is created",
+      "Anchor": "#when-a-meeting-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateMeeting",
+      "Name": "Update a meeting",
+      "Description": "Updates an existing meeting specified by meetingId.",
+      "Anchor": "#update-a-meeting",
+      "IsDeprecated": false
+    }
+  ]
+}

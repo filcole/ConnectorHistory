@@ -1,0 +1,104 @@
+{
+  "UniqueName": "pdf4me",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pdf4me/",
+  "Actions": [
+    {
+      "OperationId": "ConvertToPdf_V2",
+      "Name": "Convert to Pdf (Preview)",
+      "Description": "Convert any type of office documents to PDF format. https://developer.pdf4me.com/docs/api/microsoft-flow/convert-to-pdf-flow-connector/",
+      "Anchor": "#convert-to-pdf-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePdfA_V2",
+      "Name": "Create PdfA (Preview)",
+      "Description": "Create PdfA document. https://developer.pdf4me.com/docs/api/microsoft-flow/create-pdfa-flow-connector/",
+      "Anchor": "#create-pdfa-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateThumbnail_V2",
+      "Name": "Create a Thumbnail (Preview)",
+      "Description": "Create thumbnail for the PDF document. https://developer.pdf4me.com/docs/api/microsoft-flow/create-thumbnail-flow-connector/",
+      "Anchor": "#create-a-thumbnail-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractPages_V2",
+      "Name": "Extract Pages (Preview)",
+      "Description": "Extract the required pages from the PDF document. https://developer.pdf4me.com/docs/api/microsoft-flow/extract-pages-flow-connector/",
+      "Anchor": "#extract-pages-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Merge_V2",
+      "Name": "Merge (Preview)",
+      "Description": "Merge multiple PDF documents into a single pdf document. https://developer.pdf4me.com/docs/api/microsoft-flow/merge-connector/",
+      "Anchor": "#merge-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Optimize_V2",
+      "Name": "Optimize Document (Preview)",
+      "Description": "Optimize the PDF document. https://developer.pdf4me.com/docs/api/microsoft-flow/optimize-document-floe-connector/",
+      "Anchor": "#optimize-document-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PdfOcr_V2",
+      "Name": "PdfOcr (Preview)",
+      "Description": "Create searchable PDF using OCR. https://developer.pdf4me.com/docs/api/microsoft-flow/pdf-ocr-connector/",
+      "Anchor": "#pdfocr-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PdfToExcel_V2",
+      "Name": "PdfToExcel (Preview)",
+      "Description": "Create XLSX spreadsheets from PDFs with tabular data . Even from an image you can generate an XLS. https://developer.pdf4me.com/docs/api/microsoft-flow/pdf-to-excel-connector/",
+      "Anchor": "#pdftoexcel-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PdfToWord_V2",
+      "Name": "PdfToWord (Preview)",
+      "Description": "Transform PDF documents to high quality editable DOCX files. https://developer.pdf4me.com/docs/api/microsoft-flow/pdf-to-word-connector/",
+      "Anchor": "#pdftoword-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProtectDocument_V2",
+      "Name": "Protect Document (Preview)",
+      "Description": "Protect the document with custom password. https://developer.pdf4me.com/docs/api/microsoft-flow/protect-document-flow-document/",
+      "Anchor": "#protect-document-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RotateDocument_V2",
+      "Name": "Rotate Document (Preview)",
+      "Description": "Rotate the pages and in all directions. https://developer.pdf4me.com/docs/api/microsoft-flow/rotate-document-flow-connector/",
+      "Anchor": "#rotate-document-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocByBarcode_V2",
+      "Name": "Split Document by Barcode (Preview)",
+      "Description": "Split the PDF document by barcode types and filters. https://developer.pdf4me.com/docs/api/microsoft-flow/split-by-barcode-flow-connector/",
+      "Anchor": "#split-document-by-barcode-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocument_V2",
+      "Name": "Split Document (Preview)",
+      "Description": "Split the PDF document by page number or recurring pages. https://developer.pdf4me.com/docs/api/microsoft-flow/split-document-flow-connector/",
+      "Anchor": "#split-document-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Stamp_V2",
+      "Name": "Stamp (Preview)",
+      "Description": "Add a background watermark text to the PDF document. https://developer.pdf4me.com/docs/api/microsoft-flow/stamp-flow-connector/",
+      "Anchor": "#stamp-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

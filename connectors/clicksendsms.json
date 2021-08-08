@@ -1,0 +1,111 @@
+{
+  "UniqueName": "clicksendsms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../clicksendsms/",
+  "Actions": [
+    {
+      "OperationId": "create_list",
+      "Name": "Create New Contact List",
+      "Description": "Create New Contact List",
+      "Anchor": "#create-new-contact-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "create_list_contact",
+      "Name": "Create New Contact",
+      "Description": "Create New Contact",
+      "Anchor": "#create-new-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "delete_list",
+      "Name": "Delete List",
+      "Description": "Delete a specific contact list",
+      "Anchor": "#delete-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "delete_list_contact",
+      "Name": "Delete a Contact",
+      "Description": "Delete a Contact",
+      "Anchor": "#delete-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "get_contact_lists",
+      "Name": "Get Contact Lists",
+      "Description": "Get all contact lists unless specified in the advance options",
+      "Anchor": "#get-contact-lists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "search_contact_list",
+      "Name": "Search Contact Lists",
+      "Description": "Get list of searched contact list",
+      "Anchor": "#search-contact-lists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send_fax",
+      "Name": "Send Fax",
+      "Description": "Send Fax",
+      "Anchor": "#send-fax",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send_letter",
+      "Name": "Send Letter",
+      "Description": "Send Letter",
+      "Anchor": "#send-letter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send_mms",
+      "Name": "Send MMS",
+      "Description": "Send MMS",
+      "Anchor": "#send-mms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send_postcard",
+      "Name": "Send Postcard",
+      "Description": "Send one or more postcards",
+      "Anchor": "#send-postcard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send_voice",
+      "Name": "Send Voice Message",
+      "Description": "Each 300 characters = 1 voice message. Can send up to 1,200 standard characters",
+      "Anchor": "#send-voice-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "sms_inbound_automation",
+      "Name": "SMS Inbound Automation",
+      "Description": "Create new inbound SMS automation",
+      "Anchor": "#sms-inbound-automation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "sms_send",
+      "Name": "Send SMS",
+      "Description": "Each 160 characters = 1 SMS. Can send up to 1,224 standard characters.",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "upload_media",
+      "Name": "Convert Media File Format",
+      "Description": "Convert Media File Format",
+      "Anchor": "#convert-media-file-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "view_list_contacts",
+      "Name": "Get Contacts in a List",
+      "Description": "Get all Contacts in a List",
+      "Anchor": "#get-contacts-in-a-list",
+      "IsDeprecated": false
+    }
+  ]
+}

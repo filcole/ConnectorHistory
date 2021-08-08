@@ -1,0 +1,27 @@
+{
+  "UniqueName": "smtp",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../smtp/",
+  "Actions": [
+    {
+      "OperationId": "SendEmail",
+      "Name": "Send Email [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Send Email (V3) instead.\nThis operation sends an email to one or more recipients.",
+      "Anchor": "#send-email-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SendEmail",
+      "Name": "Send Email [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Send Email (V3) instead.\nThis operation sends an email to one or more recipients.",
+      "Anchor": "#send-email-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SendEmailV3",
+      "Name": "Send Email (V3)",
+      "Description": "This operation sends an email to one or more recipients.",
+      "Anchor": "#send-email-(v3)",
+      "IsDeprecated": false
+    }
+  ]
+}

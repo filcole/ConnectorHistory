@@ -1,0 +1,20 @@
+{
+  "UniqueName": "azurecommunicationservicessms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azurecommunicationservicessms/",
+  "Actions": [
+    {
+      "OperationId": "SendSMS",
+      "Name": "Send SMS (deprecated) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Send SMS instead.\nSends SMS using the phone numbers in your Azure Communication Services (deprecated)",
+      "Anchor": "#send-sms-(deprecated)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SendSMSv2",
+      "Name": "Send SMS (Preview)",
+      "Description": "Sends SMS using the phone numbers in your Azure Communication Services",
+      "Anchor": "#send-sms-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

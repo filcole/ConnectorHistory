@@ -1,0 +1,41 @@
+{
+  "UniqueName": "airtable",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../airtable/",
+  "Actions": [
+    {
+      "OperationId": "CreateaRecord",
+      "Name": "Create a record",
+      "Description": "Create a record in a table. JSON record needs to be passed.",
+      "Anchor": "#create-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteaRecord",
+      "Name": "Delete a record",
+      "Description": "Delete a record in a table. Provide Record ID to select a record.",
+      "Anchor": "#delete-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRecords",
+      "Name": "List Records",
+      "Description": "List Records in table. Returned records do not include any fields with empty values. You can filter, sort, and format the results with the parameters.",
+      "Anchor": "#list-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrieveaRecord",
+      "Name": "Retrieve a record",
+      "Description": "Retrieve a record in a table. Any empty fields (e.g. [], or false) in the record will not be returned.",
+      "Anchor": "#retrieve-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateaRecord",
+      "Name": "Update a record",
+      "Description": "Update a record in a table. It will only update the fields provided and leave the rest as they were.",
+      "Anchor": "#update-a-record",
+      "IsDeprecated": false
+    }
+  ]
+}

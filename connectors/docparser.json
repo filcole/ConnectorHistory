@@ -1,0 +1,27 @@
+{
+  "UniqueName": "docparser",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../docparser/",
+  "Actions": [
+    {
+      "OperationId": "FetchDocument",
+      "Name": "Fetch document from a URL",
+      "Description": "If your files are stored under a publicly accessible URL, you can also import a document by providing the URL to our API. This method is really straight forward and you just need to perform a simple POST or GET request with url as the parameter.",
+      "Anchor": "#fetch-document-from-a-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadDocument",
+      "Name": "Upload a document to Docparser",
+      "Description": "Uploading a document to Docparser works like uploading a file with a HTML form. All you need to do is to send a form-data request to the API endpoint containing the document in the form field file.The return value of a successful upload is the ID of the newly created document, the filesize of the imported document as well as account usage data.",
+      "Anchor": "#upload-a-document-to-docparser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookCreate",
+      "Name": "New parsed document data is available",
+      "Description": "Creates a Docparser webhook.",
+      "Anchor": "#new-parsed-document-data-is-available",
+      "IsDeprecated": false
+    }
+  ]
+}

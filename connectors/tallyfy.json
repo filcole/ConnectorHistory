@@ -1,0 +1,34 @@
+{
+  "UniqueName": "tallyfy",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tallyfy/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Get a member's tasks",
+      "Description": "Get all tasks that belong to a specific member",
+      "Anchor": "#get-a-member's-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Create_Run",
+      "Name": "Launch a Process",
+      "Description": "Launch a process using a blueprint",
+      "Anchor": "#launch-a-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Create_Task",
+      "Name": "Create a task",
+      "Description": "Create Task",
+      "Anchor": "#create-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Invite_User_To_Organization",
+      "Name": "Invite a new member to your organization",
+      "Description": "Invite a new member to your organization",
+      "Anchor": "#invite-a-new-member-to-your-organization",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "UniqueName": "googletasks",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../googletasks/",
+  "Actions": [
+    {
+      "OperationId": "CraeteTask",
+      "Name": "Create a task in a task list",
+      "Description": "Create a task in a specific task list.",
+      "Anchor": "#create-a-task-in-a-task-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTaskList",
+      "Name": "Create a task list",
+      "Description": "Creates a new task list.",
+      "Anchor": "#create-a-task-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTask",
+      "Name": "Get a task from a task list",
+      "Description": "Get specific task from the specified task list.",
+      "Anchor": "#get-a-task-from-a-task-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTaskLists",
+      "Name": "List task lists",
+      "Description": "List all task lists.",
+      "Anchor": "#list-task-lists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTasks",
+      "Name": "Lists the tasks for a task list",
+      "Description": "Lists the tasks for a specific task list.",
+      "Anchor": "#lists-the-tasks-for-a-task-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnCompletedTaskInList",
+      "Name": "When a task is completed in a task list",
+      "Description": "Triggers when the a task is completed in the specified task list.",
+      "Anchor": "#when-a-task-is-completed-in-a-task-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnCompletedTaskInListV2",
+      "Name": "When a task is completed in a task list (V2) (Preview)",
+      "Description": "Triggers when the a task is completed in the specified task list.",
+      "Anchor": "#when-a-task-is-completed-in-a-task-list-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnDueTaskInList",
+      "Name": "When a task is due in a task list",
+      "Description": "Triggers when a task is due in the specified task list.",
+      "Anchor": "#when-a-task-is-due-in-a-task-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewTaskInList",
+      "Name": "When a task is added to a task list",
+      "Description": "Triggers when a task is added to the specified task list.",
+      "Anchor": "#when-a-task-is-added-to-a-task-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewTaskList",
+      "Name": "When a new task list is created",
+      "Description": "Trigger when a new task list is created.",
+      "Anchor": "#when-a-new-task-list-is-created",
+      "IsDeprecated": false
+    }
+  ]
+}

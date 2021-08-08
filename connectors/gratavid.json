@@ -1,0 +1,27 @@
+{
+  "UniqueName": "gratavid",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../gratavid/",
+  "Actions": [
+    {
+      "OperationId": "createTask",
+      "Name": "Create a Gratavid task",
+      "Description": "Create a Gratavid task",
+      "Anchor": "#create-a-gratavid-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "newEvent",
+      "Name": "When a new event (watch, reply, etc.) takes place in Gratavid",
+      "Description": "Triggers when a new event such as Gratavid watch, reply, task sent, unsubscribe, or text-opt out.",
+      "Anchor": "#when-a-new-event-(watch,-reply,-etc.)-takes-place-in-gratavid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "sendNote",
+      "Name": "Send a Gratavid note",
+      "Description": "Send a Gratavid note",
+      "Anchor": "#send-a-gratavid-note",
+      "IsDeprecated": false
+    }
+  ]
+}

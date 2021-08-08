@@ -1,0 +1,258 @@
+{
+  "UniqueName": "apptigentpowertoolslite",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../apptigentpowertoolslite/",
+  "Actions": [
+    {
+      "OperationId": "addToCollection",
+      "Name": "Collections - Add to collection",
+      "Description": "Add an item to a collection",
+      "Anchor": "#collections---add-to-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "calculateAverage",
+      "Name": "Math - Calculate average",
+      "Description": "Calculate the average of two or more numbers",
+      "Anchor": "#math---calculate-average",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "calculateMedian",
+      "Name": "Math - Calculate median",
+      "Description": "Calculate the median of two or more numbers",
+      "Anchor": "#math---calculate-median",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "calculateMinMax",
+      "Name": "Math - Calculate min or max",
+      "Description": "Calculate the minimum or maximum value in a sequence of numbers",
+      "Anchor": "#math---calculate-min-or-max",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "calculatePower",
+      "Name": "Math - Calculate power",
+      "Description": "Raise number to a specified power",
+      "Anchor": "#math---calculate-power",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "calculateSum",
+      "Name": "Math - Calculate sum",
+      "Description": "Calculate the sum of two or more numbers",
+      "Anchor": "#math---calculate-sum",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "calculateVariance",
+      "Name": "Math - Calculate variance",
+      "Description": "Calculate the statistical variance of two or more numbers",
+      "Anchor": "#math---calculate-variance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "collectionContainsNumber",
+      "Name": "Collections - Contains number",
+      "Description": "Determine if a collection contains a specific number",
+      "Anchor": "#collections---contains-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "collectionContainsString",
+      "Name": "Collections - Contains string",
+      "Description": "Determine if any items in a collection contain a specific string",
+      "Anchor": "#collections---contains-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "collectionEndsWithString",
+      "Name": "Collections - Ends with string",
+      "Description": "Determine if any items in a collection end with a specific string",
+      "Anchor": "#collections---ends-with-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "collectionStartsWithString",
+      "Name": "Collections - Starts with string",
+      "Description": "Determine if any items in a collection start with a specific string",
+      "Anchor": "#collections---starts-with-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "compareStrings",
+      "Name": "Text - Compare strings",
+      "Description": "Perform a comparison of two strings",
+      "Anchor": "#text---compare-strings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "containsString",
+      "Name": "Text - Contains string",
+      "Description": "Determine if a string contains another string",
+      "Anchor": "#text---contains-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "convertCase",
+      "Name": "Text - Convert case",
+      "Description": "Convert string to upper, lower or title case",
+      "Anchor": "#text---convert-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "countCollection",
+      "Name": "Collections - Count collection",
+      "Description": "Count a collection of items",
+      "Anchor": "#collections---count-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "dateTimeDifference",
+      "Name": "DateTime - DateTime difference",
+      "Description": "Calculate the difference between two dates",
+      "Anchor": "#datetime---datetime-difference",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "decodeString",
+      "Name": "Text - Decode string",
+      "Description": "Decode a string encoded with Base64 encoding",
+      "Anchor": "#text---decode-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "encodeString",
+      "Name": "Text - Encode string",
+      "Description": "Encode a string using Base64 encoding",
+      "Anchor": "#text---encode-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "filterCollection",
+      "Name": "Collections - Filter collection",
+      "Description": "Filter a collection of strings by keyword",
+      "Anchor": "#collections---filter-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "formatDateTime",
+      "Name": "DateTime - Format date and time",
+      "Description": "Create a date/time string in a specific format",
+      "Anchor": "#datetime---format-date-and-time",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "generateGuid",
+      "Name": "Text - Generate GUID",
+      "Description": "Generate a globally unique identifier",
+      "Anchor": "#text---generate-guid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "joinStrings",
+      "Name": "Text - Join strings",
+      "Description": "Join a collection of strings",
+      "Anchor": "#text---join-strings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "randomNumber",
+      "Name": "Math - Random number",
+      "Description": "Generate a random number within a specified range",
+      "Anchor": "#math---random-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "redactString",
+      "Name": "Text - Redact string",
+      "Description": "Redact a strng containing sensitive content",
+      "Anchor": "#text---redact-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "removeFromCollection",
+      "Name": "Collections - Remove from collection",
+      "Description": "Remove an item from a collection",
+      "Anchor": "#collections---remove-from-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "replaceString",
+      "Name": "Text - Replace string",
+      "Description": "Replace one value with another in a string",
+      "Anchor": "#text---replace-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "replaceValuesInCollection",
+      "Name": "Collections - Replace values in collection",
+      "Description": "Replace whole or partial strings in a collection",
+      "Anchor": "#collections---replace-values-in-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "roundNumber",
+      "Name": "Math - Round number",
+      "Description": "Round a numeric value up or down",
+      "Anchor": "#math---round-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "sortCollection",
+      "Name": "Collections - Sort collection",
+      "Description": "Sort a collection of strings",
+      "Anchor": "#collections---sort-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "splitCollection",
+      "Name": "Collections - Split collection",
+      "Description": "Split a collection of items by matching value or index",
+      "Anchor": "#collections---split-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "splitString",
+      "Name": "Text - Split string",
+      "Description": "Split a string based upon one or more characters",
+      "Anchor": "#text---split-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "standardDeviation",
+      "Name": "Math - Calculate standard deviation",
+      "Description": "Calculate the standard deviation of two or more numbers",
+      "Anchor": "#math---calculate-standard-deviation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "trimString",
+      "Name": "Text - Trim string",
+      "Description": "Trim leading or trailing whitespace from a string",
+      "Anchor": "#text---trim-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "urlDecode",
+      "Name": "Text - Decode URL",
+      "Description": "Decode an encoded URL",
+      "Anchor": "#text---decode-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "urlEncode",
+      "Name": "Text - Encode URL",
+      "Description": "Generate an encoded string from a complex hyperlink",
+      "Anchor": "#text---encode-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "worldTime",
+      "Name": "DateTime - Get world time",
+      "Description": "Convert date and time from one time zone to another",
+      "Anchor": "#datetime---get-world-time",
+      "IsDeprecated": false
+    }
+  ]
+}

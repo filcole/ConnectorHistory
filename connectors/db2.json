@@ -1,0 +1,48 @@
+{
+  "UniqueName": "db2",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../db2/",
+  "Actions": [
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete row",
+      "Description": "Deletes a row from a DB2 table",
+      "Anchor": "#delete-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get row",
+      "Description": "Retrieves a single row from a DB2 table",
+      "Anchor": "#get-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get rows",
+      "Description": "Retrieves rows from a DB2 table",
+      "Anchor": "#get-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get tables",
+      "Description": "Retrieves tables from a DB2 database",
+      "Anchor": "#get-tables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update row",
+      "Description": "Updates an existing row in a DB2 table",
+      "Anchor": "#update-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Insert row",
+      "Description": "Inserts a new row into a DB2 table",
+      "Anchor": "#insert-row",
+      "IsDeprecated": false
+    }
+  ]
+}

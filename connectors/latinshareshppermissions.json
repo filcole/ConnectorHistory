@@ -1,0 +1,27 @@
+{
+  "UniqueName": "latinshareshppermissions",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../latinshareshppermissions/",
+  "Actions": [
+    {
+      "OperationId": "ItemPermissions",
+      "Name": "Manage SharePoint Item Permissions",
+      "Description": "Manage SharePoint Item Permissions: Grant, remove, delete all, and restore inheritance permissions to SharePoint items",
+      "Anchor": "#manage-sharepoint-item-permissions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPermissions",
+      "Name": "Manage SharePoint List Permissions",
+      "Description": "Manage SharePoint List Permissions : Grant, remove, delete all, and restore inheritance permissions to SharePoint lists",
+      "Anchor": "#manage-sharepoint-list-permissions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SitePermissions",
+      "Name": "Manage SharePoint Site Permissions",
+      "Description": "Manage SharePoint Site Permissions : Grant, remove, delete all, and restore inheritance permissions to SharePoint sites",
+      "Anchor": "#manage-sharepoint-site-permissions",
+      "IsDeprecated": false
+    }
+  ]
+}

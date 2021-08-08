@@ -1,0 +1,139 @@
+{
+  "UniqueName": "powellteams",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../powellteams/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Get teams with missing users' report",
+      "Description": "Get teams with missing users' report",
+      "Anchor": "#get-teams-with-missing-users'-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "List all of user's templates",
+      "Description": "List all of user's templates",
+      "Anchor": "#list-all-of-user's-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "List all user's teams",
+      "Description": "List all user's teams",
+      "Anchor": "#list-all-user's-teams",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBetaApprovals",
+      "Name": "List all approvals",
+      "Description": "List all approvals",
+      "Anchor": "#list-all-approvals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBetaApprovalsPending",
+      "Name": "List all pending approvals of the current user",
+      "Description": "List all pending approvals of the current user",
+      "Anchor": "#list-all-pending-approvals-of-the-current-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBetaJobtasksGetstatusByTaskId",
+      "Name": "Get Job task status",
+      "Description": "Get Job task status",
+      "Anchor": "#get-job-task-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBetaNamingconventions",
+      "Name": "List all Naming conventions",
+      "Description": "List all Naming conventions",
+      "Anchor": "#list-all-naming-conventions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBetaNamingconventionsByNamingId",
+      "Name": "Get a naming convention by id",
+      "Description": "Get a naming convention by id",
+      "Anchor": "#get-a-naming-convention-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBetaReportsTeamsWithExternalUsers",
+      "Name": "Get teams with external users report",
+      "Description": "Get teams with external users report",
+      "Anchor": "#get-teams-with-external-users-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBetaReportsTeamsWithoutMinimumOwnersByNumberOfMinimumOwners",
+      "Name": "Get teams without minimum owners report",
+      "Description": "Get teams without minimum owners report",
+      "Anchor": "#get-teams-without-minimum-owners-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBetaReportsTeamsWithoutValidNamingRule",
+      "Name": "Get teams without valid naming rule report",
+      "Description": "Get teams without valid naming rule report",
+      "Anchor": "#get-teams-without-valid-naming-rule-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBetaTags",
+      "Name": "List all tags",
+      "Description": "List all tags",
+      "Anchor": "#list-all-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBetaTeamsByTeamIdTags",
+      "Name": "List all tags of a team",
+      "Description": "List all tags of a team",
+      "Anchor": "#list-all-tags-of-a-team",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getBetaTemplatesByTemplateIdPicture",
+      "Name": "Get template picture",
+      "Description": "Get template picture",
+      "Anchor": "#get-template-picture",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "postBetaApprovalsApprove",
+      "Name": "Approve or deny a pending approval",
+      "Description": "Approve or deny a pending approval",
+      "Anchor": "#approve-or-deny-a-pending-approval",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "postBetabatch",
+      "Name": "Batch methods",
+      "Description": "Batch methods",
+      "Anchor": "#batch-methods",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "postBetaTagsList",
+      "Name": "Get tags information from tag ids",
+      "Description": "Get tags information from tag ids",
+      "Anchor": "#get-tags-information-from-tag-ids",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "postBetaTeams",
+      "Name": "Create a team based on a Powell Teams template information",
+      "Description": "Create a team based on a Powell Teams template information",
+      "Anchor": "#create-a-team-based-on-a-powell-teams-template-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "putBetaTeamsByTeamId",
+      "Name": "Update a team based on a Powell Teams template information",
+      "Description": "Update a team based on a Powell Teams template information",
+      "Anchor": "#update-a-team-based-on-a-powell-teams-template-information",
+      "IsDeprecated": false
+    }
+  ]
+}

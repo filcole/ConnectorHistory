@@ -1,0 +1,237 @@
+{
+  "UniqueName": "opentextedocsbyonefox",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../opentextedocsbyonefox/",
+  "Actions": [
+    {
+      "OperationId": "AddReferenceToFolder",
+      "Name": "Add reference to folder",
+      "Description": "Add a reference to a folder in eDOCS",
+      "Anchor": "#add-reference-to-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AdvancedSearch",
+      "Name": "Advanced search",
+      "Description": "Search on specified profile metadata in eDOCS",
+      "Anchor": "#advanced-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CheckInDocument",
+      "Name": "Check in document",
+      "Description": "Check in the document in eDOCS",
+      "Anchor": "#check-in-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CheckOutDocument",
+      "Name": "Check out document",
+      "Description": "Check out the document in eDOCS",
+      "Anchor": "#check-out-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create document",
+      "Description": "Create the document in eDOCS",
+      "Anchor": "#create-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolder",
+      "Name": "Create folder",
+      "Description": "Create the folder in eDOCS",
+      "Anchor": "#create-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateLookupEntry",
+      "Name": "Create lookup entry",
+      "Description": "Create the lookup entry in eDOCS",
+      "Anchor": "#create-lookup-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteDocument",
+      "Name": "Delete document",
+      "Description": "Delete the document in eDOCS",
+      "Anchor": "#delete-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteDocumentVersion",
+      "Name": "Delete document version",
+      "Description": "Delete the document version in eDOCS",
+      "Anchor": "#delete-document-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFolder",
+      "Name": "Delete folder",
+      "Description": "Delete the folder in eDOCS",
+      "Anchor": "#delete-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentContentUpdated",
+      "Name": "When document content is updated",
+      "Description": "When a document file content has been updated in eDOCS",
+      "Anchor": "#when-document-content-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentCreated",
+      "Name": "When a document is created",
+      "Description": "When a document has been created in eDOCS",
+      "Anchor": "#when-a-document-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentDeleted",
+      "Name": "When a document is deleted",
+      "Description": "When a document has been deleted in eDOCS (in case of queue for deletion)",
+      "Anchor": "#when-a-document-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentPropertiesUpdated",
+      "Name": "When document properties are updated",
+      "Description": "When document properties have been updated in eDOCS",
+      "Anchor": "#when-document-properties-are-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FolderCreated",
+      "Name": "When a folder is created",
+      "Description": "When a folder has been created in eDOCS",
+      "Anchor": "#when-a-folder-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FolderDeleted",
+      "Name": "When a folder is deleted",
+      "Description": "When a folder has been deleted in eDOCS (in case of queue for deletion)",
+      "Anchor": "#when-a-folder-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FolderUpdated",
+      "Name": "When a folder is updated",
+      "Description": "When a folder has been updated in eDOCS",
+      "Anchor": "#when-a-folder-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocument",
+      "Name": "Get document",
+      "Description": "Get the document from eDOCS",
+      "Anchor": "#get-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentContent",
+      "Name": "Get document content",
+      "Description": "Get the content of the document from eDOCS",
+      "Anchor": "#get-document-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentProperties",
+      "Name": "Get document properties",
+      "Description": "Get the properties of the document from eDOCS",
+      "Anchor": "#get-document-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentVersionContent",
+      "Name": "Get document version content",
+      "Description": "Get the content of the document version from eDOCS",
+      "Anchor": "#get-document-version-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentVersions",
+      "Name": "Get document versions",
+      "Description": "Get the versions of the document from eDOCS",
+      "Anchor": "#get-document-versions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFolder",
+      "Name": "Get folder",
+      "Description": "Get the folder from eDOCS",
+      "Anchor": "#get-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFolderChildren",
+      "Name": "Get folder children",
+      "Description": "Get the children of the folder from eDOCS",
+      "Anchor": "#get-folder-children",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLookupEntries",
+      "Name": "Get lookup entries",
+      "Description": "Get all lookup entries for the specified content type from eDOCS",
+      "Anchor": "#get-lookup-entries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemDeleted",
+      "Name": "When an item is deleted",
+      "Description": "When a folder or document has been deleted in eDOCS (in case of hard delete)",
+      "Anchor": "#when-an-item-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveReferenceFromFolder",
+      "Name": "Remove reference from folder",
+      "Description": "Remove a reference from a folder in eDOCS",
+      "Anchor": "#remove-reference-from-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SimpleSearch",
+      "Name": "Search",
+      "Description": "Search on profile metadata in eDOCS",
+      "Anchor": "#search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocument",
+      "Name": "Update document",
+      "Description": "Update the document in eDOCS",
+      "Anchor": "#update-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocumentContent",
+      "Name": "Update document content",
+      "Description": "Update the content of the document in eDOCS",
+      "Anchor": "#update-document-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocumentProperties",
+      "Name": "Update document properties",
+      "Description": "Update the document properties in eDOCS",
+      "Anchor": "#update-document-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFolder",
+      "Name": "Update folder",
+      "Description": "Update the folder in eDOCS",
+      "Anchor": "#update-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateLookupEntry",
+      "Name": "Update lookup entry",
+      "Description": "Update the lookup entry in eDOCS",
+      "Anchor": "#update-lookup-entry",
+      "IsDeprecated": false
+    }
+  ]
+}

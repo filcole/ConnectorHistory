@@ -1,0 +1,104 @@
+{
+  "UniqueName": "hubspotmarketing",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hubspotmarketing/",
+  "Actions": [
+    {
+      "OperationId": "FormsArchive",
+      "Name": "Delete a form (Preview)",
+      "Description": "Archive a form definition. New submissions will not be accepted and the form definition will be permanently deleted after 3 months.",
+      "Anchor": "#delete-a-form-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormsCreate",
+      "Name": "Create a form (Preview)",
+      "Description": "Add a new HubSpot form.",
+      "Anchor": "#create-a-form-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormsList",
+      "Name": "List Forms (Preview)",
+      "Description": "Returns a list of forms based on the search filters. By default, it returns the first 20 hubspot forms.",
+      "Anchor": "#list-forms-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormsRead",
+      "Name": "Get a form (Preview)",
+      "Description": "Returns a form based on the form ID provided.",
+      "Anchor": "#get-a-form-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormsUpdate",
+      "Name": "Update a form (Preview)",
+      "Description": "Update all fields of a HubSpot form definition.",
+      "Anchor": "#update-a-form-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarketingEmailsArchive",
+      "Name": "Delete a marketing email (V1)",
+      "Description": "Archive a marketing email.",
+      "Anchor": "#delete-a-marketing-email-(v1)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarketingEmailsCampaignRead",
+      "Name": "Get campaign data for a particular campaign (V1)",
+      "Description": "For a given campaign, return data associated with the campaign.",
+      "Anchor": "#get-campaign-data-for-a-particular-campaign-(v1)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarketingEmailsCreate",
+      "Name": "Create a marketing email (V1)",
+      "Description": "Create a new marketing email.",
+      "Anchor": "#create-a-marketing-email-(v1)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarketingEmailsList",
+      "Name": "Get all marketing emails (V1)",
+      "Description": "Get all marketing emails for a HubSpot account.",
+      "Anchor": "#get-all-marketing-emails-(v1)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarketingEmailsRead",
+      "Name": "Get a marketing email (V1)",
+      "Description": "Get the details for a specific marketing email.",
+      "Anchor": "#get-a-marketing-email-(v1)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarketingEmailsUpdate",
+      "Name": "Update a marketing email (V1)",
+      "Description": "Update a marketing email.",
+      "Anchor": "#update-a-marketing-email-(v1)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarketingEventRead",
+      "Name": "Get a marketing event (Preview)",
+      "Description": "Returns the details of the Marketing Event with the specified id, if one exists.",
+      "Anchor": "#get-a-marketing-event-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarketingEventsArchive",
+      "Name": "Delete a marketing event (Preview)",
+      "Description": "Archives an existing Marketing Event with the specified id, if one exists.",
+      "Anchor": "#delete-a-marketing-event-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarketingEventsUpdateCreateOrUpdate",
+      "Name": "Create or update a marketing event (Preview)",
+      "Description": "Upserts a Marketing Event. If there is an existing Marketing event with the specified id, it will be updated; otherwise a new event will be created.",
+      "Anchor": "#create-or-update-a-marketing-event-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

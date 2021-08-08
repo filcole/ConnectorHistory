@@ -1,0 +1,139 @@
+{
+  "UniqueName": "riskiqdigitalfootprint",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../riskiqdigitalfootprint/",
+  "Actions": [
+    {
+      "OperationId": "AssetID",
+      "Name": "Get asset by ID",
+      "Description": "Retrieve the asset of the specified UUID from Global Inventory.",
+      "Anchor": "#get-asset-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssetsAdd",
+      "Name": "Add the assets to global inventory",
+      "Description": "Add one or more assets and a set of properties.",
+      "Anchor": "#add-the-assets-to-global-inventory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssetsUpdate",
+      "Name": "Update the assets to global inventory",
+      "Description": "Update one or more properties on a set of assets.",
+      "Anchor": "#update-the-assets-to-global-inventory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssetType",
+      "Name": "Get assets by type",
+      "Description": "Retrieve the asset of the specified type and name from Global Inventory.",
+      "Anchor": "#get-assets-by-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Brands",
+      "Name": "Get the list of brands",
+      "Description": "Retrieve the list of brands defined for a workspace.",
+      "Anchor": "#get-the-list-of-brands",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BulkRetrieve",
+      "Name": "Request to search the list of assets by type",
+      "Description": "Bulk retrieve a set of assets by name and type.",
+      "Anchor": "#request-to-search-the-list-of-assets-by-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CancelTask",
+      "Name": "Cancel the task for global inventory update",
+      "Description": "Cancel further processing of an asynchronous Global Inventory update task.",
+      "Anchor": "#cancel-the-task-for-global-inventory-update",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConnectedAssetsByType",
+      "Name": "Get connected assets by type",
+      "Description": "Retrieve the set of assets which are connected to the requested asset.",
+      "Anchor": "#get-connected-assets-by-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Deltas",
+      "Name": "Get the list of confirmed assets added or removed by type",
+      "Description": "Retrieve the list of confirmed assets that have been added or removed from inventory over the given time period. Retrieve the list of asset detail changes in inventory over the given time period.",
+      "Anchor": "#get-the-list-of-confirmed-assets-added-or-removed-by-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeltasSummary",
+      "Name": "Get the count of confirmed assets added or removed",
+      "Description": "Retrieve summary describing counts of confirmed assets that have been added or removed from inventory over the given time period.",
+      "Anchor": "#get-the-count-of-confirmed-assets-added-or-removed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRecentSearch",
+      "Name": "Get assets from recent dataset by search id or name",
+      "Description": "Search Global Inventory recent dataset for assets that match the criteria.",
+      "Anchor": "#get-assets-from-recent-dataset-by-search-id-or-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTask",
+      "Name": "Get task by ID",
+      "Description": "Retrieve the status of an asynchronous global inventory update task.",
+      "Anchor": "#get-task-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewlyOpenedPorts",
+      "Name": "Get the list of newly opened ports",
+      "Description": "Retrieve the list of newly opened ports hits.",
+      "Anchor": "#get-the-list-of-newly-opened-ports",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Organizations",
+      "Name": "Get the list of organizations",
+      "Description": "Retrieve the list of organizations defined for a workspace.",
+      "Anchor": "#get-the-list-of-organizations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SavedSearches",
+      "Name": "Get the list of saved searches",
+      "Description": "Retrieve the list of saved searches for a workspace.",
+      "Anchor": "#get-the-list-of-saved-searches",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchHistory",
+      "Name": "Request to get the assets from the historical dataset that match the criteria",
+      "Description": "Search Global Inventory historical dataset for a set of assets that match the criteria.",
+      "Anchor": "#request-to-get-the-assets-from-the-historical-dataset-that-match-the-criteria",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchRecent",
+      "Name": "Request to get the assets from the recent dataset that match the criteria",
+      "Description": "Search Global Inventory recent dataset for a set of assets that match the criteria.",
+      "Anchor": "#request-to-get-the-assets-from-the-recent-dataset-that-match-the-criteria",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tags",
+      "Name": "Get the list of tags",
+      "Description": "Retrieve the list of tags defined for a workspace.",
+      "Anchor": "#get-the-list-of-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateHistory",
+      "Name": "Update the assets to global inventory using historical search",
+      "Description": "Update one or more properties on a set of assets. This will use historical search if updating via a query, otherwise it works the same as /update.",
+      "Anchor": "#update-the-assets-to-global-inventory-using-historical-search",
+      "IsDeprecated": false
+    }
+  ]
+}

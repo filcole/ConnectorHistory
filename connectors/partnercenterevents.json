@@ -1,0 +1,27 @@
+{
+  "UniqueName": "partnercenterevents",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../partnercenterevents/",
+  "Actions": [
+    {
+      "OperationId": "EventRegistration",
+      "Name": "Register to receive events",
+      "Description": "Registers a tenant to receive the specified events.",
+      "Anchor": "#register-to-receive-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRegistration",
+      "Name": "Update an event registration",
+      "Description": "Updates an existing event registration.",
+      "Anchor": "#update-an-event-registration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewRegistration",
+      "Name": "View a registration",
+      "Description": "Returns the Webhooks event registration for a tenant.",
+      "Anchor": "#view-a-registration",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "UniqueName": "uiflow",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../uiflow/",
+  "Actions": [
+    {
+      "OperationId": "ExecuteDesktopUIFlow",
+      "Name": "Run a flow built with Windows recorder (V1)",
+      "Description": "A flow will automatically run a set of steps recorded in a single app using Windows recorder (V1).",
+      "Anchor": "#run-a-flow-built-with-windows-recorder-(v1)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteSeleniumIDEUIFlow",
+      "Name": "Run a flow built with Selenium IDE",
+      "Description": "A web flow will automatically run a set of steps recorded in a single web app, using Selenium IDE.",
+      "Anchor": "#run-a-flow-built-with-selenium-ide",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunUIFlow_V2",
+      "Name": "Run a flow built with Power Automate Desktop",
+      "Description": "A flow will automatically run a set of steps built by Power Automate Desktop.",
+      "Anchor": "#run-a-flow-built-with-power-automate-desktop",
+      "IsDeprecated": false
+    }
+  ]
+}

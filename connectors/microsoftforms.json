@@ -1,0 +1,27 @@
+{
+  "UniqueName": "microsoftforms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../microsoftforms/",
+  "Actions": [
+    {
+      "OperationId": "CreateFormWebhook",
+      "Name": "When a new response is submitted",
+      "Description": "This operation triggers a flow when a new response is submitted.",
+      "Anchor": "#when-a-new-response-is-submitted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFormResponseById",
+      "Name": "Get response details",
+      "Description": "This action retrieves a form response",
+      "Anchor": "#get-response-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFormResponses",
+      "Name": "When a new response is submitted [DEPRECATED]",
+      "Description": "This operation triggers a flow when a new response is submitted.",
+      "Anchor": "#when-a-new-response-is-submitted-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

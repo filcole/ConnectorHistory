@@ -1,0 +1,55 @@
+{
+  "UniqueName": "casper365",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../casper365/",
+  "Actions": [
+    {
+      "OperationId": "CourseGet",
+      "Name": "Obtain course data using the course name",
+      "Description": "Obtain course data using the course name",
+      "Anchor": "#obtain-course-data-using-the-course-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoursePost",
+      "Name": "Update a course record",
+      "Description": "Update a course record",
+      "Anchor": "#update-a-course-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LogEndPost",
+      "Name": "Add entry to the data log to indicate a batch process finished",
+      "Description": "Add entry to the data log to indicate a batch process start",
+      "Anchor": "#add-entry-to-the-data-log-to-indicate-a-batch-process-finished",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LogStartPost",
+      "Name": "Add entry to the data log to indicate a batch process start",
+      "Description": "Add entry to the data log to indicate a batch process start",
+      "Anchor": "#add-entry-to-the-data-log-to-indicate-a-batch-process-start",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StudentGet",
+      "Name": "Obtain student record",
+      "Description": "Add entry to the data log to indicate a batch process start",
+      "Anchor": "#obtain-student-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StudentIsBrowserAppGet",
+      "Name": "Check if student is using PowerApps in browser",
+      "Description": "Simple function to determine if PowerApps is in web view as this cannot currently be worked out from the app",
+      "Anchor": "#check-if-student-is-using-powerapps-in-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StudentPost",
+      "Name": "Update a student record",
+      "Description": "Update a student record",
+      "Anchor": "#update-a-student-record",
+      "IsDeprecated": false
+    }
+  ]
+}

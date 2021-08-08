@@ -1,0 +1,27 @@
+{
+  "UniqueName": "pdf4meswissqr",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pdf4meswissqr/",
+  "Actions": [
+    {
+      "OperationId": "CreateSwissQrBill_V1",
+      "Name": "Create SwissQR Bill (Preview)",
+      "Description": "Create the SwissQR bill payment part with your PDF document. https://developer.pdf4me.com/docs/api/swiss-qr/swissqrapi/",
+      "Anchor": "#create-swissqr-bill-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadSwissQrBill_V1",
+      "Name": "Read SwissQR Code (Preview)",
+      "Description": "Read-out Billing Data from SwissQR Bill. https://developer.pdf4me.com/docs/api/swiss-qr/scan-swiss-qr-bill/",
+      "Anchor": "#read-swissqr-code-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocBySwissQrCode_V1",
+      "Name": "Split Document by SwissQR Code (Preview)",
+      "Description": "Split the PDF document by barcode types and filters. https://developer.pdf4me.com/docs/api/microsoft-flow/split-by-barcode-flow-connector/",
+      "Anchor": "#split-document-by-swissqr-code-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

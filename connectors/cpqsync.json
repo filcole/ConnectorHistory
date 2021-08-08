@@ -1,0 +1,34 @@
+{
+  "UniqueName": "cpqsync",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cpqsync/",
+  "Actions": [
+    {
+      "OperationId": "AddProduct",
+      "Name": "Add product",
+      "Description": "Add a product to the catalog",
+      "Anchor": "#add-product",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProductCreated",
+      "Name": "Product Created",
+      "Description": "Fired when a product is created in CPQ Sync",
+      "Anchor": "#product-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProductUpdated",
+      "Name": "Product Updated",
+      "Description": "Fired when a product is updated in CPQ Sync",
+      "Anchor": "#product-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProduct",
+      "Name": "Update product",
+      "Description": "Update a product in the catalog",
+      "Anchor": "#update-product",
+      "IsDeprecated": false
+    }
+  ]
+}

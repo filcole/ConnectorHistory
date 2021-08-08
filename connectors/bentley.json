@@ -1,0 +1,251 @@
+{
+  "UniqueName": "bentley",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bentley/",
+  "Actions": [
+    {
+      "OperationId": "ChangeDocumentState",
+      "Name": "Change document state (Preview)",
+      "Description": "Changes a workflow state of a document",
+      "Anchor": "#change-document-state-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChangeDocumentState_V2",
+      "Name": "Change document state (V2) (Preview)",
+      "Description": "Changes a workflow state of a document",
+      "Anchor": "#change-document-state-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create a new document (Preview)",
+      "Description": "Creates a new document in ProjectWise Design Integration work area",
+      "Anchor": "#create-a-new-document-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument_V2",
+      "Name": "Create a new document (V2) (Preview)",
+      "Description": "Creates a new document in ProjectWise Design Integration work area",
+      "Anchor": "#create-a-new-document-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolder",
+      "Name": "Create a new folder (Preview)",
+      "Description": "Creates a new folder in ProjectWise Design Integration work area",
+      "Anchor": "#create-a-new-folder-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolder_V2",
+      "Name": "Create a new folder (V2) (Preview)",
+      "Description": "Creates a new folder in ProjectWise Design Integration work area",
+      "Anchor": "#create-a-new-folder-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument",
+      "Name": "Modify a document (Preview)",
+      "Description": "Modifies ProjectWise Design Integration document",
+      "Anchor": "#modify-a-document-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditDocument_V2",
+      "Name": "Modify a document (V2) (Preview)",
+      "Description": "Modifies ProjectWise Design Integration document",
+      "Anchor": "#modify-a-document-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteWsgRequest",
+      "Name": "Execute WSG request (Preview)",
+      "Description": "Execute Web Services Gateway request",
+      "Anchor": "#execute-wsg-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteWsgRequest_V2",
+      "Name": "Execute WSG request (V2) (Preview)",
+      "Description": "Execute Web Services Gateway request",
+      "Anchor": "#execute-wsg-request-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDocument",
+      "Name": "Find a document by path or GUID (Preview)",
+      "Description": "Finds a document in ProjectWise Design Integration work area by path or GUID",
+      "Anchor": "#find-a-document-by-path-or-guid-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDocument_V2",
+      "Name": "Find a document by path or GUID (V2) (Preview)",
+      "Description": "Finds a document in ProjectWise Design Integration work area by path or GUID",
+      "Anchor": "#find-a-document-by-path-or-guid-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDocumentReferences",
+      "Name": "Find references of a document by path or GUID (Preview)",
+      "Description": "Finds references of a document in ProjectWise Design Integration work area by path or GUID",
+      "Anchor": "#find-references-of-a-document-by-path-or-guid-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDocumentReferences_V2",
+      "Name": "Find references of a document by path or GUID (V2) (Preview)",
+      "Description": "Finds references of a document in ProjectWise Design Integration work area by path or GUID",
+      "Anchor": "#find-references-of-a-document-by-path-or-guid-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDocumentsBySavedSearch",
+      "Name": "Find documents by saved search (Preview)",
+      "Description": "Finds documents in ProjectWise Design Integration work area by saved search",
+      "Anchor": "#find-documents-by-saved-search-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDocumentsBySavedSearch_V2",
+      "Name": "Find documents by saved search (V2) (Preview)",
+      "Description": "Finds documents in ProjectWise Design Integration work area by saved search",
+      "Anchor": "#find-documents-by-saved-search-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDocumentVersions",
+      "Name": "Find versions of a document by path or GUID (Preview)",
+      "Description": "Finds versions of a document in ProjectWise Design Integration work area by path or GUID",
+      "Anchor": "#find-versions-of-a-document-by-path-or-guid-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDocumentVersions_V2",
+      "Name": "Find versions of a document by path or GUID (V2) (Preview)",
+      "Description": "Finds versions of a document in ProjectWise Design Integration work area by path or GUID",
+      "Anchor": "#find-versions-of-a-document-by-path-or-guid-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindFolderByPathOrGuid",
+      "Name": "Find folder by path or GUID (Preview)",
+      "Description": "Finds a folder in ProjectWise Design Integration work area by path or GUID",
+      "Anchor": "#find-folder-by-path-or-guid-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindFolderByPathOrGuid_V2",
+      "Name": "Find folder by path or GUID (V2) (Preview)",
+      "Description": "Finds a folder in ProjectWise Design Integration work area by path or GUID",
+      "Anchor": "#find-folder-by-path-or-guid-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindFoldersBySavedSearch",
+      "Name": "Find folders by saved search (Preview)",
+      "Description": "Find folders in ProjectWise Design Integration work area by saved search",
+      "Anchor": "#find-folders-by-saved-search-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindFoldersBySavedSearch_V2",
+      "Name": "Find folders by saved search (V2) (Preview)",
+      "Description": "Find folders in ProjectWise Design Integration work area by saved search",
+      "Anchor": "#find-folders-by-saved-search-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetChildProjects",
+      "Name": "List folders (Preview)",
+      "Description": "Lists all the sub-folders of the folder",
+      "Anchor": "#list-folders-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetChildProjects_V2",
+      "Name": "List folders (V2) (Preview)",
+      "Description": "Lists all the sub-folders of the folder",
+      "Anchor": "#list-folders-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocuments",
+      "Name": "List documents in a folder (Preview)",
+      "Description": "Lists all the documents in the folder",
+      "Anchor": "#list-documents-in-a-folder-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocuments_V2",
+      "Name": "List documents in a folder (V2) (Preview)",
+      "Description": "Lists all the documents in the folder",
+      "Anchor": "#list-documents-in-a-folder-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFile",
+      "Name": "Get document file (Preview)",
+      "Description": "Gets ProjectWise Design Integration document file",
+      "Anchor": "#get-document-file-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFile_V2",
+      "Name": "Get document file (V2) (Preview)",
+      "Description": "Gets ProjectWise Design Integration document file",
+      "Anchor": "#get-document-file-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvokeWorkflowCommand",
+      "Name": "Invoke workflow command by label (Preview)",
+      "Description": "Invokes a workflow command for a document",
+      "Anchor": "#invoke-workflow-command-by-label-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvokeWorkflowCommand_V2",
+      "Name": "Invoke workflow command by label (V2) (Preview)",
+      "Description": "Invokes a workflow command for a document",
+      "Anchor": "#invoke-workflow-command-by-label-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListDocumentsInSet",
+      "Name": "List documents in a set (Preview)",
+      "Description": "Lists all the documents in the set",
+      "Anchor": "#list-documents-in-a-set-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListDocumentsInSet_V2",
+      "Name": "List documents in a set (V2) (Preview)",
+      "Description": "Lists all the documents in the set",
+      "Anchor": "#list-documents-in-a-set-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SynchronizeDocumentAttributes_V2",
+      "Name": "Synchronize document attributes (V2) (Preview)",
+      "Description": "Synchronize document attributes according to the specified direction: To File or From File",
+      "Anchor": "#synchronize-document-attributes-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadFile",
+      "Name": "Upload document file (Preview)",
+      "Description": "Uploads a new file or replaces existing file for a document",
+      "Anchor": "#upload-document-file-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadFile_V2",
+      "Name": "Upload document file (V2) (Preview)",
+      "Description": "Uploads a new file or replaces existing file for a document",
+      "Anchor": "#upload-document-file-(v2)-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

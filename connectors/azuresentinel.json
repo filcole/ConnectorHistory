@@ -1,0 +1,188 @@
+{
+  "UniqueName": "azuresentinel",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azuresentinel/",
+  "Actions": [
+    {
+      "OperationId": "AddCommentToIncident",
+      "Name": "Add comment to incident [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Add comment to incident (V3) instead.\nAdds comment to selected incident",
+      "Anchor": "#add-comment-to-incident-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "AddCommentToIncident_v2",
+      "Name": "Add comment to incident (V2)",
+      "Description": "Adds comment to selected incident",
+      "Anchor": "#add-comment-to-incident-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddIncidentComment_v3",
+      "Name": "Add comment to incident (V3)",
+      "Description": "Adds comment to selected incident",
+      "Anchor": "#add-comment-to-incident-(v3)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddsLabelsToIncident",
+      "Name": "Add labels to incident (deprecated) [DEPRECATED]",
+      "Description": "Adds labels to selected incident",
+      "Anchor": "#add-labels-to-incident-(deprecated)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ASI_incident_trigger_subscribe",
+      "Name": "When Azure Sentinel incident creation rule was triggered",
+      "Description": "When a response to an Azure Sentinel incident is triggered. This playbook is triggered by an automation rule when a new incident is created. Playbook receives the Azure Sentinel incident as its input, including alerts and entities.",
+      "Anchor": "#when-azure-sentinel-incident-creation-rule-was-triggered",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ASI_trigger_subscribe",
+      "Name": "When a response to an Azure Sentinel alert is triggered",
+      "Description": "When a response to an Azure Sentinel alert is triggered. This playbook is triggered by an analytics rule when a new alert is created or by manual triggering. Playbook receives the alert as its input.",
+      "Anchor": "#when-a-response-to-an-azure-sentinel-alert-is-triggered",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ASI_trigger_subscribe_Deprecated",
+      "Name": "When a response to an Azure Sentinel alert is triggered [DEPRECATED]",
+      "Description": "When a response to an Azure Sentinel alert is triggered. This playbook must be triggered using Azure Sentinel Real Time or from Azure",
+      "Anchor": "#when-a-response-to-an-azure-sentinel-alert-is-triggered-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ASI_Trigger_Unsubscribe_Deprecated",
+      "Name": "ASI trigger unsubscribe [DEPRECATED]",
+      "Description": "Unsubscribe",
+      "Anchor": "#asi-trigger-unsubscribe-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ChangeIncidentDescription",
+      "Name": "Change incident description",
+      "Description": "changes description to selected incident",
+      "Anchor": "#change-incident-description",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChangeIncidentDescription_V2",
+      "Name": "Change incident description (V2) (deprecated) [DEPRECATED]",
+      "Description": "changes description to selected incident",
+      "Anchor": "#change-incident-description-(v2)-(deprecated)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ChangeIncidentSeverity",
+      "Name": "Change incident severity (deprecated) [DEPRECATED]",
+      "Description": "changes severity to selected incident",
+      "Anchor": "#change-incident-severity-(deprecated)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ChangeIncidentStatus",
+      "Name": "Change incident status (deprecated) [DEPRECATED]",
+      "Description": "changes status to selected incident",
+      "Anchor": "#change-incident-status-(deprecated)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ChangeIncidentTitle",
+      "Name": "Change incident title",
+      "Description": "changes title to selected incident",
+      "Anchor": "#change-incident-title",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChangeIncidentTitle_v2",
+      "Name": "Change incident title (V2) (deprecated) [DEPRECATED]",
+      "Description": "changes title to selected incident",
+      "Anchor": "#change-incident-title-(v2)-(deprecated)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetAccounts",
+      "Name": "Entities - Get Accounts",
+      "Description": "Returns list of accounts associated with the alert",
+      "Anchor": "#entities---get-accounts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileHashes",
+      "Name": "Entities - Get FileHashes",
+      "Description": "Returns list of File Hashes associated with the alert",
+      "Anchor": "#entities---get-filehashes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetHosts",
+      "Name": "Entities - Get Hosts",
+      "Description": "Returns list of hosts associated with the alert",
+      "Anchor": "#entities---get-hosts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIncidentByAlertId_v2",
+      "Name": "Alert - Get incident",
+      "Description": "Returns the incident associated with selected alert",
+      "Anchor": "#alert---get-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIncidentByAlertId_v2",
+      "Name": "Alert - Get incident",
+      "Description": "Returns the incident associated with selected alert",
+      "Anchor": "#alert---get-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIncidentV2",
+      "Name": "Get incident",
+      "Description": "Get an incident by ARM ID",
+      "Anchor": "#get-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIPs",
+      "Name": "Entities - Get IPs",
+      "Description": "Returns list of IPs associated with the alert",
+      "Anchor": "#entities---get-ips",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUrls",
+      "Name": "Entities - Get URLs",
+      "Description": "Returns list of URLs associated with the alert",
+      "Anchor": "#entities---get-urls",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemovesLabelsToIncident",
+      "Name": "Remove labels from incident (deprecated) [DEPRECATED]",
+      "Description": "Removes labels to selected incident",
+      "Anchor": "#remove-labels-from-incident-(deprecated)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateIncident",
+      "Name": "Update incident",
+      "Description": "Update incident with provided fields",
+      "Anchor": "#update-incident",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WatchlistItems_Create",
+      "Name": "Watchlists - Add a new watchlist item",
+      "Description": "Watchlists - Add a new watchlist item",
+      "Anchor": "#watchlists---add-a-new-watchlist-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WatchlistItems_Update",
+      "Name": "Watchlists - Update an existing watchlist item",
+      "Description": "Watchlists - Update an existing watchlist item",
+      "Anchor": "#watchlists---update-an-existing-watchlist-item",
+      "IsDeprecated": false
+    }
+  ]
+}

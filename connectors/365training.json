@@ -1,0 +1,90 @@
+{
+  "UniqueName": "365training",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../365training/",
+  "Actions": [
+    {
+      "OperationId": "AddIdeaVote",
+      "Name": "Add Idea Vote",
+      "Description": "Add your vote to an idea to show your support.",
+      "Anchor": "#add-idea-vote",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCourse",
+      "Name": "Get Course",
+      "Description": "Get the details of a course including module and unit information.",
+      "Anchor": "#get-course",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInstructor",
+      "Name": "Get Instructor",
+      "Description": "Get detailed information for a specific instructor including their course list.",
+      "Anchor": "#get-instructor",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserProfile",
+      "Name": "Get User Profile",
+      "Description": "Get your user profile information.",
+      "Anchor": "#get-user-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCourses",
+      "Name": "List Courses",
+      "Description": "List the published training courses we have available.",
+      "Anchor": "#list-courses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListIdeas",
+      "Name": "List Ideas",
+      "Description": "This will list active ideas that have been submitted by our community.",
+      "Anchor": "#list-ideas",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListInstructors",
+      "Name": "List Instructors",
+      "Description": "List summary information about our instructors.",
+      "Anchor": "#list-instructors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListMyCourses",
+      "Name": "List My Courses",
+      "Description": "List the courses you have enrolled in and your progress.",
+      "Anchor": "#list-my-courses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewCoursePublishedNotification",
+      "Name": "When a new course is published",
+      "Description": "Get notified when a new course is published on  our learning platform.",
+      "Anchor": "#when-a-new-course-is-published",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewCourseUserNotification",
+      "Name": "When a course notification is received",
+      "Description": "Get notification when a course you are enrolled in has a new notification published.",
+      "Anchor": "#when-a-course-notification-is-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewIdeaNotification",
+      "Name": "When a new idea is created",
+      "Description": "Get notified when a new idea is added by the community.",
+      "Anchor": "#when-a-new-idea-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Search",
+      "Name": "Search",
+      "Description": "Search our course catalog and related community content.",
+      "Anchor": "#search",
+      "IsDeprecated": false
+    }
+  ]
+}

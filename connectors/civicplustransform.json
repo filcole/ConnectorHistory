@@ -1,0 +1,34 @@
+{
+  "UniqueName": "civicplustransform",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../civicplustransform/",
+  "Actions": [
+    {
+      "OperationId": "FormSubmissionMetaWebhookTrigger",
+      "Name": "Triggers when a Form submission occurs",
+      "Description": "Creates a Form Submission Meta Webhook",
+      "Anchor": "#triggers-when-a-form-submission-occurs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateFormSubmissionPDF",
+      "Name": "Generate Form Submission PDF",
+      "Description": "Allows for Form Submission PDF to be generated",
+      "Anchor": "#generate-form-submission-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFormSubmissionAttachment",
+      "Name": "Retrieve Form Submission Attachment",
+      "Description": "Allows for Form Submission attachments to be retrieved",
+      "Anchor": "#retrieve-form-submission-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFormSubmissionData",
+      "Name": "Retrieve Form Submission Data",
+      "Description": "Allows for Form Submission data to be retrieved",
+      "Anchor": "#retrieve-form-submission-data",
+      "IsDeprecated": false
+    }
+  ]
+}

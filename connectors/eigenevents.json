@@ -1,0 +1,20 @@
+{
+  "UniqueName": "eigenevents",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../eigenevents/",
+  "Actions": [
+    {
+      "OperationId": "CreateWebhook",
+      "Name": "When an event occurs",
+      "Description": "This operation triggers when any of the events subscribed to occurs",
+      "Anchor": "#when-an-event-occurs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSupportedEvents",
+      "Name": "Get Events Available",
+      "Description": "This action will fetch all events supported by this server",
+      "Anchor": "#get-events-available",
+      "IsDeprecated": false
+    }
+  ]
+}

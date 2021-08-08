@@ -1,0 +1,48 @@
+{
+  "UniqueName": "gototraining",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../gototraining/",
+  "Actions": [
+    {
+      "OperationId": "AddRegistrant",
+      "Name": "Add registrant",
+      "Description": "Registers one person, identified by a unique email address, for a training.",
+      "Anchor": "#add-registrant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRegistrant",
+      "Name": "Get Registrant",
+      "Description": "Retrieves details of a specific registrant in a training.",
+      "Anchor": "#get-registrant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTraining",
+      "Name": "Get training",
+      "Description": "Retrieves all information about a scheduled training.",
+      "Anchor": "#get-training",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRegistrations",
+      "Name": "List registrants",
+      "Description": "Retrieves details of all registrants for a specific training.",
+      "Anchor": "#list-registrants",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewRegistration",
+      "Name": "When a registrant is added",
+      "Description": "Triggers when a registrant is added to a training.",
+      "Anchor": "#when-a-registrant-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewTraining",
+      "Name": "When a training is created",
+      "Description": "Triggers when a new training is created.",
+      "Anchor": "#when-a-training-is-created",
+      "IsDeprecated": false
+    }
+  ]
+}

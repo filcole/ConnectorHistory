@@ -1,0 +1,34 @@
+{
+  "UniqueName": "lassox",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../lassox/",
+  "Actions": [
+    {
+      "OperationId": "CompanyInformation",
+      "Name": "Get company information",
+      "Description": "Gets information about a company.",
+      "Anchor": "#get-company-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompanyLatestReport",
+      "Name": "Get latest report for company",
+      "Description": "Retrieves the company's latest financial report.",
+      "Anchor": "#get-latest-report-for-company",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PersonInformation",
+      "Name": "Get person information",
+      "Description": "Get information about a person.",
+      "Anchor": "#get-person-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProductionUnitInformation",
+      "Name": "Get production unit information",
+      "Description": "Gets information about a production unit.",
+      "Anchor": "#get-production-unit-information",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "UniqueName": "emfluencemp",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../emfluencemp/",
+  "Actions": [
+    {
+      "OperationId": "Contacts-lookup",
+      "Name": "Lookup contact by email",
+      "Description": "Get full details for contacts by email",
+      "Anchor": "#lookup-contact-by-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contacts-save",
+      "Name": "Save contact",
+      "Description": "Save a single contact record. Only data for parameters passed in is saved.",
+      "Anchor": "#save-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contacts-search",
+      "Name": "Search Contacts",
+      "Description": "Search contacts by various criteria. https://apidocs.emailer.emfluence.com/v1/endpoints/contacts/search",
+      "Anchor": "#search-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contacts-search-simple",
+      "Name": "Search Contacts (Simple)",
+      "Description": "Search contacts by simple criteria. https://apidocs.emailer.emfluence.com/v1/endpoints/contacts/search",
+      "Anchor": "#search-contacts-(simple)",
+      "IsDeprecated": false
+    }
+  ]
+}

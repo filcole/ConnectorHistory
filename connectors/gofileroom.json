@@ -1,0 +1,314 @@
+{
+  "UniqueName": "gofileroom",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../gofileroom/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Merge PDF's",
+      "Description": "Merge PDF files together",
+      "Anchor": "#merge-pdf's",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyDocument",
+      "Name": "Copy Document",
+      "Description": "Copies the documents",
+      "Anchor": "#copy-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create Document",
+      "Description": "Creates a document record with indexes",
+      "Anchor": "#create-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGroup",
+      "Name": "Create Group",
+      "Description": "Creates permission group",
+      "Anchor": "#create-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUsers",
+      "Name": "Create Users",
+      "Description": "Creates GoFileRoom and ClientFlow users into the System",
+      "Anchor": "#create-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteUser",
+      "Name": "Delete User",
+      "Description": "Delete GoFileRoom and ClientFlow users from the System",
+      "Anchor": "#delete-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentDelete",
+      "Name": "Delete Document",
+      "Description": "Deletes a document",
+      "Anchor": "#delete-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentReindex",
+      "Name": "Document Reindex",
+      "Description": "Reindexes the documents",
+      "Anchor": "#document-reindex",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentSearch",
+      "Name": "Document Search",
+      "Description": "Loads all the documents the user has access to in the specified drawer.",
+      "Anchor": "#document-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetChildIndexes",
+      "Name": "Get Child Indexes",
+      "Description": "Gets a list of child index values based on the list ID, which is provided when the parent list value is selected.",
+      "Anchor": "#get-child-indexes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocument",
+      "Name": "Get Document",
+      "Description": "Downloads the document",
+      "Anchor": "#get-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentHistory",
+      "Name": "Get Document History",
+      "Description": "Gets the history of the document",
+      "Anchor": "#get-document-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentIndexes",
+      "Name": "Get Document Indexes",
+      "Description": "Retrieves the document's indexes",
+      "Anchor": "#get-document-indexes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentStatus",
+      "Name": "Get Document Status",
+      "Description": "Get the Status of Documents",
+      "Anchor": "#get-document-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDrawerIndexes",
+      "Name": "Get Drawer Indexes",
+      "Description": "Retrieves a list of document indexes that are set up for the drawer",
+      "Anchor": "#get-drawer-indexes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDrawers",
+      "Name": "Get Drawers",
+      "Description": "Fetches the drawers accessible for the Logged in User",
+      "Anchor": "#get-drawers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDynamicRulesForIndex",
+      "Name": "Get Dynamic Rules for Index",
+      "Description": "Gets the list of dynamic rules configured for the specified index",
+      "Anchor": "#get-dynamic-rules-for-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFirmFlowDeliverableReport",
+      "Name": "Get FirmFlow Data by Deliverable",
+      "Description": "Gets the Tracking Report by Deliverable data",
+      "Anchor": "#get-firmflow-data-by-deliverable",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroupDocumentSecurity",
+      "Name": "Get Group Document Security",
+      "Description": "Retrieve group document security",
+      "Anchor": "#get-group-document-security",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroupPermissions",
+      "Name": "Get Group Permissions",
+      "Description": "Gets permissions of groups",
+      "Anchor": "#get-group-permissions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroups",
+      "Name": "Get Groups",
+      "Description": "Fetches the groups available for user and group management",
+      "Anchor": "#get-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLicenses",
+      "Name": "Get Licenses",
+      "Description": "Retrieves licensing counts",
+      "Anchor": "#get-licenses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetListOfReports",
+      "Name": "Get List of Reports",
+      "Description": "Fetches the reports available for user management",
+      "Anchor": "#get-list-of-reports",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetListTypeIndexData",
+      "Name": "Get List of Index Values",
+      "Description": "Gets all the entries for a list type index",
+      "Anchor": "#get-list-of-index-values",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLookupList",
+      "Name": "Get LookupList Values",
+      "Description": "Fetches the values from the LookupList",
+      "Anchor": "#get-lookuplist-values",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPasswordPolicy",
+      "Name": "Get Password Policy",
+      "Description": "Fetches the Password policy for the firm",
+      "Anchor": "#get-password-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUploadLocation",
+      "Name": "Get Upload Locations",
+      "Description": "Fetches the upload locations for the user",
+      "Anchor": "#get-upload-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserDocumentSecurity",
+      "Name": "Get User Document Security",
+      "Description": "Fetches user document security per login",
+      "Anchor": "#get-user-document-security",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserInfo",
+      "Name": "Get User Info",
+      "Description": "Fetches the GFR User Information",
+      "Anchor": "#get-user-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserPermission",
+      "Name": "Get User Permissions",
+      "Description": "Gets permissions of user",
+      "Anchor": "#get-user-permissions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUsers",
+      "Name": "Get Users",
+      "Description": "Fetches the GFR users for the Logged in User",
+      "Anchor": "#get-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IndexLookupListFind",
+      "Name": "Index LookupList Find",
+      "Description": "This method is designed for use with autocomplete fields.",
+      "Anchor": "#index-lookuplist-find",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Login",
+      "Name": "Login",
+      "Description": "Logs a user into the application",
+      "Anchor": "#login",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Logout",
+      "Name": "Logout",
+      "Description": "Logout of application",
+      "Anchor": "#logout",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ModifyGroup",
+      "Name": "Modify Group",
+      "Description": "Modify group permissions",
+      "Anchor": "#modify-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ModifyUser",
+      "Name": "Modify User",
+      "Description": "Modify user permissions",
+      "Anchor": "#modify-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublishDocumentStatus",
+      "Name": "Publish Document Status",
+      "Description": "Publish or Unpublish documents from ClientFlow.",
+      "Anchor": "#publish-document-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetGroupDocSecurity",
+      "Name": "Set Group Document Security",
+      "Description": "Assigns document security to a group",
+      "Anchor": "#set-group-document-security",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetGroupPermissions",
+      "Name": "Set Group Permissions",
+      "Description": "Assigns permission to group",
+      "Anchor": "#set-group-permissions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetUserDocSecurity",
+      "Name": "Set User Document Security",
+      "Description": "Assigns user document security permissions",
+      "Anchor": "#set-user-document-security",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetUserPermissions",
+      "Name": "Set User Permissions",
+      "Description": "Assigns permission to user",
+      "Anchor": "#set-user-permissions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TaxsortDocument",
+      "Name": "Taxsort Document",
+      "Description": "Taxsort PDF document",
+      "Anchor": "#taxsort-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateIndexes",
+      "Name": "Validate Indexes",
+      "Description": "Checks whether the indexes provided are valid.",
+      "Anchor": "#validate-indexes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateToken",
+      "Name": "Validate Token",
+      "Description": "Validate Token status",
+      "Anchor": "#validate-token",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "UniqueName": "eventhubs",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../eventhubs/",
+  "Actions": [
+    {
+      "OperationId": "OnNewEvents",
+      "Name": "When events are available in Event Hub",
+      "Description": "When events are available in Event Hub.",
+      "Anchor": "#when-events-are-available-in-event-hub",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEvent",
+      "Name": "Send event",
+      "Description": "Send event.",
+      "Anchor": "#send-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEvents",
+      "Name": "Send one or more events to the Event Hub partition (Preview)",
+      "Description": "Send one or more events to the Event Hub partition.",
+      "Anchor": "#send-one-or-more-events-to-the-event-hub-partition-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

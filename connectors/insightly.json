@@ -1,0 +1,216 @@
+{
+  "UniqueName": "insightly",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../insightly/",
+  "Actions": [
+    {
+      "OperationId": "AddContact",
+      "Name": "Add contact",
+      "Description": "Add contact",
+      "Anchor": "#add-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddLead",
+      "Name": "Add lead",
+      "Description": "Add lead",
+      "Anchor": "#add-lead",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddOrganization",
+      "Name": "Add organization",
+      "Description": "Add organization",
+      "Anchor": "#add-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddProject",
+      "Name": "Add project",
+      "Description": "Add project",
+      "Anchor": "#add-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddTask",
+      "Name": "Add task",
+      "Description": "Add task",
+      "Anchor": "#add-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteContact",
+      "Name": "Delete contact",
+      "Description": "Delete contact",
+      "Anchor": "#delete-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteLead",
+      "Name": "Delete lead",
+      "Description": "Delete lead",
+      "Anchor": "#delete-lead",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteProject",
+      "Name": "Delete project",
+      "Description": "Delete project",
+      "Anchor": "#delete-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTask",
+      "Name": "Delete task",
+      "Description": "Delete task",
+      "Anchor": "#delete-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FollowTask",
+      "Name": "Follow a task",
+      "Description": "Follow a task",
+      "Anchor": "#follow-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListContacts",
+      "Name": "List contacts",
+      "Description": "List contacts",
+      "Anchor": "#list-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListLeads",
+      "Name": "List leads",
+      "Description": "List leads",
+      "Anchor": "#list-leads",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProjects",
+      "Name": "List projects",
+      "Description": "List projects",
+      "Anchor": "#list-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTasks",
+      "Name": "List tasks",
+      "Description": "List tasks",
+      "Anchor": "#list-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListUsers",
+      "Name": "List users",
+      "Description": "List users",
+      "Anchor": "#list-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnContactCreated",
+      "Name": "When a contact is created",
+      "Description": "Triggers a new flow when a new contact is created",
+      "Anchor": "#when-a-contact-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnContactUpdated",
+      "Name": "When a contact is updated",
+      "Description": "Triggers a new flow when a contact is updated",
+      "Anchor": "#when-a-contact-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnEventCreated",
+      "Name": "When an event is created",
+      "Description": "Triggers a new flow when a new event is created",
+      "Anchor": "#when-an-event-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnEventUpdated",
+      "Name": "When an event is updated",
+      "Description": "Triggers a new flow when an event is updated",
+      "Anchor": "#when-an-event-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnLeadCreated",
+      "Name": "When a lead is created",
+      "Description": "Triggers a new flow when a new lead is created",
+      "Anchor": "#when-a-lead-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnLeadUpdated",
+      "Name": "When a lead is updated",
+      "Description": "Triggers a new flow when a lead is updated",
+      "Anchor": "#when-a-lead-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnProjectCreated",
+      "Name": "When a project is created",
+      "Description": "Triggers a new flow when a new project is created",
+      "Anchor": "#when-a-project-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnProjectUpdated",
+      "Name": "When a project is updated",
+      "Description": "Triggers a new flow when a project is updated",
+      "Anchor": "#when-a-project-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTaskAssignedToMe",
+      "Name": "When a task is assigned to me",
+      "Description": "Triggers a new flow when a task is assigned to me",
+      "Anchor": "#when-a-task-is-assigned-to-me",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTaskCreated",
+      "Name": "When a task is created",
+      "Description": "Triggers a new flow when a new task is created",
+      "Anchor": "#when-a-task-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTaskUpdated",
+      "Name": "When a task is updated",
+      "Description": "Triggers a new flow when a task is updated",
+      "Anchor": "#when-a-task-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateContact",
+      "Name": "Update contact",
+      "Description": "Update contact",
+      "Anchor": "#update-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateLead",
+      "Name": "Update lead",
+      "Description": "Update lead",
+      "Anchor": "#update-lead",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProject",
+      "Name": "Update project",
+      "Description": "Update project",
+      "Anchor": "#update-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTask",
+      "Name": "Update task",
+      "Description": "Update task",
+      "Anchor": "#update-task",
+      "IsDeprecated": false
+    }
+  ]
+}

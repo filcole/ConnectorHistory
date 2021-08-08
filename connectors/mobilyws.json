@@ -1,0 +1,13 @@
+{
+  "UniqueName": "mobilyws",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mobilyws/",
+  "Actions": [
+    {
+      "OperationId": "SendSMS",
+      "Name": "SendSMS",
+      "Description": "Send SMS to mobile",
+      "Anchor": "#sendsms",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "UniqueName": "pipedrive",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pipedrive/",
+  "Actions": [
+    {
+      "OperationId": "AddActivity",
+      "Name": "Add activity",
+      "Description": "This operation is used to create a new activity for the authorized account.",
+      "Anchor": "#add-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddDeal",
+      "Name": "Add deal [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Add deal (V2) instead.\nThis operation creates a new deal for the authorized account.",
+      "Anchor": "#add-deal-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "AddDealV2",
+      "Name": "Add deal (V2) (Preview)",
+      "Description": "This operation creates a new deal for the authorized account.",
+      "Anchor": "#add-deal-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDeal",
+      "Name": "Get deal by id",
+      "Description": "This operation retrieves all details of an existing deal, given its id.",
+      "Anchor": "#get-deal-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStage",
+      "Name": "Get stage by id",
+      "Description": "This operation returns data about a specific stage.",
+      "Anchor": "#get-stage-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewActivity",
+      "Name": "When a new activity is added",
+      "Description": "Triggers when a new activity is added to the authorized account.",
+      "Anchor": "#when-a-new-activity-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewDeal",
+      "Name": "When a new deal is added [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a new deal is added (V2) instead.\nTriggers when a new deal is added to the authorized account.",
+      "Anchor": "#when-a-new-deal-is-added-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "TrigNewDealV2",
+      "Name": "When a new deal is added (V2) (Preview)",
+      "Description": "Triggers when a new deal is added to the authorized account (V2).",
+      "Anchor": "#when-a-new-deal-is-added-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDealStage",
+      "Name": "Update deal stage [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update deal stage (V2) instead.\nThis operation is used to update the stage associated with a deal, given its id.",
+      "Anchor": "#update-deal-stage-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateDealStageV2",
+      "Name": "Update deal stage (V2) (Preview)",
+      "Description": "This operation is used to update the stage associated with a deal, given its id.",
+      "Anchor": "#update-deal-stage-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDealStatus",
+      "Name": "Update deal status",
+      "Description": "This operation is used to update the status associated with a deal, given its id.",
+      "Anchor": "#update-deal-status",
+      "IsDeprecated": false
+    }
+  ]
+}

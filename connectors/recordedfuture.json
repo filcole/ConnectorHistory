@@ -1,0 +1,111 @@
+{
+  "UniqueName": "recordedfuture",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../recordedfuture/",
+  "Actions": [
+    {
+      "OperationId": "Alert_Not_Lookup",
+      "Name": "Lookup Alert Notification",
+      "Description": "Lookup Alert Notification",
+      "Anchor": "#lookup-alert-notification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Alert_Not_Search",
+      "Name": "Search Alert Notifications",
+      "Description": "Search Alert Notifications",
+      "Anchor": "#search-alert-notifications",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Alert_Rules_Search",
+      "Name": "Search Alert Rules",
+      "Description": "Search Recorded Future UI Alert Rules",
+      "Anchor": "#search-alert-rules",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "D_E",
+      "Name": "Domain Enrichment",
+      "Description": "Domain Enrichment with Recorded Future data",
+      "Anchor": "#domain-enrichment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "D_E_E",
+      "Name": "Domain Extension Enrichment",
+      "Description": "Domain Enrichment with Recorded Future Extension Partner data",
+      "Anchor": "#domain-extension-enrichment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "H_E",
+      "Name": "Hash Enrichment",
+      "Description": "Hash Enrichment with Recorded Future data",
+      "Anchor": "#hash-enrichment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "H_E_E",
+      "Name": "Hash Extension Enrichment",
+      "Description": "Hash Enrichment with Recorded Future Extension Partner data",
+      "Anchor": "#hash-extension-enrichment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IP_E",
+      "Name": "IP Enrichment",
+      "Description": "IP Enrichment with Recorded Future data",
+      "Anchor": "#ip-enrichment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IP_E_E",
+      "Name": "IP Extension Enrichment",
+      "Description": "IP Enrichment with Recorded Future Extension Partner data",
+      "Anchor": "#ip-extension-enrichment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "R_List_D",
+      "Name": "Recorded Future RiskLists and SCF Download",
+      "Description": "Recorded Future RiskList &amp; Security Control Feeds Download",
+      "Anchor": "#recorded-future-risklists-and-scf-download",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Soar_Bulk_Lookup",
+      "Name": "SOAR API - Look up multiple entities",
+      "Description": "SOAR API - Look up multiple entities (Specific Access is Required)",
+      "Anchor": "#soar-api---look-up-multiple-entities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "U_E",
+      "Name": "URL Enrichment",
+      "Description": "URL Enrichment with Recorded Future data",
+      "Anchor": "#url-enrichment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "U_E_E",
+      "Name": "URL Extension Enrichment",
+      "Description": "URL Enrichment with Recorded Future Extension Partner data",
+      "Anchor": "#url-extension-enrichment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Vuln_E",
+      "Name": "Vulnerability Enrichment",
+      "Description": "Vulnerability Enrichment with Recorded Future data",
+      "Anchor": "#vulnerability-enrichment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Vuln_E_E",
+      "Name": "Vulnerability Extension Enrichment",
+      "Description": "Vulnerability Enrichment with Recorded Future Extension Partner data",
+      "Anchor": "#vulnerability-extension-enrichment",
+      "IsDeprecated": false
+    }
+  ]
+}

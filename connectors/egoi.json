@@ -1,0 +1,34 @@
+{
+  "UniqueName": "egoi",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../egoi/",
+  "Actions": [
+    {
+      "OperationId": "AddTag",
+      "Name": "Attach Tag",
+      "Description": "Attaches a tag of your choosing to an existing contact.",
+      "Anchor": "#attach-tag",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateContact",
+      "Name": "Create Contact",
+      "Description": "Create a new contact to a specific list.",
+      "Anchor": "#create-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSMS",
+      "Name": "Send SMS",
+      "Description": "Send an SMS to a contact",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateContact",
+      "Name": "Update Contact",
+      "Description": "Update an existing contact.",
+      "Anchor": "#update-contact",
+      "IsDeprecated": false
+    }
+  ]
+}

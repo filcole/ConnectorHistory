@@ -1,0 +1,62 @@
+{
+  "UniqueName": "candidatezip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../candidatezip/",
+  "Actions": [
+    {
+      "OperationId": "ParseJDViaFileContent",
+      "Name": "Parse JD via file content",
+      "Description": "Parse JD method can be used to parse job description from base64 file data and get fields",
+      "Anchor": "#parse-jd-via-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ParseJDViaUrl",
+      "Name": "Parse JD via URL",
+      "Description": "Parse JD method can be used to parse job description from public url and get fields",
+      "Anchor": "#parse-jd-via-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ParseResumeBasicViaFileContent",
+      "Name": "Parse resume basic via file content",
+      "Description": "Parse Resume Binary Basic method can be used to parse resume from base64 data and get some basic fields extracted (Like Contact info, Skill Keywords, Current employer, JobTitle and Highest degree)",
+      "Anchor": "#parse-resume-basic-via-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ParseResumeBasicViaUrl",
+      "Name": "Parse resume basic via URL",
+      "Description": "Parse Resume Basic method can be used to parse resume from public url and get some basic fields extracted (Like Contact info, Skill Keywords, Current employer, JobTitle and Highest degree)",
+      "Anchor": "#parse-resume-basic-via-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ParseResumeDetailViaFileContent",
+      "Name": "Parse resume detail via file content",
+      "Description": "Parse Resume Binary method can be used to parse resume from base64 data get fields extracted (Like Contact info, Pesonal Info, 10 level of experience drill down and 5level of education drill down, and 15 skill drill down) with new swagger",
+      "Anchor": "#parse-resume-detail-via-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ParseResumeDetailViaUrl",
+      "Name": "Parse resume detail via URL",
+      "Description": "Parse Resume method can be used to parse resume from public url and get fields extracted (Like Contact info,Pesonal Info, 10 level of experience drill down and 5level of education drill down, and 15 skill drill down)",
+      "Anchor": "#parse-resume-detail-via-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ParseResumeStandardViaFileContent",
+      "Name": "Parse resume standard via file content",
+      "Description": "Parse Resume Binary Standard method can be used to parse resume from base64 data get fields extracted (Like Contact info, Skill Keywords, and 3 level of experience drill down and 2 level of education drill down)",
+      "Anchor": "#parse-resume-standard-via-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ParseResumeStandardViaUrl",
+      "Name": "Parse resume standard via URL",
+      "Description": "Parse Resume Standard method can be used to parse resume from public url and get fields extracted (Like Contact info, Skill Keywords, and 3 level of experience drill down and 2 level of education drill down)",
+      "Anchor": "#parse-resume-standard-via-url",
+      "IsDeprecated": false
+    }
+  ]
+}

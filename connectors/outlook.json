@@ -1,0 +1,370 @@
+{
+  "UniqueName": "outlook",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../outlook/",
+  "Actions": [
+    {
+      "OperationId": "CalendarDeleteItem",
+      "Name": "Delete event",
+      "Description": "This operation deletes an event in a calendar.",
+      "Anchor": "#delete-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalendarGetItem",
+      "Name": "Get event (V1) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get event (V2) instead.\nThis operation gets a specific event from a calendar. (V1)",
+      "Anchor": "#get-event-(v1)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CalendarGetItems",
+      "Name": "Get events (V1) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get events (V3) instead.\nThis operation gets events from a calendar. (V1)",
+      "Anchor": "#get-events-(v1)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CalendarGetOnChangedItems",
+      "Name": "When an event is added, updated or deleted [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When an event is added, updated or deleted (V2) instead.\nThis operation triggers a flow when an event is added, updated or deleted in a calendar.",
+      "Anchor": "#when-an-event-is-added,-updated-or-deleted-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CalendarGetOnChangedItemsV2",
+      "Name": "When an event is added, updated or deleted (V2)",
+      "Description": "This operation triggers a flow when an event is added, updated or deleted in a calendar.",
+      "Anchor": "#when-an-event-is-added,-updated-or-deleted-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalendarGetOnNewItems",
+      "Name": "When a new event is created (V1) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a new event is created (V2) instead.\nThis operation triggers a flow when a new event is created in a calendar. (V1)",
+      "Anchor": "#when-a-new-event-is-created-(v1)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CalendarGetOnNewItemsV2",
+      "Name": "When a new event is created (V2)",
+      "Description": "This operation triggers a flow when a new event is created in a calendar. (V2)",
+      "Anchor": "#when-a-new-event-is-created-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalendarGetOnUpdatedItems",
+      "Name": "When an event is modified (V1) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When an event is modified (V2) instead.\nThis operation triggers a flow when an event is modified in a calendar. (V1)",
+      "Anchor": "#when-an-event-is-modified-(v1)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CalendarGetOnUpdatedItemsV2",
+      "Name": "When an event is modified (V2)",
+      "Description": "This operation triggers a flow when an event is modified in a calendar. (V2)",
+      "Anchor": "#when-an-event-is-modified-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalendarGetTables",
+      "Name": "Get calendars",
+      "Description": "This operation lists available calendars.",
+      "Anchor": "#get-calendars",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalendarPatchItem",
+      "Name": "Update event (V1) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update event (V3) instead.\nThis operation updates an event in a calendar. (V1)",
+      "Anchor": "#update-event-(v1)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CalendarPostItem",
+      "Name": "Create event (V1) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create event (V3) instead.\nThis operation creates a new event in a calendar. (V1)",
+      "Anchor": "#create-event-(v1)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ContactDeleteItem",
+      "Name": "Delete contact",
+      "Description": "This operation deletes a contact from a contacts folder.",
+      "Anchor": "#delete-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactGetItem",
+      "Name": "Get contact",
+      "Description": "This operation gets a specific contact from a contacts folder.",
+      "Anchor": "#get-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactGetItems",
+      "Name": "Get contacts",
+      "Description": "This operation gets contacts from a contacts folder.",
+      "Anchor": "#get-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactGetTables",
+      "Name": "Get contact folders",
+      "Description": "This operation lists available contacts folders.",
+      "Anchor": "#get-contact-folders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactPatchItem",
+      "Name": "Update contact",
+      "Description": "This operation updates a contact in a contacts folder.",
+      "Anchor": "#update-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactPostItem",
+      "Name": "Create contact",
+      "Description": "This operation creates a new contact in a contacts folder.",
+      "Anchor": "#create-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteEmail",
+      "Name": "Delete email",
+      "Description": "This operation deletes an email by id.",
+      "Anchor": "#delete-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flag",
+      "Name": "Flag email",
+      "Description": "This operation flags an email.",
+      "Anchor": "#flag-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ForwardEmail",
+      "Name": "Forward an email",
+      "Description": "Forward an email.",
+      "Anchor": "#forward-an-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAttachment",
+      "Name": "Get attachment",
+      "Description": "This operation gets an email attachment by id.",
+      "Anchor": "#get-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEmail",
+      "Name": "Get email",
+      "Description": "This operation gets an email by id.",
+      "Anchor": "#get-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEmails",
+      "Name": "Get emails [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get emails (V2) instead.\nThis operation gets emails from a folder.",
+      "Anchor": "#get-emails-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetEmailsV2",
+      "Name": "Get emails (V2)",
+      "Description": "This operation gets emails from a folder.",
+      "Anchor": "#get-emails-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEventsCalendarView",
+      "Name": "Get calendar view of events [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get calendar view of events (V2) instead.\nGet calendar view of events.",
+      "Anchor": "#get-calendar-view-of-events-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetEventsCalendarViewV2",
+      "Name": "Get calendar view of events (V2)",
+      "Description": "This operation gets all events (including instances of recurrences) in a calendar. (V2)",
+      "Anchor": "#get-calendar-view-of-events-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarkAsRead",
+      "Name": "Mark as read",
+      "Description": "This operation marks an email as having been read.",
+      "Anchor": "#mark-as-read",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Move",
+      "Name": "Move email",
+      "Description": "This operation moves an email to the specified folder.",
+      "Anchor": "#move-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnFlaggedEmail",
+      "Name": "When an email is flagged [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When an email is flagged (V2) instead.\nThis operation triggers a flow when an email is flagged.",
+      "Anchor": "#when-an-email-is-flagged-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnFlaggedEmailV2",
+      "Name": "When an email is flagged (V2)",
+      "Description": "This operation triggers a flow when an email is flagged.",
+      "Anchor": "#when-an-email-is-flagged-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewEmail",
+      "Name": "When a new email arrives [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a new email arrives (V2) instead.\nThis operation triggers a flow when a new email arrives. It will skip any email that has a total message size greater than the limit put by your Exchange Admin or 50 MB, whichever is less. It may also skip protected emails and emails with invalid body or attachments.",
+      "Anchor": "#when-a-new-email-arrives-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewEmailV2",
+      "Name": "When a new email arrives (V2)",
+      "Description": "This operation triggers a flow when a new email arrives. It will skip any email that has a total message size greater than the limit put by your Exchange Admin or 50 MB, whichever is less. It may also skip protected emails and emails with invalid body or attachments.",
+      "Anchor": "#when-a-new-email-arrives-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewMentionMeEmail",
+      "Name": "When a new email mentioning me arrives [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a new email mentioning me arrives (V2) instead.\nThis operation triggers a flow when a new email mentioning me arrives. It will skip any email that has a total message size greater than the limit put by your Exchange Admin or 50 MB, whichever is less. It may also skip protected emails and emails with invalid body or attachments.",
+      "Anchor": "#when-a-new-email-mentioning-me-arrives-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewMentionMeEmailV2",
+      "Name": "When a new email mentioning me arrives (V2)",
+      "Description": "This operation triggers a flow when a new email mentioning me arrives. It will skip any email that has a total message size greater than the limit put by your Exchange Admin or 50 MB, whichever is less. It may also skip protected emails and emails with invalid body or attachments.",
+      "Anchor": "#when-a-new-email-mentioning-me-arrives-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpcomingEvents",
+      "Name": "When an upcoming event is starting soon [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When an upcoming event is starting soon (V2) instead.\nThis operation triggers a flow when an upcoming calendar event is starting.",
+      "Anchor": "#when-an-upcoming-event-is-starting-soon-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnUpcomingEventsV2",
+      "Name": "When an upcoming event is starting soon (V2)",
+      "Description": "This operation triggers a flow when an upcoming calendar event is starting.",
+      "Anchor": "#when-an-upcoming-event-is-starting-soon-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplyTo",
+      "Name": "Reply to email [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Reply to email (V3) instead.\nThis operation replies to an email.",
+      "Anchor": "#reply-to-email-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ReplyToV2",
+      "Name": "Reply to email (V2) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Reply to email (V3) instead.\nThis operation replies to an email.",
+      "Anchor": "#reply-to-email-(v2)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ReplyToV3",
+      "Name": "Reply to email (V3)",
+      "Description": "This operation replies to an email.",
+      "Anchor": "#reply-to-email-(v3)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RespondToEvent",
+      "Name": "Respond to an event invite",
+      "Description": "Respond to an event invite.",
+      "Anchor": "#respond-to-an-event-invite",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendApprovalMail",
+      "Name": "Send approval email",
+      "Description": "This operation sends an approval email and waits for a response from the recipient. Please refer to the following link regarding the support of actionable messages in different mail clients: https://docs.microsoft.com/outlook/actionable-messages/#outlook-version-requirements-for-actionable-messages.",
+      "Anchor": "#send-approval-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEmail",
+      "Name": "Send an email [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Send an email (V2) instead.\nThis operation sends an email message.",
+      "Anchor": "#send-an-email-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SendEmailV2",
+      "Name": "Send an email (V2)",
+      "Description": "This operation sends an email message.",
+      "Anchor": "#send-an-email-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMailWithOptions",
+      "Name": "Send email with options",
+      "Description": "This operation sends an email with multiple options and waits for the recipient to respond back with one of the options. Please refer to the following link regarding the support of actionable messages in different mail clients: https://docs.microsoft.com/outlook/actionable-messages/#outlook-version-requirements-for-actionable-messages.",
+      "Anchor": "#send-email-with-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "V2CalendarGetItem",
+      "Name": "Get event (V2)",
+      "Description": "This operation gets a specific event from a calendar. (V2)",
+      "Anchor": "#get-event-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "V2CalendarGetItems",
+      "Name": "Get events (V2) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get events (V3) instead.\nThis operation gets events from a calendar. (V2)",
+      "Anchor": "#get-events-(v2)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "V2CalendarPatchItem",
+      "Name": "Update event (V2) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update event (V3) instead.\nThis operation updates an event in a calendar. (V2)",
+      "Anchor": "#update-event-(v2)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "V2CalendarPostItem",
+      "Name": "Create event (V2) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create event (V3) instead.\nThis operation creates a new event in a calendar. (V2)",
+      "Anchor": "#create-event-(v2)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "V3CalendarGetItems",
+      "Name": "Get events (V3)",
+      "Description": "This operation gets events from a calendar. (V3)",
+      "Anchor": "#get-events-(v3)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "V3CalendarPatchItem",
+      "Name": "Update event (V3)",
+      "Description": "This operation updates an event in a calendar.",
+      "Anchor": "#update-event-(v3)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "V3CalendarPostItem",
+      "Name": "Create event (V3)",
+      "Description": "This operation creates a new event in a calendar.",
+      "Anchor": "#create-event-(v3)",
+      "IsDeprecated": false
+    }
+  ]
+}

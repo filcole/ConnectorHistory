@@ -1,0 +1,20 @@
+{
+  "UniqueName": "ventipixassetandinventory",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ventipixassetandinventory/",
+  "Actions": [
+    {
+      "OperationId": "CreateListItem",
+      "Name": "Create an asset or inventory record",
+      "Description": "This operation will enable you to create an asset or inventory record in your account, based on the selected service.",
+      "Anchor": "#create-an-asset-or-inventory-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetListItems",
+      "Name": "Retrieve an asset or inventory record",
+      "Description": "This operation will enable you to retrieve data from an existing asset or inventory service.",
+      "Anchor": "#retrieve-an-asset-or-inventory-record",
+      "IsDeprecated": false
+    }
+  ]
+}

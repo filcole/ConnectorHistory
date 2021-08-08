@@ -1,0 +1,76 @@
+{
+  "UniqueName": "cognitiveservicescustomvision",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cognitiveservicescustomvision/",
+  "Actions": [
+    {
+      "OperationId": "ClassifyImage",
+      "Name": "Classify an image [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Classify an image (V2) instead.\nClassify an image based on image content.",
+      "Anchor": "#classify-an-image-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ClassifyImageUrl",
+      "Name": "Classify an image url [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Classify an image url (V2) instead.\nClassify an image located at the specified URL.",
+      "Anchor": "#classify-an-image-url-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ClassifyImageUrlV2",
+      "Name": "Classify an image url (V2) (Preview)",
+      "Description": "Classify an image located at the specified URL (V2).",
+      "Anchor": "#classify-an-image-url-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClassifyImageV2",
+      "Name": "Classify an image (V2) (Preview)",
+      "Description": "Classify an image based on image content (V2).",
+      "Anchor": "#classify-an-image-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DetectImage",
+      "Name": "Detect objects in an image [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Detect objects in an image (V2) instead.\nDetect objects in an image based on image content.",
+      "Anchor": "#detect-objects-in-an-image-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DetectImageUrl",
+      "Name": "Detect objects in an image url [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Detect objects in an image url (V2) instead.\nDetect objects in an image located at the specified URL.",
+      "Anchor": "#detect-objects-in-an-image-url-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DetectImageUrlV2",
+      "Name": "Detect objects in an image url (V2) (Preview)",
+      "Description": "Detect objects in an image located at the specified URL (V2).",
+      "Anchor": "#detect-objects-in-an-image-url-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DetectImageV2",
+      "Name": "Detect objects in an image (V2) (Preview)",
+      "Description": "Detect objects in an image based on image content (V2).",
+      "Anchor": "#detect-objects-in-an-image-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PredictImage",
+      "Name": "Predict tags from image [DEPRECATED]",
+      "Description": "Predict the tags for an image based on image content.",
+      "Anchor": "#predict-tags-from-image-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PredictImageURL",
+      "Name": "Predict tags from image URL [DEPRECATED]",
+      "Description": "Predict the tags for an image located at the specified URL.",
+      "Anchor": "#predict-tags-from-image-url-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

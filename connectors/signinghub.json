@@ -1,0 +1,139 @@
+{
+  "UniqueName": "signinghub",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../signinghub/",
+  "Actions": [
+    {
+      "OperationId": "AboutSigningHub",
+      "Name": "About SigningHub",
+      "Description": "Get the SigningHub instance details",
+      "Anchor": "#about-signinghub",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddRecipient",
+      "Name": "Add recipient",
+      "Description": "Add a recipient into existing workflow",
+      "Anchor": "#add-recipient",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ApplyTemplate",
+      "Name": "Apply template",
+      "Description": "Apply a provided template on the document workflow",
+      "Anchor": "#apply-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ApproveDocument",
+      "Name": "Approve a document",
+      "Description": "Recipient can approve the workflow on this turn",
+      "Anchor": "#approve-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompleteWorkflow",
+      "Name": "Complete the workflow (Terminate in the middle)",
+      "Description": "Workflow owner can complete workflow at any stage to terminate it",
+      "Anchor": "#complete-the-workflow-(terminate-in-the-middle)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkflow",
+      "Name": "Create a workflow",
+      "Description": "Create a new workflow inside the SigningHub",
+      "Anchor": "#create-a-workflow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeclineDocument",
+      "Name": "Decline a document",
+      "Description": "Recipient can decline the workflow on his turn",
+      "Anchor": "#decline-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteRecipient",
+      "Name": "Delete recipient from a workflow",
+      "Description": "Delete a particular recipient from an existing workflow",
+      "Anchor": "#delete-recipient-from-a-workflow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteWorkflow",
+      "Name": "Delete a workflow",
+      "Description": "Delete existing workflow by the workflow owner",
+      "Anchor": "#delete-a-workflow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DownloadDocument",
+      "Name": "Download a particular document from a workflow",
+      "Description": "Download a particular document from an existing workflow",
+      "Anchor": "#download-a-particular-document-from-a-workflow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DownloadWorkflow",
+      "Name": "Download all documents of a workflow",
+      "Description": "Download all the documents in extracted/zipped format of an existing workflow from SigningHub",
+      "Anchor": "#download-all-documents-of-a-workflow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContects",
+      "Name": "Get contects",
+      "Description": "Get a list of contacts related to the logged-in user from SigningHub",
+      "Anchor": "#get-contects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRecipients",
+      "Name": "Get recipients",
+      "Description": "Get a list of recipients of an existing workflow",
+      "Anchor": "#get-recipients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTemplates",
+      "Name": "Get templates",
+      "Description": "Get a list of all enterprise templates from SigningHub",
+      "Anchor": "#get-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWorkflowDetails",
+      "Name": "Get workflow details",
+      "Description": "Get the workflow details",
+      "Anchor": "#get-workflow-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWorkflows",
+      "Name": "Get workflows",
+      "Description": "Get a list of workflows from SigningHub for the Logged-in user",
+      "Anchor": "#get-workflows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShareWorkflow",
+      "Name": "Share a document workflow",
+      "Description": "Share a document workflow to the recipient",
+      "Anchor": "#share-a-document-workflow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SignDocument",
+      "Name": "Sign document",
+      "Description": "Signs a document by logged-in-user",
+      "Anchor": "#sign-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadDocument",
+      "Name": "Upload a document into workflow",
+      "Description": "Upload a document into existing workflow",
+      "Anchor": "#upload-a-document-into-workflow",
+      "IsDeprecated": false
+    }
+  ]
+}

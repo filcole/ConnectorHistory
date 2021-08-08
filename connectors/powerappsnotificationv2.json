@@ -1,0 +1,13 @@
+{
+  "UniqueName": "powerappsnotificationv2",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../powerappsnotificationv2/",
+  "Actions": [
+    {
+      "OperationId": "SendPushNotificationV2",
+      "Name": "Send push notification V2",
+      "Description": "Send a push notification to any app created in Power Apps or Field Service.",
+      "Anchor": "#send-push-notification-v2",
+      "IsDeprecated": false
+    }
+  ]
+}

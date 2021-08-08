@@ -1,0 +1,69 @@
+{
+  "UniqueName": "dokobitportal",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dokobitportal/",
+  "Actions": [
+    {
+      "OperationId": "Portal-CheckSigningStatus",
+      "Name": "Portal - Check Signing Status",
+      "Description": "Returns document's information with signing status.",
+      "Anchor": "#portal---check-signing-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Portal-CreateSigning",
+      "Name": "Portal - Create Signing",
+      "Description": "Create a PDF file for signing.",
+      "Anchor": "#portal---create-signing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Portal-DeleteSigning",
+      "Name": "Portal - Delete Signing",
+      "Description": "The document will be removed from the owner's account. It will remain accessible to other participants.",
+      "Anchor": "#portal---delete-signing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Portal-DeleteSigningForAll",
+      "Name": "Portal - Delete Signing For All",
+      "Description": "The document will be removed from the owner's account and from other participants' who haven't signed the document yet.",
+      "Anchor": "#portal---delete-signing-for-all",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Portal-DownloadDocument",
+      "Name": "Portal - Download Document",
+      "Description": "Downloads the signed document.",
+      "Anchor": "#portal---download-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Portal-GetSigninglist",
+      "Name": "Portal - Get Signing List",
+      "Description": "Returns a list of all documents available to the account owner.",
+      "Anchor": "#portal---get-signing-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Portal-SealSigning",
+      "Name": "Portal - Seal signing",
+      "Description": "Document will be sealed with your organizations' electronic seal. Please contact our support at developers@dokobit.com to get a qualified certificate for e-sealing.",
+      "Anchor": "#portal---seal-signing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Portal-SignerDelete",
+      "Name": "Portal - Delete participant from signing",
+      "Description": "Access to the document will be revoked for the indicated participant.\n.",
+      "Anchor": "#portal---delete-participant-from-signing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Portal-SigningShare",
+      "Name": "Portal - Share signing",
+      "Description": "Indicated participants will gain access to the document with the selected role.",
+      "Anchor": "#portal---share-signing",
+      "IsDeprecated": false
+    }
+  ]
+}

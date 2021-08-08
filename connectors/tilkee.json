@@ -1,0 +1,90 @@
+{
+  "UniqueName": "tilkee",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tilkee/",
+  "Actions": [
+    {
+      "OperationId": "AccessLinkCreate",
+      "Name": "Create access link(s)",
+      "Description": "Create access link(s) in a specific project",
+      "Anchor": "#create-access-link(s)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddItemToProject",
+      "Name": "Add item(s) to a specific project",
+      "Description": "Add one or mutiple items to a specific project",
+      "Anchor": "#add-item(s)-to-a-specific-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DirectUploadInformation",
+      "Name": "Upload information",
+      "Description": "Retrieve S3 upload information to upload file in Tilkee's platform. After retrieving this info, you should POST your file to 's3_endpoint, with key, acl, policy, signature &amp; AWSAccessKeyId parameters. Amazon’s response is the URL you need to create your item in Tilkee.",
+      "Anchor": "#upload-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemCreate",
+      "Name": "Create an item",
+      "Description": "Create a new item before adding it to a project",
+      "Anchor": "#create-an-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemList",
+      "Name": "List and search items",
+      "Description": "List or search for items",
+      "Anchor": "#list-and-search-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTilkeeEvent",
+      "Name": "Subscribe to a Tilkee event",
+      "Description": "Trigger your Flow when this event is triggered in Tilkee",
+      "Anchor": "#subscribe-to-a-tilkee-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTilkeeEventEnded",
+      "Name": "Subscribe to end of connexion Tilkee event",
+      "Description": "Trigger your flow after connexion on a Tilkee project",
+      "Anchor": "#subscribe-to-end-of-connexion-tilkee-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnTilkeeEventSigned",
+      "Name": "Subscribe to signature Tilkee event",
+      "Description": "Trigger your flow when a Tilkee project is signed",
+      "Anchor": "#subscribe-to-signature-tilkee-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectCreate",
+      "Name": "Create a project, add document(s) and retrieve access link(s)",
+      "Description": "Create a project, add document(s) and retrieve access link(s) from this endpoint",
+      "Anchor": "#create-a-project,-add-document(s)-and-retrieve-access-link(s)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectGet",
+      "Name": "Get project information",
+      "Description": "Get project information",
+      "Anchor": "#get-project-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectList",
+      "Name": "List and search projects or templates",
+      "Description": "List or search for project or template",
+      "Anchor": "#list-and-search-projects-or-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectUpdate",
+      "Name": "Update a project (verdict, consultable, downloadable...)",
+      "Description": "Update a project (verdict, consultable, downloadable...)",
+      "Anchor": "#update-a-project-(verdict,-consultable,-downloadable...)",
+      "IsDeprecated": false
+    }
+  ]
+}

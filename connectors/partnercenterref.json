@@ -1,0 +1,41 @@
+{
+  "UniqueName": "partnercenterref",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../partnercenterref/",
+  "Actions": [
+    {
+      "OperationId": "CreateReferral",
+      "Name": "Create a referral",
+      "Description": "Create a referral",
+      "Anchor": "#create-a-referral",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllReferrals",
+      "Name": "Get all referrals",
+      "Description": "Get all referrals",
+      "Anchor": "#get-all-referrals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetReferralById",
+      "Name": "Get a referral by Id",
+      "Description": "Get a referral matching the given identifier",
+      "Anchor": "#get-a-referral-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchReferralById",
+      "Name": "Update specific fields in a referral by Id",
+      "Description": "Updates the referral matching the given referral identifier for specific fields",
+      "Anchor": "#update-specific-fields-in-a-referral-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateReferralById",
+      "Name": "Update a referral by Id",
+      "Description": "Updates the referral matching the given referral identifier",
+      "Anchor": "#update-a-referral-by-id",
+      "IsDeprecated": false
+    }
+  ]
+}

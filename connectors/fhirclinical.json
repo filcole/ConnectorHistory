@@ -1,0 +1,405 @@
+{
+  "UniqueName": "fhirclinical",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../fhirclinical/",
+  "Actions": [
+    {
+      "OperationId": "DELETE_AdverseEvent_ID",
+      "Name": "Delete AdverseEvent ID",
+      "Description": "Actual or potential/avoided event causing unintended physical injury resulting from or contributed to by medical care",
+      "Anchor": "#delete-adverseevent-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_AllergyIntolerance_ID",
+      "Name": "Delete AllergyIntolerance ID",
+      "Description": "Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.",
+      "Anchor": "#delete-allergyintolerance-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_CarePlan_ID",
+      "Name": "Delete CarePlan ID",
+      "Description": "Describes the intention of how one or more practitioners intend to deliver care for a particular patient",
+      "Anchor": "#delete-careplan-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_Condition_ID",
+      "Name": "Delete Condition ID",
+      "Description": "A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.",
+      "Anchor": "#delete-condition-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_DiagnosticReport_ID",
+      "Name": "Delete DiagnosticReport ID",
+      "Description": "The findings and interpretation of diagnostic tests performed on patients",
+      "Anchor": "#delete-diagnosticreport-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_Medication_ID",
+      "Name": "Delete Medication ID",
+      "Description": "This resource is primarily used for the identification and definition of a medication for the purposes of prescribing, dispensing, and administering",
+      "Anchor": "#delete-medication-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_MedicationRequest_ID",
+      "Name": "Delete MedicationRequest ID",
+      "Description": "An order or request for both supply of the medication and the instructions for administration of the medication to a patient.",
+      "Anchor": "#delete-medicationrequest-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_MedicationStatement_ID",
+      "Name": "Delete MedicationStatement ID",
+      "Description": "A record of a medication that is being consumed by a patient",
+      "Anchor": "#delete-medicationstatement-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_Observation_ID",
+      "Name": "Delete Observation ID",
+      "Description": "Observations are used to support diagnosis, monitor progress, determine baselines and patterns and even capture demographic characteristics",
+      "Anchor": "#delete-observation-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_Procedure_ID",
+      "Name": "Delete Procedure ID",
+      "Description": "An action that is or was performed on or for a patient",
+      "Anchor": "#delete-procedure-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DELETE_RiskAssessment_ID",
+      "Name": "Delete RiskAssessment ID",
+      "Description": "An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.",
+      "Anchor": "#delete-riskassessment-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_AdverseEvent",
+      "Name": "Get AdverseEvent",
+      "Description": "Actual or potential/avoided event causing unintended physical injury resulting from or contributed to by medical care",
+      "Anchor": "#get-adverseevent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_AdverseEvent_ID",
+      "Name": "Get AdverseEvent ID",
+      "Description": "Actual or potential/avoided event causing unintended physical injury resulting from or contributed to by medical care",
+      "Anchor": "#get-adverseevent-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_AllergyIntolerance",
+      "Name": "Get AllergyIntolerance",
+      "Description": "Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance",
+      "Anchor": "#get-allergyintolerance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_AllergyIntolerance_ID",
+      "Name": "Get AllergyIntolerance ID",
+      "Description": "Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.",
+      "Anchor": "#get-allergyintolerance-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_CarePlan",
+      "Name": "Get CarePlan",
+      "Description": "Describes the intention of how one or more practitioners intend to deliver care for a particular patient",
+      "Anchor": "#get-careplan",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_CarePlan_ID",
+      "Name": "Get CarePlan ID",
+      "Description": "Describes the intention of how one or more practitioners intend to deliver care for a particular patient",
+      "Anchor": "#get-careplan-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_CareTeam",
+      "Name": "Get CareTeam",
+      "Description": "The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient",
+      "Anchor": "#get-careteam",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_CareTeam_ID",
+      "Name": "Get CareTeam ID",
+      "Description": "The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient",
+      "Anchor": "#get-careteam-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Condition",
+      "Name": "Get Condition",
+      "Description": "A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.",
+      "Anchor": "#get-condition",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Condition_ID",
+      "Name": "Get Condition ID",
+      "Description": "A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.",
+      "Anchor": "#get-condition-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_DiagnosticReport",
+      "Name": "Get DiagnosticReport",
+      "Description": "The findings and interpretation of diagnostic tests performed on patients",
+      "Anchor": "#get-diagnosticreport",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_DiagnosticReport_ID",
+      "Name": "Get DiagnosticReport ID",
+      "Description": "The findings and interpretation of diagnostic tests performed on patients",
+      "Anchor": "#get-diagnosticreport-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Medication",
+      "Name": "Get Medication",
+      "Description": "This resource is primarily used for the identification and definition of a medication for the purposes of prescribing, dispensing, and administering",
+      "Anchor": "#get-medication",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Medication_ID",
+      "Name": "Get Medication ID",
+      "Description": "This resource is primarily used for the identification and definition of a medication for the purposes of prescribing, dispensing, and administering",
+      "Anchor": "#get-medication-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_MedicationRequest",
+      "Name": "Get MedicationRequest",
+      "Description": "An order or request for both supply of the medication and the instructions for administration of the medication to a patient.",
+      "Anchor": "#get-medicationrequest",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_MedicationRequest_ID",
+      "Name": "Get MedicationRequest ID",
+      "Description": "An order or request for both supply of the medication and the instructions for administration of the medication to a patient.",
+      "Anchor": "#get-medicationrequest-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_MedicationStatement",
+      "Name": "Get MedicationStatement",
+      "Description": "A record of a medication that is being consumed by a patient",
+      "Anchor": "#get-medicationstatement",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_MedicationStatement_ID",
+      "Name": "Get MedicationStatement ID",
+      "Description": "A record of a medication that is being consumed by a patient",
+      "Anchor": "#get-medicationstatement-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Observation",
+      "Name": "Get Observation",
+      "Description": "Observations are used to support diagnosis, monitor progress, determine baselines and patterns and even capture demographic characteristics",
+      "Anchor": "#get-observation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Observation_ID",
+      "Name": "Get Observation ID",
+      "Description": "Observations are used to support diagnosis, monitor progress, determine baselines and patterns and even capture demographic characteristics",
+      "Anchor": "#get-observation-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Procedure",
+      "Name": "Get Procedure",
+      "Description": "An action that is or was performed on or for a patient",
+      "Anchor": "#get-procedure",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_Procedure_ID",
+      "Name": "Get Procedure ID",
+      "Description": "An action that is or was performed on or for a patient",
+      "Anchor": "#get-procedure-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_RiskAssessment",
+      "Name": "Get RiskAssessment",
+      "Description": "An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.",
+      "Anchor": "#get-riskassessment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GET_RiskAssessment_ID",
+      "Name": "Get RiskAssessment ID",
+      "Description": "An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.",
+      "Anchor": "#get-riskassessment-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_AdverseEvent",
+      "Name": "Post AdverseEvent",
+      "Description": "Actual or potential/avoided event causing unintended physical injury resulting from or contributed to by medical care",
+      "Anchor": "#post-adverseevent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_AllergyIntolerance",
+      "Name": "Post AllergyIntolerance",
+      "Description": "Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.",
+      "Anchor": "#post-allergyintolerance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_CarePlan",
+      "Name": "Post CarePlan",
+      "Description": "Describes the intention of how one or more practitioners intend to deliver care for a particular patient",
+      "Anchor": "#post-careplan",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_Condition",
+      "Name": "Post Condition",
+      "Description": "A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.",
+      "Anchor": "#post-condition",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_DiagnosticReport",
+      "Name": "Post DiagnosticReport",
+      "Description": "The findings and interpretation of diagnostic tests performed on patients",
+      "Anchor": "#post-diagnosticreport",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_Medication",
+      "Name": "Post Medication",
+      "Description": "This resource is primarily used for the identification and definition of a medication for the purposes of prescribing, dispensing, and administering",
+      "Anchor": "#post-medication",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_MedicationRequest",
+      "Name": "Post MedicationRequest",
+      "Description": "An order or request for both supply of the medication and the instructions for administration of the medication to a patient.",
+      "Anchor": "#post-medicationrequest",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_MedicationStatement",
+      "Name": "Post MedicationStatement",
+      "Description": "A record of a medication that is being consumed by a patient",
+      "Anchor": "#post-medicationstatement",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_Observation",
+      "Name": "Post Observation",
+      "Description": "Observations are used to support diagnosis, monitor progress, determine baselines and patterns and even capture demographic characteristics",
+      "Anchor": "#post-observation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_Procedure",
+      "Name": "Post Procedure",
+      "Description": "An action that is or was performed on or for a patient",
+      "Anchor": "#post-procedure",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "POST_RiskAssessment",
+      "Name": "Post RiskAssessment",
+      "Description": "An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.",
+      "Anchor": "#post-riskassessment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_AdverseEvent_ID",
+      "Name": "Put AdverseEvent ID",
+      "Description": "Actual or potential/avoided event causing unintended physical injury resulting from or contributed to by medical care",
+      "Anchor": "#put-adverseevent-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_AllergyIntolerance_ID",
+      "Name": "Put AllergyIntolerance",
+      "Description": "Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.",
+      "Anchor": "#put-allergyintolerance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_CarePlan_ID",
+      "Name": "Put CarePlan ID",
+      "Description": "Describes the intention of how one or more practitioners intend to deliver care for a particular patient",
+      "Anchor": "#put-careplan-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Condition_ID",
+      "Name": "Put Condition ID",
+      "Description": "A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.",
+      "Anchor": "#put-condition-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_DiagnosticReport_ID",
+      "Name": "Put DiagnosticReport ID",
+      "Description": "The findings and interpretation of diagnostic tests performed on patients",
+      "Anchor": "#put-diagnosticreport-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Medication_ID",
+      "Name": "Put Medication ID",
+      "Description": "This resource is primarily used for the identification and definition of a medication for the purposes of prescribing, dispensing, and administering",
+      "Anchor": "#put-medication-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_MedicationRequest_ID",
+      "Name": "Put MedicationRequest ID",
+      "Description": "An order or request for both supply of the medication and the instructions for administration of the medication to a patient.",
+      "Anchor": "#put-medicationrequest-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_MedicationStatement_ID",
+      "Name": "Put MedicationStatement ID",
+      "Description": "A record of a medication that is being consumed by a patient",
+      "Anchor": "#put-medicationstatement-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Observation_ID",
+      "Name": "Put Observation ID",
+      "Description": "Observations are used to support diagnosis, monitor progress, determine baselines and patterns and even capture demographic characteristics",
+      "Anchor": "#put-observation-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_Procedure_ID",
+      "Name": "Put Procedure ID",
+      "Description": "An action that is or was performed on or for a patient",
+      "Anchor": "#put-procedure-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PUT_RiskAssessment_ID",
+      "Name": "Put RiskAssessment ID",
+      "Description": "An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.",
+      "Anchor": "#put-riskassessment-id",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "UniqueName": "azuread",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azuread/",
+  "Actions": [
+    {
+      "OperationId": "AddUserToGroup",
+      "Name": "Add user to group",
+      "Description": "Add a user to a group in this AAD tenant.",
+      "Anchor": "#add-user-to-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssignManager",
+      "Name": "Assign manager",
+      "Description": "Assign a manager for a user.",
+      "Anchor": "#assign-manager",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CheckMemberGroups",
+      "Name": "Check group membership [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Check group membership (V2) instead.\nIf the user is a member of the given group, the result will contain the given id. Otherwise the result will be empty.",
+      "Anchor": "#check-group-membership-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CheckMemberGroupsV2",
+      "Name": "Check group membership (V2)",
+      "Description": "If the user is a member of the given group, the result will contain the given id. Otherwise the result will be empty.",
+      "Anchor": "#check-group-membership-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGroup",
+      "Name": "Create group",
+      "Description": "Create a group in your AAD tenant.",
+      "Anchor": "#create-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOffice365Group",
+      "Name": "Create Office 365 group",
+      "Description": "Create an Office 365 group in your AAD tenant.",
+      "Anchor": "#create-office-365-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSecurityGroup",
+      "Name": "Create security group",
+      "Description": "Create a security group in your AAD tenant.",
+      "Anchor": "#create-security-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUser",
+      "Name": "Create user",
+      "Description": "Create a new user in your AAD tenant.",
+      "Anchor": "#create-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroup",
+      "Name": "Get group",
+      "Description": "Get details for a group.",
+      "Anchor": "#get-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroupMembers",
+      "Name": "Get group members",
+      "Description": "Get the users who are members of a group.",
+      "Anchor": "#get-group-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMemberGroups",
+      "Name": "Get groups of a user [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get groups of a user (V2) instead.\nGet the groups a user is a member of.",
+      "Anchor": "#get-groups-of-a-user-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetMemberGroupsV2",
+      "Name": "Get groups of a user (V2)",
+      "Description": "Get the groups a user is a member of.",
+      "Anchor": "#get-groups-of-a-user-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user",
+      "Description": "Get details for a user.",
+      "Anchor": "#get-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RefreshTokens",
+      "Name": "Refresh tokens",
+      "Description": "Invalidate all refresh tokens for a user",
+      "Anchor": "#refresh-tokens",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveMemberFromGroup",
+      "Name": "Remove Member From Group",
+      "Description": "Remove Member From Group",
+      "Anchor": "#remove-member-from-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateUser",
+      "Name": "Update user",
+      "Description": "Update the info for a user.",
+      "Anchor": "#update-user",
+      "IsDeprecated": false
+    }
+  ]
+}

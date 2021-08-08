@@ -1,0 +1,20 @@
+{
+  "UniqueName": "parserr",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../parserr/",
+  "Actions": [
+    {
+      "OperationId": "ListInboxes",
+      "Name": "List inboxes",
+      "Description": "This operation is used to list all your inboxes.",
+      "Anchor": "#list-inboxes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookEmailReceived",
+      "Name": "When an email is received",
+      "Description": "This operation triggers when a new email is received.",
+      "Anchor": "#when-an-email-is-received",
+      "IsDeprecated": false
+    }
+  ]
+}

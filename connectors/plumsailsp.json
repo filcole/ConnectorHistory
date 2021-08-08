@@ -1,0 +1,370 @@
+{
+  "UniqueName": "plumsailsp",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../plumsailsp/",
+  "Actions": [
+    {
+      "OperationId": "FlowV1SharePointFlowJobsActivateFeaturePost",
+      "Name": "Activate SharePoint Feature",
+      "Description": "Activate a feature with specific ID",
+      "Anchor": "#activate-sharepoint-feature",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsAddContentTypeToSharePointListPost",
+      "Name": "Add Content Type to SharePoint List",
+      "Description": "Adds the specified content type to a SharePoint list",
+      "Anchor": "#add-content-type-to-sharepoint-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsAddSiteNavigationPost",
+      "Name": "Add SharePoint Site Navigation Node",
+      "Description": "Adds a menu item to either the quicklaunch or top navigation",
+      "Anchor": "#add-sharepoint-site-navigation-node",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsAddUserToSharePointGroupPost",
+      "Name": "Add User to SharePoint Group",
+      "Description": "Adds a user to a specific SharePoint group",
+      "Anchor": "#add-user-to-sharepoint-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsApplySiteDesignPost",
+      "Name": "Apply SharePoint Site Design",
+      "Description": "Applies design to target SharePoint site",
+      "Anchor": "#apply-sharepoint-site-design",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsChangePermissionsPost",
+      "Name": "Change SharePoint permissions",
+      "Description": "Grant, remove and restore permissions for the site, the list, and the item",
+      "Anchor": "#change-sharepoint-permissions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCheckInDocumentPost",
+      "Name": "Check In SharePoint Document",
+      "Description": "Check-in the document at the specified URL with the specified comment",
+      "Anchor": "#check-in-sharepoint-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCheckOutDocumentPost",
+      "Name": "Check Out SharePoint Document",
+      "Description": "Check-out the document at the specified URL",
+      "Anchor": "#check-out-sharepoint-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCopyAttachmentsToUrlPost",
+      "Name": "Copy SharePoint Item Attachments to URL",
+      "Description": "Copies attachments from the SharePoint list item to the library using the specified folder URL",
+      "Anchor": "#copy-sharepoint-item-attachments-to-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCopyDocumentFromLibraryPost",
+      "Name": "Copy SharePoint Document from Library",
+      "Description": "Copies the document from the document library to the specified URL. You can copy the document to another document library cross-site or to another folder",
+      "Anchor": "#copy-sharepoint-document-from-library",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCopyDocumentSetPost",
+      "Name": "Copy SharePoint Document Set",
+      "Description": "Copies the document set from the document library to the specified URL. You can copy the document sets to another document library cross-site or to another folder",
+      "Anchor": "#copy-sharepoint-document-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCopyFolderFromLibraryPost",
+      "Name": "Copy SharePoint Folder from Library",
+      "Description": "Copies the folder from the document library to the specified URL. You can copy the folder to another document library cross-site or to another folder",
+      "Anchor": "#copy-sharepoint-folder-from-library",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCopyListItemToSharePointListPost",
+      "Name": "Copy List Item to SharePoint List",
+      "Description": "Copies the specified list item to another SharePoint list",
+      "Anchor": "#copy-list-item-to-sharepoint-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCreateDocumentSetPost",
+      "Name": "Create SharePoint Document Set",
+      "Description": "Creates a new document set in the document library by the specified URL",
+      "Anchor": "#create-sharepoint-document-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCreateFolderByUrlPost",
+      "Name": "Create SharePoint Folder by URL",
+      "Description": "Creates a new folder in the document library by the specified URL",
+      "Anchor": "#create-sharepoint-folder-by-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCreateFolderInListPost",
+      "Name": "Create SharePoint Folder in List",
+      "Description": "Creates a new folder in the document library or list using the specified path",
+      "Anchor": "#create-sharepoint-folder-in-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCreateListOrLibraryPost",
+      "Name": "Create SharePoint List or Library",
+      "Description": "Create list or library by template",
+      "Anchor": "#create-sharepoint-list-or-library",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCreateModernSitePost",
+      "Name": "Create Modern SharePoint Site",
+      "Description": "Creates a modern SharePoint Team or Communication site",
+      "Anchor": "#create-modern-sharepoint-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCreateSharePointGroupPost",
+      "Name": "Create SharePoint Group",
+      "Description": "Creates the SharePoint group with a specified name",
+      "Anchor": "#create-sharepoint-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsCreateSiteFromTemplatePost",
+      "Name": "Create SharePoint Subsite from Template",
+      "Description": "Create a new SharePoint site based on specific template",
+      "Anchor": "#create-sharepoint-subsite-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsDeactivateFeaturePost",
+      "Name": "Deactivate SharePoint Feature",
+      "Description": "Deactivate a feature with specific ID",
+      "Anchor": "#deactivate-sharepoint-feature",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsDeclareDocumentAsRecordPost",
+      "Name": "Declare SharePoint Document as Record",
+      "Description": "Declares Document in SharePoint Library As Record",
+      "Anchor": "#declare-sharepoint-document-as-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsDeleteSharePointSitePost",
+      "Name": "Delete SharePoint Site",
+      "Description": "Deletes the SharePoint site by a specific URL",
+      "Anchor": "#delete-sharepoint-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsGetItemsByCamlQueryPost",
+      "Name": "Get SharePoint Items By CAML Query",
+      "Description": "Executes a CAML query on a list or on a document library and returns the collection of elements",
+      "Anchor": "#get-sharepoint-items-by-caml-query",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsGetSharePointGroupMembersPost",
+      "Name": "Get Members of SharePoint Group",
+      "Description": "Gets members of a specific SharePoint group",
+      "Anchor": "#get-members-of-sharepoint-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsGetSharePointSiteOptionValueAsStringPost",
+      "Name": "Get SharePoint Site Option Value",
+      "Description": "Reads a value from SharePoint Site Options (Property Bag)",
+      "Anchor": "#get-sharepoint-site-option-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsGetVersionsHistoryPost",
+      "Name": "Get SharePoint Item Versions History",
+      "Description": "Returns the changes history for the specific field from the SharePoint list item",
+      "Anchor": "#get-sharepoint-item-versions-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsInviteExternalUserToSharePointPost",
+      "Name": "Invite External User to SharePoint",
+      "Description": "Invites external users with specific permission to an SharePoint site, an specific SharePoint group or an item in a SharePoint list",
+      "Anchor": "#invite-external-user-to-sharepoint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsMoveAttachmentsToUrlPost",
+      "Name": "Move SharePoint Item Attachments to URL",
+      "Description": "Moves attachments from the SharePoint list item to the library using the specified folder URL",
+      "Anchor": "#move-sharepoint-item-attachments-to-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsMoveDocumentFromLibraryPost",
+      "Name": "Move SharePoint Document from Library",
+      "Description": "Moves the document from the document library to the specified URL. You can copy the document to another document library cross-site or to another folder",
+      "Anchor": "#move-sharepoint-document-from-library",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsMoveDocumentSetPost",
+      "Name": "Move SharePoint Document Set",
+      "Description": "Moves the document set from the document library to the specified URL. You can copy the document sets to another document library cross-site or to another folder",
+      "Anchor": "#move-sharepoint-document-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsMoveFolderFromLibraryPost",
+      "Name": "Move SharePoint Folder from Library",
+      "Description": "Moves the folder from the document library to the specified URL. You can move the folder to another document library cross-site or to another folder",
+      "Anchor": "#move-sharepoint-folder-from-library",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsMoveListItemToSharePointListPost",
+      "Name": "Move List Item to SharePoint List",
+      "Description": "Moves the specified list item to another SharePoint list",
+      "Anchor": "#move-list-item-to-sharepoint-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsParseCsvPost",
+      "Name": "Parse CSV",
+      "Description": "It works like Parse JSON but for CSV file",
+      "Anchor": "#parse-csv",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsProvisionPnPTemplatePost",
+      "Name": "Provision PnP Template to SharePoint",
+      "Description": "Applies a PnP template to a SharePoint site",
+      "Anchor": "#provision-pnp-template-to-sharepoint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsProvisionPnPTenantTemplatePost",
+      "Name": "Provision PnP Tenant Template to SharePoint",
+      "Description": "Applies a PnP tenant template to SharePoint",
+      "Anchor": "#provision-pnp-tenant-template-to-sharepoint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsRegExpMatchPost",
+      "Name": "Regular Expression Match",
+      "Description": "Searches an input string for all occurrences of a regular expression and returns all the matches. We would recommend you to use Regex Hero to test your expressions. It supports the same syntax as actions",
+      "Anchor": "#regular-expression-match",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsRegExpReplacePost",
+      "Name": "Regular Expression Replace",
+      "Description": "In a specified input string, replaces all strings that match a regular expression pattern with a specified replacement string. We would recommend you to use Regex Hero to test your expressions. It supports the same syntax as actions",
+      "Anchor": "#regular-expression-replace",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsRegExpTestPost",
+      "Name": "Regular Expression Test",
+      "Description": "Indicates whether the regular expression specified in the Regex constructor finds a match in a specified input string. We would recommend you to use Regex Hero to test your expressions. It supports the same syntax as actions",
+      "Anchor": "#regular-expression-test",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsRemoveDocumentByUrlPost",
+      "Name": "Remove SharePoint Document by URL",
+      "Description": "Remove the document by a specific URL",
+      "Anchor": "#remove-sharepoint-document-by-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsRemoveFolderByUrlPost",
+      "Name": "Remove SharePoint Folder by URL",
+      "Description": "Removes the folder from the document library or list by the specified URL",
+      "Anchor": "#remove-sharepoint-folder-by-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsRemoveSharePointGroupPost",
+      "Name": "Remove SharePoint Group",
+      "Description": "Removes the SharePoint group by a specified name",
+      "Anchor": "#remove-sharepoint-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsRemoveSiteNavigationPost",
+      "Name": "Remove SharePoint Site Navigation Node",
+      "Description": "Removes a menu item from either the quicklaunch or top navigation",
+      "Anchor": "#remove-sharepoint-site-navigation-node",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsRemoveUserFromSharePointGroupPost",
+      "Name": "Remove User from SharePoint Group",
+      "Description": "Removes a user from a specific SharePoint group",
+      "Anchor": "#remove-user-from-sharepoint-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsSetDefaultSiteGroupPost",
+      "Name": "Set Default SharePoint Site Group",
+      "Description": "Configure default groups for a site with the help of Microsoft Flow. It is alternative of the /_layouts/15/permsetup.aspx page in SharePoint UI.",
+      "Anchor": "#set-default-sharepoint-site-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsStartListWorkflowPost",
+      "Name": "Start SharePoint List Workflow (2013)",
+      "Description": "Starts a SharePoint list level workflow and pass input parameters, if they were specified. The action can run only 2013 workflows",
+      "Anchor": "#start-sharepoint-list-workflow-(2013)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsStartSiteWorkflowPost",
+      "Name": "Start SharePoint Site Workflow (2013)",
+      "Description": "Starts a SharePoint site level workflow and pass input parameters, if they were specified. The action can run only 2013 workflows",
+      "Anchor": "#start-sharepoint-site-workflow-(2013)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsUndeclareDocumentAsRecordPost",
+      "Name": "Undeclare SharePoint Document as Record",
+      "Description": "Undeclares Document in SharePoint Library As Record",
+      "Anchor": "#undeclare-sharepoint-document-as-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsUpdateListItemPost",
+      "Name": "Update SharePoint Item",
+      "Description": "Updates an item in a SharePoint list or library",
+      "Anchor": "#update-sharepoint-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsUpdateSharePointGroupPropertiesPost",
+      "Name": "Update SharePoint Group Properties",
+      "Description": "Updates SharePoint group properties like AutoAcceptRequestToJoinLeave, AllowMembersEditMembership or other options described in MSDN",
+      "Anchor": "#update-sharepoint-group-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsUpdateSharePointSitePropertiesPost",
+      "Name": "Update SharePoint Site Properties",
+      "Description": "Updates web properties like Title, Description or other string options described in at MSDN",
+      "Anchor": "#update-sharepoint-site-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlowV1SharePointFlowJobsUserExistInSharePointGroupPost",
+      "Name": "Is User Member of SharePoint Group",
+      "Description": "Checks if a user is a member of a specifed SharePoint group",
+      "Anchor": "#is-user-member-of-sharepoint-group",
+      "IsDeprecated": false
+    }
+  ]
+}

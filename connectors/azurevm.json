@@ -1,0 +1,104 @@
+{
+  "UniqueName": "azurevm",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azurevm/",
+  "Actions": [
+    {
+      "OperationId": "VirtualMachine_Deallocate",
+      "Name": "Deallocate virtual machine",
+      "Description": "Shuts down the virtual machine and releases the compute resources. You are not billed for the compute resources that this virtual machine uses.",
+      "Anchor": "#deallocate-virtual-machine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachine_Get",
+      "Name": "Get virtual machine",
+      "Description": "Gets a virtual machine.",
+      "Anchor": "#get-virtual-machine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachine_Poweroff",
+      "Name": "Power off virtual machine",
+      "Description": "Power off (stop) a virtual machine. The virtual machine can be restarted with the same provisioned resources. You are still charged for this virtual machine.",
+      "Anchor": "#power-off-virtual-machine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachine_Reapply",
+      "Name": "Reapply virtual machine",
+      "Description": "Reapply a virtual machine's state.",
+      "Anchor": "#reapply-virtual-machine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachine_Redeploy",
+      "Name": "Redeploy virtual machine",
+      "Description": "Shuts down the virtual machine, moves it to a new node, and powers it back on.",
+      "Anchor": "#redeploy-virtual-machine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachine_Restart",
+      "Name": "Restart virtual machine",
+      "Description": "Restarts a virtual machine.",
+      "Anchor": "#restart-virtual-machine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachine_Start",
+      "Name": "Start virtual machine",
+      "Description": "Starts a virtual machine.",
+      "Anchor": "#start-virtual-machine",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachineInScaleSet_Deallocate",
+      "Name": "Deallocate virtual machine in a VM scale set",
+      "Description": "Deallocates a specific virtual machine in a VM scale set. Shuts down the virtual machine and releases the compute resources it uses. You are not billed for the compute resources of this virtual machine once it is deallocated.",
+      "Anchor": "#deallocate-virtual-machine-in-a-vm-scale-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachineInScaleSet_Get",
+      "Name": "Get virtual machine in a VM scale set",
+      "Description": "Gets a virtual machine in a VM scale set.",
+      "Anchor": "#get-virtual-machine-in-a-vm-scale-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachineInScaleSet_PowerOff",
+      "Name": "Power off virtual machine in a VM scale set",
+      "Description": "Power off (stop) a virtual machine in a VM scale set. Note that resources are still attached and you are getting charged for the resources.",
+      "Anchor": "#power-off-virtual-machine-in-a-vm-scale-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachineInScaleSet_Redeploy",
+      "Name": "Redeploy virtual machine in a VM scale set",
+      "Description": "Shuts down the virtual machine in the VM scale set, moves it to a new node, and powers it back on.",
+      "Anchor": "#redeploy-virtual-machine-in-a-vm-scale-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachineInScaleSet_Reimage",
+      "Name": "Reimage virtual machine in a VM scale set",
+      "Description": "Reimages (upgrade the operating system) a specific virtual machine in a VM scale set.",
+      "Anchor": "#reimage-virtual-machine-in-a-vm-scale-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachineInScaleSet_Restart",
+      "Name": "Restart virtual machine in a VM scale set",
+      "Description": "Restarts a virtual machine in a VM scale set.",
+      "Anchor": "#restart-virtual-machine-in-a-vm-scale-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirtualMachineInScaleSet_Start",
+      "Name": "Start virtual machine in a VM scale set",
+      "Description": "Starts a virtual machine in a VM scale set.",
+      "Anchor": "#start-virtual-machine-in-a-vm-scale-set",
+      "IsDeprecated": false
+    }
+  ]
+}

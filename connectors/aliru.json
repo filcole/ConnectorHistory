@@ -1,0 +1,20 @@
+{
+  "UniqueName": "aliru",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aliru/",
+  "Actions": [
+    {
+      "OperationId": "SendNews",
+      "Name": "Send news to your organization",
+      "Description": "Send news to your organization. Notice: If you do not provide a User, Ally is scaning the news and sending it only to users, which are interested in the topic. You can help Ally by adding additional Tags.",
+      "Anchor": "#send-news-to-your-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendNotification",
+      "Name": "Send a notification to your organization",
+      "Description": "Send notifications to a member of your organization or your whole with this action.",
+      "Anchor": "#send-a-notification-to-your-organization",
+      "IsDeprecated": false
+    }
+  ]
+}

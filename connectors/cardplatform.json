@@ -1,0 +1,97 @@
+{
+  "UniqueName": "cardplatform",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cardplatform/",
+  "Actions": [
+    {
+      "OperationId": "PrivateTemplate_Get",
+      "Name": "Get a private template",
+      "Description": "Retrieves a private template by name.",
+      "Anchor": "#get-a-private-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PrivateTemplate_GetAll",
+      "Name": "List private templates",
+      "Description": "Retrieves a list of all private templates.",
+      "Anchor": "#list-private-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PrivateTemplate_Transform",
+      "Name": "Transform private template",
+      "Description": "Populates a private template with the data and returnes a fully populated Adaptive Card.",
+      "Anchor": "#transform-private-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PrivateTemplates_Create",
+      "Name": "Create a private template",
+      "Description": "Create a new private template.",
+      "Anchor": "#create-a-private-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PrivateTemplates_Delete",
+      "Name": "Delete private template",
+      "Description": "Removes a private template from the set of private templates.",
+      "Anchor": "#delete-private-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PrivateTemplates_Update",
+      "Name": "Update a private template",
+      "Description": "Updates the contents of a private template.",
+      "Anchor": "#update-a-private-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublicTemplate_Find",
+      "Name": "Find a public template",
+      "Description": "Find a public template by analyzing the structure of your data.",
+      "Anchor": "#find-a-public-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublicTemplate_Get",
+      "Name": "Get a public template",
+      "Description": "Retrieves the contents of a public template.",
+      "Anchor": "#get-a-public-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublicTemplate_GetAll",
+      "Name": "List public templates",
+      "Description": "Retrieves a list of all public templates.",
+      "Anchor": "#list-public-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublicTemplate_Transform",
+      "Name": "Transform public template",
+      "Description": "Populates a public template with the data and returnes a fully populated Adaptive Card.",
+      "Anchor": "#transform-public-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendApproval",
+      "Name": "Send Approval",
+      "Description": "Sends an Approval Adaptive Card, and returns the response with the choice and fields entered.",
+      "Anchor": "#send-approval",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendCard",
+      "Name": "Send Adaptive Card",
+      "Description": "Sends an Adaptive Card, and returns the response with the choice and fields entered.",
+      "Anchor": "#send-adaptive-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "Send Message",
+      "Description": "Sends an Adaptive Card as a message (no actions).",
+      "Anchor": "#send-message",
+      "IsDeprecated": false
+    }
+  ]
+}

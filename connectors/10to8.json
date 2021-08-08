@@ -1,0 +1,69 @@
+{
+  "UniqueName": "10to8",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../10to8/",
+  "Actions": [
+    {
+      "OperationId": "BookAppointment",
+      "Name": "Book new appointment",
+      "Description": "Book a new appointment in 10to8.",
+      "Anchor": "#book-new-appointment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAppointments",
+      "Name": "When a booking is made",
+      "Description": "Triggers when a new booking is made in 10to8.",
+      "Anchor": "#when-a-booking-is-made",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCustomers",
+      "Name": "When a new customer is added",
+      "Description": "Triggers when a new customer is added in 10to8.",
+      "Anchor": "#when-a-new-customer-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInboxBookingRequestAppeared",
+      "Name": "When a booking request appears in your inbox",
+      "Description": "Triggers when a booking request appears in your inbox.",
+      "Anchor": "#when-a-booking-request-appears-in-your-inbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInboxBookingRequestDisappeared",
+      "Name": "When a booking request disappears from your inbox",
+      "Description": "Triggers when a booking request disappears from your inbox.",
+      "Anchor": "#when-a-booking-request-disappears-from-your-inbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInboxChangeCancellationRequestAppeared",
+      "Name": "When a change or cancellation request appears in your inbox",
+      "Description": "Triggers when a change or cancellation request appears in your inbox.",
+      "Anchor": "#when-a-change-or-cancellation-request-appears-in-your-inbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInboxChangeCancellationRequestDisappeared",
+      "Name": "When a change or cancellation request disappears from your inbox",
+      "Description": "Triggers when a change or cancellation request disappears from your inbox.",
+      "Anchor": "#when-a-change-or-cancellation-request-disappears-from-your-inbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInboxIncomingMessagesAppeared",
+      "Name": "When an incoming message appears in your inbox",
+      "Description": "Triggers when an incoming message appears in your inbox.",
+      "Anchor": "#when-an-incoming-message-appears-in-your-inbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInboxIncomingMessagesDisappeared",
+      "Name": "When an incoming message disappears from your inbox",
+      "Description": "Triggers when an incoming message disappears from your inbox.",
+      "Anchor": "#when-an-incoming-message-disappears-from-your-inbox",
+      "IsDeprecated": false
+    }
+  ]
+}

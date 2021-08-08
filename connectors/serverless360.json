@@ -1,0 +1,34 @@
+{
+  "UniqueName": "serverless360",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../serverless360/",
+  "Actions": [
+    {
+      "OperationId": "ArchiveActivity",
+      "Name": "Archives an activity message",
+      "Description": "This action will archives messages for a transaction activity",
+      "Anchor": "#archives-an-activity-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LogExceptionActivity",
+      "Name": "Logs an exception for an activity",
+      "Description": "This action logs an exception to the transaction activity.",
+      "Anchor": "#logs-an-exception-for-an-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartActivity",
+      "Name": "Starts an activity",
+      "Description": "This action will start a new business transaction activity.",
+      "Anchor": "#starts-an-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateActivity",
+      "Name": "Updates an activity",
+      "Description": "This action will update a existing transaction activity.",
+      "Anchor": "#updates-an-activity",
+      "IsDeprecated": false
+    }
+  ]
+}

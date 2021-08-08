@@ -1,0 +1,412 @@
+{
+  "UniqueName": "pilotthings",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pilotthings/",
+  "Actions": [
+    {
+      "OperationId": "addMessage",
+      "Name": "Add a message",
+      "Description": "Add a message",
+      "Anchor": "#add-a-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "addThingsCsv",
+      "Name": "Import a csv file",
+      "Description": "Import a csv file",
+      "Anchor": "#import-a-csv-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "addThingTag",
+      "Name": "Add a tag to thing",
+      "Description": "Add a tag to thing",
+      "Anchor": "#add-a-tag-to-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "associateThingProduct",
+      "Name": "Associate a product to a thing",
+      "Description": "Associate a product to a thing",
+      "Anchor": "#associate-a-product-to-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "associateThingsWithProduct",
+      "Name": "Associate a product to a list of things",
+      "Description": "Associate a product to a list of things",
+      "Anchor": "#associate-a-product-to-a-list-of-things",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createCustomField",
+      "Name": "Add custom fields",
+      "Description": "Add custom fields",
+      "Anchor": "#add-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createSite",
+      "Name": "Create new site",
+      "Description": "Create new site",
+      "Anchor": "#create-new-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createThingMessages",
+      "Name": "All messages of a thing",
+      "Description": "All messages of a thing",
+      "Anchor": "#all-messages-of-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "deleteCustomField",
+      "Name": "Delete custom fields",
+      "Description": "Delete custom fields",
+      "Anchor": "#delete-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "deleteSite",
+      "Name": "Delete a site",
+      "Description": "Delete a site",
+      "Anchor": "#delete-a-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "deleteThingMessages",
+      "Name": "Delete all measures for a thing",
+      "Description": "Delete all measures for a thing",
+      "Anchor": "#delete-all-measures-for-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "dissociateThingProduct",
+      "Name": "Dissociate the thing from the product",
+      "Description": "Dissociate the thing from the product",
+      "Anchor": "#dissociate-the-thing-from-the-product",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "executeThingOperation",
+      "Name": "Execute an operation on a thing",
+      "Description": "Execute an operation on a thing",
+      "Anchor": "#execute-an-operation-on-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getAlerts",
+      "Name": "Get a list of alerts",
+      "Description": "Get a list of alerts",
+      "Anchor": "#get-a-list-of-alerts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getCount",
+      "Name": "Get measures count",
+      "Description": "Get measures count",
+      "Anchor": "#get-measures-count",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getCustomField",
+      "Name": "Get custom fields list",
+      "Description": "Get custom fields list",
+      "Anchor": "#get-custom-fields-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getCustomFieldImage",
+      "Name": "Get custom fields image",
+      "Description": "Get custom fields image",
+      "Anchor": "#get-custom-fields-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getFlowsRelatedToThing",
+      "Name": "Related flows of a thing",
+      "Description": "Related flows of a thing",
+      "Anchor": "#related-flows-of-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getLastMeasures",
+      "Name": "Last measurements of a thing",
+      "Description": "Last measurements of a thing",
+      "Anchor": "#last-measurements-of-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getLastMessage",
+      "Name": "Last message of a thing",
+      "Description": "Last message of a thing",
+      "Anchor": "#last-message-of-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getMeasure",
+      "Name": "Get a measure",
+      "Description": "Get a measure",
+      "Anchor": "#get-a-measure",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getMeasures",
+      "Name": "Get a list of measures",
+      "Description": "Get a list of measures",
+      "Anchor": "#get-a-list-of-measures",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getMessage",
+      "Name": "Get a message",
+      "Description": "Get a message",
+      "Anchor": "#get-a-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getMessages",
+      "Name": "Get a list of messages",
+      "Description": "Get a list of messages",
+      "Anchor": "#get-a-list-of-messages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getMessagesAndMeasurements",
+      "Name": "Get message list for a thing",
+      "Description": "Get message list for a thing",
+      "Anchor": "#get-message-list-for-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getPreviousMessage",
+      "Name": "Get previous message",
+      "Description": "Get previous message",
+      "Anchor": "#get-previous-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getSite",
+      "Name": "Get a site",
+      "Description": "Get a site",
+      "Anchor": "#get-a-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getSites",
+      "Name": "Get all site",
+      "Description": "Get previous message",
+      "Anchor": "#get-all-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getStatsAvg",
+      "Name": "Get stats average",
+      "Description": "Get stats average",
+      "Anchor": "#get-stats-average",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getStatsCount",
+      "Name": "Get stats count",
+      "Description": "Get stats count",
+      "Anchor": "#get-stats-count",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getStatsLast",
+      "Name": "Get stats last",
+      "Description": "Get stats last",
+      "Anchor": "#get-stats-last",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getStatsLast",
+      "Name": "Get stats last",
+      "Description": "Get stats last",
+      "Anchor": "#get-stats-last",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getStatsMax",
+      "Name": "Get stats max",
+      "Description": "Get stats max",
+      "Anchor": "#get-stats-max",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getStatsMeasurements",
+      "Name": "Get stats measurements",
+      "Description": "Get stats measurements",
+      "Anchor": "#get-stats-measurements",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getStatsMin",
+      "Name": "Get stats min",
+      "Description": "Get stats min",
+      "Anchor": "#get-stats-min",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getStatsRepartition",
+      "Name": "Get stats repartition",
+      "Description": "Get stats repartition",
+      "Anchor": "#get-stats-repartition",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getStatsSum",
+      "Name": "Get stats sum",
+      "Description": "Get stats sum",
+      "Anchor": "#get-stats-sum",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getTags",
+      "Name": "Get the list of tags",
+      "Description": "Get the list of tags",
+      "Anchor": "#get-the-list-of-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThing",
+      "Name": "Get a thing details",
+      "Description": "Get a thing details",
+      "Anchor": "#get-a-thing-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThingActiveModel",
+      "Name": "Get the active model of a thing",
+      "Description": "Get the active model of a thing",
+      "Anchor": "#get-the-active-model-of-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThingActiveModel",
+      "Name": "Get the active model of a thing",
+      "Description": "Get the active model of a thing",
+      "Anchor": "#get-the-active-model-of-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThingImage",
+      "Name": "Get the picture of the thing",
+      "Description": "Get the picture of the thing",
+      "Anchor": "#get-the-picture-of-the-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThingList",
+      "Name": "Get the list of things",
+      "Description": "Get the list of things",
+      "Anchor": "#get-the-list-of-things",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThingMeasures",
+      "Name": "Get a list of measures of a thing",
+      "Description": "Get a list of measures of a thing",
+      "Anchor": "#get-a-list-of-measures-of-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThingMessages",
+      "Name": "Get a list of messages of a thing",
+      "Description": "Get a list of messages of a thing",
+      "Anchor": "#get-a-list-of-messages-of-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThingOperations",
+      "Name": "Get the list of available operations",
+      "Description": "Get the list of available operations",
+      "Anchor": "#get-the-list-of-available-operations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThingProduct",
+      "Name": "Get the product of a thing",
+      "Description": "Get the product of a thing",
+      "Anchor": "#get-the-product-of-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThings",
+      "Name": "Get a list of things",
+      "Description": "Get a list of things",
+      "Anchor": "#get-a-list-of-things",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThingTag",
+      "Name": "Get a tag",
+      "Description": "Get a tag",
+      "Anchor": "#get-a-tag",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThingTags",
+      "Name": "Get thing tags",
+      "Description": "Get thing tags",
+      "Anchor": "#get-thing-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ignoreThing",
+      "Name": "Delete a thing",
+      "Description": "Delete a thing",
+      "Anchor": "#delete-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "postCustomFieldImage",
+      "Name": "Update custom fields image",
+      "Description": "Update custom fields image",
+      "Anchor": "#update-custom-fields-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "putThing",
+      "Name": "Update a thing",
+      "Description": "Update a thing",
+      "Anchor": "#update-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "updateAlertState",
+      "Name": "Update alert state",
+      "Description": "Update alert state",
+      "Anchor": "#update-alert-state",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "updateCustomField",
+      "Name": "Update custom fields",
+      "Description": "Update custom fields",
+      "Anchor": "#update-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "updateSite",
+      "Name": "Update a site",
+      "Description": "Update a site",
+      "Anchor": "#update-a-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "updateThingFixedPosition",
+      "Name": "Update position of a thing",
+      "Description": "Update position of a thing",
+      "Anchor": "#update-position-of-a-thing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "updateThingTag",
+      "Name": "Update a tag of thing",
+      "Description": "Update a tag of thing",
+      "Anchor": "#update-a-tag-of-thing",
+      "IsDeprecated": false
+    }
+  ]
+}

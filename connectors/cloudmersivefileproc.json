@@ -1,0 +1,153 @@
+{
+  "UniqueName": "cloudmersivefileproc",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudmersivefileproc/",
+  "Actions": [
+    {
+      "OperationId": "EditDocument_DocxGetComments",
+      "Name": "Get comments from a Word DOCX document as a flat list",
+      "Description": "Returns the comments and review annotations stored in the Word Document (DOCX) format file as a flattened list (not as a hierarchy of comments and replies).",
+      "Anchor": "#get-comments-from-a-word-docx-document-as-a-flat-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_Base64Decode",
+      "Name": "Base 64 decode, convert base 64 string to binary content",
+      "Description": "Decodes / converts base 64 UTF-8 text string to binary content",
+      "Anchor": "#base-64-decode,-convert-base-64-string-to-binary-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_Base64Detect",
+      "Name": "Detect, check if text string is base 64 encoded",
+      "Description": "Checks, detects if input string is base 64 encoded",
+      "Anchor": "#detect,-check-if-text-string-is-base-64-encoded",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_Base64Encode",
+      "Name": "Base 64 encode, convert binary or file data to a text string",
+      "Description": "Encodes / converts binary or file data to a text string",
+      "Anchor": "#base-64-encode,-convert-binary-or-file-data-to-a-text-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_ChangeLineEndings",
+      "Name": "Set, change line endings of a text file",
+      "Description": "Sets the line ending type of a text file; set to Windows, Unix or Mac.",
+      "Anchor": "#set,-change-line-endings-of-a-text-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_DetectLineEndings",
+      "Name": "Detect line endings of a text file",
+      "Description": "Detect line ending type (Windows, Unix or Mac) of an input file.",
+      "Anchor": "#detect-line-endings-of-a-text-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_FindRegex",
+      "Name": "Find a regular expression regex in text input",
+      "Description": "Find all occurrences of the input regular expression in the input content, and returns the matches",
+      "Anchor": "#find-a-regular-expression-regex-in-text-input",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_FindSimple",
+      "Name": "Find a string in text input",
+      "Description": "Finds all occurrences of the input string in the input content, and returns the matches",
+      "Anchor": "#find-a-string-in-text-input",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_RemoveAllWhitespace",
+      "Name": "Remove whitespace from text string",
+      "Description": "Removes all whitespace from text, leaving behind only non-whitespace characters.  Whitespace includes newlines, spaces and other whitespace characters.",
+      "Anchor": "#remove-whitespace-from-text-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_RemoveHtml",
+      "Name": "Remove HTML from text string",
+      "Description": "Removes HTML from text, leaving behind only text.  Formatted text will become plain text.  Important for protecting against HTML and Cross-Site-Scripting attacks.",
+      "Anchor": "#remove-html-from-text-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_ReplaceRegex",
+      "Name": "Replace a string in text with a regex regular expression string",
+      "Description": "Replaces all occurrences of the input regular expression regex string in the input content, and returns the result",
+      "Anchor": "#replace-a-string-in-text-with-a-regex-regular-expression-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_ReplaceSimple",
+      "Name": "Replace a string in text with another string value",
+      "Description": "Replaces all occurrences of the input string in the input content, and returns the result",
+      "Anchor": "#replace-a-string-in-text-with-another-string-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_TextEncodingDetect",
+      "Name": "Detect text encoding of file",
+      "Description": "Checks text encoding of file",
+      "Anchor": "#detect-text-encoding-of-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditText_TrimWhitespace",
+      "Name": "Trim leading and trailing whitespace from text string",
+      "Description": "Trim leading and trailing whitespace from text, leaving behind a trimmed string.  Whitespace includes newlines, spaces and other whitespace characters.",
+      "Anchor": "#trim-leading-and-trailing-whitespace-from-text-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateDocument_ExecutableValidation",
+      "Name": "Validate if a file is executable",
+      "Description": "Validate if an input file is a valid binary executable file.",
+      "Anchor": "#validate-if-a-file-is-executable",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewerTools_CreateSimple",
+      "Name": "Create a web-based viewer",
+      "Description": "Creates an HTML embed code for a simple web-based viewer of a document; supports Office document types and PDF.",
+      "Anchor": "#create-a-web-based-viewer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ZipArchive_ZipCreate",
+      "Name": "Compress files to create a new zip archive",
+      "Description": "Create a new zip archive by compressing input files.",
+      "Anchor": "#compress-files-to-create-a-new-zip-archive",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ZipArchive_ZipCreateAdvanced",
+      "Name": "Compress files and folders to create a new zip archive with advanced options",
+      "Description": "Create a new zip archive by compressing input files, folders and leverage advanced options to control the structure of the resulting zip archive.",
+      "Anchor": "#compress-files-and-folders-to-create-a-new-zip-archive-with-advanced-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ZipArchive_ZipDecrypt",
+      "Name": "Decrypt and remove password protection on a zip file",
+      "Description": "Decrypts and removes password protection from an encrypted zip file with the specified password",
+      "Anchor": "#decrypt-and-remove-password-protection-on-a-zip-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ZipArchive_ZipEncryptAdvanced",
+      "Name": "Encrypt and password protect a zip file",
+      "Description": "Encrypts and password protects an existing zip file with the specified password and encryption algorithm",
+      "Anchor": "#encrypt-and-password-protect-a-zip-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ZipArchive_ZipExtract",
+      "Name": "Extract, decompress files and folders from a zip archive",
+      "Description": "Extracts a zip archive by decompressing files, and folders.",
+      "Anchor": "#extract,-decompress-files-and-folders-from-a-zip-archive",
+      "IsDeprecated": false
+    }
+  ]
+}

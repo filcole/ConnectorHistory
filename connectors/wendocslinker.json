@@ -1,0 +1,27 @@
+{
+  "UniqueName": "wendocslinker",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../wendocslinker/",
+  "Actions": [
+    {
+      "OperationId": "PublishDocx",
+      "Name": "Publish a Docx file",
+      "Description": "Publish a docx file with template and json data",
+      "Anchor": "#publish-a-docx-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublishHtml",
+      "Name": "Publish a Html file",
+      "Description": "Publish a Html file with template and json data",
+      "Anchor": "#publish-a-html-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublishPDF",
+      "Name": "Publish a PDF file",
+      "Description": "Publish a PDF file with template and json data",
+      "Anchor": "#publish-a-pdf-file",
+      "IsDeprecated": false
+    }
+  ]
+}

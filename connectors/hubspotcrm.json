@@ -1,0 +1,216 @@
+{
+  "UniqueName": "hubspotcrm",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hubspotcrm/",
+  "Actions": [
+    {
+      "OperationId": "CompaniesArchive",
+      "Name": "Delete a company",
+      "Description": "Move a company identified by {companyId} to the recycling bin.",
+      "Anchor": "#delete-a-company",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompaniesCreate",
+      "Name": "Create a company",
+      "Description": "Create a company with the given properties and return a copy of the object, including the ID.",
+      "Anchor": "#create-a-company",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompaniesList",
+      "Name": "List companies",
+      "Description": "Return a list of companies.",
+      "Anchor": "#list-companies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompaniesRead",
+      "Name": "Get a company",
+      "Description": "Read a company identified by {companyId}.",
+      "Anchor": "#get-a-company",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompaniesUpdate",
+      "Name": "Update a company",
+      "Description": "Perform a partial update of a company identified by {companyId}. Provided property values will be overwritten. Read-only and non-existent properties will be ignored. Properties values can be cleared by passing an empty string.",
+      "Anchor": "#update-a-company",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactsArchive",
+      "Name": "Delete a contact",
+      "Description": "Move a contact identified by {contactId} to the recycling bin.",
+      "Anchor": "#delete-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactsCreate",
+      "Name": "Create a contact",
+      "Description": "Create a contact with the given properties and return a copy of the object, including the ID.",
+      "Anchor": "#create-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactsList",
+      "Name": "List contacts",
+      "Description": "Read a list of contacts.",
+      "Anchor": "#list-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactsRead",
+      "Name": "Get a contact",
+      "Description": "Read a contact identified by {contactId}.",
+      "Anchor": "#get-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactsUpdate",
+      "Name": "Update a contact",
+      "Description": "Perform a partial update of a contact identified by {contactId}. Provided property values will be overwritten. Read-only and non-existent properties will be ignored. Properties values can be cleared by passing an empty string.",
+      "Anchor": "#update-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DealsArchive",
+      "Name": "Delete a deal",
+      "Description": "Move a deal identified by {dealId} to the recycling bin.",
+      "Anchor": "#delete-a-deal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DealsCreate",
+      "Name": "Create a deal",
+      "Description": "Create a deal with the given properties and return a copy of the object, including the ID.",
+      "Anchor": "#create-a-deal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DealsList",
+      "Name": "List deals",
+      "Description": "Return a list of deals",
+      "Anchor": "#list-deals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DealsRead",
+      "Name": "Get a deal",
+      "Description": "Read a deal identified by {dealId}.",
+      "Anchor": "#get-a-deal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DealsUpdate",
+      "Name": "Update a deal",
+      "Description": "Perform a partial update of a deal identified by {dealId}. Provided property values will be overwritten. Read-only and non-existent properties will be ignored. Properties values can be cleared by passing an empty string.",
+      "Anchor": "#update-a-deal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LineItemsArchive",
+      "Name": "Delete a line item",
+      "Description": "Move an Object identified by {lineItemId} to the recycling bin.",
+      "Anchor": "#delete-a-line-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LineItemsCreate",
+      "Name": "Create a line item",
+      "Description": "Create a line item with the given properties and return a copy of the object, including the ID.",
+      "Anchor": "#create-a-line-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LineItemsList",
+      "Name": "List line items",
+      "Description": "Return a list of line items. Control what is returned via the properties query param.",
+      "Anchor": "#list-line-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LineItemsRead",
+      "Name": "Get a line item",
+      "Description": "Read a lite item identified by {lineItemId}.",
+      "Anchor": "#get-a-line-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LineItemsUpdate",
+      "Name": "Update a line item",
+      "Description": "Perform a partial update of a line item identified by {lineItemId}. {lineItemId} refers to the internal object ID by default, or optionally any unique property value as specified by the idProperty query param. Provided property values will be overwritten. Read-only and non-existent properties will be ignored. Properties values can be cleared by passing an empty string.",
+      "Anchor": "#update-a-line-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProductsArchive",
+      "Name": "Delete a product",
+      "Description": "Move a product identified by {productId} to the recycling bin.",
+      "Anchor": "#delete-a-product",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProductsCreate",
+      "Name": "Create a product",
+      "Description": "Create a product with the given properties and return a copy of the object, including the ID.",
+      "Anchor": "#create-a-product",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProductsList",
+      "Name": "List products",
+      "Description": "Return a list of products",
+      "Anchor": "#list-products",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProductsRead",
+      "Name": "Get a product",
+      "Description": "Read a product identified by {productId}.",
+      "Anchor": "#get-a-product",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProductsUpdate",
+      "Name": "Update a product",
+      "Description": "Perform a partial update of a product identified by {productId}. Provided property values will be overwritten. Read-only and non-existent properties will be ignored. Properties values can be cleared by passing an empty string.",
+      "Anchor": "#update-a-product",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketsArchive",
+      "Name": "Delete a ticket",
+      "Description": "Move a ticket identified by {ticketId} to the recycling bin.",
+      "Anchor": "#delete-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketsCreate",
+      "Name": "Create a ticket",
+      "Description": "Create a ticket with the given properties and return a copy of the object, including the ID. Documentation and examples for creating standard tickets is provided.",
+      "Anchor": "#create-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketsList",
+      "Name": "List tickets",
+      "Description": "Read a page of tickets. Control what is returned via the properties query param.",
+      "Anchor": "#list-tickets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketsRead",
+      "Name": "Get a ticket",
+      "Description": "Read a ticket identified by {ticketId}. {ticketId} refers to the internal object ID by default, or optionally any unique property value as specified by the idProperty query param. Control what is returned via the properties query param.",
+      "Anchor": "#get-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketsUpdate",
+      "Name": "Update a ticket",
+      "Description": "Perform a partial update of a ticket identified by {ticketId}. {ticketId} refers to the internal object ID by default, or optionally any unique property value as specified by the idProperty query param. Provided property values will be overwritten. Read-only and non-existent properties will be ignored. Properties values can be cleared by passing an empty string.",
+      "Anchor": "#update-a-ticket",
+      "IsDeprecated": false
+    }
+  ]
+}

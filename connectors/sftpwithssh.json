@@ -1,0 +1,111 @@
+{
+  "UniqueName": "sftpwithssh",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sftpwithssh/",
+  "Actions": [
+    {
+      "OperationId": "CopyFile",
+      "Name": "Copy file",
+      "Description": "This operation copies a file.",
+      "Anchor": "#copy-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFile",
+      "Name": "Create file",
+      "Description": "This operation uploads a file.",
+      "Anchor": "#create-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolder",
+      "Name": "Create folder",
+      "Description": "This operation creates a new folder.",
+      "Anchor": "#create-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFile",
+      "Name": "Delete file",
+      "Description": "This operation deletes a file.",
+      "Anchor": "#delete-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractFolderV2",
+      "Name": "Extract archive to folder",
+      "Description": "This operation extracts an archive file into a folder (example: .zip).",
+      "Anchor": "#extract-archive-to-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContent",
+      "Name": "Get file content",
+      "Description": "This operation gets file contents using the file id.",
+      "Anchor": "#get-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContentByPath",
+      "Name": "Get file content using path",
+      "Description": "This operation gets file contents using the file path.",
+      "Anchor": "#get-file-content-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadata",
+      "Name": "Get file metadata",
+      "Description": "This operation gets file metadata using the file id.",
+      "Anchor": "#get-file-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadataByPath",
+      "Name": "Get file metadata using path",
+      "Description": "This operation gets file metadata using the file path.",
+      "Anchor": "#get-file-metadata-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFolder",
+      "Name": "List files in folder",
+      "Description": "This operation gets files contained in a folder.",
+      "Anchor": "#list-files-in-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRootFolder",
+      "Name": "List files in root folder",
+      "Description": "This operation gets the files in the root folder.",
+      "Anchor": "#list-files-in-root-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedFile",
+      "Name": "When a file is added or modified",
+      "Description": "This operation triggers a flow when a file is added or modified in a folder. The trigger will fetch both the file metadata as well as the content of the file. The trigger relies on the last modified time of a file. If a file is being created by a third-party client, the preservation of the last modified time should be disabled in the client. Files larger than 50 megabytes are skipped by the trigger. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-file-is-added-or-modified",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedFiles",
+      "Name": "When files are added or modified (properties only)",
+      "Description": "This operation triggers a flow when a file is added or modified in a folder. This trigger will only fetch the file metadata. To get the file content, you can use the &quot;Get file content&quot; operation. The trigger relies on the last modified time of a file. If a file is being created by a third-party client, the preservation of the last modified time should be disabled in the client. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-files-are-added-or-modified-(properties-only)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenameFile",
+      "Name": "Rename File",
+      "Description": "This operation renames a file.",
+      "Anchor": "#rename-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFile",
+      "Name": "Update file",
+      "Description": "This operation updates the file content.",
+      "Anchor": "#update-file",
+      "IsDeprecated": false
+    }
+  ]
+}

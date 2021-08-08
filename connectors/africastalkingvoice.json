@@ -1,0 +1,13 @@
+{
+  "UniqueName": "africastalkingvoice",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../africastalkingvoice/",
+  "Actions": [
+    {
+      "OperationId": "Call",
+      "Name": "Make an outbound call",
+      "Description": "Make an outbound call to multiple recipients",
+      "Anchor": "#make-an-outbound-call",
+      "IsDeprecated": false
+    }
+  ]
+}

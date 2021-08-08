@@ -1,0 +1,13 @@
+{
+  "UniqueName": "m365messagecenter",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../m365messagecenter/",
+  "Actions": [
+    {
+      "OperationId": "SyncMessages",
+      "Name": "Sync messages to Planner",
+      "Description": "Sync messages from Microsoft 365 admin center to Planner based on preferences in the message center.",
+      "Anchor": "#sync-messages-to-planner",
+      "IsDeprecated": false
+    }
+  ]
+}

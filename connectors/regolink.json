@@ -1,0 +1,27 @@
+{
+  "UniqueName": "regolink",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../regolink/",
+  "Actions": [
+    {
+      "OperationId": "ExecuteAction",
+      "Name": "Execute Action",
+      "Description": "Performs a XOG operation with the parameters and field mappings provided",
+      "Anchor": "#execute-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunQuery",
+      "Name": "Run Query",
+      "Description": "Returns a list of all the records provided by the NSQL Query. Allows users to filter by the NSQL parameters and use all columns as part of the response.",
+      "Anchor": "#run-query",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateLookup",
+      "Name": "Validate Lookup",
+      "Description": "Returns the lookup values for the parameters provided. Allows to validate a single value by ID or Label, or retrieve the list of all available values",
+      "Anchor": "#validate-lookup",
+      "IsDeprecated": false
+    }
+  ]
+}

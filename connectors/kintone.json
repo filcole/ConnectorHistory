@@ -1,0 +1,55 @@
+{
+  "UniqueName": "kintone",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../kintone/",
+  "Actions": [
+    {
+      "OperationId": "AddRecord",
+      "Name": "Add a record to an app",
+      "Description": "Adds a new record to an app.",
+      "Anchor": "#add-a-record-to-an-app",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddWebhookForAddingRecordComment",
+      "Name": "When a record comment is posted on an app",
+      "Description": "This operation triggers a flow when a record comment is posted on an app.",
+      "Anchor": "#when-a-record-comment-is-posted-on-an-app",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddWebhookForDeletingRecord",
+      "Name": "When an app record is deleted",
+      "Description": "This operation triggers a flow when an app record is deleted.",
+      "Anchor": "#when-an-app-record-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddWebhookForUpdatingRecord",
+      "Name": "When an app record is updated",
+      "Description": "This operation triggers a flow when an app record is updated.",
+      "Anchor": "#when-an-app-record-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddWebhookForUpdatingStatus",
+      "Name": "When a process management status is updated",
+      "Description": "This operation triggers a flow when a process management status is updated.",
+      "Anchor": "#when-a-process-management-status-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRecord",
+      "Name": "Update a record in an app",
+      "Description": "Updates a record in an app.",
+      "Anchor": "#update-a-record-in-an-app",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "webhook-trigger",
+      "Name": "When a record is added to an app",
+      "Description": "This operation triggers a flow when a new record is added to an app.",
+      "Anchor": "#when-a-record-is-added-to-an-app",
+      "IsDeprecated": false
+    }
+  ]
+}

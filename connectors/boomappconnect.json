@@ -1,0 +1,55 @@
+{
+  "UniqueName": "boomappconnect",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../boomappconnect/",
+  "Actions": [
+    {
+      "OperationId": "EMAIL",
+      "Name": "Email",
+      "Description": "Send single or bulk email messages. Emails are sent from the domain @boomerangui.com and it is possible to customise the Subject and to override the 'From' address. It is also possible to forward responses to an email address and / or a URL",
+      "Anchor": "#email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GESTRESPONSESTRIGGER",
+      "Name": "On SMS response submission",
+      "Description": "Triggered by inbound replies which are automatically mapped to the associated outbound messages when sent as an Intelligent 2-way / conversational message",
+      "Anchor": "#on-sms-response-submission",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GETDRSTRIGGER",
+      "Name": "On Delivery Confirmed",
+      "Description": "Triggered by end user delivery status update. Updates the transaction with the delivery status returned by the end user's network operator. See https://boomerangmessaging.com/docs for more information",
+      "Anchor": "#on-delivery-confirmed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SMS1",
+      "Name": "Sms one-way",
+      "Description": "SMS messages are delivered using an alpha-numeric originator (such as a company name) which must contain a maximum of 11 characters, and a recipient cannot respond to a message sent using an alpha numeric originator. Please also note that in destinations where delivery of messages with alpha-numeric originator is not supported (due to local restrictions), this may be replaced with a numeric originator, to ensure that the message is delivered.",
+      "Anchor": "#sms-one-way",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SMS2",
+      "Name": "Sms two-way",
+      "Description": "This method allows replies to be tracked directly against each outbound transaction and is used to manage conversations between your system and the end user. Replies can be forwarded to an email address and customers with Boommail can send an email-2-SMS message back to the responder. See https://boomerangmessaging.com/docs/sending-sms-messages, for more information regarding 2-way and conversational messaging.",
+      "Anchor": "#sms-two-way",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SMS3",
+      "Name": "Sms custom number",
+      "Description": "SMS messages are delivered using the number specified in the request so that any replies are returned to that number. Customers using Boomerang's Campaign feature can use a number associated to a Campaign, which allows inbound replies to to be accessed from the Campaign reporting section within Boomerang UI. However, unlike the SMS 2-way method, replies are not tracked against the outbound message. See https://boomerangmessaging.com/docs/sending-sms-messages for more information.",
+      "Anchor": "#sms-custom-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VOICE",
+      "Name": "Voice",
+      "Description": "A fixed number is used as the originator for a Text-To-Speech (TTS) voice call. Keystrokes ‘1’ and ‘2’ are used to accept or decline the message, ‘9’ is used to redirect the call. See https://boomerangmessaging.com/docs/sending-delivering-voice-messages for more information",
+      "Anchor": "#voice",
+      "IsDeprecated": false
+    }
+  ]
+}

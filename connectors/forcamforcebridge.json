@@ -1,0 +1,377 @@
+{
+  "UniqueName": "forcamforcebridge",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../forcamforcebridge/",
+  "Actions": [
+    {
+      "OperationId": "CustomizedRawTrigger",
+      "Name": "When a customized action occured (raw)",
+      "Description": "When a customized action occured (raw)",
+      "Anchor": "#when-a-customized-action-occured-(raw)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomizedTrigger",
+      "Name": "When a customized action occured",
+      "Description": "When a customized action occured",
+      "Anchor": "#when-a-customized-action-occured",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWorkplace",
+      "Name": "Get workplace",
+      "Description": "Get workplace",
+      "Anchor": "#get-workplace",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HitListOperatingStateByMaterialId",
+      "Name": "Get hitlist by material",
+      "Description": "Get a hitlist of operating states",
+      "Anchor": "#get-hitlist-by-material",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HitListOperatingStateWorkplace",
+      "Name": "Get hitlist by workplace",
+      "Description": "Get a hitlist of operating states by its workplace Id",
+      "Anchor": "#get-hitlist-by-workplace",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HitListOperatingStateWorkplaceGroup",
+      "Name": "Get hitlist by workplaceGroup",
+      "Description": "Get a hitlist of operating states by its workplace Id",
+      "Anchor": "#get-hitlist-by-workplacegroup",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OperatingStatesById",
+      "Name": "Get operating state by Id",
+      "Description": "Get the operating states by its state Id",
+      "Anchor": "#get-operating-state-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OperationByOperationId",
+      "Name": "Get operation by Id",
+      "Description": "get an operation by the Id",
+      "Anchor": "#get-operation-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OperationsDispatched",
+      "Name": "Get dispatched operations",
+      "Description": "Get operations that are dispatched",
+      "Anchor": "#get-dispatched-operations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OperationsInProgress",
+      "Name": "Get operations in progress",
+      "Description": "Get operations that are in progress",
+      "Anchor": "#get-operations-in-progress",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OperationsPlannable",
+      "Name": "Get plannable operations",
+      "Description": "Get operations that are plannable",
+      "Anchor": "#get-plannable-operations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OverallEquipmentEfficiency",
+      "Name": "Get overall equipment efficiency (OEE)",
+      "Description": "Get overall equipment efficiency (OEE)",
+      "Anchor": "#get-overall-equipment-efficiency-(oee)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OverallProcessEfficiency",
+      "Name": "Get overall process efficiency (OPE)",
+      "Description": "Get the overall process efficiency (OPE)",
+      "Anchor": "#get-overall-process-efficiency-(ope)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProcessDataRuleViolatedEventTrigger",
+      "Name": "When a process data rule has been violated",
+      "Description": "When a process data rule has been violated",
+      "Anchor": "#when-a-process-data-rule-has-been-violated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QualityDetailsByMaterialId",
+      "Name": "Get material quality details",
+      "Description": "Get the material quality details",
+      "Anchor": "#get-material-quality-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QualityDetailsByWorkplace",
+      "Name": "Get workplace quality details",
+      "Description": "Get workplace quality details by its workplaceId and materialId",
+      "Anchor": "#get-workplace-quality-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityAttachmentById",
+      "Name": "Get ticket activity attachment by Id",
+      "Description": "Get ticket activity attachment by the ticket, activity and attachmentId",
+      "Anchor": "#get-ticket-activity-attachment-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityAttachmentCreatedTrigger",
+      "Name": "When a ticket activity attachment has been created",
+      "Description": "When a ticket activity attachment has been created",
+      "Anchor": "#when-a-ticket-activity-attachment-has-been-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityAttachmentDeletedTrigger",
+      "Name": "When a ticket activity attachment has been deleted",
+      "Description": "When a ticket activity attachment has been deleted",
+      "Anchor": "#when-a-ticket-activity-attachment-has-been-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityAttachmentsByActivityId",
+      "Name": "Get ticket activity attachments by Id",
+      "Description": "Get ticket activity attachments by the ticket, activity and attachmentId",
+      "Anchor": "#get-ticket-activity-attachments-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityById",
+      "Name": "Get ticket activity by Id",
+      "Description": "Get ticket activity by the ticket and activity Id",
+      "Anchor": "#get-ticket-activity-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityByTicketId",
+      "Name": "Get ticket activities by ticket Id",
+      "Description": "Get ticket activities by the ticket Id",
+      "Anchor": "#get-ticket-activities-by-ticket-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityCreatedTrigger",
+      "Name": "When a ticket activity has been created",
+      "Description": "When a ticket activity has been created",
+      "Anchor": "#when-a-ticket-activity-has-been-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityDeletedTrigger",
+      "Name": "When a ticket activity has been deleted",
+      "Description": "When a ticket activity has been deleted",
+      "Anchor": "#when-a-ticket-activity-has-been-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityRemarkByActivityId",
+      "Name": "Get ticket activity  remarks by activity Id",
+      "Description": "Get ticket activity remarks  by the activity Id",
+      "Anchor": "#get-ticket-activity-remarks-by-activity-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityRemarkById",
+      "Name": "Get ticket activity remark by Id",
+      "Description": "Get ticket activity remark by the remark Id",
+      "Anchor": "#get-ticket-activity-remark-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityRemarkCreatedTrigger",
+      "Name": "When a ticket activity remark has been created",
+      "Description": "When a ticket activity remark has been created",
+      "Anchor": "#when-a-ticket-activity-remark-has-been-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityRemarkDeletedTrigger",
+      "Name": "When a ticket activity remark has been deleted",
+      "Description": "When a ticket activity remark has been deleted",
+      "Anchor": "#when-a-ticket-activity-remark-has-been-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityStateChangedTrigger",
+      "Name": "When a ticket activity state has been changed",
+      "Description": "When a ticket activity state has been changed",
+      "Anchor": "#when-a-ticket-activity-state-has-been-changed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketActivityUpdatedTrigger",
+      "Name": "When a ticket activity has been updated",
+      "Description": "When a ticket activity has been updated",
+      "Anchor": "#when-a-ticket-activity-has-been-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketAttachmentById",
+      "Name": "Get ticket attachment by attachment Id",
+      "Description": "Get ticket attachment by the ticket and attachmentId",
+      "Anchor": "#get-ticket-attachment-by-attachment-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketAttachmentCreatedTrigger",
+      "Name": "When a ticket attachment has been created",
+      "Description": "When a ticket attachment has been created",
+      "Anchor": "#when-a-ticket-attachment-has-been-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketAttachmentDeletedTrigger",
+      "Name": "When a ticket attachment has been deleted",
+      "Description": "When a ticket attachment has been deleted",
+      "Anchor": "#when-a-ticket-attachment-has-been-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketAttachmentsByTicketId",
+      "Name": "Get ticket attachments by ticket Id",
+      "Description": "Get ticket attachments by the ticket Id",
+      "Anchor": "#get-ticket-attachments-by-ticket-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketByNumber",
+      "Name": "Get ticket by number",
+      "Description": "Get ticket by the ticket number",
+      "Anchor": "#get-ticket-by-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketByTicketId",
+      "Name": "Get ticket by Id",
+      "Description": "Get ticket by Id",
+      "Anchor": "#get-ticket-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketClassByClassId",
+      "Name": "Get ticket class by Id",
+      "Description": "Get ticket class by Id",
+      "Anchor": "#get-ticket-class-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketClasses",
+      "Name": "Get ticket classes",
+      "Description": "Get ticket classes",
+      "Anchor": "#get-ticket-classes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketCreate",
+      "Name": "Create a new ticket",
+      "Description": "Create a new ticket",
+      "Anchor": "#create-a-new-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketCreatedTrigger",
+      "Name": "When a new ticket has been created",
+      "Description": "When a new ticket has been created",
+      "Anchor": "#when-a-new-ticket-has-been-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketDeletedTrigger",
+      "Name": "When a ticket has been deleted",
+      "Description": "When a ticket has been deleted",
+      "Anchor": "#when-a-ticket-has-been-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tickets",
+      "Name": "Get tickets",
+      "Description": "Get tickets",
+      "Anchor": "#get-tickets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketStateChangedTrigger",
+      "Name": "When the state of a ticket has been changed",
+      "Description": "When the state of a ticket has been changed",
+      "Anchor": "#when-the-state-of-a-ticket-has-been-changed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketStates",
+      "Name": "Get ticket states",
+      "Description": "Get ticket states",
+      "Anchor": "#get-ticket-states",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketStatesByStateId",
+      "Name": "Get ticket state by Id",
+      "Description": "Get ticket state by Id",
+      "Anchor": "#get-ticket-state-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketStatesChange",
+      "Name": "Change state of ticket",
+      "Description": "Change state of ticket",
+      "Anchor": "#change-state-of-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketUpdatedTrigger",
+      "Name": "When an existing ticket has been updated",
+      "Description": "When an existing ticket has been updated",
+      "Anchor": "#when-an-existing-ticket-has-been-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TotalQuantity",
+      "Name": "Get total quantity details",
+      "Description": "Get total quantity details",
+      "Anchor": "#get-total-quantity-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkplaceCreatedTrigger",
+      "Name": "When a new workplace has been created",
+      "Description": "When a new workplace has been created",
+      "Anchor": "#when-a-new-workplace-has-been-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkplaceDeletedTrigger",
+      "Name": "When a workplace has been deleted",
+      "Description": "When a workplace has been deleted",
+      "Anchor": "#when-a-workplace-has-been-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkplaceOperatingStateChangedTrigger",
+      "Name": "When the operating state of a workplace has been changed",
+      "Description": "When the operating state of a workplace has been changed",
+      "Anchor": "#when-the-operating-state-of-a-workplace-has-been-changed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkplaceStuffMember",
+      "Name": "Get current staff members of the workplace",
+      "Description": "Get current staff members of the workplace",
+      "Anchor": "#get-current-staff-members-of-the-workplace",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkplaceUpdatedTrigger",
+      "Name": "When a workplace has been updated",
+      "Description": "When a workplace has been updated",
+      "Anchor": "#when-a-workplace-has-been-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

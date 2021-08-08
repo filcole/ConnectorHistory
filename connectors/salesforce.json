@@ -1,0 +1,174 @@
+{
+  "UniqueName": "salesforce",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../salesforce/",
+  "Actions": [
+    {
+      "OperationId": "CloseJob",
+      "Name": "Close or abort a job",
+      "Description": "Closes or aborts a job. Use UploadComplete to close a job, or Aborted to abort a job. If you close a job, Salesforce queues the job and uploaded data for processing, and you can’t add any additional job data. If you abort a job, the job does not get queued or processed.",
+      "Anchor": "#close-or-abort-a-job",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateJob",
+      "Name": "Create a job [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a job (V2) instead.\nCreates a job, which represents a bulk operation (and associated data) that is sent to Salesforce for asynchronous processing. Provide job data via an Upload Job Data request.",
+      "Anchor": "#create-a-job-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateJobV2",
+      "Name": "Create a job (V2)",
+      "Description": "Creates a job, which represents a bulk operation (and associated data) that is sent to Salesforce for asynchronous processing. Provide job data via an Upload Job Data request.",
+      "Anchor": "#create-a-job-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteItem",
+      "Name": "Delete record",
+      "Description": "This operation deletes a record.",
+      "Anchor": "#delete-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteJob",
+      "Name": "Delete a job",
+      "Description": "Deletes a job. To be deleted, a job must have a state of UploadComplete, JobComplete, Aborted, or Failed.",
+      "Anchor": "#delete-a-job",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteSoqlQuery",
+      "Name": "Execute a SOQL query",
+      "Description": "Execute a SOQL query.",
+      "Anchor": "#execute-a-soql-query",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllJobs",
+      "Name": "Get all jobs",
+      "Description": "Get a list of all jobs",
+      "Anchor": "#get-all-jobs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get record [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get record instead.\nThis operation gets a record.",
+      "Anchor": "#get-record-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetItem_V2",
+      "Name": "Get record",
+      "Description": "This operation gets a record.",
+      "Anchor": "#get-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItemByExternalId",
+      "Name": "Get a Record by External ID",
+      "Description": "This operation retrieves a record using an external ID.",
+      "Anchor": "#get-a-record-by-external-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get records",
+      "Description": "This operation gets records of a certain Salesforce object type like 'Leads'.",
+      "Anchor": "#get-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetJobInfo",
+      "Name": "Get job info",
+      "Description": "Retrieves detailed information about a job.",
+      "Anchor": "#get-job-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetJobRecordResults",
+      "Name": "Get job results",
+      "Description": "Retrieves a list of records based on the result type for a completed job.",
+      "Anchor": "#get-job-results",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnNewItems",
+      "Name": "When a record is created",
+      "Description": "This operation triggers when there are newly created records.",
+      "Anchor": "#when-a-record-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOnUpdatedItems",
+      "Name": "When a record is modified",
+      "Description": "This operation triggers when there are newly modified records.",
+      "Anchor": "#when-a-record-is-modified",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get object types",
+      "Description": "This operation lists the available Salesforce object types.",
+      "Anchor": "#get-object-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update record [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update record (V3) instead.\nThis operation updates a record and allows null values.",
+      "Anchor": "#update-record-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PatchItem",
+      "Name": "Update record [DEPRECATED]",
+      "Description": "This operation updates a record.",
+      "Anchor": "#update-record-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PatchItem_V3",
+      "Name": "Update record (V3)",
+      "Description": "This operation updates a record and allows null values.",
+      "Anchor": "#update-record-(v3)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchItemByExternalId",
+      "Name": "Insert or Update (Upsert) a Record by External ID [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Insert or Update (Upsert) a Record by External ID (V2) instead.\nThis operation inserts or updates (upserts) a record using an external ID.",
+      "Anchor": "#insert-or-update-(upsert)-a-record-by-external-id-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PatchItemByExternalIdV2",
+      "Name": "Insert or Update (Upsert) a Record by External ID (V2)",
+      "Description": "This operation inserts or updates (upserts) a record using an external ID.",
+      "Anchor": "#insert-or-update-(upsert)-a-record-by-external-id-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostItem",
+      "Name": "Create record [DEPRECATED]",
+      "Description": "This operation creates a record.",
+      "Anchor": "#create-record-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PostItem_V2",
+      "Name": "Create record",
+      "Description": "This operation creates a record and allows null values.",
+      "Anchor": "#create-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadJobData",
+      "Name": "Upload job data",
+      "Description": "Uploads data for a job using CSV data.",
+      "Anchor": "#upload-job-data",
+      "IsDeprecated": false
+    }
+  ]
+}

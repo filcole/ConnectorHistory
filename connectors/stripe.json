@@ -1,0 +1,69 @@
+{
+  "UniqueName": "stripe",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../stripe/",
+  "Actions": [
+    {
+      "OperationId": "CreateCustomer",
+      "Name": "Create a customer",
+      "Description": "Create a new customer.",
+      "Anchor": "#create-a-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProduct",
+      "Name": "Create a product",
+      "Description": "Creates a new product.",
+      "Anchor": "#create-a-product",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCustomer",
+      "Name": "Get a customer",
+      "Description": "Returns the details of specified customer.",
+      "Anchor": "#get-a-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewCharge",
+      "Name": "When a charge is added",
+      "Description": "Triggers a new flow when a charge is added.",
+      "Anchor": "#when-a-charge-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewCustomer",
+      "Name": "When a customer is added",
+      "Description": "Triggers a new flow when a customer is added.",
+      "Anchor": "#when-a-customer-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewInvoiceItem",
+      "Name": "When an invoice item is added",
+      "Description": "Triggers a new flow when an invoice item is added.",
+      "Anchor": "#when-an-invoice-item-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewOrder",
+      "Name": "When an order is added",
+      "Description": "Triggers a new flow when an order is added.",
+      "Anchor": "#when-an-order-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateCustomer",
+      "Name": "Update a customer",
+      "Description": "Updates the specified customer by setting the values of the parameters passed.",
+      "Anchor": "#update-a-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProduct",
+      "Name": "Update a product",
+      "Description": "Updates the specific product by setting the values of the parameters passed.",
+      "Anchor": "#update-a-product",
+      "IsDeprecated": false
+    }
+  ]
+}

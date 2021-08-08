@@ -1,0 +1,146 @@
+{
+  "UniqueName": "reversinglabsintelligence",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../reversinglabsintelligence/",
+  "Actions": [
+    {
+      "OperationId": "Get-api-certificate-index-v1-query-thumbprint",
+      "Name": "Get Files Signed with Specific Certificate Thumbprint(s)",
+      "Description": "This service provides a list of files signed with a particular certificate, specified by its thumbprint.",
+      "Anchor": "#get-files-signed-with-specific-certificate-thumbprint(s)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-api-databrowser-malware_presence-query-hash_type-hash_value",
+      "Name": "Get File Hash Reputation",
+      "Description": "This service provides information about the malware status of requested files.",
+      "Anchor": "#get-file-hash-reputation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-api-databrowser-rldata-query-hash_type-hash_value",
+      "Name": "Get File Hash Analysis Detail",
+      "Description": "This service provides analysis results for the requested file.",
+      "Anchor": "#get-file-hash-analysis-detail",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-api-historic-multi-av-scan-records-query-hash_type-hash_value",
+      "Name": "Get Similar File Hashes Using Import Hashing Algorithm",
+      "Description": "This service provides a list of SHA1 hashes functionally similar to the file associated with the provided import hash (ImpHash).",
+      "Anchor": "#get-similar-file-hashes-using-import-hashing-algorithm",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-api-reanalyze-query-hash_type-hash_value",
+      "Name": "Re-Analyze File",
+      "Description": "This service provides a means to send file(s) for rescanning.",
+      "Anchor": "#re-analyze-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-fetch-uri-state",
+      "Name": "Get URI Statistics on Email addresses, IP(s), Domain(s) and URL(s)",
+      "Description": "This service provides statistical information on the number of known, malicious, and suspicious file(s) associated with the URI.",
+      "Anchor": "#get-uri-statistics-on-email-addresses,-ip(s),-domain(s)-and-url(s)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-file-dynamic-analysis-report-hash_type-hash_value-analysis_id",
+      "Name": "Get specific dynamic analysis report for a file",
+      "Description": "This service allows user to download a specific report of a dynamic analysis performed on the file.",
+      "Anchor": "#get-specific-dynamic-analysis-report-for-a-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-file-merged-dynamic-analysis-report-hash_type-hash_value",
+      "Name": "Get merged dynamic analysis report for a file",
+      "Description": "This service allows user to download a merged report with an overview of all dynamic analyses performed on the file.",
+      "Anchor": "#get-merged-dynamic-analysis-report-for-a-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Group-By-RHA1-Single-Query",
+      "Name": "Get Functionally Similar File Hashes Using ReversingLabs Hash Algorithm",
+      "Description": "This service provides a list of SHA1 hashes of files that are functionally similar to the provided file (SHA1 hash) at the selected precision level.",
+      "Anchor": "#get-functionally-similar-file-hashes-using-reversinglabs-hash-algorithm",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-historic-multi-av-scan-records-query-hash_type-hash_value",
+      "Name": "Get Historic Multi-AV Scan Records",
+      "Description": "This service provides historic Multi-AV scan records for a given file hash.",
+      "Anchor": "#get-historic-multi-av-scan-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-historic-multi-av-scan-records-query-hash_type-hash_value-bulk",
+      "Name": "Get Historic Multi-AV Scan Records - Bulk Request",
+      "Description": "This service provides a means to send multiple hashes of files in a single request and provides Multi-AV scan records data for those files.",
+      "Anchor": "#get-historic-multi-av-scan-records---bulk-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-advanced-search-query",
+      "Name": "Find Files Using Multi-Part Search Criteria",
+      "Description": "This service provides a means to acquire a list of hashes that match the provided multi-part search criteria.",
+      "Anchor": "#find-files-using-multi-part-search-criteria",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-api-databrowser-malware_presence-bulk_query-post_format",
+      "Name": "Get File Hash Reputation - Bulk Request",
+      "Description": "This service provides a means to send multiple hashes of files in a single request and provides information about the malware status for those files..",
+      "Anchor": "#get-file-hash-reputation---bulk-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-api-databrowser-rldata-bulk_query-post_format",
+      "Name": "Get File Hash Analysis Detail - Bulk Request",
+      "Description": "This service provides a means to send multiple file hashes in a single request and provides analysis results for these file hashes.",
+      "Anchor": "#get-file-hash-analysis-detail---bulk-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-api-rescan-v1-bulk_query-post_format",
+      "Name": "Re-Analyze File - Bulk Request",
+      "Description": "This service provides a means to initiate multiple files to be rescanned using a single request.",
+      "Anchor": "#re-analyze-file---bulk-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-api-sample-file-upload",
+      "Name": "Sample file upload",
+      "Description": "This services provides a means to upload a file for analysis.",
+      "Anchor": "#sample-file-upload",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-api-sample-metadata-upload",
+      "Name": "Sample metadata file upload",
+      "Description": "This service provides a means to send metadata for previously successfully uploaded file.",
+      "Anchor": "#sample-metadata-file-upload",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-file-dynamic-analysis",
+      "Name": "File dynamic analysis",
+      "Description": "This service allows users to detonate a previously uploaded file in the ReversingLabs TitaniumCloud sandbox.",
+      "Anchor": "#file-dynamic-analysis",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-url-analyze",
+      "Name": "Analyze URL",
+      "Description": "This service enables the submission of a URL for analysis.  ReversingLabs will crawl the URL, identifying files to download and submitting them to our file processing pipeline for classification and enrichment.  A detailed report can then be retrieved using our URL Threat Intelligence API.",
+      "Anchor": "#analyze-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-url-threat-intelligence",
+      "Name": "Get URL Threat Intelligence Report",
+      "Description": "This service returns threat intelligence data, including reputation from various reputation sources, metadata for performed URL analyses, and the maliciousness of files found on the submitted URL.",
+      "Anchor": "#get-url-threat-intelligence-report",
+      "IsDeprecated": false
+    }
+  ]
+}

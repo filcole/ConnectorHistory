@@ -1,0 +1,90 @@
+{
+  "UniqueName": "pdfblocks",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pdfblocks/",
+  "Actions": [
+    {
+      "OperationId": "AddImageWatermark",
+      "Name": "Add an image watermark to a PDF",
+      "Description": "Add an image watermark to each page of a PDF document",
+      "Anchor": "#add-an-image-watermark-to-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddPassword",
+      "Name": "Add a password to a PDF",
+      "Description": "Protect a PDF document with a password. Encrypt the PDF document to prevent unauthorized access. https://www.pdfblocks.com/docs/power-automate/add-password-to-pdf",
+      "Anchor": "#add-a-password-to-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddRestrictions",
+      "Name": "Add restrictions to a PDF",
+      "Description": "Add restrictions to prevent copying, printing, and modifying a PDF document. https://www.pdfblocks.com/docs/power-automate/add-restrictions-to-pdf",
+      "Anchor": "#add-restrictions-to-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddWatermark",
+      "Name": "Add a text watermark to a PDF",
+      "Description": "Add a text watermark to a PDF document. Choose from many watermark templates in https://www.pdfblocks.com/docs/power-automate/add-watermark",
+      "Anchor": "#add-a-text-watermark-to-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractPages",
+      "Name": "Extract pages from a PDF",
+      "Description": "Extract one or more pages from a PDF document. https://www.pdfblocks.com/docs/power-automate/extract-pages-from-pdf",
+      "Anchor": "#extract-pages-from-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocuments",
+      "Name": "Merge PDF documents",
+      "Description": "Combine multiple PDF documents into a single PDF document. https://www.pdfblocks.com/docs/power-automate/merge-pdf-documents",
+      "Anchor": "#merge-pdf-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemovePages",
+      "Name": "Remove pages from a PDF",
+      "Description": "Remove one or more pages from a PDF document. https://www.pdfblocks.com/docs/power-automate/remove-pages-from-pdf",
+      "Anchor": "#remove-pages-from-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemovePassword",
+      "Name": "Remove the password from a PDF",
+      "Description": "Remove the password from an encrypted PDF document. The PDF document will no longer require a password to open. https://www.pdfblocks.com/docs/power-automate/remove-password-from-pdf",
+      "Anchor": "#remove-the-password-from-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveRestrictions",
+      "Name": "Remove restrictions from a PDF",
+      "Description": "Remove all the restrictions from a PDF document. https://www.pdfblocks.com/docs/power-automate/remove-restrictions-from-pdf",
+      "Anchor": "#remove-restrictions-from-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveSignatures",
+      "Name": "Remove signatures from a PDF",
+      "Description": "Remove all the signatures from a PDF document. https://www.pdfblocks.com/docs/power-automate/remove-signatures-from-pdf",
+      "Anchor": "#remove-signatures-from-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReversePages",
+      "Name": "Reverse the pages of a PDF",
+      "Description": "Reverse the order of the pages of a PDF document. https://www.pdfblocks.com/docs/power-automate/reverse-pages-of-pdf",
+      "Anchor": "#reverse-the-pages-of-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RotatePages",
+      "Name": "Rotate pages in a PDF",
+      "Description": "Rotate one or more pages in a PDF document. https://www.pdfblocks.com/docs/power-automate/rotate-pages-in-pdf",
+      "Anchor": "#rotate-pages-in-a-pdf",
+      "IsDeprecated": false
+    }
+  ]
+}

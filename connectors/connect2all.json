@@ -1,0 +1,209 @@
+{
+  "UniqueName": "connect2all",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../connect2all/",
+  "Actions": [
+    {
+      "OperationId": "ClearMedia",
+      "Name": "Delete Media",
+      "Description": "Deletes the media attached to a field in Business Central",
+      "Anchor": "#delete-media",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateData",
+      "Name": "Insert Data",
+      "Description": "Insert data into a specific Business Central table",
+      "Anchor": "#insert-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDataComplex",
+      "Name": "Insert Data (Complex)",
+      "Description": "Insert data into a specific Business Central table",
+      "Anchor": "#insert-data-(complex)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteData",
+      "Name": "Delete Data",
+      "Description": "Delete data from Business Central by it's unique id",
+      "Anchor": "#delete-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCsvDocument",
+      "Name": "Get Csv",
+      "Description": "Get data based on passed configuration and returns the data in the CSV format set in the configuration",
+      "Anchor": "#get-csv",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCsvDocumentById",
+      "Name": "Get Csv by Id",
+      "Description": "Get data by SystemId based on passed configuration and returns the data in the CSV format set in the configuration",
+      "Anchor": "#get-csv-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCsvDocumentByIdWithMetadata",
+      "Name": "Get Csv by Id with metadata",
+      "Description": "Get data by Id with metadata based on passed configuration and returns the data in the CSV format set in the configuration",
+      "Anchor": "#get-csv-by-id-with-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCsvDocumentWithMetadata",
+      "Name": "Get Csv with metadata",
+      "Description": "Get data with metadata based on passed configuration and returns the data in the CSV format set in the configuration",
+      "Anchor": "#get-csv-with-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetData",
+      "Name": "Get Data",
+      "Description": "Get data from Business Central for specific tables",
+      "Anchor": "#get-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDataById",
+      "Name": "Get Data by Id",
+      "Description": "Get data from Business Central for a specific table and record",
+      "Anchor": "#get-data-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDataRaw",
+      "Name": "Get Data (Complex)",
+      "Description": "Get data from Business Central with a raw JSON request",
+      "Anchor": "#get-data-(complex)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMedia",
+      "Name": "Get Media",
+      "Description": "Retrieves a file from Business Central by it's Id",
+      "Anchor": "#get-media",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetReport",
+      "Name": "Get Report",
+      "Description": "Gets a report from Business Central on a report ID or a record",
+      "Anchor": "#get-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetXmlDocument",
+      "Name": "Get Xml",
+      "Description": "Get data based on passed configuration and returns the data in the XML format set in the configuration",
+      "Anchor": "#get-xml",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetXmlDocumentById",
+      "Name": "Get Xml by Id",
+      "Description": "Get data by SystemId based on passed configuration and returns the data in the XML format set in the configuration",
+      "Anchor": "#get-xml-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetXmlDocumentByIdWithMetadata",
+      "Name": "Get Xml by Id with metadata",
+      "Description": "Get data by Id with metadata based on passed configuration and returns the data in the XML format set in the configuration",
+      "Anchor": "#get-xml-by-id-with-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetXmlDocumentWithMetadata",
+      "Name": "Get Xml with metadata",
+      "Description": "Get data with metadata based on passed configuration and returns the data in the XML format set in the configuration",
+      "Anchor": "#get-xml-with-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchMedia",
+      "Name": "Update Media",
+      "Description": "Updates a file in Business Central by it's Id",
+      "Anchor": "#update-media",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PerformAction",
+      "Name": "Perform an action",
+      "Description": "Schedule to perform an action in Business Central",
+      "Anchor": "#perform-an-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostTransformCsv",
+      "Name": "Process Csv",
+      "Description": "Imports and transforms CSV into Business Central data using a specific configuration",
+      "Anchor": "#process-csv",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostTransformXml",
+      "Name": "Process Xml",
+      "Description": "Imports and transforms XML into Business Central data using a specific configuration",
+      "Anchor": "#process-xml",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecordCreated",
+      "Name": "Triggers when a record is created",
+      "Description": "A record is created in Business Central",
+      "Anchor": "#triggers-when-a-record-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecordCreatedV2",
+      "Name": "Triggers when a record is created (V2)",
+      "Description": "A record is created in Business Central",
+      "Anchor": "#triggers-when-a-record-is-created-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecordDeleted",
+      "Name": "Triggers when a record is deleted",
+      "Description": "A record is deleted in Business Central",
+      "Anchor": "#triggers-when-a-record-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecordDeletedV2",
+      "Name": "Triggers when a record is deleted (V2)",
+      "Description": "A record is deleted in Business Central",
+      "Anchor": "#triggers-when-a-record-is-deleted-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecordUpdated",
+      "Name": "Triggers when a record is updated",
+      "Description": "A record is updated in Business Central",
+      "Anchor": "#triggers-when-a-record-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecordUpdatedV2",
+      "Name": "Triggers when a record is updated (V2)",
+      "Description": "A record is updated in Business Central",
+      "Anchor": "#triggers-when-a-record-is-updated-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateData",
+      "Name": "Update Data",
+      "Description": "Update a record in Business Central for a specific table",
+      "Anchor": "#update-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDataComplex",
+      "Name": "Update Data Complex",
+      "Description": "Update a record in Business Central for a specific table",
+      "Anchor": "#update-data-complex",
+      "IsDeprecated": false
+    }
+  ]
+}

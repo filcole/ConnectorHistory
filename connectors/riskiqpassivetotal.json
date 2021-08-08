@@ -1,0 +1,552 @@
+{
+  "UniqueName": "riskiqpassivetotal",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../riskiqpassivetotal/",
+  "Actions": [
+    {
+      "OperationId": "Account",
+      "Name": "Get account metadata and settings",
+      "Description": "Retrieve current account metadata and settings.",
+      "Anchor": "#get-account-metadata-and-settings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddProjectTags",
+      "Name": "Add project tags",
+      "Description": "Add tags to a project by project ID.",
+      "Anchor": "#add-project-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddTags",
+      "Name": "Add tags",
+      "Description": "Adds tags to a given artifact.",
+      "Anchor": "#add-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BulkArtifactCreate",
+      "Name": "Create artifacts in bulk",
+      "Description": "Create artifacts in bulk with given parameters.",
+      "Anchor": "#create-artifacts-in-bulk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BulkArtifactDelete",
+      "Name": "Delete artifacts in bulk",
+      "Description": "Delete artifacts in bulk by their artifacts ids.",
+      "Anchor": "#delete-artifacts-in-bulk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BulkArtifactUpdate",
+      "Name": "Artifact updates in bulk",
+      "Description": "Perform artifact updates in bulk.",
+      "Anchor": "#artifact-updates-in-bulk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Classifications",
+      "Name": "Get items by classification",
+      "Description": "Retrieve items with the specified classification.",
+      "Anchor": "#get-items-by-classification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateArtifact",
+      "Name": "Create artifact",
+      "Description": "Create artifact with given parameters.",
+      "Anchor": "#create-artifact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProject",
+      "Name": "Create project",
+      "Description": "Create project with given parameters.",
+      "Anchor": "#create-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteArtifact",
+      "Name": "Delete artifact with a UUID",
+      "Description": "Delete artifact having a certain UUID.",
+      "Anchor": "#delete-artifact-with-a-uuid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteProject",
+      "Name": "Delete project",
+      "Description": "Delete project by project ID.",
+      "Anchor": "#delete-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTags",
+      "Name": "Delete tags",
+      "Description": "Removes tags from an artifact.",
+      "Anchor": "#delete-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindArtifact",
+      "Name": "Find artifact",
+      "Description": "Read existing artifacts. If no filters are passed, this returns all your personal artifacts created by you or your organization.",
+      "Anchor": "#find-artifact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindProject",
+      "Name": "Find project",
+      "Description": "Retrieve all information related to project.",
+      "Anchor": "#find-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAddressesByComponentName",
+      "Name": "Get addresses by component name",
+      "Description": "Searches the components addresses information by component name.",
+      "Anchor": "#get-addresses-by-component-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAddressesByCookieDomain",
+      "Name": "Get addresses by cookie domain",
+      "Description": "Searches the cookies addresses information by cookie domain.",
+      "Anchor": "#get-addresses-by-cookie-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAddressesByCookieName",
+      "Name": "Get addresses by cookie name",
+      "Description": "Searches the addresses information by cookie name.",
+      "Anchor": "#get-addresses-by-cookie-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAlerts",
+      "Name": "Get alerts associated with an artifact or project",
+      "Description": "Retrieve all alerts associated with an artifact or project.",
+      "Anchor": "#get-alerts-associated-with-an-artifact-or-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetArticleDetails",
+      "Name": "Get article details",
+      "Description": "Retrieves the details of the article specified.",
+      "Anchor": "#get-article-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetArticles",
+      "Name": "Get articles",
+      "Description": "Retrieves all articles.",
+      "Anchor": "#get-articles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetArticlesByIndicator",
+      "Name": "Get articles by indicator",
+      "Description": "Retrieves all articles containing the indicator specified.",
+      "Anchor": "#get-articles-by-indicator",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetArticlesIndicators",
+      "Name": "Get articles indicators",
+      "Description": "Retrieves articles indicators.",
+      "Anchor": "#get-articles-indicators",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetArtifactTags",
+      "Name": "Get artifact tags",
+      "Description": "Retrieve the tags of an artifact or artifacts.",
+      "Anchor": "#get-artifact-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBulkClassificationStatus",
+      "Name": "Get bulk classification status",
+      "Description": "Retrieve classification statuses for given domains.",
+      "Anchor": "#get-bulk-classification-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBulkEnrichment",
+      "Name": "Get enrichment data bulk",
+      "Description": "Get bulk enrichment data for many queries.",
+      "Anchor": "#get-enrichment-data-bulk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetClassificationStatus",
+      "Name": "Get classification status",
+      "Description": "Retrieve classification status for a given domain.",
+      "Anchor": "#get-classification-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetComponents",
+      "Name": "Get components",
+      "Description": "Retrieves the host attribute components of a query.",
+      "Anchor": "#get-components",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCompromisedStatus",
+      "Name": "Get compromised status",
+      "Description": "Indicates whether or not a given domain has ever been compromised.",
+      "Anchor": "#get-compromised-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCookies",
+      "Name": "Get cookies",
+      "Description": "Retrieves the host attribute cookies related to the query.",
+      "Anchor": "#get-cookies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDynamicDNSStatus",
+      "Name": "Get dynamic DNS status",
+      "Description": "Indicates whether or not a domain's DNS records are updated via dynamic DNS.",
+      "Anchor": "#get-dynamic-dns-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnrichment",
+      "Name": "Get enrichment data",
+      "Description": "Get enrichment data for a query.",
+      "Anchor": "#get-enrichment-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetHostsByComponentName",
+      "Name": "Get hosts by component name",
+      "Description": "Searches the components hosts information by component name.",
+      "Anchor": "#get-hosts-by-component-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetHostsByCookieDomain",
+      "Name": "Get hosts by cookie domain",
+      "Description": "Searches the cookies hosts information by cookie domain.",
+      "Anchor": "#get-hosts-by-cookie-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetHostsByCookieName",
+      "Name": "Get hosts by cookie name",
+      "Description": "Searches the hosts information by cookie name.",
+      "Anchor": "#get-hosts-by-cookie-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMalware",
+      "Name": "Get malware",
+      "Description": "Get malware data for a query.",
+      "Anchor": "#get-malware",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMalwareBulk",
+      "Name": "Get malware bulk",
+      "Description": "Get bulk malware data for many queries.",
+      "Anchor": "#get-malware-bulk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMonitorStatus",
+      "Name": "Get monitor status",
+      "Description": "Indicates whether or not a domain is monitored.",
+      "Anchor": "#get-monitor-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOpenPorts",
+      "Name": "Get the open ports info for the IP address given",
+      "Description": "The exposed services endpoints allow you to see services on recently open ports for an IP address.",
+      "Anchor": "#get-the-open-ports-info-for-the-ip-address-given",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOSINT",
+      "Name": "Get OSINT",
+      "Description": "Get OSINT data for a query.",
+      "Anchor": "#get-osint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOSINTBulk",
+      "Name": "Get OSINT bulk",
+      "Description": "Get bulk OSINT data for many queries.",
+      "Anchor": "#get-osint-bulk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPairs",
+      "Name": "Get pairs",
+      "Description": "Retrieves the host attribute pairs related to the query.",
+      "Anchor": "#get-pairs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPassiveDNS",
+      "Name": "Get passive DNS",
+      "Description": "Retrieves the passive DNS results from active account sources.",
+      "Anchor": "#get-passive-dns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSinkholeStatus",
+      "Name": "Get sinkhole status",
+      "Description": "Indicates whether or not an IP address is a sinkhole.",
+      "Anchor": "#get-sinkhole-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSSLCertificate",
+      "Name": "Get SSL certificate",
+      "Description": "Retrieves an SSL certificate by its SHA-1 hash.",
+      "Anchor": "#get-ssl-certificate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSSLCertificateHistory",
+      "Name": "Get SSL certificate history",
+      "Description": "Retrieves the SSL certificate history for a given certificate SHA-1 hash or IP address.",
+      "Anchor": "#get-ssl-certificate-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSubDomains",
+      "Name": "Get subdomains",
+      "Description": "Get subdomains data for a query.",
+      "Anchor": "#get-subdomains",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTags",
+      "Name": "Get tags",
+      "Description": "Get tags from a given artifact.",
+      "Anchor": "#get-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTrackers",
+      "Name": "Get trackers",
+      "Description": "Retrieves the host attribute trackers.",
+      "Anchor": "#get-trackers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUniquePassiveDNS",
+      "Name": "Get unique passive DNS",
+      "Description": "Retrieves the unique passive DNS results from active account sources.",
+      "Anchor": "#get-unique-passive-dns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWHOIS",
+      "Name": "Get WHOIS",
+      "Description": "Retrieves the WHOIS data for the specified query.",
+      "Anchor": "#get-whois",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "History",
+      "Name": "Get API usage history",
+      "Description": "Retrieve the details of API usage history of the account.",
+      "Anchor": "#get-api-usage-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Monitors",
+      "Name": "Get active monitors",
+      "Description": "Retrieve the set of active monitors.",
+      "Anchor": "#get-active-monitors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Organization",
+      "Name": "Get current organization metadata",
+      "Description": "Retrieve the details of current organization metadata.",
+      "Anchor": "#get-current-organization-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quota",
+      "Name": "Get account and organization quotas",
+      "Description": "Retrieve the details of current account and organization quotas.",
+      "Anchor": "#get-account-and-organization-quotas",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveArtifactTags",
+      "Name": "Remove artifact tags",
+      "Description": "Remove a set of tags from an artifact or artifacts.",
+      "Anchor": "#remove-artifact-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveProjectTags",
+      "Name": "Remove project tags",
+      "Description": "Remove tags from a project by project ID.",
+      "Anchor": "#remove-project-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Reputation",
+      "Name": "Get reputation",
+      "Description": "Retrieves reputation for given query.",
+      "Anchor": "#get-reputation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchByKeyword",
+      "Name": "Search passive DNS",
+      "Description": "Searches the passive DNS data for a keyword query.",
+      "Anchor": "#search-passive-dns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchSSLCertificates",
+      "Name": "Search SSL certificates",
+      "Description": "Retrieves SSL certificates for a given field value.",
+      "Anchor": "#search-ssl-certificates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchSSLCertificatesByKeyword",
+      "Name": "Search SSL certificates by keyword",
+      "Description": "Retrieves SSL certificates for a given keyword.",
+      "Anchor": "#search-ssl-certificates-by-keyword",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchTags",
+      "Name": "Search tags",
+      "Description": "Retrieve artifacts for a given tag.",
+      "Anchor": "#search-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchTrackers",
+      "Name": "Search trackers that match the criteria",
+      "Description": "Retrieves hosts or IP addresses that employ a specific user tracking service.",
+      "Anchor": "#search-trackers-that-match-the-criteria",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchWHOIS",
+      "Name": "Search WHOIS",
+      "Description": "Searches WHOIS data by field and query.",
+      "Anchor": "#search-whois",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchWHOISKeyword",
+      "Name": "Search WHOIS keyword",
+      "Description": "Search WHOIS data for a keyword.",
+      "Anchor": "#search-whois-keyword",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetArtifactTags",
+      "Name": "Set artifact tags",
+      "Description": "Set the tags of an artifact or artifacts.",
+      "Anchor": "#set-artifact-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetBulkClassificationStatus",
+      "Name": "Set bulk classification status",
+      "Description": "Set classification statuses for given domains.",
+      "Anchor": "#set-bulk-classification-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetClassificationStatus",
+      "Name": "Set classification status",
+      "Description": "Sets the classification status for a given domain.",
+      "Anchor": "#set-classification-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetCompromisedStatus",
+      "Name": "Set compromised status",
+      "Description": "Sets status for a domain to indicate if it has ever been compromised.",
+      "Anchor": "#set-compromised-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetDynamicDNSStatus",
+      "Name": "Set dynamic DNS status",
+      "Description": "Sets a domain's status to indicate whether or not its DNS records are updated via dynamic DNS.",
+      "Anchor": "#set-dynamic-dns-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetProjectTags",
+      "Name": "Set project tags",
+      "Description": "Set the project tags of given project ID.",
+      "Anchor": "#set-project-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetSinkholeStatus",
+      "Name": "Set sinkhole status",
+      "Description": "Sets status for an IP address to indicate whether or not it is a sinkhole.",
+      "Anchor": "#set-sinkhole-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetTags",
+      "Name": "Set tags",
+      "Description": "Sets tags to a given artifact.",
+      "Anchor": "#set-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Sources",
+      "Name": "Get sources used for queries",
+      "Description": "Retrieve the details of sources being used for queries.",
+      "Anchor": "#get-sources-used-for-queries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SummaryDataCard",
+      "Name": "Get summary data card",
+      "Description": "Retrieves a summary data card associated to the given query.",
+      "Anchor": "#get-summary-data-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Teamstream",
+      "Name": "Get team activity",
+      "Description": "Retrieve the details of team activity.",
+      "Anchor": "#get-team-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateArtifact",
+      "Name": "Update artifact",
+      "Description": "Update artifact, or toggle monitoring status.",
+      "Anchor": "#update-artifact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateArtifactTags",
+      "Name": "Update artifact tags",
+      "Description": "Add tags to an artifact or artifacts.",
+      "Anchor": "#update-artifact-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProject",
+      "Name": "Update project",
+      "Description": "Updates a project denoted by project ID.",
+      "Anchor": "#update-project",
+      "IsDeprecated": false
+    }
+  ]
+}

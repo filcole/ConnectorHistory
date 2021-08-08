@@ -1,0 +1,97 @@
+{
+  "UniqueName": "microsoft365compliance",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../microsoft365compliance/",
+  "Actions": [
+    {
+      "OperationId": "AddIrmCaseNote",
+      "Name": "Add insider risk management case note",
+      "Description": "Adds a note to the insider risk management case",
+      "Anchor": "#add-insider-risk-management-case-note",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddPrivacyCaseNote",
+      "Name": "Add privacy management case note",
+      "Description": "Adds a note to the privacy management case",
+      "Anchor": "#add-privacy-management-case-note",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIrmAlert",
+      "Name": "Get insider risk management alert",
+      "Description": "Get insider risk management alert.",
+      "Anchor": "#get-insider-risk-management-alert",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIrmAlertsForCase",
+      "Name": "Get insider risk management alerts for a case",
+      "Description": "Get insider risk management alerts for a case.",
+      "Anchor": "#get-insider-risk-management-alerts-for-a-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIrmCase",
+      "Name": "Get insider risk management case",
+      "Description": "Get insider risk management case.",
+      "Anchor": "#get-insider-risk-management-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIrmRiskyUser",
+      "Name": "Get insider risk management user",
+      "Description": "Get insider risk management user.",
+      "Anchor": "#get-insider-risk-management-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPrivacyCase",
+      "Name": "Get privacy management case",
+      "Description": "Get privacy management case.",
+      "Anchor": "#get-privacy-management-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTaggedFiles",
+      "Name": "Get tagged privacy files",
+      "Description": "Get a list of tagged privacy files.",
+      "Anchor": "#get-tagged-privacy-files",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTranslatedId",
+      "Name": "Get translated message Id",
+      "Description": "Get translated message Id.",
+      "Anchor": "#get-translated-message-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetViolationMetadata",
+      "Name": "Get communication compliance violation metadata",
+      "Description": "Get Violation Metadata",
+      "Anchor": "#get-communication-compliance-violation-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnCCItemSelected",
+      "Name": "For a selected communication compliance item",
+      "Description": "This trigger allows you to start a flow when a Communication Compliance item is selected in Microsoft 365 compliance center (Available only for Power Automate.)",
+      "Anchor": "#for-a-selected-communication-compliance-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnIRMCaseSelected",
+      "Name": "For a selected insider risk management case",
+      "Description": "This trigger allows you to start a flow when an insider risk management case is selected in Microsoft 365 compliance center (Available only for Power Automate.)",
+      "Anchor": "#for-a-selected-insider-risk-management-case",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnIRMRiskyUserSelected",
+      "Name": "For a selected insider risk management user",
+      "Description": "This trigger allows you to start a flow when an insider risk management user is selected in Microsoft 365 compliance center (Available only for Power Automate.)",
+      "Anchor": "#for-a-selected-insider-risk-management-user",
+      "IsDeprecated": false
+    }
+  ]
+}

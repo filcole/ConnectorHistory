@@ -1,0 +1,41 @@
+{
+  "UniqueName": "zanranscaffolder",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zanranscaffolder/",
+  "Actions": [
+    {
+      "OperationId": "DownloadFile-AllXml",
+      "Name": "Download results as Zipped up Xml files",
+      "Description": "Downloads a zip file containing the analysis results in Xml format (one Xml file per page)",
+      "Anchor": "#download-results-as-zipped-up-xml-files",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DownloadFile-Xlsx",
+      "Name": "Download results as Xlsx",
+      "Description": "Downloads the results of the table analysis as an Excel (Xlsx) document with separate worksheets for each table.",
+      "Anchor": "#download-results-as-xlsx",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DownloadFile-Znr",
+      "Name": "Download results as a Znr file",
+      "Description": "Downloads the results in the form of a Znr file which can then be viewed and edited by Pdf Workbench (a Zanran tool designed for this purpose)",
+      "Anchor": "#download-results-as-a-znr-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStatus",
+      "Name": "Get Status",
+      "Description": "Get the status of the document being uploaded - i.e. whether it is in the queue to be processed, being processed or has finished processing",
+      "Anchor": "#get-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadDocument",
+      "Name": "Upload Document",
+      "Description": "Upload Document",
+      "Anchor": "#upload-document",
+      "IsDeprecated": false
+    }
+  ]
+}

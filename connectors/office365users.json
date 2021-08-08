@@ -1,0 +1,132 @@
+{
+  "UniqueName": "office365users",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../office365users/",
+  "Actions": [
+    {
+      "OperationId": "DirectReports",
+      "Name": "Get direct reports (V1) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get direct reports (V2) instead.\nRetrieves the user profiles of the specified user's direct reports.",
+      "Anchor": "#get-direct-reports-(v1)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DirectReports_V2",
+      "Name": "Get direct reports (V2)",
+      "Description": "Retrieves the user profiles of the specified user's direct reports. Learn more about available fields to select: https://developer.microsoft.com/en-us/graph/docs/api-reference/v1.0/resources/user#properties",
+      "Anchor": "#get-direct-reports-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Manager",
+      "Name": "Get manager (V1) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get manager (V2) instead.\nRetrieves the profile of the specified user's manager.",
+      "Anchor": "#get-manager-(v1)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "Manager_V2",
+      "Name": "Get manager (V2)",
+      "Description": "Retrieves the profile of the specified user's manager. Learn more about available fields to select: https://developer.microsoft.com/en-us/graph/docs/api-reference/v1.0/resources/user#properties",
+      "Anchor": "#get-manager-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MyProfile",
+      "Name": "Get my profile (V1) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get my profile (V2) instead.\nRetrieves the profile of the current user.",
+      "Anchor": "#get-my-profile-(v1)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "MyProfile_V2",
+      "Name": "Get my profile (V2)",
+      "Description": "Retrieves the profile of the current user. Learn more about available fields to select: https://developer.microsoft.com/en-us/graph/docs/api-reference/v1.0/resources/user#properties",
+      "Anchor": "#get-my-profile-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MyTrendingDocuments",
+      "Name": "Get my trending documents",
+      "Description": "Retrieves the trending documents for the signed in user",
+      "Anchor": "#get-my-trending-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RelevantPeople",
+      "Name": "Get relevant people",
+      "Description": "Get relevant people.",
+      "Anchor": "#get-relevant-people",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchUser",
+      "Name": "Search for users [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Search for users (V2) instead.\nRetrieves the user profiles that match the search term.",
+      "Anchor": "#search-for-users-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SearchUserV2",
+      "Name": "Search for users (V2)",
+      "Description": "Retrieves the user profiles that match the search term (V2).",
+      "Anchor": "#search-for-users-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrendingDocuments",
+      "Name": "Get trending documents",
+      "Description": "Retrieves the trending documents for a user",
+      "Anchor": "#get-trending-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateMyPhoto",
+      "Name": "Update my profile photo",
+      "Description": "Updates the profile photo of the current user. The size of the photo must be less than 4 MB.",
+      "Anchor": "#update-my-profile-photo",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateMyProfile",
+      "Name": "Update my profile",
+      "Description": "Updates the profile of the current user",
+      "Anchor": "#update-my-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserPhoto",
+      "Name": "Get user photo (V1) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get user photo (V2) instead.\nRetrieves the photo of the specified user if they have one.",
+      "Anchor": "#get-user-photo-(v1)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UserPhoto_V2",
+      "Name": "Get user photo (V2)",
+      "Description": "Retrieves the photo of the specified user if they have one",
+      "Anchor": "#get-user-photo-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserPhotoMetadata",
+      "Name": "Get user photo metadata",
+      "Description": "Get user photo metadata.",
+      "Anchor": "#get-user-photo-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserProfile",
+      "Name": "Get user profile (V1) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get user profile (V2) instead.\nRetrieves the profile of a specific user.",
+      "Anchor": "#get-user-profile-(v1)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UserProfile_V2",
+      "Name": "Get user profile (V2)",
+      "Description": "Retrieves the profile of a specific user. Learn more about available fields to select: https://developer.microsoft.com/en-us/graph/docs/api-reference/v1.0/resources/user#properties",
+      "Anchor": "#get-user-profile-(v2)",
+      "IsDeprecated": false
+    }
+  ]
+}

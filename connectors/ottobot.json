@@ -1,0 +1,20 @@
+{
+  "UniqueName": "ottobot",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ottobot/",
+  "Actions": [
+    {
+      "OperationId": "ReturnResultsToBot",
+      "Name": "Return results to bot",
+      "Description": "Send one or more responses to Otto during the execution of a skill",
+      "Anchor": "#return-results-to-bot",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendAttachmentsToUrl",
+      "Name": "Send file attachments to any URL",
+      "Description": "Send file attachments and data to a URL using multipart/form-data encoding. This API is created to support execution flows where the built-in HTTP request connector cannot easily handle multipart/formdata",
+      "Anchor": "#send-file-attachments-to-any-url",
+      "IsDeprecated": false
+    }
+  ]
+}

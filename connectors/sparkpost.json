@@ -1,0 +1,48 @@
+{
+  "UniqueName": "sparkpost",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sparkpost/",
+  "Actions": [
+    {
+      "OperationId": "AddUserToRecipientList",
+      "Name": "Add user to recipient list",
+      "Description": "Add user to recipient list",
+      "Anchor": "#add-user-to-recipient-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateRecipientList",
+      "Name": "Create recipient list",
+      "Description": "Create recipient list",
+      "Anchor": "#create-recipient-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteUserFromRecipientList",
+      "Name": "Delete user from recipient list",
+      "Description": "Delete user from recipient list",
+      "Anchor": "#delete-user-from-recipient-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewRecipientList",
+      "Name": "When a new recipient list is created",
+      "Description": "When a new recipient list is created",
+      "Anchor": "#when-a-new-recipient-list-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEmailToRecipient",
+      "Name": "Send email to a recipient",
+      "Description": "Send email to a recipient",
+      "Anchor": "#send-email-to-a-recipient",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEmailToRecipientList",
+      "Name": "Send email to a recipient list",
+      "Description": "Send email to a recipient list",
+      "Anchor": "#send-email-to-a-recipient-list",
+      "IsDeprecated": false
+    }
+  ]
+}

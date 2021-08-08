@@ -1,0 +1,188 @@
+{
+  "UniqueName": "pdf4meconnect",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pdf4meconnect/",
+  "Actions": [
+    {
+      "OperationId": "ConvertHtmlToPdf_V1",
+      "Name": "Convert HTML to PDF (Preview)",
+      "Description": "Convert your HTML file to PDF. https://pdf4me.com/power-automate/documentation/actions/html-to-pdf/",
+      "Anchor": "#convert-html-to-pdf-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertMdToPdf_V1",
+      "Name": "Convert Md to PDF (Preview)",
+      "Description": "Convert your Md file to PDF. https://pdf4me.com/power-automate/documentation/actions/markdown-to-pdf/",
+      "Anchor": "#convert-md-to-pdf-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertToPdf_V1",
+      "Name": "Convert to PDF (Preview)",
+      "Description": "Convert any type of office documents to PDF format. https://pdf4me.com/power-automate/documentation/actions/convert-to-pdf/",
+      "Anchor": "#convert-to-pdf-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertUrlToPdf_V1",
+      "Name": "Convert URL to PDF (Preview)",
+      "Description": "Convert your URL file to PDF. https://pdf4me.com/power-automate/documentation/actions/url-to-pdf/",
+      "Anchor": "#convert-url-to-pdf-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePdfA_V1",
+      "Name": "Create PdfA (Preview)",
+      "Description": "Create PdfA document. https://pdf4me.com/power-automate/documentation/actions/create-pdfa/",
+      "Anchor": "#create-pdfa-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateThumbnail_V1",
+      "Name": "Create a Thumbnail Image (Preview)",
+      "Description": "Create thumbnail for the PDF document. https://pdf4me.com/power-automate/documentation/actions/create-thumbnail/",
+      "Anchor": "#create-a-thumbnail-image-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractPages_V1",
+      "Name": "Extract Pages from PDF (Preview)",
+      "Description": "Extract the required pages from the PDF document. https://pdf4me.com/power-automate/documentation/actions/extract-pages/",
+      "Anchor": "#extract-pages-from-pdf-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Document-From-PDF4me",
+      "Name": "Get Document from PDF4me",
+      "Description": "Triggers when a document is sent from PDF4me apps.",
+      "Anchor": "#get-document-from-pdf4me",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImageStamp_V1",
+      "Name": "Image Stamp on PDF (Preview)",
+      "Description": "Add logo image or watermark image to the PDF document. https://pdf4me.com/power-automate/documentation/actions/image-stamp/",
+      "Anchor": "#image-stamp-on-pdf-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Merge_V1",
+      "Name": "Merge multiple PDF files into a single PDF file (Preview)",
+      "Description": "Merge multiple PDF documents into a single pdf document. https://pdf4me.com/power-automate/documentation/actions/merge/",
+      "Anchor": "#merge-multiple-pdf-files-into-a-single-pdf-file-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeOverlay_V1",
+      "Name": "Merge two PDF files one over another as Overlay (Preview)",
+      "Description": "Merge two PDF documents one over another as Overlay. https://pdf4me.com/power-automate/documentation/actions/merge-overlay/",
+      "Anchor": "#merge-two-pdf-files-one-over-another-as-overlay-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Optimize_V1",
+      "Name": "Optimize Document (Preview)",
+      "Description": "Optimize the PDF document. https://pdf4me.com/power-automate/documentation/actions/compress-pdf/",
+      "Anchor": "#optimize-document-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PdfOcr_V1",
+      "Name": "Convert PDF to editable PDF using OCR (Preview)",
+      "Description": "Create searchable PDF using OCR. https://pdf4me.com/power-automate/documentation/actions/pdf-ocr/",
+      "Anchor": "#convert-pdf-to-editable-pdf-using-ocr-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PdfToExcel_V1",
+      "Name": "Convert PDF to Excel (Preview)",
+      "Description": "Create XLSX spreadsheets from PDFs with tabular data. Even from an image you can generate an XLS. https://pdf4me.com/power-automate/documentation/actions/pdf-to-excel/",
+      "Anchor": "#convert-pdf-to-excel-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PdfToWord_V1",
+      "Name": "Convert PDF to Word (Preview)",
+      "Description": "Transform PDF documents to high quality editable DOCX files. https://pdf4me.com/power-automate/documentation/actions/pdf-to-word/",
+      "Anchor": "#convert-pdf-to-word-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProduceDocWithData_V1",
+      "Name": "Produce document with dynamic data collection and templates [DEPRECATED]",
+      "Description": "Produce your document with dynamic data collection and templates.",
+      "Anchor": "#produce-document-with-dynamic-data-collection-and-templates-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ProduceDocWithDataSingle_V1",
+      "Name": "Mail Merge with Data String (Single Doc) (Preview)",
+      "Description": "Merge document template with data as json text. https://pdf4me.com/power-automate/documentation/actions/mail-merge-with-data-string-single/",
+      "Anchor": "#mail-merge-with-data-string-(single-doc)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProduceDocWithDataString_V1",
+      "Name": "Mail Merge with Data String (List of Docs) (Preview)",
+      "Description": "Merge document template with data as json text. https://pdf4me.com/power-automate/documentation/actions/mail-merge-with-data-string-list/",
+      "Anchor": "#mail-merge-with-data-string-(list-of-docs)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProduceDocWithFile_V1",
+      "Name": "Mail Merge with Data File (List of Docs) (Preview)",
+      "Description": "Merge document template with data from excel or Json file. https://pdf4me.com/power-automate/documentation/actions/mail-merge-with-data-file-list/",
+      "Anchor": "#mail-merge-with-data-file-(list-of-docs)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProduceDocWithFileSingle_V1",
+      "Name": "Mail Merge with Data File (Single Doc) (Preview)",
+      "Description": "Merge document template with data from excel or Json file. https://pdf4me.com/power-automate/documentation/actions/mail-merge-with-data-file-single/",
+      "Anchor": "#mail-merge-with-data-file-(single-doc)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProtectDocument_V1",
+      "Name": "Protect Document (Preview)",
+      "Description": "Protect the document with custom password. https://pdf4me.com/power-automate/documentation/actions/protect-document/",
+      "Anchor": "#protect-document-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RotateDocument_V1",
+      "Name": "Rotate Document (Preview)",
+      "Description": "Rotate the pages and in all directions. https://pdf4me.com/power-automate/documentation/actions/rotate/",
+      "Anchor": "#rotate-document-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocByBarcode_V1",
+      "Name": "Split Document by Barcode (Preview)",
+      "Description": "Split the PDF document by barcode types and filters. https://pdf4me.com/power-automate/documentation/actions/split-by-barcode/",
+      "Anchor": "#split-document-by-barcode-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocument_V1",
+      "Name": "Split Document (Preview)",
+      "Description": "Split the PDF document by page number or recurring pages. https://pdf4me.com/power-automate/documentation/actions/split-pdf/",
+      "Anchor": "#split-document-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Stamp_V1",
+      "Name": "Text Stamp on PDF (Preview)",
+      "Description": "Add a background watermark text to the PDF document. https://pdf4me.com/power-automate/documentation/actions/text-stamp/",
+      "Anchor": "#text-stamp-on-pdf-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartPDF4meWf_V1",
+      "Name": "Send Document to PDF4me-Workflow (Preview)",
+      "Description": "Start PDF4me-Workflow with document from anywhere https://pdf4me.com/power-automate/documentation/actions/send-document-to-pdf4me-workflow/",
+      "Anchor": "#send-document-to-pdf4me-workflow-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

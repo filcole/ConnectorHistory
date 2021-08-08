@@ -1,0 +1,13 @@
+{
+  "UniqueName": "flotiqheadlesscms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../flotiqheadlesscms/",
+  "Actions": [
+    {
+      "OperationId": "CreateContentObject",
+      "Name": "Create Content Object",
+      "Description": "Create Content Object",
+      "Anchor": "#create-content-object",
+      "IsDeprecated": false
+    }
+  ]
+}

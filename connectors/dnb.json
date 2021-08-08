@@ -1,0 +1,20 @@
+{
+  "UniqueName": "dnb",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dnb/",
+  "Actions": [
+    {
+      "OperationId": "CleanseMatchAppend",
+      "Name": "Cleanse Match and Append [DEPRECATED]",
+      "Description": "D&amp;B Identity Resolution uses input criteria to find the best candidates in its extensive database of entities. It uses proprietary algorithms to identify the best matches and returns those matches with detailed information about what criteria was used to find the match.",
+      "Anchor": "#cleanse-match-and-append-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "Enrich",
+      "Name": "Retrieve data on a specific entity [DEPRECATED]",
+      "Description": "The Data Products API returns data about a requested DUNS. The data returned is specific to the product requested.",
+      "Anchor": "#retrieve-data-on-a-specific-entity-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

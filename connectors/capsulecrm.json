@@ -1,0 +1,195 @@
+{
+  "UniqueName": "capsulecrm",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../capsulecrm/",
+  "Actions": [
+    {
+      "OperationId": "CompleteTask",
+      "Name": "Complete task",
+      "Description": "This operation is used to complete a task.",
+      "Anchor": "#complete-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOpportunity",
+      "Name": "Create opportunity",
+      "Description": "This operation is used to create a new opportunity in your account.",
+      "Anchor": "#create-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOrganisation",
+      "Name": "Create organisation",
+      "Description": "This operation is used to create a new organisation in your Capsule account.",
+      "Anchor": "#create-organisation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePerson",
+      "Name": "Create person",
+      "Description": "This operation is used to create a new person in your Capsule account.",
+      "Anchor": "#create-person",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePersonV2",
+      "Name": "Create person (V2) (Preview)",
+      "Description": "This operation is used to create a new person in your Capsule account.",
+      "Anchor": "#create-person-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create task",
+      "Description": "This operation is used to create a new task.",
+      "Anchor": "#create-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteOpportunity",
+      "Name": "DeleteOpportunity",
+      "Description": "This operation is used to delete an existing opportunity.",
+      "Anchor": "#deleteopportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteParty",
+      "Name": "Delete party",
+      "Description": "This operation is used to delete a party from your account.",
+      "Anchor": "#delete-party",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOpportunity",
+      "Name": "Get opportunity",
+      "Description": "This operation is used to retrieve all information about an opportunity.",
+      "Anchor": "#get-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetParty",
+      "Name": "Get party",
+      "Description": "This operation retrieves all information about an existing party.",
+      "Anchor": "#get-party",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPartyV2",
+      "Name": "Get party (V2) (Preview)",
+      "Description": "This operation retrieves all information about an existing party.",
+      "Anchor": "#get-party-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOpportunities",
+      "Name": "List opportunities",
+      "Description": "This operation retrieves a list of all opportunities in your Capsule account.",
+      "Anchor": "#list-opportunities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOrganizations",
+      "Name": "List organizations",
+      "Description": "This operation is used to retrieve a list of all organisations in your account.",
+      "Anchor": "#list-organizations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListParties",
+      "Name": "List parties",
+      "Description": "This operation is used to retrieve a list of all parties in your Capsule account.",
+      "Anchor": "#list-parties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPartiesV2",
+      "Name": "List parties (V2) (Preview)",
+      "Description": "This operation is used to retrieve a list of all parties in your Capsule account.",
+      "Anchor": "#list-parties-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPeople",
+      "Name": "List people",
+      "Description": "This operation is used to retrieve a list of all people in your Capsule account.",
+      "Anchor": "#list-people",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPeopleV2",
+      "Name": "List people (V2) (Preview)",
+      "Description": "This operation is used to retrieve a list of all people in your Capsule account.",
+      "Anchor": "#list-people-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTasks",
+      "Name": "List tasks",
+      "Description": "This operation is used to retrieve a list of tasks.",
+      "Anchor": "#list-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewOpportunity",
+      "Name": "When an opportunity is created",
+      "Description": "This operation triggers when a new opportunity is created in your account.",
+      "Anchor": "#when-an-opportunity-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewParty",
+      "Name": "When a party is created",
+      "Description": "This operation triggers when a new party is created in your account.",
+      "Anchor": "#when-a-party-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewPartyV2",
+      "Name": "When a party is created (V2) (Preview)",
+      "Description": "This operation triggers when a new party is created in your account.",
+      "Anchor": "#when-a-party-is-created-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewTask",
+      "Name": "When a task is created",
+      "Description": "This operation triggers when a task is created in your account.",
+      "Anchor": "#when-a-task-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdateOpportunity",
+      "Name": "When an opportunity is updated",
+      "Description": "This operation triggers when an existing opportunity is updated in your account.",
+      "Anchor": "#when-an-opportunity-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateOpportunity",
+      "Name": "Update opportunity",
+      "Description": "This operation is used to update information about an existing opportunity.",
+      "Anchor": "#update-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateOrganisation",
+      "Name": "Update organisation",
+      "Description": "This operation is used to update information about an existing organisation.",
+      "Anchor": "#update-organisation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatePerson",
+      "Name": "Update person",
+      "Description": "This operation is used to update the information about an existing person in your Capsule account.",
+      "Anchor": "#update-person",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatePersonV2",
+      "Name": "Update person (V2) (Preview)",
+      "Description": "This operation is used to update the information about an existing person in your Capsule account.",
+      "Anchor": "#update-person-(v2)-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

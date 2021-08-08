@@ -1,0 +1,55 @@
+{
+  "UniqueName": "xooablockchain",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../xooablockchain/",
+  "Actions": [
+    {
+      "OperationId": "Create",
+      "Name": "Create an entry in the database",
+      "Description": "Create a key-value entry. Function will fail if the key already exists. If you want to update an entry (the key exists), use Update; if you want to create or update use CreateUpdate.",
+      "Anchor": "#create-an-entry-in-the-database",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUpdate",
+      "Name": "Create or Update a document",
+      "Description": "If the key does not already exist, creates a new key-value entry, else updates the value of an existing entry.",
+      "Anchor": "#create-or-update-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete",
+      "Name": "Deletes an entry",
+      "Description": "Creates a transaction to delete an entry with agiven key. The entry’s state no longer appears but the transactions that have updated the entry, including a transaction for the deletion is always kept and never deleted from the ledger.",
+      "Anchor": "#deletes-an-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get",
+      "Name": "Get the states of entries",
+      "Description": "Gives the current state of a given list of entries",
+      "Anchor": "#get-the-states-of-entries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "History",
+      "Name": "History for a key",
+      "Description": "Get the transaction history for an entry specified by the given key. Can be used to find deleted entries (through their transaction history).",
+      "Anchor": "#history-for-a-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Query",
+      "Name": "Query based on selection criteria",
+      "Description": "Query the database and return entries matching the selection criteria given by the selector.",
+      "Anchor": "#query-based-on-selection-criteria",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update",
+      "Name": "Updates a document",
+      "Description": "Updates an entry with agiven key. If an existing entry is not found, the request fails.",
+      "Anchor": "#updates-a-document",
+      "IsDeprecated": false
+    }
+  ]
+}

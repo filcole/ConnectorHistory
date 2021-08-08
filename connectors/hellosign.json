@@ -1,0 +1,48 @@
+{
+  "UniqueName": "hellosign",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hellosign/",
+  "Actions": [
+    {
+      "OperationId": "CancelRequest",
+      "Name": "Cancel signature request",
+      "Description": "Cancel an existing signature request.",
+      "Anchor": "#cancel-signature-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateRequest",
+      "Name": "Send signature request from template",
+      "Description": "Create and send a new signature request based off an existing template.",
+      "Anchor": "#send-signature-request-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRequest",
+      "Name": "Get signature request",
+      "Description": "Get a signature request that includes the current status for each signer.",
+      "Anchor": "#get-signature-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewRequest",
+      "Name": "When a signature request is created",
+      "Description": "Triggers when a new signature request is created.",
+      "Anchor": "#when-a-signature-request-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnRequestCompleted",
+      "Name": "When a signature request is completed",
+      "Description": "Triggers when a signature request is completed by all parties.",
+      "Anchor": "#when-a-signature-request-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnRequestDeclined",
+      "Name": "When a signature request is declined",
+      "Description": "Triggers when a signature request is decline.",
+      "Anchor": "#when-a-signature-request-is-declined",
+      "IsDeprecated": false
+    }
+  ]
+}

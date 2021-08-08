@@ -1,0 +1,20 @@
+{
+  "UniqueName": "mitto",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mitto/",
+  "Actions": [
+    {
+      "OperationId": "SmsBulkRequest_Post",
+      "Name": "Send an SMS to several receivers",
+      "Description": "Enables you to send an SMS to a bunch of receivers.",
+      "Anchor": "#send-an-sms-to-several-receivers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SmsRequest_Post",
+      "Name": "Send a single SMS",
+      "Description": "Enables you to send an SMS to a single recipient.",
+      "Anchor": "#send-a-single-sms",
+      "IsDeprecated": false
+    }
+  ]
+}

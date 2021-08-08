@@ -1,0 +1,13 @@
+{
+  "UniqueName": "smslink",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../smslink/",
+  "Actions": [
+    {
+      "OperationId": "SMSLinkSendSMS",
+      "Name": "SMSLink Send SMS",
+      "Description": "SMSLink Send SMS",
+      "Anchor": "#smslink-send-sms",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "UniqueName": "projectwiseshare",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../projectwiseshare/",
+  "Actions": [
+    {
+      "OperationId": "ActionCreateFile",
+      "Name": "Create a file in ProjectWise Share (Preview)",
+      "Description": "Create a File in ProjectWise Share Service under selected project and folder",
+      "Anchor": "#create-a-file-in-projectwise-share-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActionCreateFolder",
+      "Name": "Create a folder in ProjectWise Share (Preview)",
+      "Description": "Create a folder in ProjectWise Share Service under selected project and folder",
+      "Anchor": "#create-a-folder-in-projectwise-share-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActionDeleteFile",
+      "Name": "Delete a file in ProjectWise Share (Preview)",
+      "Description": "Delete a File in ProjectWise Share Service under selected project and folder",
+      "Anchor": "#delete-a-file-in-projectwise-share-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerWhenFileIsCreated",
+      "Name": "When a file is created (Preview)",
+      "Description": "When a file is created",
+      "Anchor": "#when-a-file-is-created-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerWhenFileIsHardDeleted",
+      "Name": "When a file is deleted from Recycle Bin (Preview)",
+      "Description": "When a file is deleted from Recycle Bin",
+      "Anchor": "#when-a-file-is-deleted-from-recycle-bin-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerWhenFileIsModified",
+      "Name": "When a file is modified (Preview)",
+      "Description": "When a file is modified",
+      "Anchor": "#when-a-file-is-modified-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerWhenFileIsMoved",
+      "Name": "When a file is moved (Preview)",
+      "Description": "When a file is moved",
+      "Anchor": "#when-a-file-is-moved-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerWhenFileMovedToRecycleBin",
+      "Name": "When a file is moved to Recycle Bin (Preview)",
+      "Description": "When a file is moved to Recycle Bin",
+      "Anchor": "#when-a-file-is-moved-to-recycle-bin-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerWhenFileRestored",
+      "Name": "When a file is restored from Recycle Bin (Preview)",
+      "Description": "When a file is restored from Recycle Bin",
+      "Anchor": "#when-a-file-is-restored-from-recycle-bin-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerWhenFolderCreated",
+      "Name": "When a folder is created (Preview)",
+      "Description": "When a folder is created",
+      "Anchor": "#when-a-folder-is-created-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerWhenFolderHardDeleted",
+      "Name": "When a folder is deleted from Recycle Bin (Preview)",
+      "Description": "When a folder is deleted from Recycle Bin",
+      "Anchor": "#when-a-folder-is-deleted-from-recycle-bin-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerWhenFolderMovedToRecycleBin",
+      "Name": "When a folder is moved to Recycle Bin (Preview)",
+      "Description": "When a folder moved to Recycle Bin",
+      "Anchor": "#when-a-folder-is-moved-to-recycle-bin-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

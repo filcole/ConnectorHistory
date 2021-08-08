@@ -1,0 +1,419 @@
+{
+  "UniqueName": "encodiandocumentmanager",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../encodiandocumentmanager/",
+  "Actions": [
+    {
+      "OperationId": "AddHtmlHeaderFooter",
+      "Name": "Add HTML Header or Footer",
+      "Description": "Add a HTML header, footer or both to the specified PDF document - https://support.encodian.com/hc/en-gb/articles/360013808614-Add-HTML-Header-or-Footer",
+      "Anchor": "#add-html-header-or-footer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddImageWatermark",
+      "Name": "Add Image Watermark",
+      "Description": "Add an image watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012484094-Add-Image-Watermark",
+      "Anchor": "#add-image-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddImageWatermarkAdvanced",
+      "Name": "Add Image Watermark (Advanced)",
+      "Description": "Add an image watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012485874-Add-Image-Watermark-Advanced-",
+      "Anchor": "#add-image-watermark-(advanced)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddPageNumbers",
+      "Name": "Add Page Numbers",
+      "Description": "Add page numbers to the PDF document provided - https://support.encodian.com/hc/en-gb/articles/360014464534-Add-Page-Numbers",
+      "Anchor": "#add-page-numbers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddTextWatermark",
+      "Name": "Add Text Watermark",
+      "Description": "Add a text watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012230494-Add-Text-Watermark",
+      "Anchor": "#add-text-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddTextWatermarkAdvanced",
+      "Name": "Add Text Watermark (Advanced)",
+      "Description": "Add a text watermark to the specified PDF document using the advanced options - https://support.encodian.com/hc/en-gb/articles/360012345813-Add-Text-Watermark-Advanced-",
+      "Anchor": "#add-text-watermark-(advanced)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddTextWatermarkToImage",
+      "Name": "Add Text Watermark to Image",
+      "Description": "Add a Text Watermark to the image provided - https://support.encodian.com/hc/en-gb/articles/360013560398-Add-Text-Watermark-To-Image",
+      "Anchor": "#add-text-watermark-to-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddToZip",
+      "Name": "Add to Archive (ZIP)",
+      "Description": "Add the files provided to an archive (.zip) file - https://support.encodian.com/hc/en-gb/articles/360002674918-Add-to-Archive-ZIP",
+      "Anchor": "#add-to-archive-(zip)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BasicConversion",
+      "Name": "Convert to PDF",
+      "Description": "Convert a document to PDF or PDF/A format - https://support.encodian.com/hc/en-gb/articles/360011123574-Convert-to-PDF",
+      "Anchor": "#convert-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompareWordDocuments",
+      "Name": "Compare Word Documents",
+      "Description": "Compare differences between Microsoft Word and PDF Documents - https://support.encodian.com/hc/en-gb/articles/360018576278-Compare-Word-Documents",
+      "Anchor": "#compare-word-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompressImage",
+      "Name": "Compress an Image",
+      "Description": "Compress the image provided - https://support.encodian.com/hc/en-gb/articles/360027350513-Compress-an-Image",
+      "Anchor": "#compress-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompressPdf",
+      "Name": "Compress PDF",
+      "Description": "Compress and optimise a PDF document - https://support.encodian.com/hc/en-gb/articles/360019994857-Compress-PDF",
+      "Anchor": "#compress-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertExcel",
+      "Name": "Convert Excel",
+      "Description": "Convert Microsoft Excel documents to another document format - https://support.encodian.com/hc/en-gb/articles/360011804178-Convert-Excel",
+      "Anchor": "#convert-excel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertMailMessage",
+      "Name": "Convert Email Message",
+      "Description": "Convert an email to PDF - https://support.encodian.com/hc/en-gb/articles/360011566298-Convert-Mail-Message",
+      "Anchor": "#convert-email-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertPdfToWord",
+      "Name": "Convert PDF to Word",
+      "Description": "Convert a PDF document to Microsoft Word (docx) format - https://support.encodian.com/hc/en-gb/articles/360027229294-Convert-PDF-to-Word",
+      "Anchor": "#convert-pdf-to-word",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertPowerPoint",
+      "Name": "Convert PowerPoint",
+      "Description": "Convert Microsoft PowerPoint documents to another document format - https://support.encodian.com/hc/en-gb/articles/360015879777-Convert-PowerPoint",
+      "Anchor": "#convert-powerpoint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertToPdfA",
+      "Name": "Convert PDF to PDFA",
+      "Description": "Convert a PDF document to PDF/A format - https://support.encodian.com/hc/en-gb/articles/360010578413-Convert-PDF-to-PDFA",
+      "Anchor": "#convert-pdf-to-pdfa",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertWord",
+      "Name": "Convert Word",
+      "Description": "Convert Microsoft Word documents to another document format - https://support.encodian.com/hc/en-gb/articles/360015616117-Convert-Word",
+      "Anchor": "#convert-word",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateBarcode",
+      "Name": "Create Barcode",
+      "Description": "Create a Barcode in the specified image format - https://support.encodian.com/hc/en-gb/articles/360006165457-Create-Barcode",
+      "Anchor": "#create-barcode",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateHashCode",
+      "Name": "Create Hash Code",
+      "Description": "Create a hashcode for the string provided - https://support.encodian.com/hc/en-gb/articles/360013996077-Create-Hash-Code",
+      "Anchor": "#create-hash-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateHMAC",
+      "Name": "Create HMAC",
+      "Description": "Create a Hash-based message authentication code (HMAC) using a secret key - https://support.encodian.com/hc/en-gb/articles/360012782058-Create-HMAC",
+      "Anchor": "#create-hmac",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateQrCode",
+      "Name": "Create QR Code",
+      "Description": "Create a QR code in the specified image format - https://support.encodian.com/hc/en-gb/articles/360005178237-Create-QR-Code",
+      "Anchor": "#create-qr-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractImages",
+      "Name": "Extract Images from PDF",
+      "Description": "Extract images from PDF using specified regions - https://support.encodian.com/hc/en-gb/articles/360006998058-Extract-Images-from-PDF",
+      "Anchor": "#extract-images-from-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractTextRegions",
+      "Name": "Extract Text from Regions",
+      "Description": "Extract text using OCR from 70+ files types using specified regions - https://support.encodian.com/hc/en-gb/articles/360015612353-Extract-Text-from-Regions",
+      "Anchor": "#extract-text-from-regions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FillPdfForm",
+      "Name": "Fill a PDF Form",
+      "Description": "Fill the PDF Form provided with the JSON data provided - https://support.encodian.com/hc/en-gb/articles/360008556077-Fill-a-PDF-Form",
+      "Anchor": "#fill-a-pdf-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPdfDocumentInfo",
+      "Name": "Get PDF Document Information",
+      "Description": "Get PDF Document Information (Number of Pages, File Size + more) - https://support.encodian.com/hc/en-gb/articles/360002949358-Get-PDF-Document-Information",
+      "Anchor": "#get-pdf-document-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPdfFormData",
+      "Name": "Get PDF Form Data",
+      "Description": "Extract PDF form data from a PDF Form - https://support.encodian.com/hc/en-gb/articles/360035107433-Get-PDF-Form-Data",
+      "Anchor": "#get-pdf-form-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPdfTextLayer",
+      "Name": "Get PDF Text Layer",
+      "Description": "Get the text layer for the PDF document provided - https://support.encodian.com/hc/en-gb/articles/360015539373-Get-PDF-Text-Layer",
+      "Anchor": "#get-pdf-text-layer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSubscriptionStatus",
+      "Name": "Get Subscription Status",
+      "Description": "Get the the status of your Encodian Subscription - https://support.encodian.com/hc/en-gb/articles/360010176717-Get-Subscription-Status",
+      "Anchor": "#get-subscription-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HtmlToPDF",
+      "Name": "Convert HTML to PDF",
+      "Description": "Convert the HTML or Web URL provided to a PDF document - https://support.encodian.com/hc/en-gb/articles/360022205154-Convert-HTML-to-PDF",
+      "Anchor": "#convert-html-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HtmlToWord",
+      "Name": "Convert HTML to Word",
+      "Description": "Convert the HTML or Web URL provided to a Microsoft Word document - https://support.encodian.com/hc/en-gb/articles/360011823213-Convert-HTML-to-Word",
+      "Anchor": "#convert-html-to-word",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImageCleanUpDocument",
+      "Name": "Image Clean Up (Document)",
+      "Description": "Execute image clean up activities focussed on text based images such as Deskew, Rotate, Despeckle + more.",
+      "Anchor": "#image-clean-up-(document)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImageCleanUpPhoto",
+      "Name": "Image Clean Up (Photo)",
+      "Description": "Execute image clean up activities for standard photo images.",
+      "Anchor": "#image-clean-up-(photo)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImageConvertFormat",
+      "Name": "Convert Image Format",
+      "Description": "Convert the format of the image provided - https://support.encodian.com/hc/en-gb/articles/360006617857-Convert-Image-Format",
+      "Anchor": "#convert-image-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImageExtractText",
+      "Name": "Extract Text from Image (OCR)",
+      "Description": "Extract text from the image provided - https://support.encodian.com/hc/en-gb/articles/360006998078-Extract-Text-from-Image-OCR",
+      "Anchor": "#extract-text-from-image-(ocr)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InsertHtmlToPdf",
+      "Name": "Insert HTML to PDF",
+      "Description": "Insert the HTML provided into a PDF document - https://support.encodian.com/hc/en-gb/articles/360011784354-Insert-HTML-to-PDF",
+      "Anchor": "#insert-html-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeArrayOfDocumentsToPdf",
+      "Name": "Merge document array to PDF",
+      "Description": "Convert and merge an array of documents to a single PDF document - https://support.encodian.com/hc/en-gb/articles/360014632213-Merge-document-array-to-PDF",
+      "Anchor": "#merge-document-array-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeArrayOfDocumentsToWord",
+      "Name": "Merge Word Documents",
+      "Description": "Merge an array of Microsoft Word documents to a single Microsoft Word document (DOCX) - https://support.encodian.com/hc/en-gb/articles/360023972213-Merge-document-array-to-Word",
+      "Anchor": "#merge-word-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergeDocumentsToPdf",
+      "Name": "Merge documents to PDF",
+      "Description": "Convert and merge the documents provided to a single PDF document - https://support.encodian.com/hc/en-gb/articles/360011886173-Merge-documents-to-PDF",
+      "Anchor": "#merge-documents-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OcrPdfDocument",
+      "Name": "OCR a PDF Document",
+      "Description": "Perform OCR on an existing PDF document - https://support.encodian.com/hc/en-gb/articles/360012686653-OCR-a-PDF-Document",
+      "Anchor": "#ocr-a-pdf-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ParseCsv",
+      "Name": "Parse CSV",
+      "Description": "Parse CSV and return the extracted data in JSON format - https://support.encodian.com/hc/en-gb/articles/360005177297-Parse-CSV",
+      "Anchor": "#parse-csv",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PopulateWordDocument",
+      "Name": "Populate Word Document",
+      "Description": "Populate a Microsoft Word Document (DOCX) with the JSON data provided - https://support.encodian.com/hc/en-gb/articles/360019620578-Populate-Word-Document",
+      "Anchor": "#populate-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadBarcodeFromDocument",
+      "Name": "Read Barcode - Document",
+      "Description": "Read barcode(s) from the document provided - https://support.encodian.com/hc/en-gb/articles/360006170938-Read-Barcode-Document",
+      "Anchor": "#read-barcode---document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadBarcodeFromImage",
+      "Name": "Read Barcode - Image",
+      "Description": "Read a barcode from the image provided - https://support.encodian.com/hc/en-gb/articles/360006170918-Read-Barcode-Image",
+      "Anchor": "#read-barcode---image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadQrCodeFromDocument",
+      "Name": "Read QR Code - Document",
+      "Description": "Read a QR code(s) from the document provided - https://support.encodian.com/hc/en-gb/articles/360006165437-Read-QR-Code-Document",
+      "Anchor": "#read-qr-code---document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadQrCodeFromImage",
+      "Name": "Read QR Code - Image",
+      "Description": "Read a QR code from the image provided - https://support.encodian.com/hc/en-gb/articles/360006170898-Read-QR-Code-Image",
+      "Anchor": "#read-qr-code---image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RedactPdf",
+      "Name": "Redact PDF",
+      "Description": "Apply the specified redactions to the PDF document provided - https://support.encodian.com/hc/en-gb/articles/360018607954-Redact-PDF-",
+      "Anchor": "#redact-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RegexSearchText",
+      "Name": "Search Text - Regex",
+      "Description": "Search the text provided to find matches using the regex provided - https://support.encodian.com/hc/en-gb/articles/360006764638-Search-Text-Regex",
+      "Anchor": "#search-text---regex",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResizeImage",
+      "Name": "Resize an Image",
+      "Description": "Resize and compress the image provided - https://support.encodian.com/hc/en-gb/articles/360018591034-Resize-an-Image",
+      "Anchor": "#resize-an-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchAndReplaceText",
+      "Name": "Search and Replace Text",
+      "Description": "Find and replace text contained within a PDF or DOCX document - https://support.encodian.com/hc/en-gb/articles/360020937853-Search-and-Replace-Text",
+      "Anchor": "#search-and-replace-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchAndReplaceTextWithImage",
+      "Name": "Replace Text with Image",
+      "Description": "Find and replace text contained within a PDF or DOCX document with an image - https://support.encodian.com/hc/en-gb/articles/360027234874",
+      "Anchor": "#replace-text-with-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SecurePdfDocument",
+      "Name": "Secure PDF Document",
+      "Description": "Encrypt and protect a PDF document - https://support.encodian.com/hc/en-gb/articles/360011330134-Secure-PDF-Document",
+      "Anchor": "#secure-pdf-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetPdfPrivileges",
+      "Name": "Set PDF Document Privileges",
+      "Description": "Set the privledges assigned to the PDF document - https://support.encodian.com/hc/en-gb/articles/360011337094-Set-PDF-Document-Privileges",
+      "Anchor": "#set-pdf-document-privileges",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitDocument",
+      "Name": "Split PDF",
+      "Description": "Split a PDF Document into multiple PDF Documents - https://support.encodian.com/hc/en-gb/articles/360002953277-Split-PDF",
+      "Anchor": "#split-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitPdfByBarcode",
+      "Name": "Split PDF by Barcode",
+      "Description": "Split a PDF Document by Barcode, returning multiple PDF Documents - https://support.encodian.com/hc/en-gb/articles/360013629457-Split-PDF-by-Barcode",
+      "Anchor": "#split-pdf-by-barcode",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitPdfByText",
+      "Name": "Split PDF by Text",
+      "Description": "Split a PDF Document by text into multiple PDF Documents - https://support.encodian.com/hc/en-gb/articles/360012726397-Split-PDF-by-Text",
+      "Anchor": "#split-pdf-by-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TextToPDF",
+      "Name": "Convert Text to PDF",
+      "Description": "Convert the text provided to a PDF document - https://support.encodian.com/hc/en-gb/articles/360011683054-Convert-Text-to-PDF",
+      "Anchor": "#convert-text-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnlockPdfDocument",
+      "Name": "Unlock PDF Document",
+      "Description": "Decrypt and remove password protection from a PDF document - https://support.encodian.com/hc/en-gb/articles/360003714237-Unlock-PDF-Document",
+      "Anchor": "#unlock-pdf-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WordToPdfForm",
+      "Name": "Convert Word to PDF Form",
+      "Description": "Convert the Word document provided (Legacy Form Controls Only) to a PDF form document. - https://support.encodian.com/hc/en-gb/articles/360012307133-Convert-Word-to-PDF-Form",
+      "Anchor": "#convert-word-to-pdf-form",
+      "IsDeprecated": false
+    }
+  ]
+}

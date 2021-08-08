@@ -1,0 +1,244 @@
+{
+  "UniqueName": "trello",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../trello/",
+  "Actions": [
+    {
+      "OperationId": "AddCommentToCard",
+      "Name": "Add a comment to a card",
+      "Description": "Add a comment to a specific card.",
+      "Anchor": "#add-a-comment-to-a-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddMemberToCard",
+      "Name": "Add member to a card",
+      "Description": "Add a member to a specific card.",
+      "Anchor": "#add-member-to-a-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseBoard",
+      "Name": "Close a board",
+      "Description": "Set a specific board to closed.",
+      "Anchor": "#close-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateBoard",
+      "Name": "Create a board",
+      "Description": "Create a new board with the specified fields.",
+      "Anchor": "#create-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCard",
+      "Name": "Create a card [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a card instead.\nCreates a new card with the parameters provided.",
+      "Anchor": "#create-a-card-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateCard_V2",
+      "Name": "Create a card",
+      "Description": "Creates a new card with the parameters provided.",
+      "Anchor": "#create-a-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateList",
+      "Name": "Create a list",
+      "Description": "Create a new list.",
+      "Anchor": "#create-a-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteCard",
+      "Name": "Delete a card",
+      "Description": "Delete an existing card from the account.",
+      "Anchor": "#delete-a-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBoard",
+      "Name": "Get a board by Id",
+      "Description": "Get a specific board by its unique identifier.",
+      "Anchor": "#get-a-board-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCard",
+      "Name": "Get a card by id",
+      "Description": "Get a specific card by its unique id.",
+      "Anchor": "#get-a-card-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetList",
+      "Name": "Get list by Id",
+      "Description": "Get an existing list and the cards in the list by the unique identifier of the list.",
+      "Anchor": "#get-list-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTeamForBoard",
+      "Name": "Get the team for a board",
+      "Description": "Get the team details for a specific board.",
+      "Anchor": "#get-the-team-for-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBoardLabels",
+      "Name": "List labels of a board",
+      "Description": "List the labels of a specific board.",
+      "Anchor": "#list-labels-of-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBoardMembers",
+      "Name": "List members of a board",
+      "Description": "List the members of a specific board.",
+      "Anchor": "#list-members-of-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBoards",
+      "Name": "List boards",
+      "Description": "List the boards matching the specified query parameters.",
+      "Anchor": "#list-boards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBoardsSimple",
+      "Name": "A simple version of the list boards",
+      "Description": "A simple version of the list boards API call with no parameters to be used by dynamic values.",
+      "Anchor": "#a-simple-version-of-the-list-boards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCardComments",
+      "Name": "List comments for a card",
+      "Description": "List the comments for a specific card.",
+      "Anchor": "#list-comments-for-a-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCardMembers",
+      "Name": "List members for a card",
+      "Description": "List the members for a specific card.",
+      "Anchor": "#list-members-for-a-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCards",
+      "Name": "List the cards in a board",
+      "Description": "List the cards matching the query parameters in a specific board.",
+      "Anchor": "#list-the-cards-in-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCardsSimple",
+      "Name": "A simple version of the list cards",
+      "Description": "A simple version of the list cards API method used by dynamic values.",
+      "Anchor": "#a-simple-version-of-the-list-cards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListLists",
+      "Name": "List the card lists in a board",
+      "Description": "List the card lists and the cards within the list in a specific board.",
+      "Anchor": "#list-the-card-lists-in-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListListsSimple",
+      "Name": "A simple version of list lists",
+      "Description": "A simple version of list lists to be used by dynamic values.",
+      "Anchor": "#a-simple-version-of-list-lists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTeamMembers",
+      "Name": "List members of a team",
+      "Description": "List the members in a specific team.",
+      "Anchor": "#list-members-of-a-team",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTeams",
+      "Name": "List teams you are a member of",
+      "Description": "The list of teams or organizations the account is a member of.",
+      "Anchor": "#list-teams-you-are-a-member-of",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewCardInBoard",
+      "Name": "When a new card is added to a board [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a new card is added to a board (V3) instead.\nTriggers a flow when a new card is added to a board.",
+      "Anchor": "#when-a-new-card-is-added-to-a-board-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewCardInBoardV2",
+      "Name": "When a new card is added to a board (V2)",
+      "Description": "Triggers a flow when a new card is added to a board.",
+      "Anchor": "#when-a-new-card-is-added-to-a-board-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewCardInBoardV3",
+      "Name": "When a new card is added to a board (V3) (Preview)",
+      "Description": "Triggers a flow when a new card is added to a board.",
+      "Anchor": "#when-a-new-card-is-added-to-a-board-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewCardInList",
+      "Name": "When a new card is added to a list [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a new card is added to a list (V3) instead.\nTriggers a flow when a new card is added to a list.",
+      "Anchor": "#when-a-new-card-is-added-to-a-list-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewCardInListV2",
+      "Name": "When a new card is added to a list (V2)",
+      "Description": "Triggers a flow when a new card is added to a list.",
+      "Anchor": "#when-a-new-card-is-added-to-a-list-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewCardInListV3",
+      "Name": "When a new card is added to a list (V3) (Preview)",
+      "Description": "Triggers a flow when a new card is added to a list.",
+      "Anchor": "#when-a-new-card-is-added-to-a-list-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateBoard",
+      "Name": "Update a board",
+      "Description": "Update an existing board.",
+      "Anchor": "#update-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateCard",
+      "Name": "Update a card [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update a card instead.\nUpdate an existing card with new parameters.",
+      "Anchor": "#update-a-card-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateCard_V2",
+      "Name": "Update a card",
+      "Description": "Update an existing card with new parameters.",
+      "Anchor": "#update-a-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateList",
+      "Name": "Update a list",
+      "Description": "Update an existing list.",
+      "Anchor": "#update-a-list",
+      "IsDeprecated": false
+    }
+  ]
+}

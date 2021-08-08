@@ -1,0 +1,230 @@
+{
+  "UniqueName": "azureblob",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azureblob/",
+  "Actions": [
+    {
+      "OperationId": "CopyFile",
+      "Name": "Copy blob [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Copy blob (V2) instead.\nThis operation copies a blob. If blob is being deleted/renamed on server right after it was copied, connector may return HTTP 404 error by it's design. Please use a delay for 1 minute before deleting or renaming newly created blob. Chunk transfer is not supported in this action. If source and destination are present in same storage account, please use relative path. Otherwise, maximum size of a source for copy blob operation is 50 MB.",
+      "Anchor": "#copy-blob-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CopyFile_V2",
+      "Name": "Copy blob (V2)",
+      "Description": "This operation copies a blob. If blob is being deleted/renamed on server right after it was copied, connector may return HTTP 404 error by it's design. Please use a delay for 1 minute before deleting or renaming newly created blob. Chunk transfer is not supported in this action. If source and destination are present in same storage account, please use relative path. Otherwise, maximum size of a source for copy blob operation is 50 MB.",
+      "Anchor": "#copy-blob-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateBlockBlob",
+      "Name": "Create block blob [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create block blob (V2) instead.\nThis operation uploads a block blob to Azure Blob Storage.",
+      "Anchor": "#create-block-blob-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateBlockBlob_V2",
+      "Name": "Create block blob (V2)",
+      "Description": "This operation uploads a block blob to Azure Blob Storage.",
+      "Anchor": "#create-block-blob-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFile",
+      "Name": "Create blob [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create blob (V2) instead.\nThis operation uploads a blob to Azure Blob Storage.",
+      "Anchor": "#create-blob-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateFile_V2",
+      "Name": "Create blob (V2)",
+      "Description": "This operation uploads a blob to Azure Blob Storage.",
+      "Anchor": "#create-blob-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateShareLinkByPath",
+      "Name": "Create SAS URI by path [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create SAS URI by path (V2) instead.\nThis operation creates a SAS link for a blob using the path.",
+      "Anchor": "#create-sas-uri-by-path-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateShareLinkByPath_V2",
+      "Name": "Create SAS URI by path (V2)",
+      "Description": "This operation creates a SAS link for a blob using the path.",
+      "Anchor": "#create-sas-uri-by-path-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFile",
+      "Name": "Delete blob [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Delete blob (V2) instead.\nThis operation deletes a blob.",
+      "Anchor": "#delete-blob-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "DeleteFile_V2",
+      "Name": "Delete blob (V2)",
+      "Description": "This operation deletes a blob.",
+      "Anchor": "#delete-blob-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractFolder_V3",
+      "Name": "Extract archive to folder (V2)",
+      "Description": "This operation extracts an archive blob into a folder (example: .zip).",
+      "Anchor": "#extract-archive-to-folder-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractFolderV2",
+      "Name": "Extract archive to folder [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Extract archive to folder (V2) instead.\nThis operation extracts an archive blob into a folder (example: .zip).",
+      "Anchor": "#extract-archive-to-folder-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetAccessPolicies",
+      "Name": "Get available access policies [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get available access policies (V2) instead.\nThis operation gets available shared access policies for a blob.",
+      "Anchor": "#get-available-access-policies-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetAccessPolicies_V2",
+      "Name": "Get available access policies (V2)",
+      "Description": "This operation gets available shared access policies for a blob.",
+      "Anchor": "#get-available-access-policies-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContent",
+      "Name": "Get blob content [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get blob content (V2) instead.\nThis operation retrieves blob contents using id.",
+      "Anchor": "#get-blob-content-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetFileContent_V2",
+      "Name": "Get blob content (V2)",
+      "Description": "This operation retrieves blob contents using id.",
+      "Anchor": "#get-blob-content-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContentByPath",
+      "Name": "Get blob content using path [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get blob content using path (V2) instead.\nThis operation retrieves blob contents using path.",
+      "Anchor": "#get-blob-content-using-path-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetFileContentByPath_V2",
+      "Name": "Get blob content using path (V2)",
+      "Description": "This operation retrieves blob contents using path.",
+      "Anchor": "#get-blob-content-using-path-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadata",
+      "Name": "Get Blob Metadata [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get Blob Metadata (V2) instead.\nThis operation retrieves blob metadata using blob id.",
+      "Anchor": "#get-blob-metadata-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetFileMetadata_V2",
+      "Name": "Get Blob Metadata (V2)",
+      "Description": "This operation retrieves blob metadata using blob id.",
+      "Anchor": "#get-blob-metadata-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadataByPath",
+      "Name": "Get Blob Metadata using path [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get Blob Metadata using path (V2) instead.\nThis operation retrieves blob metadata using path.",
+      "Anchor": "#get-blob-metadata-using-path-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetFileMetadataByPath_V2",
+      "Name": "Get Blob Metadata using path (V2)",
+      "Description": "This operation retrieves blob metadata using path.",
+      "Anchor": "#get-blob-metadata-using-path-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFolder_V4",
+      "Name": "Lists blobs (V2)",
+      "Description": "This operation lists blobs in a container.",
+      "Anchor": "#lists-blobs-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFolderV2",
+      "Name": "Lists blobs [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Lists blobs (V2) instead.\nThis operation lists blobs in a container.",
+      "Anchor": "#lists-blobs-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListRootFolder_V4",
+      "Name": "Lists blobs in the root folder  (V2)",
+      "Description": "This operation lists blobs in the Azure Blob Storage root folder.",
+      "Anchor": "#lists-blobs-in-the-root-folder-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRootFolderV2",
+      "Name": "Lists blobs in the root folder [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Lists blobs in the root folder  (V2) instead.\nThis operation lists blobs in the Azure Blob Storage root folder.",
+      "Anchor": "#lists-blobs-in-the-root-folder-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnUpdatedFiles",
+      "Name": "When a blob is added or modified (properties only) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a blob is added or modified (properties only) (V2) instead.\nThis operation triggers a flow when one or more blobs are added or modified in a container. This trigger will only fetch the file metadata. To get the file content, you can use the &quot;Get file content&quot; operation. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-blob-is-added-or-modified-(properties-only)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnUpdatedFiles_V2",
+      "Name": "When a blob is added or modified (properties only) (V2)",
+      "Description": "This operation triggers a flow when one or more blobs are added or modified in a container. This trigger will only fetch the file metadata. To get the file content, you can use the &quot;Get file content&quot; operation. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-blob-is-added-or-modified-(properties-only)-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetBlobTierByPath",
+      "Name": "Set blob tier by path [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Set blob tier by path (V2) instead.\nThis operation sets a tier for a block blob on a standard storage account using the path.",
+      "Anchor": "#set-blob-tier-by-path-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SetBlobTierByPath_V2",
+      "Name": "Set blob tier by path (V2)",
+      "Description": "This operation sets a tier for a block blob on a standard storage account using the path.",
+      "Anchor": "#set-blob-tier-by-path-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFile",
+      "Name": "Update blob [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update blob (V2) instead.\nThis operation updates a blob in Azure Blob Storage.",
+      "Anchor": "#update-blob-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateFile_V2",
+      "Name": "Update blob (V2)",
+      "Description": "This operation updates a blob in Azure Blob Storage.",
+      "Anchor": "#update-blob-(v2)",
+      "IsDeprecated": false
+    }
+  ]
+}

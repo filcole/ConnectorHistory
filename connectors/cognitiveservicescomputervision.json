@@ -1,0 +1,83 @@
+{
+  "UniqueName": "cognitiveservicescomputervision",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cognitiveservicescomputervision/",
+  "Actions": [
+    {
+      "OperationId": "AnalyzeImageV2",
+      "Name": "Analyze Image",
+      "Description": "This operation extracts a rich set of visual features based on the image content.",
+      "Anchor": "#analyze-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DescribeImageContentV2",
+      "Name": "Describe Image Content",
+      "Description": "This operation generates a description of image content in human readable language with complete sentences.",
+      "Anchor": "#describe-image-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DescribeImageURLV2",
+      "Name": "Describe Image URL",
+      "Description": "This operation generates a description of an image URL in human readable language with complete sentences.",
+      "Anchor": "#describe-image-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DescribeImageV2",
+      "Name": "Describe Image",
+      "Description": "This operation generates a description of an image in human readable language with complete sentences.",
+      "Anchor": "#describe-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DetectObjects",
+      "Name": "Detect Objects",
+      "Description": "Generates a list of deteced objects in the supplied image.",
+      "Anchor": "#detect-objects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAreaOfInterest",
+      "Name": "Get Area of Interest",
+      "Description": "Returns a bounding box around the most important area of the image.",
+      "Anchor": "#get-area-of-interest",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetThumbnailV2",
+      "Name": "Generate Thumbnail",
+      "Description": "This operation generates a thumbnail image with the user-specified width and height.",
+      "Anchor": "#generate-thumbnail",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OCRTextV2",
+      "Name": "Optical Character Recognition (OCR) to Text",
+      "Description": "Optical Character Recognition (OCR) detects text in an image and extracts the recognized characters into a text file.",
+      "Anchor": "#optical-character-recognition-(ocr)-to-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OCRV2",
+      "Name": "Optical Character Recognition (OCR) to JSON",
+      "Description": "Optical Character Recognition (OCR) detects text in an image and extracts the recognized characters into a machine-usable JSON stream.",
+      "Anchor": "#optical-character-recognition-(ocr)-to-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecognizeDomainSpecificContentV2",
+      "Name": "Recognize Domain Specific Content",
+      "Description": "Recognize celebrities or landmarks in an image.",
+      "Anchor": "#recognize-domain-specific-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TagImageV2",
+      "Name": "Tag Image",
+      "Description": "Generates a list of words, or tags, that are relevant to the content of the supplied image.",
+      "Anchor": "#tag-image",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UniqueName": "data8",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../data8/",
+  "Actions": [
+    {
+      "OperationId": "CleanAddress",
+      "Name": "Clean Address",
+      "Description": "Formats, verifies and corrects a given address into a full formatted address.",
+      "Anchor": "#clean-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFullAddress",
+      "Name": "Get Full Address",
+      "Description": "Searches for an addresses based on input data such as building number and postcode",
+      "Anchor": "#get-full-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsCallableCTPS",
+      "Name": "CTPS Check",
+      "Description": "Checks if a telephone number is registered on the CTPS or not.",
+      "Anchor": "#ctps-check",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsCallableTPS",
+      "Name": "TPS Check",
+      "Description": "Checks if a telephone number is registered on the TPS or not.",
+      "Anchor": "#tps-check",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsUsableName",
+      "Name": "Check Usable Name",
+      "Description": "Using this action, you can check if a name is a real usable name or whether it is salacious, random or blank.",
+      "Anchor": "#check-usable-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsValidBankAccount",
+      "Name": "Validate Bank Account Information",
+      "Description": "Check if a sort code and bank account number are valid.",
+      "Anchor": "#validate-bank-account-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsValidEmail",
+      "Name": "Validate Email Address",
+      "Description": "Checks to see if an inputted email address is valid to receive email",
+      "Anchor": "#validate-email-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsValidTelephone",
+      "Name": "Validate Telephone Number",
+      "Description": "Checks to see if an inputted email address is valid to receive email",
+      "Anchor": "#validate-telephone-number",
+      "IsDeprecated": false
+    }
+  ]
+}

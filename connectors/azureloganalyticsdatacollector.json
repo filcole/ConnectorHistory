@@ -1,0 +1,13 @@
+{
+  "UniqueName": "azureloganalyticsdatacollector",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azureloganalyticsdatacollector/",
+  "Actions": [
+    {
+      "OperationId": "SendData",
+      "Name": "Send Data",
+      "Description": "Send data to Azure Log Analytics workspace.",
+      "Anchor": "#send-data",
+      "IsDeprecated": false
+    }
+  ]
+}

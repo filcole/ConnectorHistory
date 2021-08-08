@@ -1,0 +1,27 @@
+{
+  "UniqueName": "cloudmersivecurrency",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudmersivecurrency/",
+  "Actions": [
+    {
+      "OperationId": "CurrencyExchange_ConvertCurrency",
+      "Name": "Converts a price from the source currency into the destination currency",
+      "Description": "Automatically converts the price in the source currency into the destination currency using the latest available currency exchange rate data.",
+      "Anchor": "#converts-a-price-from-the-source-currency-into-the-destination-currency",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CurrencyExchange_GetAvailableCurrencies",
+      "Name": "Get a list of available currencies and corresponding countries",
+      "Description": "Enumerates available currencies and the countries that correspond to these currencies.",
+      "Anchor": "#get-a-list-of-available-currencies-and-corresponding-countries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CurrencyExchange_GetExchangeRate",
+      "Name": "Gets the exchange rate from the source currency into the destination currency",
+      "Description": "Automatically gets the exchange rate from the source currency into the destination currency using the latest available currency exchange rate data.",
+      "Anchor": "#gets-the-exchange-rate-from-the-source-currency-into-the-destination-currency",
+      "IsDeprecated": false
+    }
+  ]
+}

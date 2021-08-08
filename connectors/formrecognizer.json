@@ -1,0 +1,48 @@
+{
+  "UniqueName": "formrecognizer",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../formrecognizer/",
+  "Actions": [
+    {
+      "OperationId": "AnalyzeBusinessCardAsync",
+      "Name": "Analyze Business Card",
+      "Description": "Extract field text and semantic values from a given business card document.",
+      "Anchor": "#analyze-business-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AnalyzeIdDocumentAsync",
+      "Name": "Analyze ID Document",
+      "Description": "Extract field text and semantic values from a given ID document.",
+      "Anchor": "#analyze-id-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AnalyzeInvoice",
+      "Name": "Analyze Invoice",
+      "Description": "Extract field text and semantic values from a given invoice document.",
+      "Anchor": "#analyze-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AnalyzeLayoutAsync",
+      "Name": "Analyze Layout",
+      "Description": "Extract text and layout information from a given document.",
+      "Anchor": "#analyze-layout",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AnalyzeReceiptAsync",
+      "Name": "Analyze Receipt",
+      "Description": "Extract field text and semantic values from a given receipt document.",
+      "Anchor": "#analyze-receipt",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AnalyzeWithCustomForm",
+      "Name": "Analyze Custom Form",
+      "Description": "Extract key-value pairs, tables, and semantic values from a given document.",
+      "Anchor": "#analyze-custom-form",
+      "IsDeprecated": false
+    }
+  ]
+}

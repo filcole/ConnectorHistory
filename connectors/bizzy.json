@@ -1,0 +1,160 @@
+{
+  "UniqueName": "bizzy",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bizzy/",
+  "Actions": [
+    {
+      "OperationId": "DeleteBotMemory",
+      "Name": "Delete from bot memory",
+      "Description": "This operation is used to remove a piece of information from memory in the bot.",
+      "Anchor": "#delete-from-bot-memory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateAdaptiveCard",
+      "Name": "Generate Adaptive Card",
+      "Description": "This operation is used to a generate an adaptive card to be used later to display a list or carousel of cards.",
+      "Anchor": "#generate-adaptive-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMemoryItemsByType",
+      "Name": "Get Bot Memory Items by Type",
+      "Description": "Get all Bot Memory Items by Type.",
+      "Anchor": "#get-bot-memory-items-by-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SaveBotMemory",
+      "Name": "Save to bot memory",
+      "Description": "This operation is used to save a piece of information to memory in the bot.",
+      "Anchor": "#save-to-bot-memory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendBridgeEvent",
+      "Name": "Send Event",
+      "Description": "This operation is used to a send an event to the bot client.",
+      "Anchor": "#send-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendReply",
+      "Name": "Send reply",
+      "Description": "This operation is used to a send a reply to the activity that triggered the flow.",
+      "Anchor": "#send-reply",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendReplyWithAdaptiveCard",
+      "Name": "Send Adaptive Card reply",
+      "Description": "This operation is used to a send an adaptive card reply to the activity that triggered the flow.",
+      "Anchor": "#send-adaptive-card-reply",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendReplyWithAdaptiveCardSet",
+      "Name": "Send Adaptive Card Set reply",
+      "Description": "This operation is used to a send an adaptive card set reply to the activity that triggered the flow.  The set can be in either List or Carousel form.",
+      "Anchor": "#send-adaptive-card-set-reply",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartConversation",
+      "Name": "Start a new private conversation",
+      "Description": "This operation is used to start a new private conversation with a user.",
+      "Anchor": "#start-a-new-private-conversation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartGroupConversation",
+      "Name": "Start a new group conversation",
+      "Description": "This operation is used to start a new group conversation in a channel.",
+      "Anchor": "#start-a-new-group-conversation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateAdaptiveCard",
+      "Name": "Update an adaptive card sent to a tab",
+      "Description": "This operation is used to update a card sent to a tab.",
+      "Anchor": "#update-an-adaptive-card-sent-to-a-tab",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_InitiateBridge",
+      "Name": "Register chat bridge between two or more conversations",
+      "Description": "This operation is used to initiate a chat bridge between two or more users.",
+      "Anchor": "#register-chat-bridge-between-two-or-more-conversations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_InputResponse",
+      "Name": "Get response from User",
+      "Description": "This operation is used to ask the user for input.",
+      "Anchor": "#get-response-from-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_InputResponse_ADAPTIVECARD",
+      "Name": "Get adaptive card response from User",
+      "Description": "This operation is used to ask the user for input via adaptive card.",
+      "Anchor": "#get-adaptive-card-response-from-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_InputResponse_CHOICE",
+      "Name": "Get choice response from User",
+      "Description": "This operation is used to ask the user for choice input.",
+      "Anchor": "#get-choice-response-from-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_InputResponse_CHOICELIST",
+      "Name": "Get choice list response from User",
+      "Description": "This operation is used to ask the user for choice list input.",
+      "Anchor": "#get-choice-list-response-from-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_InputResponse_DATE",
+      "Name": "Get datetime response from User",
+      "Description": "This operation is used to ask the user for datetime input.",
+      "Anchor": "#get-datetime-response-from-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_InputResponse_INTENTVECTOR",
+      "Name": "Get intent vector response from User",
+      "Description": "This operation is used to ask the user for NLP input.",
+      "Anchor": "#get-intent-vector-response-from-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_InputResponse_MEMORY",
+      "Name": "Get memory response from User",
+      "Description": "This operation is used to ask the user for bot memory input.",
+      "Anchor": "#get-memory-response-from-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_InputResponse_PEOPLE",
+      "Name": "Get people response from User",
+      "Description": "This operation is used to ask the user for people picker input.",
+      "Anchor": "#get-people-response-from-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrations_Post",
+      "Name": "When a keyword is used",
+      "Description": "This operation triggers when the given keyword(s) are used by the bot.  Supply multiple keywords in semi-colon delimited format.",
+      "Anchor": "#when-a-keyword-is-used",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebHookRegistrationsVector_Post",
+      "Name": "When an intent vector is recognized",
+      "Description": "This operation triggers when the given LUIS intent vector is recognized by the bot.",
+      "Anchor": "#when-an-intent-vector-is-recognized",
+      "IsDeprecated": false
+    }
+  ]
+}

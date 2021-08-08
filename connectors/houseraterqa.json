@@ -1,0 +1,20 @@
+{
+  "UniqueName": "houseraterqa",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../houseraterqa/",
+  "Actions": [
+    {
+      "OperationId": "InspectionStatusChange",
+      "Name": "Inspection Status Change",
+      "Description": "On Inspection Status Change",
+      "Anchor": "#inspection-status-change",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateInspection",
+      "Name": "Create or update Inspection",
+      "Description": "Create or update an inspection inside of HouseRater",
+      "Anchor": "#create-or-update-inspection",
+      "IsDeprecated": false
+    }
+  ]
+}

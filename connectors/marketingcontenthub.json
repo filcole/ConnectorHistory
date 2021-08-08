@@ -1,0 +1,76 @@
+{
+  "UniqueName": "marketingcontenthub",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../marketingcontenthub/",
+  "Actions": [
+    {
+      "OperationId": "AddEntityByDefinition",
+      "Name": "Add Entity",
+      "Description": "Adds an entity for a certain entity definition like 'M.Brand' - uses dynamic values and outputs dynamic-schema.",
+      "Anchor": "#add-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddFetchJob",
+      "Name": "Add Fetch Job",
+      "Description": "Adds a FetchJob.",
+      "Anchor": "#add-fetch-job",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteEntityByIdentifier",
+      "Name": "Delete Entity By Identifier",
+      "Description": "Deletes an entity via identifier.",
+      "Anchor": "#delete-entity-by-identifier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEntityByIdentifier",
+      "Name": "Get Entity By Identifier",
+      "Description": "Retrieves a certain entity by its identifier and definition.",
+      "Anchor": "#get-entity-by-identifier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFetchJobById",
+      "Name": "Get FetchJob Status",
+      "Description": "Gets the status of a FetchJob.",
+      "Anchor": "#get-fetchjob-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEntitiesByDefinition",
+      "Name": "List Entities",
+      "Description": "Gets entities from a certain entity definition like 'M.Brand' - uses dynamic values and outputs dynamic-schema.",
+      "Anchor": "#list-entities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnEntitySaveTrigger",
+      "Name": "On Entity Save",
+      "Description": "Trigger that executes for every entity save.",
+      "Anchor": "#on-entity-save",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QueryEntitiesByDefinitionAdvanced",
+      "Name": "Query Entities (Advanced)",
+      "Description": "Queries entities, based on the type of entity (advanced).",
+      "Anchor": "#query-entities-(advanced)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QueryEntitiesByDefinitionSimple",
+      "Name": "Query Entities (Simple)",
+      "Description": "Queries entities, based on the type of entity (simple).",
+      "Anchor": "#query-entities-(simple)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEntityByIdentifier",
+      "Name": "Update Entity by Identifier",
+      "Description": "Updates an entity for a certain entity definition - uses dynamic values and outputs dynamic-schema.",
+      "Anchor": "#update-entity-by-identifier",
+      "IsDeprecated": false
+    }
+  ]
+}

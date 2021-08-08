@@ -1,0 +1,76 @@
+{
+  "UniqueName": "office365groups",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../office365groups/",
+  "Actions": [
+    {
+      "OperationId": "AddMemberToGroup",
+      "Name": "Add member to group",
+      "Description": "This operation is used to add a member to an O365 group, using a UPN.",
+      "Anchor": "#add-member-to-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCalendarEvent",
+      "Name": "Create a group event [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a group event (V2) instead.\nThis operation is used to create a new event in a group calendar.",
+      "Anchor": "#create-a-group-event-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateCalendarEventV2",
+      "Name": "Create a group event (V2)",
+      "Description": "This operation is used to create a new event in a group calendar.",
+      "Anchor": "#create-a-group-event-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGroupMembers",
+      "Name": "List group members",
+      "Description": "This operation returns a list of all members in the given group and their details such as name, title, email, etc. You can query up to 1000 items using Top parameter. In case you need to retrieve more than 1000 values please turn on Settings-&gt;Pagination feature and provide Threshold limit.",
+      "Anchor": "#list-group-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOwnedGroups",
+      "Name": "List my owned groups",
+      "Description": "This operation returns a list of all groups that you own.",
+      "Anchor": "#list-my-owned-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOwnedGroups_V2",
+      "Name": "List my owned groups (V2)",
+      "Description": "This operation returns a list of all groups that you own.",
+      "Anchor": "#list-my-owned-groups-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOwnedGroups_V3",
+      "Name": "List groups that I own and belong to",
+      "Description": "This operation returns a list of all groups that you own and belong to.",
+      "Anchor": "#list-groups-that-i-own-and-belong-to",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnGroupMembershipChange",
+      "Name": "When a group member is added or removed",
+      "Description": "This operation triggers when a member is added to or removed from the given group.",
+      "Anchor": "#when-a-group-member-is-added-or-removed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewEvent",
+      "Name": "When there is a new event",
+      "Description": "This operation triggers when a new event is added to a group calendar.",
+      "Anchor": "#when-there-is-a-new-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveMemberFromGroup",
+      "Name": "Remove member from group",
+      "Description": "This operation is used to remove a member from an O365 group, using a UPN.",
+      "Anchor": "#remove-member-from-group",
+      "IsDeprecated": false
+    }
+  ]
+}

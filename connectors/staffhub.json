@@ -1,0 +1,174 @@
+{
+  "UniqueName": "staffhub",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../staffhub/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "List the user's teams [DEPRECATED]",
+      "Description": "This operation lists all teams that the user is a member of.",
+      "Anchor": "#list-the-user's-teams-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetCurrentAccountAccount",
+      "Name": "Get current account [DEPRECATED]",
+      "Description": "Get the account of the current logged in user.",
+      "Anchor": "#get-current-account-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetMember",
+      "Name": "Get a team member by ID [DEPRECATED]",
+      "Description": "This operation gets a member of a team by their unique ID.",
+      "Anchor": "#get-a-team-member-by-id-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetSchedule",
+      "Name": "Get Schedule details [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a Schedule's details instead.\nThis operation returns details of a schedule using the schedule's unique ID.",
+      "Anchor": "#get-schedule-details-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetShift",
+      "Name": "Get Shift [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a Shift instead.\nThis operation returns details for a shift using the shift's unique ID.",
+      "Anchor": "#get-shift-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetShiftRequest",
+      "Name": "Get Shift Request details [DEPRECATED]",
+      "Description": "This operation returns details for a shift request using the request's unique ID.",
+      "Anchor": "#get-shift-request-details-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetTeam",
+      "Name": "Get team details [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a team instead.\nThis operation returns details for a team using the team's unique ID.",
+      "Anchor": "#get-team-details-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListMembers",
+      "Name": "List all members in a team [DEPRECATED]",
+      "Description": "This operation lists all the members of a given team.",
+      "Anchor": "#list-all-members-in-a-team-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListShiftRequests",
+      "Name": "Get shift requests [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Time Off Reasons instead.\nThis operation returns all shift requests for a team using the team's unique ID.",
+      "Anchor": "#get-shift-requests-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListShifts",
+      "Name": "List all team shifts [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Shifts instead.\nThis operation returns all shifts assigned to members of a team",
+      "Anchor": "#list-all-team-shifts-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListTags",
+      "Name": "List all groups in a team [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Scheduling Groups instead.\nThis operation lists all groups within a team.",
+      "Anchor": "#list-all-groups-in-a-team-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListTimeOffReasons",
+      "Name": "Get Time Off Reasons [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all Time Off Reasons instead.\nThis operation returns the list of time off reasons associated with a team.",
+      "Anchor": "#get-time-off-reasons-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SubscribeWebHookNotificationsForMemberCreated",
+      "Name": "When a new member is added to the team [DEPRECATED]",
+      "Description": "This operation triggers when a new member is added to the team.",
+      "Anchor": "#when-a-new-member-is-added-to-the-team-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SubscribeWebHookNotificationsForMemberDeleted",
+      "Name": "When a member is deleted from the team [DEPRECATED]",
+      "Description": "This operation triggers when a member is deleted from the team.",
+      "Anchor": "#when-a-member-is-deleted-from-the-team-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SubscribeWebHookNotificationsForMemberUpdated",
+      "Name": "When a member is updated in the team [DEPRECATED]",
+      "Description": "This operation triggers when a team member is updated.",
+      "Anchor": "#when-a-member-is-updated-in-the-team-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SubscribeWebHookNotificationsForSchedulePublished",
+      "Name": "When a schedule is published for the team [DEPRECATED]",
+      "Description": "This operation triggers when a schedule is published for the team.",
+      "Anchor": "#when-a-schedule-is-published-for-the-team-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SubscribeWebHookNotificationsForShiftCreated",
+      "Name": "When a new shift is added to the team [DEPRECATED]",
+      "Description": "This operation triggers when a new shift is added to a member of a team.",
+      "Anchor": "#when-a-new-shift-is-added-to-the-team-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SubscribeWebHookNotificationsForShiftDeleted",
+      "Name": "When a shift is deleted in a team [DEPRECATED]",
+      "Description": "This operation triggers when a shift is deleted for a member of a team.",
+      "Anchor": "#when-a-shift-is-deleted-in-a-team-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SubscribeWebHookNotificationsForShiftRequestCreated",
+      "Name": "When a new shift request is created [DEPRECATED]",
+      "Description": "This operation triggers when a new swap, offer or time off shift request is created.",
+      "Anchor": "#when-a-new-shift-request-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SubscribeWebHookNotificationsForShiftRequestDeleted",
+      "Name": "When a shift request is deleted [DEPRECATED]",
+      "Description": "This operation triggers when a swap, offer or time off shift request is deleted.",
+      "Anchor": "#when-a-shift-request-is-deleted-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SubscribeWebHookNotificationsForShiftRequestUpdated",
+      "Name": "When a shift request is updated [DEPRECATED]",
+      "Description": "This operation triggers when a swap, offer or time off shift request is updated.",
+      "Anchor": "#when-a-shift-request-is-updated-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SubscribeWebHookNotificationsForShiftUpdated",
+      "Name": "When a shift is updated in a team [DEPRECATED]",
+      "Description": "This operation triggers when a shift is updated for a member of a team.",
+      "Anchor": "#when-a-shift-is-updated-in-a-team-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SwapHandOffManagerAccept",
+      "Name": "Approve a shift swap or hand off request (managers only) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Approve a Swap Shifts request instead.\nThis operation allows managers to approve a shift swap or hand off request.",
+      "Anchor": "#approve-a-shift-swap-or-hand-off-request-(managers-only)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "TimeOffManagerRequestComplete",
+      "Name": "Approve or deny a time off request (managers only) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Approve a Time Off request instead.\nThis operation allows managers to approve or deny a time off request.",
+      "Anchor": "#approve-or-deny-a-time-off-request-(managers-only)-[deprecated]",
+      "IsDeprecated": true
+    }
+  ]
+}

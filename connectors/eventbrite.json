@@ -1,0 +1,62 @@
+{
+  "UniqueName": "eventbrite",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../eventbrite/",
+  "Actions": [
+    {
+      "OperationId": "CreateEvent",
+      "Name": "Create event [DEPRECATED]",
+      "Description": "Create a new Eventbrite event.",
+      "Anchor": "#create-event-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateEventV2",
+      "Name": "Create event (V2)",
+      "Description": "Create a new Eventbrite event.",
+      "Anchor": "#create-event-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewEvent",
+      "Name": "When an event is created [DEPRECATED]",
+      "Description": "Triggers a flow when an organizer has a new event.",
+      "Anchor": "#when-an-event-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewEventV2",
+      "Name": "When an event is created (V2)",
+      "Description": "Triggers a flow when an organizer has a new event.",
+      "Anchor": "#when-an-event-is-created-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnOrderChanged",
+      "Name": "When an order changes [DEPRECATED]",
+      "Description": "Trigger a flow when an order changes.",
+      "Anchor": "#when-an-order-changes-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnOrderChangedV2",
+      "Name": "When an order changes (V2)",
+      "Description": "Trigger a flow when an order changes.",
+      "Anchor": "#when-an-order-changes-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEvent",
+      "Name": "Update event [DEPRECATED]",
+      "Description": "Update an existing event.",
+      "Anchor": "#update-event-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateEventV2",
+      "Name": "Update event (V2)",
+      "Description": "Update an existing event.",
+      "Anchor": "#update-event-(v2)",
+      "IsDeprecated": false
+    }
+  ]
+}

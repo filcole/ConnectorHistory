@@ -1,0 +1,41 @@
+{
+  "UniqueName": "tyntec2fa",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tyntec2fa/",
+  "Actions": [
+    {
+      "OperationId": "DeleteOTP",
+      "Name": "Delete One-Time Password",
+      "Description": "Deletes a given One-time Password",
+      "Anchor": "#delete-one-time-password",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResendOTP",
+      "Name": "Resend One-Time Password",
+      "Description": "Resends the given OTP (One-time Password) to a destination number.",
+      "Anchor": "#resend-one-time-password",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendOTP",
+      "Name": "Send One-Time Password",
+      "Description": "Sends an OTP (One-time Password) to a destination number.",
+      "Anchor": "#send-one-time-password",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StatusOTP",
+      "Name": "Get One-Time Password Status",
+      "Description": "Gets status report for given One-Time Password",
+      "Anchor": "#get-one-time-password-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VerifyOTP",
+      "Name": "Verify One-Time Password",
+      "Description": "Verifies the given OTP code.",
+      "Anchor": "#verify-one-time-password",
+      "IsDeprecated": false
+    }
+  ]
+}

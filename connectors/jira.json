@@ -1,0 +1,83 @@
+{
+  "UniqueName": "jira",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../jira/",
+  "Actions": [
+    {
+      "OperationId": "AddComment",
+      "Name": "Add comment",
+      "Description": "This operation is used to add a comment to an existing JIRA issue.",
+      "Anchor": "#add-comment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateIssue",
+      "Name": "Create a new issue [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a new issue (V2) instead.\nThis operation is used to create a new issue.",
+      "Anchor": "#create-a-new-issue-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateIssueV2",
+      "Name": "Create a new issue (V2)",
+      "Description": "This operation is used to create a new issue.",
+      "Anchor": "#create-a-new-issue-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProject",
+      "Name": "Create a new project",
+      "Description": "This operation is used to create a new JIRA project.",
+      "Anchor": "#create-a-new-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIssue",
+      "Name": "Get issue by key",
+      "Description": "This operation is used to retrieve the issue object for a given issue Key.",
+      "Anchor": "#get-issue-by-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProjects",
+      "Name": "Get projects [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get projects instead.\nThis operation is used to retrieve a list of projects for your JIRA instance.",
+      "Anchor": "#get-projects-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListProjects_V2",
+      "Name": "Get projects",
+      "Description": "This operation is used to retrieve a list of projects for your JIRA instance.",
+      "Anchor": "#get-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProjectUsers",
+      "Name": "List users by project",
+      "Description": "This operation is used to retrieve a list of all users associated with a project.",
+      "Anchor": "#list-users-by-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnCloseIssue",
+      "Name": "When an issue is closed",
+      "Description": "This operation triggers when an existing issue is closed in the given project.",
+      "Anchor": "#when-an-issue-is-closed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewIssue",
+      "Name": "When a new issue is created",
+      "Description": "This operation triggers when a new issue is added to the given project.",
+      "Anchor": "#when-a-new-issue-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewIssueJQL",
+      "Name": "When a new issue is returned by a JQL query",
+      "Description": "This operation triggers when a new issue appears in the latest 100 results of a JQL query.",
+      "Anchor": "#when-a-new-issue-is-returned-by-a-jql-query",
+      "IsDeprecated": false
+    }
+  ]
+}

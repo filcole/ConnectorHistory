@@ -1,0 +1,27 @@
+{
+  "UniqueName": "twilio",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../twilio/",
+  "Actions": [
+    {
+      "OperationId": "GetMessage",
+      "Name": "Get Message",
+      "Description": "This operation returns a single message specified by the provided Message ID.",
+      "Anchor": "#get-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListMessages",
+      "Name": "List Messages",
+      "Description": "Returns a list of messages associated with your account.",
+      "Anchor": "#list-messages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "Send Text Message (SMS)",
+      "Description": "This operation is used to send a new message to a mobile number.",
+      "Anchor": "#send-text-message-(sms)",
+      "IsDeprecated": false
+    }
+  ]
+}

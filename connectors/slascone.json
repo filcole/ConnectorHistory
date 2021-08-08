@@ -1,0 +1,27 @@
+{
+  "UniqueName": "slascone",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../slascone/",
+  "Actions": [
+    {
+      "OperationId": "Create-Customer-Trigger",
+      "Name": "Create Customer",
+      "Description": "This trigger is issued whenever a new Customer is added to your Slascone Enviroment",
+      "Anchor": "#create-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DataExchange-AddCustomerAsync",
+      "Name": "Add a Customer",
+      "Description": "This action adds a Customer to your Slascone Enviroment.",
+      "Anchor": "#add-a-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DataExchange-UpdateCustomerAsync",
+      "Name": "Update a Customer",
+      "Description": "This action updates a Customer to your Slascone Enviroment.",
+      "Anchor": "#update-a-customer",
+      "IsDeprecated": false
+    }
+  ]
+}

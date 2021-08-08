@@ -1,0 +1,13 @@
+{
+  "UniqueName": "billspls",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../billspls/",
+  "Actions": [
+    {
+      "OperationId": "ReceiptsProcess",
+      "Name": "Receipts Process",
+      "Description": "Process the receipts/bills to extract only the useful details like vendor name, total, date, etc., categorize the bill into different categories like food, travel, etc. based on the line items in the receipts and detects the currency from the bill.",
+      "Anchor": "#receipts-process",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "UniqueName": "powerappsforadmins",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../powerappsforadmins/",
+  "Actions": [
+    {
+      "OperationId": "Edit-AdminAppRoleAssignment",
+      "Name": "Edit App Role Assignment as Admin",
+      "Description": "Sets permissions for a PowerApp.",
+      "Anchor": "#edit-app-role-assignment-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit-AdminConnectionRoleAssignment",
+      "Name": "Edit Connection Role Assignment as Admin",
+      "Description": "Sets permissions for a Connection.",
+      "Anchor": "#edit-connection-role-assignment-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit-AdminConnectorRoleAssignment",
+      "Name": "Edit Connector Role Assignment as Admin",
+      "Description": "Sets permissions for a Connector.",
+      "Anchor": "#edit-connector-role-assignment-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminApp",
+      "Name": "Get App as Admin",
+      "Description": "Returns a PowerApp.",
+      "Anchor": "#get-app-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminAppRoleAssignment",
+      "Name": "Get App Role Assignments as Admin",
+      "Description": "Returns permissions for a PowerApp.",
+      "Anchor": "#get-app-role-assignments-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminApps",
+      "Name": "Get Apps as Admin",
+      "Description": "Returns a list of apps.",
+      "Anchor": "#get-apps-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminConnectionRoleAssignment",
+      "Name": "Get Connection Role Assignments as Admin",
+      "Description": "Returns all permissions for a Connection.",
+      "Anchor": "#get-connection-role-assignments-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminConnections",
+      "Name": "Get Connections as Admin",
+      "Description": "Returns a list of Connections.",
+      "Anchor": "#get-connections-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminConnectorRoleAssignment",
+      "Name": "Get Connector Role Assignments as Admin",
+      "Description": "Returns permissions for a custom Connector.",
+      "Anchor": "#get-connector-role-assignments-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-AdminConnectors",
+      "Name": "Get Custom Connectors as Admin",
+      "Description": "Returns a list of custom Connectors.",
+      "Anchor": "#get-custom-connectors-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove-AdminApp",
+      "Name": "Remove App as Admin",
+      "Description": "Deletes a PowerApp.",
+      "Anchor": "#remove-app-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove-AdminConnection",
+      "Name": "Remove Connection as Admin",
+      "Description": "Deletes a Connection.",
+      "Anchor": "#remove-connection-as-admin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Set-AdminAppOwner",
+      "Name": "Set App Owner",
+      "Description": "Updates a PowerApp's owner role, and specifies the old owner's new role.",
+      "Anchor": "#set-app-owner",
+      "IsDeprecated": false
+    }
+  ]
+}

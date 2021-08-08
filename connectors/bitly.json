@@ -1,0 +1,34 @@
+{
+  "UniqueName": "bitly",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bitly/",
+  "Actions": [
+    {
+      "OperationId": "CreateBitlink",
+      "Name": "Create a bitlink [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a bitlink (V2) instead.\nCreate a shortened Bitlink.",
+      "Anchor": "#create-a-bitlink-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateBitlink_V2",
+      "Name": "Create a bitlink (V2) (Preview)",
+      "Description": "Create a shortened Bitlink.",
+      "Anchor": "#create-a-bitlink-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnBitlinkCreated",
+      "Name": "When a Bitlink is created [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a Bitlink is created (V2) instead.\nWhen a Bitlink is created.",
+      "Anchor": "#when-a-bitlink-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnBitlinkCreated_V2",
+      "Name": "When a Bitlink is created (V2) (Preview)",
+      "Description": "When a Bitlink is created.",
+      "Anchor": "#when-a-bitlink-is-created-(v2)-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "UniqueName": "box",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../box/",
+  "Actions": [
+    {
+      "OperationId": "CopyFile",
+      "Name": "Copy file",
+      "Description": "Copy a file to a file path in Box.",
+      "Anchor": "#copy-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFile",
+      "Name": "Create file",
+      "Description": "Uploads a file to Box.",
+      "Anchor": "#create-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFile",
+      "Name": "Delete file",
+      "Description": "Deletes an existing file from Box.",
+      "Anchor": "#delete-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractFolderV2",
+      "Name": "Extract archive to folder",
+      "Description": "Extracts an archive file into a folder in Box (example: .zip).",
+      "Anchor": "#extract-archive-to-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContent",
+      "Name": "Get file content using id",
+      "Description": "Retrieves the file content from Box using id.",
+      "Anchor": "#get-file-content-using-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContentByPath",
+      "Name": "Get file content using path",
+      "Description": "Retrieves the file contents from Box using path.",
+      "Anchor": "#get-file-content-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadata",
+      "Name": "Get file metadata using id",
+      "Description": "Retrieves the file metadata from Box using file id.",
+      "Anchor": "#get-file-metadata-using-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileMetadataByPath",
+      "Name": "Get file metadata using path",
+      "Description": "Retrieves the file metadata from Box using path.",
+      "Anchor": "#get-file-metadata-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFolder",
+      "Name": "List files and folders in folder",
+      "Description": "Lists the files and folders in a Box folder.",
+      "Anchor": "#list-files-and-folders-in-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRootFolder",
+      "Name": "List files and folders in root folder",
+      "Description": "Lists the files and folders in the Box root folder.",
+      "Anchor": "#list-files-and-folders-in-root-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewFile",
+      "Name": "When a file is created [DEPRECATED]",
+      "Description": "Triggers a flow when a new file is created in a Box folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-file-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewFiles",
+      "Name": "When a file is created (properties only) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a file is created (properties only) (V2) instead.\nThis operation triggers a flow when a new file is created in a folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-file-is-created-(properties-only)-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnNewFilesV2",
+      "Name": "When a file is created (properties only) (V2)",
+      "Description": "This operation triggers a flow when a new file is created in a folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created. In case when 'Split On' option is turned off for Trigger-&gt;Settings successful trigger runs may produce empty array for 'List of Files' output.",
+      "Anchor": "#when-a-file-is-created-(properties-only)-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedFile",
+      "Name": "When a file is modified [DEPRECATED]",
+      "Description": "Triggers a flow when a file is modified in a Box folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-file-is-modified-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnUpdatedFiles",
+      "Name": "When a file is modified (properties only)",
+      "Description": "This operation triggers a flow when a file is modified in a folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created.",
+      "Anchor": "#when-a-file-is-modified-(properties-only)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnUpdatedFilesV2",
+      "Name": "When a file is modified (properties only) (V2) (Preview)",
+      "Description": "This operation triggers a flow when a file is modified in a folder. The trigger does not fire if a file is added/updated in a subfolder. If it is required to trigger on subfolders, multiple triggers should be created. In case when 'Split On' option is turned off for Trigger-&gt;Settings successful trigger runs may produce empty array for 'List of Files' output.",
+      "Anchor": "#when-a-file-is-modified-(properties-only)-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFile",
+      "Name": "Update file",
+      "Description": "Updates an existing file in Box.",
+      "Anchor": "#update-file",
+      "IsDeprecated": false
+    }
+  ]
+}

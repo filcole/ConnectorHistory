@@ -1,0 +1,13 @@
+{
+  "UniqueName": "flowforma",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../flowforma/",
+  "Actions": [
+    {
+      "OperationId": "CreateForm",
+      "Name": "Create a FlowForma form",
+      "Description": "Creates a FlowForma form.",
+      "Anchor": "#create-a-flowforma-form",
+      "IsDeprecated": false
+    }
+  ]
+}

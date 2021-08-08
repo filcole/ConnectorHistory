@@ -1,0 +1,209 @@
+{
+  "UniqueName": "kaizala",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../kaizala/",
+  "Actions": [
+    {
+      "OperationId": "ActionCreatedOnGroup",
+      "Name": "When a custom action is sent in a group",
+      "Description": "This operation is triggered when someone creates a custom action on a group.",
+      "Anchor": "#when-a-custom-action-is-sent-in-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActionResponseOnGroup",
+      "Name": "When someone responds to a custom action",
+      "Description": "This operation is triggered when someone responds to a custom action posted on a group.",
+      "Anchor": "#when-someone-responds-to-a-custom-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddGroupToGroup",
+      "Name": "Add an existing group as subgroup",
+      "Description": "This operation allows you to add an existing group as subgroup to another group.",
+      "Anchor": "#add-an-existing-group-as-subgroup",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddSubscriberToGroup",
+      "Name": "Add subscriber to group",
+      "Description": "This operation allows you to add subscribers to a group.",
+      "Anchor": "#add-subscriber-to-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddUserToGroup",
+      "Name": "Add user to group",
+      "Description": "This operation allows you to add a user to a group.",
+      "Anchor": "#add-user-to-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AnnouncementOnGroup",
+      "Name": "When there is an announcement sent in a group",
+      "Description": "This operation is triggered when someone sends an announcement action to a group.",
+      "Anchor": "#when-there-is-an-announcement-sent-in-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AttachmentOnGroup",
+      "Name": "When there is an attachment sent in a group",
+      "Description": "This operation is triggered when someone sends an attachment action to a group.",
+      "Anchor": "#when-there-is-an-attachment-sent-in-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGroup",
+      "Name": "Create a group",
+      "Description": "This operation allows you to create a Kaizala group.",
+      "Anchor": "#create-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSubgroup",
+      "Name": "Create a subgroup",
+      "Description": "This operation allows creation of a subgroup within a group.",
+      "Anchor": "#create-a-subgroup",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTrigger",
+      "Name": "Deletes a webhook",
+      "Description": "Deletes a webhook",
+      "Anchor": "#deletes-a-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupAddedToGroup",
+      "Name": "When a group is added as a member to a group",
+      "Description": "This operation is triggered when someone adds a subgroup to a group.",
+      "Anchor": "#when-a-group-is-added-as-a-member-to-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupRemovedFromGroup",
+      "Name": "When a group is removed as a member to a group",
+      "Description": "This operation is triggered when someone removes a subgroup from a group.",
+      "Anchor": "#when-a-group-is-removed-as-a-member-to-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberAddedToGroup",
+      "Name": "When a member is added to a group",
+      "Description": "This operation is triggered when someone adds a member to a group.",
+      "Anchor": "#when-a-member-is-added-to-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberRemovedFromGroup",
+      "Name": "When a member is removed from a group",
+      "Description": "This operation is triggered when someone removes a member from a group.",
+      "Anchor": "#when-a-member-is-removed-from-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostReaction",
+      "Name": "Post like or comment to a message",
+      "Description": "This operation allows you to post like or comment to a message in a specific Kaizala group that you’re a member of.",
+      "Anchor": "#post-like-or-comment-to-a-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveGroupFromGroup",
+      "Name": "Remove a subgroup from group",
+      "Description": "This operation allows you to remove a subgroup as member of another group.",
+      "Anchor": "#remove-a-subgroup-from-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveUserFromGroup",
+      "Name": "Remove user from a group",
+      "Description": "This operation allows you to remove a user from a group.",
+      "Anchor": "#remove-user-from-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendActionReminder",
+      "Name": "Send action reminder on a group",
+      "Description": "This operation allows you to send a reminder of an action to a specific Kaizala group that you’re a member of.",
+      "Anchor": "#send-action-reminder-on-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendActions_v2",
+      "Name": "Send action on a group",
+      "Description": "This operation allows you to send an Action to a specific Kaizala group that you’re a member of.",
+      "Anchor": "#send-action-on-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendActions_v2",
+      "Name": "Send action on a group",
+      "Description": "This operation allows you to send an Action to a specific Kaizala group that you’re a member of.",
+      "Anchor": "#send-action-on-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "Send text message to a group",
+      "Description": "This operation allows you to send a text message to a specific Kaizala group that you’re a member of.",
+      "Anchor": "#send-text-message-to-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendReply",
+      "Name": "Send reply to a message",
+      "Description": "Send reply to a message.",
+      "Anchor": "#send-reply-to-a-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SurveyCreatedOnGroup",
+      "Name": "When a survey is sent in a group",
+      "Description": "This operation is triggered when a survey is created on a group.",
+      "Anchor": "#when-a-survey-is-sent-in-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SurveyResponseOnGroup",
+      "Name": "When someone responds to a survey",
+      "Description": "This operation is triggered when someone responds to an existing survey posted on a group.",
+      "Anchor": "#when-someone-responds-to-a-survey",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TextMessageCreatedOnGroup",
+      "Name": "When a text message is sent on a group",
+      "Description": "This operation is triggered when someone sends a text message on a group.",
+      "Anchor": "#when-a-text-message-is-sent-on-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadMediaFileContent",
+      "Name": "Upload a media file",
+      "Description": "This operation allows you to upload a media file and generates MediaResource which can be used in other APIs to send data.",
+      "Anchor": "#upload-a-media-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadMediaFromAttachment",
+      "Name": "Upload media from attachment",
+      "Description": "This operation allows you to upload the given media from attachment and generates MediaResource which can be used in other APIs to send data.",
+      "Anchor": "#upload-media-from-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadMediaFromURL",
+      "Name": "Upload media from url",
+      "Description": "This operation allows you to upload the given media from URL and generates MediaResource which can be used in other APIs to send data.",
+      "Anchor": "#upload-media-from-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserJoinedOnGroup",
+      "Name": "When an existing group member registers on Kaizala for the first time",
+      "Description": "This operation is triggered when an existing group member registers on Kaizala. In Kaizala, group admin(s) can add user even if he is not on Kaizala",
+      "Anchor": "#when-an-existing-group-member-registers-on-kaizala-for-the-first-time",
+      "IsDeprecated": false
+    }
+  ]
+}

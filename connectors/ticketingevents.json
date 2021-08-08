@@ -1,0 +1,13 @@
+{
+  "UniqueName": "ticketingevents",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ticketingevents/",
+  "Actions": [
+    {
+      "OperationId": "CreateListItem",
+      "Name": "Add tickets to attendees",
+      "Description": "This operation will create attendees and add tickets to their profile.",
+      "Anchor": "#add-tickets-to-attendees",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "UniqueName": "blogger",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blogger/",
+  "Actions": [
+    {
+      "OperationId": "CreatePost",
+      "Name": "Create post",
+      "Description": "Create post",
+      "Anchor": "#create-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeletePost",
+      "Name": "Delete a post",
+      "Description": "Delete a post",
+      "Anchor": "#delete-a-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditPost",
+      "Name": "Edit a post",
+      "Description": "Edit a post",
+      "Anchor": "#edit-a-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPost",
+      "Name": "Get a post",
+      "Description": "Get a post",
+      "Anchor": "#get-a-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBlogs",
+      "Name": "List user blogs",
+      "Description": "Lists all blogs for the current user",
+      "Anchor": "#list-user-blogs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPosts",
+      "Name": "List all posts",
+      "Description": "List all posts",
+      "Anchor": "#list-all-posts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnPostCreated",
+      "Name": "When a post is created",
+      "Description": "Triggers a flow when a new post is created",
+      "Anchor": "#when-a-post-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublishPost",
+      "Name": "Publish a post",
+      "Description": "Publish a post",
+      "Anchor": "#publish-a-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RevertPost",
+      "Name": "Revert a post",
+      "Description": "Revert a post",
+      "Anchor": "#revert-a-post",
+      "IsDeprecated": false
+    }
+  ]
+}

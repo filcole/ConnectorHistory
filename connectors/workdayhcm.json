@@ -1,0 +1,83 @@
+{
+  "UniqueName": "workdayhcm",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../workdayhcm/",
+  "Actions": [
+    {
+      "OperationId": "Add_or_Update_Address_Information",
+      "Name": "Add or Update Address Information",
+      "Description": "Creates or updates address information for a person.",
+      "Anchor": "#add-or-update-address-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add_or_Update_Email_Address_Information",
+      "Name": "Add or Update Email Address Information",
+      "Description": "Creates or updates email address information for a person.",
+      "Anchor": "#add-or-update-email-address-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add_or_Update_Instant_Messenger_Information",
+      "Name": "Add or Update Instant Messenger Information",
+      "Description": "Creates or updates instant messenger information for a person.",
+      "Anchor": "#add-or-update-instant-messenger-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add_or_Update_Phone_Information",
+      "Name": "Add or Update Phone Information",
+      "Description": "Creates or updates phone information for a person.",
+      "Anchor": "#add-or-update-phone-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add_or_Update_Web_Address_Information",
+      "Name": "Add or Update Web Address Information",
+      "Description": "Creates or updates web address information for a person.",
+      "Anchor": "#add-or-update-web-address-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Employee_Employment_Info",
+      "Name": "Get Employee Employment Info",
+      "Description": "This operation retrieves data related to an Employee and his/her Employment (e.g. Position, Job, Status, etc.) information.",
+      "Anchor": "#get-employee-employment-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Employee_Identity_Info",
+      "Name": "Get Employee Identity Info",
+      "Description": "This operation retrieves data related to an Employee identity (e.g. Government IDs, Visas, Passports, etc.) information.",
+      "Anchor": "#get-employee-identity-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Employee_Personal_Info",
+      "Name": "Get Employee Personal Info",
+      "Description": "This operation retrieves data related to an Employee and his/her Personal (e.g. Biographic, Demographic, etc.) information.",
+      "Anchor": "#get-employee-personal-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Employee_Qualification_Info",
+      "Name": "Get Employee Qualification Info",
+      "Description": "This operation retrieves data related to an Employee education and professional qualification information.",
+      "Anchor": "#get-employee-qualification-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SOAP_Operation",
+      "Name": "SOAP Operation",
+      "Description": "Performs a SOAP operation",
+      "Anchor": "#soap-operation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When_an_Employee_is_Added_or_Updated",
+      "Name": "When an employee is added or updated",
+      "Description": "This event is raised when an employee is added or updated.",
+      "Anchor": "#when-an-employee-is-added-or-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

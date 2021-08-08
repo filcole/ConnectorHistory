@@ -1,0 +1,27 @@
+{
+  "UniqueName": "seektable",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../seektable/",
+  "Actions": [
+    {
+      "OperationId": "CubeImportCsv",
+      "Name": "Upload CSV File",
+      "Description": "Uploads a CSV file to refresh existing cube",
+      "Anchor": "#upload-csv-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReportExport",
+      "Name": "Report Export",
+      "Description": "Exports specified report to PDF/Excel/CSV/HTML/JSON file.",
+      "Anchor": "#report-export",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReportShareByEmail",
+      "Name": "Share report by email",
+      "Description": "Sends report in email body",
+      "Anchor": "#share-report-by-email",
+      "IsDeprecated": false
+    }
+  ]
+}

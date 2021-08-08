@@ -1,0 +1,258 @@
+{
+  "UniqueName": "todoist",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../todoist/",
+  "Actions": [
+    {
+      "OperationId": "CreateItem",
+      "Name": "Create a task [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a task (V3) instead.\nCreate a new task in the specified project.",
+      "Anchor": "#create-a-task-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateItemV2",
+      "Name": "Create a task (V2)",
+      "Description": "Create a new task in the specified project.",
+      "Anchor": "#create-a-task-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateItemV3",
+      "Name": "Create a task (V3) (Preview)",
+      "Description": "Create a new task in the specified project.",
+      "Anchor": "#create-a-task-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateLabel",
+      "Name": "Create a label [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a label (V3) instead.\nCreate a new label (premium users only).",
+      "Anchor": "#create-a-label-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateLabelV2",
+      "Name": "Create a label (V2)",
+      "Description": "Create a new label.",
+      "Anchor": "#create-a-label-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateLabelV3",
+      "Name": "Create a label (V3) (Preview)",
+      "Description": "Create a new label.",
+      "Anchor": "#create-a-label-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProject",
+      "Name": "Create a project [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a project (V3) instead.\nCreate a new project.",
+      "Anchor": "#create-a-project-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateProjectV2",
+      "Name": "Create a project (V2)",
+      "Description": "Create a new project.",
+      "Anchor": "#create-a-project-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProjectV3",
+      "Name": "Create a project (V3) (Preview)",
+      "Description": "Create a new project.",
+      "Anchor": "#create-a-project-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListItems",
+      "Name": "List tasks [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List tasks (V3) instead.\nList all tasks in the Todoist account.",
+      "Anchor": "#list-tasks-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListItemsByProject",
+      "Name": "List tasks by project [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List tasks by project (V3) instead.\nList all tasks in a specific project.",
+      "Anchor": "#list-tasks-by-project-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListItemsByProjectV2",
+      "Name": "List tasks by project (V2)",
+      "Description": "List all tasks in a specific project.",
+      "Anchor": "#list-tasks-by-project-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListItemsByProjectV3",
+      "Name": "List tasks by project (V3) (Preview)",
+      "Description": "List all tasks in a specific project.",
+      "Anchor": "#list-tasks-by-project-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListItemsV2",
+      "Name": "List tasks (V2)",
+      "Description": "List all tasks in the Todoist account.",
+      "Anchor": "#list-tasks-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListItemsV3",
+      "Name": "List tasks (V3) (Preview)",
+      "Description": "List all tasks in the Todoist account.",
+      "Anchor": "#list-tasks-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListLabels",
+      "Name": "List labels [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List labels (V3) instead.\nList the labels configured in the Todoist account.",
+      "Anchor": "#list-labels-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListLabelsV2",
+      "Name": "List labels (V2)",
+      "Description": "List the labels configured in the Todoist account.",
+      "Anchor": "#list-labels-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListLabelsV3",
+      "Name": "List labels (V3) (Preview)",
+      "Description": "List the labels configured in the Todoist account.",
+      "Anchor": "#list-labels-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProjects",
+      "Name": "List projects [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List projects (V3) instead.\nList all projects in the Todoist account.",
+      "Anchor": "#list-projects-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListProjectsV2",
+      "Name": "List projects (V2)",
+      "Description": "List all projects in the Todoist account.",
+      "Anchor": "#list-projects-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProjectsV3",
+      "Name": "List projects (V3) (Preview)",
+      "Description": "List all projects in the Todoist account.",
+      "Anchor": "#list-projects-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnItemCompleted",
+      "Name": "When a task is completed [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a task is completed (V2) instead.\nTriggers a new flow when a task is completed.",
+      "Anchor": "#when-a-task-is-completed-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnItemCompletedV2",
+      "Name": "When a task is completed (V2)",
+      "Description": "Triggers a new flow when a task is completed (premium users only).",
+      "Anchor": "#when-a-task-is-completed-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnItemCreated",
+      "Name": "When a task is created [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a task is created (V2) instead.\nTrigers a new flow when a task is created.",
+      "Anchor": "#when-a-task-is-created-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnItemCreatedV2",
+      "Name": "When a task is created (V2)",
+      "Description": "Trigers a new flow when a task is created.",
+      "Anchor": "#when-a-task-is-created-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShareProject",
+      "Name": "Share a project [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Share a project (V2) instead.\nShare an existing project to a specific user.",
+      "Anchor": "#share-a-project-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ShareProjectV2",
+      "Name": "Share a project (V2)",
+      "Description": "Share an existing project to a specific user.",
+      "Anchor": "#share-a-project-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateItem",
+      "Name": "Update a task [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update a task (V3) instead.\nUpdate an existing task.",
+      "Anchor": "#update-a-task-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateItemV2",
+      "Name": "Update a task (V2)",
+      "Description": "Update an existing task.",
+      "Anchor": "#update-a-task-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateItemV3",
+      "Name": "Update a task (V3) (Preview)",
+      "Description": "Update an existing task.",
+      "Anchor": "#update-a-task-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateLabel",
+      "Name": "Update a label [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update a label (V3) instead.\nUpdate an existing label.",
+      "Anchor": "#update-a-label-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateLabelV2",
+      "Name": "Update a label (V2)",
+      "Description": "Update an existing label.",
+      "Anchor": "#update-a-label-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateLabelV3",
+      "Name": "Update a label (V3) (Preview)",
+      "Description": "Update an existing label.",
+      "Anchor": "#update-a-label-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProject",
+      "Name": "Update a project [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Update a project (V3) instead.\nUpdate an existing project.",
+      "Anchor": "#update-a-project-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "UpdateProjectV2",
+      "Name": "Update a project (V2)",
+      "Description": "Update an existing project.",
+      "Anchor": "#update-a-project-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProjectV3",
+      "Name": "Update a project (V3) (Preview)",
+      "Description": "Update an existing project.",
+      "Anchor": "#update-a-project-(v3)-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

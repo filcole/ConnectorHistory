@@ -1,0 +1,13 @@
+{
+  "UniqueName": "enadoc",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../enadoc/",
+  "Actions": [
+    {
+      "OperationId": "SendToMyWorkspace",
+      "Name": "Send to My Workspace",
+      "Description": "Send to Enadoc My Workspace",
+      "Anchor": "#send-to-my-workspace",
+      "IsDeprecated": false
+    }
+  ]
+}

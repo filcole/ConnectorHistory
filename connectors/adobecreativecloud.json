@@ -1,0 +1,76 @@
+{
+  "UniqueName": "adobecreativecloud",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../adobecreativecloud/",
+  "Actions": [
+    {
+      "OperationId": "CopyAsset",
+      "Name": "Copy asset",
+      "Description": "This operation copies an asset to the destination asset path.",
+      "Anchor": "#copy-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAsset",
+      "Name": "Create a new asset",
+      "Description": "This operation creates a new asset on Creative Cloud.",
+      "Anchor": "#create-a-new-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteAssetByPath",
+      "Name": "Delete asset",
+      "Description": "This operation deletes the asset at the given asset path.",
+      "Anchor": "#delete-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContentById",
+      "Name": "Get asset contents using asset id",
+      "Description": "This operation gets the asset contents for the given asset id.",
+      "Anchor": "#get-asset-contents-using-asset-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContentByPath",
+      "Name": "Get asset contents using path",
+      "Description": "This operation gets the asset contents for the given asset path.",
+      "Anchor": "#get-asset-contents-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMetadataById",
+      "Name": "Get asset details using asset id",
+      "Description": "This operation gets the asset details for the given asset id.",
+      "Anchor": "#get-asset-details-using-asset-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMetadataByPath",
+      "Name": "Get asset details using path",
+      "Description": "This operation gets the asset details for the given asset path.",
+      "Anchor": "#get-asset-details-using-path",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFilesInDirectory",
+      "Name": "List all assets in folder",
+      "Description": "This operation lists all assets in the given folder.",
+      "Anchor": "#list-all-assets-in-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookSubscribeToAssetCreatedEvents",
+      "Name": "When an asset is added",
+      "Description": "This operation triggers when a new asset is added to Creative Cloud.",
+      "Anchor": "#when-an-asset-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookSubscribeToAssetUpdatedEvents",
+      "Name": "When an asset is updated",
+      "Description": "This operation triggers when an asset's contents are updated in Creative Cloud.",
+      "Anchor": "#when-an-asset-is-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

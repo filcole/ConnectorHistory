@@ -1,0 +1,139 @@
+{
+  "UniqueName": "harvest",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../harvest/",
+  "Actions": [
+    {
+      "OperationId": "AddNewClient",
+      "Name": "Add new client",
+      "Description": "Create a new client.",
+      "Anchor": "#add-new-client",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddNewContact",
+      "Name": "Add new contact",
+      "Description": "Create a new contact.",
+      "Anchor": "#add-new-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddUserToProject",
+      "Name": "Add user to a project",
+      "Description": "Add an existing user to a project.",
+      "Anchor": "#add-user-to-a-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTimeEntry",
+      "Name": "Create time entry",
+      "Description": "Create a new time entry.",
+      "Anchor": "#create-time-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUser",
+      "Name": "Add new user",
+      "Description": "Create a new user.",
+      "Anchor": "#add-new-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTimeEntry",
+      "Name": "Delete time entry",
+      "Description": "Delete an existing time entry.",
+      "Anchor": "#delete-time-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTimeEntry",
+      "Name": "Get time entry by id",
+      "Description": "Get an existing time entry by id.",
+      "Anchor": "#get-time-entry-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get user info",
+      "Description": "Retrieve a user's details by user id or email.",
+      "Anchor": "#get-user-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAllClients",
+      "Name": "List all clients",
+      "Description": "Retrieves a list of all clients for the authenticated account.",
+      "Anchor": "#list-all-clients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAllContacts",
+      "Name": "List all contacts",
+      "Description": "Retrieves a list of all contacts for the authenticated user.",
+      "Anchor": "#list-all-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListProjects",
+      "Name": "List projects",
+      "Description": "Lists all projects for the current user.",
+      "Anchor": "#list-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListTasks",
+      "Name": "List tasks",
+      "Description": "Retrieves a list of all tasks.",
+      "Anchor": "#list-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewClient",
+      "Name": "When a client is added",
+      "Description": "Triggers when a new client is added.",
+      "Anchor": "#when-a-client-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewContact",
+      "Name": "When a contact is added",
+      "Description": "Triggers when a new contact is added.",
+      "Anchor": "#when-a-contact-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewProject",
+      "Name": "When a project is created",
+      "Description": "Triggers when a new project is created.",
+      "Anchor": "#when-a-project-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewTimeEntry",
+      "Name": "When a time entry is created for date",
+      "Description": "Triggers when a new time entry is created for a specific date.",
+      "Anchor": "#when-a-time-entry-is-created-for-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewTimeEntryToday",
+      "Name": "When a time entry is created for the current day",
+      "Description": "Triggers when a new time entry is created for the current day.",
+      "Anchor": "#when-a-time-entry-is-created-for-the-current-day",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewUser",
+      "Name": "When a user is added",
+      "Description": "Triggers when a new user is added.",
+      "Anchor": "#when-a-user-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTimeEntry",
+      "Name": "Update time entry",
+      "Description": "Update an existing time entry.",
+      "Anchor": "#update-time-entry",
+      "IsDeprecated": false
+    }
+  ]
+}

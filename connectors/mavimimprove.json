@@ -1,0 +1,293 @@
+{
+  "UniqueName": "mavimimprove",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mavimimprove/",
+  "Actions": [
+    {
+      "OperationId": "CreateChildTopic",
+      "Name": "Create new child topic",
+      "Description": "A new topic is created as a child of the referenced topic.",
+      "Anchor": "#create-new-child-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTopicAfter",
+      "Name": "Create a new topic",
+      "Description": "A new topic is created as a sibling after the referenced topic.",
+      "Anchor": "#create-a-new-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteRelation",
+      "Name": "Delete relation from topic",
+      "Description": "Deletes the relation by topic id and relationId.",
+      "Anchor": "#delete-relation-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTopic",
+      "Name": "Delete a topic",
+      "Description": "The specific topic requested by the topic id is deleted.",
+      "Anchor": "#delete-a-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFieldByDcvAndFieldsetId",
+      "Name": "Get field from topic",
+      "Description": "Get a specific field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#get-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPathToRoot",
+      "Name": "Get the path of the supplied topic id to the root",
+      "Description": "Get the all topics in the path to the root topic.",
+      "Anchor": "#get-the-path-of-the-supplied-topic-id-to-the-root",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRelationCategories",
+      "Name": "Get a collection of topics",
+      "Description": "Get the relationship categories of the topic",
+      "Anchor": "#get-a-collection-of-topics",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTopic",
+      "Name": "Get Topic",
+      "Description": "Get a specific topic by the DCV indentifier.",
+      "Anchor": "#get-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTopicCharts",
+      "Name": "Get the Charts of the topic",
+      "Description": "From a specific topic requested with the topic id, a collection of charts is returned.",
+      "Anchor": "#get-the-charts-of-the-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTopicChildren",
+      "Name": "Get the children af a topic",
+      "Description": "Get the children topics of the topic",
+      "Anchor": "#get-the-children-af-a-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTopicFields",
+      "Name": "Get the fields from topic",
+      "Description": "From a specific topic requested with the topic id, a collection of fields is returned.",
+      "Anchor": "#get-the-fields-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTopicIcons",
+      "Name": "Get availible icons for a topic type",
+      "Description": "Get a collection of icons for a specific topic type.",
+      "Anchor": "#get-availible-icons-for-a-topic-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTopicRelations",
+      "Name": "Get the Relations of the topic",
+      "Description": "Get the Relations of the topic supplied by topic DCV ID.",
+      "Anchor": "#get-the-relations-of-the-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTopicRoot",
+      "Name": "Get the root topic",
+      "Description": "Get the root topic.",
+      "Anchor": "#get-the-root-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTopicSiblings",
+      "Name": "Get the sibling topics of the topic",
+      "Description": "Get the siblings topics of the topic supplied by the topic id.",
+      "Anchor": "#get-the-sibling-topics-of-the-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTopicTypes",
+      "Name": "Get types for a topic",
+      "Description": "Get a collection of types for an specific topic supplied by the topic id.",
+      "Anchor": "#get-types-for-a-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveTopicDown",
+      "Name": "Move a topic down in the branch",
+      "Description": "Move a specific topic one place down in the branch.",
+      "Anchor": "#move-a-topic-down-in-the-branch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveTopicDown",
+      "Name": "Move a topic down in the branch",
+      "Description": "Move a specific topic one place down in the branch.",
+      "Anchor": "#move-a-topic-down-in-the-branch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveTopicLevelUp",
+      "Name": "Move a topic up in the branch",
+      "Description": "Move a specific topic one place up in the branch.",
+      "Anchor": "#move-a-topic-up-in-the-branch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveTopicLevelUp",
+      "Name": "Move a topic up in the branch",
+      "Description": "Move a specific topic one place up in the branch.",
+      "Anchor": "#move-a-topic-up-in-the-branch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveTopicToBottom",
+      "Name": "Move a topic to the bottom of the branch",
+      "Description": "Move a specific topic to the bottom of the branch.",
+      "Anchor": "#move-a-topic-to-the-bottom-of-the-branch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveTopicToTop",
+      "Name": "Move a topic to the top of the branch",
+      "Description": "Move a specific topic to the top of the branch.",
+      "Anchor": "#move-a-topic-to-the-top-of-the-branch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SaveRelation",
+      "Name": "Create relation",
+      "Description": "Creates a relation between two topics.",
+      "Anchor": "#create-relation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateBooleanSingleField",
+      "Name": "Update boolean field from topic",
+      "Description": "Updates a specific boolean field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-boolean-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDateMultiField",
+      "Name": "Update multi value date field from topic",
+      "Description": "Updates a specific multi value date field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-multi-value-date-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDateSingleField",
+      "Name": "Update date field from topic",
+      "Description": "Updates a specific single value date field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-date-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDecimalMultiField",
+      "Name": "Update multi value decimal field from topic",
+      "Description": "Updates a specific multi value decimal field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-multi-value-decimal-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDecimalSingleField",
+      "Name": "Update decimal field from topic",
+      "Description": "Updates a specific single value decimal field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-decimal-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFields",
+      "Name": "Updates the fields from topic",
+      "Description": "Updates multiple types of fields for a specific topic.",
+      "Anchor": "#updates-the-fields-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateListSingleField",
+      "Name": "Update list field from topic",
+      "Description": "Updates a specific list field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-list-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateMultiHyperlinkField",
+      "Name": "Updates a multivalue hyperlink field",
+      "Description": "Updates a multi value hyperlink field for a specific topic.",
+      "Anchor": "#updates-a-multivalue-hyperlink-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateNumberMultiField",
+      "Name": "Update multivalue number field from topic",
+      "Description": "Updates a specific boolean field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-multivalue-number-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateNumberSingleField",
+      "Name": "Update number field from topic",
+      "Description": "Updates a specific single value number field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-number-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRelationshipListField",
+      "Name": "Update relationshiplist field from topic",
+      "Description": "Updates a specific single value relationshiplist field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-relationshiplist-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRelationshipMultiField",
+      "Name": "Update multi value relationship field from topic",
+      "Description": "Updates a specific multi value relationship field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-multi-value-relationship-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRelationshipSingleField",
+      "Name": "Update relationship field from topic",
+      "Description": "Updates a specific single value relationship field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-relationship-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateSingleHyperlinkField",
+      "Name": "Updates a singlevalue hyperlink field",
+      "Description": "Updates a single value hyperlink field for a specific topic.",
+      "Anchor": "#updates-a-singlevalue-hyperlink-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTextMultiField",
+      "Name": "Update multi value text field from topic",
+      "Description": "Updates a specific multi value text field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-multi-value-text-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTextSingleField",
+      "Name": "Update text field from topic",
+      "Description": "Updates a specific single value text field by field and fieldset identifier for a specific topic.",
+      "Anchor": "#update-text-field-from-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTopic",
+      "Name": "Updates the name of the topic",
+      "Description": "Updates the name of a specific topic.",
+      "Anchor": "#updates-the-name-of-the-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Version",
+      "Name": "Get API version",
+      "Description": "Retrieve the API version number.",
+      "Anchor": "#get-api-version",
+      "IsDeprecated": false
+    }
+  ]
+}

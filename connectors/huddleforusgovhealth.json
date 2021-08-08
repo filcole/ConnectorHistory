@@ -1,0 +1,69 @@
+{
+  "UniqueName": "huddleforusgovhealth",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../huddleforusgovhealth/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Update a task's status to completed using it's ID",
+      "Description": "Update a task's status to completed",
+      "Anchor": "#update-a-task's-status-to-completed-using-it's-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Poll a target folder for it's most recent upload",
+      "Description": "Poll a target folder for it's most recent upload",
+      "Anchor": "#poll-a-target-folder-for-it's-most-recent-upload",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Poll a target workspace for it's most recent approval request",
+      "Description": "Poll a target workspace for it's most recent approval request",
+      "Anchor": "#poll-a-target-workspace-for-it's-most-recent-approval-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolder",
+      "Name": "Create a new subfolder",
+      "Description": "Creates a new folder within the target folder",
+      "Anchor": "#create-a-new-subfolder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkspaceTask",
+      "Name": "Create a To-Do task in a target workspace",
+      "Description": "Creates a To-Do in a workspace",
+      "Anchor": "#create-a-to-do-task-in-a-target-workspace",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFolder",
+      "Name": "Delete a target folder using its ID",
+      "Description": "Delete a folder by ID",
+      "Anchor": "#delete-a-target-folder-using-its-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFile",
+      "Name": "Retrieve the content and metadata of a file using its ID",
+      "Description": "Get the content of a file by ID",
+      "Anchor": "#retrieve-the-content-and-metadata-of-a-file-using-its-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadFile",
+      "Name": "Create and upload a new file to a target folder",
+      "Description": "Uploads a file to the target folder",
+      "Anchor": "#create-and-upload-a-new-file-to-a-target-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadFormSubmissionAsNewFile",
+      "Name": "Upload a form submission as a text file",
+      "Description": "Upload a form submission as a text file",
+      "Anchor": "#upload-a-form-submission-as-a-text-file",
+      "IsDeprecated": false
+    }
+  ]
+}

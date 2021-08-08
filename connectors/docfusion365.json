@@ -1,0 +1,34 @@
+{
+  "UniqueName": "docfusion365",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../docfusion365/",
+  "Actions": [
+    {
+      "OperationId": "ComposeALinkedTemplate",
+      "Name": "Compose a linked template",
+      "Description": "This operation composes a template that is linked to a SharePoint list.",
+      "Anchor": "#compose-a-linked-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ComposeAllTheLinkedTemplates",
+      "Name": "Compose all the linked templates",
+      "Description": "This operation composes all templates that are linked to a SharePoint list.",
+      "Anchor": "#compose-all-the-linked-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetApiVersion",
+      "Name": "Get api version",
+      "Description": "This operation retrieves the current DocFusion365 API version.",
+      "Anchor": "#get-api-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTheLinkedListTemplates",
+      "Name": "Get the linked list templates",
+      "Description": "This operation retrieves the linked DocFusion365 templates of a SharePoint list.",
+      "Anchor": "#get-the-linked-list-templates",
+      "IsDeprecated": false
+    }
+  ]
+}

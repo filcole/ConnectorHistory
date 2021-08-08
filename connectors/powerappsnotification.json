@@ -1,0 +1,13 @@
+{
+  "UniqueName": "powerappsnotification",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../powerappsnotification/",
+  "Actions": [
+    {
+      "OperationId": "SendPushNotification",
+      "Name": "Send push notification",
+      "Description": "Send a push notification to the app specified in the Push Notification connection setup.",
+      "Anchor": "#send-push-notification",
+      "IsDeprecated": false
+    }
+  ]
+}

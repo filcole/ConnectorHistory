@@ -1,0 +1,13 @@
+{
+  "UniqueName": "tyntecportabilitycheck",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tyntecportabilitycheck/",
+  "Actions": [
+    {
+      "OperationId": "CheckPhoneNumber",
+      "Name": "Check Phone number using the Portability Check",
+      "Description": "This Action get Portability Check data for a given phone number",
+      "Anchor": "#check-phone-number-using-the-portability-check",
+      "IsDeprecated": false
+    }
+  ]
+}

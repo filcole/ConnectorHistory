@@ -1,0 +1,27 @@
+{
+  "UniqueName": "tago",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tago/",
+  "Actions": [
+    {
+      "OperationId": "DataTrigger",
+      "Name": "When a condition is matched",
+      "Description": "This operation triggers a flow when the variable that matches a given condition is posted.",
+      "Anchor": "#when-a-condition-is-matched",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetData",
+      "Name": "Get data",
+      "Description": "This operation returns the data from a given device on Tago.",
+      "Anchor": "#get-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostData",
+      "Name": "Post data",
+      "Description": "This operation is used to post new data to Tago.",
+      "Anchor": "#post-data",
+      "IsDeprecated": false
+    }
+  ]
+}

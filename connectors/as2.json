@@ -1,0 +1,41 @@
+{
+  "UniqueName": "as2",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../as2/",
+  "Actions": [
+    {
+      "OperationId": "AddOrUpdateMicValues",
+      "Name": "Add or update MIC contents",
+      "Description": "Add or update MIC contents",
+      "Anchor": "#add-or-update-mic-contents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Decode",
+      "Name": "Decode AS2 message",
+      "Description": "Decode AS2 message",
+      "Anchor": "#decode-as2-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Encode",
+      "Name": "Encode to AS2 message",
+      "Description": "Encode to AS2 message",
+      "Anchor": "#encode-to-as2-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnCreatedMicValues",
+      "Name": "When a MIC value is created",
+      "Description": "When a MIC value is created",
+      "Anchor": "#when-a-mic-value-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResolveAgreement",
+      "Name": "Resolve AS2 agreement",
+      "Description": "Resolve AS2 agreement",
+      "Anchor": "#resolve-as2-agreement",
+      "IsDeprecated": false
+    }
+  ]
+}

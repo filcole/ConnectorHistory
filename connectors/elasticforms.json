@@ -1,0 +1,27 @@
+{
+  "UniqueName": "elasticforms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../elasticforms/",
+  "Actions": [
+    {
+      "OperationId": "AddData",
+      "Name": "Fill form",
+      "Description": "Fill form",
+      "Anchor": "#fill-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssignForm",
+      "Name": "Assign form",
+      "Description": "Assign form",
+      "Anchor": "#assign-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrigNewResponse",
+      "Name": "When form is filled",
+      "Description": "Triggers when form is filled.",
+      "Anchor": "#when-form-is-filled",
+      "IsDeprecated": false
+    }
+  ]
+}

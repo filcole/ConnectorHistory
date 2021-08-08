@@ -1,0 +1,174 @@
+{
+  "UniqueName": "pinterest",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pinterest/",
+  "Actions": [
+    {
+      "OperationId": "CreateBoard",
+      "Name": "Create board [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create board (V2) instead.\nCreate board",
+      "Anchor": "#create-board-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateBoard_V2",
+      "Name": "Create board (V2) (Preview)",
+      "Description": "Create board",
+      "Anchor": "#create-board-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePin",
+      "Name": "Create pin [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create pin (V2) instead.\nCreate pin",
+      "Anchor": "#create-pin-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreatePin_V2",
+      "Name": "Create pin (V2) (Preview)",
+      "Description": "Create pin",
+      "Anchor": "#create-pin-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditBoard",
+      "Name": "Edit board [DEPRECATED]",
+      "Description": "Edit board",
+      "Anchor": "#edit-board-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "EditPin",
+      "Name": "Edit pin [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Edit pin (V2) instead.\nEdit pin",
+      "Anchor": "#edit-pin-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "EditPin_V2",
+      "Name": "Edit pin (V2) (Preview)",
+      "Description": "Edit pin",
+      "Anchor": "#edit-pin-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCurrentUser",
+      "Name": "Get current user [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get current user (V2) instead.\nGet current user",
+      "Anchor": "#get-current-user-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetCurrentUser_V2",
+      "Name": "Get current user (V2) (Preview)",
+      "Description": "Get current user",
+      "Anchor": "#get-current-user-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAllPins",
+      "Name": "List all pins [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List all pins (V2) instead.\nList all pins",
+      "Anchor": "#list-all-pins-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListAllPins_V2",
+      "Name": "List all pins (V2) (Preview)",
+      "Description": "List all pins",
+      "Anchor": "#list-all-pins-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFollowBoards",
+      "Name": "List boards I follow [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List boards I follow (V2) instead.\nList boards I follow",
+      "Anchor": "#list-boards-i-follow-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListFollowBoards_V2",
+      "Name": "List boards I follow (V2) (Preview)",
+      "Description": "List boards I follow",
+      "Anchor": "#list-boards-i-follow-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListMyBoards",
+      "Name": "List my boards [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List my boards (V2) instead.\nList my boards",
+      "Anchor": "#list-my-boards-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListMyBoards_V2",
+      "Name": "List my boards (V2) (Preview)",
+      "Description": "List my boards",
+      "Anchor": "#list-my-boards-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListMyFollowers",
+      "Name": "List my followers [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List my followers (V2) instead.\nList my followers",
+      "Anchor": "#list-my-followers-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListMyFollowers_V2",
+      "Name": "List my followers (V2) (Preview)",
+      "Description": "List my followers",
+      "Anchor": "#list-my-followers-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListMyFollowings",
+      "Name": "List my followings [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use List my followings (V2) instead.\nList my followings",
+      "Anchor": "#list-my-followings-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListMyFollowings_V2",
+      "Name": "List my followings (V2) (Preview)",
+      "Description": "List my followings",
+      "Anchor": "#list-my-followings-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPinsFromBoard",
+      "Name": "List pins from a board (Preview)",
+      "Description": "List pins from a board",
+      "Anchor": "#list-pins-from-a-board-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnPinAddedToFollowedBoard",
+      "Name": "When pin is added to followed board (Preview)",
+      "Description": "When pin is added to followed board",
+      "Anchor": "#when-pin-is-added-to-followed-board-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnPinAddedToMyBoard",
+      "Name": "When pin is added to my board (Preview)",
+      "Description": "When pin is added to my board",
+      "Anchor": "#when-pin-is-added-to-my-board-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnSomeoneFollowsMe",
+      "Name": "When someone follows me [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When someone follows me (V2) instead.\nWhen someone follows me",
+      "Anchor": "#when-someone-follows-me-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnSomeoneFollowsMe_V2",
+      "Name": "When someone follows me (V2) (Preview)",
+      "Description": "When someone follows me",
+      "Anchor": "#when-someone-follows-me-(v2)-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

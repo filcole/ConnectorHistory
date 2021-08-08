@@ -1,0 +1,104 @@
+{
+  "UniqueName": "bitbucket",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bitbucket/",
+  "Actions": [
+    {
+      "OperationId": "ApprovePullRequest",
+      "Name": "Approve pull request",
+      "Description": "This operation is used to approve an existing pull request.",
+      "Anchor": "#approve-pull-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateHookIssueCreated",
+      "Name": "When a new issue is added",
+      "Description": "Triggers when a new issue is added to the given repository.",
+      "Anchor": "#when-a-new-issue-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateHookIssueUpdated",
+      "Name": "When an issue is updated",
+      "Description": "Triggers when an issue is updated in the given repository.",
+      "Anchor": "#when-an-issue-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateHookPullRequestApproved",
+      "Name": "When a pull request is approved",
+      "Description": "Triggers when a pullreqest is approved in the specified repository.",
+      "Anchor": "#when-a-pull-request-is-approved",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateHookPullRequestCreated",
+      "Name": "When a pull request is created",
+      "Description": "Triggers when a new pullreqest is created in the given repository.",
+      "Anchor": "#when-a-pull-request-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateHookPullRequestDeclined",
+      "Name": "When a pull request is declined",
+      "Description": "Triggers when an existing pullreqest is declined in the given repository.",
+      "Anchor": "#when-a-pull-request-is-declined",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateHookPullRequestMerged",
+      "Name": "When a pull request is merged",
+      "Description": "Triggers when an existing pullreqest is merged in the given repository.",
+      "Anchor": "#when-a-pull-request-is-merged",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateHookRepositoryPush",
+      "Name": "When a new commit is pushed",
+      "Description": "Triggers when a new commit is pushed to the given repository.",
+      "Anchor": "#when-a-new-commit-is-pushed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateIssue",
+      "Name": "Create issue",
+      "Description": "This operation creates a new issue in the given repository.",
+      "Anchor": "#create-issue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeclinePullRequest",
+      "Name": "Decline pull request",
+      "Description": "This operation is used to decline an existing pull request.",
+      "Anchor": "#decline-pull-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIssueById",
+      "Name": "Get issue by id",
+      "Description": "This operation retrieves all information about the given issue.",
+      "Anchor": "#get-issue-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserById",
+      "Name": "Get user by Id",
+      "Description": "This operation returns all information about a given user by its id.",
+      "Anchor": "#get-user-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergePullRequest",
+      "Name": "Merge pull request",
+      "Description": "This operation can merge a given pull request.",
+      "Anchor": "#merge-pull-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewRepo",
+      "Name": "When a repository is added",
+      "Description": "Triggers when a new repository is created for the authenticated account.",
+      "Anchor": "#when-a-repository-is-added",
+      "IsDeprecated": false
+    }
+  ]
+}

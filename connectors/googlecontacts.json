@@ -1,0 +1,76 @@
+{
+  "UniqueName": "googlecontacts",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../googlecontacts/",
+  "Actions": [
+    {
+      "OperationId": "CreateContact",
+      "Name": "Create a contact [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create a contact V3 instead.\nCreate a contact within Google Contacts",
+      "Anchor": "#create-a-contact-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListContacts",
+      "Name": "Get my contacts [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get my contacts V4 instead.\nGet my contacts.",
+      "Anchor": "#get-my-contacts-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ListContactsV2",
+      "Name": "Get my contacts V2 [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get my contacts V4 instead.\nGet my contacts V2.",
+      "Anchor": "#get-my-contacts-v2-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "OnContactUpdated",
+      "Name": "When a contact changes [DEPRECATED]",
+      "Description": "When a contact changes in Google Contacts.",
+      "Anchor": "#when-a-contact-changes-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PeopleApiCreateContactV2",
+      "Name": "Create a contact V2",
+      "Description": "Create a contact within Google Contacts V2",
+      "Anchor": "#create-a-contact-v2",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PeopleApiCreateContactV3",
+      "Name": "Create a contact V3 (Preview)",
+      "Description": "Create a contact within Google Contacts V3",
+      "Anchor": "#create-a-contact-v3-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PeopleApiListContactsV3",
+      "Name": "Get my contacts V3 [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get my contacts V4 instead.\nGet my contacts V3.",
+      "Anchor": "#get-my-contacts-v3-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PeopleApiListContactsV4",
+      "Name": "Get my contacts V4",
+      "Description": "Get my contacts V4.",
+      "Anchor": "#get-my-contacts-v4",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PeopleApiOnContactUpdatedV2",
+      "Name": "When a contact changes V2 [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use When a contact changes V3 instead.\nWhen a contact changes in Google Contacts V2.",
+      "Anchor": "#when-a-contact-changes-v2-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "PeopleApiOnContactUpdatedV3",
+      "Name": "When a contact changes V3",
+      "Description": "When a contact changes in Google Contacts V3.",
+      "Anchor": "#when-a-contact-changes-v3",
+      "IsDeprecated": false
+    }
+  ]
+}

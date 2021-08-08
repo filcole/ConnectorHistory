@@ -1,0 +1,55 @@
+{
+  "UniqueName": "xbridgerdocumentmanager",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../xbridgerdocumentmanager/",
+  "Actions": [
+    {
+      "OperationId": "Convert2ModernPage",
+      "Name": "Convert Word to modern page",
+      "Description": "Create a modern page from Word documents - https://xbridger.com/docs/getting-started/convert-word-to-modern-page/",
+      "Anchor": "#convert-word-to-modern-page",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Convert2NonModernPage",
+      "Name": "Convert Word to non-modern page",
+      "Description": "Convert Word document to a simple aspx page -https://xbridger.com/docs/getting-started/convert-word-to-non-modern-page-overview",
+      "Anchor": "#convert-word-to-non-modern-page",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExportList2PDF",
+      "Name": "Export list or library data to PDF",
+      "Description": "Export list or library data to PDF. This operation supports 4 columns and one group parameter - https://xbridger.com/docs/getting-started/export-list-or-library-data-to-pdf/",
+      "Anchor": "#export-list-or-library-data-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractWordImages",
+      "Name": "Extract images from Word",
+      "Description": "Extract images from Word documents - https://xbridger.com/docs/getting-started/extract-images-from-word/",
+      "Anchor": "#extract-images-from-word",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PDFMerge",
+      "Name": "Merge documents to PDF",
+      "Description": "Merge multiple documents format to pdf - https://xbridger.com/docs/getting-started/merge-documents-to-pdf/",
+      "Anchor": "#merge-documents-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WordMerge",
+      "Name": "Merge Word documents",
+      "Description": "Merge multiple Word documents into one - https://xbridger.com/docs/getting-started/merge-word-documents",
+      "Anchor": "#merge-word-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Wordtopdf",
+      "Name": "Convert to PDF",
+      "Description": "Convert a document to PDF - https://xbridger.com/docs/getting-started/convert-to-pdf/",
+      "Anchor": "#convert-to-pdf",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "UniqueName": "rencoregovernance",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rencoregovernance/",
+  "Actions": [
+    {
+      "OperationId": "CheckNotificationTrigger",
+      "Name": "When a check in Rencore Governance is violated",
+      "Description": "Get notified of changes in your environment monitored by Rencore Governance",
+      "Anchor": "#when-a-check-in-rencore-governance-is-violated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetViolations",
+      "Name": "Get check violations",
+      "Description": "Get check violations",
+      "Anchor": "#get-check-violations",
+      "IsDeprecated": false
+    }
+  ]
+}

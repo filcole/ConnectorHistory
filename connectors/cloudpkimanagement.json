@@ -1,0 +1,307 @@
+{
+  "UniqueName": "cloudpkimanagement",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudpkimanagement/",
+  "Actions": [
+    {
+      "OperationId": "Added-Hook",
+      "Name": "Hook Added",
+      "Description": "A new hook has been added to this Cloud PKI deployment",
+      "Anchor": "#hook-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Approved-Request",
+      "Name": "Request Approved",
+      "Description": "A certificate request has been approved for issuance by a Certificate Manager",
+      "Anchor": "#request-approved",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Completed-ConnectorAction",
+      "Name": "Connector Action Completed",
+      "Description": "An action executed by the Cloud PKI Connector has completed.",
+      "Anchor": "#connector-action-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-Hook",
+      "Name": "Delete Hook",
+      "Description": "Delete a hook subscribed to this deployment by its ID",
+      "Anchor": "#delete-hook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Denied-Request",
+      "Name": "Request Denied",
+      "Description": "A certificate request has been denied issuance by a Certificate Manager",
+      "Anchor": "#request-denied",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Expired-Certificate",
+      "Name": "Certificate Expired",
+      "Description": "A certificate has expired.",
+      "Anchor": "#certificate-expired",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Expiring-Certificate",
+      "Name": "Certificate Expiring",
+      "Description": "A certificate is expiring in 60 days",
+      "Anchor": "#certificate-expiring",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Failed-ConnectorAction",
+      "Name": "Connector Action Failed",
+      "Description": "An action executed by the Cloud PKI Connector has failed.",
+      "Anchor": "#connector-action-failed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Failed-Request",
+      "Name": "Request Failed",
+      "Description": "A certificate request has failed to be processed by the Certificate Authority",
+      "Anchor": "#request-failed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Actions",
+      "Name": "Get Actions",
+      "Description": "Retrieve upcoming required actions for this PKI",
+      "Anchor": "#get-actions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Authentication",
+      "Name": "Get Authentication Details",
+      "Description": "Gets the Azure Authentication Details for the Current Session",
+      "Anchor": "#get-authentication-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Certificate",
+      "Name": "Get Certificate",
+      "Description": "Get a Certificate by its SHA1 Thumbprint",
+      "Anchor": "#get-certificate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-ConnectorAction",
+      "Name": "Get Connector Action",
+      "Description": "Get a Connector Action by its Action ID",
+      "Anchor": "#get-connector-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-CRL",
+      "Name": "Get Certificate Revocation List (CRL)",
+      "Description": "Get a Certificate Revocation List from this deployment by its CRL ID",
+      "Anchor": "#get-certificate-revocation-list-(crl)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Hook",
+      "Name": "Get Hook",
+      "Description": "Get a hook subscribed to this deployment by its HookID",
+      "Anchor": "#get-hook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-PublishedCertificate",
+      "Name": "Get Published Certificate",
+      "Description": "Download Issued Certificates for Submitters and Owners",
+      "Anchor": "#get-published-certificate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-PublishedTemplates",
+      "Name": "Get Published Templates",
+      "Description": "Gets Published Templates for Certificate Requests",
+      "Anchor": "#get-published-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Request",
+      "Name": "Get Request",
+      "Description": "Retrieve a Certificate Signing Request (CSR)",
+      "Anchor": "#get-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Template",
+      "Name": "Get Template",
+      "Description": "Fetch a certificate template configuration",
+      "Anchor": "#get-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-UserDeployments",
+      "Name": "Get User Deployments",
+      "Description": "Retrieves the users configured deployments",
+      "Anchor": "#get-user-deployments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Issued-Certificate",
+      "Name": "Certificate Issued",
+      "Description": "A new certificate has been issued by the Certificate Authority",
+      "Anchor": "#certificate-issued",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Issued-CRL",
+      "Name": "CRL Issued",
+      "Description": "A new certificate revocation list (CRL) has been issued by the Certificate Authority",
+      "Anchor": "#crl-issued",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "New-ConnectorAction",
+      "Name": "Connector Action Added",
+      "Description": "A new Cloud PKI Connector action has been Added.",
+      "Anchor": "#connector-action-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "New-Hook",
+      "Name": "New Hook",
+      "Description": "Add a new hook to this Cloud PKI Deployment",
+      "Anchor": "#new-hook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "New-Request",
+      "Name": "New Request",
+      "Description": "New Certificate Request",
+      "Anchor": "#new-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pending-Request",
+      "Name": "Request Pending Approval",
+      "Description": "A new certificate request is pending approval from a Certificate Manager",
+      "Anchor": "#request-pending-approval",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Published-Template",
+      "Name": "Template Published",
+      "Description": "A certificate template has been published by the Certificate Authority",
+      "Anchor": "#template-published",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Query-Certificates",
+      "Name": "Query Certificates",
+      "Description": "Query Certificates Issued by this Cloud PKI deployment",
+      "Anchor": "#query-certificates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Query-CRLs",
+      "Name": "Query Certificate Revocation Lists (CRLs)",
+      "Description": "Queries for CRLs based on selected criteria",
+      "Anchor": "#query-certificate-revocation-lists-(crls)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Query-Hooks",
+      "Name": "Query Hooks",
+      "Description": "Query all hooks in this Cloud PKI Deployment",
+      "Anchor": "#query-hooks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Query-Requests",
+      "Name": "Query Requests",
+      "Description": "Query Certificate Signing Requests",
+      "Anchor": "#query-requests",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Query-Templates",
+      "Name": "Query Certificate Templates",
+      "Description": "Search for certificate templates",
+      "Anchor": "#query-certificate-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Removed-Hook",
+      "Name": "Hook Removed",
+      "Description": "A hook has been removed from this Cloud PKI deployment",
+      "Anchor": "#hook-removed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Renewing-Certificate",
+      "Name": "Certificate Renewing",
+      "Description": "A certificate is available for renewal.",
+      "Anchor": "#certificate-renewing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Revoked-Certificate",
+      "Name": "Certificate Revoked",
+      "Description": "An existing certificate has been revoked by the Certificate Authority",
+      "Anchor": "#certificate-revoked",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Stalled-ConnectorAction",
+      "Name": "Connector Action Stalled",
+      "Description": "An action executed by the Cloud PKI Connector has stalled.",
+      "Anchor": "#connector-action-stalled",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Unpublished-Template",
+      "Name": "Template Unpublished",
+      "Description": "A certificate template has been unpublished by the Certificate Authority",
+      "Anchor": "#template-unpublished",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-Certificate",
+      "Name": "Update Certificate",
+      "Description": "Change the status or metadata of a certificate",
+      "Anchor": "#update-certificate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Updated-Certificate",
+      "Name": "Certificate Updated",
+      "Description": "An existing certificate's CloudPKI properties have been updated.",
+      "Anchor": "#certificate-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Updated-Request",
+      "Name": "Request Updated",
+      "Description": "An existing request's CloudPKI properties have been updated.",
+      "Anchor": "#request-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Updated-Template",
+      "Name": "Template Updated",
+      "Description": "A certificate template has been updated.",
+      "Anchor": "#template-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-Request",
+      "Name": "Update Request",
+      "Description": "Approve, Deny or Update an existing Certificate Request",
+      "Anchor": "#update-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-Template",
+      "Name": "Update Template",
+      "Description": "Change the status or metadata of a Template",
+      "Anchor": "#update-template",
+      "IsDeprecated": false
+    }
+  ]
+}

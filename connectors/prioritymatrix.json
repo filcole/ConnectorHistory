@@ -1,0 +1,111 @@
+{
+  "UniqueName": "prioritymatrix",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../prioritymatrix/",
+  "Actions": [
+    {
+      "OperationId": "AddCommentToItem",
+      "Name": "Add Comment to Item",
+      "Description": "Add Comment to Item",
+      "Anchor": "#add-comment-to-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateItem",
+      "Name": "Create Item",
+      "Description": "Create a new item",
+      "Anchor": "#create-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateProject",
+      "Name": "Creates a Project",
+      "Description": "Creates a Project",
+      "Anchor": "#creates-a-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Gets an Item",
+      "Description": "Retrieves an item given its ID",
+      "Anchor": "#gets-an-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProject",
+      "Name": "Gets Project",
+      "Description": "Gets Project",
+      "Anchor": "#gets-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProjectItems",
+      "Name": "Get Project Items",
+      "Description": "Get Project Items",
+      "Anchor": "#get-project-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProjects",
+      "Name": "Gets all projects",
+      "Description": "Gets all the projects that the user can access",
+      "Anchor": "#gets-all-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemCompletedHook",
+      "Name": "Item Was Completed",
+      "Description": "Item Was Completed",
+      "Anchor": "#item-was-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemCreatedHook",
+      "Name": "Item Was Created",
+      "Description": "Item Was Created",
+      "Anchor": "#item-was-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemDelegatedHook",
+      "Name": "Item Was Delegated",
+      "Description": "Item Was Delegated",
+      "Anchor": "#item-was-delegated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemDeletedHook",
+      "Name": "Item Was Deleted",
+      "Description": "Item Was Deleted",
+      "Anchor": "#item-was-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemDueHook",
+      "Name": "Item is Due",
+      "Description": "Item Due",
+      "Anchor": "#item-is-due",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ItemStartHook",
+      "Name": "Item Starts now",
+      "Description": "Item Started",
+      "Anchor": "#item-starts-now",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateItem",
+      "Name": "Update Item",
+      "Description": "Update an existing item",
+      "Anchor": "#update-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProject",
+      "Name": "Updates a Project",
+      "Description": "Updates a Project",
+      "Anchor": "#updates-a-project",
+      "IsDeprecated": false
+    }
+  ]
+}

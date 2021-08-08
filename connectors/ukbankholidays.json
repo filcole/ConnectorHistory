@@ -1,0 +1,13 @@
+{
+  "UniqueName": "ukbankholidays",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ukbankholidays/",
+  "Actions": [
+    {
+      "OperationId": "AllKingdomHolidays",
+      "Name": "All holidays for all kingdoms",
+      "Description": "All bank holidays for all kingdoms as defined the Government",
+      "Anchor": "#all-holidays-for-all-kingdoms",
+      "IsDeprecated": false
+    }
+  ]
+}

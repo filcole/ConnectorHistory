@@ -1,0 +1,146 @@
+{
+  "UniqueName": "avepointcloudgovernance",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../avepointcloudgovernance/",
+  "Actions": [
+    {
+      "OperationId": "Flow_CreateHookForConfirmDetailCompleted",
+      "Name": "When an end user completes a governance details confirmation task",
+      "Description": "This operation triggers when an end user completes a governance details confirmation task for a workspace.",
+      "Anchor": "#when-an-end-user-completes-a-governance-details-confirmation-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForErrorTaskCreated",
+      "Name": "When an error task is generated",
+      "Description": "This operation triggers when an error task is generated.",
+      "Anchor": "#when-an-error-task-is-generated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForErrorTaskRetried",
+      "Name": "When an error task is retried",
+      "Description": "This operation triggers when the retry action is performed on an error task.",
+      "Anchor": "#when-an-error-task-is-retried",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForErrorTaskSkipped",
+      "Name": "When an error task is skipped",
+      "Description": "This operation triggers when the skip action is performed on an error task.",
+      "Anchor": "#when-an-error-task-is-skipped",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForFullyAutoImportCompleted",
+      "Name": "When an import process with pre-defined governance details is completed",
+      "Description": "This operation triggers when an import process with pre-defined governance details is completed.",
+      "Anchor": "#when-an-import-process-with-pre-defined-governance-details-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForRenewalTaskCompleted",
+      "Name": "When a renewal task is completed",
+      "Description": "This operation triggers when a renewal task is completed.",
+      "Anchor": "#when-a-renewal-task-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForRenewalTaskException",
+      "Name": "When a renewal process encounters an exception",
+      "Description": "This operation triggers when a renewal process encounters an exception.",
+      "Anchor": "#when-a-renewal-process-encounters-an-exception",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForRenewalTaskOverdue",
+      "Name": "When a renewal task is overdue",
+      "Description": "This operation triggers when a renewal task is overdue.",
+      "Anchor": "#when-a-renewal-task-is-overdue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForRequestCancelled",
+      "Name": "When a request is canceled",
+      "Description": "This operation triggers when a request is canceled.",
+      "Anchor": "#when-a-request-is-canceled",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForRequestCompleted",
+      "Name": "When a request is completed",
+      "Description": "This operation triggers when a request is completed.",
+      "Anchor": "#when-a-request-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForRequestSubmitted",
+      "Name": "When a request is submitted",
+      "Description": "This operation triggers when a request is submitted.",
+      "Anchor": "#when-a-request-is-submitted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForTaskApproved",
+      "Name": "When a request is approved",
+      "Description": "This operation triggers when a request is approved.",
+      "Anchor": "#when-a-request-is-approved",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForTaskCreated",
+      "Name": "When an approval task is assigned",
+      "Description": "This operation triggers when an approval task is assigned.",
+      "Anchor": "#when-an-approval-task-is-assigned",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_CreateHookForTaskRejected",
+      "Name": "When a request is rejected",
+      "Description": "This operation triggers when a request is rejected.",
+      "Anchor": "#when-a-request-is-rejected",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_EditRequest",
+      "Name": "Update a request",
+      "Description": "Update an existing request.",
+      "Anchor": "#update-a-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_GetRequestById",
+      "Name": "Get a request",
+      "Description": "Get details of a request.",
+      "Anchor": "#get-a-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_ListWorkspace",
+      "Name": "List workspaces",
+      "Description": "Retrieve a list of workspaces managed by Cloud Governance.",
+      "Anchor": "#list-workspaces",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_SubmitRequest",
+      "Name": "Submit a request",
+      "Description": "Submit a request for a specific service.",
+      "Anchor": "#submit-a-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_UpdateOffice365Setting",
+      "Name": "Update Microsoft 365 settings",
+      "Description": "Update Microsoft 365 settings.",
+      "Anchor": "#update-microsoft-365-settings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Flow_WorkspaceActions",
+      "Name": "Manage a workspace",
+      "Description": "Manage an AvePoint Cloud Governance managed workspace.",
+      "Anchor": "#manage-a-workspace",
+      "IsDeprecated": false
+    }
+  ]
+}

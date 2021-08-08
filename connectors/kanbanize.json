@@ -1,0 +1,76 @@
+{
+  "UniqueName": "kanbanize",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../kanbanize/",
+  "Actions": [
+    {
+      "OperationId": "AddComment",
+      "Name": "Add Comment",
+      "Description": "Adds a comment to a card or initiative.",
+      "Anchor": "#add-comment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCard",
+      "Name": "Create Card",
+      "Description": "Create a card in a board of your chocie",
+      "Anchor": "#create-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSubtask",
+      "Name": "Create Subtask",
+      "Description": "Creates a new subtask of a card or initiative",
+      "Anchor": "#create-subtask",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBoards",
+      "Name": "Get Boards",
+      "Description": "Get all boards from the account.",
+      "Anchor": "#get-boards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetColumns",
+      "Name": "Get Board Columns",
+      "Description": "Gets all columns for a specified board.",
+      "Anchor": "#get-board-columns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLanes",
+      "Name": "Get Lanes",
+      "Description": "Gets all lanes for a specified board.",
+      "Anchor": "#get-lanes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTypes",
+      "Name": "Get Types",
+      "Description": "Gets all types within the account.",
+      "Anchor": "#get-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LogTime",
+      "Name": "Log Time",
+      "Description": "Log time to a card. The time is logged in minutes.",
+      "Anchor": "#log-time",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveCard",
+      "Name": "Move Card",
+      "Description": "Move a card (Task or Initiative, if possible) to a column.",
+      "Anchor": "#move-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateCard",
+      "Name": "Update Card",
+      "Description": "Update the properties of a card (Title, Description, Priority, etc.)",
+      "Anchor": "#update-card",
+      "IsDeprecated": false
+    }
+  ]
+}

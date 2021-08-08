@@ -1,0 +1,41 @@
+{
+  "UniqueName": "xpertdoc",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../xpertdoc/",
+  "Actions": [
+    {
+      "OperationId": "DownloadDocument",
+      "Name": "Download Document",
+      "Description": "Downloads the document from an execution.",
+      "Anchor": "#download-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteDynamicsFlow",
+      "Name": "Execute Dynamics Flow [DEPRECATED]",
+      "Description": "Execute a flow for a Dynamics 365 data set.",
+      "Anchor": "#execute-dynamics-flow-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "ExecuteFlow",
+      "Name": "Execute Flow",
+      "Description": "Execute a Flow.",
+      "Anchor": "#execute-flow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocuments",
+      "Name": "Get Documents",
+      "Description": "Get documents from a flow execution.",
+      "Anchor": "#get-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetExecutionStatus",
+      "Name": "Get Execution Status",
+      "Description": "Get the status of an execution.",
+      "Anchor": "#get-execution-status",
+      "IsDeprecated": false
+    }
+  ]
+}

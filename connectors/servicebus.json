@@ -1,0 +1,216 @@
+{
+  "UniqueName": "servicebus",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../servicebus/",
+  "Actions": [
+    {
+      "OperationId": "AbandonMessageInQueue",
+      "Name": "Abandon the message in a queue",
+      "Description": "The operation abandons a message in a queue.",
+      "Anchor": "#abandon-the-message-in-a-queue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AbandonMessageInTopic",
+      "Name": "Abandon the message in a topic subscription",
+      "Description": "The operation abandons a message in a topic subscription.",
+      "Anchor": "#abandon-the-message-in-a-topic-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseSessionInQueue",
+      "Name": "Close a session in a queue",
+      "Description": "The operation closes a session in a queue.",
+      "Anchor": "#close-a-session-in-a-queue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseSessionInTopic",
+      "Name": "Close a session in the topic",
+      "Description": "The operation closes a session in the topic.",
+      "Anchor": "#close-a-session-in-the-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompleteMessageInQueue",
+      "Name": "Complete the message in a queue",
+      "Description": "The operation completes a message in a queue.",
+      "Anchor": "#complete-the-message-in-a-queue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompleteMessageInTopic",
+      "Name": "Complete the message in a topic subscription",
+      "Description": "The operation completes a message in a topic subscription.",
+      "Anchor": "#complete-the-message-in-a-topic-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTopicSubscription",
+      "Name": "Create a topic subscription",
+      "Description": "The operation creates a topic subscription.",
+      "Anchor": "#create-a-topic-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeadLetterMessageInQueue",
+      "Name": "Dead-letter the message in a queue",
+      "Description": "The operation moves the message to the Dead-Letter Queue.",
+      "Anchor": "#dead-letter-the-message-in-a-queue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeadLetterMessageInTopic",
+      "Name": "Dead-letter the message in a topic subscription",
+      "Description": "The operation moves the message to the topic Dead-Letter Queue.",
+      "Anchor": "#dead-letter-the-message-in-a-topic-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeferMessageInQueue",
+      "Name": "Defer the message in a queue",
+      "Description": "The operation defers a message in a queue.",
+      "Anchor": "#defer-the-message-in-a-queue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeferMessageInTopic",
+      "Name": "Defer the message in a topic subscription",
+      "Description": "The operation defers a message in a topic subscription.",
+      "Anchor": "#defer-the-message-in-a-topic-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTopicSubscription",
+      "Name": "Delete a topic subscription",
+      "Description": "The operation deletes a topic subscription.",
+      "Anchor": "#delete-a-topic-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDeferredMessageFromQueue",
+      "Name": "Get deferred message from a queue",
+      "Description": "The operation gets a deferred message from a queue.",
+      "Anchor": "#get-deferred-message-from-a-queue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDeferredMessageFromTopic",
+      "Name": "Get deferred message from a topic subscription",
+      "Description": "The operation gets a deferred message from a topic subscription.",
+      "Anchor": "#get-deferred-message-from-a-topic-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessageFromQueue",
+      "Name": "When a message is received in a queue (auto-complete)",
+      "Description": "This operation triggers a flow when a message is received in a queue and auto completes the message.",
+      "Anchor": "#when-a-message-is-received-in-a-queue-(auto-complete)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessageFromTopic",
+      "Name": "When a message is received in a topic subscription (auto-complete)",
+      "Description": "This operation triggers a flow when a message is received in a topic subscription and auto completes the message.",
+      "Anchor": "#when-a-message-is-received-in-a-topic-subscription-(auto-complete)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessagesFromQueue",
+      "Name": "When one or more messages arrive in a queue (auto-complete)",
+      "Description": "The operation receives one or more messages from a queue. If maximum message count is not provided, it reads 20 messages.",
+      "Anchor": "#when-one-or-more-messages-arrive-in-a-queue-(auto-complete)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessagesFromQueueWithPeekLock",
+      "Name": "Get messages from a queue (peek-lock)",
+      "Description": "The operation receives messages from a queue with peek-lock. If maximum message count is not provided, it reads 20 messages.",
+      "Anchor": "#get-messages-from-a-queue-(peek-lock)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessagesFromTopic",
+      "Name": "When one or more messages arrive in a topic (auto-complete)",
+      "Description": "The operation receives one or more messages from a topic. If maximum message count is not provided, it reads 20 messages.",
+      "Anchor": "#when-one-or-more-messages-arrive-in-a-topic-(auto-complete)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessagesFromTopicWithPeekLock",
+      "Name": "Get messages from a topic subscription (peek-lock)",
+      "Description": "The operation receives messages from a topic subscription with peek-lock. If maximum message count is not provided, it reads 20 messages.",
+      "Anchor": "#get-messages-from-a-topic-subscription-(peek-lock)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNewMessageFromQueueWithPeekLock",
+      "Name": "When a message is received in a queue (peek-lock)",
+      "Description": "The operation triggers a flow when a message received in a queue with peek-lock mode.",
+      "Anchor": "#when-a-message-is-received-in-a-queue-(peek-lock)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNewMessageFromTopicWithPeekLock",
+      "Name": "When a message is received in a topic subscription (peek-lock)",
+      "Description": "The operation triggers a flow when a message received in a topic subscription with peek-lock mode.",
+      "Anchor": "#when-a-message-is-received-in-a-topic-subscription-(peek-lock)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNewMessagesFromQueueWithPeekLock",
+      "Name": "When one or more messages arrive in a queue (peek-lock)",
+      "Description": "The operation receives one or more messages from a queue with peek-lock. If maximum message count is not provided, it reads 20 messages.",
+      "Anchor": "#when-one-or-more-messages-arrive-in-a-queue-(peek-lock)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNewMessagesFromTopicWithPeekLock",
+      "Name": "When one or more messages arrive in a topic (peek-lock)",
+      "Description": "The operation receives one or more messages from a topic with peek-lock. If maximum message count is not provided, it reads 20 messages.",
+      "Anchor": "#when-one-or-more-messages-arrive-in-a-topic-(peek-lock)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenewLockOnMessageInQueue",
+      "Name": "Renew lock on the message in a queue",
+      "Description": "The operation renews lock on a message in a queue.",
+      "Anchor": "#renew-lock-on-the-message-in-a-queue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenewLockOnMessageInTopic",
+      "Name": "Renew lock on the message in a topic subscription",
+      "Description": "The operation renews lock on a message in a topic subscription.",
+      "Anchor": "#renew-lock-on-the-message-in-a-topic-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenewLockOnSessionInQueue",
+      "Name": "Renew lock on the session in a queue",
+      "Description": "The operation renews a session in a queue.",
+      "Anchor": "#renew-lock-on-the-session-in-a-queue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenewLockOnSessionInTopic",
+      "Name": "Renew lock on the session in a topic subscription",
+      "Description": "The operation renews a session in a topic subscription.",
+      "Anchor": "#renew-lock-on-the-session-in-a-topic-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "Send message",
+      "Description": "This operation sends a message to a queue or topic.",
+      "Anchor": "#send-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessages",
+      "Name": "Send one or more messages",
+      "Description": "This operation sends one or more messages to a queue or topic.",
+      "Anchor": "#send-one-or-more-messages",
+      "IsDeprecated": false
+    }
+  ]
+}

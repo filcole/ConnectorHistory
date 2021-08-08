@@ -1,0 +1,132 @@
+{
+  "UniqueName": "microsoftgraphsecurity",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../microsoftgraphsecurity/",
+  "Actions": [
+    {
+      "OperationId": "CreateSubscriptions",
+      "Name": "Create subscriptions",
+      "Description": "Create Microsoft Graph webhook subscriptions.",
+      "Anchor": "#create-subscriptions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTiIndicator",
+      "Name": "Create tiIndicator",
+      "Description": "Create a new threat intelligence indicator by posting to the tiIndicators collection.",
+      "Anchor": "#create-tiindicator",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteSubscription",
+      "Name": "Delete subscriptions",
+      "Description": "Delete the specific Microsoft Graph Webhook subscription.",
+      "Anchor": "#delete-subscriptions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTiIndicator",
+      "Name": "Delete tiIndicator by ID",
+      "Description": "Delete a threat intelligence indicator corresponding to the specified ID.",
+      "Anchor": "#delete-tiindicator-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTiIndicators",
+      "Name": "Delete multiple tiIndicators by IDs",
+      "Description": "Delete multiple threat intelligence indicators corresponding to the specified IDs.",
+      "Anchor": "#delete-multiple-tiindicators-by-ids",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTiIndicatorsByExternalId",
+      "Name": "Delete multiple tiIndicators by external IDs",
+      "Description": "Delete multiple threat intelligence indicators corresponding to the specified external IDs.",
+      "Anchor": "#delete-multiple-tiindicators-by-external-ids",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetActiveSubscriptions",
+      "Name": "Get active subscriptions",
+      "Description": "Get the list of unexpired subscriptions for this Azure Active Directory tenant.",
+      "Anchor": "#get-active-subscriptions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAlertById",
+      "Name": "Get alert by ID",
+      "Description": "Get a security alert corresponding to the specified ID.",
+      "Anchor": "#get-alert-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAlerts",
+      "Name": "Get alerts",
+      "Description": "Get a list of security alerts for this Azure Active Directory tenant. Use with different query parameters.",
+      "Anchor": "#get-alerts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTiIndicatorbyId",
+      "Name": "Get tiIndicator by ID",
+      "Description": "Get a threat intelligence indicator corresponding to the specified ID.",
+      "Anchor": "#get-tiindicator-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTiIndicators",
+      "Name": "Get tiIndicators",
+      "Description": "Get a list of threat intelligence indicators for this Azure Active Directory tenant. Use with different query parameters.",
+      "Anchor": "#get-tiindicators",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnAllNewAlerts",
+      "Name": "On all new alerts",
+      "Description": "Triggers on all new alerts",
+      "Anchor": "#on-all-new-alerts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewHighSeverityAlerts",
+      "Name": "On new high severity alerts",
+      "Description": "Triggers on new high severity alerts",
+      "Anchor": "#on-new-high-severity-alerts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubmitTiIndicators",
+      "Name": "Submit multiple tiIndicators",
+      "Description": "Create new threat intelligence indicators by posting a tiIndicators collection. Required fields for each tiIndicator are: action, azureTenantId, description, expirationDateTime, targetProduct, threatType, tlpLevel.",
+      "Anchor": "#submit-multiple-tiindicators",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateAlert",
+      "Name": "Update alert",
+      "Description": "Update specific properties of a security alert.",
+      "Anchor": "#update-alert",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateSubscription",
+      "Name": "Update subscription",
+      "Description": "Renew a Microsoft Graph webhook subscription by updating its expiration time.",
+      "Anchor": "#update-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTiIndicator",
+      "Name": "Update tiIndicator",
+      "Description": "Update specific properties of a threat intelligence indicator. Required fields for the tiIndicator are: Id, expirationDateTime, and targetProduct.",
+      "Anchor": "#update-tiindicator",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTiIndicators",
+      "Name": "Update multiple tiIndicators",
+      "Description": "Update specific properties of multiple threat intelligence indicators. Required fields for each tiIndicator are: Id, expirationDateTime, and targetProduct.",
+      "Anchor": "#update-multiple-tiindicators",
+      "IsDeprecated": false
+    }
+  ]
+}

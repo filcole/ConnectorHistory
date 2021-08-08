@@ -1,0 +1,27 @@
+{
+  "UniqueName": "occuspace",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../occuspace/",
+  "Actions": [
+    {
+      "OperationId": "HistoricalData",
+      "Name": "Historical Data",
+      "Description": "Historical occupancy data for a specific location being measured by Occuspace.",
+      "Anchor": "#historical-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LocationList",
+      "Name": "Location List",
+      "Description": "An overall list of the spaces that Occuspace measures for a customer.",
+      "Anchor": "#location-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Real-TimeData",
+      "Name": "Real-Time Data",
+      "Description": "The real-time occupancy count for a specific location being measured by Occuspace.",
+      "Anchor": "#real-time-data",
+      "IsDeprecated": false
+    }
+  ]
+}

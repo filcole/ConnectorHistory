@@ -1,0 +1,55 @@
+{
+  "UniqueName": "sms77io",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sms77io/",
+  "Actions": [
+    {
+      "OperationId": "Balance",
+      "Name": "Get Balance",
+      "Description": "Retrieves the account balance for given API key",
+      "Anchor": "#get-balance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Lookup",
+      "Name": "Lookup HLR, CNAM, MNP or Format",
+      "Description": "Retrieves CNAM, MNP, HLR or number format info",
+      "Anchor": "#lookup-hlr,-cnam,-mnp-or-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pricing",
+      "Name": "Get Pricing",
+      "Description": "Retrieves pricing information for a single country or all",
+      "Anchor": "#get-pricing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Sms",
+      "Name": "Send Sms",
+      "Description": "Sends one or multiple SMS to one or multiple recipients",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Status",
+      "Name": "Get SMS Status",
+      "Description": "Retrieves dispatch status for a given SMS ID",
+      "Anchor": "#get-sms-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateForVoice",
+      "Name": "Validate Caller ID for Voice",
+      "Description": "Validates the given phone number for the use of voice API",
+      "Anchor": "#validate-caller-id-for-voice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Voice",
+      "Name": "Send Text2Speech Voice Call",
+      "Description": "Sends a text2voice message to a given recipient number",
+      "Anchor": "#send-text2speech-voice-call",
+      "IsDeprecated": false
+    }
+  ]
+}

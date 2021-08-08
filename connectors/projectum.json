@@ -1,0 +1,20 @@
+{
+  "UniqueName": "projectum",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../projectum/",
+  "Actions": [
+    {
+      "OperationId": "GeneratePowerpointDoc",
+      "Name": "Generate PowerPoint document",
+      "Description": "Generates a PowerPoint document based on JSON data.",
+      "Anchor": "#generate-powerpoint-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateWordDoc",
+      "Name": "Generate Word document",
+      "Description": "Generates a Word document based on JSON data.",
+      "Anchor": "#generate-word-document",
+      "IsDeprecated": false
+    }
+  ]
+}

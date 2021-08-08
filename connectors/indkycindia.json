@@ -1,0 +1,13 @@
+{
+  "UniqueName": "indkycindia",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../indkycindia/",
+  "Actions": [
+    {
+      "OperationId": "IDDocClassificationAndExtraction",
+      "Name": "ID Document Classification and Extraction",
+      "Description": "This action does both classification of the ID document and extraction of attributes from the ID document. When a document is sent as an input, the extracted data along with the classified document type is received as an output.",
+      "Anchor": "#id-document-classification-and-extraction",
+      "IsDeprecated": false
+    }
+  ]
+}

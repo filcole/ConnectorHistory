@@ -1,0 +1,20 @@
+{
+  "UniqueName": "appsforops",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../appsforops/",
+  "Actions": [
+    {
+      "OperationId": "ApiExtNPSPost",
+      "Name": "Create a new Net Promoter Score (NPS) value for the specified user",
+      "Description": "Calling this will create a new Net Promoter Score (NPS) value for the specified user.",
+      "Anchor": "#create-a-new-net-promoter-score-(nps)-value-for-the-specified-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ApiExtTimelinePost",
+      "Name": "Create a new Timeline entry for the specified group",
+      "Description": "Calling this will create a new Timeline entry for the specified group.",
+      "Anchor": "#create-a-new-timeline-entry-for-the-specified-group",
+      "IsDeprecated": false
+    }
+  ]
+}

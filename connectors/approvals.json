@@ -1,0 +1,41 @@
+{
+  "UniqueName": "approvals",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../approvals/",
+  "Actions": [
+    {
+      "OperationId": "approvalSubscribe",
+      "Name": "Start and wait for an Approve or Reject - First to respond approval [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Start and wait for an approval instead.\nStarts an automated approval process and then waits for it to complete. The approval is only canceled on timeout. (Deprecated)",
+      "Anchor": "#start-and-wait-for-an-approve-or-reject---first-to-respond-approval-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "approvalSubscribeV2",
+      "Name": "Start and wait for an approval [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Start and wait for an approval instead.\nStarts an automated approval process and then waits for it to complete. The approval is only canceled on timeout. (Deprecated)",
+      "Anchor": "#start-and-wait-for-an-approval-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "CreateAnApproval",
+      "Name": "Create an approval",
+      "Description": "Starts an automated approval process, but does not wait for the approval to complete. The approval is cancelable.",
+      "Anchor": "#create-an-approval",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartAndWaitForAnApproval",
+      "Name": "Start and wait for an approval",
+      "Description": "Starts an automated approval process and then waits for it to complete. The approval is cancelable.",
+      "Anchor": "#start-and-wait-for-an-approval",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WaitForAnApproval",
+      "Name": "Wait for an approval",
+      "Description": "Waits for a specified approval to complete.",
+      "Anchor": "#wait-for-an-approval",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "UniqueName": "cloudappsecurity",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudappsecurity/",
+  "Actions": [
+    {
+      "OperationId": "MCAS_CLOSE_ALERT_BENIGN",
+      "Name": "Close Cloud App Security alert as benign",
+      "Description": "Close Cloud App Security alert by alert ID as benign",
+      "Anchor": "#close-cloud-app-security-alert-as-benign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MCAS_CLOSE_ALERT_FALSE_POSITIVE",
+      "Name": "Close Cloud App Security alert as false positive",
+      "Description": "Close Cloud App Security alert by alert ID as false positive",
+      "Anchor": "#close-cloud-app-security-alert-as-false-positive",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MCAS_CLOSE_ALERT_TRUE_POSITIVE",
+      "Name": "Close Cloud App Security alert as true positive",
+      "Description": "Close Cloud App Security alert by alert ID as true positive",
+      "Anchor": "#close-cloud-app-security-alert-as-true-positive",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MCAS_DISABLE_POLICY",
+      "Name": "Disable Cloud App Security policy",
+      "Description": "Disable Cloud App Security policy by policy ID",
+      "Anchor": "#disable-cloud-app-security-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MCAS_DISMISS_ALERT",
+      "Name": "[DEPRECATED] Dismiss Cloud App Security alert",
+      "Description": "Dismiss Cloud App Security alert by alert ID (deprecated version)",
+      "Anchor": "#[deprecated]-dismiss-cloud-app-security-alert",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "MCAS_ENABLE_POLICY",
+      "Name": "Enable Cloud App Security policy",
+      "Description": "Enable Cloud App Security policy by policy ID",
+      "Anchor": "#enable-cloud-app-security-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MCAS_GET_ACTIVITIES",
+      "Name": "Get Cloud App Security activities",
+      "Description": "Get Cloud App Security activities performed by Azure AD user ID",
+      "Anchor": "#get-cloud-app-security-activities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MCAS_GET_OPEN_ALERTS",
+      "Name": "Get Cloud App Security open alerts",
+      "Description": "Get Cloud App Security open alerts",
+      "Anchor": "#get-cloud-app-security-open-alerts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MCAS_GET_POLICY",
+      "Name": "Get Cloud App Security policy",
+      "Description": "Get Cloud App Security policy by policy ID",
+      "Anchor": "#get-cloud-app-security-policy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MCAS_ON_ALERT_GENERATED",
+      "Name": "When an alert is generated",
+      "Description": "Triggers when a Cloud App Security alert is generated. After configuring your flow, go to the Cloud App Security policy page, and specify this flow in one of your policies.",
+      "Anchor": "#when-an-alert-is-generated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MCAS_RESOLVE_ALERT",
+      "Name": "[DEPRECATED] Resolve Cloud App Security alert",
+      "Description": "Resolve Cloud App Security alert by alert ID (deprecated version)",
+      "Anchor": "#[deprecated]-resolve-cloud-app-security-alert",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "MCAS_TAG_APP_SANCTIONED",
+      "Name": "Tag app as sanctioned",
+      "Description": "Tag app as sanctioned by app ID",
+      "Anchor": "#tag-app-as-sanctioned",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MCAS_TAG_APP_UNSANCTIONED",
+      "Name": "Tag app as unsanctioned",
+      "Description": "Tag app as unsanctioned by app ID",
+      "Anchor": "#tag-app-as-unsanctioned",
+      "IsDeprecated": false
+    }
+  ]
+}
