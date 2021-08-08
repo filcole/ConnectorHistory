@@ -1,0 +1,20 @@
+{
+  "UniqueName": "docq",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../docq/",
+  "Actions": [
+    {
+      "OperationId": "ExtractInformation",
+      "Name": "Extract document information",
+      "Description": "Extract information from an ID Card or other documents",
+      "Anchor": "#extract-document-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateDocument",
+      "Name": "Generate document",
+      "Description": "Generate the document based on the object sent as JSON",
+      "Anchor": "#generate-document",
+      "IsDeprecated": false
+    }
+  ]
+}
