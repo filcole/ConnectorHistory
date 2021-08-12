@@ -1714,24 +1714,66 @@
         "IsDeprecated": true
       },
       {
+        "OperationId": "PostChannelNotification",
+        "Name": "Post a message as the Flow bot to a channel [DEPRECATED]",
+        "Description": "Easily automate the process of posting a message to a Teams channel.",
+        "Anchor": "#post-a-message-as-the-flow-bot-to-a-channel-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
         "OperationId": "PostMessageToChannel",
         "Name": "Post a message [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Post a message (V3) instead.\nThis operation is used to post a message to a channel in a specific Team.",
+        "Description": "This operation is used to post a message to a channel in a specific Team.",
         "Anchor": "#post-a-message-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "PostMessageToChannelV2",
         "Name": "Post a message (V2) [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Post a message (V3) instead.\nThis operation is used to post a message to a channel in a specific Team.",
+        "Description": "This operation is used to post a message to a channel in a specific Team.",
         "Anchor": "#post-a-message-(v2)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "PostMessageToChannelV3",
+        "Name": "Post a message (V3) [DEPRECATED]",
+        "Description": "This operation is used to post a message to a channel in a specific Team.",
+        "Anchor": "#post-a-message-(v3)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "PostReplyToMessage",
         "Name": "Post a reply to a message [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Post a reply to a message (V2) instead.\nThis operation is used to post a reply to a message in a channel in a specific Team.",
+        "Description": "This operation is used to post a reply to a message in a channel in a specific Team.",
         "Anchor": "#post-a-reply-to-a-message-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "PostReplyToMessageV2",
+        "Name": "Post a reply to a message (V2) [DEPRECATED]",
+        "Description": "This operation is used to post a reply to a message in a channel in a specific Team.",
+        "Anchor": "#post-a-reply-to-a-message-(v2)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "PostUserNotification",
+        "Name": "Post a message as the Flow bot to a user [DEPRECATED]",
+        "Description": "Easily automate the process of sending a message to someone in Teams.",
+        "Anchor": "#post-a-message-as-the-flow-bot-to-a-user-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "SubscribeChannelFlowContinuation",
+        "Name": "Post an Adaptive Card to a Teams channel and wait for a response [DEPRECATED]",
+        "Description": "Easily automate the process of sending a message to a Teams channel that contains actions to continue a waiting flow.",
+        "Anchor": "#post-an-adaptive-card-to-a-teams-channel-and-wait-for-a-response-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "SubscribeUserFlowContinuation",
+        "Name": "Post an Adaptive Card to a Teams user and wait for a response [DEPRECATED]",
+        "Description": "Easily automate the process of sending a message to a Teams user that contains actions to continue a waiting flow.",
+        "Anchor": "#post-an-adaptive-card-to-a-teams-user-and-wait-for-a-response-[deprecated]",
         "IsDeprecated": true
       },
       {

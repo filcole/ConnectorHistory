@@ -1,0 +1,118 @@
+{
+  "UniqueName": "kanbantool",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../kanbantool/",
+  "Actions": [
+    {
+      "OperationId": "ArchiveTask",
+      "Name": "Archive a task",
+      "Description": "This operation archives a task.",
+      "Anchor": "#archive-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BoardActivities",
+      "Name": "Get board activities",
+      "Description": "This operation gets a board activities.",
+      "Anchor": "#get-board-activities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateComment",
+      "Name": "Create a comment",
+      "Description": "This operation creates a comment.",
+      "Anchor": "#create-a-comment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSubtask",
+      "Name": "Create a subtask",
+      "Description": "This operation creates a subtask.",
+      "Anchor": "#create-a-subtask",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create a task",
+      "Description": "This operation creates a task.",
+      "Anchor": "#create-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteSubtask",
+      "Name": "Delete a subtask",
+      "Description": "This operation deletes a subtask.",
+      "Anchor": "#delete-a-subtask",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTask",
+      "Name": "Delete task",
+      "Description": "This operation deletes a task.",
+      "Anchor": "#delete-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBoard",
+      "Name": "Get board",
+      "Description": "This operation gets board's details.",
+      "Anchor": "#get-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBoards",
+      "Name": "Get boards",
+      "Description": "This operation gets boards.",
+      "Anchor": "#get-boards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetComments",
+      "Name": "Get comments",
+      "Description": "This operation gets a task comments.",
+      "Anchor": "#get-comments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSubtasks",
+      "Name": "Get subtasks",
+      "Description": "This operation gets subtasks.",
+      "Anchor": "#get-subtasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTask",
+      "Name": "Get task",
+      "Description": "This operation gets a task.",
+      "Anchor": "#get-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTasks",
+      "Name": "Get tasks",
+      "Description": "This operation gets tasks.",
+      "Anchor": "#get-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveTask",
+      "Name": "Move a task",
+      "Description": "This operation moves a task.",
+      "Anchor": "#move-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateSubtask",
+      "Name": "Update a subtask",
+      "Description": "This operation updates a subtask.",
+      "Anchor": "#update-a-subtask",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTask",
+      "Name": "Update a task",
+      "Description": "This operation updates a task.",
+      "Anchor": "#update-a-task",
+      "IsDeprecated": false
+    }
+  ]
+}

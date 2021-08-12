@@ -1,0 +1,48 @@
+{
+  "UniqueName": "withoutwireinventory",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../withoutwireinventory/",
+  "Actions": [
+    {
+      "OperationId": "AssignOrder",
+      "Name": "Assign order",
+      "Description": "This API method used to set orders to be assigned in WithoutWire. The order status will be set to Waiting for Picking. All operators that are set for the role of pick will have access to these orders.",
+      "Anchor": "#assign-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUpdateWorkOrder",
+      "Name": "Create or update work order",
+      "Description": "The method creates or updates work order (key is OrderNumber)",
+      "Anchor": "#create-or-update-work-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteOrder",
+      "Name": "Delete Order",
+      "Description": "Delete an order (all types)",
+      "Anchor": "#delete-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWorkOrders",
+      "Name": "Get work orders",
+      "Description": "Returns an array of work orders by status or by number",
+      "Anchor": "#get-work-orders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetOrderComplete",
+      "Name": "Set order complete",
+      "Description": "This API method used to set the status on orders to CMP (Complete).",
+      "Anchor": "#set-order-complete",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetOrderStatus",
+      "Name": "Set order status",
+      "Description": "This API method used to set the status on orders in WithoutWire.  Parameters include:  orderStatusCode and warehouseName",
+      "Anchor": "#set-order-status",
+      "IsDeprecated": false
+    }
+  ]
+}

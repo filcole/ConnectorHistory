@@ -10,10 +10,38 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "BusinessWorkspaceCreated",
+      "Name": "When a business workspace is created",
+      "Description": "When a business workspace has been created in Content Server",
+      "Anchor": "#when-a-business-workspace-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BusinessWorkspaceDeleted",
+      "Name": "When a business workspace is deleted",
+      "Description": "When a business workspace has been deleted in Content Server",
+      "Anchor": "#when-a-business-workspace-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BusinessWorkspaceUpdated",
+      "Name": "When a business workspace is updated",
+      "Description": "When a business workspace has been updated in Content Server",
+      "Anchor": "#when-a-business-workspace-is-updated",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CopyDocument",
       "Name": "Copy document",
       "Description": "Copy the document to a different folder in Content Server",
       "Anchor": "#copy-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateBusinessWorkspace",
+      "Name": "Create business workspace",
+      "Description": "Create the business workspace in Content Server",
+      "Anchor": "#create-business-workspace",
       "IsDeprecated": false
     },
     {
@@ -33,15 +61,78 @@
     {
       "OperationId": "DeleteDocument",
       "Name": "Delete document",
-      "Description": "Delete the document from Content Server",
+      "Description": "Delete the document in Content Server",
       "Anchor": "#delete-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteDocumentVersion",
+      "Name": "Delete document version",
+      "Description": "Delete the document version in Content Server",
+      "Anchor": "#delete-document-version",
       "IsDeprecated": false
     },
     {
       "OperationId": "DeleteFolder",
       "Name": "Delete folder",
-      "Description": "Delete the folder from Content Server",
+      "Description": "Delete the folder in Content Server",
       "Anchor": "#delete-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentCreated",
+      "Name": "When a document is created",
+      "Description": "When a document has been created in Content Server",
+      "Anchor": "#when-a-document-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentDeleted",
+      "Name": "When a document is deleted",
+      "Description": "When a document has been deleted in Content Server",
+      "Anchor": "#when-a-document-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocumentUpdated",
+      "Name": "When a document is updated",
+      "Description": "When document properties or content have been updated in Content Server",
+      "Anchor": "#when-a-document-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteWebReport",
+      "Name": "Execute web report",
+      "Description": "Execute a WebReport in Content Server",
+      "Anchor": "#execute-web-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FolderCreated",
+      "Name": "When a folder is created",
+      "Description": "When a folder has been created in Content Server",
+      "Anchor": "#when-a-folder-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FolderDeleted",
+      "Name": "When a folder is deleted",
+      "Description": "When a folder has been deleted in Content Server",
+      "Anchor": "#when-a-folder-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FolderUpdated",
+      "Name": "When a folder is updated",
+      "Description": "When a folder has been updated in Content Server",
+      "Anchor": "#when-a-folder-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBusinessWorkspace",
+      "Name": "Get business workspace",
+      "Description": "Get the business workspace from Content Server",
+      "Anchor": "#get-business-workspace",
       "IsDeprecated": false
     },
     {
@@ -66,6 +157,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetDocumentVersionContent",
+      "Name": "Get document version content",
+      "Description": "Get the content of the document version from Content Server",
+      "Anchor": "#get-document-version-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentVersions",
+      "Name": "Get document versions",
+      "Description": "Get the versions of the document from Content Server",
+      "Anchor": "#get-document-versions",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetFolder",
       "Name": "Get folder",
       "Description": "Get the folder from Content Server",
@@ -87,10 +192,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ReserveDocument",
+      "Name": "Reserve document",
+      "Description": "Reserve the document in Content Server",
+      "Anchor": "#reserve-document",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "SimpleSearch",
       "Name": "Search",
       "Description": "Search in Content Server",
       "Anchor": "#search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnreserveDocument",
+      "Name": "Unreserve document",
+      "Description": "Unreserve the document in Content Server",
+      "Anchor": "#unreserve-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateBusinessWorkspace",
+      "Name": "Update business workspace",
+      "Description": "Update the business workspace in Content Server",
+      "Anchor": "#update-business-workspace",
       "IsDeprecated": false
     },
     {

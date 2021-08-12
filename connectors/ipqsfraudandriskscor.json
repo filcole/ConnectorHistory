@@ -1,0 +1,34 @@
+{
+  "UniqueName": "ipqsfraudandriskscor",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ipqsfraudandriskscor/",
+  "Actions": [
+    {
+      "OperationId": "EMAIL_REPUTATION",
+      "Name": "Retrieve Email address reputation data",
+      "Description": "Retrieve Email address reputation data.",
+      "Anchor": "#retrieve-email-address-reputation-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IP_REPUTATION",
+      "Name": "Retrieve IP address reputation data",
+      "Description": "Retrieve IP address reputation data.",
+      "Anchor": "#retrieve-ip-address-reputation-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PHONE_REPUTATION",
+      "Name": "Retrieve Phone Number reputation data",
+      "Description": "Retrieve Phone Number reputation data.",
+      "Anchor": "#retrieve-phone-number-reputation-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "URL_REPUTATION",
+      "Name": "Retrieve URL (or) Domain reputation data",
+      "Description": "Retrieve URL (or) Domain reputation data.",
+      "Anchor": "#retrieve-url-(or)-domain-reputation-data",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "UniqueName": "etsy",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../etsy/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Get a listing's images",
+      "Description": "Retrieves all listing image resources for a listing with a specific listing ID.",
+      "Anchor": "#get-a-listing's-images",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a listing's inventory",
+      "Description": "Retrieves the inventory record for a listing. Listings you did not edit using the Etsy.com inventory tools have no inventory records. This endpoint returns SKU data if you are the owner of the inventory records being fetched.",
+      "Anchor": "#get-a-listing's-inventory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a listing's offering",
+      "Description": "Get an offering for a listing.",
+      "Anchor": "#get-a-listing's-offering",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a listing's product",
+      "Description": "Retrieve a listing product by ID.",
+      "Anchor": "#get-a-listing's-product",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a listing's properties",
+      "Description": "Returns a list of a listing's properties.",
+      "Anchor": "#get-a-listing's-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a listing's property (Beta)",
+      "Description": "Retrieves a listing's property. Development for this endpoint is in progress. It will only return a 501 response.",
+      "Anchor": "#get-a-listing's-property-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a listing's translation",
+      "Description": "Returns the translation for a listing in the given language.",
+      "Anchor": "#get-a-listing's-translation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a receipt's transaction",
+      "Description": "Retrieves the list of transactions associated with a specific receipt.",
+      "Anchor": "#get-a-receipt's-transaction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a shop's transaction",
+      "Description": "Retrieves the list of transactions associated with a shop.",
+      "Anchor": "#get-a-shop's-transaction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a shop payment account ledger's entries",
+      "Description": "Retrieve the entries of a shop's payment account ledger.",
+      "Anchor": "#get-a-shop-payment-account-ledger's-entries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get listing's variation images",
+      "Description": "Gets all variation images on a listing.",
+      "Anchor": "#get-listing's-variation-images",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get user's address",
+      "Description": "Retrieves the user's address.  Development for this endpoint is in progress. It will only return a 501 response.",
+      "Anchor": "#get-user's-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Retrieve a listing's transactions",
+      "Description": "Retrieves the list of transactions associated with a listing.",
+      "Anchor": "#retrieve-a-listing's-transactions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Update a listing's inventory",
+      "Description": "Updates the inventory for a listing identified by a listing ID. The update fails if the supplied values for product SKU, offering quantity, and/or price are incompatible with values in on property fields. When setting a price, assign a float equal to amount divided by divisor as specified in the money resource.",
+      "Anchor": "#update-a-listing's-inventory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Update a listing's variation images",
+      "Description": "Creates variation images on a listing.",
+      "Anchor": "#update-a-listing's-variation-images",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingCreate",
+      "Name": "Create a draft listing",
+      "Description": "Creates a physical draft listing product in a shop on the Etsy channel.",
+      "Anchor": "#create-a-draft-listing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingCreateTranslation",
+      "Name": "Create a listing translation",
+      "Description": "Creates a listing translation by listing ID and language.",
+      "Anchor": "#create-a-listing-translation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingDelete",
+      "Name": "Delete a listing",
+      "Description": "This action deletes a shop listing. A listing can be deleted only if the state is one of the following: SOLD_OUT, DRAFT, EXPIRED, INACTIVE, ACTIVE and is_available or ACTIVE and has seller flags: SUPRESSED (frozen), VACATION, CUSTOM_SHOPS (pattern), SELL_ON_FACEBOOK",
+      "Anchor": "#delete-a-listing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingDeleteFile",
+      "Name": "Delete a file from listing",
+      "Description": "When you delete the final file for a digital listing, the listing converts into a physical listing. The response to a delete request returns a list of the remaining file records associated with the given listing.",
+      "Anchor": "#delete-a-file-from-listing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingDeleteImage",
+      "Name": "Delete a listing image",
+      "Description": "Deletes a listing image. A copy of the file remains on our servers, and so a deleted image may be re-associated with the listing without re-uploading the original image.",
+      "Anchor": "#delete-a-listing-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingDeleteProperty",
+      "Name": "Delete a listing property",
+      "Description": "Deletes a property from a listing.",
+      "Anchor": "#delete-a-listing-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGet",
+      "Name": "Get a listing",
+      "Description": "Retrieves a listing record by listing ID.",
+      "Anchor": "#get-a-listing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetActive",
+      "Name": "Get active listings",
+      "Description": "A list of all active listings on Etsy paginated by their creation date. Without sort order listings will be returned newest-first by default.",
+      "Anchor": "#get-active-listings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetActiveByShop",
+      "Name": "Get active listings by shop",
+      "Description": "Retrieves a list of all active listings on Etsy in a specific shop, paginated by listing creation date.",
+      "Anchor": "#get-active-listings-by-shop",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetByID",
+      "Name": "Get listings by ID",
+      "Description": "Allows to query multiple listing IDs at once. Limit 100 IDs maximum per query.",
+      "Anchor": "#get-listings-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetByReceipt",
+      "Name": "Get listings by shop receipt",
+      "Description": "Gets all listings associated with a receipt.",
+      "Anchor": "#get-listings-by-shop-receipt",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetBySectionID",
+      "Name": "Get listings by shop section ID",
+      "Description": "Retrieves all the listings from the section of a specific shop.",
+      "Anchor": "#get-listings-by-shop-section-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetFeatured",
+      "Name": "Get featured listings by shop",
+      "Description": "Retrieves listings associated to a shop that are featured.",
+      "Anchor": "#get-featured-listings-by-shop",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetFile",
+      "Name": "Get a file from a listing",
+      "Description": "Retrieves a single file associated with the given digital listing. Requesting a file from a physical listing returns an empty result.",
+      "Anchor": "#get-a-file-from-a-listing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetFiles",
+      "Name": "Get all listing files",
+      "Description": "Retrieves all the files associated with the given digital listing. Requesting files from a physical listing returns an empty result.",
+      "Anchor": "#get-all-listing-files",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetImage",
+      "Name": "Get a listing image",
+      "Description": "Retrieves the references and metadata for a listing image with a specific image ID.",
+      "Anchor": "#get-a-listing-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetPropertiesByTaxonomy",
+      "Name": "Get product properties by taxonomy ID",
+      "Description": "Retrieves a list of product properties, with applicable scales and values, supported for a specific seller taxonomy ID.",
+      "Anchor": "#get-product-properties-by-taxonomy-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetShop",
+      "Name": "Get listings by shop",
+      "Description": "Returns listings that belong to a Shop. Listings can be filtered using the state parameter.",
+      "Anchor": "#get-listings-by-shop",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingGetTaxonomyNodes",
+      "Name": "Get seller taxonomy nodes",
+      "Description": "Retrieves the full hierarchy tree of seller taxonomy nodes.",
+      "Anchor": "#get-seller-taxonomy-nodes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingUpdate",
+      "Name": "Update a listing",
+      "Description": "Updates a listing, identified by a listing ID, for a specific shop identified by a shop ID.",
+      "Anchor": "#update-a-listing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingUpdateProperty",
+      "Name": "Update a listing property",
+      "Description": "Updates or populates the properties list defining product offerings for a listing. Each offering requires both a value and a value ID that are valid for a scale ID assigned to the listing or that you assign to the listing with this request.",
+      "Anchor": "#update-a-listing-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingUpdateTranslation",
+      "Name": "Update a listing translation",
+      "Description": "Updates a listing translation by listing ID and language.",
+      "Anchor": "#update-a-listing-translation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingUpload",
+      "Name": "Upload a listing file",
+      "Description": "Uploads a new file for a digital listing, or associates an existing file with a specific listing. You must either provide the listing file ID of an existing file, or the name and binary file data for a file to upload. Associating an existing file to a physical listing converts the physical listing into a digital listing, which removes all shipping costs and any product and inventory variations.",
+      "Anchor": "#upload-a-listing-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListingUploadImage",
+      "Name": "Upload a listing image",
+      "Description": "Uploads or assigns an image to a listing identified by a shop ID with a listing ID. To upload a new image, set the image file as the value for the image parameter. You can assign a previously deleted image to a listing using the deleted image's image ID in the listing image ID parameter. When a request contains both image and listing image ID parameter values, the endpoint uploads the image in the image parameter only.",
+      "Anchor": "#upload-a-listing-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PaymentGetEntryID",
+      "Name": "Get a payment from a payment account ledger entry ID",
+      "Description": "Get a Payment from a Payment Account Ledger Entry ID, if applicable.",
+      "Anchor": "#get-a-payment-from-a-payment-account-ledger-entry-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PaymentGetReceipt",
+      "Name": "Get a payment from a specific receipt",
+      "Description": "Retrieves a payment from a specific receipt, identified by receipt ID, from a specific shop, identified by shop ID.",
+      "Anchor": "#get-a-payment-from-a-specific-receipt",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PaymentsGet",
+      "Name": "Get a list of payments",
+      "Description": "Retrieves a list of payments from a shop identified by shop ID. You can also filter results using a list of payment IDs.",
+      "Anchor": "#get-a-list-of-payments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Ping",
+      "Name": "Ping",
+      "Description": "Check to confirm connectivity to the Etsy API with an application.",
+      "Anchor": "#ping",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReceiptCreateShipment",
+      "Name": "Create a Shipment Receipt",
+      "Description": "Submits tracking information for a shop receipt, which creates a shop receipt Shipment entry for the given receipt ID. Each time you successfully submit tracking info, Etsy sends a notification email to the buyer User. When send BCC is true, Etsy sends shipping notifications to the seller as well. When tracking code and carrier name aren't sent, the receipt is marked as shipped only.",
+      "Anchor": "#create-a-shipment-receipt",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReceiptGet",
+      "Name": "Get a receipt",
+      "Description": "Retrieves a receipt, identified by a receipt ID, from an Etsy shop.",
+      "Anchor": "#get-a-receipt",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReceiptsGet",
+      "Name": "Get receipts",
+      "Description": "Requests the shop receipts from a specific shop, unfiltered or filtered by receipt ID range or offset, date, paid, and/or shipped purchases.",
+      "Anchor": "#get-receipts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReviewsGet",
+      "Name": "Get reviews",
+      "Description": "Retrieves the reviews from a shop given its ID.",
+      "Anchor": "#get-reviews",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingCarriers",
+      "Name": "Get shipping carriers",
+      "Description": "Retrieves a list of available shipping carriers and the mail classes associated with them for a given country.",
+      "Anchor": "#get-shipping-carriers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingCreateDestination",
+      "Name": "Create a shipping profile destination",
+      "Description": "Creates a new shipping destination, which sets the shipping cost, carrier, and class for a destination in a shipping profile. This assigns costs using the currency of the associated shop. Set the destination using either destination country ISO or destination region; destination country ISO and destination region are mutually exclusive — set one or the other. Setting both triggers error 400. If the request sets neither destination country ISO nor destination region, the default destination is everywhere. You must also either assign both a shipping carrier ID and mail class or both min delivery days and max delivery days.",
+      "Anchor": "#create-a-shipping-profile-destination",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingCreateProfile",
+      "Name": "Create a shipping profile",
+      "Description": "Creates a new shipping profile. You can pass a country ISO code or a region when creating a shipping profile, but not both. Only one is required. You must pass either a shipping carrier ID and mail class, or both min and max delivery days.",
+      "Anchor": "#create-a-shipping-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingCreateUpgrade",
+      "Name": "Create a shipping profile upgrade",
+      "Description": "Creates a new shipping profile upgrade, which can establish a price for a shipping option, such as an alternate carrier or faster delivery.",
+      "Anchor": "#create-a-shipping-profile-upgrade",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingDeleteProfile",
+      "Name": "Delete a shipping profile",
+      "Description": "Deletes a shipping profile by given ID.",
+      "Anchor": "#delete-a-shipping-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingDeleteProfileDestination",
+      "Name": "Delete a shipping profile destination",
+      "Description": "Deletes a shipping destination and removes the destination option from every listing that uses the associated shipping profile. A shipping profile requires at least one shipping destination, so this endpoint cannot delete the final shipping destination for any shipping profile. To delete the final shipping destination from a shipping profile, you must delete the entire shipping profile.",
+      "Anchor": "#delete-a-shipping-profile-destination",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingDeleteProfileUpgrade",
+      "Name": "Delete a shipping profile upgrade",
+      "Description": "Deletes a shipping profile upgrade and removes the upgrade option from every listing that uses the associated shipping profile.",
+      "Anchor": "#delete-a-shipping-profile-upgrade",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingGetDestinations",
+      "Name": "Get profile destinations by shipping profile",
+      "Description": "Retrieves a list of shipping destination objects associated with a shipping profile.",
+      "Anchor": "#get-profile-destinations-by-shipping-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingGetProfile",
+      "Name": "Get a shipping profile",
+      "Description": "Retrieves a shipping profile referenced by shipping profile ID.",
+      "Anchor": "#get-a-shipping-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingGetProfileUpgrades",
+      "Name": "Get shipping profile upgrades",
+      "Description": "Retrieves the list of shipping profile upgrades assigned to a specific shipping profile.",
+      "Anchor": "#get-shipping-profile-upgrades",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingProfiles",
+      "Name": "Get shipping profiles",
+      "Description": "Retrieves a list of shipping profiles available in the specific Etsy shop identified by its shop ID.",
+      "Anchor": "#get-shipping-profiles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingUpdateProfile",
+      "Name": "Update a shipping profile",
+      "Description": "Changes the settings in a shipping profile.",
+      "Anchor": "#update-a-shipping-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingUpdateProfileDestination",
+      "Name": "Update a shipping profile destination",
+      "Description": "Updates an existing shipping destination, which can set or reassign the shipping cost, carrier, and class for a destination.",
+      "Anchor": "#update-a-shipping-profile-destination",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShippingUpdateProfileUpgrade",
+      "Name": "Update a shipping profile upgrade",
+      "Description": "Updates a shipping profile upgrade and updates any listings that use the shipping profile.",
+      "Anchor": "#update-a-shipping-profile-upgrade",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShopCreateSection",
+      "Name": "Create a shop section",
+      "Description": "Creates a new section in a specific shop.",
+      "Anchor": "#create-a-shop-section",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShopGetByOwnerID",
+      "Name": "Get shop by owner ID",
+      "Description": "Retrieves the shop identified by the shop owner's user ID.",
+      "Anchor": "#get-shop-by-owner-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShopGetSection",
+      "Name": "Get shop section",
+      "Description": "Retrieves a shop section, referenced by section ID and shop ID.",
+      "Anchor": "#get-shop-section",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShopGetSections",
+      "Name": "Get shop sections",
+      "Description": "Retrieves the list of shop sections in a specific shop identified by shop ID.",
+      "Anchor": "#get-shop-sections",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShopSearch",
+      "Name": "Search shops",
+      "Description": "Returns a list of shops with the matching name.",
+      "Anchor": "#search-shops",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShopUpdate",
+      "Name": "Update a shop",
+      "Description": "Update a shop. Assumes that all string parameters are provided in the shop's primary language.",
+      "Anchor": "#update-a-shop",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TransactionGet",
+      "Name": "Get a transaction",
+      "Description": "Retrieves a transaction by transaction ID.",
+      "Anchor": "#get-a-transaction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserGet",
+      "Name": "Get user",
+      "Description": "Returns user profile for the user identified by a user ID.",
+      "Anchor": "#get-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserGetAddresses",
+      "Name": "Get user addresses",
+      "Description": "Retrieve a list of user addresses.",
+      "Anchor": "#get-user-addresses",
+      "IsDeprecated": false
+    }
+  ]
+}
