@@ -11,9 +11,9 @@
     },
     {
       "OperationId": "",
-      "Name": "When I'm @mentioned (Preview)",
+      "Name": "When I'm @mentioned",
       "Description": "Creates a webhook for @mentions in chats or channels.",
-      "Anchor": "#when-i'm-@mentioned-(preview)",
+      "Anchor": "#when-i'm-@mentioned",
       "IsDeprecated": false
     },
     {
@@ -39,9 +39,9 @@
     },
     {
       "OperationId": "CreateChannel",
-      "Name": "Create a channel (Preview)",
+      "Name": "Create a channel",
       "Description": "This operation is used to create a new channel for a specific Team.",
-      "Anchor": "#create-a-channel-(preview)",
+      "Anchor": "#create-a-channel",
       "IsDeprecated": false
     },
     {
@@ -81,23 +81,23 @@
     },
     {
       "OperationId": "GetAllTeams",
-      "Name": "List teams (Preview)",
+      "Name": "List teams",
       "Description": "This operation retrieves a list of all the Teams (Office 365 Groups) you are a member of.",
-      "Anchor": "#list-teams-(preview)",
+      "Anchor": "#list-teams",
       "IsDeprecated": false
     },
     {
       "OperationId": "GetChannelsForGroup",
-      "Name": "List channels (Preview)",
+      "Name": "List channels",
       "Description": "This operation retrieves a list of all the channels for a specific Team.",
-      "Anchor": "#list-channels-(preview)",
+      "Anchor": "#list-channels",
       "IsDeprecated": false
     },
     {
       "OperationId": "GetChats",
-      "Name": "List chats (Preview)",
+      "Name": "List chats",
       "Description": "This operation retrieves a list of recent chats.",
-      "Anchor": "#list-chats-(preview)",
+      "Anchor": "#list-chats",
       "IsDeprecated": false
     },
     {
@@ -109,9 +109,9 @@
     },
     {
       "OperationId": "GetMessagesFromChannel",
-      "Name": "Get messages (Preview)",
+      "Name": "Get messages",
       "Description": "This operation is used to get messages from a channel in a specific Team.",
-      "Anchor": "#get-messages-(preview)",
+      "Anchor": "#get-messages",
       "IsDeprecated": false
     },
     {
@@ -137,9 +137,9 @@
     },
     {
       "OperationId": "GetTeam",
-      "Name": "Get a team (Preview)",
+      "Name": "Get a team",
       "Description": "This operation returns details for a team using the team's unique ID.",
-      "Anchor": "#get-a-team-(preview)",
+      "Anchor": "#get-a-team",
       "IsDeprecated": false
     },
     {
@@ -235,16 +235,16 @@
     },
     {
       "OperationId": "OnNewChannelMessage",
-      "Name": "When a new channel message is added (Preview)",
+      "Name": "When a new channel message is added",
       "Description": "This operation triggers when a new message is posted to a channel in a Team. Note that this trigger only fires when a root messages is added in the channel. Replies to an existing channel message will not result in the trigger event firing.",
-      "Anchor": "#when-a-new-channel-message-is-added-(preview)",
+      "Anchor": "#when-a-new-channel-message-is-added",
       "IsDeprecated": false
     },
     {
       "OperationId": "OnNewChannelMessageMentioningMe",
-      "Name": "When I am mentioned in a channel message (Preview)",
+      "Name": "When I am mentioned in a channel message",
       "Description": "This operation triggers when a new message is added to a channel in a Team, that mentions the current user.",
-      "Anchor": "#when-i-am-mentioned-in-a-channel-message-(preview)",
+      "Anchor": "#when-i-am-mentioned-in-a-channel-message",
       "IsDeprecated": false
     },
     {
@@ -277,10 +277,10 @@
     },
     {
       "OperationId": "PostChannelAdaptiveCard",
-      "Name": "Post your own adaptive card as the Flow bot to a channel",
+      "Name": "Post your own adaptive card as the Flow bot to a channel [DEPRECATED]",
       "Description": "Add the JSON card definition to create a custom post for a Teams channel. The post can contain images, graphs, text, and more.",
-      "Anchor": "#post-your-own-adaptive-card-as-the-flow-bot-to-a-channel",
-      "IsDeprecated": false
+      "Anchor": "#post-your-own-adaptive-card-as-the-flow-bot-to-a-channel-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "PostChannelNotification",
@@ -333,10 +333,10 @@
     },
     {
       "OperationId": "PostUserAdaptiveCard",
-      "Name": "Post your own adaptive card as the Flow bot to a user",
+      "Name": "Post your own adaptive card as the Flow bot to a user [DEPRECATED]",
       "Description": "Add the JSON card definition to create a custom message for a Teams user. The message can contain images, graphs, text, and more.",
-      "Anchor": "#post-your-own-adaptive-card-as-the-flow-bot-to-a-user",
-      "IsDeprecated": false
+      "Anchor": "#post-your-own-adaptive-card-as-the-flow-bot-to-a-user-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "PostUserNotification",
@@ -417,9 +417,9 @@
     },
     {
       "OperationId": "WebhookKeywordTrigger",
-      "Name": "When keywords are mentioned (Preview)",
+      "Name": "When keywords are mentioned",
       "Description": "Creates a webhook for keyword mentions in chats or channels.",
-      "Anchor": "#when-keywords-are-mentioned-(preview)",
+      "Anchor": "#when-keywords-are-mentioned",
       "IsDeprecated": false
     }
   ]

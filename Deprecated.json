@@ -1714,6 +1714,13 @@
         "IsDeprecated": true
       },
       {
+        "OperationId": "PostChannelAdaptiveCard",
+        "Name": "Post your own adaptive card as the Flow bot to a channel [DEPRECATED]",
+        "Description": "Add the JSON card definition to create a custom post for a Teams channel. The post can contain images, graphs, text, and more.",
+        "Anchor": "#post-your-own-adaptive-card-as-the-flow-bot-to-a-channel-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
         "OperationId": "PostChannelNotification",
         "Name": "Post a message as the Flow bot to a channel [DEPRECATED]",
         "Description": "Easily automate the process of posting a message to a Teams channel.",
@@ -1753,6 +1760,13 @@
         "Name": "Post a reply to a message (V2) [DEPRECATED]",
         "Description": "This operation is used to post a reply to a message in a channel in a specific Team.",
         "Anchor": "#post-a-reply-to-a-message-(v2)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "PostUserAdaptiveCard",
+        "Name": "Post your own adaptive card as the Flow bot to a user [DEPRECATED]",
+        "Description": "Add the JSON card definition to create a custom message for a Teams user. The message can contain images, graphs, text, and more.",
+        "Anchor": "#post-your-own-adaptive-card-as-the-flow-bot-to-a-user-[deprecated]",
         "IsDeprecated": true
       },
       {
