@@ -22099,8 +22099,8 @@
       },
       {
         "OperationId": "DeleteWebhookTrigger",
-        "Name": "Deletes a Github Webhook (Preview)",
-        "Description": "Deletes a Github Webhook",
+        "Name": "Deletes a GitHub Webhook (Preview)",
+        "Description": "Deletes a GitHub Webhook",
         "Anchor": "#deletes-a-github-webhook-(preview)",
         "IsDeprecated": false
       },
@@ -22184,7 +22184,7 @@
       {
         "OperationId": "WebhookPullRequestTrigger",
         "Name": "When a pull request is created or modified (Preview)",
-        "Description": "Creates a Github Webhook for Pull Requests",
+        "Description": "Creates a GitHub Webhook for Pull Requests",
         "Anchor": "#when-a-pull-request-is-created-or-modified-(preview)",
         "IsDeprecated": false
       }
