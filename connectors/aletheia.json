@@ -17,6 +17,27 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CryptoQuote",
+      "Name": "Crypto Quote",
+      "Description": "Get pricing and activity data for virtually any cryptocurrency",
+      "Anchor": "#crypto-quote",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EarningsCall",
+      "Name": "Earnings Call Transcript Content",
+      "Description": "Get content from an earnings call transcript for any publicly traded company",
+      "Anchor": "#earnings-call-transcript-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EarningsCallHighlights",
+      "Name": "Earnings Call Highlights",
+      "Description": "Get the most important and notable remarks that were made on any publicly traded company's earnings call",
+      "Anchor": "#earnings-call-highlights",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "FinancialFactTrend",
       "Name": "Get Financial Fact Trend",
       "Description": "Examine the trend in a fundamental financial data point. For example, get all annual revenue since 2013 for Apple",
@@ -77,6 +98,13 @@
       "Name": "Open Form 4",
       "Description": "Parse a Form 4 (changes in ownership) document",
       "Anchor": "#open-form-4",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchEarningsCalls",
+      "Name": "Search Earnings Call Transcripts",
+      "Description": "Search the database for available earnings call transcripts for any publicly traded company",
+      "Anchor": "#search-earnings-call-transcripts",
       "IsDeprecated": false
     },
     {

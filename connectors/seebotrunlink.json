@@ -1,0 +1,55 @@
+{
+  "UniqueName": "seebotrunlink",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../seebotrunlink/",
+  "Actions": [
+    {
+      "OperationId": "CreateLink",
+      "Name": "Create Link",
+      "Description": "Create a new short link for your account.",
+      "Anchor": "#create-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePredefinedLink",
+      "Name": "Create Predefined Link",
+      "Description": "Create a predefined link within a short link for a given key.",
+      "Anchor": "#create-predefined-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteLink",
+      "Name": "Delete Link",
+      "Description": "Delete a given short link by a provided ID.",
+      "Anchor": "#delete-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeletePredefinedLink",
+      "Name": "Delete Predefined Link",
+      "Description": "Delete an existing predefined link based on the link ID and key.",
+      "Anchor": "#delete-predefined-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDomains",
+      "Name": "Get All Domains",
+      "Description": "Get all domains available for your account.",
+      "Anchor": "#get-all-domains",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLinks",
+      "Name": "Get Links",
+      "Description": "Return all short links available for your account.",
+      "Anchor": "#get-links",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateLink",
+      "Name": "Update Link By ID",
+      "Description": "Update an existing short link by a provided ID.",
+      "Anchor": "#update-link-by-id",
+      "IsDeprecated": false
+    }
+  ]
+}

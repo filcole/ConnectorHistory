@@ -94,6 +94,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Get_Currentuser",
+      "Name": "Get Current User",
+      "Description": "Returns the current user object with workspaces",
+      "Anchor": "#get-current-user",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Get_Groups",
       "Name": "Get Workspace Groups",
       "Description": "Get all groups from a workspace.",
@@ -133,6 +140,13 @@
       "Name": "Get Times",
       "Description": "Get all times from a workspace.",
       "Anchor": "#get-times",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Workspace_ById",
+      "Name": "Get Workspace by ID",
+      "Description": "Returns the workspace",
+      "Anchor": "#get-workspace-by-id",
       "IsDeprecated": false
     },
     {

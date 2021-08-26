@@ -1,0 +1,20 @@
+{
+  "UniqueName": "what3wordsip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../what3wordsip/",
+  "Actions": [
+    {
+      "OperationId": "ConvertToLatLng",
+      "Name": "Convert To Lat Long",
+      "Description": "Convert What3Words to Lat Long",
+      "Anchor": "#convert-to-lat-long",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertToWord",
+      "Name": "Convert to Words",
+      "Description": "Convert a standard latitude/longitude to words",
+      "Anchor": "#convert-to-words",
+      "IsDeprecated": false
+    }
+  ]
+}

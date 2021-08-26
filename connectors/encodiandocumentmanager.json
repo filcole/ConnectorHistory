@@ -157,6 +157,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "EncodianSendToFiler",
+      "Name": "Send to Encodian Filer",
+      "Description": "Send data to an Encodian Filer endpoint - https://support.encodian.com/hc/en-gb/articles/4404097189905-Send-to-Encodian-Filer",
+      "Anchor": "#send-to-encodian-filer",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ExtractImages",
       "Name": "Extract Images from PDF",
       "Description": "Extract images from PDF using specified regions - https://support.encodian.com/hc/en-gb/articles/360006998058-Extract-Images-from-PDF",

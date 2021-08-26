@@ -3161,6 +3161,96 @@
     ]
   },
   {
+    "UniqueName": "projectwiseshare",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../projectwiseshare/",
+    "Actions": [
+      {
+        "OperationId": "ActionCreateFile",
+        "Name": "Create a file in ProjectWise Share [DEPRECATED]",
+        "Description": "Create a File in ProjectWise Share Service under selected project and folder",
+        "Anchor": "#create-a-file-in-projectwise-share-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "ActionCreateFolder",
+        "Name": "Create a folder in ProjectWise Share [DEPRECATED]",
+        "Description": "Create a folder in ProjectWise Share Service under selected project and folder",
+        "Anchor": "#create-a-folder-in-projectwise-share-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "ActionDeleteFile",
+        "Name": "Delete a file in ProjectWise Share [DEPRECATED]",
+        "Description": "Delete a File in ProjectWise Share Service under selected project and folder",
+        "Anchor": "#delete-a-file-in-projectwise-share-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "TriggerWhenFileIsCreated",
+        "Name": "When a file is created [DEPRECATED]",
+        "Description": "When a file is created",
+        "Anchor": "#when-a-file-is-created-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "TriggerWhenFileIsHardDeleted",
+        "Name": "When a file is deleted from Recycle Bin [DEPRECATED]",
+        "Description": "When a file is deleted from Recycle Bin",
+        "Anchor": "#when-a-file-is-deleted-from-recycle-bin-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "TriggerWhenFileIsModified",
+        "Name": "When a file is modified [DEPRECATED]",
+        "Description": "When a file is modified",
+        "Anchor": "#when-a-file-is-modified-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "TriggerWhenFileIsMoved",
+        "Name": "When a file is moved [DEPRECATED]",
+        "Description": "When a file is moved",
+        "Anchor": "#when-a-file-is-moved-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "TriggerWhenFileMovedToRecycleBin",
+        "Name": "When a file is moved to Recycle Bin [DEPRECATED]",
+        "Description": "When a file is moved to Recycle Bin",
+        "Anchor": "#when-a-file-is-moved-to-recycle-bin-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "TriggerWhenFileRestored",
+        "Name": "When a file is restored from Recycle Bin [DEPRECATED]",
+        "Description": "When a file is restored from Recycle Bin",
+        "Anchor": "#when-a-file-is-restored-from-recycle-bin-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "TriggerWhenFolderCreated",
+        "Name": "When a folder is created [DEPRECATED]",
+        "Description": "When a folder is created",
+        "Anchor": "#when-a-folder-is-created-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "TriggerWhenFolderHardDeleted",
+        "Name": "When a folder is deleted from Recycle Bin [DEPRECATED]",
+        "Description": "When a folder is deleted from Recycle Bin",
+        "Anchor": "#when-a-folder-is-deleted-from-recycle-bin-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "TriggerWhenFolderMovedToRecycleBin",
+        "Name": "When a folder is moved to Recycle Bin [DEPRECATED]",
+        "Description": "When a folder moved to Recycle Bin",
+        "Anchor": "#when-a-folder-is-moved-to-recycle-bin-[deprecated]",
+        "IsDeprecated": true
+      }
+    ]
+  },
+  {
     "UniqueName": "cognitiveservicesqnamaker",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cognitiveservicesqnamaker/",
     "Actions": [

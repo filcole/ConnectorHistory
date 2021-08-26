@@ -4,16 +4,16 @@
   "Actions": [
     {
       "OperationId": "emailscan",
-      "Name": "Scan Emails using SecPlug Scan",
-      "Description": "Scan Emails using SecPlug Scan",
-      "Anchor": "#scan-emails-using-secplug-scan",
+      "Name": "Scan Emails using SecPlugs Scan",
+      "Description": "Scan Emails using SecPlugs Scan",
+      "Anchor": "#scan-emails-using-secplugs-scan",
       "IsDeprecated": false
     },
     {
       "OperationId": "filescan",
-      "Name": "Scan files using SecPlug Scan",
-      "Description": "Scan files using SecPlug Scan",
-      "Anchor": "#scan-files-using-secplug-scan",
+      "Name": "Scan files using SecPlugs Scan",
+      "Description": "Scan files using SecPlugs Scan",
+      "Anchor": "#scan-files-using-secplugs-scan",
       "IsDeprecated": false
     }
   ]

@@ -1,0 +1,272 @@
+{
+  "UniqueName": "securecodewarrior",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../securecodewarrior/",
+  "Actions": [
+    {
+      "OperationId": "ActivityGetStrengthsAndWeaknesses",
+      "Name": "Get Activity Strengths and Weaknesses",
+      "Description": "This endpoint returns the average strengths and weaknesses for a company, team or user (depending on the level of granularity of the query) for a specific language or all languages",
+      "Anchor": "#get-activity-strengths-and-weaknesses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActivityGetTopPerform",
+      "Name": "Get Activity Top Performers",
+      "Description": "This is used to retrieve list of top performing users.",
+      "Anchor": "#get-activity-top-performers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssessmentAssign",
+      "Name": "Assign Assessments",
+      "Description": "This endpoint will assign the given assessment to the specified users/teams. Returns a list of users that were assigned to the assessment with their email, inviteUrl and status indicating whether invite email was sent.",
+      "Anchor": "#assign-assessments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssessmentGetAttempts",
+      "Name": "Get Assessment Attempts",
+      "Description": "This endpoint returns a detailed report for all developers who have taken the Assessment with the given ID. The scope of the report may be filtered in a number of ways. You may filter results to a given developer by supplying their email address with the query. If a start date is provided, only attempts started or completed after (and including) this date are included. If an end date is provided, only challenges started or completed before this date are included. Providing both indicates a date range to filter on. This includes all the data in the summary report plus details on all the challenges that are a part of the assessment.",
+      "Anchor": "#get-assessment-attempts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssessmentSearch",
+      "Name": "Search Assessment",
+      "Description": "This endpoint will return a list of Assessment objects which contain a range of datapoints related to assessments. This includes assessment IDs, which may be used in conjunction with the other assessments API endpoints. Results can be filtered based on status, name, supported language and difficulty.",
+      "Anchor": "#search-assessment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssessmentSearchAttempts",
+      "Name": "Search Assessment Attempts",
+      "Description": "This endpoint returns a detailed report for all developers who have taken the Assessment with the given ID. The scope of the report may be filtered in a number of ways. You may filter results to given developer(s) by supplying their email address(es) with the query. If a status is provided, only assessment attempts with specified status are included. If team name(s) provided, only assessment attempts of users within those team(s) are included. If tags(s) is provided, only assessment attempts of users with those tag(s) are included. If a pass_status is provided, only assessment attempts with specified pass_status are included. This includes all the data in the summary report plus details on all the challenges that are a part of the assessment.",
+      "Anchor": "#search-assessment-attempts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssessmentsGet",
+      "Name": "Get Assessments",
+      "Description": "This endpoint will return a list of Assessment objects which contain a range of datapoints related to assessments. This includes assessment IDs, which may be used in conjunction with the other assessments API endpoints.",
+      "Anchor": "#get-assessments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CourseGetDevelopersProgress",
+      "Name": "Get progress of all developers for the course",
+      "Description": "This endpoint will return the progress of all developers for the specified course.",
+      "Anchor": "#get-progress-of-all-developers-for-the-course",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CourseGetURL",
+      "Name": "Get course URL",
+      "Description": "JSON containing course URL",
+      "Anchor": "#get-course-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoursesGet",
+      "Name": "Get all courses",
+      "Description": "This endpoint will return a list of Course objects which contain a range of datapoints related to courses. This includes course IDs, which may be used in conjunction with the other course API endpoints.",
+      "Anchor": "#get-all-courses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeveloperGetActivity",
+      "Name": "Get Developer Activity",
+      "Description": "This endpoint returns the detailed challenge log of all developers within the organisation, with challenge score, difficulty and challenge outcome of the developer.",
+      "Anchor": "#get-developer-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeveloperGetLeaderboard",
+      "Name": "Get Developer Leaderboard",
+      "Description": "This endpoint returns a list of all developers within the organisation, with their current stats as well as the change in stats over the report period (which may be 1, 7 or 30 days).",
+      "Anchor": "#get-developer-leaderboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeveloperGetProgress",
+      "Name": "Get Developer Progress",
+      "Description": "This endpoint returns the training progress of all developers within the organisation, with current realm, level and quest progress.",
+      "Anchor": "#get-developer-progress",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeveloperSearchActivity",
+      "Name": "Search Developers Activity",
+      "Description": "This endpoint returns the detailed challenge log of all developers within the organisation, with challenge score, difficulty and challenge outcome of the developer. This also lists the challenge log over the report period (which may be 1, 7 or 30 days) or a given date range. Results can be filtered based on developer emails, developer tags and team names.",
+      "Anchor": "#search-developers-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeveloperSearchLeaderboard",
+      "Name": "Search Developer Leaderboard",
+      "Description": "This endpoint returns a list of all developers within the organisation, with their current stats. This also lists the change in stats over the report period (which may be 1, 7 or 30 days) or a given date range. Results can be filtered based on developer emails, developer tags and team names.",
+      "Anchor": "#search-developer-leaderboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeveloperSearchProgress",
+      "Name": "Search course developers progress",
+      "Description": "This endpoint returns the course progress of all developers within the organisation.",
+      "Anchor": "#search-course-developers-progress",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DevelopersSearchProgress",
+      "Name": "Search Developers Progress",
+      "Description": "This endpoint returns the training progress of all developers within the organisation, with current realm, level and quest progress. This also lists the change in developer progress over the report period (which may be 1, 7 or 30 days) or a given date range. Results can be filtered based on developer emails, developer tags and team names.",
+      "Anchor": "#search-developers-progress",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LearningGetProgress",
+      "Name": "Shows learning resources which have be completed, read or watched",
+      "Description": "Learning description",
+      "Anchor": "#shows-learning-resources-which-have-be-completed,-read-or-watched",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LearningGetResources",
+      "Name": "Get Resources",
+      "Description": "Learning resources list",
+      "Anchor": "#get-resources",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LearningSearchProgress",
+      "Name": "Search Learning Progress",
+      "Description": "Learning description Filters - users, teams and tags",
+      "Anchor": "#search-learning-progress",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamCreate",
+      "Name": "Create a team",
+      "Description": "This is used to create a team.",
+      "Anchor": "#create-a-team",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamDelete",
+      "Name": "Delete team",
+      "Description": "This is used to delete a team.",
+      "Anchor": "#delete-team",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamGetDetails",
+      "Name": "Get team details",
+      "Description": "This is used to get details of a team.",
+      "Anchor": "#get-team-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamGetLeaderboard",
+      "Name": "Get Team Leaderboard",
+      "Description": "This endpoint returns a list of all teams within the organisation, with their current stats as well as the change in stats over the report period (which may be 1, 7 or 30 days).",
+      "Anchor": "#get-team-leaderboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamGetMostEngaged",
+      "Name": "Get Team Activity Most Engaged",
+      "Description": "This endpoint returns the top 'N' most engaged teams.",
+      "Anchor": "#get-team-activity-most-engaged",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamsGet",
+      "Name": "Get Teams",
+      "Description": "This endpoint will return a list of Team objects which contain a range of datapoints related to teams. This includes team IDs, which may be used in conjunction with the other team API endpoints.",
+      "Anchor": "#get-teams",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamUpdate",
+      "Name": "Update team details",
+      "Description": "This is used to update details of a team.",
+      "Anchor": "#update-team-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimeGetSpent",
+      "Name": "Get time spent",
+      "Description": "Time spent on the platform across Assessments, Learning, Tournaments and Training.",
+      "Anchor": "#get-time-spent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TournamentGetLeaderboard",
+      "Name": "Get Tournament Leaderboard",
+      "Description": "This endpoint returns the leaderboard for a single tournament. This includes all levels, challenges and stages that the developer participated in, with detailed metrics of each.",
+      "Anchor": "#get-tournament-leaderboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TournamentSearchLeaderboard",
+      "Name": "Search Tournament Leaderboard",
+      "Description": "This endpoint returns the leaderboard for a single tournament. This includes all levels, challenges and stages that the developer participated in, with detailed metrics of each. This endpoint can also return the leaderboard over a report period (which may be 1, 7 or 30 days) or a given date range. Results can be filtered based on developer emails, developer tags and team names.",
+      "Anchor": "#search-tournament-leaderboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TournamentsGet",
+      "Name": "Get Tournaments",
+      "Description": "This endpoint returns a list of tournaments in the company.",
+      "Anchor": "#get-tournaments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserCreate",
+      "Name": "Create a user",
+      "Description": "Creates a User.",
+      "Anchor": "#create-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserDelete",
+      "Name": "Delete User",
+      "Description": "Deletes the user referenced by the given ID.",
+      "Anchor": "#delete-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserGet",
+      "Name": "Get User",
+      "Description": "This is used to retrieve a single user record. The response may be shaped by passing in a fields query parameter listing the attribute names to return.",
+      "Anchor": "#get-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserGetMostEngaged",
+      "Name": "Get Users Activity Most Engaged",
+      "Description": "This endpoint returns the top 'N' most engaged users.",
+      "Anchor": "#get-users-activity-most-engaged",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserSearch",
+      "Name": "Search Users",
+      "Description": "This is used to retrieve all user records. The response may be shaped by passing in a fields query parameter listing the\nattribute names to return. Filter is achieved by passing the filter criteria through the body.",
+      "Anchor": "#search-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UsersGet",
+      "Name": "Get Users",
+      "Description": "This is used to retrieve all user records. The response may be shaped by passing in a fields query parameter listing the\nattribute names to return.",
+      "Anchor": "#get-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserUpdate",
+      "Name": "Update User",
+      "Description": "Updates a user with the given data. Tags will be replaced.",
+      "Anchor": "#update-user",
+      "IsDeprecated": false
+    }
+  ]
+}

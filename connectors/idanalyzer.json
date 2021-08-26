@@ -1,0 +1,104 @@
+{
+  "UniqueName": "idanalyzer",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../idanalyzer/",
+  "Actions": [
+    {
+      "OperationId": "AddImageToVault",
+      "Name": "Add Image To Vault",
+      "Description": "You can upload an image and add it to an existing vault entry by making HTTP POST request.",
+      "Anchor": "#add-image-to-vault",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatingDocuPass",
+      "Name": "Creating DocuPass Session",
+      "Description": "You can create a verification session for every user requiring identity verification.",
+      "Anchor": "#creating-docupass-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatingDocuPassSignatureSession",
+      "Name": "Creating DocuPass Signature Session",
+      "Description": "You can create a signature session where user will review and e-sign legal document without identity verification. If you want to perform both identity verification and have your user sign some document, please create an identity verification session instead.",
+      "Anchor": "#creating-docupass-signature-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteImageFromVault",
+      "Name": "Delete Image From Vault",
+      "Description": "You can delete an image inside a vault entry by making HTTP POST request. Note that after an image is deleted, the URL to the image may still be accessible for a short-period of time due to caching.",
+      "Anchor": "#delete-image-from-vault",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteVaultEntry",
+      "Name": "Delete Entry From Vault",
+      "Description": "You can delete single or multiple vault entries by making HTTP POST request.",
+      "Anchor": "#delete-entry-from-vault",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FaceSearch",
+      "Name": "Face Search",
+      "Description": "Face search allows you to search the entire vault using an image of a person. To use face search feature, you must enable face search indexing under web portal, and train your vault datasets periodically.",
+      "Anchor": "#face-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FaceSearchTraining",
+      "Name": "Face Search Training",
+      "Description": "Before performing face search, you must issue a train command to train the document datasets inside your vault. You may also train your vault data through web portal.  The training task is asynchronous, training time depends on the number of vault entries and images. It could take from several seconds to an hour.",
+      "Anchor": "#face-search-training",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVault",
+      "Name": "Get Vault Entry Content",
+      "Description": "When entries are added to the vault, both Core API and DocuPass API will return a vault entry identifier named vaultid. You can use the identifier to query the content of an entry in the vault by submitting an HTTP POST request to the following endpoint.",
+      "Anchor": "#get-vault-entry-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListVaultEntries",
+      "Name": "List and Filter Entries",
+      "Description": "To list all the entries stored inside the vault or search for entries with specific values, send an HTTP POST request to the following endpoint.",
+      "Anchor": "#list-and-filter-entries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchingAML",
+      "Name": "Searching AML Database",
+      "Description": "AML API allows you to search ID Analyzer global AML database for sanctions, PEPs and wanted criminals using either a name, document number or both. You may further filter the results with birthday and nationality.",
+      "Anchor": "#searching-aml-database",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SettingCoreAPI",
+      "Name": "Core API Setting",
+      "Description": "Multi-function ID verification API to verify remote physical document, its authenticity and face match the document with your user photo.",
+      "Anchor": "#core-api-setting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrainingStatus",
+      "Name": "Training Status",
+      "Description": "Check whether vault training is still ongoing or has completed.",
+      "Anchor": "#training-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateVaultEntry",
+      "Name": "Update Vault Entry",
+      "Description": "You can update the value of a single field or values of multiple fields in a vault entry by making HTTP POST request.",
+      "Anchor": "#update-vault-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidatingCallback",
+      "Name": "Validating Callback",
+      "Description": "To make sure the data was sent from our server.",
+      "Anchor": "#validating-callback",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UniqueName": "yelpip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../yelpip/",
+  "Actions": [
+    {
+      "OperationId": "Autocomplete",
+      "Name": "Autocomplete",
+      "Description": "Provide autocomplete suggestions for businesses, search keywords and categories.",
+      "Anchor": "#autocomplete",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BusinessDetails",
+      "Name": "Get Business Details",
+      "Description": "Get rich business data, such as name, address, phone number, photos, Yelp rating, price levels and hours of operation.",
+      "Anchor": "#get-business-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BusinessMatch",
+      "Name": "Find Business Match",
+      "Description": "Find the Yelp business that matches an exact input location. Use this action to match business data from other sources with Yelp businesses.",
+      "Anchor": "#find-business-match",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BusinessSearch",
+      "Name": "Search Businesses",
+      "Description": "Search for businesses by Term (keyword), category, location, price level, etc. Use this action when you have general info on the biz like name &amp; location but don't know the address.",
+      "Anchor": "#search-businesses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PhoneSearch",
+      "Name": "Search Business Phones",
+      "Description": "Returns a list of businesses based on the provided phone number. Use this action when you only have the phone number or less confident about other matching criteria.",
+      "Anchor": "#search-business-phones",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Reviews",
+      "Name": "Get Reviews",
+      "Description": "Get up to three review excerpts for a business.",
+      "Anchor": "#get-reviews",
+      "IsDeprecated": false
+    }
+  ]
+}

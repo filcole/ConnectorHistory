@@ -10,6 +10,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CancelSingleMachineAction",
+      "Name": "Actions - Cancel a single machine action",
+      "Description": "Cancel a specific machine action",
+      "Anchor": "#actions---cancel-a-single-machine-action",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CollectInvestigationPackage",
       "Name": "Actions - Collect investigation package",
       "Description": "Collect investigation package from a machine",
@@ -63,6 +70,13 @@
       "Name": "Ips - Get the statistics for the given ip address",
       "Description": "Retrieve from Windows Defender ATP statistics related to a given ip address - given in ipv4 or ipv6 format.",
       "Anchor": "#ips---get-the-statistics-for-the-given-ip-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLiveResponseDownloadLink",
+      "Name": "Actions - Get live response command result download URI",
+      "Description": "Get result download URI for a completed live response command",
+      "Anchor": "#actions---get-live-response-command-result-download-uri",
       "IsDeprecated": false
     },
     {
@@ -175,6 +189,13 @@
       "Name": "Actions - Run antivirus scan",
       "Description": "Initiate Windows Defender Antivirus scan on a machine",
       "Anchor": "#actions---run-antivirus-scan",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunLiveResponse",
+      "Name": "Actions - Run live response",
+      "Description": "Run live response api commands for a single machine",
+      "Anchor": "#actions---run-live-response",
       "IsDeprecated": false
     },
     {

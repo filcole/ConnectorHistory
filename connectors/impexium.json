@@ -38,6 +38,34 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Awards-AddAwardNomination",
+      "Name": "Add Award Nomination",
+      "Description": "Add a new Award Nomination.",
+      "Anchor": "#add-award-nomination",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Awards-GetIndividualAwardRecipients",
+      "Name": "List Award Individual Recipients",
+      "Description": "List all Individuals that are Award Recipients.",
+      "Anchor": "#list-award-individual-recipients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Awards-GetOrganizationAwardRecipients",
+      "Name": "List Award Organization Recipients",
+      "Description": "List all Organizations that are Award Recipients.",
+      "Anchor": "#list-award-organization-recipients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Awards-UpdateAwardNomination",
+      "Name": "Update Award Nomination",
+      "Description": "Update an existing Award Nomination.",
+      "Anchor": "#update-award-nomination",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Find-Customer-Phone",
       "Name": "Find Customer by Phone Number",
       "Description": "Find Customer by Phone Number.",
@@ -52,6 +80,62 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Individual-Add-Education-Credit",
+      "Name": "Add Education Credits to Individual",
+      "Description": "Add a new Education Credit to an Individual.",
+      "Anchor": "#add-education-credits-to-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Individual-AddNote",
+      "Name": "Add Note to Individual",
+      "Description": "Add a Note to an Individual.",
+      "Anchor": "#add-note-to-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Individuals-LookupByName",
+      "Name": "Lookup Individuals",
+      "Description": "Lookup Individuals by Name",
+      "Anchor": "#lookup-individuals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Mark-Registrant-Attended",
+      "Name": "Mark Registrant as Attended",
+      "Description": "Mark the Registrant as Attended for the specified Events.",
+      "Anchor": "#mark-registrant-as-attended",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Organization-AddNote",
+      "Name": "Add Note to Organization",
+      "Description": "Add a Note to an Organization.",
+      "Anchor": "#add-note-to-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Organization-Get-Profile",
+      "Name": "Find Organization by Id or Record Number",
+      "Description": "Get organization's profile information by ID or Record Number",
+      "Anchor": "#find-organization-by-id-or-record-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Organization-LookupByName",
+      "Name": "Lookup Organizations",
+      "Description": "Lookup Organizations by Name or Acronym",
+      "Anchor": "#lookup-organizations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-Committee-Member",
+      "Name": "Update Committee Member",
+      "Description": "Update Committee Member.",
+      "Anchor": "#update-committee-member",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Update-custom-field-value",
       "Name": "Update Custom Field Value",
       "Description": "Update Custom Field Value.",
@@ -61,7 +145,7 @@
     {
       "OperationId": "Update-Organization",
       "Name": "Update Organization",
-      "Description": "Update Organization",
+      "Description": "Update Organization.",
       "Anchor": "#update-organization",
       "IsDeprecated": false
     },
@@ -88,16 +172,16 @@
     },
     {
       "OperationId": "When-product-purchased",
-      "Name": "When product is purchased",
+      "Name": "When a product is purchased",
       "Description": "Triggers when a product is purchased. Supported Product Types: Course, Event (Sessions are included), Exam, Fund, Membership, Merchandise and Publication.",
-      "Anchor": "#when-product-is-purchased",
+      "Anchor": "#when-a-product-is-purchased",
       "IsDeprecated": false
     },
     {
       "OperationId": "When-purchase-cancelled",
-      "Name": "When purchase is cancelled",
-      "Description": "Triggers when a purchase is cancelled. Supported Product Types: Course, Event (Sessions are included), Exam, Fund, Membership, Merchandise, Publication.",
-      "Anchor": "#when-purchase-is-cancelled",
+      "Name": "When a purchase is canceled",
+      "Description": "Triggers when a purchase is canceled. Supported Product Types: Course, Event (Sessions are included), Exam, Fund, Membership, Merchandise, Publication.",
+      "Anchor": "#when-a-purchase-is-canceled",
       "IsDeprecated": false
     },
     {

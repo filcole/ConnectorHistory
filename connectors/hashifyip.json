@@ -1,0 +1,160 @@
+{
+  "UniqueName": "hashifyip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hashifyip/",
+  "Actions": [
+    {
+      "OperationId": "Highway128-GET",
+      "Name": "Get Highway128",
+      "Description": "Request a Highway128 digest.",
+      "Anchor": "#get-highway128",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Highway128Random-GET",
+      "Name": "Get Highway128 from random",
+      "Description": "Request a Highway128 digest from a random key.",
+      "Anchor": "#get-highway128-from-random",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Highway128Random-POST",
+      "Name": "Post Highway128 from random",
+      "Description": "Create a Highway128 digest from a random key.",
+      "Anchor": "#post-highway128-from-random",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Highway256-POST",
+      "Name": "Post Highway256",
+      "Description": "Create a Highway256 digest.",
+      "Anchor": "#post-highway256",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Highway256Random-GET",
+      "Name": "Get Highway256 from random",
+      "Description": "Request a Highway256 digest from a random key.",
+      "Anchor": "#get-highway256-from-random",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Highway256Random-POST",
+      "Name": "Post Highway256 from random",
+      "Description": "Create a Highway256 digest from a random key.",
+      "Anchor": "#post-highway256-from-random",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Highway64-POST",
+      "Name": "Post Highway64",
+      "Description": "Create a Highway64 digest.",
+      "Anchor": "#post-highway64",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Highway64Random-GET",
+      "Name": "Get Highway64 from random",
+      "Description": "Request a Highway64 digest from a random key.",
+      "Anchor": "#get-highway64-from-random",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Highway64Random-POST",
+      "Name": "Post Highway64 from random",
+      "Description": "Create a Highway64 digest from a random key.",
+      "Anchor": "#post-highway64-from-random",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Keygen",
+      "Name": "Get key",
+      "Description": "Generate key of arbitrary length up to 256 bytes",
+      "Anchor": "#get-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MD4-GET",
+      "Name": "Get MD4",
+      "Description": "Request a MD4 digest.",
+      "Anchor": "#get-md4",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MD4-POST",
+      "Name": "Post MD4",
+      "Description": "Create a MD4 digest.",
+      "Anchor": "#post-md4",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MD4-POST-File",
+      "Name": "Post an array for MD4",
+      "Description": "Create a MD4 digest from an array.",
+      "Anchor": "#post-an-array-for-md4",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MD5-GET",
+      "Name": "Get MD5",
+      "Description": "Request a MD5 digest.",
+      "Anchor": "#get-md5",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MD5-POST",
+      "Name": "Post MD5",
+      "Description": "Create a MD5 digest.",
+      "Anchor": "#post-md5",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MD5-POST-File",
+      "Name": "Post an array for MD5",
+      "Description": "Create a MD5 digest from an array.",
+      "Anchor": "#post-an-array-for-md5",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Methods",
+      "Name": "Get methods",
+      "Description": "Retrieve list of hash options contains names, endpoints, and if key needed.",
+      "Anchor": "#get-methods",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SHA1GET",
+      "Name": "Get SHA1",
+      "Description": "Request a SHA1 digest.",
+      "Anchor": "#get-sha1",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SHA1-POST-Form",
+      "Name": "Post SHA1 from an array",
+      "Description": "Create a SHA1 digest from an array.",
+      "Anchor": "#post-sha1-from-an-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SHA256Body-POST",
+      "Name": "Post SHA256 from body",
+      "Description": "Create a SHA256 digest from a body query parameter.",
+      "Anchor": "#post-sha256-from-body",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SHA256GET",
+      "Name": "Get SHA256",
+      "Description": "Request a SHA256 digest.",
+      "Anchor": "#get-sha256",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StatusCheck",
+      "Name": "Check API status",
+      "Description": "Get current API status.",
+      "Anchor": "#check-api-status",
+      "IsDeprecated": false
+    }
+  ]
+}

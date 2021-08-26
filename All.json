@@ -1156,6 +1156,27 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CryptoQuote",
+        "Name": "Crypto Quote",
+        "Description": "Get pricing and activity data for virtually any cryptocurrency",
+        "Anchor": "#crypto-quote",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EarningsCall",
+        "Name": "Earnings Call Transcript Content",
+        "Description": "Get content from an earnings call transcript for any publicly traded company",
+        "Anchor": "#earnings-call-transcript-content",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EarningsCallHighlights",
+        "Name": "Earnings Call Highlights",
+        "Description": "Get the most important and notable remarks that were made on any publicly traded company's earnings call",
+        "Anchor": "#earnings-call-highlights",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "FinancialFactTrend",
         "Name": "Get Financial Fact Trend",
         "Description": "Examine the trend in a fundamental financial data point. For example, get all annual revenue since 2013 for Apple",
@@ -1216,6 +1237,13 @@
         "Name": "Open Form 4",
         "Description": "Parse a Form 4 (changes in ownership) document",
         "Anchor": "#open-form-4",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchEarningsCalls",
+        "Name": "Search Earnings Call Transcripts",
+        "Description": "Search the database for available earnings call transcripts for any publicly traded company",
+        "Anchor": "#search-earnings-call-transcripts",
         "IsDeprecated": false
       },
       {
@@ -16872,6 +16900,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "EncodianSendToFiler",
+        "Name": "Send to Encodian Filer",
+        "Description": "Send data to an Encodian Filer endpoint - https://support.encodian.com/hc/en-gb/articles/4404097189905-Send-to-Encodian-Filer",
+        "Anchor": "#send-to-encodian-filer",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ExtractImages",
         "Name": "Extract Images from PDF",
         "Description": "Extract images from PDF using specified regions - https://support.encodian.com/hc/en-gb/articles/360006998058-Extract-Images-from-PDF",
@@ -22099,8 +22134,8 @@
       },
       {
         "OperationId": "DeleteWebhookTrigger",
-        "Name": "Deletes a GitHub Webhook (Preview)",
-        "Description": "Deletes a GitHub Webhook",
+        "Name": "Deletes a Github Webhook (Preview)",
+        "Description": "Deletes a Github Webhook",
         "Anchor": "#deletes-a-github-webhook-(preview)",
         "IsDeprecated": false
       },
@@ -22184,7 +22219,7 @@
       {
         "OperationId": "WebhookPullRequestTrigger",
         "Name": "When a pull request is created or modified (Preview)",
-        "Description": "Creates a GitHub Webhook for Pull Requests",
+        "Description": "Creates a Github Webhook for Pull Requests",
         "Anchor": "#when-a-pull-request-is-created-or-modified-(preview)",
         "IsDeprecated": false
       }
@@ -23346,6 +23381,166 @@
         "Name": "Update time entry",
         "Description": "Update an existing time entry.",
         "Anchor": "#update-time-entry",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "hashifyip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hashifyip/",
+    "Actions": [
+      {
+        "OperationId": "Highway128-GET",
+        "Name": "Get Highway128",
+        "Description": "Request a Highway128 digest.",
+        "Anchor": "#get-highway128",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Highway128Random-GET",
+        "Name": "Get Highway128 from random",
+        "Description": "Request a Highway128 digest from a random key.",
+        "Anchor": "#get-highway128-from-random",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Highway128Random-POST",
+        "Name": "Post Highway128 from random",
+        "Description": "Create a Highway128 digest from a random key.",
+        "Anchor": "#post-highway128-from-random",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Highway256-POST",
+        "Name": "Post Highway256",
+        "Description": "Create a Highway256 digest.",
+        "Anchor": "#post-highway256",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Highway256Random-GET",
+        "Name": "Get Highway256 from random",
+        "Description": "Request a Highway256 digest from a random key.",
+        "Anchor": "#get-highway256-from-random",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Highway256Random-POST",
+        "Name": "Post Highway256 from random",
+        "Description": "Create a Highway256 digest from a random key.",
+        "Anchor": "#post-highway256-from-random",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Highway64-POST",
+        "Name": "Post Highway64",
+        "Description": "Create a Highway64 digest.",
+        "Anchor": "#post-highway64",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Highway64Random-GET",
+        "Name": "Get Highway64 from random",
+        "Description": "Request a Highway64 digest from a random key.",
+        "Anchor": "#get-highway64-from-random",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Highway64Random-POST",
+        "Name": "Post Highway64 from random",
+        "Description": "Create a Highway64 digest from a random key.",
+        "Anchor": "#post-highway64-from-random",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Keygen",
+        "Name": "Get key",
+        "Description": "Generate key of arbitrary length up to 256 bytes",
+        "Anchor": "#get-key",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MD4-GET",
+        "Name": "Get MD4",
+        "Description": "Request a MD4 digest.",
+        "Anchor": "#get-md4",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MD4-POST",
+        "Name": "Post MD4",
+        "Description": "Create a MD4 digest.",
+        "Anchor": "#post-md4",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MD4-POST-File",
+        "Name": "Post an array for MD4",
+        "Description": "Create a MD4 digest from an array.",
+        "Anchor": "#post-an-array-for-md4",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MD5-GET",
+        "Name": "Get MD5",
+        "Description": "Request a MD5 digest.",
+        "Anchor": "#get-md5",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MD5-POST",
+        "Name": "Post MD5",
+        "Description": "Create a MD5 digest.",
+        "Anchor": "#post-md5",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MD5-POST-File",
+        "Name": "Post an array for MD5",
+        "Description": "Create a MD5 digest from an array.",
+        "Anchor": "#post-an-array-for-md5",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Methods",
+        "Name": "Get methods",
+        "Description": "Retrieve list of hash options contains names, endpoints, and if key needed.",
+        "Anchor": "#get-methods",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SHA1GET",
+        "Name": "Get SHA1",
+        "Description": "Request a SHA1 digest.",
+        "Anchor": "#get-sha1",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SHA1-POST-Form",
+        "Name": "Post SHA1 from an array",
+        "Description": "Create a SHA1 digest from an array.",
+        "Anchor": "#post-sha1-from-an-array",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SHA256Body-POST",
+        "Name": "Post SHA256 from body",
+        "Description": "Create a SHA256 digest from a body query parameter.",
+        "Anchor": "#post-sha256-from-body",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SHA256GET",
+        "Name": "Get SHA256",
+        "Description": "Request a SHA256 digest.",
+        "Anchor": "#get-sha256",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "StatusCheck",
+        "Name": "Check API status",
+        "Description": "Get current API status.",
+        "Anchor": "#check-api-status",
         "IsDeprecated": false
       }
     ]
@@ -24594,6 +24789,110 @@
     ]
   },
   {
+    "UniqueName": "idanalyzer",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../idanalyzer/",
+    "Actions": [
+      {
+        "OperationId": "AddImageToVault",
+        "Name": "Add Image To Vault",
+        "Description": "You can upload an image and add it to an existing vault entry by making HTTP POST request.",
+        "Anchor": "#add-image-to-vault",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreatingDocuPass",
+        "Name": "Creating DocuPass Session",
+        "Description": "You can create a verification session for every user requiring identity verification.",
+        "Anchor": "#creating-docupass-session",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreatingDocuPassSignatureSession",
+        "Name": "Creating DocuPass Signature Session",
+        "Description": "You can create a signature session where user will review and e-sign legal document without identity verification. If you want to perform both identity verification and have your user sign some document, please create an identity verification session instead.",
+        "Anchor": "#creating-docupass-signature-session",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteImageFromVault",
+        "Name": "Delete Image From Vault",
+        "Description": "You can delete an image inside a vault entry by making HTTP POST request. Note that after an image is deleted, the URL to the image may still be accessible for a short-period of time due to caching.",
+        "Anchor": "#delete-image-from-vault",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteVaultEntry",
+        "Name": "Delete Entry From Vault",
+        "Description": "You can delete single or multiple vault entries by making HTTP POST request.",
+        "Anchor": "#delete-entry-from-vault",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FaceSearch",
+        "Name": "Face Search",
+        "Description": "Face search allows you to search the entire vault using an image of a person. To use face search feature, you must enable face search indexing under web portal, and train your vault datasets periodically.",
+        "Anchor": "#face-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FaceSearchTraining",
+        "Name": "Face Search Training",
+        "Description": "Before performing face search, you must issue a train command to train the document datasets inside your vault. You may also train your vault data through web portal.  The training task is asynchronous, training time depends on the number of vault entries and images. It could take from several seconds to an hour.",
+        "Anchor": "#face-search-training",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVault",
+        "Name": "Get Vault Entry Content",
+        "Description": "When entries are added to the vault, both Core API and DocuPass API will return a vault entry identifier named vaultid. You can use the identifier to query the content of an entry in the vault by submitting an HTTP POST request to the following endpoint.",
+        "Anchor": "#get-vault-entry-content",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListVaultEntries",
+        "Name": "List and Filter Entries",
+        "Description": "To list all the entries stored inside the vault or search for entries with specific values, send an HTTP POST request to the following endpoint.",
+        "Anchor": "#list-and-filter-entries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchingAML",
+        "Name": "Searching AML Database",
+        "Description": "AML API allows you to search ID Analyzer global AML database for sanctions, PEPs and wanted criminals using either a name, document number or both. You may further filter the results with birthday and nationality.",
+        "Anchor": "#searching-aml-database",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SettingCoreAPI",
+        "Name": "Core API Setting",
+        "Description": "Multi-function ID verification API to verify remote physical document, its authenticity and face match the document with your user photo.",
+        "Anchor": "#core-api-setting",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrainingStatus",
+        "Name": "Training Status",
+        "Description": "Check whether vault training is still ongoing or has completed.",
+        "Anchor": "#training-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateVaultEntry",
+        "Name": "Update Vault Entry",
+        "Description": "You can update the value of a single field or values of multiple fields in a vault entry by making HTTP POST request.",
+        "Anchor": "#update-vault-entry",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ValidatingCallback",
+        "Name": "Validating Callback",
+        "Description": "To make sure the data was sent from our server.",
+        "Anchor": "#validating-callback",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "impexium",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../impexium/",
     "Actions": [
@@ -24633,6 +24932,34 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Awards-AddAwardNomination",
+        "Name": "Add Award Nomination",
+        "Description": "Add a new Award Nomination.",
+        "Anchor": "#add-award-nomination",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Awards-GetIndividualAwardRecipients",
+        "Name": "List Award Individual Recipients",
+        "Description": "List all Individuals that are Award Recipients.",
+        "Anchor": "#list-award-individual-recipients",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Awards-GetOrganizationAwardRecipients",
+        "Name": "List Award Organization Recipients",
+        "Description": "List all Organizations that are Award Recipients.",
+        "Anchor": "#list-award-organization-recipients",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Awards-UpdateAwardNomination",
+        "Name": "Update Award Nomination",
+        "Description": "Update an existing Award Nomination.",
+        "Anchor": "#update-award-nomination",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Find-Customer-Phone",
         "Name": "Find Customer by Phone Number",
         "Description": "Find Customer by Phone Number.",
@@ -24647,6 +24974,62 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Individual-Add-Education-Credit",
+        "Name": "Add Education Credits to Individual",
+        "Description": "Add a new Education Credit to an Individual.",
+        "Anchor": "#add-education-credits-to-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Individual-AddNote",
+        "Name": "Add Note to Individual",
+        "Description": "Add a Note to an Individual.",
+        "Anchor": "#add-note-to-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Individuals-LookupByName",
+        "Name": "Lookup Individuals",
+        "Description": "Lookup Individuals by Name",
+        "Anchor": "#lookup-individuals",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Mark-Registrant-Attended",
+        "Name": "Mark Registrant as Attended",
+        "Description": "Mark the Registrant as Attended for the specified Events.",
+        "Anchor": "#mark-registrant-as-attended",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Organization-AddNote",
+        "Name": "Add Note to Organization",
+        "Description": "Add a Note to an Organization.",
+        "Anchor": "#add-note-to-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Organization-Get-Profile",
+        "Name": "Find Organization by Id or Record Number",
+        "Description": "Get organization's profile information by ID or Record Number",
+        "Anchor": "#find-organization-by-id-or-record-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Organization-LookupByName",
+        "Name": "Lookup Organizations",
+        "Description": "Lookup Organizations by Name or Acronym",
+        "Anchor": "#lookup-organizations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-Committee-Member",
+        "Name": "Update Committee Member",
+        "Description": "Update Committee Member.",
+        "Anchor": "#update-committee-member",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Update-custom-field-value",
         "Name": "Update Custom Field Value",
         "Description": "Update Custom Field Value.",
@@ -24656,7 +25039,7 @@
       {
         "OperationId": "Update-Organization",
         "Name": "Update Organization",
-        "Description": "Update Organization",
+        "Description": "Update Organization.",
         "Anchor": "#update-organization",
         "IsDeprecated": false
       },
@@ -24683,16 +25066,16 @@
       },
       {
         "OperationId": "When-product-purchased",
-        "Name": "When product is purchased",
+        "Name": "When a product is purchased",
         "Description": "Triggers when a product is purchased. Supported Product Types: Course, Event (Sessions are included), Exam, Fund, Membership, Merchandise and Publication.",
-        "Anchor": "#when-product-is-purchased",
+        "Anchor": "#when-a-product-is-purchased",
         "IsDeprecated": false
       },
       {
         "OperationId": "When-purchase-cancelled",
-        "Name": "When purchase is cancelled",
-        "Description": "Triggers when a purchase is cancelled. Supported Product Types: Course, Event (Sessions are included), Exam, Fund, Membership, Merchandise, Publication.",
-        "Anchor": "#when-purchase-is-cancelled",
+        "Name": "When a purchase is canceled",
+        "Description": "Triggers when a purchase is canceled. Supported Product Types: Course, Event (Sessions are included), Exam, Fund, Membership, Merchandise, Publication.",
+        "Anchor": "#when-a-purchase-is-canceled",
         "IsDeprecated": false
       },
       {
@@ -29143,6 +29526,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CancelSingleMachineAction",
+        "Name": "Actions - Cancel a single machine action",
+        "Description": "Cancel a specific machine action",
+        "Anchor": "#actions---cancel-a-single-machine-action",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CollectInvestigationPackage",
         "Name": "Actions - Collect investigation package",
         "Description": "Collect investigation package from a machine",
@@ -29196,6 +29586,13 @@
         "Name": "Ips - Get the statistics for the given ip address",
         "Description": "Retrieve from Windows Defender ATP statistics related to a given ip address - given in ipv4 or ipv6 format.",
         "Anchor": "#ips---get-the-statistics-for-the-given-ip-address",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLiveResponseDownloadLink",
+        "Name": "Actions - Get live response command result download URI",
+        "Description": "Get result download URI for a completed live response command",
+        "Anchor": "#actions---get-live-response-command-result-download-uri",
         "IsDeprecated": false
       },
       {
@@ -29308,6 +29705,13 @@
         "Name": "Actions - Run antivirus scan",
         "Description": "Initiate Windows Defender Antivirus scan on a machine",
         "Anchor": "#actions---run-antivirus-scan",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunLiveResponse",
+        "Name": "Actions - Run live response",
+        "Description": "Run live response api commands for a single machine",
+        "Anchor": "#actions---run-live-response",
         "IsDeprecated": false
       },
       {
@@ -31904,6 +32308,13 @@
         "Name": "Create a group event (V2)",
         "Description": "This operation is used to create a new event in a group calendar.",
         "Anchor": "#create-a-group-event-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "HttpRequest",
+        "Name": "Send an HTTP request (Preview)",
+        "Description": "Construct a Microsoft Graph REST API request to invoke. Learn more: https://docs.microsoft.com/en-us/graph/use-the-api",
+        "Anchor": "#send-an-http-request-(preview)",
         "IsDeprecated": false
       },
       {
@@ -39415,87 +39826,87 @@
     "Actions": [
       {
         "OperationId": "ActionCreateFile",
-        "Name": "Create a file in ProjectWise Share (Preview)",
+        "Name": "Create a file in ProjectWise Share [DEPRECATED]",
         "Description": "Create a File in ProjectWise Share Service under selected project and folder",
-        "Anchor": "#create-a-file-in-projectwise-share-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#create-a-file-in-projectwise-share-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "ActionCreateFolder",
-        "Name": "Create a folder in ProjectWise Share (Preview)",
+        "Name": "Create a folder in ProjectWise Share [DEPRECATED]",
         "Description": "Create a folder in ProjectWise Share Service under selected project and folder",
-        "Anchor": "#create-a-folder-in-projectwise-share-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#create-a-folder-in-projectwise-share-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "ActionDeleteFile",
-        "Name": "Delete a file in ProjectWise Share (Preview)",
+        "Name": "Delete a file in ProjectWise Share [DEPRECATED]",
         "Description": "Delete a File in ProjectWise Share Service under selected project and folder",
-        "Anchor": "#delete-a-file-in-projectwise-share-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#delete-a-file-in-projectwise-share-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "TriggerWhenFileIsCreated",
-        "Name": "When a file is created (Preview)",
+        "Name": "When a file is created [DEPRECATED]",
         "Description": "When a file is created",
-        "Anchor": "#when-a-file-is-created-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#when-a-file-is-created-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "TriggerWhenFileIsHardDeleted",
-        "Name": "When a file is deleted from Recycle Bin (Preview)",
+        "Name": "When a file is deleted from Recycle Bin [DEPRECATED]",
         "Description": "When a file is deleted from Recycle Bin",
-        "Anchor": "#when-a-file-is-deleted-from-recycle-bin-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#when-a-file-is-deleted-from-recycle-bin-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "TriggerWhenFileIsModified",
-        "Name": "When a file is modified (Preview)",
+        "Name": "When a file is modified [DEPRECATED]",
         "Description": "When a file is modified",
-        "Anchor": "#when-a-file-is-modified-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#when-a-file-is-modified-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "TriggerWhenFileIsMoved",
-        "Name": "When a file is moved (Preview)",
+        "Name": "When a file is moved [DEPRECATED]",
         "Description": "When a file is moved",
-        "Anchor": "#when-a-file-is-moved-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#when-a-file-is-moved-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "TriggerWhenFileMovedToRecycleBin",
-        "Name": "When a file is moved to Recycle Bin (Preview)",
+        "Name": "When a file is moved to Recycle Bin [DEPRECATED]",
         "Description": "When a file is moved to Recycle Bin",
-        "Anchor": "#when-a-file-is-moved-to-recycle-bin-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#when-a-file-is-moved-to-recycle-bin-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "TriggerWhenFileRestored",
-        "Name": "When a file is restored from Recycle Bin (Preview)",
+        "Name": "When a file is restored from Recycle Bin [DEPRECATED]",
         "Description": "When a file is restored from Recycle Bin",
-        "Anchor": "#when-a-file-is-restored-from-recycle-bin-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#when-a-file-is-restored-from-recycle-bin-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "TriggerWhenFolderCreated",
-        "Name": "When a folder is created (Preview)",
+        "Name": "When a folder is created [DEPRECATED]",
         "Description": "When a folder is created",
-        "Anchor": "#when-a-folder-is-created-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#when-a-folder-is-created-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "TriggerWhenFolderHardDeleted",
-        "Name": "When a folder is deleted from Recycle Bin (Preview)",
+        "Name": "When a folder is deleted from Recycle Bin [DEPRECATED]",
         "Description": "When a folder is deleted from Recycle Bin",
-        "Anchor": "#when-a-folder-is-deleted-from-recycle-bin-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#when-a-folder-is-deleted-from-recycle-bin-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "TriggerWhenFolderMovedToRecycleBin",
-        "Name": "When a folder is moved to Recycle Bin (Preview)",
+        "Name": "When a folder is moved to Recycle Bin [DEPRECATED]",
         "Description": "When a folder moved to Recycle Bin",
-        "Anchor": "#when-a-folder-is-moved-to-recycle-bin-(preview)",
-        "IsDeprecated": false
+        "Anchor": "#when-a-folder-is-moved-to-recycle-bin-[deprecated]",
+        "IsDeprecated": true
       }
     ]
   },
@@ -39522,6 +39933,103 @@
         "Name": "Create File",
         "Description": "This operation is used to create a file in Public 360.",
         "Anchor": "#create-file",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "puggamifiedengagement",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../puggamifiedengagement/",
+    "Actions": [
+      {
+        "OperationId": "Add_Item_Instance",
+        "Name": "Add Item Instance",
+        "Description": "Add Item Instance to a Player",
+        "Anchor": "#add-item-instance",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add_Points",
+        "Name": "Add Points",
+        "Description": "Add Points to an specific account",
+        "Anchor": "#add-points",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Claim_Instance",
+        "Name": "Claim Instance",
+        "Description": "Claim Instance of a Players Reward",
+        "Anchor": "#claim-instance",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Create_Player",
+        "Name": "Create Player",
+        "Description": "Create a new Player",
+        "Anchor": "#create-player",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_Account_Balance",
+        "Name": "Get account balance",
+        "Description": "Get an specific account balance",
+        "Anchor": "#get-account-balance",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_Badge",
+        "Name": "Get Badge",
+        "Description": "Get an specific Badge from a player",
+        "Anchor": "#get-badge",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_Badge_Instance",
+        "Name": "Get Badge Instance",
+        "Description": "Get an specific Badge Instance details of a Player",
+        "Anchor": "#get-badge-instance",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_Badges_Instances",
+        "Name": "Get Player Badges Instances",
+        "Description": "Get a Players list of Badges",
+        "Anchor": "#get-player-badges-instances",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_Batch",
+        "Name": "Get Batch",
+        "Description": "Get Batch of available items for different kinds and sizes",
+        "Anchor": "#get-batch",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_Player_Accounts",
+        "Name": "Get players Accounts",
+        "Description": "Get players list of accounts",
+        "Anchor": "#get-players-accounts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Issue_Badge",
+        "Name": "Issue Badge",
+        "Description": "Issue a Badge to a Player",
+        "Anchor": "#issue-badge",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List_Badges",
+        "Name": "List Badges",
+        "Description": "List Badges of the player",
+        "Anchor": "#list-badges",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Remove_Points",
+        "Name": "Remove Points",
+        "Description": "Remove Points from an specific account",
+        "Anchor": "#remove-points",
         "IsDeprecated": false
       }
     ]
@@ -41444,16 +41952,288 @@
     "Actions": [
       {
         "OperationId": "emailscan",
-        "Name": "Scan Emails using SecPlug Scan",
-        "Description": "Scan Emails using SecPlug Scan",
-        "Anchor": "#scan-emails-using-secplug-scan",
+        "Name": "Scan Emails using SecPlugs Scan",
+        "Description": "Scan Emails using SecPlugs Scan",
+        "Anchor": "#scan-emails-using-secplugs-scan",
         "IsDeprecated": false
       },
       {
         "OperationId": "filescan",
-        "Name": "Scan files using SecPlug Scan",
-        "Description": "Scan files using SecPlug Scan",
-        "Anchor": "#scan-files-using-secplug-scan",
+        "Name": "Scan files using SecPlugs Scan",
+        "Description": "Scan files using SecPlugs Scan",
+        "Anchor": "#scan-files-using-secplugs-scan",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "securecodewarrior",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../securecodewarrior/",
+    "Actions": [
+      {
+        "OperationId": "ActivityGetStrengthsAndWeaknesses",
+        "Name": "Get Activity Strengths and Weaknesses",
+        "Description": "This endpoint returns the average strengths and weaknesses for a company, team or user (depending on the level of granularity of the query) for a specific language or all languages",
+        "Anchor": "#get-activity-strengths-and-weaknesses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActivityGetTopPerform",
+        "Name": "Get Activity Top Performers",
+        "Description": "This is used to retrieve list of top performing users.",
+        "Anchor": "#get-activity-top-performers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssessmentAssign",
+        "Name": "Assign Assessments",
+        "Description": "This endpoint will assign the given assessment to the specified users/teams. Returns a list of users that were assigned to the assessment with their email, inviteUrl and status indicating whether invite email was sent.",
+        "Anchor": "#assign-assessments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssessmentGetAttempts",
+        "Name": "Get Assessment Attempts",
+        "Description": "This endpoint returns a detailed report for all developers who have taken the Assessment with the given ID. The scope of the report may be filtered in a number of ways. You may filter results to a given developer by supplying their email address with the query. If a start date is provided, only attempts started or completed after (and including) this date are included. If an end date is provided, only challenges started or completed before this date are included. Providing both indicates a date range to filter on. This includes all the data in the summary report plus details on all the challenges that are a part of the assessment.",
+        "Anchor": "#get-assessment-attempts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssessmentSearch",
+        "Name": "Search Assessment",
+        "Description": "This endpoint will return a list of Assessment objects which contain a range of datapoints related to assessments. This includes assessment IDs, which may be used in conjunction with the other assessments API endpoints. Results can be filtered based on status, name, supported language and difficulty.",
+        "Anchor": "#search-assessment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssessmentSearchAttempts",
+        "Name": "Search Assessment Attempts",
+        "Description": "This endpoint returns a detailed report for all developers who have taken the Assessment with the given ID. The scope of the report may be filtered in a number of ways. You may filter results to given developer(s) by supplying their email address(es) with the query. If a status is provided, only assessment attempts with specified status are included. If team name(s) provided, only assessment attempts of users within those team(s) are included. If tags(s) is provided, only assessment attempts of users with those tag(s) are included. If a pass_status is provided, only assessment attempts with specified pass_status are included. This includes all the data in the summary report plus details on all the challenges that are a part of the assessment.",
+        "Anchor": "#search-assessment-attempts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssessmentsGet",
+        "Name": "Get Assessments",
+        "Description": "This endpoint will return a list of Assessment objects which contain a range of datapoints related to assessments. This includes assessment IDs, which may be used in conjunction with the other assessments API endpoints.",
+        "Anchor": "#get-assessments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CourseGetDevelopersProgress",
+        "Name": "Get progress of all developers for the course",
+        "Description": "This endpoint will return the progress of all developers for the specified course.",
+        "Anchor": "#get-progress-of-all-developers-for-the-course",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CourseGetURL",
+        "Name": "Get course URL",
+        "Description": "JSON containing course URL",
+        "Anchor": "#get-course-url",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoursesGet",
+        "Name": "Get all courses",
+        "Description": "This endpoint will return a list of Course objects which contain a range of datapoints related to courses. This includes course IDs, which may be used in conjunction with the other course API endpoints.",
+        "Anchor": "#get-all-courses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeveloperGetActivity",
+        "Name": "Get Developer Activity",
+        "Description": "This endpoint returns the detailed challenge log of all developers within the organisation, with challenge score, difficulty and challenge outcome of the developer.",
+        "Anchor": "#get-developer-activity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeveloperGetLeaderboard",
+        "Name": "Get Developer Leaderboard",
+        "Description": "This endpoint returns a list of all developers within the organisation, with their current stats as well as the change in stats over the report period (which may be 1, 7 or 30 days).",
+        "Anchor": "#get-developer-leaderboard",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeveloperGetProgress",
+        "Name": "Get Developer Progress",
+        "Description": "This endpoint returns the training progress of all developers within the organisation, with current realm, level and quest progress.",
+        "Anchor": "#get-developer-progress",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeveloperSearchActivity",
+        "Name": "Search Developers Activity",
+        "Description": "This endpoint returns the detailed challenge log of all developers within the organisation, with challenge score, difficulty and challenge outcome of the developer. This also lists the challenge log over the report period (which may be 1, 7 or 30 days) or a given date range. Results can be filtered based on developer emails, developer tags and team names.",
+        "Anchor": "#search-developers-activity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeveloperSearchLeaderboard",
+        "Name": "Search Developer Leaderboard",
+        "Description": "This endpoint returns a list of all developers within the organisation, with their current stats. This also lists the change in stats over the report period (which may be 1, 7 or 30 days) or a given date range. Results can be filtered based on developer emails, developer tags and team names.",
+        "Anchor": "#search-developer-leaderboard",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeveloperSearchProgress",
+        "Name": "Search course developers progress",
+        "Description": "This endpoint returns the course progress of all developers within the organisation.",
+        "Anchor": "#search-course-developers-progress",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DevelopersSearchProgress",
+        "Name": "Search Developers Progress",
+        "Description": "This endpoint returns the training progress of all developers within the organisation, with current realm, level and quest progress. This also lists the change in developer progress over the report period (which may be 1, 7 or 30 days) or a given date range. Results can be filtered based on developer emails, developer tags and team names.",
+        "Anchor": "#search-developers-progress",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LearningGetProgress",
+        "Name": "Shows learning resources which have be completed, read or watched",
+        "Description": "Learning description",
+        "Anchor": "#shows-learning-resources-which-have-be-completed,-read-or-watched",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LearningGetResources",
+        "Name": "Get Resources",
+        "Description": "Learning resources list",
+        "Anchor": "#get-resources",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LearningSearchProgress",
+        "Name": "Search Learning Progress",
+        "Description": "Learning description Filters - users, teams and tags",
+        "Anchor": "#search-learning-progress",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamCreate",
+        "Name": "Create a team",
+        "Description": "This is used to create a team.",
+        "Anchor": "#create-a-team",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamDelete",
+        "Name": "Delete team",
+        "Description": "This is used to delete a team.",
+        "Anchor": "#delete-team",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamGetDetails",
+        "Name": "Get team details",
+        "Description": "This is used to get details of a team.",
+        "Anchor": "#get-team-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamGetLeaderboard",
+        "Name": "Get Team Leaderboard",
+        "Description": "This endpoint returns a list of all teams within the organisation, with their current stats as well as the change in stats over the report period (which may be 1, 7 or 30 days).",
+        "Anchor": "#get-team-leaderboard",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamGetMostEngaged",
+        "Name": "Get Team Activity Most Engaged",
+        "Description": "This endpoint returns the top 'N' most engaged teams.",
+        "Anchor": "#get-team-activity-most-engaged",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamsGet",
+        "Name": "Get Teams",
+        "Description": "This endpoint will return a list of Team objects which contain a range of datapoints related to teams. This includes team IDs, which may be used in conjunction with the other team API endpoints.",
+        "Anchor": "#get-teams",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamUpdate",
+        "Name": "Update team details",
+        "Description": "This is used to update details of a team.",
+        "Anchor": "#update-team-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TimeGetSpent",
+        "Name": "Get time spent",
+        "Description": "Time spent on the platform across Assessments, Learning, Tournaments and Training.",
+        "Anchor": "#get-time-spent",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TournamentGetLeaderboard",
+        "Name": "Get Tournament Leaderboard",
+        "Description": "This endpoint returns the leaderboard for a single tournament. This includes all levels, challenges and stages that the developer participated in, with detailed metrics of each.",
+        "Anchor": "#get-tournament-leaderboard",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TournamentSearchLeaderboard",
+        "Name": "Search Tournament Leaderboard",
+        "Description": "This endpoint returns the leaderboard for a single tournament. This includes all levels, challenges and stages that the developer participated in, with detailed metrics of each. This endpoint can also return the leaderboard over a report period (which may be 1, 7 or 30 days) or a given date range. Results can be filtered based on developer emails, developer tags and team names.",
+        "Anchor": "#search-tournament-leaderboard",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TournamentsGet",
+        "Name": "Get Tournaments",
+        "Description": "This endpoint returns a list of tournaments in the company.",
+        "Anchor": "#get-tournaments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserCreate",
+        "Name": "Create a user",
+        "Description": "Creates a User.",
+        "Anchor": "#create-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserDelete",
+        "Name": "Delete User",
+        "Description": "Deletes the user referenced by the given ID.",
+        "Anchor": "#delete-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserGet",
+        "Name": "Get User",
+        "Description": "This is used to retrieve a single user record. The response may be shaped by passing in a fields query parameter listing the attribute names to return.",
+        "Anchor": "#get-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserGetMostEngaged",
+        "Name": "Get Users Activity Most Engaged",
+        "Description": "This endpoint returns the top 'N' most engaged users.",
+        "Anchor": "#get-users-activity-most-engaged",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserSearch",
+        "Name": "Search Users",
+        "Description": "This is used to retrieve all user records. The response may be shaped by passing in a fields query parameter listing the\nattribute names to return. Filter is achieved by passing the filter criteria through the body.",
+        "Anchor": "#search-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UsersGet",
+        "Name": "Get Users",
+        "Description": "This is used to retrieve all user records. The response may be shaped by passing in a fields query parameter listing the\nattribute names to return.",
+        "Anchor": "#get-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserUpdate",
+        "Name": "Update User",
+        "Description": "Updates a user with the given data. Tags will be replaced.",
+        "Anchor": "#update-user",
         "IsDeprecated": false
       }
     ]
@@ -41472,6 +42252,61 @@
     "UniqueName": "ascregulatorycomplianceassessment",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ascregulatorycomplianceassessment/",
     "Actions": []
+  },
+  {
+    "UniqueName": "seebotrunlink",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../seebotrunlink/",
+    "Actions": [
+      {
+        "OperationId": "CreateLink",
+        "Name": "Create Link",
+        "Description": "Create a new short link for your account.",
+        "Anchor": "#create-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreatePredefinedLink",
+        "Name": "Create Predefined Link",
+        "Description": "Create a predefined link within a short link for a given key.",
+        "Anchor": "#create-predefined-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteLink",
+        "Name": "Delete Link",
+        "Description": "Delete a given short link by a provided ID.",
+        "Anchor": "#delete-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeletePredefinedLink",
+        "Name": "Delete Predefined Link",
+        "Description": "Delete an existing predefined link based on the link ID and key.",
+        "Anchor": "#delete-predefined-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDomains",
+        "Name": "Get All Domains",
+        "Description": "Get all domains available for your account.",
+        "Anchor": "#get-all-domains",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLinks",
+        "Name": "Get Links",
+        "Description": "Return all short links available for your account.",
+        "Anchor": "#get-links",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateLink",
+        "Name": "Update Link By ID",
+        "Description": "Update an existing short link by a provided ID.",
+        "Anchor": "#update-link-by-id",
+        "IsDeprecated": false
+      }
+    ]
   },
   {
     "UniqueName": "seektable",
@@ -45460,6 +46295,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Get_Currentuser",
+        "Name": "Get Current User",
+        "Description": "Returns the current user object with workspaces",
+        "Anchor": "#get-current-user",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Get_Groups",
         "Name": "Get Workspace Groups",
         "Description": "Get all groups from a workspace.",
@@ -45499,6 +46341,13 @@
         "Name": "Get Times",
         "Description": "Get all times from a workspace.",
         "Anchor": "#get-times",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_Workspace_ById",
+        "Name": "Get Workspace by ID",
+        "Description": "Returns the workspace",
+        "Anchor": "#get-workspace-by-id",
         "IsDeprecated": false
       },
       {
@@ -47445,6 +48294,26 @@
     ]
   },
   {
+    "UniqueName": "what3wordsip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../what3wordsip/",
+    "Actions": [
+      {
+        "OperationId": "ConvertToLatLng",
+        "Name": "Convert To Lat Long",
+        "Description": "Convert What3Words to Lat Long",
+        "Anchor": "#convert-to-lat-long",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ConvertToWord",
+        "Name": "Convert to Words",
+        "Description": "Convert a standard latitude/longitude to words",
+        "Anchor": "#convert-to-words",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "withoutwireinventory",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../withoutwireinventory/",
     "Actions": [
@@ -48475,6 +49344,54 @@
         "Name": "Temperature",
         "Description": "Temperature",
         "Anchor": "#temperature",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "yelpip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../yelpip/",
+    "Actions": [
+      {
+        "OperationId": "Autocomplete",
+        "Name": "Autocomplete",
+        "Description": "Provide autocomplete suggestions for businesses, search keywords and categories.",
+        "Anchor": "#autocomplete",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BusinessDetails",
+        "Name": "Get Business Details",
+        "Description": "Get rich business data, such as name, address, phone number, photos, Yelp rating, price levels and hours of operation.",
+        "Anchor": "#get-business-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BusinessMatch",
+        "Name": "Find Business Match",
+        "Description": "Find the Yelp business that matches an exact input location. Use this action to match business data from other sources with Yelp businesses.",
+        "Anchor": "#find-business-match",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BusinessSearch",
+        "Name": "Search Businesses",
+        "Description": "Search for businesses by Term (keyword), category, location, price level, etc. Use this action when you have general info on the biz like name &amp; location but don't know the address.",
+        "Anchor": "#search-businesses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PhoneSearch",
+        "Name": "Search Business Phones",
+        "Description": "Returns a list of businesses based on the provided phone number. Use this action when you only have the phone number or less confident about other matching criteria.",
+        "Anchor": "#search-business-phones",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Reviews",
+        "Name": "Get Reviews",
+        "Description": "Get up to three review excerpts for a business.",
+        "Anchor": "#get-reviews",
         "IsDeprecated": false
       }
     ]

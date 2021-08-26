@@ -24,6 +24,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "HttpRequest",
+      "Name": "Send an HTTP request (Preview)",
+      "Description": "Construct a Microsoft Graph REST API request to invoke. Learn more: https://docs.microsoft.com/en-us/graph/use-the-api",
+      "Anchor": "#send-an-http-request-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ListGroupMembers",
       "Name": "List group members",
       "Description": "This operation returns a list of all members in the given group and their details such as name, title, email, etc. You can query up to 1000 items using Top parameter. In case you need to retrieve more than 1000 values please turn on Settings-&gt;Pagination feature and provide Threshold limit.",

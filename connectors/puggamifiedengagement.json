@@ -1,0 +1,97 @@
+{
+  "UniqueName": "puggamifiedengagement",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../puggamifiedengagement/",
+  "Actions": [
+    {
+      "OperationId": "Add_Item_Instance",
+      "Name": "Add Item Instance",
+      "Description": "Add Item Instance to a Player",
+      "Anchor": "#add-item-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add_Points",
+      "Name": "Add Points",
+      "Description": "Add Points to an specific account",
+      "Anchor": "#add-points",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Claim_Instance",
+      "Name": "Claim Instance",
+      "Description": "Claim Instance of a Players Reward",
+      "Anchor": "#claim-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Create_Player",
+      "Name": "Create Player",
+      "Description": "Create a new Player",
+      "Anchor": "#create-player",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Account_Balance",
+      "Name": "Get account balance",
+      "Description": "Get an specific account balance",
+      "Anchor": "#get-account-balance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Badge",
+      "Name": "Get Badge",
+      "Description": "Get an specific Badge from a player",
+      "Anchor": "#get-badge",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Badge_Instance",
+      "Name": "Get Badge Instance",
+      "Description": "Get an specific Badge Instance details of a Player",
+      "Anchor": "#get-badge-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Badges_Instances",
+      "Name": "Get Player Badges Instances",
+      "Description": "Get a Players list of Badges",
+      "Anchor": "#get-player-badges-instances",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Batch",
+      "Name": "Get Batch",
+      "Description": "Get Batch of available items for different kinds and sizes",
+      "Anchor": "#get-batch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_Player_Accounts",
+      "Name": "Get players Accounts",
+      "Description": "Get players list of accounts",
+      "Anchor": "#get-players-accounts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Issue_Badge",
+      "Name": "Issue Badge",
+      "Description": "Issue a Badge to a Player",
+      "Anchor": "#issue-badge",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List_Badges",
+      "Name": "List Badges",
+      "Description": "List Badges of the player",
+      "Anchor": "#list-badges",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove_Points",
+      "Name": "Remove Points",
+      "Description": "Remove Points from an specific account",
+      "Anchor": "#remove-points",
+      "IsDeprecated": false
+    }
+  ]
+}
