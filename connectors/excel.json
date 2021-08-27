@@ -4,45 +4,45 @@
   "Actions": [
     {
       "OperationId": "DeleteItem",
-      "Name": "Delete row",
+      "Name": "Delete row [DEPRECATED]",
       "Description": "Deletes a row from an Excel table",
-      "Anchor": "#delete-row",
-      "IsDeprecated": false
+      "Anchor": "#delete-row-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetItem",
-      "Name": "Get row",
+      "Name": "Get row [DEPRECATED]",
       "Description": "Retrieves a single row from an Excel table",
-      "Anchor": "#get-row",
-      "IsDeprecated": false
+      "Anchor": "#get-row-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetItems",
-      "Name": "Get rows",
+      "Name": "Get rows [DEPRECATED]",
       "Description": "Retrieves rows from an Excel table",
-      "Anchor": "#get-rows",
-      "IsDeprecated": false
+      "Anchor": "#get-rows-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetTables",
-      "Name": "Get tables",
+      "Name": "Get tables [DEPRECATED]",
       "Description": "Retrieves table names from an Excel file",
-      "Anchor": "#get-tables",
-      "IsDeprecated": false
+      "Anchor": "#get-tables-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "PatchItem",
-      "Name": "Update row",
+      "Name": "Update row [DEPRECATED]",
       "Description": "Updates an existing row in an Excel table",
-      "Anchor": "#update-row",
-      "IsDeprecated": false
+      "Anchor": "#update-row-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "PostItem",
-      "Name": "Insert row",
+      "Name": "Insert row [DEPRECATED]",
       "Description": "Inserts a new row into an Excel table",
-      "Anchor": "#insert-row",
-      "IsDeprecated": false
+      "Anchor": "#insert-row-[deprecated]",
+      "IsDeprecated": true
     }
   ]
 }

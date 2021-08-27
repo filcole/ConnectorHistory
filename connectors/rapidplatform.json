@@ -1,0 +1,55 @@
+{
+  "UniqueName": "rapidplatform",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rapidplatform/",
+  "Actions": [
+    {
+      "OperationId": "CreateListItem",
+      "Name": "Create an item",
+      "Description": "Create an item on a chosen Table.",
+      "Anchor": "#create-an-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllItems",
+      "Name": "Get a page of items for a Table",
+      "Description": "Gets a page of up to 250 items from a Table in your RAPID site.",
+      "Anchor": "#get-a-page-of-items-for-a-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInheritLinks",
+      "Name": "Get a inherit links list for a given item",
+      "Description": "Gets a list of items that expect to be linked to the current item due to the inherit link configuration on your RAPID site.",
+      "Anchor": "#get-a-inherit-links-list-for-a-given-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItem",
+      "Name": "Get an item",
+      "Description": "Fetches a specific item from a Table on your RAPID site. This will always return the full item profile of the fetched item.",
+      "Anchor": "#get-an-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListHookTrigger",
+      "Name": "When something happens to an item in your RAPID site",
+      "Description": "Creates a webhook for when something happens in your RAPID site.",
+      "Anchor": "#when-something-happens-to-an-item-in-your-rapid-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetAttachments",
+      "Name": "Add an attachment record to an item in your RAPID site",
+      "Description": "Adds an attachment record to an item in your RAPID site. This record refers to the location of a file stored in SharePoint.",
+      "Anchor": "#add-an-attachment-record-to-an-item-in-your-rapid-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateListItem",
+      "Name": "Update an item",
+      "Description": "Update an item",
+      "Anchor": "#update-an-item",
+      "IsDeprecated": false
+    }
+  ]
+}

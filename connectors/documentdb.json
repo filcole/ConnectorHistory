@@ -10,6 +10,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateDocument_V3",
+      "Name": "Create or update document (V3) (Preview)",
+      "Description": "Create or update document. When creating a document in DocumentDB, the body must include an id property.",
+      "Anchor": "#create-or-update-document-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateDocumentV2",
       "Name": "Create or update document (V2) (Preview)",
       "Description": "Create or update document. When creating a document in DocumentDB, the body must include an id property.",
@@ -24,10 +31,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateStoredProcedure_V2",
+      "Name": "Create stored procedure (V2) (Preview)",
+      "Description": "Create stored procedure (V2).",
+      "Anchor": "#create-stored-procedure-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "DeleteDocument",
       "Name": "Delete a document",
       "Description": "Delete a document.",
       "Anchor": "#delete-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteDocument_V2",
+      "Name": "Delete a document (V2) (Preview)",
+      "Description": "Delete a document (V2).",
+      "Anchor": "#delete-a-document-(v2)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -38,10 +59,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "DeleteStoredProcedure_V2",
+      "Name": "Delete stored procedure (V2) (Preview)",
+      "Description": "Delete stored procedure (V2).",
+      "Anchor": "#delete-stored-procedure-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ExecuteStoredProcedure",
       "Name": "Execute stored procedure",
       "Description": "Execute stored procedure in specified collection.",
       "Anchor": "#execute-stored-procedure",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteStoredProcedure_V2",
+      "Name": "Execute stored procedure (V2) (Preview)",
+      "Description": "Execute stored procedure in specified collection (V2).",
+      "Anchor": "#execute-stored-procedure-(v2)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -52,10 +87,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetDocument_V2",
+      "Name": "Get a document (V2) (Preview)",
+      "Description": "Get a document (V2).",
+      "Anchor": "#get-a-document-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetDocuments",
       "Name": "Get all documents",
       "Description": "Get all documents.",
       "Anchor": "#get-all-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocuments_V3",
+      "Name": "Get all documents (V3) (Preview)",
+      "Description": "Get all documents (V3).",
+      "Anchor": "#get-all-documents-(v3)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -73,16 +122,30 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetStoredProcedures_V2",
+      "Name": "Get stored procedures (V2) (Preview)",
+      "Description": "Get stored procedures in the specified collection (V2).",
+      "Anchor": "#get-stored-procedures-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "QueryDocuments",
       "Name": "Query documents [DEPRECATED]",
-      "Description": "This action has been deprecated. Please use Query documents V4 instead.\nQuery documents.",
+      "Description": "This action has been deprecated. Please use Query documents V5 instead.\nQuery documents.",
       "Anchor": "#query-documents-[deprecated]",
       "IsDeprecated": true
     },
     {
+      "OperationId": "QueryDocuments_V5",
+      "Name": "Query documents V5 (Preview)",
+      "Description": "Query documents (V5).",
+      "Anchor": "#query-documents-v5-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "QueryDocumentsV2",
       "Name": "Query documents V2 [DEPRECATED]",
-      "Description": "This action has been deprecated. Please use Query documents V4 instead.\nQuery documents V2.",
+      "Description": "This action has been deprecated. Please use Query documents V5 instead.\nQuery documents V2.",
       "Anchor": "#query-documents-v2-[deprecated]",
       "IsDeprecated": true
     },
@@ -108,10 +171,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ReplaceDocument_V2",
+      "Name": "Replace a document (V2) (Preview)",
+      "Description": "Replace a document (V2).",
+      "Anchor": "#replace-a-document-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ReplaceStoredProcedure",
       "Name": "Replace stored procedure",
       "Description": "Replace stored procedure.",
       "Anchor": "#replace-stored-procedure",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplaceStoredProcedure_V2",
+      "Name": "Replace stored procedure (V2) (Preview)",
+      "Description": "Replace stored procedure (V2).",
+      "Anchor": "#replace-stored-procedure-(v2)-(preview)",
       "IsDeprecated": false
     }
   ]

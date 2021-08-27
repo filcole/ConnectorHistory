@@ -1,0 +1,34 @@
+{
+  "UniqueName": "cgtrader",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cgtrader/",
+  "Actions": [
+    {
+      "OperationId": "GetCategories",
+      "Name": "Gets the available category names and IDs.",
+      "Description": "Gets the available category names and IDs.",
+      "Anchor": "#gets-the-available-category-names-and-ids.",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetModel",
+      "Name": "Downloads a model with the given ID and file type.",
+      "Description": "Downloads a model with the given ID and file type.",
+      "Anchor": "#downloads-a-model-with-the-given-id-and-file-type.",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetModelInfo",
+      "Name": "Gets the info of a model with the given ID.",
+      "Description": "Gets the info of a model with the given ID.",
+      "Anchor": "#gets-the-info-of-a-model-with-the-given-id.",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchModels",
+      "Name": "Searches for models from CGTrader based on the given filters.",
+      "Description": "Searches for models from CGTrader based on the given filters.",
+      "Anchor": "#searches-for-models-from-cgtrader-based-on-the-given-filters.",
+      "IsDeprecated": false
+    }
+  ]
+}

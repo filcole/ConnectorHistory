@@ -364,14 +364,14 @@
       {
         "OperationId": "QueryDocuments",
         "Name": "Query documents [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Query documents V4 instead.\nQuery documents.",
+        "Description": "This action has been deprecated. Please use Query documents V5 instead.\nQuery documents.",
         "Anchor": "#query-documents-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "QueryDocumentsV2",
         "Name": "Query documents V2 [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Query documents V4 instead.\nQuery documents V2.",
+        "Description": "This action has been deprecated. Please use Query documents V5 instead.\nQuery documents V2.",
         "Anchor": "#query-documents-v2-[deprecated]",
         "IsDeprecated": true
       }
@@ -1097,6 +1097,54 @@
         "Name": "Update event [DEPRECATED]",
         "Description": "Update an existing event.",
         "Anchor": "#update-event-[deprecated]",
+        "IsDeprecated": true
+      }
+    ]
+  },
+  {
+    "UniqueName": "excel",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../excel/",
+    "Actions": [
+      {
+        "OperationId": "DeleteItem",
+        "Name": "Delete row [DEPRECATED]",
+        "Description": "Deletes a row from an Excel table",
+        "Anchor": "#delete-row-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "GetItem",
+        "Name": "Get row [DEPRECATED]",
+        "Description": "Retrieves a single row from an Excel table",
+        "Anchor": "#get-row-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "GetItems",
+        "Name": "Get rows [DEPRECATED]",
+        "Description": "Retrieves rows from an Excel table",
+        "Anchor": "#get-rows-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "GetTables",
+        "Name": "Get tables [DEPRECATED]",
+        "Description": "Retrieves table names from an Excel file",
+        "Anchor": "#get-tables-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "PatchItem",
+        "Name": "Update row [DEPRECATED]",
+        "Description": "Updates an existing row in an Excel table",
+        "Anchor": "#update-row-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "PostItem",
+        "Name": "Insert row [DEPRECATED]",
+        "Description": "Inserts a new row into an Excel table",
+        "Anchor": "#insert-row-[deprecated]",
         "IsDeprecated": true
       }
     ]

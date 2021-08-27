@@ -1,0 +1,69 @@
+{
+  "UniqueName": "cloudmersivesecurity",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudmersivesecurity/",
+  "Actions": [
+    {
+      "OperationId": "ContentThreatDetection_AutomaticThreatDetectionString",
+      "Name": "Automatically detect threats in an input string",
+      "Description": "Auto-detects a wide range of threat types in input string, including Cross-Site Scripting (XSS), SQL Injection (SQLI), XML External Entitites (XXE), Server-side Request Forgeries (SSRF), and JSON Insecure Deserialization (JID).",
+      "Anchor": "#automatically-detect-threats-in-an-input-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContentThreatDetection_CheckSqlInjectionString",
+      "Name": "Check text input for SQL Injection (SQLI) attacks",
+      "Description": "Detects SQL Injection (SQLI) attacks from text input.",
+      "Anchor": "#check-text-input-for-sql-injection-(sqli)-attacks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContentThreatDetection_CheckXxe",
+      "Name": "Protect text input from XML External Entity (XXE) attacks",
+      "Description": "Detects XXE (XML External Entity) attacks from XML text input.",
+      "Anchor": "#protect-text-input-from-xml-external-entity-(xxe)-attacks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContentThreatDetection_DetectInsecureDeserializationJsonString",
+      "Name": "Detect Insecure Deserialization JSON (JID) attacks in a string",
+      "Description": "Detects Insecure Deserialization JSON (JID) attacks from text input.",
+      "Anchor": "#detect-insecure-deserialization-json-(jid)-attacks-in-a-string",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContentThreatDetection_ProtectXss",
+      "Name": "Protect text input from Cross-Site-Scripting (XSS) attacks through normalization",
+      "Description": "Detects and removes XSS (Cross-Site-Scripting) attacks from text input through normalization.  Returns the normalized result, as well as information on whether the original input contained an XSS risk.",
+      "Anchor": "#protect-text-input-from-cross-site-scripting-(xss)-attacks-through-normalization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NetworkThreatDetection_DetectSsrfUrl",
+      "Name": "Check a URL for Server-side Request Forgery (SSRF) threats",
+      "Description": "Checks if an input URL is at risk of being an SSRF (Server-side request forgery) threat or attack.",
+      "Anchor": "#check-a-url-for-server-side-request-forgery-(ssrf)-threats",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NetworkThreatDetection_IsBot",
+      "Name": "Check if IP address is a Bot client threat",
+      "Description": "Check if the input IP address is a Bot, robot, or otherwise a non-user entity.  Leverages real-time signals to check against known high-probability bots..",
+      "Anchor": "#check-if-ip-address-is-a-bot-client-threat",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NetworkThreatDetection_IsThreat",
+      "Name": "Check if IP address is a known threat",
+      "Description": "Check if the input IP address is a known threat IP address.  Checks against known bad IPs, botnets, compromised servers, and other lists of threats.",
+      "Anchor": "#check-if-ip-address-is-a-known-threat",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NetworkThreatDetection_IsTorNode",
+      "Name": "Check if IP address is a Tor node server",
+      "Description": "Check if the input IP address is a Tor exit node server.  Tor servers are a type of privacy-preserving technology that can hide the original IP address who makes a request.",
+      "Anchor": "#check-if-ip-address-is-a-tor-node-server",
+      "IsDeprecated": false
+    }
+  ]
+}

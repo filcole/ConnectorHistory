@@ -3962,6 +3962,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateDocument_V3",
+        "Name": "Create or update document (V3) (Preview)",
+        "Description": "Create or update document. When creating a document in DocumentDB, the body must include an id property.",
+        "Anchor": "#create-or-update-document-(v3)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateDocumentV2",
         "Name": "Create or update document (V2) (Preview)",
         "Description": "Create or update document. When creating a document in DocumentDB, the body must include an id property.",
@@ -3976,10 +3983,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateStoredProcedure_V2",
+        "Name": "Create stored procedure (V2) (Preview)",
+        "Description": "Create stored procedure (V2).",
+        "Anchor": "#create-stored-procedure-(v2)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "DeleteDocument",
         "Name": "Delete a document",
         "Description": "Delete a document.",
         "Anchor": "#delete-a-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteDocument_V2",
+        "Name": "Delete a document (V2) (Preview)",
+        "Description": "Delete a document (V2).",
+        "Anchor": "#delete-a-document-(v2)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -3990,10 +4011,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "DeleteStoredProcedure_V2",
+        "Name": "Delete stored procedure (V2) (Preview)",
+        "Description": "Delete stored procedure (V2).",
+        "Anchor": "#delete-stored-procedure-(v2)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ExecuteStoredProcedure",
         "Name": "Execute stored procedure",
         "Description": "Execute stored procedure in specified collection.",
         "Anchor": "#execute-stored-procedure",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExecuteStoredProcedure_V2",
+        "Name": "Execute stored procedure (V2) (Preview)",
+        "Description": "Execute stored procedure in specified collection (V2).",
+        "Anchor": "#execute-stored-procedure-(v2)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -4004,10 +4039,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetDocument_V2",
+        "Name": "Get a document (V2) (Preview)",
+        "Description": "Get a document (V2).",
+        "Anchor": "#get-a-document-(v2)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetDocuments",
         "Name": "Get all documents",
         "Description": "Get all documents.",
         "Anchor": "#get-all-documents",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDocuments_V3",
+        "Name": "Get all documents (V3) (Preview)",
+        "Description": "Get all documents (V3).",
+        "Anchor": "#get-all-documents-(v3)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -4025,16 +4074,30 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetStoredProcedures_V2",
+        "Name": "Get stored procedures (V2) (Preview)",
+        "Description": "Get stored procedures in the specified collection (V2).",
+        "Anchor": "#get-stored-procedures-(v2)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "QueryDocuments",
         "Name": "Query documents [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Query documents V4 instead.\nQuery documents.",
+        "Description": "This action has been deprecated. Please use Query documents V5 instead.\nQuery documents.",
         "Anchor": "#query-documents-[deprecated]",
         "IsDeprecated": true
       },
       {
+        "OperationId": "QueryDocuments_V5",
+        "Name": "Query documents V5 (Preview)",
+        "Description": "Query documents (V5).",
+        "Anchor": "#query-documents-v5-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "QueryDocumentsV2",
         "Name": "Query documents V2 [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Query documents V4 instead.\nQuery documents V2.",
+        "Description": "This action has been deprecated. Please use Query documents V5 instead.\nQuery documents V2.",
         "Anchor": "#query-documents-v2-[deprecated]",
         "IsDeprecated": true
       },
@@ -4060,10 +4123,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ReplaceDocument_V2",
+        "Name": "Replace a document (V2) (Preview)",
+        "Description": "Replace a document (V2).",
+        "Anchor": "#replace-a-document-(v2)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ReplaceStoredProcedure",
         "Name": "Replace stored procedure",
         "Description": "Replace stored procedure.",
         "Anchor": "#replace-stored-procedure",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReplaceStoredProcedure_V2",
+        "Name": "Replace stored procedure (V2) (Preview)",
+        "Description": "Replace stored procedure (V2).",
+        "Anchor": "#replace-stored-procedure-(v2)-(preview)",
         "IsDeprecated": false
       }
     ]
@@ -9109,6 +9186,40 @@
     ]
   },
   {
+    "UniqueName": "cgtrader",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cgtrader/",
+    "Actions": [
+      {
+        "OperationId": "GetCategories",
+        "Name": "Gets the available category names and IDs.",
+        "Description": "Gets the available category names and IDs.",
+        "Anchor": "#gets-the-available-category-names-and-ids.",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetModel",
+        "Name": "Downloads a model with the given ID and file type.",
+        "Description": "Downloads a model with the given ID and file type.",
+        "Anchor": "#downloads-a-model-with-the-given-id-and-file-type.",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetModelInfo",
+        "Name": "Gets the info of a model with the given ID.",
+        "Description": "Gets the info of a model with the given ID.",
+        "Anchor": "#gets-the-info-of-a-model-with-the-given-id.",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchModels",
+        "Name": "Searches for models from CGTrader based on the given filters.",
+        "Description": "Searches for models from CGTrader based on the given filters.",
+        "Anchor": "#searches-for-models-from-cgtrader-based-on-the-given-filters.",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "chainpointnode",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../chainpointnode/",
     "Actions": [
@@ -11667,6 +11778,75 @@
         "Name": "Add a text watermark to a PDF",
         "Description": "Adds a text watermark to a PDF",
         "Anchor": "#add-a-text-watermark-to-a-pdf",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "cloudmersivesecurity",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudmersivesecurity/",
+    "Actions": [
+      {
+        "OperationId": "ContentThreatDetection_AutomaticThreatDetectionString",
+        "Name": "Automatically detect threats in an input string",
+        "Description": "Auto-detects a wide range of threat types in input string, including Cross-Site Scripting (XSS), SQL Injection (SQLI), XML External Entitites (XXE), Server-side Request Forgeries (SSRF), and JSON Insecure Deserialization (JID).",
+        "Anchor": "#automatically-detect-threats-in-an-input-string",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContentThreatDetection_CheckSqlInjectionString",
+        "Name": "Check text input for SQL Injection (SQLI) attacks",
+        "Description": "Detects SQL Injection (SQLI) attacks from text input.",
+        "Anchor": "#check-text-input-for-sql-injection-(sqli)-attacks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContentThreatDetection_CheckXxe",
+        "Name": "Protect text input from XML External Entity (XXE) attacks",
+        "Description": "Detects XXE (XML External Entity) attacks from XML text input.",
+        "Anchor": "#protect-text-input-from-xml-external-entity-(xxe)-attacks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContentThreatDetection_DetectInsecureDeserializationJsonString",
+        "Name": "Detect Insecure Deserialization JSON (JID) attacks in a string",
+        "Description": "Detects Insecure Deserialization JSON (JID) attacks from text input.",
+        "Anchor": "#detect-insecure-deserialization-json-(jid)-attacks-in-a-string",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContentThreatDetection_ProtectXss",
+        "Name": "Protect text input from Cross-Site-Scripting (XSS) attacks through normalization",
+        "Description": "Detects and removes XSS (Cross-Site-Scripting) attacks from text input through normalization.  Returns the normalized result, as well as information on whether the original input contained an XSS risk.",
+        "Anchor": "#protect-text-input-from-cross-site-scripting-(xss)-attacks-through-normalization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NetworkThreatDetection_DetectSsrfUrl",
+        "Name": "Check a URL for Server-side Request Forgery (SSRF) threats",
+        "Description": "Checks if an input URL is at risk of being an SSRF (Server-side request forgery) threat or attack.",
+        "Anchor": "#check-a-url-for-server-side-request-forgery-(ssrf)-threats",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NetworkThreatDetection_IsBot",
+        "Name": "Check if IP address is a Bot client threat",
+        "Description": "Check if the input IP address is a Bot, robot, or otherwise a non-user entity.  Leverages real-time signals to check against known high-probability bots..",
+        "Anchor": "#check-if-ip-address-is-a-bot-client-threat",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NetworkThreatDetection_IsThreat",
+        "Name": "Check if IP address is a known threat",
+        "Description": "Check if the input IP address is a known threat IP address.  Checks against known bad IPs, botnets, compromised servers, and other lists of threats.",
+        "Anchor": "#check-if-ip-address-is-a-known-threat",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NetworkThreatDetection_IsTorNode",
+        "Name": "Check if IP address is a Tor node server",
+        "Description": "Check if the input IP address is a Tor exit node server.  Tor servers are a type of privacy-preserving technology that can hide the original IP address who makes a request.",
+        "Anchor": "#check-if-ip-address-is-a-tor-node-server",
         "IsDeprecated": false
       }
     ]
@@ -19164,45 +19344,45 @@
     "Actions": [
       {
         "OperationId": "DeleteItem",
-        "Name": "Delete row",
+        "Name": "Delete row [DEPRECATED]",
         "Description": "Deletes a row from an Excel table",
-        "Anchor": "#delete-row",
-        "IsDeprecated": false
+        "Anchor": "#delete-row-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "GetItem",
-        "Name": "Get row",
+        "Name": "Get row [DEPRECATED]",
         "Description": "Retrieves a single row from an Excel table",
-        "Anchor": "#get-row",
-        "IsDeprecated": false
+        "Anchor": "#get-row-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "GetItems",
-        "Name": "Get rows",
+        "Name": "Get rows [DEPRECATED]",
         "Description": "Retrieves rows from an Excel table",
-        "Anchor": "#get-rows",
-        "IsDeprecated": false
+        "Anchor": "#get-rows-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "GetTables",
-        "Name": "Get tables",
+        "Name": "Get tables [DEPRECATED]",
         "Description": "Retrieves table names from an Excel file",
-        "Anchor": "#get-tables",
-        "IsDeprecated": false
+        "Anchor": "#get-tables-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "PatchItem",
-        "Name": "Update row",
+        "Name": "Update row [DEPRECATED]",
         "Description": "Updates an existing row in an Excel table",
-        "Anchor": "#update-row",
-        "IsDeprecated": false
+        "Anchor": "#update-row-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "PostItem",
-        "Name": "Insert row",
+        "Name": "Insert row [DEPRECATED]",
         "Description": "Inserts a new row into an Excel table",
-        "Anchor": "#insert-row",
-        "IsDeprecated": false
+        "Anchor": "#insert-row-[deprecated]",
+        "IsDeprecated": true
       }
     ]
   },
@@ -40105,6 +40285,61 @@
         "Description": "This operation returns the top ranking answer for the given question.",
         "Anchor": "#generate-answer-[deprecated]",
         "IsDeprecated": true
+      }
+    ]
+  },
+  {
+    "UniqueName": "rapidplatform",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rapidplatform/",
+    "Actions": [
+      {
+        "OperationId": "CreateListItem",
+        "Name": "Create an item",
+        "Description": "Create an item on a chosen Table.",
+        "Anchor": "#create-an-item",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllItems",
+        "Name": "Get a page of items for a Table",
+        "Description": "Gets a page of up to 250 items from a Table in your RAPID site.",
+        "Anchor": "#get-a-page-of-items-for-a-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetInheritLinks",
+        "Name": "Get a inherit links list for a given item",
+        "Description": "Gets a list of items that expect to be linked to the current item due to the inherit link configuration on your RAPID site.",
+        "Anchor": "#get-a-inherit-links-list-for-a-given-item",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetItem",
+        "Name": "Get an item",
+        "Description": "Fetches a specific item from a Table on your RAPID site. This will always return the full item profile of the fetched item.",
+        "Anchor": "#get-an-item",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListHookTrigger",
+        "Name": "When something happens to an item in your RAPID site",
+        "Description": "Creates a webhook for when something happens in your RAPID site.",
+        "Anchor": "#when-something-happens-to-an-item-in-your-rapid-site",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SetAttachments",
+        "Name": "Add an attachment record to an item in your RAPID site",
+        "Description": "Adds an attachment record to an item in your RAPID site. This record refers to the location of a file stored in SharePoint.",
+        "Anchor": "#add-an-attachment-record-to-an-item-in-your-rapid-site",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateListItem",
+        "Name": "Update an item",
+        "Description": "Update an item",
+        "Anchor": "#update-an-item",
+        "IsDeprecated": false
       }
     ]
   },
