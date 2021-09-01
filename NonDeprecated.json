@@ -4802,20 +4802,6 @@
         "IsDeprecated": false
       },
       {
-        "OperationId": "ChangeIncidentDescription",
-        "Name": "Change incident description",
-        "Description": "changes description to selected incident",
-        "Anchor": "#change-incident-description",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "ChangeIncidentTitle",
-        "Name": "Change incident title",
-        "Description": "changes title to selected incident",
-        "Anchor": "#change-incident-title",
-        "IsDeprecated": false
-      },
-      {
         "OperationId": "GetAccounts",
         "Name": "Entities - Get Accounts",
         "Description": "Returns list of accounts associated with the alert",
@@ -12861,6 +12847,40 @@
         "Name": "Run a flow built with Power Automate Desktop",
         "Description": "A flow will automatically run a set of steps built by Power Automate Desktop.",
         "Anchor": "#run-a-flow-built-with-power-automate-desktop",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "discordip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../discordip/",
+    "Actions": [
+      {
+        "OperationId": "ExecuteWebhook",
+        "Name": "Execute Webhook",
+        "Description": "This request executes a webhook by using a webhook id and token.",
+        "Anchor": "#execute-webhook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCurrentUser",
+        "Name": "Get Current User",
+        "Description": "Returns the user object of the requestors account.",
+        "Anchor": "#get-current-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCurrentUserGuilds",
+        "Name": "Get Current User Guilds",
+        "Description": "Returns a list of partial guild objects the current user is a member of.",
+        "Anchor": "#get-current-user-guilds",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUserConnections",
+        "Name": "Get User Connections",
+        "Description": "Returns a list of connection objects.",
+        "Anchor": "#get-user-connections",
         "IsDeprecated": false
       }
     ]
@@ -25885,28 +25905,28 @@
       {
         "OperationId": "EMAIL_REPUTATION",
         "Name": "Retrieve Email address reputation data",
-        "Description": "Retrieve Email address reputation data.",
+        "Description": "This API provides real-time email address reputation scoring and validation with hundreds of syntax &amp; DNS checks. The API can be leveraged to determine if the email address inbox exists with the mail service provider and is able to accept new messages. In addition, users can determine if the email address has a poor reputation or has recently been associated with abuse or threats. Additional risk scoring can detect disposable and temporary mail services as well as emails with a history of fraudulent behavior online.",
         "Anchor": "#retrieve-email-address-reputation-data",
         "IsDeprecated": false
       },
       {
         "OperationId": "IP_REPUTATION",
         "Name": "Retrieve IP address reputation data",
-        "Description": "Retrieve IP address reputation data.",
+        "Description": "This service performs real-time lookups to instantly determine how risky a user, click, or transaction is based on an IP address and optional device information. In addition to analyzing if the IP address is a proxy or VPN, the API returns over 20 relevant data points such as Geo location data, ISP, Connection type, Device details, Recent reputation activity, Overall fraud score, Status as a proxy, VPN, or TOR connection, Abuse Velocity, Other similar data points to classify reputation and risk.",
         "Anchor": "#retrieve-ip-address-reputation-data",
         "IsDeprecated": false
       },
       {
         "OperationId": "PHONE_REPUTATION",
         "Name": "Retrieve Phone Number reputation data",
-        "Description": "Retrieve Phone Number reputation data.",
+        "Description": "Accurately verify phone numbers worldwide and retrieve a combination of carrier and line type details with risk analysis data to assess phone number reputation. IPQS collects phone validation and verification data from a wide variety of carriers and tier 1 telecommunication providers, with support for all regions. Detect inactive and disconnected phone numbers for easy user validation similar to HLR &amp; LRN lookups. Accurately identify virtual and disposable phone numbers along with numbers associated with abusive behavior online.",
         "Anchor": "#retrieve-phone-number-reputation-data",
         "IsDeprecated": false
       },
       {
         "OperationId": "URL_REPUTATION",
         "Name": "Retrieve URL (or) Domain reputation data",
-        "Description": "Retrieve URL (or) Domain reputation data.",
+        "Description": "Scans links and domains in real-time to detect suspicious URLs using trusted machine learning models. These machine learning models can accurately identify phishing links, malware URLs, viruses, parked domains, and suspicious URLs with real-time risk scores. In addition, the machine learning models can confidently classify poor reputation domains, suspicious links, and phishing URLs with a real-time API integration. Features such as parking domain detection, domain spam scores, reputation checks, and domain age, elevates URL intelligence to a whole new level.",
         "Anchor": "#retrieve-url-(or)-domain-reputation-data",
         "IsDeprecated": false
       }
@@ -41964,6 +41984,40 @@
     ]
   },
   {
+    "UniqueName": "spotifyip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../spotifyip/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Get a User's Top Artists",
+        "Description": "Get the current user's top artists based on calculated affinity.",
+        "Anchor": "#get-a-user's-top-artists",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get Current User's Profile",
+        "Description": "Get detailed profile information about the current user (including the current user's username).",
+        "Anchor": "#get-current-user's-profile",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get User's Saved Albums",
+        "Description": "Get a list of the albums saved in the current Spotify user's 'Your Music' library.",
+        "Anchor": "#get-user's-saved-albums",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetNewReleases",
+        "Name": "Get All New Releases",
+        "Description": "A list of new album releases featured in Spotify (Example: 'Browse' tab on the Spotify player).",
+        "Anchor": "#get-all-new-releases",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "sql",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sql/",
     "Actions": [
@@ -43278,6 +43332,215 @@
         "Name": "Update a project (V3) (Preview)",
         "Description": "Update an existing project.",
         "Anchor": "#update-a-project-(v3)-(preview)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "togglplanip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../togglplanip/",
+    "Actions": [
+      {
+        "OperationId": "AddGroup",
+        "Name": "Add a new group",
+        "Description": "Adds a new group to a workspace.",
+        "Anchor": "#add-a-new-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddMember",
+        "Name": "Add a new member",
+        "Description": "Creates a member that has not yet been linked with an existing user.",
+        "Anchor": "#add-a-new-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddMilestone",
+        "Name": "Add a new milestone",
+        "Description": "Adds a new milestone to a workspace.",
+        "Anchor": "#add-a-new-milestone",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddProject",
+        "Name": "Add a new project",
+        "Description": "Adds a new project to a workspace.",
+        "Anchor": "#add-a-new-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddTask",
+        "Name": "Add a task",
+        "Description": "Adds a new task to a workspace.",
+        "Anchor": "#add-a-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddUserToGroup",
+        "Name": "Add a new user to group",
+        "Description": "Adds a new group membership to a workspace.",
+        "Anchor": "#add-a-new-user-to-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FetchGroups",
+        "Name": "Fetch a list of groups",
+        "Description": "Fetches a list of groups belonging to a workspace.",
+        "Anchor": "#fetch-a-list-of-groups",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FetchMembers",
+        "Name": "Fetch list of members",
+        "Description": "Fetches the list of members belonging to a workspace.",
+        "Anchor": "#fetch-list-of-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FetchMilestones",
+        "Name": "Fetch list of milestones",
+        "Description": "Fetches a list of milestones belonging to a workspace.",
+        "Anchor": "#fetch-list-of-milestones",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FetchProjects",
+        "Name": "Fetch a list of projects",
+        "Description": "Fetches a list of projects belonging to a workspace.",
+        "Anchor": "#fetch-a-list-of-projects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FetchTasks",
+        "Name": "Fetch list of tasks",
+        "Description": "Fetches a list of tasks belonging to a workspace.",
+        "Anchor": "#fetch-list-of-tasks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroup",
+        "Name": "Get a group",
+        "Description": "Gets a group from a workspace by ID.",
+        "Anchor": "#get-a-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMember",
+        "Name": "Get member",
+        "Description": "Gets a member belonging to a workspace by ID.",
+        "Anchor": "#get-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMilestone",
+        "Name": "Get a milestone",
+        "Description": "Gets a milestone from a workspace by ID.",
+        "Anchor": "#get-a-milestone",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetProfileInformation",
+        "Name": "Get my profile information",
+        "Description": "Returns the profile information of the logged in user.",
+        "Anchor": "#get-my-profile-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetProject",
+        "Name": "Get a project",
+        "Description": "Gets a project from a workspace by ID.",
+        "Anchor": "#get-a-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveGroup",
+        "Name": "Remove a group",
+        "Description": "Removes a group from a workspace by ID.",
+        "Anchor": "#remove-a-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveGroupMember",
+        "Name": "Remove a group membership",
+        "Description": "Removes a group membership from a workspace by ID.",
+        "Anchor": "#remove-a-group-membership",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveMember",
+        "Name": "Remove member",
+        "Description": "Removes a member from a workspace by ID.",
+        "Anchor": "#remove-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveMilestone",
+        "Name": "Remove a milestone",
+        "Description": "Removes a milestone from a workspace by ID.",
+        "Anchor": "#remove-a-milestone",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveProject",
+        "Name": "Remove a project",
+        "Description": "Removes a milestone from a workspace by ID.",
+        "Anchor": "#remove-a-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveTask",
+        "Name": "Remove a task",
+        "Description": "Removes a task from a workspace by ID.",
+        "Anchor": "#remove-a-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateGroup",
+        "Name": "Update a group",
+        "Description": "Updates a group from a workspace by ID.",
+        "Anchor": "#update-a-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateMember",
+        "Name": "Update member",
+        "Description": "Updates a member belonging to a workspace by ID.",
+        "Anchor": "#update-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateMemberNotLinkedWithExistingUser",
+        "Name": "Update member not yet linked with existing user",
+        "Description": "Updates a member that has not yet been linked with an existing user.",
+        "Anchor": "#update-member-not-yet-linked-with-existing-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateMilestone",
+        "Name": "Update a milestone",
+        "Description": "Updates a milestone from a workspace by ID.",
+        "Anchor": "#update-a-milestone",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateProfile",
+        "Name": "Update my profile",
+        "Description": "Updates the profile of the logged in user.",
+        "Anchor": "#update-my-profile",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateProject",
+        "Name": "Update a project",
+        "Description": "Updates a milestone from a workspace by ID.",
+        "Anchor": "#update-a-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateTask",
+        "Name": "Update a task",
+        "Description": "Updates a task from a workspace by ID.",
+        "Anchor": "#update-a-task",
         "IsDeprecated": false
       }
     ]

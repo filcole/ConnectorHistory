@@ -526,6 +526,13 @@
         "IsDeprecated": true
       },
       {
+        "OperationId": "ChangeIncidentDescription",
+        "Name": "Change incident description [DEPRECATED]",
+        "Description": "changes description to selected incident",
+        "Anchor": "#change-incident-description-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
         "OperationId": "ChangeIncidentDescription_V2",
         "Name": "Change incident description (V2) (deprecated) [DEPRECATED]",
         "Description": "changes description to selected incident",
@@ -544,6 +551,13 @@
         "Name": "Change incident status (deprecated) [DEPRECATED]",
         "Description": "changes status to selected incident",
         "Anchor": "#change-incident-status-(deprecated)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "ChangeIncidentTitle",
+        "Name": "Change incident title [DEPRECATED]",
+        "Description": "changes title to selected incident",
+        "Anchor": "#change-incident-title-[deprecated]",
         "IsDeprecated": true
       },
       {

@@ -1,0 +1,209 @@
+{
+  "UniqueName": "togglplanip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../togglplanip/",
+  "Actions": [
+    {
+      "OperationId": "AddGroup",
+      "Name": "Add a new group",
+      "Description": "Adds a new group to a workspace.",
+      "Anchor": "#add-a-new-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddMember",
+      "Name": "Add a new member",
+      "Description": "Creates a member that has not yet been linked with an existing user.",
+      "Anchor": "#add-a-new-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddMilestone",
+      "Name": "Add a new milestone",
+      "Description": "Adds a new milestone to a workspace.",
+      "Anchor": "#add-a-new-milestone",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddProject",
+      "Name": "Add a new project",
+      "Description": "Adds a new project to a workspace.",
+      "Anchor": "#add-a-new-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddTask",
+      "Name": "Add a task",
+      "Description": "Adds a new task to a workspace.",
+      "Anchor": "#add-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddUserToGroup",
+      "Name": "Add a new user to group",
+      "Description": "Adds a new group membership to a workspace.",
+      "Anchor": "#add-a-new-user-to-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FetchGroups",
+      "Name": "Fetch a list of groups",
+      "Description": "Fetches a list of groups belonging to a workspace.",
+      "Anchor": "#fetch-a-list-of-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FetchMembers",
+      "Name": "Fetch list of members",
+      "Description": "Fetches the list of members belonging to a workspace.",
+      "Anchor": "#fetch-list-of-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FetchMilestones",
+      "Name": "Fetch list of milestones",
+      "Description": "Fetches a list of milestones belonging to a workspace.",
+      "Anchor": "#fetch-list-of-milestones",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FetchProjects",
+      "Name": "Fetch a list of projects",
+      "Description": "Fetches a list of projects belonging to a workspace.",
+      "Anchor": "#fetch-a-list-of-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FetchTasks",
+      "Name": "Fetch list of tasks",
+      "Description": "Fetches a list of tasks belonging to a workspace.",
+      "Anchor": "#fetch-list-of-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroup",
+      "Name": "Get a group",
+      "Description": "Gets a group from a workspace by ID.",
+      "Anchor": "#get-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMember",
+      "Name": "Get member",
+      "Description": "Gets a member belonging to a workspace by ID.",
+      "Anchor": "#get-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMilestone",
+      "Name": "Get a milestone",
+      "Description": "Gets a milestone from a workspace by ID.",
+      "Anchor": "#get-a-milestone",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProfileInformation",
+      "Name": "Get my profile information",
+      "Description": "Returns the profile information of the logged in user.",
+      "Anchor": "#get-my-profile-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProject",
+      "Name": "Get a project",
+      "Description": "Gets a project from a workspace by ID.",
+      "Anchor": "#get-a-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveGroup",
+      "Name": "Remove a group",
+      "Description": "Removes a group from a workspace by ID.",
+      "Anchor": "#remove-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveGroupMember",
+      "Name": "Remove a group membership",
+      "Description": "Removes a group membership from a workspace by ID.",
+      "Anchor": "#remove-a-group-membership",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveMember",
+      "Name": "Remove member",
+      "Description": "Removes a member from a workspace by ID.",
+      "Anchor": "#remove-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveMilestone",
+      "Name": "Remove a milestone",
+      "Description": "Removes a milestone from a workspace by ID.",
+      "Anchor": "#remove-a-milestone",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveProject",
+      "Name": "Remove a project",
+      "Description": "Removes a milestone from a workspace by ID.",
+      "Anchor": "#remove-a-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveTask",
+      "Name": "Remove a task",
+      "Description": "Removes a task from a workspace by ID.",
+      "Anchor": "#remove-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateGroup",
+      "Name": "Update a group",
+      "Description": "Updates a group from a workspace by ID.",
+      "Anchor": "#update-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateMember",
+      "Name": "Update member",
+      "Description": "Updates a member belonging to a workspace by ID.",
+      "Anchor": "#update-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateMemberNotLinkedWithExistingUser",
+      "Name": "Update member not yet linked with existing user",
+      "Description": "Updates a member that has not yet been linked with an existing user.",
+      "Anchor": "#update-member-not-yet-linked-with-existing-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateMilestone",
+      "Name": "Update a milestone",
+      "Description": "Updates a milestone from a workspace by ID.",
+      "Anchor": "#update-a-milestone",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProfile",
+      "Name": "Update my profile",
+      "Description": "Updates the profile of the logged in user.",
+      "Anchor": "#update-my-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProject",
+      "Name": "Update a project",
+      "Description": "Updates a milestone from a workspace by ID.",
+      "Anchor": "#update-a-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTask",
+      "Name": "Update a task",
+      "Description": "Updates a task from a workspace by ID.",
+      "Anchor": "#update-a-task",
+      "IsDeprecated": false
+    }
+  ]
+}

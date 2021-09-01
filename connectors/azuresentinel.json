@@ -60,10 +60,10 @@
     },
     {
       "OperationId": "ChangeIncidentDescription",
-      "Name": "Change incident description",
+      "Name": "Change incident description [DEPRECATED]",
       "Description": "changes description to selected incident",
-      "Anchor": "#change-incident-description",
-      "IsDeprecated": false
+      "Anchor": "#change-incident-description-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "ChangeIncidentDescription_V2",
@@ -88,10 +88,10 @@
     },
     {
       "OperationId": "ChangeIncidentTitle",
-      "Name": "Change incident title",
+      "Name": "Change incident title [DEPRECATED]",
       "Description": "changes title to selected incident",
-      "Anchor": "#change-incident-title",
-      "IsDeprecated": false
+      "Anchor": "#change-incident-title-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "ChangeIncidentTitle_v2",

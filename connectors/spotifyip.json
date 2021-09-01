@@ -1,0 +1,34 @@
+{
+  "UniqueName": "spotifyip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../spotifyip/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Get a User's Top Artists",
+      "Description": "Get the current user's top artists based on calculated affinity.",
+      "Anchor": "#get-a-user's-top-artists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get Current User's Profile",
+      "Description": "Get detailed profile information about the current user (including the current user's username).",
+      "Anchor": "#get-current-user's-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get User's Saved Albums",
+      "Description": "Get a list of the albums saved in the current Spotify user's 'Your Music' library.",
+      "Anchor": "#get-user's-saved-albums",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNewReleases",
+      "Name": "Get All New Releases",
+      "Description": "A list of new album releases featured in Spotify (Example: 'Browse' tab on the Spotify player).",
+      "Anchor": "#get-all-new-releases",
+      "IsDeprecated": false
+    }
+  ]
+}

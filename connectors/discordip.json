@@ -1,0 +1,34 @@
+{
+  "UniqueName": "discordip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../discordip/",
+  "Actions": [
+    {
+      "OperationId": "ExecuteWebhook",
+      "Name": "Execute Webhook",
+      "Description": "This request executes a webhook by using a webhook id and token.",
+      "Anchor": "#execute-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCurrentUser",
+      "Name": "Get Current User",
+      "Description": "Returns the user object of the requestors account.",
+      "Anchor": "#get-current-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCurrentUserGuilds",
+      "Name": "Get Current User Guilds",
+      "Description": "Returns a list of partial guild objects the current user is a member of.",
+      "Anchor": "#get-current-user-guilds",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserConnections",
+      "Name": "Get User Connections",
+      "Description": "Returns a list of connection objects.",
+      "Anchor": "#get-user-connections",
+      "IsDeprecated": false
+    }
+  ]
+}
