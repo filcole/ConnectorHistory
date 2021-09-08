@@ -1,0 +1,13 @@
+{
+  "UniqueName": "dox42",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dox42/",
+  "Actions": [
+    {
+      "OperationId": "dox42_Call",
+      "Name": "dox42 Service Call",
+      "Description": "Call to the dox42 service",
+      "Anchor": "#dox42-service-call",
+      "IsDeprecated": false
+    }
+  ]
+}

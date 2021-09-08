@@ -12830,9 +12830,9 @@
     "Actions": [
       {
         "OperationId": "ExecuteDesktopUIFlow",
-        "Name": "Run a flow built with Windows recorder (V1)",
+        "Name": "Run a flow built with Windows recorder V1 (Legacy)",
         "Description": "A flow will automatically run a set of steps recorded in a single app using Windows recorder (V1).",
-        "Anchor": "#run-a-flow-built-with-windows-recorder-(v1)",
+        "Anchor": "#run-a-flow-built-with-windows-recorder-v1-(legacy)",
         "IsDeprecated": false
       },
       {
@@ -13612,6 +13612,19 @@
         "Name": "Portal - Share signing",
         "Description": "Indicated participants will gain access to the document with the selected role.",
         "Anchor": "#portal---share-signing",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "dox42",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dox42/",
+    "Actions": [
+      {
+        "OperationId": "dox42_Call",
+        "Name": "dox42 Service Call",
+        "Description": "Call to the dox42 service",
+        "Anchor": "#dox42-service-call",
         "IsDeprecated": false
       }
     ]
@@ -29044,10 +29057,17 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "AtMentionTag",
+        "Name": "Get an @mention token for a tag",
+        "Description": "This operation creates a token that can be inserted into a message or adaptive card sent as a user inS a channel to @mention a tag.",
+        "Anchor": "#get-an-@mention-token-for-a-tag",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "AtMentionUser",
-        "Name": "Get @mention token for a user",
+        "Name": "Get an @mention token for a user",
         "Description": "This operation creates a token that can be inserted into a message or adaptive card to @mention a user.",
-        "Anchor": "#get-@mention-token-for-a-user",
+        "Anchor": "#get-an-@mention-token-for-a-user",
         "IsDeprecated": false
       },
       {
@@ -29111,6 +29131,13 @@
         "Name": "Get messages",
         "Description": "This operation is used to get messages from a channel in a specific Team.",
         "Anchor": "#get-messages",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTags",
+        "Name": "List all tags for a team",
+        "Description": "This operation retrieves a list of tags.",
+        "Anchor": "#list-all-tags-for-a-team",
         "IsDeprecated": false
       },
       {
