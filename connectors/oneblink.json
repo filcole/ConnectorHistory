@@ -10,6 +10,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GenerateFormSubmissionPDF",
+      "Name": "Generate Form Submission PDF",
+      "Description": "Allows for Form Submission PDF to be generated",
+      "Anchor": "#generate-form-submission-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFormSubmissionAttachment",
+      "Name": "Retrieve Form Submission Attachment",
+      "Description": "Allows for Form Submission attachments to be retrieved",
+      "Anchor": "#retrieve-form-submission-attachment",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetFormSubmissionData",
       "Name": "Retrieve Form Submission Data",
       "Description": "Allows for Form Submission data to be retrieved",

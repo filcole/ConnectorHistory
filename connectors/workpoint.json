@@ -73,6 +73,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Document_DigitalSignatureLogEntry",
+      "Name": "Gets a log entry from the digital signature log",
+      "Description": "Creates a log entry for a digital signature transaction",
+      "Anchor": "#gets-a-log-entry-from-the-digital-signature-log",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Document_DigitalSignatureUnixTimeMilliseconds",
       "Name": "Gets DateTimeOffset.UtcNow converted to Unix time milliseconds",
       "Description": "Gets DateTimeOffset.UtcNow converted to Unix time milliseconds",
@@ -84,6 +91,13 @@
       "Name": "Changes the stage for an entity and set field values",
       "Description": "Changes the stage for an entity and set field values",
       "Anchor": "#changes-the-stage-for-an-entity-and-set-field-values",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Entity_Copy",
+      "Name": "Copies a business module entity in WorkPoint",
+      "Description": "Copies business module entity in WorkPoint",
+      "Anchor": "#copies-a-business-module-entity-in-workpoint",
       "IsDeprecated": false
     },
     {
@@ -147,6 +161,13 @@
       "Name": "Undeclares a document as record",
       "Description": "Undeclares a document as record.",
       "Anchor": "#undeclares-a-document-as-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SiteManagement_RegisterSiteCollection",
+      "Name": "Register a site collection to be used by WorkPoint for multi site collection",
+      "Description": "Register a site collection to be used by WorkPoint for multi site collection",
+      "Anchor": "#register-a-site-collection-to-be-used-by-workpoint-for-multi-site-collection",
       "IsDeprecated": false
     },
     {
