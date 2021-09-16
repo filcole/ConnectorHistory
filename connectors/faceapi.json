@@ -10,6 +10,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "AddFaceToFaceListV2",
+      "Name": "Add face to face list (V2)",
+      "Description": "Add face to face list.",
+      "Anchor": "#add-face-to-face-list-(v2)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "AddPersonFace",
       "Name": "Add a person face",
       "Description": "Add a representative face to a person for identification.",
@@ -17,10 +24,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "AddPersonFaceV2",
+      "Name": "Add a person face (V2)",
+      "Description": "Add a representative face to a person for identification.",
+      "Anchor": "#add-a-person-face-(v2)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateFaceList",
       "Name": "Create a face list",
       "Description": "Create an empty face list with user-specified faceListId, name and an optional userData.",
       "Anchor": "#create-a-face-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFaceListV2",
+      "Name": "Create a face list (V2)",
+      "Description": "Create an empty face list with user-specified faceListId, name and an optional userData.",
+      "Anchor": "#create-a-face-list-(v2)",
       "IsDeprecated": false
     },
     {
@@ -38,6 +59,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreatePersonGroupV2",
+      "Name": "Create a person group (V2)",
+      "Description": "Create a new person group with specified personGroupId, name and user-provided userData.",
+      "Anchor": "#create-a-person-group-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePersonV2",
+      "Name": "Create a person (V2)",
+      "Description": "Create a new person in a specified person group.",
+      "Anchor": "#create-a-person-(v2)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Detect",
       "Name": "Detect faces",
       "Description": "Detect human faces in an image and returns face locations, and optionally with faceIds, landmarks, and attributes.",
@@ -45,10 +80,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "DetectV2",
+      "Name": "Detect faces (V2)",
+      "Description": "Detect human faces in an image and returns face locations, and optionally with faceIds, landmarks, and attributes.",
+      "Anchor": "#detect-faces-(v2)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetFaceList",
       "Name": "Get a face list",
       "Description": "Retrieve a face list's information, including faceListId, name, userData and faces in the face list.",
       "Anchor": "#get-a-face-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFaceListV2",
+      "Name": "Get a face list (V2)",
+      "Description": "Retrieve a face list's information, including faceListId, name, userData and faces in the face list.",
+      "Anchor": "#get-a-face-list-(v2)",
       "IsDeprecated": false
     },
     {
@@ -66,6 +115,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetPersonFaceV2",
+      "Name": "Get a person face (V2)",
+      "Description": "Retrieve information about a persisted face specified by persistedFaceId, personId and its belonging personGroupId.",
+      "Anchor": "#get-a-person-face-(v2)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetPersonGroup",
       "Name": "Get a person group",
       "Description": "Retrieve the information of a person group, including its name and userData.",
@@ -73,10 +129,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetPersonGroupV2",
+      "Name": "Get a person group (V2)",
+      "Description": "Retrieve the information of a person group, including its name and userData.",
+      "Anchor": "#get-a-person-group-(v2)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPersonV2",
+      "Name": "Get a person (V2)",
+      "Description": "Retrieve a person's information, including registered persisted faces, name and userData.",
+      "Anchor": "#get-a-person-(v2)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Verify",
       "Name": "Find person from face",
       "Description": "Verify whether two faces belong to a same person or whether one face belongs to a person.",
       "Anchor": "#find-person-from-face",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VerifyV2",
+      "Name": "Find person from face (V2)",
+      "Description": "Verify whether two faces belong to a same person or whether one face belongs to a person.",
+      "Anchor": "#find-person-from-face-(v2)",
       "IsDeprecated": false
     }
   ]
