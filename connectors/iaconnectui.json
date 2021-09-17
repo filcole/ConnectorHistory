@@ -1,0 +1,426 @@
+{
+  "UniqueName": "iaconnectui",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iaconnectui/",
+  "Actions": [
+    {
+      "OperationId": "UIACheckElement",
+      "Name": "Check UIA element",
+      "Description": "Sets the state of an element (typically a checkbox or radio box) to either checked or unchecked.",
+      "Anchor": "#check-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIACheckMultipleElements",
+      "Name": "Check multiple UIA elements",
+      "Description": "Sets the state of multiple elements (typically a checkbox or radio box) to either checked or unchecked.",
+      "Anchor": "#check-multiple-uia-elements",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAClickListElementItemByIndex",
+      "Name": "Click UIA list element item by index",
+      "Description": "Clicks the list element that matches the specified index. This is typically used to select an item in a dropdown / menu item.",
+      "Anchor": "#click-uia-list-element-item-by-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAClickListElementItemByName",
+      "Name": "Click UIA list element item by name",
+      "Description": "Clicks the list element with the specified name. This is typically used to select an item in a dropdown / menu item.",
+      "Anchor": "#click-uia-list-element-item-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIACloseElementWindow",
+      "Name": "Close UIA element window",
+      "Description": "Closes the element window. Typically only works on windows or dialogs.",
+      "Anchor": "#close-uia-element-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIACollapseElement",
+      "Name": "Collapse UIA element",
+      "Description": "Collapses an element (typically a menu / dropdown item). If the item is already collapsed, nothing will happen.",
+      "Anchor": "#collapse-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIADoesDesktopElementExist",
+      "Name": "Does UIA desktop element exist",
+      "Description": "Reports whether a desktop element exists and provides some basic element properties.",
+      "Anchor": "#does-uia-desktop-element-exist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIADoesElementExist",
+      "Name": "Does UIA element exist",
+      "Description": "Reports whether an element exists and returns some basic element properties.",
+      "Anchor": "#does-uia-element-exist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIADoesProcessHaveWindow",
+      "Name": "Does process have Win32 window",
+      "Description": "A simple and fast Win32 action which reports whether a process (specified by name) has any visible windows. The window must exist: IA-Connect will not wait. It is recommended to use the action 'Wait for desktop element' which is more powerful.",
+      "Anchor": "#does-process-have-win32-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIADoesTopLevelWindowExist",
+      "Name": "Does top level Win32 window exist",
+      "Description": "A simple and fast Win32 action which reports whether a top-level window exists. A top-level window is one that is directly connected to the desktop.  The window must exist: IA-Connect will not wait. It is recommended to use the action 'Wait for desktop element' which is more powerful.",
+      "Anchor": "#does-top-level-win32-window-exist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIADrawRectangleAroundElement",
+      "Name": "Draw rectangle around UIA element",
+      "Description": "Draws a rectangle around the perimeter of an element to aid in identifying that the element found is the one required. The rectangle is automatically removed after 5 seconds.",
+      "Anchor": "#draw-rectangle-around-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAExpandElement",
+      "Name": "Expand UIA element",
+      "Description": "Expands an element (typically a menu / dropdown item). If the item is already expanded, nothing will happen.",
+      "Anchor": "#expand-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAFocusElement",
+      "Name": "Focus UIA element",
+      "Description": "Focusses an element which makes it the active element for keyboard focus and, depending on the application, may bring the element window to the foreground.",
+      "Anchor": "#focus-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetDataGridElementContents",
+      "Name": "Get UIA datagrid element contents",
+      "Description": "Returns the contents of a DataGrid element. This is an element with rows, columns, header and cells (i.e. a table).",
+      "Anchor": "#get-uia-datagrid-element-contents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetDataGridElementProperties",
+      "Name": "Get UIA datagrid element properties",
+      "Description": "Returns table properties of a DataGrid element. This is an element with rows, columns, header and cells (i.e. a table).",
+      "Anchor": "#get-uia-datagrid-element-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetDesktopElements",
+      "Name": "Get UIA desktop elements",
+      "Description": "Returns a list of all windows and dialogs on the desktop.",
+      "Anchor": "#get-uia-desktop-elements",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetElementLabelValue",
+      "Name": "Get UIA element label value",
+      "Description": "Returns the value of the label on the element.",
+      "Anchor": "#get-uia-element-label-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetElementProperties",
+      "Name": "Get UIA element properties",
+      "Description": "Returns all properties of an element. This can be useful if you are uncertain which field holds the property values required.",
+      "Anchor": "#get-uia-element-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetElementPropertiesAsList",
+      "Name": "Get UIA element properties as list",
+      "Description": "Returns the properties of an element as a single line list (single line collection / data table) instead of individual items, this maybe useful depending on how you intend to use the data.",
+      "Anchor": "#get-uia-element-properties-as-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetElementTextValue",
+      "Name": "Get UIA element text value",
+      "Description": "Returns the text value of an element. A text value is usually associated with a label, but many elements can have this property.",
+      "Anchor": "#get-uia-element-text-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetElementValue",
+      "Name": "Get UIA element value",
+      "Description": "Returns the value of an element. A value is usually associated with a text input area, but many elements can have this property.",
+      "Anchor": "#get-uia-element-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetHandleForDesktop",
+      "Name": "Get UIA handle for desktop",
+      "Description": "Returns a handle for the desktop. This is an obsolete action because the handle '-2' can be used to refer to the desktop element but also because there are plenty of actions which can search relative to the desktop (e.g 'wait for desktop element').",
+      "Anchor": "#get-uia-handle-for-desktop",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetHandleForFocussedElement",
+      "Name": "Get UIA handle for focussed element",
+      "Description": "Returns a handle for the currently focused UIA element.",
+      "Anchor": "#get-uia-handle-for-focussed-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetHandleForMainWindowOfFocussedElement",
+      "Name": "Get UIA handle for main window of focussed element",
+      "Description": "Returns a handle for the main window of the currently focused UIA element.  The 'Main' window is typically the main application window: a login dialog or sub-window is generally not the 'Main' window.",
+      "Anchor": "#get-uia-handle-for-main-window-of-focussed-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetHandleForProcessIdMainWindow",
+      "Name": "Get UIA handle for process Id main window",
+      "Description": "A simple and fast Win32 action which returns the handle for any main window of a process (specified by Process ID). The 'Main' window is typically the main application window: a login dialog or sub-window is generally not the 'Main' window. It is recommended to use the action 'Wait for desktop element' which is more powerful.",
+      "Anchor": "#get-uia-handle-for-process-id-main-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetHandleForProcessMainWindow",
+      "Name": "Get UIA handle for process main window",
+      "Description": "A simple and fast Win32 action which returns the handle for any main window of a process (specified by name). The 'Main' window is typically the main application window: a login dialog or sub-window is generally not the 'Main' window.  The window must exist: IA-Connect will not wait. It is recommended to use the action 'Wait for desktop element' which is more powerful.",
+      "Anchor": "#get-uia-handle-for-process-main-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetHandleForTopLevelWindow",
+      "Name": "Get UIA handle for top level Win32 window",
+      "Description": "A simple and fast Win32 action which returns the handle for any top-level window which has the specified class name or window title. A top-level window is one that is directly connected to the desktop.  The window must exist: IA-Connect will not wait. It is recommended to use the action 'Wait for desktop element' which is more powerful.",
+      "Anchor": "#get-uia-handle-for-top-level-win32-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetListElementItems",
+      "Name": "Get UIA list element items",
+      "Description": "Returns a list of child element items found under the specified element (typically dropdown / menu items).",
+      "Anchor": "#get-uia-list-element-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetMultipleElementProperties",
+      "Name": "Get multiple UIA element properties",
+      "Description": "Returns the properties of multiple elements. This can be useful if you are uncertain which fields holds the property values required.",
+      "Anchor": "#get-multiple-uia-element-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetParentElementHandle",
+      "Name": "Get UIA parent element handle",
+      "Description": "Returns a handle for the parent element of the specified element. The parent element is defined as the element which is at the next level up the UIA 'tree' and is almost always a containing element.",
+      "Anchor": "#get-uia-parent-element-handle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGlobalDoubleLeftMouseClickOnElement",
+      "Name": "Global double left mouse click on UIA element",
+      "Description": "Moves the mouse to the centre of an element and double clicks the left mouse button.",
+      "Anchor": "#global-double-left-mouse-click-on-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGlobalMiddleMouseClickOnElement",
+      "Name": "Global middle mouse click on UIA element",
+      "Description": "Moves the mouse to the centre of an element and clicks the middle mouse button.",
+      "Anchor": "#global-middle-mouse-click-on-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGlobalMouseClickOnElement",
+      "Name": "Global left mouse click on UIA element",
+      "Description": "Moves the mouse to the centre of an element and clicks the left mouse button.",
+      "Anchor": "#global-left-mouse-click-on-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGlobalPasswordInputIntoElement",
+      "Name": "Global input password into UIA element",
+      "Description": "Moves the mouse to centre of the element, focusses it, left clicks, and presses keys. Typically used with a password input that will not accept native UIA input methods.",
+      "Anchor": "#global-input-password-into-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGlobalRightMouseClickOnElement",
+      "Name": "Global right mouse click on UIA element",
+      "Description": "Moves the mouse to the centre of an element and clicks the right mouse button.",
+      "Anchor": "#global-right-mouse-click-on-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGlobalTextInputIntoElement",
+      "Name": "Global input text into UIA element",
+      "Description": "Moves the mouse to centre of the element, focusses it, left clicks, and presses keys. Typically used with a text input that will not accept native UIA input methods.",
+      "Anchor": "#global-input-text-into-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAInputPasswordIntoElement",
+      "Name": "Input password into UIA element",
+      "Description": "UIA action which inputs a password into an element (typically a password entry field), replacing the existing text.",
+      "Anchor": "#input-password-into-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAInputReturnIntoElement",
+      "Name": "Input return into UIA element",
+      "Description": "Inputs a Windows return / new line () into an element (typically a text entry field), either replacing the existing text or inserting the return at a specific position.",
+      "Anchor": "#input-return-into-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAInputTextIntoElement",
+      "Name": "Input text into UIA element",
+      "Description": "UIA action which inputs text into an element (typically a text entry field), either replacing the existing text or inserting the new value at a specific position.",
+      "Anchor": "#input-text-into-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAInputTextIntoMultipleElements",
+      "Name": "Input text into multiple UIA elements",
+      "Description": "UIA Action which inputs different pieces of text into multiple elements (typically text entry fields), either replacing the existing text or inserting the new value at a specific position.",
+      "Anchor": "#input-text-into-multiple-uia-elements",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAIsElementChecked",
+      "Name": "Is UIA element checked",
+      "Description": "This action returns true or false indicating whether an element (typically a checkbox or radio box) is checked.",
+      "Anchor": "#is-uia-element-checked",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAMaximiseWindow",
+      "Name": "Maximise UIA window",
+      "Description": "Maximises the window with the specified UIA handle.",
+      "Anchor": "#maximise-uia-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAMinimiseWindow",
+      "Name": "Minimise UIA window",
+      "Description": "Minimises the window with the specified UIA handle.",
+      "Anchor": "#minimise-uia-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAPressElement",
+      "Name": "Press UIA element",
+      "Description": "Presses an element (typically a button).",
+      "Anchor": "#press-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAResetAllElementHandles",
+      "Name": "Reset all UIA element handles",
+      "Description": "Resets all UIA element handles currently stored by IA-Connect which can be useful if you have been identifying a lot of elements and have a large number of element handles stored. In scenarios with extremely high numbers of element handles (100,000+) this action can also be used to free up RAM usage.",
+      "Anchor": "#reset-all-uia-element-handles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIASelectElement",
+      "Name": "Select UIA element",
+      "Description": "Selects an element (typically an item in a list or drop-down).",
+      "Anchor": "#select-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIASetElementToNumericRangeValue",
+      "Name": "Set UIA element to numeric range value",
+      "Description": "Sets the value of the element which has a numeric range, for example a scrollbar.",
+      "Anchor": "#set-uia-element-to-numeric-range-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIASetElementToNumericValue",
+      "Name": "Set UIA element to numeric value",
+      "Description": "Sets the value of the element which has a numeric input, for example a text field or a scrollbar.",
+      "Anchor": "#set-uia-element-to-numeric-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIASetForegroundWindow",
+      "Name": "Set foreground UIA window",
+      "Description": "Brings a window to the foreground.",
+      "Anchor": "#set-foreground-uia-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIASetTransactionTimeout",
+      "Name": "Set UIA transaction timeout",
+      "Description": "Controls how long the UIA API will wait for an application to return the information about an element. This transaction timeout would typically only be reached if the application was non-responsive.",
+      "Anchor": "#set-uia-transaction-timeout",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIASetWindowToNormal",
+      "Name": "Set UIA window to normal",
+      "Description": "Normalises the window with the specified UIA handle (i.e. sets it to a normal sized window instead of minimised or maximised).",
+      "Anchor": "#set-uia-window-to-normal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIATakeScreenShotOfElementLocation",
+      "Name": "Take screenshot of UIA element location",
+      "Description": "Takes a screenshot of the location of an element and returns an image. The element should be brought to the front first as the screenshot is taking a copy of the screen at the elements location.",
+      "Anchor": "#take-screenshot-of-uia-element-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAToggleElement",
+      "Name": "Toggle UIA element",
+      "Description": "Toggles an element (typically a checkbox or a radio box). This gives the element the opposite state to its current state (e.g. checked becomes unchecked and vice-versa). If you want to set a specific state, use the action 'Check element' instead.",
+      "Anchor": "#toggle-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAWaitForDesktopElement",
+      "Name": "Wait for UIA desktop element",
+      "Description": "Waits for a desktop element (typically a window) to exist.",
+      "Anchor": "#wait-for-uia-desktop-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAWaitForDesktopElementToNotExist",
+      "Name": "Wait for UIA desktop element to not exist",
+      "Description": "Waits for a desktop element (typically a window) to no longer exist.",
+      "Anchor": "#wait-for-uia-desktop-element-to-not-exist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAWaitForElement",
+      "Name": "Wait for UIA element",
+      "Description": "Waits for an element (typically an individual element within a window such as a button or a text input area) to exist.",
+      "Anchor": "#wait-for-uia-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAWaitForElementToNotExist",
+      "Name": "Wait for UIA element to not exist",
+      "Description": "Waits for an element (typically an individual element within a window such as a button or a text input area) to no longer exist.",
+      "Anchor": "#wait-for-uia-element-to-not-exist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAWaitForProcessIdMainWindow",
+      "Name": "Wait for UIA process Id main window",
+      "Description": "A simple and fast Win32 action which waits for a main window of a process (specified by Process ID) to exist and returns a handle. The 'Main' window is typically the main application window: a login dialog or sub-window is generally not the 'Main' window. It is recommended to use the action 'Wait for desktop element' which is more powerful.",
+      "Anchor": "#wait-for-uia-process-id-main-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAWaitForProcessMainWindow",
+      "Name": "Wait for UIA process main window",
+      "Description": "A simple and fast Win32 action which waits for a specified time for the main window of a process (specified by name) to exist before returning a handle. The 'Main' window is typically the main application window: a login dialog or sub-window is generally not the 'Main' window. It is recommended to use the action 'Wait for desktop element' which is more powerful.",
+      "Anchor": "#wait-for-uia-process-main-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAWaitForTopLevelWindow",
+      "Name": "Wait for UIA top level Win32 window",
+      "Description": "A simple and fast Win32 action which waits for a specified time for a top-level window to exist before returning a handle. A top-level window is one that is directly connected to the desktop. It is recommended to use the action 'Wait for desktop element' which is more powerful.",
+      "Anchor": "#wait-for-uia-top-level-win32-window",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,734 @@
+{
+  "UniqueName": "iaconnectsapgui",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iaconnectsapgui/",
+  "Actions": [
+    {
+      "OperationId": "SAPAttachToSAPGUI",
+      "Name": "Attach to SAPGUI instance",
+      "Description": "Attaches to an instance of SAP GUI which is already running. This is the first step towards automating SAP GUI if SAP GUI was already running.",
+      "Anchor": "#attach-to-sapgui-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPAttachToSession",
+      "Name": "Attach to SAP session",
+      "Description": "Attaches IA-Connect to an open SAP session. This action can be used to switch control to any new SAP sessions that are opened within an existing connection.",
+      "Anchor": "#attach-to-sap-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPBringWindowToFront",
+      "Name": "Bring SAP window to the front",
+      "Description": "Brings a SAP window to the front.",
+      "Anchor": "#bring-sap-window-to-the-front",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPCheckSAPElement",
+      "Name": "Check SAP element",
+      "Description": "Sets the state of an SAP element (typically a checkbox or radio box) to either checked or unchecked.",
+      "Anchor": "#check-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPCheckSAPGridViewCellCheckboxAtIndex",
+      "Name": "Check SAP grid view cell checkbox",
+      "Description": "Check or uncheck a checkbox in a grid view cell at the specified row and column within a grid view. Row index 1 represents the top row of cells in the grid view.",
+      "Anchor": "#check-sap-grid-view-cell-checkbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPCheckSAPTableVisibleCellCheckboxAtIndex",
+      "Name": "Check SAP table visible checkbox cell",
+      "Description": "Check or uncheck a checkbox in a visible table cell at the specified row and column index within a table. Row index 1, column index 1 represents the top left corner of the visible cells in the table. This action can only be used to check or uncheck visible cells.",
+      "Anchor": "#check-sap-table-visible-checkbox-cell",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPCheckTreeItem",
+      "Name": "Check SAP tree item",
+      "Description": "Checks a SAP tree item. The specific node or item can be searched using one of either the node key, node path or node text. The key, path or text values can be determined by using the action 'Get SAP tree nodes'.",
+      "Anchor": "#check-sap-tree-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPClickLinkOnTreeItem",
+      "Name": "Click link on SAP tree item",
+      "Description": "Clicks a link on a SAP tree item. The specific node or item can be searched using one of either the node key, node path or node text. The key, path or text values can be determined by using the action 'Get SAP tree nodes'.",
+      "Anchor": "#click-link-on-sap-tree-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPClickSAPGridViewCellAtIndex",
+      "Name": "Click SAP grid view cell",
+      "Description": "Clicks a grid view cell in the specified row and column within a grid view. Row index 1 represents the top row of cells in the grid view.",
+      "Anchor": "#click-sap-grid-view-cell",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPCloseSession",
+      "Name": "Close SAP session",
+      "Description": "Closes an open SAP session.",
+      "Anchor": "#close-sap-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPDeselectAllTreeNodes",
+      "Name": "Deselect all SAP tree nodes",
+      "Description": "Deselect all nodes in a SAP tree.",
+      "Anchor": "#deselect-all-sap-tree-nodes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPDetachFromSAPGUI",
+      "Name": "Detach from SAPGUI",
+      "Description": "Detaches IA-Connect from the running instance of SAPGUI.",
+      "Anchor": "#detach-from-sapgui",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPDoubleClickSAPGridViewCellAtIndex",
+      "Name": "Double click SAP grid view cell",
+      "Description": "Double clicks a grid view cell in the specified row and column within a grid view. Row index 1 represents the top row of cells in the grid view.",
+      "Anchor": "#double-click-sap-grid-view-cell",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPDoubleClickTreeItem",
+      "Name": "Double click SAP tree item",
+      "Description": "Double clicks a node or item in a SAP tree. The specific node or item can be searched using one of either the node key, node path or node text. The key, path or text values can be determined by using the action 'Get SAP tree nodes'.",
+      "Anchor": "#double-click-sap-tree-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPDrawRectangleAroundSAPElement",
+      "Name": "Draw rectangle around SAP element",
+      "Description": "Draws a rectangle around the perimeter of an SAP element to aid in identifying that the element found is the one required. The rectangle is automatically removed after 5 seconds.",
+      "Anchor": "#draw-rectangle-around-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPDrawRectangleAroundSAPGridViewCellAtIndex",
+      "Name": "Draw rectangle around SAP grid view cell",
+      "Description": "Draws a rectangle around the perimeter of an SAP grid view cell to aid in identifying that the cell found is the one required. The rectangle is automatically removed after 5 seconds.",
+      "Anchor": "#draw-rectangle-around-sap-grid-view-cell",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPEnableScripting",
+      "Name": "Enable SAP scripting",
+      "Description": "Enables SAP scripting in the SAP GUI. This setting must also be enabled on the SAP server by setting the 'sapgui/user_scripting' parameter value to TRUE.",
+      "Anchor": "#enable-sap-scripting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPEnterTCode",
+      "Name": "Enter SAP T-code",
+      "Description": "Enters an SAP transaction code (T-code). This is the same as entering a T-code into the SAP command box.",
+      "Anchor": "#enter-sap-t-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPExpandTreeNode",
+      "Name": "Expand SAP tree node",
+      "Description": "Expands or collapses a node in a SAP tree. The specific node or item can be searched using one of either the node key, node path or node text. The key, path or text values can be determined by using the action 'Get SAP tree nodes'.",
+      "Anchor": "#expand-sap-tree-node",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPFocusCalendarDate",
+      "Name": "Focus SAP calendar date",
+      "Description": "Focusses the specified calendar date (YYYYMMDD) in a SAP calendar element.",
+      "Anchor": "#focus-sap-calendar-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPFocusSAPElement",
+      "Name": "Focus SAP element",
+      "Description": "Focusses an SAP element which makes it the active element for keyboard focus and brings the SAP window to the foreground.",
+      "Anchor": "#focus-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetAllChildSAPElementProperties",
+      "Name": "Get all SAP child element properties",
+      "Description": "Returns all properties of all SAP child elements. This can be useful if you are uncertain which field holds the property values required.",
+      "Anchor": "#get-all-sap-child-element-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetAttachedSessionProperties",
+      "Name": "Get attached session properties",
+      "Description": "Returns information about the SAP session that IA-Connect is attached to.",
+      "Anchor": "#get-attached-session-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetElementProperties",
+      "Name": "Get SAP element properties",
+      "Description": "Returns all properties of an SAP element. This can be useful if you are uncertain which field holds the property values required.",
+      "Anchor": "#get-sap-element-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetElementPropertiesAsList",
+      "Name": "Get SAP element properties as collection",
+      "Description": "Returns the properties of an SAP element as a single line list (single line collection / data table) instead of individual items, this maybe useful depending on how you intend to use the data.",
+      "Anchor": "#get-sap-element-properties-as-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetElementTextValue",
+      "Name": "Get SAP element text value",
+      "Description": "Returns the text value of an SAP element. A text value is usually associated with a text element, but many elements can have this property.",
+      "Anchor": "#get-sap-element-text-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetGridViewTextContents",
+      "Name": "Get SAP grid view text contents",
+      "Description": "Returns all the text contents of a SAP grid view.",
+      "Anchor": "#get-sap-grid-view-text-contents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetListSelectionElementItems",
+      "Name": "Get SAP selection list items",
+      "Description": "Returns a list of child element items found under the specified SAP element (typically dropdown / menu items).",
+      "Anchor": "#get-sap-selection-list-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPElementAtScreenCoordinate",
+      "Name": "Get SAP element at screen coordinate",
+      "Description": "If a SAP element exists at the specified coordinates, this action will identify the element and return the element ID.",
+      "Anchor": "#get-sap-element-at-screen-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPElementParentId",
+      "Name": "Get SAP parent element Id",
+      "Description": "Returns the SAP element Id of the parent element of an SAP element.",
+      "Anchor": "#get-sap-parent-element-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPGridViewCellContentsAtIndex",
+      "Name": "Get SAP grid view cell contents",
+      "Description": "Gets the contents of a grid view cell in the specified row and column within a grid view. Row index 1 represents the top row of cells in the grid view.",
+      "Anchor": "#get-sap-grid-view-cell-contents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPGridViewCellPropertiesAtIndex",
+      "Name": "Get SAP grid view cell properties",
+      "Description": "Returns all properties of a grid view cell in the specified row and column within a grid view. Row index 1 represents the top row of cells in the grid view.",
+      "Anchor": "#get-sap-grid-view-cell-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPGridViewColumnHeaders",
+      "Name": "Get SAP grid view column headers",
+      "Description": "Returns a list of column headers in a grid view. The name or title of the column headers can be used for the 'Search column name' or 'Search column title' input in many SAP grid view actions.",
+      "Anchor": "#get-sap-grid-view-column-headers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPGridViewProperties",
+      "Name": "Get SAP grid view properties",
+      "Description": "Returns the properties of an SAP grid view element. This is an element with an element type of 'GridView'.",
+      "Anchor": "#get-sap-grid-view-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPGUIStatus",
+      "Name": "Get SAPGUI attach status",
+      "Description": "Returns information about the current IA-Connect connection to SAP GUI.",
+      "Anchor": "#get-sapgui-attach-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPSessions",
+      "Name": "Get SAP sessions",
+      "Description": "Returns a list of running SAP sessions. This information is useful if you wish to attach to an existing SAP connection / session but you don't know which ones are available.",
+      "Anchor": "#get-sap-sessions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPSessionTopLevelSAPElementProperties",
+      "Name": "Get SAP session top level element properties",
+      "Description": "Returns the properties of the SAP element at the top-level of the active SAP session, typically the GuiMainWindow element.",
+      "Anchor": "#get-sap-session-top-level-element-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPTableProperties",
+      "Name": "Get SAP table properties",
+      "Description": "Returns the properties of an SAP table element. This is an element with an element type of 'GuiTableControl'. For gridview elements (these are similar to tables but provide additional functionality via a built-in toolbar), use the alternative action 'Get SAP grid view properties'.",
+      "Anchor": "#get-sap-table-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPTableVisibleCellPropertiesAtIndex",
+      "Name": "Get SAP table visible cell properties",
+      "Description": "Returns all properties of a visible table cell at the specified row and column index within a table. Row index 1, column index 1 represents the top left corner of the visible cells in the table. This action can only be used to retrieve the properties of visible cells.",
+      "Anchor": "#get-sap-table-visible-cell-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetSAPTableVisibleCellTextContentsAtIndex",
+      "Name": "Get SAP table visible cell text contents",
+      "Description": "Gets the contents of a visible table cell at the specified row and column index within a table. Row index 1, column index 1 represents the top left corner of the visible cells in the table. This action can only be used to retrieve the contents of visible cells.",
+      "Anchor": "#get-sap-table-visible-cell-text-contents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetShellToolbarElements",
+      "Name": "Get SAP shell toolbar elements",
+      "Description": "Returns a list of elements (usually buttons) in a GuiShell toolbar.",
+      "Anchor": "#get-sap-shell-toolbar-elements",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetTableVisibleTextContents",
+      "Name": "Get SAP table visible text contents",
+      "Description": "Gets the contents of all visible table cells within a table. This action can only be used to retrieve the contents of visible cells.",
+      "Anchor": "#get-sap-table-visible-text-contents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetTreeColumnHeaders",
+      "Name": "Get SAP tree column headers",
+      "Description": "Returns a list of column headers in a tree. The name or title of the column headers can be used for the 'Search column name' or 'Search column title' input in many SAP tree actions.",
+      "Anchor": "#get-sap-tree-column-headers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetTreeItemProperties",
+      "Name": "Get SAP tree item properties",
+      "Description": "Returns the properties of a SAP tree item. The specific node or item can be searched using one of either the node key, node path or node text. The key, path or text values can be determined by using the action 'Get SAP tree nodes'.",
+      "Anchor": "#get-sap-tree-item-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetTreeNodes",
+      "Name": "Get SAP tree nodes",
+      "Description": "Returns a list of all nodes in an SAP tree element.",
+      "Anchor": "#get-sap-tree-nodes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGetTreeTextContents",
+      "Name": "Get SAP tree text contents",
+      "Description": "Returns the text contents of all nodes in a SAP tree.",
+      "Anchor": "#get-sap-tree-text-contents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGlobalDoubleLeftClickSAPGridViewCellAtIndex",
+      "Name": "Global double left click SAP grid view cell",
+      "Description": "Moves the mouse to the centre of an SAP grid view cell and double clicks the left mouse button.",
+      "Anchor": "#global-double-left-click-sap-grid-view-cell",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGlobalDoubleLeftMouseClickOnSAPElement",
+      "Name": "Global double left mouse click on SAP element",
+      "Description": "Moves the mouse to the centre of an SAP element and double clicks the left mouse button.",
+      "Anchor": "#global-double-left-mouse-click-on-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGlobalInputPasswordIntoSAPElement",
+      "Name": "Global input password into SAP element",
+      "Description": "Moves the mouse to centre of the SAP element, focusses it, left clicks, and presses keys. Typically used with a password input that will not accept native input methods.",
+      "Anchor": "#global-input-password-into-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGlobalInputTextIntoSAPElement",
+      "Name": "Global input text into SAP element",
+      "Description": "Moves the mouse to centre of the SAP element, focusses it, left clicks, and presses keys. Typically used with a text input that will not accept native input methods.",
+      "Anchor": "#global-input-text-into-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGlobalLeftClickSAPGridViewCellAtIndex",
+      "Name": "Global left click SAP grid view cell",
+      "Description": "Moves the mouse to the centre of an SAP grid view cell and clicks the left mouse button.",
+      "Anchor": "#global-left-click-sap-grid-view-cell",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGlobalLeftMouseClickOnSAPElement",
+      "Name": "Global left mouse click on SAP element",
+      "Description": "Moves the mouse to the centre of an SAP element and clicks the left mouse button.",
+      "Anchor": "#global-left-mouse-click-on-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGlobalMiddleMouseClickOnSAPElement",
+      "Name": "Global middle mouse click on SAP element",
+      "Description": "Moves the mouse to the centre of an SAP element and clicks the middle mouse button.",
+      "Anchor": "#global-middle-mouse-click-on-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGlobalRightClickSAPGridViewCellAtIndex",
+      "Name": "Global right click SAP grid view cell",
+      "Description": "Moves the mouse to the centre of an SAP grid view cell and clicks the right mouse button.",
+      "Anchor": "#global-right-click-sap-grid-view-cell",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGlobalRightMouseClickOnSAPElement",
+      "Name": "Global right mouse click on SAP element",
+      "Description": "Moves the mouse to the centre of an SAP element and clicks the right mouse button.",
+      "Anchor": "#global-right-mouse-click-on-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGridViewDeselectAll",
+      "Name": "Deselect all on SAP grid view",
+      "Description": "Deselects everything in a SAP grid view.",
+      "Anchor": "#deselect-all-on-sap-grid-view",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGridViewOpenContextMenu",
+      "Name": "Open SAP grid view context menu",
+      "Description": "Opens the SAP grid view context menu.",
+      "Anchor": "#open-sap-grid-view-context-menu",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPGridViewSelectAll",
+      "Name": "Select all on SAP grid view",
+      "Description": "Selects everything in a SAP grid view.",
+      "Anchor": "#select-all-on-sap-grid-view",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPInputPasswordIntoSAPElement",
+      "Name": "Input password into SAP element",
+      "Description": "Inputs a password into an SAP element (typically a password entry field).",
+      "Anchor": "#input-password-into-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPInputTextIntoSAPElement",
+      "Name": "Input text into SAP element",
+      "Description": "Inputs text into an SAP element (typically a text entry field), either replacing the existing text or inserting the new value at a specific position.",
+      "Anchor": "#input-text-into-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPLaunchSAPGUI",
+      "Name": "Launch SAPGUI",
+      "Description": "Enables SAP scripting and launches SAP GUI. This is the first step towards automating SAP GUI if it was not already running.",
+      "Anchor": "#launch-sapgui",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPModifySAPGridViewCellAtIndex",
+      "Name": "Modify SAP grid view cell value",
+      "Description": "Modifies the contents of a grid view cell at the specified row and column within a grid view. Row index 1 represents the top row of cells in the grid view.",
+      "Anchor": "#modify-sap-grid-view-cell-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPOpenConnection",
+      "Name": "Open SAP connection",
+      "Description": "Open a SAP connection using either the description of the SAP system (i.e. the name in the list of SAP connections) or the address of the SAP system (e.g. /H/address/S/3200).",
+      "Anchor": "#open-sap-connection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPOpenContextMenuOnTreeItem",
+      "Name": "Open SAP tree item context menu",
+      "Description": "Opens the context menu for a SAP tree node or item. The specific node or item can be searched using one of either the node key, node path or node text. The key, path or text values can be determined by using the action 'Get SAP tree nodes'.",
+      "Anchor": "#open-sap-tree-item-context-menu",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPPressButtonOnTreeItem",
+      "Name": "Press button on SAP tree item",
+      "Description": "Presses a button on a SAP tree item. The specific node or item can be searched using one of either the node key, node path or node text. The key, path or text values can be determined by using the action 'Get SAP tree nodes'.",
+      "Anchor": "#press-button-on-sap-tree-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPPressKeyOnTree",
+      "Name": "Press key on SAP tree",
+      "Description": "Press a key on a SAP tree. There are a limited built-in list of keys you can press, for example 'F1', 'F4', 'Delete', 'Insert', 'Enter', 'Cut', 'Copy' or 'Paste'.",
+      "Anchor": "#press-key-on-sap-tree",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPPressSAPElement",
+      "Name": "Press SAP element",
+      "Description": "Presses an SAP element (typically a button).",
+      "Anchor": "#press-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPPressSAPGridViewCellButtonAtIndex",
+      "Name": "Press SAP grid view cell button",
+      "Description": "Presses a button in a grid view cell at the specified row and column within a grid view. Row index 1 represents the top row of cells in the grid view.",
+      "Anchor": "#press-sap-grid-view-cell-button",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPPressSAPGridViewColumnHeader",
+      "Name": "Press SAP grid view column header",
+      "Description": "Presses a column header in a SAP grid view.",
+      "Anchor": "#press-sap-grid-view-column-header",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPPressSAPTableVisibleCellAtIndex",
+      "Name": "Press SAP table visible cell",
+      "Description": "Presses a button in a visible table cell at the specified row and column index within a table. Row index 1, column index 1 represents the top left corner of the visible cells in the table. This action can only be used to press visible cells.",
+      "Anchor": "#press-sap-table-visible-cell",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPPressShellToolbarElement",
+      "Name": "Press SAP shell toolbar element",
+      "Description": "Presses an SAP element (usually a button) in a toolbar. The specific element to press can be searched using one of either the element Id, the text value or the element index.",
+      "Anchor": "#press-sap-shell-toolbar-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPPressShellToolbarElementContextButton",
+      "Name": "Press SAP shell toolbar context button",
+      "Description": "Presses a context button on a SAP element in a toolbar. The specific element to press the context button on can be searched using one of either the element Id, the text value or the element index.",
+      "Anchor": "#press-sap-shell-toolbar-context-button",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPScrollSAPTable",
+      "Name": "Scroll SAP table",
+      "Description": "Scrolls an SAP table element either horizontally, vertically or both.",
+      "Anchor": "#scroll-sap-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSelectCalendarMonth",
+      "Name": "Select SAP calendar month",
+      "Description": "Selects the specified month (1 to 12) in the specified year in a SAP calendar element. The month is selected in addition to any existing selection.",
+      "Anchor": "#select-sap-calendar-month",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSelectCalendarRange",
+      "Name": "Select SAP calendar date range",
+      "Description": "Selects the specified date range (from YYYYMMDD to YYYYMMDD) in a SAP calendar element. This selection replaces any existing date selections.",
+      "Anchor": "#select-sap-calendar-date-range",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSelectCalendarWeek",
+      "Name": "Select SAP calendar week",
+      "Description": "Selects the specified week (starting at 1) in the specified year in a SAP calendar element. The week is selected in addition to any existing selection.",
+      "Anchor": "#select-sap-calendar-week",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSelectSAPElement",
+      "Name": "Select SAP element",
+      "Description": "Selects an SAP element (typically a tab element or item in a list or drop-down).",
+      "Anchor": "#select-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSelectSAPGridViewColumn",
+      "Name": "Select SAP grid view column",
+      "Description": "Selects a single SAP column in a grid view. If a different column or columns are currently selected, they will remain selected unless the 'Clear selection first' parameter is set to true.",
+      "Anchor": "#select-sap-grid-view-column",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSelectSAPGridViewMultipleRows",
+      "Name": "Select SAP grid view multiple rows",
+      "Description": "Selects multiple SAP rows in a grid view. If a different row or rows are currently selected, they will become deselected.",
+      "Anchor": "#select-sap-grid-view-multiple-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSelectSAPGridViewRow",
+      "Name": "Select SAP grid view row",
+      "Description": "Selects a single SAP row in a grid view. If a different row or rows are currently selected, they will become deselected.",
+      "Anchor": "#select-sap-grid-view-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSelectSAPTableColumn",
+      "Name": "Select SAP table visible column",
+      "Description": "Selects the visible table column at the specified column index within a table. Column index 1, represents the first visible column in the table. This action can only be used to select visible columns.",
+      "Anchor": "#select-sap-table-visible-column",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSelectSAPTableRow",
+      "Name": "Select SAP table visible row",
+      "Description": "Selects the visible table row at the specified row index within a table. Row index 1, represents the first visible row in the table. This action can only be used to select visible rows.",
+      "Anchor": "#select-sap-table-visible-row",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSelectShellToolbarMenuItem",
+      "Name": "Select SAP shell toolbar menu item",
+      "Description": "Selects a menu item in a shell toolbar. The specific element to select can be searched using one of either the element Id, the text value or the element index.",
+      "Anchor": "#select-sap-shell-toolbar-menu-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSelectTreeItem",
+      "Name": "Select SAP tree item",
+      "Description": "Select or deselect a node or item in a SAP tree. The specific node or item can be searched using one of either the node key, node path or node text. The key, path or text values can be determined by using the action 'Get SAP tree nodes'.",
+      "Anchor": "#select-sap-tree-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSendCommand",
+      "Name": "Send SAP command",
+      "Description": "Inputs and submits a SAP command. This is the same as entering a command or transaction code into the command box.",
+      "Anchor": "#send-sap-command",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSendEnterVKey",
+      "Name": "Send enter virtual key",
+      "Description": "Sends the enter virtual key to an SAP element. Virtual keys can only be sent to a GUI Frame window, for example 'wnd[0]'.",
+      "Anchor": "#send-enter-virtual-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSendVKey",
+      "Name": "Send virtual key",
+      "Description": "Sends a virtual key to an SAP element. Virtual keys can only be sent to a GUI Frame window, for example 'wnd[0]'.",
+      "Anchor": "#send-virtual-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSetListSelectionByKey",
+      "Name": "Select SAP list item by key",
+      "Description": "Selects the list element with the specified key. This is typically used to select an item in a dropdown / menu item.",
+      "Anchor": "#select-sap-list-item-by-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSetListSelectionByName",
+      "Name": "Select SAP list item by name",
+      "Description": "Selects the list element with the specified name. This is typically used to select an item in a dropdown / menu item.",
+      "Anchor": "#select-sap-list-item-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSetSAPGridViewCurrentCell",
+      "Name": "Set SAP grid view current cell",
+      "Description": "Sets the current cell in a grid view to the cell at the specified row and column. Row index 1 represents the top row of cells in the grid view.",
+      "Anchor": "#set-sap-grid-view-current-cell",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSetSAPGridViewCurrentColumn",
+      "Name": "Set SAP grid view current column",
+      "Description": "Sets the current column within a grid view. The current row will remain unchanged.",
+      "Anchor": "#set-sap-grid-view-current-column",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSetSAPGridViewCurrentRow",
+      "Name": "Set SAP grid view current row index",
+      "Description": "Sets the current row index within a grid view. The current column will remain unchanged.",
+      "Anchor": "#set-sap-grid-view-current-row-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSetSAPGridViewFirstVisibleColumn",
+      "Name": "Set SAP grid view first visible column",
+      "Description": "Scrolls a SAP grid view until the specified column is the first visible column.",
+      "Anchor": "#set-sap-grid-view-first-visible-column",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSetSAPGridViewFirstVisibleRow",
+      "Name": "Set SAP grid view first visible row index",
+      "Description": "Scrolls a SAP grid view until the specified row index (starting at 1) is the first visible row. If you set a row index higher than the number of rows in the grid view then it will scroll down as far as possible.",
+      "Anchor": "#set-sap-grid-view-first-visible-row-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSetSAPTableVisibleCellTextContentsAtIndex",
+      "Name": "Write to SAP table visible text cell",
+      "Description": "Writes to a visible table cell at the specified row and column index within a table. Row index 1, column index 1 represents the top left corner of the visible cells in the table. This action can only be used to set the contents of visible cells.",
+      "Anchor": "#write-to-sap-table-visible-text-cell",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPSetTreeColumnWidth",
+      "Name": "Set SAP tree column width",
+      "Description": "Set the width (in pixels) of a SAP tree column. The specific column can be searched using one of either the column name or column title. The column name or title values can be determined by using the action 'Get SAP tree column headers'.",
+      "Anchor": "#set-sap-tree-column-width",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPVisualiseSAPElement",
+      "Name": "Visualise SAP element",
+      "Description": "Tells the SAP GUI to draw a red rectangle around the element. This is a built-in SAP feature and not the same as asking IA-Connect to display a highlighting rectangle. The element will remain visualised until it is interacted with.",
+      "Anchor": "#visualise-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPWaitForAttachedSessionNotBusy",
+      "Name": "Wait for attached SAP session not busy",
+      "Description": "Waits for the attached SAP session to report that it is no longer busy.",
+      "Anchor": "#wait-for-attached-sap-session-not-busy",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPWaitForElementId",
+      "Name": "Wait for SAP element",
+      "Description": "Waits for an SAP element (typically an individual element within a window such as a button or a text input area) to exist.",
+      "Anchor": "#wait-for-sap-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPWaitForWindow",
+      "Name": "Wait for SAP window",
+      "Description": "Waits for a SAP window with the specified title.",
+      "Anchor": "#wait-for-sap-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPWindowClose",
+      "Name": "Close SAP window",
+      "Description": "Closes an SAP window.",
+      "Anchor": "#close-sap-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPWindowMaximise",
+      "Name": "Maximise SAP window",
+      "Description": "Maximises a SAP window.",
+      "Anchor": "#maximise-sap-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPWindowMinimise",
+      "Name": "Minimise SAP window",
+      "Description": "Minimises a SAP window.",
+      "Anchor": "#minimise-sap-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SAPWindowRestore",
+      "Name": "Restore SAP window",
+      "Description": "Restores a SAP window from being maximised or minimised.",
+      "Anchor": "#restore-sap-window",
+      "IsDeprecated": false
+    }
+  ]
+}

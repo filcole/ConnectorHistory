@@ -1,0 +1,174 @@
+{
+  "UniqueName": "almabase",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../almabase/",
+  "Actions": [
+    {
+      "OperationId": "CreateFormEntry",
+      "Name": "Submit a form",
+      "Description": "Creates a new form submission for a form",
+      "Anchor": "#submit-a-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFund",
+      "Name": "Create a fund",
+      "Description": "Creates a new fund.",
+      "Anchor": "#create-a-fund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGift",
+      "Name": "Create a gift",
+      "Description": "Creates a new gift.",
+      "Anchor": "#create-a-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateRecord",
+      "Name": "Create a record",
+      "Description": "Creates a new record.",
+      "Anchor": "#create-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateRecordEmailAddress",
+      "Name": "Create an email address for a record",
+      "Description": "Creates a new email address for a record.",
+      "Anchor": "#create-an-email-address-for-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createTouchpointCustomObject",
+      "Name": "Create a touchpoint",
+      "Description": "Send a new custom touchpoint to Almabase.",
+      "Anchor": "#create-a-touchpoint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormEntryCreateOrUpdateWebhook",
+      "Name": "When a form is submitted or an existing form submission is updated",
+      "Description": "Triggers when a form is submitted or an existing form submission is updated.",
+      "Anchor": "#when-a-form-is-submitted-or-an-existing-form-submission-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFormEntry",
+      "Name": "Get a submission of a form",
+      "Description": "Returns information about a form submission.",
+      "Anchor": "#get-a-submission-of-a-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFund",
+      "Name": "Get a fund",
+      "Description": "Returns information about a fund.",
+      "Anchor": "#get-a-fund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGift",
+      "Name": "Get a gift",
+      "Description": "Returns information about a gift.",
+      "Anchor": "#get-a-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGivingPage",
+      "Name": "Get a giving page",
+      "Description": "Returns information about a giving page.",
+      "Anchor": "#get-a-giving-page",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRecord",
+      "Name": "Get a record",
+      "Description": "Returns information about a record.",
+      "Anchor": "#get-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRecordEmailAddress",
+      "Name": "Get an email address of a record",
+      "Description": "Returns information about an email address of a record.",
+      "Anchor": "#get-an-email-address-of-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftSucceededOrFailedWebhook",
+      "Name": "When a new gift is successful or an online gift payment is failed",
+      "Description": "Triggers when a new gift is successfully recorded on a Giving Page by a donor or the payment to a gift is failed.",
+      "Anchor": "#when-a-new-gift-is-successful-or-an-online-gift-payment-is-failed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListForms",
+      "Name": "List forms",
+      "Description": "Get a list of forms.",
+      "Anchor": "#list-forms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFunds",
+      "Name": "List funds",
+      "Description": "Returns a list of funds",
+      "Anchor": "#list-funds",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGifts",
+      "Name": "List gifts",
+      "Description": "Returns a list of gifts.",
+      "Anchor": "#list-gifts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGivingPages",
+      "Name": "List giving pages",
+      "Description": "Returns a list of giving pages.",
+      "Anchor": "#list-giving-pages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRecordEmailAddresses",
+      "Name": "List email addresses of a record",
+      "Description": "Returns a list of email addresses for a record.",
+      "Anchor": "#list-email-addresses-of-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRecords",
+      "Name": "List records",
+      "Description": "Returns a list of records.",
+      "Anchor": "#list-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFund",
+      "Name": "Update a fund",
+      "Description": "Updates a fund.",
+      "Anchor": "#update-a-fund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateGift",
+      "Name": "Update a gift",
+      "Description": "Updates a gift",
+      "Anchor": "#update-a-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRecord",
+      "Name": "Update a record",
+      "Description": "Updates a record.",
+      "Anchor": "#update-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRecordEmailAddress",
+      "Name": "Update an email address of a record",
+      "Description": "Updates the fields the email address of a record",
+      "Anchor": "#update-an-email-address-of-a-record",
+      "IsDeprecated": false
+    }
+  ]
+}

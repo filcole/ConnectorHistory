@@ -1,0 +1,34 @@
+{
+  "UniqueName": "asiteusgov",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../asiteusgov/",
+  "Actions": [
+    {
+      "OperationId": "ASITE_TRIGGER_EVENT",
+      "Name": "When an Asite workflow event is triggered",
+      "Description": "Triggers a workflow event to upload a file to the project folder.",
+      "Anchor": "#when-an-asite-workflow-event-is-triggered",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FILE_DOWNLOAD_BY_URL",
+      "Name": "Get file content",
+      "Description": "Retrieves the file content from Asite.",
+      "Anchor": "#get-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SET_FILE_METADATA",
+      "Name": "Set file metadata",
+      "Description": "Retrieves the defined file meta-data and sets the values during the file upload process. Note: it is mandatory to set this action before the Create file action is triggered.",
+      "Anchor": "#set-file-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UPLOAD_BINARY_FILE",
+      "Name": "Create file",
+      "Description": "Upload a file in Asite project folder.",
+      "Anchor": "#create-file",
+      "IsDeprecated": false
+    }
+  ]
+}

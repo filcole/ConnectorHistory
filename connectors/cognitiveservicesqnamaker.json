@@ -17,6 +17,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "DownloadKnowledgeBaseOldV2",
+      "Name": "Download knowledgebase details (V2) (Preview)",
+      "Description": "Gets details of a specific knowledgebase.",
+      "Anchor": "#download-knowledgebase-details-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GenerateAnswer",
       "Name": "Generate answer",
       "Description": "This operation returns the top ranking answer for the given question.",

@@ -1,0 +1,48 @@
+{
+  "UniqueName": "iaconnectdynamiccode",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iaconnectdynamiccode/",
+  "Actions": [
+    {
+      "OperationId": "AddAssemblySearchFolder",
+      "Name": "Add assembly search folder",
+      "Description": "Adds a folder path (on the computer where the IA-Connect Agent is running) to the list of folders for the IA-Connect Agent to scan when it tries to load an external reference.",
+      "Anchor": "#add-assembly-search-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClearAssemblySearchFolders",
+      "Name": "Clear assembly search folders",
+      "Description": "Reset the additional list of folders for the IA-Connect Agent to scan when it tries to load an external reference.",
+      "Anchor": "#clear-assembly-search-folders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImportAssemblyFromLocalFile",
+      "Name": "Import assembly from local file",
+      "Description": "Uploads a DotNet assembly from the computer where the IA-Connect Director is running to the IA-Connect Agent where it is loaded into memory and will be used if referenced by dynamic DotNet code.",
+      "Anchor": "#import-assembly-from-local-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsPowerShellAutomationInstalled",
+      "Name": "Is PowerShell automation installed",
+      "Description": "Reports whether PowerShell automation is available on the computer where the IA-Connect Agent is running. If PowerShell automation is not available, PowerShell automation actions will not work.",
+      "Anchor": "#is-powershell-automation-installed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsPowerShellModuleInstalled",
+      "Name": "Is PowerShell module installed",
+      "Description": "Searches for a specified PowerShell module on the computer where the IA-Connect Agent is running and returns whether it is installed.",
+      "Anchor": "#is-powershell-module-installed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunPowerShellAutomationScript",
+      "Name": "Run PowerShell script",
+      "Description": "Runs a PowerShell script in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. This is the recommended action for running your own custom PowerShell code.",
+      "Anchor": "#run-powershell-script",
+      "IsDeprecated": false
+    }
+  ]
+}

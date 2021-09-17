@@ -1,0 +1,167 @@
+{
+  "UniqueName": "iaconnectmainframe",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iaconnectmainframe/",
+  "Actions": [
+    {
+      "OperationId": "HLLAPIConnect",
+      "Name": "Connect to terminal emulation session",
+      "Description": "Connects any running IA-Connect HLLAPI subsystem (IA-HLLAPI) to the specified connected Mainframe session Id. The session Id is an Id assigned by the terminal emulator you are using for Mainframe connections. The Mainframe session must be running before you connect to it using this action.",
+      "Anchor": "#connect-to-terminal-emulation-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPICopyOperatorInformationArea",
+      "Name": "Get terminal emulation Operator Information Area (OIA)",
+      "Description": "Returns the Operator Information Area displayed by the terminal emulator. This is the line at the bottom of the terminal emulator screen and commonly indicates status information such as whether the system is waiting or is in an invalid input state.",
+      "Anchor": "#get-terminal-emulation-operator-information-area-(oia)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIDisconnect",
+      "Name": "Disconnect from terminal emulation session",
+      "Description": "Disconnects the running IA-Connect HLLAPI subsystem (IA-HLLAPI) from a specified connected Mainframe session Id. The session Id is an Id assigned by the terminal emulator you are using for Mainframe connections.",
+      "Anchor": "#disconnect-from-terminal-emulation-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIDispose",
+      "Name": "Dispose of terminal emulation HLLAPI DLL",
+      "Description": "Shuts down any running IA-Connect HLLAPI subsystem (IA-HLLAPI).",
+      "Anchor": "#dispose-of-terminal-emulation-hllapi-dll",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIGetConnectStatus",
+      "Name": "Get terminal emulation connection status",
+      "Description": "Returns the current terminal emulation connection state within the specified session.",
+      "Anchor": "#get-terminal-emulation-connection-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIGetCursorPos",
+      "Name": "Get terminal emulation cursor position",
+      "Description": "Gets the current cursor position in a Mainframe session.",
+      "Anchor": "#get-terminal-emulation-cursor-position",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIIsKeyboardUnlocked",
+      "Name": "Get is terminal emulation keyboard unlocked",
+      "Description": "Returns whether the terminal emulator is reporting that the keyboard is unlocked. The output of this action is dependent on how the specific emulator has implemented HLLAPI and the output may vary from emulator to emulator.",
+      "Anchor": "#get-is-terminal-emulation-keyboard-unlocked",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIPressReset",
+      "Name": "Send reset key to terminal emulation session",
+      "Description": "Sends a reset key to the terminal emulator session. This will reset all input and will clear an invalid input state.",
+      "Anchor": "#send-reset-key-to-terminal-emulation-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIQuerySessionStatus",
+      "Name": "Query terminal emulation session status",
+      "Description": "Returns information about the connected Mainframe session. Some terminal emulators may not return values for all outputs.",
+      "Anchor": "#query-terminal-emulation-session-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIReadScreenAtCursorPos",
+      "Name": "Read terminal emulation screen at cursor position",
+      "Description": "Reads the specified number of characters from the Mainframe session, starting at the specified cursor position.",
+      "Anchor": "#read-terminal-emulation-screen-at-cursor-position",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIReadScreenRows",
+      "Name": "Read terminal emulation screen rows",
+      "Description": "Reads the screen rows from a specified Mainframe session. This action is commonly used to read larger quantities of data which can then be filtered if necessary.",
+      "Anchor": "#read-terminal-emulation-screen-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIResetSystem",
+      "Name": "Reset terminal emulation session",
+      "Description": "Resets the current Mainframe session. The action disconnects IA-Connect Agent from the session and undoes any session parameters that have been set. After calling this action you will need to re-connect to the session by using the 'Connect to Session' action in order to continue interacting with it.",
+      "Anchor": "#reset-terminal-emulation-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPISearchForString",
+      "Name": "Search for string in terminal emulation session",
+      "Description": "Searches for a specified string in the current display of the terminal emulator. If the string is found, it's position and index will be returned.",
+      "Anchor": "#search-for-string-in-terminal-emulation-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPISendPassword",
+      "Name": "Send password to terminal emulation session",
+      "Description": "Sends a password to a Mainframe session at the current cursor position. If you wish to send a password to a specific cursor position, you can use the action 'Send password to terminal emulation session at position' instead.",
+      "Anchor": "#send-password-to-terminal-emulation-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPISendPasswordAtCursorPos",
+      "Name": "Send password to terminal emulation session at position",
+      "Description": "Sends a password to a Mainframe session at the specified cursor position.",
+      "Anchor": "#send-password-to-terminal-emulation-session-at-position",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPISendString",
+      "Name": "Send string to terminal emulation session",
+      "Description": "Sends a string to a Mainframe session at the current cursor position. If you wish to send a string to a specific cursor position, you can use the action 'Send string to terminal emulation session at position' instead.",
+      "Anchor": "#send-string-to-terminal-emulation-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPISendStringAtCursorPos",
+      "Name": "Send string to terminal emulation session at position",
+      "Description": "Sends a string to a Mainframe session at the specified cursor position.",
+      "Anchor": "#send-string-to-terminal-emulation-session-at-position",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPISetCursorPos",
+      "Name": "Set terminal emulation cursor position",
+      "Description": "Sets the current cursor position in a Mainframe session to the specified position.",
+      "Anchor": "#set-terminal-emulation-cursor-position",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPISetHLLAPIDLL",
+      "Name": "Set terminal emulation HLLAPI DLL",
+      "Description": "Starts the IA-Connect HLLAPI subsystem (IA-HLLAPI) and connects it to the specified Terminal Emulator HLLAPI DLL (a component of the terminal emulation software being used to connect to Mainframe sessions).",
+      "Anchor": "#set-terminal-emulation-hllapi-dll",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPISetSessionParameter",
+      "Name": "Set session parameter in terminal emulation session",
+      "Description": "This action sets an advanced HLLAPI session parameter. This action should only be used if you are familiar with HLLAPI session parameters.",
+      "Anchor": "#set-session-parameter-in-terminal-emulation-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIWaitForKeyboardUnlocked",
+      "Name": "Wait for terminal emulation keyboard unlocked",
+      "Description": "Waits for the terminal emulator to report that the keyboard is unlocked. The output of this action is dependent on how the specific emulator has implemented HLLAPI and the output may vary from emulator to emulator.",
+      "Anchor": "#wait-for-terminal-emulation-keyboard-unlocked",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIWaitForString",
+      "Name": "Wait for string in terminal emulation session",
+      "Description": "Waits for a specified string to be displayed in the terminal emulator session. This action can be used when moving between screens to validate that you are on the correct screen.",
+      "Anchor": "#wait-for-string-in-terminal-emulation-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HLLAPIWaitForSystemReady",
+      "Name": "Wait for terminal emulation system ready",
+      "Description": "Waits for the terminal emulator to report that the system is ready. The output of this action is dependent on how the specific emulator has implemented HLLAPI and the output may vary from emulator to emulator.",
+      "Anchor": "#wait-for-terminal-emulation-system-ready",
+      "IsDeprecated": false
+    }
+  ]
+}

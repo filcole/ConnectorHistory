@@ -3797,77 +3797,77 @@
       {
         "OperationId": "DetectEntities",
         "Name": "Entities [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Named Entity Recognition (V3.1) instead.\nReturns a list of known entities and general named entities (&quot;Person&quot;, &quot;Location&quot;, &quot;Organization&quot; etc) in a given document.",
+        "Description": "This action has been deprecated. Please use Named Entity Recognition (V4) instead.\nReturns a list of known entities and general named entities (&quot;Person&quot;, &quot;Location&quot;, &quot;Organization&quot; etc) in a given document.",
         "Anchor": "#entities-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "DetectEntitiesV2",
         "Name": "Detect Entities (V2) [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Named Entity Recognition (V3.1) instead.\nReturns a list of known entities and general named entities (&quot;Person&quot;, &quot;Location&quot;, &quot;Organization&quot; etc) in a given document.",
+        "Description": "This action has been deprecated. Please use Named Entity Recognition (V4) instead.\nReturns a list of known entities and general named entities (&quot;Person&quot;, &quot;Location&quot;, &quot;Organization&quot; etc) in a given document.",
         "Anchor": "#detect-entities-(v2)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "DetectLanguageV2",
         "Name": "Detect Language [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Detect Language (V3.1) instead.\nReturns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
+        "Description": "This action has been deprecated. Please use Detect Language (V4) instead.\nReturns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
         "Anchor": "#detect-language-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "DetectLanguageV2",
         "Name": "Detect Language [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Detect Language (V3.1) instead.\nReturns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
+        "Description": "This action has been deprecated. Please use Detect Language (V4) instead.\nReturns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
         "Anchor": "#detect-language-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "DetectLanguageV3",
         "Name": "Detect Language (V2) [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Detect Language (V3.1) instead.\nReturns the detected language and a numeric score between 0 and 1 for each document. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
+        "Description": "This action has been deprecated. Please use Detect Language (V4) instead.\nReturns the detected language and a numeric score between 0 and 1 for each document. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
         "Anchor": "#detect-language-(v2)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "DetectSentiment",
         "Name": "Detect Sentiment [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Sentiment (V3.1) instead.\nReturns a numeric score between 0 and 1. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment.",
+        "Description": "This action has been deprecated. Please use Sentiment (V4) instead.\nReturns a numeric score between 0 and 1. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment.",
         "Anchor": "#detect-sentiment-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "DetectSentiment",
         "Name": "Detect Sentiment [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Sentiment (V3.1) instead.\nReturns a numeric score between 0 and 1. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment. Currently, the following languages are supported: English, Spanish, French, Portuguese.",
+        "Description": "This action has been deprecated. Please use Sentiment (V4) instead.\nReturns a numeric score between 0 and 1. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment. Currently, the following languages are supported: English, Spanish, French, Portuguese.",
         "Anchor": "#detect-sentiment-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "DetectSentimentV3",
         "Name": "Detect Sentiment (V2) [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Sentiment (V3.1) instead.\nReturns a numeric score between 0 and 1 for each document. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment.",
+        "Description": "This action has been deprecated. Please use Sentiment (V4) instead.\nReturns a numeric score between 0 and 1 for each document. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment.",
         "Anchor": "#detect-sentiment-(v2)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "KeyPhrases",
         "Name": "Key Phrases [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Key Phrases (V3.1) instead.\nReturns a list of strings denoting the key talking points in the input text.",
+        "Description": "This action has been deprecated. Please use Key Phrases (V4) instead.\nReturns a list of strings denoting the key talking points in the input text.",
         "Anchor": "#key-phrases-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "KeyPhrases",
         "Name": "Key Phrases [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Key Phrases (V3.1) instead.\nReturns a list of strings denoting the key talking points in the input text. Currently, the following languages are supported: English, German, Spanish and Japanese.",
+        "Description": "This action has been deprecated. Please use Key Phrases (V4) instead.\nReturns a list of strings denoting the key talking points in the input text. Currently, the following languages are supported: English, German, Spanish and Japanese.",
         "Anchor": "#key-phrases-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "KeyPhrasesV3",
         "Name": "Key Phrases (V2) [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Key Phrases (V3.1) instead.\nReturns a list of strings denoting the key talking points in the input text for each document.",
+        "Description": "This action has been deprecated. Please use Key Phrases (V4) instead.\nReturns a list of strings denoting the key talking points in the input text for each document.",
         "Anchor": "#key-phrases-(v2)-[deprecated]",
         "IsDeprecated": true
       }

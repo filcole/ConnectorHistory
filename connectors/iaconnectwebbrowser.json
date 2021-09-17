@@ -1,0 +1,538 @@
+{
+  "UniqueName": "iaconnectwebbrowser",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iaconnectwebbrowser/",
+  "Actions": [
+    {
+      "OperationId": "BrowserCheckElement",
+      "Name": "Check web element",
+      "Description": "Checks / ticks a HTML element (typically a checkbox or radio box).",
+      "Anchor": "#check-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserCheckMultipleElements",
+      "Name": "Check multiple web elements",
+      "Description": "Checks / ticks multiple HTML elements (typically a checkbox or radio box).",
+      "Anchor": "#check-multiple-web-elements",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserClearElementText",
+      "Name": "Clear all web element text",
+      "Description": "Clears all existing text from a web element.",
+      "Anchor": "#clear-all-web-element-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserClickElement",
+      "Name": "Click web element",
+      "Description": "Clicks an element (typically a button or hyperlink) in the web browser.",
+      "Anchor": "#click-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserCloseActiveTab",
+      "Name": "Close active web browser tab",
+      "Description": "Closes the current active browser tab. After calling this action the IA-Connect Agent will not switch to a new active tab by default. To re-attach to another tab you will need to the call 'Set browser tab' action before attempting to interact with the page.",
+      "Anchor": "#close-active-web-browser-tab",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserCloseChrome",
+      "Name": "Close Google Chrome browser",
+      "Description": "Closes the Google Chrome web browser which was opened using the 'Open Chrome' action.",
+      "Anchor": "#close-google-chrome-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserCloseChromiumEdge",
+      "Name": "Close Chromium Edge browser",
+      "Description": "Closes the Chromium Edge browser which was opened using the 'Open Chromium Edge' action.",
+      "Anchor": "#close-chromium-edge-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserCloseInternetExplorer",
+      "Name": "Close Internet Explorer browser",
+      "Description": "Closes the Internet Explorer browser which was opened using the 'Open Internet Explorer' action.",
+      "Anchor": "#close-internet-explorer-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserCopySelectedTextOnElement",
+      "Name": "Copy selected text on web element",
+      "Description": "Copies all of the currently selected text from a web element into the clipboard.",
+      "Anchor": "#copy-selected-text-on-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserCreateHandleToElement",
+      "Name": "Create handle to web element",
+      "Description": "Creates a handle to a HTML element. This handle can be used to automate child HTML elements.",
+      "Anchor": "#create-handle-to-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserCreateHandleToParentElement",
+      "Name": "Create handle to parent web element",
+      "Description": "Creates a handle to a HTML elements parent.",
+      "Anchor": "#create-handle-to-parent-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserDeselectAllSelection",
+      "Name": "Deselect all items in web selection list",
+      "Description": "Deselects all currently selected options in a select element that supports multi-select.",
+      "Anchor": "#deselect-all-items-in-web-selection-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserDeselectSelection",
+      "Name": "Deselect web selection list item",
+      "Description": "Deselects an option on a select HTML element, either by Text, Value or Index. The text, value or index of each option in a selection can be discovered using the 'Get selection properties' action.",
+      "Anchor": "#deselect-web-selection-list-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserDoesElementExist",
+      "Name": "Does web element exist",
+      "Description": "Reports whether a HTML element currently exists. This action does not wait for the HTML element.",
+      "Anchor": "#does-web-element-exist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserDrawRectangleAroundElement",
+      "Name": "Draw rectangle around web element",
+      "Description": "Draws a rectangle around the perimeter of a HTML element to aid in identifying that the element found is the one required. The rectangle is automatically removed after 5 seconds.",
+      "Anchor": "#draw-rectangle-around-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserExecuteJavaScript",
+      "Name": "Execute JavaScript in webpage",
+      "Description": "Executes the provided JavaScript code in the web page.",
+      "Anchor": "#execute-javascript-in-webpage",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserExecuteJavaScriptOnElement",
+      "Name": "Execute JavaScript on web element",
+      "Description": "Executes the provided JavaScript code on the selected HTML element.",
+      "Anchor": "#execute-javascript-on-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserFocusElement",
+      "Name": "Focus web element",
+      "Description": "Focusses an HTML element. This makes the element the active element for keyboard focus and may bring the element to the foreground.",
+      "Anchor": "#focus-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserFullscreen",
+      "Name": "Fullscreen active browser",
+      "Description": "Sets the web browser to full screen so the website occupies the entire screen (hides the browser navigation toolbar, address bar, start bar etc).",
+      "Anchor": "#fullscreen-active-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetBrowserParentWindowDetails",
+      "Name": "Get browser parent window details",
+      "Description": "Returns properties of the browser parent window that the IA-Connect Agent is currently interacting with.",
+      "Anchor": "#get-browser-parent-window-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetChromeBrowserVersionFromFile",
+      "Name": "Get Google Chrome EXE version from file",
+      "Description": "Gets the version of Google Chrome installed in the session where the Agent is running.",
+      "Anchor": "#get-google-chrome-exe-version-from-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetChromeDriverFolder",
+      "Name": "Get ChromeDriver folder",
+      "Description": "Gets the ChromeDriver folder path for the ChromeDriver version that is used with the current Chrome EXE version. This is used by the 'Open Chrome' action and it is unlikely that you would need to call this directly.",
+      "Anchor": "#get-chromedriver-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetChromiumEdgeBrowserVersionFromFile",
+      "Name": "Get Chromium Edge EXE version from file",
+      "Description": "Gets the version of Chromium Edge installed in the session where the Agent is running.",
+      "Anchor": "#get-chromium-edge-exe-version-from-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetChromiumEdgeDriverFolder",
+      "Name": "Get Chromium Edge driver folder",
+      "Description": "Gets the ChromiumEdgeDriver folder path for the ChromiumEdgeDriver version that is used with the current Chromium Edge EXE version. This is used by the 'Open Chromium Edge' action and it is unlikely that you would need to call this directly.",
+      "Anchor": "#get-chromium-edge-driver-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetCurrentFrameWindowPixelCoordinate",
+      "Name": "Get current webpage frame window pixel coordinate",
+      "Description": "Returns the pixel coordinates of the current HTML frame, relative to the browser document window (the area which displays the webpage).",
+      "Anchor": "#get-current-webpage-frame-window-pixel-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetElementBoundingRect",
+      "Name": "Get web element bounding rectangle",
+      "Description": "Returns the pixel coordinates of the left, right, top, and bottom edges of the HTML element relative to the browser document window (the area which displays the webpage).",
+      "Anchor": "#get-web-element-bounding-rectangle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetElementChildrenProperties",
+      "Name": "Get web element children properties",
+      "Description": "Gets the properties of the child elements of the matching HTML element.",
+      "Anchor": "#get-web-element-children-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetElementParentProperties",
+      "Name": "Get web element parents properties",
+      "Description": "Gets the properties of the parent elements of the matching HTML element.",
+      "Anchor": "#get-web-element-parents-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetElementProperties",
+      "Name": "Get web element properties",
+      "Description": "Gets the properties of a HTML element.",
+      "Anchor": "#get-web-element-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetElementScreenBoundingRect",
+      "Name": "Get web element screen bounding rect",
+      "Description": "Returns the pixel coordinates of the left, right, top, and bottom edges of the HTML element relative to the sessions screen.",
+      "Anchor": "#get-web-element-screen-bounding-rect",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetMultipleElementProperties",
+      "Name": "Get multiple web element properties",
+      "Description": "Gets the properties of all HTML elements that matches search criteria.",
+      "Anchor": "#get-multiple-web-element-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetPageText",
+      "Name": "Get webpage text",
+      "Description": "Gets all the text on the current page by selecting the entire browser page, copying it into the clipboard in the session where the IA-Connect Agent is running and then returning the clipboard contents.",
+      "Anchor": "#get-webpage-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetSelectionProperties",
+      "Name": "Get web selection list properties",
+      "Description": "Returns all the options of a select HTML element and their properties.",
+      "Anchor": "#get-web-selection-list-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetTableContents",
+      "Name": "Get web table contents",
+      "Description": "Returns the contents of a HTML table element.",
+      "Anchor": "#get-web-table-contents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGetTabs",
+      "Name": "Get web browser tabs",
+      "Description": "Returns the current tabs that are open in the browser window.",
+      "Anchor": "#get-web-browser-tabs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGlobalMouseLeftClickOnElement",
+      "Name": "Global mouse left click on web element",
+      "Description": "Moves the mouse to the centre of an HTML element and presses the left mouse button. This is sometimes used instead of 'Click element' in scenarios where the element expects the mouse to be over the element before you press it.",
+      "Anchor": "#global-mouse-left-click-on-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserGlobalMouseRightClickOnElement",
+      "Name": "Global mouse right click on web element",
+      "Description": "Moves the mouse to the centre of an HTML element and presses the right mouse button. This is sometimes used instead of 'Click element' in scenarios where the element expects the mouse to be over the element before you press it.",
+      "Anchor": "#global-mouse-right-click-on-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserInputPasswordIntoElement",
+      "Name": "Input password into web element",
+      "Description": "Inputs a password into a HTML element (typically a text input field), either replacing the existing value or appending the new value to any existing value.",
+      "Anchor": "#input-password-into-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserInputTextIntoElement",
+      "Name": "Input text into web element",
+      "Description": "Inputs text into a HTML element (typically a text input field), either replacing the existing text or appending the new value to any existing value.",
+      "Anchor": "#input-text-into-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserInputTextIntoMultipleElements",
+      "Name": "Input text into multiple web elements",
+      "Description": "Inputs text into multiple HTML elements (typically text input fields), either replacing the existing text or appending the new value to any existing value.",
+      "Anchor": "#input-text-into-multiple-web-elements",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserIsSuitableChromeDriverAvailable",
+      "Name": "Is suitable remote ChromeDriver available",
+      "Description": "Searches for a suitable version of ChromeDriver for the installed version of Google Chrome in the session where the IA-Connect Agent is running.",
+      "Anchor": "#is-suitable-remote-chromedriver-available",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserIsSuitableChromiumEdgeDriverAvailable",
+      "Name": "Is suitable remote Chromium Edge driver available",
+      "Description": "Searches for a suitable version of ChromiumEdgeDriver for the installed version of Chromium Edge in the session where the Agent is running.",
+      "Anchor": "#is-suitable-remote-chromium-edge-driver-available",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserJavaScriptClickOnElement",
+      "Name": "JavaScript simulate click on web element",
+      "Description": "Simulates a mouse action by telling the browser's JavaScript engine to perform a left click. This is an alternative to the action 'Simulate mouse left click on element' and is usually sufficient for the web page to react as expected.",
+      "Anchor": "#javascript-simulate-click-on-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserMaximise",
+      "Name": "Maximise active browser",
+      "Description": "Maximises the web browser currently being controlled (the last browser opened using a browser 'Open' action).",
+      "Anchor": "#maximise-active-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserMinimise",
+      "Name": "Minimise active browser",
+      "Description": "Minimises the web browser currently being controlled (the last browser opened using a browser 'Open' action).",
+      "Anchor": "#minimise-active-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserMouseLeftClickOnElement",
+      "Name": "Simulate mouse left click on web element",
+      "Description": "Simulates a mouse action by telling the browser that a mouse left click action was performed. This is usually sufficient for the web page to react as expected. If this fails, consider using 'Global mouse left click on element' which moves the mouse and clicks in exactly the same way as a user would.",
+      "Anchor": "#simulate-mouse-left-click-on-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserMouseRightClickOnElement",
+      "Name": "Simulate mouse right click on web element",
+      "Description": "Simulates a mouse action by telling the browser that a mouse right click action was performed. This is usually sufficient for the web page to react as expected. If this fails, consider using 'Global mouse right click on element' which moves the mouse and clicks in exactly the same way as a user would.",
+      "Anchor": "#simulate-mouse-right-click-on-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserNavigateToURL",
+      "Name": "Navigate active browser to URL",
+      "Description": "Navigates the browser to the provided URL. IA-Connect will wait for the page to load before returning.",
+      "Anchor": "#navigate-active-browser-to-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserNormaliseBrowser",
+      "Name": "Normalise active browser",
+      "Description": "Normalises the browser window by resizing window to the provided dimensions and moving the window to the provided coordinates.",
+      "Anchor": "#normalise-active-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserOpenChrome",
+      "Name": "Open Google Chrome browser",
+      "Description": "Opens the Google Chrome web browser, allowing it to to be automated using the actions in this IA-Connect module. If the web browser was opened manually, by another application or using the 'Run Process' action then it can only be automated using UIA actions and not by the actions in this IA-Connect module.",
+      "Anchor": "#open-google-chrome-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserOpenChromiumEdge",
+      "Name": "Open Chromium Edge browser",
+      "Description": "Opens the Chromium Edge web browser, allowing it to to be automated using the actions in this IA-Connect module. If the web browser was opened manually, by another application or using the 'Run Process' action then it can only be automated using UIA actions and not by the actions in this IA-Connect module.",
+      "Anchor": "#open-chromium-edge-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserOpenInternetExplorer",
+      "Name": "Open Internet Explorer browser",
+      "Description": "Opens the Internet Explorer web browser, allowing it to to be automated using the actions in this IA-Connect module. If the web browser was opened manually, by another application or using the 'Run Process' action then it can only be automated using UIA actions and not by the actions in this IA-Connect module.",
+      "Anchor": "#open-internet-explorer-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserOpenNewTab",
+      "Name": "Open new web browser tab",
+      "Description": "Opens a new tab in the browser window. In Internet Explorer, this action opens a new window but the new window behaves as a tab and can be interacted with in the same way as a tab with the 'Get browser tabs' or 'Set browser tab' actions.",
+      "Anchor": "#open-new-web-browser-tab",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserPasteIntoElement",
+      "Name": "Paste into web element",
+      "Description": "Pastes the contents of the clipboard into a HTML element (typically a text input field).",
+      "Anchor": "#paste-into-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserPressCtrlKeyOnElement",
+      "Name": "Press CTRL key on web element",
+      "Description": "Presses the CTRL key on a HTML element. This can be used with the 'Control key' parameter to perform shortcuts such as Ctrl-a (Select all), Ctrl-c (Copy), Ctrl-x (Cut) or Ctrl-v (Paste).",
+      "Anchor": "#press-ctrl-key-on-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserPressEnterOnElement",
+      "Name": "Press enter on web element",
+      "Description": "Presses the enter key on an HTML element. This can be used to submit the element or in some cases to interact with buttons.",
+      "Anchor": "#press-enter-on-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserPrintCurrentPage",
+      "Name": "Print the current web page",
+      "Description": "Prints the current web page.",
+      "Anchor": "#print-the-current-web-page",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserRefreshPage",
+      "Name": "Refresh current webpage in active browser",
+      "Description": "Refreshes the current browser page.",
+      "Anchor": "#refresh-current-webpage-in-active-browser",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserResetAllElementHandles",
+      "Name": "Reset all web element handles",
+      "Description": "Resets all web element handles that are currently held by the IA-Connect Agent. This action is generally used for memory clean-up and is only recommended for use in large complex processes which will result in high numbers of element handles (10,000+) being stored.",
+      "Anchor": "#reset-all-web-element-handles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserResetFrameStack",
+      "Name": "Reset browser webpage frame stack",
+      "Description": "Resets the browser frame stack. This should only be used if approved by Ultima Technical Support.",
+      "Anchor": "#reset-browser-webpage-frame-stack",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserSavePageToFile",
+      "Name": "Save webpage to file",
+      "Description": "Saves the current HTML page to a file on disk.",
+      "Anchor": "#save-webpage-to-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserScrollElementIntoView",
+      "Name": "Scroll web element into view",
+      "Description": "Scrolls the web page up, down, left or right until the HTML element is on screen.",
+      "Anchor": "#scroll-web-element-into-view",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserScrollWindowByPixels",
+      "Name": "Scroll browser window by pixels",
+      "Description": "Scrolls the browser window by the specified number of pixels.",
+      "Anchor": "#scroll-browser-window-by-pixels",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserScrollWindowToPixels",
+      "Name": "Scroll browser window to pixels",
+      "Description": "Scrolls the browser window to the specified pixel coordinates.",
+      "Anchor": "#scroll-browser-window-to-pixels",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserSelectAllOnElement",
+      "Name": "Select all on a web element",
+      "Description": "Selects all of the contents of a HTML element (typically a text field).",
+      "Anchor": "#select-all-on-a-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserSelectSelection",
+      "Name": "Select web selection list item",
+      "Description": "Selects an option on a select HTML element, either by Text, Value or Index. The text, value or index of each option in a selection can be discovered using the 'Get selection properties' action.",
+      "Anchor": "#select-web-selection-list-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserSetTab",
+      "Name": "Set web browser tab",
+      "Description": "Sets the active tab and switches the IA-Connect Agent to control this tab so that it can interact with it.",
+      "Anchor": "#set-web-browser-tab",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserSetTimeouts",
+      "Name": "Set browser timeouts",
+      "Description": "Sets the internal timeouts that IA-Connect uses when interacting with the web browser.",
+      "Anchor": "#set-browser-timeouts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserSetWindowPosition",
+      "Name": "Set active browser window position",
+      "Description": "Moves the browser window to the pixel coordinates specified.",
+      "Anchor": "#set-active-browser-window-position",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserSetWindowSize",
+      "Name": "Set active browser window size",
+      "Description": "Resizes the browser window to the width and height dimensions specified.",
+      "Anchor": "#set-active-browser-window-size",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserSubmitElement",
+      "Name": "Submit web element",
+      "Description": "Submits a HTML element. This is typically performed on any input element in a form element and will cause the form to be submitted.",
+      "Anchor": "#submit-web-element",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserSwitchToFrameElement",
+      "Name": "Switch to webpage frame",
+      "Description": "Switches the IA-Connect Agent to controlling or interacting with an alternative frame within a browser page.",
+      "Anchor": "#switch-to-webpage-frame",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserSwitchToParentFrameElement",
+      "Name": "Switch to webpage parent frame",
+      "Description": "Switches the IA-Connect Agent to controlling or interacting with the parent frame of the current frame within a web page.",
+      "Anchor": "#switch-to-webpage-parent-frame",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserSwitchToRootFrameElement",
+      "Name": "Switch to webpage root frame",
+      "Description": "Switches the IA-Connect Agent to controlling or interacting with the root frame within a web page.",
+      "Anchor": "#switch-to-webpage-root-frame",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserUploadNewChromeDriver",
+      "Name": "Upload new ChromeDriver",
+      "Description": "Uploads a new version of ChromeDriver from the local system (the digital worker) to the IA-Connect Agent session to be used with Google Chrome.",
+      "Anchor": "#upload-new-chromedriver",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserUploadNewChromiumEdgeDriver",
+      "Name": "Upload new Chromium Edge driver",
+      "Description": "Uploads a new version of ChromiumEdgeDriver from the local system (the digital worker) to the IA-Connect Agent session to be used with Chromium Edge.",
+      "Anchor": "#upload-new-chromium-edge-driver",
+      "IsDeprecated": false
+    }
+  ]
+}

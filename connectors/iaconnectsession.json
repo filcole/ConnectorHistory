@@ -1,0 +1,965 @@
+{
+  "UniqueName": "iaconnectsession",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iaconnectsession/",
+  "Actions": [
+    {
+      "OperationId": "AddFileToZIP",
+      "Name": "Add file to ZIP",
+      "Description": "ZIPs a file (stores the file into a compression archive).",
+      "Anchor": "#add-file-to-zip",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddFolderToZIP",
+      "Name": "Add folder to ZIP",
+      "Description": "ZIPs files in a folder into a ZIP file (stores the files into a compression archive).",
+      "Anchor": "#add-folder-to-zip",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddPermissionToFile",
+      "Name": "Add permission to file",
+      "Description": "Adds a permission to a file on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#add-permission-to-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddPermissionToFolder",
+      "Name": "Add permission to folder",
+      "Description": "Adds a permission to a folder on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#add-permission-to-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AttachToIAConnectSessionByIndex",
+      "Name": "Attach to IA-Connect session by index",
+      "Description": "Attaches to the specified IA-Connect Director session by index (e.g. attach to first Citrix ICA session). This is the session into which commands to an IA-Connect Agent are sent.",
+      "Anchor": "#attach-to-ia-connect-session-by-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AttachToIAConnectSessionByName",
+      "Name": "Attach to IA-Connect session by name",
+      "Description": "Attaches to the specified IA-Connect Director session by name. This is the session into which commands to an IA-Connect Agent are sent.",
+      "Anchor": "#attach-to-ia-connect-session-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AttachToMostRecentIAConnectSession",
+      "Name": "Attach to most recent IA-Connect session",
+      "Description": "Attaches to the IA-Connect Director session which most recently connected (optionally of a specified type). This is the session into which commands to an IA-Connect Agent are sent.",
+      "Anchor": "#attach-to-most-recent-ia-connect-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AttachToTier1IAConnectSession",
+      "Name": "Attach to tier 1 IA-Connect session",
+      "Description": "Attaches to the IA-Connect Director session of the Director receiving the SOAP and / or REST messages. This is the session into which commands to an IA-Connect Agent are sent.",
+      "Anchor": "#attach-to-tier-1-ia-connect-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BreakFolderSecurityInheritance",
+      "Name": "Break folder security inheritance",
+      "Description": "Breaks security inheritance on a folder on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#break-folder-security-inheritance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BringRSAGUIToFront",
+      "Name": "Bring IA-Connect Agent GUI to front",
+      "Description": "Brings the IA-Connect Agent GUI to the front so it is visible onscreen.",
+      "Anchor": "#bring-ia-connect-agent-gui-to-front",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalibrateMouseEvent",
+      "Name": "Calibrate mouse_event",
+      "Description": "Calibrates the mouse_event method by moving the mouse by the specified number of pixels and then reading the new mouse position.",
+      "Anchor": "#calibrate-mouse_event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClearClipboard",
+      "Name": "Clear clipboard",
+      "Description": "Clears the contents of the clipboard in the IA-Connect Agent user session.",
+      "Anchor": "#clear-clipboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseRSAServer",
+      "Name": "Close IA-Connect Agent",
+      "Description": "Closes the IA-Connect Agent. This does not affect the user session where the IA-Connect Agent was running.",
+      "Anchor": "#close-ia-connect-agent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConfigureNextHopDirector",
+      "Name": "Configure next hop IA-Connect Director",
+      "Description": "Configure the next-hop Director in a double-hop scenario. This is only required if the default IA-Connect next-hop Director settings are not suitable.",
+      "Anchor": "#configure-next-hop-ia-connect-director",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyFile",
+      "Name": "Copy file",
+      "Description": "Copies a file on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#copy-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyFileFromClientToServer",
+      "Name": "Copy file from client to server",
+      "Description": "Copies a file from the local computer (running the IA-Connect Director) to the remote computer (running the IA-Connect Agent).",
+      "Anchor": "#copy-file-from-client-to-server",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyFileToClipboard",
+      "Name": "Copy file to clipboard",
+      "Description": "Copies the specified local file to the clipboard in the IA-Connect Agent user session.",
+      "Anchor": "#copy-file-to-clipboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDirectory",
+      "Name": "Create directory",
+      "Description": "Creates a directory (folder) on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#create-directory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteDirectory",
+      "Name": "Delete directory",
+      "Description": "Deletes a directory (folder) on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#delete-directory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFile",
+      "Name": "Delete file",
+      "Description": "Deletes a file on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#delete-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFiles",
+      "Name": "Delete files",
+      "Description": "Deletes files within a specified folder matching a pattern on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#delete-files",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DirectoryExists",
+      "Name": "Does directory exist",
+      "Description": "Reports true or false as to whether a directory (folder) exists on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#does-directory-exist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DirectoryIsAccessible",
+      "Name": "Is directory accessible",
+      "Description": "Returns whether a directory (folder) is accessible and whether permissions are restricting access to it on the computer where the IA-Connect Agent.",
+      "Anchor": "#is-directory-accessible",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DisableNextHop",
+      "Name": "Disable IA-Connect next hop",
+      "Description": "Disables next-hop so that all future commands will be processed by the Agent which receives them (as opposed to being forwarded on to the next hop Agent).",
+      "Anchor": "#disable-ia-connect-next-hop",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DisconnectSession",
+      "Name": "Disconnect remote session",
+      "Description": "Disconnects the remote session where the IA-Connect Agent is running. This is not the same as logging off and will leave the remote session running in a disconnected state. This action can be used where you wish to connect back to the remote session later and continue from the same state, rather than starting a new session.",
+      "Anchor": "#disconnect-remote-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DoesIAConnectSessionExistByName",
+      "Name": "Does IA-Connect session exist by name",
+      "Description": "Returns if the specified IA-Connect Director session exists. This is the session into which commands to an IA-Connect Agent are sent. The name will be known from an earlier 'Attach' action.",
+      "Anchor": "#does-ia-connect-session-exist-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DoubleLeftClickMouse",
+      "Name": "Double left click mouse",
+      "Description": "Double clicks the left mouse button in the IA-Connect Agent user session.",
+      "Anchor": "#double-left-click-mouse",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DoubleLeftClickMouseAtCoordinate",
+      "Name": "Double left click mouse at coordinate",
+      "Description": "Double clicks the left mouse button in the IA-Connect Agent user session at the specified coordinates.",
+      "Anchor": "#double-left-click-mouse-at-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DownloadHTTPFile",
+      "Name": "Download HTTP file",
+      "Description": "Downloads a file to the computer where the IA-Connect Agent is running using HTTP(S).",
+      "Anchor": "#download-http-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EnableFolderSecurityInheritance",
+      "Name": "Enable folder security inheritance",
+      "Description": "Enables security inheritance on a folder on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#enable-folder-security-inheritance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EnableNextHop",
+      "Name": "Enable IA-Connect next hop",
+      "Description": "Enables the next hop which will forward all future commands received onto the IA-Connect Agent running in the next hop session.",
+      "Anchor": "#enable-ia-connect-next-hop",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExpandEnvironmentVariable",
+      "Name": "Expand environment variable",
+      "Description": "Expands a string containing environment variables (e.g. %USERPROFILE% or %TEMP%) in the IA-Connect Agent user session.",
+      "Anchor": "#expand-environment-variable",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FileExists",
+      "Name": "Does file exist",
+      "Description": "Reports true or false as to whether a file exists on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#does-file-exist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAgentProcessCount",
+      "Name": "Get IA-Connect Agent process count",
+      "Description": "Returns the number of instances of the IA-Connect Agent currently running in the user session. This is useful for detecting if there are multiple instances of the IA-Connect Agent running.",
+      "Anchor": "#get-ia-connect-agent-process-count",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllCommandStats",
+      "Name": "Get all IA-Connect command statistics",
+      "Description": "Returns all currently stored statistics on which commands the IA-Connect Agent has executed in the current session.",
+      "Anchor": "#get-all-ia-connect-command-statistics",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAvailableIAConnectSessions",
+      "Name": "Get available IA-Connect Sessions",
+      "Description": "Retrieves a list of IA-Connect Director sessions (available connections to sessions where the IA-Connect Agent is running, such as local, Microsoft RDP or Citrix ICA).",
+      "Anchor": "#get-available-ia-connect-sessions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetClipboardData",
+      "Name": "Get clipboard",
+      "Description": "Gets the current content of the clipboard in the IA-Connect Agent user session.",
+      "Anchor": "#get-clipboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCSVTextAsCollection",
+      "Name": "Get CSV text as collection",
+      "Description": "Returns a CSV file on the computer where the IA-Connect Agent is running as a collection (table). Only requires read only access to CSV file.",
+      "Anchor": "#get-csv-text-as-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCursorPos",
+      "Name": "Get current mouse coordinate",
+      "Description": "Gets the current mouse cursor position in the IA-Connect Agent user session.",
+      "Anchor": "#get-current-mouse-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDefaultPrinter",
+      "Name": "Get default printer",
+      "Description": "Gets the name of the default printer for the user in the IA-Connect Agent session.",
+      "Anchor": "#get-default-printer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDirectorUpTime",
+      "Name": "Get IA-Connect Director uptime",
+      "Description": "Returns the uptime of this IA-Connect Director in seconds (i.e. how long the Director has been running).",
+      "Anchor": "#get-ia-connect-director-uptime",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDiskFreeSpace",
+      "Name": "Get disk free space",
+      "Description": "Returns the amount of free space for a specified disk on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#get-disk-free-space",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvironmentInfo",
+      "Name": "Get environment info",
+      "Description": "Returns information about the environment in which the IA-Connect Agent user session is running.",
+      "Anchor": "#get-environment-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFiles",
+      "Name": "Get files",
+      "Description": "Returns a list of files in a folder (matching a CSV list of patterns) on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#get-files",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileSecurityPermissions",
+      "Name": "Get file security permissions",
+      "Description": "Returns a list of permissions currently set on a file on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#get-file-security-permissions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileSize",
+      "Name": "Get file size",
+      "Description": "Returns the size (in bytes) of a file on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#get-file-size",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFolders",
+      "Name": "Get folders",
+      "Description": "Returns all sub-folders within a specified folder on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#get-folders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFolderSecurityPermissions",
+      "Name": "Get folder security permissions",
+      "Description": "Returns a list of permissions currently set on a folder on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#get-folder-security-permissions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIAConnectAgentInfo",
+      "Name": "Get IA-Connect Agent info",
+      "Description": "Returns the properties of the IA-Connect Agent, including the version number and the path to the Agent executable.",
+      "Anchor": "#get-ia-connect-agent-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIAConnectAgentLog",
+      "Name": "Get IA-Connect Agent log",
+      "Description": "Returns the current IA-Connect Agent log, either as a file or by reading the contents and returning it in an output variable.",
+      "Anchor": "#get-ia-connect-agent-log",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLastInputInfo",
+      "Name": "Get last input info",
+      "Description": "Gets the time since the last user input was received in the IA-Connect Agent user session.",
+      "Anchor": "#get-last-input-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLicenseState",
+      "Name": "Get IA-Connect Agent current license state",
+      "Description": "Returns whether the IA-Connect Agent is currently licensed and if licensed, the properties of the license.",
+      "Anchor": "#get-ia-connect-agent-current-license-state",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetListOfDrives",
+      "Name": "Get list of drives",
+      "Description": "Returns a list of drives on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#get-list-of-drives",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetListOfPrinters",
+      "Name": "Get list of printers",
+      "Description": "Returns a list of all available printers in the IA-Connect Agent session.",
+      "Anchor": "#get-list-of-printers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMachineDomain",
+      "Name": "Get machine domain",
+      "Description": "Returns the domain of the machine that is running the IA-Connect Agent user session.",
+      "Anchor": "#get-machine-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMachineName",
+      "Name": "Get machine name",
+      "Description": "Returns the name of the machine that is running the IA-Connect Agent user session.",
+      "Anchor": "#get-machine-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMouseMoveMethod",
+      "Name": "Get mouse move method",
+      "Description": "Gets the current mouse move method.",
+      "Anchor": "#get-mouse-move-method",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNextHopStatus",
+      "Name": "Get IA-Connect next hop status",
+      "Description": "Reports on the next hop Director status for the Agent which receives this command. If next-hop is enabled, that Agent is forwarding commands to the next hop (via the next-hop Director). If next-hop is disabled, that Agent is processing commands itself (the default).",
+      "Anchor": "#get-ia-connect-next-hop-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetParentProcessId",
+      "Name": "Get parent process Id",
+      "Description": "Returns the process Id of the parent process for any running process in the IA-Connect Agent user session which has the specified process Id.",
+      "Anchor": "#get-parent-process-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProcessByPID",
+      "Name": "Get process by process Id",
+      "Description": "Returns whether a process with the specified process Id is running in the IA-Connect Agent user session. Process Ids are unique so only one process can match the Id. Process Ids are dynamic and are different for every launch of an application.",
+      "Anchor": "#get-process-by-process-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProcessCountByName",
+      "Name": "Get process count by name",
+      "Description": "Returns a count of running processes in the IA-Connect Agent user session which has the specified process name.",
+      "Anchor": "#get-process-count-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProcesses",
+      "Name": "Get processes",
+      "Description": "Returns a list of running processes in the IA-Connect Agent user session. This can optionally be filtered by providing a process name.",
+      "Anchor": "#get-processes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProcessIdCommandLine",
+      "Name": "Get process Id command line properties",
+      "Description": "Returns the command line properties for any running process in the IA-Connect Agent user session which has the specified process Id.",
+      "Anchor": "#get-process-id-command-line-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRemoteLoggingLevel",
+      "Name": "Get IA-Connect Agent log level",
+      "Description": "Returns the current IA-Connect Agent logging level. The logging levels are set from 1 to 4, with 1 being the lowest level and 4 being the highest.",
+      "Anchor": "#get-ia-connect-agent-log-level",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRemoteSessionClientHostname",
+      "Name": "Get client hostname",
+      "Description": "Returns the hostname of the client where the IA-Connect Director is running.",
+      "Anchor": "#get-client-hostname",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRemoteSessionInfo",
+      "Name": "Get IA-Connect Agent session info",
+      "Description": "Returns information about the IA-Connect Agent user session.",
+      "Anchor": "#get-ia-connect-agent-session-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetScreenResolution",
+      "Name": "Get screen resolution",
+      "Description": "Returns the screen resolution of the IA-Connect Agent user session (as seen by the user session).",
+      "Anchor": "#get-screen-resolution",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsScreenReaderEnabled",
+      "Name": "Is screen reader enabled",
+      "Description": "Returns whether the screen reader has been enabled in the IA-Connect Agent user session.",
+      "Anchor": "#is-screen-reader-enabled",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "KeepSessionAlive",
+      "Name": "Keep session alive",
+      "Description": "Keeps the IA-Connect Agent user session alive by moving the mouse at the specified interval to prevent the session from becoming idle.",
+      "Anchor": "#keep-session-alive",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "KillAllOtherAgents",
+      "Name": "Kill all other IA-Connect Agents",
+      "Description": "Kills any other instances of the IA-Connect Agent that are currently running in the user session. This will ensure that only one instance of the IA-Connect Agent is running.",
+      "Anchor": "#kill-all-other-ia-connect-agents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "KillIAConnectSessionByName",
+      "Name": "Kill IA-Connect session by name",
+      "Description": "Kills the specified IA-Connect Director session if it exists. This is the session into which commands to an IA-Connect Agent are sent. The name will be known from an earlier 'Attach' action.",
+      "Anchor": "#kill-ia-connect-session-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "KillProcess",
+      "Name": "Kill process",
+      "Description": "Kills any running process in the IA-Connect Agent user session which has the specified process name.",
+      "Anchor": "#kill-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "KillProcessID",
+      "Name": "Kill process ID",
+      "Description": "Kills a running process in the IA-Connect Agent user session which has the specified process Id. Process Ids are unique so only one process can match the Id. Process Ids are dynamic and are different for every launch of an application.",
+      "Anchor": "#kill-process-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LeftClickMouse",
+      "Name": "Left click mouse",
+      "Description": "Clicks the left mouse button in the IA-Connect Agent user session.",
+      "Anchor": "#left-click-mouse",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LeftClickMouseAtCoordinate",
+      "Name": "Left click mouse at coordinate",
+      "Description": "Clicks the left mouse button in the IA-Connect Agent user session at the specified coordinates.",
+      "Anchor": "#left-click-mouse-at-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LeftHoldMouse",
+      "Name": "Left hold mouse",
+      "Description": "Holds the left mouse button in the IA-Connect Agent user session for the specified amount of seconds.",
+      "Anchor": "#left-hold-mouse",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LeftHoldMouseAtCoordinate",
+      "Name": "Left hold mouse at coordinate",
+      "Description": "Holds the left mouse button at the specified coordinates in the IA-Connect Agent user session for the specified amount of seconds.",
+      "Anchor": "#left-hold-mouse-at-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LeftMouseButtonDown",
+      "Name": "Left mouse button down",
+      "Description": "Presses (and does not release) the left mouse button in the IA-Connect Agent user session. To release the mouse, use the left mouse button up action.",
+      "Anchor": "#left-mouse-button-down",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LeftMouseButtonUp",
+      "Name": "Left mouse button up",
+      "Description": "Releases the left mouse button in the IA-Connect Agent user session.",
+      "Anchor": "#left-mouse-button-up",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LeftMouseDragBetweenCoordinates",
+      "Name": "Left mouse drag between coordinates",
+      "Description": "Performs a left mouse button drag between the two specified coordinates in the IA-Connect Agent user session.",
+      "Anchor": "#left-mouse-drag-between-coordinates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LogoffSession",
+      "Name": "Logoff remote session",
+      "Description": "Logs off the remote session where the IA-Connect Agent is running.",
+      "Anchor": "#logoff-remote-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MiddleClickMouse",
+      "Name": "Middle click mouse",
+      "Description": "Clicks the middle mouse button in the IA-Connect Agent user session.",
+      "Anchor": "#middle-click-mouse",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MiddleClickMouseAtCoordinate",
+      "Name": "Middle click mouse at coordinate",
+      "Description": "Clicks the middle mouse button in the IA-Connect Agent user session at the specified coordinates.",
+      "Anchor": "#middle-click-mouse-at-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MiddleHoldMouse",
+      "Name": "Middle hold mouse",
+      "Description": "Holds the middle mouse button in the IA-Connect Agent user session for the specified amount of seconds.",
+      "Anchor": "#middle-hold-mouse",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MiddleHoldMouseAtCoordinate",
+      "Name": "Middle hold mouse at coordinate",
+      "Description": "Holds the middle mouse button at the specified coordinates in the IA-Connect Agent user session for the specified amount of seconds.",
+      "Anchor": "#middle-hold-mouse-at-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MiddleMouseButtonDown",
+      "Name": "Middle mouse button down",
+      "Description": "Presses (and does not release) the middle mouse button in the IA-Connect Agent user session. To release the mouse, use the middle mouse button up action.",
+      "Anchor": "#middle-mouse-button-down",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MiddleMouseButtonUp",
+      "Name": "Middle mouse button up",
+      "Description": "Releases the middle mouse button in the IA-Connect Agent user session.",
+      "Anchor": "#middle-mouse-button-up",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MiddleMouseDragBetweenCoordinates",
+      "Name": "Middle mouse drag between coordinates",
+      "Description": "Performs a middle mouse button drag between the two specified coordinates in the IA-Connect Agent user session.",
+      "Anchor": "#middle-mouse-drag-between-coordinates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveFile",
+      "Name": "Move file",
+      "Description": "Moves a file on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#move-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveMouseRelative",
+      "Name": "Move mouse relative",
+      "Description": "Moves the mouse in the IA-Connect Agent user session by the specified number of pixels, relative to it's current position.",
+      "Anchor": "#move-mouse-relative",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveMouseToCoordinate",
+      "Name": "Move mouse to coordinate",
+      "Description": "Moves the mouse in the IA-Connect Agent user session to the specified pixel coordinates.",
+      "Anchor": "#move-mouse-to-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PurgeDirectory",
+      "Name": "Purge directory",
+      "Description": "Purges a directory (folder) on the computer where the IA-Connect Agent is running, removing all files stored within the directory.",
+      "Anchor": "#purge-directory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadAllTextFromFile",
+      "Name": "Read all text from file",
+      "Description": "Reads the text contents of a file on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#read-all-text-from-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveIdentityFromFileSecurity",
+      "Name": "Remove identity from file security",
+      "Description": "Removes an identity (e.g. user, group or computer) from the security permissions on a file on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#remove-identity-from-file-security",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveIdentityFromFolderSecurity",
+      "Name": "Remove identity from folder security",
+      "Description": "Removes an identity (e.g. a user, group or computer) from the security permissions on a folder on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#remove-identity-from-folder-security",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplaceVariableDataInINIFile",
+      "Name": "Replace variable data in INI file",
+      "Description": "Updates a single variable in an INI file.",
+      "Anchor": "#replace-variable-data-in-ini-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResetCommandStats",
+      "Name": "Reset IA-Connect command statistics",
+      "Description": "Resets any currently stored statistics on which commands the IA-Connect Agent has executed in the current session.",
+      "Anchor": "#reset-ia-connect-command-statistics",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResetNextHopDirectorSettings",
+      "Name": "Reset next hop IA-Connect Director settings",
+      "Description": "Resets any custom IA-Connect Director settings that have been set, restoring the default settings.",
+      "Anchor": "#reset-next-hop-ia-connect-director-settings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RightClickMouse",
+      "Name": "Right click mouse",
+      "Description": "Clicks the right mouse button in the IA-Connect Agent user session.",
+      "Anchor": "#right-click-mouse",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RightClickMouseAtCoordinate",
+      "Name": "Right click mouse at coordinate",
+      "Description": "Clicks the right mouse button in the IA-Connect Agent user session at the specified coordinates.",
+      "Anchor": "#right-click-mouse-at-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RightHoldMouse",
+      "Name": "Right hold mouse",
+      "Description": "Holds the right mouse button in the IA-Connect Agent user session for the specified amount of seconds.",
+      "Anchor": "#right-hold-mouse",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RightHoldMouseAtCoordinate",
+      "Name": "Right hold mouse at coordinate",
+      "Description": "Holds the right mouse button at the specified coordinates in the IA-Connect Agent user session for the specified amount of seconds.",
+      "Anchor": "#right-hold-mouse-at-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RightMouseButtonDown",
+      "Name": "Right mouse button down",
+      "Description": "Presses (and does not release) the right mouse button in the IA-Connect Agent user session. To release the mouse, use the right mouse button up action.",
+      "Anchor": "#right-mouse-button-down",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RightMouseButtonUp",
+      "Name": "Right mouse button up",
+      "Description": "Releases the right mouse button in the IA-Connect Agent user session.",
+      "Anchor": "#right-mouse-button-up",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RightMouseDragBetweenCoordinates",
+      "Name": "Right mouse drag between coordinates",
+      "Description": "Performs a right mouse button drag between the two specified coordinates in the IA-Connect Agent user session.",
+      "Anchor": "#right-mouse-drag-between-coordinates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunAlternativeIAConnect",
+      "Name": "Run alternative IA-Connect Agent",
+      "Description": "Runs an alternative IA-Connect Agent (for example a later version) by loading the Agent executable from a file location.",
+      "Anchor": "#run-alternative-ia-connect-agent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunAlternativeIAConnectSentFromDirector",
+      "Name": "Run alternative IA-Connect Agent sent from director",
+      "Description": "Runs an alternative IA-Connect Agent (for example a later version) by uploading the alternative Agent from the IA-Connect Director and then loading the alternative Agent executable.",
+      "Anchor": "#run-alternative-ia-connect-agent-sent-from-director",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunProcess",
+      "Name": "Run process",
+      "Description": "Launch a process, command or application.",
+      "Anchor": "#run-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendKeyEvents",
+      "Name": "Send key events",
+      "Description": "Sends global key press events to the IA-Connect Agent user session.",
+      "Anchor": "#send-key-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendKeys",
+      "Name": "Send keys",
+      "Description": "Sends global key presses to the IA-Connect Agent user session.",
+      "Anchor": "#send-keys",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendPasswordKeyEvents",
+      "Name": "Send password key events",
+      "Description": "Sends global key press events to the IA-Connect Agent user session, specifically for entering a password.",
+      "Anchor": "#send-password-key-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendPasswordKeys",
+      "Name": "Send password keys",
+      "Description": "Sends global key presses to the IA-Connect Agent user session, specifically for entering a password.",
+      "Anchor": "#send-password-keys",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetClipboardData",
+      "Name": "Set clipboard",
+      "Description": "Sets the content of the clipboard in the IA-Connect Agent user session.",
+      "Anchor": "#set-clipboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetCursorPos",
+      "Name": "Set mouse cursor position",
+      "Description": "Sets the mouse cursor in the IA-Connect Agent user session to the specified position.",
+      "Anchor": "#set-mouse-cursor-position",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetDefaultPrinter",
+      "Name": "Set default printer",
+      "Description": "Sets the default printer for the user in the IA-Connect Agent session.",
+      "Anchor": "#set-default-printer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetLicenseCode",
+      "Name": "Set IA-Connect license code",
+      "Description": "Uploads an old-style (7.0 and 7.1) Agent domain license to the IA-Connect Agent.",
+      "Anchor": "#set-ia-connect-license-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetLicenseString",
+      "Name": "Set IA-Connect license key",
+      "Description": "Uploads an new-style (7.2 onwards) license to the IA-Connect Agent.",
+      "Anchor": "#set-ia-connect-license-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetLocalLoggingLevel",
+      "Name": "Set IA-Connect Director log level",
+      "Description": "Sets the IA-Connect Director logging level to the specified value (1 being the lowest level and 4 being the highest).",
+      "Anchor": "#set-ia-connect-director-log-level",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetMouseMoveMethod",
+      "Name": "Set mouse move method",
+      "Description": "Sets the current mouse move method to either mouse_event or setcursorpos.",
+      "Anchor": "#set-mouse-move-method",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetMouseMultiplier",
+      "Name": "Set mouse multiplier",
+      "Description": "Sets the mouse multiplier in the IA-Connect Agent user session. This can be useful during development if you encounter issues with remote desktop scaling.",
+      "Anchor": "#set-mouse-multiplier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetOwnerOnFile",
+      "Name": "Set owner on file",
+      "Description": "Sets the owner on a file on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#set-owner-on-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetOwnerOnFolder",
+      "Name": "Set owner on folder",
+      "Description": "Sets the owner on a folder on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#set-owner-on-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetRemoteLoggingLevel",
+      "Name": "Set IA-Connect Agent log level",
+      "Description": "Sets the IA-Connect Agent logging level to the specified value (1 being the lowest level and 4 being the highest).",
+      "Anchor": "#set-ia-connect-agent-log-level",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetRPACommandTimeout",
+      "Name": "Set IA-Connect Agent command timeout",
+      "Description": "Sets the command timeout that the IA-Connect Agent will use for each command that is executed.",
+      "Anchor": "#set-ia-connect-agent-command-timeout",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetRSAGUIOpacity",
+      "Name": "Set IA-Connect Agent GUI opacity",
+      "Description": "Sets the opacity of the IA-Connect Agent from 1 (visible) to 0 (transparent).",
+      "Anchor": "#set-ia-connect-agent-gui-opacity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetRSAGUIPosition",
+      "Name": "Set IA-Connect Agent GUI position",
+      "Description": "Sets the onscreen position of the IA-Connect Agent GUI to the specified location.",
+      "Anchor": "#set-ia-connect-agent-gui-position",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetRSAGUITopmost",
+      "Name": "Set IA-Connect Agent GUI topmost",
+      "Description": "Sets the IA-Connect Agent as topmost. This means that the IA-Connect Agent will always be visible on screen and cannot be hidden behind other application windows.",
+      "Anchor": "#set-ia-connect-agent-gui-topmost",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetScreenReader",
+      "Name": "Set screen reader",
+      "Description": "Enables or disables the screen reader in the IA-Connect Agent user session.",
+      "Anchor": "#set-screen-reader",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StopKeepSessionAlive",
+      "Name": "Stop keep session alive",
+      "Description": "Stops the IA-Connect Agent user session keep alive.",
+      "Anchor": "#stop-keep-session-alive",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TakeScreenshot",
+      "Name": "Take screenshot",
+      "Description": "Takes a screenshot of the IA-Connect Agent user session and returns it as a Base64 encoded string.",
+      "Anchor": "#take-screenshot",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TurnMouseWheel",
+      "Name": "Turn mouse wheel",
+      "Description": "Turns the mouse wheel (positive or negative notches) in the IA-Connect Agent user session.",
+      "Anchor": "#turn-mouse-wheel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnZIPFile",
+      "Name": "UnZIP file",
+      "Description": "Unzips a file which has been compressed using ZIP compression.",
+      "Anchor": "#unzip-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WaitForIAConnectSessionToCloseByName",
+      "Name": "Wait for IA-Connect session to close by name",
+      "Description": "Waits for the specified IA-Connect Director session to close. This is the session into which commands to an IA-Connect Agent are sent. The name will be known from an earlier 'Attach' action.",
+      "Anchor": "#wait-for-ia-connect-session-to-close-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WaitForNextHopSessionToConnect",
+      "Name": "Wait for IA-Connect next hop session to connect",
+      "Description": "Waits for the next hop session to connect and for the IA-Connect Agent to be running in the next hop session.",
+      "Anchor": "#wait-for-ia-connect-next-hop-session-to-connect",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WiggleMouse",
+      "Name": "Wiggle mouse",
+      "Description": "Moves the mouse back and forth by the specified number of coordinates.",
+      "Anchor": "#wiggle-mouse",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkflowCompleted",
+      "Name": "Mark Flow as complete",
+      "Description": "Mark a Flow as complete, which informs the IA-Connect Orchestrator that the assigned worker machine is now available to process other Flows.",
+      "Anchor": "#mark-flow-as-complete",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WriteTextFile",
+      "Name": "Write text file",
+      "Description": "Creates a text file on the computer where the IA-Connect Agent is running and writes text into the file.",
+      "Anchor": "#write-text-file",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "UniqueName": "accuweatherip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../accuweatherip/",
+  "Actions": [
+    {
+      "OperationId": "AdminAreas",
+      "Name": "Get Admin Area List",
+      "Description": "Returns basic information about administrative areas in the specified country.",
+      "Anchor": "#get-admin-area-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AutocompleteCities",
+      "Name": "Autocomplete search (Cities)",
+      "Description": "Returns basic information about locations matching an autocomplete of the search text.",
+      "Anchor": "#autocomplete-search-(cities)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CountryList",
+      "Name": "Get Country List",
+      "Description": "Returns basic information about all countries within a specified region.",
+      "Anchor": "#get-country-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CurrentConditions",
+      "Name": "Get Current Conditions",
+      "Description": "Returns current conditions data for a specific location. Current conditions searches require a location key. Please use the Locations API to obtain the location key for your desired location. By default, a truncated version of the current conditions data is returned. The full object can be obtained by passing &quot;details=true&quot; into the url string.",
+      "Anchor": "#get-current-conditions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CurrentConditionsTopCities",
+      "Name": "Get Current Conditions for Top Cities",
+      "Description": "Returns current conditions data for the top 50, 100, or 150 cities worldwide, based on rank.",
+      "Anchor": "#get-current-conditions-for-top-cities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DailyForcasts",
+      "Name": "Get Daily Forecasts",
+      "Description": "Returns daily forecast data for a specific location.",
+      "Anchor": "#get-daily-forecasts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DailyIndexValuesByGroupOfIndicies",
+      "Name": "Get Daily Index Values for a Group of Indices",
+      "Description": "Returns daily index data for a specific group of indices, by location key.",
+      "Anchor": "#get-daily-index-values-for-a-group-of-indices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DailyIndexValuesBySpecificIndex",
+      "Name": "Get Daily Index Values for a Specific Index",
+      "Description": "Returns daily index data for a specific index, by location key. Not all daily indices data are available for retrieval, check (https://developer.accuweather.com/list-available-daily-indices)",
+      "Anchor": "#get-daily-index-values-for-a-specific-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DailyIndexValuesForAllIndices",
+      "Name": "Get Daily Index Values for for All Indices",
+      "Description": "Returns daily index data for all indices, by location key.",
+      "Anchor": "#get-daily-index-values-for-for-all-indices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GeopositionSearch",
+      "Name": "Geoposition Search (Latitude and Longitude)",
+      "Description": "Returns information about a specific location, by GeoPosition (Latitude and Longitude).",
+      "Anchor": "#geoposition-search-(latitude-and-longitude)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HistoricalCurrentConditions24H",
+      "Name": "Get Historical Current Conditions (past 24 hours)",
+      "Description": "Returns historical current conditions data for a specific location. Current conditions searches require a location key. Please use the Locations API to obtain the location key for your desired location. By default, a truncated version of the current conditions data is returned. The full object can be obtained by passing &quot;details=true&quot; into the url string.",
+      "Anchor": "#get-historical-current-conditions-(past-24-hours)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HistoricalCurrentConditions6H",
+      "Name": "Get Historical Current Conditions (past 6 hours)",
+      "Description": "Returns historical current conditions data for a specific location. Current conditions searches require a location key. Please use the Locations API to obtain the location key for your desired location. By default, a truncated version of the current conditions data is returned. The full object can be obtained by passing &quot;details=true&quot; into the url string.",
+      "Anchor": "#get-historical-current-conditions-(past-6-hours)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HourlyForcasts",
+      "Name": "Get Hourly Forecasts",
+      "Description": "Returns forecast data for the next hour(s) for a specific location.",
+      "Anchor": "#get-hourly-forecasts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListDailyIndices",
+      "Name": "Get List of Daily Indices",
+      "Description": "Returns metadata for all daily indices.",
+      "Anchor": "#get-list-of-daily-indices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListIndexGroups",
+      "Name": "Get List of Index Groups",
+      "Description": "Returns metadata for all index groups.",
+      "Anchor": "#get-list-of-index-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOfIndiciesInAGroupByGroupID",
+      "Name": "Get List of Indices in a Specific Group",
+      "Description": "Returns metadata for all indices in a specified group.",
+      "Anchor": "#get-list-of-indices-in-a-specific-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RegionList",
+      "Name": "Get Region List",
+      "Description": "Returns basic information about all regions.",
+      "Anchor": "#get-region-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TopCitiesList",
+      "Name": "Get Top Cities List",
+      "Description": "Returns information for the top 50, 100, or 150 cities, worldwide.",
+      "Anchor": "#get-top-cities-list",
+      "IsDeprecated": false
+    }
+  ]
+}
