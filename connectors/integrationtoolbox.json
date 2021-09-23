@@ -1,0 +1,69 @@
+{
+  "UniqueName": "integrationtoolbox",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../integrationtoolbox/",
+  "Actions": [
+    {
+      "OperationId": "Compress",
+      "Name": "Compress data",
+      "Description": "Compress data using GZip, Brotli, or Deflate.",
+      "Anchor": "#compress-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertEncoding",
+      "Name": "Convert encoding",
+      "Description": "Convert from one encoding to another.",
+      "Anchor": "#convert-encoding",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CsvToJson",
+      "Name": "CSV to JSON",
+      "Description": "Convert CSV to JSON.",
+      "Anchor": "#csv-to-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Decompress",
+      "Name": "Decompress data",
+      "Description": "Decompress data compressed with Gzip, Brotli, or Deflate.",
+      "Anchor": "#decompress-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FixedWidthToJson",
+      "Name": "Fixed width to JSON",
+      "Description": "Convert fixed width text to JSON.",
+      "Anchor": "#fixed-width-to-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PGPDecrypt",
+      "Name": "PGP decrypt",
+      "Description": "Decrypt data encrypted with PGP.",
+      "Anchor": "#pgp-decrypt",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PGPEncrypt",
+      "Name": "PGP encrypt",
+      "Description": "Encrypt data with PGP.",
+      "Anchor": "#pgp-encrypt",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PGPGenerateKeys",
+      "Name": "PGP generate keys",
+      "Description": "Generate a PGP public and private key.",
+      "Anchor": "#pgp-generate-keys",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SortJson",
+      "Name": "Sort JSON",
+      "Description": "Sort JSON.",
+      "Anchor": "#sort-json",
+      "IsDeprecated": false
+    }
+  ]
+}

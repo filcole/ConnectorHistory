@@ -207,9 +207,9 @@
     },
     {
       "OperationId": "FlowV1ProcessesFlowTriggersPost",
-      "Name": "Triggers when a process is finished",
+      "Name": "When process is finished",
       "Description": "Creates a webhook that runs when the process is finished",
-      "Anchor": "#triggers-when-a-process-is-finished",
+      "Anchor": "#when-process-is-finished",
       "IsDeprecated": false
     }
   ]

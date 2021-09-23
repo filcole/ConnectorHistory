@@ -668,6 +668,13 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../adobesign/",
     "Actions": [
       {
+        "OperationId": "CancelAgreement",
+        "Name": "Cancel an agreement",
+        "Description": "Cancels the agreement identified by agreementId in the path.",
+        "Anchor": "#cancel-an-agreement",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateAgreementById_V2",
         "Name": "Create an agreement from an uploaded document and send for signature",
         "Description": "This operation creates an agreement from a document uploaded in Adobe Sign and sends it for signature.",
@@ -5274,10 +5281,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ExecutePassThroughNativeQueryV2",
+        "Name": "Execute a SQL query (V2)",
+        "Description": "Execute a SQL query",
+        "Anchor": "#execute-a-sql-query-(v2)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ExecuteProcedure",
         "Name": "Execute stored procedure",
         "Description": "This operation runs a stored procedure.",
         "Anchor": "#execute-stored-procedure",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExecuteProcedureV2",
+        "Name": "Execute stored procedure (V2)",
+        "Description": "This operation runs a stored procedure.",
+        "Anchor": "#execute-stored-procedure-(v2)",
         "IsDeprecated": false
       },
       {
@@ -5288,10 +5309,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetItemsV2",
+        "Name": "Get rows (V2)",
+        "Description": "This operation gets rows from a table.",
+        "Anchor": "#get-rows-(v2)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetTables",
         "Name": "Get tables",
         "Description": "This operation gets tables from a database.",
         "Anchor": "#get-tables",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTablesV2",
+        "Name": "Get tables (V2)",
+        "Description": "This operation gets tables from a database.",
+        "Anchor": "#get-tables-(v2)",
         "IsDeprecated": false
       }
     ]
@@ -11974,10 +12009,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "AnalyzeImageV3",
+        "Name": "Analyze Image (V3) (Preview)",
+        "Description": "This operation extracts a rich set of visual features based on the image content.",
+        "Anchor": "#analyze-image-(v3)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "DescribeImageContentV2",
         "Name": "Describe Image Content",
         "Description": "This operation generates a description of image content in human readable language with complete sentences.",
         "Anchor": "#describe-image-content",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DescribeImageContentV3",
+        "Name": "Describe Image Content (V3) (Preview)",
+        "Description": "This operation generates a description of image content in human readable language with complete sentences.",
+        "Anchor": "#describe-image-content-(v3)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -11988,10 +12037,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "DescribeImageURLV3",
+        "Name": "Describe Image URL (V3) (Preview)",
+        "Description": "This operation generates a description of an image URL in human readable language with complete sentences.",
+        "Anchor": "#describe-image-url-(v3)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "DescribeImageV2",
         "Name": "Describe Image",
         "Description": "This operation generates a description of an image in human readable language with complete sentences.",
         "Anchor": "#describe-image",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DescribeImageV3",
+        "Name": "Describe Image (V3) (Preview)",
+        "Description": "This operation generates a description of an image in human readable language with complete sentences.",
+        "Anchor": "#describe-image-(v3)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -12002,10 +12065,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "DetectObjectsV3",
+        "Name": "Detect Objects (V3) (Preview)",
+        "Description": "Generates a list of deteced objects in the supplied image.",
+        "Anchor": "#detect-objects-(v3)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetAreaOfInterest",
         "Name": "Get Area of Interest",
         "Description": "Returns a bounding box around the most important area of the image.",
         "Anchor": "#get-area-of-interest",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAreaOfInterestV3",
+        "Name": "Get Area of Interest (V3) (Preview)",
+        "Description": "Returns a bounding box around the most important area of the image.",
+        "Anchor": "#get-area-of-interest-(v3)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -12016,10 +12093,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetThumbnailV3",
+        "Name": "Generate Thumbnail (V3) (Preview)",
+        "Description": "This operation generates a thumbnail image with the user-specified width and height.",
+        "Anchor": "#generate-thumbnail-(v3)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "OCRTextV2",
         "Name": "Optical Character Recognition (OCR) to Text",
         "Description": "Optical Character Recognition (OCR) detects text in an image and extracts the recognized characters into a text file.",
         "Anchor": "#optical-character-recognition-(ocr)-to-text",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OCRTextV3",
+        "Name": "Optical Character Recognition (OCR) to Text (V3) (Preview)",
+        "Description": "Optical Character Recognition (OCR) detects text in an image and extracts the recognized characters into a text file.",
+        "Anchor": "#optical-character-recognition-(ocr)-to-text-(v3)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -12030,6 +12121,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "OCRV3",
+        "Name": "Optical Character Recognition (OCR) to JSON (V3) (Preview)",
+        "Description": "Optical Character Recognition (OCR) detects text in an image and extracts the recognized characters into a machine-usable JSON stream.",
+        "Anchor": "#optical-character-recognition-(ocr)-to-json-(v3)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "RecognizeDomainSpecificContentV2",
         "Name": "Recognize Domain Specific Content",
         "Description": "Recognize celebrities or landmarks in an image.",
@@ -12037,10 +12135,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "RecognizeDomainSpecificContentV3",
+        "Name": "Recognize Domain Specific Content (V3) (Preview)",
+        "Description": "Recognize celebrities or landmarks in an image.",
+        "Anchor": "#recognize-domain-specific-content-(v3)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "TagImageV2",
         "Name": "Tag Image",
         "Description": "Generates a list of words, or tags, that are relevant to the content of the supplied image.",
         "Anchor": "#tag-image",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TagImageV3",
+        "Name": "Tag Image (V3) (Preview)",
+        "Description": "Generates a list of words, or tags, that are relevant to the content of the supplied image.",
+        "Anchor": "#tag-image-(v3)-(preview)",
         "IsDeprecated": false
       }
     ]
@@ -13142,10 +13254,31 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "FindTickets",
+        "Name": "Find tickets",
+        "Description": "Find tickets by keywords or filters.",
+        "Anchor": "#find-tickets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindUserGroups",
+        "Name": "Find user groups",
+        "Description": "Find user groups by keywords or filters.",
+        "Anchor": "#find-user-groups",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GenerateEmailFromTemplate",
         "Name": "Create an email from template",
         "Description": "This operation generates an HTML document from a dynamic email template. Dynamic email templates can be managed in your admin portal.",
         "Anchor": "#create-an-email-from-template",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetChatSession",
+        "Name": "Get a chat session",
+        "Description": "This operation return a chat session's details.",
+        "Anchor": "#get-a-chat-session",
         "IsDeprecated": false
       },
       {
@@ -19615,6 +19748,68 @@
     ]
   },
   {
+    "UniqueName": "farsightdnsdb",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../farsightdnsdb/",
+    "Actions": [
+      {
+        "OperationId": "FLEX",
+        "Name": "Flexible Search",
+        "Description": "Flexible Search adds both Regular Expressions and Globbing support to the DNSDB API to expand the types of search queries and add more control to searches.",
+        "Anchor": "#flexible-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PING",
+        "Name": "Ping",
+        "Description": "This request is for end to end connectivity tests to the DNSDB API endpoint, letting you know that there are no firewall blockages. This request does not require an API key. It returns just a JSON object {'ping': 'ok'}.",
+        "Anchor": "#ping",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RATE_LIMIT",
+        "Name": "Service Limits",
+        "Description": "Retrieve service limits",
+        "Anchor": "#service-limits",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RDATA",
+        "Name": "RData Lookup",
+        "Description": "The RData lookup queries DNSDB's Rdata index, which supports inverse lookups based on Rdata record values.",
+        "Anchor": "#rdata-lookup",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RDATA_RRTYPE",
+        "Name": "RData Lookup with RRType",
+        "Description": "The RData lookup queries DNSDB's Rdata index, which supports inverse lookups based on Rdata record values.",
+        "Anchor": "#rdata-lookup-with-rrtype",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RRSET",
+        "Name": "RRSet Lookup",
+        "Description": "The RRSet lookup queries DNSDB's RRset index, which supports forward lookups based on the owner name of an RRset.",
+        "Anchor": "#rrset-lookup",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RRSET_RRTYPE",
+        "Name": "RRSet Lookup with RRType",
+        "Description": "The RRSet lookup queries DNSDB's RRset index, which supports forward lookups based on the owner name of an RRset.",
+        "Anchor": "#rrset-lookup-with-rrtype",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RRSET_RRTYPE_BAILIWICK",
+        "Name": "RRSet Lookup with RRType and Bailiwick",
+        "Description": "The RRSet lookup queries DNSDB's RRset index, which supports forward lookups based on the owner name of an RRset.",
+        "Anchor": "#rrset-lookup-with-rrtype-and-bailiwick",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "fhirbase",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../fhirbase/",
     "Actions": [
@@ -24223,6 +24418,383 @@
         "Name": "Run PowerShell script",
         "Description": "Runs a PowerShell script in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. This is the recommended action for running your own custom PowerShell code.",
         "Anchor": "#run-powershell-script",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "iaconnectjava",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iaconnectjava/",
+    "Actions": [
+      {
+        "OperationId": "JABCheckElement",
+        "Name": "Check Java element",
+        "Description": "Sets the state of an element (typically a checkbox or radio box) to either checked or unchecked.",
+        "Anchor": "#check-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABConnectToJavaAccessBridge",
+        "Name": "Connect to Java Access Bridge",
+        "Description": "Starts the IA-Connect Java subsystem (IA-JavaAccessBridge) and connects it to the specified Java Access Bridge DLL (or leave blank to search for one). This step must be performed before you can automate Java applications. This action also enables the Java Access Bridge which must be enabled before running any Java applications.",
+        "Anchor": "#connect-to-java-access-bridge",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABCreateHandleForJABElementAtScreenCoordinate",
+        "Name": "Create handle for Java element at screen coordinate",
+        "Description": "Creates a handle to a Java element by providing the screen coordinates. If a Java element exists at the specified coordinate, the action will identify the element and return a handle to it.",
+        "Anchor": "#create-handle-for-java-element-at-screen-coordinate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABDisconnectFromJavaAccessBridge",
+        "Name": "Disconnect from Java Access Bridge",
+        "Description": "Shuts down any running IA-Connect Java subsystem (IA-JavaAccessBridge).",
+        "Anchor": "#disconnect-from-java-access-bridge",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABDoesDesktopElementExist",
+        "Name": "Does Java desktop element exist",
+        "Description": "Reports whether a Java desktop element exists and provides some basic element properties.",
+        "Anchor": "#does-java-desktop-element-exist",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABDoesElementExist",
+        "Name": "Does Java element exist",
+        "Description": "Reports whether a Java element exists and returns some basic element properties.",
+        "Anchor": "#does-java-element-exist",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABDrawRectangleAroundJABElement",
+        "Name": "Draw rectangle around Java element",
+        "Description": "Draws a rectangle around the perimeter of a Java element to aid in identifying that the element found is the one required. The rectangle is automatically removed after 5 seconds.",
+        "Anchor": "#draw-rectangle-around-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABExpandSelection",
+        "Name": "Expand Java selection element",
+        "Description": "Expands or collapses a Java element (typically a menu / dropdown item). If the item is already expanded, nothing will happen.",
+        "Anchor": "#expand-java-selection-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABFocusElement",
+        "Name": "Focus Java element",
+        "Description": "Focusses a Java element which makes it the active element for keyboard focus and, depending on the application, may bring the element window to the foreground.",
+        "Anchor": "#focus-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABFreeAllJABHandles",
+        "Name": "Reset all Java element handles",
+        "Description": "Resets all Java element handles currently stored by IA-Connect which can be useful if you have been identifying a lot of elements and have a large number of element handles stored. In scenarios with extremely high numbers of element handles (100,000+) this action can also be used to free up RAM usage.",
+        "Anchor": "#reset-all-java-element-handles",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetActionsForElement",
+        "Name": "Get actions for Java element",
+        "Description": "Returns the accessible actions for a Java element. These accessible actions can then be performed on the element by using the action name as an input to the action 'Perform action on Java element', for example 'click' or 'select-all'.",
+        "Anchor": "#get-actions-for-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetAllChildJABElementProperties",
+        "Name": "Get all Java child element properties",
+        "Description": "Returns all properties of all Java child elements. This can be useful if you are uncertain which field holds the property values required.",
+        "Anchor": "#get-all-java-child-element-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetChildJABElementProperties",
+        "Name": "Get Java child element properties",
+        "Description": "Returns all properties of a specific Java child element, specified by index. This can be useful if you are uncertain which field holds the property values required.",
+        "Anchor": "#get-java-child-element-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetConnectionStatus",
+        "Name": "Get windows access bridge connection status",
+        "Description": "Returns the current status of the connection between IA-Connect Agent and the Windows Access Bridge (WAB). If IA-Connect Agent is connected to the WAB then the relevant details are returned as outputs.",
+        "Anchor": "#get-windows-access-bridge-connection-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetDesktopElements",
+        "Name": "Get Java desktop elements",
+        "Description": "Returns a list of Java application windows and dialogs on the desktop. You must first connect to the Java Access Bridge.",
+        "Anchor": "#get-java-desktop-elements",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetElementPropertiesAsList",
+        "Name": "Get Java element properties as list",
+        "Description": "Returns the properties of a Java element as a single line list (single line collection / data table) instead of individual items, this maybe useful depending on how you intend to use the data.",
+        "Anchor": "#get-java-element-properties-as-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetElementTextValue",
+        "Name": "Get Java element text value",
+        "Description": "Returns the text value of a Java element. A text value is usually associated with a text element, but many elements can have this property.",
+        "Anchor": "#get-java-element-text-value",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetElementValue",
+        "Name": "Get Java element value",
+        "Description": "Returns the value of an element. A value is usually associated with a text input area, but many elements can have this property.",
+        "Anchor": "#get-java-element-value",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetJABElementProperties",
+        "Name": "Get Java element properties",
+        "Description": "Returns all Java properties of a Java element. This can be useful if you are uncertain which field holds the property values required.",
+        "Anchor": "#get-java-element-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetMultipleParentJABElementProperties",
+        "Name": "Get multiple Java parent element properties",
+        "Description": "Returns the properties of all parent elements of a Java element. This action will search the entire height of the element tree returning all parent properties if the 'Max parents to process' parameter is set high enough.",
+        "Anchor": "#get-multiple-java-parent-element-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetParentJABElementProperties",
+        "Name": "Get Java parent element properties",
+        "Description": "Returns the properties of the parent element of a Java element. This action will only return the properties of the direct parent element and will not search the entire height of the element tree.",
+        "Anchor": "#get-java-parent-element-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetRoleCSVFromElementHandle",
+        "Name": "Get Java role CSV from element handle",
+        "Description": "Returns the tree of element roles below the specified element handle as CSV. This action would only be used for development purposes and provides an overview of the elements of the application which can be useful for visualising the application structure and optimising element searches.",
+        "Anchor": "#get-java-role-csv-from-element-handle",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetRoleCSVFromElementSearch",
+        "Name": "Get Java role CSV from element search",
+        "Description": "Performs a Java element search and outputs the details of the elements searched (up to the point where the element was found) as CSV. This action would only be used for development purposes and provides an overview of the elements of the application which can be useful for visualising the application structure and optimising element searches.",
+        "Anchor": "#get-java-role-csv-from-element-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetSelectionElementItems",
+        "Name": "Get Java selection element items",
+        "Description": "Returns all child selection element items found under the specified Java selection element. You can choose to retrieve the selection element options either by looping through the selection, selecting each individual option in the list OR by reading the labels of the child elements of the selection. If you choose to retrieve the selection element options by reading the labels of the child elements of the selection, you will likely need to expand the selection first by providing the 'Expand first' parameter as 'True' and you can then optionally close the selection afterwards by also providing the 'Collapse after' parameter as 'True'.",
+        "Anchor": "#get-java-selection-element-items",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetSelectionStateByIndex",
+        "Name": "Get Java selection state by index",
+        "Description": "Returns the selection state of a child element in a selection (typically an item in a list or drop-down) by providing the child element index. You can retrieve all selection child element items to check their index by using the action 'Get Java selection element items'.",
+        "Anchor": "#get-java-selection-state-by-index",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetSelectionStateByName",
+        "Name": "Get Java selection state by name",
+        "Description": "Returns the selection state of a child element in a selection (typically an item in a list or drop-down) by providing the child element name. You can retrieve all selection child element items to check their name by using the action 'Get Java selection element items'.",
+        "Anchor": "#get-java-selection-state-by-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetTableCellAtScreenCoordinate",
+        "Name": "Get Java table cell at screen coordinate",
+        "Description": "If a Java table cell that is a child element of the table exists at the specified coordinates, this action will identify the element, its properties and will optionally return a handle to the table cell element.",
+        "Anchor": "#get-java-table-cell-at-screen-coordinate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetTableCellProperties",
+        "Name": "Get Java table cell properties",
+        "Description": "Returns the properties and contents of a specified cell within a Java table element. This is an element with rows, columns, a header and cells (i.e. a table). You can optionally specify whether to determine which if the cell is currently visible on screen and it's coordinates by enumerating the viewport.  The viewport element typically contains the table (e.g. it is a parent element of the table) and represents the visible area of the table.",
+        "Anchor": "#get-java-table-cell-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetTableContents",
+        "Name": "Get Java table contents",
+        "Description": "Returns the contents of a Java table element. This is an element with rows, columns, a header and cells (i.e. a table).",
+        "Anchor": "#get-java-table-contents",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetTableProperties",
+        "Name": "Get Java table properties",
+        "Description": "Returns the properties of a Java table element. This is an element with rows, columns, a header and cells (i.e. a table). You can optionally specify whether to determine which components of the table are currently visible on screen by enumerating the viewport.  The viewport element typically contains the table (e.g. it is a parent element of the table) and represents the visible area of the table.",
+        "Anchor": "#get-java-table-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetUIAElementProperties",
+        "Name": "Get Java properties for UIA element",
+        "Description": "Returns all Java properties of a UIA element. This can be useful if you are uncertain which field holds the property values required.",
+        "Anchor": "#get-java-properties-for-uia-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetVisibleBoundingRectangleOfElementOnscreen",
+        "Name": "Get visible bounding rectangle of Java element",
+        "Description": "Retrieves the visible bounds of a Java element. Typically, the Java Access Bridge will return the virtual positional values of an element, regardless of whether the element is visible on screen and these virtual values are provided by the 'Get Java element properties' action. With larger elements (e.g. a table element which can scroll) as these may not always be visible on screen, this action returns the coordinates of the currently visible area of the element.",
+        "Anchor": "#get-visible-bounding-rectangle-of-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGetWindowsAccessBridgeInfo",
+        "Name": "Get windows access bridge info",
+        "Description": "Returns information about the Windows Access Bridge (WAB) for a particular Java VM ID, including the Java and Windows DLL versions. The Java VM ID can be obtained as an output from the 'Get Java element properties' action.",
+        "Anchor": "#get-windows-access-bridge-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGlobalDoubleLeftMouseClickOnElement",
+        "Name": "Global double left mouse click on Java element",
+        "Description": "Moves the mouse to the centre of a Java element and double clicks the left mouse button.",
+        "Anchor": "#global-double-left-mouse-click-on-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGlobalInputPasswordIntoElement",
+        "Name": "Global input password into Java element",
+        "Description": "Moves the mouse to centre of the Java element, focusses it, left clicks, and presses keys. Typically used with a password input that will not accept native UIA input methods.",
+        "Anchor": "#global-input-password-into-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGlobalInputTextIntoElement",
+        "Name": "Global input text into Java element",
+        "Description": "Moves the mouse to centre of the Java element, focusses it, left clicks, and presses keys. Typically used with a text input that will not accept native UIA input methods.",
+        "Anchor": "#global-input-text-into-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGlobalLeftMouseClickOnElement",
+        "Name": "Global left mouse click on Java element",
+        "Description": "Moves the mouse to the centre of a Java element and clicks the left mouse button.",
+        "Anchor": "#global-left-mouse-click-on-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGlobalMiddleMouseClickOnElement",
+        "Name": "Global middle mouse click on Java element",
+        "Description": "Moves the mouse to the centre of a Java element and clicks the middle mouse button.",
+        "Anchor": "#global-middle-mouse-click-on-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGlobalMouseClickOnTableCell",
+        "Name": "Global mouse click on Java table cell",
+        "Description": "Moves the mouse to the centre of a Java table cell and clicks the specified mouse button.",
+        "Anchor": "#global-mouse-click-on-java-table-cell",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABGlobalRightMouseClickOnElement",
+        "Name": "Global right mouse click on Java element",
+        "Description": "Moves the mouse to the centre of a Java element and clicks the right mouse button.",
+        "Anchor": "#global-right-mouse-click-on-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABInputPasswordIntoElement",
+        "Name": "Input password into Java element",
+        "Description": "Inputs a password into a Java element (typically a password entry field), replacing the existing text.",
+        "Anchor": "#input-password-into-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABInputTextIntoElement",
+        "Name": "Input text into Java element",
+        "Description": "Inputs text into a Java element (typically a text entry field), either replacing the existing text or inserting the new value at a specific position.",
+        "Anchor": "#input-text-into-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABIsJABHandleSameObject",
+        "Name": "Are Java element handles the same",
+        "Description": "Compares two Java element handles for Java elements to see if they represent the same Java object. This can be useful if you have identified an element and retrieved a handle to its parent.",
+        "Anchor": "#are-java-element-handles-the-same",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABIsJavaWindow",
+        "Name": "Is Java window",
+        "Description": "Returns whether a UIA window is a Java element.",
+        "Anchor": "#is-java-window",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABIsTableCellVisibleOnscreen",
+        "Name": "Is Java table cell visible onscreen",
+        "Description": "Returns whether a specific table cell within a Java table element is currently visible onscreen.",
+        "Anchor": "#is-java-table-cell-visible-onscreen",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABPerformActionOnElement",
+        "Name": "Perform action on Java element",
+        "Description": "Performs an accessible action for a Java element. These accessible actions for a specific element can be queried by using the 'Get actions for Java element' action. Some common actions are 'click' for a button or 'select-all' for a text element.",
+        "Anchor": "#perform-action-on-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABPressElement",
+        "Name": "Press Java element",
+        "Description": "Presses a Java element (typically a button).",
+        "Anchor": "#press-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABSetSelectionByIndex",
+        "Name": "Select Java list element by index",
+        "Description": "Selects the list element that matches the specified index. This is typically used to select an item in a dropdown / menu item.",
+        "Anchor": "#select-java-list-element-by-index",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABSetSelectionByName",
+        "Name": "Select Java list element by name",
+        "Description": "Selects the list element with the specified name. This is typically used to select an item in a dropdown / menu item.",
+        "Anchor": "#select-java-list-element-by-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABWaitForDesktopElement",
+        "Name": "Wait for Java desktop element",
+        "Description": "Waits for a Java desktop element (typically a window) to exist.",
+        "Anchor": "#wait-for-java-desktop-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABWaitForDesktopElementToNotExist",
+        "Name": "Wait for Java desktop element to not exist",
+        "Description": "Waits for a Java desktop element (typically a window) to no longer exist.",
+        "Anchor": "#wait-for-java-desktop-element-to-not-exist",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABWaitForElement",
+        "Name": "Wait for Java element",
+        "Description": "Waits for a Java element (typically an individual element within a window such as a button or a text input area) to exist.",
+        "Anchor": "#wait-for-java-element",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JABWaitForElementToNotExist",
+        "Name": "Wait for Java element to not exist",
+        "Description": "Waits for a Java element (typically an individual element within a window such as a button or a text input area) to no longer exist.",
+        "Anchor": "#wait-for-java-element-to-not-exist",
         "IsDeprecated": false
       }
     ]
@@ -29595,6 +30167,75 @@
         "Name": "Watermark PDF (Overlay)",
         "Description": "Add an overlay watermark to the PDF document. https://integrable.net/microsoft-flow/watermark-pdf",
         "Anchor": "#watermark-pdf-(overlay)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "integrationtoolbox",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../integrationtoolbox/",
+    "Actions": [
+      {
+        "OperationId": "Compress",
+        "Name": "Compress data",
+        "Description": "Compress data using GZip, Brotli, or Deflate.",
+        "Anchor": "#compress-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ConvertEncoding",
+        "Name": "Convert encoding",
+        "Description": "Convert from one encoding to another.",
+        "Anchor": "#convert-encoding",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CsvToJson",
+        "Name": "CSV to JSON",
+        "Description": "Convert CSV to JSON.",
+        "Anchor": "#csv-to-json",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Decompress",
+        "Name": "Decompress data",
+        "Description": "Decompress data compressed with Gzip, Brotli, or Deflate.",
+        "Anchor": "#decompress-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FixedWidthToJson",
+        "Name": "Fixed width to JSON",
+        "Description": "Convert fixed width text to JSON.",
+        "Anchor": "#fixed-width-to-json",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PGPDecrypt",
+        "Name": "PGP decrypt",
+        "Description": "Decrypt data encrypted with PGP.",
+        "Anchor": "#pgp-decrypt",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PGPEncrypt",
+        "Name": "PGP encrypt",
+        "Description": "Encrypt data with PGP.",
+        "Anchor": "#pgp-encrypt",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PGPGenerateKeys",
+        "Name": "PGP generate keys",
+        "Description": "Generate a PGP public and private key.",
+        "Anchor": "#pgp-generate-keys",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SortJson",
+        "Name": "Sort JSON",
+        "Description": "Sort JSON.",
+        "Anchor": "#sort-json",
         "IsDeprecated": false
       }
     ]
@@ -36542,9 +37183,9 @@
       },
       {
         "OperationId": "ExecutePassThroughNativeQuery",
-        "Name": "Execute a Oracle query (Preview)",
+        "Name": "Execute a Oracle query",
         "Description": "Execute a Oracle query",
-        "Anchor": "#execute-a-oracle-query-(preview)",
+        "Anchor": "#execute-a-oracle-query",
         "IsDeprecated": false
       },
       {
@@ -38955,9 +39596,9 @@
       },
       {
         "OperationId": "FlowV1ProcessesFlowTriggersPost",
-        "Name": "Triggers when a process is finished",
+        "Name": "When process is finished",
         "Description": "Creates a webhook that runs when the process is finished",
-        "Anchor": "#triggers-when-a-process-is-finished",
+        "Anchor": "#when-process-is-finished",
         "IsDeprecated": false
       }
     ]

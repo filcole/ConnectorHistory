@@ -3,6 +3,13 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../adobesign/",
   "Actions": [
     {
+      "OperationId": "CancelAgreement",
+      "Name": "Cancel an agreement",
+      "Description": "Cancels the agreement identified by agreementId in the path.",
+      "Anchor": "#cancel-an-agreement",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateAgreementById",
       "Name": "Create an agreement from an uploaded document and send for signature (Old) [DEPRECATED]",
       "Description": "This operation creates an agreement from a document uploaded in Adobe Sign and sends it for signature.",

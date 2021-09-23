@@ -10,10 +10,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ExecutePassThroughNativeQueryV2",
+      "Name": "Execute a SQL query (V2)",
+      "Description": "Execute a SQL query",
+      "Anchor": "#execute-a-sql-query-(v2)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ExecuteProcedure",
       "Name": "Execute stored procedure",
       "Description": "This operation runs a stored procedure.",
       "Anchor": "#execute-stored-procedure",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteProcedureV2",
+      "Name": "Execute stored procedure (V2)",
+      "Description": "This operation runs a stored procedure.",
+      "Anchor": "#execute-stored-procedure-(v2)",
       "IsDeprecated": false
     },
     {
@@ -24,10 +38,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetItemsV2",
+      "Name": "Get rows (V2)",
+      "Description": "This operation gets rows from a table.",
+      "Anchor": "#get-rows-(v2)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetTables",
       "Name": "Get tables",
       "Description": "This operation gets tables from a database.",
       "Anchor": "#get-tables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTablesV2",
+      "Name": "Get tables (V2)",
+      "Description": "This operation gets tables from a database.",
+      "Anchor": "#get-tables-(v2)",
       "IsDeprecated": false
     }
   ]

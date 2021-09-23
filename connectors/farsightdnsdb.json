@@ -1,0 +1,62 @@
+{
+  "UniqueName": "farsightdnsdb",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../farsightdnsdb/",
+  "Actions": [
+    {
+      "OperationId": "FLEX",
+      "Name": "Flexible Search",
+      "Description": "Flexible Search adds both Regular Expressions and Globbing support to the DNSDB API to expand the types of search queries and add more control to searches.",
+      "Anchor": "#flexible-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PING",
+      "Name": "Ping",
+      "Description": "This request is for end to end connectivity tests to the DNSDB API endpoint, letting you know that there are no firewall blockages. This request does not require an API key. It returns just a JSON object {'ping': 'ok'}.",
+      "Anchor": "#ping",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RATE_LIMIT",
+      "Name": "Service Limits",
+      "Description": "Retrieve service limits",
+      "Anchor": "#service-limits",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RDATA",
+      "Name": "RData Lookup",
+      "Description": "The RData lookup queries DNSDB's Rdata index, which supports inverse lookups based on Rdata record values.",
+      "Anchor": "#rdata-lookup",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RDATA_RRTYPE",
+      "Name": "RData Lookup with RRType",
+      "Description": "The RData lookup queries DNSDB's Rdata index, which supports inverse lookups based on Rdata record values.",
+      "Anchor": "#rdata-lookup-with-rrtype",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RRSET",
+      "Name": "RRSet Lookup",
+      "Description": "The RRSet lookup queries DNSDB's RRset index, which supports forward lookups based on the owner name of an RRset.",
+      "Anchor": "#rrset-lookup",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RRSET_RRTYPE",
+      "Name": "RRSet Lookup with RRType",
+      "Description": "The RRSet lookup queries DNSDB's RRset index, which supports forward lookups based on the owner name of an RRset.",
+      "Anchor": "#rrset-lookup-with-rrtype",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RRSET_RRTYPE_BAILIWICK",
+      "Name": "RRSet Lookup with RRType and Bailiwick",
+      "Description": "The RRSet lookup queries DNSDB's RRset index, which supports forward lookups based on the owner name of an RRset.",
+      "Anchor": "#rrset-lookup-with-rrtype-and-bailiwick",
+      "IsDeprecated": false
+    }
+  ]
+}

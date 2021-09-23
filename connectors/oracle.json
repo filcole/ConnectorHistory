@@ -11,9 +11,9 @@
     },
     {
       "OperationId": "ExecutePassThroughNativeQuery",
-      "Name": "Execute a Oracle query (Preview)",
+      "Name": "Execute a Oracle query",
       "Description": "Execute a Oracle query",
-      "Anchor": "#execute-a-oracle-query-(preview)",
+      "Anchor": "#execute-a-oracle-query",
       "IsDeprecated": false
     },
     {

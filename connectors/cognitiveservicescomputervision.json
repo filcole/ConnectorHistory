@@ -10,10 +10,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "AnalyzeImageV3",
+      "Name": "Analyze Image (V3) (Preview)",
+      "Description": "This operation extracts a rich set of visual features based on the image content.",
+      "Anchor": "#analyze-image-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "DescribeImageContentV2",
       "Name": "Describe Image Content",
       "Description": "This operation generates a description of image content in human readable language with complete sentences.",
       "Anchor": "#describe-image-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DescribeImageContentV3",
+      "Name": "Describe Image Content (V3) (Preview)",
+      "Description": "This operation generates a description of image content in human readable language with complete sentences.",
+      "Anchor": "#describe-image-content-(v3)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -24,10 +38,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "DescribeImageURLV3",
+      "Name": "Describe Image URL (V3) (Preview)",
+      "Description": "This operation generates a description of an image URL in human readable language with complete sentences.",
+      "Anchor": "#describe-image-url-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "DescribeImageV2",
       "Name": "Describe Image",
       "Description": "This operation generates a description of an image in human readable language with complete sentences.",
       "Anchor": "#describe-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DescribeImageV3",
+      "Name": "Describe Image (V3) (Preview)",
+      "Description": "This operation generates a description of an image in human readable language with complete sentences.",
+      "Anchor": "#describe-image-(v3)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -38,10 +66,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "DetectObjectsV3",
+      "Name": "Detect Objects (V3) (Preview)",
+      "Description": "Generates a list of deteced objects in the supplied image.",
+      "Anchor": "#detect-objects-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetAreaOfInterest",
       "Name": "Get Area of Interest",
       "Description": "Returns a bounding box around the most important area of the image.",
       "Anchor": "#get-area-of-interest",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAreaOfInterestV3",
+      "Name": "Get Area of Interest (V3) (Preview)",
+      "Description": "Returns a bounding box around the most important area of the image.",
+      "Anchor": "#get-area-of-interest-(v3)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -52,10 +94,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetThumbnailV3",
+      "Name": "Generate Thumbnail (V3) (Preview)",
+      "Description": "This operation generates a thumbnail image with the user-specified width and height.",
+      "Anchor": "#generate-thumbnail-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "OCRTextV2",
       "Name": "Optical Character Recognition (OCR) to Text",
       "Description": "Optical Character Recognition (OCR) detects text in an image and extracts the recognized characters into a text file.",
       "Anchor": "#optical-character-recognition-(ocr)-to-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OCRTextV3",
+      "Name": "Optical Character Recognition (OCR) to Text (V3) (Preview)",
+      "Description": "Optical Character Recognition (OCR) detects text in an image and extracts the recognized characters into a text file.",
+      "Anchor": "#optical-character-recognition-(ocr)-to-text-(v3)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -66,6 +122,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "OCRV3",
+      "Name": "Optical Character Recognition (OCR) to JSON (V3) (Preview)",
+      "Description": "Optical Character Recognition (OCR) detects text in an image and extracts the recognized characters into a machine-usable JSON stream.",
+      "Anchor": "#optical-character-recognition-(ocr)-to-json-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "RecognizeDomainSpecificContentV2",
       "Name": "Recognize Domain Specific Content",
       "Description": "Recognize celebrities or landmarks in an image.",
@@ -73,10 +136,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "RecognizeDomainSpecificContentV3",
+      "Name": "Recognize Domain Specific Content (V3) (Preview)",
+      "Description": "Recognize celebrities or landmarks in an image.",
+      "Anchor": "#recognize-domain-specific-content-(v3)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "TagImageV2",
       "Name": "Tag Image",
       "Description": "Generates a list of words, or tags, that are relevant to the content of the supplied image.",
       "Anchor": "#tag-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TagImageV3",
+      "Name": "Tag Image (V3) (Preview)",
+      "Description": "Generates a list of words, or tags, that are relevant to the content of the supplied image.",
+      "Anchor": "#tag-image-(v3)-(preview)",
       "IsDeprecated": false
     }
   ]

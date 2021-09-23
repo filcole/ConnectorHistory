@@ -73,10 +73,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "FindTickets",
+      "Name": "Find tickets",
+      "Description": "Find tickets by keywords or filters.",
+      "Anchor": "#find-tickets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindUserGroups",
+      "Name": "Find user groups",
+      "Description": "Find user groups by keywords or filters.",
+      "Anchor": "#find-user-groups",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GenerateEmailFromTemplate",
       "Name": "Create an email from template",
       "Description": "This operation generates an HTML document from a dynamic email template. Dynamic email templates can be managed in your admin portal.",
       "Anchor": "#create-an-email-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetChatSession",
+      "Name": "Get a chat session",
+      "Description": "This operation return a chat session's details.",
+      "Anchor": "#get-a-chat-session",
       "IsDeprecated": false
     },
     {
