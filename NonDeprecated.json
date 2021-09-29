@@ -8515,7 +8515,7 @@
       {
         "OperationId": "ParseJDViaFileContent",
         "Name": "Parse JD via file content",
-        "Description": "Parse JD method can be used to parse job description from base64 file data and get fields",
+        "Description": "Parse JD method can be used to parse job description from string file data and get fields",
         "Anchor": "#parse-jd-via-file-content",
         "IsDeprecated": false
       },
@@ -8529,7 +8529,7 @@
       {
         "OperationId": "ParseResumeBasicViaFileContent",
         "Name": "Parse resume basic via file content",
-        "Description": "Parse Resume Binary Basic method can be used to parse resume from base64 data and get some basic fields extracted (Like Contact info, Skill Keywords, Current employer, JobTitle and Highest degree)",
+        "Description": "Parse Resume Binary Basic method can be used to parse resume from string file data and get some basic fields extracted (Like Contact info, Skill Keywords, Current employer, JobTitle and Highest degree)",
         "Anchor": "#parse-resume-basic-via-file-content",
         "IsDeprecated": false
       },
@@ -8543,7 +8543,7 @@
       {
         "OperationId": "ParseResumeDetailViaFileContent",
         "Name": "Parse resume detail via file content",
-        "Description": "Parse Resume Binary method can be used to parse resume from base64 data get fields extracted (Like Contact info, Pesonal Info, 10 level of experience drill down and 5level of education drill down, and 15 skill drill down) with new swagger",
+        "Description": "Parse Resume Binary method can be used to parse resume from string file data and get fields extracted (Like Contact info, Pesonal Info, 10 level of experience drill down and 5level of education drill down, and 15 skill drill down) with new swagger",
         "Anchor": "#parse-resume-detail-via-file-content",
         "IsDeprecated": false
       },
@@ -8557,7 +8557,7 @@
       {
         "OperationId": "ParseResumeStandardViaFileContent",
         "Name": "Parse resume standard via file content",
-        "Description": "Parse Resume Binary Standard method can be used to parse resume from base64 data get fields extracted (Like Contact info, Skill Keywords, and 3 level of experience drill down and 2 level of education drill down)",
+        "Description": "Parse Resume Binary Standard method can be used to parse resume from string file data and get fields extracted (Like Contact info, Skill Keywords, and 3 level of experience drill down and 2 level of education drill down)",
         "Anchor": "#parse-resume-standard-via-file-content",
         "IsDeprecated": false
       },
@@ -12977,6 +12977,33 @@
         "Name": "Detect objects in an image (V2) (Preview)",
         "Description": "Detect objects in an image based on image content (V2).",
         "Anchor": "#detect-objects-in-an-image-(v2)-(preview)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "dvelop",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dvelop/",
+    "Actions": [
+      {
+        "OperationId": "DynamicWebhookTrigger",
+        "Name": "d.velop event (Webhook)",
+        "Description": "Triggers when the defined event occurs.",
+        "Anchor": "#d.velop-event-(webhook)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExecuteAction",
+        "Name": "Execute an action",
+        "Description": "Executes the selected action in the selected d.velop environment.",
+        "Anchor": "#execute-an-action",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "StoreDocument",
+        "Name": "Store document",
+        "Description": "Store a document in d.velop documents.",
+        "Anchor": "#store-document",
         "IsDeprecated": false
       }
     ]
@@ -43670,10 +43697,17 @@
         "IsDeprecated": false
       },
       {
-        "OperationId": "SendIDoc",
+        "OperationId": "SendIDocVersion2",
         "Name": "[IDOC] Send document to SAP (Preview)",
         "Description": "Sends IDOC message to SAP.",
         "Anchor": "#[idoc]-send-document-to-sap-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "StartLongRunningRfc",
+        "Name": "[RFC] Call long-running function in SAP (Preview)",
+        "Description": "Calls a long-running sRFC on the SAP system and waits for the system to respond back.",
+        "Anchor": "#[rfc]-call-long-running-function-in-sap-(preview)",
         "IsDeprecated": false
       },
       {

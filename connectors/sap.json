@@ -123,9 +123,23 @@
     },
     {
       "OperationId": "SendIDoc",
+      "Name": "[IDOC] Send document to SAP (deprecated) (Preview)",
+      "Description": "Sends IDOC message to SAP (deprecated).",
+      "Anchor": "#[idoc]-send-document-to-sap-(deprecated)-(preview)",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "SendIDocVersion2",
       "Name": "[IDOC] Send document to SAP (Preview)",
       "Description": "Sends IDOC message to SAP.",
       "Anchor": "#[idoc]-send-document-to-sap-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartLongRunningRfc",
+      "Name": "[RFC] Call long-running function in SAP (Preview)",
+      "Description": "Calls a long-running sRFC on the SAP system and waits for the system to respond back.",
+      "Anchor": "#[rfc]-call-long-running-function-in-sap-(preview)",
       "IsDeprecated": false
     },
     {

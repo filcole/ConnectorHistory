@@ -1,0 +1,27 @@
+{
+  "UniqueName": "dvelop",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dvelop/",
+  "Actions": [
+    {
+      "OperationId": "DynamicWebhookTrigger",
+      "Name": "d.velop event (Webhook)",
+      "Description": "Triggers when the defined event occurs.",
+      "Anchor": "#d.velop-event-(webhook)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteAction",
+      "Name": "Execute an action",
+      "Description": "Executes the selected action in the selected d.velop environment.",
+      "Anchor": "#execute-an-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StoreDocument",
+      "Name": "Store document",
+      "Description": "Store a document in d.velop documents.",
+      "Anchor": "#store-document",
+      "IsDeprecated": false
+    }
+  ]
+}

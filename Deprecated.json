@@ -3459,6 +3459,13 @@
         "Description": "This action requires that the user has access to 'BBP_RFC_READ_TABLE' or 'RFC_READ_TABLE' RFC.",
         "Anchor": "#read-sap-table-(obsolete)-[deprecated]",
         "IsDeprecated": true
+      },
+      {
+        "OperationId": "SendIDoc",
+        "Name": "[IDOC] Send document to SAP (deprecated) (Preview)",
+        "Description": "Sends IDOC message to SAP (deprecated).",
+        "Anchor": "#[idoc]-send-document-to-sap-(deprecated)-(preview)",
+        "IsDeprecated": true
       }
     ]
   },
