@@ -4,128 +4,128 @@
   "Actions": [
     {
       "OperationId": "CreateDocument",
-      "Name": "Create or update document",
-      "Description": "Create or update document. When creating a document in DocumentDB, the body must include an id property.",
-      "Anchor": "#create-or-update-document",
-      "IsDeprecated": false
+      "Name": "Create or update document [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create or update document (V3) instead.\nCreate or update document. When creating a document in DocumentDB, the body must include an id property.",
+      "Anchor": "#create-or-update-document-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "CreateDocument_V3",
-      "Name": "Create or update document (V3) (Preview)",
+      "Name": "Create or update document (V3)",
       "Description": "Create or update document. When creating a document in DocumentDB, the body must include an id property.",
-      "Anchor": "#create-or-update-document-(v3)-(preview)",
+      "Anchor": "#create-or-update-document-(v3)",
       "IsDeprecated": false
     },
     {
       "OperationId": "CreateDocumentV2",
-      "Name": "Create or update document (V2) (Preview)",
-      "Description": "Create or update document. When creating a document in DocumentDB, the body must include an id property.",
-      "Anchor": "#create-or-update-document-(v2)-(preview)",
-      "IsDeprecated": false
+      "Name": "Create or update document (V2) [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create or update document (V3) instead.\nCreate or update document. When creating a document in DocumentDB, the body must include an id property.",
+      "Anchor": "#create-or-update-document-(v2)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "CreateStoredProcedure",
-      "Name": "Create stored procedure",
-      "Description": "Create stored procedure.",
-      "Anchor": "#create-stored-procedure",
-      "IsDeprecated": false
+      "Name": "Create stored procedure [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Create stored procedure (V2) instead.\nCreate stored procedure.",
+      "Anchor": "#create-stored-procedure-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "CreateStoredProcedure_V2",
-      "Name": "Create stored procedure (V2) (Preview)",
+      "Name": "Create stored procedure (V2)",
       "Description": "Create stored procedure (V2).",
-      "Anchor": "#create-stored-procedure-(v2)-(preview)",
+      "Anchor": "#create-stored-procedure-(v2)",
       "IsDeprecated": false
     },
     {
       "OperationId": "DeleteDocument",
-      "Name": "Delete a document",
-      "Description": "Delete a document.",
-      "Anchor": "#delete-a-document",
-      "IsDeprecated": false
+      "Name": "Delete a document [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Delete a document (V2) instead.\nDelete a document.",
+      "Anchor": "#delete-a-document-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "DeleteDocument_V2",
-      "Name": "Delete a document (V2) (Preview)",
+      "Name": "Delete a document (V2)",
       "Description": "Delete a document (V2).",
-      "Anchor": "#delete-a-document-(v2)-(preview)",
+      "Anchor": "#delete-a-document-(v2)",
       "IsDeprecated": false
     },
     {
       "OperationId": "DeleteStoredProcedure",
-      "Name": "Delete stored procedure",
-      "Description": "Delete stored procedure.",
-      "Anchor": "#delete-stored-procedure",
-      "IsDeprecated": false
+      "Name": "Delete stored procedure [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Delete stored procedure (V2) instead.\nDelete stored procedure.",
+      "Anchor": "#delete-stored-procedure-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "DeleteStoredProcedure_V2",
-      "Name": "Delete stored procedure (V2) (Preview)",
+      "Name": "Delete stored procedure (V2)",
       "Description": "Delete stored procedure (V2).",
-      "Anchor": "#delete-stored-procedure-(v2)-(preview)",
+      "Anchor": "#delete-stored-procedure-(v2)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExecuteStoredProcedure",
-      "Name": "Execute stored procedure",
-      "Description": "Execute stored procedure in specified collection.",
-      "Anchor": "#execute-stored-procedure",
-      "IsDeprecated": false
+      "Name": "Execute stored procedure [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Execute stored procedure (V2) instead.\nExecute stored procedure in specified collection.",
+      "Anchor": "#execute-stored-procedure-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "ExecuteStoredProcedure_V2",
-      "Name": "Execute stored procedure (V2) (Preview)",
+      "Name": "Execute stored procedure (V2)",
       "Description": "Execute stored procedure in specified collection (V2).",
-      "Anchor": "#execute-stored-procedure-(v2)-(preview)",
+      "Anchor": "#execute-stored-procedure-(v2)",
       "IsDeprecated": false
     },
     {
       "OperationId": "GetDocument",
-      "Name": "Get a document",
-      "Description": "Get a document.",
-      "Anchor": "#get-a-document",
-      "IsDeprecated": false
+      "Name": "Get a document [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get a document (V2) instead.\nGet a document.",
+      "Anchor": "#get-a-document-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetDocument_V2",
-      "Name": "Get a document (V2) (Preview)",
+      "Name": "Get a document (V2)",
       "Description": "Get a document (V2).",
-      "Anchor": "#get-a-document-(v2)-(preview)",
+      "Anchor": "#get-a-document-(v2)",
       "IsDeprecated": false
     },
     {
       "OperationId": "GetDocuments",
-      "Name": "Get all documents",
-      "Description": "Get all documents.",
-      "Anchor": "#get-all-documents",
-      "IsDeprecated": false
+      "Name": "Get all documents [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get all documents (V3) instead.\nGet all documents.",
+      "Anchor": "#get-all-documents-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetDocuments_V3",
-      "Name": "Get all documents (V3) (Preview)",
+      "Name": "Get all documents (V3)",
       "Description": "Get all documents (V3).",
-      "Anchor": "#get-all-documents-(v3)-(preview)",
+      "Anchor": "#get-all-documents-(v3)",
       "IsDeprecated": false
     },
     {
       "OperationId": "GetDocumentsV2",
-      "Name": "Get all documents V2 (Preview)",
-      "Description": "Get all documents V2.",
-      "Anchor": "#get-all-documents-v2-(preview)",
-      "IsDeprecated": false
+      "Name": "Get all documents V2 [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get all documents (V3) instead.\nGet all documents V2.",
+      "Anchor": "#get-all-documents-v2-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetStoredProcedures",
-      "Name": "Get stored procedures",
-      "Description": "Get stored procedures in the specified collection.",
-      "Anchor": "#get-stored-procedures",
-      "IsDeprecated": false
+      "Name": "Get stored procedures [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get stored procedures (V2) instead.\nGet stored procedures in the specified collection.",
+      "Anchor": "#get-stored-procedures-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetStoredProcedures_V2",
-      "Name": "Get stored procedures (V2) (Preview)",
+      "Name": "Get stored procedures (V2)",
       "Description": "Get stored procedures in the specified collection (V2).",
-      "Anchor": "#get-stored-procedures-(v2)-(preview)",
+      "Anchor": "#get-stored-procedures-(v2)",
       "IsDeprecated": false
     },
     {
@@ -137,9 +137,9 @@
     },
     {
       "OperationId": "QueryDocuments_V5",
-      "Name": "Query documents V5 (Preview)",
+      "Name": "Query documents V5",
       "Description": "Query documents (V5).",
-      "Anchor": "#query-documents-v5-(preview)",
+      "Anchor": "#query-documents-v5",
       "IsDeprecated": false
     },
     {
@@ -151,44 +151,44 @@
     },
     {
       "OperationId": "QueryDocumentsV3",
-      "Name": "Query documents V3",
-      "Description": "Query documents V3.",
-      "Anchor": "#query-documents-v3",
-      "IsDeprecated": false
+      "Name": "Query documents V3 [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Query documents V5 instead.\nQuery documents V3.",
+      "Anchor": "#query-documents-v3-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "QueryDocumentsV4",
-      "Name": "Query documents V4 (Preview)",
-      "Description": "Query documents V4.",
-      "Anchor": "#query-documents-v4-(preview)",
-      "IsDeprecated": false
+      "Name": "Query documents V4 [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Query documents V5 instead.\nQuery documents V4.",
+      "Anchor": "#query-documents-v4-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "ReplaceDocument",
-      "Name": "Replace a document",
-      "Description": "Replace a document.",
-      "Anchor": "#replace-a-document",
-      "IsDeprecated": false
+      "Name": "Replace a document [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Replace a document (V2) instead.\nReplace a document.",
+      "Anchor": "#replace-a-document-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "ReplaceDocument_V2",
-      "Name": "Replace a document (V2) (Preview)",
+      "Name": "Replace a document (V2)",
       "Description": "Replace a document (V2).",
-      "Anchor": "#replace-a-document-(v2)-(preview)",
+      "Anchor": "#replace-a-document-(v2)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ReplaceStoredProcedure",
-      "Name": "Replace stored procedure",
-      "Description": "Replace stored procedure.",
-      "Anchor": "#replace-stored-procedure",
-      "IsDeprecated": false
+      "Name": "Replace stored procedure [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Replace stored procedure (V2) instead.\nReplace stored procedure.",
+      "Anchor": "#replace-stored-procedure-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "ReplaceStoredProcedure_V2",
-      "Name": "Replace stored procedure (V2) (Preview)",
+      "Name": "Replace stored procedure (V2)",
       "Description": "Replace stored procedure (V2).",
-      "Anchor": "#replace-stored-procedure-(v2)-(preview)",
+      "Anchor": "#replace-stored-procedure-(v2)",
       "IsDeprecated": false
     }
   ]

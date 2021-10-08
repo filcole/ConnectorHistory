@@ -1,0 +1,48 @@
+{
+  "UniqueName": "eonetbynasaip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../eonetbynasaip/",
+  "Actions": [
+    {
+      "OperationId": "Categories",
+      "Name": "Get categories",
+      "Description": "Retrieves a list of categories.",
+      "Anchor": "#get-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventCategories",
+      "Name": "Get events by categories",
+      "Description": "Retrieves a list of categories filtered by event.",
+      "Anchor": "#get-events-by-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Events",
+      "Name": "Get events",
+      "Description": "Retrieves event imagery.",
+      "Anchor": "#get-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsGeoJSON",
+      "Name": "Get events in GeoJSON format",
+      "Description": "Retrieves event imagery in the GeoJSON format.",
+      "Anchor": "#get-events-in-geojson-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Layers",
+      "Name": "Get layers",
+      "Description": "Retrieves a list of layers.",
+      "Anchor": "#get-layers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Sources",
+      "Name": "Get sources",
+      "Description": "Retrieves a list of sources.",
+      "Anchor": "#get-sources",
+      "IsDeprecated": false
+    }
+  ]
+}

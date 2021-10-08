@@ -3980,178 +3980,80 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../documentdb/",
     "Actions": [
       {
-        "OperationId": "CreateDocument",
-        "Name": "Create or update document",
-        "Description": "Create or update document. When creating a document in DocumentDB, the body must include an id property.",
-        "Anchor": "#create-or-update-document",
-        "IsDeprecated": false
-      },
-      {
         "OperationId": "CreateDocument_V3",
-        "Name": "Create or update document (V3) (Preview)",
+        "Name": "Create or update document (V3)",
         "Description": "Create or update document. When creating a document in DocumentDB, the body must include an id property.",
-        "Anchor": "#create-or-update-document-(v3)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateDocumentV2",
-        "Name": "Create or update document (V2) (Preview)",
-        "Description": "Create or update document. When creating a document in DocumentDB, the body must include an id property.",
-        "Anchor": "#create-or-update-document-(v2)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateStoredProcedure",
-        "Name": "Create stored procedure",
-        "Description": "Create stored procedure.",
-        "Anchor": "#create-stored-procedure",
+        "Anchor": "#create-or-update-document-(v3)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreateStoredProcedure_V2",
-        "Name": "Create stored procedure (V2) (Preview)",
+        "Name": "Create stored procedure (V2)",
         "Description": "Create stored procedure (V2).",
-        "Anchor": "#create-stored-procedure-(v2)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "DeleteDocument",
-        "Name": "Delete a document",
-        "Description": "Delete a document.",
-        "Anchor": "#delete-a-document",
+        "Anchor": "#create-stored-procedure-(v2)",
         "IsDeprecated": false
       },
       {
         "OperationId": "DeleteDocument_V2",
-        "Name": "Delete a document (V2) (Preview)",
+        "Name": "Delete a document (V2)",
         "Description": "Delete a document (V2).",
-        "Anchor": "#delete-a-document-(v2)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "DeleteStoredProcedure",
-        "Name": "Delete stored procedure",
-        "Description": "Delete stored procedure.",
-        "Anchor": "#delete-stored-procedure",
+        "Anchor": "#delete-a-document-(v2)",
         "IsDeprecated": false
       },
       {
         "OperationId": "DeleteStoredProcedure_V2",
-        "Name": "Delete stored procedure (V2) (Preview)",
+        "Name": "Delete stored procedure (V2)",
         "Description": "Delete stored procedure (V2).",
-        "Anchor": "#delete-stored-procedure-(v2)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "ExecuteStoredProcedure",
-        "Name": "Execute stored procedure",
-        "Description": "Execute stored procedure in specified collection.",
-        "Anchor": "#execute-stored-procedure",
+        "Anchor": "#delete-stored-procedure-(v2)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExecuteStoredProcedure_V2",
-        "Name": "Execute stored procedure (V2) (Preview)",
+        "Name": "Execute stored procedure (V2)",
         "Description": "Execute stored procedure in specified collection (V2).",
-        "Anchor": "#execute-stored-procedure-(v2)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetDocument",
-        "Name": "Get a document",
-        "Description": "Get a document.",
-        "Anchor": "#get-a-document",
+        "Anchor": "#execute-stored-procedure-(v2)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GetDocument_V2",
-        "Name": "Get a document (V2) (Preview)",
+        "Name": "Get a document (V2)",
         "Description": "Get a document (V2).",
-        "Anchor": "#get-a-document-(v2)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetDocuments",
-        "Name": "Get all documents",
-        "Description": "Get all documents.",
-        "Anchor": "#get-all-documents",
+        "Anchor": "#get-a-document-(v2)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GetDocuments_V3",
-        "Name": "Get all documents (V3) (Preview)",
+        "Name": "Get all documents (V3)",
         "Description": "Get all documents (V3).",
-        "Anchor": "#get-all-documents-(v3)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetDocumentsV2",
-        "Name": "Get all documents V2 (Preview)",
-        "Description": "Get all documents V2.",
-        "Anchor": "#get-all-documents-v2-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetStoredProcedures",
-        "Name": "Get stored procedures",
-        "Description": "Get stored procedures in the specified collection.",
-        "Anchor": "#get-stored-procedures",
+        "Anchor": "#get-all-documents-(v3)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GetStoredProcedures_V2",
-        "Name": "Get stored procedures (V2) (Preview)",
+        "Name": "Get stored procedures (V2)",
         "Description": "Get stored procedures in the specified collection (V2).",
-        "Anchor": "#get-stored-procedures-(v2)-(preview)",
+        "Anchor": "#get-stored-procedures-(v2)",
         "IsDeprecated": false
       },
       {
         "OperationId": "QueryDocuments_V5",
-        "Name": "Query documents V5 (Preview)",
+        "Name": "Query documents V5",
         "Description": "Query documents (V5).",
-        "Anchor": "#query-documents-v5-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "QueryDocumentsV3",
-        "Name": "Query documents V3",
-        "Description": "Query documents V3.",
-        "Anchor": "#query-documents-v3",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "QueryDocumentsV4",
-        "Name": "Query documents V4 (Preview)",
-        "Description": "Query documents V4.",
-        "Anchor": "#query-documents-v4-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "ReplaceDocument",
-        "Name": "Replace a document",
-        "Description": "Replace a document.",
-        "Anchor": "#replace-a-document",
+        "Anchor": "#query-documents-v5",
         "IsDeprecated": false
       },
       {
         "OperationId": "ReplaceDocument_V2",
-        "Name": "Replace a document (V2) (Preview)",
+        "Name": "Replace a document (V2)",
         "Description": "Replace a document (V2).",
-        "Anchor": "#replace-a-document-(v2)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "ReplaceStoredProcedure",
-        "Name": "Replace stored procedure",
-        "Description": "Replace stored procedure.",
-        "Anchor": "#replace-stored-procedure",
+        "Anchor": "#replace-a-document-(v2)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ReplaceStoredProcedure_V2",
-        "Name": "Replace stored procedure (V2) (Preview)",
+        "Name": "Replace stored procedure (V2)",
         "Description": "Replace stored procedure (V2).",
-        "Anchor": "#replace-stored-procedure-(v2)-(preview)",
+        "Anchor": "#replace-stored-procedure-(v2)",
         "IsDeprecated": false
       }
     ]
@@ -14420,16 +14322,16 @@
       },
       {
         "OperationId": "GetOnDataSourceRefreshComplete",
-        "Name": "Endpoint for notifications from the data source when refresh is completed",
-        "Description": "Endpoint for notifications from the data source when refresh is completed.",
-        "Anchor": "#endpoint-for-notifications-from-the-data-source-when-refresh-is-completed",
+        "Name": "Triggers a flow from the data source when refresh is completed",
+        "Description": "This operation triggers a flow from the data source when refresh is completed in Dynamics 365 Customer Insights.",
+        "Anchor": "#triggers-a-flow-from-the-data-source-when-refresh-is-completed",
         "IsDeprecated": false
       },
       {
         "OperationId": "GetOnDataSourceRefreshFail",
-        "Name": "Endpoint for notifications from the data source when refresh is failed",
-        "Description": "Endpoint for notifications from the data source when refresh is failed.",
-        "Anchor": "#endpoint-for-notifications-from-the-data-source-when-refresh-is-failed",
+        "Name": "Triggers a flow from the data source when refresh is failed",
+        "Description": "This operation triggers a flow from the data source when refresh is failed in Dynamics 365 Customer Insights.",
+        "Anchor": "#triggers-a-flow-from-the-data-source-when-refresh-is-failed",
         "IsDeprecated": false
       },
       {
@@ -18116,6 +18018,54 @@
         "Name": "Update one Invite",
         "Description": "PATCH request to update an Invite's information.",
         "Anchor": "#update-one-invite",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "eonetbynasaip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../eonetbynasaip/",
+    "Actions": [
+      {
+        "OperationId": "Categories",
+        "Name": "Get categories",
+        "Description": "Retrieves a list of categories.",
+        "Anchor": "#get-categories",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventCategories",
+        "Name": "Get events by categories",
+        "Description": "Retrieves a list of categories filtered by event.",
+        "Anchor": "#get-events-by-categories",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Events",
+        "Name": "Get events",
+        "Description": "Retrieves event imagery.",
+        "Anchor": "#get-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsGeoJSON",
+        "Name": "Get events in GeoJSON format",
+        "Description": "Retrieves event imagery in the GeoJSON format.",
+        "Anchor": "#get-events-in-geojson-format",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Layers",
+        "Name": "Get layers",
+        "Description": "Retrieves a list of layers.",
+        "Anchor": "#get-layers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Sources",
+        "Name": "Get sources",
+        "Description": "Retrieves a list of sources.",
+        "Anchor": "#get-sources",
         "IsDeprecated": false
       }
     ]

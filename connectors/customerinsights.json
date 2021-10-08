@@ -25,16 +25,16 @@
     },
     {
       "OperationId": "GetOnDataSourceRefreshComplete",
-      "Name": "Endpoint for notifications from the data source when refresh is completed",
-      "Description": "Endpoint for notifications from the data source when refresh is completed.",
-      "Anchor": "#endpoint-for-notifications-from-the-data-source-when-refresh-is-completed",
+      "Name": "Triggers a flow from the data source when refresh is completed",
+      "Description": "This operation triggers a flow from the data source when refresh is completed in Dynamics 365 Customer Insights.",
+      "Anchor": "#triggers-a-flow-from-the-data-source-when-refresh-is-completed",
       "IsDeprecated": false
     },
     {
       "OperationId": "GetOnDataSourceRefreshFail",
-      "Name": "Endpoint for notifications from the data source when refresh is failed",
-      "Description": "Endpoint for notifications from the data source when refresh is failed.",
-      "Anchor": "#endpoint-for-notifications-from-the-data-source-when-refresh-is-failed",
+      "Name": "Triggers a flow from the data source when refresh is failed",
+      "Description": "This operation triggers a flow from the data source when refresh is failed in Dynamics 365 Customer Insights.",
+      "Anchor": "#triggers-a-flow-from-the-data-source-when-refresh-is-failed",
       "IsDeprecated": false
     },
     {
