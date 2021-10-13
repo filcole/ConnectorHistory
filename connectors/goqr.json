@@ -1,0 +1,13 @@
+{
+  "UniqueName": "goqr",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../goqr/",
+  "Actions": [
+    {
+      "OperationId": "Create",
+      "Name": "Create QRCode with a specific size",
+      "Description": "Get the QR Code with specific size",
+      "Anchor": "#create-qrcode-with-a-specific-size",
+      "IsDeprecated": false
+    }
+  ]
+}

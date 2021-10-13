@@ -17,6 +17,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "runAsyncControlCommandAndWait",
+      "Name": "Run async control command and wait until it is completed",
+      "Description": "Runs control command in async mode and returns its ID, state and status on completion. Command can run for maximum 1 hour.",
+      "Anchor": "#run-async-control-command-and-wait-until-it-is-completed",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "runKustoCommandAndVisualizeResultsPost",
       "Name": "Run control command and visualize results",
       "Description": "Returns the Kusto control command result as a chart of your choice.",

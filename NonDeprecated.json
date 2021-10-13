@@ -4077,6 +4077,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "runAsyncControlCommandAndWait",
+        "Name": "Run async control command and wait until it is completed",
+        "Description": "Runs control command in async mode and returns its ID, state and status on completion. Command can run for maximum 1 hour.",
+        "Anchor": "#run-async-control-command-and-wait-until-it-is-completed",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "runKustoCommandAndVisualizeResultsPost",
         "Name": "Run control command and visualize results",
         "Description": "Returns the Kusto control command result as a chart of your choice.",
@@ -12963,6 +12970,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "IsDeceased",
+        "Name": "Is Deceased",
+        "Description": "UK - Identify deceased individuals quickly and easily, using credible sources updated on a regular basis.",
+        "Anchor": "#is-deceased",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "IsUsableName",
         "Name": "Check Usable Name",
         "Description": "Using this action, you can check if a name is a real usable name or whether it is salacious, random or blank.",
@@ -13291,6 +13305,19 @@
         "Name": "Run a flow built with Power Automate Desktop",
         "Description": "A flow will automatically run a set of steps built by Power Automate Desktop.",
         "Anchor": "#run-a-flow-built-with-power-automate-desktop",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "dexcomip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dexcomip/",
+    "Actions": [
+      {
+        "OperationId": "Get-EGVs",
+        "Name": "Get EGVs",
+        "Description": "Estimated Glucose Value (EGV) Request from Dexcom",
+        "Anchor": "#get-egvs",
         "IsDeprecated": false
       }
     ]
@@ -21386,6 +21413,124 @@
     ]
   },
   {
+    "UniqueName": "freeagentip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../freeagentip/",
+    "Actions": [
+      {
+        "OperationId": "CreateContact",
+        "Name": "Create Contact",
+        "Description": "Create Contact",
+        "Anchor": "#create-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateInvoice",
+        "Name": "Create Invoice",
+        "Description": "Create Invoice",
+        "Anchor": "#create-invoice",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteContact",
+        "Name": "Delete Contact",
+        "Description": "Delete Contact",
+        "Anchor": "#delete-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteInvoice",
+        "Name": "Delete Invoice",
+        "Description": "Delete Invoice",
+        "Anchor": "#delete-invoice",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetContact",
+        "Name": "Get a single contact",
+        "Description": "Get a single contact",
+        "Anchor": "#get-a-single-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetContacts",
+        "Name": "List all contacts",
+        "Description": "List all contacts",
+        "Anchor": "#list-all-contacts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListAllRecurringInvoices",
+        "Name": "List all recurring invoices",
+        "Description": "List all recurring invoices",
+        "Anchor": "#list-all-recurring-invoices",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListInvoices",
+        "Name": "List Invoices",
+        "Description": "List Invoices",
+        "Anchor": "#list-invoices",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MarkInvoiceAsCancelled",
+        "Name": "Mark invoice as cancelled",
+        "Description": "Mark invoice as cancelled",
+        "Anchor": "#mark-invoice-as-cancelled",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MarkInvoiceAsDraft",
+        "Name": "Mark invoice as draft",
+        "Description": "Mark invoice as draft",
+        "Anchor": "#mark-invoice-as-draft",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MarkInvoiceAsScheduled",
+        "Name": "Mark invoice as scheduled",
+        "Description": "Mark invoice as scheduled",
+        "Anchor": "#mark-invoice-as-scheduled",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MarkInvoiceAsSent",
+        "Name": "Mark invoice as sent",
+        "Description": "Mark invoice as sent",
+        "Anchor": "#mark-invoice-as-sent",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ShowInvoice",
+        "Name": "Show Invoice",
+        "Description": "Show Invoice",
+        "Anchor": "#show-invoice",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ShowRecurringInvoice",
+        "Name": "Show Recurring Invoice",
+        "Description": "Show Recurring Invoice",
+        "Anchor": "#show-recurring-invoice",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateContact",
+        "Name": "Update Contact",
+        "Description": "Update Contact",
+        "Anchor": "#update-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateInvoice",
+        "Name": "Update Invoice",
+        "Description": "Update Invoice",
+        "Anchor": "#update-invoice",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "freshbooks",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../freshbooks/",
     "Actions": [
@@ -22669,6 +22814,19 @@
         "Name": "When a new task list is created",
         "Description": "Trigger when a new task list is created.",
         "Anchor": "#when-a-new-task-list-is-created",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "goqr",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../goqr/",
+    "Actions": [
+      {
+        "OperationId": "Create",
+        "Name": "Create QRCode with a specific size",
+        "Description": "Get the QR Code with specific size",
+        "Anchor": "#create-qrcode-with-a-specific-size",
         "IsDeprecated": false
       }
     ]
@@ -30677,6 +30835,152 @@
     ]
   },
   {
+    "UniqueName": "itglue",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../itglue/",
+    "Actions": [
+      {
+        "OperationId": "Get-Configuration-Status",
+        "Name": "Get a Configuration Status",
+        "Description": "Returns the details of an existing configuration status.",
+        "Anchor": "#get-a-configuration-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Configuration-Type",
+        "Name": "Get a Configuration Type",
+        "Description": "Returns the details of an existing configuration type.",
+        "Anchor": "#get-a-configuration-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Country",
+        "Name": "Get a Country",
+        "Description": "Returns the details of one of the supported countries.",
+        "Anchor": "#get-a-country",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Flexible-Asset-Type",
+        "Name": "Get a Flexible Asset Type",
+        "Description": "Returns the details of an existing flexible asset type.",
+        "Anchor": "#get-a-flexible-asset-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-organization-type",
+        "Name": "Get an Organization Type",
+        "Description": "Returns the details of an existing organization type.",
+        "Anchor": "#get-an-organization-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-Configuration-Statuses",
+        "Name": "List Configuration Statuses",
+        "Description": "Returns a list of configuration statuses in your account.",
+        "Anchor": "#list-configuration-statuses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-Configuration-Types",
+        "Name": "List Configuration Types",
+        "Description": "Returns a list of configuration types in your account.",
+        "Anchor": "#list-configuration-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-Countries",
+        "Name": "List Countries",
+        "Description": "Returns a list of supported countries.",
+        "Anchor": "#list-countries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-Domains",
+        "Name": "List Domains",
+        "Description": "Returns a list of domains for all organizations or for a specified organization.",
+        "Anchor": "#list-domains",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-Flexible-Asset-Fields",
+        "Name": "List Flexible Asset Fields",
+        "Description": "Returns a list of fields for the specified flexible asset type.",
+        "Anchor": "#list-flexible-asset-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-Flexible-Asset-Types",
+        "Name": "List Flexible Asset Types",
+        "Description": "Returns a list of flexible asset types in your account.",
+        "Anchor": "#list-flexible-asset-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-Organization-Types",
+        "Name": "List Organization Types",
+        "Description": "Returns a list of organization types in your account.",
+        "Anchor": "#list-organization-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Patch-Configuration-Status",
+        "Name": "Update a Configuration Status",
+        "Description": "Updates a configuration status in your account. Returns 422 Bad Request error if trying to update an externally synced record.",
+        "Anchor": "#update-a-configuration-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Patch-Configuration-Type",
+        "Name": "Update a Configuration Type",
+        "Description": "Updates a configuration type in your account. Returns 422 Bad Request error if trying to update an externally synced record.",
+        "Anchor": "#update-a-configuration-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Patch-Flexible-Asset-Type",
+        "Name": "Update a Flexible Asset Type",
+        "Description": "Updates the details of an existing flexible asset type in your account. Returns 403 Forbidden error if any relationships are present in the request. An update does not require that the entire object resource with all of its attributes be enclosed. Any attributes you don't specify will remain unchanged.",
+        "Anchor": "#update-a-flexible-asset-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Patch-organization-type",
+        "Name": "Update an Organization Type",
+        "Description": "Updates an organization type in your account. Returns 422 Bad Request error if trying to update an externally synced record.",
+        "Anchor": "#update-an-organization-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Post-Configuration-Status",
+        "Name": "Create a Configuration Status",
+        "Description": "Creates a new configuration status in your account. Returns the created object if successful.",
+        "Anchor": "#create-a-configuration-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Post-Configuration-Type",
+        "Name": "Create a Configuration Type",
+        "Description": "Creates a new configuration type in your account. Returns the created object if successful.",
+        "Anchor": "#create-a-configuration-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Post-Flexible-Asset-Type",
+        "Name": "Create a Flexible Asset Type",
+        "Description": "Creates a new flexible asset type in your account. Returns the created object if successful. Use the nested Fields array to add one or more flexible asset fields to a flexible asset type. Creating a new flexible asset type requires a)at least the first field to be defined in the nested Fields array (located under advanced); b) at least one field needs to be set as Use for Title; and c) one field set as Show in List. Failure to meet all three criteria will generate an error 422.",
+        "Anchor": "#create-a-flexible-asset-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Post-Organization-Type",
+        "Name": "Create an Organization Type",
+        "Description": "Creates a new organization type in your account. Returns the created object if successful.",
+        "Anchor": "#create-an-organization-type",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "jira",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../jira/",
     "Actions": [
@@ -34628,6 +34932,75 @@
         "Name": "Insert row",
         "Description": "This operation inserts a new row into a table.",
         "Anchor": "#insert-row",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "mystromip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mystromip/",
+    "Actions": [
+      {
+        "OperationId": "Auth",
+        "Name": "Authentication",
+        "Description": "Obtain authToken by providing your e-mail and password.",
+        "Anchor": "#authentication",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateWebhook",
+        "Name": "Create webhook",
+        "Description": "Create webhook",
+        "Anchor": "#create-webhook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteWebhook",
+        "Name": "Delete webhook",
+        "Description": "Delete webhook by device ID",
+        "Anchor": "#delete-webhook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExecuteScene",
+        "Name": "Execute scene",
+        "Description": "Execute scene by ID",
+        "Anchor": "#execute-scene",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDevice",
+        "Name": "Get device",
+        "Description": "Get device by ID",
+        "Anchor": "#get-device",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDevices",
+        "Name": "Get devices",
+        "Description": "Get list of all user's devices",
+        "Anchor": "#get-devices",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetScenes",
+        "Name": "Get scenes",
+        "Description": "Get list of all user's scenes",
+        "Anchor": "#get-scenes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWebhook",
+        "Name": "Get webhook",
+        "Description": "Get webhook by device ID",
+        "Anchor": "#get-webhook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ToggleDevice",
+        "Name": "Toggle device",
+        "Description": "Device toggle request is used to change state of a device and set its parameters",
+        "Anchor": "#toggle-device",
         "IsDeprecated": false
       }
     ]
@@ -40890,6 +41263,90 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateGoal",
+        "Name": "Create a goal (Preview)",
+        "Description": "Creates a goal on the specified scorecard.",
+        "Anchor": "#create-a-goal-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateScorecard",
+        "Name": "Create a scorecard (Preview)",
+        "Description": "Creates a Scorecard for Power BI Goals.",
+        "Anchor": "#create-a-scorecard-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGoal",
+        "Name": "Get a goal (Preview)",
+        "Description": "Gets the specified goal on a scorecard.",
+        "Anchor": "#get-a-goal-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGoalCheckin",
+        "Name": "Get a goal check-in (Preview)",
+        "Description": "Get a check-in on a goal.",
+        "Anchor": "#get-a-goal-check-in-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGoalCheckins",
+        "Name": "Get goal check-ins (Preview)",
+        "Description": "Get all check-ins on a goal.",
+        "Anchor": "#get-goal-check-ins-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMultipleGoals",
+        "Name": "Get multiple goals (Preview)",
+        "Description": "Get a list of goals in the specified scorecard.",
+        "Anchor": "#get-multiple-goals-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GoalChangeTrigger",
+        "Name": "When a property of some goal changes (Preview)",
+        "Description": "When a property of some goal changes.",
+        "Anchor": "#when-a-property-of-some-goal-changes-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GoalRefreshFailedTrigger",
+        "Name": "When data refresh for a goal fails (Preview)",
+        "Description": "When data refresh for a goal fails.",
+        "Anchor": "#when-data-refresh-for-a-goal-fails-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GoalsAssignedTrigger",
+        "Name": "When new or existing goals get assigned owners (Preview)",
+        "Description": "When new or existing goals get assigned owners.",
+        "Anchor": "#when-new-or-existing-goals-get-assigned-owners-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GoalValueCheckin",
+        "Name": "Create a goal check-in (Preview)",
+        "Description": "Creates a Power BI goal check-in.",
+        "Anchor": "#create-a-goal-check-in-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GoalValueCheckinNote",
+        "Name": "Add a note to a goal check-in (Preview)",
+        "Description": "Appends a new note to a check-in of a Power BI goal.",
+        "Anchor": "#add-a-note-to-a-goal-check-in-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GoalValueOrNoteUpsertTrigger",
+        "Name": "When a goal check-in or note is added or modified (Preview)",
+        "Description": "Trigger for some goal check-in or note changes.",
+        "Anchor": "#when-a-goal-check-in-or-note-is-added-or-modified-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "InitiateExportToFileForPaginatedReports",
         "Name": "Export To File for Paginated Reports",
         "Description": "Use Power BI Rest API to inititate export for paginated reports",
@@ -40915,6 +41372,20 @@
         "Name": "Refresh a dataset",
         "Description": "Use Power BI REST API to refresh a powerbi dataset.",
         "Anchor": "#refresh-a-dataset",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateGoal",
+        "Name": "Update a goal (Preview)",
+        "Description": "Updates the goal's state.",
+        "Anchor": "#update-a-goal-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateGoalCheckin",
+        "Name": "Update a goal check-in (Preview)",
+        "Description": "Updates a Power BI goal check-in.",
+        "Anchor": "#update-a-goal-check-in-(preview)",
         "IsDeprecated": false
       }
     ]
@@ -45666,6 +46137,40 @@
     ]
   },
   {
+    "UniqueName": "sigmaconsocr",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sigmaconsocr/",
+    "Actions": [
+      {
+        "OperationId": "Consolidationjob",
+        "Name": "Consolidation",
+        "Description": "Run a consolidation job",
+        "Anchor": "#consolidation",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ImportFile",
+        "Name": "Import file",
+        "Description": "Import a csv or xlsx file",
+        "Anchor": "#import-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Processjob",
+        "Name": "Run a process",
+        "Description": "Run a process",
+        "Anchor": "#run-a-process",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Scheduledjob",
+        "Name": "Scheduled job",
+        "Description": "Run a scheduled job",
+        "Anchor": "#scheduled-job",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "signinghub",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../signinghub/",
     "Actions": [
@@ -46325,6 +46830,89 @@
     ]
   },
   {
+    "UniqueName": "sociabble",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sociabble/",
+    "Actions": [
+      {
+        "OperationId": "AssignBadgeToUser",
+        "Name": "Assign a badge to a user",
+        "Description": "Assign a badge to a user",
+        "Anchor": "#assign-a-badge-to-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssignCustomActionToUser",
+        "Name": "Assign a custom action to a user",
+        "Description": "Assign a custom action to a user",
+        "Anchor": "#assign-a-custom-action-to-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateExternalContent",
+        "Name": "Create an external content",
+        "Description": "Create an external content",
+        "Anchor": "#create-an-external-content",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateInternalNews",
+        "Name": "Create an internal news",
+        "Description": "Create an internal news",
+        "Anchor": "#create-an-internal-news",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllBadges",
+        "Name": "Get all badges",
+        "Description": "Get all badges",
+        "Anchor": "#get-all-badges",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAudiences",
+        "Name": "Get audiences",
+        "Description": "Get audiences",
+        "Anchor": "#get-audiences",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetBadgeLevels",
+        "Name": "Get badge levels",
+        "Description": "Get badge levels",
+        "Anchor": "#get-badge-levels",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetChannels",
+        "Name": "Get channels",
+        "Description": "Get channels",
+        "Anchor": "#get-channels",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMediaFolders",
+        "Name": "Get Media Drive folders",
+        "Description": "Get Media Drive folders",
+        "Anchor": "#get-media-drive-folders",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UploadFileFolder",
+        "Name": "Upload a file to a Media Drive folder",
+        "Description": "Upload a file to a Media Drive folder",
+        "Anchor": "#upload-a-file-to-a-media-drive-folder",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UploadMedia",
+        "Name": "Upload a media",
+        "Description": "Upload a media (media or mediaUrl in form-data) to use during the creation of an internal news",
+        "Anchor": "#upload-a-media",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "soft1",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../soft1/",
     "Actions": [
@@ -46557,6 +47145,13 @@
         "Name": "Insert or Modify Purchases Document",
         "Description": "Insert or Modify the data of a Purchase document Object identified by a KEY (Document ID) . If the KEY is empty or missing a record is inserted.",
         "Anchor": "#insert-or-modify-purchases-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SetRemoteKey",
+        "Name": "Insert Remote Key",
+        "Description": "Insert third-party application ID to a Soft1 Object",
+        "Anchor": "#insert-remote-key",
         "IsDeprecated": false
       },
       {
@@ -46882,6 +47477,145 @@
         "Name": "Transform data using Power Query",
         "Description": "Transform data using Power Query. Note: This operation does not work when connecting using SQL Azure AD.",
         "Anchor": "#transform-data-using-power-query",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "staffbase",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../staffbase/",
+    "Actions": [
+      {
+        "OperationId": "ChannelsGetList",
+        "Name": "Channels: Get a list of news channels",
+        "Description": "Get a list of news channels.",
+        "Anchor": "#channels:-get-a-list-of-news-channels",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ChannelsGetPosts",
+        "Name": "Channels: Get a list of posts within the specified channel",
+        "Description": "Get a list of posts within the specified channel.",
+        "Anchor": "#channels:-get-a-list-of-posts-within-the-specified-channel",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ChannelsPostPost",
+        "Name": "Channels: Send a post to specific channel",
+        "Description": "Send a post to specific news channel.",
+        "Anchor": "#channels:-send-a-post-to-specific-channel",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommentsGet",
+        "Name": "Posts: Get comments",
+        "Description": "Get a list of comments.",
+        "Anchor": "#posts:-get-comments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MediaDelete",
+        "Name": "Media: Delete media",
+        "Description": "Deletes the specified media in the current context.",
+        "Anchor": "#media:-delete-media",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MediaGet",
+        "Name": "Media: Get all media",
+        "Description": "Get metadata of all media that are accessible for the API token.",
+        "Anchor": "#media:-get-all-media",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MediaGetByID",
+        "Name": "Media: Get media by ID",
+        "Description": "Get metadata for single media by its ID.",
+        "Anchor": "#media:-get-media-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NotificationPost",
+        "Name": "Notification: Sends notification",
+        "Description": "Sends notifications to specified user(s).",
+        "Anchor": "#notification:-sends-notification",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostsDelete",
+        "Name": "Posts: Removes a post",
+        "Description": "Removes a post from the system.",
+        "Anchor": "#posts:-removes-a-post",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostsGetAll",
+        "Name": "Posts: Get a list of posts",
+        "Description": "Get a list of posts that are accessible for the API token.",
+        "Anchor": "#posts:-get-a-list-of-posts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostsGetByID",
+        "Name": "Posts: Get a post by ID",
+        "Description": "Requests the specified posts including a set of comments.",
+        "Anchor": "#posts:-get-a-post-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostsPut",
+        "Name": "Posts: Updates a post",
+        "Description": "Updates a post, only changed field (incremental).",
+        "Anchor": "#posts:-updates-a-post",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProxyVersionGet",
+        "Name": "Proxy: Get version",
+        "Description": "Returns the current proxy version.",
+        "Anchor": "#proxy:-get-version",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserDelete",
+        "Name": "User: Delete User",
+        "Description": "Deletes the specified user.",
+        "Anchor": "#user:-delete-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserGetAll",
+        "Name": "User: Get list of users",
+        "Description": "Get a list of users, depending on the API access token.",
+        "Anchor": "#user:-get-list-of-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserGetByID",
+        "Name": "User: Get user information",
+        "Description": "Get specific user information by its user id.",
+        "Anchor": "#user:-get-user-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserPost",
+        "Name": "User: Invite user",
+        "Description": "The user will receive an email to signup.",
+        "Anchor": "#user:-invite-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserPostRecovery",
+        "Name": "User: Send a recovery email",
+        "Description": "Sends a recovery email to the specified user.",
+        "Anchor": "#user:-send-a-recovery-email",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserPut",
+        "Name": "User: Update user information",
+        "Description": "Update user information.",
+        "Anchor": "#user:-update-user-information",
         "IsDeprecated": false
       }
     ]
@@ -47702,6 +48436,61 @@
         "Name": "Sentiment (V4) (Preview)",
         "Description": "The API returns a detailed sentiment analysis for the input text. The analysis is done in multiple levels of granularity, start from the a document level, down to sentence and key terms (targets and assessments).",
         "Anchor": "#sentiment-(v4)-(preview)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "thebronnoysundregistries",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../thebronnoysundregistries/",
+    "Actions": [
+      {
+        "OperationId": "GetAll_Search",
+        "Name": "Get all or search entities",
+        "Description": "Returns all or search entities registered under https://www.brreg.no/",
+        "Anchor": "#get-all-or-search-entities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAll_SearchSub",
+        "Name": "Get all or search sub entities",
+        "Description": "Returns all or search sub entities registered under https://www.brreg.no/",
+        "Anchor": "#get-all-or-search-sub-entities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetByOrganizationNumber",
+        "Name": "Get entity by organization number",
+        "Description": "Returns a single entity by organization number (Existing or Deleted)",
+        "Anchor": "#get-entity-by-organization-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEntitiesUpdates",
+        "Name": "Get entities updates",
+        "Description": "Search for recently updated entities in the registry",
+        "Anchor": "#get-entities-updates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEntityRoles",
+        "Name": "Get entity roles",
+        "Description": "Returns all roles for a specific entity",
+        "Anchor": "#get-entity-roles",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSubByOrganizationNumber",
+        "Name": "Get sub entity by organization number",
+        "Description": "Returns a single sub entity by organization number (Existing or Deleted)",
+        "Anchor": "#get-sub-entity-by-organization-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSubEntitiesUpdates",
+        "Name": "Get sub entities updates",
+        "Description": "Search for recently updated sub entities in the registry",
+        "Anchor": "#get-sub-entities-updates",
         "IsDeprecated": false
       }
     ]

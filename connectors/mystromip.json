@@ -1,0 +1,69 @@
+{
+  "UniqueName": "mystromip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mystromip/",
+  "Actions": [
+    {
+      "OperationId": "Auth",
+      "Name": "Authentication",
+      "Description": "Obtain authToken by providing your e-mail and password.",
+      "Anchor": "#authentication",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWebhook",
+      "Name": "Create webhook",
+      "Description": "Create webhook",
+      "Anchor": "#create-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteWebhook",
+      "Name": "Delete webhook",
+      "Description": "Delete webhook by device ID",
+      "Anchor": "#delete-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteScene",
+      "Name": "Execute scene",
+      "Description": "Execute scene by ID",
+      "Anchor": "#execute-scene",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDevice",
+      "Name": "Get device",
+      "Description": "Get device by ID",
+      "Anchor": "#get-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDevices",
+      "Name": "Get devices",
+      "Description": "Get list of all user's devices",
+      "Anchor": "#get-devices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetScenes",
+      "Name": "Get scenes",
+      "Description": "Get list of all user's scenes",
+      "Anchor": "#get-scenes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWebhook",
+      "Name": "Get webhook",
+      "Description": "Get webhook by device ID",
+      "Anchor": "#get-webhook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ToggleDevice",
+      "Name": "Toggle device",
+      "Description": "Device toggle request is used to change state of a device and set its parameters",
+      "Anchor": "#toggle-device",
+      "IsDeprecated": false
+    }
+  ]
+}

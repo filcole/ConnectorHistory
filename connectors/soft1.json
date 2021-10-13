@@ -234,6 +234,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "SetRemoteKey",
+      "Name": "Insert Remote Key",
+      "Description": "Insert third-party application ID to a Soft1 Object",
+      "Anchor": "#insert-remote-key",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "SetSaldoc",
       "Name": "Insert or Modify Sales Document",
       "Description": "Insert or Modify the data of a Sales Document record, identified by a KEY. If the KEY is empty or missing, a new record will be created",

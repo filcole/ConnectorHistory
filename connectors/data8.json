@@ -31,6 +31,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "IsDeceased",
+      "Name": "Is Deceased",
+      "Description": "UK - Identify deceased individuals quickly and easily, using credible sources updated on a regular basis.",
+      "Anchor": "#is-deceased",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "IsUsableName",
       "Name": "Check Usable Name",
       "Description": "Using this action, you can check if a name is a real usable name or whether it is salacious, random or blank.",

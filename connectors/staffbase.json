@@ -1,0 +1,139 @@
+{
+  "UniqueName": "staffbase",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../staffbase/",
+  "Actions": [
+    {
+      "OperationId": "ChannelsGetList",
+      "Name": "Channels: Get a list of news channels",
+      "Description": "Get a list of news channels.",
+      "Anchor": "#channels:-get-a-list-of-news-channels",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChannelsGetPosts",
+      "Name": "Channels: Get a list of posts within the specified channel",
+      "Description": "Get a list of posts within the specified channel.",
+      "Anchor": "#channels:-get-a-list-of-posts-within-the-specified-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChannelsPostPost",
+      "Name": "Channels: Send a post to specific channel",
+      "Description": "Send a post to specific news channel.",
+      "Anchor": "#channels:-send-a-post-to-specific-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommentsGet",
+      "Name": "Posts: Get comments",
+      "Description": "Get a list of comments.",
+      "Anchor": "#posts:-get-comments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MediaDelete",
+      "Name": "Media: Delete media",
+      "Description": "Deletes the specified media in the current context.",
+      "Anchor": "#media:-delete-media",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MediaGet",
+      "Name": "Media: Get all media",
+      "Description": "Get metadata of all media that are accessible for the API token.",
+      "Anchor": "#media:-get-all-media",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MediaGetByID",
+      "Name": "Media: Get media by ID",
+      "Description": "Get metadata for single media by its ID.",
+      "Anchor": "#media:-get-media-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NotificationPost",
+      "Name": "Notification: Sends notification",
+      "Description": "Sends notifications to specified user(s).",
+      "Anchor": "#notification:-sends-notification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostsDelete",
+      "Name": "Posts: Removes a post",
+      "Description": "Removes a post from the system.",
+      "Anchor": "#posts:-removes-a-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostsGetAll",
+      "Name": "Posts: Get a list of posts",
+      "Description": "Get a list of posts that are accessible for the API token.",
+      "Anchor": "#posts:-get-a-list-of-posts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostsGetByID",
+      "Name": "Posts: Get a post by ID",
+      "Description": "Requests the specified posts including a set of comments.",
+      "Anchor": "#posts:-get-a-post-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostsPut",
+      "Name": "Posts: Updates a post",
+      "Description": "Updates a post, only changed field (incremental).",
+      "Anchor": "#posts:-updates-a-post",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProxyVersionGet",
+      "Name": "Proxy: Get version",
+      "Description": "Returns the current proxy version.",
+      "Anchor": "#proxy:-get-version",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserDelete",
+      "Name": "User: Delete User",
+      "Description": "Deletes the specified user.",
+      "Anchor": "#user:-delete-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserGetAll",
+      "Name": "User: Get list of users",
+      "Description": "Get a list of users, depending on the API access token.",
+      "Anchor": "#user:-get-list-of-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserGetByID",
+      "Name": "User: Get user information",
+      "Description": "Get specific user information by its user id.",
+      "Anchor": "#user:-get-user-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserPost",
+      "Name": "User: Invite user",
+      "Description": "The user will receive an email to signup.",
+      "Anchor": "#user:-invite-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserPostRecovery",
+      "Name": "User: Send a recovery email",
+      "Description": "Sends a recovery email to the specified user.",
+      "Anchor": "#user:-send-a-recovery-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserPut",
+      "Name": "User: Update user information",
+      "Description": "Update user information.",
+      "Anchor": "#user:-update-user-information",
+      "IsDeprecated": false
+    }
+  ]
+}

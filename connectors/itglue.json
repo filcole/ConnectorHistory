@@ -1,0 +1,146 @@
+{
+  "UniqueName": "itglue",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../itglue/",
+  "Actions": [
+    {
+      "OperationId": "Get-Configuration-Status",
+      "Name": "Get a Configuration Status",
+      "Description": "Returns the details of an existing configuration status.",
+      "Anchor": "#get-a-configuration-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Configuration-Type",
+      "Name": "Get a Configuration Type",
+      "Description": "Returns the details of an existing configuration type.",
+      "Anchor": "#get-a-configuration-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Country",
+      "Name": "Get a Country",
+      "Description": "Returns the details of one of the supported countries.",
+      "Anchor": "#get-a-country",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Flexible-Asset-Type",
+      "Name": "Get a Flexible Asset Type",
+      "Description": "Returns the details of an existing flexible asset type.",
+      "Anchor": "#get-a-flexible-asset-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-organization-type",
+      "Name": "Get an Organization Type",
+      "Description": "Returns the details of an existing organization type.",
+      "Anchor": "#get-an-organization-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-Configuration-Statuses",
+      "Name": "List Configuration Statuses",
+      "Description": "Returns a list of configuration statuses in your account.",
+      "Anchor": "#list-configuration-statuses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-Configuration-Types",
+      "Name": "List Configuration Types",
+      "Description": "Returns a list of configuration types in your account.",
+      "Anchor": "#list-configuration-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-Countries",
+      "Name": "List Countries",
+      "Description": "Returns a list of supported countries.",
+      "Anchor": "#list-countries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-Domains",
+      "Name": "List Domains",
+      "Description": "Returns a list of domains for all organizations or for a specified organization.",
+      "Anchor": "#list-domains",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-Flexible-Asset-Fields",
+      "Name": "List Flexible Asset Fields",
+      "Description": "Returns a list of fields for the specified flexible asset type.",
+      "Anchor": "#list-flexible-asset-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-Flexible-Asset-Types",
+      "Name": "List Flexible Asset Types",
+      "Description": "Returns a list of flexible asset types in your account.",
+      "Anchor": "#list-flexible-asset-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-Organization-Types",
+      "Name": "List Organization Types",
+      "Description": "Returns a list of organization types in your account.",
+      "Anchor": "#list-organization-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Patch-Configuration-Status",
+      "Name": "Update a Configuration Status",
+      "Description": "Updates a configuration status in your account. Returns 422 Bad Request error if trying to update an externally synced record.",
+      "Anchor": "#update-a-configuration-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Patch-Configuration-Type",
+      "Name": "Update a Configuration Type",
+      "Description": "Updates a configuration type in your account. Returns 422 Bad Request error if trying to update an externally synced record.",
+      "Anchor": "#update-a-configuration-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Patch-Flexible-Asset-Type",
+      "Name": "Update a Flexible Asset Type",
+      "Description": "Updates the details of an existing flexible asset type in your account. Returns 403 Forbidden error if any relationships are present in the request. An update does not require that the entire object resource with all of its attributes be enclosed. Any attributes you don't specify will remain unchanged.",
+      "Anchor": "#update-a-flexible-asset-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Patch-organization-type",
+      "Name": "Update an Organization Type",
+      "Description": "Updates an organization type in your account. Returns 422 Bad Request error if trying to update an externally synced record.",
+      "Anchor": "#update-an-organization-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-Configuration-Status",
+      "Name": "Create a Configuration Status",
+      "Description": "Creates a new configuration status in your account. Returns the created object if successful.",
+      "Anchor": "#create-a-configuration-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-Configuration-Type",
+      "Name": "Create a Configuration Type",
+      "Description": "Creates a new configuration type in your account. Returns the created object if successful.",
+      "Anchor": "#create-a-configuration-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-Flexible-Asset-Type",
+      "Name": "Create a Flexible Asset Type",
+      "Description": "Creates a new flexible asset type in your account. Returns the created object if successful. Use the nested Fields array to add one or more flexible asset fields to a flexible asset type. Creating a new flexible asset type requires a)at least the first field to be defined in the nested Fields array (located under advanced); b) at least one field needs to be set as Use for Title; and c) one field set as Show in List. Failure to meet all three criteria will generate an error 422.",
+      "Anchor": "#create-a-flexible-asset-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-Organization-Type",
+      "Name": "Create an Organization Type",
+      "Description": "Creates a new organization type in your account. Returns the created object if successful.",
+      "Anchor": "#create-an-organization-type",
+      "IsDeprecated": false
+    }
+  ]
+}

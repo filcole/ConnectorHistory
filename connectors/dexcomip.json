@@ -1,0 +1,13 @@
+{
+  "UniqueName": "dexcomip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dexcomip/",
+  "Actions": [
+    {
+      "OperationId": "Get-EGVs",
+      "Name": "Get EGVs",
+      "Description": "Estimated Glucose Value (EGV) Request from Dexcom",
+      "Anchor": "#get-egvs",
+      "IsDeprecated": false
+    }
+  ]
+}

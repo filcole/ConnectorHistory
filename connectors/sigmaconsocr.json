@@ -1,0 +1,34 @@
+{
+  "UniqueName": "sigmaconsocr",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sigmaconsocr/",
+  "Actions": [
+    {
+      "OperationId": "Consolidationjob",
+      "Name": "Consolidation",
+      "Description": "Run a consolidation job",
+      "Anchor": "#consolidation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImportFile",
+      "Name": "Import file",
+      "Description": "Import a csv or xlsx file",
+      "Anchor": "#import-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Processjob",
+      "Name": "Run a process",
+      "Description": "Run a process",
+      "Anchor": "#run-a-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Scheduledjob",
+      "Name": "Scheduled job",
+      "Description": "Run a scheduled job",
+      "Anchor": "#scheduled-job",
+      "IsDeprecated": false
+    }
+  ]
+}

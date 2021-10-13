@@ -1,0 +1,55 @@
+{
+  "UniqueName": "thebronnoysundregistries",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../thebronnoysundregistries/",
+  "Actions": [
+    {
+      "OperationId": "GetAll_Search",
+      "Name": "Get all or search entities",
+      "Description": "Returns all or search entities registered under https://www.brreg.no/",
+      "Anchor": "#get-all-or-search-entities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAll_SearchSub",
+      "Name": "Get all or search sub entities",
+      "Description": "Returns all or search sub entities registered under https://www.brreg.no/",
+      "Anchor": "#get-all-or-search-sub-entities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetByOrganizationNumber",
+      "Name": "Get entity by organization number",
+      "Description": "Returns a single entity by organization number (Existing or Deleted)",
+      "Anchor": "#get-entity-by-organization-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEntitiesUpdates",
+      "Name": "Get entities updates",
+      "Description": "Search for recently updated entities in the registry",
+      "Anchor": "#get-entities-updates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEntityRoles",
+      "Name": "Get entity roles",
+      "Description": "Returns all roles for a specific entity",
+      "Anchor": "#get-entity-roles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSubByOrganizationNumber",
+      "Name": "Get sub entity by organization number",
+      "Description": "Returns a single sub entity by organization number (Existing or Deleted)",
+      "Anchor": "#get-sub-entity-by-organization-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSubEntitiesUpdates",
+      "Name": "Get sub entities updates",
+      "Description": "Search for recently updated sub entities in the registry",
+      "Anchor": "#get-sub-entities-updates",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -17,6 +17,90 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateGoal",
+      "Name": "Create a goal (Preview)",
+      "Description": "Creates a goal on the specified scorecard.",
+      "Anchor": "#create-a-goal-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateScorecard",
+      "Name": "Create a scorecard (Preview)",
+      "Description": "Creates a Scorecard for Power BI Goals.",
+      "Anchor": "#create-a-scorecard-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGoal",
+      "Name": "Get a goal (Preview)",
+      "Description": "Gets the specified goal on a scorecard.",
+      "Anchor": "#get-a-goal-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGoalCheckin",
+      "Name": "Get a goal check-in (Preview)",
+      "Description": "Get a check-in on a goal.",
+      "Anchor": "#get-a-goal-check-in-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGoalCheckins",
+      "Name": "Get goal check-ins (Preview)",
+      "Description": "Get all check-ins on a goal.",
+      "Anchor": "#get-goal-check-ins-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMultipleGoals",
+      "Name": "Get multiple goals (Preview)",
+      "Description": "Get a list of goals in the specified scorecard.",
+      "Anchor": "#get-multiple-goals-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GoalChangeTrigger",
+      "Name": "When a property of some goal changes (Preview)",
+      "Description": "When a property of some goal changes.",
+      "Anchor": "#when-a-property-of-some-goal-changes-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GoalRefreshFailedTrigger",
+      "Name": "When data refresh for a goal fails (Preview)",
+      "Description": "When data refresh for a goal fails.",
+      "Anchor": "#when-data-refresh-for-a-goal-fails-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GoalsAssignedTrigger",
+      "Name": "When new or existing goals get assigned owners (Preview)",
+      "Description": "When new or existing goals get assigned owners.",
+      "Anchor": "#when-new-or-existing-goals-get-assigned-owners-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GoalValueCheckin",
+      "Name": "Create a goal check-in (Preview)",
+      "Description": "Creates a Power BI goal check-in.",
+      "Anchor": "#create-a-goal-check-in-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GoalValueCheckinNote",
+      "Name": "Add a note to a goal check-in (Preview)",
+      "Description": "Appends a new note to a check-in of a Power BI goal.",
+      "Anchor": "#add-a-note-to-a-goal-check-in-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GoalValueOrNoteUpsertTrigger",
+      "Name": "When a goal check-in or note is added or modified (Preview)",
+      "Description": "Trigger for some goal check-in or note changes.",
+      "Anchor": "#when-a-goal-check-in-or-note-is-added-or-modified-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "InitiateExportToFileForPaginatedReports",
       "Name": "Export To File for Paginated Reports",
       "Description": "Use Power BI Rest API to inititate export for paginated reports",
@@ -42,6 +126,20 @@
       "Name": "Refresh a dataset",
       "Description": "Use Power BI REST API to refresh a powerbi dataset.",
       "Anchor": "#refresh-a-dataset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateGoal",
+      "Name": "Update a goal (Preview)",
+      "Description": "Updates the goal's state.",
+      "Anchor": "#update-a-goal-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateGoalCheckin",
+      "Name": "Update a goal check-in (Preview)",
+      "Description": "Updates a Power BI goal check-in.",
+      "Anchor": "#update-a-goal-check-in-(preview)",
       "IsDeprecated": false
     }
   ]

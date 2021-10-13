@@ -1,0 +1,83 @@
+{
+  "UniqueName": "sociabble",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sociabble/",
+  "Actions": [
+    {
+      "OperationId": "AssignBadgeToUser",
+      "Name": "Assign a badge to a user",
+      "Description": "Assign a badge to a user",
+      "Anchor": "#assign-a-badge-to-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssignCustomActionToUser",
+      "Name": "Assign a custom action to a user",
+      "Description": "Assign a custom action to a user",
+      "Anchor": "#assign-a-custom-action-to-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateExternalContent",
+      "Name": "Create an external content",
+      "Description": "Create an external content",
+      "Anchor": "#create-an-external-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateInternalNews",
+      "Name": "Create an internal news",
+      "Description": "Create an internal news",
+      "Anchor": "#create-an-internal-news",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllBadges",
+      "Name": "Get all badges",
+      "Description": "Get all badges",
+      "Anchor": "#get-all-badges",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAudiences",
+      "Name": "Get audiences",
+      "Description": "Get audiences",
+      "Anchor": "#get-audiences",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBadgeLevels",
+      "Name": "Get badge levels",
+      "Description": "Get badge levels",
+      "Anchor": "#get-badge-levels",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetChannels",
+      "Name": "Get channels",
+      "Description": "Get channels",
+      "Anchor": "#get-channels",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMediaFolders",
+      "Name": "Get Media Drive folders",
+      "Description": "Get Media Drive folders",
+      "Anchor": "#get-media-drive-folders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadFileFolder",
+      "Name": "Upload a file to a Media Drive folder",
+      "Description": "Upload a file to a Media Drive folder",
+      "Anchor": "#upload-a-file-to-a-media-drive-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadMedia",
+      "Name": "Upload a media",
+      "Description": "Upload a media (media or mediaUrl in form-data) to use during the creation of an internal news",
+      "Anchor": "#upload-a-media",
+      "IsDeprecated": false
+    }
+  ]
+}
