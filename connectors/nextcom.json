@@ -1,0 +1,20 @@
+{
+  "UniqueName": "nextcom",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nextcom/",
+  "Actions": [
+    {
+      "OperationId": "NX_CONTACT",
+      "Name": "Add contact",
+      "Description": "Add a new contact to a given list in Nextcom.",
+      "Anchor": "#add-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NX_PIPELINE",
+      "Name": "Add pipeline",
+      "Description": "Create a new pipeline opportunity on a given Contact ID.",
+      "Anchor": "#add-pipeline",
+      "IsDeprecated": false
+    }
+  ]
+}

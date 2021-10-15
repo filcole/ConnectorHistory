@@ -302,6 +302,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "SearchLocationIP",
+        "Name": "Search location by IP address",
+        "Description": "Returns information about a specific location, by IP Address.",
+        "Anchor": "#search-location-by-ip-address",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchLocationKey",
+        "Name": "Search by location key",
+        "Description": "Returns information about a specific location, by location key. You must know the location key to perform this query.",
+        "Anchor": "#search-by-location-key",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "TopCitiesList",
         "Name": "Get Top Cities List",
         "Description": "Returns information for the top 50, 100, or 150 cities, worldwide.",
@@ -9231,6 +9245,40 @@
         "Name": "Get Contacts in a List",
         "Description": "Get all Contacts in a List",
         "Anchor": "#get-contacts-in-a-list",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "clickupteammanagerip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../clickupteammanagerip/",
+    "Actions": [
+      {
+        "OperationId": "CreateAFolder",
+        "Name": "Create a Folder",
+        "Description": "Creates a new folder in your space",
+        "Anchor": "#create-a-folder",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateAList",
+        "Name": "Create A list",
+        "Description": "Create a new list inside of a folder",
+        "Anchor": "#create-a-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateSpace",
+        "Name": "Create A Space",
+        "Description": "Creates new workspace in your team",
+        "Anchor": "#create-a-space",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTeams",
+        "Name": "Get Teams",
+        "Description": "Returns the teams for your ClickUp instance",
+        "Anchor": "#get-teams",
         "IsDeprecated": false
       }
     ]
@@ -35494,6 +35542,26 @@
     ]
   },
   {
+    "UniqueName": "nextcom",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nextcom/",
+    "Actions": [
+      {
+        "OperationId": "NX_CONTACT",
+        "Name": "Add contact",
+        "Description": "Add a new contact to a given list in Nextcom.",
+        "Anchor": "#add-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NX_PIPELINE",
+        "Name": "Add pipeline",
+        "Description": "Create a new pipeline opportunity on a given Contact ID.",
+        "Anchor": "#add-pipeline",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "nitro",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nitro/",
     "Actions": [
@@ -42443,6 +42511,306 @@
         "Name": "Generate answer",
         "Description": "This operation returns the top ranking answer for the given question.",
         "Anchor": "#generate-answer",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "rspacexip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rspacexip/",
+    "Actions": [
+      {
+        "OperationId": "GetACapsule",
+        "Name": "Get a capsule",
+        "Description": "Detailed info for a serialized Dragon capsule.",
+        "Anchor": "#get-a-capsule",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetACore",
+        "Name": "Get a core",
+        "Description": "Detailed info for a serialized first stage core.",
+        "Anchor": "#get-a-core",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetACrewMember",
+        "Name": "Get a crew member",
+        "Description": "Detailed info on a Dragon crew member.",
+        "Anchor": "#get-a-crew-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetADragon",
+        "Name": "Get a Dragon",
+        "Description": "Detailed info about a Dragon capsule version.",
+        "Anchor": "#get-a-dragon",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAHistory",
+        "Name": "Get a historic event",
+        "Description": "Detailed info on a SpaceX historical event.",
+        "Anchor": "#get-a-historic-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetALandpad",
+        "Name": "Get a landpad",
+        "Description": "Detailed info about a landing pad or ship.",
+        "Anchor": "#get-a-landpad",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetALaunch",
+        "Name": "Get a launch",
+        "Description": "Detailed info about a launch.",
+        "Anchor": "#get-a-launch",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetALaunchpad",
+        "Name": "Get a launchpad",
+        "Description": "Detailed info about a launchpad.",
+        "Anchor": "#get-a-launchpad",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllCapsules",
+        "Name": "Get all capsules",
+        "Description": "Detailed info for all serialized Dragon capsules.",
+        "Anchor": "#get-all-capsules",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllCores",
+        "Name": "Get all cores",
+        "Description": "Detailed info for all serialized first stage cores.",
+        "Anchor": "#get-all-cores",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllCrew",
+        "Name": "Get all crew members",
+        "Description": "Detailed info on all Dragon crew members.",
+        "Anchor": "#get-all-crew-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllDragons",
+        "Name": "Get all Dragons",
+        "Description": "Detailed info about all Dragon capsule versions.",
+        "Anchor": "#get-all-dragons",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllHistory",
+        "Name": "Get all history events",
+        "Description": "Detailed info on all SpaceX historical events.",
+        "Anchor": "#get-all-history-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllLandpads",
+        "Name": "Get all landpads",
+        "Description": "Detailed info about all landing pads and ships.",
+        "Anchor": "#get-all-landpads",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllLaunches",
+        "Name": "Get all launches",
+        "Description": "Detailed info about all launches.",
+        "Anchor": "#get-all-launches",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllLaunchpads",
+        "Name": "Get all launchpads",
+        "Description": "Detailed info about all launchpads.",
+        "Anchor": "#get-all-launchpads",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllPayloads",
+        "Name": "Get all payloads",
+        "Description": "Detailed info about all launch payloads.",
+        "Anchor": "#get-all-payloads",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllRockets",
+        "Name": "Get all rockets",
+        "Description": "Detailed info about all rockets.",
+        "Anchor": "#get-all-rockets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllShips",
+        "Name": "Get all ships",
+        "Description": "Detailed info about all ships in the SpaceX fleet.",
+        "Anchor": "#get-all-ships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllStarlinkSats",
+        "Name": "Get all Starlink sats",
+        "Description": "Detailed info about all Starlink satellites and orbits.",
+        "Anchor": "#get-all-starlink-sats",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAPayload",
+        "Name": "Get a payload",
+        "Description": "Detailed info about a launch payload.",
+        "Anchor": "#get-a-payload",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetARocket",
+        "Name": "Get a rocket",
+        "Description": "Detailed info about a rocket.",
+        "Anchor": "#get-a-rocket",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAShip",
+        "Name": "Get a ship",
+        "Description": "Detailed info about a ship in the SpaceX fleet.",
+        "Anchor": "#get-a-ship",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAStarlinkSat",
+        "Name": "Get a Starlink sat",
+        "Description": "Detailed info about a Starlink satellite and orbit.",
+        "Anchor": "#get-a-starlink-sat",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCompanyInfo",
+        "Name": "Get company info",
+        "Description": "Detailed info about SpaceX as a company.",
+        "Anchor": "#get-company-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLatestLaunch",
+        "Name": "Get latest launch",
+        "Description": "Detailed info about latest launch.",
+        "Anchor": "#get-latest-launch",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetNextLaunch",
+        "Name": "Get next launch",
+        "Description": "Detailed info about next launches.",
+        "Anchor": "#get-next-launch",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPastLaunches",
+        "Name": "Get past launches",
+        "Description": "Detailed info about past launches.",
+        "Anchor": "#get-past-launches",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRoadsterInfo",
+        "Name": "Get Roadster Info",
+        "Description": "Detailed info about Elon's Tesla Roadster's current position.",
+        "Anchor": "#get-roadster-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUpcomingLaunches",
+        "Name": "Get upcoming launches",
+        "Description": "Detailed info about upcoming launches.",
+        "Anchor": "#get-upcoming-launches",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryCapsules",
+        "Name": "Query capsules",
+        "Description": "Detailed info for queried serialized Dragon capsules.",
+        "Anchor": "#query-capsules",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryCores",
+        "Name": "Query cores",
+        "Description": "Detailed info for queried serialized first stage cores.",
+        "Anchor": "#query-cores",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryCrewMembers",
+        "Name": "Query crew members",
+        "Description": "Detailed info on queried Dragon crew members.",
+        "Anchor": "#query-crew-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryDragons",
+        "Name": "Query Dragons",
+        "Description": "Detailed info about queried Dragon capsule versions.",
+        "Anchor": "#query-dragons",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryHistory",
+        "Name": "Query historic events",
+        "Description": "Detailed info on queried SpaceX historical events.",
+        "Anchor": "#query-historic-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryLandpads",
+        "Name": "Query landpads",
+        "Description": "Detailed info about queried landing pads and ships.",
+        "Anchor": "#query-landpads",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryLaunches",
+        "Name": "Query launches",
+        "Description": "Detailed info about queried launches.",
+        "Anchor": "#query-launches",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryLaunchpads",
+        "Name": "Query launchpads",
+        "Description": "Detailed info about queried launchpads.",
+        "Anchor": "#query-launchpads",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryPayloads",
+        "Name": "Query payloads",
+        "Description": "Detailed info about queried launch payloads.",
+        "Anchor": "#query-payloads",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryRockets",
+        "Name": "Query rockets",
+        "Description": "Detailed info about queried rockets.",
+        "Anchor": "#query-rockets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryShips",
+        "Name": "Query ships",
+        "Description": "Detailed info about queried ships in the SpaceX fleet.",
+        "Anchor": "#query-ships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QueryStarlinkSats",
+        "Name": "Query Starlink sats",
+        "Description": "Detailed info about queried Starlink satellites and orbits.",
+        "Anchor": "#query-starlink-sats",
         "IsDeprecated": false
       }
     ]

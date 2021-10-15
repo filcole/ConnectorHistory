@@ -1,0 +1,34 @@
+{
+  "UniqueName": "clickupteammanagerip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../clickupteammanagerip/",
+  "Actions": [
+    {
+      "OperationId": "CreateAFolder",
+      "Name": "Create a Folder",
+      "Description": "Creates a new folder in your space",
+      "Anchor": "#create-a-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAList",
+      "Name": "Create A list",
+      "Description": "Create a new list inside of a folder",
+      "Anchor": "#create-a-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSpace",
+      "Name": "Create A Space",
+      "Description": "Creates new workspace in your team",
+      "Anchor": "#create-a-space",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTeams",
+      "Name": "Get Teams",
+      "Description": "Returns the teams for your ClickUp instance",
+      "Anchor": "#get-teams",
+      "IsDeprecated": false
+    }
+  ]
+}

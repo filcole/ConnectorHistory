@@ -122,6 +122,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "SearchLocationIP",
+      "Name": "Search location by IP address",
+      "Description": "Returns information about a specific location, by IP Address.",
+      "Anchor": "#search-location-by-ip-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchLocationKey",
+      "Name": "Search by location key",
+      "Description": "Returns information about a specific location, by location key. You must know the location key to perform this query.",
+      "Anchor": "#search-by-location-key",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "TopCitiesList",
       "Name": "Get Top Cities List",
       "Description": "Returns information for the top 50, 100, or 150 cities, worldwide.",
