@@ -5,7 +5,7 @@
     {
       "OperationId": "AllKingdomHolidays",
       "Name": "All holidays for all kingdoms",
-      "Description": "All bank holidays for all kingdoms as defined the Government",
+      "Description": "All bank holidays for all kingdoms as defined by the Government.",
       "Anchor": "#all-holidays-for-all-kingdoms",
       "IsDeprecated": false
     }

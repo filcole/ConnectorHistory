@@ -1,0 +1,55 @@
+{
+  "UniqueName": "libreborip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../libreborip/",
+  "Actions": [
+    {
+      "OperationId": "Libreborme_search_company",
+      "Name": "Search for a company",
+      "Description": "Retrieve list of companies that match the keywords in their name. The number of results is limited to 200. Use the 'page' parameter to retrieve more results.",
+      "Anchor": "#search-for-a-company",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Libreborme-company_by_nif",
+      "Name": "Get company information by NIF",
+      "Description": "Retrieve company information for specified NIF.",
+      "Anchor": "#get-company-information-by-nif",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Libreborme-company_by_slug",
+      "Name": "Get company information by Slug",
+      "Description": "Retrieve company information for specified Slug, a slug is a concatenation of key words that represent the company",
+      "Anchor": "#get-company-information-by-slug",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Libreborme-company_incorporation_by_slug",
+      "Name": "Get company incorporation information by Slug",
+      "Description": "Retrieve company incorporation information for specified Slug.",
+      "Anchor": "#get-company-incorporation-information-by-slug",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Libreborme-nif_info",
+      "Name": "Validate NIF",
+      "Description": "Check whether a NIF is valid or not and return information that can be infered from a NIF number, such as the legal form, company type and register province.",
+      "Anchor": "#validate-nif",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Libreborme-person_by_slug",
+      "Name": "Get person information (slug)",
+      "Description": "Retrieve person information for specified Slug.",
+      "Anchor": "#get-person-information-(slug)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Libreborme-search_person",
+      "Name": "Search for a person",
+      "Description": "Retrieve list of people that match the keywords in their name. The number of results is limited to 200. Use the 'page' parameter to retrieve more results.",
+      "Anchor": "#search-for-a-person",
+      "IsDeprecated": false
+    }
+  ]
+}

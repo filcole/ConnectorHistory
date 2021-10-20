@@ -14256,9 +14256,9 @@
       },
       {
         "OperationId": "RunUIFlow_V2",
-        "Name": "Run a flow built with Power Automate Desktop",
-        "Description": "A flow will automatically run a set of steps built by Power Automate Desktop.",
-        "Anchor": "#run-a-flow-built-with-power-automate-desktop",
+        "Name": "Run a flow built with Power Automate for desktop",
+        "Description": "A flow will automatically run a set of steps built by Power Automate for desktop.",
+        "Anchor": "#run-a-flow-built-with-power-automate-for-desktop",
         "IsDeprecated": false
       }
     ]
@@ -14495,6 +14495,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetPlaybook",
+        "Name": "Get playbooks",
+        "Description": "Get available playbooks.",
+        "Anchor": "#get-playbooks",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetTestMessages",
         "Name": "Get test callback messages",
         "Description": "Get test messages.",
@@ -14534,6 +14541,13 @@
         "Name": "Turn Created",
         "Description": "Turn Created",
         "Anchor": "#turn-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TurnMentionTrigger",
+        "Name": "Mention in Turn",
+        "Description": "Mention in Turn",
+        "Anchor": "#mention-in-turn",
         "IsDeprecated": false
       },
       {
@@ -33332,6 +33346,61 @@
     ]
   },
   {
+    "UniqueName": "libreborip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../libreborip/",
+    "Actions": [
+      {
+        "OperationId": "Libreborme_search_company",
+        "Name": "Search for a company",
+        "Description": "Retrieve list of companies that match the keywords in their name. The number of results is limited to 200. Use the 'page' parameter to retrieve more results.",
+        "Anchor": "#search-for-a-company",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Libreborme-company_by_nif",
+        "Name": "Get company information by NIF",
+        "Description": "Retrieve company information for specified NIF.",
+        "Anchor": "#get-company-information-by-nif",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Libreborme-company_by_slug",
+        "Name": "Get company information by Slug",
+        "Description": "Retrieve company information for specified Slug, a slug is a concatenation of key words that represent the company",
+        "Anchor": "#get-company-information-by-slug",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Libreborme-company_incorporation_by_slug",
+        "Name": "Get company incorporation information by Slug",
+        "Description": "Retrieve company incorporation information for specified Slug.",
+        "Anchor": "#get-company-incorporation-information-by-slug",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Libreborme-nif_info",
+        "Name": "Validate NIF",
+        "Description": "Check whether a NIF is valid or not and return information that can be infered from a NIF number, such as the legal form, company type and register province.",
+        "Anchor": "#validate-nif",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Libreborme-person_by_slug",
+        "Name": "Get person information (slug)",
+        "Description": "Retrieve person information for specified Slug.",
+        "Anchor": "#get-person-information-(slug)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Libreborme-search_person",
+        "Name": "Search for a person",
+        "Description": "Retrieve list of people that match the keywords in their name. The number of results is limited to 200. Use the 'page' parameter to retrieve more results.",
+        "Anchor": "#search-for-a-person",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "lifx",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../lifx/",
     "Actions": [
@@ -37695,6 +37764,61 @@
     ]
   },
   {
+    "UniqueName": "notionip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../notionip/",
+    "Actions": [
+      {
+        "OperationId": "Listofallusers",
+        "Name": "List of all users",
+        "Description": "Returns a paginated list of Users for the workspace",
+        "Anchor": "#list-of-all-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrieveADatabase",
+        "Name": "Retrieve a database",
+        "Description": "Retrieves a Database object using the ID specified.",
+        "Anchor": "#retrieve-a-database",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrieveBlock",
+        "Name": "Retrieve a block",
+        "Description": "Retrieves a Block object using the ID specified.",
+        "Anchor": "#retrieve-a-block",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrieveBlockChildren",
+        "Name": "Retrieve block children",
+        "Description": "Returns a paginated array of child block objects contained in the block using the ID specified",
+        "Anchor": "#retrieve-block-children",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrieveUser",
+        "Name": "Retrieve User",
+        "Description": "Retrieves a User using the ID specified.",
+        "Anchor": "#retrieve-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Search",
+        "Name": "Search",
+        "Description": "Searches all pages and child pages that are shared with the integration. The results may include databases.",
+        "Anchor": "#search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateaBlock",
+        "Name": "Update a block (to-do)",
+        "Description": "Updates the content for the specified block_id based on the block type to-do.",
+        "Anchor": "#update-a-block-(to-do)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "npstoday",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../npstoday/",
     "Actions": [
@@ -39603,6 +39727,26 @@
         "Name": "Update page content (Preview)",
         "Description": "Update HTML page content.",
         "Anchor": "#update-page-content-(preview)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "opencagegeocodingip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../opencagegeocodingip/",
+    "Actions": [
+      {
+        "OperationId": "ForwardGeocoding",
+        "Name": "Forward Geocoding",
+        "Description": "Get location address details by place name, city or address",
+        "Anchor": "#forward-geocoding",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReverseGeocoding",
+        "Name": "Reverse geocoding",
+        "Description": "Get location address by latitude and longitude",
+        "Anchor": "#reverse-geocoding",
         "IsDeprecated": false
       }
     ]
@@ -47069,6 +47213,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetAllProfiles",
+        "Name": "Get all profiles",
+        "Description": "Retrieves all profiles.",
+        "Anchor": "#get-all-profiles",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllProfilesByIndicators",
+        "Name": "Get all profiles by indicator",
+        "Description": "Retrieves all profiles containing the given indicator.",
+        "Anchor": "#get-all-profiles-by-indicator",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetArticleDetails",
         "Name": "Get article details",
         "Description": "Retrieves the details of the article specified.",
@@ -47101,6 +47259,27 @@
         "Name": "Get artifact tags",
         "Description": "Retrieve the tags of an artifact or artifacts.",
         "Anchor": "#get-artifact-tags",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAttackSurface",
+        "Name": "Get attack surface",
+        "Description": "Finds the Attack Surface information of the given account.",
+        "Anchor": "#get-attack-surface",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAttackSurfaceByInsight",
+        "Name": "Get attack surface insight by insight Id",
+        "Description": "Finds the Attack Surface Insight Information given the insight ID for the given account",
+        "Anchor": "#get-attack-surface-insight-by-insight-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAttackSurfaceByLevel",
+        "Name": "Get attack surface priority detail by level",
+        "Description": "Finds the Attack Surface Priority Information given the level (low, medium, high) associated to the given account.",
+        "Anchor": "#get-attack-surface-priority-detail-by-level",
         "IsDeprecated": false
       },
       {
@@ -47181,6 +47360,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetIndicatorsOfProfile",
+        "Name": "Get all indicators for given profile",
+        "Description": "Retrieves the indicators for the given profile id.",
+        "Anchor": "#get-all-indicators-for-given-profile",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetMalware",
         "Name": "Get malware",
         "Description": "Get malware data for a query.",
@@ -47237,6 +47423,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetProfile",
+        "Name": "Get profile details",
+        "Description": "Retrieves the details for the given profile.",
+        "Anchor": "#get-profile-details",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetSinkholeStatus",
         "Name": "Get sinkhole status",
         "Description": "Indicates whether or not an IP address is a sinkhole.",
@@ -47272,6 +47465,27 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetThirdPartyVulnComponents",
+        "Name": "Get attack surface third party vulnerable components",
+        "Description": "Finds the Attack Surface Third-Party Vulnerable Components given the vendor ID.",
+        "Anchor": "#get-attack-surface-third-party-vulnerable-components",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetThirdPartyVulnInfo",
+        "Name": "Get attack surface third party vulnerabilities",
+        "Description": "Finds the Attack Surface Third-Party Vulnerability Information given the vendor ID.",
+        "Anchor": "#get-attack-surface-third-party-vulnerabilities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetThirdPartyVulnObservation",
+        "Name": "Get attack surface third party vulnerability observations",
+        "Description": "Finds the Attack Surface Third-Party Vulnerability Observations given the vendor ID and CVE.",
+        "Anchor": "#get-attack-surface-third-party-vulnerability-observations",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetTrackers",
         "Name": "Get trackers",
         "Description": "Retrieves the host attribute trackers.",
@@ -47283,6 +47497,55 @@
         "Name": "Get unique passive DNS",
         "Description": "Retrieves the unique passive DNS results from active account sources.",
         "Anchor": "#get-unique-passive-dns",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVendorById",
+        "Name": "Get attack surface third party by vendor Id",
+        "Description": "Finds vendors associated with the given vendor id for given account account.",
+        "Anchor": "#get-attack-surface-third-party-by-vendor-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVendors",
+        "Name": "Get all third party vendors",
+        "Description": "Finds all vendors associated with the given account.",
+        "Anchor": "#get-all-third-party-vendors",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVendorsByInsightId",
+        "Name": "Get attack surface third party insight by vendor Id and insight Id",
+        "Description": "Finds vendors associated with the given vendor id and insight Id",
+        "Anchor": "#get-attack-surface-third-party-insight-by-vendor-id-and-insight-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVendorsByLevel",
+        "Name": "Get attack surface third party priority detail by vendor Id and level",
+        "Description": "Finds vendors associated with the given vendor id and priority level for given account account.",
+        "Anchor": "#get-attack-surface-third-party-priority-detail-by-vendor-id-and-level",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVulnComponents",
+        "Name": "Get attack surface vulnerable components",
+        "Description": "Finds the Attack Surface Vulnerable Components for the primary vendor.",
+        "Anchor": "#get-attack-surface-vulnerable-components",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVulnInfo",
+        "Name": "Get attack surface vulnerable information",
+        "Description": "Finds the Attack Surface Vulnerability Information for the primary vendor for the given account.",
+        "Anchor": "#get-attack-surface-vulnerable-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVulnObservation",
+        "Name": "Get attack surface vulnerability observations",
+        "Description": "Finds the Attack Surface Vulnerability Observations for the primary vendor given a CVE.",
+        "Anchor": "#get-attack-surface-vulnerability-observations",
         "IsDeprecated": false
       },
       {
@@ -54411,7 +54674,7 @@
       {
         "OperationId": "AllKingdomHolidays",
         "Name": "All holidays for all kingdoms",
-        "Description": "All bank holidays for all kingdoms as defined the Government",
+        "Description": "All bank holidays for all kingdoms as defined by the Government.",
         "Anchor": "#all-holidays-for-all-kingdoms",
         "IsDeprecated": false
       }
@@ -54844,6 +55107,19 @@
         "Name": "Add a New User",
         "Description": "Creates and invites a new user.",
         "Anchor": "#add-a-new-user",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "weatherforecastip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../weatherforecastip/",
+    "Actions": [
+      {
+        "OperationId": "city",
+        "Name": "Get Weather info",
+        "Description": "This returns weather info depnding on city of choice",
+        "Anchor": "#get-weather-info",
         "IsDeprecated": false
       }
     ]

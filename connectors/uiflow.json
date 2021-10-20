@@ -18,9 +18,9 @@
     },
     {
       "OperationId": "RunUIFlow_V2",
-      "Name": "Run a flow built with Power Automate Desktop",
-      "Description": "A flow will automatically run a set of steps built by Power Automate Desktop.",
-      "Anchor": "#run-a-flow-built-with-power-automate-desktop",
+      "Name": "Run a flow built with Power Automate for desktop",
+      "Description": "A flow will automatically run a set of steps built by Power Automate for desktop.",
+      "Anchor": "#run-a-flow-built-with-power-automate-for-desktop",
       "IsDeprecated": false
     }
   ]

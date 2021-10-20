@@ -1,0 +1,55 @@
+{
+  "UniqueName": "notionip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../notionip/",
+  "Actions": [
+    {
+      "OperationId": "Listofallusers",
+      "Name": "List of all users",
+      "Description": "Returns a paginated list of Users for the workspace",
+      "Anchor": "#list-of-all-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrieveADatabase",
+      "Name": "Retrieve a database",
+      "Description": "Retrieves a Database object using the ID specified.",
+      "Anchor": "#retrieve-a-database",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrieveBlock",
+      "Name": "Retrieve a block",
+      "Description": "Retrieves a Block object using the ID specified.",
+      "Anchor": "#retrieve-a-block",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrieveBlockChildren",
+      "Name": "Retrieve block children",
+      "Description": "Returns a paginated array of child block objects contained in the block using the ID specified",
+      "Anchor": "#retrieve-block-children",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrieveUser",
+      "Name": "Retrieve User",
+      "Description": "Retrieves a User using the ID specified.",
+      "Anchor": "#retrieve-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Search",
+      "Name": "Search",
+      "Description": "Searches all pages and child pages that are shared with the integration. The results may include databases.",
+      "Anchor": "#search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateaBlock",
+      "Name": "Update a block (to-do)",
+      "Description": "Updates the content for the specified block_id based on the block type to-do.",
+      "Anchor": "#update-a-block-(to-do)",
+      "IsDeprecated": false
+    }
+  ]
+}

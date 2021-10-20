@@ -1,0 +1,20 @@
+{
+  "UniqueName": "opencagegeocodingip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../opencagegeocodingip/",
+  "Actions": [
+    {
+      "OperationId": "ForwardGeocoding",
+      "Name": "Forward Geocoding",
+      "Description": "Get location address details by place name, city or address",
+      "Anchor": "#forward-geocoding",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReverseGeocoding",
+      "Name": "Reverse geocoding",
+      "Description": "Get location address by latitude and longitude",
+      "Anchor": "#reverse-geocoding",
+      "IsDeprecated": false
+    }
+  ]
+}

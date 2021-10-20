@@ -1,0 +1,13 @@
+{
+  "UniqueName": "weatherforecastip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../weatherforecastip/",
+  "Actions": [
+    {
+      "OperationId": "city",
+      "Name": "Get Weather info",
+      "Description": "This returns weather info depnding on city of choice",
+      "Anchor": "#get-weather-info",
+      "IsDeprecated": false
+    }
+  ]
+}

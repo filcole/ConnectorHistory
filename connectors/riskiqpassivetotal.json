@@ -129,6 +129,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetAllProfiles",
+      "Name": "Get all profiles",
+      "Description": "Retrieves all profiles.",
+      "Anchor": "#get-all-profiles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllProfilesByIndicators",
+      "Name": "Get all profiles by indicator",
+      "Description": "Retrieves all profiles containing the given indicator.",
+      "Anchor": "#get-all-profiles-by-indicator",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetArticleDetails",
       "Name": "Get article details",
       "Description": "Retrieves the details of the article specified.",
@@ -161,6 +175,27 @@
       "Name": "Get artifact tags",
       "Description": "Retrieve the tags of an artifact or artifacts.",
       "Anchor": "#get-artifact-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAttackSurface",
+      "Name": "Get attack surface",
+      "Description": "Finds the Attack Surface information of the given account.",
+      "Anchor": "#get-attack-surface",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAttackSurfaceByInsight",
+      "Name": "Get attack surface insight by insight Id",
+      "Description": "Finds the Attack Surface Insight Information given the insight ID for the given account",
+      "Anchor": "#get-attack-surface-insight-by-insight-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAttackSurfaceByLevel",
+      "Name": "Get attack surface priority detail by level",
+      "Description": "Finds the Attack Surface Priority Information given the level (low, medium, high) associated to the given account.",
+      "Anchor": "#get-attack-surface-priority-detail-by-level",
       "IsDeprecated": false
     },
     {
@@ -241,6 +276,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetIndicatorsOfProfile",
+      "Name": "Get all indicators for given profile",
+      "Description": "Retrieves the indicators for the given profile id.",
+      "Anchor": "#get-all-indicators-for-given-profile",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetMalware",
       "Name": "Get malware",
       "Description": "Get malware data for a query.",
@@ -297,6 +339,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetProfile",
+      "Name": "Get profile details",
+      "Description": "Retrieves the details for the given profile.",
+      "Anchor": "#get-profile-details",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetSinkholeStatus",
       "Name": "Get sinkhole status",
       "Description": "Indicates whether or not an IP address is a sinkhole.",
@@ -332,6 +381,27 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetThirdPartyVulnComponents",
+      "Name": "Get attack surface third party vulnerable components",
+      "Description": "Finds the Attack Surface Third-Party Vulnerable Components given the vendor ID.",
+      "Anchor": "#get-attack-surface-third-party-vulnerable-components",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetThirdPartyVulnInfo",
+      "Name": "Get attack surface third party vulnerabilities",
+      "Description": "Finds the Attack Surface Third-Party Vulnerability Information given the vendor ID.",
+      "Anchor": "#get-attack-surface-third-party-vulnerabilities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetThirdPartyVulnObservation",
+      "Name": "Get attack surface third party vulnerability observations",
+      "Description": "Finds the Attack Surface Third-Party Vulnerability Observations given the vendor ID and CVE.",
+      "Anchor": "#get-attack-surface-third-party-vulnerability-observations",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetTrackers",
       "Name": "Get trackers",
       "Description": "Retrieves the host attribute trackers.",
@@ -343,6 +413,55 @@
       "Name": "Get unique passive DNS",
       "Description": "Retrieves the unique passive DNS results from active account sources.",
       "Anchor": "#get-unique-passive-dns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVendorById",
+      "Name": "Get attack surface third party by vendor Id",
+      "Description": "Finds vendors associated with the given vendor id for given account account.",
+      "Anchor": "#get-attack-surface-third-party-by-vendor-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVendors",
+      "Name": "Get all third party vendors",
+      "Description": "Finds all vendors associated with the given account.",
+      "Anchor": "#get-all-third-party-vendors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVendorsByInsightId",
+      "Name": "Get attack surface third party insight by vendor Id and insight Id",
+      "Description": "Finds vendors associated with the given vendor id and insight Id",
+      "Anchor": "#get-attack-surface-third-party-insight-by-vendor-id-and-insight-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVendorsByLevel",
+      "Name": "Get attack surface third party priority detail by vendor Id and level",
+      "Description": "Finds vendors associated with the given vendor id and priority level for given account account.",
+      "Anchor": "#get-attack-surface-third-party-priority-detail-by-vendor-id-and-level",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVulnComponents",
+      "Name": "Get attack surface vulnerable components",
+      "Description": "Finds the Attack Surface Vulnerable Components for the primary vendor.",
+      "Anchor": "#get-attack-surface-vulnerable-components",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVulnInfo",
+      "Name": "Get attack surface vulnerable information",
+      "Description": "Finds the Attack Surface Vulnerability Information for the primary vendor for the given account.",
+      "Anchor": "#get-attack-surface-vulnerable-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVulnObservation",
+      "Name": "Get attack surface vulnerability observations",
+      "Description": "Finds the Attack Surface Vulnerability Observations for the primary vendor given a CVE.",
+      "Anchor": "#get-attack-surface-vulnerability-observations",
       "IsDeprecated": false
     },
     {

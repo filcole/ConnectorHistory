@@ -59,6 +59,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetPlaybook",
+      "Name": "Get playbooks",
+      "Description": "Get available playbooks.",
+      "Anchor": "#get-playbooks",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetTestMessages",
       "Name": "Get test callback messages",
       "Description": "Get test messages.",
@@ -98,6 +105,13 @@
       "Name": "Turn Created",
       "Description": "Turn Created",
       "Anchor": "#turn-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TurnMentionTrigger",
+      "Name": "Mention in Turn",
+      "Description": "Mention in Turn",
+      "Anchor": "#mention-in-turn",
       "IsDeprecated": false
     },
     {
