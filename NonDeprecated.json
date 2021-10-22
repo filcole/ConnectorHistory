@@ -3520,6 +3520,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "List-Content-Entity-Templates",
+        "Name": "List Content Entity Templates",
+        "Description": "Lists the templates for a content entity.",
+        "Anchor": "#list-content-entity-templates",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "List-Storage-Connectors",
         "Name": "List Storage Connectors",
         "Description": "Lists all configured storage connectors.",
@@ -34209,13 +34216,6 @@
         "IsDeprecated": false
       },
       {
-        "OperationId": "AtMentionTag",
-        "Name": "Get an @mention token for a tag",
-        "Description": "This operation creates a token that can be inserted into a message or adaptive card sent as a user inS a channel to @mention a tag.",
-        "Anchor": "#get-an-@mention-token-for-a-tag",
-        "IsDeprecated": false
-      },
-      {
         "OperationId": "AtMentionUser",
         "Name": "Get an @mention token for a user",
         "Description": "This operation creates a token that can be inserted into a message or adaptive card to @mention a user.",
@@ -34283,13 +34283,6 @@
         "Name": "Get messages",
         "Description": "This operation is used to get messages from a channel in a specific Team.",
         "Anchor": "#get-messages",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetTags",
-        "Name": "List all tags for a team",
-        "Description": "This operation retrieves a list of tags.",
-        "Anchor": "#list-all-tags-for-a-team",
         "IsDeprecated": false
       },
       {
@@ -40705,6 +40698,96 @@
         "Name": "Is User Member of SharePoint Group",
         "Description": "Checks if a user is a member of a specifed SharePoint group",
         "Anchor": "#is-user-member-of-sharepoint-group",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "polarispsa",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../polarispsa/",
+    "Actions": [
+      {
+        "OperationId": "BulkGetProjectDetails3",
+        "Name": "Get Project Details",
+        "Description": "Get the project details from Polaris",
+        "Anchor": "#get-project-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BulkGetTimeEnteredSummary",
+        "Name": "Get Time Entered Summary",
+        "Description": "Get Time Entered by Task Uri from Polaris",
+        "Anchor": "#get-time-entered-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateProjectOrApplyModifications",
+        "Name": "Create Project Or Apply Modifications",
+        "Description": "Create Project Or Apply Modifications in Polaris",
+        "Anchor": "#create-project-or-apply-modifications",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateTaskHierarchyOrApplyModifications",
+        "Name": "Create Task Hierarchy Or Apply Modifications",
+        "Description": "Create Task Hierarchy Or Apply Modifications to a Polaris Task",
+        "Anchor": "#create-task-hierarchy-or-apply-modifications",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDescendantTaskDetails",
+        "Name": "Get Descendant Task Details",
+        "Description": "Get Hierarchial Task Details from Polaris",
+        "Anchor": "#get-descendant-task-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMyTenantEndpointDetails",
+        "Name": "Get Tenant End Point Details",
+        "Description": "Get End Point Details of the Tenant",
+        "Anchor": "#get-tenant-end-point-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTimesheetSummary",
+        "Name": "Get Timesheet Summary",
+        "Description": "Get Timesheet Summary from Polaris",
+        "Anchor": "#get-timesheet-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GraphQL",
+        "Name": "Graph QL query",
+        "Description": "Make Graph QL queries to Polaris",
+        "Anchor": "#graph-ql-query",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MoveTask",
+        "Name": "Move Task",
+        "Description": "Move Task to a new Parent",
+        "Anchor": "#move-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TaskListServiceGetData",
+        "Name": "Task List Service Get Data",
+        "Description": "Get Task List Service Data From Polaris",
+        "Anchor": "#task-list-service-get-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserListServiceGetData",
+        "Name": "Get User List",
+        "Description": "Get User List Data from Polaris",
+        "Anchor": "#get-user-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WebhookSubscriptionsRestAPI",
+        "Name": "Subscribe to Event triggers",
+        "Description": "Trigger to Subscribe to Web hook eventis in Polaris",
+        "Anchor": "#subscribe-to-event-triggers",
         "IsDeprecated": false
       }
     ]

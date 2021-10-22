@@ -24,13 +24,6 @@
       "IsDeprecated": false
     },
     {
-      "OperationId": "AtMentionTag",
-      "Name": "Get an @mention token for a tag",
-      "Description": "This operation creates a token that can be inserted into a message or adaptive card sent as a user inS a channel to @mention a tag.",
-      "Anchor": "#get-an-@mention-token-for-a-tag",
-      "IsDeprecated": false
-    },
-    {
       "OperationId": "AtMentionUser",
       "Name": "Get an @mention token for a user",
       "Description": "This operation creates a token that can be inserted into a message or adaptive card to @mention a user.",
@@ -141,13 +134,6 @@
       "Description": "This action has been deprecated. Please use Get a Shift instead.\nThis operation returns details for a shift using the shift's unique ID.",
       "Anchor": "#shifts:-get-a-shift-[deprecated]",
       "IsDeprecated": true
-    },
-    {
-      "OperationId": "GetTags",
-      "Name": "List all tags for a team",
-      "Description": "This operation retrieves a list of tags.",
-      "Anchor": "#list-all-tags-for-a-team",
-      "IsDeprecated": false
     },
     {
       "OperationId": "GetTeam",

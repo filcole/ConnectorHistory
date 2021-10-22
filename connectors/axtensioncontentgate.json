@@ -66,6 +66,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "List-Content-Entity-Templates",
+      "Name": "List Content Entity Templates",
+      "Description": "Lists the templates for a content entity.",
+      "Anchor": "#list-content-entity-templates",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "List-Storage-Connectors",
       "Name": "List Storage Connectors",
       "Description": "Lists all configured storage connectors.",
