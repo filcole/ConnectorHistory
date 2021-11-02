@@ -1,0 +1,223 @@
+{
+  "UniqueName": "federalreserveeconip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../federalreserveeconip/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Get the dates in history when a series' data values were revised",
+      "Description": "Get the dates in history when a series' data values were revised or new data values were released. Vintage dates are the release dates for a series excluding release dates when the data for the series did not change.",
+      "Anchor": "#get-the-dates-in-history-when-a-series'-data-values-were-revised",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CategoryGetA",
+      "Name": "Get a category",
+      "Description": "Get a category.",
+      "Anchor": "#get-a-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CategoryGetChild",
+      "Name": "Get the child categories",
+      "Description": "Get the child categories for a specified parent category.",
+      "Anchor": "#get-the-child-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CategoryGetRelated",
+      "Name": "Get the related categories for a category",
+      "Description": "A related category is a one-way relation between 2 categories that is not part of a parent-child category hierarchy. Most categories do not have related categories.",
+      "Anchor": "#get-the-related-categories-for-a-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CategoryGetRelatedTags",
+      "Name": "Get the related tags for tags within a category",
+      "Description": "Get the related FRED tags for one or more FRED tags within a category. FRED tags are attributes assigned to series. For this request, related FRED tags are the tags assigned to series that match all tags in the parameters.",
+      "Anchor": "#get-the-related-tags-for-tags-within-a-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CategoryGetSeries",
+      "Name": "Get the series in a category",
+      "Description": "Get the series in a category.",
+      "Anchor": "#get-the-series-in-a-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CategoryGetTags",
+      "Name": "Get the tags for a category",
+      "Description": "Get the FRED tags for a category.",
+      "Anchor": "#get-the-tags-for-a-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReleaseGetA",
+      "Name": "Get a release of economic data",
+      "Description": "Get a release of economic data.",
+      "Anchor": "#get-a-release-of-economic-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReleaseGetAll",
+      "Name": "Get all releases of economic data",
+      "Description": "Get all releases of economic data.",
+      "Anchor": "#get-all-releases-of-economic-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReleaseGetDates",
+      "Name": "Get release dates for all releases of economic data",
+      "Description": "Get release dates for all releases of economic data.",
+      "Anchor": "#get-release-dates-for-all-releases-of-economic-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReleaseGetRelatedTags",
+      "Name": "Get the related tags for one or more tags within a release",
+      "Description": "Get the related FRED tags for one or more FRED tags within a release.",
+      "Anchor": "#get-the-related-tags-for-one-or-more-tags-within-a-release",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReleaseGetReleaseDates",
+      "Name": "Get release dates for a release of economic data",
+      "Description": "Get release dates for a release of economic data. Note that release dates are published by data sources and do not necessarily represent when data will be available on the FRED or ALFRED websites.",
+      "Anchor": "#get-release-dates-for-a-release-of-economic-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReleaseGetSeries",
+      "Name": "Get the series on a release of economic data",
+      "Description": "Get the series on a release of economic data.",
+      "Anchor": "#get-the-series-on-a-release-of-economic-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReleaseGetSources",
+      "Name": "Get the sources for a release of economic data",
+      "Description": "Get the sources for a release of economic data.",
+      "Anchor": "#get-the-sources-for-a-release-of-economic-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReleaseGetTables",
+      "Name": "Get release table trees for a given release",
+      "Description": "Get release table trees for a given release. Note that release dates are published by data sources and do not necessarily represent when data will be available on the FRED or ALFRED websites.",
+      "Anchor": "#get-release-table-trees-for-a-given-release",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReleaseGetTags",
+      "Name": "Get the tags for a release",
+      "Description": "Get the FRED tags for a release.",
+      "Anchor": "#get-the-tags-for-a-release",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SeriesGetA",
+      "Name": "Get an economic data series",
+      "Description": "Get an economic data series.",
+      "Anchor": "#get-an-economic-data-series",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SeriesGetCategory",
+      "Name": "Get the categories for an economic data series",
+      "Description": "Get the categories for an economic data series.",
+      "Anchor": "#get-the-categories-for-an-economic-data-series",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SeriesGetObservations",
+      "Name": "Get the observations or data values for an economic data series",
+      "Description": "Get the observations or data values for an economic data series.",
+      "Anchor": "#get-the-observations-or-data-values-for-an-economic-data-series",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SeriesGetRelatedTagsSearch",
+      "Name": "Get the related tags for one or more  tags matching a series search",
+      "Description": "Get the related FRED tags for one or more FRED tags matching a series search.",
+      "Anchor": "#get-the-related-tags-for-one-or-more-tags-matching-a-series-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SeriesGetRelease",
+      "Name": "Get the release for an economic data series",
+      "Description": "Get the release for an economic data series.",
+      "Anchor": "#get-the-release-for-an-economic-data-series",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SeriesGetTags",
+      "Name": "Get the tags for a series",
+      "Description": "Get the FRED tags for a series.",
+      "Anchor": "#get-the-tags-for-a-series",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SeriesGetTagsSearch",
+      "Name": "Get the tags for a series search",
+      "Description": "Get the FRED tags for a series search.",
+      "Anchor": "#get-the-tags-for-a-series-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SeriesGetUpdates",
+      "Name": "Get economic data series sorted by when observations were updated",
+      "Description": "Get economic data series sorted by when observations were updated on the FRED server. Results are limited to series updated within the last two weeks.",
+      "Anchor": "#get-economic-data-series-sorted-by-when-observations-were-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SeriesSearch",
+      "Name": "Get economic data series that match search text",
+      "Description": "Get economic data series that match search text.",
+      "Anchor": "#get-economic-data-series-that-match-search-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SourceGetA",
+      "Name": "Get a source of economic data",
+      "Description": "Get a source of economic data.",
+      "Anchor": "#get-a-source-of-economic-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SourceGetReleases",
+      "Name": "Get the releases for a source",
+      "Description": "Get the releases for a source.",
+      "Anchor": "#get-the-releases-for-a-source",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SourcesGetAll",
+      "Name": "Get all sources of economic data",
+      "Description": "Get all sources of economic data.",
+      "Anchor": "#get-all-sources-of-economic-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TagGetAll",
+      "Name": "Get all tags",
+      "Description": "Get FRED tags. Optionally, filter results by tag name, tag group, or search. FRED tags are attributes assigned to series.",
+      "Anchor": "#get-all-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TagGetRelated",
+      "Name": "Get the related tags for one or more tags",
+      "Description": "Get the related FRED tags for one or more FRED tags. Optionally, filter results by tag group or search.  FRED tags are attributes assigned to series. Related FRED tags are the tags assigned to series that match all tags in the tag_names parameter and no tags in the exclude_tag_names parameter.",
+      "Anchor": "#get-the-related-tags-for-one-or-more-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TagGetSeries",
+      "Name": "Get the series matching tags",
+      "Description": "Get the series matching all tags in the tag_names parameter and no tags in the exclude_tag_names parameter.",
+      "Anchor": "#get-the-series-matching-tags",
+      "IsDeprecated": false
+    }
+  ]
+}

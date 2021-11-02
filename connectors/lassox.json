@@ -29,6 +29,13 @@
       "Description": "Gets information about a production unit.",
       "Anchor": "#get-production-unit-information",
       "IsDeprecated": false
+    },
+    {
+      "OperationId": "RelatedProductionUnits",
+      "Name": "Get ProductionUnit information from CVR number",
+      "Description": "Gets information about Production Units related to a Company.",
+      "Anchor": "#get-productionunit-information-from-cvr-number",
+      "IsDeprecated": false
     }
   ]
 }

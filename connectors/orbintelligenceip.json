@@ -1,0 +1,41 @@
+{
+  "UniqueName": "orbintelligenceip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../orbintelligenceip/",
+  "Actions": [
+    {
+      "OperationId": "CorporateTree",
+      "Name": "Retrieves full corporate tree of subsidiaries",
+      "Description": "The Corporate Tree API call allows a user to retrieve full corporate tree of subsidiaries for a given company, starting from its ultimate parent company. The input to the Corporate Tree call is the Orb Number of the target company (mandatory field).",
+      "Anchor": "#retrieves-full-corporate-tree-of-subsidiaries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Fetch",
+      "Name": "Obtain a full company profile from the Orb database",
+      "Description": "The Fetch API call allows a user to obtain a full company profile from the Orb database, based on an Orb Number. The Orb Number for a company record can be obtained from a choosing a candidate from the Match call or from a previously identified matched record. The Fetch API call will return back all the standard fields in the Orb database for a single company record that corresponds to the Orb Number.",
+      "Anchor": "#obtain-a-full-company-profile-from-the-orb-database",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Look-alike",
+      "Name": "Retrieves a list of companies similar to a target company",
+      "Description": "The Lookalike API call allows a user to retrieve a list of companies similar to a target company. The input to the Lookalike call are the Orb Number of the target company.",
+      "Anchor": "#retrieves-a-list-of-companies-similar-to-a-target-company",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Match",
+      "Name": "The Match API call performs a candidate retrieval process",
+      "Description": "The Match API call performs a candidate retrieval process; the process by which Orb records are identified as potential matches to the query. The input fields must either include the name and country, or the website/email, or the EIN of the company record. All other fields are optional. Users can review the candidates to choose their preferred match based on the candidate with the highest Confidence Score, algorithmically, based on the match mask (for example, take those that match by website, even though the name didn't match) or manually.",
+      "Anchor": "#the-match-api-call-performs-a-candidate-retrieval-process",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Search",
+      "Name": "Retrieves a list of companies for the given search criteria",
+      "Description": "The Search API call allows a user to retrieve a list of companies for the given search criteria. This enables a user to build out a list of companies for use cases such as building out a list of companies in a specific territory or segment. The input to the Search call are a list of filtering attributes that define the companies in the list. These filters can include the geographic location of the companies (at a city, state or country level), revenue, number of employees and their industry profile (e.g., SIC, NAICS, or Orb's proprietary categories classification).",
+      "Anchor": "#retrieves-a-list-of-companies-for-the-given-search-criteria",
+      "IsDeprecated": false
+    }
+  ]
+}

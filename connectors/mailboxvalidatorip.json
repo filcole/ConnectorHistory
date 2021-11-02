@@ -1,0 +1,27 @@
+{
+  "UniqueName": "mailboxvalidatorip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mailboxvalidatorip/",
+  "Actions": [
+    {
+      "OperationId": "ValidateDisposable",
+      "Name": "Validate email address is from a disposable email provider",
+      "Description": "Returns validation from whether email address is from a disposable email provider. Disposable email addresses (DEAs) are temporary email addresses that are only valid for a very short period of time.",
+      "Anchor": "#validate-email-address-is-from-a-disposable-email-provider",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateFree",
+      "Name": "Validate email address is from a free email provider",
+      "Description": "Returns validation from whether email address is from a free email provider.",
+      "Anchor": "#validate-email-address-is-from-a-free-email-provider",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateSingle",
+      "Name": "Validate a single email address",
+      "Description": "Returns validations for a single email address.",
+      "Anchor": "#validate-a-single-email-address",
+      "IsDeprecated": false
+    }
+  ]
+}

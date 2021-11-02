@@ -1,0 +1,48 @@
+{
+  "UniqueName": "carbonintensityip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../carbonintensityip/",
+  "Actions": [
+    {
+      "OperationId": "GetGeneration",
+      "Name": "Get National Generation Mix",
+      "Description": "Generation Mix for the GB power system. Contains the following fuel types: gas, coal, nuclear, biomass, hydro, imports, solar, wind, other.",
+      "Anchor": "#get-national-generation-mix",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIntensity",
+      "Name": "Get National Carbon Intensity",
+      "Description": "The API returns national carbon intensity data for current half hour. All times provided in UTC (+00:00)",
+      "Anchor": "#get-national-carbon-intensity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIntensityEngland",
+      "Name": "Get Carbon Intensity for England",
+      "Description": "Get Carbon Intensity data for current half hour for England. All times provided in UTC (+00:00).",
+      "Anchor": "#get-carbon-intensity-for-england",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIntensityFactors",
+      "Name": "Get National Carbon Intensity Factors",
+      "Description": "Get National Carbon Intensity factors for each fuel type",
+      "Anchor": "#get-national-carbon-intensity-factors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIntensityScotland",
+      "Name": "Get Carbon Intensity for Scotland",
+      "Description": "Get Carbon Intensity data for current half hour for Scotland. All times provided in UTC (+00:00).",
+      "Anchor": "#get-carbon-intensity-for-scotland",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIntensityWales",
+      "Name": "Get Carbon Intensity for Wales",
+      "Description": "Get Carbon Intensity data for current half hour for Wales. All times provided in UTC (+00:00).",
+      "Anchor": "#get-carbon-intensity-for-wales",
+      "IsDeprecated": false
+    }
+  ]
+}

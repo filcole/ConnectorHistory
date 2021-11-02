@@ -1,0 +1,13 @@
+{
+  "UniqueName": "clearbitip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../clearbitip/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Get a company's logo",
+      "Description": "Returns a company's logo with optional size, format and greyscale options.",
+      "Anchor": "#get-a-company's-logo",
+      "IsDeprecated": false
+    }
+  ]
+}

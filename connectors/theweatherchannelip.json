@@ -1,0 +1,27 @@
+{
+  "UniqueName": "theweatherchannelip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../theweatherchannelip/",
+  "Actions": [
+    {
+      "OperationId": "GetConditions",
+      "Name": "Request current weather conditions",
+      "Description": "Request current weather conditions",
+      "Anchor": "#request-current-weather-conditions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetHeadlines",
+      "Name": "Request weather alert headlines",
+      "Description": "Request weather alert headlines",
+      "Anchor": "#request-weather-alert-headlines",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetHistory",
+      "Name": "Request historical weather observations",
+      "Description": "Request historical weather observations",
+      "Anchor": "#request-historical-weather-observations",
+      "IsDeprecated": false
+    }
+  ]
+}

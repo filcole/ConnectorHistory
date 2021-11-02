@@ -1,0 +1,27 @@
+{
+  "UniqueName": "unixtimestampip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../unixtimestampip/",
+  "Actions": [
+    {
+      "OperationId": "DateTime2UnixTimestamp",
+      "Name": "DateTime to Unix Timestamp",
+      "Description": "Converts datetime (multiple formats) to Unix timestamp.",
+      "Anchor": "#datetime-to-unix-timestamp",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Unix2DateTimeTimezone",
+      "Name": "Unix Timestamp to DateTime with Timezone",
+      "Description": "Converts Unix timestamp to datetime with timezone (yyyy-MM-dd'T'HH:mm:ssXXX).",
+      "Anchor": "#unix-timestamp-to-datetime-with-timezone",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Unix2UTCDateTime",
+      "Name": "Unix Timestamp to UTC DateTime",
+      "Description": "Converts Unix timestamp to UTC datetime (yyyy-MM-dd HH:mm:ss).",
+      "Anchor": "#unix-timestamp-to-utc-datetime",
+      "IsDeprecated": false
+    }
+  ]
+}

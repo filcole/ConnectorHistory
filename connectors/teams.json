@@ -24,6 +24,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "AtMentionTag",
+      "Name": "Get an @mention token for a tag [DEPRECATED]",
+      "Description": "This operation creates a token that can be inserted into a message or adaptive card sent as a user inS a channel to @mention a tag.",
+      "Anchor": "#get-an-@mention-token-for-a-tag-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
       "OperationId": "AtMentionUser",
       "Name": "Get an @mention token for a user",
       "Description": "This operation creates a token that can be inserted into a message or adaptive card to @mention a user.",
@@ -133,6 +140,13 @@
       "Name": "Shifts: Get a shift [DEPRECATED]",
       "Description": "This action has been deprecated. Please use Get a Shift instead.\nThis operation returns details for a shift using the shift's unique ID.",
       "Anchor": "#shifts:-get-a-shift-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetTags",
+      "Name": "List all tags for a team [DEPRECATED]",
+      "Description": "This operation retrieves a list of tags.",
+      "Anchor": "#list-all-tags-for-a-team-[deprecated]",
       "IsDeprecated": true
     },
     {
@@ -288,6 +302,13 @@
       "Description": "Easily automate the process of posting a message to a Teams channel.",
       "Anchor": "#post-a-message-as-the-flow-bot-to-a-channel-[deprecated]",
       "IsDeprecated": true
+    },
+    {
+      "OperationId": "PostFeedNotification",
+      "Name": "Post a feed notification",
+      "Description": "This operation posts a feed notification.",
+      "Anchor": "#post-a-feed-notification",
+      "IsDeprecated": false
     },
     {
       "OperationId": "PostMessageToChannel",

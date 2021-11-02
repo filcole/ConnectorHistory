@@ -1,0 +1,13 @@
+{
+  "UniqueName": "iconhorseip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iconhorseip/",
+  "Actions": [
+    {
+      "OperationId": "FaviconGet",
+      "Name": "Get favicon",
+      "Description": "Retrieve the best available favicon. A backup image is returned if no favicon is available.",
+      "Anchor": "#get-favicon",
+      "IsDeprecated": false
+    }
+  ]
+}

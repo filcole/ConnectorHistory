@@ -1,0 +1,27 @@
+{
+  "UniqueName": "newyorktimesip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../newyorktimesip/",
+  "Actions": [
+    {
+      "OperationId": "ArticleSearch",
+      "Name": "Returns a list of articles based on keyword search",
+      "Description": "Search for NYT articles by keywords.",
+      "Anchor": "#returns-a-list-of-articles-based-on-keyword-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MostViewed",
+      "Name": "Returns a list of most viewed articles on NYTimes.com by time period",
+      "Description": "Returns an array of the most viewed articles on NYTimes.com for specified period of time (1 day, 7 days, or 30 days).",
+      "Anchor": "#returns-a-list-of-most-viewed-articles-on-nytimes.com-by-time-period",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TopStories",
+      "Name": "Returns a list of top stories by section",
+      "Description": "The Top Stories service returns an array of articles currently on the specified section.",
+      "Anchor": "#returns-a-list-of-top-stories-by-section",
+      "IsDeprecated": false
+    }
+  ]
+}

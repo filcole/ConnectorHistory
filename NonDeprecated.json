@@ -8730,6 +8730,54 @@
     ]
   },
   {
+    "UniqueName": "carbonintensityip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../carbonintensityip/",
+    "Actions": [
+      {
+        "OperationId": "GetGeneration",
+        "Name": "Get National Generation Mix",
+        "Description": "Generation Mix for the GB power system. Contains the following fuel types: gas, coal, nuclear, biomass, hydro, imports, solar, wind, other.",
+        "Anchor": "#get-national-generation-mix",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetIntensity",
+        "Name": "Get National Carbon Intensity",
+        "Description": "The API returns national carbon intensity data for current half hour. All times provided in UTC (+00:00)",
+        "Anchor": "#get-national-carbon-intensity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetIntensityEngland",
+        "Name": "Get Carbon Intensity for England",
+        "Description": "Get Carbon Intensity data for current half hour for England. All times provided in UTC (+00:00).",
+        "Anchor": "#get-carbon-intensity-for-england",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetIntensityFactors",
+        "Name": "Get National Carbon Intensity Factors",
+        "Description": "Get National Carbon Intensity factors for each fuel type",
+        "Anchor": "#get-national-carbon-intensity-factors",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetIntensityScotland",
+        "Name": "Get Carbon Intensity for Scotland",
+        "Description": "Get Carbon Intensity data for current half hour for Scotland. All times provided in UTC (+00:00).",
+        "Anchor": "#get-carbon-intensity-for-scotland",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetIntensityWales",
+        "Name": "Get Carbon Intensity for Wales",
+        "Description": "Get Carbon Intensity data for current half hour for Wales. All times provided in UTC (+00:00).",
+        "Anchor": "#get-carbon-intensity-for-wales",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "cardplatform",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cardplatform/",
     "Actions": [
@@ -9121,6 +9169,19 @@
         "Name": "Retrieve Form Submission Data",
         "Description": "Allows for Form Submission data to be retrieved",
         "Anchor": "#retrieve-form-submission-data",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "clearbitip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../clearbitip/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Get a company's logo",
+        "Description": "Returns a company's logo with optional size, format and greyscale options.",
+        "Anchor": "#get-a-company's-logo",
         "IsDeprecated": false
       }
     ]
@@ -19883,6 +19944,229 @@
     ]
   },
   {
+    "UniqueName": "federalreserveeconip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../federalreserveeconip/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Get the dates in history when a series' data values were revised",
+        "Description": "Get the dates in history when a series' data values were revised or new data values were released. Vintage dates are the release dates for a series excluding release dates when the data for the series did not change.",
+        "Anchor": "#get-the-dates-in-history-when-a-series'-data-values-were-revised",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CategoryGetA",
+        "Name": "Get a category",
+        "Description": "Get a category.",
+        "Anchor": "#get-a-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CategoryGetChild",
+        "Name": "Get the child categories",
+        "Description": "Get the child categories for a specified parent category.",
+        "Anchor": "#get-the-child-categories",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CategoryGetRelated",
+        "Name": "Get the related categories for a category",
+        "Description": "A related category is a one-way relation between 2 categories that is not part of a parent-child category hierarchy. Most categories do not have related categories.",
+        "Anchor": "#get-the-related-categories-for-a-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CategoryGetRelatedTags",
+        "Name": "Get the related tags for tags within a category",
+        "Description": "Get the related FRED tags for one or more FRED tags within a category. FRED tags are attributes assigned to series. For this request, related FRED tags are the tags assigned to series that match all tags in the parameters.",
+        "Anchor": "#get-the-related-tags-for-tags-within-a-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CategoryGetSeries",
+        "Name": "Get the series in a category",
+        "Description": "Get the series in a category.",
+        "Anchor": "#get-the-series-in-a-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CategoryGetTags",
+        "Name": "Get the tags for a category",
+        "Description": "Get the FRED tags for a category.",
+        "Anchor": "#get-the-tags-for-a-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReleaseGetA",
+        "Name": "Get a release of economic data",
+        "Description": "Get a release of economic data.",
+        "Anchor": "#get-a-release-of-economic-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReleaseGetAll",
+        "Name": "Get all releases of economic data",
+        "Description": "Get all releases of economic data.",
+        "Anchor": "#get-all-releases-of-economic-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReleaseGetDates",
+        "Name": "Get release dates for all releases of economic data",
+        "Description": "Get release dates for all releases of economic data.",
+        "Anchor": "#get-release-dates-for-all-releases-of-economic-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReleaseGetRelatedTags",
+        "Name": "Get the related tags for one or more tags within a release",
+        "Description": "Get the related FRED tags for one or more FRED tags within a release.",
+        "Anchor": "#get-the-related-tags-for-one-or-more-tags-within-a-release",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReleaseGetReleaseDates",
+        "Name": "Get release dates for a release of economic data",
+        "Description": "Get release dates for a release of economic data. Note that release dates are published by data sources and do not necessarily represent when data will be available on the FRED or ALFRED websites.",
+        "Anchor": "#get-release-dates-for-a-release-of-economic-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReleaseGetSeries",
+        "Name": "Get the series on a release of economic data",
+        "Description": "Get the series on a release of economic data.",
+        "Anchor": "#get-the-series-on-a-release-of-economic-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReleaseGetSources",
+        "Name": "Get the sources for a release of economic data",
+        "Description": "Get the sources for a release of economic data.",
+        "Anchor": "#get-the-sources-for-a-release-of-economic-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReleaseGetTables",
+        "Name": "Get release table trees for a given release",
+        "Description": "Get release table trees for a given release. Note that release dates are published by data sources and do not necessarily represent when data will be available on the FRED or ALFRED websites.",
+        "Anchor": "#get-release-table-trees-for-a-given-release",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReleaseGetTags",
+        "Name": "Get the tags for a release",
+        "Description": "Get the FRED tags for a release.",
+        "Anchor": "#get-the-tags-for-a-release",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SeriesGetA",
+        "Name": "Get an economic data series",
+        "Description": "Get an economic data series.",
+        "Anchor": "#get-an-economic-data-series",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SeriesGetCategory",
+        "Name": "Get the categories for an economic data series",
+        "Description": "Get the categories for an economic data series.",
+        "Anchor": "#get-the-categories-for-an-economic-data-series",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SeriesGetObservations",
+        "Name": "Get the observations or data values for an economic data series",
+        "Description": "Get the observations or data values for an economic data series.",
+        "Anchor": "#get-the-observations-or-data-values-for-an-economic-data-series",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SeriesGetRelatedTagsSearch",
+        "Name": "Get the related tags for one or more  tags matching a series search",
+        "Description": "Get the related FRED tags for one or more FRED tags matching a series search.",
+        "Anchor": "#get-the-related-tags-for-one-or-more-tags-matching-a-series-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SeriesGetRelease",
+        "Name": "Get the release for an economic data series",
+        "Description": "Get the release for an economic data series.",
+        "Anchor": "#get-the-release-for-an-economic-data-series",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SeriesGetTags",
+        "Name": "Get the tags for a series",
+        "Description": "Get the FRED tags for a series.",
+        "Anchor": "#get-the-tags-for-a-series",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SeriesGetTagsSearch",
+        "Name": "Get the tags for a series search",
+        "Description": "Get the FRED tags for a series search.",
+        "Anchor": "#get-the-tags-for-a-series-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SeriesGetUpdates",
+        "Name": "Get economic data series sorted by when observations were updated",
+        "Description": "Get economic data series sorted by when observations were updated on the FRED server. Results are limited to series updated within the last two weeks.",
+        "Anchor": "#get-economic-data-series-sorted-by-when-observations-were-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SeriesSearch",
+        "Name": "Get economic data series that match search text",
+        "Description": "Get economic data series that match search text.",
+        "Anchor": "#get-economic-data-series-that-match-search-text",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SourceGetA",
+        "Name": "Get a source of economic data",
+        "Description": "Get a source of economic data.",
+        "Anchor": "#get-a-source-of-economic-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SourceGetReleases",
+        "Name": "Get the releases for a source",
+        "Description": "Get the releases for a source.",
+        "Anchor": "#get-the-releases-for-a-source",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SourcesGetAll",
+        "Name": "Get all sources of economic data",
+        "Description": "Get all sources of economic data.",
+        "Anchor": "#get-all-sources-of-economic-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TagGetAll",
+        "Name": "Get all tags",
+        "Description": "Get FRED tags. Optionally, filter results by tag name, tag group, or search. FRED tags are attributes assigned to series.",
+        "Anchor": "#get-all-tags",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TagGetRelated",
+        "Name": "Get the related tags for one or more tags",
+        "Description": "Get the related FRED tags for one or more FRED tags. Optionally, filter results by tag group or search.  FRED tags are attributes assigned to series. Related FRED tags are the tags assigned to series that match all tags in the tag_names parameter and no tags in the exclude_tag_names parameter.",
+        "Anchor": "#get-the-related-tags-for-one-or-more-tags",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TagGetSeries",
+        "Name": "Get the series matching tags",
+        "Description": "Get the series matching all tags in the tag_names parameter and no tags in the exclude_tag_names parameter.",
+        "Anchor": "#get-the-series-matching-tags",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "fhirbase",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../fhirbase/",
     "Actions": [
@@ -28734,6 +29018,19 @@
     ]
   },
   {
+    "UniqueName": "iconhorseip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iconhorseip/",
+    "Actions": [
+      {
+        "OperationId": "FaviconGet",
+        "Name": "Get favicon",
+        "Description": "Retrieve the best available favicon. A backup image is returned if no favicon is available.",
+        "Anchor": "#get-favicon",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "idanalyzer",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../idanalyzer/",
     "Actions": [
@@ -31652,6 +31949,13 @@
         "Description": "Gets information about a production unit.",
         "Anchor": "#get-production-unit-information",
         "IsDeprecated": false
+      },
+      {
+        "OperationId": "RelatedProductionUnits",
+        "Name": "Get ProductionUnit information from CVR number",
+        "Description": "Gets information about Production Units related to a Company.",
+        "Anchor": "#get-productionunit-information-from-cvr-number",
+        "IsDeprecated": false
       }
     ]
   },
@@ -32552,6 +32856,33 @@
         "Name": "Send an email notification (V3)",
         "Description": "Send an email notification to the specified email addresses.",
         "Anchor": "#send-an-email-notification-(v3)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "mailboxvalidatorip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mailboxvalidatorip/",
+    "Actions": [
+      {
+        "OperationId": "ValidateDisposable",
+        "Name": "Validate email address is from a disposable email provider",
+        "Description": "Returns validation from whether email address is from a disposable email provider. Disposable email addresses (DEAs) are temporary email addresses that are only valid for a very short period of time.",
+        "Anchor": "#validate-email-address-is-from-a-disposable-email-provider",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ValidateFree",
+        "Name": "Validate email address is from a free email provider",
+        "Description": "Returns validation from whether email address is from a free email provider.",
+        "Anchor": "#validate-email-address-is-from-a-free-email-provider",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ValidateSingle",
+        "Name": "Validate a single email address",
+        "Description": "Returns validations for a single email address.",
+        "Anchor": "#validate-a-single-email-address",
         "IsDeprecated": false
       }
     ]
@@ -34342,6 +34673,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "PostFeedNotification",
+        "Name": "Post a feed notification",
+        "Description": "This operation posts a feed notification.",
+        "Anchor": "#post-a-feed-notification",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "PostMessageToConversation",
         "Name": "Post message in a chat or channel",
         "Description": "This operation posts a message to a chat or a channel.",
@@ -35530,6 +35868,33 @@
         "Name": "Update document",
         "Description": "Update the content of a document",
         "Anchor": "#update-document",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "newyorktimesip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../newyorktimesip/",
+    "Actions": [
+      {
+        "OperationId": "ArticleSearch",
+        "Name": "Returns a list of articles based on keyword search",
+        "Description": "Search for NYT articles by keywords.",
+        "Anchor": "#returns-a-list-of-articles-based-on-keyword-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MostViewed",
+        "Name": "Returns a list of most viewed articles on NYTimes.com by time period",
+        "Description": "Returns an array of the most viewed articles on NYTimes.com for specified period of time (1 day, 7 days, or 30 days).",
+        "Anchor": "#returns-a-list-of-most-viewed-articles-on-nytimes.com-by-time-period",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TopStories",
+        "Name": "Returns a list of top stories by section",
+        "Description": "The Top Stories service returns an array of articles currently on the specified section.",
+        "Anchor": "#returns-a-list-of-top-stories-by-section",
         "IsDeprecated": false
       }
     ]
@@ -37783,6 +38148,47 @@
         "Name": "Insert row",
         "Description": "This operation inserts a new row into a table.",
         "Anchor": "#insert-row",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "orbintelligenceip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../orbintelligenceip/",
+    "Actions": [
+      {
+        "OperationId": "CorporateTree",
+        "Name": "Retrieves full corporate tree of subsidiaries",
+        "Description": "The Corporate Tree API call allows a user to retrieve full corporate tree of subsidiaries for a given company, starting from its ultimate parent company. The input to the Corporate Tree call is the Orb Number of the target company (mandatory field).",
+        "Anchor": "#retrieves-full-corporate-tree-of-subsidiaries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Fetch",
+        "Name": "Obtain a full company profile from the Orb database",
+        "Description": "The Fetch API call allows a user to obtain a full company profile from the Orb database, based on an Orb Number. The Orb Number for a company record can be obtained from a choosing a candidate from the Match call or from a previously identified matched record. The Fetch API call will return back all the standard fields in the Orb database for a single company record that corresponds to the Orb Number.",
+        "Anchor": "#obtain-a-full-company-profile-from-the-orb-database",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Look-alike",
+        "Name": "Retrieves a list of companies similar to a target company",
+        "Description": "The Lookalike API call allows a user to retrieve a list of companies similar to a target company. The input to the Lookalike call are the Orb Number of the target company.",
+        "Anchor": "#retrieves-a-list-of-companies-similar-to-a-target-company",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Match",
+        "Name": "The Match API call performs a candidate retrieval process",
+        "Description": "The Match API call performs a candidate retrieval process; the process by which Orb records are identified as potential matches to the query. The input fields must either include the name and country, or the website/email, or the EIN of the company record. All other fields are optional. Users can review the candidates to choose their preferred match based on the candidate with the highest Confidence Score, algorithmically, based on the match mask (for example, take those that match by website, even though the name didn't match) or manually.",
+        "Anchor": "#the-match-api-call-performs-a-candidate-retrieval-process",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Search",
+        "Name": "Retrieves a list of companies for the given search criteria",
+        "Description": "The Search API call allows a user to retrieve a list of companies for the given search criteria. This enables a user to build out a list of companies for use cases such as building out a list of companies in a specific territory or segment. The input to the Search call are a list of filtering attributes that define the companies in the list. These filters can include the geographic location of the companies (at a city, state or country level), revenue, number of employees and their industry profile (e.g., SIC, NAICS, or Orb's proprietary categories classification).",
+        "Anchor": "#retrieves-a-list-of-companies-for-the-given-search-criteria",
         "IsDeprecated": false
       }
     ]
@@ -49210,6 +49616,33 @@
     ]
   },
   {
+    "UniqueName": "theweatherchannelip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../theweatherchannelip/",
+    "Actions": [
+      {
+        "OperationId": "GetConditions",
+        "Name": "Request current weather conditions",
+        "Description": "Request current weather conditions",
+        "Anchor": "#request-current-weather-conditions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetHeadlines",
+        "Name": "Request weather alert headlines",
+        "Description": "Request weather alert headlines",
+        "Anchor": "#request-weather-alert-headlines",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetHistory",
+        "Name": "Request historical weather observations",
+        "Description": "Request historical weather observations",
+        "Anchor": "#request-historical-weather-observations",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "ticketingevents",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ticketingevents/",
     "Actions": [
@@ -50899,6 +51332,33 @@
         "Name": "All holidays for all kingdoms",
         "Description": "All bank holidays for all kingdoms as defined by the Government.",
         "Anchor": "#all-holidays-for-all-kingdoms",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "unixtimestampip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../unixtimestampip/",
+    "Actions": [
+      {
+        "OperationId": "DateTime2UnixTimestamp",
+        "Name": "DateTime to Unix Timestamp",
+        "Description": "Converts datetime (multiple formats) to Unix timestamp.",
+        "Anchor": "#datetime-to-unix-timestamp",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Unix2DateTimeTimezone",
+        "Name": "Unix Timestamp to DateTime with Timezone",
+        "Description": "Converts Unix timestamp to datetime with timezone (yyyy-MM-dd'T'HH:mm:ssXXX).",
+        "Anchor": "#unix-timestamp-to-datetime-with-timezone",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Unix2UTCDateTime",
+        "Name": "Unix Timestamp to UTC DateTime",
+        "Description": "Converts Unix timestamp to UTC datetime (yyyy-MM-dd HH:mm:ss).",
+        "Anchor": "#unix-timestamp-to-utc-datetime",
         "IsDeprecated": false
       }
     ]
