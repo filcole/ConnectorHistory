@@ -35143,6 +35143,33 @@
     ]
   },
   {
+    "UniqueName": "microsoftd365cev9ip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../microsoftd365cev9ip/",
+    "Actions": [
+      {
+        "OperationId": "UpsertAccount",
+        "Name": "Upsert Account",
+        "Description": "Request to insert or update an account record from cloud D365 CE to onprem D365 CE",
+        "Anchor": "#upsert-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpsertContact",
+        "Name": "Upsert Contact",
+        "Description": "Request to insert or update a contact record from cloud D365 CE to onprem D365 CE",
+        "Anchor": "#upsert-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpsertLead",
+        "Name": "Upsert Lead",
+        "Description": "Request to insert or update a lead record from cloud D365 CE to onprem D365 CE",
+        "Anchor": "#upsert-lead",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "commondataserviceforapps",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../commondataserviceforapps/",
     "Actions": [
