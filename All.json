@@ -12613,6 +12613,33 @@
     ]
   },
   {
+    "UniqueName": "coinbaseip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../coinbaseip/",
+    "Actions": [
+      {
+        "OperationId": "GetCurrencies",
+        "Name": "Get Currencies",
+        "Description": "Get a list of all fiat currencies.",
+        "Anchor": "#get-currencies",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetExchangeRate",
+        "Name": "Get Exchange Rates",
+        "Description": "Get an exchange rate for a cryptocurrency.",
+        "Anchor": "#get-exchange-rates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSpotPrice",
+        "Name": "Get Spot Price",
+        "Description": "Get a market rate for a cryptocurrency in the format of BTC-USD.",
+        "Anchor": "#get-spot-price",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "commercientcpq",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../commercientcpq/",
     "Actions": [
@@ -33481,6 +33508,502 @@
     ]
   },
   {
+    "UniqueName": "launchlibrary2ip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../launchlibrary2ip/",
+    "Actions": [
+      {
+        "OperationId": "Agencies_list",
+        "Name": "Get all agencies",
+        "Description": "Get all agencies.",
+        "Anchor": "#get-all-agencies",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Agencies_read",
+        "Name": "Get an agency",
+        "Description": "Get an agency.",
+        "Anchor": "#get-an-agency",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Astronaut_list",
+        "Name": "Get all astronauts",
+        "Description": "Get all astronauts.",
+        "Anchor": "#get-all-astronauts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Astronaut_read",
+        "Name": "Get an astronaut",
+        "Description": "Get an astronaut.",
+        "Anchor": "#get-an-astronaut",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_agencytype_list",
+        "Name": "Get agency configuration",
+        "Description": "Get agency configuration.",
+        "Anchor": "#get-agency-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_agencytype_read",
+        "Name": "Get an agency configuration",
+        "Description": "Get an agency configuration.",
+        "Anchor": "#get-an-agency-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_astronautrole_list",
+        "Name": "Get astronaut role configuration",
+        "Description": "Get astronaut role configuration.",
+        "Anchor": "#get-astronaut-role-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_astronautrole_read",
+        "Name": "Get an astronaut role configuration",
+        "Description": "Get astronaut role configuration.",
+        "Anchor": "#get-an-astronaut-role-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_astronautstatus_list",
+        "Name": "Get astronaut status configuration",
+        "Description": "Get astronaut status configuration.",
+        "Anchor": "#get-astronaut-status-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_astronautstatus_read",
+        "Name": "Get an astronaut status configuration",
+        "Description": "Get an astronaut status configuration.",
+        "Anchor": "#get-an-astronaut-status-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_astronauttype_list",
+        "Name": "Get astronaut type configuration",
+        "Description": "Get astronaut type configuration.",
+        "Anchor": "#get-astronaut-type-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_astronauttype_read",
+        "Name": "Get an astronaut type configuration",
+        "Description": "Get an astronaut type configuration.",
+        "Anchor": "#get-an-astronaut-type-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_dockinglocation_list",
+        "Name": "Get docking location configuration",
+        "Description": "Get docking location configuration.",
+        "Anchor": "#get-docking-location-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_dockinglocation_read",
+        "Name": "Get a docking location configuration",
+        "Description": "Get a docking location configuration.",
+        "Anchor": "#get-a-docking-location-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_eventtype_list",
+        "Name": "Get event type configuration",
+        "Description": "Get event type configuration.",
+        "Anchor": "#get-event-type-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_eventtype_read",
+        "Name": "Get an event type configuration",
+        "Description": "Get an event type configuration",
+        "Anchor": "#get-an-event-type-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_firststagetype_list",
+        "Name": "Get first stage type configuration",
+        "Description": "Get first stage type configuration.",
+        "Anchor": "#get-first-stage-type-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_firststagetype_read",
+        "Name": "Get a first stage type configuration",
+        "Description": "Get a first stage type configuration.",
+        "Anchor": "#get-a-first-stage-type-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_landinglocation_list",
+        "Name": "Get landing location configuration",
+        "Description": "Get landing location configuration.",
+        "Anchor": "#get-landing-location-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_landinglocation_read",
+        "Name": "Get a landing location configuration",
+        "Description": "Get a landing location configuration.",
+        "Anchor": "#get-a-landing-location-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_launcher_list",
+        "Name": "Get  launcher configuration",
+        "Description": "Get a launcher configuration.",
+        "Anchor": "#get-launcher-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_launcher_list",
+        "Name": "Get launcher configuration",
+        "Description": "Get launcher configuration.",
+        "Anchor": "#get-launcher-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_launchstatus_list",
+        "Name": "Get launch status configuration",
+        "Description": "Get launch status configuration.",
+        "Anchor": "#get-launch-status-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_launchstatus_read",
+        "Name": "Get a launch status configuration",
+        "Description": "Get a launch status configuration.",
+        "Anchor": "#get-a-launch-status-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_missiontype_list",
+        "Name": "Get mission type configuration",
+        "Description": "Get mission type configuration.",
+        "Anchor": "#get-mission-type-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_missiontype_read",
+        "Name": "Get a mission type configuration",
+        "Description": "Get a mission type configuration.",
+        "Anchor": "#get-a-mission-type-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_noticetype_list",
+        "Name": "Get notice type configuration",
+        "Description": "Get notice type configuration.",
+        "Anchor": "#get-notice-type-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_noticetype_read",
+        "Name": "Get a notice type configuration",
+        "Description": "Get a notice type configuration.",
+        "Anchor": "#get-a-notice-type-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_orbit_list",
+        "Name": "Get orbit configuration",
+        "Description": "Get orbit configuration.",
+        "Anchor": "#get-orbit-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_orbit_read",
+        "Name": "Get an orbit configuration",
+        "Description": "Get an orbit configuration.",
+        "Anchor": "#get-an-orbit-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_roadclosurestatus_list",
+        "Name": "Get road closure status configuration",
+        "Description": "Get road closure status configuration.",
+        "Anchor": "#get-road-closure-status-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_roadclosurestatus_read",
+        "Name": "Get a road closure status configuration",
+        "Description": "Get a road closure status configuration.",
+        "Anchor": "#get-a-road-closure-status-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_spacecraft_list",
+        "Name": "Get spacecraft configuration",
+        "Description": "Get spacecraft configuration.",
+        "Anchor": "#get-spacecraft-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_spacecraft_read",
+        "Name": "Get a spacecraft configuration",
+        "Description": "Get a spacecraft configuration.",
+        "Anchor": "#get-a-spacecraft-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_spacecraftstatus_list",
+        "Name": "Get spacecraft status configuration",
+        "Description": "Get spacecraft status configuration.",
+        "Anchor": "#get-spacecraft-status-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_spacecraftstatus_read",
+        "Name": "Get a spacecraft status configuration",
+        "Description": "Get a spacecraft status configuration.",
+        "Anchor": "#get-a-spacecraft-status-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_spacestationstatus_list",
+        "Name": "Get spacestation status configuration",
+        "Description": "Get spacestation status configuration.",
+        "Anchor": "#get-spacestation-status-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Config_spacestationstatus_read",
+        "Name": "Get a spacestation status configuration",
+        "Description": "Get a spacestation status configuration.",
+        "Anchor": "#get-a-spacestation-status-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Docking_event_list",
+        "Name": "Get docking events",
+        "Description": "Get docking events.",
+        "Anchor": "#get-docking-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Docking_event_read",
+        "Name": "Get a docking event",
+        "Description": "Get a docking event.",
+        "Anchor": "#get-a-docking-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Event_list",
+        "Name": "Get events",
+        "Description": "Get events.",
+        "Anchor": "#get-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Event_previous_list",
+        "Name": "Get previous events",
+        "Description": "Get previous events.",
+        "Anchor": "#get-previous-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Event_previous_read",
+        "Name": "Get a previous event",
+        "Description": "Get a previous event.",
+        "Anchor": "#get-a-previous-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Event_read",
+        "Name": "Get an event",
+        "Description": "Get an event.",
+        "Anchor": "#get-an-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Event_upcoming_list",
+        "Name": "Get upcoming events",
+        "Description": "Get upcoming events.",
+        "Anchor": "#get-upcoming-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Event_upcoming_read",
+        "Name": "Get an upcoming event",
+        "Description": "Get an upcoming event.",
+        "Anchor": "#get-an-upcoming-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Expedition_list",
+        "Name": "Get expeditions",
+        "Description": "Get expeditions.",
+        "Anchor": "#get-expeditions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Expedition_read",
+        "Name": "Get an expedition",
+        "Description": "Get an expedition.",
+        "Anchor": "#get-an-expedition",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Launch_previous_list",
+        "Name": "Get previous launches",
+        "Description": "Get previous launches",
+        "Anchor": "#get-previous-launches",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Launch_previous_read",
+        "Name": "Get a previous launch",
+        "Description": "Get a previous launch.",
+        "Anchor": "#get-a-previous-launch",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Launch_read",
+        "Name": "Get a launch",
+        "Description": "Get a launch.",
+        "Anchor": "#get-a-launch",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Launch_upcoming_list",
+        "Name": "Get future launches",
+        "Description": "Get future launches.",
+        "Anchor": "#get-future-launches",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Launch_upcoming_read",
+        "Name": "Get a future launch",
+        "Description": "Get a future launch",
+        "Anchor": "#get-a-future-launch",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Launcher_list",
+        "Name": "Get launchers",
+        "Description": "Get launchers.",
+        "Anchor": "#get-launchers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Launcher_read",
+        "Name": "Get a launcher",
+        "Description": "Get a launcher.",
+        "Anchor": "#get-a-launcher",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Location_list",
+        "Name": "Get locations",
+        "Description": "Get locations.",
+        "Anchor": "#get-locations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Location_read",
+        "Name": "Get a location",
+        "Description": "Get a location.",
+        "Anchor": "#get-a-location",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Pad_list",
+        "Name": "Get pads",
+        "Description": "Get pads.",
+        "Anchor": "#get-pads",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Pad_read",
+        "Name": "Get a pad",
+        "Description": "Get a pad.",
+        "Anchor": "#get-a-pad",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Program_list",
+        "Name": "Get programs",
+        "Description": "Get programs.",
+        "Anchor": "#get-programs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Program_read",
+        "Name": "Get a program",
+        "Description": "Get a program.",
+        "Anchor": "#get-a-program",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Spacecraft_flight_list",
+        "Name": "Get spacecraft flights",
+        "Description": "Get spacecraft flights.",
+        "Anchor": "#get-spacecraft-flights",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Spacecraft_flight_read",
+        "Name": "Get a spacecraft flight",
+        "Description": "Get a spacecraft flight.",
+        "Anchor": "#get-a-spacecraft-flight",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Spacecraft_list",
+        "Name": "Get spacecrafts",
+        "Description": "Get spacecrafts.",
+        "Anchor": "#get-spacecrafts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Spacecraft_read",
+        "Name": "Get a spacecraft",
+        "Description": "Get a spacecraft.",
+        "Anchor": "#get-a-spacecraft",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Spacestation_list",
+        "Name": "Get space stations",
+        "Description": "Get space stations.",
+        "Anchor": "#get-space-stations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Spacestation_read",
+        "Name": "Get a space station",
+        "Description": "Get a space station.",
+        "Anchor": "#get-a-space-station",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Updates_list",
+        "Name": "Get updates",
+        "Description": "Get updates.",
+        "Anchor": "#get-updates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Updates_read",
+        "Name": "Get an update",
+        "Description": "Get an update.",
+        "Anchor": "#get-an-update",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "uplist",
+        "Name": "Get launches",
+        "Description": "Get launches.",
+        "Anchor": "#get-launches",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "lawlift",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../lawlift/",
     "Actions": []
@@ -50962,10 +51485,24 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../signnow/",
     "Actions": [
       {
+        "OperationId": "CancelInvite",
+        "Name": "Cancel invite",
+        "Description": "Signature invite cancellation",
+        "Anchor": "#cancel-invite",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateFromTemplate",
         "Name": "Create Document from Template",
         "Description": "Generate a document from a selected template",
         "Anchor": "#create-document-from-template",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateFromTemplateGroup",
+        "Name": "Create Document Group from the Group Template",
+        "Description": "Create the document group from a selected group template",
+        "Anchor": "#create-document-group-from-the-group-template",
         "IsDeprecated": false
       },
       {
@@ -51025,6 +51562,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetListDocGroups",
+        "Name": "Get Document Groups",
+        "Description": "Retrieve a list of user's document groups",
+        "Anchor": "#get-document-groups",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "PrefillSmartFields",
         "Name": "Prefill Smart Field Values",
         "Description": "Prefill Smart Field values for the specified document",
@@ -51071,6 +51615,13 @@
         "Name": "Prefill Document Field Values (Preview)",
         "Description": "Automatically populate fillable fields in the document with specific values",
         "Anchor": "#prefill-document-field-values-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateGroupFieldValues",
+        "Name": "Prefill Document Group Field Values",
+        "Description": "Automatically populate fillable fields in the documents with specific values",
+        "Anchor": "#prefill-document-group-field-values",
         "IsDeprecated": false
       },
       {
@@ -52105,6 +52656,166 @@
         "Name": "Send email to a recipient list",
         "Description": "Send email to a recipient list",
         "Anchor": "#send-email-to-a-recipient-list",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "spinpanel",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../spinpanel/",
+    "Actions": [
+      {
+        "OperationId": "AddGraphGroupMember",
+        "Name": "Add a member to a group",
+        "Description": "Add a member to a Microsoft 365 group or a security group through the members navigation property.",
+        "Anchor": "#add-a-member-to-a-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteGraphUser",
+        "Name": "Delete user",
+        "Description": "Delete a user. When deleted, user resources are moved to a temporary container and can be restored within 30 days. After that time, they are permanently deleted.",
+        "Anchor": "#delete-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteUserGroup",
+        "Name": "Delete Spinpanel user group",
+        "Description": "Delete a user group.",
+        "Anchor": "#delete-spinpanel-user-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteUserGroupMember",
+        "Name": "Remove a member from a user group",
+        "Description": "Remove a member to a user group.",
+        "Anchor": "#remove-a-member-from-a-user-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetADSecurityGroups",
+        "Name": "Get Azure AD security groups",
+        "Description": "Get a list of Azure AD security groups of all organizations you are authorized to view.",
+        "Anchor": "#get-azure-ad-security-groups",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGraphDomains",
+        "Name": "List organization domains",
+        "Description": "Retrieve a list of domain objects.",
+        "Anchor": "#list-organization-domains",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGraphUser",
+        "Name": "Get user details",
+        "Description": "Get a user by Microsoft object identifier.",
+        "Anchor": "#get-user-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroups",
+        "Name": "Get spinpanel user groups",
+        "Description": "Get a list of groups of all organizations you are authorized to view.",
+        "Anchor": "#get-spinpanel-user-groups",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLocales",
+        "Name": "Get locales",
+        "Description": "Get locales.",
+        "Anchor": "#get-locales",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetOrganizations",
+        "Name": "Get organizations",
+        "Description": "Get all organizations you are authorized to view.",
+        "Anchor": "#get-organizations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetsubscribedSkus",
+        "Name": "Get organization subscribed SKUs",
+        "Description": "Get the list of commercial subscriptions that an organization has acquired.",
+        "Anchor": "#get-organization-subscribed-skus",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSubscriptions",
+        "Name": "Get subscriptions",
+        "Description": "Retrieves all subscriptions for the customer of a partner by their active directory tenant identifier.",
+        "Anchor": "#get-subscriptions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUserLicenseDetails",
+        "Name": "Get user license details",
+        "Description": "Retrieve a list of license details objects for enterprise users.",
+        "Anchor": "#get-user-license-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUsers",
+        "Name": "Get users",
+        "Description": "Retrieve a list of user objects.",
+        "Anchor": "#get-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PatchGraphUserPassword",
+        "Name": "User change password",
+        "Description": "Update the password profile of a user to reset their password.",
+        "Anchor": "#user-change-password",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PatchSubscriptionQuantity",
+        "Name": "Update subscription quantity",
+        "Description": "Update the quantity of a subscription.",
+        "Anchor": "#update-subscription-quantity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostGraphGroup",
+        "Name": "Create Azure AD group",
+        "Description": "Create azure AD group.",
+        "Anchor": "#create-azure-ad-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostGraphUser",
+        "Name": "Create user",
+        "Description": "The request body contains the user to create. At a minimum, you must specify the required properties for the user. You can optionally specify any other writable properties.",
+        "Anchor": "#create-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostUserGroupMember",
+        "Name": "Add a member to a user group",
+        "Description": "Add a member to a user group, the member should belong to the same organization as the group.",
+        "Anchor": "#add-a-member-to-a-user-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostUserLicense",
+        "Name": "Assign a license to a user",
+        "Description": "Add or remove licenses for the user. You can also enable and disable specific plans associated with a license.",
+        "Anchor": "#assign-a-license-to-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveGraphGroupMember",
+        "Name": "Remove member",
+        "Description": "Remove a member from a group via the members navigation property.",
+        "Anchor": "#remove-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserGroupMembers",
+        "Name": "Get a list of Spinpanel user group members",
+        "Description": "Get a list of user group members of a specific group.",
+        "Anchor": "#get-a-list-of-spinpanel-user-group-members",
         "IsDeprecated": false
       }
     ]

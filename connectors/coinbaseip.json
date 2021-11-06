@@ -1,0 +1,27 @@
+{
+  "UniqueName": "coinbaseip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../coinbaseip/",
+  "Actions": [
+    {
+      "OperationId": "GetCurrencies",
+      "Name": "Get Currencies",
+      "Description": "Get a list of all fiat currencies.",
+      "Anchor": "#get-currencies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetExchangeRate",
+      "Name": "Get Exchange Rates",
+      "Description": "Get an exchange rate for a cryptocurrency.",
+      "Anchor": "#get-exchange-rates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSpotPrice",
+      "Name": "Get Spot Price",
+      "Description": "Get a market rate for a cryptocurrency in the format of BTC-USD.",
+      "Anchor": "#get-spot-price",
+      "IsDeprecated": false
+    }
+  ]
+}

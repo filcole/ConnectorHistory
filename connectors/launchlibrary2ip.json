@@ -1,0 +1,496 @@
+{
+  "UniqueName": "launchlibrary2ip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../launchlibrary2ip/",
+  "Actions": [
+    {
+      "OperationId": "Agencies_list",
+      "Name": "Get all agencies",
+      "Description": "Get all agencies.",
+      "Anchor": "#get-all-agencies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Agencies_read",
+      "Name": "Get an agency",
+      "Description": "Get an agency.",
+      "Anchor": "#get-an-agency",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Astronaut_list",
+      "Name": "Get all astronauts",
+      "Description": "Get all astronauts.",
+      "Anchor": "#get-all-astronauts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Astronaut_read",
+      "Name": "Get an astronaut",
+      "Description": "Get an astronaut.",
+      "Anchor": "#get-an-astronaut",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_agencytype_list",
+      "Name": "Get agency configuration",
+      "Description": "Get agency configuration.",
+      "Anchor": "#get-agency-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_agencytype_read",
+      "Name": "Get an agency configuration",
+      "Description": "Get an agency configuration.",
+      "Anchor": "#get-an-agency-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_astronautrole_list",
+      "Name": "Get astronaut role configuration",
+      "Description": "Get astronaut role configuration.",
+      "Anchor": "#get-astronaut-role-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_astronautrole_read",
+      "Name": "Get an astronaut role configuration",
+      "Description": "Get astronaut role configuration.",
+      "Anchor": "#get-an-astronaut-role-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_astronautstatus_list",
+      "Name": "Get astronaut status configuration",
+      "Description": "Get astronaut status configuration.",
+      "Anchor": "#get-astronaut-status-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_astronautstatus_read",
+      "Name": "Get an astronaut status configuration",
+      "Description": "Get an astronaut status configuration.",
+      "Anchor": "#get-an-astronaut-status-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_astronauttype_list",
+      "Name": "Get astronaut type configuration",
+      "Description": "Get astronaut type configuration.",
+      "Anchor": "#get-astronaut-type-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_astronauttype_read",
+      "Name": "Get an astronaut type configuration",
+      "Description": "Get an astronaut type configuration.",
+      "Anchor": "#get-an-astronaut-type-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_dockinglocation_list",
+      "Name": "Get docking location configuration",
+      "Description": "Get docking location configuration.",
+      "Anchor": "#get-docking-location-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_dockinglocation_read",
+      "Name": "Get a docking location configuration",
+      "Description": "Get a docking location configuration.",
+      "Anchor": "#get-a-docking-location-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_eventtype_list",
+      "Name": "Get event type configuration",
+      "Description": "Get event type configuration.",
+      "Anchor": "#get-event-type-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_eventtype_read",
+      "Name": "Get an event type configuration",
+      "Description": "Get an event type configuration",
+      "Anchor": "#get-an-event-type-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_firststagetype_list",
+      "Name": "Get first stage type configuration",
+      "Description": "Get first stage type configuration.",
+      "Anchor": "#get-first-stage-type-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_firststagetype_read",
+      "Name": "Get a first stage type configuration",
+      "Description": "Get a first stage type configuration.",
+      "Anchor": "#get-a-first-stage-type-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_landinglocation_list",
+      "Name": "Get landing location configuration",
+      "Description": "Get landing location configuration.",
+      "Anchor": "#get-landing-location-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_landinglocation_read",
+      "Name": "Get a landing location configuration",
+      "Description": "Get a landing location configuration.",
+      "Anchor": "#get-a-landing-location-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_launcher_list",
+      "Name": "Get  launcher configuration",
+      "Description": "Get a launcher configuration.",
+      "Anchor": "#get-launcher-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_launcher_list",
+      "Name": "Get launcher configuration",
+      "Description": "Get launcher configuration.",
+      "Anchor": "#get-launcher-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_launchstatus_list",
+      "Name": "Get launch status configuration",
+      "Description": "Get launch status configuration.",
+      "Anchor": "#get-launch-status-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_launchstatus_read",
+      "Name": "Get a launch status configuration",
+      "Description": "Get a launch status configuration.",
+      "Anchor": "#get-a-launch-status-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_missiontype_list",
+      "Name": "Get mission type configuration",
+      "Description": "Get mission type configuration.",
+      "Anchor": "#get-mission-type-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_missiontype_read",
+      "Name": "Get a mission type configuration",
+      "Description": "Get a mission type configuration.",
+      "Anchor": "#get-a-mission-type-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_noticetype_list",
+      "Name": "Get notice type configuration",
+      "Description": "Get notice type configuration.",
+      "Anchor": "#get-notice-type-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_noticetype_read",
+      "Name": "Get a notice type configuration",
+      "Description": "Get a notice type configuration.",
+      "Anchor": "#get-a-notice-type-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_orbit_list",
+      "Name": "Get orbit configuration",
+      "Description": "Get orbit configuration.",
+      "Anchor": "#get-orbit-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_orbit_read",
+      "Name": "Get an orbit configuration",
+      "Description": "Get an orbit configuration.",
+      "Anchor": "#get-an-orbit-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_roadclosurestatus_list",
+      "Name": "Get road closure status configuration",
+      "Description": "Get road closure status configuration.",
+      "Anchor": "#get-road-closure-status-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_roadclosurestatus_read",
+      "Name": "Get a road closure status configuration",
+      "Description": "Get a road closure status configuration.",
+      "Anchor": "#get-a-road-closure-status-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_spacecraft_list",
+      "Name": "Get spacecraft configuration",
+      "Description": "Get spacecraft configuration.",
+      "Anchor": "#get-spacecraft-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_spacecraft_read",
+      "Name": "Get a spacecraft configuration",
+      "Description": "Get a spacecraft configuration.",
+      "Anchor": "#get-a-spacecraft-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_spacecraftstatus_list",
+      "Name": "Get spacecraft status configuration",
+      "Description": "Get spacecraft status configuration.",
+      "Anchor": "#get-spacecraft-status-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_spacecraftstatus_read",
+      "Name": "Get a spacecraft status configuration",
+      "Description": "Get a spacecraft status configuration.",
+      "Anchor": "#get-a-spacecraft-status-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_spacestationstatus_list",
+      "Name": "Get spacestation status configuration",
+      "Description": "Get spacestation status configuration.",
+      "Anchor": "#get-spacestation-status-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Config_spacestationstatus_read",
+      "Name": "Get a spacestation status configuration",
+      "Description": "Get a spacestation status configuration.",
+      "Anchor": "#get-a-spacestation-status-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Docking_event_list",
+      "Name": "Get docking events",
+      "Description": "Get docking events.",
+      "Anchor": "#get-docking-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Docking_event_read",
+      "Name": "Get a docking event",
+      "Description": "Get a docking event.",
+      "Anchor": "#get-a-docking-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Event_list",
+      "Name": "Get events",
+      "Description": "Get events.",
+      "Anchor": "#get-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Event_previous_list",
+      "Name": "Get previous events",
+      "Description": "Get previous events.",
+      "Anchor": "#get-previous-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Event_previous_read",
+      "Name": "Get a previous event",
+      "Description": "Get a previous event.",
+      "Anchor": "#get-a-previous-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Event_read",
+      "Name": "Get an event",
+      "Description": "Get an event.",
+      "Anchor": "#get-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Event_upcoming_list",
+      "Name": "Get upcoming events",
+      "Description": "Get upcoming events.",
+      "Anchor": "#get-upcoming-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Event_upcoming_read",
+      "Name": "Get an upcoming event",
+      "Description": "Get an upcoming event.",
+      "Anchor": "#get-an-upcoming-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Expedition_list",
+      "Name": "Get expeditions",
+      "Description": "Get expeditions.",
+      "Anchor": "#get-expeditions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Expedition_read",
+      "Name": "Get an expedition",
+      "Description": "Get an expedition.",
+      "Anchor": "#get-an-expedition",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Launch_previous_list",
+      "Name": "Get previous launches",
+      "Description": "Get previous launches",
+      "Anchor": "#get-previous-launches",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Launch_previous_read",
+      "Name": "Get a previous launch",
+      "Description": "Get a previous launch.",
+      "Anchor": "#get-a-previous-launch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Launch_read",
+      "Name": "Get a launch",
+      "Description": "Get a launch.",
+      "Anchor": "#get-a-launch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Launch_upcoming_list",
+      "Name": "Get future launches",
+      "Description": "Get future launches.",
+      "Anchor": "#get-future-launches",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Launch_upcoming_read",
+      "Name": "Get a future launch",
+      "Description": "Get a future launch",
+      "Anchor": "#get-a-future-launch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Launcher_list",
+      "Name": "Get launchers",
+      "Description": "Get launchers.",
+      "Anchor": "#get-launchers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Launcher_read",
+      "Name": "Get a launcher",
+      "Description": "Get a launcher.",
+      "Anchor": "#get-a-launcher",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Location_list",
+      "Name": "Get locations",
+      "Description": "Get locations.",
+      "Anchor": "#get-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Location_read",
+      "Name": "Get a location",
+      "Description": "Get a location.",
+      "Anchor": "#get-a-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pad_list",
+      "Name": "Get pads",
+      "Description": "Get pads.",
+      "Anchor": "#get-pads",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pad_read",
+      "Name": "Get a pad",
+      "Description": "Get a pad.",
+      "Anchor": "#get-a-pad",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Program_list",
+      "Name": "Get programs",
+      "Description": "Get programs.",
+      "Anchor": "#get-programs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Program_read",
+      "Name": "Get a program",
+      "Description": "Get a program.",
+      "Anchor": "#get-a-program",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Spacecraft_flight_list",
+      "Name": "Get spacecraft flights",
+      "Description": "Get spacecraft flights.",
+      "Anchor": "#get-spacecraft-flights",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Spacecraft_flight_read",
+      "Name": "Get a spacecraft flight",
+      "Description": "Get a spacecraft flight.",
+      "Anchor": "#get-a-spacecraft-flight",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Spacecraft_list",
+      "Name": "Get spacecrafts",
+      "Description": "Get spacecrafts.",
+      "Anchor": "#get-spacecrafts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Spacecraft_read",
+      "Name": "Get a spacecraft",
+      "Description": "Get a spacecraft.",
+      "Anchor": "#get-a-spacecraft",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Spacestation_list",
+      "Name": "Get space stations",
+      "Description": "Get space stations.",
+      "Anchor": "#get-space-stations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Spacestation_read",
+      "Name": "Get a space station",
+      "Description": "Get a space station.",
+      "Anchor": "#get-a-space-station",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Updates_list",
+      "Name": "Get updates",
+      "Description": "Get updates.",
+      "Anchor": "#get-updates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Updates_read",
+      "Name": "Get an update",
+      "Description": "Get an update.",
+      "Anchor": "#get-an-update",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "uplist",
+      "Name": "Get launches",
+      "Description": "Get launches.",
+      "Anchor": "#get-launches",
+      "IsDeprecated": false
+    }
+  ]
+}

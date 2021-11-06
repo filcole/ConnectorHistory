@@ -3,10 +3,24 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../signnow/",
   "Actions": [
     {
+      "OperationId": "CancelInvite",
+      "Name": "Cancel invite",
+      "Description": "Signature invite cancellation",
+      "Anchor": "#cancel-invite",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateFromTemplate",
       "Name": "Create Document from Template",
       "Description": "Generate a document from a selected template",
       "Anchor": "#create-document-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFromTemplateGroup",
+      "Name": "Create Document Group from the Group Template",
+      "Description": "Create the document group from a selected group template",
+      "Anchor": "#create-document-group-from-the-group-template",
       "IsDeprecated": false
     },
     {
@@ -66,6 +80,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetListDocGroups",
+      "Name": "Get Document Groups",
+      "Description": "Retrieve a list of user's document groups",
+      "Anchor": "#get-document-groups",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "PrefillSmartFields",
       "Name": "Prefill Smart Field Values",
       "Description": "Prefill Smart Field values for the specified document",
@@ -112,6 +133,13 @@
       "Name": "Prefill Document Field Values (Preview)",
       "Description": "Automatically populate fillable fields in the document with specific values",
       "Anchor": "#prefill-document-field-values-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateGroupFieldValues",
+      "Name": "Prefill Document Group Field Values",
+      "Description": "Automatically populate fillable fields in the documents with specific values",
+      "Anchor": "#prefill-document-group-field-values",
       "IsDeprecated": false
     },
     {

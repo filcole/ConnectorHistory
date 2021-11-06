@@ -1,0 +1,160 @@
+{
+  "UniqueName": "spinpanel",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../spinpanel/",
+  "Actions": [
+    {
+      "OperationId": "AddGraphGroupMember",
+      "Name": "Add a member to a group",
+      "Description": "Add a member to a Microsoft 365 group or a security group through the members navigation property.",
+      "Anchor": "#add-a-member-to-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteGraphUser",
+      "Name": "Delete user",
+      "Description": "Delete a user. When deleted, user resources are moved to a temporary container and can be restored within 30 days. After that time, they are permanently deleted.",
+      "Anchor": "#delete-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteUserGroup",
+      "Name": "Delete Spinpanel user group",
+      "Description": "Delete a user group.",
+      "Anchor": "#delete-spinpanel-user-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteUserGroupMember",
+      "Name": "Remove a member from a user group",
+      "Description": "Remove a member to a user group.",
+      "Anchor": "#remove-a-member-from-a-user-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetADSecurityGroups",
+      "Name": "Get Azure AD security groups",
+      "Description": "Get a list of Azure AD security groups of all organizations you are authorized to view.",
+      "Anchor": "#get-azure-ad-security-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGraphDomains",
+      "Name": "List organization domains",
+      "Description": "Retrieve a list of domain objects.",
+      "Anchor": "#list-organization-domains",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGraphUser",
+      "Name": "Get user details",
+      "Description": "Get a user by Microsoft object identifier.",
+      "Anchor": "#get-user-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroups",
+      "Name": "Get spinpanel user groups",
+      "Description": "Get a list of groups of all organizations you are authorized to view.",
+      "Anchor": "#get-spinpanel-user-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLocales",
+      "Name": "Get locales",
+      "Description": "Get locales.",
+      "Anchor": "#get-locales",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOrganizations",
+      "Name": "Get organizations",
+      "Description": "Get all organizations you are authorized to view.",
+      "Anchor": "#get-organizations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetsubscribedSkus",
+      "Name": "Get organization subscribed SKUs",
+      "Description": "Get the list of commercial subscriptions that an organization has acquired.",
+      "Anchor": "#get-organization-subscribed-skus",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSubscriptions",
+      "Name": "Get subscriptions",
+      "Description": "Retrieves all subscriptions for the customer of a partner by their active directory tenant identifier.",
+      "Anchor": "#get-subscriptions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserLicenseDetails",
+      "Name": "Get user license details",
+      "Description": "Retrieve a list of license details objects for enterprise users.",
+      "Anchor": "#get-user-license-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUsers",
+      "Name": "Get users",
+      "Description": "Retrieve a list of user objects.",
+      "Anchor": "#get-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchGraphUserPassword",
+      "Name": "User change password",
+      "Description": "Update the password profile of a user to reset their password.",
+      "Anchor": "#user-change-password",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PatchSubscriptionQuantity",
+      "Name": "Update subscription quantity",
+      "Description": "Update the quantity of a subscription.",
+      "Anchor": "#update-subscription-quantity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostGraphGroup",
+      "Name": "Create Azure AD group",
+      "Description": "Create azure AD group.",
+      "Anchor": "#create-azure-ad-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostGraphUser",
+      "Name": "Create user",
+      "Description": "The request body contains the user to create. At a minimum, you must specify the required properties for the user. You can optionally specify any other writable properties.",
+      "Anchor": "#create-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostUserGroupMember",
+      "Name": "Add a member to a user group",
+      "Description": "Add a member to a user group, the member should belong to the same organization as the group.",
+      "Anchor": "#add-a-member-to-a-user-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostUserLicense",
+      "Name": "Assign a license to a user",
+      "Description": "Add or remove licenses for the user. You can also enable and disable specific plans associated with a license.",
+      "Anchor": "#assign-a-license-to-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveGraphGroupMember",
+      "Name": "Remove member",
+      "Description": "Remove a member from a group via the members navigation property.",
+      "Anchor": "#remove-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserGroupMembers",
+      "Name": "Get a list of Spinpanel user group members",
+      "Description": "Get a list of user group members of a specific group.",
+      "Anchor": "#get-a-list-of-spinpanel-user-group-members",
+      "IsDeprecated": false
+    }
+  ]
+}
