@@ -4539,10 +4539,38 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Devices_GetCommandResponse_V1",
+        "Name": "Get device command response",
+        "Description": "Get the last response for a device command.",
+        "Anchor": "#get-device-command-response",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Devices_GetComponentCommandResponse_V1",
+        "Name": "Get component command response",
+        "Description": "Get the last response for a device component command.",
+        "Anchor": "#get-component-command-response",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Devices_GetComponentTelemetryValue_V1",
         "Name": "Get component telemetry value",
         "Description": "Get the last telemetry value from a component.",
         "Anchor": "#get-component-telemetry-value",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Devices_GetModuleCommandResponse_V1",
+        "Name": "Get module command response",
+        "Description": "Get the last response for a device module command",
+        "Anchor": "#get-module-command-response",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Devices_GetModuleComponentCommandResponse_V1",
+        "Name": "Get module component command response",
+        "Description": "Get the last response for a module component command.",
+        "Anchor": "#get-module-component-command-response",
         "IsDeprecated": false
       },
       {
@@ -4578,6 +4606,13 @@
         "Name": "Get device telemetry value",
         "Description": "Get the last telemetry value from a device.",
         "Anchor": "#get-device-telemetry-value",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Devices_List_V1",
+        "Name": "List devices",
+        "Description": "Get the list of devices in an application.",
+        "Anchor": "#list-devices",
         "IsDeprecated": false
       },
       {
@@ -4634,6 +4669,76 @@
         "Name": "Update device properties",
         "Description": "Update all property values of a device by device ID.",
         "Anchor": "#update-device-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeviceTemplates_Get_V1",
+        "Name": "Get a device template by ID",
+        "Description": "Get details about an existing device template by ID.",
+        "Anchor": "#get-a-device-template-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeviceTemplates_List_V1",
+        "Name": "List device templates",
+        "Description": "Get the list of device templates in an application.",
+        "Anchor": "#list-device-templates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeviceTemplates_Remove_V1",
+        "Name": "Delete a device template",
+        "Description": "Delete an existing device template by ID.",
+        "Anchor": "#delete-a-device-template",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Roles_Get_V1",
+        "Name": "Get role",
+        "Description": "Get a role by ID.",
+        "Anchor": "#get-role",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Roles_List_V1",
+        "Name": "List roles",
+        "Description": "Get the list of roles in an application.",
+        "Anchor": "#list-roles",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Users_Create_V1",
+        "Name": "Create user",
+        "Description": "Create a user in the application",
+        "Anchor": "#create-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Users_Get_V1",
+        "Name": "Get user",
+        "Description": "Get a user by ID",
+        "Anchor": "#get-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Users_List_V1",
+        "Name": "List users",
+        "Description": "Get the list of users in an application",
+        "Anchor": "#list-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Users_Remove_V1",
+        "Name": "Delete user",
+        "Description": "Delete a user",
+        "Anchor": "#delete-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Users_Update_V1",
+        "Name": "Update user",
+        "Description": "Update a user in the application via patch",
+        "Anchor": "#update-user",
         "IsDeprecated": false
       },
       {
@@ -33351,6 +33456,19 @@
     ]
   },
   {
+    "UniqueName": "loripsumip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../loripsumip/",
+    "Actions": [
+      {
+        "OperationId": "GetText",
+        "Name": "Get some placeholder text",
+        "Description": "Get some placeholder text. Additional parameters can be used to specify the output.",
+        "Anchor": "#get-some-placeholder-text",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "luis",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../luis/",
     "Actions": [
@@ -52442,6 +52560,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ChecklistInstances_Get",
+        "Name": "Get A Checklist Instance",
+        "Description": "Retrieve a specific checklist instance by ID",
+        "Anchor": "#get-a-checklist-instance",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ChecklistInstances_Post",
         "Name": "Create Checklist Instance",
         "Description": "Creates a new activated checklist instance.",
@@ -52453,6 +52578,13 @@
         "Name": "Complete a Checklist Step",
         "Description": "Mark a specific step in a checklist instance as complete.",
         "Anchor": "#complete-a-checklist-step",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ChecklistSteps_Get",
+        "Name": "Get A Checklist Step",
+        "Description": "Retrieve a specific checklist step by ID",
+        "Anchor": "#get-a-checklist-step",
         "IsDeprecated": false
       },
       {
@@ -52516,6 +52648,13 @@
         "Name": "When a comment is added to a checklist",
         "Description": "This operation triggers when a new comment is added to a checklist.",
         "Anchor": "#when-a-comment-is-added-to-a-checklist",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Procedures_Get",
+        "Name": "Get A Checklist Or Procedure",
+        "Description": "Retrieve a specific checklist or procedure by ID",
+        "Anchor": "#get-a-checklist-or-procedure",
         "IsDeprecated": false
       },
       {

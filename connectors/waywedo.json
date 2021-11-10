@@ -24,6 +24,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ChecklistInstances_Get",
+      "Name": "Get A Checklist Instance",
+      "Description": "Retrieve a specific checklist instance by ID",
+      "Anchor": "#get-a-checklist-instance",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ChecklistInstances_Post",
       "Name": "Create Checklist Instance",
       "Description": "Creates a new activated checklist instance.",
@@ -35,6 +42,13 @@
       "Name": "Complete a Checklist Step",
       "Description": "Mark a specific step in a checklist instance as complete.",
       "Anchor": "#complete-a-checklist-step",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChecklistSteps_Get",
+      "Name": "Get A Checklist Step",
+      "Description": "Retrieve a specific checklist step by ID",
+      "Anchor": "#get-a-checklist-step",
       "IsDeprecated": false
     },
     {
@@ -98,6 +112,13 @@
       "Name": "When a comment is added to a checklist",
       "Description": "This operation triggers when a new comment is added to a checklist.",
       "Anchor": "#when-a-comment-is-added-to-a-checklist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Procedures_Get",
+      "Name": "Get A Checklist Or Procedure",
+      "Description": "Retrieve a specific checklist or procedure by ID",
+      "Anchor": "#get-a-checklist-or-procedure",
       "IsDeprecated": false
     },
     {

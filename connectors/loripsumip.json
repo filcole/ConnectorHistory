@@ -1,0 +1,13 @@
+{
+  "UniqueName": "loripsumip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../loripsumip/",
+  "Actions": [
+    {
+      "OperationId": "GetText",
+      "Name": "Get some placeholder text",
+      "Description": "Get some placeholder text. Additional parameters can be used to specify the output.",
+      "Anchor": "#get-some-placeholder-text",
+      "IsDeprecated": false
+    }
+  ]
+}
