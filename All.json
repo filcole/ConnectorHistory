@@ -5436,10 +5436,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "QueryDataV2",
+        "Name": "Run query and list results V2 (Preview)",
+        "Description": "Returns each row as its own object. Use this action when you want to work with each row separately in the rest of the workflow.",
+        "Anchor": "#run-query-and-list-results-v2-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "VisualizeQuery",
         "Name": "Run query and visualize results",
         "Description": "Returns all rows in the result set as a single formatted object. Use this action when you want to use the result set together in the rest of the workflow.",
         "Anchor": "#run-query-and-visualize-results",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VisualizeQueryV2",
+        "Name": "Run query and visualize results V2 (Preview)",
+        "Description": "Returns all rows in the result set as a single formatted object. Use this action when you want to use the result set together in the rest of the workflow.",
+        "Anchor": "#run-query-and-visualize-results-v2-(preview)",
         "IsDeprecated": false
       }
     ]
