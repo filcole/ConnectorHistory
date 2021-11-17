@@ -3,6 +3,20 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../almabase/",
   "Actions": [
     {
+      "OperationId": "AddEventContactPerson",
+      "Name": "Add a contact person",
+      "Description": "Adds a contact person to an event.",
+      "Anchor": "#add-a-contact-person",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEvent",
+      "Name": "Create an event",
+      "Description": "Creates a new event.",
+      "Anchor": "#create-an-event",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateFormEntry",
       "Name": "Submit a form",
       "Description": "Creates a new form submission for a form",
@@ -45,10 +59,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "DeleteRecordEmailAddress",
+      "Name": "Delete an email address of a record",
+      "Description": "Delete an email address of a record.",
+      "Anchor": "#delete-an-email-address-of-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EmailChangedWebhook",
+      "Name": "When an email is created, updated or deleted on a record",
+      "Description": "Triggers when a new email is created on a record or an existing email is updated or deleted from a record.",
+      "Anchor": "#when-an-email-is-created,-updated-or-deleted-on-a-record",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "FormEntryCreateOrUpdateWebhook",
       "Name": "When a form is submitted or an existing form submission is updated",
       "Description": "Triggers when a form is submitted or an existing form submission is updated.",
       "Anchor": "#when-a-form-is-submitted-or-an-existing-form-submission-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEvent",
+      "Name": "Get an event",
+      "Description": "Returns information about a event.",
+      "Anchor": "#get-an-event",
       "IsDeprecated": false
     },
     {
@@ -101,6 +136,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ListEventContactPersons",
+      "Name": "List Contact Persons",
+      "Description": "Returns a list of all the contact persons on an event.",
+      "Anchor": "#list-contact-persons",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEvents",
+      "Name": "List Events",
+      "Description": "Returns a list of all the events.",
+      "Anchor": "#list-events",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ListForms",
       "Name": "List forms",
       "Description": "Get a list of forms.",
@@ -140,6 +189,27 @@
       "Name": "List records",
       "Description": "Returns a list of records.",
       "Anchor": "#list-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RecordChangedWebhook",
+      "Name": "When an record is created or updated on Almabase",
+      "Description": "Triggers when a new record is created on Almabase or an existing record is updated.",
+      "Anchor": "#when-an-record-is-created-or-updated-on-almabase",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEvent",
+      "Name": "Update an event",
+      "Description": "Updates an event.",
+      "Anchor": "#update-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEventContactPerson",
+      "Name": "Update a contact person",
+      "Description": "Updates a contact person on an event.",
+      "Anchor": "#update-a-contact-person",
       "IsDeprecated": false
     },
     {

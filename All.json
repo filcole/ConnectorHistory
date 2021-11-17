@@ -1440,6 +1440,20 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../almabase/",
     "Actions": [
       {
+        "OperationId": "AddEventContactPerson",
+        "Name": "Add a contact person",
+        "Description": "Adds a contact person to an event.",
+        "Anchor": "#add-a-contact-person",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateEvent",
+        "Name": "Create an event",
+        "Description": "Creates a new event.",
+        "Anchor": "#create-an-event",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateFormEntry",
         "Name": "Submit a form",
         "Description": "Creates a new form submission for a form",
@@ -1482,10 +1496,31 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "DeleteRecordEmailAddress",
+        "Name": "Delete an email address of a record",
+        "Description": "Delete an email address of a record.",
+        "Anchor": "#delete-an-email-address-of-a-record",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EmailChangedWebhook",
+        "Name": "When an email is created, updated or deleted on a record",
+        "Description": "Triggers when a new email is created on a record or an existing email is updated or deleted from a record.",
+        "Anchor": "#when-an-email-is-created,-updated-or-deleted-on-a-record",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "FormEntryCreateOrUpdateWebhook",
         "Name": "When a form is submitted or an existing form submission is updated",
         "Description": "Triggers when a form is submitted or an existing form submission is updated.",
         "Anchor": "#when-a-form-is-submitted-or-an-existing-form-submission-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEvent",
+        "Name": "Get an event",
+        "Description": "Returns information about a event.",
+        "Anchor": "#get-an-event",
         "IsDeprecated": false
       },
       {
@@ -1538,6 +1573,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ListEventContactPersons",
+        "Name": "List Contact Persons",
+        "Description": "Returns a list of all the contact persons on an event.",
+        "Anchor": "#list-contact-persons",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListEvents",
+        "Name": "List Events",
+        "Description": "Returns a list of all the events.",
+        "Anchor": "#list-events",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ListForms",
         "Name": "List forms",
         "Description": "Get a list of forms.",
@@ -1577,6 +1626,27 @@
         "Name": "List records",
         "Description": "Returns a list of records.",
         "Anchor": "#list-records",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RecordChangedWebhook",
+        "Name": "When an record is created or updated on Almabase",
+        "Description": "Triggers when a new record is created on Almabase or an existing record is updated.",
+        "Anchor": "#when-an-record-is-created-or-updated-on-almabase",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateEvent",
+        "Name": "Update an event",
+        "Description": "Updates an event.",
+        "Anchor": "#update-an-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateEventContactPerson",
+        "Name": "Update a contact person",
+        "Description": "Updates a contact person on an event.",
+        "Anchor": "#update-a-contact-person",
         "IsDeprecated": false
       },
       {
@@ -45839,85 +45909,106 @@
       {
         "OperationId": "CreateGoal",
         "Name": "Create a goal (Preview)",
-        "Description": "Creates a goal on the specified scorecard.",
+        "Description": "Creates a Power BI goal on the specified scorecard.",
         "Anchor": "#create-a-goal-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreateScorecard",
         "Name": "Create a scorecard (Preview)",
-        "Description": "Creates a Scorecard for Power BI Goals.",
+        "Description": "Creates a scorecard for Power BI goals.",
         "Anchor": "#create-a-scorecard-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GetGoal",
         "Name": "Get a goal (Preview)",
-        "Description": "Gets the specified goal on a scorecard.",
+        "Description": "Gets the specified Power BI goal on a scorecard.",
         "Anchor": "#get-a-goal-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GetGoalCheckin",
         "Name": "Get a goal check-in (Preview)",
-        "Description": "Get a check-in on a goal.",
+        "Description": "Get a check-in on a Power BI goal.",
         "Anchor": "#get-a-goal-check-in-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GetGoalCheckins",
         "Name": "Get goal check-ins (Preview)",
-        "Description": "Get all check-ins on a goal.",
+        "Description": "Get all check-ins on a Power BI goal.",
         "Anchor": "#get-goal-check-ins-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GetMultipleGoals",
         "Name": "Get multiple goals (Preview)",
-        "Description": "Get a list of goals in the specified scorecard.",
+        "Description": "Get a list of Power BI goals in the specified scorecard.",
         "Anchor": "#get-multiple-goals-(preview)",
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetScorecards",
+        "Name": "Get scorecards (Preview)",
+        "Description": "Gets a list of Power BI scorecards in the specified workspace.",
+        "Anchor": "#get-scorecards-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GoalChangeTrigger",
-        "Name": "When a property of some goal changes (Preview)",
-        "Description": "When a property of some goal changes.",
-        "Anchor": "#when-a-property-of-some-goal-changes-(preview)",
+        "Name": "When a goal changes (Preview)",
+        "Description": "When a property of some Power BI goal changes.",
+        "Anchor": "#when-a-goal-changes-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GoalRefreshFailedTrigger",
-        "Name": "When data refresh for a goal fails (Preview)",
-        "Description": "When data refresh for a goal fails.",
-        "Anchor": "#when-data-refresh-for-a-goal-fails-(preview)",
+        "Name": "When a data refresh for a goal fails (Preview)",
+        "Description": "When a data refresh for a Power BI goal fails.",
+        "Anchor": "#when-a-data-refresh-for-a-goal-fails-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GoalsAssignedTrigger",
-        "Name": "When new or existing goals get assigned owners (Preview)",
-        "Description": "When new or existing goals get assigned owners.",
-        "Anchor": "#when-new-or-existing-goals-get-assigned-owners-(preview)",
+        "Name": "When someone assigns a new owner to a goal (Preview)",
+        "Description": "When someone assigns a new owner to a Power BI goal.",
+        "Anchor": "#when-someone-assigns-a-new-owner-to-a-goal-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GoalStatusChangeTrigger",
+        "Name": "When status of a goal changes (Preview)",
+        "Description": "When status of some Power BI goal changes.",
+        "Anchor": "#when-status-of-a-goal-changes-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GoalValueChangeTrigger",
+        "Name": "When current value of a goal changes (Preview)",
+        "Description": "When current value of some Power BI goal changes.",
+        "Anchor": "#when-current-value-of-a-goal-changes-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GoalValueCheckin",
-        "Name": "Create a goal check-in (Preview)",
+        "Name": "Create a check-in (Preview)",
         "Description": "Creates a Power BI goal check-in.",
-        "Anchor": "#create-a-goal-check-in-(preview)",
+        "Anchor": "#create-a-check-in-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GoalValueCheckinNote",
-        "Name": "Add a note to a goal check-in (Preview)",
+        "Name": "Add a note to a check-in (Preview)",
         "Description": "Appends a new note to a check-in of a Power BI goal.",
-        "Anchor": "#add-a-note-to-a-goal-check-in-(preview)",
+        "Anchor": "#add-a-note-to-a-check-in-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "GoalValueOrNoteUpsertTrigger",
-        "Name": "When a goal check-in or note is added or modified (Preview)",
-        "Description": "Trigger for some goal check-in or note changes.",
-        "Anchor": "#when-a-goal-check-in-or-note-is-added-or-modified-(preview)",
+        "Name": "When someone adds or edits a goal check-in (Preview)",
+        "Description": "Trigger for some Power BI goal check-in or note changes.",
+        "Anchor": "#when-someone-adds-or-edits-a-goal-check-in-(preview)",
         "IsDeprecated": false
       },
       {
@@ -45951,15 +46042,15 @@
       {
         "OperationId": "UpdateGoal",
         "Name": "Update a goal (Preview)",
-        "Description": "Updates the goal's state.",
+        "Description": "Updates the Power BI goal's state.",
         "Anchor": "#update-a-goal-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "UpdateGoalCheckin",
-        "Name": "Update a goal check-in (Preview)",
+        "Name": "Update a check-in (Preview)",
         "Description": "Updates a Power BI goal check-in.",
-        "Anchor": "#update-a-goal-check-in-(preview)",
+        "Anchor": "#update-a-check-in-(preview)",
         "IsDeprecated": false
       }
     ]
@@ -48947,6 +49038,33 @@
         "Name": "Sonar",
         "Description": "Monitors and views this process in Robolytix.",
         "Anchor": "#sonar",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "robotsforpowerbi",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../robotsforpowerbi/",
+    "Actions": [
+      {
+        "OperationId": "Playlist-disable",
+        "Name": "Playlist disable",
+        "Description": "Disable a specific playlist",
+        "Anchor": "#playlist-disable",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Playlist-enable",
+        "Name": "Playlist enable",
+        "Description": "Enable a specific playlist",
+        "Anchor": "#playlist-enable",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Playlist-execute",
+        "Name": "Playlist execute",
+        "Description": "Execute a specific playlist",
+        "Anchor": "#playlist-execute",
         "IsDeprecated": false
       }
     ]

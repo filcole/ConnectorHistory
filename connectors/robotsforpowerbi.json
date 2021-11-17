@@ -1,0 +1,27 @@
+{
+  "UniqueName": "robotsforpowerbi",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../robotsforpowerbi/",
+  "Actions": [
+    {
+      "OperationId": "Playlist-disable",
+      "Name": "Playlist disable",
+      "Description": "Disable a specific playlist",
+      "Anchor": "#playlist-disable",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Playlist-enable",
+      "Name": "Playlist enable",
+      "Description": "Enable a specific playlist",
+      "Anchor": "#playlist-enable",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Playlist-execute",
+      "Name": "Playlist execute",
+      "Description": "Execute a specific playlist",
+      "Anchor": "#playlist-execute",
+      "IsDeprecated": false
+    }
+  ]
+}
