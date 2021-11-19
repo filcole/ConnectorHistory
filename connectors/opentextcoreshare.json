@@ -1,0 +1,125 @@
+{
+  "UniqueName": "opentextcoreshare",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../opentextcoreshare/",
+  "Actions": [
+    {
+      "OperationId": "AdvancedSearch",
+      "Name": "Advanced search",
+      "Description": "Search with specified query in Core Share",
+      "Anchor": "#advanced-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CopyDocument",
+      "Name": "Copy document",
+      "Description": "Copy the document to a different folder in Core Share",
+      "Anchor": "#copy-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create document",
+      "Description": "Create the document in Core Share",
+      "Anchor": "#create-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFolder",
+      "Name": "Create folder",
+      "Description": "Create the folder in Core Share",
+      "Anchor": "#create-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteDocument",
+      "Name": "Delete document",
+      "Description": "Delete the document in Core Share",
+      "Anchor": "#delete-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteFolder",
+      "Name": "Delete folder",
+      "Description": "Delete the folder in Core Share",
+      "Anchor": "#delete-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocument",
+      "Name": "Get document",
+      "Description": "Get the document from Core Share",
+      "Anchor": "#get-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentVersionContent",
+      "Name": "Get document version content",
+      "Description": "Get the content of the document version from Core Share",
+      "Anchor": "#get-document-version-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocumentVersions",
+      "Name": "Get document versions",
+      "Description": "Get the versions of the document from Core Share",
+      "Anchor": "#get-document-versions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFolder",
+      "Name": "Get folder",
+      "Description": "Get the folder from Core Share",
+      "Anchor": "#get-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFolderChildren",
+      "Name": "Get folder children",
+      "Description": "Get the children of the folder from Core Share",
+      "Anchor": "#get-folder-children",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LockDocument",
+      "Name": "Lock document",
+      "Description": "Lock the document in Core Share",
+      "Anchor": "#lock-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MoveDocument",
+      "Name": "Move document",
+      "Description": "Move the document to a new folder in Core Share",
+      "Anchor": "#move-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SimpleSearch",
+      "Name": "Search",
+      "Description": "Search on name in Core Share",
+      "Anchor": "#search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnlockDocument",
+      "Name": "Unlock document",
+      "Description": "Unlock the document in Core Share",
+      "Anchor": "#unlock-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocument",
+      "Name": "Update document",
+      "Description": "Update the document in Core Share",
+      "Anchor": "#update-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFolder",
+      "Name": "Update folder",
+      "Description": "Update the folder in Core Share",
+      "Anchor": "#update-folder",
+      "IsDeprecated": false
+    }
+  ]
+}

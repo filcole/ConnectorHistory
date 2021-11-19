@@ -24986,6 +24986,13 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hyasinsight/",
     "Actions": [
       {
+        "OperationId": "DOMAIN_C2_ATTRIBUTION",
+        "Name": "Retrieve C2 Attribution information for Domain",
+        "Description": "Retrieve C2 Attribution enrichment data for Domain.",
+        "Anchor": "#retrieve-c2-attribution-information-for-domain",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "DOMAIN_PASSIVE_DNS",
         "Name": "Retrieve Passive DNS information for domain",
         "Description": "Retrieve Passive DNS enrichment data for domain.",
@@ -25007,6 +25014,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "EMAIL_C2_ATTRIBUTION",
+        "Name": "Retrieve C2 Attribution information for Email address",
+        "Description": "Retrieve C2 Attribution enrichment data for Email address.",
+        "Anchor": "#retrieve-c2-attribution-information-for-email-address",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "EMAIL_DYNAMIC_DNS",
         "Name": "Retrieve Dynamic DNS information for email address",
         "Description": "Retrieve Dynamic DNS enrichment data for email address.",
@@ -25018,6 +25032,13 @@
         "Name": "Retrieve Historic WHOIS information for email address",
         "Description": "Retrieve Historic WHOIS enrichment data for email address.",
         "Anchor": "#retrieve-historic-whois-information-for-email-address",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IP_C2_ATTRIBUTION",
+        "Name": "Retrieve C2 Attribution information for IP address",
+        "Description": "Retrieve C2 Attribution enrichment data for IP address.",
+        "Anchor": "#retrieve-c2-attribution-information-for-ip-address",
         "IsDeprecated": false
       },
       {
@@ -25060,6 +25081,13 @@
         "Name": "Retrieve Historic WHOIS information for phone number",
         "Description": "Retrieve Historic WHOIS enrichment data for phone number.",
         "Anchor": "#retrieve-historic-whois-information-for-phone-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SHA256_C2_ATTRIBUTION",
+        "Name": "Retrieve C2 Attribution information for SHA256",
+        "Description": "Retrieve C2 Attribution enrichment data for SHA256.",
+        "Anchor": "#retrieve-c2-attribution-information-for-sha256",
         "IsDeprecated": false
       },
       {
@@ -34339,6 +34367,47 @@
     ]
   },
   {
+    "UniqueName": "mensagiaip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mensagiaip/",
+    "Actions": [
+      {
+        "OperationId": "create_contact",
+        "Name": "Create a Contact",
+        "Description": "Create a contact insise your Mensagia's account.",
+        "Anchor": "#create-a-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "send_sms",
+        "Name": "Send SMS",
+        "Description": "Send SMS's to your contacts through your Mensagia account.",
+        "Anchor": "#send-sms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "send_sms_campaigns",
+        "Name": "Send SMS Campaigns",
+        "Description": "Send SMS Campaigns to your contacts through your Mensagia account.",
+        "Anchor": "#send-sms-campaigns",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "send_transactional_email",
+        "Name": "Send Transactional Email",
+        "Description": "Send a Transactional email to your contacts using your custom templates from Mensagia.",
+        "Anchor": "#send-transactional-email",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "send_voice_message",
+        "Name": "Send Voice Message",
+        "Description": "This method allows you to carry out Voice campaigns to telephone numbers in Spain. The recipients of the voice campaign can be: agendas, agendas and telephone numbers, or telephone numbers.",
+        "Anchor": "#send-voice-message",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "microsoft365compliance",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../microsoft365compliance/",
     "Actions": [
@@ -38433,6 +38502,131 @@
         "OperationId": "UpdateFolder",
         "Name": "Update folder",
         "Description": "Update the folder in Content Server",
+        "Anchor": "#update-folder",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "opentextcoreshare",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../opentextcoreshare/",
+    "Actions": [
+      {
+        "OperationId": "AdvancedSearch",
+        "Name": "Advanced search",
+        "Description": "Search with specified query in Core Share",
+        "Anchor": "#advanced-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CopyDocument",
+        "Name": "Copy document",
+        "Description": "Copy the document to a different folder in Core Share",
+        "Anchor": "#copy-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateDocument",
+        "Name": "Create document",
+        "Description": "Create the document in Core Share",
+        "Anchor": "#create-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateFolder",
+        "Name": "Create folder",
+        "Description": "Create the folder in Core Share",
+        "Anchor": "#create-folder",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteDocument",
+        "Name": "Delete document",
+        "Description": "Delete the document in Core Share",
+        "Anchor": "#delete-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteFolder",
+        "Name": "Delete folder",
+        "Description": "Delete the folder in Core Share",
+        "Anchor": "#delete-folder",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDocument",
+        "Name": "Get document",
+        "Description": "Get the document from Core Share",
+        "Anchor": "#get-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDocumentVersionContent",
+        "Name": "Get document version content",
+        "Description": "Get the content of the document version from Core Share",
+        "Anchor": "#get-document-version-content",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDocumentVersions",
+        "Name": "Get document versions",
+        "Description": "Get the versions of the document from Core Share",
+        "Anchor": "#get-document-versions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFolder",
+        "Name": "Get folder",
+        "Description": "Get the folder from Core Share",
+        "Anchor": "#get-folder",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFolderChildren",
+        "Name": "Get folder children",
+        "Description": "Get the children of the folder from Core Share",
+        "Anchor": "#get-folder-children",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LockDocument",
+        "Name": "Lock document",
+        "Description": "Lock the document in Core Share",
+        "Anchor": "#lock-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MoveDocument",
+        "Name": "Move document",
+        "Description": "Move the document to a new folder in Core Share",
+        "Anchor": "#move-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SimpleSearch",
+        "Name": "Search",
+        "Description": "Search on name in Core Share",
+        "Anchor": "#search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UnlockDocument",
+        "Name": "Unlock document",
+        "Description": "Unlock the document in Core Share",
+        "Anchor": "#unlock-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateDocument",
+        "Name": "Update document",
+        "Description": "Update the document in Core Share",
+        "Anchor": "#update-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateFolder",
+        "Name": "Update folder",
+        "Description": "Update the folder in Core Share",
         "Anchor": "#update-folder",
         "IsDeprecated": false
       }

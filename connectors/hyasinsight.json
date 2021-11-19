@@ -3,6 +3,13 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hyasinsight/",
   "Actions": [
     {
+      "OperationId": "DOMAIN_C2_ATTRIBUTION",
+      "Name": "Retrieve C2 Attribution information for Domain",
+      "Description": "Retrieve C2 Attribution enrichment data for Domain.",
+      "Anchor": "#retrieve-c2-attribution-information-for-domain",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "DOMAIN_PASSIVE_DNS",
       "Name": "Retrieve Passive DNS information for domain",
       "Description": "Retrieve Passive DNS enrichment data for domain.",
@@ -24,6 +31,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "EMAIL_C2_ATTRIBUTION",
+      "Name": "Retrieve C2 Attribution information for Email address",
+      "Description": "Retrieve C2 Attribution enrichment data for Email address.",
+      "Anchor": "#retrieve-c2-attribution-information-for-email-address",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "EMAIL_DYNAMIC_DNS",
       "Name": "Retrieve Dynamic DNS information for email address",
       "Description": "Retrieve Dynamic DNS enrichment data for email address.",
@@ -35,6 +49,13 @@
       "Name": "Retrieve Historic WHOIS information for email address",
       "Description": "Retrieve Historic WHOIS enrichment data for email address.",
       "Anchor": "#retrieve-historic-whois-information-for-email-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IP_C2_ATTRIBUTION",
+      "Name": "Retrieve C2 Attribution information for IP address",
+      "Description": "Retrieve C2 Attribution enrichment data for IP address.",
+      "Anchor": "#retrieve-c2-attribution-information-for-ip-address",
       "IsDeprecated": false
     },
     {
@@ -77,6 +98,13 @@
       "Name": "Retrieve Historic WHOIS information for phone number",
       "Description": "Retrieve Historic WHOIS enrichment data for phone number.",
       "Anchor": "#retrieve-historic-whois-information-for-phone-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SHA256_C2_ATTRIBUTION",
+      "Name": "Retrieve C2 Attribution information for SHA256",
+      "Description": "Retrieve C2 Attribution enrichment data for SHA256.",
+      "Anchor": "#retrieve-c2-attribution-information-for-sha256",
       "IsDeprecated": false
     },
     {

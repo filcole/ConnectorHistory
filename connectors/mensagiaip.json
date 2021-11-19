@@ -1,0 +1,41 @@
+{
+  "UniqueName": "mensagiaip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mensagiaip/",
+  "Actions": [
+    {
+      "OperationId": "create_contact",
+      "Name": "Create a Contact",
+      "Description": "Create a contact insise your Mensagia's account.",
+      "Anchor": "#create-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send_sms",
+      "Name": "Send SMS",
+      "Description": "Send SMS's to your contacts through your Mensagia account.",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send_sms_campaigns",
+      "Name": "Send SMS Campaigns",
+      "Description": "Send SMS Campaigns to your contacts through your Mensagia account.",
+      "Anchor": "#send-sms-campaigns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send_transactional_email",
+      "Name": "Send Transactional Email",
+      "Description": "Send a Transactional email to your contacts using your custom templates from Mensagia.",
+      "Anchor": "#send-transactional-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "send_voice_message",
+      "Name": "Send Voice Message",
+      "Description": "This method allows you to carry out Voice campaigns to telephone numbers in Spain. The recipients of the voice campaign can be: agendas, agendas and telephone numbers, or telephone numbers.",
+      "Anchor": "#send-voice-message",
+      "IsDeprecated": false
+    }
+  ]
+}
