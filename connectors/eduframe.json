@@ -12,8 +12,15 @@
     {
       "OperationId": "Get_accounts_id",
       "Name": "Get an account",
-      "Description": "Get an account by id",
+      "Description": "Get an account by id.",
       "Anchor": "#get-an-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_catalog_variants",
+      "Name": "Get all catalog variants",
+      "Description": "Get all catalog variants.",
+      "Anchor": "#get-all-catalog-variants",
       "IsDeprecated": false
     },
     {
@@ -61,7 +68,7 @@
     {
       "OperationId": "Get_invoices_id",
       "Name": "Get an invoice",
-      "Description": "Get a single invoice by id",
+      "Description": "Get a single invoice by id.",
       "Anchor": "#get-an-invoice",
       "IsDeprecated": false
     },
@@ -82,56 +89,56 @@
     {
       "OperationId": "Get_users_id",
       "Name": "Get a user",
-      "Description": "Get a single user by id",
+      "Description": "Get a single user by id.",
       "Anchor": "#get-a-user",
       "IsDeprecated": false
     },
     {
       "OperationId": "Post_accounts",
       "Name": "Add an account",
-      "Description": "Add a account to your administration",
+      "Description": "Add an account to your administration.",
       "Anchor": "#add-an-account",
       "IsDeprecated": false
     },
     {
       "OperationId": "Post_categories",
       "Name": "Add a category",
-      "Description": "Add a category to your administration",
+      "Description": "Add a category to your administration.",
       "Anchor": "#add-a-category",
       "IsDeprecated": false
     },
     {
       "OperationId": "Post_courses",
       "Name": "Add a course",
-      "Description": "Add a course to your administration",
+      "Description": "Add a course to your administration.",
       "Anchor": "#add-a-course",
       "IsDeprecated": false
     },
     {
       "OperationId": "Post_invoice_vats",
       "Name": "Add an invoice vat",
-      "Description": "Add an invoice vat which can be used on the invoice",
+      "Description": "Add an invoice vat which can be used on the invoice.",
       "Anchor": "#add-an-invoice-vat",
       "IsDeprecated": false
     },
     {
       "OperationId": "Post_invoices",
       "Name": "Add an invoice",
-      "Description": "Add an invoice to your administration",
+      "Description": "Add an invoice to your administration.",
       "Anchor": "#add-an-invoice",
       "IsDeprecated": false
     },
     {
       "OperationId": "Post_users",
       "Name": "Add a user",
-      "Description": "Add a user to your administration",
+      "Description": "Add a user to your administration.",
       "Anchor": "#add-a-user",
       "IsDeprecated": false
     },
     {
       "OperationId": "Post_webhooks",
       "Name": "Subscribe to a webhook",
-      "Description": "Subscribe to a webhook to get notified on record updates",
+      "Description": "Subscribe to a webhook to get notified on record updates.",
       "Anchor": "#subscribe-to-a-webhook",
       "IsDeprecated": false
     }

@@ -106,6 +106,13 @@
       "Description": "Sends the status report.",
       "Anchor": "#sends-the-status-report",
       "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendStatusReportV2",
+      "Name": "Sends the status report V2",
+      "Description": "Sends the status report V2.",
+      "Anchor": "#sends-the-status-report-v2",
+      "IsDeprecated": false
     }
   ]
 }

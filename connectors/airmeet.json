@@ -1,0 +1,48 @@
+{
+  "UniqueName": "airmeet",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../airmeet/",
+  "Actions": [
+    {
+      "OperationId": "AddRegistrant",
+      "Name": "Add Registrant",
+      "Description": "Add Registrant to an Airmeet",
+      "Anchor": "#add-registrant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirmeetTriggers",
+      "Name": "Register an Airmeet Trigger",
+      "Description": "Select a trigger from the available options. Setup reminders and alerts based on event registration, attendance, event start and end time",
+      "Anchor": "#register-an-airmeet-trigger",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAirmeet",
+      "Name": "Create an Airmeet",
+      "Description": "Create an Airmeet in your community",
+      "Anchor": "#create-an-airmeet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSession",
+      "Name": "Add a Session to your Airmeet",
+      "Description": "Create Session",
+      "Anchor": "#add-a-session-to-your-airmeet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSpeaker",
+      "Name": "Add a speaker",
+      "Description": "Add a speaker to your Airmeet event",
+      "Anchor": "#add-a-speaker",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAirmeets",
+      "Name": "Get Airmeets",
+      "Description": "Get Airmeets",
+      "Anchor": "#get-airmeets",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -4,31 +4,31 @@
   "Actions": [
     {
       "OperationId": "GetProof",
-      "Name": "Retrieve a proof",
+      "Name": "Retrieve a proof [DEPRECATED]",
       "Description": "Retrieve a Chainpoint proof",
-      "Anchor": "#retrieve-a-proof",
-      "IsDeprecated": false
+      "Anchor": "#retrieve-a-proof-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "SHA256FromString",
-      "Name": "Generate a SHA256 Hash from a string",
+      "Name": "Generate a SHA256 Hash from a string [DEPRECATED]",
       "Description": "Generate a SHA256 Hash for the given string",
-      "Anchor": "#generate-a-sha256-hash-from-a-string",
-      "IsDeprecated": false
+      "Anchor": "#generate-a-sha256-hash-from-a-string-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "SubmitHash",
-      "Name": "Submit a hash",
+      "Name": "Submit a hash [DEPRECATED]",
       "Description": "Submit a hash to be anchored using Chainpoint",
-      "Anchor": "#submit-a-hash",
-      "IsDeprecated": false
+      "Anchor": "#submit-a-hash-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "VerifyProof",
-      "Name": "Verify a proof",
+      "Name": "Verify a proof [DEPRECATED]",
       "Description": "Verify that a Chainpoint proof is valid",
-      "Anchor": "#verify-a-proof",
-      "IsDeprecated": false
+      "Anchor": "#verify-a-proof-[deprecated]",
+      "IsDeprecated": true
     }
   ]
 }

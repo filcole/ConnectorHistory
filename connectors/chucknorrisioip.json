@@ -1,0 +1,20 @@
+{
+  "UniqueName": "chucknorrisioip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../chucknorrisioip/",
+  "Actions": [
+    {
+      "OperationId": "GetRandomChuckNorrisFact",
+      "Name": "Get random Chuck Norris fact",
+      "Description": "This action will give you a random Chuck Norris fact",
+      "Anchor": "#get-random-chuck-norris-fact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchChuckNorrisFacts",
+      "Name": "Search for Chuck Norris facts",
+      "Description": "This action will let you search for Chuck Norris facts by a keyword",
+      "Anchor": "#search-for-chuck-norris-facts",
+      "IsDeprecated": false
+    }
+  ]
+}

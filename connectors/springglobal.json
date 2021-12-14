@@ -1,0 +1,27 @@
+{
+  "UniqueName": "springglobal",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../springglobal/",
+  "Actions": [
+    {
+      "OperationId": "GetExecutionById",
+      "Name": "Get Survey Execution Data",
+      "Description": "Get Survey Execution Data",
+      "Anchor": "#get-survey-execution-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserById",
+      "Name": "Get User Info",
+      "Description": "Get User Info",
+      "Anchor": "#get-user-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnSurveyExecution",
+      "Name": "On Survey Execution",
+      "Description": "On Survey Execution",
+      "Anchor": "#on-survey-execution",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1189,6 +1189,54 @@
     ]
   },
   {
+    "UniqueName": "airmeet",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../airmeet/",
+    "Actions": [
+      {
+        "OperationId": "AddRegistrant",
+        "Name": "Add Registrant",
+        "Description": "Add Registrant to an Airmeet",
+        "Anchor": "#add-registrant",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirmeetTriggers",
+        "Name": "Register an Airmeet Trigger",
+        "Description": "Select a trigger from the available options. Setup reminders and alerts based on event registration, attendance, event start and end time",
+        "Anchor": "#register-an-airmeet-trigger",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateAirmeet",
+        "Name": "Create an Airmeet",
+        "Description": "Create an Airmeet in your community",
+        "Anchor": "#create-an-airmeet",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateSession",
+        "Name": "Add a Session to your Airmeet",
+        "Description": "Create Session",
+        "Anchor": "#add-a-session-to-your-airmeet",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateSpeaker",
+        "Name": "Add a speaker",
+        "Description": "Add a speaker to your Airmeet event",
+        "Anchor": "#add-a-speaker",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAirmeets",
+        "Name": "Get Airmeets",
+        "Description": "Get Airmeets",
+        "Anchor": "#get-airmeets",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "airslate",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../airslate/",
     "Actions": [
@@ -6636,7 +6684,7 @@
         "IsDeprecated": false
       },
       {
-        "OperationId": "GetRoute",
+        "OperationId": "GetRouteV2",
         "Name": "Get route [DEPRECATED]",
         "Description": "This action has been deprecated. Please use Get route instead.\nCalculate a route using waypoints.",
         "Anchor": "#get-route-[deprecated]",
@@ -6644,6 +6692,13 @@
       },
       {
         "OperationId": "GetRouteV2",
+        "Name": "Get route [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Get route instead.\nCalculate a route using waypoints.",
+        "Anchor": "#get-route-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "GetRouteV3",
         "Name": "Get route (Preview)",
         "Description": "Calculate a route using waypoints.",
         "Anchor": "#get-route-(preview)",
@@ -9046,9 +9101,9 @@
     "Actions": [
       {
         "OperationId": "CreateCustomerApprovalWebHookV2",
-        "Name": "When a customer approval is requested",
+        "Name": "When a customer approval is requested (V2)",
         "Description": "Triggers a flow when a customer approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-customer-approval-is-requested",
+        "Anchor": "#when-a-customer-approval-is-requested-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9060,9 +9115,9 @@
       },
       {
         "OperationId": "CreateGeneralJournalBatchApprovalWebHookV2",
-        "Name": "When a general journal batch approval is requested",
+        "Name": "When a general journal batch approval is requested (V2)",
         "Description": "Triggers a flow when a general journal batch approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-general-journal-batch-approval-is-requested",
+        "Anchor": "#when-a-general-journal-batch-approval-is-requested-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9074,9 +9129,9 @@
       },
       {
         "OperationId": "CreateGeneralJournalLineApprovalWebHookV2",
-        "Name": "When a general journal line approval is requested",
+        "Name": "When a general journal line approval is requested (V2)",
         "Description": "Triggers a flow when a general journal line approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-general-journal-line-approval-is-requested",
+        "Anchor": "#when-a-general-journal-line-approval-is-requested-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9088,9 +9143,9 @@
       },
       {
         "OperationId": "CreateItemApprovalWebHookV2",
-        "Name": "When an item approval is requested",
+        "Name": "When an item approval is requested (V2)",
         "Description": "Triggers a flow when an item approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-an-item-approval-is-requested",
+        "Anchor": "#when-an-item-approval-is-requested-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9102,9 +9157,9 @@
       },
       {
         "OperationId": "CreateOnChangedItemsSubscriptionV2",
-        "Name": "When a record is changed",
+        "Name": "When a record is changed (V2)",
         "Description": "Triggers a flow when a record is changed in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-changed",
+        "Anchor": "#when-a-record-is-changed-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9116,9 +9171,9 @@
       },
       {
         "OperationId": "CreateOnDeletedItemsSubscriptionV2",
-        "Name": "When a record is deleted",
+        "Name": "When a record is deleted (V2)",
         "Description": "Triggers a flow when a record is deleted in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-deleted",
+        "Anchor": "#when-a-record-is-deleted-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9130,9 +9185,9 @@
       },
       {
         "OperationId": "CreateOnNewItemsSubscriptionV2",
-        "Name": "When a record is created",
+        "Name": "When a record is created (V2)",
         "Description": "Triggers a flow when a record is created in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-created",
+        "Anchor": "#when-a-record-is-created-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9144,9 +9199,9 @@
       },
       {
         "OperationId": "CreateOnUpdatedItemsSubscriptionV2",
-        "Name": "When a record is modified",
+        "Name": "When a record is modified (V2)",
         "Description": "Triggers a flow when a record is modified in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-modified",
+        "Anchor": "#when-a-record-is-modified-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9158,9 +9213,9 @@
       },
       {
         "OperationId": "CreatePurchaseDocumentApprovalWebHookV2",
-        "Name": "When a purchase document approval is requested",
+        "Name": "When a purchase document approval is requested (V2)",
         "Description": "Triggers a flow when a purchase document approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-purchase-document-approval-is-requested",
+        "Anchor": "#when-a-purchase-document-approval-is-requested-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9172,9 +9227,9 @@
       },
       {
         "OperationId": "CreateSalesDocumentApprovalWebHookV2",
-        "Name": "When a sales document approval is requested",
+        "Name": "When a sales document approval is requested (V2)",
         "Description": "Triggers a flow when a sales document approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-sales-document-approval-is-requested",
+        "Anchor": "#when-a-sales-document-approval-is-requested-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9186,9 +9241,9 @@
       },
       {
         "OperationId": "CreateVendorApprovalWebHookV2",
-        "Name": "When a vendor approval is requested",
+        "Name": "When a vendor approval is requested (V2)",
         "Description": "Triggers a flow when a vendor approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-vendor-approval-is-requested",
+        "Anchor": "#when-a-vendor-approval-is-requested-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9200,9 +9255,9 @@
       },
       {
         "OperationId": "DeleteItemV2",
-        "Name": "Delete record",
+        "Name": "Delete record (V2)",
         "Description": "Deletes a Dynamics 365 Business Central record",
-        "Anchor": "#delete-record",
+        "Anchor": "#delete-record-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9214,9 +9269,9 @@
       },
       {
         "OperationId": "ExecuteProcedureV2",
-        "Name": "Execute action",
+        "Name": "Execute action (V2)",
         "Description": "Executes a Dynamics 365 Business Central action.",
-        "Anchor": "#execute-action",
+        "Anchor": "#execute-action-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9227,10 +9282,17 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetItemsV3",
+        "Name": "Find records (V3)",
+        "Description": "Retrieves Dynamics 365 Business Central records of a certain type (for example, customers or items)",
+        "Anchor": "#find-records-(v3)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetItemV2",
-        "Name": "Get record",
+        "Name": "Get record (V2)",
         "Description": "Retrieves a Dynamics 365 Business Central record",
-        "Anchor": "#get-record",
+        "Anchor": "#get-record-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9242,9 +9304,9 @@
       },
       {
         "OperationId": "GetTablesV2",
-        "Name": "Get record types",
+        "Name": "Get record types (V2)",
         "Description": "Retrieves Dynamics 365 Business Central record types",
-        "Anchor": "#get-record-types",
+        "Anchor": "#get-record-types-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9256,9 +9318,9 @@
       },
       {
         "OperationId": "PatchItemV2",
-        "Name": "Update record",
+        "Name": "Update record (V2)",
         "Description": "Updates an existing Dynamics 365 Business Central record",
-        "Anchor": "#update-record",
+        "Anchor": "#update-record-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9270,9 +9332,9 @@
       },
       {
         "OperationId": "PostItemV2",
-        "Name": "Create record",
+        "Name": "Create record (V2)",
         "Description": "Creates a Dynamics 365 Business Central record",
-        "Anchor": "#create-record",
+        "Anchor": "#create-record-(v2)",
         "IsDeprecated": false
       },
       {
@@ -9970,31 +10032,31 @@
     "Actions": [
       {
         "OperationId": "GetProof",
-        "Name": "Retrieve a proof",
+        "Name": "Retrieve a proof [DEPRECATED]",
         "Description": "Retrieve a Chainpoint proof",
-        "Anchor": "#retrieve-a-proof",
-        "IsDeprecated": false
+        "Anchor": "#retrieve-a-proof-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "SHA256FromString",
-        "Name": "Generate a SHA256 Hash from a string",
+        "Name": "Generate a SHA256 Hash from a string [DEPRECATED]",
         "Description": "Generate a SHA256 Hash for the given string",
-        "Anchor": "#generate-a-sha256-hash-from-a-string",
-        "IsDeprecated": false
+        "Anchor": "#generate-a-sha256-hash-from-a-string-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "SubmitHash",
-        "Name": "Submit a hash",
+        "Name": "Submit a hash [DEPRECATED]",
         "Description": "Submit a hash to be anchored using Chainpoint",
-        "Anchor": "#submit-a-hash",
-        "IsDeprecated": false
+        "Anchor": "#submit-a-hash-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "VerifyProof",
-        "Name": "Verify a proof",
+        "Name": "Verify a proof [DEPRECATED]",
         "Description": "Verify that a Chainpoint proof is valid",
-        "Anchor": "#verify-a-proof",
-        "IsDeprecated": false
+        "Anchor": "#verify-a-proof-[deprecated]",
+        "IsDeprecated": true
       }
     ]
   },
@@ -10042,6 +10104,26 @@
         "Name": "When a post is added to a group",
         "Description": "Triggers when a new post is added to an existing group.",
         "Anchor": "#when-a-post-is-added-to-a-group",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "chucknorrisioip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../chucknorrisioip/",
+    "Actions": [
+      {
+        "OperationId": "GetRandomChuckNorrisFact",
+        "Name": "Get random Chuck Norris fact",
+        "Description": "This action will give you a random Chuck Norris fact",
+        "Anchor": "#get-random-chuck-norris-fact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchChuckNorrisFacts",
+        "Name": "Search for Chuck Norris facts",
+        "Description": "This action will let you search for Chuck Norris facts by a keyword",
+        "Anchor": "#search-for-chuck-norris-facts",
         "IsDeprecated": false
       }
     ]
@@ -14182,6 +14264,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "DrilldownPredictiveAddress",
+        "Name": "PredictiveAddress (Drilldown)",
+        "Description": "DrillDown with the Data8 PredictiveAddress API - Drill down further into search results",
+        "Anchor": "#predictiveaddress-(drilldown)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetFullAddress",
         "Name": "Get Full Address",
         "Description": "Searches for an addresses based on input data such as building number and postcode",
@@ -14235,6 +14324,20 @@
         "Name": "Validate Telephone Number",
         "Description": "Checks to see if an inputted email address is valid to receive email",
         "Anchor": "#validate-telephone-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrievePredictiveAddress",
+        "Name": "PredictiveAddress (Retrieve)",
+        "Description": "Retrieve with the Data8 PredictiveAddress API - Retrieve the full address",
+        "Anchor": "#predictiveaddress-(retrieve)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchPredictiveAddress",
+        "Name": "PredictiveAddress (Search)",
+        "Description": "Searching with the Data8 PredictiveAddress API - Search for a partial address in our many data sources",
+        "Anchor": "#predictiveaddress-(search)",
         "IsDeprecated": false
       }
     ]
@@ -15786,6 +15889,13 @@
         "Description": "Sends the status report.",
         "Anchor": "#sends-the-status-report",
         "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendStatusReportV2",
+        "Name": "Sends the status report V2",
+        "Description": "Sends the status report V2.",
+        "Anchor": "#sends-the-status-report-v2",
+        "IsDeprecated": false
       }
     ]
   },
@@ -16468,8 +16578,15 @@
       {
         "OperationId": "Get_accounts_id",
         "Name": "Get an account",
-        "Description": "Get an account by id",
+        "Description": "Get an account by id.",
         "Anchor": "#get-an-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_catalog_variants",
+        "Name": "Get all catalog variants",
+        "Description": "Get all catalog variants.",
+        "Anchor": "#get-all-catalog-variants",
         "IsDeprecated": false
       },
       {
@@ -16517,7 +16634,7 @@
       {
         "OperationId": "Get_invoices_id",
         "Name": "Get an invoice",
-        "Description": "Get a single invoice by id",
+        "Description": "Get a single invoice by id.",
         "Anchor": "#get-an-invoice",
         "IsDeprecated": false
       },
@@ -16538,56 +16655,56 @@
       {
         "OperationId": "Get_users_id",
         "Name": "Get a user",
-        "Description": "Get a single user by id",
+        "Description": "Get a single user by id.",
         "Anchor": "#get-a-user",
         "IsDeprecated": false
       },
       {
         "OperationId": "Post_accounts",
         "Name": "Add an account",
-        "Description": "Add a account to your administration",
+        "Description": "Add an account to your administration.",
         "Anchor": "#add-an-account",
         "IsDeprecated": false
       },
       {
         "OperationId": "Post_categories",
         "Name": "Add a category",
-        "Description": "Add a category to your administration",
+        "Description": "Add a category to your administration.",
         "Anchor": "#add-a-category",
         "IsDeprecated": false
       },
       {
         "OperationId": "Post_courses",
         "Name": "Add a course",
-        "Description": "Add a course to your administration",
+        "Description": "Add a course to your administration.",
         "Anchor": "#add-a-course",
         "IsDeprecated": false
       },
       {
         "OperationId": "Post_invoice_vats",
         "Name": "Add an invoice vat",
-        "Description": "Add an invoice vat which can be used on the invoice",
+        "Description": "Add an invoice vat which can be used on the invoice.",
         "Anchor": "#add-an-invoice-vat",
         "IsDeprecated": false
       },
       {
         "OperationId": "Post_invoices",
         "Name": "Add an invoice",
-        "Description": "Add an invoice to your administration",
+        "Description": "Add an invoice to your administration.",
         "Anchor": "#add-an-invoice",
         "IsDeprecated": false
       },
       {
         "OperationId": "Post_users",
         "Name": "Add a user",
-        "Description": "Add a user to your administration",
+        "Description": "Add a user to your administration.",
         "Anchor": "#add-a-user",
         "IsDeprecated": false
       },
       {
         "OperationId": "Post_webhooks",
         "Name": "Subscribe to a webhook",
-        "Description": "Subscribe to a webhook to get notified on record updates",
+        "Description": "Subscribe to a webhook to get notified on record updates.",
         "Anchor": "#subscribe-to-a-webhook",
         "IsDeprecated": false
       }
@@ -30589,6 +30706,26 @@
         "Name": "Runs a mainframe program over a TN3270 connection",
         "Description": "Access a definition file to call a program on a mainframe via TN3270. The definition file must be created by a separate Microsoft design tool and uploaded to an Azure Integration Account.",
         "Anchor": "#runs-a-mainframe-program-over-a-tn3270-connection",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "icanhazdadjokeip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../icanhazdadjokeip/",
+    "Actions": [
+      {
+        "OperationId": "FetchRandomJoke",
+        "Name": "Fetch a random dad joke",
+        "Description": "Fetch a random dad joke from icanhazdadjoke.com",
+        "Anchor": "#fetch-a-random-dad-joke",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchForDadJokes",
+        "Name": "Search for dad jokes",
+        "Description": "Search for dad jokes",
+        "Anchor": "#search-for-dad-jokes",
         "IsDeprecated": false
       }
     ]
@@ -45861,7 +45998,7 @@
       {
         "OperationId": "SendPushNotificationV2",
         "Name": "Send push notification V2",
-        "Description": "Send a push notification to any app created in Power Apps or Field Service.",
+        "Description": "Send a push notification to any app created in Power Apps, Field Service, or Sales.",
         "Anchor": "#send-push-notification-v2",
         "IsDeprecated": false
       }
@@ -53294,6 +53431,33 @@
         "Name": "Get All New Releases",
         "Description": "A list of new album releases featured in Spotify (Example: 'Browse' tab on the Spotify player).",
         "Anchor": "#get-all-new-releases",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "springglobal",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../springglobal/",
+    "Actions": [
+      {
+        "OperationId": "GetExecutionById",
+        "Name": "Get Survey Execution Data",
+        "Description": "Get Survey Execution Data",
+        "Anchor": "#get-survey-execution-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUserById",
+        "Name": "Get User Info",
+        "Description": "Get User Info",
+        "Anchor": "#get-user-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OnSurveyExecution",
+        "Name": "On Survey Execution",
+        "Description": "On Survey Execution",
+        "Anchor": "#on-survey-execution",
         "IsDeprecated": false
       }
     ]

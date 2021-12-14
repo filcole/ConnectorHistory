@@ -5,7 +5,7 @@
     {
       "OperationId": "SendPushNotificationV2",
       "Name": "Send push notification V2",
-      "Description": "Send a push notification to any app created in Power Apps or Field Service.",
+      "Description": "Send a push notification to any app created in Power Apps, Field Service, or Sales.",
       "Anchor": "#send-push-notification-v2",
       "IsDeprecated": false
     }

@@ -10,6 +10,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "DrilldownPredictiveAddress",
+      "Name": "PredictiveAddress (Drilldown)",
+      "Description": "DrillDown with the Data8 PredictiveAddress API - Drill down further into search results",
+      "Anchor": "#predictiveaddress-(drilldown)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetFullAddress",
       "Name": "Get Full Address",
       "Description": "Searches for an addresses based on input data such as building number and postcode",
@@ -63,6 +70,20 @@
       "Name": "Validate Telephone Number",
       "Description": "Checks to see if an inputted email address is valid to receive email",
       "Anchor": "#validate-telephone-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrievePredictiveAddress",
+      "Name": "PredictiveAddress (Retrieve)",
+      "Description": "Retrieve with the Data8 PredictiveAddress API - Retrieve the full address",
+      "Anchor": "#predictiveaddress-(retrieve)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchPredictiveAddress",
+      "Name": "PredictiveAddress (Search)",
+      "Description": "Searching with the Data8 PredictiveAddress API - Search for a partial address in our many data sources",
+      "Anchor": "#predictiveaddress-(search)",
       "IsDeprecated": false
     }
   ]

@@ -1,0 +1,20 @@
+{
+  "UniqueName": "icanhazdadjokeip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../icanhazdadjokeip/",
+  "Actions": [
+    {
+      "OperationId": "FetchRandomJoke",
+      "Name": "Fetch a random dad joke",
+      "Description": "Fetch a random dad joke from icanhazdadjoke.com",
+      "Anchor": "#fetch-a-random-dad-joke",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchForDadJokes",
+      "Name": "Search for dad jokes",
+      "Description": "Search for dad jokes",
+      "Anchor": "#search-for-dad-jokes",
+      "IsDeprecated": false
+    }
+  ]
+}

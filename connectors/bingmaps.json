@@ -31,7 +31,7 @@
       "IsDeprecated": false
     },
     {
-      "OperationId": "GetRoute",
+      "OperationId": "GetRouteV2",
       "Name": "Get route [DEPRECATED]",
       "Description": "This action has been deprecated. Please use Get route instead.\nCalculate a route using waypoints.",
       "Anchor": "#get-route-[deprecated]",
@@ -39,6 +39,13 @@
     },
     {
       "OperationId": "GetRouteV2",
+      "Name": "Get route [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get route instead.\nCalculate a route using waypoints.",
+      "Anchor": "#get-route-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetRouteV3",
       "Name": "Get route (Preview)",
       "Description": "Calculate a route using waypoints.",
       "Anchor": "#get-route-(preview)",
