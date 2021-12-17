@@ -1,0 +1,97 @@
+{
+  "UniqueName": "ideanote",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ideanote/",
+  "Actions": [
+    {
+      "OperationId": "CreateUser",
+      "Name": "Create user",
+      "Description": "Create a new user on the workspace",
+      "Anchor": "#create-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FinishRating",
+      "Name": "When someone rates an idea",
+      "Description": "When someone rates an idea",
+      "Anchor": "#when-someone-rates-an-idea",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCommentsForIdea",
+      "Name": "List all comments for an idea",
+      "Description": "List all comments for an idea",
+      "Anchor": "#list-all-comments-for-an-idea",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListIdeas",
+      "Name": "List all ideas",
+      "Description": "List all ideas",
+      "Anchor": "#list-all-ideas",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListIdeasForMission",
+      "Name": "List all ideas for a mission",
+      "Description": "List all ideas for a mission",
+      "Anchor": "#list-all-ideas-for-a-mission",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListMissions",
+      "Name": "List all missions",
+      "Description": "List all missions",
+      "Anchor": "#list-all-missions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewComment",
+      "Name": "When a comment is created",
+      "Description": "When a comment is created",
+      "Anchor": "#when-a-comment-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewIdea",
+      "Name": "When an idea is created",
+      "Description": "When an idea is created",
+      "Anchor": "#when-an-idea-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewLike",
+      "Name": "When an idea or comment is liked",
+      "Description": "When an idea or comment is liked",
+      "Anchor": "#when-an-idea-or-comment-is-liked",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NewUser",
+      "Name": "When a user is created",
+      "Description": "When a user is created",
+      "Anchor": "#when-a-user-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatedIdeaPhase",
+      "Name": "When the phase of an idea is changed",
+      "Description": "When the phase of an idea is changed",
+      "Anchor": "#when-the-phase-of-an-idea-is-changed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatedIdeaStatus",
+      "Name": "When the status of an idea is changed",
+      "Description": "When the status of an idea is changed",
+      "Anchor": "#when-the-status-of-an-idea-is-changed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateUser",
+      "Name": "Update user",
+      "Description": "Update a specific user",
+      "Anchor": "#update-user",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "UniqueName": "arcgis",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../arcgis/",
+  "Actions": [
+    {
+      "OperationId": "CreateFeatureLayer",
+      "Name": "Create feature layer",
+      "Description": "Create a feature layer in ArcGIS using data from an existing source, such as a SharePoint list. A feature layer is a grouping of similar geographic features, for example, buildings, parcels, cities, roads, and earthquake epicenters. Features can be points, lines, or polygons (areas). Feature layers are most appropriate for visualizing data on top of a basemap.",
+      "Anchor": "#create-feature-layer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindAddressCandidates",
+      "Name": "Find address candidate",
+      "Description": "Locate a single address using a geocode service resource. This resource provides information about candidates, including the address, location, and match score.  The result of this operation is a list of address candidates.",
+      "Anchor": "#find-address-candidate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GeocodeAddresses",
+      "Name": "Geocode addresses",
+      "Description": "Find multiple (batch) addresses, place-names, and businesses and then display that information on a map. This data can be added to an existing dataset or you can create a new one. This data can be used to create new maps in all ArcGIS for Microsoft 365 products.",
+      "Anchor": "#geocode-addresses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Geoenrich",
+      "Name": "Geoenrichment",
+      "Description": "Get facts about a location or area. Using the GeoEnrichment service, you can get information about the people, places, and businesses in a specific area or within a certain distance or drive time from a location.",
+      "Anchor": "#geoenrichment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFeatureLayerData",
+      "Name": "Get data from feature layer",
+      "Description": "Connect to a feature layer in ArcGIS and pull its data and attributes into your existing dataset or create a new one. This data can be used to create new maps in all ArcGIS for Microsoft 365 products.",
+      "Anchor": "#get-data-from-feature-layer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFLBoundaries",
+      "Name": "Get geometry from feature layer",
+      "Description": "Get geometry or boundary information from a feature layer and export it as Esri JSON or to a shape column in your dataset. This data can be used in all ArcGIS for Microsoft 365 products.",
+      "Anchor": "#get-geometry-from-feature-layer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRoute",
+      "Name": "Point to point routing",
+      "Description": "Create point-to-point routes. Points in a route can visited in the order you specify or in the order that minimizes overall travel time or distance. Routes represent the quickest or shortest path along roads to visit stops or point locations.",
+      "Anchor": "#point-to-point-routing",
+      "IsDeprecated": false
+    }
+  ]
+}

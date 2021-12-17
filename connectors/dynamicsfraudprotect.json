@@ -1,0 +1,104 @@
+{
+  "UniqueName": "dynamicsfraudprotect",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamicsfraudprotect/",
+  "Actions": [
+    {
+      "OperationId": "AccountProtection_v1_AccountCreation",
+      "Name": "Provides risk assessment for account creation attempt",
+      "Description": "This event sends information and context about an incoming new Account Creation attempt. The response contains a decision for the Account Creation",
+      "Anchor": "#provides-risk-assessment-for-account-creation-attempt",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AccountProtection_v1_AccountCreationStatus",
+      "Name": "Updates the status of account creation",
+      "Description": "This event sends an update of the status of an Account Creation, for example, if the Account Creation has been canceled. This is a data ingestion event only",
+      "Anchor": "#updates-the-status-of-account-creation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AccountProtection_v1_AccountLogin",
+      "Name": "Provides risk assessment for account login attempt",
+      "Description": "This event sends information and context about an incoming new Account Login attempt. The response contains a decision for the Account Login",
+      "Anchor": "#provides-risk-assessment-for-account-login-attempt",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AccountProtection_v1_AccountLoginStatus",
+      "Name": "Updates the status of account login",
+      "Description": "This event sends an update of the status of an Account Login, for example, if the Account login has been canceled. This is a data ingestion event only",
+      "Anchor": "#updates-the-status-of-account-login",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AccountProtection_v1_AccountUpdate",
+      "Name": "Updates account information for account protection",
+      "Description": "This event updates or creates user account information for account protection service, for example, Add Payment Instrument, Add Address, or any other user attribute. This is a data ingestion event only",
+      "Anchor": "#updates-account-information-for-account-protection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AccountProtection_v1_Label",
+      "Name": "Updates fraud label information for account protection",
+      "Description": "This event sends an update of the label. This is a data ingestion event only",
+      "Anchor": "#updates-fraud-label-information-for-account-protection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Assessment_v1_Assessment",
+      "Name": "Provides risk assessment for custom events",
+      "Description": "This event allows you to send a structure of their own choosing, triggered by conditions of their own choosing for rule-evaluation. The response contains a decision for the event",
+      "Anchor": "#provides-risk-assessment-for-custom-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PurchaseProtection_v1_BankEvent",
+      "Name": "Updates bank authorization information",
+      "Description": "This event conveys if a purchase transaction sent to the bank was approved or rejected for bank authorization or bank charge/settlement. This is a data ingestion event only",
+      "Anchor": "#updates-bank-authorization-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PurchaseProtection_v1_ChargebackEvent",
+      "Name": "Updates confirmed fraud information",
+      "Description": "This event sends information about a previous purchase that the customer disputed with their bank as fraud. This is\na data ingestion event only. Many merchants send these events using bulk data upload",
+      "Anchor": "#updates-confirmed-fraud-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PurchaseProtection_v1_Label",
+      "Name": "Updates fraud label information for purchase protection",
+      "Description": "This event sends an update of the label. This is a data ingestion event only",
+      "Anchor": "#updates-fraud-label-information-for-purchase-protection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PurchaseProtection_v1_PurchaseEvent",
+      "Name": "Provides risk assessment for online purchase transaction",
+      "Description": "This event sends information and context about an incoming new purchase transaction. The response contains a decision to either approve or reject the purchase transaction and the appropriate Merchant ID (MID) the merchant should send in the authorization call to their bank",
+      "Anchor": "#provides-risk-assessment-for-online-purchase-transaction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PurchaseProtection_v1_PurchaseStatus",
+      "Name": "Updates status of a online purchase transaction",
+      "Description": "This event sends an update of the status of a purchase, for example, if the purchase has been canceled. This is a data ingestion event only",
+      "Anchor": "#updates-status-of-a-online-purchase-transaction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PurchaseProtection_v1_RefundEvent",
+      "Name": "Updates refund information",
+      "Description": "This event sends information about a previous purchase transaction being refunded. This is a data ingestion event only. Many merchants send these events using bulk data upload",
+      "Anchor": "#updates-refund-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PurchaseProtection_v1_UpdateAccount",
+      "Name": "Updates account information for purchase protection",
+      "Description": "This event updates or creates user account information for purchase protection service, for example, Add Payment Instrument, Add Address, or any other user attribute. This is a data ingestion event only",
+      "Anchor": "#updates-account-information-for-purchase-protection",
+      "IsDeprecated": false
+    }
+  ]
+}

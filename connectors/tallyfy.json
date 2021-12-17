@@ -10,6 +10,27 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Comment_Task",
+      "Name": "Add comment, report issue, resolve issue on a task",
+      "Description": "task deadline, in date-time format",
+      "Anchor": "#add-comment,-report-issue,-resolve-issue-on-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Completed_One_Off_Task",
+      "Name": "Complete One Off Task",
+      "Description": "Complete one off task",
+      "Anchor": "#complete-one-off-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Completed_Process_Task",
+      "Name": "Complete process task",
+      "Description": "Complete process task",
+      "Anchor": "#complete-process-task",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Create_Run",
       "Name": "Launch a Process",
       "Description": "Launch a process using a blueprint",
@@ -24,10 +45,52 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Edit_Step_Type",
+      "Name": "Edit step type",
+      "Description": "Edit step type",
+      "Anchor": "#edit-step-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Edit_Task_Deadline",
+      "Name": "Edit task deadline",
+      "Description": "Edit deadline of a task",
+      "Anchor": "#edit-task-deadline",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Invite_User_To_Organization",
       "Name": "Invite a new member to your organization",
       "Description": "Invite a new member to your organization",
       "Anchor": "#invite-a-new-member-to-your-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove_Assignee",
+      "Name": "Remove assignee",
+      "Description": "Remove assignee of a task",
+      "Anchor": "#remove-assignee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Remove_Guest",
+      "Name": "Remove guest assigned",
+      "Description": "Remove guest of a task",
+      "Anchor": "#remove-guest-assigned",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Reopen_One_Off_Task",
+      "Name": "Reopen One Off Task",
+      "Description": "Reopen one off task",
+      "Anchor": "#reopen-one-off-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Reopen_Process_Task",
+      "Name": "Reopen process Task",
+      "Description": "Reopen process task",
+      "Anchor": "#reopen-process-task",
       "IsDeprecated": false
     }
   ]

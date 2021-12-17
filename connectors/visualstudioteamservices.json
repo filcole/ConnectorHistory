@@ -73,6 +73,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ListPipelineRuns",
+      "Name": "List pipeline runs",
+      "Description": "Gets top 10000 runs for a particular pipeline",
+      "Anchor": "#list-pipeline-runs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPipelines",
+      "Name": "List pipelines",
+      "Description": "Retrieves the list of pipelines in a project.",
+      "Anchor": "#list-pipelines",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ListProjects",
       "Name": "List projects",
       "Description": "Retrieves the list of projects in an Organization.",

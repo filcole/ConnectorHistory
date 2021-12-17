@@ -1,0 +1,27 @@
+{
+  "UniqueName": "securemessagedelivery",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../securemessagedelivery/",
+  "Actions": [
+    {
+      "OperationId": "RetractMessageAsync",
+      "Name": "Retract a Secure Message",
+      "Description": "Retract a secure message that was previously sent.",
+      "Anchor": "#retract-a-secure-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSecureMessageAsync",
+      "Name": "Send a Secure Message",
+      "Description": "Sends a message in a secure manner ensuring the data is not corrupted.",
+      "Anchor": "#send-a-secure-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrackMessageAsync",
+      "Name": "Track a Secure Message",
+      "Description": "Track a secure message to ensure the message is delivered and opened.",
+      "Anchor": "#track-a-secure-message",
+      "IsDeprecated": false
+    }
+  ]
+}

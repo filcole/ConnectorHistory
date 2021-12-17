@@ -1,0 +1,20 @@
+{
+  "UniqueName": "dynamics365ratingsre",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamics365ratingsre/",
+  "Actions": [
+    {
+      "OperationId": "ExportReviews",
+      "Name": "Export All Reviews",
+      "Description": "Export all reviews as a downloadable SAS URL.",
+      "Anchor": "#export-all-reviews",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubmitReview",
+      "Name": "Submit User Review",
+      "Description": "Submits a user review to your RnR tenant.",
+      "Anchor": "#submit-user-review",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "UniqueName": "squarebusinessip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../squarebusinessip/",
+  "Actions": [
+    {
+      "OperationId": "BankAccountGet",
+      "Name": "Get bank account",
+      "Description": "Returns details of a BankAccount linked to a Square account.",
+      "Anchor": "#get-bank-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BankAccountGetV1",
+      "Name": "Get bank account by V1 ID",
+      "Description": "Returns details of a BankAccount identified by V1 bank account ID.",
+      "Anchor": "#get-bank-account-by-v1-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BankAccountList",
+      "Name": "List bank accounts",
+      "Description": "Returns a list of BankAccount objects linked to a Square account.",
+      "Anchor": "#list-bank-accounts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BookingAvailability",
+      "Name": "Search availability (Beta)",
+      "Description": "Searches for availabilities for booking.",
+      "Anchor": "#search-availability-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BookingCreate",
+      "Name": "Create booking (Beta)",
+      "Description": "Creates a booking.",
+      "Anchor": "#create-booking-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BookingListTeamProfiles",
+      "Name": "List team member booking profiles (Beta)",
+      "Description": "Lists booking profiles for team members.",
+      "Anchor": "#list-team-member-booking-profiles-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BookingRetrieveProfile",
+      "Name": "Retrieve business booking profile (Beta)",
+      "Description": "Retrieves a seller's booking profile.",
+      "Anchor": "#retrieve-business-booking-profile-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CashDrawerListEvents",
+      "Name": "List cash drawer shift events",
+      "Description": "Provides a paginated list of events for a single cash drawer shift.",
+      "Anchor": "#list-cash-drawer-shift-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CashDrawerListShifts",
+      "Name": "List cash drawer shifts",
+      "Description": "Provides the details for all of the cash drawer shifts for a location in a date range.",
+      "Anchor": "#list-cash-drawer-shifts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CashDrawerRetrieveShift",
+      "Name": "Retrieve cash drawer shift",
+      "Description": "Provides the summary details for a single cash drawer shift.",
+      "Anchor": "#retrieve-cash-drawer-shift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CheckoutCreate",
+      "Name": "Create checkout",
+      "Description": "Links a checkoutId to a checkout_page_url that customers are directed to in order to provide their payment information using a payment processing workflow.",
+      "Anchor": "#create-checkout",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeviceCreate",
+      "Name": "Create device code",
+      "Description": "Creates a DeviceCode that can be used to login to a Square Terminal device to enter the connected terminal mode.",
+      "Anchor": "#create-device-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeviceGet",
+      "Name": "Get device code",
+      "Description": "Retrieves DeviceCode with the associated ID.",
+      "Anchor": "#get-device-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeviceList",
+      "Name": "List device codes",
+      "Description": "Lists all DeviceCodes associated with the merchant.",
+      "Anchor": "#list-device-codes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftCardCreate",
+      "Name": "Create gift card activity (Beta)",
+      "Description": "Creates a gift card activity.",
+      "Anchor": "#create-gift-card-activity-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftCardLink",
+      "Name": "Link customer to gift card (Beta)",
+      "Description": "Links a customer to a gift card",
+      "Anchor": "#link-customer-to-gift-card-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftCardList",
+      "Name": "List gift card activities (Beta)",
+      "Description": "Lists gift card activities. By default, you get gift card activities for all gift cards in the seller's account. You can optionally specify query parameters to filter the list. For example, you can get a list of gift card activities for a gift card, for all gift cards in a specific region, or for activities within a time window.",
+      "Anchor": "#list-gift-card-activities-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftCardRetrieve",
+      "Name": "Retrieve gift card (Beta)",
+      "Description": "Retrieves a gift card using its ID.",
+      "Anchor": "#retrieve-gift-card-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftCardRetrieveGAN",
+      "Name": "Retrieve gift card from GAN (Beta)",
+      "Description": "Retrieves a gift card using the gift card account number (GAN).",
+      "Anchor": "#retrieve-gift-card-from-gan-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftCardRetrieveNonce",
+      "Name": "Retrieve gift card from nonce (Beta)",
+      "Description": "Retrieves a gift card using a nonce (a secure token) that represents the gift card.",
+      "Anchor": "#retrieve-gift-card-from-nonce-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftCardUnlink",
+      "Name": "Unlink customer from gift card (Beta)",
+      "Description": "Unlinks a customer from a gift card.",
+      "Anchor": "#unlink-customer-from-gift-card-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborCreateBreak",
+      "Name": "Create break type",
+      "Description": "Creates a new BreakType. A BreakType is a template for creating Break objects.",
+      "Anchor": "#create-break-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborCreateShift",
+      "Name": "Create shift",
+      "Description": "Creates a new Shift. A Shift represents a complete workday for a single employee",
+      "Anchor": "#create-shift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborDeleteBreak",
+      "Name": "Delete break type",
+      "Description": "Deletes an existing BreakType. A BreakType can be deleted even if it is referenced from a Shift.",
+      "Anchor": "#delete-break-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborDeleteShift",
+      "Name": "Delete shift",
+      "Description": "Deletes a shift",
+      "Anchor": "#delete-shift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborGetBreak",
+      "Name": "Get break type",
+      "Description": "Returns a single BreakType specified by id.",
+      "Anchor": "#get-break-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborGetShift",
+      "Name": "Get shift",
+      "Description": "Returns a single Shift specified by id.",
+      "Anchor": "#get-shift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborGetWage",
+      "Name": "Get team member wage",
+      "Description": "Returns a single TeamMemberWage specified by id.",
+      "Anchor": "#get-team-member-wage",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborListBreak",
+      "Name": "List break types",
+      "Description": "Returns a paginated list of BreakType instances for a business.",
+      "Anchor": "#list-break-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborListConfigs",
+      "Name": "List workweek configs",
+      "Description": "Returns a list of WorkweekConfig instances for a business.",
+      "Anchor": "#list-workweek-configs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborListWages",
+      "Name": "List team member wages",
+      "Description": "Returns a paginated list of TeamMemberWage instances for a business.",
+      "Anchor": "#list-team-member-wages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborSearchShifts",
+      "Name": "Search shifts",
+      "Description": "Returns a paginated list of Shift records for a business.",
+      "Anchor": "#search-shifts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborUpdateBreak",
+      "Name": "Update break type",
+      "Description": "Updates an existing BreakType.",
+      "Anchor": "#update-break-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborUpdateConfig",
+      "Name": "Update workweek config",
+      "Description": "Updates a WorkweekConfig.",
+      "Anchor": "#update-workweek-config",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaborUpdateShift",
+      "Name": "Update shift",
+      "Description": "Updates an existing Shift.",
+      "Anchor": "#update-shift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LocationCreate",
+      "Name": "Create location (Beta)",
+      "Description": "Creates a location.",
+      "Anchor": "#create-location-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LocationList",
+      "Name": "List locations",
+      "Description": "Provides information of all locations of a business.",
+      "Anchor": "#list-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LocationRetrieve",
+      "Name": "Retrieve location",
+      "Description": "Retrieves details of a location. You can specify &quot;main&quot; as the location ID to retrieve details of the main location.",
+      "Anchor": "#retrieve-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LocationUpdate",
+      "Name": "Update location (Beta)",
+      "Description": "Updates a location.",
+      "Anchor": "#update-location-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltyAccumulatePoints",
+      "Name": "Accumulate loyalty points",
+      "Description": "Adds points to a loyalty account.",
+      "Anchor": "#accumulate-loyalty-points",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltyAdjustPoints",
+      "Name": "Adjust loyalty points",
+      "Description": "Adds points to or subtracts points from a buyer's account. Use this endpoint only when you need to manually adjust points.",
+      "Anchor": "#adjust-loyalty-points",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltyCalculatePoints",
+      "Name": "Calculate loyalty points",
+      "Description": "Calculates the points a purchase earns. An application might call this endpoint to show the points that a buyer can earn with the specific purchase.",
+      "Anchor": "#calculate-loyalty-points",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltyCreateAccount",
+      "Name": "Create loyalty account",
+      "Description": "Creates a loyalty account.",
+      "Anchor": "#create-loyalty-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltyCreateReward",
+      "Name": "Create loyalty reward",
+      "Description": "Creates a loyalty reward. After a reward is created, the points are locked and not available for the buyer to redeem another reward.",
+      "Anchor": "#create-loyalty-reward",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltyDeleteReward",
+      "Name": "Delete loyalty reward",
+      "Description": "Deletes a loyalty reward. Returns the loyalty points back to the loyalty account. You cannot delete a reward that has reached the terminal state (REDEEMED).",
+      "Anchor": "#delete-loyalty-reward",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltyRedeemReward",
+      "Name": "Redeem loyalty reward",
+      "Description": "Redeems a loyalty reward. After the reward reaches the terminal state, it cannot be deleted. In other words, points used for the reward cannot be returned to the account.",
+      "Anchor": "#redeem-loyalty-reward",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltyRetrieveAccount",
+      "Name": "Retrieve loyalty account",
+      "Description": "Retrieves a loyalty account.",
+      "Anchor": "#retrieve-loyalty-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltyRetrieveProgram",
+      "Name": "Retrieve loyalty program",
+      "Description": "Retrieves the loyalty program in a seller's account, specified by the program ID or the keyword main.  Loyalty programs define how buyers can earn points and redeem points for rewards.",
+      "Anchor": "#retrieve-loyalty-program",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltyRetrieveReward",
+      "Name": "Retrieve loyalty reward",
+      "Description": "Retrieves a loyalty reward.",
+      "Anchor": "#retrieve-loyalty-reward",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltySearchAccounts",
+      "Name": "Search loyalty accounts",
+      "Description": "Searches for loyalty accounts in a loyalty program.",
+      "Anchor": "#search-loyalty-accounts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltySearchEvents",
+      "Name": "Search loyalty events",
+      "Description": "Searches for loyalty events. A Square loyalty program maintains a ledger of events that occur during the lifetime of a buyer's loyalty account. Each change in the point balance (for example, points earned, points redeemed, and points expired) is recorded in the ledger. Using this endpoint, you can search the ledger for events.",
+      "Anchor": "#search-loyalty-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoyaltySearchRewards",
+      "Name": "Search loyalty rewards",
+      "Description": "Searches for loyalty rewards in a loyalty account.",
+      "Anchor": "#search-loyalty-rewards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MerchantList",
+      "Name": "List merchants",
+      "Description": "Returns Merchant information for a given access token.",
+      "Anchor": "#list-merchants",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MerchantRetrieve",
+      "Name": "Retrieve merchant",
+      "Description": "Retrieve a Merchant object for the given merchant_id.",
+      "Anchor": "#retrieve-merchant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MobileAuthorizationCreate",
+      "Name": "Create mobile authorization code",
+      "Description": "Generates code to authorize a mobile application to connect to a Square card reader. Authorization codes are one-time-use and expire 60 minutes after being issued.",
+      "Anchor": "#create-mobile-authorization-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SiteList",
+      "Name": "List sites",
+      "Description": "Lists the Square Online sites that belong to a seller.",
+      "Anchor": "#list-sites",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SnippetDelete",
+      "Name": "Delete snippet",
+      "Description": "Removes your snippet from a Square Online site.",
+      "Anchor": "#delete-snippet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SnippetRetrieve",
+      "Name": "Retrieve snippet",
+      "Description": "Retrieves your snippet from a Square Online site. A site can contain snippets from multiple snippet applications, but you can retrieve only the snippet that was added by your application.",
+      "Anchor": "#retrieve-snippet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SnippetUpsert",
+      "Name": "Upsert snippet",
+      "Description": "Adds a snippet to a Square Online site or updates the existing snippet on the site. The snippet code is appended to the end of the head element on every page of the site, except checkout pages. A snippet application can add one snippet to a given site.",
+      "Anchor": "#upsert-snippet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamCreateBulkMembers",
+      "Name": "Bulk create team members",
+      "Description": "Creates multiple TeamMember objects.",
+      "Anchor": "#bulk-create-team-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamCreateMember",
+      "Name": "Create team member",
+      "Description": "Creates a single TeamMember object.",
+      "Anchor": "#create-team-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamRetrieveMember",
+      "Name": "Retrieve team member",
+      "Description": "Retrieves a TeamMember object for the given TeamMember id.",
+      "Anchor": "#retrieve-team-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamRetrieveWage",
+      "Name": "Retrieve wage setting",
+      "Description": "Retrieves a WageSetting object for a team member specified by TeamMember id.",
+      "Anchor": "#retrieve-wage-setting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamSearch",
+      "Name": "Search team members",
+      "Description": "Returns a paginated list of TeamMember objects for a business.",
+      "Anchor": "#search-team-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamUpdate",
+      "Name": "Update team member",
+      "Description": "Updates a single TeamMember object.",
+      "Anchor": "#update-team-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamUpdateBulkMembers",
+      "Name": "Bulk update team members",
+      "Description": "Updates multiple TeamMember objects.",
+      "Anchor": "#bulk-update-team-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamUpdateWage",
+      "Name": "Update wage setting",
+      "Description": "Creates or updates a WageSetting object.",
+      "Anchor": "#update-wage-setting",
+      "IsDeprecated": false
+    }
+  ]
+}

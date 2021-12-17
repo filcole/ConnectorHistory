@@ -1,0 +1,104 @@
+{
+  "UniqueName": "aftershipip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aftershipip/",
+  "Actions": [
+    {
+      "OperationId": "AddANotification",
+      "Name": "Add a notification",
+      "Description": "Add notification receivers to a tracking number.",
+      "Anchor": "#add-a-notification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTracking",
+      "Name": "Create Tracking",
+      "Description": "Create a tracking.",
+      "Anchor": "#create-tracking",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteATracking",
+      "Name": "Delete a tracking",
+      "Description": "Delete a tracking.",
+      "Anchor": "#delete-a-tracking",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DetectCourier",
+      "Name": "Detect courier",
+      "Description": "Return a list of matched couriers based on tracking number format and selected couriers or a list of couriers.",
+      "Anchor": "#detect-courier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllCouriers",
+      "Name": "Get all couriers",
+      "Description": "Return a list of all couriers.",
+      "Anchor": "#get-all-couriers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetATracking",
+      "Name": "Get a tracking",
+      "Description": "Get tracking results of a single tracking.",
+      "Anchor": "#get-a-tracking",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLastCheckpoint",
+      "Name": "Get last checkpoint",
+      "Description": "Return the tracking information of the last checkpoint of a single tracking.",
+      "Anchor": "#get-last-checkpoint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTrackingNotification",
+      "Name": "Get tracking notification",
+      "Description": "Get contact information for the users to notify when the tracking changes. Please note that only customer receivers will be returned. Any email, sms or webhook that belongs to the Store will not be returned.",
+      "Anchor": "#get-tracking-notification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTrackings",
+      "Name": "Get trackings",
+      "Description": "Get tracking results of multiple trackings.",
+      "Anchor": "#get-trackings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserActivatedCouriers",
+      "Name": "Get user activated couriers",
+      "Description": "Return a list of couriers activated at your AfterShip account.",
+      "Anchor": "#get-user-activated-couriers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MarkTrackingAsCompleted",
+      "Name": "Mark tracking as completed",
+      "Description": "Mark a tracking as completed. The tracking won't auto update until retrack it.",
+      "Anchor": "#mark-tracking-as-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveANotification",
+      "Name": "Remove a notification",
+      "Description": "Remove notification receivers from a tracking number.",
+      "Anchor": "#remove-a-notification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrackAnExpiredTracking",
+      "Name": "Retrack an expired tracking",
+      "Description": "Retrack an expired tracking. Max 3 times per tracking.",
+      "Anchor": "#retrack-an-expired-tracking",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateATracking",
+      "Name": "Update a tracking",
+      "Description": "Update a tracking.",
+      "Anchor": "#update-a-tracking",
+      "IsDeprecated": false
+    }
+  ]
+}

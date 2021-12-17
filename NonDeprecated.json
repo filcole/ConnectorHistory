@@ -905,6 +905,110 @@
     ]
   },
   {
+    "UniqueName": "aftershipip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aftershipip/",
+    "Actions": [
+      {
+        "OperationId": "AddANotification",
+        "Name": "Add a notification",
+        "Description": "Add notification receivers to a tracking number.",
+        "Anchor": "#add-a-notification",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateTracking",
+        "Name": "Create Tracking",
+        "Description": "Create a tracking.",
+        "Anchor": "#create-tracking",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteATracking",
+        "Name": "Delete a tracking",
+        "Description": "Delete a tracking.",
+        "Anchor": "#delete-a-tracking",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DetectCourier",
+        "Name": "Detect courier",
+        "Description": "Return a list of matched couriers based on tracking number format and selected couriers or a list of couriers.",
+        "Anchor": "#detect-courier",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllCouriers",
+        "Name": "Get all couriers",
+        "Description": "Return a list of all couriers.",
+        "Anchor": "#get-all-couriers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetATracking",
+        "Name": "Get a tracking",
+        "Description": "Get tracking results of a single tracking.",
+        "Anchor": "#get-a-tracking",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLastCheckpoint",
+        "Name": "Get last checkpoint",
+        "Description": "Return the tracking information of the last checkpoint of a single tracking.",
+        "Anchor": "#get-last-checkpoint",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTrackingNotification",
+        "Name": "Get tracking notification",
+        "Description": "Get contact information for the users to notify when the tracking changes. Please note that only customer receivers will be returned. Any email, sms or webhook that belongs to the Store will not be returned.",
+        "Anchor": "#get-tracking-notification",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTrackings",
+        "Name": "Get trackings",
+        "Description": "Get tracking results of multiple trackings.",
+        "Anchor": "#get-trackings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUserActivatedCouriers",
+        "Name": "Get user activated couriers",
+        "Description": "Return a list of couriers activated at your AfterShip account.",
+        "Anchor": "#get-user-activated-couriers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MarkTrackingAsCompleted",
+        "Name": "Mark tracking as completed",
+        "Description": "Mark a tracking as completed. The tracking won't auto update until retrack it.",
+        "Anchor": "#mark-tracking-as-completed",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveANotification",
+        "Name": "Remove a notification",
+        "Description": "Remove notification receivers from a tracking number.",
+        "Anchor": "#remove-a-notification",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrackAnExpiredTracking",
+        "Name": "Retrack an expired tracking",
+        "Description": "Retrack an expired tracking. Max 3 times per tracking.",
+        "Anchor": "#retrack-an-expired-tracking",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateATracking",
+        "Name": "Update a tracking",
+        "Description": "Update a tracking.",
+        "Anchor": "#update-a-tracking",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "agilepointnx",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../agilepointnx/",
     "Actions": [
@@ -2873,6 +2977,95 @@
     ]
   },
   {
+    "UniqueName": "arcgis",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../arcgis/",
+    "Actions": [
+      {
+        "OperationId": "CreateFeatureLayer",
+        "Name": "Create feature layer",
+        "Description": "Create a feature layer in ArcGIS using data from an existing source, such as a SharePoint list. A feature layer is a grouping of similar geographic features, for example, buildings, parcels, cities, roads, and earthquake epicenters. Features can be points, lines, or polygons (areas). Feature layers are most appropriate for visualizing data on top of a basemap.",
+        "Anchor": "#create-feature-layer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindAddressCandidates",
+        "Name": "Find address candidate",
+        "Description": "Locate a single address using a geocode service resource. This resource provides information about candidates, including the address, location, and match score.  The result of this operation is a list of address candidates.",
+        "Anchor": "#find-address-candidate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GeocodeAddresses",
+        "Name": "Geocode addresses",
+        "Description": "Find multiple (batch) addresses, place-names, and businesses and then display that information on a map. This data can be added to an existing dataset or you can create a new one. This data can be used to create new maps in all ArcGIS for Microsoft 365 products.",
+        "Anchor": "#geocode-addresses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Geoenrich",
+        "Name": "Geoenrichment",
+        "Description": "Get facts about a location or area. Using the GeoEnrichment service, you can get information about the people, places, and businesses in a specific area or within a certain distance or drive time from a location.",
+        "Anchor": "#geoenrichment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFeatureLayerData",
+        "Name": "Get data from feature layer",
+        "Description": "Connect to a feature layer in ArcGIS and pull its data and attributes into your existing dataset or create a new one. This data can be used to create new maps in all ArcGIS for Microsoft 365 products.",
+        "Anchor": "#get-data-from-feature-layer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFLBoundaries",
+        "Name": "Get geometry from feature layer",
+        "Description": "Get geometry or boundary information from a feature layer and export it as Esri JSON or to a shape column in your dataset. This data can be used in all ArcGIS for Microsoft 365 products.",
+        "Anchor": "#get-geometry-from-feature-layer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRoute",
+        "Name": "Point to point routing",
+        "Description": "Create point-to-point routes. Points in a route can visited in the order you specify or in the order that minimizes overall travel time or distance. Routes represent the quickest or shortest path along roads to visit stops or point locations.",
+        "Anchor": "#point-to-point-routing",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "arcgispaas",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../arcgispaas/",
+    "Actions": [
+      {
+        "OperationId": "FindAddressCandidates",
+        "Name": "Find address candidate",
+        "Description": "Locate a single address using a geocode service resource. This resource provides information about candidates, including the address, location, and match score.  The result of this operation is a list of address candidates.",
+        "Anchor": "#find-address-candidate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GeocodeAddresses",
+        "Name": "Geocode addresses",
+        "Description": "Find multiple (batch) addresses, place-names, and businesses and then display that information on a map. This data can be added to an existing dataset or you can create a new one. This data can be used to create new maps in all ArcGIS for Microsoft 365 products.",
+        "Anchor": "#geocode-addresses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Geoenrich",
+        "Name": "Geoenrichment",
+        "Description": "Get facts about a location or area. Using the GeoEnrichment service, you can get information about the people, places, and businesses in a specific area or within a certain distance or drive time from a location.",
+        "Anchor": "#geoenrichment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRoute",
+        "Name": "Point to point routing",
+        "Description": "Create point-to-point routes. Points in a route can visited in the order you specify or in the order that minimizes overall travel time or distance. Routes represent the quickest or shortest path along roads to visit stops or point locations.",
+        "Anchor": "#point-to-point-routing",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "as2",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../as2/",
     "Actions": [
@@ -4385,6 +4578,20 @@
         "Name": "List iterations",
         "Description": "Retrieves the list of iterations for a project.",
         "Anchor": "#list-iterations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListPipelineRuns",
+        "Name": "List pipeline runs",
+        "Description": "Gets top 10000 runs for a particular pipeline",
+        "Anchor": "#list-pipeline-runs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListPipelines",
+        "Name": "List pipelines",
+        "Description": "Retrieves the list of pipelines in a project.",
+        "Anchor": "#list-pipelines",
         "IsDeprecated": false
       },
       {
@@ -14731,6 +14938,26 @@
     ]
   },
   {
+    "UniqueName": "dynamics365ratingsre",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamics365ratingsre/",
+    "Actions": [
+      {
+        "OperationId": "ExportReviews",
+        "Name": "Export All Reviews",
+        "Description": "Export all reviews as a downloadable SAS URL.",
+        "Anchor": "#export-all-reviews",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SubmitReview",
+        "Name": "Submit User Review",
+        "Description": "Submits a user review to your RnR tenant.",
+        "Anchor": "#submit-user-review",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "customerinsights",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../customerinsights/",
     "Actions": [
@@ -14864,6 +15091,110 @@
         "Name": "Send a survey",
         "Description": "This action sends a survey to a specified list of recipients and creates a survey invitation for each recipient.",
         "Anchor": "#send-a-survey",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "dynamicsfraudprotect",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamicsfraudprotect/",
+    "Actions": [
+      {
+        "OperationId": "AccountProtection_v1_AccountCreation",
+        "Name": "Provides risk assessment for account creation attempt",
+        "Description": "This event sends information and context about an incoming new Account Creation attempt. The response contains a decision for the Account Creation",
+        "Anchor": "#provides-risk-assessment-for-account-creation-attempt",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AccountProtection_v1_AccountCreationStatus",
+        "Name": "Updates the status of account creation",
+        "Description": "This event sends an update of the status of an Account Creation, for example, if the Account Creation has been canceled. This is a data ingestion event only",
+        "Anchor": "#updates-the-status-of-account-creation",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AccountProtection_v1_AccountLogin",
+        "Name": "Provides risk assessment for account login attempt",
+        "Description": "This event sends information and context about an incoming new Account Login attempt. The response contains a decision for the Account Login",
+        "Anchor": "#provides-risk-assessment-for-account-login-attempt",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AccountProtection_v1_AccountLoginStatus",
+        "Name": "Updates the status of account login",
+        "Description": "This event sends an update of the status of an Account Login, for example, if the Account login has been canceled. This is a data ingestion event only",
+        "Anchor": "#updates-the-status-of-account-login",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AccountProtection_v1_AccountUpdate",
+        "Name": "Updates account information for account protection",
+        "Description": "This event updates or creates user account information for account protection service, for example, Add Payment Instrument, Add Address, or any other user attribute. This is a data ingestion event only",
+        "Anchor": "#updates-account-information-for-account-protection",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AccountProtection_v1_Label",
+        "Name": "Updates fraud label information for account protection",
+        "Description": "This event sends an update of the label. This is a data ingestion event only",
+        "Anchor": "#updates-fraud-label-information-for-account-protection",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Assessment_v1_Assessment",
+        "Name": "Provides risk assessment for custom events",
+        "Description": "This event allows you to send a structure of their own choosing, triggered by conditions of their own choosing for rule-evaluation. The response contains a decision for the event",
+        "Anchor": "#provides-risk-assessment-for-custom-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PurchaseProtection_v1_BankEvent",
+        "Name": "Updates bank authorization information",
+        "Description": "This event conveys if a purchase transaction sent to the bank was approved or rejected for bank authorization or bank charge/settlement. This is a data ingestion event only",
+        "Anchor": "#updates-bank-authorization-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PurchaseProtection_v1_ChargebackEvent",
+        "Name": "Updates confirmed fraud information",
+        "Description": "This event sends information about a previous purchase that the customer disputed with their bank as fraud. This is\na data ingestion event only. Many merchants send these events using bulk data upload",
+        "Anchor": "#updates-confirmed-fraud-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PurchaseProtection_v1_Label",
+        "Name": "Updates fraud label information for purchase protection",
+        "Description": "This event sends an update of the label. This is a data ingestion event only",
+        "Anchor": "#updates-fraud-label-information-for-purchase-protection",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PurchaseProtection_v1_PurchaseEvent",
+        "Name": "Provides risk assessment for online purchase transaction",
+        "Description": "This event sends information and context about an incoming new purchase transaction. The response contains a decision to either approve or reject the purchase transaction and the appropriate Merchant ID (MID) the merchant should send in the authorization call to their bank",
+        "Anchor": "#provides-risk-assessment-for-online-purchase-transaction",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PurchaseProtection_v1_PurchaseStatus",
+        "Name": "Updates status of a online purchase transaction",
+        "Description": "This event sends an update of the status of a purchase, for example, if the purchase has been canceled. This is a data ingestion event only",
+        "Anchor": "#updates-status-of-a-online-purchase-transaction",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PurchaseProtection_v1_RefundEvent",
+        "Name": "Updates refund information",
+        "Description": "This event sends information about a previous purchase transaction being refunded. This is a data ingestion event only. Many merchants send these events using bulk data upload",
+        "Anchor": "#updates-refund-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PurchaseProtection_v1_UpdateAccount",
+        "Name": "Updates account information for purchase protection",
+        "Description": "This event updates or creates user account information for purchase protection service, for example, Add Payment Instrument, Add Address, or any other user attribute. This is a data ingestion event only",
+        "Anchor": "#updates-account-information-for-purchase-protection",
         "IsDeprecated": false
       }
     ]
@@ -29475,6 +29806,103 @@
     ]
   },
   {
+    "UniqueName": "ideanote",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ideanote/",
+    "Actions": [
+      {
+        "OperationId": "CreateUser",
+        "Name": "Create user",
+        "Description": "Create a new user on the workspace",
+        "Anchor": "#create-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FinishRating",
+        "Name": "When someone rates an idea",
+        "Description": "When someone rates an idea",
+        "Anchor": "#when-someone-rates-an-idea",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListCommentsForIdea",
+        "Name": "List all comments for an idea",
+        "Description": "List all comments for an idea",
+        "Anchor": "#list-all-comments-for-an-idea",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListIdeas",
+        "Name": "List all ideas",
+        "Description": "List all ideas",
+        "Anchor": "#list-all-ideas",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListIdeasForMission",
+        "Name": "List all ideas for a mission",
+        "Description": "List all ideas for a mission",
+        "Anchor": "#list-all-ideas-for-a-mission",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListMissions",
+        "Name": "List all missions",
+        "Description": "List all missions",
+        "Anchor": "#list-all-missions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NewComment",
+        "Name": "When a comment is created",
+        "Description": "When a comment is created",
+        "Anchor": "#when-a-comment-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NewIdea",
+        "Name": "When an idea is created",
+        "Description": "When an idea is created",
+        "Anchor": "#when-an-idea-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NewLike",
+        "Name": "When an idea or comment is liked",
+        "Description": "When an idea or comment is liked",
+        "Anchor": "#when-an-idea-or-comment-is-liked",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NewUser",
+        "Name": "When a user is created",
+        "Description": "When a user is created",
+        "Anchor": "#when-a-user-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdatedIdeaPhase",
+        "Name": "When the phase of an idea is changed",
+        "Description": "When the phase of an idea is changed",
+        "Anchor": "#when-the-phase-of-an-idea-is-changed",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdatedIdeaStatus",
+        "Name": "When the status of an idea is changed",
+        "Description": "When the status of an idea is changed",
+        "Anchor": "#when-the-status-of-an-idea-is-changed",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateUser",
+        "Name": "Update user",
+        "Description": "Update a specific user",
+        "Anchor": "#update-user",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "impexium",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../impexium/",
     "Actions": [
@@ -42585,6 +43013,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Get-PowerAppConditionalAccess",
+        "Name": "Get PowerApp Conditional Access",
+        "Description": "Gets a PowerApp's conditional access properties.",
+        "Anchor": "#get-powerapp-conditional-access",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Remove-AdminApp",
         "Name": "Remove App as Admin",
         "Description": "Deletes a PowerApp.",
@@ -42603,6 +43038,20 @@
         "Name": "Set App Owner",
         "Description": "Updates a PowerApp's owner role, and specifies the old owner's new role.",
         "Anchor": "#set-app-owner",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Set-AppQuarantineState",
+        "Name": "Set App Quarantine State",
+        "Description": "Updates a PowerApp's quarantine state.",
+        "Anchor": "#set-app-quarantine-state",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Set-PowerAppConditionalAccess",
+        "Name": "Set PowerApp Conditional Access",
+        "Description": "Updates a PowerApp's conditional access.",
+        "Anchor": "#set-powerapp-conditional-access",
         "IsDeprecated": false
       }
     ]
@@ -44673,6 +45122,82 @@
         "Name": "Vulnerability Extension Enrichment",
         "Description": "Vulnerability Enrichment with Recorded Future Extension Partner data",
         "Anchor": "#vulnerability-extension-enrichment",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "recordedfuturev2",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../recordedfuturev2/",
+    "Actions": [
+      {
+        "OperationId": "Alert_Not_Lookup",
+        "Name": "Lookup Alert Notification",
+        "Description": "Lookup Alert Notification",
+        "Anchor": "#lookup-alert-notification",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Alert_Not_Search",
+        "Name": "Search Alert Notifications",
+        "Description": "Search Alert Notifications",
+        "Anchor": "#search-alert-notifications",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Alert_Rules_Search",
+        "Name": "Search Alert Rules",
+        "Description": "Search Recorded Future UI Alert Rules",
+        "Anchor": "#search-alert-rules",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "D_E",
+        "Name": "Domain Enrichment",
+        "Description": "Domain Enrichment with Recorded Future data",
+        "Anchor": "#domain-enrichment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "H_E",
+        "Name": "Hash Enrichment",
+        "Description": "Hash Enrichment with Recorded Future data",
+        "Anchor": "#hash-enrichment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IP_E",
+        "Name": "IP Enrichment",
+        "Description": "IP Enrichment with Recorded Future data",
+        "Anchor": "#ip-enrichment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "R_List_D",
+        "Name": "Recorded Future RiskLists and SCF Download",
+        "Description": "Recorded Future RiskList &amp; Security Control Feeds Download",
+        "Anchor": "#recorded-future-risklists-and-scf-download",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Soar_Bulk_Lookup",
+        "Name": "SOAR API - Look up multiple entities",
+        "Description": "SOAR API - Look up multiple entities (Specific Access is Required)",
+        "Anchor": "#soar-api---look-up-multiple-entities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "U_E",
+        "Name": "URL Enrichment",
+        "Description": "URL Enrichment with Recorded Future data",
+        "Anchor": "#url-enrichment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Vuln_E",
+        "Name": "Vulnerability Enrichment",
+        "Description": "Vulnerability Enrichment with Recorded Future data",
+        "Anchor": "#vulnerability-enrichment",
         "IsDeprecated": false
       }
     ]
@@ -46796,6 +47321,33 @@
         "Name": "Update User",
         "Description": "Updates a user with the given data. Tags will be replaced.",
         "Anchor": "#update-user",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "securemessagedelivery",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../securemessagedelivery/",
+    "Actions": [
+      {
+        "OperationId": "RetractMessageAsync",
+        "Name": "Retract a Secure Message",
+        "Description": "Retract a secure message that was previously sent.",
+        "Anchor": "#retract-a-secure-message",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendSecureMessageAsync",
+        "Name": "Send a Secure Message",
+        "Description": "Sends a message in a secure manner ensuring the data is not corrupted.",
+        "Anchor": "#send-a-secure-message",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrackMessageAsync",
+        "Name": "Track a Secure Message",
+        "Description": "Track a secure message to ensure the message is delivered and opened.",
+        "Anchor": "#track-a-secure-message",
         "IsDeprecated": false
       }
     ]
@@ -49907,6 +50459,1096 @@
     ]
   },
   {
+    "UniqueName": "squarebusinessip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../squarebusinessip/",
+    "Actions": [
+      {
+        "OperationId": "BankAccountGet",
+        "Name": "Get bank account",
+        "Description": "Returns details of a BankAccount linked to a Square account.",
+        "Anchor": "#get-bank-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BankAccountGetV1",
+        "Name": "Get bank account by V1 ID",
+        "Description": "Returns details of a BankAccount identified by V1 bank account ID.",
+        "Anchor": "#get-bank-account-by-v1-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BankAccountList",
+        "Name": "List bank accounts",
+        "Description": "Returns a list of BankAccount objects linked to a Square account.",
+        "Anchor": "#list-bank-accounts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BookingAvailability",
+        "Name": "Search availability (Beta)",
+        "Description": "Searches for availabilities for booking.",
+        "Anchor": "#search-availability-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BookingCreate",
+        "Name": "Create booking (Beta)",
+        "Description": "Creates a booking.",
+        "Anchor": "#create-booking-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BookingListTeamProfiles",
+        "Name": "List team member booking profiles (Beta)",
+        "Description": "Lists booking profiles for team members.",
+        "Anchor": "#list-team-member-booking-profiles-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BookingRetrieveProfile",
+        "Name": "Retrieve business booking profile (Beta)",
+        "Description": "Retrieves a seller's booking profile.",
+        "Anchor": "#retrieve-business-booking-profile-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CashDrawerListEvents",
+        "Name": "List cash drawer shift events",
+        "Description": "Provides a paginated list of events for a single cash drawer shift.",
+        "Anchor": "#list-cash-drawer-shift-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CashDrawerListShifts",
+        "Name": "List cash drawer shifts",
+        "Description": "Provides the details for all of the cash drawer shifts for a location in a date range.",
+        "Anchor": "#list-cash-drawer-shifts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CashDrawerRetrieveShift",
+        "Name": "Retrieve cash drawer shift",
+        "Description": "Provides the summary details for a single cash drawer shift.",
+        "Anchor": "#retrieve-cash-drawer-shift",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CheckoutCreate",
+        "Name": "Create checkout",
+        "Description": "Links a checkoutId to a checkout_page_url that customers are directed to in order to provide their payment information using a payment processing workflow.",
+        "Anchor": "#create-checkout",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeviceCreate",
+        "Name": "Create device code",
+        "Description": "Creates a DeviceCode that can be used to login to a Square Terminal device to enter the connected terminal mode.",
+        "Anchor": "#create-device-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeviceGet",
+        "Name": "Get device code",
+        "Description": "Retrieves DeviceCode with the associated ID.",
+        "Anchor": "#get-device-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeviceList",
+        "Name": "List device codes",
+        "Description": "Lists all DeviceCodes associated with the merchant.",
+        "Anchor": "#list-device-codes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GiftCardCreate",
+        "Name": "Create gift card activity (Beta)",
+        "Description": "Creates a gift card activity.",
+        "Anchor": "#create-gift-card-activity-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GiftCardLink",
+        "Name": "Link customer to gift card (Beta)",
+        "Description": "Links a customer to a gift card",
+        "Anchor": "#link-customer-to-gift-card-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GiftCardList",
+        "Name": "List gift card activities (Beta)",
+        "Description": "Lists gift card activities. By default, you get gift card activities for all gift cards in the seller's account. You can optionally specify query parameters to filter the list. For example, you can get a list of gift card activities for a gift card, for all gift cards in a specific region, or for activities within a time window.",
+        "Anchor": "#list-gift-card-activities-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GiftCardRetrieve",
+        "Name": "Retrieve gift card (Beta)",
+        "Description": "Retrieves a gift card using its ID.",
+        "Anchor": "#retrieve-gift-card-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GiftCardRetrieveGAN",
+        "Name": "Retrieve gift card from GAN (Beta)",
+        "Description": "Retrieves a gift card using the gift card account number (GAN).",
+        "Anchor": "#retrieve-gift-card-from-gan-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GiftCardRetrieveNonce",
+        "Name": "Retrieve gift card from nonce (Beta)",
+        "Description": "Retrieves a gift card using a nonce (a secure token) that represents the gift card.",
+        "Anchor": "#retrieve-gift-card-from-nonce-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GiftCardUnlink",
+        "Name": "Unlink customer from gift card (Beta)",
+        "Description": "Unlinks a customer from a gift card.",
+        "Anchor": "#unlink-customer-from-gift-card-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborCreateBreak",
+        "Name": "Create break type",
+        "Description": "Creates a new BreakType. A BreakType is a template for creating Break objects.",
+        "Anchor": "#create-break-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborCreateShift",
+        "Name": "Create shift",
+        "Description": "Creates a new Shift. A Shift represents a complete workday for a single employee",
+        "Anchor": "#create-shift",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborDeleteBreak",
+        "Name": "Delete break type",
+        "Description": "Deletes an existing BreakType. A BreakType can be deleted even if it is referenced from a Shift.",
+        "Anchor": "#delete-break-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborDeleteShift",
+        "Name": "Delete shift",
+        "Description": "Deletes a shift",
+        "Anchor": "#delete-shift",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborGetBreak",
+        "Name": "Get break type",
+        "Description": "Returns a single BreakType specified by id.",
+        "Anchor": "#get-break-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborGetShift",
+        "Name": "Get shift",
+        "Description": "Returns a single Shift specified by id.",
+        "Anchor": "#get-shift",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborGetWage",
+        "Name": "Get team member wage",
+        "Description": "Returns a single TeamMemberWage specified by id.",
+        "Anchor": "#get-team-member-wage",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborListBreak",
+        "Name": "List break types",
+        "Description": "Returns a paginated list of BreakType instances for a business.",
+        "Anchor": "#list-break-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborListConfigs",
+        "Name": "List workweek configs",
+        "Description": "Returns a list of WorkweekConfig instances for a business.",
+        "Anchor": "#list-workweek-configs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborListWages",
+        "Name": "List team member wages",
+        "Description": "Returns a paginated list of TeamMemberWage instances for a business.",
+        "Anchor": "#list-team-member-wages",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborSearchShifts",
+        "Name": "Search shifts",
+        "Description": "Returns a paginated list of Shift records for a business.",
+        "Anchor": "#search-shifts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborUpdateBreak",
+        "Name": "Update break type",
+        "Description": "Updates an existing BreakType.",
+        "Anchor": "#update-break-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborUpdateConfig",
+        "Name": "Update workweek config",
+        "Description": "Updates a WorkweekConfig.",
+        "Anchor": "#update-workweek-config",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaborUpdateShift",
+        "Name": "Update shift",
+        "Description": "Updates an existing Shift.",
+        "Anchor": "#update-shift",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LocationCreate",
+        "Name": "Create location (Beta)",
+        "Description": "Creates a location.",
+        "Anchor": "#create-location-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LocationList",
+        "Name": "List locations",
+        "Description": "Provides information of all locations of a business.",
+        "Anchor": "#list-locations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LocationRetrieve",
+        "Name": "Retrieve location",
+        "Description": "Retrieves details of a location. You can specify &quot;main&quot; as the location ID to retrieve details of the main location.",
+        "Anchor": "#retrieve-location",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LocationUpdate",
+        "Name": "Update location (Beta)",
+        "Description": "Updates a location.",
+        "Anchor": "#update-location-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltyAccumulatePoints",
+        "Name": "Accumulate loyalty points",
+        "Description": "Adds points to a loyalty account.",
+        "Anchor": "#accumulate-loyalty-points",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltyAdjustPoints",
+        "Name": "Adjust loyalty points",
+        "Description": "Adds points to or subtracts points from a buyer's account. Use this endpoint only when you need to manually adjust points.",
+        "Anchor": "#adjust-loyalty-points",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltyCalculatePoints",
+        "Name": "Calculate loyalty points",
+        "Description": "Calculates the points a purchase earns. An application might call this endpoint to show the points that a buyer can earn with the specific purchase.",
+        "Anchor": "#calculate-loyalty-points",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltyCreateAccount",
+        "Name": "Create loyalty account",
+        "Description": "Creates a loyalty account.",
+        "Anchor": "#create-loyalty-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltyCreateReward",
+        "Name": "Create loyalty reward",
+        "Description": "Creates a loyalty reward. After a reward is created, the points are locked and not available for the buyer to redeem another reward.",
+        "Anchor": "#create-loyalty-reward",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltyDeleteReward",
+        "Name": "Delete loyalty reward",
+        "Description": "Deletes a loyalty reward. Returns the loyalty points back to the loyalty account. You cannot delete a reward that has reached the terminal state (REDEEMED).",
+        "Anchor": "#delete-loyalty-reward",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltyRedeemReward",
+        "Name": "Redeem loyalty reward",
+        "Description": "Redeems a loyalty reward. After the reward reaches the terminal state, it cannot be deleted. In other words, points used for the reward cannot be returned to the account.",
+        "Anchor": "#redeem-loyalty-reward",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltyRetrieveAccount",
+        "Name": "Retrieve loyalty account",
+        "Description": "Retrieves a loyalty account.",
+        "Anchor": "#retrieve-loyalty-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltyRetrieveProgram",
+        "Name": "Retrieve loyalty program",
+        "Description": "Retrieves the loyalty program in a seller's account, specified by the program ID or the keyword main.  Loyalty programs define how buyers can earn points and redeem points for rewards.",
+        "Anchor": "#retrieve-loyalty-program",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltyRetrieveReward",
+        "Name": "Retrieve loyalty reward",
+        "Description": "Retrieves a loyalty reward.",
+        "Anchor": "#retrieve-loyalty-reward",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltySearchAccounts",
+        "Name": "Search loyalty accounts",
+        "Description": "Searches for loyalty accounts in a loyalty program.",
+        "Anchor": "#search-loyalty-accounts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltySearchEvents",
+        "Name": "Search loyalty events",
+        "Description": "Searches for loyalty events. A Square loyalty program maintains a ledger of events that occur during the lifetime of a buyer's loyalty account. Each change in the point balance (for example, points earned, points redeemed, and points expired) is recorded in the ledger. Using this endpoint, you can search the ledger for events.",
+        "Anchor": "#search-loyalty-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoyaltySearchRewards",
+        "Name": "Search loyalty rewards",
+        "Description": "Searches for loyalty rewards in a loyalty account.",
+        "Anchor": "#search-loyalty-rewards",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MerchantList",
+        "Name": "List merchants",
+        "Description": "Returns Merchant information for a given access token.",
+        "Anchor": "#list-merchants",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MerchantRetrieve",
+        "Name": "Retrieve merchant",
+        "Description": "Retrieve a Merchant object for the given merchant_id.",
+        "Anchor": "#retrieve-merchant",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MobileAuthorizationCreate",
+        "Name": "Create mobile authorization code",
+        "Description": "Generates code to authorize a mobile application to connect to a Square card reader. Authorization codes are one-time-use and expire 60 minutes after being issued.",
+        "Anchor": "#create-mobile-authorization-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SiteList",
+        "Name": "List sites",
+        "Description": "Lists the Square Online sites that belong to a seller.",
+        "Anchor": "#list-sites",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SnippetDelete",
+        "Name": "Delete snippet",
+        "Description": "Removes your snippet from a Square Online site.",
+        "Anchor": "#delete-snippet",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SnippetRetrieve",
+        "Name": "Retrieve snippet",
+        "Description": "Retrieves your snippet from a Square Online site. A site can contain snippets from multiple snippet applications, but you can retrieve only the snippet that was added by your application.",
+        "Anchor": "#retrieve-snippet",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SnippetUpsert",
+        "Name": "Upsert snippet",
+        "Description": "Adds a snippet to a Square Online site or updates the existing snippet on the site. The snippet code is appended to the end of the head element on every page of the site, except checkout pages. A snippet application can add one snippet to a given site.",
+        "Anchor": "#upsert-snippet",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamCreateBulkMembers",
+        "Name": "Bulk create team members",
+        "Description": "Creates multiple TeamMember objects.",
+        "Anchor": "#bulk-create-team-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamCreateMember",
+        "Name": "Create team member",
+        "Description": "Creates a single TeamMember object.",
+        "Anchor": "#create-team-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamRetrieveMember",
+        "Name": "Retrieve team member",
+        "Description": "Retrieves a TeamMember object for the given TeamMember id.",
+        "Anchor": "#retrieve-team-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamRetrieveWage",
+        "Name": "Retrieve wage setting",
+        "Description": "Retrieves a WageSetting object for a team member specified by TeamMember id.",
+        "Anchor": "#retrieve-wage-setting",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamSearch",
+        "Name": "Search team members",
+        "Description": "Returns a paginated list of TeamMember objects for a business.",
+        "Anchor": "#search-team-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamUpdate",
+        "Name": "Update team member",
+        "Description": "Updates a single TeamMember object.",
+        "Anchor": "#update-team-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamUpdateBulkMembers",
+        "Name": "Bulk update team members",
+        "Description": "Updates multiple TeamMember objects.",
+        "Anchor": "#bulk-update-team-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamUpdateWage",
+        "Name": "Update wage setting",
+        "Description": "Creates or updates a WageSetting object.",
+        "Anchor": "#update-wage-setting",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "squarepaymentsip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../squarepaymentsip/",
+    "Actions": [
+      {
+        "OperationId": "ApplePayRegister",
+        "Name": "Register domain for Apple Pay",
+        "Description": "Activates a domain for use with Apple Pay on the Web and Square. A validation is performed on this domain by Apple to ensure that it is properly set up as an Apple Pay enabled domain.",
+        "Anchor": "#register-domain-for-apple-pay",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CardCreate",
+        "Name": "Create card",
+        "Description": "Adds a card on file to an existing merchant.",
+        "Anchor": "#create-card",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CardDisable",
+        "Name": "Disable card",
+        "Description": "Disables the card, preventing any further updates or charges. Disabling an already disabled card is allowed but has no effect.",
+        "Anchor": "#disable-card",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CardList",
+        "Name": "List cards",
+        "Description": "Retrieves a list of cards owned by the account making the request.",
+        "Anchor": "#list-cards",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CardRetrieve",
+        "Name": "Retrieve card",
+        "Description": "Retrieves details for a specific Card.",
+        "Anchor": "#retrieve-card",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CatalogBatchDelete",
+        "Name": "Batch delete catalog objects",
+        "Description": "Deletes a set of CatalogItems based on the provided list of target IDs and returns a set of successfully deleted IDs in the response.",
+        "Anchor": "#batch-delete-catalog-objects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CatalogBatchRetrieve",
+        "Name": "Batch retrieve catalog objects",
+        "Description": "Returns a set of objects based on the provided ID. Each CatalogItem returned in the set includes all of its child information including: all of its CatalogItemVariation objects, references to its CatalogModifierList objects, and the ids of any CatalogTax objects that apply to it.",
+        "Anchor": "#batch-retrieve-catalog-objects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CatalogBatchUpsert",
+        "Name": "Batch upsert catalog objects",
+        "Description": "Creates or updates up to 10,000 target objects based on the provided list of objects. The target objects are grouped into batches and each batch is inserted/updated in an all-or-nothing manner. If an object within a batch is malformed in some way, or violates a database constraint, the entire batch containing that item will be disregarded. However, other batches in the same request may still succeed. Each batch may contain up to 1,000 objects, and batches will be processed in order as long as the total object count for the request (items, variations, modifier lists, discounts, and taxes) is no more than 10,000.",
+        "Anchor": "#batch-upsert-catalog-objects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CatalogDelete",
+        "Name": "Delete catalog object",
+        "Description": "Deletes a single CatalogObject based on the provided ID and returns the set of successfully deleted IDs in the response. Deletion is a cascading event such that all children of the targeted object are also deleted. For example, deleting a CatalogItem will also delete all of its CatalogItemVariation children.",
+        "Anchor": "#delete-catalog-object",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CatalogInfo",
+        "Name": "Catalog info",
+        "Description": "Retrieves information about the Square Catalog API, such as batch size limits that can be used by the BatchUpsertCatalogObjects endpoint.",
+        "Anchor": "#catalog-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CatalogList",
+        "Name": "List catalog",
+        "Description": "Returns a list of CatalogObjects that includes all objects of a set of desired types (for example, all CatalogItem and CatalogTax objects) in the catalog. ListCatalog does not return deleted catalog items.",
+        "Anchor": "#list-catalog",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CatalogRetrieve",
+        "Name": "Retrieve catalog object",
+        "Description": "Returns a single CatalogItem as a CatalogObject based on the provided ID. The returned object includes all of the relevant CatalogItem information including: CatalogItemVariation children, references to its CatalogModifierList objects, and the ids of any CatalogTax objects that apply to it.",
+        "Anchor": "#retrieve-catalog-object",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CatalogSearch",
+        "Name": "Search catalog objects",
+        "Description": "Searches for CatalogObject of any type by matching supported search attribute values, excluding custom attribute values on items or item variations, against one or more of the specified query filters.",
+        "Anchor": "#search-catalog-objects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CatalogUpdateModifier",
+        "Name": "Update item modifier lists",
+        "Description": "Updates the CatalogModifierList objects that apply to the targeted CatalogItem without having to perform an upsert on the entire item.",
+        "Anchor": "#update-item-modifier-lists",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CatalogUpdateTaxes",
+        "Name": "Update item taxes",
+        "Description": "Updates the CatalogTax objects that apply to the targeted CatalogItem without having to perform an upsert on the entire item.",
+        "Anchor": "#update-item-taxes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CatalogUpsert",
+        "Name": "Upsert catalog object",
+        "Description": "Creates or updates the target CatalogObject.",
+        "Anchor": "#upsert-catalog-object",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerAddGroup",
+        "Name": "Add group to customer",
+        "Description": "Adds a group membership to a customer. The customer is identified by the customer_id value and the customer group is identified by the group_id value.",
+        "Anchor": "#add-group-to-customer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerCreate",
+        "Name": "Create customer",
+        "Description": "Creates a new customer for a business.",
+        "Anchor": "#create-customer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerDelete",
+        "Name": "Delete customer",
+        "Description": "Deletes a customer profile from a business. This operation also unlinks any associated cards on file.",
+        "Anchor": "#delete-customer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerGroupDelete",
+        "Name": "Delete customer group",
+        "Description": "Deletes a customer group as identified by the group_id value.",
+        "Anchor": "#delete-customer-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerGroupList",
+        "Name": "List customer groups",
+        "Description": "Retrieves the list of customer groups of a business.",
+        "Anchor": "#list-customer-groups",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerGroupRetrieve",
+        "Name": "Retrieve customer group",
+        "Description": "Retrieves a specific customer group.",
+        "Anchor": "#retrieve-customer-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerGroupUpdate",
+        "Name": "Update customer group",
+        "Description": "Updates a customer group.",
+        "Anchor": "#update-customer-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerList",
+        "Name": "List customers",
+        "Description": "Lists customer profiles associated with a Square account. Under normal operating conditions, newly created or updated customer profiles become available for the listing operation in well under 30 seconds. Occasionally, propagation of the new or updated profiles can take closer to one minute or longer, especially during network incidents and outages.",
+        "Anchor": "#list-customers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerRemoveGroup",
+        "Name": "Remove group from customer",
+        "Description": "Removes a group membership from a customer. The customer is identified by the customer_id value and the customer group is identified by the group_id value.",
+        "Anchor": "#remove-group-from-customer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerRetrieve",
+        "Name": "Retrieve customer",
+        "Description": "Returns details for a single customer.",
+        "Anchor": "#retrieve-customer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerSearch",
+        "Name": "Search customers",
+        "Description": "Searches the customer profiles associated with a Square account using a supported query filter.  Calling SearchCustomers without any explicit query filter returns all customer profiles ordered alphabetically based on given_name and family_name.",
+        "Anchor": "#search-customers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerSegmentList",
+        "Name": "List customer segments",
+        "Description": "Retrieves the list of customer segments of a business.",
+        "Anchor": "#list-customer-segments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerSegmentRetrieve",
+        "Name": "Retrieve customer segment",
+        "Description": "Retrieves a specific customer segment.",
+        "Anchor": "#retrieve-customer-segment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomerUpdate",
+        "Name": "Update customer",
+        "Description": "Updates a customer profile. To change an attribute, specify the new value. To remove an attribute, specify the value as an empty string or empty object.",
+        "Anchor": "#update-customer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomGroupCreate",
+        "Name": "Create customer group",
+        "Description": "Creates a new customer group for a business.",
+        "Anchor": "#create-customer-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DisputeAccept",
+        "Name": "Accept dispute",
+        "Description": "Accepts the loss on a dispute. Square returns the disputed amount to the cardholder and updates the dispute state to ACCEPTED. Square debits the disputed amount from the seller’s Square account. If the Square account does not have sufficient funds, Square debits the associated bank account.",
+        "Anchor": "#accept-dispute",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DisputeCreateEvidenceText",
+        "Name": "Create dispute evidence text",
+        "Description": "Uploads text to use as evidence for a dispute challenge.",
+        "Anchor": "#create-dispute-evidence-text",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DisputeDeleteEvidence",
+        "Name": "Delete dispute evidence",
+        "Description": "Removes specified evidence from a dispute.",
+        "Anchor": "#delete-dispute-evidence",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DisputeList",
+        "Name": "List disputes",
+        "Description": "Returns a list of disputes associated with a particular account.",
+        "Anchor": "#list-disputes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DisputeListEvidence",
+        "Name": "List dispute evidence",
+        "Description": "Returns a list of evidence associated with a dispute.",
+        "Anchor": "#list-dispute-evidence",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DisputeRetrieve",
+        "Name": "Retrieve dispute",
+        "Description": "Returns details about a specific dispute.",
+        "Anchor": "#retrieve-dispute",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DisputeRetrieveEvidence",
+        "Name": "Retrieve dispute evidence",
+        "Description": "Returns the evidence metadata specified by the evidence ID in the request URL path. You must maintain a copy of the evidence you upload if you want to reference it later.  You cannot download the evidence after you upload it.",
+        "Anchor": "#retrieve-dispute-evidence",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EvidenceSubmit",
+        "Name": "Submit evidence",
+        "Description": "Submits evidence to the cardholder's bank. Before submitting evidence, Square compiles all available evidence. This includes evidence uploaded using the CreateDisputeEvidenceFile and CreateDisputeEvidenceText endpoints and evidence automatically provided by Square, when available.",
+        "Anchor": "#submit-evidence",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InventoryBatchChange",
+        "Name": "Batch change inventory",
+        "Description": "Applies adjustments and counts to the provided item quantities. On success: returns the current calculated counts for all objects referenced in the request.",
+        "Anchor": "#batch-change-inventory",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InventoryBatchRetrieveChanges",
+        "Name": "Batch retrieve inventory changes",
+        "Description": "Returns historical physical counts and adjustments based on the provided filter criteria.",
+        "Anchor": "#batch-retrieve-inventory-changes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InventoryBatchRetrieveCounts",
+        "Name": "Batch retrieve inventory counts",
+        "Description": "Returns current counts for the provided CatalogObjects at the requested Locations.",
+        "Anchor": "#batch-retrieve-inventory-counts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InventoryRetrieveAdjustment",
+        "Name": "Retrieve inventory adjustment",
+        "Description": "Returns the InventoryAdjustment object with the provided adjustment_id.",
+        "Anchor": "#retrieve-inventory-adjustment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InventoryRetrieveCount",
+        "Name": "Retrieve inventory count",
+        "Description": "Retrieves the current calculated stock count for a given CatalogObject at a given set of Locations.",
+        "Anchor": "#retrieve-inventory-count",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InventoryRetrievePhysicalCount",
+        "Name": "Retrieve inventory physical count",
+        "Description": "Returns the InventoryPhysicalCount object with the provided physical_count_id.",
+        "Anchor": "#retrieve-inventory-physical-count",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InventoryRetrieveTransfer",
+        "Name": "Retrieve inventory transfer (Beta)",
+        "Description": "Returns the InventoryTransfer object with the provided transfer_id.",
+        "Anchor": "#retrieve-inventory-transfer-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InvoiceCancel",
+        "Name": "Cancel invoice",
+        "Description": "Cancels an invoice. The seller cannot collect payments for the canceled invoice.",
+        "Anchor": "#cancel-invoice",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InvoiceCreate",
+        "Name": "Create invoice",
+        "Description": "Creates a draft invoice for an order created using the Orders API. A draft invoice remains in your account and no action is taken. You must publish the invoice before Square can process it (send it to the customer's email address or charge the customer’s card on file).",
+        "Anchor": "#create-invoice",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InvoiceDelete",
+        "Name": "Delete invoice",
+        "Description": "Deletes the specified invoice. When an invoice is deleted, the associated order status changes to CANCELED. You can only delete a draft invoice (you cannot delete a published invoice, including one that is scheduled for processing).",
+        "Anchor": "#delete-invoice",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InvoiceGet",
+        "Name": "Get invoice",
+        "Description": "Retrieves an invoice by invoice ID.",
+        "Anchor": "#get-invoice",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InvoiceList",
+        "Name": "List invoices",
+        "Description": "Returns a list of invoices for a given location.",
+        "Anchor": "#list-invoices",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InvoicePublish",
+        "Name": "Publish invoice",
+        "Description": "Publishes the specified draft invoice. After an invoice is published, Square follows up based on the invoice configuration. For example, Square sends the invoice to the customer's email address, charges the customer's card on file, or does nothing. Square also makes the invoice available on a Square-hosted invoice page.",
+        "Anchor": "#publish-invoice",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InvoiceSearch",
+        "Name": "Search invoices",
+        "Description": "Searches for invoices from a location specified in the filter.",
+        "Anchor": "#search-invoices",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InvoiceUpdate",
+        "Name": "Update invoice",
+        "Description": "Updates an invoice by modifying fields, clearing fields, or both.",
+        "Anchor": "#update-invoice",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrderBatchRetrieve",
+        "Name": "Batch retrieve orders",
+        "Description": "Retrieves a set of orders by their IDs. If a given order ID does not exist, the ID is ignored instead of generating an error.",
+        "Anchor": "#batch-retrieve-orders",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrderCalculate",
+        "Name": "Calculate order (Beta)",
+        "Description": "Enables applications to preview order pricing without creating an order.",
+        "Anchor": "#calculate-order-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrderClone",
+        "Name": "Clone order (Beta)",
+        "Description": "Creates a new order, in the DRAFT state, by duplicating an existing order. The newly created order has only the core fields (such as line items, taxes, and discounts) copied from the original order.",
+        "Anchor": "#clone-order-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrderCreate",
+        "Name": "Create order",
+        "Description": "Creates a new order that can include information about products for purchase and settings to apply to the purchase.",
+        "Anchor": "#create-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrderPay",
+        "Name": "Pay order (Beta)",
+        "Description": "Pay for an order using one or more approved payments or settle an order with a total of 0. The total of the payment_ids listed in the request must be equal to the order total. Orders with a total amount of 0 can be marked as paid by specifying an empty array of payment_ids in the request.",
+        "Anchor": "#pay-order-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrderRetrieve",
+        "Name": "Retrieve order",
+        "Description": "Retrieves an Order by ID.",
+        "Anchor": "#retrieve-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrderSearch",
+        "Name": "Search orders",
+        "Description": "Search all orders for one or more locations. Orders include all sales, returns, and exchanges regardless of how or when they entered the Square ecosystem (such as Point of Sale, Invoices, and Connect APIs).",
+        "Anchor": "#search-orders",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrderUpdate",
+        "Name": "Update order (Beta)",
+        "Description": "Updates an open order by adding, replacing, or deleting fields. Orders with a COMPLETED or CANCELED state cannot be updated.",
+        "Anchor": "#update-order-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PaymentCancel",
+        "Name": "Cancel payment",
+        "Description": "Cancels (voids) a payment. You can use this endpoint to cancel a payment with the APPROVED status.",
+        "Anchor": "#cancel-payment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PaymentCancelIdempotency",
+        "Name": "Cancel payment by idempotency key",
+        "Description": "Cancels (voids) a payment identified by the idempotency key that is specified in the request. Use this method when the status of a CreatePayment request is unknown (for example, after you send a CreatePayment request, a network error occurs and you do not get a response). In this case, you can direct Square to cancel the payment using this endpoint. In the request, you provide the same idempotency key that you provided in your CreatePayment request that you want to cancel. After canceling the payment, you can submit your CreatePayment request again. Note that if no payment with the specified idempotency key is found, no action is taken and the endpoint returns successfully.",
+        "Anchor": "#cancel-payment-by-idempotency-key",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PaymentComplete",
+        "Name": "Complete payment",
+        "Description": "Completes (captures) a payment. By default, payments are set to complete immediately after they are created.",
+        "Anchor": "#complete-payment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PaymentCreate",
+        "Name": "Create payment",
+        "Description": "Creates a payment using the provided source. You can use this endpoint to charge a card (credit/debit card or Square gift card) or record a payment that the seller received outside of Square (cash payment from a buyer or a payment that an external entity processed on behalf of the seller).",
+        "Anchor": "#create-payment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PaymentGet",
+        "Name": "Get payment",
+        "Description": "Retrieves details for a specific payment.",
+        "Anchor": "#get-payment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PaymentList",
+        "Name": "List payments",
+        "Description": "Retrieves a list of payments taken by the account making the request. Results are eventually consistent, and new payments or changes to payments might take several seconds to appear.",
+        "Anchor": "#list-payments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PaymentUpdate",
+        "Name": "Update payment",
+        "Description": "Updates a payment with the APPROVED status. You can update the amount_money and tip_money using this endpoint.",
+        "Anchor": "#update-payment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RefundGet",
+        "Name": "Get payment refund",
+        "Description": "Retrieves a specific refund using the refund_id.",
+        "Anchor": "#get-payment-refund",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RefundList",
+        "Name": "List payment refunds",
+        "Description": "Retrieves a list of refunds for the account making the request. Results are eventually consistent, and new refunds or changes to refunds might take several seconds to appear.",
+        "Anchor": "#list-payment-refunds",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RefundPayment",
+        "Name": "Refund payment",
+        "Description": "Refunds a payment. You can refund the entire payment amount or a portion of it. You can use this endpoint to refund a card payment or record a refund of a cash or external payment.",
+        "Anchor": "#refund-payment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SubscriptionCancel",
+        "Name": "Cancel subscription",
+        "Description": "Sets the canceled_date field to the end of the active billing period. After this date, the status changes from ACTIVE to CANCELED.",
+        "Anchor": "#cancel-subscription",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SubscriptionCreate",
+        "Name": "Create subscription",
+        "Description": "Creates a subscription for a customer to a subscription plan. If you provide a card on file in the request, Square charges the card for the subscription. Otherwise, Square bills an invoice to the customer's email address. The subscription starts immediately, unless the request includes the optional start_date. Each individual subscription is associated with a particular location.",
+        "Anchor": "#create-subscription",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SubscriptionListEvents",
+        "Name": "List subscription events",
+        "Description": "Lists all events for a specific subscription.",
+        "Anchor": "#list-subscription-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SubscriptionResume",
+        "Name": "Resume subscription",
+        "Description": "Resumes a deactivated subscription.",
+        "Anchor": "#resume-subscription",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SubscriptionRetrieve",
+        "Name": "Retrieve subscription",
+        "Description": "Retrieves a subscription.",
+        "Anchor": "#retrieve-subscription",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SubscriptionSearch",
+        "Name": "Search subscriptions",
+        "Description": "Searches for subscriptions. Results are ordered chronologically by subscription creation date. If the request specifies more than one location ID, the endpoint orders the result by location ID, and then by creation date within each location. If no locations are given in the query, all locations are searched.",
+        "Anchor": "#search-subscriptions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SubscriptionUpdate",
+        "Name": "Update subscription",
+        "Description": "Updates a subscription. You can set, modify, and clear the subscription field values.",
+        "Anchor": "#update-subscription",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TerminalCancelCheckout",
+        "Name": "Cancel terminal checkout",
+        "Description": "Cancels a Terminal checkout request if the status of the request permits it.",
+        "Anchor": "#cancel-terminal-checkout",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TerminalCancelRefund",
+        "Name": "Cancel terminal refund",
+        "Description": "Cancels an Interac Terminal refund request by refund request ID if the status of the request permits it.",
+        "Anchor": "#cancel-terminal-refund",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TerminalCreateCheckout",
+        "Name": "Create terminal checkout",
+        "Description": "Creates a Terminal checkout request and sends it to the specified device to take a payment for the requested amount.",
+        "Anchor": "#create-terminal-checkout",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TerminalCreateRefund",
+        "Name": "Create terminal refund",
+        "Description": "Creates a request to refund an Interac payment completed on a Square Terminal.",
+        "Anchor": "#create-terminal-refund",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TerminalGetCheckout",
+        "Name": "Get terminal checkout",
+        "Description": "Retrieves a Terminal checkout request by checkout_id.",
+        "Anchor": "#get-terminal-checkout",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TerminalGetRefund",
+        "Name": "Get terminal refund",
+        "Description": "Retrieves an Interac Terminal refund object by ID.",
+        "Anchor": "#get-terminal-refund",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TerminalSearchCheckouts",
+        "Name": "Search terminal checkouts",
+        "Description": "Retrieves a filtered list of Terminal checkout requests created by the account making the request.",
+        "Anchor": "#search-terminal-checkouts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TerminalSearchRefunds",
+        "Name": "Search terminal refunds",
+        "Description": "Retrieves a filtered list of Interac Terminal refund requests created by the seller making the request.",
+        "Anchor": "#search-terminal-refunds",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "staffbase",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../staffbase/",
     "Actions": [
@@ -50394,6 +52036,27 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Comment_Task",
+        "Name": "Add comment, report issue, resolve issue on a task",
+        "Description": "task deadline, in date-time format",
+        "Anchor": "#add-comment,-report-issue,-resolve-issue-on-a-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Completed_One_Off_Task",
+        "Name": "Complete One Off Task",
+        "Description": "Complete one off task",
+        "Anchor": "#complete-one-off-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Completed_Process_Task",
+        "Name": "Complete process task",
+        "Description": "Complete process task",
+        "Anchor": "#complete-process-task",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Create_Run",
         "Name": "Launch a Process",
         "Description": "Launch a process using a blueprint",
@@ -50408,10 +52071,52 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Edit_Step_Type",
+        "Name": "Edit step type",
+        "Description": "Edit step type",
+        "Anchor": "#edit-step-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Edit_Task_Deadline",
+        "Name": "Edit task deadline",
+        "Description": "Edit deadline of a task",
+        "Anchor": "#edit-task-deadline",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Invite_User_To_Organization",
         "Name": "Invite a new member to your organization",
         "Description": "Invite a new member to your organization",
         "Anchor": "#invite-a-new-member-to-your-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Remove_Assignee",
+        "Name": "Remove assignee",
+        "Description": "Remove assignee of a task",
+        "Anchor": "#remove-assignee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Remove_Guest",
+        "Name": "Remove guest assigned",
+        "Description": "Remove guest of a task",
+        "Anchor": "#remove-guest-assigned",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Reopen_One_Off_Task",
+        "Name": "Reopen One Off Task",
+        "Description": "Reopen one off task",
+        "Anchor": "#reopen-one-off-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Reopen_Process_Task",
+        "Name": "Reopen process Task",
+        "Description": "Reopen process task",
+        "Anchor": "#reopen-process-task",
         "IsDeprecated": false
       }
     ]
@@ -53312,10 +55017,94 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ConsumeInventory",
+        "Name": "Consume Inventory",
+        "Description": "Consume Inventory",
+        "Anchor": "#consume-inventory",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateInboundRequest",
+        "Name": "Create Inbound Request",
+        "Description": "Create Inbound Request",
+        "Anchor": "#create-inbound-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateInventoryAdjustment",
+        "Name": "Create Inventory Adjustment",
+        "Description": "Create Inventory Adjustment",
+        "Anchor": "#create-inventory-adjustment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateInventoryRequest",
+        "Name": "Create Inventory Request",
+        "Description": "Create Inventory Request",
+        "Anchor": "#create-inventory-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateItem",
+        "Name": "Create New Item",
+        "Description": "This method creates new item",
+        "Anchor": "#create-new-item",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateLocation",
+        "Name": "Create Location",
+        "Description": "Create Location (Bin)",
+        "Anchor": "#create-location",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreatePurchaseOrder",
+        "Name": "Create or Update Purchase Order",
+        "Description": "This method creates or updates the Purchase Order.",
+        "Anchor": "#create-or-update-purchase-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateSite",
+        "Name": "Create Site",
+        "Description": "This action creates a new warehouse in the system.",
+        "Anchor": "#create-site",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateUpdateManufacturingOrder",
+        "Name": "Create or Update Manufacturing Order",
+        "Description": "This method creates or updates manufacturing order.",
+        "Anchor": "#create-or-update-manufacturing-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateUpdateSalesOrder",
+        "Name": "Create Update Sales Order",
+        "Description": "Create or Update Sales Order",
+        "Anchor": "#create-update-sales-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateUpdateTransferOrder",
+        "Name": "Create Update Transfer Order",
+        "Description": "Create Update Transfer Order",
+        "Anchor": "#create-update-transfer-order",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateUpdateWorkOrder",
         "Name": "Create or update work order",
         "Description": "The method creates or updates work order (key is OrderNumber)",
         "Anchor": "#create-or-update-work-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteInboundRequest",
+        "Name": "Delete Inbound Request",
+        "Description": "This API will delete purchase orders from WithoutWire. Receiving must not have been started, and the status needs to be either 'Unassigned', or 'Waiting to be Received'. This call should be used when a mistake is found, or the purchase order needs to be modified.",
+        "Anchor": "#delete-inbound-request",
         "IsDeprecated": false
       },
       {
@@ -53326,10 +55115,80 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetBarcodeInfo",
+        "Name": "Get Barcode Info",
+        "Description": "This is used to retrieve the matching entity types for a provided barcode.",
+        "Anchor": "#get-barcode-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetInboundRequest",
+        "Name": "Get Inbound Request",
+        "Description": "This method allows the exporting of purchase orders by a combination of filters. These filters include begin and end date, receiving status code, item number, line receipt status, purchase order number and purchase order type. The Purchase Order Export Object returns a list of completed order information.",
+        "Anchor": "#get-inbound-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetInventory",
+        "Name": "Get Inventory",
+        "Description": "Returns an array of inventory items by specified parameters",
+        "Anchor": "#get-inventory",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetInventoryAggregate",
+        "Name": "Get Inventory Aggregate",
+        "Description": "Get Inventory Aggregate",
+        "Anchor": "#get-inventory-aggregate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetManufacturingOrder",
+        "Name": "Get Manufacturing Orders",
+        "Description": "This method returns array of manufacturing orders, filtered by sent parameters",
+        "Anchor": "#get-manufacturing-orders",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPurchaseOrder",
+        "Name": "This action returns Purchase Orders filtered by parameters",
+        "Description": "This method allows the exporting of purchase orders by a combination of filters. These filters include begin and end date, receiving status code, item number, line receipt status, purchase order number and purchase order type. The Purchase Order Export Object returns a list of completed order information.",
+        "Anchor": "#this-action-returns-purchase-orders-filtered-by-parameters",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSalesOrders",
+        "Name": "Get Sales Orders",
+        "Description": "This method returns array of sales orders, filtered by sent parameters",
+        "Anchor": "#get-sales-orders",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTransferOrders",
+        "Name": "Get Transfer Orders",
+        "Description": "This method returns array of transfer orders, filtered by sent parameters",
+        "Anchor": "#get-transfer-orders",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetWorkOrders",
         "Name": "Get work orders",
-        "Description": "Returns an array of work orders by status or by number",
+        "Description": "Returns an array of work orders, filtered by sent parameters",
         "Anchor": "#get-work-orders",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InboundComplete",
+        "Name": "Inbound Complete",
+        "Description": "This API method used to set purchase orders to complete in WithoutWire. The order status is set to 'Complete'. Additional fields updated are: ExportDate on the purchase order object is set to the current date/time and the CompletedDate is set to the current date/time. Finally, the receiving assignments will be removed.  An error is returned if the order is in “Receiving in Progress”.",
+        "Anchor": "#inbound-complete",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReceiptComplete",
+        "Name": "Receipt Complete",
+        "Description": "Receipt Complete",
+        "Anchor": "#receipt-complete",
         "IsDeprecated": false
       },
       {
@@ -53342,8 +55201,15 @@
       {
         "OperationId": "SetOrderStatus",
         "Name": "Set order status",
-        "Description": "This API method used to set the status on orders in WithoutWire.  Parameters include:  orderStatusCode and warehouseName",
+        "Description": "This API method used to set the status on orders in WithoutWire. Parameters include: OrderStatusCode and warehouseName",
         "Anchor": "#set-order-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SingleScanInventoryLookup",
+        "Name": "Single Scan Inventory Lookup",
+        "Description": "This method returns list of items on a LP or in DropShip box.",
+        "Anchor": "#single-scan-inventory-lookup",
         "IsDeprecated": false
       }
     ]

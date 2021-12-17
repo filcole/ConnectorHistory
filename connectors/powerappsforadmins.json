@@ -73,6 +73,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Get-PowerAppConditionalAccess",
+      "Name": "Get PowerApp Conditional Access",
+      "Description": "Gets a PowerApp's conditional access properties.",
+      "Anchor": "#get-powerapp-conditional-access",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Remove-AdminApp",
       "Name": "Remove App as Admin",
       "Description": "Deletes a PowerApp.",
@@ -91,6 +98,20 @@
       "Name": "Set App Owner",
       "Description": "Updates a PowerApp's owner role, and specifies the old owner's new role.",
       "Anchor": "#set-app-owner",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Set-AppQuarantineState",
+      "Name": "Set App Quarantine State",
+      "Description": "Updates a PowerApp's quarantine state.",
+      "Anchor": "#set-app-quarantine-state",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Set-PowerAppConditionalAccess",
+      "Name": "Set PowerApp Conditional Access",
+      "Description": "Updates a PowerApp's conditional access.",
+      "Anchor": "#set-powerapp-conditional-access",
       "IsDeprecated": false
     }
   ]

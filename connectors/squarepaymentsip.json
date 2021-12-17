@@ -1,0 +1,615 @@
+{
+  "UniqueName": "squarepaymentsip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../squarepaymentsip/",
+  "Actions": [
+    {
+      "OperationId": "ApplePayRegister",
+      "Name": "Register domain for Apple Pay",
+      "Description": "Activates a domain for use with Apple Pay on the Web and Square. A validation is performed on this domain by Apple to ensure that it is properly set up as an Apple Pay enabled domain.",
+      "Anchor": "#register-domain-for-apple-pay",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CardCreate",
+      "Name": "Create card",
+      "Description": "Adds a card on file to an existing merchant.",
+      "Anchor": "#create-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CardDisable",
+      "Name": "Disable card",
+      "Description": "Disables the card, preventing any further updates or charges. Disabling an already disabled card is allowed but has no effect.",
+      "Anchor": "#disable-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CardList",
+      "Name": "List cards",
+      "Description": "Retrieves a list of cards owned by the account making the request.",
+      "Anchor": "#list-cards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CardRetrieve",
+      "Name": "Retrieve card",
+      "Description": "Retrieves details for a specific Card.",
+      "Anchor": "#retrieve-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CatalogBatchDelete",
+      "Name": "Batch delete catalog objects",
+      "Description": "Deletes a set of CatalogItems based on the provided list of target IDs and returns a set of successfully deleted IDs in the response.",
+      "Anchor": "#batch-delete-catalog-objects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CatalogBatchRetrieve",
+      "Name": "Batch retrieve catalog objects",
+      "Description": "Returns a set of objects based on the provided ID. Each CatalogItem returned in the set includes all of its child information including: all of its CatalogItemVariation objects, references to its CatalogModifierList objects, and the ids of any CatalogTax objects that apply to it.",
+      "Anchor": "#batch-retrieve-catalog-objects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CatalogBatchUpsert",
+      "Name": "Batch upsert catalog objects",
+      "Description": "Creates or updates up to 10,000 target objects based on the provided list of objects. The target objects are grouped into batches and each batch is inserted/updated in an all-or-nothing manner. If an object within a batch is malformed in some way, or violates a database constraint, the entire batch containing that item will be disregarded. However, other batches in the same request may still succeed. Each batch may contain up to 1,000 objects, and batches will be processed in order as long as the total object count for the request (items, variations, modifier lists, discounts, and taxes) is no more than 10,000.",
+      "Anchor": "#batch-upsert-catalog-objects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CatalogDelete",
+      "Name": "Delete catalog object",
+      "Description": "Deletes a single CatalogObject based on the provided ID and returns the set of successfully deleted IDs in the response. Deletion is a cascading event such that all children of the targeted object are also deleted. For example, deleting a CatalogItem will also delete all of its CatalogItemVariation children.",
+      "Anchor": "#delete-catalog-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CatalogInfo",
+      "Name": "Catalog info",
+      "Description": "Retrieves information about the Square Catalog API, such as batch size limits that can be used by the BatchUpsertCatalogObjects endpoint.",
+      "Anchor": "#catalog-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CatalogList",
+      "Name": "List catalog",
+      "Description": "Returns a list of CatalogObjects that includes all objects of a set of desired types (for example, all CatalogItem and CatalogTax objects) in the catalog. ListCatalog does not return deleted catalog items.",
+      "Anchor": "#list-catalog",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CatalogRetrieve",
+      "Name": "Retrieve catalog object",
+      "Description": "Returns a single CatalogItem as a CatalogObject based on the provided ID. The returned object includes all of the relevant CatalogItem information including: CatalogItemVariation children, references to its CatalogModifierList objects, and the ids of any CatalogTax objects that apply to it.",
+      "Anchor": "#retrieve-catalog-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CatalogSearch",
+      "Name": "Search catalog objects",
+      "Description": "Searches for CatalogObject of any type by matching supported search attribute values, excluding custom attribute values on items or item variations, against one or more of the specified query filters.",
+      "Anchor": "#search-catalog-objects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CatalogUpdateModifier",
+      "Name": "Update item modifier lists",
+      "Description": "Updates the CatalogModifierList objects that apply to the targeted CatalogItem without having to perform an upsert on the entire item.",
+      "Anchor": "#update-item-modifier-lists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CatalogUpdateTaxes",
+      "Name": "Update item taxes",
+      "Description": "Updates the CatalogTax objects that apply to the targeted CatalogItem without having to perform an upsert on the entire item.",
+      "Anchor": "#update-item-taxes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CatalogUpsert",
+      "Name": "Upsert catalog object",
+      "Description": "Creates or updates the target CatalogObject.",
+      "Anchor": "#upsert-catalog-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerAddGroup",
+      "Name": "Add group to customer",
+      "Description": "Adds a group membership to a customer. The customer is identified by the customer_id value and the customer group is identified by the group_id value.",
+      "Anchor": "#add-group-to-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerCreate",
+      "Name": "Create customer",
+      "Description": "Creates a new customer for a business.",
+      "Anchor": "#create-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerDelete",
+      "Name": "Delete customer",
+      "Description": "Deletes a customer profile from a business. This operation also unlinks any associated cards on file.",
+      "Anchor": "#delete-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerGroupDelete",
+      "Name": "Delete customer group",
+      "Description": "Deletes a customer group as identified by the group_id value.",
+      "Anchor": "#delete-customer-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerGroupList",
+      "Name": "List customer groups",
+      "Description": "Retrieves the list of customer groups of a business.",
+      "Anchor": "#list-customer-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerGroupRetrieve",
+      "Name": "Retrieve customer group",
+      "Description": "Retrieves a specific customer group.",
+      "Anchor": "#retrieve-customer-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerGroupUpdate",
+      "Name": "Update customer group",
+      "Description": "Updates a customer group.",
+      "Anchor": "#update-customer-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerList",
+      "Name": "List customers",
+      "Description": "Lists customer profiles associated with a Square account. Under normal operating conditions, newly created or updated customer profiles become available for the listing operation in well under 30 seconds. Occasionally, propagation of the new or updated profiles can take closer to one minute or longer, especially during network incidents and outages.",
+      "Anchor": "#list-customers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerRemoveGroup",
+      "Name": "Remove group from customer",
+      "Description": "Removes a group membership from a customer. The customer is identified by the customer_id value and the customer group is identified by the group_id value.",
+      "Anchor": "#remove-group-from-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerRetrieve",
+      "Name": "Retrieve customer",
+      "Description": "Returns details for a single customer.",
+      "Anchor": "#retrieve-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerSearch",
+      "Name": "Search customers",
+      "Description": "Searches the customer profiles associated with a Square account using a supported query filter.  Calling SearchCustomers without any explicit query filter returns all customer profiles ordered alphabetically based on given_name and family_name.",
+      "Anchor": "#search-customers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerSegmentList",
+      "Name": "List customer segments",
+      "Description": "Retrieves the list of customer segments of a business.",
+      "Anchor": "#list-customer-segments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerSegmentRetrieve",
+      "Name": "Retrieve customer segment",
+      "Description": "Retrieves a specific customer segment.",
+      "Anchor": "#retrieve-customer-segment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomerUpdate",
+      "Name": "Update customer",
+      "Description": "Updates a customer profile. To change an attribute, specify the new value. To remove an attribute, specify the value as an empty string or empty object.",
+      "Anchor": "#update-customer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomGroupCreate",
+      "Name": "Create customer group",
+      "Description": "Creates a new customer group for a business.",
+      "Anchor": "#create-customer-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DisputeAccept",
+      "Name": "Accept dispute",
+      "Description": "Accepts the loss on a dispute. Square returns the disputed amount to the cardholder and updates the dispute state to ACCEPTED. Square debits the disputed amount from the seller’s Square account. If the Square account does not have sufficient funds, Square debits the associated bank account.",
+      "Anchor": "#accept-dispute",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DisputeCreateEvidenceText",
+      "Name": "Create dispute evidence text",
+      "Description": "Uploads text to use as evidence for a dispute challenge.",
+      "Anchor": "#create-dispute-evidence-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DisputeDeleteEvidence",
+      "Name": "Delete dispute evidence",
+      "Description": "Removes specified evidence from a dispute.",
+      "Anchor": "#delete-dispute-evidence",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DisputeList",
+      "Name": "List disputes",
+      "Description": "Returns a list of disputes associated with a particular account.",
+      "Anchor": "#list-disputes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DisputeListEvidence",
+      "Name": "List dispute evidence",
+      "Description": "Returns a list of evidence associated with a dispute.",
+      "Anchor": "#list-dispute-evidence",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DisputeRetrieve",
+      "Name": "Retrieve dispute",
+      "Description": "Returns details about a specific dispute.",
+      "Anchor": "#retrieve-dispute",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DisputeRetrieveEvidence",
+      "Name": "Retrieve dispute evidence",
+      "Description": "Returns the evidence metadata specified by the evidence ID in the request URL path. You must maintain a copy of the evidence you upload if you want to reference it later.  You cannot download the evidence after you upload it.",
+      "Anchor": "#retrieve-dispute-evidence",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EvidenceSubmit",
+      "Name": "Submit evidence",
+      "Description": "Submits evidence to the cardholder's bank. Before submitting evidence, Square compiles all available evidence. This includes evidence uploaded using the CreateDisputeEvidenceFile and CreateDisputeEvidenceText endpoints and evidence automatically provided by Square, when available.",
+      "Anchor": "#submit-evidence",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InventoryBatchChange",
+      "Name": "Batch change inventory",
+      "Description": "Applies adjustments and counts to the provided item quantities. On success: returns the current calculated counts for all objects referenced in the request.",
+      "Anchor": "#batch-change-inventory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InventoryBatchRetrieveChanges",
+      "Name": "Batch retrieve inventory changes",
+      "Description": "Returns historical physical counts and adjustments based on the provided filter criteria.",
+      "Anchor": "#batch-retrieve-inventory-changes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InventoryBatchRetrieveCounts",
+      "Name": "Batch retrieve inventory counts",
+      "Description": "Returns current counts for the provided CatalogObjects at the requested Locations.",
+      "Anchor": "#batch-retrieve-inventory-counts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InventoryRetrieveAdjustment",
+      "Name": "Retrieve inventory adjustment",
+      "Description": "Returns the InventoryAdjustment object with the provided adjustment_id.",
+      "Anchor": "#retrieve-inventory-adjustment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InventoryRetrieveCount",
+      "Name": "Retrieve inventory count",
+      "Description": "Retrieves the current calculated stock count for a given CatalogObject at a given set of Locations.",
+      "Anchor": "#retrieve-inventory-count",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InventoryRetrievePhysicalCount",
+      "Name": "Retrieve inventory physical count",
+      "Description": "Returns the InventoryPhysicalCount object with the provided physical_count_id.",
+      "Anchor": "#retrieve-inventory-physical-count",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InventoryRetrieveTransfer",
+      "Name": "Retrieve inventory transfer (Beta)",
+      "Description": "Returns the InventoryTransfer object with the provided transfer_id.",
+      "Anchor": "#retrieve-inventory-transfer-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvoiceCancel",
+      "Name": "Cancel invoice",
+      "Description": "Cancels an invoice. The seller cannot collect payments for the canceled invoice.",
+      "Anchor": "#cancel-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvoiceCreate",
+      "Name": "Create invoice",
+      "Description": "Creates a draft invoice for an order created using the Orders API. A draft invoice remains in your account and no action is taken. You must publish the invoice before Square can process it (send it to the customer's email address or charge the customer’s card on file).",
+      "Anchor": "#create-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvoiceDelete",
+      "Name": "Delete invoice",
+      "Description": "Deletes the specified invoice. When an invoice is deleted, the associated order status changes to CANCELED. You can only delete a draft invoice (you cannot delete a published invoice, including one that is scheduled for processing).",
+      "Anchor": "#delete-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvoiceGet",
+      "Name": "Get invoice",
+      "Description": "Retrieves an invoice by invoice ID.",
+      "Anchor": "#get-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvoiceList",
+      "Name": "List invoices",
+      "Description": "Returns a list of invoices for a given location.",
+      "Anchor": "#list-invoices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvoicePublish",
+      "Name": "Publish invoice",
+      "Description": "Publishes the specified draft invoice. After an invoice is published, Square follows up based on the invoice configuration. For example, Square sends the invoice to the customer's email address, charges the customer's card on file, or does nothing. Square also makes the invoice available on a Square-hosted invoice page.",
+      "Anchor": "#publish-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvoiceSearch",
+      "Name": "Search invoices",
+      "Description": "Searches for invoices from a location specified in the filter.",
+      "Anchor": "#search-invoices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvoiceUpdate",
+      "Name": "Update invoice",
+      "Description": "Updates an invoice by modifying fields, clearing fields, or both.",
+      "Anchor": "#update-invoice",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrderBatchRetrieve",
+      "Name": "Batch retrieve orders",
+      "Description": "Retrieves a set of orders by their IDs. If a given order ID does not exist, the ID is ignored instead of generating an error.",
+      "Anchor": "#batch-retrieve-orders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrderCalculate",
+      "Name": "Calculate order (Beta)",
+      "Description": "Enables applications to preview order pricing without creating an order.",
+      "Anchor": "#calculate-order-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrderClone",
+      "Name": "Clone order (Beta)",
+      "Description": "Creates a new order, in the DRAFT state, by duplicating an existing order. The newly created order has only the core fields (such as line items, taxes, and discounts) copied from the original order.",
+      "Anchor": "#clone-order-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrderCreate",
+      "Name": "Create order",
+      "Description": "Creates a new order that can include information about products for purchase and settings to apply to the purchase.",
+      "Anchor": "#create-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrderPay",
+      "Name": "Pay order (Beta)",
+      "Description": "Pay for an order using one or more approved payments or settle an order with a total of 0. The total of the payment_ids listed in the request must be equal to the order total. Orders with a total amount of 0 can be marked as paid by specifying an empty array of payment_ids in the request.",
+      "Anchor": "#pay-order-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrderRetrieve",
+      "Name": "Retrieve order",
+      "Description": "Retrieves an Order by ID.",
+      "Anchor": "#retrieve-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrderSearch",
+      "Name": "Search orders",
+      "Description": "Search all orders for one or more locations. Orders include all sales, returns, and exchanges regardless of how or when they entered the Square ecosystem (such as Point of Sale, Invoices, and Connect APIs).",
+      "Anchor": "#search-orders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrderUpdate",
+      "Name": "Update order (Beta)",
+      "Description": "Updates an open order by adding, replacing, or deleting fields. Orders with a COMPLETED or CANCELED state cannot be updated.",
+      "Anchor": "#update-order-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PaymentCancel",
+      "Name": "Cancel payment",
+      "Description": "Cancels (voids) a payment. You can use this endpoint to cancel a payment with the APPROVED status.",
+      "Anchor": "#cancel-payment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PaymentCancelIdempotency",
+      "Name": "Cancel payment by idempotency key",
+      "Description": "Cancels (voids) a payment identified by the idempotency key that is specified in the request. Use this method when the status of a CreatePayment request is unknown (for example, after you send a CreatePayment request, a network error occurs and you do not get a response). In this case, you can direct Square to cancel the payment using this endpoint. In the request, you provide the same idempotency key that you provided in your CreatePayment request that you want to cancel. After canceling the payment, you can submit your CreatePayment request again. Note that if no payment with the specified idempotency key is found, no action is taken and the endpoint returns successfully.",
+      "Anchor": "#cancel-payment-by-idempotency-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PaymentComplete",
+      "Name": "Complete payment",
+      "Description": "Completes (captures) a payment. By default, payments are set to complete immediately after they are created.",
+      "Anchor": "#complete-payment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PaymentCreate",
+      "Name": "Create payment",
+      "Description": "Creates a payment using the provided source. You can use this endpoint to charge a card (credit/debit card or Square gift card) or record a payment that the seller received outside of Square (cash payment from a buyer or a payment that an external entity processed on behalf of the seller).",
+      "Anchor": "#create-payment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PaymentGet",
+      "Name": "Get payment",
+      "Description": "Retrieves details for a specific payment.",
+      "Anchor": "#get-payment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PaymentList",
+      "Name": "List payments",
+      "Description": "Retrieves a list of payments taken by the account making the request. Results are eventually consistent, and new payments or changes to payments might take several seconds to appear.",
+      "Anchor": "#list-payments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PaymentUpdate",
+      "Name": "Update payment",
+      "Description": "Updates a payment with the APPROVED status. You can update the amount_money and tip_money using this endpoint.",
+      "Anchor": "#update-payment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RefundGet",
+      "Name": "Get payment refund",
+      "Description": "Retrieves a specific refund using the refund_id.",
+      "Anchor": "#get-payment-refund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RefundList",
+      "Name": "List payment refunds",
+      "Description": "Retrieves a list of refunds for the account making the request. Results are eventually consistent, and new refunds or changes to refunds might take several seconds to appear.",
+      "Anchor": "#list-payment-refunds",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RefundPayment",
+      "Name": "Refund payment",
+      "Description": "Refunds a payment. You can refund the entire payment amount or a portion of it. You can use this endpoint to refund a card payment or record a refund of a cash or external payment.",
+      "Anchor": "#refund-payment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscriptionCancel",
+      "Name": "Cancel subscription",
+      "Description": "Sets the canceled_date field to the end of the active billing period. After this date, the status changes from ACTIVE to CANCELED.",
+      "Anchor": "#cancel-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscriptionCreate",
+      "Name": "Create subscription",
+      "Description": "Creates a subscription for a customer to a subscription plan. If you provide a card on file in the request, Square charges the card for the subscription. Otherwise, Square bills an invoice to the customer's email address. The subscription starts immediately, unless the request includes the optional start_date. Each individual subscription is associated with a particular location.",
+      "Anchor": "#create-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscriptionListEvents",
+      "Name": "List subscription events",
+      "Description": "Lists all events for a specific subscription.",
+      "Anchor": "#list-subscription-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscriptionResume",
+      "Name": "Resume subscription",
+      "Description": "Resumes a deactivated subscription.",
+      "Anchor": "#resume-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscriptionRetrieve",
+      "Name": "Retrieve subscription",
+      "Description": "Retrieves a subscription.",
+      "Anchor": "#retrieve-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscriptionSearch",
+      "Name": "Search subscriptions",
+      "Description": "Searches for subscriptions. Results are ordered chronologically by subscription creation date. If the request specifies more than one location ID, the endpoint orders the result by location ID, and then by creation date within each location. If no locations are given in the query, all locations are searched.",
+      "Anchor": "#search-subscriptions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscriptionUpdate",
+      "Name": "Update subscription",
+      "Description": "Updates a subscription. You can set, modify, and clear the subscription field values.",
+      "Anchor": "#update-subscription",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TerminalCancelCheckout",
+      "Name": "Cancel terminal checkout",
+      "Description": "Cancels a Terminal checkout request if the status of the request permits it.",
+      "Anchor": "#cancel-terminal-checkout",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TerminalCancelRefund",
+      "Name": "Cancel terminal refund",
+      "Description": "Cancels an Interac Terminal refund request by refund request ID if the status of the request permits it.",
+      "Anchor": "#cancel-terminal-refund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TerminalCreateCheckout",
+      "Name": "Create terminal checkout",
+      "Description": "Creates a Terminal checkout request and sends it to the specified device to take a payment for the requested amount.",
+      "Anchor": "#create-terminal-checkout",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TerminalCreateRefund",
+      "Name": "Create terminal refund",
+      "Description": "Creates a request to refund an Interac payment completed on a Square Terminal.",
+      "Anchor": "#create-terminal-refund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TerminalGetCheckout",
+      "Name": "Get terminal checkout",
+      "Description": "Retrieves a Terminal checkout request by checkout_id.",
+      "Anchor": "#get-terminal-checkout",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TerminalGetRefund",
+      "Name": "Get terminal refund",
+      "Description": "Retrieves an Interac Terminal refund object by ID.",
+      "Anchor": "#get-terminal-refund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TerminalSearchCheckouts",
+      "Name": "Search terminal checkouts",
+      "Description": "Retrieves a filtered list of Terminal checkout requests created by the account making the request.",
+      "Anchor": "#search-terminal-checkouts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TerminalSearchRefunds",
+      "Name": "Search terminal refunds",
+      "Description": "Retrieves a filtered list of Interac Terminal refund requests created by the seller making the request.",
+      "Anchor": "#search-terminal-refunds",
+      "IsDeprecated": false
+    }
+  ]
+}

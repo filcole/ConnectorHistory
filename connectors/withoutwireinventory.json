@@ -10,10 +10,94 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ConsumeInventory",
+      "Name": "Consume Inventory",
+      "Description": "Consume Inventory",
+      "Anchor": "#consume-inventory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateInboundRequest",
+      "Name": "Create Inbound Request",
+      "Description": "Create Inbound Request",
+      "Anchor": "#create-inbound-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateInventoryAdjustment",
+      "Name": "Create Inventory Adjustment",
+      "Description": "Create Inventory Adjustment",
+      "Anchor": "#create-inventory-adjustment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateInventoryRequest",
+      "Name": "Create Inventory Request",
+      "Description": "Create Inventory Request",
+      "Anchor": "#create-inventory-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateItem",
+      "Name": "Create New Item",
+      "Description": "This method creates new item",
+      "Anchor": "#create-new-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateLocation",
+      "Name": "Create Location",
+      "Description": "Create Location (Bin)",
+      "Anchor": "#create-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatePurchaseOrder",
+      "Name": "Create or Update Purchase Order",
+      "Description": "This method creates or updates the Purchase Order.",
+      "Anchor": "#create-or-update-purchase-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateSite",
+      "Name": "Create Site",
+      "Description": "This action creates a new warehouse in the system.",
+      "Anchor": "#create-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUpdateManufacturingOrder",
+      "Name": "Create or Update Manufacturing Order",
+      "Description": "This method creates or updates manufacturing order.",
+      "Anchor": "#create-or-update-manufacturing-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUpdateSalesOrder",
+      "Name": "Create Update Sales Order",
+      "Description": "Create or Update Sales Order",
+      "Anchor": "#create-update-sales-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUpdateTransferOrder",
+      "Name": "Create Update Transfer Order",
+      "Description": "Create Update Transfer Order",
+      "Anchor": "#create-update-transfer-order",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateUpdateWorkOrder",
       "Name": "Create or update work order",
       "Description": "The method creates or updates work order (key is OrderNumber)",
       "Anchor": "#create-or-update-work-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteInboundRequest",
+      "Name": "Delete Inbound Request",
+      "Description": "This API will delete purchase orders from WithoutWire. Receiving must not have been started, and the status needs to be either 'Unassigned', or 'Waiting to be Received'. This call should be used when a mistake is found, or the purchase order needs to be modified.",
+      "Anchor": "#delete-inbound-request",
       "IsDeprecated": false
     },
     {
@@ -24,10 +108,80 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetBarcodeInfo",
+      "Name": "Get Barcode Info",
+      "Description": "This is used to retrieve the matching entity types for a provided barcode.",
+      "Anchor": "#get-barcode-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInboundRequest",
+      "Name": "Get Inbound Request",
+      "Description": "This method allows the exporting of purchase orders by a combination of filters. These filters include begin and end date, receiving status code, item number, line receipt status, purchase order number and purchase order type. The Purchase Order Export Object returns a list of completed order information.",
+      "Anchor": "#get-inbound-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInventory",
+      "Name": "Get Inventory",
+      "Description": "Returns an array of inventory items by specified parameters",
+      "Anchor": "#get-inventory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInventoryAggregate",
+      "Name": "Get Inventory Aggregate",
+      "Description": "Get Inventory Aggregate",
+      "Anchor": "#get-inventory-aggregate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetManufacturingOrder",
+      "Name": "Get Manufacturing Orders",
+      "Description": "This method returns array of manufacturing orders, filtered by sent parameters",
+      "Anchor": "#get-manufacturing-orders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPurchaseOrder",
+      "Name": "This action returns Purchase Orders filtered by parameters",
+      "Description": "This method allows the exporting of purchase orders by a combination of filters. These filters include begin and end date, receiving status code, item number, line receipt status, purchase order number and purchase order type. The Purchase Order Export Object returns a list of completed order information.",
+      "Anchor": "#this-action-returns-purchase-orders-filtered-by-parameters",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSalesOrders",
+      "Name": "Get Sales Orders",
+      "Description": "This method returns array of sales orders, filtered by sent parameters",
+      "Anchor": "#get-sales-orders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTransferOrders",
+      "Name": "Get Transfer Orders",
+      "Description": "This method returns array of transfer orders, filtered by sent parameters",
+      "Anchor": "#get-transfer-orders",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetWorkOrders",
       "Name": "Get work orders",
-      "Description": "Returns an array of work orders by status or by number",
+      "Description": "Returns an array of work orders, filtered by sent parameters",
       "Anchor": "#get-work-orders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InboundComplete",
+      "Name": "Inbound Complete",
+      "Description": "This API method used to set purchase orders to complete in WithoutWire. The order status is set to 'Complete'. Additional fields updated are: ExportDate on the purchase order object is set to the current date/time and the CompletedDate is set to the current date/time. Finally, the receiving assignments will be removed.  An error is returned if the order is in “Receiving in Progress”.",
+      "Anchor": "#inbound-complete",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReceiptComplete",
+      "Name": "Receipt Complete",
+      "Description": "Receipt Complete",
+      "Anchor": "#receipt-complete",
       "IsDeprecated": false
     },
     {
@@ -40,8 +194,15 @@
     {
       "OperationId": "SetOrderStatus",
       "Name": "Set order status",
-      "Description": "This API method used to set the status on orders in WithoutWire.  Parameters include:  orderStatusCode and warehouseName",
+      "Description": "This API method used to set the status on orders in WithoutWire. Parameters include: OrderStatusCode and warehouseName",
       "Anchor": "#set-order-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SingleScanInventoryLookup",
+      "Name": "Single Scan Inventory Lookup",
+      "Description": "This method returns list of items on a LP or in DropShip box.",
+      "Anchor": "#single-scan-inventory-lookup",
       "IsDeprecated": false
     }
   ]
