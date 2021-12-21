@@ -1,0 +1,27 @@
+{
+  "UniqueName": "zoommeetingsip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zoommeetingsip/",
+  "Actions": [
+    {
+      "OperationId": "CreateMeeting",
+      "Name": "Create Meeting",
+      "Description": "For Creating Meetings",
+      "Anchor": "#create-meeting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMeetings",
+      "Name": "Get Meetings",
+      "Description": "Gives the Upcoming Meetings",
+      "Anchor": "#get-meetings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MeetingDetails",
+      "Name": "Meeting Details",
+      "Description": "For Selected Meeting you will get the Details",
+      "Anchor": "#meeting-details",
+      "IsDeprecated": false
+    }
+  ]
+}

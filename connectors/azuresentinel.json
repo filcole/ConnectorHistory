@@ -171,10 +171,52 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Watchlist_Delete",
+      "Name": "Watchlists - Deletes a watchlist",
+      "Description": "Watchlists - Deletes a watchlist",
+      "Anchor": "#watchlists---deletes-a-watchlist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Watchlist_Get",
+      "Name": "Watchlists - Gets a watchlist",
+      "Description": "Watchlists - Gets a watchlist",
+      "Anchor": "#watchlists---gets-a-watchlist",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "WatchlistItems_Create",
       "Name": "Watchlists - Add a new watchlist item",
       "Description": "Watchlists - Add a new watchlist item",
       "Anchor": "#watchlists---add-a-new-watchlist-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WatchlistItems_Delete",
+      "Name": "Watchlists - Deletes a watchlist item",
+      "Description": "Watchlists - Deletes a watchlist item",
+      "Anchor": "#watchlists---deletes-a-watchlist-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WatchlistItems_Get",
+      "Name": "Watchlists - Gets a watchlist item",
+      "Description": "Watchlists - Gets a watchlist item",
+      "Anchor": "#watchlists---gets-a-watchlist-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WatchlistItems_GetAll",
+      "Name": "Watchlists - Gets all watchlist without watchlist items",
+      "Description": "Watchlists - Gets all watchlist without watchlist items",
+      "Anchor": "#watchlists---gets-all-watchlist-without-watchlist-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WatchlistItems_List",
+      "Name": "Watchlists - Gets all watchlist Items for a given watchlist",
+      "Description": "Watchlists - Gets all watchlist Items for a given watchlist",
+      "Anchor": "#watchlists---gets-all-watchlist-items-for-a-given-watchlist",
       "IsDeprecated": false
     },
     {
