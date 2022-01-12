@@ -13930,13 +13930,6 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../uiflow/",
     "Actions": [
       {
-        "OperationId": "ExecuteDesktopUIFlow",
-        "Name": "Run a flow built with Windows recorder V1 (Legacy)",
-        "Description": "A flow will automatically run a set of steps recorded in a single app using Windows recorder (V1).",
-        "Anchor": "#run-a-flow-built-with-windows-recorder-v1-(legacy)",
-        "IsDeprecated": false
-      },
-      {
         "OperationId": "ExecuteSeleniumIDEUIFlow",
         "Name": "Run a flow built with Selenium IDE",
         "Description": "A web flow will automatically run a set of steps recorded in a single web app, using Selenium IDE.",
