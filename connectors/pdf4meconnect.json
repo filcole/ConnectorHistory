@@ -3,6 +3,13 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pdf4meconnect/",
   "Actions": [
     {
+      "OperationId": "AddBarcode_V1",
+      "Name": "Add Barcode to PDF",
+      "Description": "Add a barcode or QR code to your PDF document.",
+      "Anchor": "#add-barcode-to-pdf",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ConvertHtmlToPdf_V1",
       "Name": "Convert HTML to PDF (Preview)",
       "Description": "Convert your HTML file to PDF. https://pdf4me.com/power-automate/documentation/actions/html-to-pdf/",
@@ -157,6 +164,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "RotatePage_V1",
+      "Name": "Rotate Page",
+      "Description": "Rotate a specific page of a PDF document.",
+      "Anchor": "#rotate-page",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "SplitDocByBarcode_V1",
       "Name": "Split Document by Barcode (Preview)",
       "Description": "Split the PDF document by barcode types and filters. https://pdf4me.com/power-automate/documentation/actions/split-by-barcode/",
@@ -182,6 +196,13 @@
       "Name": "Send Document to PDF4me-Workflow (Preview)",
       "Description": "Start PDF4me-Workflow with document from anywhere https://pdf4me.com/power-automate/documentation/actions/send-document-to-pdf4me-workflow/",
       "Anchor": "#send-document-to-pdf4me-workflow-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Unlock_V1",
+      "Name": "Unlock PDF",
+      "Description": "Removes password protection from a PDF file.",
+      "Anchor": "#unlock-pdf",
       "IsDeprecated": false
     }
   ]

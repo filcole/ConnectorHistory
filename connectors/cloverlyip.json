@@ -1,0 +1,97 @@
+{
+  "UniqueName": "cloverlyip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloverlyip/",
+  "Actions": [
+    {
+      "OperationId": "Account",
+      "Name": "Get account information",
+      "Description": "Returns details about your account.",
+      "Anchor": "#get-account-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateElectricity",
+      "Name": "Calculate the emissions from electricity",
+      "Description": "Calculate the carbon emissions and offset the impact from electricity.",
+      "Anchor": "#calculate-the-emissions-from-electricity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateFlight",
+      "Name": "Calculate the emissions from flight",
+      "Description": "Calculate the carbon emissions and offset the impact from a flight.",
+      "Anchor": "#calculate-the-emissions-from-flight",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateFreight",
+      "Name": "Calculate the emissions from freight shipments",
+      "Description": "Calculate the carbon emissions from freight shipments and offset the impact.",
+      "Anchor": "#calculate-the-emissions-from-freight-shipments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateMCC",
+      "Name": "Calculate emissions from merchant category code (MCC)",
+      "Description": "Calculate the carbon emissions from merchant category code (MCC) and offset the impact.",
+      "Anchor": "#calculate-emissions-from-merchant-category-code-(mcc)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculatePackage",
+      "Name": "Calculate emissions from package shipping",
+      "Description": "Calculate the carbon emissions from package shipping and offset the impact.",
+      "Anchor": "#calculate-emissions-from-package-shipping",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalculateVehicle",
+      "Name": "Calculate the emissions from vehicle",
+      "Description": "Calculate the carbon emissions and offset the impact from a vehicle.",
+      "Anchor": "#calculate-the-emissions-from-vehicle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertEstimate",
+      "Name": "Convert estimate to purchase",
+      "Description": "Converts a carbon offset estimate to a purchase",
+      "Anchor": "#convert-estimate-to-purchase",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DirectCarbon",
+      "Name": "Direct purchase by carbon amount",
+      "Description": "Allows either the calculation or purchase of an offset to neutralize the impact.",
+      "Anchor": "#direct-purchase-by-carbon-amount",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DirectTransaction",
+      "Name": "Direct purchase by transaction amount",
+      "Description": "Allows either the calculation or purchase of an offset to neutralize the impact.",
+      "Anchor": "#direct-purchase-by-transaction-amount",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PortfolioDetails",
+      "Name": "View custom portfolio details",
+      "Description": "Get information around a given portfolio ID. Includes a back reference to offset sources.",
+      "Anchor": "#view-custom-portfolio-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectDetails",
+      "Name": "View project details",
+      "Description": "Get details about an offset source with the given project ID.",
+      "Anchor": "#view-project-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectTypes",
+      "Name": "List project types",
+      "Description": "Returns a list of project types.",
+      "Anchor": "#list-project-types",
+      "IsDeprecated": false
+    }
+  ]
+}

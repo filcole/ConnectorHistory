@@ -1,0 +1,104 @@
+{
+  "UniqueName": "revueip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../revueip/",
+  "Actions": [
+    {
+      "OperationId": "AddSubscriber",
+      "Name": "Add a subscriber",
+      "Description": "Adds a subscriber to your list.",
+      "Anchor": "#add-a-subscriber",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllLists",
+      "Name": "Get all lists",
+      "Description": "List all lists associated with account.",
+      "Anchor": "#get-all-lists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllSentIssues",
+      "Name": "Get all sent issues",
+      "Description": "Returns a list of your sent issues.",
+      "Anchor": "#get-all-sent-issues",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllSubscribers",
+      "Name": "Get all subscribers",
+      "Description": "Returns a list of your subscribers that are actively subscribed.",
+      "Anchor": "#get-all-subscribers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCurrentIssue",
+      "Name": "Get current issue",
+      "Description": "Returns the current issue that is being worked on.",
+      "Anchor": "#get-current-issue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetExport",
+      "Name": "Get an export",
+      "Description": "Get an export with ID.",
+      "Anchor": "#get-an-export",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItems",
+      "Name": "Get items",
+      "Description": "Returns a list of items from your my items inbox.",
+      "Anchor": "#get-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLatestIssue",
+      "Name": "Get latest issue",
+      "Description": "Returns the last issue sent.",
+      "Anchor": "#get-latest-issue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetList",
+      "Name": "Get list",
+      "Description": "Get specific list.",
+      "Anchor": "#get-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProfileURL",
+      "Name": "Get profile URL",
+      "Description": "Get the profile URL for your account.",
+      "Anchor": "#get-profile-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUnsubscribed",
+      "Name": "Get unsubscribed subscribers",
+      "Description": "Returns a list of your subscribers that are currently unsubscribed.",
+      "Anchor": "#get-unsubscribed-subscribers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartExport",
+      "Name": "Start an export",
+      "Description": "Start an export for list.",
+      "Anchor": "#start-an-export",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UnsubscribeSubscriber",
+      "Name": "Unsubscribe a subscriber",
+      "Description": "Unsubscribe a subscriber from your list.",
+      "Anchor": "#unsubscribe-a-subscriber",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateSubscriber",
+      "Name": "Update a subscriber",
+      "Description": "Update a subscriber on your list.",
+      "Anchor": "#update-a-subscriber",
+      "IsDeprecated": false
+    }
+  ]
+}

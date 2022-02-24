@@ -1,0 +1,20 @@
+{
+  "UniqueName": "blackbaudlists",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudlists/",
+  "Actions": [
+    {
+      "OperationId": "AppendIDsToList",
+      "Name": "Add records to a list",
+      "Description": "Add a set of records to an existing list.",
+      "Anchor": "#add-records-to-a-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateListFromIDs",
+      "Name": "Create a list from a set of records",
+      "Description": "Creates a new list filtered to the specified set of records.",
+      "Anchor": "#create-a-list-from-a-set-of-records",
+      "IsDeprecated": false
+    }
+  ]
+}

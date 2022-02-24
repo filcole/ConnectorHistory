@@ -1,0 +1,132 @@
+{
+  "UniqueName": "blackbaudgifts",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudgifts/",
+  "Actions": [
+    {
+      "OperationId": "AddGiftToBatch",
+      "Name": "Add a gift to batch",
+      "Description": "Add a gift to the specified gift batch.",
+      "Anchor": "#add-a-gift-to-batch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGift",
+      "Name": "Create a gift",
+      "Description": "Creates a new gift.",
+      "Anchor": "#create-a-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGiftAttachment",
+      "Name": "Create a gift attachment",
+      "Description": "Creates a new gift attachment.",
+      "Anchor": "#create-a-gift-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGiftBatch",
+      "Name": "Create a gift batch",
+      "Description": "Creates a new gift batch.",
+      "Anchor": "#create-a-gift-batch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGiftCustomField",
+      "Name": "Create a gift custom field",
+      "Description": "Creates a new gift custom field.",
+      "Anchor": "#create-a-gift-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditGiftAcknowledgement",
+      "Name": "Update gift acknowledgement details",
+      "Description": "Updates the acknowledgement details for a gift.",
+      "Anchor": "#update-gift-acknowledgement-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditGiftAttachment",
+      "Name": "Update a gift attachment",
+      "Description": "Updates a gift attachment.",
+      "Anchor": "#update-a-gift-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditGiftCustomField",
+      "Name": "Update a gift custom field",
+      "Description": "Updates a gift custom field.",
+      "Anchor": "#update-a-gift-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditGiftReceipt",
+      "Name": "Update gift receipt details",
+      "Description": "Updates the receipt details for a gift.",
+      "Anchor": "#update-gift-receipt-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentFirstGift",
+      "Name": "Get constituent first gift",
+      "Description": "Returns the first gift for a constituent.",
+      "Anchor": "#get-constituent-first-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentGreatestGift",
+      "Name": "Get constituent greatest gift",
+      "Description": "Returns the greatest gift for a constituent.",
+      "Anchor": "#get-constituent-greatest-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentLatestGift",
+      "Name": "Get constituent latest gift",
+      "Description": "Returns the latest gift for a constituent.",
+      "Anchor": "#get-constituent-latest-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentLifetimeGiving",
+      "Name": "Get constituent lifetime giving",
+      "Description": "Returns the lifetime giving summary for a constituent.",
+      "Anchor": "#get-constituent-lifetime-giving",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGift",
+      "Name": "Get a gift",
+      "Description": "Returns information about a gift.",
+      "Anchor": "#get-a-gift",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGiftAttachments",
+      "Name": "List gift attachments",
+      "Description": "Lists the attachments for a gift.",
+      "Anchor": "#list-gift-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGiftBatches",
+      "Name": "List gift batches",
+      "Description": "List the gift batches.",
+      "Anchor": "#list-gift-batches",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGiftCustomFields",
+      "Name": "List gift custom fields",
+      "Description": "Lists the custom fields for a gift.",
+      "Anchor": "#list-gift-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGifts",
+      "Name": "List gifts",
+      "Description": "Returns a list of gifts.",
+      "Anchor": "#list-gifts",
+      "IsDeprecated": false
+    }
+  ]
+}

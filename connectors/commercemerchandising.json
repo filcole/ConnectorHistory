@@ -1,0 +1,97 @@
+{
+  "UniqueName": "commercemerchandising",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../commercemerchandising/",
+  "Actions": [
+    {
+      "OperationId": "GetAttributes",
+      "Name": "Get Product Attributes",
+      "Description": "Get Attributes of a Product.",
+      "Anchor": "#get-product-attributes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCatalogs",
+      "Name": "Get Catalogs",
+      "Description": "Get Catalogs.",
+      "Anchor": "#get-catalogs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCategories",
+      "Name": "Get Categories",
+      "Description": "Get Categories.",
+      "Anchor": "#get-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetChannels",
+      "Name": "Get Channels",
+      "Description": "Get Channels.",
+      "Anchor": "#get-channels",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDimensionValues",
+      "Name": "Get Dimension values",
+      "Description": "The Dimension values with inventory availabilities for a Product based on the specified requirements.",
+      "Anchor": "#get-dimension-values",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvironmentConfiguration",
+      "Name": "Get Environment Configuration",
+      "Description": "Get the Environment Configuration.",
+      "Anchor": "#get-environment-configuration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetImageLocations",
+      "Name": "Get image locations of Product",
+      "Description": "Get image locations of a Product.",
+      "Anchor": "#get-image-locations-of-product",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProductInventory",
+      "Name": "Get Product Inventory",
+      "Description": "Get Product Inventory in stores.",
+      "Anchor": "#get-product-inventory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProductsByIds",
+      "Name": "Get Products by IDs",
+      "Description": "Product search By IDs.",
+      "Anchor": "#get-products-by-ids",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRecommendedProducts",
+      "Name": "Get recommended Products",
+      "Description": "A collection of Product recommendations given a collection of product identifiers.",
+      "Anchor": "#get-recommended-products",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVariant",
+      "Name": "Get Product variant",
+      "Description": "Product variant search by dimensions.",
+      "Anchor": "#get-product-variant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HealthCheck",
+      "Name": "Health Check",
+      "Description": "Health Check of the Retail Server.",
+      "Anchor": "#health-check",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchProducts",
+      "Name": "Search Products",
+      "Description": "Product Search by keyword and category.",
+      "Anchor": "#search-products",
+      "IsDeprecated": false
+    }
+  ]
+}

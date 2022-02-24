@@ -1,0 +1,76 @@
+{
+  "UniqueName": "starwarsip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../starwarsip/",
+  "Actions": [
+    {
+      "OperationId": "GetFilmById",
+      "Name": "Get Film by ID",
+      "Description": "Get a specific film by id.",
+      "Anchor": "#get-film-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFilms",
+      "Name": "Get all films",
+      "Description": "A Film resource is a single film",
+      "Anchor": "#get-all-films",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPeople",
+      "Name": "Get People",
+      "Description": "A People resource is an individual person or character within the Star Wars universe",
+      "Anchor": "#get-people",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPersonById",
+      "Name": "Get Person By Id",
+      "Description": "A People resource is an individual person or character within the Star Wars universe",
+      "Anchor": "#get-person-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPlanetById",
+      "Name": "Get Planet By Id",
+      "Description": "A Planet resource is a large mass, planet or planetoid in the Star Wars Universe, at the time of 0 ABY.",
+      "Anchor": "#get-planet-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPlanets",
+      "Name": "Get Planets",
+      "Description": "A Planet resource is a large mass, planet or planetoid in the Star Wars Universe, at the time of 0 ABY.",
+      "Anchor": "#get-planets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSpecies",
+      "Name": "Get All Species",
+      "Description": "A Species resource is a type of person or character within the Star Wars Universe",
+      "Anchor": "#get-all-species",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSpeciesById",
+      "Name": "Get Species By Id",
+      "Description": "A Species resource is a type of person or character within the Star Wars Universe",
+      "Anchor": "#get-species-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStarShipById",
+      "Name": "Get StarShip By Id",
+      "Description": "A Starship resource is a single transport craft that has hyperdrive capability",
+      "Anchor": "#get-starship-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStarships",
+      "Name": "Get all starships",
+      "Description": "A Starship resource is a single transport craft that has hyperdrive capability.",
+      "Anchor": "#get-all-starships",
+      "IsDeprecated": false
+    }
+  ]
+}

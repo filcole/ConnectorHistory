@@ -1,0 +1,20 @@
+{
+  "UniqueName": "zippopotamusip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zippopotamusip/",
+  "Actions": [
+    {
+      "OperationId": "GetDetailsByPostalCode",
+      "Name": "Get location details for postal code",
+      "Description": "Action lets to obtain lat, lon and other location details for a given postal code.",
+      "Anchor": "#get-location-details-for-postal-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDetailsByStateCity",
+      "Name": "Get location details for state and city",
+      "Description": "Action lets to obtain lat, lon and other location details for a given state and city.",
+      "Anchor": "#get-location-details-for-state-and-city",
+      "IsDeprecated": false
+    }
+  ]
+}

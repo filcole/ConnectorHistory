@@ -1,0 +1,55 @@
+{
+  "UniqueName": "airlyip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../airlyip/",
+  "Actions": [
+    {
+      "OperationId": "GetAvailableIndexes",
+      "Name": "Get available indexes",
+      "Description": "Endpoint returns a list of all the index types supported in the API along with lists of levels defined per each index type.",
+      "Anchor": "#get-available-indexes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAvailableMeasurements",
+      "Name": "Get available measurements",
+      "Description": "Endpoint returns list of all the measurement types supported in the API along with their names and units.",
+      "Anchor": "#get-available-measurements",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInstallationByID",
+      "Name": "Get installation by ID",
+      "Description": "Operation returns single installation metadata, given by InstallationId.",
+      "Anchor": "#get-installation-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMeasurementsForInstallation",
+      "Name": "Get measurements for installation",
+      "Description": "Endpoint returns measurements for concrete installation given by InstallationId.",
+      "Anchor": "#get-measurements-for-installation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMeasurementsForPoint",
+      "Name": "Get measurements for a point",
+      "Description": "Endpoint returns measurements for any geographical location. Measurement values are interpolated by averaging measurements from nearby sensors (up to 1,5km away from the given point). The returned value is a weighted average, with the weight inversely proportional to the distance from the sensor to the given point.",
+      "Anchor": "#get-measurements-for-a-point",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNearestInstallations",
+      "Name": "Get nearest installations",
+      "Description": "Endpoint returns list of installations which are closest to a given point, sorted by distance to that point.",
+      "Anchor": "#get-nearest-installations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNearestMeasurements",
+      "Name": "Get nearest measurements",
+      "Description": "Endpoint returns measurements for an installation closest to a given location.",
+      "Anchor": "#get-nearest-measurements",
+      "IsDeprecated": false
+    }
+  ]
+}

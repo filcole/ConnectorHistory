@@ -1,0 +1,13 @@
+{
+  "UniqueName": "blackbaudskyaddins",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudskyaddins/",
+  "Actions": [
+    {
+      "OperationId": "ValidateUserIdentityToken",
+      "Name": "Validate a user identity token",
+      "Description": "Validates a user identity token.",
+      "Anchor": "#validate-a-user-identity-token",
+      "IsDeprecated": false
+    }
+  ]
+}

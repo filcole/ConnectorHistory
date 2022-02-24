@@ -45,6 +45,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetReportData",
+      "Name": "Read report data",
+      "Description": "Read report data",
+      "Anchor": "#read-report-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetReportList",
+      "Name": "Get list of reports",
+      "Description": "List reports",
+      "Anchor": "#get-list-of-reports",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ObjectAudit",
       "Name": "Add Audit information to WorkSpan Object",
       "Description": "Add Audit information to WorkSpanObject",

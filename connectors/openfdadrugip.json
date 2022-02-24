@@ -1,0 +1,41 @@
+{
+  "UniqueName": "openfdadrugip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../openfdadrugip/",
+  "Actions": [
+    {
+      "OperationId": "DrugAdverseEvent",
+      "Name": "Drug Adverse Event",
+      "Description": "The openFDA drug adverse event API returns data that has been collected from the FDA Adverse Event Reporting System (FAERS), a database that contains information on adverse event and medication error reports submitted to FDA.",
+      "Anchor": "#drug-adverse-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DrugEnforcement",
+      "Name": "Drug Enforcement",
+      "Description": "The openFDA drug enforcement reports API returns data from the FDA Recall Enterprise System (RES), a database that contains information on recall event information submitted to FDA. Currently, this data covers publicly releasable records from 2004-present. The data is updated weekly.",
+      "Anchor": "#drug-enforcement",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DrugLabeling",
+      "Name": "Drug Labeling",
+      "Description": "Drug manufacturers and distributors submit documentation about their products to FDA in the Structured Product Labeling (SPL) format. The openFDA drug product labeling API returns data from this dataset.",
+      "Anchor": "#drug-labeling",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DrugNDC",
+      "Name": "Drug NDC",
+      "Description": "The openFDA drug NDC Directory endpoint returns data from the NDC Directory, a database that contains information on the National Drug Code (NDC). FDA publishes the listed NDC numbers and the information submitted as part of the listing information in the NDC Directory which is updated daily.",
+      "Anchor": "#drug-ndc",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DrugsFDA",
+      "Name": "DrugsFDA",
+      "Description": "DrugsFDA includes most of the drug products approved since 1939. The majority of patient information, labels, approval letters, reviews, and other information are available for drug products approved since 1998.",
+      "Anchor": "#drugsfda",
+      "IsDeprecated": false
+    }
+  ]
+}

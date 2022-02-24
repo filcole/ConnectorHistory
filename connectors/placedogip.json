@@ -1,0 +1,27 @@
+{
+  "UniqueName": "placedogip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../placedogip/",
+  "Actions": [
+    {
+      "OperationId": "GetWidth",
+      "Name": "Get a doggo - set width",
+      "Description": "Request a doggo with a set width between 1 and 1000. Height will be automatically set.",
+      "Anchor": "#get-a-doggo---set-width",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWidthHeight",
+      "Name": "Get a pupper - set width and height",
+      "Description": "Request a pupper with a set width and height, both between 1 and 1000.",
+      "Anchor": "#get-a-pupper---set-width-and-height",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWidthHeightFilter",
+      "Name": "Get a woofer - set width and height with filter",
+      "Description": "Request a woofer with a filter and set width and height, both between 1 and 1000.",
+      "Anchor": "#get-a-woofer---set-width-and-height-with-filter",
+      "IsDeprecated": false
+    }
+  ]
+}

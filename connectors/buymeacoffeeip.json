@@ -1,0 +1,48 @@
+{
+  "UniqueName": "buymeacoffeeip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../buymeacoffeeip/",
+  "Actions": [
+    {
+      "OperationId": "ExtraGet",
+      "Name": "Get extras (BETA)",
+      "Description": "Get all your Extras purchases data.",
+      "Anchor": "#get-extras-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtraGetA",
+      "Name": "Get extras by ID (BETA)",
+      "Description": "This endpoint provides data about all of your extra purchases by its unique ID. Please note ID is the same as the Purchase ID returned in the response.",
+      "Anchor": "#get-extras-by-id-(beta)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberGet",
+      "Name": "Get members",
+      "Description": "This endpoint will return all of your members with both active and inactive statuses.",
+      "Anchor": "#get-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberGetA",
+      "Name": "Get a member",
+      "Description": "This endpoint will return membership details by passing its unique identifier.",
+      "Anchor": "#get-a-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SupporterGet",
+      "Name": "Get onetime-supporters",
+      "Description": "This endpoint returns all of your onetime supporters and their messages, if any.",
+      "Anchor": "#get-onetime-supporters",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SupporterGetA",
+      "Name": "Get onetime-supporters by ID",
+      "Description": "This endpoint will return all of your onetime supporters and their messages by their unique ID.",
+      "Anchor": "#get-onetime-supporters-by-id",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "UniqueName": "pantryip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pantryip/",
+  "Actions": [
+    {
+      "OperationId": "CreateAnd_orReplace",
+      "Name": "Create and or replace basket",
+      "Description": "Given a basket name as provided in the url, this will either create a new basket inside your pantry, or replace an existing one.",
+      "Anchor": "#create-and-or-replace-basket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete",
+      "Name": "Delete a basket",
+      "Description": "Delete the entire basket. Warning, this action cannot be undone.",
+      "Anchor": "#delete-a-basket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContents",
+      "Name": "Get basket contents",
+      "Description": "Given a basket name, return the full contents of the basket.",
+      "Anchor": "#get-basket-contents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDetails",
+      "Name": "Get pantry details",
+      "Description": "Given a PantryID, return the details of the pantry, including a list of baskets currently stored inside it.",
+      "Anchor": "#get-pantry-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateContents",
+      "Name": "Update basket contents",
+      "Description": "Given a basket name, this will update the existing contents and return the contents of the newly updated basket. This operation performs a deep merge and will overwrite the values of any existing keys, or append values to nested objects or arrays.",
+      "Anchor": "#update-basket-contents",
+      "IsDeprecated": false
+    }
+  ]
+}

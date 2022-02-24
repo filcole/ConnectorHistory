@@ -1,0 +1,41 @@
+{
+  "UniqueName": "ecologiip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ecologiip/",
+  "Actions": [
+    {
+      "OperationId": "GetImpact",
+      "Name": "Get total impact",
+      "Description": "How many trees has this user planted, and how many tons of CO2 emissions have been offset.",
+      "Anchor": "#get-total-impact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOffset",
+      "Name": "Get total tons of CO2e offset",
+      "Description": "The total number of tons of CO2e emissions has this user offset.",
+      "Anchor": "#get-total-tons-of-co2e-offset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTrees",
+      "Name": "Get total number of trees",
+      "Description": "The total number of trees this user has planted.",
+      "Anchor": "#get-total-number-of-trees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PurchaseOffsets",
+      "Name": "Purchase carbon offsets",
+      "Description": "Use this action to purchase 1 or more KG of carbon offsets per request.",
+      "Anchor": "#purchase-carbon-offsets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PurchaseTrees",
+      "Name": "Purchase trees",
+      "Description": "Use this action to purchase 1 or more trees per request.",
+      "Anchor": "#purchase-trees",
+      "IsDeprecated": false
+    }
+  ]
+}

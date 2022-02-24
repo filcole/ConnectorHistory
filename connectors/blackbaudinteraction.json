@@ -1,0 +1,83 @@
+{
+  "UniqueName": "blackbaudinteraction",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudinteraction/",
+  "Actions": [
+    {
+      "OperationId": "CreateAction",
+      "Name": "Create a constituent action",
+      "Description": "Creates a new constituent action.",
+      "Anchor": "#create-a-constituent-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateActionAttachment",
+      "Name": "Create an action attachment",
+      "Description": "Creates a new action attachment.",
+      "Anchor": "#create-an-action-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateActionCustomField",
+      "Name": "Create an action custom field",
+      "Description": "Creates a new action custom field.",
+      "Anchor": "#create-an-action-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditAction",
+      "Name": "Update a constituent action",
+      "Description": "Updates a constituent action.",
+      "Anchor": "#update-a-constituent-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditActionAttachment",
+      "Name": "Update an action attachment",
+      "Description": "Updates an action attachment.",
+      "Anchor": "#update-an-action-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditActionCustomField",
+      "Name": "Update an action custom field",
+      "Description": "Updates an action custom field.",
+      "Anchor": "#update-an-action-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAction",
+      "Name": "Get a constituent action",
+      "Description": "Returns information about a constituent action.",
+      "Anchor": "#get-a-constituent-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListActionAttachments",
+      "Name": "List action attachments",
+      "Description": "Lists the attachments for an action.",
+      "Anchor": "#list-action-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListActionCustomFields",
+      "Name": "List action custom fields",
+      "Description": "Lists the custom fields for an action.",
+      "Anchor": "#list-action-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListActions",
+      "Name": "List actions",
+      "Description": "Returns a list of actions.",
+      "Anchor": "#list-actions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentActions",
+      "Name": "List constituent actions",
+      "Description": "Lists the actions for a constituent.",
+      "Anchor": "#list-constituent-actions",
+      "IsDeprecated": false
+    }
+  ]
+}

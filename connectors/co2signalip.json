@@ -1,0 +1,27 @@
+{
+  "UniqueName": "co2signalip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../co2signalip/",
+  "Actions": [
+    {
+      "OperationId": "GetLatestbyCode",
+      "Name": "Get latest by country code or zone",
+      "Description": "This endpoint retrieves the last known state of a country. It is also possible to get data for a specific zone, in case the country is divided by zones seen on app.electricitymap.org",
+      "Anchor": "#get-latest-by-country-code-or-zone",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLatestbyLatLon",
+      "Name": "Get latest by geographic coordinate",
+      "Description": "Get latest by geographic coordinate",
+      "Anchor": "#get-latest-by-geographic-coordinate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetZones",
+      "Name": "Get Available Zones",
+      "Description": "A list of countries and zones by code (zone being the country is divided by zones seen on app.electricitymap.org)",
+      "Anchor": "#get-available-zones",
+      "IsDeprecated": false
+    }
+  ]
+}

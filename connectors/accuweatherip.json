@@ -10,6 +10,41 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "AlarmFifteen",
+      "Name": "Get fifteen day of weather alarms",
+      "Description": "Returns 15 days of weather alarms for a specific location.",
+      "Anchor": "#get-fifteen-day-of-weather-alarms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AlarmFive",
+      "Name": "Get 5 days of weather alarms",
+      "Description": "Returns 5 days of weather alarms for a specific location.",
+      "Anchor": "#get-5-days-of-weather-alarms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AlarmOne",
+      "Name": "Get one day of weather alarms",
+      "Description": "Returns 1 day of weather alarms for a specific location.",
+      "Anchor": "#get-one-day-of-weather-alarms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AlarmTen",
+      "Name": "Get ten days of weather alarms",
+      "Description": "Returns 10 days of weather alarms for a specific location.",
+      "Anchor": "#get-ten-days-of-weather-alarms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AlertLocation",
+      "Name": "Get alerts by location key",
+      "Description": "Returns alert data for a specific location. Alert searches require a location key. Please use the Locations API to obtain the location key for your desired location. By default, a truncated version of the alert data is returned. The full object can be obtained by passing details=true.",
+      "Anchor": "#get-alerts-by-location-key",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "AutocompleteCities",
       "Name": "Autocomplete search (Cities)",
       "Description": "Returns basic information about locations matching an autocomplete of the search text.",
@@ -91,6 +126,34 @@
       "Name": "Get Hourly Forecasts",
       "Description": "Returns forecast data for the next hour(s) for a specific location.",
       "Anchor": "#get-hourly-forecasts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Imagery",
+      "Name": "Get radar and satellite imagery",
+      "Description": "Returns links to radar and satellite images by location key. Imagery searches require a location key. Please use the Locations API to obtain a location key for your desired location. Radar images are not available for all locations worldwide at this time. If radar is not available for your desired location, satellite images are still provided.",
+      "Anchor": "#get-radar-and-satellite-imagery",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LanguageGroups",
+      "Name": "List the available translation groups",
+      "Description": "Lists groups of phrases that are available for translation.",
+      "Anchor": "#list-the-available-translation-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LanguageList",
+      "Name": "List all languages",
+      "Description": "Returns metadata for all languages.",
+      "Anchor": "#list-all-languages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LanguageTranslationsGroup",
+      "Name": "List the translations for a specific group",
+      "Description": "Returns all translated phrases for a specific group, in the desired language.",
+      "Anchor": "#list-the-translations-for-a-specific-group",
       "IsDeprecated": false
     },
     {

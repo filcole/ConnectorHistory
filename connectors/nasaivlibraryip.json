@@ -1,0 +1,41 @@
+{
+  "UniqueName": "nasaivlibraryip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nasaivlibraryip/",
+  "Actions": [
+    {
+      "OperationId": "GetMediaAlbumContents",
+      "Name": "Get Media Album",
+      "Description": "Get Media Album",
+      "Anchor": "#get-media-album",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMediaAssetManifest",
+      "Name": "Get media asset information",
+      "Description": "Get media asset information",
+      "Anchor": "#get-media-asset-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMediaAssetMetadataLocation",
+      "Name": "Get media asset metadata location",
+      "Description": "Get media asset metadata location",
+      "Anchor": "#get-media-asset-metadata-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVideoAssetCaptionsLocation",
+      "Name": "Get video asset captions location",
+      "Description": "Get video asset captions location",
+      "Anchor": "#get-video-asset-captions-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Search",
+      "Name": "Search media",
+      "Description": "Search media",
+      "Anchor": "#search-media",
+      "IsDeprecated": false
+    }
+  ]
+}

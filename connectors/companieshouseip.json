@@ -1,0 +1,97 @@
+{
+  "UniqueName": "companieshouseip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../companieshouseip/",
+  "Actions": [
+    {
+      "OperationId": "AddressByNumber",
+      "Name": "Address By Number",
+      "Description": "Address By Number",
+      "Anchor": "#address-by-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChargesByNumber",
+      "Name": "Charges By Company Number",
+      "Description": "Charges By Company Number",
+      "Anchor": "#charges-by-company-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChargesByNumberAndChargeId",
+      "Name": "Charges By Number and Charge Id",
+      "Description": "Charges By Number and Charge Id",
+      "Anchor": "#charges-by-number-and-charge-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompanyByNumber",
+      "Name": "Find Company By Number",
+      "Description": "Find a Company By their Company Number",
+      "Anchor": "#find-company-by-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompanyOfficersByNumber",
+      "Name": "Company Officers By Company Number",
+      "Description": "Company Officers By Company Number",
+      "Anchor": "#company-officers-by-company-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompanyOfficersByNumberAndAppointmentId",
+      "Name": "Company Officers By Number and Appointment Id",
+      "Description": "Company Officers By Number and Appointment Id",
+      "Anchor": "#company-officers-by-number-and-appointment-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilingHistoryByCompNumber",
+      "Name": "Filing History By Company Number",
+      "Description": "Filing History By Company Number",
+      "Anchor": "#filing-history-by-company-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilingHistoryByNumberAndId",
+      "Name": "Filing History By Number and Id",
+      "Description": "Filing History By Number and Id",
+      "Anchor": "#filing-history-by-number-and-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IndividualPsc",
+      "Name": "Individual PSC",
+      "Description": "Find information about a Person of Significan Control by Company Number and PCS ID",
+      "Anchor": "#individual-psc",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPsc",
+      "Name": "List Person of Significant Control",
+      "Description": "List Persons of Significant Control by Company Number",
+      "Anchor": "#list-person-of-significant-control",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListStatementsPsc",
+      "Name": "List Statements for Person of Significant Control",
+      "Description": "List Statements for Person of Significant Control by Company Number",
+      "Anchor": "#list-statements-for-person-of-significant-control",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OfficerAppointmentByOfficerId",
+      "Name": "Officer Appointment by Officer Id",
+      "Description": "Officer Appointment by Officer Id",
+      "Anchor": "#officer-appointment-by-officer-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UKEstablishments",
+      "Name": "UK Establishments",
+      "Description": "List of UK-establishments companies",
+      "Anchor": "#uk-establishments",
+      "IsDeprecated": false
+    }
+  ]
+}

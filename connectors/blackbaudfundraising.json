@@ -1,0 +1,195 @@
+{
+  "UniqueName": "blackbaudfundraising",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudfundraising/",
+  "Actions": [
+    {
+      "OperationId": "CreateAppealAttachment",
+      "Name": "Create an appeal attachment",
+      "Description": "Creates a new appeal attachment.",
+      "Anchor": "#create-an-appeal-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAppealCustomField",
+      "Name": "Create an appeal custom field",
+      "Description": "Creates a new appeal custom field.",
+      "Anchor": "#create-an-appeal-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCampaignAttachment",
+      "Name": "Create a campaign attachment",
+      "Description": "Creates a new campaign attachment.",
+      "Anchor": "#create-a-campaign-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCampaignCustomField",
+      "Name": "Create a campaign custom field",
+      "Description": "Creates a new campaign custom field.",
+      "Anchor": "#create-a-campaign-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFundAttachment",
+      "Name": "Create a fund attachment",
+      "Description": "Creates a new fund attachment.",
+      "Anchor": "#create-a-fund-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFundCustomField",
+      "Name": "Create a fund custom field",
+      "Description": "Creates a new fund custom field.",
+      "Anchor": "#create-a-fund-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditAppealAttachment",
+      "Name": "Update an appeal attachment",
+      "Description": "Updates an appeal attachment.",
+      "Anchor": "#update-an-appeal-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditAppealCustomField",
+      "Name": "Update an appeal custom field",
+      "Description": "Updates an appeal custom field.",
+      "Anchor": "#update-an-appeal-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditCampaignAttachment",
+      "Name": "Update a campaign attachment",
+      "Description": "Updates a campaign attachment.",
+      "Anchor": "#update-a-campaign-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditCampaignCustomField",
+      "Name": "Update a campaign custom field",
+      "Description": "Updates a campaign custom field.",
+      "Anchor": "#update-a-campaign-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditFundAttachment",
+      "Name": "Update a fund attachment",
+      "Description": "Updates a fund attachment.",
+      "Anchor": "#update-a-fund-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditFundCustomField",
+      "Name": "Update a fund custom field",
+      "Description": "Updates a fund custom field.",
+      "Anchor": "#update-a-fund-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAppeal",
+      "Name": "Get an appeal",
+      "Description": "Returns information about an appeal.",
+      "Anchor": "#get-an-appeal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCampaign",
+      "Name": "Get a campaign",
+      "Description": "Returns information about a campaign.",
+      "Anchor": "#get-a-campaign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFund",
+      "Name": "Get a fund",
+      "Description": "Returns information about a fund.",
+      "Anchor": "#get-a-fund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPackage",
+      "Name": "Get a package",
+      "Description": "Returns information about a package.",
+      "Anchor": "#get-a-package",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAppealAttachments",
+      "Name": "List appeal attachments",
+      "Description": "Lists the attachments for an appeal.",
+      "Anchor": "#list-appeal-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAppealCustomFields",
+      "Name": "List appeal custom fields",
+      "Description": "Lists the custom fields for an appeal.",
+      "Anchor": "#list-appeal-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAppeals",
+      "Name": "List appeals",
+      "Description": "Returns a list of appeals.",
+      "Anchor": "#list-appeals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCampaignAttachments",
+      "Name": "List campaign attachments",
+      "Description": "Lists the attachments for an campaign.",
+      "Anchor": "#list-campaign-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCampaignCustomFields",
+      "Name": "List campaign custom fields",
+      "Description": "Lists the custom fields for a campaign.",
+      "Anchor": "#list-campaign-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCampaigns",
+      "Name": "List campaigns",
+      "Description": "Returns a list of campaigns.",
+      "Anchor": "#list-campaigns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentAppeals",
+      "Name": "List constituent appeals",
+      "Description": "Lists the appeals for a constituent.",
+      "Anchor": "#list-constituent-appeals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFundAttachments",
+      "Name": "List fund attachments",
+      "Description": "Lists the attachments for a fund.",
+      "Anchor": "#list-fund-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFundCustomFields",
+      "Name": "List fund custom fields",
+      "Description": "Lists the custom fields for a fund.",
+      "Anchor": "#list-fund-custom-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFunds",
+      "Name": "List funds",
+      "Description": "Returns a list of funds.",
+      "Anchor": "#list-funds",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPackages",
+      "Name": "List packages",
+      "Description": "Returns a list of packages.",
+      "Anchor": "#list-packages",
+      "IsDeprecated": false
+    }
+  ]
+}

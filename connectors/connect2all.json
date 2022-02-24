@@ -17,6 +17,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateDataBulk",
+      "Name": "Insert Data Bulk",
+      "Description": "Insert multiple records into Business Central",
+      "Anchor": "#insert-data-bulk",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateDataComplex",
       "Name": "Insert Data (Complex)",
       "Description": "Insert data into a specific Business Central table",
@@ -28,6 +35,13 @@
       "Name": "Delete Data",
       "Description": "Delete data from Business Central by it's unique id",
       "Anchor": "#delete-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteDataBulk",
+      "Name": "Delete Data Bulk",
+      "Description": "Delete multiple records in Business Central",
+      "Anchor": "#delete-data-bulk",
       "IsDeprecated": false
     },
     {
@@ -70,6 +84,13 @@
       "Name": "Get Data by Id",
       "Description": "Get data from Business Central for a specific table and record",
       "Anchor": "#get-data-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDataInBulk",
+      "Name": "Get Data in bulk format",
+      "Description": "Get data from Business Central for a table in bulk format.",
+      "Anchor": "#get-data-in-bulk-format",
       "IsDeprecated": false
     },
     {
@@ -196,6 +217,13 @@
       "Name": "Update Data",
       "Description": "Update a record in Business Central for a specific table",
       "Anchor": "#update-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDataBulk",
+      "Name": "Update Data Bulk",
+      "Description": "Update multiple records in Business Central",
+      "Anchor": "#update-data-bulk",
       "IsDeprecated": false
     },
     {

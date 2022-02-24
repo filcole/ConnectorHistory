@@ -3,6 +3,13 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../avepointcloudgovernance/",
   "Actions": [
     {
+      "OperationId": "Flow_CreateHookForCommon",
+      "Name": "Conditional Trigger",
+      "Description": "This operation triggers when the selected event occurs.",
+      "Anchor": "#conditional-trigger",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Flow_CreateHookForConfirmDetailCompleted",
       "Name": "When an end user completes a governance details confirmation task",
       "Description": "This operation triggers when an end user completes a governance details confirmation task for a workspace.",

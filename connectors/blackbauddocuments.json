@@ -1,0 +1,13 @@
+{
+  "UniqueName": "blackbauddocuments",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbauddocuments/",
+  "Actions": [
+    {
+      "OperationId": "CreateDocument",
+      "Name": "Create a document location",
+      "Description": "Creates a new unique document identifier and upload location for use with physical attachments.  The response will include instructions for where and how to upload the document contents.",
+      "Anchor": "#create-a-document-location",
+      "IsDeprecated": false
+    }
+  ]
+}

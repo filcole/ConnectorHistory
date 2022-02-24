@@ -17,6 +17,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CancelFlowRun",
+      "Name": "Cancel Flow Run",
+      "Description": "Cancel a flow run.",
+      "Anchor": "#cancel-flow-run",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateConnection",
       "Name": "Create Connection",
       "Description": "Create a connection for the given connector in an environment.",

@@ -1,0 +1,461 @@
+{
+  "UniqueName": "actsoft",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../actsoft/",
+  "Actions": [
+    {
+      "OperationId": "BinariesController_UploadBinary",
+      "Name": "Upload binary file",
+      "Description": "Use this option to upload form file attachments. Binary size is limited to 10MB. Supported file types are:\n\nJPEG\nPNG\nMP4",
+      "Anchor": "#upload-binary-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClientsController_Create",
+      "Name": "Create a client",
+      "Description": "Creates a new client.",
+      "Anchor": "#create-a-client",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClientsController_Delete",
+      "Name": "Delete a client",
+      "Description": "Deletes an existing client by its Id.",
+      "Anchor": "#delete-a-client",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClientsController_Get",
+      "Name": "Get a client",
+      "Description": "Retrieves a client object by its Id.",
+      "Anchor": "#get-a-client",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClientsController_GetClients",
+      "Name": "Get a list of clients",
+      "Description": "Retrieves a list of clients. You can specify the number of pages returned and the number of elements per page.\nThe results are automatically sorted by Name, and in ascending order. Sort parameters are not configurable.",
+      "Anchor": "#get-a-list-of-clients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClientsController_Update",
+      "Name": "Update a client",
+      "Description": "Updates an existing client.",
+      "Anchor": "#update-a-client",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomListsController_DeleteRecord",
+      "Name": "Delete custom list record",
+      "Description": "Deletes existing record in custom list by its customListId and id.\nid  - is unique value of custom list record\nErrors:\n404 - customListId or id not found.",
+      "Anchor": "#delete-custom-list-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomListsController_Get",
+      "Name": "Get custom list definitions",
+      "Description": "Retrieves a Custom List definition listing. The definition listing contains the CustomListID, Name and Version for all existing custom lists.",
+      "Anchor": "#get-custom-list-definitions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomListsController_GetById",
+      "Name": "Get custom list fields listing by CustomListID",
+      "Description": "Retrieves a list of fields for a single custom list, using the CustomListID.",
+      "Anchor": "#get-custom-list-fields-listing-by-customlistid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomListsController_GetCustomListRows",
+      "Name": "Get custom list data by CustomListID",
+      "Description": "Retrieves all the data records in a single custom list using the CustomListID.\nResults are sorted by column, and paging is supported.\nErrors:\n404 - there is no custom list for provided customListId.",
+      "Anchor": "#get-custom-list-data-by-customlistid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomListsController_GetSingleRecord",
+      "Name": "Get single record from custom list",
+      "Description": "Retrieves single custom list data record found by CustomListId and unique column value.\nErrors:\n404 - there is no custom list record for provided customListId and unique column value",
+      "Anchor": "#get-single-record-from-custom-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomListsController_PutRecord",
+      "Name": "Create or update custom list record",
+      "Description": "Creates or updates custom list data record. The value of unique column can be omitted, but if present, it should match the Unique ID value in the query parameter.",
+      "Anchor": "#create-or-update-custom-list-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsController_Delete",
+      "Name": "Delete a custom event definition",
+      "Description": "Deletes a custom event definition.",
+      "Anchor": "#delete-a-custom-event-definition",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsController_Get",
+      "Name": "Get a custom event definition by ID",
+      "Description": "Retrieves a single custom event definition by ID.",
+      "Anchor": "#get-a-custom-event-definition-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsController_GetEvents",
+      "Name": "Get a list of events",
+      "Description": "Retrieves a list of events for a specific time period. You can specify the number of pages returned and the number of elements per page.\nFilter by event type to get specific events.\nVehicle events can be returned for an employee if the employee is associated with the vehicle.",
+      "Anchor": "#get-a-list-of-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsController_GetList",
+      "Name": "Get a list of custom event definitions",
+      "Description": "Retrieves a list of custom event definitions.",
+      "Anchor": "#get-a-list-of-custom-event-definitions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsController_GetSubscriptions",
+      "Name": "Get a list of event web hook subscriptions",
+      "Description": "Retrieves a list of event web hook subscriptions. You can specify the number of pages returned and the number of elements per page. Results are automatically sorted by\nSubscriptionId, and in ascending order. Sort parameters are not configurable.",
+      "Anchor": "#get-a-list-of-event-web-hook-subscriptions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsController_Post",
+      "Name": "Submit event",
+      "Description": "Submits event.",
+      "Anchor": "#submit-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsController_Put",
+      "Name": "Create or update a custom event definition",
+      "Description": "Creates or updates a custom event definition.",
+      "Anchor": "#create-or-update-a-custom-event-definition",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsController_RemoveEventsDataFeedSubscription",
+      "Name": "Unsubscribe from events web hook",
+      "Description": "Deletes an events web hook subscription by its ID.",
+      "Anchor": "#unsubscribe-from-events-web-hook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsController_ResetSubscriptionHealthStatus",
+      "Name": "Resets event web hook subscription status",
+      "Description": "Changes subscription status to the status = 1 (&quot;Running&quot;).",
+      "Anchor": "#resets-event-web-hook-subscription-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsController_subscribe_callback",
+      "Name": "Web hook callback with events feed",
+      "Description": "This example method is used by events/subscribe to post back event data feed using customer provided URL.",
+      "Anchor": "#web-hook-callback-with-events-feed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EventsController_SubscribeToEventsDataFeed",
+      "Name": "Subscribe to events web hook",
+      "Description": "Adds new events web hook subscription. Web hooks allow you to receive automatic notifications on company events occurring on a specified URL.",
+      "Anchor": "#subscribe-to-events-web-hook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormsController_GetFormAsync",
+      "Name": "Get a form",
+      "Description": "Retrieves a form by its Id.",
+      "Anchor": "#get-a-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormsController_GetFormsAsync",
+      "Name": "Get a list of forms",
+      "Description": "Retrieves a list of forms using any of the filters from the request parameters shown below. You can specify the number of pages returned and the number\nof elements per page. The results are automatically sorted by SubmittedTime, and in descending order. Sort parameters are not configurable.",
+      "Anchor": "#get-a-list-of-forms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormsController_Poll",
+      "Name": "Form data poll",
+      "Description": "The Forms API polling endpoint allows your application to continually poll and process recently submitted standalone forms.\nIntegration:\nThis endpoint is designed to work out of the box with Microsoft Flow as a polling trigger integration. Alternatively, you may develop your own\ncustom integration using any language.\nUsage:\nIn a typical scenario, the first request to this endpoint should not provide any parameters. There are two (2) possible successful responses:\n\nHTTP Response code 200 - Recently submitted form records exist; response body will display form data.\nHTTP Response code 202  No recently submitted records exist; response body will be empty.\n\nIn both cases, there are two (2) important headers in the response:\n\nLocation  The URL for the next request.\nRetry-After  The recommended time interval in seconds for next request. For example, if there is data to retrieve, the Retry-After header will have a value of 1 or 60.\nIf there is no data to retrieve, the value of the Retry-After header will be 300.\n\nNote: These are just recommended values  your application may choose to poll at a different frequency depending on your requirements. After the first request, all subsequent\nrequests should use the URL provided in the Location header of the most recent response. Do not add more parameters to the URL, as it already contains the necessary\nparameters required to ensure forms are not missing from the request.\nResults are automatically sorted by ModifiedUtc and then by FormHeaderId, in ascending order. Sort parameters are not configurable.\nModifiedUtc definition: internal time tag = time of latest form data change.",
+      "Anchor": "#form-data-poll",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormsController_PostFormAsync",
+      "Name": "Create a form",
+      "Description": "Adds a new form.",
+      "Anchor": "#create-a-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GeofencesController_CreateGeofence",
+      "Name": "Create a geofence",
+      "Description": "Creates a new geofence.",
+      "Anchor": "#create-a-geofence",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GeofencesController_DeleteGeofence",
+      "Name": "Delete a geofence",
+      "Description": "Deletes an existing geofence by its Id.",
+      "Anchor": "#delete-a-geofence",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GeofencesController_GetGeofence",
+      "Name": "Get a geofence",
+      "Description": "Retrieves a geofence by its id.",
+      "Anchor": "#get-a-geofence",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GeofencesController_GetGeofences",
+      "Name": "Get a list of geofences",
+      "Description": "Retrieves a list of geofences. You can specify the number of pages returned and the number of elements per page, as well as whether the geofence coordinates are metric.\nThe results are automatically sorted by Name, and in ascending order. Sort parameters are not configurable.",
+      "Anchor": "#get-a-list-of-geofences",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GeofencesController_UpdateGeofence",
+      "Name": "Update an existing geofence",
+      "Description": "Updates an existing geofence by its Id.",
+      "Anchor": "#update-an-existing-geofence",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrdersController_ChangeStatus",
+      "Name": "Update order status",
+      "Description": "Changes an existing order status.",
+      "Anchor": "#update-order-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrdersController_Create",
+      "Name": "Create an order",
+      "Description": "Adds a new order.",
+      "Anchor": "#create-an-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrdersController_GetOrder",
+      "Name": "Get an order",
+      "Description": "Gets an existing order by its Id.",
+      "Anchor": "#get-an-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrdersController_GetOrders",
+      "Name": "Get a list of orders",
+      "Description": "Retrieves a list of orders using the filters from the request parameters shown below. You can specify the number of pages returned and the number of elements per page.\nResults are automatically sorted by Client.Name, and in ascending order. Sort parameters are not configurable.",
+      "Anchor": "#get-a-list-of-orders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrdersController_Poll",
+      "Name": "Orders poll",
+      "Description": "The Orders API polling endpoint allows your application to continually poll and process recent changes to orders.\nIntegration:\nThis endpoint is designed to work out of the box with Microsoft Flow as a polling trigger integration. Alternatively, you may develop your own\ncustom integration using any language.\nUsage:\nIn a typical scenario, the first request to this endpoint should not provide any parameters. There are two (2) possible successful responses:\n\nHTTP Response code 200 - Recently changed orders exist; response body will display order data.\nHTTP Response code 202  No recently changed orders exist; response body will be empty.\n\nIn both cases, there are two (2) important headers in the response:\n\nLocation  The URL for the next request.\nRetry-After  The recommended time interval in seconds for next request. For example, if there is data to retrieve, the Retry-After header will have a value of 1 or 60.\nIf there is no data to retrieve, the value of the Retry-After header will be 300.\n\nNote: These are just recommended values  your application may choose to poll at a different frequency depending on your requirements. After the first request, all\nsubsequent requests should use the URL provided in the Location header of the most recent response. Do not add more parameters to the URL, as it already contains the\nnecessary parameters required to ensure order changes are not missing from the request.\nResults are automatically sorted by ModifiedUtc and then by OrderId, in ascending order. Sort parameters are not configurable.\nModifiedUtc definition: internal time tag = time of latest order data change.",
+      "Anchor": "#orders-poll",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrdersController_StatusesPoll",
+      "Name": "Order statuses poll",
+      "Description": "The Order Statuses API polling endpoint allows your application to continually poll and process recent changes to orders.\nIntegration:\nThis endpoint is designed to work out of the box with Microsoft Flow as a polling trigger integration. Alternatively, you may develop your own\ncustom integration using any language.\nUsage:\nIn a typical scenario, the first request to this endpoint should not provide any parameters. There are two (2) possible successful responses:\n\nHTTP Response code 200 - Recently changed order status records exist; response body will display order status data\nHTTP Response code 202  No recently submitted records exist; response body will be empty.\n\nIn both cases, there are two (2) important headers in the response:\n\nLocation  The URL for the next request.\nRetry-After  The recommended time interval in seconds for next request. For example, if there is data to retrieve, the Retry-After header will have a value of 1 or 60.\nIf there is no data to retrieve, the value of the Retry-After header will be 300.\n\nNote: These are just recommended values  your application may choose to poll at a different frequency depending on your requirements. After the first request, all\nsubsequent requests should use the URL provided in the Location header of the most recent response. Do not add more parameters to the URL, as it already contains\nthose necessary to ensure order statuses are not missing from the request.\nResults are sorted by ModifiedUtc and then by StatusId, in ascending order. Sort parameters are not configurable.\nModifiedUtc definition: internal time tag = time of latest order status data change.",
+      "Anchor": "#order-statuses-poll",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrdersController_Update",
+      "Name": "Update an order",
+      "Description": "Updates an existing order.",
+      "Anchor": "#update-an-order",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimekeepingController_GetTimekeepingDataList",
+      "Name": "Get a list of timekeeping entries",
+      "Description": "Retrieves a list of timekeeping entries based on date range. You can specify the number of pages returned and the number of elements per page. Results are\nautomatically sorted by ClockInTime, and then by TimekeepingStatusId, and in ascending order. Sort parameters are not configurable.",
+      "Anchor": "#get-a-list-of-timekeeping-entries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimekeepingController_GetTimekeepingEntryAsync",
+      "Name": "Get a timekeeping entry",
+      "Description": "Retrieves an entry by its Id.",
+      "Anchor": "#get-a-timekeeping-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimekeepingController_Poll",
+      "Name": "Timekeeping poll",
+      "Description": "The Timekeeping API polling endpoint allows your application to continually poll and process recently submitted timekeeping entries.\nIntegration:\nThis endpoint is designed to work out of the box with Microsoft Flow as a polling trigger integration. Alternatively, you may develop your own\ncustom integration using any language.\nUsage:\nIn a typical scenario, the first request to this endpoint should not provide any parameters. There are two (2) possible successful responses:\n\nHTTP Response code 200 - Recently submitted timekeeping records exist; response body will display timekeeping entry data.\nHTTP Response code 202  No recently submitted records exist; response body will be empty.\n\nIn both cases, there are two (2) important headers in the response:\n\nLocation  The URL for the next request.\nRetry-After  The recommended time interval in seconds for next request. For example, if there is data to retrieve, the Retry-After header will have a value of 1 or 60.\nIf there is no data to retrieve, the value of the Retry-After header will be 300.\n\nNote: These are just recommended values  your application may choose to poll at a different frequency depending on your requirements. After the first request, all\nsubsequent requests should use the URL provided in the Location header of the most recent response. Do not add more parameters to the URL, as it already contains\nthose necessary to ensure timekeeping entries are not missing from the request.\nResults are automatically sorted by ModifiedUtc and then by TimekeepingStatusId and then in ascending order. Sort parameters are not configurable.\nModifiedUtc definition: internal time tag = time of latest timekeeping status change.",
+      "Anchor": "#timekeeping-poll",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrackingController_GetGpsData",
+      "Name": "Get GPS data entries",
+      "Description": "Retrieves GPS data entries for a specified date range. Also returns a continuation token and a link to get the next data portion. You can specify the number of pages\nreturned and the number of elements per page.\nPositions for deleted users/vehicles are not returned. However, if the user/vehicle existed when data was requested and was later removed, then data for the\nuser/vehicle requested by a continuation token will be returned.\nResults are automatically sorted by UtcTime, and in ascending order. Sort parameters are not configurable.",
+      "Anchor": "#get-gps-data-entries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrackingController_GetSubscriptions",
+      "Name": "Get a list of subscriptions",
+      "Description": "Retrieves a list of web hook subscriptions. You can specify the number of pages returned and the number of elements per page. Results are automatically sorted by\nSubscriptionId, and in ascending order. Sort parameters are not configurable.",
+      "Anchor": "#get-a-list-of-subscriptions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrackingController_GetTrips",
+      "Name": "Get a list of trips",
+      "Description": "Retrieves a list of trips for a specific time period. You can specify the number of pages returned and the number of elements per page. Results are automatically\nsorted by StartUtcTIme, and in ascending order. Sort parameters are not configurable.",
+      "Anchor": "#get-a-list-of-trips",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrackingController_RemoveGpsDataFeedSubscription",
+      "Name": "Unsubscribe GPS data web hook",
+      "Description": "Deletes a GPS data web hook subscription by its ID.",
+      "Anchor": "#unsubscribe-gps-data-web-hook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrackingController_ResetSubscriptionHealthStatus",
+      "Name": "Resets subscription status",
+      "Description": "Changes subscription status to the status = 1 (&quot;Running&quot;).",
+      "Anchor": "#resets-subscription-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrackingController_subscribe_callback",
+      "Name": "Webhook callback with GPS data feed",
+      "Description": "This example method is used by gpsdata/subscribe to post back data feed using customer provided URL.",
+      "Anchor": "#webhook-callback-with-gps-data-feed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrackingController_SubscribeToGpsDataFeed",
+      "Name": "Subscribe GPS data web hook",
+      "Description": "Adds new GPS Tracking data (GPS positions) web hook. Web hooks allow you to receive GPS positions occurring on a specified URL.",
+      "Anchor": "#subscribe-gps-data-web-hook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UsersController_Activate",
+      "Name": "Activate a user",
+      "Description": "Activates an existing user by its Id.",
+      "Anchor": "#activate-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UsersController_Create",
+      "Name": "Create a user",
+      "Description": "Creates a new user.",
+      "Anchor": "#create-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UsersController_Deactivate",
+      "Name": "Deactivate a user",
+      "Description": "Deactivates an existing user by its Id.",
+      "Anchor": "#deactivate-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UsersController_Get",
+      "Name": "Get a user",
+      "Description": "Gets a user by its Id.",
+      "Anchor": "#get-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UsersController_GetUsers",
+      "Name": "Get a list of users",
+      "Description": "Retrieves a list of clients. You can specify the number of pages returned and the number of elements per page. Results are automatically sorted by UserId, and in\nascending order. Sort parameters are not configurable.",
+      "Anchor": "#get-a-list-of-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UsersController_PartialUpdate",
+      "Name": "Update part of a user",
+      "Description": "Updates part of user's properties.",
+      "Anchor": "#update-part-of-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UsersController_Update",
+      "Name": "Update a user",
+      "Description": "Updates an existing user.",
+      "Anchor": "#update-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VehiclesController_Activate",
+      "Name": "Activate a vehicle",
+      "Description": "Activate a vehicle by ID.",
+      "Anchor": "#activate-a-vehicle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VehiclesController_CreateVehicle",
+      "Name": "Create a vehicle",
+      "Description": "Creates a vehicle.",
+      "Anchor": "#create-a-vehicle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VehiclesController_Deactivate",
+      "Name": "Deactivate a vehicle",
+      "Description": "Deactivate a vehicle by ID.",
+      "Anchor": "#deactivate-a-vehicle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VehiclesController_Delete",
+      "Name": "Delete a vehicle",
+      "Description": "Delete a vehicle by ID.",
+      "Anchor": "#delete-a-vehicle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VehiclesController_GetVehicle",
+      "Name": "Get a vehicle by ID",
+      "Description": "Retrieves a single vehicle by ID.",
+      "Anchor": "#get-a-vehicle-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VehiclesController_GetVehicles",
+      "Name": "Get a vehicles list",
+      "Description": "Retrieves a vehicles list.",
+      "Anchor": "#get-a-vehicles-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VehiclesController_PartialUpdateVehicle",
+      "Name": "Partial update a vehicle",
+      "Description": "Partial update a vehicle by ID.",
+      "Anchor": "#partial-update-a-vehicle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VehiclesController_UpdateVehicle",
+      "Name": "Update a vehicle",
+      "Description": "Update a vehicle by ID.",
+      "Anchor": "#update-a-vehicle",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VersionsController_Get",
+      "Name": "Get minor version",
+      "Description": "Returns the current minor version of API.",
+      "Anchor": "#get-minor-version",
+      "IsDeprecated": false
+    }
+  ]
+}

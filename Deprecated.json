@@ -661,89 +661,6 @@
     ]
   },
   {
-    "UniqueName": "azuresentinel",
-    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azuresentinel/",
-    "Actions": [
-      {
-        "OperationId": "AddCommentToIncident",
-        "Name": "Add comment to incident [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Add comment to incident (V3) instead.\nAdds comment to selected incident",
-        "Anchor": "#add-comment-to-incident-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "AddsLabelsToIncident",
-        "Name": "Add labels to incident (deprecated) [DEPRECATED]",
-        "Description": "Adds labels to selected incident",
-        "Anchor": "#add-labels-to-incident-(deprecated)-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "ASI_trigger_subscribe_Deprecated",
-        "Name": "When a response to an Azure Sentinel alert is triggered [DEPRECATED]",
-        "Description": "When a response to an Azure Sentinel alert is triggered. This playbook must be triggered using Azure Sentinel Real Time or from Azure",
-        "Anchor": "#when-a-response-to-an-azure-sentinel-alert-is-triggered-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "ASI_Trigger_Unsubscribe_Deprecated",
-        "Name": "ASI trigger unsubscribe [DEPRECATED]",
-        "Description": "Unsubscribe",
-        "Anchor": "#asi-trigger-unsubscribe-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "ChangeIncidentDescription",
-        "Name": "Change incident description [DEPRECATED]",
-        "Description": "changes description to selected incident",
-        "Anchor": "#change-incident-description-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "ChangeIncidentDescription_V2",
-        "Name": "Change incident description (V2) (deprecated) [DEPRECATED]",
-        "Description": "changes description to selected incident",
-        "Anchor": "#change-incident-description-(v2)-(deprecated)-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "ChangeIncidentSeverity",
-        "Name": "Change incident severity (deprecated) [DEPRECATED]",
-        "Description": "changes severity to selected incident",
-        "Anchor": "#change-incident-severity-(deprecated)-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "ChangeIncidentStatus",
-        "Name": "Change incident status (deprecated) [DEPRECATED]",
-        "Description": "changes status to selected incident",
-        "Anchor": "#change-incident-status-(deprecated)-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "ChangeIncidentTitle",
-        "Name": "Change incident title [DEPRECATED]",
-        "Description": "changes title to selected incident",
-        "Anchor": "#change-incident-title-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "ChangeIncidentTitle_v2",
-        "Name": "Change incident title (V2) (deprecated) [DEPRECATED]",
-        "Description": "changes title to selected incident",
-        "Anchor": "#change-incident-title-(v2)-(deprecated)-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "RemovesLabelsToIncident",
-        "Name": "Remove labels from incident (deprecated) [DEPRECATED]",
-        "Description": "Removes labels to selected incident",
-        "Anchor": "#remove-labels-from-incident-(deprecated)-[deprecated]",
-        "IsDeprecated": true
-      }
-    ]
-  },
-  {
     "UniqueName": "basecamp",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../basecamp/",
     "Actions": [
@@ -1681,6 +1598,89 @@
         "Name": "When a new response is submitted [DEPRECATED]",
         "Description": "This operation triggers a flow when a new response is submitted.",
         "Anchor": "#when-a-new-response-is-submitted-[deprecated]",
+        "IsDeprecated": true
+      }
+    ]
+  },
+  {
+    "UniqueName": "azuresentinel",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azuresentinel/",
+    "Actions": [
+      {
+        "OperationId": "AddCommentToIncident",
+        "Name": "Add comment to incident [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Add comment to incident (V3) instead.\nAdds comment to selected incident",
+        "Anchor": "#add-comment-to-incident-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "AddsLabelsToIncident",
+        "Name": "Add labels to incident (deprecated) [DEPRECATED]",
+        "Description": "Adds labels to selected incident",
+        "Anchor": "#add-labels-to-incident-(deprecated)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "ASI_trigger_subscribe_Deprecated",
+        "Name": "When a response to an Microsoft Sentinel alert is triggered [DEPRECATED]",
+        "Description": "When a response to an Microsoft Sentinel alert is triggered. This playbook must be triggered using Microsoft Sentinel Real Time or from Azure",
+        "Anchor": "#when-a-response-to-an-microsoft-sentinel-alert-is-triggered-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "ASI_Trigger_Unsubscribe_Deprecated",
+        "Name": "ASI trigger unsubscribe [DEPRECATED]",
+        "Description": "Unsubscribe",
+        "Anchor": "#asi-trigger-unsubscribe-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "ChangeIncidentDescription",
+        "Name": "Change incident description [DEPRECATED]",
+        "Description": "changes description to selected incident",
+        "Anchor": "#change-incident-description-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "ChangeIncidentDescription_V2",
+        "Name": "Change incident description (V2) (deprecated) [DEPRECATED]",
+        "Description": "changes description to selected incident",
+        "Anchor": "#change-incident-description-(v2)-(deprecated)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "ChangeIncidentSeverity",
+        "Name": "Change incident severity (deprecated) [DEPRECATED]",
+        "Description": "changes severity to selected incident",
+        "Anchor": "#change-incident-severity-(deprecated)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "ChangeIncidentStatus",
+        "Name": "Change incident status (deprecated) [DEPRECATED]",
+        "Description": "changes status to selected incident",
+        "Anchor": "#change-incident-status-(deprecated)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "ChangeIncidentTitle",
+        "Name": "Change incident title [DEPRECATED]",
+        "Description": "changes title to selected incident",
+        "Anchor": "#change-incident-title-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "ChangeIncidentTitle_v2",
+        "Name": "Change incident title (V2) (deprecated) [DEPRECATED]",
+        "Description": "changes title to selected incident",
+        "Anchor": "#change-incident-title-(v2)-(deprecated)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "RemovesLabelsToIncident",
+        "Name": "Remove labels from incident (deprecated) [DEPRECATED]",
+        "Description": "Removes labels to selected incident",
+        "Anchor": "#remove-labels-from-incident-(deprecated)-[deprecated]",
         "IsDeprecated": true
       }
     ]

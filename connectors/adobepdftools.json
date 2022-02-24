@@ -89,8 +89,15 @@
     {
       "OperationId": "ExportPDFToImage",
       "Name": "Convert PDF to Image (Preview)",
-      "Description": "Convert a PDF file to an image file. Only files with .pdf extension are supported.",
+      "Description": "Convert a PDF file to a zip of images. Only files with .pdf extension are supported.",
       "Anchor": "#convert-pdf-to-image-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExportPDFToImageList",
+      "Name": "Convert PDF to List Of Images (Preview)",
+      "Description": "Convert a PDF file to a list of images. Only files with .pdf extension are supported.",
+      "Anchor": "#convert-pdf-to-list-of-images-(preview)",
       "IsDeprecated": false
     },
     {
@@ -108,6 +115,41 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ExtractImagesFromPDF",
+      "Name": "Extract Images From PDF (Preview)",
+      "Description": "Extracts Images from a PDF Document. Only files with .pdf extension are supported.",
+      "Anchor": "#extract-images-from-pdf-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractJSONAndImagesAndTablesFromPDF",
+      "Name": "Extract PDF Structure, Tables and Images from a PDF (Preview)",
+      "Description": "Extract PDF structure and content elements, incl. Tables and Images, from PDF Document.  Only files with .pdf extension are supported.",
+      "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractJSONFileFromPDF",
+      "Name": "Extract PDF Structure in a JSON File (Preview)",
+      "Description": "Extract PDF Structure in a JSON File. Only files with .pdf extension are supported.",
+      "Anchor": "#extract-pdf-structure-in-a-json-file-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractJSONObjectFromPDF",
+      "Name": "Extract PDF Structure in a JSON Object (Preview)",
+      "Description": "Extract PDF Structure in a JSON Object. Only files with .pdf extension are supported.",
+      "Anchor": "#extract-pdf-structure-in-a-json-object-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractTablesFromPDF",
+      "Name": "Extract Tables from PDF (Preview)",
+      "Description": "Extracts Tables in .xlsx format from a PDF Document. Only files with .pdf extension are supported.",
+      "Anchor": "#extract-tables-from-pdf-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "LinearizePDF",
       "Name": "Linearize PDF (Preview)",
       "Description": "Linearize a PDF file. Only files with .pdf extension are supported.",
@@ -119,6 +161,13 @@
       "Name": "Create Searchable PDF using OCR (Preview)",
       "Description": "OCR a PDF file. Only files with .pdf extension are supported.",
       "Anchor": "#create-searchable-pdf-using-ocr-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PDFProperties",
+      "Name": "Get PDF Properties (Preview)",
+      "Description": "Get Properties of a PDF Document. Only files with .pdf extension are supported.",
+      "Anchor": "#get-pdf-properties-(preview)",
       "IsDeprecated": false
     },
     {

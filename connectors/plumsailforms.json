@@ -1,5 +1,27 @@
 {
   "UniqueName": "plumsailforms",
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../plumsailforms/",
-  "Actions": []
+  "Actions": [
+    {
+      "OperationId": "DeleteAttachment",
+      "Name": "Delete attachment",
+      "Description": "Deletes an attachment by its URL",
+      "Anchor": "#delete-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteSubmission",
+      "Name": "Delete submission",
+      "Description": "Deletes an form submission by its ID",
+      "Anchor": "#delete-submission",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FormIsSubmitted",
+      "Name": "Form is submitted",
+      "Description": "Fires whenever the target form is submitted",
+      "Anchor": "#form-is-submitted",
+      "IsDeprecated": false
+    }
+  ]
 }

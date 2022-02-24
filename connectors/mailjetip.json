@@ -1,0 +1,125 @@
+{
+  "UniqueName": "mailjetip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mailjetip/",
+  "Actions": [
+    {
+      "OperationId": "CreateCampaignDraft",
+      "Name": "Create Campaign Draft",
+      "Description": "Create a new campaign draft. Newsletter and CampaignDraft objects are differentiated by the EditMode values.",
+      "Anchor": "#create-campaign-draft",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateContact",
+      "Name": "Create  Contact",
+      "Description": "Add a new unique contact to your global contact list and select its exclusion status",
+      "Anchor": "#create-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateContactList",
+      "Name": "Create Contact List",
+      "Description": "Create a new contact list",
+      "Anchor": "#create-contact-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteContactList",
+      "Name": "Delete Contact List",
+      "Description": "Delete a contact list",
+      "Anchor": "#delete-contact-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCampaignDraftByID",
+      "Name": "Get Campaign Draft By ID",
+      "Description": "Get a specific campaign draft and its configuration details",
+      "Anchor": "#get-campaign-draft-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCampaignOverview",
+      "Name": "Get Campaign Overview",
+      "Description": "Get general details and stats for all drafts, AB Testing objects and/or sent campaigns",
+      "Anchor": "#get-campaign-overview",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCampaignsDraft",
+      "Name": "Get Campaigns Draft",
+      "Description": "Get all campaign drafts and their configuration",
+      "Anchor": "#get-campaigns-draft",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContactByID",
+      "Name": "Get Contact By ID",
+      "Description": "Retrieve a specific contact",
+      "Anchor": "#get-contact-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContacts",
+      "Name": "Get Contacts",
+      "Description": "Retrieve a list of all contacts. Includes information about contact status and creation / activity timestamps",
+      "Anchor": "#get-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContactsStatistics",
+      "Name": "Get Contacts Statistics",
+      "Description": "Retrieve a list of overall aggregated delivery and engagement statistics, grouped by contact",
+      "Anchor": "#get-contacts-statistics",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessages",
+      "Name": "Get Messages",
+      "Description": "Get a list of messages with specific information on the type of content, tracking, sending and delivery",
+      "Anchor": "#get-messages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMessagesInformation",
+      "Name": "Get Messages Information",
+      "Description": "Retrieve sending/size/spam information about all messages",
+      "Anchor": "#get-messages-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEmailv3",
+      "Name": "Send Email v3",
+      "Description": "Send an email message via Send API v3",
+      "Anchor": "#send-email-v3",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEmailv3-1",
+      "Name": "Send Email v3.1",
+      "Description": "Send an email message via Send API v3.1",
+      "Anchor": "#send-email-v3.1",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateCampaignDraft",
+      "Name": "Update Campaign Draft",
+      "Description": "Update an existing campaign draft",
+      "Anchor": "#update-campaign-draft",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateContact",
+      "Name": "Update Contact",
+      "Description": "Update the user-given name and exclusion status of a specific contact",
+      "Anchor": "#update-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateContactList",
+      "Name": "Update Contact List",
+      "Description": "Update a specific contact list by changing its name and / or deletion status",
+      "Anchor": "#update-contact-list",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "UniqueName": "miroip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../miroip/",
+  "Actions": [
+    {
+      "OperationId": "CopyBoard",
+      "Name": "Copy a board",
+      "Description": "Create a copy of an existing board.",
+      "Anchor": "#copy-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateBoard",
+      "Name": "Create a board",
+      "Description": "Create a new board.",
+      "Anchor": "#create-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCard",
+      "Name": "Create a card widget",
+      "Description": "Create a new card widget.",
+      "Anchor": "#create-a-card-widget",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteWidget",
+      "Name": "Delete a widget",
+      "Description": "Delete a specific widget by its unique identifier.",
+      "Anchor": "#delete-a-widget",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetBoard",
+      "Name": "Get a board",
+      "Description": "Get a specific board by its unique identifier.",
+      "Anchor": "#get-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWidget",
+      "Name": "Get a widget",
+      "Description": "Get a specific single widget by its unique identifier.",
+      "Anchor": "#get-a-widget",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWidgets",
+      "Name": "Get widgets",
+      "Description": "Get all widgets.",
+      "Anchor": "#get-widgets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateBoard",
+      "Name": "Update a board",
+      "Description": "Update a specific board by its unique identifier.",
+      "Anchor": "#update-a-board",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateCard",
+      "Name": "Update a card widget",
+      "Description": "Update a specific card widget by its unique identifier.",
+      "Anchor": "#update-a-card-widget",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -32,23 +32,23 @@
     },
     {
       "OperationId": "ASI_incident_trigger_subscribe",
-      "Name": "When Azure Sentinel incident creation rule was triggered",
-      "Description": "When a response to an Azure Sentinel incident is triggered. This playbook is triggered by an automation rule when a new incident is created. Playbook receives the Azure Sentinel incident as its input, including alerts and entities.",
-      "Anchor": "#when-azure-sentinel-incident-creation-rule-was-triggered",
+      "Name": "Microsoft Sentinel incident",
+      "Description": "When a response to an Microsoft Sentinel incident is triggered. This playbook is triggered by an automation rule when a new incident is created. Playbook receives the Microsoft Sentinel incident as its input, including alerts and entities.",
+      "Anchor": "#microsoft-sentinel-incident",
       "IsDeprecated": false
     },
     {
       "OperationId": "ASI_trigger_subscribe",
-      "Name": "When a response to an Azure Sentinel alert is triggered",
-      "Description": "When a response to an Azure Sentinel alert is triggered. This playbook is triggered by an analytics rule when a new alert is created or by manual triggering. Playbook receives the alert as its input.",
-      "Anchor": "#when-a-response-to-an-azure-sentinel-alert-is-triggered",
+      "Name": "Microsoft Sentinel alert",
+      "Description": "When a response to an Microsoft Sentinel alert is triggered. This playbook is triggered by an analytics rule when a new alert is created or by manual triggering. Playbook receives the alert as its input.",
+      "Anchor": "#microsoft-sentinel-alert",
       "IsDeprecated": false
     },
     {
       "OperationId": "ASI_trigger_subscribe_Deprecated",
-      "Name": "When a response to an Azure Sentinel alert is triggered [DEPRECATED]",
-      "Description": "When a response to an Azure Sentinel alert is triggered. This playbook must be triggered using Azure Sentinel Real Time or from Azure",
-      "Anchor": "#when-a-response-to-an-azure-sentinel-alert-is-triggered-[deprecated]",
+      "Name": "When a response to an Microsoft Sentinel alert is triggered [DEPRECATED]",
+      "Description": "When a response to an Microsoft Sentinel alert is triggered. This playbook must be triggered using Microsoft Sentinel Real Time or from Azure",
+      "Anchor": "#when-a-response-to-an-microsoft-sentinel-alert-is-triggered-[deprecated]",
       "IsDeprecated": true
     },
     {
@@ -172,16 +172,16 @@
     },
     {
       "OperationId": "Watchlist_Delete",
-      "Name": "Watchlists - Deletes a watchlist",
-      "Description": "Watchlists - Deletes a watchlist",
-      "Anchor": "#watchlists---deletes-a-watchlist",
+      "Name": "Watchlists - Delete a watchlist",
+      "Description": "Watchlists - Delete a watchlist",
+      "Anchor": "#watchlists---delete-a-watchlist",
       "IsDeprecated": false
     },
     {
       "OperationId": "Watchlist_Get",
-      "Name": "Watchlists - Gets a watchlist",
-      "Description": "Watchlists - Gets a watchlist",
-      "Anchor": "#watchlists---gets-a-watchlist",
+      "Name": "Watchlists - Get a watchlist by alias",
+      "Description": "Watchlists - Get a watchlist by alias",
+      "Anchor": "#watchlists---get-a-watchlist-by-alias",
       "IsDeprecated": false
     },
     {
@@ -193,30 +193,30 @@
     },
     {
       "OperationId": "WatchlistItems_Delete",
-      "Name": "Watchlists - Deletes a watchlist item",
-      "Description": "Watchlists - Deletes a watchlist item",
-      "Anchor": "#watchlists---deletes-a-watchlist-item",
+      "Name": "Watchlists - Delete a watchlist item",
+      "Description": "Watchlists - Delete a watchlist item",
+      "Anchor": "#watchlists---delete-a-watchlist-item",
       "IsDeprecated": false
     },
     {
       "OperationId": "WatchlistItems_Get",
-      "Name": "Watchlists - Gets a watchlist item",
-      "Description": "Watchlists - Gets a watchlist item",
-      "Anchor": "#watchlists---gets-a-watchlist-item",
+      "Name": "Watchlists - Get a watchlist item",
+      "Description": "Watchlists - Get a watchlist item",
+      "Anchor": "#watchlists---get-a-watchlist-item",
       "IsDeprecated": false
     },
     {
       "OperationId": "WatchlistItems_GetAll",
-      "Name": "Watchlists - Gets all watchlist without watchlist items",
-      "Description": "Watchlists - Gets all watchlist without watchlist items",
-      "Anchor": "#watchlists---gets-all-watchlist-without-watchlist-items",
+      "Name": "Watchlists - Get all watchlists without watchlist items",
+      "Description": "Watchlists - Get all watchlists without watchlist items",
+      "Anchor": "#watchlists---get-all-watchlists-without-watchlist-items",
       "IsDeprecated": false
     },
     {
       "OperationId": "WatchlistItems_List",
-      "Name": "Watchlists - Gets all watchlist Items for a given watchlist",
-      "Description": "Watchlists - Gets all watchlist Items for a given watchlist",
-      "Anchor": "#watchlists---gets-all-watchlist-items-for-a-given-watchlist",
+      "Name": "Watchlists - Get all watchlist Items for a given watchlist",
+      "Description": "Watchlists - Get all watchlist Items for a given watchlist",
+      "Anchor": "#watchlists---get-all-watchlist-items-for-a-given-watchlist",
       "IsDeprecated": false
     },
     {

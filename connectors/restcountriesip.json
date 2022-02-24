@@ -1,0 +1,13 @@
+{
+  "UniqueName": "restcountriesip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../restcountriesip/",
+  "Actions": [
+    {
+      "OperationId": "ALL",
+      "Name": "ALL",
+      "Description": "ALL",
+      "Anchor": "#all",
+      "IsDeprecated": false
+    }
+  ]
+}

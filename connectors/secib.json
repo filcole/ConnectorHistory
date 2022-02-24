@@ -1,0 +1,27 @@
+{
+  "UniqueName": "secib",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../secib/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Retrieving view's data",
+      "Description": "Retrieve data from a view in the SECIB database.",
+      "Anchor": "#retrieving-view's-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DossierCreated",
+      "Name": "When a case file is created",
+      "Description": "Triggers a flow when a case file is created in SECIB neo, SECIB air or in Gestisoft.",
+      "Anchor": "#when-a-case-file-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCabinets",
+      "Name": "Retrieving firms",
+      "Description": "Retrieving each accessible firm for the current user.",
+      "Anchor": "#retrieving-firms",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "UniqueName": "nistnvdip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nistnvdip/",
+  "Actions": [
+    {
+      "OperationId": "GetCPECollection",
+      "Name": "Retrieve CPE information",
+      "Description": "Retrieve CPE information",
+      "Anchor": "#retrieve-cpe-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCVECollection",
+      "Name": "Retrieve a collection of CVE",
+      "Description": "Retrieve a collection of CVE",
+      "Anchor": "#retrieve-a-collection-of-cve",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -38,6 +38,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "DownloadDocumentFromPackage",
+      "Name": "Download Document from Package",
+      "Description": "The signed documents in a package can be downloaded one by one by an external system using this call. Each document will be downloaded as a PDF, or as an XML file stream, depending on the value of the DocumentType parameter.",
+      "Anchor": "#download-document-from-package",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "DownloadPackage",
       "Name": "Download Package",
       "Description": "The package containing the signed documents can be downloaded by an external system using this call.",

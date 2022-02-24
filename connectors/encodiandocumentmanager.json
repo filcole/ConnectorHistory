@@ -11,16 +11,23 @@
     },
     {
       "OperationId": "AddImageWatermark",
-      "Name": "Add Image Watermark",
-      "Description": "Add an image watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012484094-Add-Image-Watermark",
-      "Anchor": "#add-image-watermark",
+      "Name": "Add Image Watermark to PDF",
+      "Description": "Add an image watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012484094",
+      "Anchor": "#add-image-watermark-to-pdf",
       "IsDeprecated": false
     },
     {
       "OperationId": "AddImageWatermarkAdvanced",
-      "Name": "Add Image Watermark (Advanced)",
-      "Description": "Add an image watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012485874-Add-Image-Watermark-Advanced-",
-      "Anchor": "#add-image-watermark-(advanced)",
+      "Name": "Add Image Watermark to PDF (Advanced)",
+      "Description": "Add an image watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012485874",
+      "Anchor": "#add-image-watermark-to-pdf-(advanced)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddImageWatermarkWord",
+      "Name": "Add Image Watermark to Word",
+      "Description": "Add an image watermark to the specified Microsoft Word document - https://support.encodian.com/hc/en-gb/articles/4411329161361",
+      "Anchor": "#add-image-watermark-to-word",
       "IsDeprecated": false
     },
     {
@@ -32,16 +39,16 @@
     },
     {
       "OperationId": "AddTextWatermark",
-      "Name": "Add Text Watermark",
-      "Description": "Add a text watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012230494-Add-Text-Watermark",
-      "Anchor": "#add-text-watermark",
+      "Name": "Add Text Watermark to PDF",
+      "Description": "Add a text watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012230494",
+      "Anchor": "#add-text-watermark-to-pdf",
       "IsDeprecated": false
     },
     {
       "OperationId": "AddTextWatermarkAdvanced",
-      "Name": "Add Text Watermark (Advanced)",
-      "Description": "Add a text watermark to the specified PDF document using the advanced options - https://support.encodian.com/hc/en-gb/articles/360012345813-Add-Text-Watermark-Advanced-",
-      "Anchor": "#add-text-watermark-(advanced)",
+      "Name": "Add Text Watermark to PDF (Advanced)",
+      "Description": "Add a text watermark to the specified PDF document using the advanced options - https://support.encodian.com/hc/en-gb/articles/360012345813",
+      "Anchor": "#add-text-watermark-to-pdf-(advanced)",
       "IsDeprecated": false
     },
     {
@@ -49,6 +56,13 @@
       "Name": "Add Text Watermark to Image",
       "Description": "Add a Text Watermark to the image provided - https://support.encodian.com/hc/en-gb/articles/360013560398-Add-Text-Watermark-To-Image",
       "Anchor": "#add-text-watermark-to-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddTextWatermarkWord",
+      "Name": "Add Text Watermark to Word",
+      "Description": "Add a text watermark to the specified Microsoft Word document - https://support.encodian.com/hc/en-gb/articles/4411284008593",
+      "Anchor": "#add-text-watermark-to-word",
       "IsDeprecated": false
     },
     {

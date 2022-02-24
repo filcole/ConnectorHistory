@@ -1,0 +1,153 @@
+{
+  "UniqueName": "blackbaudevents",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudevents/",
+  "Actions": [
+    {
+      "OperationId": "CreateEvent",
+      "Name": "Create an event",
+      "Description": "Creates a new event.",
+      "Anchor": "#create-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEventFee",
+      "Name": "Create an event fee",
+      "Description": "Creates a new fee for an event.",
+      "Anchor": "#create-an-event-fee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEventParticipantOption",
+      "Name": "Create an event participant option",
+      "Description": "Creates a new participant option for an event.",
+      "Anchor": "#create-an-event-participant-option",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateParticipant",
+      "Name": "Create a participant",
+      "Description": "Creates a new participant for an event.",
+      "Anchor": "#create-a-participant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateParticipantDonation",
+      "Name": "Create a participant donation",
+      "Description": "Creates a new donation for a participant.",
+      "Anchor": "#create-a-participant-donation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateParticipantFee",
+      "Name": "Create a participant fee",
+      "Description": "Creates a new fee for a participant.",
+      "Anchor": "#create-a-participant-fee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateParticipantFeePayment",
+      "Name": "Create a participant fee payment",
+      "Description": "Creates a new fee payment for a participant.",
+      "Anchor": "#create-a-participant-fee-payment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateParticipantOption",
+      "Name": "Create a participant option",
+      "Description": "Creates a new participant option for a participant.",
+      "Anchor": "#create-a-participant-option",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditEvent",
+      "Name": "Update an event",
+      "Description": "Updates the details about an event.",
+      "Anchor": "#update-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditParticipant",
+      "Name": "Update a participant",
+      "Description": "Updates the details about a participant.",
+      "Anchor": "#update-a-participant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditParticipantOption",
+      "Name": "Update a participant option",
+      "Description": "Updates the details about a participant option.",
+      "Anchor": "#update-a-participant-option",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEvent",
+      "Name": "Get an event",
+      "Description": "Returns information about an event.",
+      "Anchor": "#get-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetParticipant",
+      "Name": "Get a participant",
+      "Description": "Returns information about a specific event participant.",
+      "Anchor": "#get-a-participant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEventFees",
+      "Name": "List event fees",
+      "Description": "Lists the fees for an event.",
+      "Anchor": "#list-event-fees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEventParticipantOptions",
+      "Name": "List event participant options",
+      "Description": "Lists the participant options for an event.",
+      "Anchor": "#list-event-participant-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEventParticipants",
+      "Name": "List event participants",
+      "Description": "Lists the participants for an event.",
+      "Anchor": "#list-event-participants",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListEvents",
+      "Name": "List events",
+      "Description": "Returns a list of events.",
+      "Anchor": "#list-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListParticipantDonations",
+      "Name": "List participant donations",
+      "Description": "Lists the donations for a participant.",
+      "Anchor": "#list-participant-donations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListParticipantFeePayments",
+      "Name": "List participant fee payments",
+      "Description": "Lists the fee payments for a participant.",
+      "Anchor": "#list-participant-fee-payments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListParticipantFees",
+      "Name": "List participant fees",
+      "Description": "Lists the fees for a participant.",
+      "Anchor": "#list-participant-fees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListParticipantOptions",
+      "Name": "List participant options",
+      "Description": "Lists the participant options for a participant.",
+      "Anchor": "#list-participant-options",
+      "IsDeprecated": false
+    }
+  ]
+}

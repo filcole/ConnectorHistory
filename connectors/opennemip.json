@@ -1,0 +1,153 @@
+{
+  "UniqueName": "opennemip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../opennemip/",
+  "Actions": [
+    {
+      "OperationId": "GetEmissionFactorPerNetworkRegion",
+      "Name": "Get Emission Factor Per Network Region",
+      "Description": "Get Emission Factor Per Network Region",
+      "Anchor": "#get-emission-factor-per-network-region",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnergybyStation",
+      "Name": "Get Energy by Station",
+      "Description": "Get energy output for a station (list of facilities) over a period",
+      "Anchor": "#get-energy-by-station",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFacilities",
+      "Name": "Get Facilities",
+      "Description": "Get Facilities",
+      "Anchor": "#get-facilities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFacilitybyCode",
+      "Name": "Get Facility by Code",
+      "Description": "Get Facility by Code",
+      "Anchor": "#get-facility-by-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFueltechMixByNetwork",
+      "Name": "Get Fueltech Mix By Network",
+      "Description": "Return fueltech proportion of demand for a network",
+      "Anchor": "#get-fueltech-mix-by-network",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFuelTechnologies",
+      "Name": "Get Fuel Technologies",
+      "Description": "Get Fuel Technologies",
+      "Anchor": "#get-fuel-technologies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetInterconnectorFlowNetwork",
+      "Name": "Get Interconnector Flow Network",
+      "Description": "Get Interconnector Flow Network",
+      "Anchor": "#get-interconnector-flow-network",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetIntervals",
+      "Name": "Get Intervals",
+      "Description": "Get Intervals",
+      "Anchor": "#get-intervals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNetworkRegions",
+      "Name": "Get Network Regions",
+      "Description": "Get Network Regions",
+      "Anchor": "#get-network-regions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetNetworks",
+      "Name": "Get Networks",
+      "Description": "Get Networks",
+      "Anchor": "#get-networks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPeriods",
+      "Name": "Get Periods",
+      "Description": "Get Periods",
+      "Anchor": "#get-periods",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPowerbyStation",
+      "Name": "Get Power by Station",
+      "Description": "Get Power by Station",
+      "Anchor": "#get-power-by-station",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPowerNetworkRegionByFueltech",
+      "Name": "Get Power Network Region By Fueltech",
+      "Description": "Get Power Network Region By Fueltech",
+      "Anchor": "#get-power-network-region-by-fueltech",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPriceHistoryByNetworkandNetworkRegion",
+      "Name": "Get Price History By Network and Network Region",
+      "Description": "Returns network and network region price info for interval which defaults to network interval size",
+      "Anchor": "#get-price-history-by-network-and-network-region",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSingleStationbyCode",
+      "Name": "Get a Single Network Station by Code",
+      "Description": "Get a Single Network Station by Code",
+      "Anchor": "#get-a-single-network-station-by-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationByID",
+      "Name": "Get Network Station by ID",
+      "Description": "Get Network Station by ID",
+      "Anchor": "#get-network-station-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStations",
+      "Name": "Get Network Stations",
+      "Description": "Get Network Stations",
+      "Anchor": "#get-network-stations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUnits",
+      "Name": "Get Units",
+      "Description": "Get Units",
+      "Anchor": "#get-units",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWeatherStationbyCode",
+      "Name": "Get Weather Station by Code",
+      "Description": "Get Weather Station by Code",
+      "Anchor": "#get-weather-station-by-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWeatherStationObservations",
+      "Name": "Get Weather Station Observations",
+      "Description": "Get Weather Station Observations",
+      "Anchor": "#get-weather-station-observations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWeatherStations",
+      "Name": "Get Weather Stations",
+      "Description": "Get Weather Stations",
+      "Anchor": "#get-weather-stations",
+      "IsDeprecated": false
+    }
+  ]
+}

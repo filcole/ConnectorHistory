@@ -1,0 +1,69 @@
+{
+  "UniqueName": "covid19jhucsseip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../covid19jhucsseip/",
+  "Actions": [
+    {
+      "OperationId": "Get_active_v2_active_get",
+      "Name": "Get Active",
+      "Description": "Get the total numbers of active cases",
+      "Anchor": "#get-active",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_confirmed_v2_confirmed_get",
+      "Name": "Get Confirmed",
+      "Description": "Get the total numbers of confirmed cases",
+      "Anchor": "#get-confirmed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_country_v2_country_country_name_get",
+      "Name": "Get Country",
+      "Description": "Get the data based on a county's name or its ISO code",
+      "Anchor": "#get-country",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_current_us_v2_current_US_get",
+      "Name": "Get Current Us",
+      "Description": "Get all data from USA's current situation",
+      "Anchor": "#get-current-us",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_current_v2_current_get",
+      "Name": "Get Current",
+      "Description": "Get the current situation data from all reported countries",
+      "Anchor": "#get-current",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_deaths_v2_deaths_get",
+      "Name": "Get Deaths",
+      "Description": "Get the total numbers of death cases",
+      "Anchor": "#get-deaths",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_recovered_v2_recovered_get",
+      "Name": "Get Recovered",
+      "Description": "Get the total numbers of recovered cases",
+      "Anchor": "#get-recovered",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_time_series_v2_timeseries_case_get",
+      "Name": "Get Time Series",
+      "Description": "Get the time series based on a given case: global, confirmed, deaths, recovered",
+      "Anchor": "#get-time-series",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get_total_v2_total_get",
+      "Name": "Get Total",
+      "Description": "Get the total numbers of all cases",
+      "Anchor": "#get-total",
+      "IsDeprecated": false
+    }
+  ]
+}

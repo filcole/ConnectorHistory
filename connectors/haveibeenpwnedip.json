@@ -1,0 +1,41 @@
+{
+  "UniqueName": "haveibeenpwnedip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../haveibeenpwnedip/",
+  "Actions": [
+    {
+      "OperationId": "AllBreaches",
+      "Name": "Getting all breached sites in the system",
+      "Description": "A breach is an instance of a system having been compromised by an attacker and the data disclosed. For example, Adobe was a breach, Gawker was a breach etc. It is possible to return the details of each of breach in the system.",
+      "Anchor": "#getting-all-breached-sites-in-the-system",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AllBreachesAccount",
+      "Name": "Getting all breaches for an account",
+      "Description": "The most common use of the API is to return a list of all breaches a particular account has been involved in. The API takes a single parameter which is the account to be searched for. The account is not case sensitive and will be trimmed of leading or trailing white spaces.",
+      "Anchor": "#getting-all-breaches-for-an-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BreachSingle",
+      "Name": "Getting a single breached site",
+      "Description": "Sometimes just a single breach is required and this can be retrieved by the breach name. This is the stable value which may or may not be the same as the breach title (which can change).",
+      "Anchor": "#getting-a-single-breached-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DataClasses",
+      "Name": "Getting all data classes in the system",
+      "Description": "A &quot;data class&quot; is an attribute of a record compromised in a breach. For example, many breaches expose data classes such as &quot;Email addresses&quot; and &quot;Passwords&quot;. The values returned by this service are ordered alphabetically in a string array and will expand over time as new breaches expose previously unseen classes of data.",
+      "Anchor": "#getting-all-data-classes-in-the-system",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pastes",
+      "Name": "Getting all pastes for an account",
+      "Description": "This action takes a single parameter which is the email address to be searched for. The email is not case sensitive and will be trimmed of leading or trailing white spaces.",
+      "Anchor": "#getting-all-pastes-for-an-account",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "UniqueName": "shieldsioip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../shieldsioip/",
+  "Actions": [
+    {
+      "OperationId": "BadgeCreate",
+      "Name": "Create a static badge",
+      "Description": "Create a static badge using defined parameters.",
+      "Anchor": "#create-a-static-badge",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BadgeGet",
+      "Name": "Get a pre-configured badge",
+      "Description": "Get a pre-configured badge. All badges are sorted by category at https://shields.io/",
+      "Anchor": "#get-a-pre-configured-badge",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -3,6 +3,13 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rescocloud/",
   "Actions": [
     {
+      "OperationId": "GenerateReport",
+      "Name": "Generate report",
+      "Description": "Generate report",
+      "Anchor": "#generate-report",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Record-Create",
       "Name": "Create a new record",
       "Description": "Create a new record",
@@ -24,6 +31,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Record-Get-Questionnaire",
+      "Name": "Get questionnaire",
+      "Description": "Get of questionaire record by ID",
+      "Anchor": "#get-questionnaire",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Record-List",
       "Name": "List records",
       "Description": "Get list of records",
@@ -31,10 +45,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Record-List-Questionnaire",
+      "Name": "List questionnaires",
+      "Description": "Get list of questionnaire records",
+      "Anchor": "#list-questionnaires",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Record-Update",
       "Name": "Update a record",
       "Description": "Update record by ID",
       "Anchor": "#update-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerCreate",
+      "Name": "When an item is created-updated-deleted",
+      "Description": "When an item is created-updated-deleted",
+      "Anchor": "#when-an-item-is-created-updated-deleted",
       "IsDeprecated": false
     },
     {

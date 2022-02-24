@@ -190,6 +190,41 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "AlarmFifteen",
+        "Name": "Get fifteen day of weather alarms",
+        "Description": "Returns 15 days of weather alarms for a specific location.",
+        "Anchor": "#get-fifteen-day-of-weather-alarms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AlarmFive",
+        "Name": "Get 5 days of weather alarms",
+        "Description": "Returns 5 days of weather alarms for a specific location.",
+        "Anchor": "#get-5-days-of-weather-alarms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AlarmOne",
+        "Name": "Get one day of weather alarms",
+        "Description": "Returns 1 day of weather alarms for a specific location.",
+        "Anchor": "#get-one-day-of-weather-alarms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AlarmTen",
+        "Name": "Get ten days of weather alarms",
+        "Description": "Returns 10 days of weather alarms for a specific location.",
+        "Anchor": "#get-ten-days-of-weather-alarms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AlertLocation",
+        "Name": "Get alerts by location key",
+        "Description": "Returns alert data for a specific location. Alert searches require a location key. Please use the Locations API to obtain the location key for your desired location. By default, a truncated version of the alert data is returned. The full object can be obtained by passing details=true.",
+        "Anchor": "#get-alerts-by-location-key",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "AutocompleteCities",
         "Name": "Autocomplete search (Cities)",
         "Description": "Returns basic information about locations matching an autocomplete of the search text.",
@@ -274,6 +309,34 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Imagery",
+        "Name": "Get radar and satellite imagery",
+        "Description": "Returns links to radar and satellite images by location key. Imagery searches require a location key. Please use the Locations API to obtain a location key for your desired location. Radar images are not available for all locations worldwide at this time. If radar is not available for your desired location, satellite images are still provided.",
+        "Anchor": "#get-radar-and-satellite-imagery",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LanguageGroups",
+        "Name": "List the available translation groups",
+        "Description": "Lists groups of phrases that are available for translation.",
+        "Anchor": "#list-the-available-translation-groups",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LanguageList",
+        "Name": "List all languages",
+        "Description": "Returns metadata for all languages.",
+        "Anchor": "#list-all-languages",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LanguageTranslationsGroup",
+        "Name": "List the translations for a specific group",
+        "Description": "Returns all translated phrases for a specific group, in the desired language.",
+        "Anchor": "#list-the-translations-for-a-specific-group",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ListDailyIndices",
         "Name": "Get List of Daily Indices",
         "Description": "Returns metadata for all daily indices.",
@@ -347,6 +410,467 @@
         "Name": "When there is a new contact",
         "Description": "Triggers when there is a new contact (up to 100 contacts).",
         "Anchor": "#when-there-is-a-new-contact",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "actsoft",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../actsoft/",
+    "Actions": [
+      {
+        "OperationId": "BinariesController_UploadBinary",
+        "Name": "Upload binary file",
+        "Description": "Use this option to upload form file attachments. Binary size is limited to 10MB. Supported file types are:\n\nJPEG\nPNG\nMP4",
+        "Anchor": "#upload-binary-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClientsController_Create",
+        "Name": "Create a client",
+        "Description": "Creates a new client.",
+        "Anchor": "#create-a-client",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClientsController_Delete",
+        "Name": "Delete a client",
+        "Description": "Deletes an existing client by its Id.",
+        "Anchor": "#delete-a-client",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClientsController_Get",
+        "Name": "Get a client",
+        "Description": "Retrieves a client object by its Id.",
+        "Anchor": "#get-a-client",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClientsController_GetClients",
+        "Name": "Get a list of clients",
+        "Description": "Retrieves a list of clients. You can specify the number of pages returned and the number of elements per page.\nThe results are automatically sorted by Name, and in ascending order. Sort parameters are not configurable.",
+        "Anchor": "#get-a-list-of-clients",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClientsController_Update",
+        "Name": "Update a client",
+        "Description": "Updates an existing client.",
+        "Anchor": "#update-a-client",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomListsController_DeleteRecord",
+        "Name": "Delete custom list record",
+        "Description": "Deletes existing record in custom list by its customListId and id.\nid  - is unique value of custom list record\nErrors:\n404 - customListId or id not found.",
+        "Anchor": "#delete-custom-list-record",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomListsController_Get",
+        "Name": "Get custom list definitions",
+        "Description": "Retrieves a Custom List definition listing. The definition listing contains the CustomListID, Name and Version for all existing custom lists.",
+        "Anchor": "#get-custom-list-definitions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomListsController_GetById",
+        "Name": "Get custom list fields listing by CustomListID",
+        "Description": "Retrieves a list of fields for a single custom list, using the CustomListID.",
+        "Anchor": "#get-custom-list-fields-listing-by-customlistid",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomListsController_GetCustomListRows",
+        "Name": "Get custom list data by CustomListID",
+        "Description": "Retrieves all the data records in a single custom list using the CustomListID.\nResults are sorted by column, and paging is supported.\nErrors:\n404 - there is no custom list for provided customListId.",
+        "Anchor": "#get-custom-list-data-by-customlistid",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomListsController_GetSingleRecord",
+        "Name": "Get single record from custom list",
+        "Description": "Retrieves single custom list data record found by CustomListId and unique column value.\nErrors:\n404 - there is no custom list record for provided customListId and unique column value",
+        "Anchor": "#get-single-record-from-custom-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomListsController_PutRecord",
+        "Name": "Create or update custom list record",
+        "Description": "Creates or updates custom list data record. The value of unique column can be omitted, but if present, it should match the Unique ID value in the query parameter.",
+        "Anchor": "#create-or-update-custom-list-record",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsController_Delete",
+        "Name": "Delete a custom event definition",
+        "Description": "Deletes a custom event definition.",
+        "Anchor": "#delete-a-custom-event-definition",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsController_Get",
+        "Name": "Get a custom event definition by ID",
+        "Description": "Retrieves a single custom event definition by ID.",
+        "Anchor": "#get-a-custom-event-definition-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsController_GetEvents",
+        "Name": "Get a list of events",
+        "Description": "Retrieves a list of events for a specific time period. You can specify the number of pages returned and the number of elements per page.\nFilter by event type to get specific events.\nVehicle events can be returned for an employee if the employee is associated with the vehicle.",
+        "Anchor": "#get-a-list-of-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsController_GetList",
+        "Name": "Get a list of custom event definitions",
+        "Description": "Retrieves a list of custom event definitions.",
+        "Anchor": "#get-a-list-of-custom-event-definitions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsController_GetSubscriptions",
+        "Name": "Get a list of event web hook subscriptions",
+        "Description": "Retrieves a list of event web hook subscriptions. You can specify the number of pages returned and the number of elements per page. Results are automatically sorted by\nSubscriptionId, and in ascending order. Sort parameters are not configurable.",
+        "Anchor": "#get-a-list-of-event-web-hook-subscriptions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsController_Post",
+        "Name": "Submit event",
+        "Description": "Submits event.",
+        "Anchor": "#submit-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsController_Put",
+        "Name": "Create or update a custom event definition",
+        "Description": "Creates or updates a custom event definition.",
+        "Anchor": "#create-or-update-a-custom-event-definition",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsController_RemoveEventsDataFeedSubscription",
+        "Name": "Unsubscribe from events web hook",
+        "Description": "Deletes an events web hook subscription by its ID.",
+        "Anchor": "#unsubscribe-from-events-web-hook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsController_ResetSubscriptionHealthStatus",
+        "Name": "Resets event web hook subscription status",
+        "Description": "Changes subscription status to the status = 1 (&quot;Running&quot;).",
+        "Anchor": "#resets-event-web-hook-subscription-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsController_subscribe_callback",
+        "Name": "Web hook callback with events feed",
+        "Description": "This example method is used by events/subscribe to post back event data feed using customer provided URL.",
+        "Anchor": "#web-hook-callback-with-events-feed",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EventsController_SubscribeToEventsDataFeed",
+        "Name": "Subscribe to events web hook",
+        "Description": "Adds new events web hook subscription. Web hooks allow you to receive automatic notifications on company events occurring on a specified URL.",
+        "Anchor": "#subscribe-to-events-web-hook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FormsController_GetFormAsync",
+        "Name": "Get a form",
+        "Description": "Retrieves a form by its Id.",
+        "Anchor": "#get-a-form",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FormsController_GetFormsAsync",
+        "Name": "Get a list of forms",
+        "Description": "Retrieves a list of forms using any of the filters from the request parameters shown below. You can specify the number of pages returned and the number\nof elements per page. The results are automatically sorted by SubmittedTime, and in descending order. Sort parameters are not configurable.",
+        "Anchor": "#get-a-list-of-forms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FormsController_Poll",
+        "Name": "Form data poll",
+        "Description": "The Forms API polling endpoint allows your application to continually poll and process recently submitted standalone forms.\nIntegration:\nThis endpoint is designed to work out of the box with Microsoft Flow as a polling trigger integration. Alternatively, you may develop your own\ncustom integration using any language.\nUsage:\nIn a typical scenario, the first request to this endpoint should not provide any parameters. There are two (2) possible successful responses:\n\nHTTP Response code 200 - Recently submitted form records exist; response body will display form data.\nHTTP Response code 202  No recently submitted records exist; response body will be empty.\n\nIn both cases, there are two (2) important headers in the response:\n\nLocation  The URL for the next request.\nRetry-After  The recommended time interval in seconds for next request. For example, if there is data to retrieve, the Retry-After header will have a value of 1 or 60.\nIf there is no data to retrieve, the value of the Retry-After header will be 300.\n\nNote: These are just recommended values  your application may choose to poll at a different frequency depending on your requirements. After the first request, all subsequent\nrequests should use the URL provided in the Location header of the most recent response. Do not add more parameters to the URL, as it already contains the necessary\nparameters required to ensure forms are not missing from the request.\nResults are automatically sorted by ModifiedUtc and then by FormHeaderId, in ascending order. Sort parameters are not configurable.\nModifiedUtc definition: internal time tag = time of latest form data change.",
+        "Anchor": "#form-data-poll",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FormsController_PostFormAsync",
+        "Name": "Create a form",
+        "Description": "Adds a new form.",
+        "Anchor": "#create-a-form",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GeofencesController_CreateGeofence",
+        "Name": "Create a geofence",
+        "Description": "Creates a new geofence.",
+        "Anchor": "#create-a-geofence",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GeofencesController_DeleteGeofence",
+        "Name": "Delete a geofence",
+        "Description": "Deletes an existing geofence by its Id.",
+        "Anchor": "#delete-a-geofence",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GeofencesController_GetGeofence",
+        "Name": "Get a geofence",
+        "Description": "Retrieves a geofence by its id.",
+        "Anchor": "#get-a-geofence",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GeofencesController_GetGeofences",
+        "Name": "Get a list of geofences",
+        "Description": "Retrieves a list of geofences. You can specify the number of pages returned and the number of elements per page, as well as whether the geofence coordinates are metric.\nThe results are automatically sorted by Name, and in ascending order. Sort parameters are not configurable.",
+        "Anchor": "#get-a-list-of-geofences",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GeofencesController_UpdateGeofence",
+        "Name": "Update an existing geofence",
+        "Description": "Updates an existing geofence by its Id.",
+        "Anchor": "#update-an-existing-geofence",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrdersController_ChangeStatus",
+        "Name": "Update order status",
+        "Description": "Changes an existing order status.",
+        "Anchor": "#update-order-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrdersController_Create",
+        "Name": "Create an order",
+        "Description": "Adds a new order.",
+        "Anchor": "#create-an-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrdersController_GetOrder",
+        "Name": "Get an order",
+        "Description": "Gets an existing order by its Id.",
+        "Anchor": "#get-an-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrdersController_GetOrders",
+        "Name": "Get a list of orders",
+        "Description": "Retrieves a list of orders using the filters from the request parameters shown below. You can specify the number of pages returned and the number of elements per page.\nResults are automatically sorted by Client.Name, and in ascending order. Sort parameters are not configurable.",
+        "Anchor": "#get-a-list-of-orders",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrdersController_Poll",
+        "Name": "Orders poll",
+        "Description": "The Orders API polling endpoint allows your application to continually poll and process recent changes to orders.\nIntegration:\nThis endpoint is designed to work out of the box with Microsoft Flow as a polling trigger integration. Alternatively, you may develop your own\ncustom integration using any language.\nUsage:\nIn a typical scenario, the first request to this endpoint should not provide any parameters. There are two (2) possible successful responses:\n\nHTTP Response code 200 - Recently changed orders exist; response body will display order data.\nHTTP Response code 202  No recently changed orders exist; response body will be empty.\n\nIn both cases, there are two (2) important headers in the response:\n\nLocation  The URL for the next request.\nRetry-After  The recommended time interval in seconds for next request. For example, if there is data to retrieve, the Retry-After header will have a value of 1 or 60.\nIf there is no data to retrieve, the value of the Retry-After header will be 300.\n\nNote: These are just recommended values  your application may choose to poll at a different frequency depending on your requirements. After the first request, all\nsubsequent requests should use the URL provided in the Location header of the most recent response. Do not add more parameters to the URL, as it already contains the\nnecessary parameters required to ensure order changes are not missing from the request.\nResults are automatically sorted by ModifiedUtc and then by OrderId, in ascending order. Sort parameters are not configurable.\nModifiedUtc definition: internal time tag = time of latest order data change.",
+        "Anchor": "#orders-poll",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrdersController_StatusesPoll",
+        "Name": "Order statuses poll",
+        "Description": "The Order Statuses API polling endpoint allows your application to continually poll and process recent changes to orders.\nIntegration:\nThis endpoint is designed to work out of the box with Microsoft Flow as a polling trigger integration. Alternatively, you may develop your own\ncustom integration using any language.\nUsage:\nIn a typical scenario, the first request to this endpoint should not provide any parameters. There are two (2) possible successful responses:\n\nHTTP Response code 200 - Recently changed order status records exist; response body will display order status data\nHTTP Response code 202  No recently submitted records exist; response body will be empty.\n\nIn both cases, there are two (2) important headers in the response:\n\nLocation  The URL for the next request.\nRetry-After  The recommended time interval in seconds for next request. For example, if there is data to retrieve, the Retry-After header will have a value of 1 or 60.\nIf there is no data to retrieve, the value of the Retry-After header will be 300.\n\nNote: These are just recommended values  your application may choose to poll at a different frequency depending on your requirements. After the first request, all\nsubsequent requests should use the URL provided in the Location header of the most recent response. Do not add more parameters to the URL, as it already contains\nthose necessary to ensure order statuses are not missing from the request.\nResults are sorted by ModifiedUtc and then by StatusId, in ascending order. Sort parameters are not configurable.\nModifiedUtc definition: internal time tag = time of latest order status data change.",
+        "Anchor": "#order-statuses-poll",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrdersController_Update",
+        "Name": "Update an order",
+        "Description": "Updates an existing order.",
+        "Anchor": "#update-an-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TimekeepingController_GetTimekeepingDataList",
+        "Name": "Get a list of timekeeping entries",
+        "Description": "Retrieves a list of timekeeping entries based on date range. You can specify the number of pages returned and the number of elements per page. Results are\nautomatically sorted by ClockInTime, and then by TimekeepingStatusId, and in ascending order. Sort parameters are not configurable.",
+        "Anchor": "#get-a-list-of-timekeeping-entries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TimekeepingController_GetTimekeepingEntryAsync",
+        "Name": "Get a timekeeping entry",
+        "Description": "Retrieves an entry by its Id.",
+        "Anchor": "#get-a-timekeeping-entry",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TimekeepingController_Poll",
+        "Name": "Timekeeping poll",
+        "Description": "The Timekeeping API polling endpoint allows your application to continually poll and process recently submitted timekeeping entries.\nIntegration:\nThis endpoint is designed to work out of the box with Microsoft Flow as a polling trigger integration. Alternatively, you may develop your own\ncustom integration using any language.\nUsage:\nIn a typical scenario, the first request to this endpoint should not provide any parameters. There are two (2) possible successful responses:\n\nHTTP Response code 200 - Recently submitted timekeeping records exist; response body will display timekeeping entry data.\nHTTP Response code 202  No recently submitted records exist; response body will be empty.\n\nIn both cases, there are two (2) important headers in the response:\n\nLocation  The URL for the next request.\nRetry-After  The recommended time interval in seconds for next request. For example, if there is data to retrieve, the Retry-After header will have a value of 1 or 60.\nIf there is no data to retrieve, the value of the Retry-After header will be 300.\n\nNote: These are just recommended values  your application may choose to poll at a different frequency depending on your requirements. After the first request, all\nsubsequent requests should use the URL provided in the Location header of the most recent response. Do not add more parameters to the URL, as it already contains\nthose necessary to ensure timekeeping entries are not missing from the request.\nResults are automatically sorted by ModifiedUtc and then by TimekeepingStatusId and then in ascending order. Sort parameters are not configurable.\nModifiedUtc definition: internal time tag = time of latest timekeeping status change.",
+        "Anchor": "#timekeeping-poll",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrackingController_GetGpsData",
+        "Name": "Get GPS data entries",
+        "Description": "Retrieves GPS data entries for a specified date range. Also returns a continuation token and a link to get the next data portion. You can specify the number of pages\nreturned and the number of elements per page.\nPositions for deleted users/vehicles are not returned. However, if the user/vehicle existed when data was requested and was later removed, then data for the\nuser/vehicle requested by a continuation token will be returned.\nResults are automatically sorted by UtcTime, and in ascending order. Sort parameters are not configurable.",
+        "Anchor": "#get-gps-data-entries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrackingController_GetSubscriptions",
+        "Name": "Get a list of subscriptions",
+        "Description": "Retrieves a list of web hook subscriptions. You can specify the number of pages returned and the number of elements per page. Results are automatically sorted by\nSubscriptionId, and in ascending order. Sort parameters are not configurable.",
+        "Anchor": "#get-a-list-of-subscriptions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrackingController_GetTrips",
+        "Name": "Get a list of trips",
+        "Description": "Retrieves a list of trips for a specific time period. You can specify the number of pages returned and the number of elements per page. Results are automatically\nsorted by StartUtcTIme, and in ascending order. Sort parameters are not configurable.",
+        "Anchor": "#get-a-list-of-trips",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrackingController_RemoveGpsDataFeedSubscription",
+        "Name": "Unsubscribe GPS data web hook",
+        "Description": "Deletes a GPS data web hook subscription by its ID.",
+        "Anchor": "#unsubscribe-gps-data-web-hook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrackingController_ResetSubscriptionHealthStatus",
+        "Name": "Resets subscription status",
+        "Description": "Changes subscription status to the status = 1 (&quot;Running&quot;).",
+        "Anchor": "#resets-subscription-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrackingController_subscribe_callback",
+        "Name": "Webhook callback with GPS data feed",
+        "Description": "This example method is used by gpsdata/subscribe to post back data feed using customer provided URL.",
+        "Anchor": "#webhook-callback-with-gps-data-feed",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrackingController_SubscribeToGpsDataFeed",
+        "Name": "Subscribe GPS data web hook",
+        "Description": "Adds new GPS Tracking data (GPS positions) web hook. Web hooks allow you to receive GPS positions occurring on a specified URL.",
+        "Anchor": "#subscribe-gps-data-web-hook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UsersController_Activate",
+        "Name": "Activate a user",
+        "Description": "Activates an existing user by its Id.",
+        "Anchor": "#activate-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UsersController_Create",
+        "Name": "Create a user",
+        "Description": "Creates a new user.",
+        "Anchor": "#create-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UsersController_Deactivate",
+        "Name": "Deactivate a user",
+        "Description": "Deactivates an existing user by its Id.",
+        "Anchor": "#deactivate-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UsersController_Get",
+        "Name": "Get a user",
+        "Description": "Gets a user by its Id.",
+        "Anchor": "#get-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UsersController_GetUsers",
+        "Name": "Get a list of users",
+        "Description": "Retrieves a list of clients. You can specify the number of pages returned and the number of elements per page. Results are automatically sorted by UserId, and in\nascending order. Sort parameters are not configurable.",
+        "Anchor": "#get-a-list-of-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UsersController_PartialUpdate",
+        "Name": "Update part of a user",
+        "Description": "Updates part of user's properties.",
+        "Anchor": "#update-part-of-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UsersController_Update",
+        "Name": "Update a user",
+        "Description": "Updates an existing user.",
+        "Anchor": "#update-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VehiclesController_Activate",
+        "Name": "Activate a vehicle",
+        "Description": "Activate a vehicle by ID.",
+        "Anchor": "#activate-a-vehicle",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VehiclesController_CreateVehicle",
+        "Name": "Create a vehicle",
+        "Description": "Creates a vehicle.",
+        "Anchor": "#create-a-vehicle",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VehiclesController_Deactivate",
+        "Name": "Deactivate a vehicle",
+        "Description": "Deactivate a vehicle by ID.",
+        "Anchor": "#deactivate-a-vehicle",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VehiclesController_Delete",
+        "Name": "Delete a vehicle",
+        "Description": "Delete a vehicle by ID.",
+        "Anchor": "#delete-a-vehicle",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VehiclesController_GetVehicle",
+        "Name": "Get a vehicle by ID",
+        "Description": "Retrieves a single vehicle by ID.",
+        "Anchor": "#get-a-vehicle-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VehiclesController_GetVehicles",
+        "Name": "Get a vehicles list",
+        "Description": "Retrieves a vehicles list.",
+        "Anchor": "#get-a-vehicles-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VehiclesController_PartialUpdateVehicle",
+        "Name": "Partial update a vehicle",
+        "Description": "Partial update a vehicle by ID.",
+        "Anchor": "#partial-update-a-vehicle",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VehiclesController_UpdateVehicle",
+        "Name": "Update a vehicle",
+        "Description": "Update a vehicle by ID.",
+        "Anchor": "#update-a-vehicle",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VersionsController_Get",
+        "Name": "Get minor version",
+        "Description": "Returns the current minor version of API.",
+        "Anchor": "#get-minor-version",
         "IsDeprecated": false
       }
     ]
@@ -608,8 +1132,15 @@
       {
         "OperationId": "ExportPDFToImage",
         "Name": "Convert PDF to Image (Preview)",
-        "Description": "Convert a PDF file to an image file. Only files with .pdf extension are supported.",
+        "Description": "Convert a PDF file to a zip of images. Only files with .pdf extension are supported.",
         "Anchor": "#convert-pdf-to-image-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExportPDFToImageList",
+        "Name": "Convert PDF to List Of Images (Preview)",
+        "Description": "Convert a PDF file to a list of images. Only files with .pdf extension are supported.",
+        "Anchor": "#convert-pdf-to-list-of-images-(preview)",
         "IsDeprecated": false
       },
       {
@@ -627,6 +1158,41 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ExtractImagesFromPDF",
+        "Name": "Extract Images From PDF (Preview)",
+        "Description": "Extracts Images from a PDF Document. Only files with .pdf extension are supported.",
+        "Anchor": "#extract-images-from-pdf-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExtractJSONAndImagesAndTablesFromPDF",
+        "Name": "Extract PDF Structure, Tables and Images from a PDF (Preview)",
+        "Description": "Extract PDF structure and content elements, incl. Tables and Images, from PDF Document.  Only files with .pdf extension are supported.",
+        "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExtractJSONFileFromPDF",
+        "Name": "Extract PDF Structure in a JSON File (Preview)",
+        "Description": "Extract PDF Structure in a JSON File. Only files with .pdf extension are supported.",
+        "Anchor": "#extract-pdf-structure-in-a-json-file-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExtractJSONObjectFromPDF",
+        "Name": "Extract PDF Structure in a JSON Object (Preview)",
+        "Description": "Extract PDF Structure in a JSON Object. Only files with .pdf extension are supported.",
+        "Anchor": "#extract-pdf-structure-in-a-json-object-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExtractTablesFromPDF",
+        "Name": "Extract Tables from PDF (Preview)",
+        "Description": "Extracts Tables in .xlsx format from a PDF Document. Only files with .pdf extension are supported.",
+        "Anchor": "#extract-tables-from-pdf-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "LinearizePDF",
         "Name": "Linearize PDF (Preview)",
         "Description": "Linearize a PDF file. Only files with .pdf extension are supported.",
@@ -638,6 +1204,13 @@
         "Name": "Create Searchable PDF using OCR (Preview)",
         "Description": "OCR a PDF file. Only files with .pdf extension are supported.",
         "Anchor": "#create-searchable-pdf-using-ocr-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PDFProperties",
+        "Name": "Get PDF Properties (Preview)",
+        "Description": "Get Properties of a PDF Document. Only files with .pdf extension are supported.",
+        "Anchor": "#get-pdf-properties-(preview)",
         "IsDeprecated": false
       },
       {
@@ -1197,6 +1770,61 @@
         "Name": "Add an external activity",
         "Description": "Add an external activity to appear in ahead.",
         "Anchor": "#add-an-external-activity",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "airlyip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../airlyip/",
+    "Actions": [
+      {
+        "OperationId": "GetAvailableIndexes",
+        "Name": "Get available indexes",
+        "Description": "Endpoint returns a list of all the index types supported in the API along with lists of levels defined per each index type.",
+        "Anchor": "#get-available-indexes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAvailableMeasurements",
+        "Name": "Get available measurements",
+        "Description": "Endpoint returns list of all the measurement types supported in the API along with their names and units.",
+        "Anchor": "#get-available-measurements",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetInstallationByID",
+        "Name": "Get installation by ID",
+        "Description": "Operation returns single installation metadata, given by InstallationId.",
+        "Anchor": "#get-installation-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMeasurementsForInstallation",
+        "Name": "Get measurements for installation",
+        "Description": "Endpoint returns measurements for concrete installation given by InstallationId.",
+        "Anchor": "#get-measurements-for-installation",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMeasurementsForPoint",
+        "Name": "Get measurements for a point",
+        "Description": "Endpoint returns measurements for any geographical location. Measurement values are interpolated by averaging measurements from nearby sensors (up to 1,5km away from the given point). The returned value is a weighted average, with the weight inversely proportional to the distance from the sensor to the given point.",
+        "Anchor": "#get-measurements-for-a-point",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetNearestInstallations",
+        "Name": "Get nearest installations",
+        "Description": "Endpoint returns list of installations which are closest to a given point, sorted by distance to that point.",
+        "Anchor": "#get-nearest-installations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetNearestMeasurements",
+        "Name": "Get nearest measurements",
+        "Description": "Endpoint returns measurements for an installation closest to a given location.",
+        "Anchor": "#get-nearest-measurements",
         "IsDeprecated": false
       }
     ]
@@ -3595,6 +4223,13 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../avepointcloudgovernance/",
     "Actions": [
       {
+        "OperationId": "Flow_CreateHookForCommon",
+        "Name": "Conditional Trigger",
+        "Description": "This operation triggers when the selected event occurs.",
+        "Anchor": "#conditional-trigger",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Flow_CreateHookForConfirmDetailCompleted",
         "Name": "When an end user completes a governance details confirmation task",
         "Description": "This operation triggers when an end user completes a governance details confirmation task for a workspace.",
@@ -5528,159 +6163,6 @@
         "Name": "List subscription resource tags",
         "Description": "Lists all the subscription resource tags.",
         "Anchor": "#list-subscription-resource-tags",
-        "IsDeprecated": false
-      }
-    ]
-  },
-  {
-    "UniqueName": "azuresentinel",
-    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azuresentinel/",
-    "Actions": [
-      {
-        "OperationId": "AddCommentToIncident_v2",
-        "Name": "Add comment to incident (V2)",
-        "Description": "Adds comment to selected incident",
-        "Anchor": "#add-comment-to-incident-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "AddIncidentComment_v3",
-        "Name": "Add comment to incident (V3)",
-        "Description": "Adds comment to selected incident",
-        "Anchor": "#add-comment-to-incident-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "ASI_incident_trigger_subscribe",
-        "Name": "When Azure Sentinel incident creation rule was triggered",
-        "Description": "When a response to an Azure Sentinel incident is triggered. This playbook is triggered by an automation rule when a new incident is created. Playbook receives the Azure Sentinel incident as its input, including alerts and entities.",
-        "Anchor": "#when-azure-sentinel-incident-creation-rule-was-triggered",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "ASI_trigger_subscribe",
-        "Name": "When a response to an Azure Sentinel alert is triggered",
-        "Description": "When a response to an Azure Sentinel alert is triggered. This playbook is triggered by an analytics rule when a new alert is created or by manual triggering. Playbook receives the alert as its input.",
-        "Anchor": "#when-a-response-to-an-azure-sentinel-alert-is-triggered",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetAccounts",
-        "Name": "Entities - Get Accounts",
-        "Description": "Returns list of accounts associated with the alert",
-        "Anchor": "#entities---get-accounts",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetFileHashes",
-        "Name": "Entities - Get FileHashes",
-        "Description": "Returns list of File Hashes associated with the alert",
-        "Anchor": "#entities---get-filehashes",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetHosts",
-        "Name": "Entities - Get Hosts",
-        "Description": "Returns list of hosts associated with the alert",
-        "Anchor": "#entities---get-hosts",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetIncidentByAlertId_v2",
-        "Name": "Alert - Get incident",
-        "Description": "Returns the incident associated with selected alert",
-        "Anchor": "#alert---get-incident",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetIncidentByAlertId_v2",
-        "Name": "Alert - Get incident",
-        "Description": "Returns the incident associated with selected alert",
-        "Anchor": "#alert---get-incident",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetIncidentV2",
-        "Name": "Get incident",
-        "Description": "Get an incident by ARM ID",
-        "Anchor": "#get-incident",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetIPs",
-        "Name": "Entities - Get IPs",
-        "Description": "Returns list of IPs associated with the alert",
-        "Anchor": "#entities---get-ips",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetUrls",
-        "Name": "Entities - Get URLs",
-        "Description": "Returns list of URLs associated with the alert",
-        "Anchor": "#entities---get-urls",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "UpdateIncident",
-        "Name": "Update incident",
-        "Description": "Update incident with provided fields",
-        "Anchor": "#update-incident",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "Watchlist_Delete",
-        "Name": "Watchlists - Deletes a watchlist",
-        "Description": "Watchlists - Deletes a watchlist",
-        "Anchor": "#watchlists---deletes-a-watchlist",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "Watchlist_Get",
-        "Name": "Watchlists - Gets a watchlist",
-        "Description": "Watchlists - Gets a watchlist",
-        "Anchor": "#watchlists---gets-a-watchlist",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "WatchlistItems_Create",
-        "Name": "Watchlists - Add a new watchlist item",
-        "Description": "Watchlists - Add a new watchlist item",
-        "Anchor": "#watchlists---add-a-new-watchlist-item",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "WatchlistItems_Delete",
-        "Name": "Watchlists - Deletes a watchlist item",
-        "Description": "Watchlists - Deletes a watchlist item",
-        "Anchor": "#watchlists---deletes-a-watchlist-item",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "WatchlistItems_Get",
-        "Name": "Watchlists - Gets a watchlist item",
-        "Description": "Watchlists - Gets a watchlist item",
-        "Anchor": "#watchlists---gets-a-watchlist-item",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "WatchlistItems_GetAll",
-        "Name": "Watchlists - Gets all watchlist without watchlist items",
-        "Description": "Watchlists - Gets all watchlist without watchlist items",
-        "Anchor": "#watchlists---gets-all-watchlist-without-watchlist-items",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "WatchlistItems_List",
-        "Name": "Watchlists - Gets all watchlist Items for a given watchlist",
-        "Description": "Watchlists - Gets all watchlist Items for a given watchlist",
-        "Anchor": "#watchlists---gets-all-watchlist-items-for-a-given-watchlist",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "WatchlistItems_Update",
-        "Name": "Watchlists - Update an existing watchlist item",
-        "Description": "Watchlists - Update an existing watchlist item",
-        "Anchor": "#watchlists---update-an-existing-watchlist-item",
         "IsDeprecated": false
       }
     ]
@@ -8296,6 +8778,1124 @@
     ]
   },
   {
+    "UniqueName": "blackbaudconstituent",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudconstituent/",
+    "Actions": [
+      {
+        "OperationId": "ConvertToConstituent",
+        "Name": "Convert to constituent",
+        "Description": "Converts a non-constituent to a constituent.",
+        "Anchor": "#convert-to-constituent",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentAddress",
+        "Name": "Create a constituent address",
+        "Description": "Creates a new constituent address.",
+        "Anchor": "#create-a-constituent-address",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentAlias",
+        "Name": "Create a constituent alias",
+        "Description": "Creates a new constituent alias.",
+        "Anchor": "#create-a-constituent-alias",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentAttachment",
+        "Name": "Create a constituent attachment",
+        "Description": "Creates a new constituent attachment.",
+        "Anchor": "#create-a-constituent-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentCode",
+        "Name": "Create a constituent code",
+        "Description": "Creates a new constituent code.",
+        "Anchor": "#create-a-constituent-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentConsent",
+        "Name": "Create a constituent consent record",
+        "Description": "Creates a new constituent consent record.",
+        "Anchor": "#create-a-constituent-consent-record",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentCustomField",
+        "Name": "Create a constituent custom field",
+        "Description": "Creates a new constituent custom field.",
+        "Anchor": "#create-a-constituent-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentEducation",
+        "Name": "Create a constituent education",
+        "Description": "Creates a new constituent education.",
+        "Anchor": "#create-a-constituent-education",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentEmailAddress",
+        "Name": "Create a constituent email address",
+        "Description": "Creates a new constituent email address.",
+        "Anchor": "#create-a-constituent-email-address",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentNameFormat",
+        "Name": "Create a constituent name format",
+        "Description": "Creates a new constituent name format.",
+        "Anchor": "#create-a-constituent-name-format",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentNote",
+        "Name": "Create a constituent note",
+        "Description": "Creates a new constituent note.",
+        "Anchor": "#create-a-constituent-note",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentOnlinePresence",
+        "Name": "Create a constituent online presence",
+        "Description": "Creates a new constituent online presence.",
+        "Anchor": "#create-a-constituent-online-presence",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentPhone",
+        "Name": "Create a constituent phone",
+        "Description": "Creates a new constituent phone.",
+        "Anchor": "#create-a-constituent-phone",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentPrimaryNameFormat",
+        "Name": "Create a constituent primary name format",
+        "Description": "Creates a primary name format for a constituent.",
+        "Anchor": "#create-a-constituent-primary-name-format",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateConstituentSolicitCode",
+        "Name": "Create a constituent solicit code",
+        "Description": "Creates a new constituent solicit code.",
+        "Anchor": "#create-a-constituent-solicit-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateFundraiserAssignment",
+        "Name": "Create a fundraiser assignment",
+        "Description": "Creates a new fundraiser assignment.",
+        "Anchor": "#create-a-fundraiser-assignment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateIndividualConstituent",
+        "Name": "Create an individual constituent",
+        "Description": "Creates a new individual constituent.",
+        "Anchor": "#create-an-individual-constituent",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateIndividualRelationship",
+        "Name": "Create an individual relationship",
+        "Description": "Creates a new individual relationship.  If the relationship is with another constituent, a reciprocal relationship is created for that constituent.",
+        "Anchor": "#create-an-individual-relationship",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOrganizationConstituent",
+        "Name": "Create an organization constituent",
+        "Description": "Creates a new organization constituent.",
+        "Anchor": "#create-an-organization-constituent",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOrganizationRelationship",
+        "Name": "Create an organization relationship",
+        "Description": "Creates a new organization relationship.  If the relationship is with another constituent, a reciprocal relationship is created for that constituent.",
+        "Anchor": "#create-an-organization-relationship",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteConstituentCode",
+        "Name": "Delete a constituent code",
+        "Description": "Deletes a constituent code.",
+        "Anchor": "#delete-a-constituent-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituent",
+        "Name": "Update a constituent",
+        "Description": "Updates a constituent.",
+        "Anchor": "#update-a-constituent",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentAddress",
+        "Name": "Update a constituent address",
+        "Description": "Updates a constituent address.",
+        "Anchor": "#update-a-constituent-address",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentAlias",
+        "Name": "Update a constituent alias",
+        "Description": "Updates an constituent alias.",
+        "Anchor": "#update-a-constituent-alias",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentAttachment",
+        "Name": "Update a constituent attachment",
+        "Description": "Updates a constituent attachment.",
+        "Anchor": "#update-a-constituent-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentCode",
+        "Name": "Update a constituent code",
+        "Description": "Updates a constituent code.",
+        "Anchor": "#update-a-constituent-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentCustomField",
+        "Name": "Update a constituent custom field",
+        "Description": "Updates a constituent custom field.",
+        "Anchor": "#update-a-constituent-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentEducation",
+        "Name": "Update a constituent education",
+        "Description": "Updates a constituent education.",
+        "Anchor": "#update-a-constituent-education",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentEmailAddress",
+        "Name": "Update a constituent email address",
+        "Description": "Updates a constituent email address.",
+        "Anchor": "#update-a-constituent-email-address",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentNameFormat",
+        "Name": "Update a constituent name format",
+        "Description": "Updates a constituent name format.",
+        "Anchor": "#update-a-constituent-name-format",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentNote",
+        "Name": "Update a constituent note",
+        "Description": "Updates a constituent note.",
+        "Anchor": "#update-a-constituent-note",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentOnlinePresence",
+        "Name": "Update a constituent online presence",
+        "Description": "Updates a constituent online presence.",
+        "Anchor": "#update-a-constituent-online-presence",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentPhone",
+        "Name": "Update a constituent phone",
+        "Description": "Updates a constituent phone.",
+        "Anchor": "#update-a-constituent-phone",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentPrimaryNameFormat",
+        "Name": "Update a constituent primary name format",
+        "Description": "Updates the primary name format for a constituent.",
+        "Anchor": "#update-a-constituent-primary-name-format",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentProfilePicture",
+        "Name": "Update a constituent profile picture",
+        "Description": "Updates the current profile picture for a constituent.",
+        "Anchor": "#update-a-constituent-profile-picture",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentRelationship",
+        "Name": "Update a constituent relationship",
+        "Description": "Updates a relationship for a constituent. If a reciprocal relationship exists, it is also modified to reflect the changes. This does not include changes to the &quot;comments&quot; property, which is specific to each record and can be modified independently on each record.",
+        "Anchor": "#update-a-constituent-relationship",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentSolicitCode",
+        "Name": "Update a constituent solicit code",
+        "Description": "Updates a constituent solicit code.",
+        "Anchor": "#update-a-constituent-solicit-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetConstituent",
+        "Name": "Get a constituent",
+        "Description": "Returns information about a constituent.",
+        "Anchor": "#get-a-constituent",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetConstituentNameFormatSummary",
+        "Name": "Get constituent name format summary",
+        "Description": "Returns the name format summary for a constituent.",
+        "Anchor": "#get-constituent-name-format-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetConstituentProfilePicture",
+        "Name": "Get a constituent profile picture",
+        "Description": "Returns the current profile picture for a constituent.",
+        "Anchor": "#get-a-constituent-profile-picture",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentAddresses",
+        "Name": "List constituent addresses",
+        "Description": "Lists the addresses for a constituent.",
+        "Anchor": "#list-constituent-addresses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentAliases",
+        "Name": "List constituent aliases",
+        "Description": "Lists the aliases for a constituent.",
+        "Anchor": "#list-constituent-aliases",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentAttachments",
+        "Name": "List constituent attachments",
+        "Description": "Lists the attachments for a constituent.",
+        "Anchor": "#list-constituent-attachments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentCodes",
+        "Name": "List constituent codes",
+        "Description": "Lists the constituent codes for a constituent.",
+        "Anchor": "#list-constituent-codes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentConsents",
+        "Name": "List constituent consent records",
+        "Description": "Lists the consent records for a constituent.",
+        "Anchor": "#list-constituent-consent-records",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentCustomFields",
+        "Name": "List constituent custom fields",
+        "Description": "Lists the custom fields for a constituent.",
+        "Anchor": "#list-constituent-custom-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentEducations",
+        "Name": "List constituent educations",
+        "Description": "Lists the education records for a constituent.",
+        "Anchor": "#list-constituent-educations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentEmailAddresses",
+        "Name": "List constituent email addresses",
+        "Description": "Lists the email addresses for a constituent.",
+        "Anchor": "#list-constituent-email-addresses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentFundraiserAssignments",
+        "Name": "List constituent fundraisers",
+        "Description": "Lists the fundraiser assignments for a constituent.",
+        "Anchor": "#list-constituent-fundraisers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentMemberships",
+        "Name": "List constituent memberships",
+        "Description": "Lists the memberships for a constituent.",
+        "Anchor": "#list-constituent-memberships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentNotes",
+        "Name": "List constituent notes",
+        "Description": "Lists the notes for a constituent.",
+        "Anchor": "#list-constituent-notes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentOnlinePresences",
+        "Name": "List constituent online presences",
+        "Description": "Lists the online presences for a constituent.",
+        "Anchor": "#list-constituent-online-presences",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentPhones",
+        "Name": "List constituent phones",
+        "Description": "Lists the phones for a constituent.",
+        "Anchor": "#list-constituent-phones",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentRelationships",
+        "Name": "List constituent relationships",
+        "Description": "Lists the relationships for a constituent.",
+        "Anchor": "#list-constituent-relationships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituents",
+        "Name": "List constituents",
+        "Description": "Returns a list of constituents.",
+        "Anchor": "#list-constituents",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentSolicitCodes",
+        "Name": "List constituent solicit codes",
+        "Description": "Lists the solicit codes for a constituent.",
+        "Anchor": "#list-constituent-solicit-codes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListFundraiserAssignments",
+        "Name": "List fundraiser assignments",
+        "Description": "List the assignments for a fundraiser.",
+        "Anchor": "#list-fundraiser-assignments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchConstituent",
+        "Name": "Search for a constituent",
+        "Description": "Performs a constituent search based on the provided search text. Supports first name, last name, preferred name, former name, alias, email address, phone number, address, or lookup ID. Name combinations such as first name and last name or preferred name and last name are valid, but otherwise search only supports one parameter at a time. By default, searches include results that sound similar to your criteria. For example, searches for &quot;Smith&quot; include matches for &quot;Smyth&quot; and other alternative spellings. This search does not support wildcard characters such as * or ?. Search results are limited to 500 records.",
+        "Anchor": "#search-for-a-constituent",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "blackbauddocuments",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbauddocuments/",
+    "Actions": [
+      {
+        "OperationId": "CreateDocument",
+        "Name": "Create a document location",
+        "Description": "Creates a new unique document identifier and upload location for use with physical attachments.  The response will include instructions for where and how to upload the document contents.",
+        "Anchor": "#create-a-document-location",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "blackbaudevents",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudevents/",
+    "Actions": [
+      {
+        "OperationId": "CreateEvent",
+        "Name": "Create an event",
+        "Description": "Creates a new event.",
+        "Anchor": "#create-an-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateEventFee",
+        "Name": "Create an event fee",
+        "Description": "Creates a new fee for an event.",
+        "Anchor": "#create-an-event-fee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateEventParticipantOption",
+        "Name": "Create an event participant option",
+        "Description": "Creates a new participant option for an event.",
+        "Anchor": "#create-an-event-participant-option",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateParticipant",
+        "Name": "Create a participant",
+        "Description": "Creates a new participant for an event.",
+        "Anchor": "#create-a-participant",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateParticipantDonation",
+        "Name": "Create a participant donation",
+        "Description": "Creates a new donation for a participant.",
+        "Anchor": "#create-a-participant-donation",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateParticipantFee",
+        "Name": "Create a participant fee",
+        "Description": "Creates a new fee for a participant.",
+        "Anchor": "#create-a-participant-fee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateParticipantFeePayment",
+        "Name": "Create a participant fee payment",
+        "Description": "Creates a new fee payment for a participant.",
+        "Anchor": "#create-a-participant-fee-payment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateParticipantOption",
+        "Name": "Create a participant option",
+        "Description": "Creates a new participant option for a participant.",
+        "Anchor": "#create-a-participant-option",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditEvent",
+        "Name": "Update an event",
+        "Description": "Updates the details about an event.",
+        "Anchor": "#update-an-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditParticipant",
+        "Name": "Update a participant",
+        "Description": "Updates the details about a participant.",
+        "Anchor": "#update-a-participant",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditParticipantOption",
+        "Name": "Update a participant option",
+        "Description": "Updates the details about a participant option.",
+        "Anchor": "#update-a-participant-option",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEvent",
+        "Name": "Get an event",
+        "Description": "Returns information about an event.",
+        "Anchor": "#get-an-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetParticipant",
+        "Name": "Get a participant",
+        "Description": "Returns information about a specific event participant.",
+        "Anchor": "#get-a-participant",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListEventFees",
+        "Name": "List event fees",
+        "Description": "Lists the fees for an event.",
+        "Anchor": "#list-event-fees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListEventParticipantOptions",
+        "Name": "List event participant options",
+        "Description": "Lists the participant options for an event.",
+        "Anchor": "#list-event-participant-options",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListEventParticipants",
+        "Name": "List event participants",
+        "Description": "Lists the participants for an event.",
+        "Anchor": "#list-event-participants",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListEvents",
+        "Name": "List events",
+        "Description": "Returns a list of events.",
+        "Anchor": "#list-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListParticipantDonations",
+        "Name": "List participant donations",
+        "Description": "Lists the donations for a participant.",
+        "Anchor": "#list-participant-donations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListParticipantFeePayments",
+        "Name": "List participant fee payments",
+        "Description": "Lists the fee payments for a participant.",
+        "Anchor": "#list-participant-fee-payments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListParticipantFees",
+        "Name": "List participant fees",
+        "Description": "Lists the fees for a participant.",
+        "Anchor": "#list-participant-fees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListParticipantOptions",
+        "Name": "List participant options",
+        "Description": "Lists the participant options for a participant.",
+        "Anchor": "#list-participant-options",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "blackbaudfundraising",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudfundraising/",
+    "Actions": [
+      {
+        "OperationId": "CreateAppealAttachment",
+        "Name": "Create an appeal attachment",
+        "Description": "Creates a new appeal attachment.",
+        "Anchor": "#create-an-appeal-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateAppealCustomField",
+        "Name": "Create an appeal custom field",
+        "Description": "Creates a new appeal custom field.",
+        "Anchor": "#create-an-appeal-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateCampaignAttachment",
+        "Name": "Create a campaign attachment",
+        "Description": "Creates a new campaign attachment.",
+        "Anchor": "#create-a-campaign-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateCampaignCustomField",
+        "Name": "Create a campaign custom field",
+        "Description": "Creates a new campaign custom field.",
+        "Anchor": "#create-a-campaign-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateFundAttachment",
+        "Name": "Create a fund attachment",
+        "Description": "Creates a new fund attachment.",
+        "Anchor": "#create-a-fund-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateFundCustomField",
+        "Name": "Create a fund custom field",
+        "Description": "Creates a new fund custom field.",
+        "Anchor": "#create-a-fund-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditAppealAttachment",
+        "Name": "Update an appeal attachment",
+        "Description": "Updates an appeal attachment.",
+        "Anchor": "#update-an-appeal-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditAppealCustomField",
+        "Name": "Update an appeal custom field",
+        "Description": "Updates an appeal custom field.",
+        "Anchor": "#update-an-appeal-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditCampaignAttachment",
+        "Name": "Update a campaign attachment",
+        "Description": "Updates a campaign attachment.",
+        "Anchor": "#update-a-campaign-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditCampaignCustomField",
+        "Name": "Update a campaign custom field",
+        "Description": "Updates a campaign custom field.",
+        "Anchor": "#update-a-campaign-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditFundAttachment",
+        "Name": "Update a fund attachment",
+        "Description": "Updates a fund attachment.",
+        "Anchor": "#update-a-fund-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditFundCustomField",
+        "Name": "Update a fund custom field",
+        "Description": "Updates a fund custom field.",
+        "Anchor": "#update-a-fund-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAppeal",
+        "Name": "Get an appeal",
+        "Description": "Returns information about an appeal.",
+        "Anchor": "#get-an-appeal",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCampaign",
+        "Name": "Get a campaign",
+        "Description": "Returns information about a campaign.",
+        "Anchor": "#get-a-campaign",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFund",
+        "Name": "Get a fund",
+        "Description": "Returns information about a fund.",
+        "Anchor": "#get-a-fund",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPackage",
+        "Name": "Get a package",
+        "Description": "Returns information about a package.",
+        "Anchor": "#get-a-package",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListAppealAttachments",
+        "Name": "List appeal attachments",
+        "Description": "Lists the attachments for an appeal.",
+        "Anchor": "#list-appeal-attachments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListAppealCustomFields",
+        "Name": "List appeal custom fields",
+        "Description": "Lists the custom fields for an appeal.",
+        "Anchor": "#list-appeal-custom-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListAppeals",
+        "Name": "List appeals",
+        "Description": "Returns a list of appeals.",
+        "Anchor": "#list-appeals",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListCampaignAttachments",
+        "Name": "List campaign attachments",
+        "Description": "Lists the attachments for an campaign.",
+        "Anchor": "#list-campaign-attachments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListCampaignCustomFields",
+        "Name": "List campaign custom fields",
+        "Description": "Lists the custom fields for a campaign.",
+        "Anchor": "#list-campaign-custom-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListCampaigns",
+        "Name": "List campaigns",
+        "Description": "Returns a list of campaigns.",
+        "Anchor": "#list-campaigns",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentAppeals",
+        "Name": "List constituent appeals",
+        "Description": "Lists the appeals for a constituent.",
+        "Anchor": "#list-constituent-appeals",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListFundAttachments",
+        "Name": "List fund attachments",
+        "Description": "Lists the attachments for a fund.",
+        "Anchor": "#list-fund-attachments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListFundCustomFields",
+        "Name": "List fund custom fields",
+        "Description": "Lists the custom fields for a fund.",
+        "Anchor": "#list-fund-custom-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListFunds",
+        "Name": "List funds",
+        "Description": "Returns a list of funds.",
+        "Anchor": "#list-funds",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListPackages",
+        "Name": "List packages",
+        "Description": "Returns a list of packages.",
+        "Anchor": "#list-packages",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "blackbaudgifts",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudgifts/",
+    "Actions": [
+      {
+        "OperationId": "AddGiftToBatch",
+        "Name": "Add a gift to batch",
+        "Description": "Add a gift to the specified gift batch.",
+        "Anchor": "#add-a-gift-to-batch",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateGift",
+        "Name": "Create a gift",
+        "Description": "Creates a new gift.",
+        "Anchor": "#create-a-gift",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateGiftAttachment",
+        "Name": "Create a gift attachment",
+        "Description": "Creates a new gift attachment.",
+        "Anchor": "#create-a-gift-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateGiftBatch",
+        "Name": "Create a gift batch",
+        "Description": "Creates a new gift batch.",
+        "Anchor": "#create-a-gift-batch",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateGiftCustomField",
+        "Name": "Create a gift custom field",
+        "Description": "Creates a new gift custom field.",
+        "Anchor": "#create-a-gift-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditGiftAcknowledgement",
+        "Name": "Update gift acknowledgement details",
+        "Description": "Updates the acknowledgement details for a gift.",
+        "Anchor": "#update-gift-acknowledgement-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditGiftAttachment",
+        "Name": "Update a gift attachment",
+        "Description": "Updates a gift attachment.",
+        "Anchor": "#update-a-gift-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditGiftCustomField",
+        "Name": "Update a gift custom field",
+        "Description": "Updates a gift custom field.",
+        "Anchor": "#update-a-gift-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditGiftReceipt",
+        "Name": "Update gift receipt details",
+        "Description": "Updates the receipt details for a gift.",
+        "Anchor": "#update-gift-receipt-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetConstituentFirstGift",
+        "Name": "Get constituent first gift",
+        "Description": "Returns the first gift for a constituent.",
+        "Anchor": "#get-constituent-first-gift",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetConstituentGreatestGift",
+        "Name": "Get constituent greatest gift",
+        "Description": "Returns the greatest gift for a constituent.",
+        "Anchor": "#get-constituent-greatest-gift",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetConstituentLatestGift",
+        "Name": "Get constituent latest gift",
+        "Description": "Returns the latest gift for a constituent.",
+        "Anchor": "#get-constituent-latest-gift",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetConstituentLifetimeGiving",
+        "Name": "Get constituent lifetime giving",
+        "Description": "Returns the lifetime giving summary for a constituent.",
+        "Anchor": "#get-constituent-lifetime-giving",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGift",
+        "Name": "Get a gift",
+        "Description": "Returns information about a gift.",
+        "Anchor": "#get-a-gift",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListGiftAttachments",
+        "Name": "List gift attachments",
+        "Description": "Lists the attachments for a gift.",
+        "Anchor": "#list-gift-attachments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListGiftBatches",
+        "Name": "List gift batches",
+        "Description": "List the gift batches.",
+        "Anchor": "#list-gift-batches",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListGiftCustomFields",
+        "Name": "List gift custom fields",
+        "Description": "Lists the custom fields for a gift.",
+        "Anchor": "#list-gift-custom-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListGifts",
+        "Name": "List gifts",
+        "Description": "Returns a list of gifts.",
+        "Anchor": "#list-gifts",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "blackbaudinteraction",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudinteraction/",
+    "Actions": [
+      {
+        "OperationId": "CreateAction",
+        "Name": "Create a constituent action",
+        "Description": "Creates a new constituent action.",
+        "Anchor": "#create-a-constituent-action",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateActionAttachment",
+        "Name": "Create an action attachment",
+        "Description": "Creates a new action attachment.",
+        "Anchor": "#create-an-action-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateActionCustomField",
+        "Name": "Create an action custom field",
+        "Description": "Creates a new action custom field.",
+        "Anchor": "#create-an-action-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditAction",
+        "Name": "Update a constituent action",
+        "Description": "Updates a constituent action.",
+        "Anchor": "#update-a-constituent-action",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditActionAttachment",
+        "Name": "Update an action attachment",
+        "Description": "Updates an action attachment.",
+        "Anchor": "#update-an-action-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditActionCustomField",
+        "Name": "Update an action custom field",
+        "Description": "Updates an action custom field.",
+        "Anchor": "#update-an-action-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAction",
+        "Name": "Get a constituent action",
+        "Description": "Returns information about a constituent action.",
+        "Anchor": "#get-a-constituent-action",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListActionAttachments",
+        "Name": "List action attachments",
+        "Description": "Lists the attachments for an action.",
+        "Anchor": "#list-action-attachments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListActionCustomFields",
+        "Name": "List action custom fields",
+        "Description": "Lists the custom fields for an action.",
+        "Anchor": "#list-action-custom-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListActions",
+        "Name": "List actions",
+        "Description": "Returns a list of actions.",
+        "Anchor": "#list-actions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentActions",
+        "Name": "List constituent actions",
+        "Description": "Lists the actions for a constituent.",
+        "Anchor": "#list-constituent-actions",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "blackbaudlists",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudlists/",
+    "Actions": [
+      {
+        "OperationId": "AppendIDsToList",
+        "Name": "Add records to a list",
+        "Description": "Add a set of records to an existing list.",
+        "Anchor": "#add-records-to-a-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateListFromIDs",
+        "Name": "Create a list from a set of records",
+        "Description": "Creates a new list filtered to the specified set of records.",
+        "Anchor": "#create-a-list-from-a-set-of-records",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "blackbaudprospects",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudprospects/",
+    "Actions": [
+      {
+        "OperationId": "CreateConstituentRating",
+        "Name": "Create a constituent rating",
+        "Description": "Creates a new constituent rating.",
+        "Anchor": "#create-a-constituent-rating",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOpportunity",
+        "Name": "Create an opportunity",
+        "Description": "Creates a new opportunity.",
+        "Anchor": "#create-an-opportunity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOpportunityAttachment",
+        "Name": "Create an opportunity attachment",
+        "Description": "Creates a new opportunity attachment.",
+        "Anchor": "#create-an-opportunity-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOpportunityCustomField",
+        "Name": "Create an opportunity custom field",
+        "Description": "Creates a new opportunity custom field.",
+        "Anchor": "#create-an-opportunity-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditOpportunity",
+        "Name": "Update an opportunity",
+        "Description": "Updates an opportunity.",
+        "Anchor": "#update-an-opportunity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditOpportunityAttachment",
+        "Name": "Update an opportunity attachment",
+        "Description": "Updates an opportunity attachment.",
+        "Anchor": "#update-an-opportunity-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditOpportunityCustomField",
+        "Name": "Update an opportunity custom field",
+        "Description": "Updates an opportunity custom field.",
+        "Anchor": "#update-an-opportunity-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetConstituentProspectStatus",
+        "Name": "Get constituent prospect status",
+        "Description": "Returns the current prospect status for a constituent.",
+        "Anchor": "#get-constituent-prospect-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetOpportunity",
+        "Name": "Get an opportunity",
+        "Description": "Returns information about an opportunity.  Note: This endpoint returns the status property with a latency of about 10 minutes.",
+        "Anchor": "#get-an-opportunity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListConstituentRatings",
+        "Name": "List constituent ratings",
+        "Description": "Returns the list of ratings for a constituent.",
+        "Anchor": "#list-constituent-ratings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListOpportunities",
+        "Name": "List opportunities",
+        "Description": "Returns a list of opportunities.",
+        "Anchor": "#list-opportunities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListOpportunityAttachments",
+        "Name": "List opportunity attachments",
+        "Description": "Lists the attachments for an opportunity.",
+        "Anchor": "#list-opportunity-attachments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListOpportunityCustomFields",
+        "Name": "List opportunity custom fields",
+        "Description": "Lists the custom fields for an opportunity.",
+        "Anchor": "#list-opportunity-custom-fields",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "blackbaudskyaddins",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudskyaddins/",
+    "Actions": [
+      {
+        "OperationId": "ValidateUserIdentityToken",
+        "Name": "Validate a user identity token",
+        "Description": "Validates a user identity token.",
+        "Anchor": "#validate-a-user-identity-token",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "blogger",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blogger/",
     "Actions": [
@@ -8886,6 +10486,54 @@
         "Name": "Create item",
         "Description": "Creates a Dynamics 365 Business Central (on-premises) item",
         "Anchor": "#create-item",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "buymeacoffeeip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../buymeacoffeeip/",
+    "Actions": [
+      {
+        "OperationId": "ExtraGet",
+        "Name": "Get extras (BETA)",
+        "Description": "Get all your Extras purchases data.",
+        "Anchor": "#get-extras-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExtraGetA",
+        "Name": "Get extras by ID (BETA)",
+        "Description": "This endpoint provides data about all of your extra purchases by its unique ID. Please note ID is the same as the Purchase ID returned in the response.",
+        "Anchor": "#get-extras-by-id-(beta)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemberGet",
+        "Name": "Get members",
+        "Description": "This endpoint will return all of your members with both active and inactive statuses.",
+        "Anchor": "#get-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemberGetA",
+        "Name": "Get a member",
+        "Description": "This endpoint will return membership details by passing its unique identifier.",
+        "Anchor": "#get-a-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SupporterGet",
+        "Name": "Get onetime-supporters",
+        "Description": "This endpoint returns all of your onetime supporters and their messages, if any.",
+        "Anchor": "#get-onetime-supporters",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SupporterGetA",
+        "Name": "Get onetime-supporters by ID",
+        "Description": "This endpoint will return all of your onetime supporters and their messages by their unique ID.",
+        "Anchor": "#get-onetime-supporters-by-id",
         "IsDeprecated": false
       }
     ]
@@ -12302,6 +13950,130 @@
     ]
   },
   {
+    "UniqueName": "cloverlyip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloverlyip/",
+    "Actions": [
+      {
+        "OperationId": "Account",
+        "Name": "Get account information",
+        "Description": "Returns details about your account.",
+        "Anchor": "#get-account-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CalculateElectricity",
+        "Name": "Calculate the emissions from electricity",
+        "Description": "Calculate the carbon emissions and offset the impact from electricity.",
+        "Anchor": "#calculate-the-emissions-from-electricity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CalculateFlight",
+        "Name": "Calculate the emissions from flight",
+        "Description": "Calculate the carbon emissions and offset the impact from a flight.",
+        "Anchor": "#calculate-the-emissions-from-flight",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CalculateFreight",
+        "Name": "Calculate the emissions from freight shipments",
+        "Description": "Calculate the carbon emissions from freight shipments and offset the impact.",
+        "Anchor": "#calculate-the-emissions-from-freight-shipments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CalculateMCC",
+        "Name": "Calculate emissions from merchant category code (MCC)",
+        "Description": "Calculate the carbon emissions from merchant category code (MCC) and offset the impact.",
+        "Anchor": "#calculate-emissions-from-merchant-category-code-(mcc)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CalculatePackage",
+        "Name": "Calculate emissions from package shipping",
+        "Description": "Calculate the carbon emissions from package shipping and offset the impact.",
+        "Anchor": "#calculate-emissions-from-package-shipping",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CalculateVehicle",
+        "Name": "Calculate the emissions from vehicle",
+        "Description": "Calculate the carbon emissions and offset the impact from a vehicle.",
+        "Anchor": "#calculate-the-emissions-from-vehicle",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ConvertEstimate",
+        "Name": "Convert estimate to purchase",
+        "Description": "Converts a carbon offset estimate to a purchase",
+        "Anchor": "#convert-estimate-to-purchase",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DirectCarbon",
+        "Name": "Direct purchase by carbon amount",
+        "Description": "Allows either the calculation or purchase of an offset to neutralize the impact.",
+        "Anchor": "#direct-purchase-by-carbon-amount",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DirectTransaction",
+        "Name": "Direct purchase by transaction amount",
+        "Description": "Allows either the calculation or purchase of an offset to neutralize the impact.",
+        "Anchor": "#direct-purchase-by-transaction-amount",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PortfolioDetails",
+        "Name": "View custom portfolio details",
+        "Description": "Get information around a given portfolio ID. Includes a back reference to offset sources.",
+        "Anchor": "#view-custom-portfolio-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectDetails",
+        "Name": "View project details",
+        "Description": "Get details about an offset source with the given project ID.",
+        "Anchor": "#view-project-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectTypes",
+        "Name": "List project types",
+        "Description": "Returns a list of project types.",
+        "Anchor": "#list-project-types",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "co2signalip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../co2signalip/",
+    "Actions": [
+      {
+        "OperationId": "GetLatestbyCode",
+        "Name": "Get latest by country code or zone",
+        "Description": "This endpoint retrieves the last known state of a country. It is also possible to get data for a specific zone, in case the country is divided by zones seen on app.electricitymap.org",
+        "Anchor": "#get-latest-by-country-code-or-zone",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLatestbyLatLon",
+        "Name": "Get latest by geographic coordinate",
+        "Description": "Get latest by geographic coordinate",
+        "Anchor": "#get-latest-by-geographic-coordinate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetZones",
+        "Name": "Get Available Zones",
+        "Description": "A list of countries and zones by code (zone being the country is divided by zones seen on app.electricitymap.org)",
+        "Anchor": "#get-available-zones",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "cognitoforms",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cognitoforms/",
     "Actions": [
@@ -12313,6 +14085,34 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "EditEntry",
+        "Name": "Update entry",
+        "Description": "Updates an entry.",
+        "Anchor": "#update-entry",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EntryDeleted",
+        "Name": "When an entry is deleted",
+        "Description": "Triggers when someone deletes an entry.",
+        "Anchor": "#when-an-entry-is-deleted",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDocument",
+        "Name": "Get Document",
+        "Description": "Gets a document",
+        "Anchor": "#get-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFile",
+        "Name": "Get file",
+        "Description": "Gets a file by id",
+        "Anchor": "#get-file",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "NewEntry",
         "Name": "When a new entry is created",
         "Description": "Triggers when someone creates a new entry.",
@@ -12320,10 +14120,17 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "SetFormAvailability",
+        "Name": "Set form availability",
+        "Description": "Sets the availability of a form.",
+        "Anchor": "#set-form-availability",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "UpdateEntry",
-        "Name": "When a new entry is updated",
+        "Name": "When an entry is updated",
         "Description": "Triggers when someone updates an entry.",
-        "Anchor": "#when-a-new-entry-is-updated",
+        "Anchor": "#when-an-entry-is-updated",
         "IsDeprecated": false
       }
     ]
@@ -12462,6 +14269,103 @@
         "Name": "Create new Salesorder in SYSPRO",
         "Description": "Create new Salesorder in SYSPRO",
         "Anchor": "#create-new-salesorder-in-syspro",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "companieshouseip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../companieshouseip/",
+    "Actions": [
+      {
+        "OperationId": "AddressByNumber",
+        "Name": "Address By Number",
+        "Description": "Address By Number",
+        "Anchor": "#address-by-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ChargesByNumber",
+        "Name": "Charges By Company Number",
+        "Description": "Charges By Company Number",
+        "Anchor": "#charges-by-company-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ChargesByNumberAndChargeId",
+        "Name": "Charges By Number and Charge Id",
+        "Description": "Charges By Number and Charge Id",
+        "Anchor": "#charges-by-number-and-charge-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CompanyByNumber",
+        "Name": "Find Company By Number",
+        "Description": "Find a Company By their Company Number",
+        "Anchor": "#find-company-by-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CompanyOfficersByNumber",
+        "Name": "Company Officers By Company Number",
+        "Description": "Company Officers By Company Number",
+        "Anchor": "#company-officers-by-company-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CompanyOfficersByNumberAndAppointmentId",
+        "Name": "Company Officers By Number and Appointment Id",
+        "Description": "Company Officers By Number and Appointment Id",
+        "Anchor": "#company-officers-by-number-and-appointment-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilingHistoryByCompNumber",
+        "Name": "Filing History By Company Number",
+        "Description": "Filing History By Company Number",
+        "Anchor": "#filing-history-by-company-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilingHistoryByNumberAndId",
+        "Name": "Filing History By Number and Id",
+        "Description": "Filing History By Number and Id",
+        "Anchor": "#filing-history-by-number-and-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IndividualPsc",
+        "Name": "Individual PSC",
+        "Description": "Find information about a Person of Significan Control by Company Number and PCS ID",
+        "Anchor": "#individual-psc",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListPsc",
+        "Name": "List Person of Significant Control",
+        "Description": "List Persons of Significant Control by Company Number",
+        "Anchor": "#list-person-of-significant-control",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListStatementsPsc",
+        "Name": "List Statements for Person of Significant Control",
+        "Description": "List Statements for Person of Significant Control by Company Number",
+        "Anchor": "#list-statements-for-person-of-significant-control",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OfficerAppointmentByOfficerId",
+        "Name": "Officer Appointment by Officer Id",
+        "Description": "Officer Appointment by Officer Id",
+        "Anchor": "#officer-appointment-by-officer-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UKEstablishments",
+        "Name": "UK Establishments",
+        "Description": "List of UK-establishments companies",
+        "Anchor": "#uk-establishments",
         "IsDeprecated": false
       }
     ]
@@ -12707,6 +14611,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateDataBulk",
+        "Name": "Insert Data Bulk",
+        "Description": "Insert multiple records into Business Central",
+        "Anchor": "#insert-data-bulk",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateDataComplex",
         "Name": "Insert Data (Complex)",
         "Description": "Insert data into a specific Business Central table",
@@ -12718,6 +14629,13 @@
         "Name": "Delete Data",
         "Description": "Delete data from Business Central by it's unique id",
         "Anchor": "#delete-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteDataBulk",
+        "Name": "Delete Data Bulk",
+        "Description": "Delete multiple records in Business Central",
+        "Anchor": "#delete-data-bulk",
         "IsDeprecated": false
       },
       {
@@ -12760,6 +14678,13 @@
         "Name": "Get Data by Id",
         "Description": "Get data from Business Central for a specific table and record",
         "Anchor": "#get-data-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDataInBulk",
+        "Name": "Get Data in bulk format",
+        "Description": "Get data from Business Central for a table in bulk format.",
+        "Anchor": "#get-data-in-bulk-format",
         "IsDeprecated": false
       },
       {
@@ -12889,6 +14814,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "UpdateDataBulk",
+        "Name": "Update Data Bulk",
+        "Description": "Update multiple records in Business Central",
+        "Anchor": "#update-data-bulk",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "UpdateDataComplex",
         "Name": "Update Data Complex",
         "Description": "Update a record in Business Central for a specific table",
@@ -12934,6 +14866,13 @@
         "Name": "Document Correlation Audit Proof Download",
         "Description": "Correlation ids are used to track packages or documents across several passes through the eSignatures application.",
         "Anchor": "#document-correlation-audit-proof-download",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DownloadDocumentFromPackage",
+        "Name": "Download Document from Package",
+        "Description": "The signed documents in a package can be downloaded one by one by an external system using this call. Each document will be downloaded as a PDF, or as an XML file stream, depending on the value of the DocumentType parameter.",
+        "Anchor": "#download-document-from-package",
         "IsDeprecated": false
       },
       {
@@ -13288,6 +15227,75 @@
         "Name": "Translate (markdown friendly)",
         "Description": "Translate the given text while respecting the COSMO Bot dialect Markdown syntax.",
         "Anchor": "#translate-(markdown-friendly)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "covid19jhucsseip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../covid19jhucsseip/",
+    "Actions": [
+      {
+        "OperationId": "Get_active_v2_active_get",
+        "Name": "Get Active",
+        "Description": "Get the total numbers of active cases",
+        "Anchor": "#get-active",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_confirmed_v2_confirmed_get",
+        "Name": "Get Confirmed",
+        "Description": "Get the total numbers of confirmed cases",
+        "Anchor": "#get-confirmed",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_country_v2_country_country_name_get",
+        "Name": "Get Country",
+        "Description": "Get the data based on a county's name or its ISO code",
+        "Anchor": "#get-country",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_current_us_v2_current_US_get",
+        "Name": "Get Current Us",
+        "Description": "Get all data from USA's current situation",
+        "Anchor": "#get-current-us",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_current_v2_current_get",
+        "Name": "Get Current",
+        "Description": "Get the current situation data from all reported countries",
+        "Anchor": "#get-current",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_deaths_v2_deaths_get",
+        "Name": "Get Deaths",
+        "Description": "Get the total numbers of death cases",
+        "Anchor": "#get-deaths",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_recovered_v2_recovered_get",
+        "Name": "Get Recovered",
+        "Description": "Get the total numbers of recovered cases",
+        "Anchor": "#get-recovered",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_time_series_v2_timeseries_case_get",
+        "Name": "Get Time Series",
+        "Description": "Get the time series based on a given case: global, confirmed, deaths, recovered",
+        "Anchor": "#get-time-series",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get_total_v2_total_get",
+        "Name": "Get Total",
+        "Description": "Get the total numbers of all cases",
+        "Anchor": "#get-total",
         "IsDeprecated": false
       }
     ]
@@ -14993,6 +17001,103 @@
     ]
   },
   {
+    "UniqueName": "commercemerchandising",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../commercemerchandising/",
+    "Actions": [
+      {
+        "OperationId": "GetAttributes",
+        "Name": "Get Product Attributes",
+        "Description": "Get Attributes of a Product.",
+        "Anchor": "#get-product-attributes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCatalogs",
+        "Name": "Get Catalogs",
+        "Description": "Get Catalogs.",
+        "Anchor": "#get-catalogs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCategories",
+        "Name": "Get Categories",
+        "Description": "Get Categories.",
+        "Anchor": "#get-categories",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetChannels",
+        "Name": "Get Channels",
+        "Description": "Get Channels.",
+        "Anchor": "#get-channels",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDimensionValues",
+        "Name": "Get Dimension values",
+        "Description": "The Dimension values with inventory availabilities for a Product based on the specified requirements.",
+        "Anchor": "#get-dimension-values",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvironmentConfiguration",
+        "Name": "Get Environment Configuration",
+        "Description": "Get the Environment Configuration.",
+        "Anchor": "#get-environment-configuration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetImageLocations",
+        "Name": "Get image locations of Product",
+        "Description": "Get image locations of a Product.",
+        "Anchor": "#get-image-locations-of-product",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetProductInventory",
+        "Name": "Get Product Inventory",
+        "Description": "Get Product Inventory in stores.",
+        "Anchor": "#get-product-inventory",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetProductsByIds",
+        "Name": "Get Products by IDs",
+        "Description": "Product search By IDs.",
+        "Anchor": "#get-products-by-ids",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRecommendedProducts",
+        "Name": "Get recommended Products",
+        "Description": "A collection of Product recommendations given a collection of product identifiers.",
+        "Anchor": "#get-recommended-products",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVariant",
+        "Name": "Get Product variant",
+        "Description": "Product variant search by dimensions.",
+        "Anchor": "#get-product-variant",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "HealthCheck",
+        "Name": "Health Check",
+        "Description": "Health Check of the Retail Server.",
+        "Anchor": "#health-check",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchProducts",
+        "Name": "Search Products",
+        "Description": "Product Search by keyword and category.",
+        "Anchor": "#search-products",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "customerinsights",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../customerinsights/",
     "Actions": [
@@ -15764,6 +17869,47 @@
         "Name": "View SLAs List",
         "Description": "Returns List of SLAs.",
         "Anchor": "#view-slas-list",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "ecologiip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ecologiip/",
+    "Actions": [
+      {
+        "OperationId": "GetImpact",
+        "Name": "Get total impact",
+        "Description": "How many trees has this user planted, and how many tons of CO2 emissions have been offset.",
+        "Anchor": "#get-total-impact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetOffset",
+        "Name": "Get total tons of CO2e offset",
+        "Description": "The total number of tons of CO2e emissions has this user offset.",
+        "Anchor": "#get-total-tons-of-co2e-offset",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTrees",
+        "Name": "Get total number of trees",
+        "Description": "The total number of trees this user has planted.",
+        "Anchor": "#get-total-number-of-trees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PurchaseOffsets",
+        "Name": "Purchase carbon offsets",
+        "Description": "Use this action to purchase 1 or more KG of carbon offsets per request.",
+        "Anchor": "#purchase-carbon-offsets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PurchaseTrees",
+        "Name": "Purchase trees",
+        "Description": "Use this action to purchase 1 or more trees per request.",
+        "Anchor": "#purchase-trees",
         "IsDeprecated": false
       }
     ]
@@ -17287,16 +19433,23 @@
       },
       {
         "OperationId": "AddImageWatermark",
-        "Name": "Add Image Watermark",
-        "Description": "Add an image watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012484094-Add-Image-Watermark",
-        "Anchor": "#add-image-watermark",
+        "Name": "Add Image Watermark to PDF",
+        "Description": "Add an image watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012484094",
+        "Anchor": "#add-image-watermark-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "AddImageWatermarkAdvanced",
-        "Name": "Add Image Watermark (Advanced)",
-        "Description": "Add an image watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012485874-Add-Image-Watermark-Advanced-",
-        "Anchor": "#add-image-watermark-(advanced)",
+        "Name": "Add Image Watermark to PDF (Advanced)",
+        "Description": "Add an image watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012485874",
+        "Anchor": "#add-image-watermark-to-pdf-(advanced)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddImageWatermarkWord",
+        "Name": "Add Image Watermark to Word",
+        "Description": "Add an image watermark to the specified Microsoft Word document - https://support.encodian.com/hc/en-gb/articles/4411329161361",
+        "Anchor": "#add-image-watermark-to-word",
         "IsDeprecated": false
       },
       {
@@ -17308,16 +19461,16 @@
       },
       {
         "OperationId": "AddTextWatermark",
-        "Name": "Add Text Watermark",
-        "Description": "Add a text watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012230494-Add-Text-Watermark",
-        "Anchor": "#add-text-watermark",
+        "Name": "Add Text Watermark to PDF",
+        "Description": "Add a text watermark to the specified PDF document using the standard options - https://support.encodian.com/hc/en-gb/articles/360012230494",
+        "Anchor": "#add-text-watermark-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "AddTextWatermarkAdvanced",
-        "Name": "Add Text Watermark (Advanced)",
-        "Description": "Add a text watermark to the specified PDF document using the advanced options - https://support.encodian.com/hc/en-gb/articles/360012345813-Add-Text-Watermark-Advanced-",
-        "Anchor": "#add-text-watermark-(advanced)",
+        "Name": "Add Text Watermark to PDF (Advanced)",
+        "Description": "Add a text watermark to the specified PDF document using the advanced options - https://support.encodian.com/hc/en-gb/articles/360012345813",
+        "Anchor": "#add-text-watermark-to-pdf-(advanced)",
         "IsDeprecated": false
       },
       {
@@ -17325,6 +19478,13 @@
         "Name": "Add Text Watermark to Image",
         "Description": "Add a Text Watermark to the image provided - https://support.encodian.com/hc/en-gb/articles/360013560398-Add-Text-Watermark-To-Image",
         "Anchor": "#add-text-watermark-to-image",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddTextWatermarkWord",
+        "Name": "Add Text Watermark to Word",
+        "Description": "Add a text watermark to the specified Microsoft Word document - https://support.encodian.com/hc/en-gb/articles/4411284008593",
+        "Anchor": "#add-text-watermark-to-word",
         "IsDeprecated": false
       },
       {
@@ -24404,6 +26564,47 @@
         "Name": "Check API status",
         "Description": "Get current API status.",
         "Anchor": "#check-api-status",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "haveibeenpwnedip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../haveibeenpwnedip/",
+    "Actions": [
+      {
+        "OperationId": "AllBreaches",
+        "Name": "Getting all breached sites in the system",
+        "Description": "A breach is an instance of a system having been compromised by an attacker and the data disclosed. For example, Adobe was a breach, Gawker was a breach etc. It is possible to return the details of each of breach in the system.",
+        "Anchor": "#getting-all-breached-sites-in-the-system",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AllBreachesAccount",
+        "Name": "Getting all breaches for an account",
+        "Description": "The most common use of the API is to return a list of all breaches a particular account has been involved in. The API takes a single parameter which is the account to be searched for. The account is not case sensitive and will be trimmed of leading or trailing white spaces.",
+        "Anchor": "#getting-all-breaches-for-an-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BreachSingle",
+        "Name": "Getting a single breached site",
+        "Description": "Sometimes just a single breach is required and this can be retrieved by the breach name. This is the stable value which may or may not be the same as the breach title (which can change).",
+        "Anchor": "#getting-a-single-breached-site",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DataClasses",
+        "Name": "Getting all data classes in the system",
+        "Description": "A &quot;data class&quot; is an attribute of a record compromised in a breach. For example, many breaches expose data classes such as &quot;Email addresses&quot; and &quot;Passwords&quot;. The values returned by this service are ordered alphabetically in a string array and will expand over time as new breaches expose previously unseen classes of data.",
+        "Anchor": "#getting-all-data-classes-in-the-system",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Pastes",
+        "Name": "Getting all pastes for an account",
+        "Description": "This action takes a single parameter which is the email address to be searched for. The email is not case sensitive and will be trimmed of leading or trailing white spaces.",
+        "Anchor": "#getting-all-pastes-for-an-account",
         "IsDeprecated": false
       }
     ]
@@ -34290,6 +36491,131 @@
     ]
   },
   {
+    "UniqueName": "mailjetip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mailjetip/",
+    "Actions": [
+      {
+        "OperationId": "CreateCampaignDraft",
+        "Name": "Create Campaign Draft",
+        "Description": "Create a new campaign draft. Newsletter and CampaignDraft objects are differentiated by the EditMode values.",
+        "Anchor": "#create-campaign-draft",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateContact",
+        "Name": "Create  Contact",
+        "Description": "Add a new unique contact to your global contact list and select its exclusion status",
+        "Anchor": "#create-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateContactList",
+        "Name": "Create Contact List",
+        "Description": "Create a new contact list",
+        "Anchor": "#create-contact-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteContactList",
+        "Name": "Delete Contact List",
+        "Description": "Delete a contact list",
+        "Anchor": "#delete-contact-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCampaignDraftByID",
+        "Name": "Get Campaign Draft By ID",
+        "Description": "Get a specific campaign draft and its configuration details",
+        "Anchor": "#get-campaign-draft-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCampaignOverview",
+        "Name": "Get Campaign Overview",
+        "Description": "Get general details and stats for all drafts, AB Testing objects and/or sent campaigns",
+        "Anchor": "#get-campaign-overview",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCampaignsDraft",
+        "Name": "Get Campaigns Draft",
+        "Description": "Get all campaign drafts and their configuration",
+        "Anchor": "#get-campaigns-draft",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetContactByID",
+        "Name": "Get Contact By ID",
+        "Description": "Retrieve a specific contact",
+        "Anchor": "#get-contact-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetContacts",
+        "Name": "Get Contacts",
+        "Description": "Retrieve a list of all contacts. Includes information about contact status and creation / activity timestamps",
+        "Anchor": "#get-contacts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetContactsStatistics",
+        "Name": "Get Contacts Statistics",
+        "Description": "Retrieve a list of overall aggregated delivery and engagement statistics, grouped by contact",
+        "Anchor": "#get-contacts-statistics",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMessages",
+        "Name": "Get Messages",
+        "Description": "Get a list of messages with specific information on the type of content, tracking, sending and delivery",
+        "Anchor": "#get-messages",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMessagesInformation",
+        "Name": "Get Messages Information",
+        "Description": "Retrieve sending/size/spam information about all messages",
+        "Anchor": "#get-messages-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendEmailv3",
+        "Name": "Send Email v3",
+        "Description": "Send an email message via Send API v3",
+        "Anchor": "#send-email-v3",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendEmailv3-1",
+        "Name": "Send Email v3.1",
+        "Description": "Send an email message via Send API v3.1",
+        "Anchor": "#send-email-v3.1",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateCampaignDraft",
+        "Name": "Update Campaign Draft",
+        "Description": "Update an existing campaign draft",
+        "Anchor": "#update-campaign-draft",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateContact",
+        "Name": "Update Contact",
+        "Description": "Update the user-given name and exclusion status of a specific contact",
+        "Anchor": "#update-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateContactList",
+        "Name": "Update Contact List",
+        "Description": "Update a specific contact list by changing its name and / or deletion status",
+        "Anchor": "#update-contact-list",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "mailparser",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mailparser/",
     "Actions": [
@@ -35909,6 +38235,159 @@
     ]
   },
   {
+    "UniqueName": "azuresentinel",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azuresentinel/",
+    "Actions": [
+      {
+        "OperationId": "AddCommentToIncident_v2",
+        "Name": "Add comment to incident (V2)",
+        "Description": "Adds comment to selected incident",
+        "Anchor": "#add-comment-to-incident-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddIncidentComment_v3",
+        "Name": "Add comment to incident (V3)",
+        "Description": "Adds comment to selected incident",
+        "Anchor": "#add-comment-to-incident-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ASI_incident_trigger_subscribe",
+        "Name": "Microsoft Sentinel incident",
+        "Description": "When a response to an Microsoft Sentinel incident is triggered. This playbook is triggered by an automation rule when a new incident is created. Playbook receives the Microsoft Sentinel incident as its input, including alerts and entities.",
+        "Anchor": "#microsoft-sentinel-incident",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ASI_trigger_subscribe",
+        "Name": "Microsoft Sentinel alert",
+        "Description": "When a response to an Microsoft Sentinel alert is triggered. This playbook is triggered by an analytics rule when a new alert is created or by manual triggering. Playbook receives the alert as its input.",
+        "Anchor": "#microsoft-sentinel-alert",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAccounts",
+        "Name": "Entities - Get Accounts",
+        "Description": "Returns list of accounts associated with the alert",
+        "Anchor": "#entities---get-accounts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFileHashes",
+        "Name": "Entities - Get FileHashes",
+        "Description": "Returns list of File Hashes associated with the alert",
+        "Anchor": "#entities---get-filehashes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetHosts",
+        "Name": "Entities - Get Hosts",
+        "Description": "Returns list of hosts associated with the alert",
+        "Anchor": "#entities---get-hosts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetIncidentByAlertId_v2",
+        "Name": "Alert - Get incident",
+        "Description": "Returns the incident associated with selected alert",
+        "Anchor": "#alert---get-incident",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetIncidentByAlertId_v2",
+        "Name": "Alert - Get incident",
+        "Description": "Returns the incident associated with selected alert",
+        "Anchor": "#alert---get-incident",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetIncidentV2",
+        "Name": "Get incident",
+        "Description": "Get an incident by ARM ID",
+        "Anchor": "#get-incident",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetIPs",
+        "Name": "Entities - Get IPs",
+        "Description": "Returns list of IPs associated with the alert",
+        "Anchor": "#entities---get-ips",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUrls",
+        "Name": "Entities - Get URLs",
+        "Description": "Returns list of URLs associated with the alert",
+        "Anchor": "#entities---get-urls",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateIncident",
+        "Name": "Update incident",
+        "Description": "Update incident with provided fields",
+        "Anchor": "#update-incident",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Watchlist_Delete",
+        "Name": "Watchlists - Delete a watchlist",
+        "Description": "Watchlists - Delete a watchlist",
+        "Anchor": "#watchlists---delete-a-watchlist",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Watchlist_Get",
+        "Name": "Watchlists - Get a watchlist by alias",
+        "Description": "Watchlists - Get a watchlist by alias",
+        "Anchor": "#watchlists---get-a-watchlist-by-alias",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WatchlistItems_Create",
+        "Name": "Watchlists - Add a new watchlist item",
+        "Description": "Watchlists - Add a new watchlist item",
+        "Anchor": "#watchlists---add-a-new-watchlist-item",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WatchlistItems_Delete",
+        "Name": "Watchlists - Delete a watchlist item",
+        "Description": "Watchlists - Delete a watchlist item",
+        "Anchor": "#watchlists---delete-a-watchlist-item",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WatchlistItems_Get",
+        "Name": "Watchlists - Get a watchlist item",
+        "Description": "Watchlists - Get a watchlist item",
+        "Anchor": "#watchlists---get-a-watchlist-item",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WatchlistItems_GetAll",
+        "Name": "Watchlists - Get all watchlists without watchlist items",
+        "Description": "Watchlists - Get all watchlists without watchlist items",
+        "Anchor": "#watchlists---get-all-watchlists-without-watchlist-items",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WatchlistItems_List",
+        "Name": "Watchlists - Get all watchlist Items for a given watchlist",
+        "Description": "Watchlists - Get all watchlist Items for a given watchlist",
+        "Anchor": "#watchlists---get-all-watchlist-items-for-a-given-watchlist",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WatchlistItems_Update",
+        "Name": "Watchlists - Update an existing watchlist item",
+        "Description": "Watchlists - Update an existing watchlist item",
+        "Anchor": "#watchlists---update-an-existing-watchlist-item",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "teams",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../teams/",
     "Actions": [
@@ -36216,6 +38695,75 @@
         "Name": "Translate text",
         "Description": "Translates text to a specified language using Microsoft Translator.",
         "Anchor": "#translate-text",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "miroip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../miroip/",
+    "Actions": [
+      {
+        "OperationId": "CopyBoard",
+        "Name": "Copy a board",
+        "Description": "Create a copy of an existing board.",
+        "Anchor": "#copy-a-board",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateBoard",
+        "Name": "Create a board",
+        "Description": "Create a new board.",
+        "Anchor": "#create-a-board",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateCard",
+        "Name": "Create a card widget",
+        "Description": "Create a new card widget.",
+        "Anchor": "#create-a-card-widget",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteWidget",
+        "Name": "Delete a widget",
+        "Description": "Delete a specific widget by its unique identifier.",
+        "Anchor": "#delete-a-widget",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetBoard",
+        "Name": "Get a board",
+        "Description": "Get a specific board by its unique identifier.",
+        "Anchor": "#get-a-board",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWidget",
+        "Name": "Get a widget",
+        "Description": "Get a specific single widget by its unique identifier.",
+        "Anchor": "#get-a-widget",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWidgets",
+        "Name": "Get widgets",
+        "Description": "Get all widgets.",
+        "Anchor": "#get-widgets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateBoard",
+        "Name": "Update a board",
+        "Description": "Update a specific board by its unique identifier.",
+        "Anchor": "#update-a-board",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateCard",
+        "Name": "Update a card widget",
+        "Description": "Update a specific card widget by its unique identifier.",
+        "Anchor": "#update-a-card-widget",
         "IsDeprecated": false
       }
     ]
@@ -36834,6 +39382,47 @@
     ]
   },
   {
+    "UniqueName": "nasaivlibraryip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nasaivlibraryip/",
+    "Actions": [
+      {
+        "OperationId": "GetMediaAlbumContents",
+        "Name": "Get Media Album",
+        "Description": "Get Media Album",
+        "Anchor": "#get-media-album",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMediaAssetManifest",
+        "Name": "Get media asset information",
+        "Description": "Get media asset information",
+        "Anchor": "#get-media-asset-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMediaAssetMetadataLocation",
+        "Name": "Get media asset metadata location",
+        "Description": "Get media asset metadata location",
+        "Anchor": "#get-media-asset-metadata-location",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVideoAssetCaptionsLocation",
+        "Name": "Get video asset captions location",
+        "Description": "Get video asset captions location",
+        "Anchor": "#get-video-asset-captions-location",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Search",
+        "Name": "Search media",
+        "Description": "Search media",
+        "Anchor": "#search-media",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "netdocuments",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../netdocuments/",
     "Actions": [
@@ -37364,6 +39953,26 @@
         "Name": "Add pipeline",
         "Description": "Create a new pipeline opportunity on a given Contact ID.",
         "Anchor": "#add-pipeline",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "nistnvdip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nistnvdip/",
+    "Actions": [
+      {
+        "OperationId": "GetCPECollection",
+        "Name": "Retrieve CPE information",
+        "Description": "Retrieve CPE information",
+        "Anchor": "#retrieve-cpe-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCVECollection",
+        "Name": "Retrieve a collection of CVE",
+        "Description": "Retrieve a collection of CVE",
+        "Anchor": "#retrieve-a-collection-of-cve",
         "IsDeprecated": false
       }
     ]
@@ -38811,6 +41420,200 @@
         "Name": "Reverse geocoding",
         "Description": "Get location address by latitude and longitude",
         "Anchor": "#reverse-geocoding",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "openfdadrugip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../openfdadrugip/",
+    "Actions": [
+      {
+        "OperationId": "DrugAdverseEvent",
+        "Name": "Drug Adverse Event",
+        "Description": "The openFDA drug adverse event API returns data that has been collected from the FDA Adverse Event Reporting System (FAERS), a database that contains information on adverse event and medication error reports submitted to FDA.",
+        "Anchor": "#drug-adverse-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DrugEnforcement",
+        "Name": "Drug Enforcement",
+        "Description": "The openFDA drug enforcement reports API returns data from the FDA Recall Enterprise System (RES), a database that contains information on recall event information submitted to FDA. Currently, this data covers publicly releasable records from 2004-present. The data is updated weekly.",
+        "Anchor": "#drug-enforcement",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DrugLabeling",
+        "Name": "Drug Labeling",
+        "Description": "Drug manufacturers and distributors submit documentation about their products to FDA in the Structured Product Labeling (SPL) format. The openFDA drug product labeling API returns data from this dataset.",
+        "Anchor": "#drug-labeling",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DrugNDC",
+        "Name": "Drug NDC",
+        "Description": "The openFDA drug NDC Directory endpoint returns data from the NDC Directory, a database that contains information on the National Drug Code (NDC). FDA publishes the listed NDC numbers and the information submitted as part of the listing information in the NDC Directory which is updated daily.",
+        "Anchor": "#drug-ndc",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DrugsFDA",
+        "Name": "DrugsFDA",
+        "Description": "DrugsFDA includes most of the drug products approved since 1939. The majority of patient information, labels, approval letters, reviews, and other information are available for drug products approved since 1998.",
+        "Anchor": "#drugsfda",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "opennemip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../opennemip/",
+    "Actions": [
+      {
+        "OperationId": "GetEmissionFactorPerNetworkRegion",
+        "Name": "Get Emission Factor Per Network Region",
+        "Description": "Get Emission Factor Per Network Region",
+        "Anchor": "#get-emission-factor-per-network-region",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnergybyStation",
+        "Name": "Get Energy by Station",
+        "Description": "Get energy output for a station (list of facilities) over a period",
+        "Anchor": "#get-energy-by-station",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFacilities",
+        "Name": "Get Facilities",
+        "Description": "Get Facilities",
+        "Anchor": "#get-facilities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFacilitybyCode",
+        "Name": "Get Facility by Code",
+        "Description": "Get Facility by Code",
+        "Anchor": "#get-facility-by-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFueltechMixByNetwork",
+        "Name": "Get Fueltech Mix By Network",
+        "Description": "Return fueltech proportion of demand for a network",
+        "Anchor": "#get-fueltech-mix-by-network",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFuelTechnologies",
+        "Name": "Get Fuel Technologies",
+        "Description": "Get Fuel Technologies",
+        "Anchor": "#get-fuel-technologies",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetInterconnectorFlowNetwork",
+        "Name": "Get Interconnector Flow Network",
+        "Description": "Get Interconnector Flow Network",
+        "Anchor": "#get-interconnector-flow-network",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetIntervals",
+        "Name": "Get Intervals",
+        "Description": "Get Intervals",
+        "Anchor": "#get-intervals",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetNetworkRegions",
+        "Name": "Get Network Regions",
+        "Description": "Get Network Regions",
+        "Anchor": "#get-network-regions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetNetworks",
+        "Name": "Get Networks",
+        "Description": "Get Networks",
+        "Anchor": "#get-networks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPeriods",
+        "Name": "Get Periods",
+        "Description": "Get Periods",
+        "Anchor": "#get-periods",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPowerbyStation",
+        "Name": "Get Power by Station",
+        "Description": "Get Power by Station",
+        "Anchor": "#get-power-by-station",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPowerNetworkRegionByFueltech",
+        "Name": "Get Power Network Region By Fueltech",
+        "Description": "Get Power Network Region By Fueltech",
+        "Anchor": "#get-power-network-region-by-fueltech",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPriceHistoryByNetworkandNetworkRegion",
+        "Name": "Get Price History By Network and Network Region",
+        "Description": "Returns network and network region price info for interval which defaults to network interval size",
+        "Anchor": "#get-price-history-by-network-and-network-region",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSingleStationbyCode",
+        "Name": "Get a Single Network Station by Code",
+        "Description": "Get a Single Network Station by Code",
+        "Anchor": "#get-a-single-network-station-by-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationByID",
+        "Name": "Get Network Station by ID",
+        "Description": "Get Network Station by ID",
+        "Anchor": "#get-network-station-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStations",
+        "Name": "Get Network Stations",
+        "Description": "Get Network Stations",
+        "Anchor": "#get-network-stations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUnits",
+        "Name": "Get Units",
+        "Description": "Get Units",
+        "Anchor": "#get-units",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWeatherStationbyCode",
+        "Name": "Get Weather Station by Code",
+        "Description": "Get Weather Station by Code",
+        "Anchor": "#get-weather-station-by-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWeatherStationObservations",
+        "Name": "Get Weather Station Observations",
+        "Description": "Get Weather Station Observations",
+        "Anchor": "#get-weather-station-observations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWeatherStations",
+        "Name": "Get Weather Stations",
+        "Description": "Get Weather Stations",
+        "Anchor": "#get-weather-stations",
         "IsDeprecated": false
       }
     ]
@@ -40331,6 +43134,47 @@
     ]
   },
   {
+    "UniqueName": "pantryip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pantryip/",
+    "Actions": [
+      {
+        "OperationId": "CreateAnd_orReplace",
+        "Name": "Create and or replace basket",
+        "Description": "Given a basket name as provided in the url, this will either create a new basket inside your pantry, or replace an existing one.",
+        "Anchor": "#create-and-or-replace-basket",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delete",
+        "Name": "Delete a basket",
+        "Description": "Delete the entire basket. Warning, this action cannot be undone.",
+        "Anchor": "#delete-a-basket",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetContents",
+        "Name": "Get basket contents",
+        "Description": "Given a basket name, return the full contents of the basket.",
+        "Anchor": "#get-basket-contents",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDetails",
+        "Name": "Get pantry details",
+        "Description": "Given a PantryID, return the details of the pantry, including a list of baskets currently stored inside it.",
+        "Anchor": "#get-pantry-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateContents",
+        "Name": "Update basket contents",
+        "Description": "Given a basket name, this will update the existing contents and return the contents of the newly updated basket. This operation performs a deep merge and will overwrite the values of any existing keys, or append values to nested objects or arrays.",
+        "Anchor": "#update-basket-contents",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "panviva",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../panviva/",
     "Actions": [
@@ -40811,6 +43655,13 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pdf4meconnect/",
     "Actions": [
       {
+        "OperationId": "AddBarcode_V1",
+        "Name": "Add Barcode to PDF",
+        "Description": "Add a barcode or QR code to your PDF document.",
+        "Anchor": "#add-barcode-to-pdf",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ConvertHtmlToPdf_V1",
         "Name": "Convert HTML to PDF (Preview)",
         "Description": "Convert your HTML file to PDF. https://pdf4me.com/power-automate/documentation/actions/html-to-pdf/",
@@ -40958,6 +43809,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "RotatePage_V1",
+        "Name": "Rotate Page",
+        "Description": "Rotate a specific page of a PDF document.",
+        "Anchor": "#rotate-page",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "SplitDocByBarcode_V1",
         "Name": "Split Document by Barcode (Preview)",
         "Description": "Split the PDF document by barcode types and filters. https://pdf4me.com/power-automate/documentation/actions/split-by-barcode/",
@@ -40983,6 +43841,13 @@
         "Name": "Send Document to PDF4me-Workflow (Preview)",
         "Description": "Start PDF4me-Workflow with document from anywhere https://pdf4me.com/power-automate/documentation/actions/send-document-to-pdf4me-workflow/",
         "Anchor": "#send-document-to-pdf4me-workflow-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Unlock_V1",
+        "Name": "Unlock PDF",
+        "Description": "Removes password protection from a PDF file.",
+        "Anchor": "#unlock-pdf",
         "IsDeprecated": false
       }
     ]
@@ -41681,6 +44546,33 @@
     ]
   },
   {
+    "UniqueName": "placedogip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../placedogip/",
+    "Actions": [
+      {
+        "OperationId": "GetWidth",
+        "Name": "Get a doggo - set width",
+        "Description": "Request a doggo with a set width between 1 and 1000. Height will be automatically set.",
+        "Anchor": "#get-a-doggo---set-width",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWidthHeight",
+        "Name": "Get a pupper - set width and height",
+        "Description": "Request a pupper with a set width and height, both between 1 and 1000.",
+        "Anchor": "#get-a-pupper---set-width-and-height",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWidthHeightFilter",
+        "Name": "Get a woofer - set width and height with filter",
+        "Description": "Request a woofer with a filter and set width and height, both between 1 and 1000.",
+        "Anchor": "#get-a-woofer---set-width-and-height-with-filter",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "planner",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../planner/",
     "Actions": [
@@ -42065,6 +44957,33 @@
         "Name": "When process is finished",
         "Description": "Creates a webhook that runs when the process is finished",
         "Anchor": "#when-process-is-finished",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "plumsailforms",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../plumsailforms/",
+    "Actions": [
+      {
+        "OperationId": "DeleteAttachment",
+        "Name": "Delete attachment",
+        "Description": "Deletes an attachment by its URL",
+        "Anchor": "#delete-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteSubmission",
+        "Name": "Delete submission",
+        "Description": "Deletes an form submission by its ID",
+        "Anchor": "#delete-submission",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FormIsSubmitted",
+        "Name": "Form is submitted",
+        "Description": "Fires whenever the target form is submitted",
+        "Anchor": "#form-is-submitted",
         "IsDeprecated": false
       }
     ]
@@ -43334,6 +46253,13 @@
         "Name": "Modify Flow Owners as Admin",
         "Description": "Modify owners of the given flow created in an environment you have admin access to.",
         "Anchor": "#modify-flow-owners-as-admin",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CancelFlowRun",
+        "Name": "Cancel Flow Run",
+        "Description": "Cancel a flow run.",
+        "Anchor": "#cancel-flow-run",
         "IsDeprecated": false
       },
       {
@@ -44696,6 +47622,257 @@
     ]
   },
   {
+    "UniqueName": "quickbaseip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../quickbaseip/",
+    "Actions": [
+      {
+        "OperationId": "CloneUserToken",
+        "Name": "Clone a user token",
+        "Description": "Clones the authenticated user token. All applications associated with that token are automatically associated with the new token.",
+        "Anchor": "#clone-a-user-token",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CopyApp",
+        "Name": "Copy an app",
+        "Description": "Copies the specified application. The new application will have the same schema as the original. See below for additional copy options.",
+        "Anchor": "#copy-an-app",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateApp",
+        "Name": "Create an app",
+        "Description": "Creates an application in an account. You must have application creation rights in the respective account. Main properties and application variables can be set with this API.",
+        "Anchor": "#create-an-app",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateField",
+        "Name": "Create a field",
+        "Description": "Creates a field within a table, including the custom permissions of that field.",
+        "Anchor": "#create-a-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateRelationship",
+        "Name": "Create a relationship",
+        "Description": "Creates a relationship in a table as well as lookup/summary fields. Relationships can only be created for tables within the same app.",
+        "Anchor": "#create-a-relationship",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateTable",
+        "Name": "Create a table",
+        "Description": "Creates a table in an application.",
+        "Anchor": "#create-a-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeactivateUserToken",
+        "Name": "Deactivate a user token",
+        "Description": "Deactivates the authenticated user token. Once this is done, the user token must be reactivated in the user interface.",
+        "Anchor": "#deactivate-a-user-token",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteApp",
+        "Name": "Delete an app",
+        "Description": "Deletes an entire application, including all of the tables and data.",
+        "Anchor": "#delete-an-app",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteFields",
+        "Name": "Delete fields",
+        "Description": "Deletes one or many fields in a table, based on field id. This will also permanently delete any data or calculations in that field.",
+        "Anchor": "#delete-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteFile",
+        "Name": "Delete an attachment",
+        "Description": "Deletes one file attachment version. Meta-data about files can be retrieved from the /records and /reports endpoints, where applicable. Use those endpoints to get the necessary information to delete file versions.",
+        "Anchor": "#delete-an-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteRecords",
+        "Name": "Delete records",
+        "Description": "Deletes record(s) in a table based on a query. Alternatively, all records in the table can be deleted.",
+        "Anchor": "#delete-records",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteRelationship",
+        "Name": "Delete a relationship",
+        "Description": "Use this endpoint to delete an entire relationship, including all lookup and summary fields. The reference field in the relationship will not be deleted.",
+        "Anchor": "#delete-a-relationship",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteTable",
+        "Name": "Delete a table",
+        "Description": "Deletes a specific table in an application, including all of the data within it.",
+        "Anchor": "#delete-a-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteUserToken",
+        "Name": "Delete a user token",
+        "Description": "Deletes the authenticated user token. This is not reversible.",
+        "Anchor": "#delete-a-user-token",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DownloadFile",
+        "Name": "Download an attachment",
+        "Description": "Downloads the file attachment, with the file attachment content encoded in base64 format. The API response returns the file name in the Content-Disposition header. Meta-data about files can be retrieved from the /records and /reports endpoints, where applicable. Use those endpoints to get the necessary information to fetch files.",
+        "Anchor": "#download-an-attachment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetApp",
+        "Name": "Get an app",
+        "Description": "Returns the main properties of an application, including application variables.",
+        "Anchor": "#get-an-app",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAppEvents",
+        "Name": "Get app events",
+        "Description": "Get a list of events that can be triggered based on data or user actions in this application, includes: Email notification, Reminders, Subscriptions, QB Actions, Webhooks, record change triggered Automations (does not include scheduled).",
+        "Anchor": "#get-app-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAppTables",
+        "Name": "Get tables for an app",
+        "Description": "Gets a list of all the tables that exist in a specific application. The properties for each table are the same as what is returned in Get table.",
+        "Anchor": "#get-tables-for-an-app",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetField",
+        "Name": "Get field",
+        "Description": "Gets the properties of an individual field, based on field id.\nProperties present on all field types are returned at the top level. Properties unique to a specific type of field are returned under the 'properties' attribute. Please see Field types page for more details on the properties for each field type.",
+        "Anchor": "#get-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFields",
+        "Name": "Get fields for a table",
+        "Description": "Gets the properties for all fields in a specific table. The properties for each field are the same as in Get field.",
+        "Anchor": "#get-fields-for-a-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFieldsUsage",
+        "Name": "Get usage for all fields",
+        "Description": "Get all the field usage statistics for a table. This is a summary of the information that can be found in the usage table of field properties.",
+        "Anchor": "#get-usage-for-all-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFieldUsage",
+        "Name": "Get a field usage",
+        "Description": "Get a single fields usage statistics. This is a summary of the information that can be found in the usage table of field properties.",
+        "Anchor": "#get-a-field-usage",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRelationships",
+        "Name": "Get all relationships",
+        "Description": "Get a list of all relationships, and their definitions, for a specific table. Details are provided for both the parent and child sides of relationships within a given application. Limited details are returned for cross-application relationships.",
+        "Anchor": "#get-all-relationships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReport",
+        "Name": "Get a report",
+        "Description": "Get the schema (properties) of an individual report.",
+        "Anchor": "#get-a-report",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTable",
+        "Name": "Get a table",
+        "Description": "Gets the properties of an individual table that is part of an application.",
+        "Anchor": "#get-a-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTableReports",
+        "Name": "Get all table reports",
+        "Description": "Get the schema (properties) of all reports for a table. If the user running the API is an application administrator, the API will also return all personal reports with owner's user id.",
+        "Anchor": "#get-all-table-reports",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTempTokenDBID",
+        "Name": "Get a temporary token for a DBID",
+        "Description": "Use this endpoint to get a temporary authorization token, scoped to either an app or a table. You can then use this token to make other API calls (see authorization).  This token expires in 5 minutes.",
+        "Anchor": "#get-a-temporary-token-for-a-dbid",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunFormula",
+        "Name": "Run a formula",
+        "Description": "Allows running a formula via an API call. Use this method in custom code to get the value back of a formula without a discrete field on a record.",
+        "Anchor": "#run-a-formula",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunQuery",
+        "Name": "Query for data",
+        "Description": "Pass in a query in the Quickbase query language. Returns record data with intelligent pagination based on the approximate size of each record. The metadata object will include the necessary information to iterate over the response and gather more data.",
+        "Anchor": "#query-for-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunReport",
+        "Name": "Run a report",
+        "Description": "Runs a report, based on an ID and returns the underlying data associated with it. The format of the data will vary based on the report type. Reports that focus on record-level data (table, calendar, etc.) return the individual records. Aggregate reports (summary, chart) will return the summarized information as configured in the report. UI-specific elements are not returned, such as totals, averages and visualizations. Returns data with intelligent pagination based on the approximate size of each record. The metadata object will include the necessary information to iterate over the response and gather more data.",
+        "Anchor": "#run-a-report",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateApp",
+        "Name": "Update an app",
+        "Description": "Updates the main properties and/or application variables for a specific application. Any properties of the app that you do not specify in the request body will remain unchanged.",
+        "Anchor": "#update-an-app",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateField",
+        "Name": "Update a field",
+        "Description": "Updates the properties and custom permissions of a field. The attempt to update certain properties might cause existing data to no longer obey the field’s new properties and may be rejected. See the descriptions of required, unique, and choices, below, for specific situations. Any properties of the field that you do not specify in the request body will remain unchanged.",
+        "Anchor": "#update-a-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateRelationship",
+        "Name": "Update a relationship",
+        "Description": "Use this endpoint to add lookup fields and summary fields to an existing relationship. Updating a relationship will not delete existing lookup/summary fields.",
+        "Anchor": "#update-a-relationship",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateTable",
+        "Name": "Update a table",
+        "Description": "Updates the main properties of a specific table. Any properties of the table that you do not specify in the request body will remain unchanged.",
+        "Anchor": "#update-a-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpsertRecords",
+        "Name": "Insert andor update records",
+        "Description": "Insert and/or update record(s) in a table. In this single API call, inserts and updates can be submitted. Update can use the key field on the table, or any other supported unique field. Refer to the Field types page for more information about how each field type should be formatted. This operation allows for incremental processing of successful records, even when some of the records fail.\nNote: This endpoint supports a maximum payload size of 10MB.",
+        "Anchor": "#insert-andor-update-records",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "rspacexip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rspacexip/",
     "Actions": [
@@ -45378,6 +48555,13 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rescocloud/",
     "Actions": [
       {
+        "OperationId": "GenerateReport",
+        "Name": "Generate report",
+        "Description": "Generate report",
+        "Anchor": "#generate-report",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Record-Create",
         "Name": "Create a new record",
         "Description": "Create a new record",
@@ -45399,10 +48583,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Record-Get-Questionnaire",
+        "Name": "Get questionnaire",
+        "Description": "Get of questionaire record by ID",
+        "Anchor": "#get-questionnaire",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Record-List",
         "Name": "List records",
         "Description": "Get list of records",
         "Anchor": "#list-records",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Record-List-Questionnaire",
+        "Name": "List questionnaires",
+        "Description": "Get list of questionnaire records",
+        "Anchor": "#list-questionnaires",
         "IsDeprecated": false
       },
       {
@@ -45413,10 +48611,30 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "TriggerCreate",
+        "Name": "When an item is created-updated-deleted",
+        "Description": "When an item is created-updated-deleted",
+        "Anchor": "#when-an-item-is-created-updated-deleted",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "User-Get",
         "Name": "Get current user",
         "Description": "Get current user record by ID",
         "Anchor": "#get-current-user",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "restcountriesip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../restcountriesip/",
+    "Actions": [
+      {
+        "OperationId": "ALL",
+        "Name": "ALL",
+        "Description": "ALL",
+        "Anchor": "#all",
         "IsDeprecated": false
       }
     ]
@@ -45563,6 +48781,110 @@
         "Name": "Get URL Threat Intelligence Report",
         "Description": "This service returns threat intelligence data, including reputation from various reputation sources, metadata for performed URL analyses, and the maliciousness of files found on the submitted URL.",
         "Anchor": "#get-url-threat-intelligence-report",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "revueip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../revueip/",
+    "Actions": [
+      {
+        "OperationId": "AddSubscriber",
+        "Name": "Add a subscriber",
+        "Description": "Adds a subscriber to your list.",
+        "Anchor": "#add-a-subscriber",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllLists",
+        "Name": "Get all lists",
+        "Description": "List all lists associated with account.",
+        "Anchor": "#get-all-lists",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllSentIssues",
+        "Name": "Get all sent issues",
+        "Description": "Returns a list of your sent issues.",
+        "Anchor": "#get-all-sent-issues",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllSubscribers",
+        "Name": "Get all subscribers",
+        "Description": "Returns a list of your subscribers that are actively subscribed.",
+        "Anchor": "#get-all-subscribers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCurrentIssue",
+        "Name": "Get current issue",
+        "Description": "Returns the current issue that is being worked on.",
+        "Anchor": "#get-current-issue",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetExport",
+        "Name": "Get an export",
+        "Description": "Get an export with ID.",
+        "Anchor": "#get-an-export",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetItems",
+        "Name": "Get items",
+        "Description": "Returns a list of items from your my items inbox.",
+        "Anchor": "#get-items",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLatestIssue",
+        "Name": "Get latest issue",
+        "Description": "Returns the last issue sent.",
+        "Anchor": "#get-latest-issue",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetList",
+        "Name": "Get list",
+        "Description": "Get specific list.",
+        "Anchor": "#get-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetProfileURL",
+        "Name": "Get profile URL",
+        "Description": "Get the profile URL for your account.",
+        "Anchor": "#get-profile-url",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUnsubscribed",
+        "Name": "Get unsubscribed subscribers",
+        "Description": "Returns a list of your subscribers that are currently unsubscribed.",
+        "Anchor": "#get-unsubscribed-subscribers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "StartExport",
+        "Name": "Start an export",
+        "Description": "Start an export for list.",
+        "Anchor": "#start-an-export",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UnsubscribeSubscriber",
+        "Name": "Unsubscribe a subscriber",
+        "Description": "Unsubscribe a subscriber from your list.",
+        "Anchor": "#unsubscribe-a-subscriber",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateSubscriber",
+        "Name": "Update a subscriber",
+        "Description": "Update a subscriber on your list.",
+        "Anchor": "#update-a-subscriber",
         "IsDeprecated": false
       }
     ]
@@ -47064,6 +50386,33 @@
         "Name": "When a document is signed by all signatories",
         "Description": "Waits for a document to be signed.",
         "Anchor": "#when-a-document-is-signed-by-all-signatories",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "secib",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../secib/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Retrieving view's data",
+        "Description": "Retrieve data from a view in the SECIB database.",
+        "Anchor": "#retrieving-view's-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DossierCreated",
+        "Name": "When a case file is created",
+        "Description": "Triggers a flow when a case file is created in SECIB neo, SECIB air or in Gestisoft.",
+        "Anchor": "#when-a-case-file-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCabinets",
+        "Name": "Retrieving firms",
+        "Description": "Retrieving each accessible firm for the current user.",
+        "Anchor": "#retrieving-firms",
         "IsDeprecated": false
       }
     ]
@@ -48637,6 +51986,26 @@
         "Name": "Update file",
         "Description": "Updates the contents of the file specified by the file identifier.",
         "Anchor": "#update-file",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "shieldsioip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../shieldsioip/",
+    "Actions": [
+      {
+        "OperationId": "BadgeCreate",
+        "Name": "Create a static badge",
+        "Description": "Create a static badge using defined parameters.",
+        "Anchor": "#create-a-static-badge",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BadgeGet",
+        "Name": "Get a pre-configured badge",
+        "Description": "Get a pre-configured badge. All badges are sorted by category at https://shields.io/",
+        "Anchor": "#get-a-pre-configured-badge",
         "IsDeprecated": false
       }
     ]
@@ -51841,6 +55210,82 @@
     ]
   },
   {
+    "UniqueName": "starwarsip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../starwarsip/",
+    "Actions": [
+      {
+        "OperationId": "GetFilmById",
+        "Name": "Get Film by ID",
+        "Description": "Get a specific film by id.",
+        "Anchor": "#get-film-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFilms",
+        "Name": "Get all films",
+        "Description": "A Film resource is a single film",
+        "Anchor": "#get-all-films",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPeople",
+        "Name": "Get People",
+        "Description": "A People resource is an individual person or character within the Star Wars universe",
+        "Anchor": "#get-people",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPersonById",
+        "Name": "Get Person By Id",
+        "Description": "A People resource is an individual person or character within the Star Wars universe",
+        "Anchor": "#get-person-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPlanetById",
+        "Name": "Get Planet By Id",
+        "Description": "A Planet resource is a large mass, planet or planetoid in the Star Wars Universe, at the time of 0 ABY.",
+        "Anchor": "#get-planet-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPlanets",
+        "Name": "Get Planets",
+        "Description": "A Planet resource is a large mass, planet or planetoid in the Star Wars Universe, at the time of 0 ABY.",
+        "Anchor": "#get-planets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSpecies",
+        "Name": "Get All Species",
+        "Description": "A Species resource is a type of person or character within the Star Wars Universe",
+        "Anchor": "#get-all-species",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSpeciesById",
+        "Name": "Get Species By Id",
+        "Description": "A Species resource is a type of person or character within the Star Wars Universe",
+        "Anchor": "#get-species-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStarShipById",
+        "Name": "Get StarShip By Id",
+        "Description": "A Starship resource is a single transport craft that has hyperdrive capability",
+        "Anchor": "#get-starship-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStarships",
+        "Name": "Get all starships",
+        "Description": "A Starship resource is a single transport craft that has hyperdrive capability.",
+        "Anchor": "#get-all-starships",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "stormboard",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../stormboard/",
     "Actions": [
@@ -54409,6 +57854,68 @@
     ]
   },
   {
+    "UniqueName": "unsplaship",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../unsplaship/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Get a user's public collections",
+        "Description": "Retrieve public collections for a given user.",
+        "Anchor": "#get-a-user's-public-collections",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get a user's public profile",
+        "Description": "Retrieve public details on a given user.",
+        "Anchor": "#get-a-user's-public-profile",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "List a user's liked photos",
+        "Description": "Get a list of photos liked by a user.",
+        "Anchor": "#list-a-user's-liked-photos",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "List a user's photos",
+        "Description": "Get a list of photos uploaded by a user.",
+        "Anchor": "#list-a-user's-photos",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PhotoGet",
+        "Name": "Retrieve a single photo",
+        "Description": "Retrieve a single photo.",
+        "Anchor": "#retrieve-a-single-photo",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PhotoGetPage",
+        "Name": "Get a page of photos",
+        "Description": "Get a single page from the list of all photos.",
+        "Anchor": "#get-a-page-of-photos",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PhotoGetRandom",
+        "Name": "Retrieve a single random photo",
+        "Description": "Retrieve a single random photo, given optional filters.",
+        "Anchor": "#retrieve-a-single-random-photo",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PhotoSearch",
+        "Name": "Get photos from a search",
+        "Description": "Get a single page from a photo search. Optionally limit your search to a set of categories by supplying the category ID's.",
+        "Anchor": "#get-photos-from-a-search",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "uservoice",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../uservoice/",
     "Actions": [
@@ -55683,6 +59190,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetReportData",
+        "Name": "Read report data",
+        "Description": "Read report data",
+        "Anchor": "#read-report-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReportList",
+        "Name": "Get list of reports",
+        "Description": "List reports",
+        "Anchor": "#get-list-of-reports",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ObjectAudit",
         "Name": "Add Audit information to WorkSpan Object",
         "Description": "Add Audit information to WorkSpanObject",
@@ -56535,6 +60056,26 @@
         "Name": "Track Shipment",
         "Description": "Tracks a shipment with a carrier and returns the checkpoints.",
         "Anchor": "#track-shipment",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "zippopotamusip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zippopotamusip/",
+    "Actions": [
+      {
+        "OperationId": "GetDetailsByPostalCode",
+        "Name": "Get location details for postal code",
+        "Description": "Action lets to obtain lat, lon and other location details for a given postal code.",
+        "Anchor": "#get-location-details-for-postal-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDetailsByStateCity",
+        "Name": "Get location details for state and city",
+        "Description": "Action lets to obtain lat, lon and other location details for a given state and city.",
+        "Anchor": "#get-location-details-for-state-and-city",
         "IsDeprecated": false
       }
     ]

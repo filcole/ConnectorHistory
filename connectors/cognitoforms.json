@@ -10,6 +10,34 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "EditEntry",
+      "Name": "Update entry",
+      "Description": "Updates an entry.",
+      "Anchor": "#update-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EntryDeleted",
+      "Name": "When an entry is deleted",
+      "Description": "Triggers when someone deletes an entry.",
+      "Anchor": "#when-an-entry-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDocument",
+      "Name": "Get Document",
+      "Description": "Gets a document",
+      "Anchor": "#get-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFile",
+      "Name": "Get file",
+      "Description": "Gets a file by id",
+      "Anchor": "#get-file",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "NewEntry",
       "Name": "When a new entry is created",
       "Description": "Triggers when someone creates a new entry.",
@@ -17,10 +45,17 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "SetFormAvailability",
+      "Name": "Set form availability",
+      "Description": "Sets the availability of a form.",
+      "Anchor": "#set-form-availability",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "UpdateEntry",
-      "Name": "When a new entry is updated",
+      "Name": "When an entry is updated",
       "Description": "Triggers when someone updates an entry.",
-      "Anchor": "#when-a-new-entry-is-updated",
+      "Anchor": "#when-an-entry-is-updated",
       "IsDeprecated": false
     }
   ]

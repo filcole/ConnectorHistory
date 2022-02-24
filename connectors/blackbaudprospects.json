@@ -1,0 +1,97 @@
+{
+  "UniqueName": "blackbaudprospects",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudprospects/",
+  "Actions": [
+    {
+      "OperationId": "CreateConstituentRating",
+      "Name": "Create a constituent rating",
+      "Description": "Creates a new constituent rating.",
+      "Anchor": "#create-a-constituent-rating",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOpportunity",
+      "Name": "Create an opportunity",
+      "Description": "Creates a new opportunity.",
+      "Anchor": "#create-an-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOpportunityAttachment",
+      "Name": "Create an opportunity attachment",
+      "Description": "Creates a new opportunity attachment.",
+      "Anchor": "#create-an-opportunity-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOpportunityCustomField",
+      "Name": "Create an opportunity custom field",
+      "Description": "Creates a new opportunity custom field.",
+      "Anchor": "#create-an-opportunity-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditOpportunity",
+      "Name": "Update an opportunity",
+      "Description": "Updates an opportunity.",
+      "Anchor": "#update-an-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditOpportunityAttachment",
+      "Name": "Update an opportunity attachment",
+      "Description": "Updates an opportunity attachment.",
+      "Anchor": "#update-an-opportunity-attachment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditOpportunityCustomField",
+      "Name": "Update an opportunity custom field",
+      "Description": "Updates an opportunity custom field.",
+      "Anchor": "#update-an-opportunity-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentProspectStatus",
+      "Name": "Get constituent prospect status",
+      "Description": "Returns the current prospect status for a constituent.",
+      "Anchor": "#get-constituent-prospect-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetOpportunity",
+      "Name": "Get an opportunity",
+      "Description": "Returns information about an opportunity.  Note: This endpoint returns the status property with a latency of about 10 minutes.",
+      "Anchor": "#get-an-opportunity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListConstituentRatings",
+      "Name": "List constituent ratings",
+      "Description": "Returns the list of ratings for a constituent.",
+      "Anchor": "#list-constituent-ratings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOpportunities",
+      "Name": "List opportunities",
+      "Description": "Returns a list of opportunities.",
+      "Anchor": "#list-opportunities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOpportunityAttachments",
+      "Name": "List opportunity attachments",
+      "Description": "Lists the attachments for an opportunity.",
+      "Anchor": "#list-opportunity-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListOpportunityCustomFields",
+      "Name": "List opportunity custom fields",
+      "Description": "Lists the custom fields for an opportunity.",
+      "Anchor": "#list-opportunity-custom-fields",
+      "IsDeprecated": false
+    }
+  ]
+}
