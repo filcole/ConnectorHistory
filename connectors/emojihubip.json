@@ -1,0 +1,48 @@
+{
+  "UniqueName": "emojihubip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../emojihubip/",
+  "Actions": [
+    {
+      "OperationId": "All",
+      "Name": "Get all emojis",
+      "Description": "Get all emojis available from the EmojiHub.",
+      "Anchor": "#get-all-emojis",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AllCategory",
+      "Name": "Get all emojis in a category",
+      "Description": "Returns all emojis in a category available from the EmojiHub.",
+      "Anchor": "#get-all-emojis-in-a-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AllGroup",
+      "Name": "Get all emojis in a group",
+      "Description": "Returns all emojis in a group available from the EmojiHub.",
+      "Anchor": "#get-all-emojis-in-a-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Random",
+      "Name": "Get a random emoji",
+      "Description": "Returns a random emoji.",
+      "Anchor": "#get-a-random-emoji",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RandomCategory",
+      "Name": "Get a random emoji in a category",
+      "Description": "Returns a random emoji in a category available from the EmojiHub.",
+      "Anchor": "#get-a-random-emoji-in-a-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RandomGroup",
+      "Name": "Get a random emoji in a group",
+      "Description": "Returns a random in a group available from the EmojiHub.",
+      "Anchor": "#get-a-random-emoji-in-a-group",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -4,79 +4,79 @@
   "Actions": [
     {
       "OperationId": "MCAS_CLOSE_ALERT_BENIGN",
-      "Name": "Close Cloud App Security alert as benign",
-      "Description": "Close Cloud App Security alert by alert ID as benign",
-      "Anchor": "#close-cloud-app-security-alert-as-benign",
+      "Name": "Close Defender for Cloud Apps alert as benign",
+      "Description": "Close Defender for Cloud Apps alert by alert ID as benign",
+      "Anchor": "#close-defender-for-cloud-apps-alert-as-benign",
       "IsDeprecated": false
     },
     {
       "OperationId": "MCAS_CLOSE_ALERT_FALSE_POSITIVE",
-      "Name": "Close Cloud App Security alert as false positive",
-      "Description": "Close Cloud App Security alert by alert ID as false positive",
-      "Anchor": "#close-cloud-app-security-alert-as-false-positive",
+      "Name": "Close Defender for Cloud Apps alert as false positive",
+      "Description": "Close Defender for Cloud Apps alert by alert ID as false positive",
+      "Anchor": "#close-defender-for-cloud-apps-alert-as-false-positive",
       "IsDeprecated": false
     },
     {
       "OperationId": "MCAS_CLOSE_ALERT_TRUE_POSITIVE",
-      "Name": "Close Cloud App Security alert as true positive",
-      "Description": "Close Cloud App Security alert by alert ID as true positive",
-      "Anchor": "#close-cloud-app-security-alert-as-true-positive",
+      "Name": "Close Defender for Cloud Apps alert as true positive",
+      "Description": "Close Defender for Cloud Apps alert by alert ID as true positive",
+      "Anchor": "#close-defender-for-cloud-apps-alert-as-true-positive",
       "IsDeprecated": false
     },
     {
       "OperationId": "MCAS_DISABLE_POLICY",
-      "Name": "Disable Cloud App Security policy",
-      "Description": "Disable Cloud App Security policy by policy ID",
-      "Anchor": "#disable-cloud-app-security-policy",
+      "Name": "Disable Defender for Cloud Apps policy",
+      "Description": "Disable Defender for Cloud Apps policy by policy ID",
+      "Anchor": "#disable-defender-for-cloud-apps-policy",
       "IsDeprecated": false
     },
     {
       "OperationId": "MCAS_DISMISS_ALERT",
-      "Name": "[DEPRECATED] Dismiss Cloud App Security alert",
-      "Description": "Dismiss Cloud App Security alert by alert ID (deprecated version)",
-      "Anchor": "#[deprecated]-dismiss-cloud-app-security-alert",
+      "Name": "[DEPRECATED] Dismiss Defender for Cloud Apps alert",
+      "Description": "Dismiss Defender for Cloud Apps alert by alert ID (deprecated version)",
+      "Anchor": "#[deprecated]-dismiss-defender-for-cloud-apps-alert",
       "IsDeprecated": true
     },
     {
       "OperationId": "MCAS_ENABLE_POLICY",
-      "Name": "Enable Cloud App Security policy",
-      "Description": "Enable Cloud App Security policy by policy ID",
-      "Anchor": "#enable-cloud-app-security-policy",
+      "Name": "Enable Defender for Cloud Apps policy",
+      "Description": "Enable Defender for Cloud Apps policy by policy ID",
+      "Anchor": "#enable-defender-for-cloud-apps-policy",
       "IsDeprecated": false
     },
     {
       "OperationId": "MCAS_GET_ACTIVITIES",
-      "Name": "Get Cloud App Security activities",
-      "Description": "Get Cloud App Security activities performed by Azure AD user ID",
-      "Anchor": "#get-cloud-app-security-activities",
+      "Name": "Get Defender for Cloud Apps activities",
+      "Description": "Get Defender for Cloud Apps activities performed by Azure AD user ID",
+      "Anchor": "#get-defender-for-cloud-apps-activities",
       "IsDeprecated": false
     },
     {
       "OperationId": "MCAS_GET_OPEN_ALERTS",
-      "Name": "Get Cloud App Security open alerts",
-      "Description": "Get Cloud App Security open alerts",
-      "Anchor": "#get-cloud-app-security-open-alerts",
+      "Name": "Get Defender for Cloud Apps open alerts",
+      "Description": "Get Defender for Cloud Apps open alerts",
+      "Anchor": "#get-defender-for-cloud-apps-open-alerts",
       "IsDeprecated": false
     },
     {
       "OperationId": "MCAS_GET_POLICY",
-      "Name": "Get Cloud App Security policy",
-      "Description": "Get Cloud App Security policy by policy ID",
-      "Anchor": "#get-cloud-app-security-policy",
+      "Name": "Get Defender for Cloud Apps policy",
+      "Description": "Get Defender for Cloud Apps policy by policy ID",
+      "Anchor": "#get-defender-for-cloud-apps-policy",
       "IsDeprecated": false
     },
     {
       "OperationId": "MCAS_ON_ALERT_GENERATED",
       "Name": "When an alert is generated",
-      "Description": "Triggers when a Cloud App Security alert is generated. After configuring your flow, go to the Cloud App Security policy page, and specify this flow in one of your policies.",
+      "Description": "Triggers when a Defender for Cloud Apps alert is generated. After configuring your flow, go to the Defender for Cloud Apps policy page, and specify this flow in one of your policies.",
       "Anchor": "#when-an-alert-is-generated",
       "IsDeprecated": false
     },
     {
       "OperationId": "MCAS_RESOLVE_ALERT",
-      "Name": "[DEPRECATED] Resolve Cloud App Security alert",
-      "Description": "Resolve Cloud App Security alert by alert ID (deprecated version)",
-      "Anchor": "#[deprecated]-resolve-cloud-app-security-alert",
+      "Name": "[DEPRECATED] Resolve Defender for Cloud Apps alert",
+      "Description": "Resolve Defender for Cloud Apps alert by alert ID (deprecated version)",
+      "Anchor": "#[deprecated]-resolve-defender-for-cloud-apps-alert",
       "IsDeprecated": true
     },
     {

@@ -52,6 +52,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetCategories",
+      "Name": "Get all categories",
+      "Description": "Get all categories",
+      "Anchor": "#get-all-categories",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetChannels",
       "Name": "Get channels",
       "Description": "Get channels",
@@ -59,18 +66,25 @@
       "IsDeprecated": false
     },
     {
-      "OperationId": "GetMediaFolders",
+      "OperationId": "GetMediaDriveFolders",
       "Name": "Get Media Drive folders",
       "Description": "Get Media Drive folders",
       "Anchor": "#get-media-drive-folders",
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetMediaFolders",
+      "Name": "Get Media Drive folders [DEPRECATED]",
+      "Description": "Get Media Drive folders",
+      "Anchor": "#get-media-drive-folders-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
       "OperationId": "UploadFileFolder",
-      "Name": "Upload a file to a Media Drive folder",
+      "Name": "Upload a file to a Media Drive folder [DEPRECATED]",
       "Description": "Upload a file to a Media Drive folder",
-      "Anchor": "#upload-a-file-to-a-media-drive-folder",
-      "IsDeprecated": false
+      "Anchor": "#upload-a-file-to-a-media-drive-folder-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "UploadMedia",

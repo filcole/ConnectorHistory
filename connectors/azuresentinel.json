@@ -101,6 +101,20 @@
       "IsDeprecated": true
     },
     {
+      "OperationId": "CreateIncidentRelation",
+      "Name": "Add alert to incident (Private Preview)",
+      "Description": "Add an alert to an existing incident. The alert joins the incident as any other alert and will be shown in portal.",
+      "Anchor": "#add-alert-to-incident-(private-preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteIncidentRelation",
+      "Name": "Remove alert from incident (Private Preview)",
+      "Description": "Remove an alert from an existing incident.",
+      "Anchor": "#remove-alert-from-incident-(private-preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetAccounts",
       "Name": "Entities - Get Accounts",
       "Description": "Returns list of accounts associated with the alert",
@@ -122,14 +136,14 @@
       "IsDeprecated": false
     },
     {
-      "OperationId": "GetIncidentByAlertId_v2",
+      "OperationId": "GetIncident",
       "Name": "Alert - Get incident",
       "Description": "Returns the incident associated with selected alert",
       "Anchor": "#alert---get-incident",
       "IsDeprecated": false
     },
     {
-      "OperationId": "GetIncidentByAlertId_v2",
+      "OperationId": "GetIncident",
       "Name": "Alert - Get incident",
       "Description": "Returns the incident associated with selected alert",
       "Anchor": "#alert---get-incident",

@@ -1,0 +1,13 @@
+{
+  "UniqueName": "openexperience",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../openexperience/",
+  "Actions": [
+    {
+      "OperationId": "CreateNewProject",
+      "Name": "Create new project",
+      "Description": "Creates new project in Open Experience for selected services",
+      "Anchor": "#create-new-project",
+      "IsDeprecated": false
+    }
+  ]
+}

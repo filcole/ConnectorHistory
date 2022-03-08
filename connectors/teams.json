@@ -25,10 +25,10 @@
     },
     {
       "OperationId": "AtMentionTag",
-      "Name": "Get an @mention token for a tag [DEPRECATED]",
+      "Name": "Get an @mention token for a tag",
       "Description": "This operation creates a token that can be inserted into a message or adaptive card sent as a user inS a channel to @mention a tag.",
-      "Anchor": "#get-an-@mention-token-for-a-tag-[deprecated]",
-      "IsDeprecated": true
+      "Anchor": "#get-an-@mention-token-for-a-tag",
+      "IsDeprecated": false
     },
     {
       "OperationId": "AtMentionUser",
@@ -144,10 +144,10 @@
     },
     {
       "OperationId": "GetTags",
-      "Name": "List all tags for a team [DEPRECATED]",
+      "Name": "List all tags for a team",
       "Description": "This operation retrieves a list of tags.",
-      "Anchor": "#list-all-tags-for-a-team-[deprecated]",
-      "IsDeprecated": true
+      "Anchor": "#list-all-tags-for-a-team",
+      "IsDeprecated": false
     },
     {
       "OperationId": "GetTeam",

@@ -115,6 +115,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "UIAGetElementAtCoordinates",
+      "Name": "Get UIA element at screen coordinates",
+      "Description": "Returns the UIA element located at the given screen coordinates.",
+      "Anchor": "#get-uia-element-at-screen-coordinates",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "UIAGetElementLabelValue",
       "Name": "Get UIA element label value",
       "Description": "Returns the value of the label on the element.",
@@ -203,6 +210,20 @@
       "Name": "Get multiple UIA element properties",
       "Description": "Returns the properties of multiple elements. This can be useful if you are uncertain which fields holds the property values required.",
       "Anchor": "#get-multiple-uia-element-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetMultipleElementsAsTable",
+      "Name": "Get multiple UIA elements as table",
+      "Description": "Enumerates the values of child elements of a specified parent element and returns in a table format. This can be used to returns 'Tables' of data which aren't technically tables.",
+      "Anchor": "#get-multiple-uia-elements-as-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIAGetMultipleParentElementProperties",
+      "Name": "Get multiple UIA parent element properties",
+      "Description": "Returns a hierarchal tree of parent elements of the specified element, all the way up to the desktop (root level). The parent element is defined as the element which is at the next level up the UIA 'tree' and is almost always a containing element.",
+      "Anchor": "#get-multiple-uia-parent-element-properties",
       "IsDeprecated": false
     },
     {
@@ -315,6 +336,13 @@
       "Name": "Reset all UIA element handles",
       "Description": "Resets all UIA element handles currently stored by IA-Connect which can be useful if you have been identifying a lot of elements and have a large number of element handles stored. In scenarios with extremely high numbers of element handles (100,000+) this action can also be used to free up RAM usage.",
       "Anchor": "#reset-all-uia-element-handles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UIASearchForFirstParentElement",
+      "Name": "Search for first UIA parent element",
+      "Description": "Searches up the UIA tree hierarchy for the first parent element which matches the search criteria. The parent element is defined as the element which is at the next level up the UIA 'tree' and is almost always a containing element.",
+      "Anchor": "#search-for-first-uia-parent-element",
       "IsDeprecated": false
     },
     {

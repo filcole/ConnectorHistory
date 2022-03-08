@@ -129,6 +129,27 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CredentialDelete",
+      "Name": "Deletes a user credential",
+      "Description": "Deletes a credential in the user's profile in the IA-Connect Agent session. Credentials can be viewed from the Windows Control Panel.",
+      "Anchor": "#deletes-a-user-credential",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CredentialRead",
+      "Name": "Read from a user credential",
+      "Description": "Reads a username and password from a credential in the user's profile in the IA-Connect Agent session. Credentials can be viewed from the Windows Control Panel. Both the username and password can be retrieved from a Generic credential while only the username can be retrieved from a Windows credential.",
+      "Anchor": "#read-from-a-user-credential",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CredentialWrite",
+      "Name": "Write to a user credential",
+      "Description": "Writes a username and password to a credential in the user's profile in the IA-Connect Agent session, creating that credential if it doesn't exist. Credentials can be viewed from the Windows Control Panel.",
+      "Anchor": "#write-to-a-user-credential",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "DeleteDirectory",
       "Name": "Delete directory",
       "Description": "Deletes a directory (folder) on the computer where the IA-Connect Agent is running.",
@@ -227,10 +248,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ExpandPasswordString",
+      "Name": "Expand password string",
+      "Description": "Accepts an input string which contains references to IA-Connect stored passwords and returns that string with the references replaced by the stored passwords.",
+      "Anchor": "#expand-password-string",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "FileExists",
       "Name": "Does file exist",
       "Description": "Reports true or false as to whether a file exists on the computer where the IA-Connect Agent is running.",
       "Anchor": "#does-file-exist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GeneratePassword",
+      "Name": "Generate password",
+      "Description": "Generates a password containing dictionary words, numbers, symbols, characters as defined in a template format.",
+      "Anchor": "#generate-password",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateRDPFile",
+      "Name": "Create Remote Desktop Session (RDS) launch file",
+      "Description": "Create a Remote Desktop Session (RDS) launch file which can be used to automatically launch a Remote Desktop Session using specified parameters, instead of requiring automation of the Remote Desktop client UI. A RDS launch file has the extension '.rdp' and is often called a RDP file.",
+      "Anchor": "#create-remote-desktop-session-(rds)-launch-file",
       "IsDeprecated": false
     },
     {
@@ -472,6 +514,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetStoredPassword",
+      "Name": "Get stored password",
+      "Description": "Retrieves a previously generated or stored password.",
+      "Anchor": "#get-stored-password",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "IsScreenReaderEnabled",
       "Name": "Is screen reader enabled",
       "Description": "Returns whether the screen reader has been enabled in the IA-Connect Agent user session.",
@@ -511,6 +560,13 @@
       "Name": "Kill process ID",
       "Description": "Kills a running process in the IA-Connect Agent user session which has the specified process Id. Process Ids are unique so only one process can match the Id. Process Ids are dynamic and are different for every launch of an application.",
       "Anchor": "#kill-process-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LaunchRemoteDesktopSession",
+      "Name": "Launch Remote Desktop Session (RDS)",
+      "Description": "Launch a Remote Desktop Session (RDS) using a RDP launch file.",
+      "Anchor": "#launch-remote-desktop-session-(rds)",
       "IsDeprecated": false
     },
     {
@@ -952,6 +1008,13 @@
       "Name": "Mark Flow as complete",
       "Description": "Mark a Flow as complete, which informs the IA-Connect Orchestrator that the assigned worker machine is now available to process other Flows.",
       "Anchor": "#mark-flow-as-complete",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WriteCollectionToCSVFile",
+      "Name": "Write to CSV file",
+      "Description": "Creates a CSV file on the computer where the IA-Connect Agent is running. The CSV file is created from a collection (table) or from a table in JSON format.",
+      "Anchor": "#write-to-csv-file",
       "IsDeprecated": false
     },
     {

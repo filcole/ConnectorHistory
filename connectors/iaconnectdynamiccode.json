@@ -17,10 +17,150 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateJSONFromInputVariables",
+      "Name": "Create JSON from input variables",
+      "Description": "Takes an array of input variables and returns in JSON format and optionally as a JSON table.",
+      "Anchor": "#create-json-from-input-variables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteColumnsInJSONTable",
+      "Name": "Delete columns from a JSON table",
+      "Description": "Takes an input table in JSON format, deletes a column or columns and returns a new table in JSON format. If you want to delete columns from a actual table (i.e. not in JSON format), use the action 'Delete columns from a table'.",
+      "Anchor": "#delete-columns-from-a-json-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteColumnsInTable",
+      "Name": "Delete columns from a table",
+      "Description": "Takes an input table, deletes a column or columns and returns a new table. If you want to delete columns from a table in JSON format, use the action 'Delete columns from a JSON table'.",
+      "Anchor": "#delete-columns-from-a-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteItemsInStringArray",
+      "Name": "Delete items from a string array",
+      "Description": "Takes an input array of string items, deletes an item or items at a specified position and returns a new array. If you want to delete a row or rows from a table, use the action 'Delete a row from a table'. If you want to delete a row or rows from a table in JSON format, use the action 'Delete a row from a JSON table'.",
+      "Anchor": "#delete-items-from-a-string-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteRowsInJSONTable",
+      "Name": "Delete rows from a JSON table",
+      "Description": "Takes an input table in JSON format, deletes a row or rows at a specified position and returns a new table in JSON format. If you want to delete a row or rows from an actual table (i.e. not in JSON format), use the action 'Delete a row from a table'. If you want to delete a row or rows from a string array, use the action 'Delete a row from a string array'.",
+      "Anchor": "#delete-rows-from-a-json-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteRowsInTable",
+      "Name": "Delete rows from a table",
+      "Description": "Takes an input table, deletes a row or rows at a specified position and returns a new table. If you want to delete a row or rows from a string array, use the action 'Delete a row from a string array'. If you want to delete a row or rows from a table in JSON format, use the action 'Delete a row from a JSON table'.",
+      "Anchor": "#delete-rows-from-a-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterJSONTable",
+      "Name": "Filter JSON table",
+      "Description": "Takes an input JSON table, filters the table (using .NET DataView rowfilter syntax) and returns a new JSON table. If you want to filter an actual table (i.e. not in JSON format), use the action 'Filter table'. If you want to filter a string array, use the action 'Filter string array'.",
+      "Anchor": "#filter-json-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterStringArray",
+      "Name": "Filter string array",
+      "Description": "Takes an input array of string items, filters the array (using .NET DataView rowfilter syntax) and returns a new array. If you want to filter a table, use the action 'Filter table'. If you want to filter a table in JSON format, use the action 'Filter JSON table'.",
+      "Anchor": "#filter-string-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterTable",
+      "Name": "Filter table",
+      "Description": "Takes an input table, filters the table (using .NET DataView rowfilter syntax) and returns a new table. If you want to filter a table in JSON format, use the action 'Filter JSON table'. If you want to filter a string array, use the action 'Filter string array'.",
+      "Anchor": "#filter-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetJSONTableFromStringArray",
+      "Name": "Get JSON table from string array",
+      "Description": "Takes an input array of string items and returns as a JSON table.",
+      "Anchor": "#get-json-table-from-string-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStringArrayFromJSONTableColumn",
+      "Name": "Get string array from JSON table column",
+      "Description": "Takes an input table in JSON format and returns a specified column as a string array. If you want to get a string array from an actual table (i.e. not in JSON format), use the action 'Get array from table'.",
+      "Anchor": "#get-string-array-from-json-table-column",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStringArrayFromTableColumn",
+      "Name": "Get string array from table column",
+      "Description": "Takes an input table and returns a specified column as a string array. If you want to get a string array from a table in JSON format, use the action 'Get array from JSON table'.",
+      "Anchor": "#get-string-array-from-table-column",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStringBetween",
+      "Name": "Get string between",
+      "Description": "Takes an input string and returns the first instance of a string that is located between two specified strings or between a string and the end of the line.",
+      "Anchor": "#get-string-between",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStringFromJSONTableCell",
+      "Name": "Get string from JSON table cell",
+      "Description": "Takes an input table in JSON format and returns a specified cell as a string.",
+      "Anchor": "#get-string-from-json-table-cell",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTableFromJSON",
+      "Name": "Get table from JSON",
+      "Description": "Takes an input table in JSON format and returns as a table. This is known as deserialization.",
+      "Anchor": "#get-table-from-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTableFromStringArray",
+      "Name": "Get table from string array",
+      "Description": "Takes an input array of string items and returns as a table.",
+      "Anchor": "#get-table-from-string-array",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ImportAssemblyFromLocalFile",
       "Name": "Import assembly from local file",
       "Description": "Uploads a DotNet assembly from the computer where the IA-Connect Director is running to the IA-Connect Agent where it is loaded into memory and will be used if referenced by dynamic DotNet code.",
       "Anchor": "#import-assembly-from-local-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InsertRowInJSONTable",
+      "Name": "Insert a row into a JSON table",
+      "Description": "Takes an input table in JSON format, inserts a row at a specified position and returns a new table in JSON format. If you want to insert a row into an actual table (i.e. not in JSON format), use the action 'Insert a row into a table'. If you want to insert a row into a string array, use the action 'Insert a row into a string array'.",
+      "Anchor": "#insert-a-row-into-a-json-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InsertRowInJSONTableFromInputVariables",
+      "Name": "Insert a row of input variables into a JSON table",
+      "Description": "Takes an input table in JSON format, inserts a row created from input variables at a specified position and returns a new table in JSON format. The input row schema should match that of the input table (i.e. Use the same property names and data types). If you want to insert a row into an actual table (i.e. not in JSON format), use the action 'Insert a row into a table'. If you want to insert a string into a string array, use the action 'Insert a row into a string array'.",
+      "Anchor": "#insert-a-row-of-input-variables-into-a-json-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InsertRowInStringArray",
+      "Name": "Insert a row into a string array",
+      "Description": "Takes an input array of string items, inserts a row at a specified position and returns a new array. If you want to insert a row into a table, use the action 'Insert a row into a table'. If you want to insert a row into a table in JSON format, use the action 'Insert a row into a JSON table'.",
+      "Anchor": "#insert-a-row-into-a-string-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InsertRowInTable",
+      "Name": "Insert a row into a table",
+      "Description": "Takes an input table, inserts a row at a specified position and returns a new table. If you want to insert a row into a string array, use the action 'Insert a row into a string array'. If you want to insert a row into a table in JSON format, use the action 'Insert a row into a JSON table'.",
+      "Anchor": "#insert-a-row-into-a-table",
       "IsDeprecated": false
     },
     {
@@ -38,10 +178,45 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "RenameColumnInJSONTable",
+      "Name": "Rename a column in a JSON table",
+      "Description": "Takes an input table in JSON format, renames a specified column and returns a new table in JSON format. If you want to rename a column from an actual table (i.e. not in JSON format), use the action 'Rename a column in a table'.",
+      "Anchor": "#rename-a-column-in-a-json-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RenameColumnInTable",
+      "Name": "Rename a column in a table",
+      "Description": "Takes an input table, renames a specified column and returns a new table. If you want to rename a column from a table in JSON format, use the action 'Rename a column in a JSON table'.",
+      "Anchor": "#rename-a-column-in-a-table",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "RunPowerShellAutomationScript",
       "Name": "Run PowerShell script",
       "Description": "Runs a PowerShell script in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. This is the recommended action for running your own custom PowerShell code.",
       "Anchor": "#run-powershell-script",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SortJSONTable",
+      "Name": "Sort JSON table",
+      "Description": "Takes an input JSON table, sorts the table and returns a new JSON table. If you want to sort an actual table (i.e. not in JSON format), use the action 'Sort table'. If you want to sort a string array, use the action 'Sort string array'.",
+      "Anchor": "#sort-json-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SortStringArray",
+      "Name": "Sort string array",
+      "Description": "Takes an input array of string items, sorts the array and returns a new array. If you want to sort a table, use the action 'Sort table'. If you want to sort a table in JSON format, use the action 'Sort JSON table'.",
+      "Anchor": "#sort-string-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SortTable",
+      "Name": "Sort table",
+      "Description": "Takes an input table, sorts one or more rows and returns a new table. If you want to sort a table in JSON format, use the action 'Sort JSON table'. If you want to sort a string array, use the action 'Sort string array'.",
+      "Anchor": "#sort-table",
       "IsDeprecated": false
     }
   ]

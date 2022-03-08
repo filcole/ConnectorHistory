@@ -1,0 +1,13 @@
+{
+  "UniqueName": "nodefusionportal",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nodefusionportal/",
+  "Actions": [
+    {
+      "OperationId": "GetOrgProfile",
+      "Name": "Get Organization Profile",
+      "Description": "This function returns the data about the requested organization if you have permissions",
+      "Anchor": "#get-organization-profile",
+      "IsDeprecated": false
+    }
+  ]
+}

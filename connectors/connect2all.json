@@ -46,31 +46,31 @@
     },
     {
       "OperationId": "GetCsvDocument",
-      "Name": "Get Csv",
-      "Description": "Get data based on passed configuration and returns the data in the CSV format set in the configuration",
-      "Anchor": "#get-csv",
-      "IsDeprecated": false
+      "Name": "Get Csv (deprecated) [DEPRECATED]",
+      "Description": "Get data based on passed configuration and returns the data in the CSV format set in the configuration (deprecated)",
+      "Anchor": "#get-csv-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetCsvDocumentById",
-      "Name": "Get Csv by Id",
-      "Description": "Get data by SystemId based on passed configuration and returns the data in the CSV format set in the configuration",
-      "Anchor": "#get-csv-by-id",
-      "IsDeprecated": false
+      "Name": "Get Csv by Id (deprecated) [DEPRECATED]",
+      "Description": "Get data by SystemId based on passed configuration and returns the data in the CSV format set in the configuration (deprecated)",
+      "Anchor": "#get-csv-by-id-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetCsvDocumentByIdWithMetadata",
-      "Name": "Get Csv by Id with metadata",
-      "Description": "Get data by Id with metadata based on passed configuration and returns the data in the CSV format set in the configuration",
-      "Anchor": "#get-csv-by-id-with-metadata",
-      "IsDeprecated": false
+      "Name": "Get Csv by Id with metadata (deprecated) [DEPRECATED]",
+      "Description": "Get data by Id with metadata based on passed configuration and returns the data in the CSV format set in the configuration (deprecated)",
+      "Anchor": "#get-csv-by-id-with-metadata-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetCsvDocumentWithMetadata",
-      "Name": "Get Csv with metadata",
-      "Description": "Get data with metadata based on passed configuration and returns the data in the CSV format set in the configuration",
-      "Anchor": "#get-csv-with-metadata",
-      "IsDeprecated": false
+      "Name": "Get Csv with metadata (deprecated) [DEPRECATED]",
+      "Description": "Get data with metadata based on passed configuration and returns the data in the CSV format set in the configuration (deprecated)",
+      "Anchor": "#get-csv-with-metadata-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetData",
@@ -116,31 +116,31 @@
     },
     {
       "OperationId": "GetXmlDocument",
-      "Name": "Get Xml",
-      "Description": "Get data based on passed configuration and returns the data in the XML format set in the configuration",
-      "Anchor": "#get-xml",
-      "IsDeprecated": false
+      "Name": "Get Xml (deprecated) [DEPRECATED]",
+      "Description": "Get data based on passed configuration and returns the data in (deprecated) the XML format set in the configuration",
+      "Anchor": "#get-xml-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetXmlDocumentById",
-      "Name": "Get Xml by Id",
-      "Description": "Get data by SystemId based on passed configuration and returns the data in the XML format set in the configuration",
-      "Anchor": "#get-xml-by-id",
-      "IsDeprecated": false
+      "Name": "Get Xml by Id (deprecated) [DEPRECATED]",
+      "Description": "Get data by SystemId based on passed configuration and returns the data in the XML format set in the configuration (deprecated)",
+      "Anchor": "#get-xml-by-id-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetXmlDocumentByIdWithMetadata",
-      "Name": "Get Xml by Id with metadata",
-      "Description": "Get data by Id with metadata based on passed configuration and returns the data in the XML format set in the configuration",
-      "Anchor": "#get-xml-by-id-with-metadata",
-      "IsDeprecated": false
+      "Name": "Get Xml by Id with metadata (deprecated) [DEPRECATED]",
+      "Description": "Get data by Id with metadata based on passed configuration and returns the data in the XML format set in the configuration (deprecated)",
+      "Anchor": "#get-xml-by-id-with-metadata-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "GetXmlDocumentWithMetadata",
-      "Name": "Get Xml with metadata",
-      "Description": "Get data with metadata based on passed configuration and returns the data in the XML format set in the configuration",
-      "Anchor": "#get-xml-with-metadata",
-      "IsDeprecated": false
+      "Name": "Get Xml with metadata (deprecated) [DEPRECATED]",
+      "Description": "Get data with metadata based on passed configuration and returns the data in the XML format set in the configuration (deprecated)",
+      "Anchor": "#get-xml-with-metadata-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "PatchMedia",
@@ -158,17 +158,17 @@
     },
     {
       "OperationId": "PostTransformCsv",
-      "Name": "Process Csv",
-      "Description": "Imports and transforms CSV into Business Central data using a specific configuration",
-      "Anchor": "#process-csv",
-      "IsDeprecated": false
+      "Name": "Process Csv (deprecated) [DEPRECATED]",
+      "Description": "Imports and transforms CSV into Business Central data using a specific configuration (deprecated)",
+      "Anchor": "#process-csv-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "PostTransformXml",
-      "Name": "Process Xml",
-      "Description": "Imports and transforms XML into Business Central data using a specific configuration",
-      "Anchor": "#process-xml",
-      "IsDeprecated": false
+      "Name": "Process Xml (deprecated) [DEPRECATED]",
+      "Description": "Imports and transforms XML into Business Central data using a specific configuration (deprecated)",
+      "Anchor": "#process-xml-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "RecordCreated",

@@ -1866,6 +1866,264 @@
     ]
   },
   {
+    "UniqueName": "myhospitalsbyaihwip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../myhospitalsbyaihwip/",
+    "Actions": [
+      {
+        "OperationId": "GetCaveat",
+        "Name": "Get Single Caveat",
+        "Description": "Gets a caveat matching the supplied caveat code.",
+        "Anchor": "#get-single-caveat",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCaveats",
+        "Name": "Get Caveats",
+        "Description": "Gets a list of caveats.",
+        "Anchor": "#get-caveats",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDataSet",
+        "Name": "Get Single Dataset",
+        "Description": "Gets a single dataset matching the supplied dataset id.",
+        "Anchor": "#get-single-dataset",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDatasetItems",
+        "Name": "Get Dataset Items",
+        "Description": "Gets a list of data items for a dataset,, optionally filtered, using logical disjunction (OR), by a list of reporting unit codes.",
+        "Anchor": "#get-dataset-items",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDataSets",
+        "Name": "Get Datasets",
+        "Description": "Gets a list of datasets, optionally filtered by a list of measure and reported measure codes. Matching within each filter is by logical disjunction (OR) and matching across filters is by logical conjunction (AND).",
+        "Anchor": "#get-datasets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFlatData",
+        "Name": "Get Flat Data",
+        "Description": "Gets data in a flattened structure with each item corresponding to a single data point. Data is restricted to within a single measure category and can be optionally filtered by measure, reporting unit type and reporting dates. Matching within each filter is by logical disjunction (OR) and matching across filters is by logical conjunction (AND). NOTE: There is currently a pagination restriction on this query that restricts requests to a maximum of 1000 results. Use skip and top to control this pagination. Sorting is not currently available.",
+        "Anchor": "#get-flat-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFlatFormattedData",
+        "Name": "Get Flat Formatted Data",
+        "Description": "Gets formatted data in a flattened structure with each item corresponding to a single data point. Data is restricted to within a single measure category and can be optionally filtered by measure, reporting unit code, reporting unit type and reporting dates. Matching within each filter is by logical disjunction (OR) and matching across filters is by logical conjunction (AND). NOTE: There is currently a pagination restriction on this query that restricts requests to a maximum of 1000 results. Use skip and top to control this pagination. Sorting is not currently available.",
+        "Anchor": "#get-flat-formatted-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMeasure",
+        "Name": "Get Single Measure",
+        "Description": "Gets a single measure matching the supplied measure code.",
+        "Anchor": "#get-single-measure",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMeasureCategories",
+        "Name": "Get Measure Categories",
+        "Description": "Gets a list of measure categories.",
+        "Anchor": "#get-measure-categories",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMeasureDataItems",
+        "Name": "Get Data Items for Measure",
+        "Description": "Gets a list of all data items for the specified measure.",
+        "Anchor": "#get-data-items-for-measure",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMeasureDownload",
+        "Name": "Get Measure Download",
+        "Description": "Gets a measure download, in XLSX format, for the supplied measure download code.",
+        "Anchor": "#get-measure-download",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMeasureDownloads",
+        "Name": "Get Measure Downloads Available",
+        "Description": "Gets dictionary, indexed by the measure download code, of all available measure download codes and descriptions that can be used in the measure download API call.",
+        "Anchor": "#get-measure-downloads-available",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMeasureReportingunitDownload",
+        "Name": "Get Measure Across Reporting Unit Download",
+        "Description": "Gets a measure across reporting unit download, in XLSX format, for the supplied measure download code.",
+        "Anchor": "#get-measure-across-reporting-unit-download",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMeasures",
+        "Name": "Get Measures",
+        "Description": "Gets list of all measures, optionally filtered, using logical disjunction (OR), by a list of measure category codes.",
+        "Anchor": "#get-measures",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReportedMeasureCategories",
+        "Name": "Get Reported Measure Categories",
+        "Description": "Gets list of all reported measure categories available.",
+        "Anchor": "#get-reported-measure-categories",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReportedMeasureCategory",
+        "Name": "Get Reported Measure Categories for Measure Category Code",
+        "Description": "Gets a list reported measure categories matching the supplied reported measure category codes. NOTE: Reported measure codes are not constrained to be unique in the system.",
+        "Anchor": "#get-reported-measure-categories-for-measure-category-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReportedMeasureCategoryMeasures",
+        "Name": "Get Reported Measures for Reported Measure Category",
+        "Description": "Gets a list of all reported measures for a specified reported measure category code.",
+        "Anchor": "#get-reported-measures-for-reported-measure-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReportedMeasures",
+        "Name": "Get Reported Measures",
+        "Description": "Gets list of reported measures, optionally filtered by a list of measure and reported measure category codes. Matching within each filter is by logical disjunction (OR) and matching across filters is by logical conjunction (AND).",
+        "Anchor": "#get-reported-measures",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReportingUnitDatasheetCodes",
+        "Name": "Get Reporting Unit Datasheet Codes Available",
+        "Description": "Gets dictionary, indexed by the datasheet code, of all available reporting unit datasheet codes and descriptions that can be used in the reporting unit download API call.",
+        "Anchor": "#get-reporting-unit-datasheet-codes-available",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReportingUnitMappingDownload",
+        "Name": "Get Reporting Unit Mapping Download",
+        "Description": "Gets the reporting unit mapping download, in XLSX format.",
+        "Anchor": "#get-reporting-unit-mapping-download",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReportingUnits",
+        "Name": "Get Reporting Units",
+        "Description": "Gets list of all reporting units, optionally filtered, using logical disjunction (OR), by a list of reporting unit type codes.",
+        "Anchor": "#get-reporting-units",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReportingUnitsForMeasure",
+        "Name": "Get Reporting Units Available for Measure",
+        "Description": "Gets a list of all reporting units that have data available for the specified measure.",
+        "Anchor": "#get-reporting-units-available-for-measure",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReportingUnitTypes",
+        "Name": "Get Reporting Unit Types",
+        "Description": "Gets a list of reporting unit types.",
+        "Anchor": "#get-reporting-unit-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSimpleDownload",
+        "Name": "Get Simple Download",
+        "Description": "Gets a simple download, in XLSX format, for the supplied download code.",
+        "Anchor": "#get-simple-download",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSimpleDownloads",
+        "Name": "Get Simple Downloads Available",
+        "Description": "Gets dictionary, indexed by the simple download code, of all available simple download codes and descriptions that can be used in the simple download API call.",
+        "Anchor": "#get-simple-downloads-available",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSingleMeasureCategory",
+        "Name": "Get Single Measure Category",
+        "Description": "Gets a single measure category matching the supplied measure category code.",
+        "Anchor": "#get-single-measure-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSingleMeasureCategoryMeasures",
+        "Name": "Get Measures for a Measure Category",
+        "Description": "Gets a list of measures for the specified measure category code.",
+        "Anchor": "#get-measures-for-a-measure-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSingleReportedMeasure",
+        "Name": "Get Single Reported Measure",
+        "Description": "Gets a single reported measure.",
+        "Anchor": "#get-single-reported-measure",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSingleReportedMeasureDataItems",
+        "Name": "Get Data Items for Reported Measure",
+        "Description": "Gets a list of all data items for the specified reported measure.",
+        "Anchor": "#get-data-items-for-reported-measure",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSingleReportingUnit",
+        "Name": "Get Single Reporting Unit",
+        "Description": "Gets a single reporting unit matching the supplied reporting unit code.",
+        "Anchor": "#get-single-reporting-unit",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSingleReportingUnitBricks",
+        "Name": "Get Brick Codes for Reporting Unit",
+        "Description": "Gets list of all brick codes available for the specified reporting unit.",
+        "Anchor": "#get-brick-codes-for-reporting-unit",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSingleReportingUnitDataitems",
+        "Name": "Get Data Items for Reporting Unit",
+        "Description": "Gets a list of all data items for the specified reporting unit.",
+        "Anchor": "#get-data-items-for-reporting-unit",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSingleReportingUnitMeasures",
+        "Name": "Get Measures with Data Available for Reporting Unit",
+        "Description": "Get list of all measures that have data available for the specified reporting unit.",
+        "Anchor": "#get-measures-with-data-available-for-reporting-unit",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSingleReportingUnitType",
+        "Name": "Get Single Reporting Unit Type",
+        "Description": "Gets a single reporting unit type matching the supplied reporting unit type code.",
+        "Anchor": "#get-single-reporting-unit-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSingleReportUnitTypeBricks",
+        "Name": "Get Dictionary of Reporting Unit Codes and Available Bricks",
+        "Description": "Gets a dictionary of reporting units codes and their available bricks, for the specified reporting unit type.",
+        "Anchor": "#get-dictionary-of-reporting-unit-codes-and-available-bricks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetsReportingUnitDataDownload",
+        "Name": "Get Reporting Unit Data Download",
+        "Description": "Gets a reporting unit data download, in XLSX format, for the supplied reporting unit code and datasheet code.",
+        "Anchor": "#get-reporting-unit-data-download",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "airlyip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../airlyip/",
     "Actions": [
@@ -5148,6 +5406,208 @@
     ]
   },
   {
+    "UniqueName": "cognitiveservicestextanalytics",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cognitiveservicestextanalytics/",
+    "Actions": [
+      {
+        "OperationId": "DetectEntities",
+        "Name": "Entities [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Named Entity Recognition (V4) instead.\nReturns a list of known entities and general named entities (&quot;Person&quot;, &quot;Location&quot;, &quot;Organization&quot; etc) in a given document.",
+        "Anchor": "#entities-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "DetectEntitiesV2",
+        "Name": "Detect Entities (V2) [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Named Entity Recognition (V4) instead.\nReturns a list of known entities and general named entities (&quot;Person&quot;, &quot;Location&quot;, &quot;Organization&quot; etc) in a given document.",
+        "Anchor": "#detect-entities-(v2)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "DetectLanguageV2",
+        "Name": "Detect Language [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Detect Language (V4) instead.\nReturns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
+        "Anchor": "#detect-language-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "DetectLanguageV2",
+        "Name": "Detect Language [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Detect Language (V4) instead.\nReturns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
+        "Anchor": "#detect-language-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "DetectLanguageV3",
+        "Name": "Detect Language (V2) [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Detect Language (V4) instead.\nReturns the detected language and a numeric score between 0 and 1 for each document. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
+        "Anchor": "#detect-language-(v2)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "DetectSentiment",
+        "Name": "Detect Sentiment [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Sentiment (V4) instead.\nReturns a numeric score between 0 and 1. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment.",
+        "Anchor": "#detect-sentiment-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "DetectSentiment",
+        "Name": "Detect Sentiment [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Sentiment (V4) instead.\nReturns a numeric score between 0 and 1. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment. Currently, the following languages are supported: English, Spanish, French, Portuguese.",
+        "Anchor": "#detect-sentiment-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "DetectSentimentV3",
+        "Name": "Detect Sentiment (V2) [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Sentiment (V4) instead.\nReturns a numeric score between 0 and 1 for each document. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment.",
+        "Anchor": "#detect-sentiment-(v2)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "EntitiesLinkingV3",
+        "Name": "Entity Linking (V3.0)",
+        "Description": "The API returns a list of recognized entities with links to a well-known knowledge base. See the language support for the list of supported languages.",
+        "Anchor": "#entity-linking-(v3.0)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EntitiesLinkingV3_1",
+        "Name": "Entity Linking (V3.1) (Preview)",
+        "Description": "The API returns a list of recognized entities with links to a well known knowledge base. See the language support for the list of supported languages.",
+        "Anchor": "#entity-linking-(v3.1)-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EntitiesLinkingV4",
+        "Name": "Entity Linking (V4) (Preview)",
+        "Description": "The API returns a list of recognized entities with links to a well known knowledge base. See the language support for the list of supported languages.",
+        "Anchor": "#entity-linking-(v4)-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EntitiesRecognitionGeneralV3",
+        "Name": "Named Entity Recognition (V3.0)",
+        "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Named Entity Recognition (NER) entity categories.",
+        "Anchor": "#named-entity-recognition-(v3.0)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EntitiesRecognitionGeneralV3_1",
+        "Name": "Named Entity Recognition (V3.1) (Preview)",
+        "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Named Entity Recognition (NER) entity categories.",
+        "Anchor": "#named-entity-recognition-(v3.1)-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EntitiesRecognitionGeneralV4",
+        "Name": "Named Entity Recognition (V4) (Preview)",
+        "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Named Entity Recognition (NER) entity categories.",
+        "Anchor": "#named-entity-recognition-(v4)-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EntitiesRecognitionPIIV3_1",
+        "Name": "Detect Personal Information (V3.1)",
+        "Description": "The API returns a list of entities with personal information (&quot;SSN&quot;, &quot;Bank Account&quot; etc) in the document. For the list of supported entity types, check Supported Personally Identifiable Information (PII) entity categories. See the Supported languages in Azure Cognitive Service for Language for the list of supported languages.",
+        "Anchor": "#detect-personal-information-(v3.1)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EntitiesRecognitionPIIV4",
+        "Name": "Detect Personal Information (V4) (Preview)",
+        "Description": "The API returns a list of entities with personal information (&quot;SSN&quot;, &quot;Bank Account&quot; etc) in the document. For the list of supported entity types, check Supported Personally Identifiable Information (PII) entity categories. See the Supported languages in Azure Cognitive Service for Language for the list of supported languages.",
+        "Anchor": "#detect-personal-information-(v4)-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "KeyPhrases",
+        "Name": "Key Phrases [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Key Phrases (V4) instead.\nReturns a list of strings denoting the key talking points in the input text.",
+        "Anchor": "#key-phrases-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "KeyPhrases",
+        "Name": "Key Phrases [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Key Phrases (V4) instead.\nReturns a list of strings denoting the key talking points in the input text. Currently, the following languages are supported: English, German, Spanish and Japanese.",
+        "Anchor": "#key-phrases-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "KeyPhrasesV3",
+        "Name": "Key Phrases (V2) [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Key Phrases (V4) instead.\nReturns a list of strings denoting the key talking points in the input text for each document.",
+        "Anchor": "#key-phrases-(v2)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "KeyPhraseV3",
+        "Name": "Key Phrases (V3.0)",
+        "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Language support for Key Phrase Extraction for the list of supported languages.",
+        "Anchor": "#key-phrases-(v3.0)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "KeyPhraseV3_1",
+        "Name": "Key Phrases (V3.1) (Preview)",
+        "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Language support for Key Phrase Extraction for the list of supported languages.",
+        "Anchor": "#key-phrases-(v3.1)-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "KeyPhraseV4",
+        "Name": "Key Phrases (V4) (Preview)",
+        "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Language support for Key Phrase Extraction for the list of supported languages.",
+        "Anchor": "#key-phrases-(v4)-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LanguagesV3",
+        "Name": "Detect Language (V3.0)",
+        "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Language support for Language Detection for the list of supported languages.",
+        "Anchor": "#detect-language-(v3.0)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LanguagesV3_1",
+        "Name": "Detect Language (V3.1) (Preview)",
+        "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Language support for Language Detection for the list of supported languages.",
+        "Anchor": "#detect-language-(v3.1)-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LanguagesV4",
+        "Name": "Detect Language (V4) (Preview)",
+        "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Language support for Language Detection for the list of supported languages.",
+        "Anchor": "#detect-language-(v4)-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SentimentV3",
+        "Name": "Sentiment (V3.0)",
+        "Description": "The API returns a sentiment prediction, as well as sentiment scores for each sentiment class (Positive, Negative, and Neutral) for the document and each sentence within it. See the Sentiment Analysis and Opinion Mining language support for the list of supported languages.",
+        "Anchor": "#sentiment-(v3.0)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SentimentV3_1",
+        "Name": "Sentiment (V3.1) (Preview)",
+        "Description": "The API returns a detailed sentiment analysis for the input text. The analysis is done in multiple levels of granularity, start from the a document level, down to sentence and key terms (targets and assessments).",
+        "Anchor": "#sentiment-(v3.1)-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SentimentV4",
+        "Name": "Sentiment (V4) (Preview)",
+        "Description": "The API returns a detailed sentiment analysis for the input text. The analysis is done in multiple levels of granularity, start from the a document level, down to sentence and key terms (targets and assessments).",
+        "Anchor": "#sentiment-(v4)-(preview)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "azurecommunicationservicessms",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azurecommunicationservicessms/",
     "Actions": [
@@ -6396,24 +6856,10 @@
         "IsDeprecated": false
       },
       {
-        "OperationId": "QueryDataV2",
-        "Name": "Run query and list results V2 (Preview)",
-        "Description": "Returns each row as its own object. Use this action when you want to work with each row separately in the rest of the workflow.",
-        "Anchor": "#run-query-and-list-results-v2-(preview)",
-        "IsDeprecated": false
-      },
-      {
         "OperationId": "VisualizeQuery",
         "Name": "Run query and visualize results",
         "Description": "Returns all rows in the result set as a single formatted object. Use this action when you want to use the result set together in the rest of the workflow.",
         "Anchor": "#run-query-and-visualize-results",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "VisualizeQueryV2",
-        "Name": "Run query and visualize results V2 (Preview)",
-        "Description": "Returns all rows in the result set as a single formatted object. Use this action when you want to use the result set together in the rest of the workflow.",
-        "Anchor": "#run-query-and-visualize-results-v2-(preview)",
         "IsDeprecated": false
       }
     ]
@@ -12187,103 +12633,6 @@
     ]
   },
   {
-    "UniqueName": "cloudappsecurity",
-    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudappsecurity/",
-    "Actions": [
-      {
-        "OperationId": "MCAS_CLOSE_ALERT_BENIGN",
-        "Name": "Close Cloud App Security alert as benign",
-        "Description": "Close Cloud App Security alert by alert ID as benign",
-        "Anchor": "#close-cloud-app-security-alert-as-benign",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "MCAS_CLOSE_ALERT_FALSE_POSITIVE",
-        "Name": "Close Cloud App Security alert as false positive",
-        "Description": "Close Cloud App Security alert by alert ID as false positive",
-        "Anchor": "#close-cloud-app-security-alert-as-false-positive",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "MCAS_CLOSE_ALERT_TRUE_POSITIVE",
-        "Name": "Close Cloud App Security alert as true positive",
-        "Description": "Close Cloud App Security alert by alert ID as true positive",
-        "Anchor": "#close-cloud-app-security-alert-as-true-positive",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "MCAS_DISABLE_POLICY",
-        "Name": "Disable Cloud App Security policy",
-        "Description": "Disable Cloud App Security policy by policy ID",
-        "Anchor": "#disable-cloud-app-security-policy",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "MCAS_DISMISS_ALERT",
-        "Name": "[DEPRECATED] Dismiss Cloud App Security alert",
-        "Description": "Dismiss Cloud App Security alert by alert ID (deprecated version)",
-        "Anchor": "#[deprecated]-dismiss-cloud-app-security-alert",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "MCAS_ENABLE_POLICY",
-        "Name": "Enable Cloud App Security policy",
-        "Description": "Enable Cloud App Security policy by policy ID",
-        "Anchor": "#enable-cloud-app-security-policy",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "MCAS_GET_ACTIVITIES",
-        "Name": "Get Cloud App Security activities",
-        "Description": "Get Cloud App Security activities performed by Azure AD user ID",
-        "Anchor": "#get-cloud-app-security-activities",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "MCAS_GET_OPEN_ALERTS",
-        "Name": "Get Cloud App Security open alerts",
-        "Description": "Get Cloud App Security open alerts",
-        "Anchor": "#get-cloud-app-security-open-alerts",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "MCAS_GET_POLICY",
-        "Name": "Get Cloud App Security policy",
-        "Description": "Get Cloud App Security policy by policy ID",
-        "Anchor": "#get-cloud-app-security-policy",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "MCAS_ON_ALERT_GENERATED",
-        "Name": "When an alert is generated",
-        "Description": "Triggers when a Cloud App Security alert is generated. After configuring your flow, go to the Cloud App Security policy page, and specify this flow in one of your policies.",
-        "Anchor": "#when-an-alert-is-generated",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "MCAS_RESOLVE_ALERT",
-        "Name": "[DEPRECATED] Resolve Cloud App Security alert",
-        "Description": "Resolve Cloud App Security alert by alert ID (deprecated version)",
-        "Anchor": "#[deprecated]-resolve-cloud-app-security-alert",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "MCAS_TAG_APP_SANCTIONED",
-        "Name": "Tag app as sanctioned",
-        "Description": "Tag app as sanctioned by app ID",
-        "Anchor": "#tag-app-as-sanctioned",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "MCAS_TAG_APP_UNSANCTIONED",
-        "Name": "Tag app as unsanctioned",
-        "Description": "Tag app as unsanctioned by app ID",
-        "Anchor": "#tag-app-as-unsanctioned",
-        "IsDeprecated": false
-      }
-    ]
-  },
-  {
     "UniqueName": "cloudbot",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudbot/",
     "Actions": [
@@ -15367,31 +15716,31 @@
       },
       {
         "OperationId": "GetCsvDocument",
-        "Name": "Get Csv",
-        "Description": "Get data based on passed configuration and returns the data in the CSV format set in the configuration",
-        "Anchor": "#get-csv",
-        "IsDeprecated": false
+        "Name": "Get Csv (deprecated) [DEPRECATED]",
+        "Description": "Get data based on passed configuration and returns the data in the CSV format set in the configuration (deprecated)",
+        "Anchor": "#get-csv-(deprecated)-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "GetCsvDocumentById",
-        "Name": "Get Csv by Id",
-        "Description": "Get data by SystemId based on passed configuration and returns the data in the CSV format set in the configuration",
-        "Anchor": "#get-csv-by-id",
-        "IsDeprecated": false
+        "Name": "Get Csv by Id (deprecated) [DEPRECATED]",
+        "Description": "Get data by SystemId based on passed configuration and returns the data in the CSV format set in the configuration (deprecated)",
+        "Anchor": "#get-csv-by-id-(deprecated)-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "GetCsvDocumentByIdWithMetadata",
-        "Name": "Get Csv by Id with metadata",
-        "Description": "Get data by Id with metadata based on passed configuration and returns the data in the CSV format set in the configuration",
-        "Anchor": "#get-csv-by-id-with-metadata",
-        "IsDeprecated": false
+        "Name": "Get Csv by Id with metadata (deprecated) [DEPRECATED]",
+        "Description": "Get data by Id with metadata based on passed configuration and returns the data in the CSV format set in the configuration (deprecated)",
+        "Anchor": "#get-csv-by-id-with-metadata-(deprecated)-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "GetCsvDocumentWithMetadata",
-        "Name": "Get Csv with metadata",
-        "Description": "Get data with metadata based on passed configuration and returns the data in the CSV format set in the configuration",
-        "Anchor": "#get-csv-with-metadata",
-        "IsDeprecated": false
+        "Name": "Get Csv with metadata (deprecated) [DEPRECATED]",
+        "Description": "Get data with metadata based on passed configuration and returns the data in the CSV format set in the configuration (deprecated)",
+        "Anchor": "#get-csv-with-metadata-(deprecated)-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "GetData",
@@ -15437,31 +15786,31 @@
       },
       {
         "OperationId": "GetXmlDocument",
-        "Name": "Get Xml",
-        "Description": "Get data based on passed configuration and returns the data in the XML format set in the configuration",
-        "Anchor": "#get-xml",
-        "IsDeprecated": false
+        "Name": "Get Xml (deprecated) [DEPRECATED]",
+        "Description": "Get data based on passed configuration and returns the data in (deprecated) the XML format set in the configuration",
+        "Anchor": "#get-xml-(deprecated)-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "GetXmlDocumentById",
-        "Name": "Get Xml by Id",
-        "Description": "Get data by SystemId based on passed configuration and returns the data in the XML format set in the configuration",
-        "Anchor": "#get-xml-by-id",
-        "IsDeprecated": false
+        "Name": "Get Xml by Id (deprecated) [DEPRECATED]",
+        "Description": "Get data by SystemId based on passed configuration and returns the data in the XML format set in the configuration (deprecated)",
+        "Anchor": "#get-xml-by-id-(deprecated)-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "GetXmlDocumentByIdWithMetadata",
-        "Name": "Get Xml by Id with metadata",
-        "Description": "Get data by Id with metadata based on passed configuration and returns the data in the XML format set in the configuration",
-        "Anchor": "#get-xml-by-id-with-metadata",
-        "IsDeprecated": false
+        "Name": "Get Xml by Id with metadata (deprecated) [DEPRECATED]",
+        "Description": "Get data by Id with metadata based on passed configuration and returns the data in the XML format set in the configuration (deprecated)",
+        "Anchor": "#get-xml-by-id-with-metadata-(deprecated)-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "GetXmlDocumentWithMetadata",
-        "Name": "Get Xml with metadata",
-        "Description": "Get data with metadata based on passed configuration and returns the data in the XML format set in the configuration",
-        "Anchor": "#get-xml-with-metadata",
-        "IsDeprecated": false
+        "Name": "Get Xml with metadata (deprecated) [DEPRECATED]",
+        "Description": "Get data with metadata based on passed configuration and returns the data in the XML format set in the configuration (deprecated)",
+        "Anchor": "#get-xml-with-metadata-(deprecated)-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "PatchMedia",
@@ -15479,17 +15828,17 @@
       },
       {
         "OperationId": "PostTransformCsv",
-        "Name": "Process Csv",
-        "Description": "Imports and transforms CSV into Business Central data using a specific configuration",
-        "Anchor": "#process-csv",
-        "IsDeprecated": false
+        "Name": "Process Csv (deprecated) [DEPRECATED]",
+        "Description": "Imports and transforms CSV into Business Central data using a specific configuration (deprecated)",
+        "Anchor": "#process-csv-(deprecated)-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "PostTransformXml",
-        "Name": "Process Xml",
-        "Description": "Imports and transforms XML into Business Central data using a specific configuration",
-        "Anchor": "#process-xml",
-        "IsDeprecated": false
+        "Name": "Process Xml (deprecated) [DEPRECATED]",
+        "Description": "Imports and transforms XML into Business Central data using a specific configuration (deprecated)",
+        "Anchor": "#process-xml-(deprecated)-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "RecordCreated",
@@ -16584,6 +16933,103 @@
         "Name": "Convert DBF to XML",
         "Description": "Convert base64 content db file to xml file.",
         "Anchor": "#convert-dbf-to-xml",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "cloudappsecurity",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudappsecurity/",
+    "Actions": [
+      {
+        "OperationId": "MCAS_CLOSE_ALERT_BENIGN",
+        "Name": "Close Defender for Cloud Apps alert as benign",
+        "Description": "Close Defender for Cloud Apps alert by alert ID as benign",
+        "Anchor": "#close-defender-for-cloud-apps-alert-as-benign",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MCAS_CLOSE_ALERT_FALSE_POSITIVE",
+        "Name": "Close Defender for Cloud Apps alert as false positive",
+        "Description": "Close Defender for Cloud Apps alert by alert ID as false positive",
+        "Anchor": "#close-defender-for-cloud-apps-alert-as-false-positive",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MCAS_CLOSE_ALERT_TRUE_POSITIVE",
+        "Name": "Close Defender for Cloud Apps alert as true positive",
+        "Description": "Close Defender for Cloud Apps alert by alert ID as true positive",
+        "Anchor": "#close-defender-for-cloud-apps-alert-as-true-positive",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MCAS_DISABLE_POLICY",
+        "Name": "Disable Defender for Cloud Apps policy",
+        "Description": "Disable Defender for Cloud Apps policy by policy ID",
+        "Anchor": "#disable-defender-for-cloud-apps-policy",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MCAS_DISMISS_ALERT",
+        "Name": "[DEPRECATED] Dismiss Defender for Cloud Apps alert",
+        "Description": "Dismiss Defender for Cloud Apps alert by alert ID (deprecated version)",
+        "Anchor": "#[deprecated]-dismiss-defender-for-cloud-apps-alert",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "MCAS_ENABLE_POLICY",
+        "Name": "Enable Defender for Cloud Apps policy",
+        "Description": "Enable Defender for Cloud Apps policy by policy ID",
+        "Anchor": "#enable-defender-for-cloud-apps-policy",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MCAS_GET_ACTIVITIES",
+        "Name": "Get Defender for Cloud Apps activities",
+        "Description": "Get Defender for Cloud Apps activities performed by Azure AD user ID",
+        "Anchor": "#get-defender-for-cloud-apps-activities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MCAS_GET_OPEN_ALERTS",
+        "Name": "Get Defender for Cloud Apps open alerts",
+        "Description": "Get Defender for Cloud Apps open alerts",
+        "Anchor": "#get-defender-for-cloud-apps-open-alerts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MCAS_GET_POLICY",
+        "Name": "Get Defender for Cloud Apps policy",
+        "Description": "Get Defender for Cloud Apps policy by policy ID",
+        "Anchor": "#get-defender-for-cloud-apps-policy",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MCAS_ON_ALERT_GENERATED",
+        "Name": "When an alert is generated",
+        "Description": "Triggers when a Defender for Cloud Apps alert is generated. After configuring your flow, go to the Defender for Cloud Apps policy page, and specify this flow in one of your policies.",
+        "Anchor": "#when-an-alert-is-generated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MCAS_RESOLVE_ALERT",
+        "Name": "[DEPRECATED] Resolve Defender for Cloud Apps alert",
+        "Description": "Resolve Defender for Cloud Apps alert by alert ID (deprecated version)",
+        "Anchor": "#[deprecated]-resolve-defender-for-cloud-apps-alert",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "MCAS_TAG_APP_SANCTIONED",
+        "Name": "Tag app as sanctioned",
+        "Description": "Tag app as sanctioned by app ID",
+        "Anchor": "#tag-app-as-sanctioned",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MCAS_TAG_APP_UNSANCTIONED",
+        "Name": "Tag app as unsanctioned",
+        "Description": "Tag app as unsanctioned by app ID",
+        "Anchor": "#tag-app-as-unsanctioned",
         "IsDeprecated": false
       }
     ]
@@ -20488,6 +20934,54 @@
         "Name": "Search Contacts (Simple)",
         "Description": "Search contacts by simple criteria. https://apidocs.emailer.emfluence.com/v1/endpoints/contacts/search",
         "Anchor": "#search-contacts-(simple)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "emojihubip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../emojihubip/",
+    "Actions": [
+      {
+        "OperationId": "All",
+        "Name": "Get all emojis",
+        "Description": "Get all emojis available from the EmojiHub.",
+        "Anchor": "#get-all-emojis",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AllCategory",
+        "Name": "Get all emojis in a category",
+        "Description": "Returns all emojis in a category available from the EmojiHub.",
+        "Anchor": "#get-all-emojis-in-a-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AllGroup",
+        "Name": "Get all emojis in a group",
+        "Description": "Returns all emojis in a group available from the EmojiHub.",
+        "Anchor": "#get-all-emojis-in-a-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Random",
+        "Name": "Get a random emoji",
+        "Description": "Returns a random emoji.",
+        "Anchor": "#get-a-random-emoji",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RandomCategory",
+        "Name": "Get a random emoji in a category",
+        "Description": "Returns a random emoji in a category available from the EmojiHub.",
+        "Anchor": "#get-a-random-emoji-in-a-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RandomGroup",
+        "Name": "Get a random emoji in a group",
+        "Description": "Returns a random in a group available from the EmojiHub.",
+        "Anchor": "#get-a-random-emoji-in-a-group",
         "IsDeprecated": false
       }
     ]
@@ -29064,10 +29558,150 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateJSONFromInputVariables",
+        "Name": "Create JSON from input variables",
+        "Description": "Takes an array of input variables and returns in JSON format and optionally as a JSON table.",
+        "Anchor": "#create-json-from-input-variables",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteColumnsInJSONTable",
+        "Name": "Delete columns from a JSON table",
+        "Description": "Takes an input table in JSON format, deletes a column or columns and returns a new table in JSON format. If you want to delete columns from a actual table (i.e. not in JSON format), use the action 'Delete columns from a table'.",
+        "Anchor": "#delete-columns-from-a-json-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteColumnsInTable",
+        "Name": "Delete columns from a table",
+        "Description": "Takes an input table, deletes a column or columns and returns a new table. If you want to delete columns from a table in JSON format, use the action 'Delete columns from a JSON table'.",
+        "Anchor": "#delete-columns-from-a-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteItemsInStringArray",
+        "Name": "Delete items from a string array",
+        "Description": "Takes an input array of string items, deletes an item or items at a specified position and returns a new array. If you want to delete a row or rows from a table, use the action 'Delete a row from a table'. If you want to delete a row or rows from a table in JSON format, use the action 'Delete a row from a JSON table'.",
+        "Anchor": "#delete-items-from-a-string-array",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteRowsInJSONTable",
+        "Name": "Delete rows from a JSON table",
+        "Description": "Takes an input table in JSON format, deletes a row or rows at a specified position and returns a new table in JSON format. If you want to delete a row or rows from an actual table (i.e. not in JSON format), use the action 'Delete a row from a table'. If you want to delete a row or rows from a string array, use the action 'Delete a row from a string array'.",
+        "Anchor": "#delete-rows-from-a-json-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteRowsInTable",
+        "Name": "Delete rows from a table",
+        "Description": "Takes an input table, deletes a row or rows at a specified position and returns a new table. If you want to delete a row or rows from a string array, use the action 'Delete a row from a string array'. If you want to delete a row or rows from a table in JSON format, use the action 'Delete a row from a JSON table'.",
+        "Anchor": "#delete-rows-from-a-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterJSONTable",
+        "Name": "Filter JSON table",
+        "Description": "Takes an input JSON table, filters the table (using .NET DataView rowfilter syntax) and returns a new JSON table. If you want to filter an actual table (i.e. not in JSON format), use the action 'Filter table'. If you want to filter a string array, use the action 'Filter string array'.",
+        "Anchor": "#filter-json-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterStringArray",
+        "Name": "Filter string array",
+        "Description": "Takes an input array of string items, filters the array (using .NET DataView rowfilter syntax) and returns a new array. If you want to filter a table, use the action 'Filter table'. If you want to filter a table in JSON format, use the action 'Filter JSON table'.",
+        "Anchor": "#filter-string-array",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterTable",
+        "Name": "Filter table",
+        "Description": "Takes an input table, filters the table (using .NET DataView rowfilter syntax) and returns a new table. If you want to filter a table in JSON format, use the action 'Filter JSON table'. If you want to filter a string array, use the action 'Filter string array'.",
+        "Anchor": "#filter-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetJSONTableFromStringArray",
+        "Name": "Get JSON table from string array",
+        "Description": "Takes an input array of string items and returns as a JSON table.",
+        "Anchor": "#get-json-table-from-string-array",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStringArrayFromJSONTableColumn",
+        "Name": "Get string array from JSON table column",
+        "Description": "Takes an input table in JSON format and returns a specified column as a string array. If you want to get a string array from an actual table (i.e. not in JSON format), use the action 'Get array from table'.",
+        "Anchor": "#get-string-array-from-json-table-column",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStringArrayFromTableColumn",
+        "Name": "Get string array from table column",
+        "Description": "Takes an input table and returns a specified column as a string array. If you want to get a string array from a table in JSON format, use the action 'Get array from JSON table'.",
+        "Anchor": "#get-string-array-from-table-column",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStringBetween",
+        "Name": "Get string between",
+        "Description": "Takes an input string and returns the first instance of a string that is located between two specified strings or between a string and the end of the line.",
+        "Anchor": "#get-string-between",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStringFromJSONTableCell",
+        "Name": "Get string from JSON table cell",
+        "Description": "Takes an input table in JSON format and returns a specified cell as a string.",
+        "Anchor": "#get-string-from-json-table-cell",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTableFromJSON",
+        "Name": "Get table from JSON",
+        "Description": "Takes an input table in JSON format and returns as a table. This is known as deserialization.",
+        "Anchor": "#get-table-from-json",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTableFromStringArray",
+        "Name": "Get table from string array",
+        "Description": "Takes an input array of string items and returns as a table.",
+        "Anchor": "#get-table-from-string-array",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ImportAssemblyFromLocalFile",
         "Name": "Import assembly from local file",
         "Description": "Uploads a DotNet assembly from the computer where the IA-Connect Director is running to the IA-Connect Agent where it is loaded into memory and will be used if referenced by dynamic DotNet code.",
         "Anchor": "#import-assembly-from-local-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InsertRowInJSONTable",
+        "Name": "Insert a row into a JSON table",
+        "Description": "Takes an input table in JSON format, inserts a row at a specified position and returns a new table in JSON format. If you want to insert a row into an actual table (i.e. not in JSON format), use the action 'Insert a row into a table'. If you want to insert a row into a string array, use the action 'Insert a row into a string array'.",
+        "Anchor": "#insert-a-row-into-a-json-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InsertRowInJSONTableFromInputVariables",
+        "Name": "Insert a row of input variables into a JSON table",
+        "Description": "Takes an input table in JSON format, inserts a row created from input variables at a specified position and returns a new table in JSON format. The input row schema should match that of the input table (i.e. Use the same property names and data types). If you want to insert a row into an actual table (i.e. not in JSON format), use the action 'Insert a row into a table'. If you want to insert a string into a string array, use the action 'Insert a row into a string array'.",
+        "Anchor": "#insert-a-row-of-input-variables-into-a-json-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InsertRowInStringArray",
+        "Name": "Insert a row into a string array",
+        "Description": "Takes an input array of string items, inserts a row at a specified position and returns a new array. If you want to insert a row into a table, use the action 'Insert a row into a table'. If you want to insert a row into a table in JSON format, use the action 'Insert a row into a JSON table'.",
+        "Anchor": "#insert-a-row-into-a-string-array",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InsertRowInTable",
+        "Name": "Insert a row into a table",
+        "Description": "Takes an input table, inserts a row at a specified position and returns a new table. If you want to insert a row into a string array, use the action 'Insert a row into a string array'. If you want to insert a row into a table in JSON format, use the action 'Insert a row into a JSON table'.",
+        "Anchor": "#insert-a-row-into-a-table",
         "IsDeprecated": false
       },
       {
@@ -29085,10 +29719,45 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "RenameColumnInJSONTable",
+        "Name": "Rename a column in a JSON table",
+        "Description": "Takes an input table in JSON format, renames a specified column and returns a new table in JSON format. If you want to rename a column from an actual table (i.e. not in JSON format), use the action 'Rename a column in a table'.",
+        "Anchor": "#rename-a-column-in-a-json-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RenameColumnInTable",
+        "Name": "Rename a column in a table",
+        "Description": "Takes an input table, renames a specified column and returns a new table. If you want to rename a column from a table in JSON format, use the action 'Rename a column in a JSON table'.",
+        "Anchor": "#rename-a-column-in-a-table",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "RunPowerShellAutomationScript",
         "Name": "Run PowerShell script",
         "Description": "Runs a PowerShell script in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. This is the recommended action for running your own custom PowerShell code.",
         "Anchor": "#run-powershell-script",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SortJSONTable",
+        "Name": "Sort JSON table",
+        "Description": "Takes an input JSON table, sorts the table and returns a new JSON table. If you want to sort an actual table (i.e. not in JSON format), use the action 'Sort table'. If you want to sort a string array, use the action 'Sort string array'.",
+        "Anchor": "#sort-json-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SortStringArray",
+        "Name": "Sort string array",
+        "Description": "Takes an input array of string items, sorts the array and returns a new array. If you want to sort a table, use the action 'Sort table'. If you want to sort a table in JSON format, use the action 'Sort JSON table'.",
+        "Anchor": "#sort-string-array",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SortTable",
+        "Name": "Sort table",
+        "Description": "Takes an input table, sorts one or more rows and returns a new table. If you want to sort a table in JSON format, use the action 'Sort JSON table'. If you want to sort a string array, use the action 'Sort string array'.",
+        "Anchor": "#sort-table",
         "IsDeprecated": false
       }
     ]
@@ -31278,6 +31947,27 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CredentialDelete",
+        "Name": "Deletes a user credential",
+        "Description": "Deletes a credential in the user's profile in the IA-Connect Agent session. Credentials can be viewed from the Windows Control Panel.",
+        "Anchor": "#deletes-a-user-credential",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CredentialRead",
+        "Name": "Read from a user credential",
+        "Description": "Reads a username and password from a credential in the user's profile in the IA-Connect Agent session. Credentials can be viewed from the Windows Control Panel. Both the username and password can be retrieved from a Generic credential while only the username can be retrieved from a Windows credential.",
+        "Anchor": "#read-from-a-user-credential",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CredentialWrite",
+        "Name": "Write to a user credential",
+        "Description": "Writes a username and password to a credential in the user's profile in the IA-Connect Agent session, creating that credential if it doesn't exist. Credentials can be viewed from the Windows Control Panel.",
+        "Anchor": "#write-to-a-user-credential",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "DeleteDirectory",
         "Name": "Delete directory",
         "Description": "Deletes a directory (folder) on the computer where the IA-Connect Agent is running.",
@@ -31376,10 +32066,31 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ExpandPasswordString",
+        "Name": "Expand password string",
+        "Description": "Accepts an input string which contains references to IA-Connect stored passwords and returns that string with the references replaced by the stored passwords.",
+        "Anchor": "#expand-password-string",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "FileExists",
         "Name": "Does file exist",
         "Description": "Reports true or false as to whether a file exists on the computer where the IA-Connect Agent is running.",
         "Anchor": "#does-file-exist",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GeneratePassword",
+        "Name": "Generate password",
+        "Description": "Generates a password containing dictionary words, numbers, symbols, characters as defined in a template format.",
+        "Anchor": "#generate-password",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GenerateRDPFile",
+        "Name": "Create Remote Desktop Session (RDS) launch file",
+        "Description": "Create a Remote Desktop Session (RDS) launch file which can be used to automatically launch a Remote Desktop Session using specified parameters, instead of requiring automation of the Remote Desktop client UI. A RDS launch file has the extension '.rdp' and is often called a RDP file.",
+        "Anchor": "#create-remote-desktop-session-(rds)-launch-file",
         "IsDeprecated": false
       },
       {
@@ -31621,6 +32332,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetStoredPassword",
+        "Name": "Get stored password",
+        "Description": "Retrieves a previously generated or stored password.",
+        "Anchor": "#get-stored-password",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "IsScreenReaderEnabled",
         "Name": "Is screen reader enabled",
         "Description": "Returns whether the screen reader has been enabled in the IA-Connect Agent user session.",
@@ -31660,6 +32378,13 @@
         "Name": "Kill process ID",
         "Description": "Kills a running process in the IA-Connect Agent user session which has the specified process Id. Process Ids are unique so only one process can match the Id. Process Ids are dynamic and are different for every launch of an application.",
         "Anchor": "#kill-process-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LaunchRemoteDesktopSession",
+        "Name": "Launch Remote Desktop Session (RDS)",
+        "Description": "Launch a Remote Desktop Session (RDS) using a RDP launch file.",
+        "Anchor": "#launch-remote-desktop-session-(rds)",
         "IsDeprecated": false
       },
       {
@@ -32104,6 +32829,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "WriteCollectionToCSVFile",
+        "Name": "Write to CSV file",
+        "Description": "Creates a CSV file on the computer where the IA-Connect Agent is running. The CSV file is created from a collection (table) or from a table in JSON format.",
+        "Anchor": "#write-to-csv-file",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "WriteTextFile",
         "Name": "Write text file",
         "Description": "Creates a text file on the computer where the IA-Connect Agent is running and writes text into the file.",
@@ -32229,6 +32961,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "UIAGetElementAtCoordinates",
+        "Name": "Get UIA element at screen coordinates",
+        "Description": "Returns the UIA element located at the given screen coordinates.",
+        "Anchor": "#get-uia-element-at-screen-coordinates",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "UIAGetElementLabelValue",
         "Name": "Get UIA element label value",
         "Description": "Returns the value of the label on the element.",
@@ -32317,6 +33056,20 @@
         "Name": "Get multiple UIA element properties",
         "Description": "Returns the properties of multiple elements. This can be useful if you are uncertain which fields holds the property values required.",
         "Anchor": "#get-multiple-uia-element-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UIAGetMultipleElementsAsTable",
+        "Name": "Get multiple UIA elements as table",
+        "Description": "Enumerates the values of child elements of a specified parent element and returns in a table format. This can be used to returns 'Tables' of data which aren't technically tables.",
+        "Anchor": "#get-multiple-uia-elements-as-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UIAGetMultipleParentElementProperties",
+        "Name": "Get multiple UIA parent element properties",
+        "Description": "Returns a hierarchal tree of parent elements of the specified element, all the way up to the desktop (root level). The parent element is defined as the element which is at the next level up the UIA 'tree' and is almost always a containing element.",
+        "Anchor": "#get-multiple-uia-parent-element-properties",
         "IsDeprecated": false
       },
       {
@@ -32429,6 +33182,13 @@
         "Name": "Reset all UIA element handles",
         "Description": "Resets all UIA element handles currently stored by IA-Connect which can be useful if you have been identifying a lot of elements and have a large number of element handles stored. In scenarios with extremely high numbers of element handles (100,000+) this action can also be used to free up RAM usage.",
         "Anchor": "#reset-all-uia-element-handles",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UIASearchForFirstParentElement",
+        "Name": "Search for first UIA parent element",
+        "Description": "Searches up the UIA tree hierarchy for the first parent element which matches the search criteria. The parent element is defined as the element which is at the next level up the UIA 'tree' and is almost always a containing element.",
+        "Anchor": "#search-for-first-uia-parent-element",
         "IsDeprecated": false
       },
       {
@@ -32638,6 +33398,20 @@
         "Name": "Does web element exist",
         "Description": "Reports whether a HTML element currently exists. This action does not wait for the HTML element.",
         "Anchor": "#does-web-element-exist",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BrowserDownloadSuitableChromeDriverFromInternet",
+        "Name": "Download suitable ChromeDriver from Internet",
+        "Description": "Determines which version of ChromeDriver is suitable for the installed version of Google Chrome in the session where the IA-Connect Agent is running, checks if a suitable version is already downloaded and, if not, attempts to download a suitable version from Google's ChromeDriver Internet web page.",
+        "Anchor": "#download-suitable-chromedriver-from-internet",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BrowserDownloadSuitableChromiumEdgeDriverFromInternet",
+        "Name": "Download suitable Chromium Edge driver from Internet",
+        "Description": "Determines which version of Chromium Edge driver is suitable for the installed version of Chromium Edge browser in the session where the IA-Connect Agent is running, checks if a suitable version is already downloaded and, if not, attempts to download a suitable version from the Chromium Edge driver web page.",
+        "Anchor": "#download-suitable-chromium-edge-driver-from-internet",
         "IsDeprecated": false
       },
       {
@@ -33446,10 +34220,87 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../impexium/",
     "Actions": [
       {
+        "OperationId": "",
+        "Name": "Get Individual's Active Subscriptions",
+        "Description": "Get Individual's Active Subscriptions",
+        "Anchor": "#get-individual's-active-subscriptions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get Individual's Relationships",
+        "Description": "Get Individual's Relationships",
+        "Anchor": "#get-individual's-relationships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get Organization's Active Subscriptions",
+        "Description": "Get Organization's Active Subscriptions",
+        "Anchor": "#get-organization's-active-subscriptions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get Organization's Relationships",
+        "Description": "Get Organization's Relationships",
+        "Anchor": "#get-organization's-relationships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Update Individual's Custom Field Value",
+        "Description": "Update Individual's Custom Field Value.",
+        "Anchor": "#update-individual's-custom-field-value",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Add-Activity",
         "Name": "Add Activity",
         "Description": "Add Activity.",
         "Anchor": "#add-activity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Activity-to-Organization",
+        "Name": "Add Activity to Organization",
+        "Description": "Add Activity to Organization",
+        "Anchor": "#add-activity-to-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-a-New-Task",
+        "Name": "Add a New Task",
+        "Description": "Add a New Task",
+        "Anchor": "#add-a-new-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-a-Service-to-an-Organization",
+        "Name": "Add a Service to an Organization",
+        "Description": "Add a Service to an Organization",
+        "Anchor": "#add-a-service-to-an-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Categories-for-an-Individual",
+        "Name": "Add Categories for an Individual",
+        "Description": "Add Categories for an Individual",
+        "Anchor": "#add-categories-for-an-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Email-to-Individual",
+        "Name": "Add Email to Individual",
+        "Description": "Add Email to Individual",
+        "Anchor": "#add-email-to-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Email-to-Organization",
+        "Name": "Add Email to Organization",
+        "Description": "Add Email to Organization",
+        "Anchor": "#add-email-to-organization",
         "IsDeprecated": false
       },
       {
@@ -33460,10 +34311,52 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Add-Notification-to-Individual",
+        "Name": "Add Notification to Individual",
+        "Description": "Add Notification to Individual",
+        "Anchor": "#add-notification-to-individual",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Add-Organization",
         "Name": "Add Organization",
         "Description": "Add Organization.",
         "Anchor": "#add-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-or-Update-Address-to-Individual",
+        "Name": "Add or Update Address to Individual",
+        "Description": "Add or Update Address to Individual",
+        "Anchor": "#add-or-update-address-to-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-or-Update-Address-to-Organization",
+        "Name": "Add or Update Address to Organization",
+        "Description": "Add or Update Address to Organization",
+        "Anchor": "#add-or-update-address-to-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-or-Update-a-List-of-Custom-Fields-Per-Individual",
+        "Name": "Add or Update a List of Custom Fields Per Individual",
+        "Description": "Add or Update a List of Custom Fields Per Individual",
+        "Anchor": "#add-or-update-a-list-of-custom-fields-per-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Phone-to-Individual",
+        "Name": "Add Phone to Individual",
+        "Description": "Add Phone to Individual",
+        "Anchor": "#add-phone-to-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Phone-to-Organization",
+        "Name": "Add Phone to Organization",
+        "Description": "Add Phone to Organization",
+        "Anchor": "#add-phone-to-organization",
         "IsDeprecated": false
       },
       {
@@ -33478,6 +34371,27 @@
         "Name": "Add Individual to Committee",
         "Description": "Add Individual to Committee.",
         "Anchor": "#add-individual-to-committee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Web-Link-for-Individual",
+        "Name": "Add Web Link for Individual",
+        "Description": "Add Web Link for Individual",
+        "Anchor": "#add-web-link-for-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Web-Link-for-Organization",
+        "Name": "Add Web Link for Organization",
+        "Description": "Add Web Link for Organization",
+        "Anchor": "#add-web-link-for-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Assign-Task-to-a-User",
+        "Name": "Assign Task to a User",
+        "Description": "Assign Task to a User",
+        "Anchor": "#assign-task-to-a-user",
         "IsDeprecated": false
       },
       {
@@ -33509,6 +34423,34 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Delete-a-Category-for-an-Individual",
+        "Name": "Delete a Category for an Individual",
+        "Description": "Delete a Category for an Individual",
+        "Anchor": "#delete-a-category-for-an-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delete-an-Individual-Web-Link",
+        "Name": "Delete an Individual Web Link",
+        "Description": "Delete an Individual Web Link",
+        "Anchor": "#delete-an-individual-web-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delete-an-Organization-Web-Link",
+        "Name": "Delete an Organization Web Link",
+        "Description": "Delete an Organization Web Link",
+        "Anchor": "#delete-an-organization-web-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delete-Record-From-Custom-Data-Table",
+        "Name": "Delete Record From Custom Data Table",
+        "Description": "Delete Record From Custom Data Table",
+        "Anchor": "#delete-record-from-custom-data-table",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Find-Customer-Phone",
         "Name": "Find Customer by Phone Number",
         "Description": "Find Customer by Phone Number.",
@@ -33520,6 +34462,160 @@
         "Name": "Find Individual by Id or Email or Record Number",
         "Description": "Find Individual by Id or Email.",
         "Anchor": "#find-individual-by-id-or-email-or-record-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Find-members-or-individuals-by-first-and-last-name",
+        "Name": "Find Members (Individuals) by First Name and Last Name",
+        "Description": "Find Members (Individuals) by First Name and Last Name",
+        "Anchor": "#find-members-(individuals)-by-first-name-and-last-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Find-Members-or-Individuals-by-First-Name",
+        "Name": "Find Members (Individuals) by First Name",
+        "Description": "Find Members (Individuals) by First Name",
+        "Anchor": "#find-members-(individuals)-by-first-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Find-Members-or-Individuals-by-Last-Name",
+        "Name": "Find Members (Individuals) by Last Name",
+        "Description": "Find Members (Individuals) by Last Name",
+        "Anchor": "#find-members-(individuals)-by-last-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Find-Members-or-Individuals-by-Name",
+        "Name": "Find Members (Individuals) by Name",
+        "Description": "Find Members (Individuals) by Name",
+        "Anchor": "#find-members-(individuals)-by-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-a-List-of-All-Services-of-an-Organization",
+        "Name": "Get a List of All Services of an Organization",
+        "Description": "Get a List of All Services of an Organization",
+        "Anchor": "#get-a-list-of-all-services-of-an-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-a-List-of-Licenses",
+        "Name": "Get a List of Licenses",
+        "Description": "Get a List of Licenses",
+        "Anchor": "#get-a-list-of-licenses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-All-Committees",
+        "Name": "Get All Committees",
+        "Description": "Get All Committees",
+        "Anchor": "#get-all-committees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-All-Event-Registrations-Information-for-an-Individual",
+        "Name": "Get All Event Registrations Information for an Individual",
+        "Description": "Get All Event Registrations Information for an Individual",
+        "Anchor": "#get-all-event-registrations-information-for-an-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-All-Events",
+        "Name": "Get All Events",
+        "Description": "Get All Events",
+        "Anchor": "#get-all-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Committee-Information-for-an-Individual",
+        "Name": "Get Committee Information for an Individual",
+        "Description": "Get Committee Information for an Individual",
+        "Anchor": "#get-committee-information-for-an-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Committee-Members-by-committee-ID-or-code",
+        "Name": "Get Committee Members by committee ID or code",
+        "Description": "Get Committee Members by Committee ID or Code",
+        "Anchor": "#get-committee-members-by-committee-id-or-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Individual-Active-Memberships",
+        "Name": "Get Individual Active Memberships",
+        "Description": "Get Individual Active Memberships",
+        "Anchor": "#get-individual-active-memberships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Individual-Inactive-Memberships",
+        "Name": "Get Individual Inactive Memberships",
+        "Description": "Get Individual Inactive Memberships",
+        "Anchor": "#get-individual-inactive-memberships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-List-of-Active-Certifications-for-an-Individual",
+        "Name": "Get List of Active Certifications for an Individual",
+        "Description": "Get List of Active Certifications for an Individual",
+        "Anchor": "#get-list-of-active-certifications-for-an-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-List-of-Active-Certifications-for-an-Organization",
+        "Name": "Get List of Active Certifications for an Organization",
+        "Description": "Get List of Active Certifications for an Organization",
+        "Anchor": "#get-list-of-active-certifications-for-an-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Nominees-by-Committee",
+        "Name": "Get Nominees by Committee",
+        "Description": "Get Nominees by Committee",
+        "Anchor": "#get-nominees-by-committee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Organization-Active-Memberships",
+        "Name": "Get Organization Active Memberships",
+        "Description": "Get Organization Active Memberships",
+        "Anchor": "#get-organization-active-memberships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Organization-Custom-Field-Values",
+        "Name": "Get Organization Custom Field Values",
+        "Description": "Get Organization Custom Field Values",
+        "Anchor": "#get-organization-custom-field-values",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Organization-Inactive-Memberships",
+        "Name": "Get Organization Inactive Memberships",
+        "Description": "Get Organization Inactive Memberships",
+        "Anchor": "#get-organization-inactive-memberships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Positions-by-Committee",
+        "Name": "Get Positions by Committee",
+        "Description": "Get Positions by Committee",
+        "Anchor": "#get-positions-by-committee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Sub-Committees",
+        "Name": "Get Sub-Committees",
+        "Description": "Get Sub-Committees",
+        "Anchor": "#get-sub-committees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Upcoming-Events",
+        "Name": "Get Upcoming Events",
+        "Description": "Get Upcoming Events",
+        "Anchor": "#get-upcoming-events",
         "IsDeprecated": false
       },
       {
@@ -33541,6 +34637,41 @@
         "Name": "Lookup Individuals",
         "Description": "Lookup Individuals by Name",
         "Anchor": "#lookup-individuals",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-All-Awards",
+        "Name": "List All Awards",
+        "Description": "List All Awards",
+        "Anchor": "#list-all-awards",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-all-Individuals",
+        "Name": "List all Individuals",
+        "Description": "List all Individuals",
+        "Anchor": "#list-all-individuals",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-All-Open-Customer-Request",
+        "Name": "List All Open Customer Request",
+        "Description": "List All Open Customer Request",
+        "Anchor": "#list-all-open-customer-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-of-All-Individual-Members",
+        "Name": "List of All Individual Members",
+        "Description": "List of All Individual Members",
+        "Anchor": "#list-of-all-individual-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-of-Customer-Relationships",
+        "Name": "List of Customer Relationships",
+        "Description": "List of Customer Relationships",
+        "Anchor": "#list-of-customer-relationships",
         "IsDeprecated": false
       },
       {
@@ -33572,17 +34703,31 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Register-an-Individual-for-a-Free-Session",
+        "Name": "Register an Individual for a Free Session",
+        "Description": "Register an Individual for a Free Session",
+        "Anchor": "#register-an-individual-for-a-free-session",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Save-Relationship-for-Organization",
+        "Name": "Save Relationship for Organization",
+        "Description": "Save Relationship for Organization",
+        "Anchor": "#save-relationship-for-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-an-Individual-Email",
+        "Name": "Update an Individual Email",
+        "Description": "Update an Individual Email",
+        "Anchor": "#update-an-individual-email",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Update-Committee-Member",
         "Name": "Update Committee Member",
         "Description": "Update Committee Member.",
         "Anchor": "#update-committee-member",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "Update-custom-field-value",
-        "Name": "Update Custom Field Value",
-        "Description": "Update Custom Field Value.",
-        "Anchor": "#update-custom-field-value",
         "IsDeprecated": false
       },
       {
@@ -33593,17 +34738,80 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Update-Phone-for-an-Individual",
+        "Name": "Update Phone for an Individual",
+        "Description": "Update Phone for an Individual",
+        "Anchor": "#update-phone-for-an-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-Phone-for-an-Organization",
+        "Name": "Update Phone for an Organization",
+        "Description": "Update Phone for an Organization",
+        "Anchor": "#update-phone-for-an-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-User-Task-Progress-or-Mark-as-Completed",
+        "Name": "Update User Task Progress or Mark as Completed",
+        "Description": "Update User Task Progress or Mark as Completed",
+        "Anchor": "#update-user-task-progress-or-mark-as-completed",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "When-Committee-Member-Updated",
-        "Name": "When committee member is updated",
-        "Description": "Triggers when a individual is added, deleted or updated to/from a commiteee.",
-        "Anchor": "#when-committee-member-is-updated",
+        "Name": "When a committee member is updated",
+        "Description": "Triggers when an individual is added, deleted or updated to/from a commiteee.",
+        "Anchor": "#when-a-committee-member-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "When-Customer-Address-Updated",
+        "Name": "When a customer address is updated",
+        "Description": "Triggers when a customer address is added/edited or deleted.",
+        "Anchor": "#when-a-customer-address-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "When-Customer-Custom-Field-Value-Updated",
+        "Name": "When a customer custom field value is updated",
+        "Description": "Triggers when a customer custom field value is added/edited or deleted.",
+        "Anchor": "#when-a-customer-custom-field-value-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "When-Customer-Is-Merged",
+        "Name": "When a customer is merged",
+        "Description": "Triggers when a customer is merged.",
+        "Anchor": "#when-a-customer-is-merged",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "When-Customer-Phone-Updated",
+        "Name": "When a customer phone is updated",
+        "Description": "Triggers when a customer phone is added/edited or deleted.",
+        "Anchor": "#when-a-customer-phone-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "When-Customer-Relationship-Updated",
+        "Name": "When a customer relationship is updated",
+        "Description": "Triggers when a customer relationship is added/edited or deleted.",
+        "Anchor": "#when-a-customer-relationship-is-updated",
         "IsDeprecated": false
       },
       {
         "OperationId": "When-Email-Updated",
-        "Name": "When customer email is updated",
+        "Name": "When a customer email is updated",
         "Description": "Triggers when an email is added/edited or deleted.",
-        "Anchor": "#when-customer-email-is-updated",
+        "Anchor": "#when-a-customer-email-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "When-Event-Registration-Substituted",
+        "Name": "When an event registration is substituted",
+        "Description": "Triggers when an event registration is substituted.",
+        "Anchor": "#when-an-event-registration-is-substituted",
         "IsDeprecated": false
       },
       {
@@ -33611,6 +34819,20 @@
         "Name": "When an individual is created",
         "Description": "Triggers when an individual is created.",
         "Anchor": "#when-an-individual-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "When-Individual-Deleted",
+        "Name": "When an individual is deleted",
+        "Description": "Triggers when an individual is deleted.",
+        "Anchor": "#when-an-individual-is-deleted",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "When-Individual-Request-Forgotten",
+        "Name": "When an individual requests to be forgotten",
+        "Description": "Triggers when an individual right-to-be-forgotten request is processed.",
+        "Anchor": "#when-an-individual-requests-to-be-forgotten",
         "IsDeprecated": false
       },
       {
@@ -33629,9 +34851,9 @@
       },
       {
         "OperationId": "When-Request-Updated",
-        "Name": "When customer request is updated",
+        "Name": "When a customer request is updated",
         "Description": "Triggers when a customer request is added or closed.",
-        "Anchor": "#when-customer-request-is-updated",
+        "Anchor": "#when-a-customer-request-is-updated",
         "IsDeprecated": false
       }
     ]
@@ -34420,6 +35642,33 @@
         "Name": "Insert rows into a user table",
         "Description": "Import table rows into a user table",
         "Anchor": "#insert-rows-into-a-user-table",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "infuraethereumip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../infuraethereumip/",
+    "Actions": [
+      {
+        "OperationId": "Eth_blockNumber",
+        "Name": "Get Block Number",
+        "Description": "Returns the number of most recent block.",
+        "Anchor": "#get-block-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Eth_gasPrice",
+        "Name": "Get Gas Price",
+        "Description": "Returns the current price per gas in wei.",
+        "Anchor": "#get-gas-price",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Eth_getBalance",
+        "Name": "Get Balance",
+        "Description": "Returns the balance of the account of given address.",
+        "Anchor": "#get-balance",
         "IsDeprecated": false
       }
     ]
@@ -39797,6 +41046,20 @@
         "IsDeprecated": true
       },
       {
+        "OperationId": "CreateIncidentRelation",
+        "Name": "Add alert to incident (Private Preview)",
+        "Description": "Add an alert to an existing incident. The alert joins the incident as any other alert and will be shown in portal.",
+        "Anchor": "#add-alert-to-incident-(private-preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteIncidentRelation",
+        "Name": "Remove alert from incident (Private Preview)",
+        "Description": "Remove an alert from an existing incident.",
+        "Anchor": "#remove-alert-from-incident-(private-preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetAccounts",
         "Name": "Entities - Get Accounts",
         "Description": "Returns list of accounts associated with the alert",
@@ -39818,14 +41081,14 @@
         "IsDeprecated": false
       },
       {
-        "OperationId": "GetIncidentByAlertId_v2",
+        "OperationId": "GetIncident",
         "Name": "Alert - Get incident",
         "Description": "Returns the incident associated with selected alert",
         "Anchor": "#alert---get-incident",
         "IsDeprecated": false
       },
       {
-        "OperationId": "GetIncidentByAlertId_v2",
+        "OperationId": "GetIncident",
         "Name": "Alert - Get incident",
         "Description": "Returns the incident associated with selected alert",
         "Anchor": "#alert---get-incident",
@@ -40125,10 +41388,10 @@
       },
       {
         "OperationId": "AtMentionTag",
-        "Name": "Get an @mention token for a tag [DEPRECATED]",
+        "Name": "Get an @mention token for a tag",
         "Description": "This operation creates a token that can be inserted into a message or adaptive card sent as a user inS a channel to @mention a tag.",
-        "Anchor": "#get-an-@mention-token-for-a-tag-[deprecated]",
-        "IsDeprecated": true
+        "Anchor": "#get-an-@mention-token-for-a-tag",
+        "IsDeprecated": false
       },
       {
         "OperationId": "AtMentionUser",
@@ -40244,10 +41507,10 @@
       },
       {
         "OperationId": "GetTags",
-        "Name": "List all tags for a team [DEPRECATED]",
+        "Name": "List all tags for a team",
         "Description": "This operation retrieves a list of tags.",
-        "Anchor": "#list-all-tags-for-a-team-[deprecated]",
-        "IsDeprecated": true
+        "Anchor": "#list-all-tags-for-a-team",
+        "IsDeprecated": false
       },
       {
         "OperationId": "GetTeam",
@@ -42115,6 +43378,19 @@
         "Description": "Creates a webhook to notify signed document events",
         "Anchor": "#triggers-when-a-document-is-signed-[deprecated]",
         "IsDeprecated": true
+      }
+    ]
+  },
+  {
+    "UniqueName": "nodefusionportal",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nodefusionportal/",
+    "Actions": [
+      {
+        "OperationId": "GetOrgProfile",
+        "Name": "Get Organization Profile",
+        "Description": "This function returns the data about the requested organization if you have permissions",
+        "Anchor": "#get-organization-profile",
+        "IsDeprecated": false
       }
     ]
   },
@@ -44136,6 +45412,19 @@
         "Name": "Update page content (Preview)",
         "Description": "Update HTML page content.",
         "Anchor": "#update-page-content-(preview)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "openexperience",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../openexperience/",
+    "Actions": [
+      {
+        "OperationId": "CreateNewProject",
+        "Name": "Create new project",
+        "Description": "Creates new project in Open Experience for selected services",
+        "Anchor": "#create-new-project",
         "IsDeprecated": false
       }
     ]
@@ -56395,10 +57684,24 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../smartdialog/",
     "Actions": [
       {
+        "OperationId": "CreateWhatsappTemplate",
+        "Name": "Create WhatsApp template",
+        "Description": "Create a new WhatsApp template.",
+        "Anchor": "#create-whatsapp-template",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "NewMessage",
         "Name": "New Message",
         "Description": "When a new message arrives to a 2-Way service.",
         "Anchor": "#new-message",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendDiscussionReplyMessage",
+        "Name": "Send Discussion Reply Message",
+        "Description": "Send a Discussion Reply Message to recipients.",
+        "Anchor": "#send-discussion-reply-message",
         "IsDeprecated": false
       },
       {
@@ -56409,10 +57712,31 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "SendReplyMessage",
+        "Name": "Send Reply Message",
+        "Description": "Send a Replymessage to recipients.",
+        "Anchor": "#send-reply-message",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "SendWhatsappTemplateMessage",
         "Name": "Send WhatsApp Message",
         "Description": "Send WhatsApp template message.",
         "Anchor": "#send-whatsapp-message",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WhatsAppOptIn",
+        "Name": "WhatsApp Opt In",
+        "Description": "WhatsApp Opt In for sender and recipient.",
+        "Anchor": "#whatsapp-opt-in",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WhatsAppOptOut",
+        "Name": "WhatsApp Opt Out",
+        "Description": "WhatsApp Opt Out for sender and recipient.",
+        "Anchor": "#whatsapp-opt-out",
         "IsDeprecated": false
       }
     ]
@@ -56718,6 +58042,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetCategories",
+        "Name": "Get all categories",
+        "Description": "Get all categories",
+        "Anchor": "#get-all-categories",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetChannels",
         "Name": "Get channels",
         "Description": "Get channels",
@@ -56725,18 +58056,25 @@
         "IsDeprecated": false
       },
       {
-        "OperationId": "GetMediaFolders",
+        "OperationId": "GetMediaDriveFolders",
         "Name": "Get Media Drive folders",
         "Description": "Get Media Drive folders",
         "Anchor": "#get-media-drive-folders",
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetMediaFolders",
+        "Name": "Get Media Drive folders [DEPRECATED]",
+        "Description": "Get Media Drive folders",
+        "Anchor": "#get-media-drive-folders-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
         "OperationId": "UploadFileFolder",
-        "Name": "Upload a file to a Media Drive folder",
+        "Name": "Upload a file to a Media Drive folder [DEPRECATED]",
         "Description": "Upload a file to a Media Drive folder",
-        "Anchor": "#upload-a-file-to-a-media-drive-folder",
-        "IsDeprecated": false
+        "Anchor": "#upload-a-file-to-a-media-drive-folder-[deprecated]",
+        "IsDeprecated": true
       },
       {
         "OperationId": "UploadMedia",
@@ -59632,208 +60970,6 @@
         "Name": "Insert row",
         "Description": "This operation inserts a new row into a table.",
         "Anchor": "#insert-row",
-        "IsDeprecated": false
-      }
-    ]
-  },
-  {
-    "UniqueName": "cognitiveservicestextanalytics",
-    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cognitiveservicestextanalytics/",
-    "Actions": [
-      {
-        "OperationId": "DetectEntities",
-        "Name": "Entities [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Named Entity Recognition (V4) instead.\nReturns a list of known entities and general named entities (&quot;Person&quot;, &quot;Location&quot;, &quot;Organization&quot; etc) in a given document.",
-        "Anchor": "#entities-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "DetectEntitiesV2",
-        "Name": "Detect Entities (V2) [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Named Entity Recognition (V4) instead.\nReturns a list of known entities and general named entities (&quot;Person&quot;, &quot;Location&quot;, &quot;Organization&quot; etc) in a given document.",
-        "Anchor": "#detect-entities-(v2)-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "DetectLanguageV2",
-        "Name": "Detect Language [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Detect Language (V4) instead.\nReturns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
-        "Anchor": "#detect-language-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "DetectLanguageV2",
-        "Name": "Detect Language [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Detect Language (V4) instead.\nReturns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
-        "Anchor": "#detect-language-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "DetectLanguageV3",
-        "Name": "Detect Language (V2) [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Detect Language (V4) instead.\nReturns the detected language and a numeric score between 0 and 1 for each document. Scores close to 1 indicate 100% certainty that the identified language is true. A total of 120 languages are supported.",
-        "Anchor": "#detect-language-(v2)-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "DetectSentiment",
-        "Name": "Detect Sentiment [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Sentiment (V4) instead.\nReturns a numeric score between 0 and 1. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment.",
-        "Anchor": "#detect-sentiment-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "DetectSentiment",
-        "Name": "Detect Sentiment [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Sentiment (V4) instead.\nReturns a numeric score between 0 and 1. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment. Currently, the following languages are supported: English, Spanish, French, Portuguese.",
-        "Anchor": "#detect-sentiment-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "DetectSentimentV3",
-        "Name": "Detect Sentiment (V2) [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Sentiment (V4) instead.\nReturns a numeric score between 0 and 1 for each document. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment.",
-        "Anchor": "#detect-sentiment-(v2)-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "EntitiesLinkingV3",
-        "Name": "Entity Linking (V3.0)",
-        "Description": "The API returns a list of recognized entities with links to a well-known knowledge base. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#entity-linking-(v3.0)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "EntitiesLinkingV3_1",
-        "Name": "Entity Linking (V3.1) (Preview)",
-        "Description": "The API returns a list of recognized entities with links to a well known knowledge base. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#entity-linking-(v3.1)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "EntitiesLinkingV4",
-        "Name": "Entity Linking (V4) (Preview)",
-        "Description": "The API returns a list of recognized entities with links to a well known knowledge base. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#entity-linking-(v4)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "EntitiesRecognitionGeneralV3",
-        "Name": "Named Entity Recognition (V3.0)",
-        "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Entity Types in Text Analytics API. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#named-entity-recognition-(v3.0)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "EntitiesRecognitionGeneralV3_1",
-        "Name": "Named Entity Recognition (V3.1) (Preview)",
-        "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Entity Types in Text Analytics API. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#named-entity-recognition-(v3.1)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "EntitiesRecognitionGeneralV4",
-        "Name": "Named Entity Recognition (V4) (Preview)",
-        "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Entity Types in Text Analytics API. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#named-entity-recognition-(v4)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "EntitiesRecognitionPIIV3_1",
-        "Name": "Detect Personal Information (V3.1)",
-        "Description": "The API returns a list of entities with personal information (&quot;SSN&quot;, &quot;Bank Account&quot; etc) in the document. For the list of supported entity types, check Supported Entity Types in Text Analytics API. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#detect-personal-information-(v3.1)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "EntitiesRecognitionPIIV4",
-        "Name": "Detect Personal Information (V4) (Preview)",
-        "Description": "The API returns a list of entities with personal information (&quot;SSN&quot;, &quot;Bank Account&quot; etc) in the document. For the list of supported entity types, check Supported Entity Types in Text Analytics API. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#detect-personal-information-(v4)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "KeyPhrases",
-        "Name": "Key Phrases [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Key Phrases (V4) instead.\nReturns a list of strings denoting the key talking points in the input text.",
-        "Anchor": "#key-phrases-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "KeyPhrases",
-        "Name": "Key Phrases [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Key Phrases (V4) instead.\nReturns a list of strings denoting the key talking points in the input text. Currently, the following languages are supported: English, German, Spanish and Japanese.",
-        "Anchor": "#key-phrases-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "KeyPhrasesV3",
-        "Name": "Key Phrases (V2) [DEPRECATED]",
-        "Description": "This action has been deprecated. Please use Key Phrases (V4) instead.\nReturns a list of strings denoting the key talking points in the input text for each document.",
-        "Anchor": "#key-phrases-(v2)-[deprecated]",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "KeyPhraseV3",
-        "Name": "Key Phrases (V3.0)",
-        "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#key-phrases-(v3.0)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "KeyPhraseV3_1",
-        "Name": "Key Phrases (V3.1) (Preview)",
-        "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#key-phrases-(v3.1)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "KeyPhraseV4",
-        "Name": "Key Phrases (V4) (Preview)",
-        "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#key-phrases-(v4)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "LanguagesV3",
-        "Name": "Detect Language (V3.0)",
-        "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#detect-language-(v3.0)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "LanguagesV3_1",
-        "Name": "Detect Language (V3.1) (Preview)",
-        "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#detect-language-(v3.1)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "LanguagesV4",
-        "Name": "Detect Language (V4) (Preview)",
-        "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#detect-language-(v4)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "SentimentV3",
-        "Name": "Sentiment (V3.0)",
-        "Description": "The API returns a sentiment prediction, as well as sentiment scores for each sentiment class (Positive, Negative, and Neutral) for the document and each sentence within it. See the Supported languages in Text Analytics API for the list of enabled languages.",
-        "Anchor": "#sentiment-(v3.0)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "SentimentV3_1",
-        "Name": "Sentiment (V3.1) (Preview)",
-        "Description": "The API returns a detailed sentiment analysis for the input text. The analysis is done in multiple levels of granularity, start from the a document level, down to sentence and key terms (targets and assessments).",
-        "Anchor": "#sentiment-(v3.1)-(preview)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "SentimentV4",
-        "Name": "Sentiment (V4) (Preview)",
-        "Description": "The API returns a detailed sentiment analysis for the input text. The analysis is done in multiple levels of granularity, start from the a document level, down to sentence and key terms (targets and assessments).",
-        "Anchor": "#sentiment-(v4)-(preview)",
         "IsDeprecated": false
       }
     ]
@@ -62743,6 +63879,19 @@
         "Name": "When the chatbot understand",
         "Description": "When the chatbot understand",
         "Anchor": "#when-the-chatbot-understand",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "wordcloudbytextvisip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../wordcloudbytextvisip/",
+    "Actions": [
+      {
+        "OperationId": "CloudCreate",
+        "Name": "Create a word cloud",
+        "Description": "Request a word cloud by sending your text and configuration options.",
+        "Anchor": "#create-a-word-cloud",
         "IsDeprecated": false
       }
     ]

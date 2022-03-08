@@ -101,6 +101,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "BrowserDownloadSuitableChromeDriverFromInternet",
+      "Name": "Download suitable ChromeDriver from Internet",
+      "Description": "Determines which version of ChromeDriver is suitable for the installed version of Google Chrome in the session where the IA-Connect Agent is running, checks if a suitable version is already downloaded and, if not, attempts to download a suitable version from Google's ChromeDriver Internet web page.",
+      "Anchor": "#download-suitable-chromedriver-from-internet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BrowserDownloadSuitableChromiumEdgeDriverFromInternet",
+      "Name": "Download suitable Chromium Edge driver from Internet",
+      "Description": "Determines which version of Chromium Edge driver is suitable for the installed version of Chromium Edge browser in the session where the IA-Connect Agent is running, checks if a suitable version is already downloaded and, if not, attempts to download a suitable version from the Chromium Edge driver web page.",
+      "Anchor": "#download-suitable-chromium-edge-driver-from-internet",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "BrowserDrawRectangleAroundElement",
       "Name": "Draw rectangle around web element",
       "Description": "Draws a rectangle around the perimeter of a HTML element to aid in identifying that the element found is the one required. The rectangle is automatically removed after 5 seconds.",

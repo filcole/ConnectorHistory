@@ -1,0 +1,27 @@
+{
+  "UniqueName": "infuraethereumip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../infuraethereumip/",
+  "Actions": [
+    {
+      "OperationId": "Eth_blockNumber",
+      "Name": "Get Block Number",
+      "Description": "Returns the number of most recent block.",
+      "Anchor": "#get-block-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Eth_gasPrice",
+      "Name": "Get Gas Price",
+      "Description": "Returns the current price per gas in wei.",
+      "Anchor": "#get-gas-price",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Eth_getBalance",
+      "Name": "Get Balance",
+      "Description": "Returns the balance of the account of given address.",
+      "Anchor": "#get-balance",
+      "IsDeprecated": false
+    }
+  ]
+}

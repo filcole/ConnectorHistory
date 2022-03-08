@@ -1,0 +1,13 @@
+{
+  "UniqueName": "wordcloudbytextvisip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../wordcloudbytextvisip/",
+  "Actions": [
+    {
+      "OperationId": "CloudCreate",
+      "Name": "Create a word cloud",
+      "Description": "Request a word cloud by sending your text and configuration options.",
+      "Anchor": "#create-a-word-cloud",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -3,10 +3,24 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../smartdialog/",
   "Actions": [
     {
+      "OperationId": "CreateWhatsappTemplate",
+      "Name": "Create WhatsApp template",
+      "Description": "Create a new WhatsApp template.",
+      "Anchor": "#create-whatsapp-template",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "NewMessage",
       "Name": "New Message",
       "Description": "When a new message arrives to a 2-Way service.",
       "Anchor": "#new-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendDiscussionReplyMessage",
+      "Name": "Send Discussion Reply Message",
+      "Description": "Send a Discussion Reply Message to recipients.",
+      "Anchor": "#send-discussion-reply-message",
       "IsDeprecated": false
     },
     {
@@ -17,10 +31,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "SendReplyMessage",
+      "Name": "Send Reply Message",
+      "Description": "Send a Replymessage to recipients.",
+      "Anchor": "#send-reply-message",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "SendWhatsappTemplateMessage",
       "Name": "Send WhatsApp Message",
       "Description": "Send WhatsApp template message.",
       "Anchor": "#send-whatsapp-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WhatsAppOptIn",
+      "Name": "WhatsApp Opt In",
+      "Description": "WhatsApp Opt In for sender and recipient.",
+      "Anchor": "#whatsapp-opt-in",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WhatsAppOptOut",
+      "Name": "WhatsApp Opt Out",
+      "Description": "WhatsApp Opt Out for sender and recipient.",
+      "Anchor": "#whatsapp-opt-out",
       "IsDeprecated": false
     }
   ]

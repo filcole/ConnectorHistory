@@ -61,56 +61,56 @@
     {
       "OperationId": "EntitiesLinkingV3",
       "Name": "Entity Linking (V3.0)",
-      "Description": "The API returns a list of recognized entities with links to a well-known knowledge base. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a list of recognized entities with links to a well-known knowledge base. See the language support for the list of supported languages.",
       "Anchor": "#entity-linking-(v3.0)",
       "IsDeprecated": false
     },
     {
       "OperationId": "EntitiesLinkingV3_1",
       "Name": "Entity Linking (V3.1) (Preview)",
-      "Description": "The API returns a list of recognized entities with links to a well known knowledge base. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a list of recognized entities with links to a well known knowledge base. See the language support for the list of supported languages.",
       "Anchor": "#entity-linking-(v3.1)-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "EntitiesLinkingV4",
       "Name": "Entity Linking (V4) (Preview)",
-      "Description": "The API returns a list of recognized entities with links to a well known knowledge base. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a list of recognized entities with links to a well known knowledge base. See the language support for the list of supported languages.",
       "Anchor": "#entity-linking-(v4)-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "EntitiesRecognitionGeneralV3",
       "Name": "Named Entity Recognition (V3.0)",
-      "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Entity Types in Text Analytics API. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Named Entity Recognition (NER) entity categories.",
       "Anchor": "#named-entity-recognition-(v3.0)",
       "IsDeprecated": false
     },
     {
       "OperationId": "EntitiesRecognitionGeneralV3_1",
       "Name": "Named Entity Recognition (V3.1) (Preview)",
-      "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Entity Types in Text Analytics API. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Named Entity Recognition (NER) entity categories.",
       "Anchor": "#named-entity-recognition-(v3.1)-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "EntitiesRecognitionGeneralV4",
       "Name": "Named Entity Recognition (V4) (Preview)",
-      "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Entity Types in Text Analytics API. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a list of general named entities in a given document. For the list of supported entity types, check Supported Named Entity Recognition (NER) entity categories.",
       "Anchor": "#named-entity-recognition-(v4)-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "EntitiesRecognitionPIIV3_1",
       "Name": "Detect Personal Information (V3.1)",
-      "Description": "The API returns a list of entities with personal information (&quot;SSN&quot;, &quot;Bank Account&quot; etc) in the document. For the list of supported entity types, check Supported Entity Types in Text Analytics API. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a list of entities with personal information (&quot;SSN&quot;, &quot;Bank Account&quot; etc) in the document. For the list of supported entity types, check Supported Personally Identifiable Information (PII) entity categories. See the Supported languages in Azure Cognitive Service for Language for the list of supported languages.",
       "Anchor": "#detect-personal-information-(v3.1)",
       "IsDeprecated": false
     },
     {
       "OperationId": "EntitiesRecognitionPIIV4",
       "Name": "Detect Personal Information (V4) (Preview)",
-      "Description": "The API returns a list of entities with personal information (&quot;SSN&quot;, &quot;Bank Account&quot; etc) in the document. For the list of supported entity types, check Supported Entity Types in Text Analytics API. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a list of entities with personal information (&quot;SSN&quot;, &quot;Bank Account&quot; etc) in the document. For the list of supported entity types, check Supported Personally Identifiable Information (PII) entity categories. See the Supported languages in Azure Cognitive Service for Language for the list of supported languages.",
       "Anchor": "#detect-personal-information-(v4)-(preview)",
       "IsDeprecated": false
     },
@@ -138,49 +138,49 @@
     {
       "OperationId": "KeyPhraseV3",
       "Name": "Key Phrases (V3.0)",
-      "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Language support for Key Phrase Extraction for the list of supported languages.",
       "Anchor": "#key-phrases-(v3.0)",
       "IsDeprecated": false
     },
     {
       "OperationId": "KeyPhraseV3_1",
       "Name": "Key Phrases (V3.1) (Preview)",
-      "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Language support for Key Phrase Extraction for the list of supported languages.",
       "Anchor": "#key-phrases-(v3.1)-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "KeyPhraseV4",
       "Name": "Key Phrases (V4) (Preview)",
-      "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a list of strings denoting the key phrases in the input text. See the Language support for Key Phrase Extraction for the list of supported languages.",
       "Anchor": "#key-phrases-(v4)-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "LanguagesV3",
       "Name": "Detect Language (V3.0)",
-      "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Language support for Language Detection for the list of supported languages.",
       "Anchor": "#detect-language-(v3.0)",
       "IsDeprecated": false
     },
     {
       "OperationId": "LanguagesV3_1",
       "Name": "Detect Language (V3.1) (Preview)",
-      "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Language support for Language Detection for the list of supported languages.",
       "Anchor": "#detect-language-(v3.1)-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "LanguagesV4",
       "Name": "Detect Language (V4) (Preview)",
-      "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate 100% certainty that the identified language is true. See the Language support for Language Detection for the list of supported languages.",
       "Anchor": "#detect-language-(v4)-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "SentimentV3",
       "Name": "Sentiment (V3.0)",
-      "Description": "The API returns a sentiment prediction, as well as sentiment scores for each sentiment class (Positive, Negative, and Neutral) for the document and each sentence within it. See the Supported languages in Text Analytics API for the list of enabled languages.",
+      "Description": "The API returns a sentiment prediction, as well as sentiment scores for each sentiment class (Positive, Negative, and Neutral) for the document and each sentence within it. See the Sentiment Analysis and Opinion Mining language support for the list of supported languages.",
       "Anchor": "#sentiment-(v3.0)",
       "IsDeprecated": false
     },

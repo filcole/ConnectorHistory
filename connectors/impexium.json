@@ -3,10 +3,87 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../impexium/",
   "Actions": [
     {
+      "OperationId": "",
+      "Name": "Get Individual's Active Subscriptions",
+      "Description": "Get Individual's Active Subscriptions",
+      "Anchor": "#get-individual's-active-subscriptions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get Individual's Relationships",
+      "Description": "Get Individual's Relationships",
+      "Anchor": "#get-individual's-relationships",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get Organization's Active Subscriptions",
+      "Description": "Get Organization's Active Subscriptions",
+      "Anchor": "#get-organization's-active-subscriptions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get Organization's Relationships",
+      "Description": "Get Organization's Relationships",
+      "Anchor": "#get-organization's-relationships",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Update Individual's Custom Field Value",
+      "Description": "Update Individual's Custom Field Value.",
+      "Anchor": "#update-individual's-custom-field-value",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Add-Activity",
       "Name": "Add Activity",
       "Description": "Add Activity.",
       "Anchor": "#add-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Activity-to-Organization",
+      "Name": "Add Activity to Organization",
+      "Description": "Add Activity to Organization",
+      "Anchor": "#add-activity-to-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-a-New-Task",
+      "Name": "Add a New Task",
+      "Description": "Add a New Task",
+      "Anchor": "#add-a-new-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-a-Service-to-an-Organization",
+      "Name": "Add a Service to an Organization",
+      "Description": "Add a Service to an Organization",
+      "Anchor": "#add-a-service-to-an-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Categories-for-an-Individual",
+      "Name": "Add Categories for an Individual",
+      "Description": "Add Categories for an Individual",
+      "Anchor": "#add-categories-for-an-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Email-to-Individual",
+      "Name": "Add Email to Individual",
+      "Description": "Add Email to Individual",
+      "Anchor": "#add-email-to-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Email-to-Organization",
+      "Name": "Add Email to Organization",
+      "Description": "Add Email to Organization",
+      "Anchor": "#add-email-to-organization",
       "IsDeprecated": false
     },
     {
@@ -17,10 +94,52 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Add-Notification-to-Individual",
+      "Name": "Add Notification to Individual",
+      "Description": "Add Notification to Individual",
+      "Anchor": "#add-notification-to-individual",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Add-Organization",
       "Name": "Add Organization",
       "Description": "Add Organization.",
       "Anchor": "#add-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-or-Update-Address-to-Individual",
+      "Name": "Add or Update Address to Individual",
+      "Description": "Add or Update Address to Individual",
+      "Anchor": "#add-or-update-address-to-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-or-Update-Address-to-Organization",
+      "Name": "Add or Update Address to Organization",
+      "Description": "Add or Update Address to Organization",
+      "Anchor": "#add-or-update-address-to-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-or-Update-a-List-of-Custom-Fields-Per-Individual",
+      "Name": "Add or Update a List of Custom Fields Per Individual",
+      "Description": "Add or Update a List of Custom Fields Per Individual",
+      "Anchor": "#add-or-update-a-list-of-custom-fields-per-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Phone-to-Individual",
+      "Name": "Add Phone to Individual",
+      "Description": "Add Phone to Individual",
+      "Anchor": "#add-phone-to-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Phone-to-Organization",
+      "Name": "Add Phone to Organization",
+      "Description": "Add Phone to Organization",
+      "Anchor": "#add-phone-to-organization",
       "IsDeprecated": false
     },
     {
@@ -35,6 +154,27 @@
       "Name": "Add Individual to Committee",
       "Description": "Add Individual to Committee.",
       "Anchor": "#add-individual-to-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Web-Link-for-Individual",
+      "Name": "Add Web Link for Individual",
+      "Description": "Add Web Link for Individual",
+      "Anchor": "#add-web-link-for-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Web-Link-for-Organization",
+      "Name": "Add Web Link for Organization",
+      "Description": "Add Web Link for Organization",
+      "Anchor": "#add-web-link-for-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Assign-Task-to-a-User",
+      "Name": "Assign Task to a User",
+      "Description": "Assign Task to a User",
+      "Anchor": "#assign-task-to-a-user",
       "IsDeprecated": false
     },
     {
@@ -66,6 +206,34 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Delete-a-Category-for-an-Individual",
+      "Name": "Delete a Category for an Individual",
+      "Description": "Delete a Category for an Individual",
+      "Anchor": "#delete-a-category-for-an-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-an-Individual-Web-Link",
+      "Name": "Delete an Individual Web Link",
+      "Description": "Delete an Individual Web Link",
+      "Anchor": "#delete-an-individual-web-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-an-Organization-Web-Link",
+      "Name": "Delete an Organization Web Link",
+      "Description": "Delete an Organization Web Link",
+      "Anchor": "#delete-an-organization-web-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-Record-From-Custom-Data-Table",
+      "Name": "Delete Record From Custom Data Table",
+      "Description": "Delete Record From Custom Data Table",
+      "Anchor": "#delete-record-from-custom-data-table",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Find-Customer-Phone",
       "Name": "Find Customer by Phone Number",
       "Description": "Find Customer by Phone Number.",
@@ -77,6 +245,160 @@
       "Name": "Find Individual by Id or Email or Record Number",
       "Description": "Find Individual by Id or Email.",
       "Anchor": "#find-individual-by-id-or-email-or-record-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find-members-or-individuals-by-first-and-last-name",
+      "Name": "Find Members (Individuals) by First Name and Last Name",
+      "Description": "Find Members (Individuals) by First Name and Last Name",
+      "Anchor": "#find-members-(individuals)-by-first-name-and-last-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find-Members-or-Individuals-by-First-Name",
+      "Name": "Find Members (Individuals) by First Name",
+      "Description": "Find Members (Individuals) by First Name",
+      "Anchor": "#find-members-(individuals)-by-first-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find-Members-or-Individuals-by-Last-Name",
+      "Name": "Find Members (Individuals) by Last Name",
+      "Description": "Find Members (Individuals) by Last Name",
+      "Anchor": "#find-members-(individuals)-by-last-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find-Members-or-Individuals-by-Name",
+      "Name": "Find Members (Individuals) by Name",
+      "Description": "Find Members (Individuals) by Name",
+      "Anchor": "#find-members-(individuals)-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-a-List-of-All-Services-of-an-Organization",
+      "Name": "Get a List of All Services of an Organization",
+      "Description": "Get a List of All Services of an Organization",
+      "Anchor": "#get-a-list-of-all-services-of-an-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-a-List-of-Licenses",
+      "Name": "Get a List of Licenses",
+      "Description": "Get a List of Licenses",
+      "Anchor": "#get-a-list-of-licenses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-All-Committees",
+      "Name": "Get All Committees",
+      "Description": "Get All Committees",
+      "Anchor": "#get-all-committees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-All-Event-Registrations-Information-for-an-Individual",
+      "Name": "Get All Event Registrations Information for an Individual",
+      "Description": "Get All Event Registrations Information for an Individual",
+      "Anchor": "#get-all-event-registrations-information-for-an-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-All-Events",
+      "Name": "Get All Events",
+      "Description": "Get All Events",
+      "Anchor": "#get-all-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Committee-Information-for-an-Individual",
+      "Name": "Get Committee Information for an Individual",
+      "Description": "Get Committee Information for an Individual",
+      "Anchor": "#get-committee-information-for-an-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Committee-Members-by-committee-ID-or-code",
+      "Name": "Get Committee Members by committee ID or code",
+      "Description": "Get Committee Members by Committee ID or Code",
+      "Anchor": "#get-committee-members-by-committee-id-or-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Individual-Active-Memberships",
+      "Name": "Get Individual Active Memberships",
+      "Description": "Get Individual Active Memberships",
+      "Anchor": "#get-individual-active-memberships",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Individual-Inactive-Memberships",
+      "Name": "Get Individual Inactive Memberships",
+      "Description": "Get Individual Inactive Memberships",
+      "Anchor": "#get-individual-inactive-memberships",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-List-of-Active-Certifications-for-an-Individual",
+      "Name": "Get List of Active Certifications for an Individual",
+      "Description": "Get List of Active Certifications for an Individual",
+      "Anchor": "#get-list-of-active-certifications-for-an-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-List-of-Active-Certifications-for-an-Organization",
+      "Name": "Get List of Active Certifications for an Organization",
+      "Description": "Get List of Active Certifications for an Organization",
+      "Anchor": "#get-list-of-active-certifications-for-an-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Nominees-by-Committee",
+      "Name": "Get Nominees by Committee",
+      "Description": "Get Nominees by Committee",
+      "Anchor": "#get-nominees-by-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Organization-Active-Memberships",
+      "Name": "Get Organization Active Memberships",
+      "Description": "Get Organization Active Memberships",
+      "Anchor": "#get-organization-active-memberships",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Organization-Custom-Field-Values",
+      "Name": "Get Organization Custom Field Values",
+      "Description": "Get Organization Custom Field Values",
+      "Anchor": "#get-organization-custom-field-values",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Organization-Inactive-Memberships",
+      "Name": "Get Organization Inactive Memberships",
+      "Description": "Get Organization Inactive Memberships",
+      "Anchor": "#get-organization-inactive-memberships",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Positions-by-Committee",
+      "Name": "Get Positions by Committee",
+      "Description": "Get Positions by Committee",
+      "Anchor": "#get-positions-by-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Sub-Committees",
+      "Name": "Get Sub-Committees",
+      "Description": "Get Sub-Committees",
+      "Anchor": "#get-sub-committees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Upcoming-Events",
+      "Name": "Get Upcoming Events",
+      "Description": "Get Upcoming Events",
+      "Anchor": "#get-upcoming-events",
       "IsDeprecated": false
     },
     {
@@ -98,6 +420,41 @@
       "Name": "Lookup Individuals",
       "Description": "Lookup Individuals by Name",
       "Anchor": "#lookup-individuals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-All-Awards",
+      "Name": "List All Awards",
+      "Description": "List All Awards",
+      "Anchor": "#list-all-awards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-all-Individuals",
+      "Name": "List all Individuals",
+      "Description": "List all Individuals",
+      "Anchor": "#list-all-individuals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-All-Open-Customer-Request",
+      "Name": "List All Open Customer Request",
+      "Description": "List All Open Customer Request",
+      "Anchor": "#list-all-open-customer-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-of-All-Individual-Members",
+      "Name": "List of All Individual Members",
+      "Description": "List of All Individual Members",
+      "Anchor": "#list-of-all-individual-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-of-Customer-Relationships",
+      "Name": "List of Customer Relationships",
+      "Description": "List of Customer Relationships",
+      "Anchor": "#list-of-customer-relationships",
       "IsDeprecated": false
     },
     {
@@ -129,17 +486,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Register-an-Individual-for-a-Free-Session",
+      "Name": "Register an Individual for a Free Session",
+      "Description": "Register an Individual for a Free Session",
+      "Anchor": "#register-an-individual-for-a-free-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Save-Relationship-for-Organization",
+      "Name": "Save Relationship for Organization",
+      "Description": "Save Relationship for Organization",
+      "Anchor": "#save-relationship-for-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-an-Individual-Email",
+      "Name": "Update an Individual Email",
+      "Description": "Update an Individual Email",
+      "Anchor": "#update-an-individual-email",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Update-Committee-Member",
       "Name": "Update Committee Member",
       "Description": "Update Committee Member.",
       "Anchor": "#update-committee-member",
-      "IsDeprecated": false
-    },
-    {
-      "OperationId": "Update-custom-field-value",
-      "Name": "Update Custom Field Value",
-      "Description": "Update Custom Field Value.",
-      "Anchor": "#update-custom-field-value",
       "IsDeprecated": false
     },
     {
@@ -150,17 +521,80 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Update-Phone-for-an-Individual",
+      "Name": "Update Phone for an Individual",
+      "Description": "Update Phone for an Individual",
+      "Anchor": "#update-phone-for-an-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-Phone-for-an-Organization",
+      "Name": "Update Phone for an Organization",
+      "Description": "Update Phone for an Organization",
+      "Anchor": "#update-phone-for-an-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-User-Task-Progress-or-Mark-as-Completed",
+      "Name": "Update User Task Progress or Mark as Completed",
+      "Description": "Update User Task Progress or Mark as Completed",
+      "Anchor": "#update-user-task-progress-or-mark-as-completed",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "When-Committee-Member-Updated",
-      "Name": "When committee member is updated",
-      "Description": "Triggers when a individual is added, deleted or updated to/from a commiteee.",
-      "Anchor": "#when-committee-member-is-updated",
+      "Name": "When a committee member is updated",
+      "Description": "Triggers when an individual is added, deleted or updated to/from a commiteee.",
+      "Anchor": "#when-a-committee-member-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Customer-Address-Updated",
+      "Name": "When a customer address is updated",
+      "Description": "Triggers when a customer address is added/edited or deleted.",
+      "Anchor": "#when-a-customer-address-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Customer-Custom-Field-Value-Updated",
+      "Name": "When a customer custom field value is updated",
+      "Description": "Triggers when a customer custom field value is added/edited or deleted.",
+      "Anchor": "#when-a-customer-custom-field-value-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Customer-Is-Merged",
+      "Name": "When a customer is merged",
+      "Description": "Triggers when a customer is merged.",
+      "Anchor": "#when-a-customer-is-merged",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Customer-Phone-Updated",
+      "Name": "When a customer phone is updated",
+      "Description": "Triggers when a customer phone is added/edited or deleted.",
+      "Anchor": "#when-a-customer-phone-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Customer-Relationship-Updated",
+      "Name": "When a customer relationship is updated",
+      "Description": "Triggers when a customer relationship is added/edited or deleted.",
+      "Anchor": "#when-a-customer-relationship-is-updated",
       "IsDeprecated": false
     },
     {
       "OperationId": "When-Email-Updated",
-      "Name": "When customer email is updated",
+      "Name": "When a customer email is updated",
       "Description": "Triggers when an email is added/edited or deleted.",
-      "Anchor": "#when-customer-email-is-updated",
+      "Anchor": "#when-a-customer-email-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Event-Registration-Substituted",
+      "Name": "When an event registration is substituted",
+      "Description": "Triggers when an event registration is substituted.",
+      "Anchor": "#when-an-event-registration-is-substituted",
       "IsDeprecated": false
     },
     {
@@ -168,6 +602,20 @@
       "Name": "When an individual is created",
       "Description": "Triggers when an individual is created.",
       "Anchor": "#when-an-individual-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Individual-Deleted",
+      "Name": "When an individual is deleted",
+      "Description": "Triggers when an individual is deleted.",
+      "Anchor": "#when-an-individual-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Individual-Request-Forgotten",
+      "Name": "When an individual requests to be forgotten",
+      "Description": "Triggers when an individual right-to-be-forgotten request is processed.",
+      "Anchor": "#when-an-individual-requests-to-be-forgotten",
       "IsDeprecated": false
     },
     {
@@ -186,9 +634,9 @@
     },
     {
       "OperationId": "When-Request-Updated",
-      "Name": "When customer request is updated",
+      "Name": "When a customer request is updated",
       "Description": "Triggers when a customer request is added or closed.",
-      "Anchor": "#when-customer-request-is-updated",
+      "Anchor": "#when-a-customer-request-is-updated",
       "IsDeprecated": false
     }
   ]
