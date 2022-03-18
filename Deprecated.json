@@ -4260,6 +4260,33 @@
     ]
   },
   {
+    "UniqueName": "virustotal",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../virustotal/",
+    "Actions": [
+      {
+        "OperationId": "VirusTotalGetIpScanV3",
+        "Name": "Ip scan report V3 [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Get an IP report instead.\nScan Ip to get full report",
+        "Anchor": "#ip-scan-report-v3-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "VirusTotalRetrieveInfo",
+        "Name": "Retrieve information about a file or URL analysis [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Retrieve information about a file or URL analysis instead.\nRetrieve information about a file or URL analysis. This action uses the output id of Analyse an URL or Upload and analyse a file.",
+        "Anchor": "#retrieve-information-about-a-file-or-url-analysis-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "VirusTotalRetrieveInfoaboutFile",
+        "Name": "Get file report [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Get file report instead.\nRetrieve information about a file.",
+        "Anchor": "#get-file-report-[deprecated]",
+        "IsDeprecated": true
+      }
+    ]
+  },
+  {
     "UniqueName": "xooadb",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../xooadb/",
     "Actions": [

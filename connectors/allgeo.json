@@ -1,0 +1,48 @@
+{
+  "UniqueName": "allgeo",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../allgeo/",
+  "Actions": [
+    {
+      "OperationId": "CreateJobSite",
+      "Name": "Create Job-Site",
+      "Description": "Create Job-Site",
+      "Anchor": "#create-job-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTimeClock",
+      "Name": "Create Time Clock",
+      "Description": "Create Time Clock",
+      "Anchor": "#create-time-clock",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkOrders",
+      "Name": "Create Work Orders",
+      "Description": "Create Work Orders",
+      "Anchor": "#create-work-orders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteJobSite",
+      "Name": "Delete Job-Site",
+      "Description": "Delete Job-Site",
+      "Anchor": "#delete-job-site",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Login",
+      "Name": "Login",
+      "Description": "Login",
+      "Anchor": "#login",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateTimeClock",
+      "Name": "Update Time Clock",
+      "Description": "Update Time Clock",
+      "Anchor": "#update-time-clock",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -4,27 +4,55 @@
   "Actions": [
     {
       "OperationId": "VirusTotalAnalyesFile",
-      "Name": "Upload and analyse a file",
-      "Description": "Upload and analyse a file",
-      "Anchor": "#upload-and-analyse-a-file",
+      "Name": "Upload and analyze a file",
+      "Description": "Upload and analyze a file",
+      "Anchor": "#upload-and-analyze-a-file",
       "IsDeprecated": false
     },
     {
       "OperationId": "VirusTotalAnalysisurlV3",
-      "Name": "Analyse an URL",
-      "Description": "Analyse an URL",
-      "Anchor": "#analyse-an-url",
+      "Name": "Analyze a URL",
+      "Description": "Analyze a URL",
+      "Anchor": "#analyze-a-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirusTotalGetDomainReport",
+      "Name": "Get Domain report",
+      "Description": "Get Domain report",
+      "Anchor": "#get-domain-report",
       "IsDeprecated": false
     },
     {
       "OperationId": "VirusTotalGetIpScanV3",
-      "Name": "Ip scan report V3",
-      "Description": "Scan Ip to get full report",
-      "Anchor": "#ip-scan-report-v3",
+      "Name": "Ip scan report V3 [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get an IP report instead.\nScan Ip to get full report",
+      "Anchor": "#ip-scan-report-v3-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "VirusTotalGetIpScanV3_V2",
+      "Name": "Get an IP report",
+      "Description": "Get an IP report",
+      "Anchor": "#get-an-ip-report",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VirusTotalGetUrlReport",
+      "Name": "Get URL report",
+      "Description": "Get URL report",
+      "Anchor": "#get-url-report",
       "IsDeprecated": false
     },
     {
       "OperationId": "VirusTotalRetrieveInfo",
+      "Name": "Retrieve information about a file or URL analysis [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Retrieve information about a file or URL analysis instead.\nRetrieve information about a file or URL analysis. This action uses the output id of Analyse an URL or Upload and analyse a file.",
+      "Anchor": "#retrieve-information-about-a-file-or-url-analysis-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "VirusTotalRetrieveInfo_V2",
       "Name": "Retrieve information about a file or URL analysis",
       "Description": "Retrieve information about a file or URL analysis. This action uses the output id of Analyse an URL or Upload and analyse a file.",
       "Anchor": "#retrieve-information-about-a-file-or-url-analysis",
@@ -32,9 +60,16 @@
     },
     {
       "OperationId": "VirusTotalRetrieveInfoaboutFile",
-      "Name": "Retrieve information about a file",
-      "Description": "Retrieve information about a file. This action uses the output id of Upload and analyse a file.",
-      "Anchor": "#retrieve-information-about-a-file",
+      "Name": "Get file report [DEPRECATED]",
+      "Description": "This action has been deprecated. Please use Get file report instead.\nRetrieve information about a file.",
+      "Anchor": "#get-file-report-[deprecated]",
+      "IsDeprecated": true
+    },
+    {
+      "OperationId": "VirusTotalRetrieveInfoaboutFile_V2",
+      "Name": "Get file report",
+      "Description": "Retrieve information about a file.",
+      "Anchor": "#get-file-report",
       "IsDeprecated": false
     }
   ]

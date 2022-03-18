@@ -1047,205 +1047,205 @@
     "Actions": [
       {
         "OperationId": "CombinePDF",
-        "Name": "Merge PDFs (Preview)",
+        "Name": "Merge PDFs",
         "Description": "Merge PDF files into a single file. Only files with .pdf extension are supported.",
-        "Anchor": "#merge-pdfs-(preview)",
+        "Anchor": "#merge-pdfs",
         "IsDeprecated": false
       },
       {
         "OperationId": "CompressPDF",
-        "Name": "Compress PDF (Preview)",
+        "Name": "Compress PDF",
         "Description": "Compress a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#compress-pdf-(preview)",
+        "Anchor": "#compress-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromDynamicHtml",
-        "Name": "Convert Dynamic HTML to PDF (Preview)",
+        "Name": "Convert Dynamic HTML to PDF",
         "Description": "Convert a Dynamic HTML file to PDF format. Since HTML/web pages typically contain external assets, the input file must be a zip file containing an index.html at the top level of the archive, as well as any dependencies such as images, css files, and so on. Only files with .zip extension are supported.",
-        "Anchor": "#convert-dynamic-html-to-pdf-(preview)",
+        "Anchor": "#convert-dynamic-html-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromExcel",
-        "Name": "Convert Excel to PDF (Preview)",
+        "Name": "Convert Excel to PDF",
         "Description": "Convert an Excel file to PDF format. Only files with .xls or .xlsx extension are supported.",
-        "Anchor": "#convert-excel-to-pdf-(preview)",
+        "Anchor": "#convert-excel-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromImage",
-        "Name": "Convert Image to PDF (Preview)",
+        "Name": "Convert Image to PDF",
         "Description": "Convert an image file to PDF format. Only files with .png, .jpeg, .jpg, .tiff, .tif or .gif extension are supported.",
-        "Anchor": "#convert-image-to-pdf-(preview)",
+        "Anchor": "#convert-image-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromPPT",
-        "Name": "Convert PPT to PDF (Preview)",
+        "Name": "Convert PPT to PDF",
         "Description": "Convert a PPT file to PDF format. Only files with .ppt or .pptx extension are supported.",
-        "Anchor": "#convert-ppt-to-pdf-(preview)",
+        "Anchor": "#convert-ppt-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromStaticHtml",
-        "Name": "Convert Static HTML to PDF (Preview)",
+        "Name": "Convert Static HTML to PDF",
         "Description": "Convert a static HTML file to PDF format. Since HTML/web pages typically contain external assets, the input file must be a zip file containing an index.html at the top level of the archive, as well as any dependencies such as images, css files, and so on. Only files with .zip extension are supported.",
-        "Anchor": "#convert-static-html-to-pdf-(preview)",
+        "Anchor": "#convert-static-html-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromWord",
-        "Name": "Convert Word to PDF (Preview)",
+        "Name": "Convert Word to PDF",
         "Description": "Convert a Word file to PDF format. Only files with .doc or .docx extension are supported.",
-        "Anchor": "#convert-word-to-pdf-(preview)",
+        "Anchor": "#convert-word-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFGeneric",
-        "Name": "Convert document to PDF (Preview)",
+        "Name": "Convert document to PDF",
         "Description": "Convert a file to PDF format. Only files with .doc, .docx, .ppt, .pptx, .xls, .xlsx, .bmp, .gif, .jpeg, .jpg, .png, .rtf, .tif, .tiff or .txt extension are supported.",
-        "Anchor": "#convert-document-to-pdf-(preview)",
+        "Anchor": "#convert-document-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "DocGen",
-        "Name": "Generate document from Word template (Preview)",
+        "Name": "Generate document from Word template",
         "Description": "Replaces merge fields in a DOCX template document with specified JSON data. The keys in data object should be the same as names of merge fields in document. Template documents can be authored using Adobe Document Generation Word Add-in. Find the add-in and Word templates at: https://adobe.com/go/dcdocgen_home",
-        "Anchor": "#generate-document-from-word-template-(preview)",
+        "Anchor": "#generate-document-from-word-template",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFGeneric",
-        "Name": "Export PDF (Preview)",
+        "Name": "Export PDF",
         "Description": "Convert a PDF file to various formats. The supported output formats are .doc, .docx, .jpeg, .png, .pptx, .rtf and .xlsx.",
-        "Anchor": "#export-pdf-(preview)",
+        "Anchor": "#export-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToExcel",
-        "Name": "Convert PDF to Excel (Preview)",
+        "Name": "Convert PDF to Excel",
         "Description": "Convert a PDF file to an Excel file. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-excel-(preview)",
+        "Anchor": "#convert-pdf-to-excel",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToImage",
-        "Name": "Convert PDF to Image (Preview)",
+        "Name": "Convert PDF to Image",
         "Description": "Convert a PDF file to a zip of images. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-image-(preview)",
+        "Anchor": "#convert-pdf-to-image",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToImageList",
-        "Name": "Convert PDF to List Of Images (Preview)",
+        "Name": "Convert PDF to List Of Images",
         "Description": "Convert a PDF file to a list of images. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-list-of-images-(preview)",
+        "Anchor": "#convert-pdf-to-list-of-images",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToPPT",
-        "Name": "Convert PDF to PPT (Preview)",
+        "Name": "Convert PDF to PPT",
         "Description": "Convert a PDF file to PPT. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-ppt-(preview)",
+        "Anchor": "#convert-pdf-to-ppt",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToWord",
-        "Name": "Convert PDF to Word (Preview)",
+        "Name": "Convert PDF to Word",
         "Description": "Convert a PDF file to a Word file. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-word-(preview)",
+        "Anchor": "#convert-pdf-to-word",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractImagesFromPDF",
-        "Name": "Extract Images From PDF (Preview)",
+        "Name": "Extract Images From PDF",
         "Description": "Extracts Images from a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-images-from-pdf-(preview)",
+        "Anchor": "#extract-images-from-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONAndImagesAndTablesFromPDF",
-        "Name": "Extract PDF Structure, Tables and Images from a PDF (Preview)",
+        "Name": "Extract PDF Structure, Tables and Images from a PDF",
         "Description": "Extract PDF structure and content elements, incl. Tables and Images, from PDF Document.  Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf-(preview)",
+        "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONFileFromPDF",
-        "Name": "Extract PDF Structure in a JSON File (Preview)",
+        "Name": "Extract PDF Structure in a JSON File",
         "Description": "Extract PDF Structure in a JSON File. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure-in-a-json-file-(preview)",
+        "Anchor": "#extract-pdf-structure-in-a-json-file",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONObjectFromPDF",
-        "Name": "Extract PDF Structure in a JSON Object (Preview)",
+        "Name": "Extract PDF Structure in a JSON Object",
         "Description": "Extract PDF Structure in a JSON Object. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure-in-a-json-object-(preview)",
+        "Anchor": "#extract-pdf-structure-in-a-json-object",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractTablesFromPDF",
-        "Name": "Extract Tables from PDF (Preview)",
+        "Name": "Extract Tables from PDF",
         "Description": "Extracts Tables in .xlsx format from a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-tables-from-pdf-(preview)",
+        "Anchor": "#extract-tables-from-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "LinearizePDF",
-        "Name": "Linearize PDF (Preview)",
+        "Name": "Linearize PDF",
         "Description": "Linearize a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#linearize-pdf-(preview)",
+        "Anchor": "#linearize-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "OcrPDF",
-        "Name": "Create Searchable PDF using OCR (Preview)",
+        "Name": "Create Searchable PDF using OCR",
         "Description": "OCR a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#create-searchable-pdf-using-ocr-(preview)",
+        "Anchor": "#create-searchable-pdf-using-ocr",
         "IsDeprecated": false
       },
       {
         "OperationId": "PDFProperties",
-        "Name": "Get PDF Properties (Preview)",
+        "Name": "Get PDF Properties",
         "Description": "Get Properties of a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#get-pdf-properties-(preview)",
+        "Anchor": "#get-pdf-properties",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectGenericPDF",
-        "Name": "Protect PDF with Access Permissions (Preview)",
+        "Name": "Protect PDF with Access Permissions",
         "Description": "Protect a PDF document from Viewing and other Accesses like Editing, Copying and Printing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-with-access-permissions-(preview)",
+        "Anchor": "#protect-pdf-with-access-permissions",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectOwnerPDF",
-        "Name": "Protect PDF from Copying, Editing and Printing (Preview)",
+        "Name": "Protect PDF from Copying, Editing and Printing",
         "Description": "Protect a PDF document from copying, editing &amp; printing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-from-copying,-editing-and-printing-(preview)",
+        "Anchor": "#protect-pdf-from-copying,-editing-and-printing",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectUserPDF",
-        "Name": "Protect PDF from Viewing (Preview)",
+        "Name": "Protect PDF from Viewing",
         "Description": "Protect a PDF document from viewing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-from-viewing-(preview)",
+        "Anchor": "#protect-pdf-from-viewing",
         "IsDeprecated": false
       },
       {
         "OperationId": "RemovePassword",
-        "Name": "Remove Protection from PDF (Preview)",
+        "Name": "Remove Protection from PDF",
         "Description": "Remove password and security &amp; permissions from the protected document. Only files with .pdf extension are supported.",
-        "Anchor": "#remove-protection-from-pdf-(preview)",
+        "Anchor": "#remove-protection-from-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "SplitPDF",
-        "Name": "Split PDF (Preview)",
+        "Name": "Split PDF",
         "Description": "Split a PDF Document into multiple PDF Documents. Only files with .pdf extension are supported.",
-        "Anchor": "#split-pdf-(preview)",
+        "Anchor": "#split-pdf",
         "IsDeprecated": false
       }
     ]
@@ -2449,6 +2449,54 @@
         "Name": "Get Stock Data",
         "Description": "Access stock data for any US-based publicly traded equity security",
         "Anchor": "#get-stock-data",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "allgeo",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../allgeo/",
+    "Actions": [
+      {
+        "OperationId": "CreateJobSite",
+        "Name": "Create Job-Site",
+        "Description": "Create Job-Site",
+        "Anchor": "#create-job-site",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateTimeClock",
+        "Name": "Create Time Clock",
+        "Description": "Create Time Clock",
+        "Anchor": "#create-time-clock",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateWorkOrders",
+        "Name": "Create Work Orders",
+        "Description": "Create Work Orders",
+        "Anchor": "#create-work-orders",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteJobSite",
+        "Name": "Delete Job-Site",
+        "Description": "Delete Job-Site",
+        "Anchor": "#delete-job-site",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Login",
+        "Name": "Login",
+        "Description": "Login",
+        "Anchor": "#login",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateTimeClock",
+        "Name": "Update Time Clock",
+        "Description": "Update Time Clock",
+        "Anchor": "#update-time-clock",
         "IsDeprecated": false
       }
     ]
@@ -12264,30 +12312,30 @@
     "Actions": [
       {
         "OperationId": "GetCategories",
-        "Name": "Gets the available category names and IDs.",
+        "Name": "Gets the available category names and IDs",
         "Description": "Gets the available category names and IDs.",
-        "Anchor": "#gets-the-available-category-names-and-ids.",
+        "Anchor": "#gets-the-available-category-names-and-ids",
         "IsDeprecated": false
       },
       {
         "OperationId": "GetModel",
-        "Name": "Downloads a model with the given ID and file type.",
+        "Name": "Downloads a model with the given ID and file type",
         "Description": "Downloads a model with the given ID and file type.",
-        "Anchor": "#downloads-a-model-with-the-given-id-and-file-type.",
+        "Anchor": "#downloads-a-model-with-the-given-id-and-file-type",
         "IsDeprecated": false
       },
       {
         "OperationId": "GetModelInfo",
-        "Name": "Gets the info of a model with the given ID.",
+        "Name": "Gets the info of a model with the given ID",
         "Description": "Gets the info of a model with the given ID.",
-        "Anchor": "#gets-the-info-of-a-model-with-the-given-id.",
+        "Anchor": "#gets-the-info-of-a-model-with-the-given-id",
         "IsDeprecated": false
       },
       {
         "OperationId": "SearchModels",
-        "Name": "Searches for models from CGTrader based on the given filters.",
+        "Name": "Searches for models from CGTrader based on the given filters",
         "Description": "Searches for models from CGTrader based on the given filters.",
-        "Anchor": "#searches-for-models-from-cgtrader-based-on-the-given-filters.",
+        "Anchor": "#searches-for-models-from-cgtrader-based-on-the-given-filters",
         "IsDeprecated": false
       }
     ]
@@ -39950,6 +39998,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ApplyRetentionLabel",
+        "Name": "Apply label on the item",
+        "Description": "Applies label on the item.",
+        "Anchor": "#apply-label-on-the-item",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ComplianceDelete",
+        "Name": "Deletes the item",
+        "Description": "Deletes the items.",
+        "Anchor": "#deletes-the-item",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetIrmAlert",
         "Name": "Get insider risk management alert",
         "Description": "Get insider risk management alert.",
@@ -40024,6 +40086,13 @@
         "Name": "For a selected insider risk management user",
         "Description": "This trigger allows you to start a flow when an insider risk management user is selected in Microsoft 365 compliance center (Available only for Power Automate.)",
         "Anchor": "#for-a-selected-insider-risk-management-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OnRetentionLabelExpired",
+        "Name": "When an item reaches end of its retention period",
+        "Description": "Triggers when a SharePoint, OneDrive or Exchange item (which has a retention label applied to it ) reaches the end of its established retention period. When using this trigger, the retention label configuration must be set to trigger this action at the end of the period as well.",
+        "Anchor": "#when-an-item-reaches-end-of-its-retention-period",
         "IsDeprecated": false
       }
     ]
@@ -41588,6 +41657,13 @@
         "Description": "This action has been deprecated. Please use Decline an Offer Shift request instead.\nThis operation allows users to decline an offer shift request.",
         "Anchor": "#shifts:-decline-an-offer-shift-request-[deprecated]",
         "IsDeprecated": true
+      },
+      {
+        "OperationId": "OnComposeMessageV2",
+        "Name": "From the compose box (V2)",
+        "Description": "This trigger allows you to start a flow from the compose message box in Microsoft Teams. (Available only for Power Automate.)",
+        "Anchor": "#from-the-compose-box-(v2)",
+        "IsDeprecated": false
       },
       {
         "OperationId": "OnGroupMembershipAdd",
@@ -63226,27 +63302,55 @@
     "Actions": [
       {
         "OperationId": "VirusTotalAnalyesFile",
-        "Name": "Upload and analyse a file",
-        "Description": "Upload and analyse a file",
-        "Anchor": "#upload-and-analyse-a-file",
+        "Name": "Upload and analyze a file",
+        "Description": "Upload and analyze a file",
+        "Anchor": "#upload-and-analyze-a-file",
         "IsDeprecated": false
       },
       {
         "OperationId": "VirusTotalAnalysisurlV3",
-        "Name": "Analyse an URL",
-        "Description": "Analyse an URL",
-        "Anchor": "#analyse-an-url",
+        "Name": "Analyze a URL",
+        "Description": "Analyze a URL",
+        "Anchor": "#analyze-a-url",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VirusTotalGetDomainReport",
+        "Name": "Get Domain report",
+        "Description": "Get Domain report",
+        "Anchor": "#get-domain-report",
         "IsDeprecated": false
       },
       {
         "OperationId": "VirusTotalGetIpScanV3",
-        "Name": "Ip scan report V3",
-        "Description": "Scan Ip to get full report",
-        "Anchor": "#ip-scan-report-v3",
+        "Name": "Ip scan report V3 [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Get an IP report instead.\nScan Ip to get full report",
+        "Anchor": "#ip-scan-report-v3-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "VirusTotalGetIpScanV3_V2",
+        "Name": "Get an IP report",
+        "Description": "Get an IP report",
+        "Anchor": "#get-an-ip-report",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VirusTotalGetUrlReport",
+        "Name": "Get URL report",
+        "Description": "Get URL report",
+        "Anchor": "#get-url-report",
         "IsDeprecated": false
       },
       {
         "OperationId": "VirusTotalRetrieveInfo",
+        "Name": "Retrieve information about a file or URL analysis [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Retrieve information about a file or URL analysis instead.\nRetrieve information about a file or URL analysis. This action uses the output id of Analyse an URL or Upload and analyse a file.",
+        "Anchor": "#retrieve-information-about-a-file-or-url-analysis-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "VirusTotalRetrieveInfo_V2",
         "Name": "Retrieve information about a file or URL analysis",
         "Description": "Retrieve information about a file or URL analysis. This action uses the output id of Analyse an URL or Upload and analyse a file.",
         "Anchor": "#retrieve-information-about-a-file-or-url-analysis",
@@ -63254,9 +63358,16 @@
       },
       {
         "OperationId": "VirusTotalRetrieveInfoaboutFile",
-        "Name": "Retrieve information about a file",
-        "Description": "Retrieve information about a file. This action uses the output id of Upload and analyse a file.",
-        "Anchor": "#retrieve-information-about-a-file",
+        "Name": "Get file report [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Get file report instead.\nRetrieve information about a file.",
+        "Anchor": "#get-file-report-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "VirusTotalRetrieveInfoaboutFile_V2",
+        "Name": "Get file report",
+        "Description": "Retrieve information about a file.",
+        "Anchor": "#get-file-report",
         "IsDeprecated": false
       }
     ]

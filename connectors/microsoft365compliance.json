@@ -17,6 +17,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ApplyRetentionLabel",
+      "Name": "Apply label on the item",
+      "Description": "Applies label on the item.",
+      "Anchor": "#apply-label-on-the-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ComplianceDelete",
+      "Name": "Deletes the item",
+      "Description": "Deletes the items.",
+      "Anchor": "#deletes-the-item",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetIrmAlert",
       "Name": "Get insider risk management alert",
       "Description": "Get insider risk management alert.",
@@ -91,6 +105,13 @@
       "Name": "For a selected insider risk management user",
       "Description": "This trigger allows you to start a flow when an insider risk management user is selected in Microsoft 365 compliance center (Available only for Power Automate.)",
       "Anchor": "#for-a-selected-insider-risk-management-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnRetentionLabelExpired",
+      "Name": "When an item reaches end of its retention period",
+      "Description": "Triggers when a SharePoint, OneDrive or Exchange item (which has a retention label applied to it ) reaches the end of its established retention period. When using this trigger, the retention label configuration must be set to trigger this action at the end of the period as well.",
+      "Anchor": "#when-an-item-reaches-end-of-its-retention-period",
       "IsDeprecated": false
     }
   ]
