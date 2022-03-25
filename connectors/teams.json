@@ -227,13 +227,6 @@
       "IsDeprecated": true
     },
     {
-      "OperationId": "OnComposeMessageV2",
-      "Name": "From the compose box (V2)",
-      "Description": "This trigger allows you to start a flow from the compose message box in Microsoft Teams. (Available only for Power Automate.)",
-      "Anchor": "#from-the-compose-box-(v2)",
-      "IsDeprecated": false
-    },
-    {
       "OperationId": "OnGroupMembershipAdd",
       "Name": "When a new team member is added",
       "Description": "This operation triggers when a member is added to the given team.",

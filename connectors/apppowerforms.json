@@ -1,0 +1,48 @@
+{
+  "UniqueName": "apppowerforms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../apppowerforms/",
+  "Actions": [
+    {
+      "OperationId": "AddAdaptiveCard",
+      "Name": "Create new form from Adaptive Card",
+      "Description": "Use this action to create a form based on Adaptive Card JSON.",
+      "Anchor": "#create-new-form-from-adaptive-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddForm",
+      "Name": "Create new App Power Easy form",
+      "Description": "Create a new App Power Easy form. After this action you can add any number of fields to the form by adding field specific actions.",
+      "Anchor": "#create-new-app-power-easy-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddFormField",
+      "Name": "Add new field to App Power Easy form",
+      "Description": "Use this action to add a new field to the form created in an earlier step. The fields will be visible on the form in the order they are added.",
+      "Anchor": "#add-new-field-to-app-power-easy-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCardResponse",
+      "Name": "Wait for form response",
+      "Description": "Use this action to wait until a specific form is submitted. You can use this action for both Easy Forms and forms based on Adaptive Card JSON.",
+      "Anchor": "#wait-for-form-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFormAdaptiveCardJson",
+      "Name": "Get form as Adaptive Card JSON",
+      "Description": "Get Easy Form as Adaptive Card JSON. You can use the JSON to post the card in Teams as an Adaptive Card, for example.",
+      "Anchor": "#get-form-as-adaptive-card-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerGetCardResponse",
+      "Name": "When form is submitted",
+      "Description": "This trigger is fired whenever there are new submissions for the specified form.",
+      "Anchor": "#when-form-is-submitted",
+      "IsDeprecated": false
+    }
+  ]
+}

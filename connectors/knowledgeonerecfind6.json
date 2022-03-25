@@ -1,0 +1,34 @@
+{
+  "UniqueName": "knowledgeonerecfind6",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../knowledgeonerecfind6/",
+  "Actions": [
+    {
+      "OperationId": "QueryData",
+      "Name": "QueryData",
+      "Description": "Provides a list of field names and values corresponding to the requested query and search parameters.  Results can be paged.",
+      "Anchor": "#querydata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QueryList",
+      "Name": "QueryList",
+      "Description": "Returns a list of all predefined queries that the caller may request.",
+      "Anchor": "#querylist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QueryTable",
+      "Name": "QueryTable",
+      "Description": "Provides a table of results corresponding to the requested query and search parameters.",
+      "Anchor": "#querytable",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendFile",
+      "Name": "Send File",
+      "Description": "Submit file contents and metadata for storage in the RecFind 6 database. Returns a URL to the stored file.",
+      "Anchor": "#send-file",
+      "IsDeprecated": false
+    }
+  ]
+}

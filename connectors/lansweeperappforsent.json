@@ -1,0 +1,13 @@
+{
+  "UniqueName": "lansweeperappforsent",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../lansweeperappforsent/",
+  "Actions": [
+    {
+      "OperationId": "RetrieveAssetDetails",
+      "Name": "Get the list of Site IDs and Asset details",
+      "Description": "Retrieve list of Site IDs, Asset details for the given IP Address or MAC Address.",
+      "Anchor": "#get-the-list-of-site-ids-and-asset-details",
+      "IsDeprecated": false
+    }
+  ]
+}

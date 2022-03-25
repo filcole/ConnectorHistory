@@ -11,9 +11,9 @@
     },
     {
       "OperationId": "SendSMSv2",
-      "Name": "Send SMS (Preview)",
+      "Name": "Send SMS",
       "Description": "Sends SMS using the phone numbers in your Azure Communication Services",
-      "Anchor": "#send-sms-(preview)",
+      "Anchor": "#send-sms",
       "IsDeprecated": false
     }
   ]

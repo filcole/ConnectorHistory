@@ -185,6 +185,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ForASelectedRecordV3",
+      "Name": "For a selected record (V3)",
+      "Description": "Triggers a flow for a selected Dynamics 365 Business Central record. (Available only for Power Automate.)",
+      "Anchor": "#for-a-selected-record-(v3)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetItemsV3",
       "Name": "Find records (V3)",
       "Description": "Retrieves Dynamics 365 Business Central records of a certain type (for example, customers or items)",
