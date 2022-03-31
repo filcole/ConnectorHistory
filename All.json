@@ -41252,14 +41252,14 @@
         "IsDeprecated": false
       },
       {
-        "OperationId": "GetIncident",
+        "OperationId": "GetIncidentByAlertId_v2",
         "Name": "Alert - Get incident",
         "Description": "Returns the incident associated with selected alert",
         "Anchor": "#alert---get-incident",
         "IsDeprecated": false
       },
       {
-        "OperationId": "GetIncident",
+        "OperationId": "GetIncidentByAlertId_v2",
         "Name": "Alert - Get incident",
         "Description": "Returns the incident associated with selected alert",
         "Anchor": "#alert---get-incident",
@@ -41301,6 +41301,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Watchlist_Create",
+        "Name": "Watchlists - Create a new watchlist with data",
+        "Description": "Watchlists - Create a new watchlist with data",
+        "Anchor": "#watchlists---create-a-new-watchlist-with-data",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Watchlist_Delete",
         "Name": "Watchlists - Delete a watchlist",
         "Description": "Watchlists - Delete a watchlist",
@@ -41333,13 +41340,6 @@
         "Name": "Watchlists - Get a watchlist item",
         "Description": "Watchlists - Get a watchlist item",
         "Anchor": "#watchlists---get-a-watchlist-item",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "WatchlistItems_GetAll",
-        "Name": "Watchlists - Get all watchlists without watchlist items",
-        "Description": "Watchlists - Get all watchlists without watchlist items",
-        "Anchor": "#watchlists---get-all-watchlists-without-watchlist-items",
         "IsDeprecated": false
       },
       {
