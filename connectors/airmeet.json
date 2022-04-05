@@ -4,15 +4,36 @@
   "Actions": [
     {
       "OperationId": "AddRegistrant",
-      "Name": "Add Registrant",
-      "Description": "Add Registrant to an Airmeet",
-      "Anchor": "#add-registrant",
+      "Name": "Add Authorized Attendee",
+      "Description": "Add Authorized Attendee to an Airmeet",
+      "Anchor": "#add-authorized-attendee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirmeetParticipants",
+      "Name": "Fetch Airmeet participants",
+      "Description": "Fetch participants authorised to enter your Airmeet",
+      "Anchor": "#fetch-airmeet-participants",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirmeetRegistrations",
+      "Name": "Fetch Airmeet registrations",
+      "Description": "Fetch all authenticated registrations for your Airmeet",
+      "Anchor": "#fetch-airmeet-registrations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirmeetSessions",
+      "Name": "Fetch Airmeet Sessions",
+      "Description": "Fetch details for Sessions in an Airmeet",
+      "Anchor": "#fetch-airmeet-sessions",
       "IsDeprecated": false
     },
     {
       "OperationId": "AirmeetTriggers",
       "Name": "Register an Airmeet Trigger",
-      "Description": "Select a trigger from the available options. Setup reminders and alerts based on event registration, attendance, event start and end time",
+      "Description": "Select a trigger from the available options. Setup reminders and alerts based on event registration, attendance, polls, event start and end time",
       "Anchor": "#register-an-airmeet-trigger",
       "IsDeprecated": false
     },
@@ -38,10 +59,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CustomRegistrationFields",
+      "Name": "Fetch Custom Registration Fields",
+      "Description": "Fetch details of custom registration fields for the Airmeet",
+      "Anchor": "#fetch-custom-registration-fields",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetAirmeets",
       "Name": "Get Airmeets",
       "Description": "Get Airmeets",
       "Anchor": "#get-airmeets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveAttendee",
+      "Name": "Remove Authorised Attendee",
+      "Description": "Remove an authorised participant from the Airmeet",
+      "Anchor": "#remove-authorised-attendee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartAndEndAirmeet",
+      "Name": "Start or Finish an Airmeet",
+      "Description": "Update the Airmeet Status to Ongoing or Finished",
+      "Anchor": "#start-or-finish-an-airmeet",
       "IsDeprecated": false
     }
   ]

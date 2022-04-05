@@ -1,0 +1,83 @@
+{
+  "UniqueName": "craftmypdfip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../craftmypdfip/",
+  "Actions": [
+    {
+      "OperationId": "Add-watermark",
+      "Name": "Add watermark",
+      "Description": "This action adds a watermark to a PDF.",
+      "Anchor": "#add-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Create",
+      "Name": "Create a PDF",
+      "Description": "This action creates a PDF file with JSON data and your template.",
+      "Anchor": "#create-a-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Create-editor-session",
+      "Name": "Create editor session",
+      "Description": "This action creates a new PDF editor session. The PDF editor url can be embedded into an IFrame.",
+      "Anchor": "#create-editor-session",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Create-merge",
+      "Name": "Create a PDF from multiple templates",
+      "Description": "This action creates a PDF file from multiple templates. It merges all the PDFs into one.",
+      "Anchor": "#create-a-pdf-from-multiple-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-template",
+      "Name": "Delete template",
+      "Description": "This action deletes a template.",
+      "Anchor": "#delete-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-account-info",
+      "Name": "Get account info",
+      "Description": "This action returns the account information.",
+      "Anchor": "#get-account-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-templates",
+      "Name": "List templates",
+      "Description": "This action lists all your PDF templates.",
+      "Anchor": "#list-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-transactions",
+      "Name": "List transactions",
+      "Description": "This action lists all the transactions.",
+      "Anchor": "#list-transactions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Merge-pdfs",
+      "Name": "Merge PDFs",
+      "Description": "This action merges multiple PDF URLs.",
+      "Anchor": "#merge-pdfs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "New-template-from",
+      "Name": "Create a new template",
+      "Description": "This action creates a new template from a template ID.",
+      "Anchor": "#create-a-new-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-template",
+      "Name": "Update template",
+      "Description": "This action updates the specified PDF template.",
+      "Anchor": "#update-template",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -4,205 +4,205 @@
   "Actions": [
     {
       "OperationId": "CombinePDF",
-      "Name": "Merge PDFs",
+      "Name": "Merge PDFs (Preview)",
       "Description": "Merge PDF files into a single file. Only files with .pdf extension are supported.",
-      "Anchor": "#merge-pdfs",
+      "Anchor": "#merge-pdfs-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "CompressPDF",
-      "Name": "Compress PDF",
+      "Name": "Compress PDF (Preview)",
       "Description": "Compress a PDF file. Only files with .pdf extension are supported.",
-      "Anchor": "#compress-pdf",
+      "Anchor": "#compress-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "CreatePDFFromDynamicHtml",
-      "Name": "Convert Dynamic HTML to PDF",
+      "Name": "Convert Dynamic HTML to PDF (Preview)",
       "Description": "Convert a Dynamic HTML file to PDF format. Since HTML/web pages typically contain external assets, the input file must be a zip file containing an index.html at the top level of the archive, as well as any dependencies such as images, css files, and so on. Only files with .zip extension are supported.",
-      "Anchor": "#convert-dynamic-html-to-pdf",
+      "Anchor": "#convert-dynamic-html-to-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "CreatePDFFromExcel",
-      "Name": "Convert Excel to PDF",
+      "Name": "Convert Excel to PDF (Preview)",
       "Description": "Convert an Excel file to PDF format. Only files with .xls or .xlsx extension are supported.",
-      "Anchor": "#convert-excel-to-pdf",
+      "Anchor": "#convert-excel-to-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "CreatePDFFromImage",
-      "Name": "Convert Image to PDF",
+      "Name": "Convert Image to PDF (Preview)",
       "Description": "Convert an image file to PDF format. Only files with .png, .jpeg, .jpg, .tiff, .tif or .gif extension are supported.",
-      "Anchor": "#convert-image-to-pdf",
+      "Anchor": "#convert-image-to-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "CreatePDFFromPPT",
-      "Name": "Convert PPT to PDF",
+      "Name": "Convert PPT to PDF (Preview)",
       "Description": "Convert a PPT file to PDF format. Only files with .ppt or .pptx extension are supported.",
-      "Anchor": "#convert-ppt-to-pdf",
+      "Anchor": "#convert-ppt-to-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "CreatePDFFromStaticHtml",
-      "Name": "Convert Static HTML to PDF",
+      "Name": "Convert Static HTML to PDF (Preview)",
       "Description": "Convert a static HTML file to PDF format. Since HTML/web pages typically contain external assets, the input file must be a zip file containing an index.html at the top level of the archive, as well as any dependencies such as images, css files, and so on. Only files with .zip extension are supported.",
-      "Anchor": "#convert-static-html-to-pdf",
+      "Anchor": "#convert-static-html-to-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "CreatePDFFromWord",
-      "Name": "Convert Word to PDF",
+      "Name": "Convert Word to PDF (Preview)",
       "Description": "Convert a Word file to PDF format. Only files with .doc or .docx extension are supported.",
-      "Anchor": "#convert-word-to-pdf",
+      "Anchor": "#convert-word-to-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "CreatePDFGeneric",
-      "Name": "Convert document to PDF",
+      "Name": "Convert document to PDF (Preview)",
       "Description": "Convert a file to PDF format. Only files with .doc, .docx, .ppt, .pptx, .xls, .xlsx, .bmp, .gif, .jpeg, .jpg, .png, .rtf, .tif, .tiff or .txt extension are supported.",
-      "Anchor": "#convert-document-to-pdf",
+      "Anchor": "#convert-document-to-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "DocGen",
-      "Name": "Generate document from Word template",
+      "Name": "Generate document from Word template (Preview)",
       "Description": "Replaces merge fields in a DOCX template document with specified JSON data. The keys in data object should be the same as names of merge fields in document. Template documents can be authored using Adobe Document Generation Word Add-in. Find the add-in and Word templates at: https://adobe.com/go/dcdocgen_home",
-      "Anchor": "#generate-document-from-word-template",
+      "Anchor": "#generate-document-from-word-template-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExportPDFGeneric",
-      "Name": "Export PDF",
+      "Name": "Export PDF (Preview)",
       "Description": "Convert a PDF file to various formats. The supported output formats are .doc, .docx, .jpeg, .png, .pptx, .rtf and .xlsx.",
-      "Anchor": "#export-pdf",
+      "Anchor": "#export-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExportPDFToExcel",
-      "Name": "Convert PDF to Excel",
+      "Name": "Convert PDF to Excel (Preview)",
       "Description": "Convert a PDF file to an Excel file. Only files with .pdf extension are supported.",
-      "Anchor": "#convert-pdf-to-excel",
+      "Anchor": "#convert-pdf-to-excel-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExportPDFToImage",
-      "Name": "Convert PDF to Image",
+      "Name": "Convert PDF to Image (Preview)",
       "Description": "Convert a PDF file to a zip of images. Only files with .pdf extension are supported.",
-      "Anchor": "#convert-pdf-to-image",
+      "Anchor": "#convert-pdf-to-image-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExportPDFToImageList",
-      "Name": "Convert PDF to List Of Images",
+      "Name": "Convert PDF to List Of Images (Preview)",
       "Description": "Convert a PDF file to a list of images. Only files with .pdf extension are supported.",
-      "Anchor": "#convert-pdf-to-list-of-images",
+      "Anchor": "#convert-pdf-to-list-of-images-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExportPDFToPPT",
-      "Name": "Convert PDF to PPT",
+      "Name": "Convert PDF to PPT (Preview)",
       "Description": "Convert a PDF file to PPT. Only files with .pdf extension are supported.",
-      "Anchor": "#convert-pdf-to-ppt",
+      "Anchor": "#convert-pdf-to-ppt-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExportPDFToWord",
-      "Name": "Convert PDF to Word",
+      "Name": "Convert PDF to Word (Preview)",
       "Description": "Convert a PDF file to a Word file. Only files with .pdf extension are supported.",
-      "Anchor": "#convert-pdf-to-word",
+      "Anchor": "#convert-pdf-to-word-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExtractImagesFromPDF",
-      "Name": "Extract Images From PDF",
+      "Name": "Extract Images From PDF (Preview)",
       "Description": "Extracts Images from a PDF Document. Only files with .pdf extension are supported.",
-      "Anchor": "#extract-images-from-pdf",
+      "Anchor": "#extract-images-from-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExtractJSONAndImagesAndTablesFromPDF",
-      "Name": "Extract PDF Structure, Tables and Images from a PDF",
+      "Name": "Extract PDF Structure, Tables and Images from a PDF (Preview)",
       "Description": "Extract PDF structure and content elements, incl. Tables and Images, from PDF Document.  Only files with .pdf extension are supported.",
-      "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf",
+      "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExtractJSONFileFromPDF",
-      "Name": "Extract PDF Structure in a JSON File",
+      "Name": "Extract PDF Structure in a JSON File (Preview)",
       "Description": "Extract PDF Structure in a JSON File. Only files with .pdf extension are supported.",
-      "Anchor": "#extract-pdf-structure-in-a-json-file",
+      "Anchor": "#extract-pdf-structure-in-a-json-file-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExtractJSONObjectFromPDF",
-      "Name": "Extract PDF Structure in a JSON Object",
+      "Name": "Extract PDF Structure in a JSON Object (Preview)",
       "Description": "Extract PDF Structure in a JSON Object. Only files with .pdf extension are supported.",
-      "Anchor": "#extract-pdf-structure-in-a-json-object",
+      "Anchor": "#extract-pdf-structure-in-a-json-object-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ExtractTablesFromPDF",
-      "Name": "Extract Tables from PDF",
+      "Name": "Extract Tables from PDF (Preview)",
       "Description": "Extracts Tables in .xlsx format from a PDF Document. Only files with .pdf extension are supported.",
-      "Anchor": "#extract-tables-from-pdf",
+      "Anchor": "#extract-tables-from-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "LinearizePDF",
-      "Name": "Linearize PDF",
+      "Name": "Linearize PDF (Preview)",
       "Description": "Linearize a PDF file. Only files with .pdf extension are supported.",
-      "Anchor": "#linearize-pdf",
+      "Anchor": "#linearize-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "OcrPDF",
-      "Name": "Create Searchable PDF using OCR",
+      "Name": "Create Searchable PDF using OCR (Preview)",
       "Description": "OCR a PDF file. Only files with .pdf extension are supported.",
-      "Anchor": "#create-searchable-pdf-using-ocr",
+      "Anchor": "#create-searchable-pdf-using-ocr-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "PDFProperties",
-      "Name": "Get PDF Properties",
+      "Name": "Get PDF Properties (Preview)",
       "Description": "Get Properties of a PDF Document. Only files with .pdf extension are supported.",
-      "Anchor": "#get-pdf-properties",
+      "Anchor": "#get-pdf-properties-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ProtectGenericPDF",
-      "Name": "Protect PDF with Access Permissions",
+      "Name": "Protect PDF with Access Permissions (Preview)",
       "Description": "Protect a PDF document from Viewing and other Accesses like Editing, Copying and Printing. Only files with .pdf extension are supported.",
-      "Anchor": "#protect-pdf-with-access-permissions",
+      "Anchor": "#protect-pdf-with-access-permissions-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ProtectOwnerPDF",
-      "Name": "Protect PDF from Copying, Editing and Printing",
+      "Name": "Protect PDF from Copying, Editing and Printing (Preview)",
       "Description": "Protect a PDF document from copying, editing &amp; printing. Only files with .pdf extension are supported.",
-      "Anchor": "#protect-pdf-from-copying,-editing-and-printing",
+      "Anchor": "#protect-pdf-from-copying,-editing-and-printing-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "ProtectUserPDF",
-      "Name": "Protect PDF from Viewing",
+      "Name": "Protect PDF from Viewing (Preview)",
       "Description": "Protect a PDF document from viewing. Only files with .pdf extension are supported.",
-      "Anchor": "#protect-pdf-from-viewing",
+      "Anchor": "#protect-pdf-from-viewing-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "RemovePassword",
-      "Name": "Remove Protection from PDF",
+      "Name": "Remove Protection from PDF (Preview)",
       "Description": "Remove password and security &amp; permissions from the protected document. Only files with .pdf extension are supported.",
-      "Anchor": "#remove-protection-from-pdf",
+      "Anchor": "#remove-protection-from-pdf-(preview)",
       "IsDeprecated": false
     },
     {
       "OperationId": "SplitPDF",
-      "Name": "Split PDF",
+      "Name": "Split PDF (Preview)",
       "Description": "Split a PDF Document into multiple PDF Documents. Only files with .pdf extension are supported.",
-      "Anchor": "#split-pdf",
+      "Anchor": "#split-pdf-(preview)",
       "IsDeprecated": false
     }
   ]

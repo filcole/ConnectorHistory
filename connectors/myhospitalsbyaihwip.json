@@ -124,7 +124,7 @@
     {
       "OperationId": "GetReportedMeasures",
       "Name": "Get Reported Measures",
-      "Description": "Gets list of reported measures, optionally filtered by a list of measure and reported measure category codes. Matching within each filter is by logical disjunction (OR) and matching across filters is by logical conjunction (AND).",
+      "Description": "Gets list of reported measures, optionally filtered by a list of measure codes.",
       "Anchor": "#get-reported-measures",
       "IsDeprecated": false
     },

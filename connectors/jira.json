@@ -10,6 +10,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CancelTask",
+      "Name": "Cancel Task",
+      "Description": "Cancels a task. Permissions required: either of: Administer Jira or Creator of the task.",
+      "Anchor": "#cancel-task",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateIssue",
       "Name": "Create a new issue [DEPRECATED]",
       "Description": "This action has been deprecated. Please use Create a new issue (V2) instead.\nThis operation is used to create a new issue.",
@@ -31,10 +38,52 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateProjectCategory",
+      "Name": "Create Project Category",
+      "Description": "Creates a project category. Permissions required: Administer Jira (global permissions)",
+      "Anchor": "#create-project-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteProject",
+      "Name": "Delete Project",
+      "Description": "Deletes a project. Permissions required: Administer Jira (global permissions)",
+      "Anchor": "#delete-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditIssue",
+      "Name": "Edit Issue",
+      "Description": "Edits an issue. A transition may be applied and issue properties updated as part of the edit.",
+      "Anchor": "#edit-issue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllProjectCategories",
+      "Name": "Get All Project Categories",
+      "Description": "Returns all project categories.",
+      "Anchor": "#get-all-project-categories",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetIssue",
       "Name": "Get issue by key",
       "Description": "This operation is used to retrieve the issue object for a given issue Key.",
       "Anchor": "#get-issue-by-key",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTask",
+      "Name": "Get Task",
+      "Description": "Returns the status of a long-running asynchronous task. When a task has finished, this operation returns the JSON blob applicable to the task.",
+      "Anchor": "#get-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get User",
+      "Description": "Returns a user. Permissions required: Browse users and groups.",
+      "Anchor": "#get-user",
       "IsDeprecated": false
     },
     {
@@ -77,6 +126,20 @@
       "Name": "When a new issue is returned by a JQL query",
       "Description": "This operation triggers when a new issue appears in the latest 100 results of a JQL query.",
       "Anchor": "#when-a-new-issue-is-returned-by-a-jql-query",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveProjectCategory",
+      "Name": "Remove Project Category",
+      "Description": "Deletes a project category. Permissions required: Administer Jira (global permissions)",
+      "Anchor": "#remove-project-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateProject",
+      "Name": "Update Project",
+      "Description": "Updates the project details of a project.",
+      "Anchor": "#update-project",
       "IsDeprecated": false
     }
   ]

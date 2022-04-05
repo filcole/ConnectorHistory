@@ -451,6 +451,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetOrchestratorFlowStats",
+      "Name": "Get Orchestrator Flow stats",
+      "Description": "Returns a list of Flow stats from the IA-Connect Orchestrator. Used for reporting purposes. You can optionally use one or more filters to limit the returned results.",
+      "Anchor": "#get-orchestrator-flow-stats",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetParentProcessId",
       "Name": "Get parent process Id",
       "Description": "Returns the process Id of the parent process for any running process in the IA-Connect Agent user session which has the specified process Id.",
@@ -525,6 +532,13 @@
       "Name": "Is screen reader enabled",
       "Description": "Returns whether the screen reader has been enabled in the IA-Connect Agent user session.",
       "Anchor": "#is-screen-reader-enabled",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsTCPPortResponding",
+      "Name": "Is TCP port responding",
+      "Description": "Reports whether a network TCP port is responding to a connection attempt by the IA-Connect Agent. This could be a TCP port on the computer where the IA-Connect Agent is running (enter 'localhost' for the remote host) or on any remote computer. If the IA-Connect Agent successfully connects to a TCP port, it immediately closes the TCP connection.",
+      "Anchor": "#is-tcp-port-responding",
       "IsDeprecated": false
     },
     {
@@ -808,6 +822,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "RunCommand",
+      "Name": "Run generic IA-Connect Agent command",
+      "Description": "Runs a generic IA-Connect Agent command passing arguments as JSON and returning output data as JSON. Used to run Agent commands when the Director and Inspector are older versions than the Agent and hence don't understand the command.",
+      "Anchor": "#run-generic-ia-connect-agent-command",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "RunProcess",
       "Name": "Run process",
       "Description": "Launch a process, command or application.",
@@ -873,7 +894,7 @@
     {
       "OperationId": "SetLicenseString",
       "Name": "Set IA-Connect license key",
-      "Description": "Uploads an new-style (7.2 onwards) license to the IA-Connect Agent.",
+      "Description": "Licenses the IA-Connect Agent with a license key. This can be a license string or the friendly name of a license held in the IA-Connect Orchestrator.",
       "Anchor": "#set-ia-connect-license-key",
       "IsDeprecated": false
     },
@@ -969,6 +990,62 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "TasksAddNewDeferral",
+      "Name": "Add new Orchestrator deferred task",
+      "Description": "Add a new Orchestrator deferred task into a queue that can be monitored from a Flow. The task will be deferred to a specified time in the future. Use this action to temporarily suspend a task for a specified amount of time (for example if you are waiting for something).",
+      "Anchor": "#add-new-orchestrator-deferred-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TasksAddNewTask",
+      "Name": "Add new Orchestrator automation task",
+      "Description": "Add a new Orchestrator automation task into a queue that can be monitored from a Flow. Tasks can either be ready to run immediately or be deferred to run at a later time.",
+      "Anchor": "#add-new-orchestrator-automation-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TasksChangeTaskStatus",
+      "Name": "Change Orchestrator automation task status",
+      "Description": "Changes the selected Orchestrator automation task status to completed, failed or new.",
+      "Anchor": "#change-orchestrator-automation-task-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TasksDeferExistingTask",
+      "Name": "Defer existing Orchestrator automation task",
+      "Description": "Defer an existing Orchestrator task which is already in the queue. The task will be deferred to a specified time in the future. This is commonly used to re-defer an existing task (i.e. the task was previously deferred and now needs to be deferred again). Use this action to temporarily suspend a task for a specified amount of time (for example if you are waiting for something).",
+      "Anchor": "#defer-existing-orchestrator-automation-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TasksDeleteTask",
+      "Name": "Delete Orchestrator automation task",
+      "Description": "Delete an Orchestrator automation task that has been deferred.",
+      "Anchor": "#delete-orchestrator-automation-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TasksGetAllTasks",
+      "Name": "Get all Orchestrator automation tasks",
+      "Description": "Retrieves all the Orchestrator automation tasks that match the filters.",
+      "Anchor": "#get-all-orchestrator-automation-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TasksGetNextTask",
+      "Name": "Get next Orchestrator automation task",
+      "Description": "Retrieves the next Orchestrator automation task matching the given search critieria.",
+      "Anchor": "#get-next-orchestrator-automation-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TasksGetTask",
+      "Name": "Get Orchestrator automation task",
+      "Description": "Retrieves a specfic Orchestrator automation task.",
+      "Anchor": "#get-orchestrator-automation-task",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "TurnMouseWheel",
       "Name": "Turn mouse wheel",
       "Description": "Turns the mouse wheel (positive or negative notches) in the IA-Connect Agent user session.",
@@ -980,6 +1057,13 @@
       "Name": "UnZIP file",
       "Description": "Unzips a file which has been compressed using ZIP compression.",
       "Anchor": "#unzip-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateOrchestratorFlowStatsResult",
+      "Name": "Update Orchestrator Flow stats result",
+      "Description": "Update the result statistics for the current Worker Flow in the IA-Connect Orchestrator. This is used to modify the final result of a Flow stat in the IA-Connect Orchestator which is typically used for reporting purposes. This only works for the current Flow (the Orchestrator detects the Flow run Id). You cannot modify the stats for any other Flow.",
+      "Anchor": "#update-orchestrator-flow-stats-result",
       "IsDeprecated": false
     },
     {

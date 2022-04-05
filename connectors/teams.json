@@ -416,6 +416,13 @@
       "IsDeprecated": true
     },
     {
+      "OperationId": "TeamsCardTrigger",
+      "Name": "When someone responds to an adaptive card",
+      "Description": "This trigger allows you to handle responses for an adaptive card posted in Microsoft Teams. (Available only for Power Automate.)",
+      "Anchor": "#when-someone-responds-to-an-adaptive-card",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "TimeOffRequestApprove",
       "Name": "Shifts: Approve a Time Off request [DEPRECATED]",
       "Description": "This action has been deprecated. Please use Approve a Time Off request instead.\nThis operation allows managers to approve a time off request.",

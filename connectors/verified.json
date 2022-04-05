@@ -1,0 +1,237 @@
+{
+  "UniqueName": "verified",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../verified/",
+  "Actions": [
+    {
+      "OperationId": "DeleteEnvelopesEnvelopeId",
+      "Name": "Delete envelope by id",
+      "Description": "Delets an envelope identified by its id",
+      "Anchor": "#delete-envelope-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteEnvelopesEnvelopeIdDocumentsDocumentId",
+      "Name": "Delete document by id",
+      "Description": "Deletes a document from the Verified Portal.",
+      "Anchor": "#delete-document-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAuthUserinfo",
+      "Name": "Get user information",
+      "Description": "Gets information of the currently logged in user",
+      "Anchor": "#get-user-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCompaniesCompanyId",
+      "Name": "Get company by id",
+      "Description": "Gets company information by company id.",
+      "Anchor": "#get-company-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCompaniesCompanyIdUsersUserIdSettings",
+      "Name": "Get user settings",
+      "Description": "Gets a users settings by userid",
+      "Anchor": "#get-user-settings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvelopeDescriptors",
+      "Name": "Get all descriptors",
+      "Description": "Gets a list of all descriptors present in the current company. The list could be filtered.",
+      "Anchor": "#get-all-descriptors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvelopeDescriptorsDefault",
+      "Name": "Get default descriptor",
+      "Description": "Gets the default descriptor for envelopes",
+      "Anchor": "#get-default-descriptor",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvelopeDescriptorsEnvelopeDescriptorId",
+      "Name": "Get descriptor by id",
+      "Description": "Gets information of a given descriptor by its Id",
+      "Anchor": "#get-descriptor-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvelopesEnvelopeId",
+      "Name": "Get envelope by id",
+      "Description": "Gets envelope details by envelope id",
+      "Anchor": "#get-envelope-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvelopesEnvelopeIdDocuments",
+      "Name": "Get all documents by envelopeid",
+      "Description": "Get all documents related to a given envelope",
+      "Anchor": "#get-all-documents-by-envelopeid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvelopesEnvelopeIdDocumentsDocumentId",
+      "Name": "Get document by id",
+      "Description": "Gets document information by its id",
+      "Anchor": "#get-document-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvelopesEnvelopeIdDocumentsDocumentIdFiles",
+      "Name": "Get files by document id",
+      "Description": "Get all files connected to a given document",
+      "Anchor": "#get-files-by-document-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvelopesEnvelopeIdDocumentsDocumentIdFilesFileId",
+      "Name": "Get file by id",
+      "Description": "Gets information about a file by its id.",
+      "Anchor": "#get-file-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvelopesEnvelopeIdDocumentsDocumentIdFilesFileIdUrl",
+      "Name": "Get file URL by id",
+      "Description": "Gets the url to a file by the file id.",
+      "Anchor": "#get-file-url-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvelopesEnvelopeIdRecipients",
+      "Name": "Get all envelope recipients",
+      "Description": "Gets all recipients of a given envelope",
+      "Anchor": "#get-all-envelope-recipients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEnvelopesEnvelopeIdRecipientsRecipientId",
+      "Name": "Get specific recipient for an envelope",
+      "Description": "Gets a specific recipient for a given envelope",
+      "Anchor": "#get-specific-recipient-for-an-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFlowsFlowIdJobsEnvelopeId",
+      "Name": "Get flow state by envelopeid",
+      "Description": "Gets the current flow state of a given envelope",
+      "Anchor": "#get-flow-state-by-envelopeid",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetQueryEnvelopes",
+      "Name": "Query all envelopes",
+      "Description": "Queries all envelopes matching a given filter",
+      "Anchor": "#query-all-envelopes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostAuthenticate",
+      "Name": "Generate security token",
+      "Description": "Get's the authentication token from the Verified API.",
+      "Anchor": "#generate-security-token",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostEnvelopeDescriptorsDefaultEnvelopes",
+      "Name": "Create envelope - default",
+      "Description": "Creates a new envelope using the default descriptor",
+      "Anchor": "#create-envelope---default",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostEnvelopeDescriptorsEnvelopeDescriptorIdEnvelopes",
+      "Name": "Create envelope - descriptor",
+      "Description": "Creates an envelope based on a specific descriptor.",
+      "Anchor": "#create-envelope---descriptor",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostEnvelopesEnvelopeIdDocuments",
+      "Name": "Add document to envelope",
+      "Description": "Add a new document to an existing envelope",
+      "Anchor": "#add-document-to-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostEnvelopesEnvelopeIdDocumentsDocumentIdFiles",
+      "Name": "Add file to document",
+      "Description": "Adds a file to a existing document",
+      "Anchor": "#add-file-to-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostEnvelopesEnvelopeIdDocumentsDocumentIdStatusAborted",
+      "Name": "Set document abort status",
+      "Description": "Sets the status of a given document to aborted",
+      "Anchor": "#set-document-abort-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostEnvelopesEnvelopeIdDocumentsDocumentIdTemplatesTemplateIdUserData",
+      "Name": "Generate Document from Template",
+      "Description": "Generates a document from a preconfigured template.",
+      "Anchor": "#generate-document-from-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostEnvelopesEnvelopeIdJobsGetSignLink",
+      "Name": "Create signature link",
+      "Description": "Implementation is flow specific and may be missing for your specific flow.",
+      "Anchor": "#create-signature-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostEnvelopesEnvelopeIdRecipients",
+      "Name": "Add recipient to envelope",
+      "Description": "Adds a recipient to a given envelope",
+      "Anchor": "#add-recipient-to-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PostEnvelopesEnvelopIdJobsSendNotification",
+      "Name": "Send notification",
+      "Description": "Sends a notification to recepients of a given envelope,",
+      "Anchor": "#send-notification",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PutEnvelopesEnvelopeId",
+      "Name": "Update envelope settings",
+      "Description": "Updates Settings of a given envelope.",
+      "Anchor": "#update-envelope-settings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PutEnvelopesEnvelopeIdAbortStatus",
+      "Name": "Set envelope abort status",
+      "Description": "Sets the status of a given envelope to aborted",
+      "Anchor": "#set-envelope-abort-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PutEnvelopesEnvelopeIdPublishStatus",
+      "Name": "Update publish status for envelope",
+      "Description": "Updates the publish status of a given envelope",
+      "Anchor": "#update-publish-status-for-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PutEnvelopesEnvelopeIdRecipientsRecipientId",
+      "Name": "Update recipient by id",
+      "Description": "Updates a recipient",
+      "Anchor": "#update-recipient-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PutEnvelopesEnvelopeIdTrashStatus",
+      "Name": "Set envelope trash status",
+      "Description": "Sets the status of a given envelope to trashed",
+      "Anchor": "#set-envelope-trash-status",
+      "IsDeprecated": false
+    }
+  ]
+}

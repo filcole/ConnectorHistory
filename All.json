@@ -1047,205 +1047,205 @@
     "Actions": [
       {
         "OperationId": "CombinePDF",
-        "Name": "Merge PDFs",
+        "Name": "Merge PDFs (Preview)",
         "Description": "Merge PDF files into a single file. Only files with .pdf extension are supported.",
-        "Anchor": "#merge-pdfs",
+        "Anchor": "#merge-pdfs-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CompressPDF",
-        "Name": "Compress PDF",
+        "Name": "Compress PDF (Preview)",
         "Description": "Compress a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#compress-pdf",
+        "Anchor": "#compress-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromDynamicHtml",
-        "Name": "Convert Dynamic HTML to PDF",
+        "Name": "Convert Dynamic HTML to PDF (Preview)",
         "Description": "Convert a Dynamic HTML file to PDF format. Since HTML/web pages typically contain external assets, the input file must be a zip file containing an index.html at the top level of the archive, as well as any dependencies such as images, css files, and so on. Only files with .zip extension are supported.",
-        "Anchor": "#convert-dynamic-html-to-pdf",
+        "Anchor": "#convert-dynamic-html-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromExcel",
-        "Name": "Convert Excel to PDF",
+        "Name": "Convert Excel to PDF (Preview)",
         "Description": "Convert an Excel file to PDF format. Only files with .xls or .xlsx extension are supported.",
-        "Anchor": "#convert-excel-to-pdf",
+        "Anchor": "#convert-excel-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromImage",
-        "Name": "Convert Image to PDF",
+        "Name": "Convert Image to PDF (Preview)",
         "Description": "Convert an image file to PDF format. Only files with .png, .jpeg, .jpg, .tiff, .tif or .gif extension are supported.",
-        "Anchor": "#convert-image-to-pdf",
+        "Anchor": "#convert-image-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromPPT",
-        "Name": "Convert PPT to PDF",
+        "Name": "Convert PPT to PDF (Preview)",
         "Description": "Convert a PPT file to PDF format. Only files with .ppt or .pptx extension are supported.",
-        "Anchor": "#convert-ppt-to-pdf",
+        "Anchor": "#convert-ppt-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromStaticHtml",
-        "Name": "Convert Static HTML to PDF",
+        "Name": "Convert Static HTML to PDF (Preview)",
         "Description": "Convert a static HTML file to PDF format. Since HTML/web pages typically contain external assets, the input file must be a zip file containing an index.html at the top level of the archive, as well as any dependencies such as images, css files, and so on. Only files with .zip extension are supported.",
-        "Anchor": "#convert-static-html-to-pdf",
+        "Anchor": "#convert-static-html-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromWord",
-        "Name": "Convert Word to PDF",
+        "Name": "Convert Word to PDF (Preview)",
         "Description": "Convert a Word file to PDF format. Only files with .doc or .docx extension are supported.",
-        "Anchor": "#convert-word-to-pdf",
+        "Anchor": "#convert-word-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFGeneric",
-        "Name": "Convert document to PDF",
+        "Name": "Convert document to PDF (Preview)",
         "Description": "Convert a file to PDF format. Only files with .doc, .docx, .ppt, .pptx, .xls, .xlsx, .bmp, .gif, .jpeg, .jpg, .png, .rtf, .tif, .tiff or .txt extension are supported.",
-        "Anchor": "#convert-document-to-pdf",
+        "Anchor": "#convert-document-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "DocGen",
-        "Name": "Generate document from Word template",
+        "Name": "Generate document from Word template (Preview)",
         "Description": "Replaces merge fields in a DOCX template document with specified JSON data. The keys in data object should be the same as names of merge fields in document. Template documents can be authored using Adobe Document Generation Word Add-in. Find the add-in and Word templates at: https://adobe.com/go/dcdocgen_home",
-        "Anchor": "#generate-document-from-word-template",
+        "Anchor": "#generate-document-from-word-template-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFGeneric",
-        "Name": "Export PDF",
+        "Name": "Export PDF (Preview)",
         "Description": "Convert a PDF file to various formats. The supported output formats are .doc, .docx, .jpeg, .png, .pptx, .rtf and .xlsx.",
-        "Anchor": "#export-pdf",
+        "Anchor": "#export-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToExcel",
-        "Name": "Convert PDF to Excel",
+        "Name": "Convert PDF to Excel (Preview)",
         "Description": "Convert a PDF file to an Excel file. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-excel",
+        "Anchor": "#convert-pdf-to-excel-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToImage",
-        "Name": "Convert PDF to Image",
+        "Name": "Convert PDF to Image (Preview)",
         "Description": "Convert a PDF file to a zip of images. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-image",
+        "Anchor": "#convert-pdf-to-image-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToImageList",
-        "Name": "Convert PDF to List Of Images",
+        "Name": "Convert PDF to List Of Images (Preview)",
         "Description": "Convert a PDF file to a list of images. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-list-of-images",
+        "Anchor": "#convert-pdf-to-list-of-images-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToPPT",
-        "Name": "Convert PDF to PPT",
+        "Name": "Convert PDF to PPT (Preview)",
         "Description": "Convert a PDF file to PPT. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-ppt",
+        "Anchor": "#convert-pdf-to-ppt-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToWord",
-        "Name": "Convert PDF to Word",
+        "Name": "Convert PDF to Word (Preview)",
         "Description": "Convert a PDF file to a Word file. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-word",
+        "Anchor": "#convert-pdf-to-word-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractImagesFromPDF",
-        "Name": "Extract Images From PDF",
+        "Name": "Extract Images From PDF (Preview)",
         "Description": "Extracts Images from a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-images-from-pdf",
+        "Anchor": "#extract-images-from-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONAndImagesAndTablesFromPDF",
-        "Name": "Extract PDF Structure, Tables and Images from a PDF",
+        "Name": "Extract PDF Structure, Tables and Images from a PDF (Preview)",
         "Description": "Extract PDF structure and content elements, incl. Tables and Images, from PDF Document.  Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf",
+        "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONFileFromPDF",
-        "Name": "Extract PDF Structure in a JSON File",
+        "Name": "Extract PDF Structure in a JSON File (Preview)",
         "Description": "Extract PDF Structure in a JSON File. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure-in-a-json-file",
+        "Anchor": "#extract-pdf-structure-in-a-json-file-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONObjectFromPDF",
-        "Name": "Extract PDF Structure in a JSON Object",
+        "Name": "Extract PDF Structure in a JSON Object (Preview)",
         "Description": "Extract PDF Structure in a JSON Object. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure-in-a-json-object",
+        "Anchor": "#extract-pdf-structure-in-a-json-object-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractTablesFromPDF",
-        "Name": "Extract Tables from PDF",
+        "Name": "Extract Tables from PDF (Preview)",
         "Description": "Extracts Tables in .xlsx format from a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-tables-from-pdf",
+        "Anchor": "#extract-tables-from-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "LinearizePDF",
-        "Name": "Linearize PDF",
+        "Name": "Linearize PDF (Preview)",
         "Description": "Linearize a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#linearize-pdf",
+        "Anchor": "#linearize-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "OcrPDF",
-        "Name": "Create Searchable PDF using OCR",
+        "Name": "Create Searchable PDF using OCR (Preview)",
         "Description": "OCR a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#create-searchable-pdf-using-ocr",
+        "Anchor": "#create-searchable-pdf-using-ocr-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "PDFProperties",
-        "Name": "Get PDF Properties",
+        "Name": "Get PDF Properties (Preview)",
         "Description": "Get Properties of a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#get-pdf-properties",
+        "Anchor": "#get-pdf-properties-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectGenericPDF",
-        "Name": "Protect PDF with Access Permissions",
+        "Name": "Protect PDF with Access Permissions (Preview)",
         "Description": "Protect a PDF document from Viewing and other Accesses like Editing, Copying and Printing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-with-access-permissions",
+        "Anchor": "#protect-pdf-with-access-permissions-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectOwnerPDF",
-        "Name": "Protect PDF from Copying, Editing and Printing",
+        "Name": "Protect PDF from Copying, Editing and Printing (Preview)",
         "Description": "Protect a PDF document from copying, editing &amp; printing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-from-copying,-editing-and-printing",
+        "Anchor": "#protect-pdf-from-copying,-editing-and-printing-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectUserPDF",
-        "Name": "Protect PDF from Viewing",
+        "Name": "Protect PDF from Viewing (Preview)",
         "Description": "Protect a PDF document from viewing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-from-viewing",
+        "Anchor": "#protect-pdf-from-viewing-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "RemovePassword",
-        "Name": "Remove Protection from PDF",
+        "Name": "Remove Protection from PDF (Preview)",
         "Description": "Remove password and security &amp; permissions from the protected document. Only files with .pdf extension are supported.",
-        "Anchor": "#remove-protection-from-pdf",
+        "Anchor": "#remove-protection-from-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "SplitPDF",
-        "Name": "Split PDF",
+        "Name": "Split PDF (Preview)",
         "Description": "Split a PDF Document into multiple PDF Documents. Only files with .pdf extension are supported.",
-        "Anchor": "#split-pdf",
+        "Anchor": "#split-pdf-(preview)",
         "IsDeprecated": false
       }
     ]
@@ -1991,7 +1991,7 @@
       {
         "OperationId": "GetReportedMeasures",
         "Name": "Get Reported Measures",
-        "Description": "Gets list of reported measures, optionally filtered by a list of measure and reported measure category codes. Matching within each filter is by logical disjunction (OR) and matching across filters is by logical conjunction (AND).",
+        "Description": "Gets list of reported measures, optionally filtered by a list of measure codes.",
         "Anchor": "#get-reported-measures",
         "IsDeprecated": false
       },
@@ -2184,15 +2184,36 @@
     "Actions": [
       {
         "OperationId": "AddRegistrant",
-        "Name": "Add Registrant",
-        "Description": "Add Registrant to an Airmeet",
-        "Anchor": "#add-registrant",
+        "Name": "Add Authorized Attendee",
+        "Description": "Add Authorized Attendee to an Airmeet",
+        "Anchor": "#add-authorized-attendee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirmeetParticipants",
+        "Name": "Fetch Airmeet participants",
+        "Description": "Fetch participants authorised to enter your Airmeet",
+        "Anchor": "#fetch-airmeet-participants",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirmeetRegistrations",
+        "Name": "Fetch Airmeet registrations",
+        "Description": "Fetch all authenticated registrations for your Airmeet",
+        "Anchor": "#fetch-airmeet-registrations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirmeetSessions",
+        "Name": "Fetch Airmeet Sessions",
+        "Description": "Fetch details for Sessions in an Airmeet",
+        "Anchor": "#fetch-airmeet-sessions",
         "IsDeprecated": false
       },
       {
         "OperationId": "AirmeetTriggers",
         "Name": "Register an Airmeet Trigger",
-        "Description": "Select a trigger from the available options. Setup reminders and alerts based on event registration, attendance, event start and end time",
+        "Description": "Select a trigger from the available options. Setup reminders and alerts based on event registration, attendance, polls, event start and end time",
         "Anchor": "#register-an-airmeet-trigger",
         "IsDeprecated": false
       },
@@ -2218,10 +2239,31 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CustomRegistrationFields",
+        "Name": "Fetch Custom Registration Fields",
+        "Description": "Fetch details of custom registration fields for the Airmeet",
+        "Anchor": "#fetch-custom-registration-fields",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetAirmeets",
         "Name": "Get Airmeets",
         "Description": "Get Airmeets",
         "Anchor": "#get-airmeets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveAttendee",
+        "Name": "Remove Authorised Attendee",
+        "Description": "Remove an authorised participant from the Airmeet",
+        "Anchor": "#remove-authorised-attendee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "StartAndEndAirmeet",
+        "Name": "Start or Finish an Airmeet",
+        "Description": "Update the Airmeet Status to Ongoing or Finished",
+        "Anchor": "#start-or-finish-an-airmeet",
         "IsDeprecated": false
       }
     ]
@@ -2231,10 +2273,10 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../airslate/",
     "Actions": [
       {
-        "OperationId": "SendFlow",
-        "Name": "Send Slate (Preview)",
-        "Description": "Send a Slate with documents and forms by email",
-        "Anchor": "#send-slate-(preview)",
+        "OperationId": "CreateSmartLink",
+        "Name": "Create Smart Link",
+        "Description": "Generate the Smart Link from the Flow in your airSlate Workspace",
+        "Anchor": "#create-smart-link",
         "IsDeprecated": false
       },
       {
@@ -16680,6 +16722,89 @@
     ]
   },
   {
+    "UniqueName": "craftmypdfip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../craftmypdfip/",
+    "Actions": [
+      {
+        "OperationId": "Add-watermark",
+        "Name": "Add watermark",
+        "Description": "This action adds a watermark to a PDF.",
+        "Anchor": "#add-watermark",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Create",
+        "Name": "Create a PDF",
+        "Description": "This action creates a PDF file with JSON data and your template.",
+        "Anchor": "#create-a-pdf",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Create-editor-session",
+        "Name": "Create editor session",
+        "Description": "This action creates a new PDF editor session. The PDF editor url can be embedded into an IFrame.",
+        "Anchor": "#create-editor-session",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Create-merge",
+        "Name": "Create a PDF from multiple templates",
+        "Description": "This action creates a PDF file from multiple templates. It merges all the PDFs into one.",
+        "Anchor": "#create-a-pdf-from-multiple-templates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delete-template",
+        "Name": "Delete template",
+        "Description": "This action deletes a template.",
+        "Anchor": "#delete-template",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-account-info",
+        "Name": "Get account info",
+        "Description": "This action returns the account information.",
+        "Anchor": "#get-account-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-templates",
+        "Name": "List templates",
+        "Description": "This action lists all your PDF templates.",
+        "Anchor": "#list-templates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-transactions",
+        "Name": "List transactions",
+        "Description": "This action lists all the transactions.",
+        "Anchor": "#list-transactions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Merge-pdfs",
+        "Name": "Merge PDFs",
+        "Description": "This action merges multiple PDF URLs.",
+        "Anchor": "#merge-pdfs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "New-template-from",
+        "Name": "Create a new template",
+        "Description": "This action creates a new template from a template ID.",
+        "Anchor": "#create-a-new-template",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-template",
+        "Name": "Update template",
+        "Description": "This action updates the specified PDF template.",
+        "Anchor": "#update-template",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "crmbot",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../crmbot/",
     "Actions": [
@@ -16975,6 +17100,33 @@
     ]
   },
   {
+    "UniqueName": "securemessagedelivery",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../securemessagedelivery/",
+    "Actions": [
+      {
+        "OperationId": "RetractMessageAsync",
+        "Name": "Retract a Secure Message",
+        "Description": "Retract a secure message that was previously sent.",
+        "Anchor": "#retract-a-secure-message",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendSecureMessageAsync",
+        "Name": "Send a Secure Message",
+        "Description": "Sends a message in a secure manner ensuring the data is not corrupted.",
+        "Anchor": "#send-a-secure-message",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrackMessageAsync",
+        "Name": "Track a Secure Message",
+        "Description": "Track a secure message to ensure the message is delivered and opened.",
+        "Anchor": "#track-a-secure-message",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "datascopeforms",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../datascopeforms/",
     "Actions": []
@@ -17239,6 +17391,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateTicketTasks",
+        "Name": "Create ticket tasks",
+        "Description": "This operation creates ticket tasks from templates or scratch.",
+        "Anchor": "#create-ticket-tasks",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateTicketWorkflow",
         "Name": "When a ticket is created or updated",
         "Description": "This operation triggers when a ticket is created or updated.",
@@ -17271,6 +17430,13 @@
         "Name": "Find tickets",
         "Description": "Find tickets by keywords or filters.",
         "Anchor": "#find-tickets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindTicketTaskTemplates",
+        "Name": "Find ticket task templates",
+        "Description": "Find ticket task templates by keywords or filters.",
+        "Anchor": "#find-ticket-task-templates",
         "IsDeprecated": false
       },
       {
@@ -17327,6 +17493,13 @@
         "Name": "Get a ticket",
         "Description": "This operation returns a ticket's details.",
         "Anchor": "#get-a-ticket",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTicketTasks",
+        "Name": "Get ticket tasks",
+        "Description": "This operation return all ticket task lists.",
+        "Anchor": "#get-ticket-tasks",
         "IsDeprecated": false
       },
       {
@@ -18045,10 +18218,38 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../docusigndemo/",
     "Actions": [
       {
+        "OperationId": "AddDocumentsToEnvelope",
+        "Name": "Add documents to an envelope",
+        "Description": "Add documents to an envelope.",
+        "Anchor": "#add-documents-to-an-envelope",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddRecipientTabs",
+        "Name": "Add tabs for a recipient",
+        "Description": "Add tabs for a recipient.",
+        "Anchor": "#add-tabs-for-a-recipient",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "AddRecipientToEnvelope",
         "Name": "Add recipient to an envelope",
-        "Description": "Add recipient to an envelope",
+        "Description": "Add recipient to an envelope.",
         "Anchor": "#add-recipient-to-an-envelope",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateBlankEnvelope",
+        "Name": "Create envelope",
+        "Description": "Create a new blank envelope.",
+        "Anchor": "#create-envelope",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateEnvelopeFromTemplate",
+        "Name": "Create envelope using template",
+        "Description": "Create a new envelope using a specified template.",
+        "Anchor": "#create-envelope-using-template",
         "IsDeprecated": false
       },
       {
@@ -18091,13 +18292,6 @@
         "Name": "Send envelope",
         "Description": "Send an existing envelope.",
         "Anchor": "#send-envelope",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "SendEnvelope",
-        "Name": "Send envelope using template",
-        "Description": "Send a new envelope using a specified template.",
-        "Anchor": "#send-envelope-using-template",
         "IsDeprecated": false
       }
     ]
@@ -29724,10 +29918,45 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetIAConnectLookupTableSummary",
+        "Name": "Get IA-Connect lookup table summary",
+        "Description": "Retrieves a summary of the lookup tables currently loaded into the IA-Connect Agent.",
+        "Anchor": "#get-ia-connect-lookup-table-summary",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetJSONTableFromStringArray",
         "Name": "Get JSON table from string array",
         "Description": "Takes an input array of string items and returns as a JSON table.",
         "Anchor": "#get-json-table-from-string-array",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRegexGroupMatches",
+        "Name": "Get regular expression group matches",
+        "Description": "Performs a regular expression (regex) match on an input string and returns a list of matched group names and values.",
+        "Anchor": "#get-regular-expression-group-matches",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRegexMatch",
+        "Name": "Get regular expression match",
+        "Description": "Performs a regular expression (regex) match on an input string and returns whether the string matched the expression and details of the match.",
+        "Anchor": "#get-regular-expression-match",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRegexMatches",
+        "Name": "Get regular expression matches",
+        "Description": "Performs a regular expression (regex) match on an input string and returns all matches in a string array. The array will be empty if there were no matches.",
+        "Anchor": "#get-regular-expression-matches",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRegexSplit",
+        "Name": "Split string using a regular expression",
+        "Description": "Splits an input string using a regular expression (regex) match and returns the individual split components of the string as a string array.",
+        "Anchor": "#split-string-using-a-regular-expression",
         "IsDeprecated": false
       },
       {
@@ -29782,7 +30011,7 @@
       {
         "OperationId": "InsertRowInJSONTable",
         "Name": "Insert a row into a JSON table",
-        "Description": "Takes an input table in JSON format, inserts a row at a specified position and returns a new table in JSON format. If you want to insert a row into an actual table (i.e. not in JSON format), use the action 'Insert a row into a table'. If you want to insert a row into a string array, use the action 'Insert a row into a string array'.",
+        "Description": "Takes an input table in JSON format, inserts a row at a specified position and returns a new table in JSON format. If you want to insert a row into an actual table (i.e. not in JSON format), use the action 'Insert a row into a table'. If you want to insert a string into a string array, use the action 'Insert a row into a string array'.",
         "Anchor": "#insert-a-row-into-a-json-table",
         "IsDeprecated": false
       },
@@ -29803,7 +30032,7 @@
       {
         "OperationId": "InsertRowInTable",
         "Name": "Insert a row into a table",
-        "Description": "Takes an input table, inserts a row at a specified position and returns a new table. If you want to insert a row into a string array, use the action 'Insert a row into a string array'. If you want to insert a row into a table in JSON format, use the action 'Insert a row into a JSON table'.",
+        "Description": "Takes an input table, inserts a row at a specified position and returns a new table. If you want to insert a string into a string array, use the action 'Insert a row into a string array'. If you want to insert a row into a table in JSON format, use the action 'Insert a row into a JSON table'.",
         "Anchor": "#insert-a-row-into-a-table",
         "IsDeprecated": false
       },
@@ -29819,6 +30048,41 @@
         "Name": "Is PowerShell module installed",
         "Description": "Searches for a specified PowerShell module on the computer where the IA-Connect Agent is running and returns whether it is installed.",
         "Anchor": "#is-powershell-module-installed",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoadIAConnectLookupTable",
+        "Name": "Load IA-Connect lookup table",
+        "Description": "Loads an IA-Connect lookup table from the computer where the IA-Connect Agent is running. These lookup tables can be used by further IA-Connect actions to perform data lookups.",
+        "Anchor": "#load-ia-connect-lookup-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LookupColumnsFromIAConnectLookupTable",
+        "Name": "Lookup columns from IA-Connect lookup table",
+        "Description": "Retrieves one or more columns with a common name from a lookup table currently loaded into the IA-Connect Agent and returns as a table. For example, the lookup table could contain multiple output columns named 'AD group' to represent multiple AD groups and they will be returned as separate rows in the output table.",
+        "Anchor": "#lookup-columns-from-ia-connect-lookup-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LookupValueFromIAConnectLookupTable",
+        "Name": "Lookup value from IA-Connect lookup table",
+        "Description": "Retrieves a value from a lookup table currently loaded into the IA-Connect Agent.",
+        "Anchor": "#lookup-value-from-ia-connect-lookup-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveAllIAConnectLookupTables",
+        "Name": "Remove all IA-Connect lookup tables",
+        "Description": "Removes all lookup tables currently loaded into the IA-Connect Agent.",
+        "Anchor": "#remove-all-ia-connect-lookup-tables",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveIAConnectLookupTable",
+        "Name": "Remove IA-Connect lookup table",
+        "Description": "Removes a lookup table currently loaded into the IA-Connect Agent.",
+        "Anchor": "#remove-ia-connect-lookup-table",
         "IsDeprecated": false
       },
       {
@@ -30238,6 +30502,705 @@
         "Name": "Wait for Java element to not exist",
         "Description": "Waits for a Java element (typically an individual element within a window such as a button or a text input area) to no longer exist.",
         "Anchor": "#wait-for-java-element-to-not-exist",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "iaconnectjml",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iaconnectjml/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Set Azure AD user's manager",
+        "Description": "Set an Azure Active Directory user's mananger.",
+        "Anchor": "#set-azure-ad-user's-manager",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryAddADGroupMemberByIdentity",
+        "Name": "Add Active Directory group member",
+        "Description": "Add an Active Directory user to an existing Active Directory group where the user and group are specified by identity.",
+        "Anchor": "#add-active-directory-group-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryAddADUser",
+        "Name": "Add Active Directory user",
+        "Description": "Creates a new Active Directory user account.",
+        "Anchor": "#add-active-directory-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryAddADUserToMultipleADGroupsByName",
+        "Name": "Add Active Directory user to multiple groups by name",
+        "Description": "Add an Active Directory user to multiple existing Active Directory groups where the groups are specified by name. IA-Connect adds the user to as many groups as possible and reports on the outcome.",
+        "Anchor": "#add-active-directory-user-to-multiple-groups-by-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryCheckOUExists",
+        "Name": "Check Active Directory OU exists",
+        "Description": "Reports if an Active Directory Organizational Unit (OU) exists.",
+        "Anchor": "#check-active-directory-ou-exists",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryClearADUserAccountExpiration",
+        "Name": "Clear Active Directory user account expiration",
+        "Description": "Clears the expiration date for an Active Directory account.",
+        "Anchor": "#clear-active-directory-user-account-expiration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryCloneADUserGroups",
+        "Name": "Clone Active Directory user group membership",
+        "Description": "Adds the destination Active Directory user to the same Active Directory groups that the first user is a member of, minus the primary group (usually 'Domain users') since it technically isn't a membership.",
+        "Anchor": "#clone-active-directory-user-group-membership",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryCloneADUserProperties",
+        "Name": "Clone Active Directory user properties",
+        "Description": "Configures the specified properties / attributes of the source Active Directory user to the destination Active Directory user.",
+        "Anchor": "#clone-active-directory-user-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryDirSync",
+        "Name": "Perform Active Directory DirSync",
+        "Description": "Performs a synchronisation between Active Directory (on-premises) and Azure Active Directory (cloud). This command must be issued to the server with the 'DirSync' role (i.e. the computer performing the synchronisation).",
+        "Anchor": "#perform-active-directory-dirsync",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryDisableADUserByIdentity",
+        "Name": "Disable Active Directory user account",
+        "Description": "Disables an Active Directory user account. If a user account is disabled, the user cannot logon.",
+        "Anchor": "#disable-active-directory-user-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryEnableADUserByIdentity",
+        "Name": "Enable Active Directory user account",
+        "Description": "Enables an Active Directory user account. If the account is not disabled, this command does nothing.",
+        "Anchor": "#enable-active-directory-user-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryGetADGroupByIdentity",
+        "Name": "Get Active Directory group",
+        "Description": "Returns the properties of a specified Active Directory group.",
+        "Anchor": "#get-active-directory-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryGetADUserByIdentity",
+        "Name": "Get Active Directory user",
+        "Description": "Returns the properties of a specified Active Directory user.",
+        "Anchor": "#get-active-directory-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryGetADUserGroupMembership",
+        "Name": "Get Active Directory user group membership",
+        "Description": "Returns a list of Active Directory groups the specified user is a member of, minus the primary group (usually 'Domain users') since it technically isn't a membership.",
+        "Anchor": "#get-active-directory-user-group-membership",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryGetDomainFQDNFromDN",
+        "Name": "Get Active Directory domain FQDN from DN",
+        "Description": "A utility function. Given an Active Directory user's Distinguished Name (DN), returns the Active Directory domain containing the user.",
+        "Anchor": "#get-active-directory-domain-fqdn-from-dn",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryGetDomainInfo",
+        "Name": "Get Active Directory domain info",
+        "Description": "Retrieves information about an Active Directory domain.",
+        "Anchor": "#get-active-directory-domain-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryGetOUFromUserDN",
+        "Name": "Get Active Directory OU from user DN",
+        "Description": "A utility function. Given an Active Directory user's Distinguished Name (DN), returns the Organizational Unit (OU) the user is located within.",
+        "Anchor": "#get-active-directory-ou-from-user-dn",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryModifyADUserBooleanPropertyByIdentity",
+        "Name": "Modify Active Directory user boolean property",
+        "Description": "Modify an individual boolean (true / false) property of an Active Directory user. This allows you to modify a very specific user setting, including custom properties.",
+        "Anchor": "#modify-active-directory-user-boolean-property",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryModifyADUserProperties",
+        "Name": "Modify Active Directory common user properties",
+        "Description": "Modify common properties of an Active Directory user. You can only assign values to properties, not set them to blank. To set properties to blank, use the action 'Modify Active Directory user string properties'.",
+        "Anchor": "#modify-active-directory-common-user-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryModifyADUserStringPropertyByIdentity",
+        "Name": "Modify Active Directory user string properties",
+        "Description": "Modify individual string property(s) of an Active Directory user. This allows you to modify very specific user settings, including custom properties. You can also set individual user properties to blank.",
+        "Anchor": "#modify-active-directory-user-string-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryMoveADUserToOUByIdentity",
+        "Name": "Move Active Directory user to OU",
+        "Description": "Moves an Active Directory user to an existing Active Directory Organizational Unit (OU).",
+        "Anchor": "#move-active-directory-user-to-ou",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryRemoveADGroupMemberByGroupIdentity",
+        "Name": "Remove Active Directory group member",
+        "Description": "Removes an Active Directory user from an Active Directory group where the group is specified by identity.",
+        "Anchor": "#remove-active-directory-group-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryRemoveADUserByIdentity",
+        "Name": "Remove Active Directory user",
+        "Description": "Removes a user from Active Directory.",
+        "Anchor": "#remove-active-directory-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryRemoveADUserFromAllGroups",
+        "Name": "Remove Active Directory user from all groups",
+        "Description": "Removes an Active Directory user from all of the Active Directory groups they are a member of. IA-Connect removes the user from as many groups as possible and reports on the outcome.",
+        "Anchor": "#remove-active-directory-user-from-all-groups",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryRemoveADUserFromMultipleADGroupsByName",
+        "Name": "Remove Active Directory user from multiple groups by name",
+        "Description": "Removes an Active Directory user from multiple existing Active Directory groups where the groups are specified by name. IA-Connect removes the user from as many groups as possible and reports on the outcome.",
+        "Anchor": "#remove-active-directory-user-from-multiple-groups-by-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryResetADUserPasswordByIdentity",
+        "Name": "Reset Active Directory user password",
+        "Description": "Resets an Active Directory user's password with a new password.",
+        "Anchor": "#reset-active-directory-user-password",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectorySetADServer",
+        "Name": "Set Active Directory server",
+        "Description": "Sets a specific Active Directory server to use for all further Active Directory actions.",
+        "Anchor": "#set-active-directory-server",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectorySetADUserHomeFolderByIdentity",
+        "Name": "Modify Active Directory user home folder",
+        "Description": "Sets the home folder / directory / drive for an Active Directory user.",
+        "Anchor": "#modify-active-directory-user-home-folder",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectorySetADUserProtectedFromAccidentalDeletionByIdentity",
+        "Name": "Set Active Directory user protected from accidental deletion",
+        "Description": "Sets an Active Directory account to be protected (or not protected) from accidental deletion. If you protect an account from accidental deletion, you cannot delete that account until you remove the protection.",
+        "Anchor": "#set-active-directory-user-protected-from-accidental-deletion",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ActiveDirectoryUnlockADAccountByIdentity",
+        "Name": "Unlock Active Directory account",
+        "Description": "Unlock an Active Directory account. If the account is not locked, this command does nothing.",
+        "Anchor": "#unlock-active-directory-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2AddUserToGroup",
+        "Name": "Add Azure AD user to group",
+        "Description": "Add an Azure Active Directory user (or other object) to an existing Azure Active Directory group.",
+        "Anchor": "#add-azure-ad-user-to-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2GetAzureADLicenseSKUs",
+        "Name": "Get Azure AD license SKUs",
+        "Description": "Returns a list of Azure Active Directory license Stock Keeping Units (SKUs) which the connected Azure AD is subscribed to, using the Azure AD v2 PowerShell modules.",
+        "Anchor": "#get-azure-ad-license-skus",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2GetAzureADUserGroupMembership",
+        "Name": "Get Azure AD user group membership",
+        "Description": "Returns a list of Azure Active Directory groups the specified user is a member of, using the Azure AD v2 PowerShell modules.",
+        "Anchor": "#get-azure-ad-user-group-membership",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2GetAzureADUserLicenses",
+        "Name": "Get Azure AD user licenses",
+        "Description": "Retrieves a list of licenses (SKU) assigned to a Azure AD user, using the Azure AD v2 PowerShell modules.",
+        "Anchor": "#get-azure-ad-user-licenses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2GetAzureADUserLicenseServicePlans",
+        "Name": "Get Azure AD user license service plans",
+        "Description": "Retrieves a list of licenses plans assigned to a specified Azure AD user license (SKU), using the Azure AD v2 PowerShell modules. For example: If the user has the FLOW_FREE license assigned, this will allow you to view which service plans they have provisioned to that license.",
+        "Anchor": "#get-azure-ad-user-license-service-plans",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2GetAzureADUsers",
+        "Name": "Get Azure AD users",
+        "Description": "Returns the details of users in Azure Active Directory (known as Azure AD or AAD), using the Azure AD v2 PowerShell modules. You can search by object Id or using a filter. An object Id search should return 0 or 1 results. A filter search could return 0 or more results.",
+        "Anchor": "#get-azure-ad-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2IsUserInAzureADUserGroup",
+        "Name": "Is user in Azure AD user group",
+        "Description": "Returns whether a user is a member of an Azure Active Directory group, using the Azure AD v2 PowerShell modules.",
+        "Anchor": "#is-user-in-azure-ad-user-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2RemoveAllAzureADUserLicense",
+        "Name": "Remove all Azure AD user licenses",
+        "Description": "Removes all Azure AD user license (SKU) assigned to a user, using the Azure AD v2 PowerShell modules.",
+        "Anchor": "#remove-all-azure-ad-user-licenses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2RemoveUserFromAllGroups",
+        "Name": "Remove Azure AD user from all groups",
+        "Description": "Removes an Azure Active Directory user (or other object) from all of the Azure Active Directory groups they are a member of.",
+        "Anchor": "#remove-azure-ad-user-from-all-groups",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2RemoveUserFromGroup",
+        "Name": "Remove Azure AD user from group",
+        "Description": "Removes an Azure Active Directory user (or other object) from an Azure Active Directory group.",
+        "Anchor": "#remove-azure-ad-user-from-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2SetAzureADUser",
+        "Name": "Modify Azure AD user properties",
+        "Description": "Modify common properties of an Azure Active Directory user. You can only assign values to properties, not set them to blank.",
+        "Anchor": "#modify-azure-ad-user-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AzureADv2SetAzureADUserLicense",
+        "Name": "Set Azure AD user license",
+        "Description": "Adds or removes an Azure AD user license (SKU), using the Azure AD v2 PowerShell modules.",
+        "Anchor": "#set-azure-ad-user-license",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CloseActiveDirectoryPowerShellRunspace",
+        "Name": "Disconnect from Active Directory",
+        "Description": "If you have used the action 'Open Active Directory PowerShell runspace with credentials' to run Active Directory PowerShell commands as an alternative user account or to an alternative domain, this action returns the IA-Connect Agent to the default behaviour of running Active Directory actions as the user account the IA-Connect Agent is running as.",
+        "Anchor": "#disconnect-from-active-directory",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CloseAzureADv2PowerShellRunspace",
+        "Name": "Disconnect from Azure AD",
+        "Description": "Disconnects IA-Connect from Azure using the Azure AD v2 PowerShell modules (connected using one of the 'Connect to Azure AD' actions). You will not be able to issue Azure AD v2 actions again until you reconnect.",
+        "Anchor": "#disconnect-from-azure-ad",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CloseExchangePowerShellRunspace",
+        "Name": "Disconnect from Microsoft Exchange",
+        "Description": "Disconnects IA-Connect from a Microsoft Exchange server (connected using the action 'Connect to Microsoft Exchange'). You will not be able to issue Microsoft Exchange PowerShell actions again until you reconnect.",
+        "Anchor": "#disconnect-from-microsoft-exchange",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CloseO365PowerShellRunspace",
+        "Name": "Disconnect from Office 365",
+        "Description": "Disconnects IA-Connect from Office 365 using the Office 365 PowerShell modules (connected using the action 'Connect to Office 365'). You will not be able to issue Office 365 PowerShell actions again until you reconnect.",
+        "Anchor": "#disconnect-from-office-365",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeAddADPermission",
+        "Name": "Add Microsoft Exchange mailbox permission",
+        "Description": "Assign mailbox permissions to an Active Directory object (e.g. user or group).",
+        "Anchor": "#add-microsoft-exchange-mailbox-permission",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeAddDistributionGroupMember",
+        "Name": "Add Microsoft Exchange member to distribution group",
+        "Description": "Add a member (for example a user) to an Exchange distribution group. If the member is already in the group, no action is taken.",
+        "Anchor": "#add-microsoft-exchange-member-to-distribution-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeAddMailboxPermission",
+        "Name": "Add Microsoft Exchange mailbox permission to user",
+        "Description": "Assign mailbox permissions to a specifed mailbox user, user or security group.",
+        "Anchor": "#add-microsoft-exchange-mailbox-permission-to-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeDisableMailbox",
+        "Name": "Disable the Microsoft Exchange mailbox for a user",
+        "Description": "Disable an existing Microsoft Exchange mailbox.",
+        "Anchor": "#disable-the-microsoft-exchange-mailbox-for-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeDisableRemoteMailbox",
+        "Name": "Disable the Microsoft Exchange Online mailbox for a user",
+        "Description": "Disable an existing Microsoft Exchange Online or Office 365 (remote) mailbox. The request is sent via your on-premises Microsoft Exchange server.",
+        "Anchor": "#disable-the-microsoft-exchange-online-mailbox-for-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeDoesMailboxExist",
+        "Name": "Does Microsoft Exchange mailbox exist",
+        "Description": "Returns whether the specified Exchange mailbox exists.",
+        "Anchor": "#does-microsoft-exchange-mailbox-exist",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeDoesRemoteMailboxExist",
+        "Name": "Does Microsoft Exchange Online mailbox exist",
+        "Description": "Returns whether the specified Microsoft Exchange Online or Office 365 (remote) mailbox exists. The request is sent via your on-premises Microsoft Exchange server.",
+        "Anchor": "#does-microsoft-exchange-online-mailbox-exist",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeEnableMailbox",
+        "Name": "Create a Microsoft Exchange mailbox for a user",
+        "Description": "Creates a Microsoft Exchange mailbox for an existing user who doesn't already have a mailbox.",
+        "Anchor": "#create-a-microsoft-exchange-mailbox-for-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeEnableRemoteMailbox",
+        "Name": "Create Microsoft Exchange Online mailbox for a user",
+        "Description": "Creates a Microsoft Exchange Online or Office 365 (remote) mailbox for an existing user in on-premises Active Directory who doesn't already have a mailbox. The request is sent via your on-premises Microsoft Exchange server.",
+        "Anchor": "#create-microsoft-exchange-online-mailbox-for-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeGetDistributionGroup",
+        "Name": "Retrieve Microsoft Exchange distribution group details",
+        "Description": "Retrieve the details of a Microsoft Exchange Distribution group. You can search by Identity or using a filter. An Identity search should return 0 or 1 results. A filter search could return 0 or more results.",
+        "Anchor": "#retrieve-microsoft-exchange-distribution-group-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeGetDistributionGroupMembers",
+        "Name": "Get Microsoft Exchange distribution group members",
+        "Description": "Retrieve a list of the members of a Microsoft Exchange Distribution group.",
+        "Anchor": "#get-microsoft-exchange-distribution-group-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeGetMailbox",
+        "Name": "Retrieve Microsoft Exchange mailbox details",
+        "Description": "Returns the properties of the specified Exchange mailbox. You can search by Identity or using a filter. An Identity search should return 0 or 1 results. A filter search could return 0 or more results.",
+        "Anchor": "#retrieve-microsoft-exchange-mailbox-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeGetMailboxDistributionGroupMembership",
+        "Name": "Retrieve Microsoft Exchange mailbox distribution group membership",
+        "Description": "Retrieve which distribution groups a mailbox is a member of.",
+        "Anchor": "#retrieve-microsoft-exchange-mailbox-distribution-group-membership",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeGetMailboxEmailAddresses",
+        "Name": "Retrieve a Microsoft Exchange mailbox email addresses",
+        "Description": "Retrieves a list of all email addresses assigned to a Microsoft Exchange mailbox. This includes the primary SMTP address, proxy email addresses, X.400 addresses and EUM (Exchange Unified Messaging) addresses.",
+        "Anchor": "#retrieve-a-microsoft-exchange-mailbox-email-addresses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeGetRemoteMailbox",
+        "Name": "Retrieve Microsoft Exchange Online mailbox details",
+        "Description": "Returns the properties of the specified Microsoft Exchange Online or Office 365 (remote) mailbox. The request is sent via your on-premises Microsoft Exchange server. You can search by Identity or using a filter. An Identity search should return 0 or 1 results. A filter search could return 0 or more results.",
+        "Anchor": "#retrieve-microsoft-exchange-online-mailbox-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeGetRemoteMailboxEmailAddresses",
+        "Name": "Retrieve a Microsoft Exchange Online mailbox email addresses",
+        "Description": "Retrieves a list of all email addresses assigned to an existing Microsoft Exchange Online or Office 365 (remote) mailbox. This includes the primary SMTP address, proxy email addresses, X.400 addresses and EUM (Exchange Unified Messaging) addresses.",
+        "Anchor": "#retrieve-a-microsoft-exchange-online-mailbox-email-addresses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeNewDistributionGroup",
+        "Name": "Create a new Microsoft Exchange distribution group",
+        "Description": "Creates a new Microsoft Exchange distribution group or mail-enabled security group.",
+        "Anchor": "#create-a-new-microsoft-exchange-distribution-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeNewRemoteMailbox",
+        "Name": "Create Microsoft Exchange Online mailbox and user account",
+        "Description": "Create a mail-enabled user in on-premises Active Directory and create an associated remote mailbox in Microsoft Exchange Online or Office 365. Only use this action if the user doesn't exist in on-premises Active Directory. If the user already exists, use the action 'Create Microsoft Exchange Online mailbox for a user'. The request is sent via your on-premises Microsoft Exchange server.",
+        "Anchor": "#create-microsoft-exchange-online-mailbox-and-user-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeRemoveDistributionGroup",
+        "Name": "Remove Microsoft Exchange distribution group",
+        "Description": "Remove a Microsoft Exchange distribution group.",
+        "Anchor": "#remove-microsoft-exchange-distribution-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeRemoveDistributionGroupMember",
+        "Name": "Remove Microsoft Exchange member from distribution group",
+        "Description": "Remove a member (for example a user) from an Exchange distribution group. If the member is not in the group, no action is taken.",
+        "Anchor": "#remove-microsoft-exchange-member-from-distribution-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeRemoveMailboxPermission",
+        "Name": "Remove Microsoft Exchange mailbox permission from user",
+        "Description": "Remove mailbox permissions from a specifed mailbox user, user or security group.",
+        "Anchor": "#remove-microsoft-exchange-mailbox-permission-from-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeResetMailboxAttributes",
+        "Name": "Reset the properties on a Microsoft Exchange mailbox",
+        "Description": "Set the specified properties of an existing Microsoft Exchange mailbox to blank.",
+        "Anchor": "#reset-the-properties-on-a-microsoft-exchange-mailbox",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeResetRemoteMailboxAttributes",
+        "Name": "Reset the properties on a Microsoft Exchange Online mailbox",
+        "Description": "Set the specified properties of an existing Microsoft Exchange Online or Office 365 (remote) mailbox to blank.",
+        "Anchor": "#reset-the-properties-on-a-microsoft-exchange-online-mailbox",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeSetADServerToViewEntireForest",
+        "Name": "Set Exchange to view entire Active Directory forest",
+        "Description": "Specify whether the entire Active Directory forest (including sub-domains) is searched / viewed when performing Exchange actions. You may need to use this action if you have multiple linked domains.",
+        "Anchor": "#set-exchange-to-view-entire-active-directory-forest",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeSetMailbox",
+        "Name": "Set the properties on a Microsoft Exchange mailbox",
+        "Description": "Set the properties of an existing Microsoft Exchange mailbox.",
+        "Anchor": "#set-the-properties-on-a-microsoft-exchange-mailbox",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeSetMailboxEmailAddresses",
+        "Name": "Modify a Microsoft Exchange mailbox email addresses",
+        "Description": "Modify the email addresses on a Microsoft Exchange mailbox. You can add, remove and replace primary and alias email addresses.",
+        "Anchor": "#modify-a-microsoft-exchange-mailbox-email-addresses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeSetMailboxSendOnBehalfOfPermission",
+        "Name": "Set Exchange mailbox send on behalf of",
+        "Description": "Specify who can send on behalf of this existing mailbox.",
+        "Anchor": "#set-exchange-mailbox-send-on-behalf-of",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeSetRemoteMailbox",
+        "Name": "Set the properties on a Microsoft Exchange Online mailbox",
+        "Description": "Set the properties of an existing Microsoft Exchange Online or Office 365 (remote) mailbox. The request is sent via your on-premises Microsoft Exchange server.",
+        "Anchor": "#set-the-properties-on-a-microsoft-exchange-online-mailbox",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExchangeSetRemoteMailboxEmailAddresses",
+        "Name": "Modify a Microsoft Exchange Online mailbox email addresses",
+        "Description": "Modify the email addresses on an an existing Microsoft Exchange Online or Office 365 (remote) mailbox. You can add, remove and replace primary and alias email addresses.",
+        "Anchor": "#modify-a-microsoft-exchange-online-mailbox-email-addresses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IsActiveDirectoryPowerShellRunspaceOpen",
+        "Name": "Is connected to Active Directory",
+        "Description": "Reports if IA-Connect is connected to Active Directory. By default, IA-Connect is automatically connected to the Domain the computer running the IA-Connect Agent is a member of, using the account the IA-Connect Agent is running as. Use the action 'Connect to Active Directory with credentials' to connect using alternative credentials or to an alternative domain.",
+        "Anchor": "#is-connected-to-active-directory",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IsAzureADv2PowerShellModuleInstalled",
+        "Name": "Is Azure AD v2 PowerShell module installed",
+        "Description": "Reports if the PowerShell modules required for Azure AD v2 are installed on the computer where the IA-Connect Agent is running.",
+        "Anchor": "#is-azure-ad-v2-powershell-module-installed",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IsAzureADv2PowerShellRunspaceOpen",
+        "Name": "Is connected to Azure AD",
+        "Description": "Reports if IA-Connect is connected to Azure using the Azure AD v2 PowerShell modules. Use one of the 'Connect to Azure AD' actions to connect.",
+        "Anchor": "#is-connected-to-azure-ad",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IsExchangePowerShellRunspaceOpen",
+        "Name": "Is connected to Microsoft Exchange",
+        "Description": "Reports if IA-Connect is connected to a Microsoft Exchange server. Use the action 'Connect to Microsoft Exchange' to connect.",
+        "Anchor": "#is-connected-to-microsoft-exchange",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IsO365PowerShellRunspaceOpen",
+        "Name": "Is connected to Office 365",
+        "Description": "Reports if IA-Connect is connected to Office 365 using the Office 365 PowerShell modules. Use the action 'Connect to Office 365' to connect.",
+        "Anchor": "#is-connected-to-office-365",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JMLGetNextAvailableAccountName",
+        "Name": "Get next available account name",
+        "Description": "Given details regarding the naming format for Active Directory and Exchange account names, provides the details of the next available spare account name. Used to determine which Active Directory and Exchange account to create for a given user. This action does not create any accounts, it provides information regarding name availability.",
+        "Anchor": "#get-next-available-account-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "O365AddDistributionGroupMember",
+        "Name": "Add Office 365 member to distribution group",
+        "Description": "Add a member to a Microsoft Exchange Online or Office 365 distribution group.",
+        "Anchor": "#add-office-365-member-to-distribution-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "O365AddMailboxPermission",
+        "Name": "Add Office 365 mailbox permission to user",
+        "Description": "Assign mailbox permissions to a specifed mailbox user, user or security group.",
+        "Anchor": "#add-office-365-mailbox-permission-to-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "O365GetO365DistributionGroup",
+        "Name": "Get Office 365 distribution group",
+        "Description": "Returns the properties of the specified Microsoft Exchange Online or Office 365 distribution group.",
+        "Anchor": "#get-office-365-distribution-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "O365GetO365Mailbox",
+        "Name": "Get Office 365 mailbox",
+        "Description": "Returns the properties of the specified Microsoft Exchange Online or Office 365 mailbox.",
+        "Anchor": "#get-office-365-mailbox",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "O365NewO365DistributionGroup",
+        "Name": "Create a new Office 365 distribution group",
+        "Description": "Creates a new Microsoft Exchange Online or Office 365 distribution group or mail-enabled security group.",
+        "Anchor": "#create-a-new-office-365-distribution-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "O365SetO365Mailbox",
+        "Name": "Set the properties on a Office 365 mailbox",
+        "Description": "Set the properties on a Microsoft Exchange Online or Office 365 mailbox.",
+        "Anchor": "#set-the-properties-on-a-office-365-mailbox",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "O365WaitForO365Mailbox",
+        "Name": "Wait for a Office 365 mailbox",
+        "Description": "Wait for a specified Microsoft Exchange Online or Office 365 mailbox to exist. This is common if you are waiting for an AD sync or license setting to take effect. If the mailbox already existed, the action will immediately return successful.",
+        "Anchor": "#wait-for-a-office-365-mailbox",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OpenActiveDirectoryPowerShellRunspaceWithCredentials",
+        "Name": "Connect to Active Directory with credentials",
+        "Description": "Allows you to specify an alternative account to use when running Active Directory PowerShell commands. This affects all Active Directory commands issued after this action. If you don't use this action then all Active Directory PowerShell commands will run as the user account the IA-Connect Agent is running as.",
+        "Anchor": "#connect-to-active-directory-with-credentials",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OpenAzureADv2PowerShellRunspace",
+        "Name": "Connect to Azure AD with credentials",
+        "Description": "Connects IA-Connect to Azure AD using the Azure AD v2 PowerShell modules. This action (or 'Connect to Azure AD with certificate') must be issued before running any other Azure AD v2 actions. This action either requires an account which doesn't use MFA (2FA) or you'll need to use the UI automation module to automate the 2FA component (i.e. the one-time password authentication popup). Alternatively, use the action 'Connect to Azure AD with certificate'.",
+        "Anchor": "#connect-to-azure-ad-with-credentials",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OpenAzureADv2PowerShellRunspaceWithCertificate",
+        "Name": "Connect to Azure AD with certificate",
+        "Description": "Connects IA-Connect to Azure AD using the Azure AD v2 PowerShell modules. This action (or 'Connect to Azure AD with credentials') must be issued before running any other Azure AD v2 actions. This action requires an Azure Service Principal and Azure AD app registration with certificate to be setup in Azure AD before it will work, but has the advantage of not requiring MFA (2FA).",
+        "Anchor": "#connect-to-azure-ad-with-certificate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OpenExchangePowerShellRunspace",
+        "Name": "Connect to Microsoft Exchange",
+        "Description": "Connects IA-Connect to a Microsoft Exchange server. This action must be issued before running any other Exchange actions. If you specify a username and password, all subsequent Exchange actions will run as that account. If you don't specify a username and password, all subsequent Exchange actions will run as the user account the IA-Connect Agent is running as.",
+        "Anchor": "#connect-to-microsoft-exchange",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OpenLocalPassthroughActiveDirectoryPowerShellRunspace",
+        "Name": "Connect to default Active Directory domain",
+        "Description": "Connects the IA-Connect Agent to the Domain the computer running the IA-Connect Agent is a member of, using the account the IA-Connect Agent is running as (i.e. the default behaviour).",
+        "Anchor": "#connect-to-default-active-directory-domain",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OpenO365PowerShellRunspace",
+        "Name": "Connect to Office 365 with credentials",
+        "Description": "Connects IA-Connect to Office 365 using the Office 365 PowerShell modules. This action (or 'Connect to Office 365 with certificate') must be issued before running any other Office 365 actions. This action either requires an account which doesn't require MFA (2FA) or you'll need to use the UI automation module to automate the 2FA component (i.e. the one-time password authentication popup). Alternatively, use the action 'Connect to Office 365 with certificate'.",
+        "Anchor": "#connect-to-office-365-with-credentials",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OpenO365PowerShellRunspaceWithCertificate",
+        "Name": "Connect to Office 365 with certificate",
+        "Description": "Connects IA-Connect to Office 365 using the Office 365 PowerShell modules. This action (or 'Connect to Office 365 with credentials') must be issued before running any other Office 365 actions. This action requires an Azure AD app registration with certificate and the correct roles to be setup in Azure AD before it will work, but has the advantage of not requiring MFA (2FA).",
+        "Anchor": "#connect-to-office-365-with-certificate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunActiveDirectoryPowerShellAutomationScript",
+        "Name": "Run Active Directory PowerShell script",
+        "Description": "Runs a PowerShell script in the Active Directory runspace in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. This is the recommended action for running your own custom Active Directory PowerShell code.",
+        "Anchor": "#run-active-directory-powershell-script",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunAzureADv2PowerShellAutomationScript",
+        "Name": "Run Azure AD PowerShell script",
+        "Description": "Runs a PowerShell script in the Azure AD v2 runspace in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. This is the recommended action for running your own custom Azure AD v2 PowerShell code.",
+        "Anchor": "#run-azure-ad-powershell-script",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunExchangePowerShellAutomationScript",
+        "Name": "Run Exchange PowerShell script",
+        "Description": "Runs a PowerShell script in the Exchange runspace in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. This is the recommended action for running your own custom Exchange PowerShell code.",
+        "Anchor": "#run-exchange-powershell-script",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunO365PowerShellAutomationScript",
+        "Name": "Run Office 365 PowerShell script",
+        "Description": "Runs a PowerShell script in the Office 365 runspace in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. Due to Office 365 PowerShell security restrictions, this action is likely to be blocked.",
+        "Anchor": "#run-office-365-powershell-script",
         "IsDeprecated": false
       }
     ]
@@ -32372,6 +33335,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetOrchestratorFlowStats",
+        "Name": "Get Orchestrator Flow stats",
+        "Description": "Returns a list of Flow stats from the IA-Connect Orchestrator. Used for reporting purposes. You can optionally use one or more filters to limit the returned results.",
+        "Anchor": "#get-orchestrator-flow-stats",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetParentProcessId",
         "Name": "Get parent process Id",
         "Description": "Returns the process Id of the parent process for any running process in the IA-Connect Agent user session which has the specified process Id.",
@@ -32446,6 +33416,13 @@
         "Name": "Is screen reader enabled",
         "Description": "Returns whether the screen reader has been enabled in the IA-Connect Agent user session.",
         "Anchor": "#is-screen-reader-enabled",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IsTCPPortResponding",
+        "Name": "Is TCP port responding",
+        "Description": "Reports whether a network TCP port is responding to a connection attempt by the IA-Connect Agent. This could be a TCP port on the computer where the IA-Connect Agent is running (enter 'localhost' for the remote host) or on any remote computer. If the IA-Connect Agent successfully connects to a TCP port, it immediately closes the TCP connection.",
+        "Anchor": "#is-tcp-port-responding",
         "IsDeprecated": false
       },
       {
@@ -32729,6 +33706,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "RunCommand",
+        "Name": "Run generic IA-Connect Agent command",
+        "Description": "Runs a generic IA-Connect Agent command passing arguments as JSON and returning output data as JSON. Used to run Agent commands when the Director and Inspector are older versions than the Agent and hence don't understand the command.",
+        "Anchor": "#run-generic-ia-connect-agent-command",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "RunProcess",
         "Name": "Run process",
         "Description": "Launch a process, command or application.",
@@ -32794,7 +33778,7 @@
       {
         "OperationId": "SetLicenseString",
         "Name": "Set IA-Connect license key",
-        "Description": "Uploads an new-style (7.2 onwards) license to the IA-Connect Agent.",
+        "Description": "Licenses the IA-Connect Agent with a license key. This can be a license string or the friendly name of a license held in the IA-Connect Orchestrator.",
         "Anchor": "#set-ia-connect-license-key",
         "IsDeprecated": false
       },
@@ -32890,6 +33874,62 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "TasksAddNewDeferral",
+        "Name": "Add new Orchestrator deferred task",
+        "Description": "Add a new Orchestrator deferred task into a queue that can be monitored from a Flow. The task will be deferred to a specified time in the future. Use this action to temporarily suspend a task for a specified amount of time (for example if you are waiting for something).",
+        "Anchor": "#add-new-orchestrator-deferred-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TasksAddNewTask",
+        "Name": "Add new Orchestrator automation task",
+        "Description": "Add a new Orchestrator automation task into a queue that can be monitored from a Flow. Tasks can either be ready to run immediately or be deferred to run at a later time.",
+        "Anchor": "#add-new-orchestrator-automation-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TasksChangeTaskStatus",
+        "Name": "Change Orchestrator automation task status",
+        "Description": "Changes the selected Orchestrator automation task status to completed, failed or new.",
+        "Anchor": "#change-orchestrator-automation-task-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TasksDeferExistingTask",
+        "Name": "Defer existing Orchestrator automation task",
+        "Description": "Defer an existing Orchestrator task which is already in the queue. The task will be deferred to a specified time in the future. This is commonly used to re-defer an existing task (i.e. the task was previously deferred and now needs to be deferred again). Use this action to temporarily suspend a task for a specified amount of time (for example if you are waiting for something).",
+        "Anchor": "#defer-existing-orchestrator-automation-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TasksDeleteTask",
+        "Name": "Delete Orchestrator automation task",
+        "Description": "Delete an Orchestrator automation task that has been deferred.",
+        "Anchor": "#delete-orchestrator-automation-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TasksGetAllTasks",
+        "Name": "Get all Orchestrator automation tasks",
+        "Description": "Retrieves all the Orchestrator automation tasks that match the filters.",
+        "Anchor": "#get-all-orchestrator-automation-tasks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TasksGetNextTask",
+        "Name": "Get next Orchestrator automation task",
+        "Description": "Retrieves the next Orchestrator automation task matching the given search critieria.",
+        "Anchor": "#get-next-orchestrator-automation-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TasksGetTask",
+        "Name": "Get Orchestrator automation task",
+        "Description": "Retrieves a specfic Orchestrator automation task.",
+        "Anchor": "#get-orchestrator-automation-task",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "TurnMouseWheel",
         "Name": "Turn mouse wheel",
         "Description": "Turns the mouse wheel (positive or negative notches) in the IA-Connect Agent user session.",
@@ -32901,6 +33941,13 @@
         "Name": "UnZIP file",
         "Description": "Unzips a file which has been compressed using ZIP compression.",
         "Anchor": "#unzip-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateOrchestratorFlowStatsResult",
+        "Name": "Update Orchestrator Flow stats result",
+        "Description": "Update the result statistics for the current Worker Flow in the IA-Connect Orchestrator. This is used to modify the final result of a Flow stat in the IA-Connect Orchestator which is typically used for reporting purposes. This only works for the current Flow (the Orchestrator detects the Flow run Id). You cannot modify the stats for any other Flow.",
+        "Anchor": "#update-orchestrator-flow-stats-result",
         "IsDeprecated": false
       },
       {
@@ -37006,6 +38053,222 @@
     ]
   },
   {
+    "UniqueName": "jedoxodatahub",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../jedoxodatahub/",
+    "Actions": [
+      {
+        "OperationId": "CubeById",
+        "Name": "Get cube by ID",
+        "Description": "Get the cube with the given ID in the given database. To prevent issues with the URL encodings, Attribute cubes will be renamed, e.g. #_Years to ATT_Years.",
+        "Anchor": "#get-cube-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CubeCells",
+        "Name": "Get cube cells",
+        "Description": "Get the cells from a cube. This returns the cells' values and element names. If the cell has a string value, the value is instead stored in the stringValue field. Element names are stored in dynamic properties.",
+        "Anchor": "#get-cube-cells",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Cubes",
+        "Name": "Get cubes",
+        "Description": "Get a list of cubes in the given database. To prevent issues with the URL encodings, Attribute cubes will be renamed, e.g. #_Years to ATT_Years.",
+        "Anchor": "#get-cubes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DatabaseById",
+        "Name": "Get database by id",
+        "Description": "Get the database with the given ID.",
+        "Anchor": "#get-database-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Databases",
+        "Name": "Get databases",
+        "Description": "Get a list of databases found in the server. System and config databases are excluded from the list, but can be requested by providing the ID.",
+        "Anchor": "#get-databases",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DimensionById",
+        "Name": "Get dimension by ID",
+        "Description": "Get the dimension with the given ID in the given database.",
+        "Anchor": "#get-dimension-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Dimensions",
+        "Name": "Get dimensions",
+        "Description": "Get a list of dimensions in the given database.",
+        "Anchor": "#get-dimensions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ElementById",
+        "Name": "Get element by ID",
+        "Description": "Returns the element with the given ID in the given dimension.",
+        "Anchor": "#get-element-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Elements",
+        "Name": "Get elements",
+        "Description": "Get a list of elements in the given dimension.",
+        "Anchor": "#get-elements",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExtractByName",
+        "Name": "Get extract by Name",
+        "Description": "Get the extract with the given name in the given integrator project.",
+        "Anchor": "#get-extract-by-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExtractRows",
+        "Name": "Get extract rows",
+        "Description": "Stream the rows of the extract with the given name in the given integrator project.",
+        "Anchor": "#get-extract-rows",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Extracts",
+        "Name": "Get extracts",
+        "Description": "Get a list of extracts in the given integrator project.",
+        "Anchor": "#get-extracts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IntegratorProjectGroups",
+        "Name": "Get Integrator project groups",
+        "Description": "Get a list of integrator project groups found in the server.",
+        "Anchor": "#get-integrator-project-groups",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IntegratorProjects",
+        "Name": "Get Integrator projects",
+        "Description": "Get a list of integrator projects found in the server.",
+        "Anchor": "#get-integrator-projects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IntegratorProjectsById",
+        "Name": "Get Integrator project group by identifier",
+        "Description": "Get the project group with the given ID.",
+        "Anchor": "#get-integrator-project-group-by-identifier",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IntegratorProjectsByName",
+        "Name": "Get Integrator project by name",
+        "Description": "Get the integrator project with the given name.",
+        "Anchor": "#get-integrator-project-by-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JobByName",
+        "Name": "Get job by name",
+        "Description": "Get the jobs with the given name in the given integrator project.",
+        "Anchor": "#get-job-by-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Jobs",
+        "Name": "Get jobs",
+        "Description": "Get a list of jobs in the given integrator project.",
+        "Anchor": "#get-jobs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LoadByName",
+        "Name": "Get load by name",
+        "Description": "Get the transform with the given name in the given integrator project.",
+        "Anchor": "#get-load-by-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Loads",
+        "Name": "Get loads",
+        "Description": "Get a list of loads in the given integrator project.",
+        "Anchor": "#get-loads",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunJob",
+        "Name": "Run job",
+        "Description": "Run the job with the given name in the given integrator project. The execution will be added to the queue.",
+        "Anchor": "#run-job",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunJobWithVariables",
+        "Name": "Run job with variables",
+        "Description": "Run the job with the given name in the given integrator project. The execution will be added to the queue.",
+        "Anchor": "#run-job-with-variables",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunLoad",
+        "Name": "Run load",
+        "Description": "Run the load with the given name in the given integrator project. The execution will be added to the queue.",
+        "Anchor": "#run-load",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RunLoadWithVariables",
+        "Name": "Run load with variables",
+        "Description": "Run the load with the given name in the given integrator project. The execution will be added to the queue.",
+        "Anchor": "#run-load-with-variables",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TransformByName",
+        "Name": "Get transform by name",
+        "Description": "Get the transform with the given name in the given integrator project.",
+        "Anchor": "#get-transform-by-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TransformRows",
+        "Name": "Get transform Rows",
+        "Description": "Stream the rows of the transform with the given name in the given integrator project.",
+        "Anchor": "#get-transform-rows",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Transforms",
+        "Name": "Get transforms",
+        "Description": "Get a list of transforms in the given integrator project.",
+        "Anchor": "#get-transforms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ViewById",
+        "Name": "Get stored view by ID",
+        "Description": "Get the view with the given ID in the given database.",
+        "Anchor": "#get-stored-view-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ViewCells",
+        "Name": "Get stored view cells",
+        "Description": "Get all cells from a view. This returns the cells' values and element names. If the cell has a string value, the value is instead stored in the stringValue field. Element names are stored in dynamic properties.",
+        "Anchor": "#get-stored-view-cells",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Views",
+        "Name": "Get stored views",
+        "Description": "Get a list of stored views in the given database.",
+        "Anchor": "#get-stored-views",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "jira",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../jira/",
     "Actions": [
@@ -37014,6 +38277,13 @@
         "Name": "Add comment",
         "Description": "This operation is used to add a comment to an existing JIRA issue.",
         "Anchor": "#add-comment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CancelTask",
+        "Name": "Cancel Task",
+        "Description": "Cancels a task. Permissions required: either of: Administer Jira or Creator of the task.",
+        "Anchor": "#cancel-task",
         "IsDeprecated": false
       },
       {
@@ -37038,10 +38308,52 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateProjectCategory",
+        "Name": "Create Project Category",
+        "Description": "Creates a project category. Permissions required: Administer Jira (global permissions)",
+        "Anchor": "#create-project-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteProject",
+        "Name": "Delete Project",
+        "Description": "Deletes a project. Permissions required: Administer Jira (global permissions)",
+        "Anchor": "#delete-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditIssue",
+        "Name": "Edit Issue",
+        "Description": "Edits an issue. A transition may be applied and issue properties updated as part of the edit.",
+        "Anchor": "#edit-issue",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllProjectCategories",
+        "Name": "Get All Project Categories",
+        "Description": "Returns all project categories.",
+        "Anchor": "#get-all-project-categories",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetIssue",
         "Name": "Get issue by key",
         "Description": "This operation is used to retrieve the issue object for a given issue Key.",
         "Anchor": "#get-issue-by-key",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTask",
+        "Name": "Get Task",
+        "Description": "Returns the status of a long-running asynchronous task. When a task has finished, this operation returns the JSON blob applicable to the task.",
+        "Anchor": "#get-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUser",
+        "Name": "Get User",
+        "Description": "Returns a user. Permissions required: Browse users and groups.",
+        "Anchor": "#get-user",
         "IsDeprecated": false
       },
       {
@@ -37084,6 +38396,20 @@
         "Name": "When a new issue is returned by a JQL query",
         "Description": "This operation triggers when a new issue appears in the latest 100 results of a JQL query.",
         "Anchor": "#when-a-new-issue-is-returned-by-a-jql-query",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveProjectCategory",
+        "Name": "Remove Project Category",
+        "Description": "Deletes a project category. Permissions required: Administer Jira (global permissions)",
+        "Anchor": "#remove-project-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateProject",
+        "Name": "Update Project",
+        "Description": "Updates the project details of a project.",
+        "Anchor": "#update-project",
         "IsDeprecated": false
       }
     ]
@@ -41950,6 +43276,13 @@
         "IsDeprecated": true
       },
       {
+        "OperationId": "TeamsCardTrigger",
+        "Name": "When someone responds to an adaptive card",
+        "Description": "This trigger allows you to handle responses for an adaptive card posted in Microsoft Teams. (Available only for Power Automate.)",
+        "Anchor": "#when-someone-responds-to-an-adaptive-card",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "TimeOffRequestApprove",
         "Name": "Shifts: Approve a Time Off request [DEPRECATED]",
         "Description": "This action has been deprecated. Please use Approve a Time Off request instead.\nThis operation allows managers to approve a time off request.",
@@ -42348,6 +43681,19 @@
     "UniqueName": "moduleq",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../moduleq/",
     "Actions": []
+  },
+  {
+    "UniqueName": "mondaycomip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mondaycomip/",
+    "Actions": [
+      {
+        "OperationId": "CallGraphQL",
+        "Name": "Call GraphQL",
+        "Description": "Call GraphQL",
+        "Anchor": "#call-graphql",
+        "IsDeprecated": false
+      }
+    ]
   },
   {
     "UniqueName": "motawordtranslations",
@@ -43704,6 +45050,33 @@
         "Name": "Send Survey",
         "Description": "Add a respondent and send a survey to that person",
         "Anchor": "#send-survey",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "nunify",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nunify/",
+    "Actions": [
+      {
+        "OperationId": "ADD_REGISTRANT",
+        "Name": "Add Registrant",
+        "Description": "Registers an attendee to your event in nunify and issues a ticket for them.",
+        "Anchor": "#add-registrant",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NEW_CHECKIN",
+        "Name": "Attendee Check-In",
+        "Description": "Triggers when an attendee has checked in to a location or nunify event.",
+        "Anchor": "#attendee-check-in",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NEW_REGISTRATION",
+        "Name": "New Registration",
+        "Description": "Triggers when an attendee registers for a nunify event.",
+        "Anchor": "#new-registration",
         "IsDeprecated": false
       }
     ]
@@ -53031,6 +54404,222 @@
     ]
   },
   {
+    "UniqueName": "raribleip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../raribleip/",
+    "Actions": [
+      {
+        "OperationId": "aggregateNftPurchaseByCollection",
+        "Name": "Aggregate NFT purchase by collection",
+        "Description": "Aggregate NFT purchase by collection",
+        "Anchor": "#aggregate-nft-purchase-by-collection",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "aggregateNftPurchaseByTaker",
+        "Name": "Aggregate NFT purchase by taker",
+        "Description": "Aggregate NFT purchase by taker",
+        "Anchor": "#aggregate-nft-purchase-by-taker",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "aggregateNftSellByMaker",
+        "Name": "Aggregate NFT sell order by maker",
+        "Description": "Aggregate NFT sell order by maker",
+        "Anchor": "#aggregate-nft-sell-order-by-maker",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "generateNftTokenId",
+        "Name": "Returns next available tokenId for minter",
+        "Description": "Returns next available tokenId for minter",
+        "Anchor": "#returns-next-available-tokenid-for-minter",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getCurrenciesByBidOrdersOfItem",
+        "Name": "Returns currencies made as payment in all bid orders of the item",
+        "Description": "Returns currencies made as payment in all bid orders of the item",
+        "Anchor": "#returns-currencies-made-as-payment-in-all-bid-orders-of-the-item",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getCurrenciesBySellOrdersOfItem",
+        "Name": "Returns currencies taken as payment in all sell orders of the item",
+        "Description": "Returns currencies taken as payment in all sell orders of the item",
+        "Anchor": "#returns-currencies-taken-as-payment-in-all-sell-orders-of-the-item",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getErc20Balance",
+        "Name": "Return an ERC20 token balance",
+        "Description": "Return an ERC20 token balance",
+        "Anchor": "#return-an-erc20-token-balance",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftAllItems",
+        "Name": "Returns all NFT items",
+        "Description": "Returns all NFT items",
+        "Anchor": "#returns-all-nft-items",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftAllOwnerships",
+        "Name": "Return all NFTs by Owner",
+        "Description": "Return all NFTs by Owner",
+        "Anchor": "#return-all-nfts-by-owner",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftCollectionById",
+        "Name": "Returns collection by address",
+        "Description": "Returns collection by address",
+        "Anchor": "#returns-collection-by-address",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftItemById",
+        "Name": "Returns the NFT item by identifier",
+        "Description": "Returns the NFT item by identifier",
+        "Anchor": "#returns-the-nft-item-by-identifier",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftItemMetaById",
+        "Name": "Returns the NFT item meta by identifier",
+        "Description": "Returns the NFT item meta by identifier",
+        "Anchor": "#returns-the-nft-item-meta-by-identifier",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftItemRoyaltyById",
+        "Name": "Returns item royalty by identifier",
+        "Description": "Returns item royalty by identifier",
+        "Anchor": "#returns-item-royalty-by-identifier",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftItemsByCollection",
+        "Name": "Returns the NFT items by collection",
+        "Description": "Returns the NFT items by collection",
+        "Anchor": "#returns-the-nft-items-by-collection",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftItemsByCreator",
+        "Name": "Returns the NFT item by creator",
+        "Description": "Returns the NFT item by creator",
+        "Anchor": "#returns-the-nft-item-by-creator",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftItemsByOwner",
+        "Name": "Returns the NFT item by owner",
+        "Description": "Returns the NFT item by owner",
+        "Anchor": "#returns-the-nft-item-by-owner",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftLazyItemById",
+        "Name": "Returns the NFT lazy item by identifier",
+        "Description": "Returns the NFT lazy item by identifier",
+        "Anchor": "#returns-the-nft-lazy-item-by-identifier",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftOwnershipById",
+        "Name": "Return NFTs by Ownership ID",
+        "Description": "Return NFTs by Ownership ID",
+        "Anchor": "#return-nfts-by-ownership-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNftOwnershipsByItem",
+        "Name": "Return NFTs by Item",
+        "Description": "Return NFTs by Item",
+        "Anchor": "#return-nfts-by-item",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getOrderBidsByItemAndByStatus",
+        "Name": "Returns all order bids by item and order status",
+        "Description": "Returns all order bids by item and order status",
+        "Anchor": "#returns-all-order-bids-by-item-and-order-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getOrderBidsByMakerAndByStatus",
+        "Name": "Returns all order bids by maker and order status",
+        "Description": "Returns all order bids by maker and order status",
+        "Anchor": "#returns-all-order-bids-by-maker-and-order-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getOrderByHash",
+        "Name": "Returns the order by order hash",
+        "Description": "Returns the order by order hash",
+        "Anchor": "#returns-the-order-by-order-hash",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getOrdersAllByStatus",
+        "Name": "Returns all orders with status sorting",
+        "Description": "Returns all orders with status sorting",
+        "Anchor": "#returns-all-orders-with-status-sorting",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getSellOrdersByCollectionAndByStatus",
+        "Name": "Returns all orders for sale by collection and order status",
+        "Description": "Returns all orders for sale by collection and order status",
+        "Anchor": "#returns-all-orders-for-sale-by-collection-and-order-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getSellOrdersByItemAndByStatus",
+        "Name": "Returns all orders for sale by item and order status",
+        "Description": "Returns all orders for sale by item and order status",
+        "Anchor": "#returns-all-orders-for-sale-by-item-and-order-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getSellOrdersByMakerAndByStatus",
+        "Name": "Returns all orders for sale by maker and order status",
+        "Description": "Returns all orders for sale by maker and order status",
+        "Anchor": "#returns-all-orders-for-sale-by-maker-and-order-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getSellOrdersByStatus",
+        "Name": "Returns all orders for sale by order status",
+        "Description": "Returns all orders for sale by order status",
+        "Anchor": "#returns-all-orders-for-sale-by-order-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "searchNftAllCollections",
+        "Name": "Returns all NFT collections",
+        "Description": "Returns all NFT collections",
+        "Anchor": "#returns-all-nft-collections",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "searchNftCollectionsByOwner",
+        "Name": "Returns collection by owner",
+        "Description": "Returns collection by owner",
+        "Anchor": "#returns-collection-by-owner",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "updateOrderMakeStock",
+        "Name": "Update stock of the order by order hash",
+        "Description": "Update stock of the order by order hash",
+        "Anchor": "#update-stock-of-the-order-by-order-hash",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "recordedfuture",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../recordedfuture/",
     "Actions": [
@@ -53354,6 +54943,103 @@
     ]
   },
   {
+    "UniqueName": "replicon",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../replicon/",
+    "Actions": [
+      {
+        "OperationId": "BulkGetProjectDetails3",
+        "Name": "Get Project Details",
+        "Description": "Get the project details from Replicon",
+        "Anchor": "#get-project-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BulkGetTimeEnteredSummary",
+        "Name": "Get Time Entered Summary",
+        "Description": "Get Time Entered by Task Uri from Replicon",
+        "Anchor": "#get-time-entered-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateProjectOrApplyModifications",
+        "Name": "Create Project Or Apply Modifications",
+        "Description": "Create Project Or Apply Modifications in Replicon",
+        "Anchor": "#create-project-or-apply-modifications",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateTaskHierarchyOrApplyModifications",
+        "Name": "Create Task Hierarchy Or Apply Modifications",
+        "Description": "Create Task Hierarchy Or Apply Modifications to a Replicon Task",
+        "Anchor": "#create-task-hierarchy-or-apply-modifications",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDescendantTaskDetails",
+        "Name": "Get Descendant Task Details",
+        "Description": "Get Hierarchial Task Details from Replicon",
+        "Anchor": "#get-descendant-task-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMyTenantEndpointDetails",
+        "Name": "Get Tenant End Point Details",
+        "Description": "Get End Point Details of the Tenant",
+        "Anchor": "#get-tenant-end-point-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTimesheetSummary",
+        "Name": "Get Timesheet Summary",
+        "Description": "Get Timesheet Summary from Replicon",
+        "Anchor": "#get-timesheet-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MoveTask",
+        "Name": "Move Task",
+        "Description": "Move Task to a new Parent",
+        "Anchor": "#move-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PutProjectTeamMemberAssignments",
+        "Name": "Put Project Team Member Assignments",
+        "Description": "Rewrite Team Member assignment of Project",
+        "Anchor": "#put-project-team-member-assignments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PutResourceAssignments",
+        "Name": "Rewrite Resource Assignment of a task",
+        "Description": "Update the Resource assignment to a specified task",
+        "Anchor": "#rewrite-resource-assignment-of-a-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TaskListServiceGetData",
+        "Name": "Task List Service Get Data",
+        "Description": "Get Task List Service Data From Replicon",
+        "Anchor": "#task-list-service-get-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserListServiceGetData",
+        "Name": "Get User List",
+        "Description": "Get User List Data from Replicon",
+        "Anchor": "#get-user-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WebhookSubscriptionsRestAPI",
+        "Name": "Subscribe to Event triggers",
+        "Description": "Trigger to Subscribe to Web hook eventis in Replicon",
+        "Anchor": "#subscribe-to-event-triggers",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "rescocloud",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rescocloud/",
     "Actions": [
@@ -53438,6 +55124,222 @@
         "Name": "ALL",
         "Description": "ALL",
         "Anchor": "#all",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "revelationhelpdesk",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../revelationhelpdesk/",
+    "Actions": [
+      {
+        "OperationId": "AddAction",
+        "Name": "Add an action",
+        "Description": "Add an action to an existing ticket in Revelation helpdesk",
+        "Anchor": "#add-an-action",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssetCreatedWebhook",
+        "Name": "When a Asset is created",
+        "Description": "This operation is triggered when an Asset is created",
+        "Anchor": "#when-a-asset-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssetUpdatedWebhook",
+        "Name": "When a Asset is updated",
+        "Description": "This operation is triggered when an Asset is updated",
+        "Anchor": "#when-a-asset-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClientCreatedWebhook",
+        "Name": "When a Client is created",
+        "Description": "This operation is triggered when a Client is created",
+        "Anchor": "#when-a-client-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClientUpdatedWebhook",
+        "Name": "When a Client is updated",
+        "Description": "This operation is triggered when a Client is updated",
+        "Anchor": "#when-a-client-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateAsset",
+        "Name": "Create Asset",
+        "Description": "Create a new Asset",
+        "Anchor": "#create-asset",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateClient",
+        "Name": "Create Client",
+        "Description": "Create a new Client (Company) in Revelation helpdesk",
+        "Anchor": "#create-client",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOffice",
+        "Name": "Create Office",
+        "Description": "Create a new Office in Revelation helpdesk",
+        "Anchor": "#create-office",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateUser",
+        "Name": "Create User",
+        "Description": "Create a new User",
+        "Anchor": "#create-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindUser",
+        "Name": "Find a user",
+        "Description": "Find a single User in Revelation helpdesk",
+        "Anchor": "#find-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAsset",
+        "Name": "Get an existing Asset",
+        "Description": "Get an existing Asset in Revelation helpdesk",
+        "Anchor": "#get-an-existing-asset",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTicket",
+        "Name": "Get an existing Ticket",
+        "Description": "Get an existing Ticket by ID in Revelation helpdesk",
+        "Anchor": "#get-an-existing-ticket",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LogTicket",
+        "Name": "Log a new Ticket",
+        "Description": "Log a new Ticket in Revelation helpdesk",
+        "Anchor": "#log-a-new-ticket",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OfficeCreatedWebhook",
+        "Name": "When a Office is created",
+        "Description": "This operation is triggered when an Office is created",
+        "Anchor": "#when-a-office-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OfficeUpdatedWebhook",
+        "Name": "When a Office is updated",
+        "Description": "This operation is triggered when an Office is updated",
+        "Anchor": "#when-a-office-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Reassign",
+        "Name": "Reassign a Ticket",
+        "Description": "Reassign a ticket in Revelation helpdesk",
+        "Anchor": "#reassign-a-ticket",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchAsset",
+        "Name": "Search for Assets",
+        "Description": "Search for existing Assets in Revelation helpdesk",
+        "Anchor": "#search-for-assets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SetPriority",
+        "Name": "Set Ticket Priority",
+        "Description": "Set the Priority of an existing Ticket",
+        "Anchor": "#set-ticket-priority",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SetStatus",
+        "Name": "Set Ticket Status",
+        "Description": "Change the Status of a Ticket in Revelation helpdesk",
+        "Anchor": "#set-ticket-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SetTicketType",
+        "Name": "Set Ticket Type",
+        "Description": "Sets the Ticket Type of an existing Ticket",
+        "Anchor": "#set-ticket-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TicketAtRiskWebhook",
+        "Name": "When a Ticket is at risk",
+        "Description": "This operation is triggered when a Ticket is at risk",
+        "Anchor": "#when-a-ticket-is-at-risk",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TicketClosedWebhook",
+        "Name": "When a Ticket is closed",
+        "Description": "This operation is triggered when a Ticket is closed",
+        "Anchor": "#when-a-ticket-is-closed",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TicketDeletedWebhook",
+        "Name": "When a Ticket is deleted",
+        "Description": "This operation is triggered when a Ticket is deleted",
+        "Anchor": "#when-a-ticket-is-deleted",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TicketDueWebhook",
+        "Name": "When a Ticket is due",
+        "Description": "This operation is triggered when a Ticket is due",
+        "Anchor": "#when-a-ticket-is-due",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TicketLoggedWebhook",
+        "Name": "When a Ticket is logged",
+        "Description": "This operation is triggered when a Ticket is logged.",
+        "Anchor": "#when-a-ticket-is-logged",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TicketReopenedWebhook",
+        "Name": "When a Ticket is reopened",
+        "Description": "This operation is triggered when a Ticket is reopened",
+        "Anchor": "#when-a-ticket-is-reopened",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TicketUpdatedWebhook",
+        "Name": "When a Ticket is updated",
+        "Description": "This operation is triggered when a Ticket is updated (action added).",
+        "Anchor": "#when-a-ticket-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateAsset",
+        "Name": "Update Asset",
+        "Description": "Update an existing Asset",
+        "Anchor": "#update-asset",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserCreatedWebhook",
+        "Name": "When a User is created",
+        "Description": "This operation is triggered when an User is created",
+        "Anchor": "#when-a-user-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserUpdatedWebhook",
+        "Name": "When a User is updated",
+        "Description": "This operation is triggered when an User is updated",
+        "Anchor": "#when-a-user-is-updated",
         "IsDeprecated": false
       }
     ]
@@ -55564,33 +57466,6 @@
         "Name": "Update User",
         "Description": "Updates a user with the given data. Tags will be replaced.",
         "Anchor": "#update-user",
-        "IsDeprecated": false
-      }
-    ]
-  },
-  {
-    "UniqueName": "securemessagedelivery",
-    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../securemessagedelivery/",
-    "Actions": [
-      {
-        "OperationId": "RetractMessageAsync",
-        "Name": "Retract a Secure Message",
-        "Description": "Retract a secure message that was previously sent.",
-        "Anchor": "#retract-a-secure-message",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "SendSecureMessageAsync",
-        "Name": "Send a Secure Message",
-        "Description": "Sends a message in a secure manner ensuring the data is not corrupted.",
-        "Anchor": "#send-a-secure-message",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "TrackMessageAsync",
-        "Name": "Track a Secure Message",
-        "Description": "Track a secure message to ensure the message is delivered and opened.",
-        "Anchor": "#track-a-secure-message",
         "IsDeprecated": false
       }
     ]
@@ -63271,6 +65146,243 @@
         "Name": "Retrieve an asset or inventory record",
         "Description": "This operation will enable you to retrieve data from an existing asset or inventory service.",
         "Anchor": "#retrieve-an-asset-or-inventory-record",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "verified",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../verified/",
+    "Actions": [
+      {
+        "OperationId": "DeleteEnvelopesEnvelopeId",
+        "Name": "Delete envelope by id",
+        "Description": "Delets an envelope identified by its id",
+        "Anchor": "#delete-envelope-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteEnvelopesEnvelopeIdDocumentsDocumentId",
+        "Name": "Delete document by id",
+        "Description": "Deletes a document from the Verified Portal.",
+        "Anchor": "#delete-document-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAuthUserinfo",
+        "Name": "Get user information",
+        "Description": "Gets information of the currently logged in user",
+        "Anchor": "#get-user-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCompaniesCompanyId",
+        "Name": "Get company by id",
+        "Description": "Gets company information by company id.",
+        "Anchor": "#get-company-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCompaniesCompanyIdUsersUserIdSettings",
+        "Name": "Get user settings",
+        "Description": "Gets a users settings by userid",
+        "Anchor": "#get-user-settings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvelopeDescriptors",
+        "Name": "Get all descriptors",
+        "Description": "Gets a list of all descriptors present in the current company. The list could be filtered.",
+        "Anchor": "#get-all-descriptors",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvelopeDescriptorsDefault",
+        "Name": "Get default descriptor",
+        "Description": "Gets the default descriptor for envelopes",
+        "Anchor": "#get-default-descriptor",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvelopeDescriptorsEnvelopeDescriptorId",
+        "Name": "Get descriptor by id",
+        "Description": "Gets information of a given descriptor by its Id",
+        "Anchor": "#get-descriptor-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvelopesEnvelopeId",
+        "Name": "Get envelope by id",
+        "Description": "Gets envelope details by envelope id",
+        "Anchor": "#get-envelope-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvelopesEnvelopeIdDocuments",
+        "Name": "Get all documents by envelopeid",
+        "Description": "Get all documents related to a given envelope",
+        "Anchor": "#get-all-documents-by-envelopeid",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvelopesEnvelopeIdDocumentsDocumentId",
+        "Name": "Get document by id",
+        "Description": "Gets document information by its id",
+        "Anchor": "#get-document-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvelopesEnvelopeIdDocumentsDocumentIdFiles",
+        "Name": "Get files by document id",
+        "Description": "Get all files connected to a given document",
+        "Anchor": "#get-files-by-document-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvelopesEnvelopeIdDocumentsDocumentIdFilesFileId",
+        "Name": "Get file by id",
+        "Description": "Gets information about a file by its id.",
+        "Anchor": "#get-file-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvelopesEnvelopeIdDocumentsDocumentIdFilesFileIdUrl",
+        "Name": "Get file URL by id",
+        "Description": "Gets the url to a file by the file id.",
+        "Anchor": "#get-file-url-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvelopesEnvelopeIdRecipients",
+        "Name": "Get all envelope recipients",
+        "Description": "Gets all recipients of a given envelope",
+        "Anchor": "#get-all-envelope-recipients",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEnvelopesEnvelopeIdRecipientsRecipientId",
+        "Name": "Get specific recipient for an envelope",
+        "Description": "Gets a specific recipient for a given envelope",
+        "Anchor": "#get-specific-recipient-for-an-envelope",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFlowsFlowIdJobsEnvelopeId",
+        "Name": "Get flow state by envelopeid",
+        "Description": "Gets the current flow state of a given envelope",
+        "Anchor": "#get-flow-state-by-envelopeid",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetQueryEnvelopes",
+        "Name": "Query all envelopes",
+        "Description": "Queries all envelopes matching a given filter",
+        "Anchor": "#query-all-envelopes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostAuthenticate",
+        "Name": "Generate security token",
+        "Description": "Get's the authentication token from the Verified API.",
+        "Anchor": "#generate-security-token",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostEnvelopeDescriptorsDefaultEnvelopes",
+        "Name": "Create envelope - default",
+        "Description": "Creates a new envelope using the default descriptor",
+        "Anchor": "#create-envelope---default",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostEnvelopeDescriptorsEnvelopeDescriptorIdEnvelopes",
+        "Name": "Create envelope - descriptor",
+        "Description": "Creates an envelope based on a specific descriptor.",
+        "Anchor": "#create-envelope---descriptor",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostEnvelopesEnvelopeIdDocuments",
+        "Name": "Add document to envelope",
+        "Description": "Add a new document to an existing envelope",
+        "Anchor": "#add-document-to-envelope",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostEnvelopesEnvelopeIdDocumentsDocumentIdFiles",
+        "Name": "Add file to document",
+        "Description": "Adds a file to a existing document",
+        "Anchor": "#add-file-to-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostEnvelopesEnvelopeIdDocumentsDocumentIdStatusAborted",
+        "Name": "Set document abort status",
+        "Description": "Sets the status of a given document to aborted",
+        "Anchor": "#set-document-abort-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostEnvelopesEnvelopeIdDocumentsDocumentIdTemplatesTemplateIdUserData",
+        "Name": "Generate Document from Template",
+        "Description": "Generates a document from a preconfigured template.",
+        "Anchor": "#generate-document-from-template",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostEnvelopesEnvelopeIdJobsGetSignLink",
+        "Name": "Create signature link",
+        "Description": "Implementation is flow specific and may be missing for your specific flow.",
+        "Anchor": "#create-signature-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostEnvelopesEnvelopeIdRecipients",
+        "Name": "Add recipient to envelope",
+        "Description": "Adds a recipient to a given envelope",
+        "Anchor": "#add-recipient-to-envelope",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostEnvelopesEnvelopIdJobsSendNotification",
+        "Name": "Send notification",
+        "Description": "Sends a notification to recepients of a given envelope,",
+        "Anchor": "#send-notification",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PutEnvelopesEnvelopeId",
+        "Name": "Update envelope settings",
+        "Description": "Updates Settings of a given envelope.",
+        "Anchor": "#update-envelope-settings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PutEnvelopesEnvelopeIdAbortStatus",
+        "Name": "Set envelope abort status",
+        "Description": "Sets the status of a given envelope to aborted",
+        "Anchor": "#set-envelope-abort-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PutEnvelopesEnvelopeIdPublishStatus",
+        "Name": "Update publish status for envelope",
+        "Description": "Updates the publish status of a given envelope",
+        "Anchor": "#update-publish-status-for-envelope",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PutEnvelopesEnvelopeIdRecipientsRecipientId",
+        "Name": "Update recipient by id",
+        "Description": "Updates a recipient",
+        "Anchor": "#update-recipient-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PutEnvelopesEnvelopeIdTrashStatus",
+        "Name": "Set envelope trash status",
+        "Description": "Sets the status of a given envelope to trashed",
+        "Anchor": "#set-envelope-trash-status",
         "IsDeprecated": false
       }
     ]

@@ -1,0 +1,699 @@
+{
+  "UniqueName": "iaconnectjml",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iaconnectjml/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Set Azure AD user's manager",
+      "Description": "Set an Azure Active Directory user's mananger.",
+      "Anchor": "#set-azure-ad-user's-manager",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryAddADGroupMemberByIdentity",
+      "Name": "Add Active Directory group member",
+      "Description": "Add an Active Directory user to an existing Active Directory group where the user and group are specified by identity.",
+      "Anchor": "#add-active-directory-group-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryAddADUser",
+      "Name": "Add Active Directory user",
+      "Description": "Creates a new Active Directory user account.",
+      "Anchor": "#add-active-directory-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryAddADUserToMultipleADGroupsByName",
+      "Name": "Add Active Directory user to multiple groups by name",
+      "Description": "Add an Active Directory user to multiple existing Active Directory groups where the groups are specified by name. IA-Connect adds the user to as many groups as possible and reports on the outcome.",
+      "Anchor": "#add-active-directory-user-to-multiple-groups-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryCheckOUExists",
+      "Name": "Check Active Directory OU exists",
+      "Description": "Reports if an Active Directory Organizational Unit (OU) exists.",
+      "Anchor": "#check-active-directory-ou-exists",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryClearADUserAccountExpiration",
+      "Name": "Clear Active Directory user account expiration",
+      "Description": "Clears the expiration date for an Active Directory account.",
+      "Anchor": "#clear-active-directory-user-account-expiration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryCloneADUserGroups",
+      "Name": "Clone Active Directory user group membership",
+      "Description": "Adds the destination Active Directory user to the same Active Directory groups that the first user is a member of, minus the primary group (usually 'Domain users') since it technically isn't a membership.",
+      "Anchor": "#clone-active-directory-user-group-membership",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryCloneADUserProperties",
+      "Name": "Clone Active Directory user properties",
+      "Description": "Configures the specified properties / attributes of the source Active Directory user to the destination Active Directory user.",
+      "Anchor": "#clone-active-directory-user-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryDirSync",
+      "Name": "Perform Active Directory DirSync",
+      "Description": "Performs a synchronisation between Active Directory (on-premises) and Azure Active Directory (cloud). This command must be issued to the server with the 'DirSync' role (i.e. the computer performing the synchronisation).",
+      "Anchor": "#perform-active-directory-dirsync",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryDisableADUserByIdentity",
+      "Name": "Disable Active Directory user account",
+      "Description": "Disables an Active Directory user account. If a user account is disabled, the user cannot logon.",
+      "Anchor": "#disable-active-directory-user-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryEnableADUserByIdentity",
+      "Name": "Enable Active Directory user account",
+      "Description": "Enables an Active Directory user account. If the account is not disabled, this command does nothing.",
+      "Anchor": "#enable-active-directory-user-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryGetADGroupByIdentity",
+      "Name": "Get Active Directory group",
+      "Description": "Returns the properties of a specified Active Directory group.",
+      "Anchor": "#get-active-directory-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryGetADUserByIdentity",
+      "Name": "Get Active Directory user",
+      "Description": "Returns the properties of a specified Active Directory user.",
+      "Anchor": "#get-active-directory-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryGetADUserGroupMembership",
+      "Name": "Get Active Directory user group membership",
+      "Description": "Returns a list of Active Directory groups the specified user is a member of, minus the primary group (usually 'Domain users') since it technically isn't a membership.",
+      "Anchor": "#get-active-directory-user-group-membership",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryGetDomainFQDNFromDN",
+      "Name": "Get Active Directory domain FQDN from DN",
+      "Description": "A utility function. Given an Active Directory user's Distinguished Name (DN), returns the Active Directory domain containing the user.",
+      "Anchor": "#get-active-directory-domain-fqdn-from-dn",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryGetDomainInfo",
+      "Name": "Get Active Directory domain info",
+      "Description": "Retrieves information about an Active Directory domain.",
+      "Anchor": "#get-active-directory-domain-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryGetOUFromUserDN",
+      "Name": "Get Active Directory OU from user DN",
+      "Description": "A utility function. Given an Active Directory user's Distinguished Name (DN), returns the Organizational Unit (OU) the user is located within.",
+      "Anchor": "#get-active-directory-ou-from-user-dn",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryModifyADUserBooleanPropertyByIdentity",
+      "Name": "Modify Active Directory user boolean property",
+      "Description": "Modify an individual boolean (true / false) property of an Active Directory user. This allows you to modify a very specific user setting, including custom properties.",
+      "Anchor": "#modify-active-directory-user-boolean-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryModifyADUserProperties",
+      "Name": "Modify Active Directory common user properties",
+      "Description": "Modify common properties of an Active Directory user. You can only assign values to properties, not set them to blank. To set properties to blank, use the action 'Modify Active Directory user string properties'.",
+      "Anchor": "#modify-active-directory-common-user-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryModifyADUserStringPropertyByIdentity",
+      "Name": "Modify Active Directory user string properties",
+      "Description": "Modify individual string property(s) of an Active Directory user. This allows you to modify very specific user settings, including custom properties. You can also set individual user properties to blank.",
+      "Anchor": "#modify-active-directory-user-string-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryMoveADUserToOUByIdentity",
+      "Name": "Move Active Directory user to OU",
+      "Description": "Moves an Active Directory user to an existing Active Directory Organizational Unit (OU).",
+      "Anchor": "#move-active-directory-user-to-ou",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryRemoveADGroupMemberByGroupIdentity",
+      "Name": "Remove Active Directory group member",
+      "Description": "Removes an Active Directory user from an Active Directory group where the group is specified by identity.",
+      "Anchor": "#remove-active-directory-group-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryRemoveADUserByIdentity",
+      "Name": "Remove Active Directory user",
+      "Description": "Removes a user from Active Directory.",
+      "Anchor": "#remove-active-directory-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryRemoveADUserFromAllGroups",
+      "Name": "Remove Active Directory user from all groups",
+      "Description": "Removes an Active Directory user from all of the Active Directory groups they are a member of. IA-Connect removes the user from as many groups as possible and reports on the outcome.",
+      "Anchor": "#remove-active-directory-user-from-all-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryRemoveADUserFromMultipleADGroupsByName",
+      "Name": "Remove Active Directory user from multiple groups by name",
+      "Description": "Removes an Active Directory user from multiple existing Active Directory groups where the groups are specified by name. IA-Connect removes the user from as many groups as possible and reports on the outcome.",
+      "Anchor": "#remove-active-directory-user-from-multiple-groups-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryResetADUserPasswordByIdentity",
+      "Name": "Reset Active Directory user password",
+      "Description": "Resets an Active Directory user's password with a new password.",
+      "Anchor": "#reset-active-directory-user-password",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectorySetADServer",
+      "Name": "Set Active Directory server",
+      "Description": "Sets a specific Active Directory server to use for all further Active Directory actions.",
+      "Anchor": "#set-active-directory-server",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectorySetADUserHomeFolderByIdentity",
+      "Name": "Modify Active Directory user home folder",
+      "Description": "Sets the home folder / directory / drive for an Active Directory user.",
+      "Anchor": "#modify-active-directory-user-home-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectorySetADUserProtectedFromAccidentalDeletionByIdentity",
+      "Name": "Set Active Directory user protected from accidental deletion",
+      "Description": "Sets an Active Directory account to be protected (or not protected) from accidental deletion. If you protect an account from accidental deletion, you cannot delete that account until you remove the protection.",
+      "Anchor": "#set-active-directory-user-protected-from-accidental-deletion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ActiveDirectoryUnlockADAccountByIdentity",
+      "Name": "Unlock Active Directory account",
+      "Description": "Unlock an Active Directory account. If the account is not locked, this command does nothing.",
+      "Anchor": "#unlock-active-directory-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2AddUserToGroup",
+      "Name": "Add Azure AD user to group",
+      "Description": "Add an Azure Active Directory user (or other object) to an existing Azure Active Directory group.",
+      "Anchor": "#add-azure-ad-user-to-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2GetAzureADLicenseSKUs",
+      "Name": "Get Azure AD license SKUs",
+      "Description": "Returns a list of Azure Active Directory license Stock Keeping Units (SKUs) which the connected Azure AD is subscribed to, using the Azure AD v2 PowerShell modules.",
+      "Anchor": "#get-azure-ad-license-skus",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2GetAzureADUserGroupMembership",
+      "Name": "Get Azure AD user group membership",
+      "Description": "Returns a list of Azure Active Directory groups the specified user is a member of, using the Azure AD v2 PowerShell modules.",
+      "Anchor": "#get-azure-ad-user-group-membership",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2GetAzureADUserLicenses",
+      "Name": "Get Azure AD user licenses",
+      "Description": "Retrieves a list of licenses (SKU) assigned to a Azure AD user, using the Azure AD v2 PowerShell modules.",
+      "Anchor": "#get-azure-ad-user-licenses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2GetAzureADUserLicenseServicePlans",
+      "Name": "Get Azure AD user license service plans",
+      "Description": "Retrieves a list of licenses plans assigned to a specified Azure AD user license (SKU), using the Azure AD v2 PowerShell modules. For example: If the user has the FLOW_FREE license assigned, this will allow you to view which service plans they have provisioned to that license.",
+      "Anchor": "#get-azure-ad-user-license-service-plans",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2GetAzureADUsers",
+      "Name": "Get Azure AD users",
+      "Description": "Returns the details of users in Azure Active Directory (known as Azure AD or AAD), using the Azure AD v2 PowerShell modules. You can search by object Id or using a filter. An object Id search should return 0 or 1 results. A filter search could return 0 or more results.",
+      "Anchor": "#get-azure-ad-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2IsUserInAzureADUserGroup",
+      "Name": "Is user in Azure AD user group",
+      "Description": "Returns whether a user is a member of an Azure Active Directory group, using the Azure AD v2 PowerShell modules.",
+      "Anchor": "#is-user-in-azure-ad-user-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2RemoveAllAzureADUserLicense",
+      "Name": "Remove all Azure AD user licenses",
+      "Description": "Removes all Azure AD user license (SKU) assigned to a user, using the Azure AD v2 PowerShell modules.",
+      "Anchor": "#remove-all-azure-ad-user-licenses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2RemoveUserFromAllGroups",
+      "Name": "Remove Azure AD user from all groups",
+      "Description": "Removes an Azure Active Directory user (or other object) from all of the Azure Active Directory groups they are a member of.",
+      "Anchor": "#remove-azure-ad-user-from-all-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2RemoveUserFromGroup",
+      "Name": "Remove Azure AD user from group",
+      "Description": "Removes an Azure Active Directory user (or other object) from an Azure Active Directory group.",
+      "Anchor": "#remove-azure-ad-user-from-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2SetAzureADUser",
+      "Name": "Modify Azure AD user properties",
+      "Description": "Modify common properties of an Azure Active Directory user. You can only assign values to properties, not set them to blank.",
+      "Anchor": "#modify-azure-ad-user-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AzureADv2SetAzureADUserLicense",
+      "Name": "Set Azure AD user license",
+      "Description": "Adds or removes an Azure AD user license (SKU), using the Azure AD v2 PowerShell modules.",
+      "Anchor": "#set-azure-ad-user-license",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseActiveDirectoryPowerShellRunspace",
+      "Name": "Disconnect from Active Directory",
+      "Description": "If you have used the action 'Open Active Directory PowerShell runspace with credentials' to run Active Directory PowerShell commands as an alternative user account or to an alternative domain, this action returns the IA-Connect Agent to the default behaviour of running Active Directory actions as the user account the IA-Connect Agent is running as.",
+      "Anchor": "#disconnect-from-active-directory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseAzureADv2PowerShellRunspace",
+      "Name": "Disconnect from Azure AD",
+      "Description": "Disconnects IA-Connect from Azure using the Azure AD v2 PowerShell modules (connected using one of the 'Connect to Azure AD' actions). You will not be able to issue Azure AD v2 actions again until you reconnect.",
+      "Anchor": "#disconnect-from-azure-ad",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseExchangePowerShellRunspace",
+      "Name": "Disconnect from Microsoft Exchange",
+      "Description": "Disconnects IA-Connect from a Microsoft Exchange server (connected using the action 'Connect to Microsoft Exchange'). You will not be able to issue Microsoft Exchange PowerShell actions again until you reconnect.",
+      "Anchor": "#disconnect-from-microsoft-exchange",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CloseO365PowerShellRunspace",
+      "Name": "Disconnect from Office 365",
+      "Description": "Disconnects IA-Connect from Office 365 using the Office 365 PowerShell modules (connected using the action 'Connect to Office 365'). You will not be able to issue Office 365 PowerShell actions again until you reconnect.",
+      "Anchor": "#disconnect-from-office-365",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeAddADPermission",
+      "Name": "Add Microsoft Exchange mailbox permission",
+      "Description": "Assign mailbox permissions to an Active Directory object (e.g. user or group).",
+      "Anchor": "#add-microsoft-exchange-mailbox-permission",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeAddDistributionGroupMember",
+      "Name": "Add Microsoft Exchange member to distribution group",
+      "Description": "Add a member (for example a user) to an Exchange distribution group. If the member is already in the group, no action is taken.",
+      "Anchor": "#add-microsoft-exchange-member-to-distribution-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeAddMailboxPermission",
+      "Name": "Add Microsoft Exchange mailbox permission to user",
+      "Description": "Assign mailbox permissions to a specifed mailbox user, user or security group.",
+      "Anchor": "#add-microsoft-exchange-mailbox-permission-to-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeDisableMailbox",
+      "Name": "Disable the Microsoft Exchange mailbox for a user",
+      "Description": "Disable an existing Microsoft Exchange mailbox.",
+      "Anchor": "#disable-the-microsoft-exchange-mailbox-for-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeDisableRemoteMailbox",
+      "Name": "Disable the Microsoft Exchange Online mailbox for a user",
+      "Description": "Disable an existing Microsoft Exchange Online or Office 365 (remote) mailbox. The request is sent via your on-premises Microsoft Exchange server.",
+      "Anchor": "#disable-the-microsoft-exchange-online-mailbox-for-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeDoesMailboxExist",
+      "Name": "Does Microsoft Exchange mailbox exist",
+      "Description": "Returns whether the specified Exchange mailbox exists.",
+      "Anchor": "#does-microsoft-exchange-mailbox-exist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeDoesRemoteMailboxExist",
+      "Name": "Does Microsoft Exchange Online mailbox exist",
+      "Description": "Returns whether the specified Microsoft Exchange Online or Office 365 (remote) mailbox exists. The request is sent via your on-premises Microsoft Exchange server.",
+      "Anchor": "#does-microsoft-exchange-online-mailbox-exist",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeEnableMailbox",
+      "Name": "Create a Microsoft Exchange mailbox for a user",
+      "Description": "Creates a Microsoft Exchange mailbox for an existing user who doesn't already have a mailbox.",
+      "Anchor": "#create-a-microsoft-exchange-mailbox-for-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeEnableRemoteMailbox",
+      "Name": "Create Microsoft Exchange Online mailbox for a user",
+      "Description": "Creates a Microsoft Exchange Online or Office 365 (remote) mailbox for an existing user in on-premises Active Directory who doesn't already have a mailbox. The request is sent via your on-premises Microsoft Exchange server.",
+      "Anchor": "#create-microsoft-exchange-online-mailbox-for-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeGetDistributionGroup",
+      "Name": "Retrieve Microsoft Exchange distribution group details",
+      "Description": "Retrieve the details of a Microsoft Exchange Distribution group. You can search by Identity or using a filter. An Identity search should return 0 or 1 results. A filter search could return 0 or more results.",
+      "Anchor": "#retrieve-microsoft-exchange-distribution-group-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeGetDistributionGroupMembers",
+      "Name": "Get Microsoft Exchange distribution group members",
+      "Description": "Retrieve a list of the members of a Microsoft Exchange Distribution group.",
+      "Anchor": "#get-microsoft-exchange-distribution-group-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeGetMailbox",
+      "Name": "Retrieve Microsoft Exchange mailbox details",
+      "Description": "Returns the properties of the specified Exchange mailbox. You can search by Identity or using a filter. An Identity search should return 0 or 1 results. A filter search could return 0 or more results.",
+      "Anchor": "#retrieve-microsoft-exchange-mailbox-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeGetMailboxDistributionGroupMembership",
+      "Name": "Retrieve Microsoft Exchange mailbox distribution group membership",
+      "Description": "Retrieve which distribution groups a mailbox is a member of.",
+      "Anchor": "#retrieve-microsoft-exchange-mailbox-distribution-group-membership",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeGetMailboxEmailAddresses",
+      "Name": "Retrieve a Microsoft Exchange mailbox email addresses",
+      "Description": "Retrieves a list of all email addresses assigned to a Microsoft Exchange mailbox. This includes the primary SMTP address, proxy email addresses, X.400 addresses and EUM (Exchange Unified Messaging) addresses.",
+      "Anchor": "#retrieve-a-microsoft-exchange-mailbox-email-addresses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeGetRemoteMailbox",
+      "Name": "Retrieve Microsoft Exchange Online mailbox details",
+      "Description": "Returns the properties of the specified Microsoft Exchange Online or Office 365 (remote) mailbox. The request is sent via your on-premises Microsoft Exchange server. You can search by Identity or using a filter. An Identity search should return 0 or 1 results. A filter search could return 0 or more results.",
+      "Anchor": "#retrieve-microsoft-exchange-online-mailbox-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeGetRemoteMailboxEmailAddresses",
+      "Name": "Retrieve a Microsoft Exchange Online mailbox email addresses",
+      "Description": "Retrieves a list of all email addresses assigned to an existing Microsoft Exchange Online or Office 365 (remote) mailbox. This includes the primary SMTP address, proxy email addresses, X.400 addresses and EUM (Exchange Unified Messaging) addresses.",
+      "Anchor": "#retrieve-a-microsoft-exchange-online-mailbox-email-addresses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeNewDistributionGroup",
+      "Name": "Create a new Microsoft Exchange distribution group",
+      "Description": "Creates a new Microsoft Exchange distribution group or mail-enabled security group.",
+      "Anchor": "#create-a-new-microsoft-exchange-distribution-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeNewRemoteMailbox",
+      "Name": "Create Microsoft Exchange Online mailbox and user account",
+      "Description": "Create a mail-enabled user in on-premises Active Directory and create an associated remote mailbox in Microsoft Exchange Online or Office 365. Only use this action if the user doesn't exist in on-premises Active Directory. If the user already exists, use the action 'Create Microsoft Exchange Online mailbox for a user'. The request is sent via your on-premises Microsoft Exchange server.",
+      "Anchor": "#create-microsoft-exchange-online-mailbox-and-user-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeRemoveDistributionGroup",
+      "Name": "Remove Microsoft Exchange distribution group",
+      "Description": "Remove a Microsoft Exchange distribution group.",
+      "Anchor": "#remove-microsoft-exchange-distribution-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeRemoveDistributionGroupMember",
+      "Name": "Remove Microsoft Exchange member from distribution group",
+      "Description": "Remove a member (for example a user) from an Exchange distribution group. If the member is not in the group, no action is taken.",
+      "Anchor": "#remove-microsoft-exchange-member-from-distribution-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeRemoveMailboxPermission",
+      "Name": "Remove Microsoft Exchange mailbox permission from user",
+      "Description": "Remove mailbox permissions from a specifed mailbox user, user or security group.",
+      "Anchor": "#remove-microsoft-exchange-mailbox-permission-from-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeResetMailboxAttributes",
+      "Name": "Reset the properties on a Microsoft Exchange mailbox",
+      "Description": "Set the specified properties of an existing Microsoft Exchange mailbox to blank.",
+      "Anchor": "#reset-the-properties-on-a-microsoft-exchange-mailbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeResetRemoteMailboxAttributes",
+      "Name": "Reset the properties on a Microsoft Exchange Online mailbox",
+      "Description": "Set the specified properties of an existing Microsoft Exchange Online or Office 365 (remote) mailbox to blank.",
+      "Anchor": "#reset-the-properties-on-a-microsoft-exchange-online-mailbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeSetADServerToViewEntireForest",
+      "Name": "Set Exchange to view entire Active Directory forest",
+      "Description": "Specify whether the entire Active Directory forest (including sub-domains) is searched / viewed when performing Exchange actions. You may need to use this action if you have multiple linked domains.",
+      "Anchor": "#set-exchange-to-view-entire-active-directory-forest",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeSetMailbox",
+      "Name": "Set the properties on a Microsoft Exchange mailbox",
+      "Description": "Set the properties of an existing Microsoft Exchange mailbox.",
+      "Anchor": "#set-the-properties-on-a-microsoft-exchange-mailbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeSetMailboxEmailAddresses",
+      "Name": "Modify a Microsoft Exchange mailbox email addresses",
+      "Description": "Modify the email addresses on a Microsoft Exchange mailbox. You can add, remove and replace primary and alias email addresses.",
+      "Anchor": "#modify-a-microsoft-exchange-mailbox-email-addresses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeSetMailboxSendOnBehalfOfPermission",
+      "Name": "Set Exchange mailbox send on behalf of",
+      "Description": "Specify who can send on behalf of this existing mailbox.",
+      "Anchor": "#set-exchange-mailbox-send-on-behalf-of",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeSetRemoteMailbox",
+      "Name": "Set the properties on a Microsoft Exchange Online mailbox",
+      "Description": "Set the properties of an existing Microsoft Exchange Online or Office 365 (remote) mailbox. The request is sent via your on-premises Microsoft Exchange server.",
+      "Anchor": "#set-the-properties-on-a-microsoft-exchange-online-mailbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExchangeSetRemoteMailboxEmailAddresses",
+      "Name": "Modify a Microsoft Exchange Online mailbox email addresses",
+      "Description": "Modify the email addresses on an an existing Microsoft Exchange Online or Office 365 (remote) mailbox. You can add, remove and replace primary and alias email addresses.",
+      "Anchor": "#modify-a-microsoft-exchange-online-mailbox-email-addresses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsActiveDirectoryPowerShellRunspaceOpen",
+      "Name": "Is connected to Active Directory",
+      "Description": "Reports if IA-Connect is connected to Active Directory. By default, IA-Connect is automatically connected to the Domain the computer running the IA-Connect Agent is a member of, using the account the IA-Connect Agent is running as. Use the action 'Connect to Active Directory with credentials' to connect using alternative credentials or to an alternative domain.",
+      "Anchor": "#is-connected-to-active-directory",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsAzureADv2PowerShellModuleInstalled",
+      "Name": "Is Azure AD v2 PowerShell module installed",
+      "Description": "Reports if the PowerShell modules required for Azure AD v2 are installed on the computer where the IA-Connect Agent is running.",
+      "Anchor": "#is-azure-ad-v2-powershell-module-installed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsAzureADv2PowerShellRunspaceOpen",
+      "Name": "Is connected to Azure AD",
+      "Description": "Reports if IA-Connect is connected to Azure using the Azure AD v2 PowerShell modules. Use one of the 'Connect to Azure AD' actions to connect.",
+      "Anchor": "#is-connected-to-azure-ad",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsExchangePowerShellRunspaceOpen",
+      "Name": "Is connected to Microsoft Exchange",
+      "Description": "Reports if IA-Connect is connected to a Microsoft Exchange server. Use the action 'Connect to Microsoft Exchange' to connect.",
+      "Anchor": "#is-connected-to-microsoft-exchange",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IsO365PowerShellRunspaceOpen",
+      "Name": "Is connected to Office 365",
+      "Description": "Reports if IA-Connect is connected to Office 365 using the Office 365 PowerShell modules. Use the action 'Connect to Office 365' to connect.",
+      "Anchor": "#is-connected-to-office-365",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "JMLGetNextAvailableAccountName",
+      "Name": "Get next available account name",
+      "Description": "Given details regarding the naming format for Active Directory and Exchange account names, provides the details of the next available spare account name. Used to determine which Active Directory and Exchange account to create for a given user. This action does not create any accounts, it provides information regarding name availability.",
+      "Anchor": "#get-next-available-account-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "O365AddDistributionGroupMember",
+      "Name": "Add Office 365 member to distribution group",
+      "Description": "Add a member to a Microsoft Exchange Online or Office 365 distribution group.",
+      "Anchor": "#add-office-365-member-to-distribution-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "O365AddMailboxPermission",
+      "Name": "Add Office 365 mailbox permission to user",
+      "Description": "Assign mailbox permissions to a specifed mailbox user, user or security group.",
+      "Anchor": "#add-office-365-mailbox-permission-to-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "O365GetO365DistributionGroup",
+      "Name": "Get Office 365 distribution group",
+      "Description": "Returns the properties of the specified Microsoft Exchange Online or Office 365 distribution group.",
+      "Anchor": "#get-office-365-distribution-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "O365GetO365Mailbox",
+      "Name": "Get Office 365 mailbox",
+      "Description": "Returns the properties of the specified Microsoft Exchange Online or Office 365 mailbox.",
+      "Anchor": "#get-office-365-mailbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "O365NewO365DistributionGroup",
+      "Name": "Create a new Office 365 distribution group",
+      "Description": "Creates a new Microsoft Exchange Online or Office 365 distribution group or mail-enabled security group.",
+      "Anchor": "#create-a-new-office-365-distribution-group",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "O365SetO365Mailbox",
+      "Name": "Set the properties on a Office 365 mailbox",
+      "Description": "Set the properties on a Microsoft Exchange Online or Office 365 mailbox.",
+      "Anchor": "#set-the-properties-on-a-office-365-mailbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "O365WaitForO365Mailbox",
+      "Name": "Wait for a Office 365 mailbox",
+      "Description": "Wait for a specified Microsoft Exchange Online or Office 365 mailbox to exist. This is common if you are waiting for an AD sync or license setting to take effect. If the mailbox already existed, the action will immediately return successful.",
+      "Anchor": "#wait-for-a-office-365-mailbox",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenActiveDirectoryPowerShellRunspaceWithCredentials",
+      "Name": "Connect to Active Directory with credentials",
+      "Description": "Allows you to specify an alternative account to use when running Active Directory PowerShell commands. This affects all Active Directory commands issued after this action. If you don't use this action then all Active Directory PowerShell commands will run as the user account the IA-Connect Agent is running as.",
+      "Anchor": "#connect-to-active-directory-with-credentials",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenAzureADv2PowerShellRunspace",
+      "Name": "Connect to Azure AD with credentials",
+      "Description": "Connects IA-Connect to Azure AD using the Azure AD v2 PowerShell modules. This action (or 'Connect to Azure AD with certificate') must be issued before running any other Azure AD v2 actions. This action either requires an account which doesn't use MFA (2FA) or you'll need to use the UI automation module to automate the 2FA component (i.e. the one-time password authentication popup). Alternatively, use the action 'Connect to Azure AD with certificate'.",
+      "Anchor": "#connect-to-azure-ad-with-credentials",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenAzureADv2PowerShellRunspaceWithCertificate",
+      "Name": "Connect to Azure AD with certificate",
+      "Description": "Connects IA-Connect to Azure AD using the Azure AD v2 PowerShell modules. This action (or 'Connect to Azure AD with credentials') must be issued before running any other Azure AD v2 actions. This action requires an Azure Service Principal and Azure AD app registration with certificate to be setup in Azure AD before it will work, but has the advantage of not requiring MFA (2FA).",
+      "Anchor": "#connect-to-azure-ad-with-certificate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenExchangePowerShellRunspace",
+      "Name": "Connect to Microsoft Exchange",
+      "Description": "Connects IA-Connect to a Microsoft Exchange server. This action must be issued before running any other Exchange actions. If you specify a username and password, all subsequent Exchange actions will run as that account. If you don't specify a username and password, all subsequent Exchange actions will run as the user account the IA-Connect Agent is running as.",
+      "Anchor": "#connect-to-microsoft-exchange",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenLocalPassthroughActiveDirectoryPowerShellRunspace",
+      "Name": "Connect to default Active Directory domain",
+      "Description": "Connects the IA-Connect Agent to the Domain the computer running the IA-Connect Agent is a member of, using the account the IA-Connect Agent is running as (i.e. the default behaviour).",
+      "Anchor": "#connect-to-default-active-directory-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenO365PowerShellRunspace",
+      "Name": "Connect to Office 365 with credentials",
+      "Description": "Connects IA-Connect to Office 365 using the Office 365 PowerShell modules. This action (or 'Connect to Office 365 with certificate') must be issued before running any other Office 365 actions. This action either requires an account which doesn't require MFA (2FA) or you'll need to use the UI automation module to automate the 2FA component (i.e. the one-time password authentication popup). Alternatively, use the action 'Connect to Office 365 with certificate'.",
+      "Anchor": "#connect-to-office-365-with-credentials",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OpenO365PowerShellRunspaceWithCertificate",
+      "Name": "Connect to Office 365 with certificate",
+      "Description": "Connects IA-Connect to Office 365 using the Office 365 PowerShell modules. This action (or 'Connect to Office 365 with credentials') must be issued before running any other Office 365 actions. This action requires an Azure AD app registration with certificate and the correct roles to be setup in Azure AD before it will work, but has the advantage of not requiring MFA (2FA).",
+      "Anchor": "#connect-to-office-365-with-certificate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunActiveDirectoryPowerShellAutomationScript",
+      "Name": "Run Active Directory PowerShell script",
+      "Description": "Runs a PowerShell script in the Active Directory runspace in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. This is the recommended action for running your own custom Active Directory PowerShell code.",
+      "Anchor": "#run-active-directory-powershell-script",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunAzureADv2PowerShellAutomationScript",
+      "Name": "Run Azure AD PowerShell script",
+      "Description": "Runs a PowerShell script in the Azure AD v2 runspace in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. This is the recommended action for running your own custom Azure AD v2 PowerShell code.",
+      "Anchor": "#run-azure-ad-powershell-script",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunExchangePowerShellAutomationScript",
+      "Name": "Run Exchange PowerShell script",
+      "Description": "Runs a PowerShell script in the Exchange runspace in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. This is the recommended action for running your own custom Exchange PowerShell code.",
+      "Anchor": "#run-exchange-powershell-script",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunO365PowerShellAutomationScript",
+      "Name": "Run Office 365 PowerShell script",
+      "Description": "Runs a PowerShell script in the Office 365 runspace in the session where the IA-Connect Agent is running, where the script contents are passed to the IA-Connect Agent as part of the command. Due to Office 365 PowerShell security restrictions, this action is likely to be blocked.",
+      "Anchor": "#run-office-365-powershell-script",
+      "IsDeprecated": false
+    }
+  ]
+}

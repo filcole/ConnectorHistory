@@ -1,0 +1,216 @@
+{
+  "UniqueName": "revelationhelpdesk",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../revelationhelpdesk/",
+  "Actions": [
+    {
+      "OperationId": "AddAction",
+      "Name": "Add an action",
+      "Description": "Add an action to an existing ticket in Revelation helpdesk",
+      "Anchor": "#add-an-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssetCreatedWebhook",
+      "Name": "When a Asset is created",
+      "Description": "This operation is triggered when an Asset is created",
+      "Anchor": "#when-a-asset-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssetUpdatedWebhook",
+      "Name": "When a Asset is updated",
+      "Description": "This operation is triggered when an Asset is updated",
+      "Anchor": "#when-a-asset-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClientCreatedWebhook",
+      "Name": "When a Client is created",
+      "Description": "This operation is triggered when a Client is created",
+      "Anchor": "#when-a-client-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClientUpdatedWebhook",
+      "Name": "When a Client is updated",
+      "Description": "This operation is triggered when a Client is updated",
+      "Anchor": "#when-a-client-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAsset",
+      "Name": "Create Asset",
+      "Description": "Create a new Asset",
+      "Anchor": "#create-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateClient",
+      "Name": "Create Client",
+      "Description": "Create a new Client (Company) in Revelation helpdesk",
+      "Anchor": "#create-client",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateOffice",
+      "Name": "Create Office",
+      "Description": "Create a new Office in Revelation helpdesk",
+      "Anchor": "#create-office",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateUser",
+      "Name": "Create User",
+      "Description": "Create a new User",
+      "Anchor": "#create-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindUser",
+      "Name": "Find a user",
+      "Description": "Find a single User in Revelation helpdesk",
+      "Anchor": "#find-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAsset",
+      "Name": "Get an existing Asset",
+      "Description": "Get an existing Asset in Revelation helpdesk",
+      "Anchor": "#get-an-existing-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTicket",
+      "Name": "Get an existing Ticket",
+      "Description": "Get an existing Ticket by ID in Revelation helpdesk",
+      "Anchor": "#get-an-existing-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LogTicket",
+      "Name": "Log a new Ticket",
+      "Description": "Log a new Ticket in Revelation helpdesk",
+      "Anchor": "#log-a-new-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OfficeCreatedWebhook",
+      "Name": "When a Office is created",
+      "Description": "This operation is triggered when an Office is created",
+      "Anchor": "#when-a-office-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OfficeUpdatedWebhook",
+      "Name": "When a Office is updated",
+      "Description": "This operation is triggered when an Office is updated",
+      "Anchor": "#when-a-office-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Reassign",
+      "Name": "Reassign a Ticket",
+      "Description": "Reassign a ticket in Revelation helpdesk",
+      "Anchor": "#reassign-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchAsset",
+      "Name": "Search for Assets",
+      "Description": "Search for existing Assets in Revelation helpdesk",
+      "Anchor": "#search-for-assets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetPriority",
+      "Name": "Set Ticket Priority",
+      "Description": "Set the Priority of an existing Ticket",
+      "Anchor": "#set-ticket-priority",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetStatus",
+      "Name": "Set Ticket Status",
+      "Description": "Change the Status of a Ticket in Revelation helpdesk",
+      "Anchor": "#set-ticket-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetTicketType",
+      "Name": "Set Ticket Type",
+      "Description": "Sets the Ticket Type of an existing Ticket",
+      "Anchor": "#set-ticket-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketAtRiskWebhook",
+      "Name": "When a Ticket is at risk",
+      "Description": "This operation is triggered when a Ticket is at risk",
+      "Anchor": "#when-a-ticket-is-at-risk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketClosedWebhook",
+      "Name": "When a Ticket is closed",
+      "Description": "This operation is triggered when a Ticket is closed",
+      "Anchor": "#when-a-ticket-is-closed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketDeletedWebhook",
+      "Name": "When a Ticket is deleted",
+      "Description": "This operation is triggered when a Ticket is deleted",
+      "Anchor": "#when-a-ticket-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketDueWebhook",
+      "Name": "When a Ticket is due",
+      "Description": "This operation is triggered when a Ticket is due",
+      "Anchor": "#when-a-ticket-is-due",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketLoggedWebhook",
+      "Name": "When a Ticket is logged",
+      "Description": "This operation is triggered when a Ticket is logged.",
+      "Anchor": "#when-a-ticket-is-logged",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketReopenedWebhook",
+      "Name": "When a Ticket is reopened",
+      "Description": "This operation is triggered when a Ticket is reopened",
+      "Anchor": "#when-a-ticket-is-reopened",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketUpdatedWebhook",
+      "Name": "When a Ticket is updated",
+      "Description": "This operation is triggered when a Ticket is updated (action added).",
+      "Anchor": "#when-a-ticket-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateAsset",
+      "Name": "Update Asset",
+      "Description": "Update an existing Asset",
+      "Anchor": "#update-asset",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserCreatedWebhook",
+      "Name": "When a User is created",
+      "Description": "This operation is triggered when an User is created",
+      "Anchor": "#when-a-user-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserUpdatedWebhook",
+      "Name": "When a User is updated",
+      "Description": "This operation is triggered when an User is updated",
+      "Anchor": "#when-a-user-is-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

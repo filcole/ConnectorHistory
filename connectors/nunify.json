@@ -1,0 +1,27 @@
+{
+  "UniqueName": "nunify",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nunify/",
+  "Actions": [
+    {
+      "OperationId": "ADD_REGISTRANT",
+      "Name": "Add Registrant",
+      "Description": "Registers an attendee to your event in nunify and issues a ticket for them.",
+      "Anchor": "#add-registrant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NEW_CHECKIN",
+      "Name": "Attendee Check-In",
+      "Description": "Triggers when an attendee has checked in to a location or nunify event.",
+      "Anchor": "#attendee-check-in",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NEW_REGISTRATION",
+      "Name": "New Registration",
+      "Description": "Triggers when an attendee registers for a nunify event.",
+      "Anchor": "#new-registration",
+      "IsDeprecated": false
+    }
+  ]
+}

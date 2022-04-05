@@ -80,10 +80,45 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetIAConnectLookupTableSummary",
+      "Name": "Get IA-Connect lookup table summary",
+      "Description": "Retrieves a summary of the lookup tables currently loaded into the IA-Connect Agent.",
+      "Anchor": "#get-ia-connect-lookup-table-summary",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetJSONTableFromStringArray",
       "Name": "Get JSON table from string array",
       "Description": "Takes an input array of string items and returns as a JSON table.",
       "Anchor": "#get-json-table-from-string-array",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRegexGroupMatches",
+      "Name": "Get regular expression group matches",
+      "Description": "Performs a regular expression (regex) match on an input string and returns a list of matched group names and values.",
+      "Anchor": "#get-regular-expression-group-matches",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRegexMatch",
+      "Name": "Get regular expression match",
+      "Description": "Performs a regular expression (regex) match on an input string and returns whether the string matched the expression and details of the match.",
+      "Anchor": "#get-regular-expression-match",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRegexMatches",
+      "Name": "Get regular expression matches",
+      "Description": "Performs a regular expression (regex) match on an input string and returns all matches in a string array. The array will be empty if there were no matches.",
+      "Anchor": "#get-regular-expression-matches",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRegexSplit",
+      "Name": "Split string using a regular expression",
+      "Description": "Splits an input string using a regular expression (regex) match and returns the individual split components of the string as a string array.",
+      "Anchor": "#split-string-using-a-regular-expression",
       "IsDeprecated": false
     },
     {
@@ -138,7 +173,7 @@
     {
       "OperationId": "InsertRowInJSONTable",
       "Name": "Insert a row into a JSON table",
-      "Description": "Takes an input table in JSON format, inserts a row at a specified position and returns a new table in JSON format. If you want to insert a row into an actual table (i.e. not in JSON format), use the action 'Insert a row into a table'. If you want to insert a row into a string array, use the action 'Insert a row into a string array'.",
+      "Description": "Takes an input table in JSON format, inserts a row at a specified position and returns a new table in JSON format. If you want to insert a row into an actual table (i.e. not in JSON format), use the action 'Insert a row into a table'. If you want to insert a string into a string array, use the action 'Insert a row into a string array'.",
       "Anchor": "#insert-a-row-into-a-json-table",
       "IsDeprecated": false
     },
@@ -159,7 +194,7 @@
     {
       "OperationId": "InsertRowInTable",
       "Name": "Insert a row into a table",
-      "Description": "Takes an input table, inserts a row at a specified position and returns a new table. If you want to insert a row into a string array, use the action 'Insert a row into a string array'. If you want to insert a row into a table in JSON format, use the action 'Insert a row into a JSON table'.",
+      "Description": "Takes an input table, inserts a row at a specified position and returns a new table. If you want to insert a string into a string array, use the action 'Insert a row into a string array'. If you want to insert a row into a table in JSON format, use the action 'Insert a row into a JSON table'.",
       "Anchor": "#insert-a-row-into-a-table",
       "IsDeprecated": false
     },
@@ -175,6 +210,41 @@
       "Name": "Is PowerShell module installed",
       "Description": "Searches for a specified PowerShell module on the computer where the IA-Connect Agent is running and returns whether it is installed.",
       "Anchor": "#is-powershell-module-installed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoadIAConnectLookupTable",
+      "Name": "Load IA-Connect lookup table",
+      "Description": "Loads an IA-Connect lookup table from the computer where the IA-Connect Agent is running. These lookup tables can be used by further IA-Connect actions to perform data lookups.",
+      "Anchor": "#load-ia-connect-lookup-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LookupColumnsFromIAConnectLookupTable",
+      "Name": "Lookup columns from IA-Connect lookup table",
+      "Description": "Retrieves one or more columns with a common name from a lookup table currently loaded into the IA-Connect Agent and returns as a table. For example, the lookup table could contain multiple output columns named 'AD group' to represent multiple AD groups and they will be returned as separate rows in the output table.",
+      "Anchor": "#lookup-columns-from-ia-connect-lookup-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LookupValueFromIAConnectLookupTable",
+      "Name": "Lookup value from IA-Connect lookup table",
+      "Description": "Retrieves a value from a lookup table currently loaded into the IA-Connect Agent.",
+      "Anchor": "#lookup-value-from-ia-connect-lookup-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveAllIAConnectLookupTables",
+      "Name": "Remove all IA-Connect lookup tables",
+      "Description": "Removes all lookup tables currently loaded into the IA-Connect Agent.",
+      "Anchor": "#remove-all-ia-connect-lookup-tables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveIAConnectLookupTable",
+      "Name": "Remove IA-Connect lookup table",
+      "Description": "Removes a lookup table currently loaded into the IA-Connect Agent.",
+      "Anchor": "#remove-ia-connect-lookup-table",
       "IsDeprecated": false
     },
     {

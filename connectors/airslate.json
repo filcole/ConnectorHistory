@@ -3,10 +3,10 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../airslate/",
   "Actions": [
     {
-      "OperationId": "SendFlow",
-      "Name": "Send Slate (Preview)",
-      "Description": "Send a Slate with documents and forms by email",
-      "Anchor": "#send-slate-(preview)",
+      "OperationId": "CreateSmartLink",
+      "Name": "Create Smart Link",
+      "Description": "Generate the Smart Link from the Flow in your airSlate Workspace",
+      "Anchor": "#create-smart-link",
       "IsDeprecated": false
     },
     {

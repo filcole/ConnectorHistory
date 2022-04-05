@@ -45,6 +45,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateTicketTasks",
+      "Name": "Create ticket tasks",
+      "Description": "This operation creates ticket tasks from templates or scratch.",
+      "Anchor": "#create-ticket-tasks",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateTicketWorkflow",
       "Name": "When a ticket is created or updated",
       "Description": "This operation triggers when a ticket is created or updated.",
@@ -77,6 +84,13 @@
       "Name": "Find tickets",
       "Description": "Find tickets by keywords or filters.",
       "Anchor": "#find-tickets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindTicketTaskTemplates",
+      "Name": "Find ticket task templates",
+      "Description": "Find ticket task templates by keywords or filters.",
+      "Anchor": "#find-ticket-task-templates",
       "IsDeprecated": false
     },
     {
@@ -133,6 +147,13 @@
       "Name": "Get a ticket",
       "Description": "This operation returns a ticket's details.",
       "Anchor": "#get-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTicketTasks",
+      "Name": "Get ticket tasks",
+      "Description": "This operation return all ticket task lists.",
+      "Anchor": "#get-ticket-tasks",
       "IsDeprecated": false
     },
     {

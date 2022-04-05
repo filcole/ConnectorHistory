@@ -3,10 +3,38 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../docusigndemo/",
   "Actions": [
     {
+      "OperationId": "AddDocumentsToEnvelope",
+      "Name": "Add documents to an envelope",
+      "Description": "Add documents to an envelope.",
+      "Anchor": "#add-documents-to-an-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AddRecipientTabs",
+      "Name": "Add tabs for a recipient",
+      "Description": "Add tabs for a recipient.",
+      "Anchor": "#add-tabs-for-a-recipient",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "AddRecipientToEnvelope",
       "Name": "Add recipient to an envelope",
-      "Description": "Add recipient to an envelope",
+      "Description": "Add recipient to an envelope.",
       "Anchor": "#add-recipient-to-an-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateBlankEnvelope",
+      "Name": "Create envelope",
+      "Description": "Create a new blank envelope.",
+      "Anchor": "#create-envelope",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEnvelopeFromTemplate",
+      "Name": "Create envelope using template",
+      "Description": "Create a new envelope using a specified template.",
+      "Anchor": "#create-envelope-using-template",
       "IsDeprecated": false
     },
     {
@@ -49,13 +77,6 @@
       "Name": "Send envelope",
       "Description": "Send an existing envelope.",
       "Anchor": "#send-envelope",
-      "IsDeprecated": false
-    },
-    {
-      "OperationId": "SendEnvelope",
-      "Name": "Send envelope using template",
-      "Description": "Send a new envelope using a specified template.",
-      "Anchor": "#send-envelope-using-template",
       "IsDeprecated": false
     }
   ]

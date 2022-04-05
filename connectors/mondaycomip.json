@@ -1,0 +1,13 @@
+{
+  "UniqueName": "mondaycomip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mondaycomip/",
+  "Actions": [
+    {
+      "OperationId": "CallGraphQL",
+      "Name": "Call GraphQL",
+      "Description": "Call GraphQL",
+      "Anchor": "#call-graphql",
+      "IsDeprecated": false
+    }
+  ]
+}

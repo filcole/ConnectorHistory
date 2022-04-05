@@ -1,0 +1,216 @@
+{
+  "UniqueName": "jedoxodatahub",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../jedoxodatahub/",
+  "Actions": [
+    {
+      "OperationId": "CubeById",
+      "Name": "Get cube by ID",
+      "Description": "Get the cube with the given ID in the given database. To prevent issues with the URL encodings, Attribute cubes will be renamed, e.g. #_Years to ATT_Years.",
+      "Anchor": "#get-cube-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CubeCells",
+      "Name": "Get cube cells",
+      "Description": "Get the cells from a cube. This returns the cells' values and element names. If the cell has a string value, the value is instead stored in the stringValue field. Element names are stored in dynamic properties.",
+      "Anchor": "#get-cube-cells",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Cubes",
+      "Name": "Get cubes",
+      "Description": "Get a list of cubes in the given database. To prevent issues with the URL encodings, Attribute cubes will be renamed, e.g. #_Years to ATT_Years.",
+      "Anchor": "#get-cubes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DatabaseById",
+      "Name": "Get database by id",
+      "Description": "Get the database with the given ID.",
+      "Anchor": "#get-database-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Databases",
+      "Name": "Get databases",
+      "Description": "Get a list of databases found in the server. System and config databases are excluded from the list, but can be requested by providing the ID.",
+      "Anchor": "#get-databases",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DimensionById",
+      "Name": "Get dimension by ID",
+      "Description": "Get the dimension with the given ID in the given database.",
+      "Anchor": "#get-dimension-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Dimensions",
+      "Name": "Get dimensions",
+      "Description": "Get a list of dimensions in the given database.",
+      "Anchor": "#get-dimensions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ElementById",
+      "Name": "Get element by ID",
+      "Description": "Returns the element with the given ID in the given dimension.",
+      "Anchor": "#get-element-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Elements",
+      "Name": "Get elements",
+      "Description": "Get a list of elements in the given dimension.",
+      "Anchor": "#get-elements",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractByName",
+      "Name": "Get extract by Name",
+      "Description": "Get the extract with the given name in the given integrator project.",
+      "Anchor": "#get-extract-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractRows",
+      "Name": "Get extract rows",
+      "Description": "Stream the rows of the extract with the given name in the given integrator project.",
+      "Anchor": "#get-extract-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Extracts",
+      "Name": "Get extracts",
+      "Description": "Get a list of extracts in the given integrator project.",
+      "Anchor": "#get-extracts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IntegratorProjectGroups",
+      "Name": "Get Integrator project groups",
+      "Description": "Get a list of integrator project groups found in the server.",
+      "Anchor": "#get-integrator-project-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IntegratorProjects",
+      "Name": "Get Integrator projects",
+      "Description": "Get a list of integrator projects found in the server.",
+      "Anchor": "#get-integrator-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IntegratorProjectsById",
+      "Name": "Get Integrator project group by identifier",
+      "Description": "Get the project group with the given ID.",
+      "Anchor": "#get-integrator-project-group-by-identifier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IntegratorProjectsByName",
+      "Name": "Get Integrator project by name",
+      "Description": "Get the integrator project with the given name.",
+      "Anchor": "#get-integrator-project-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "JobByName",
+      "Name": "Get job by name",
+      "Description": "Get the jobs with the given name in the given integrator project.",
+      "Anchor": "#get-job-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Jobs",
+      "Name": "Get jobs",
+      "Description": "Get a list of jobs in the given integrator project.",
+      "Anchor": "#get-jobs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LoadByName",
+      "Name": "Get load by name",
+      "Description": "Get the transform with the given name in the given integrator project.",
+      "Anchor": "#get-load-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Loads",
+      "Name": "Get loads",
+      "Description": "Get a list of loads in the given integrator project.",
+      "Anchor": "#get-loads",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunJob",
+      "Name": "Run job",
+      "Description": "Run the job with the given name in the given integrator project. The execution will be added to the queue.",
+      "Anchor": "#run-job",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunJobWithVariables",
+      "Name": "Run job with variables",
+      "Description": "Run the job with the given name in the given integrator project. The execution will be added to the queue.",
+      "Anchor": "#run-job-with-variables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunLoad",
+      "Name": "Run load",
+      "Description": "Run the load with the given name in the given integrator project. The execution will be added to the queue.",
+      "Anchor": "#run-load",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RunLoadWithVariables",
+      "Name": "Run load with variables",
+      "Description": "Run the load with the given name in the given integrator project. The execution will be added to the queue.",
+      "Anchor": "#run-load-with-variables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TransformByName",
+      "Name": "Get transform by name",
+      "Description": "Get the transform with the given name in the given integrator project.",
+      "Anchor": "#get-transform-by-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TransformRows",
+      "Name": "Get transform Rows",
+      "Description": "Stream the rows of the transform with the given name in the given integrator project.",
+      "Anchor": "#get-transform-rows",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Transforms",
+      "Name": "Get transforms",
+      "Description": "Get a list of transforms in the given integrator project.",
+      "Anchor": "#get-transforms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewById",
+      "Name": "Get stored view by ID",
+      "Description": "Get the view with the given ID in the given database.",
+      "Anchor": "#get-stored-view-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ViewCells",
+      "Name": "Get stored view cells",
+      "Description": "Get all cells from a view. This returns the cells' values and element names. If the cell has a string value, the value is instead stored in the stringValue field. Element names are stored in dynamic properties.",
+      "Anchor": "#get-stored-view-cells",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Views",
+      "Name": "Get stored views",
+      "Description": "Get a list of stored views in the given database.",
+      "Anchor": "#get-stored-views",
+      "IsDeprecated": false
+    }
+  ]
+}

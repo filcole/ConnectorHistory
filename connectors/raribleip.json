@@ -1,0 +1,216 @@
+{
+  "UniqueName": "raribleip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../raribleip/",
+  "Actions": [
+    {
+      "OperationId": "aggregateNftPurchaseByCollection",
+      "Name": "Aggregate NFT purchase by collection",
+      "Description": "Aggregate NFT purchase by collection",
+      "Anchor": "#aggregate-nft-purchase-by-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "aggregateNftPurchaseByTaker",
+      "Name": "Aggregate NFT purchase by taker",
+      "Description": "Aggregate NFT purchase by taker",
+      "Anchor": "#aggregate-nft-purchase-by-taker",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "aggregateNftSellByMaker",
+      "Name": "Aggregate NFT sell order by maker",
+      "Description": "Aggregate NFT sell order by maker",
+      "Anchor": "#aggregate-nft-sell-order-by-maker",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "generateNftTokenId",
+      "Name": "Returns next available tokenId for minter",
+      "Description": "Returns next available tokenId for minter",
+      "Anchor": "#returns-next-available-tokenid-for-minter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getCurrenciesByBidOrdersOfItem",
+      "Name": "Returns currencies made as payment in all bid orders of the item",
+      "Description": "Returns currencies made as payment in all bid orders of the item",
+      "Anchor": "#returns-currencies-made-as-payment-in-all-bid-orders-of-the-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getCurrenciesBySellOrdersOfItem",
+      "Name": "Returns currencies taken as payment in all sell orders of the item",
+      "Description": "Returns currencies taken as payment in all sell orders of the item",
+      "Anchor": "#returns-currencies-taken-as-payment-in-all-sell-orders-of-the-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getErc20Balance",
+      "Name": "Return an ERC20 token balance",
+      "Description": "Return an ERC20 token balance",
+      "Anchor": "#return-an-erc20-token-balance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftAllItems",
+      "Name": "Returns all NFT items",
+      "Description": "Returns all NFT items",
+      "Anchor": "#returns-all-nft-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftAllOwnerships",
+      "Name": "Return all NFTs by Owner",
+      "Description": "Return all NFTs by Owner",
+      "Anchor": "#return-all-nfts-by-owner",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftCollectionById",
+      "Name": "Returns collection by address",
+      "Description": "Returns collection by address",
+      "Anchor": "#returns-collection-by-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftItemById",
+      "Name": "Returns the NFT item by identifier",
+      "Description": "Returns the NFT item by identifier",
+      "Anchor": "#returns-the-nft-item-by-identifier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftItemMetaById",
+      "Name": "Returns the NFT item meta by identifier",
+      "Description": "Returns the NFT item meta by identifier",
+      "Anchor": "#returns-the-nft-item-meta-by-identifier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftItemRoyaltyById",
+      "Name": "Returns item royalty by identifier",
+      "Description": "Returns item royalty by identifier",
+      "Anchor": "#returns-item-royalty-by-identifier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftItemsByCollection",
+      "Name": "Returns the NFT items by collection",
+      "Description": "Returns the NFT items by collection",
+      "Anchor": "#returns-the-nft-items-by-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftItemsByCreator",
+      "Name": "Returns the NFT item by creator",
+      "Description": "Returns the NFT item by creator",
+      "Anchor": "#returns-the-nft-item-by-creator",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftItemsByOwner",
+      "Name": "Returns the NFT item by owner",
+      "Description": "Returns the NFT item by owner",
+      "Anchor": "#returns-the-nft-item-by-owner",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftLazyItemById",
+      "Name": "Returns the NFT lazy item by identifier",
+      "Description": "Returns the NFT lazy item by identifier",
+      "Anchor": "#returns-the-nft-lazy-item-by-identifier",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftOwnershipById",
+      "Name": "Return NFTs by Ownership ID",
+      "Description": "Return NFTs by Ownership ID",
+      "Anchor": "#return-nfts-by-ownership-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNftOwnershipsByItem",
+      "Name": "Return NFTs by Item",
+      "Description": "Return NFTs by Item",
+      "Anchor": "#return-nfts-by-item",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getOrderBidsByItemAndByStatus",
+      "Name": "Returns all order bids by item and order status",
+      "Description": "Returns all order bids by item and order status",
+      "Anchor": "#returns-all-order-bids-by-item-and-order-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getOrderBidsByMakerAndByStatus",
+      "Name": "Returns all order bids by maker and order status",
+      "Description": "Returns all order bids by maker and order status",
+      "Anchor": "#returns-all-order-bids-by-maker-and-order-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getOrderByHash",
+      "Name": "Returns the order by order hash",
+      "Description": "Returns the order by order hash",
+      "Anchor": "#returns-the-order-by-order-hash",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getOrdersAllByStatus",
+      "Name": "Returns all orders with status sorting",
+      "Description": "Returns all orders with status sorting",
+      "Anchor": "#returns-all-orders-with-status-sorting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getSellOrdersByCollectionAndByStatus",
+      "Name": "Returns all orders for sale by collection and order status",
+      "Description": "Returns all orders for sale by collection and order status",
+      "Anchor": "#returns-all-orders-for-sale-by-collection-and-order-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getSellOrdersByItemAndByStatus",
+      "Name": "Returns all orders for sale by item and order status",
+      "Description": "Returns all orders for sale by item and order status",
+      "Anchor": "#returns-all-orders-for-sale-by-item-and-order-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getSellOrdersByMakerAndByStatus",
+      "Name": "Returns all orders for sale by maker and order status",
+      "Description": "Returns all orders for sale by maker and order status",
+      "Anchor": "#returns-all-orders-for-sale-by-maker-and-order-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getSellOrdersByStatus",
+      "Name": "Returns all orders for sale by order status",
+      "Description": "Returns all orders for sale by order status",
+      "Anchor": "#returns-all-orders-for-sale-by-order-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "searchNftAllCollections",
+      "Name": "Returns all NFT collections",
+      "Description": "Returns all NFT collections",
+      "Anchor": "#returns-all-nft-collections",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "searchNftCollectionsByOwner",
+      "Name": "Returns collection by owner",
+      "Description": "Returns collection by owner",
+      "Anchor": "#returns-collection-by-owner",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "updateOrderMakeStock",
+      "Name": "Update stock of the order by order hash",
+      "Description": "Update stock of the order by order hash",
+      "Anchor": "#update-stock-of-the-order-by-order-hash",
+      "IsDeprecated": false
+    }
+  ]
+}
