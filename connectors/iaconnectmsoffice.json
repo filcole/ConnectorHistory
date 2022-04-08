@@ -1,0 +1,776 @@
+{
+  "UniqueName": "iaconnectmsoffice",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iaconnectmsoffice/",
+  "Actions": [
+    {
+      "OperationId": "MSExcelActivateWorksheet",
+      "Name": "Activate MS Excel worksheet",
+      "Description": "Activates a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#activate-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelAddMacroToWorkbook",
+      "Name": "Add macro to MS Excel workbook",
+      "Description": "Adds a macro to a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#add-macro-to-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelAttachToExistingInstance",
+      "Name": "Attach to existing MS Excel instance",
+      "Description": "Attaches to an instance Microsoft Excel that has already been started.",
+      "Anchor": "#attach-to-existing-ms-excel-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelClearExcelClipboard",
+      "Name": "Clear MS Excel clipboard",
+      "Description": "Clears the current Excel clipboard (the dotted area) in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#clear-ms-excel-clipboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelCloseCurrentWorkbook",
+      "Name": "Close current MS Excel workbook",
+      "Description": "Closes the current Excel workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#close-current-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelCloseInstance",
+      "Name": "Close MS Excel instance",
+      "Description": "Closes an instance Microsoft Excel that was started using a Visual Basic Object (or attached to later). The instance of Excel to close is defined by the handle.",
+      "Anchor": "#close-ms-excel-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelCloseWorkbook",
+      "Name": "Close MS Excel workbook",
+      "Description": "Closes an open Excel workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#close-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelCopySelection",
+      "Name": "Copy selection in MS Excel workbook",
+      "Description": "Copies the current selection in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#copy-selection-in-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelCreateInstance",
+      "Name": "Create MS Excel instance",
+      "Description": "Starts Microsoft Excel using a Visual Basic Object to allow Excel to be automated using the actions in this IA-Connect module. Microsoft Excel starts hidden because it doesn't need to be visible for automation.",
+      "Anchor": "#create-ms-excel-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelCreateWorkbook",
+      "Name": "Create MS Excel workbook",
+      "Description": "Creates a new Excel workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#create-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelCreateWorksheet",
+      "Name": "Create MS Excel worksheet",
+      "Description": "Creates a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#create-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelCutSelection",
+      "Name": "Cut selection in MS Excel workbook",
+      "Description": "Cuts the current selection in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#cut-selection-in-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelDeleteSelection",
+      "Name": "Delete selection in MS Excel workbook",
+      "Description": "Deletes the current selection in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#delete-selection-in-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelDeleteWorksheet",
+      "Name": "Delete MS Excel worksheet",
+      "Description": "Deletes a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#delete-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelEvaluateExpression",
+      "Name": "Evaluate MS Excel expression",
+      "Description": "Returns the result of evaluating an expression in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#evaluate-ms-excel-expression",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelExecuteCommandBarObject",
+      "Name": "Execute MS Excel command bar object",
+      "Description": "Executes any command bar object in an instance of Microsoft Excel (referenced by the handle) given the Control Name, e.g. Copy, Undo, BorderNone, SortAscendingExcel, SortDecendingExcel.",
+      "Anchor": "#execute-ms-excel-command-bar-object",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelFindNextCellWithValue",
+      "Name": "Find next cell with value in MS Excel worksheet",
+      "Description": "Finds the next cell with a specified value in a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#find-next-cell-with-value-in-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelFindNextEmptyCell",
+      "Name": "Find next empty cell in MS Excel worksheet",
+      "Description": "Finds the next empty cell in a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#find-next-empty-cell-in-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelFormatCell",
+      "Name": "Format cell in active MS Excel worksheet",
+      "Description": "Formats a cell in the active worksheet in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#format-cell-in-active-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelFormatCurrentCell",
+      "Name": "Format current cell in active MS Excel worksheet",
+      "Description": "Formats the active cell in the active worksheet in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#format-current-cell-in-active-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGetActiveCell",
+      "Name": "Get active cell in active MS Excel worksheet",
+      "Description": "Returns the cell reference of the active cell in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#get-active-cell-in-active-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGetCellText",
+      "Name": "Get cell text in active MS Excel worksheet",
+      "Description": "Get text in a cell in the active workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#get-cell-text-in-active-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGetCellValue",
+      "Name": "Get cell value in active MS Excel worksheet",
+      "Description": "Get the string value in a cell in the active workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#get-cell-value-in-active-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGetCellValue2",
+      "Name": "Get cell value 2 in active MS Excel worksheet",
+      "Description": "Gets the raw value in a cell in the active workbook in an instance of Microsoft Excel (referenced by the handle). This returns the 'true' value of the cell without any formatting applied.",
+      "Anchor": "#get-cell-value-2-in-active-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGetCountrySetting",
+      "Name": "Get MS Excel country setting",
+      "Description": "Returns the Country setting for an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#get-ms-excel-country-setting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGetNumberOfRows",
+      "Name": "Get number of rows in MS Excel worksheet",
+      "Description": "Returns the number of data rows in a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#get-number-of-rows-in-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGetWorksheetAsCollectionEnhanced",
+      "Name": "Get MS Excel worksheet as collection enhanced",
+      "Description": "Retrieves the contents of a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#get-ms-excel-worksheet-as-collection-enhanced",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGetWorksheetName",
+      "Name": "Get active MS Excel worksheet name",
+      "Description": "Returns the name of the worksheet at a specified index (starting at 1) in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#get-active-ms-excel-worksheet-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGetWorksheetNames",
+      "Name": "Get MS Excel worksheet names",
+      "Description": "Returns the names of worksheets in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#get-ms-excel-worksheet-names",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGetWorksheetUsedRange",
+      "Name": "Get MS Excel worksheet used range",
+      "Description": "Returns the used range in a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#get-ms-excel-worksheet-used-range",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGoToCell",
+      "Name": "Go to cell in active MS Excel worksheet",
+      "Description": "Goes to (selects) a cell in the active workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#go-to-cell-in-active-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGotoNextEmptyCellDown",
+      "Name": "Go to next empty cell down in MS Excel worksheet",
+      "Description": "Goto next empty cell down in a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#go-to-next-empty-cell-down-in-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGotoNextEmptyCellLeft",
+      "Name": "Go to next empty cell left in MS Excel worksheet",
+      "Description": "Goto next empty cell to the left in a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#go-to-next-empty-cell-left-in-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGotoNextEmptyCellRight",
+      "Name": "Go to next empty cell right in MS Excel worksheet",
+      "Description": "Goto next empty cell to the right in a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#go-to-next-empty-cell-right-in-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelGotoNextEmptyCellUp",
+      "Name": "Go to next empty cell up in MS Excel worksheet",
+      "Description": "Goto next empty cell up in a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#go-to-next-empty-cell-up-in-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelHideExcel",
+      "Name": "Hide MS Excel",
+      "Description": "Hides an instance of Microsoft Excel (referenced by the handle). This would typically only be used during development because Excel doesn't need to be visible for automation.",
+      "Anchor": "#hide-ms-excel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelInsertOnSelection",
+      "Name": "Insert on selection in MS Excel workbook",
+      "Description": "Inserts on the current selection in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#insert-on-selection-in-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelOpenWorkbook",
+      "Name": "Open MS Excel workbook",
+      "Description": "Opens a specified Excel workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#open-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelPasteIntoSelection",
+      "Name": "Paste into selection in MS Excel workbook",
+      "Description": "Pastes into the current selection in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#paste-into-selection-in-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelRunMacro",
+      "Name": "Run MS Excel macro",
+      "Description": "Runs a macro in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#run-ms-excel-macro",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelSaveCurrentWorkbook",
+      "Name": "Save current MS Excel workbook",
+      "Description": "Saves the current workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#save-current-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelSaveCurrentWorkbookAs",
+      "Name": "Save current MS Excel workbook as",
+      "Description": "Saves the current workbook in an instance of Microsoft Excel (referenced by the handle) as a specified filename.",
+      "Anchor": "#save-current-ms-excel-workbook-as",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelSaveCurrentWorkbookAsCSV",
+      "Name": "Save current MS Excel workbook as CSV",
+      "Description": "Saves the current workbook as CSV in an instance of Microsoft Excel (referenced by the handle) as a specified filename.",
+      "Anchor": "#save-current-ms-excel-workbook-as-csv",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelSaveWorkbook",
+      "Name": "Save MS Excel workbook",
+      "Description": "Saves a specified open workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#save-ms-excel-workbook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelSaveWorkbookAs",
+      "Name": "Save MS Excel workbook as",
+      "Description": "Saves a specified open workbook in an instance of Microsoft Excel (referenced by the handle) as a specified filename.",
+      "Anchor": "#save-ms-excel-workbook-as",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelSaveWorkbookAsCSV",
+      "Name": "Save MS Excel workbook as CSV",
+      "Description": "Saves a specified open workbook as CSV in an instance of Microsoft Excel (referenced by the handle) as a specified filename.",
+      "Anchor": "#save-ms-excel-workbook-as-csv",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelSaveWorkbookAsWithPassword",
+      "Name": "Save MS Excel workbook as with password",
+      "Description": "Saves a specified open workbook in an instance of Microsoft Excel (referenced by the handle) as a specified filename with a password.",
+      "Anchor": "#save-ms-excel-workbook-as-with-password",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelSelectCellRange",
+      "Name": "Select cell range in MS Excel worksheet",
+      "Description": "Selects a range in a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#select-cell-range-in-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelSetCalculationMode",
+      "Name": "Set MS Excel calculation mode",
+      "Description": "Sets the calculation mode (0 = manual, 1 = automatic, 2 = semi automatic) in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#set-ms-excel-calculation-mode",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelSetCellValue",
+      "Name": "Set cell value in active MS Excel worksheet",
+      "Description": "Set the string value of a cell in the active workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#set-cell-value-in-active-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelShowExcel",
+      "Name": "Show MS Excel",
+      "Description": "Makes an instance of Microsoft Excel visible (referenced by the handle). This would typically only be used during development because Excel doesn't need to be visible for automation.",
+      "Anchor": "#show-ms-excel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelTrustVBOMInRegistry",
+      "Name": "Trust MS Excel VB object model in registry",
+      "Description": "Sets the registry value for Excel to trust VB object model (needed to create macros). Excel must not be running and only works if not overridden by GPO. This is the same as enabling the 'Trust access to the VBA project object model' option in the 'Developer Macro Settings' section of Trust Center.",
+      "Anchor": "#trust-ms-excel-vb-object-model-in-registry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelWriteCollection",
+      "Name": "Write collection to MS Excel worksheet",
+      "Description": "Writes a collection (array) into a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#write-collection-to-ms-excel-worksheet",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSExcelWriteCollectionWithDates",
+      "Name": "Write collection to MS Excel worksheet with dates",
+      "Description": "Writes a collection (array) with date fields into a named worksheet in a workbook in an instance of Microsoft Excel (referenced by the handle).",
+      "Anchor": "#write-collection-to-ms-excel-worksheet-with-dates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookAttachToExistingInstance",
+      "Name": "Attach to existing MS Outlook instance",
+      "Description": "Attaches to a running Outlook instance to allow Outlook to be automated using the actions in this IA-Connect module.",
+      "Anchor": "#attach-to-existing-ms-outlook-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookBackgroundMonitorForAllowPopup",
+      "Name": "Start background monitor for MS Outlook Allow popup",
+      "Description": "Creates a background thread that monitors the remote session for a specified number of seconds, searching for an 'Allow' popup, which can be triggered by a number of Outlook actions such as 'Send email'. Once the element is located, the action will then click the 'Allow' button to permit the triggering action to complete successfully.",
+      "Anchor": "#start-background-monitor-for-ms-outlook-allow-popup",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookCloseInstance",
+      "Name": "Close MS Outlook instance",
+      "Description": "Closes an instance of Microsoft Outlook that was started using the 'Create instance' action (or attached to later), without waiting for any active requests to complete. This action can sometimes cause issues when Outlook cached mode is enabled and should be used after calling 'Wait for mails to send' to ensure that Outlook has successfully completed any ongoing tasks such as sending emails.",
+      "Anchor": "#close-ms-outlook-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookCloseInstanceUsingWindow",
+      "Name": "Close MS Outlook instance using Window",
+      "Description": "Closes an instance of Microsoft Outlook that was started using the 'Create instance' action (or attached to later), by making Outlook visible and then closing the Outlook window (as a user would close Outlook). This can be more reliable when Outlook cached mode is enabled.",
+      "Anchor": "#close-ms-outlook-instance-using-window",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookCreateInstance",
+      "Name": "Create MS Outlook instance",
+      "Description": "Starts Microsoft Outlook using a Visual Basic Object to allow Outlook to be automated using the actions in this IA-Connect module. Microsoft Outlook starts hidden because it doesn't need to be visible for automation. Only one instance of Outlook can be running at any one time.",
+      "Anchor": "#create-ms-outlook-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookCreateMailFolder",
+      "Name": "Create mail folder in MS Outlook",
+      "Description": "Creates a mail folder within the current Outlook profile. This action can be used to create top-level folders if no parent folder path is provided, or child folders by providing a parent folder path.",
+      "Anchor": "#create-mail-folder-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookDeleteEmail",
+      "Name": "Delete email in MS Outlook",
+      "Description": "Deletes an email in Outlook.",
+      "Anchor": "#delete-email-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookForwardEmail",
+      "Name": "Forward email in MS Outlook",
+      "Description": "Forwards an email in Outlook.",
+      "Anchor": "#forward-email-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookGetEmailAttachmentFilenames",
+      "Name": "Get email attachment filenames in MS Outlook",
+      "Description": "Retrieves details about the attachments on an email in Outlook.",
+      "Anchor": "#get-email-attachment-filenames-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookGetEmailBody",
+      "Name": "Get email body in MS Outlook",
+      "Description": "Retrieves the body of an email in Outlook.",
+      "Anchor": "#get-email-body-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookGetEmails",
+      "Name": "Get emails in MS Outlook",
+      "Description": "Retrieves emails from a specified folder in Outlook.",
+      "Anchor": "#get-emails-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookGetFirstEmail",
+      "Name": "Get first email in MS Outlook",
+      "Description": "Retrieves the first email from a specified folder in Outlook. As the emails are not ordered in any particular way, if you require the emails to be in a specific order (e.g. the first email by date received) then you should instead use the 'Get emails' action and then sort the output.",
+      "Anchor": "#get-first-email-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookGetMailFolders",
+      "Name": "Get mail folders in MS Outlook",
+      "Description": "Retrieves all mail folders in Outlook by providing a folder path and optionally a flag to indicate whether subfolders should also be returned.",
+      "Anchor": "#get-mail-folders-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookGetMAPIProfiles",
+      "Name": "Get MS Outlook MAPI profiles",
+      "Description": "Retrieves all the configured MAPI profiles which can be used with Outlook.",
+      "Anchor": "#get-ms-outlook-mapi-profiles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookGetNameSpaceInformation",
+      "Name": "Get MS Outlook namespace information",
+      "Description": "Retrieves information about the current Outlook instance running and the Exchange server that it is connected to.",
+      "Anchor": "#get-ms-outlook-namespace-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookGetNumberOfEmails",
+      "Name": "Get number of MS Outlook mails",
+      "Description": "Returns the number of emails from a specified folder in Outlook that match the provided search criteria.",
+      "Anchor": "#get-number-of-ms-outlook-mails",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookGetOutlookProcessId",
+      "Name": "Get MS Outlook process Id",
+      "Description": "Returns the dynamic Process ID (PID) of the running Outlook process which could be used for performing UIA actions.",
+      "Anchor": "#get-ms-outlook-process-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookIsConnected",
+      "Name": "Is MS Outlook connected",
+      "Description": "Checks to see if IA-Connect is connected to an instance of Outlook.",
+      "Anchor": "#is-ms-outlook-connected",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookMarkEmailAsRead",
+      "Name": "Mark email as read in MS Outlook",
+      "Description": "Marks a specific email in Outlook as read or unread, depending on the input flag set.",
+      "Anchor": "#mark-email-as-read-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookMoveEmail",
+      "Name": "Move email in MS Outlook",
+      "Description": "Moves a specific email from a specified folder in Outlook to another folder.",
+      "Anchor": "#move-email-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookReplyToEmail",
+      "Name": "Reply to email in MS Outlook",
+      "Description": "Replies to an email in Outlook.",
+      "Anchor": "#reply-to-email-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookSaveEmailAttachmentsAsFile",
+      "Name": "Save email attachments as file in MS Outlook",
+      "Description": "Saves the attachments from a specific email in Outlook.",
+      "Anchor": "#save-email-attachments-as-file-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookSendEmail",
+      "Name": "Send email in MS Outlook",
+      "Description": "Sends a new email in Outlook.",
+      "Anchor": "#send-email-in-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookSetAllowPopupDetails",
+      "Name": "Set MS Outlook Allow popup details",
+      "Description": "Overrides the default Outlook 'Allow' popup element search details used by IA-Connect Agent to locate the 'Allow' button. Button names may change with the language settings, if so use this before calling 'Background monitor for Allow popup'.",
+      "Anchor": "#set-ms-outlook-allow-popup-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSOutlookShow",
+      "Name": "Show MS Outlook",
+      "Description": "Shows the current Outlook instance that is being automated.",
+      "Anchor": "#show-ms-outlook",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordAddTable",
+      "Name": "Add table to MS Word document",
+      "Description": "Adds a table with the specified number of rows and columns to a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#add-table-to-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordAddTableColumn",
+      "Name": "Add table column to MS Word document",
+      "Description": "Adds a column to a table (specified by index) in a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#add-table-column-to-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordAddTableRow",
+      "Name": "Add table row to MS Word document",
+      "Description": "Adds a row to a table (specified by index) in a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#add-table-row-to-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordAttachToExistingInstance",
+      "Name": "Attach to existing MS Word instance",
+      "Description": "Attaches to an instance Microsoft Word that has already been started.",
+      "Anchor": "#attach-to-existing-ms-word-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordClearClipboard",
+      "Name": "Clear clipboard",
+      "Description": "Clears the contents of the clipboard in the IA-Connect Agent user session.",
+      "Anchor": "#clear-clipboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordCloseDocument",
+      "Name": "Close MS Word document",
+      "Description": "Closes an open Word document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#close-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordCloseInstance",
+      "Name": "Close MS Word instance",
+      "Description": "Closes an instance of Microsoft Word that was started using a Visual Basic Object (or attached to later). The instance of Word to close is defined by the handle.",
+      "Anchor": "#close-ms-word-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordCopyToClipboard",
+      "Name": "Copy MS Word selection to clipboard",
+      "Description": "Copies the selected contents of a document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#copy-ms-word-selection-to-clipboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordCreateDocument",
+      "Name": "Create MS Word document",
+      "Description": "Creates a new Word document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#create-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordCreateInstance",
+      "Name": "Create MS Word instance",
+      "Description": "Starts Microsoft Word using a Visual Basic Object to allow Word to be automated using the actions in this IA-Connect module. Microsoft Word starts hidden because it doesn't need to be visible for automation.",
+      "Anchor": "#create-ms-word-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordDetachFromInstance",
+      "Name": "Detach from MS Word instance",
+      "Description": "Detaches from a running instance of Microsoft Word that was started using a Visual Basic Object (or attached to later). The instance of Word to detach from is defined by the handle.",
+      "Anchor": "#detach-from-ms-word-instance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordExportDocumentAsPDF",
+      "Name": "Export MS Word document as PDF",
+      "Description": "Saves a named document as a PDF in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#export-ms-word-document-as-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordGetDocumentBodyText",
+      "Name": "Get MS Word document body text",
+      "Description": "Reads the content from a specified character range in the body of a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#get-ms-word-document-body-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordGetHighlightedText",
+      "Name": "Get highlighted text in MS Word document",
+      "Description": "Returns all highlighted text in a document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#get-highlighted-text-in-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordGetNumberOfTablesInDocument",
+      "Name": "Get number of tables in MS Word document",
+      "Description": "Returns the number of tables in a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#get-number-of-tables-in-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordGetTableBounds",
+      "Name": "Get MS Word document table bounds",
+      "Description": "Returns the number of rows and columns in a table (specified by index) in a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#get-ms-word-document-table-bounds",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordGetTableCellTextValue",
+      "Name": "Get table cell text value in MS Word document",
+      "Description": "Gets the text value of a cell in a table (specified by index) in a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#get-table-cell-text-value-in-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordGetTableCellTextValueTrimmed",
+      "Name": "Get MS Word document table cell text value trimmed",
+      "Description": "Gets the text value of a cell with any leading or trailing whitespace characters (e.g. spaces) removed in a table (specified by index) in a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#get-ms-word-document-table-cell-text-value-trimmed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordHideWord",
+      "Name": "Hide MS Word",
+      "Description": "Hides an instance of Microsoft Word (referenced by the handle). This would typically only be used during development because Word doesn't need to be visible for automation.",
+      "Anchor": "#hide-ms-word",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordOpenDocument",
+      "Name": "Open MS Word document",
+      "Description": "Opens a specified Word document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#open-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordPasteFromClipboard",
+      "Name": "Paste into MS Word from clipboard",
+      "Description": "Pastes the content of the clipboard into a document at the currently selected point in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#paste-into-ms-word-from-clipboard",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordSaveAsDocument",
+      "Name": "Save As MS Word document",
+      "Description": "Saves a specified open document in an instance of Microsoft Word (referenced by the handle) as a specified filename.",
+      "Anchor": "#save-as-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordSaveDocument",
+      "Name": "Save MS Word document",
+      "Description": "Saves a specified open document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#save-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordSelectAll",
+      "Name": "Select all in MS Word document",
+      "Description": "Selects all of the content in an open document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#select-all-in-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordSelectRange",
+      "Name": "Select range in MS Word document",
+      "Description": "Selects a character range in a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#select-range-in-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordSelectTable",
+      "Name": "Select table in MS Word document",
+      "Description": "Selects a table (specified by index) in a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#select-table-in-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordSelectTableCell",
+      "Name": "Select table cell in MS Word document",
+      "Description": "Selects a cell in a table (specified by index) in a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#select-table-cell-in-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordSetTableCellTextValue",
+      "Name": "Set MS Word document table cell text value",
+      "Description": "Sets the text value of a cell in a table (specified by index) in a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#set-ms-word-document-table-cell-text-value",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordShowWord",
+      "Name": "Show MS Word",
+      "Description": "Makes an instance of Microsoft Word visible (referenced by the handle). This would typically only be used during development because Word doesn't need to be visible for automation.",
+      "Anchor": "#show-ms-word",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordTypeText",
+      "Name": "Type text in MS Word document",
+      "Description": "Types the specified text into a document from the currently selected point in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#type-text-in-ms-word-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MSWordUpdateBookmark",
+      "Name": "Update MS Word bookmark",
+      "Description": "Updates a bookmark in a named document in an instance of Microsoft Word (referenced by the handle).",
+      "Anchor": "#update-ms-word-bookmark",
+      "IsDeprecated": false
+    }
+  ]
+}
