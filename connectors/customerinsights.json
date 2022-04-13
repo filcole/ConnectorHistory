@@ -12,7 +12,7 @@
     {
       "OperationId": "GetItems",
       "Name": "Get items from an entity",
-      "Description": "This operation gets items from an entity",
+      "Description": "This operation gets items from an entity. Depending on the entity, fields can be defined as filters:\n\nUnifiedActivity entity: ActivityId and CustomerId fields\nCustomer entity: CustomerId field and any other fields indexed in the Customer Insights instance\nAny other entities: CustomerId field.",
       "Anchor": "#get-items-from-an-entity",
       "IsDeprecated": false
     },

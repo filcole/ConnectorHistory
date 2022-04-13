@@ -11452,6 +11452,236 @@
     ]
   },
   {
+    "UniqueName": "buildingminds",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../buildingminds/",
+    "Actions": [
+      {
+        "OperationId": "CheckForChildrenOnBuilding",
+        "Name": "Gets the information about the existence of children on a building",
+        "Description": "Gets the information about the existence of children on a building",
+        "Anchor": "#gets-the-information-about-the-existence-of-children-on-a-building",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CheckForChildrenOnFacade",
+        "Name": "Gets the information about the existence of children on a facade",
+        "Description": "Gets the information about the existence of children on a facade",
+        "Anchor": "#gets-the-information-about-the-existence-of-children-on-a-facade",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CheckForChildrenOnFloor",
+        "Name": "Gets the information about the existence of children on a floor",
+        "Description": "Gets the information about the existence of children on a floor",
+        "Anchor": "#gets-the-information-about-the-existence-of-children-on-a-floor",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CheckForChildrenOnLand",
+        "Name": "Gets the information about the existence of children on a land",
+        "Description": "Gets the information about the existence of children on a land",
+        "Anchor": "#gets-the-information-about-the-existence-of-children-on-a-land",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CheckForChildrenOnOutsidearea",
+        "Name": "Gets the information about the existence of children on a outsidearea",
+        "Description": "Gets the information about the existence of children on a outsidearea",
+        "Anchor": "#gets-the-information-about-the-existence-of-children-on-a-outsidearea",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CheckForChildrenOnPortfolio",
+        "Name": "Gets the information about the existence of children on a portfolios",
+        "Description": "Gets the information about the existence of children on a portfolios",
+        "Anchor": "#gets-the-information-about-the-existence-of-children-on-a-portfolios",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CheckForChildrenOnRoof",
+        "Name": "Gets the information about the existence of children on a roof",
+        "Description": "Gets the information about the existence of children on a roof",
+        "Anchor": "#gets-the-information-about-the-existence-of-children-on-a-roof",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CheckForChildrenOnSite",
+        "Name": "Gets the information about the existence of children on a site",
+        "Description": "Gets the information about the existence of children on a site",
+        "Anchor": "#gets-the-information-about-the-existence-of-children-on-a-site",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CheckForChildrenOnSpace",
+        "Name": "Gets the information about the existence of children on a space",
+        "Description": "Gets the information about the existence of children on a space",
+        "Anchor": "#gets-the-information-about-the-existence-of-children-on-a-space",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CheckForChildrenOnSubarea",
+        "Name": "Gets the information about the existence of children on a subarea",
+        "Description": "Gets the information about the existence of children on a subarea",
+        "Anchor": "#gets-the-information-about-the-existence-of-children-on-a-subarea",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAssociatedSpacesForSpace",
+        "Name": "Get the list of associated entities",
+        "Description": "Get the list of spaces of certain type associated with the provided space entity",
+        "Anchor": "#get-the-list-of-associated-entities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetBuildingById",
+        "Name": "Gets a buidling with the given ID",
+        "Description": "Gets a building with the given ID",
+        "Anchor": "#gets-a-buidling-with-the-given-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetBuildings",
+        "Name": "Get all buildings",
+        "Description": "Get all buildings for the currently logged in user's tenants",
+        "Anchor": "#get-all-buildings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFacadeById",
+        "Name": "Gets a facade with the given ID",
+        "Description": "Gets a facade with the given ID",
+        "Anchor": "#gets-a-facade-with-the-given-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFacades",
+        "Name": "Get all facades",
+        "Description": "Get all Facades for the currently logged in user's tenants",
+        "Anchor": "#get-all-facades",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFloorById",
+        "Name": "Gets a floor with the given ID",
+        "Description": "Gets a floor with the given ID",
+        "Anchor": "#gets-a-floor-with-the-given-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFloors",
+        "Name": "Get all floors",
+        "Description": "Get all floors for the currently logged in user's tenants",
+        "Anchor": "#get-all-floors",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLandById",
+        "Name": "Gets a land with the given ID",
+        "Description": "Gets a land with the given ID",
+        "Anchor": "#gets-a-land-with-the-given-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLands",
+        "Name": "Get all lands",
+        "Description": "Get all lands for the currently logged in user's tenants",
+        "Anchor": "#get-all-lands",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetOutsideareaById",
+        "Name": "Gets a outsidearea with the given ID",
+        "Description": "Gets a outsidearea with the given ID",
+        "Anchor": "#gets-a-outsidearea-with-the-given-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetOutsideareas",
+        "Name": "Get all outsideareas",
+        "Description": "Get all outsideareas for the currently logged in user's tenants",
+        "Anchor": "#get-all-outsideareas",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPortfolioById",
+        "Name": "Gets a portfolio with the given ID",
+        "Description": "Gets a portfolio with the given ID",
+        "Anchor": "#gets-a-portfolio-with-the-given-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPortfolios",
+        "Name": "Get all portfolios",
+        "Description": "Get all portfolios for the currently logged in user's tenants",
+        "Anchor": "#get-all-portfolios",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRoofById",
+        "Name": "Gets a roof with the given ID",
+        "Description": "Gets a roof with the given ID",
+        "Anchor": "#gets-a-roof-with-the-given-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRoofs",
+        "Name": "Get all roofs",
+        "Description": "Get all roofs for the currently logged in user's tenants",
+        "Anchor": "#get-all-roofs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSiteById",
+        "Name": "Gets a site with the given ID",
+        "Description": "Gets a site with the given ID",
+        "Anchor": "#gets-a-site-with-the-given-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSites",
+        "Name": "Get all sites",
+        "Description": "Get all sites for the currently logged in user's tenants",
+        "Anchor": "#get-all-sites",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSpaceById",
+        "Name": "Gets a space with the given ID",
+        "Description": "Gets a space with the given ID",
+        "Anchor": "#gets-a-space-with-the-given-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSpaces",
+        "Name": "Get all spaces",
+        "Description": "Get all spaces for the currently logged in user's tenants",
+        "Anchor": "#get-all-spaces",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSubareaById",
+        "Name": "Gets a subarea with the given ID",
+        "Description": "Gets a subarea with the given ID",
+        "Anchor": "#gets-a-subarea-with-the-given-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSubareas",
+        "Name": "Get all subareas",
+        "Description": "Get all subareas for the currently logged in user's tenants",
+        "Anchor": "#get-all-subareas",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUnassociatedSpaces",
+        "Name": "Get the list of not associated entities",
+        "Description": "Get the list of spaces of certain type which are not associated with the space of another provided type",
+        "Anchor": "#get-the-list-of-not-associated-entities",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "dynamicssmbsaas",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamicssmbsaas/",
     "Actions": [
@@ -18835,7 +19065,7 @@
       {
         "OperationId": "GetItems",
         "Name": "Get items from an entity",
-        "Description": "This operation gets items from an entity",
+        "Description": "This operation gets items from an entity. Depending on the entity, fields can be defined as filters:\n\nUnifiedActivity entity: ActivityId and CustomerId fields\nCustomer entity: CustomerId field and any other fields indexed in the Customer Insights instance\nAny other entities: CustomerId field.",
         "Anchor": "#get-items-from-an-entity",
         "IsDeprecated": false
       },
