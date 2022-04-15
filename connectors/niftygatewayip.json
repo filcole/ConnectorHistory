@@ -1,0 +1,20 @@
+{
+  "UniqueName": "niftygatewayip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../niftygatewayip/",
+  "Actions": [
+    {
+      "OperationId": "NiftiesforCreator",
+      "Name": "Nifties for Creator",
+      "Description": "Returns ownership information for all nifties created by the given creator and currently stored on Nifty Gateway.",
+      "Anchor": "#nifties-for-creator",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NiftiesforUser",
+      "Name": "Nifties for User",
+      "Description": "Returns information about all nifties owned by the given user.",
+      "Anchor": "#nifties-for-user",
+      "IsDeprecated": false
+    }
+  ]
+}

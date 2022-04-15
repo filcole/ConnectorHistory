@@ -1,0 +1,188 @@
+{
+  "UniqueName": "geodbip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../geodbip/",
+  "Actions": [
+    {
+      "OperationId": "FindAdminDivisionsUsingGET",
+      "Name": "Find administrative divisions",
+      "Description": "Find administrative divisions, filtering by optional criteria. If no criteria are set, you will get back all known divisions.",
+      "Anchor": "#find-administrative-divisions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindCitiesNearAdminDivisionUsingGET",
+      "Name": "Find cities near division",
+      "Description": "Find cities near the given administrative division, filtering by optional criteria. If no criteria are set, you will get back all known cities.",
+      "Anchor": "#find-cities-near-division",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindCitiesNearCityUsingGET",
+      "Name": "Find cities near city",
+      "Description": "Find cities near the given origin city, filtering by optional criteria. If no criteria are set, you will get back all known cities.",
+      "Anchor": "#find-cities-near-city",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindCitiesNearLocationUsingGET",
+      "Name": "Find cities near location",
+      "Description": "Find cities near the given location, filtering by optional criteria. If no criteria are set, you will get back all known cities.",
+      "Anchor": "#find-cities-near-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindCitiesUsingGET",
+      "Name": "Find cities",
+      "Description": "Find cities, filtering by optional criteria. If no criteria are set, you will get back all known cities.",
+      "Anchor": "#find-cities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDivisionsNearAdminDivisionUsingGET",
+      "Name": "Find divisions near division",
+      "Description": "Find administrative divisions near the given origin division, filtering by optional criteria. If no criteria are set, you will get back all known divisions.",
+      "Anchor": "#find-divisions-near-division",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindDivisionsNearLocationUsingGET",
+      "Name": "Find divisions near location",
+      "Description": "Find administrative divisions near the given location, filtering by optional criteria. If no criteria are set, you will get back all known divisions.",
+      "Anchor": "#find-divisions-near-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindRegionCitiesUsingGET",
+      "Name": "Find country region cities",
+      "Description": "Get the cities in a specific country region. The country and region info is omitted in the response. .",
+      "Anchor": "#find-country-region-cities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindRegionDivisionsUsingGET",
+      "Name": "Find country region administrative divisions",
+      "Description": "Get the administrative divisions in a specific country region. The country and region info is omitted in the response. .",
+      "Anchor": "#find-country-region-administrative-divisions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAdminDivisionUsingGET",
+      "Name": "Get administrative division details",
+      "Description": "Get the details for a specific administrative division, including location coordinates, population, and elevation above sea-level (if available).",
+      "Anchor": "#get-administrative-division-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCityDateTimeUsingGET",
+      "Name": "Get city date-time",
+      "Description": "Get city date-time.",
+      "Anchor": "#get-city-date-time",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCityDistanceUsingGET",
+      "Name": "Get city distance",
+      "Description": "Get distance from the given city.",
+      "Anchor": "#get-city-distance",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCityLocatedInUsingGET",
+      "Name": "Get city admin region",
+      "Description": "Get the details for the containing populated place (e.g., its county or other administrative division), including location coordinates, population, and elevation above sea-level (if available).",
+      "Anchor": "#get-city-admin-region",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCityTimeUsingGET",
+      "Name": "Get city time",
+      "Description": "Get city time.",
+      "Anchor": "#get-city-time",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCityUsingGET",
+      "Name": "Get city details",
+      "Description": "Get the details for a specific city, including location coordinates, population, and elevation above sea-level (if available).",
+      "Anchor": "#get-city-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCountriesUsingGET",
+      "Name": "Find countries",
+      "Description": "Find countries, filtering by optional criteria. If no criteria are set, you will get back all known countries.",
+      "Anchor": "#find-countries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCountryUsingGET",
+      "Name": "Get country details",
+      "Description": "Get the details for a specific country, including number of regions.",
+      "Anchor": "#get-country-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCurrenciesUsingGET",
+      "Name": "Find currencies",
+      "Description": "Find currencies, filtering by optional criteria. If no criteria are set, you will get back all known currencies.",
+      "Anchor": "#find-currencies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLanguagesUsingGET",
+      "Name": "Get languages",
+      "Description": "Get all supported languages.",
+      "Anchor": "#get-languages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLocalesUsingGET",
+      "Name": "Get locales",
+      "Description": "Get all known locales.",
+      "Anchor": "#get-locales",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRegionsUsingGET",
+      "Name": "Find country regions",
+      "Description": "Get all regions in a specific country. These could be states, provinces, districts, or otherwise major political divisions.",
+      "Anchor": "#find-country-regions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRegionUsingGET",
+      "Name": "Get region details",
+      "Description": "Get the details of a specific country region, including number of cities.",
+      "Anchor": "#get-region-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTimeZoneDateTimeUsingGET",
+      "Name": "Get time-zone date-time",
+      "Description": "Get time-zone date-time.",
+      "Anchor": "#get-time-zone-date-time",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTimezonesUsingGET",
+      "Name": "Get time-zones",
+      "Description": "Get all known time-zones.",
+      "Anchor": "#get-time-zones",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTimeZoneTimeUsingGET",
+      "Name": "Get time-zone time",
+      "Description": "Get time-zone time.",
+      "Anchor": "#get-time-zone-time",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTimeZoneUsingGET",
+      "Name": "Get time-zone",
+      "Description": "Get time-zone.",
+      "Anchor": "#get-time-zone",
+      "IsDeprecated": false
+    }
+  ]
+}

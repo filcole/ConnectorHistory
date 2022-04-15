@@ -1,0 +1,27 @@
+{
+  "UniqueName": "ronswansonquotesip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ronswansonquotesip/",
+  "Actions": [
+    {
+      "OperationId": "QuoteGet",
+      "Name": "Get a quote",
+      "Description": "Returns an array with one quote.",
+      "Anchor": "#get-a-quote",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Quotes",
+      "Name": "Get a number of quotes",
+      "Description": "Returns an array with a count of quotes.",
+      "Anchor": "#get-a-number-of-quotes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Search",
+      "Name": "Search for a term",
+      "Description": "Returns an array of quotes matching term without case sensitivity.",
+      "Anchor": "#search-for-a-term",
+      "IsDeprecated": false
+    }
+  ]
+}

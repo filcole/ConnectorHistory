@@ -1,0 +1,153 @@
+{
+  "UniqueName": "nationalparkserviceip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nationalparkserviceip/",
+  "Actions": [
+    {
+      "OperationId": "getActivities",
+      "Name": "Get activities",
+      "Description": "Retrieve categories of activities (astronomy, hiking, wildlife watching, etc.) possible in national parks.",
+      "Anchor": "#get-activities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getActvitiesParks",
+      "Name": "Get park activities",
+      "Description": "Returns activites parks information.",
+      "Anchor": "#get-park-activities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getAlerts",
+      "Name": "Get alerts",
+      "Description": "Retrieve alerts (danger, closure, caution, and information) posted by parks.",
+      "Anchor": "#get-alerts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getAmenities",
+      "Name": "Get amenities",
+      "Description": "Retrieve the amenity types (accessible restrooms, fire pit, picnic area, etc.) available in national parks.",
+      "Anchor": "#get-amenities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getAmenitiesParksplaces",
+      "Name": "Get park amenities",
+      "Description": "Retrieve places within national parks that have different amenities.",
+      "Anchor": "#get-park-amenities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getAmenitiesParksvisitorcenters",
+      "Name": "Get visitor center amenities",
+      "Description": "Retrieve visitor centers within national parks that have different amenities.",
+      "Anchor": "#get-visitor-center-amenities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getArticles",
+      "Name": "Get articles",
+      "Description": "Retrieve articles created by national parks and other NPS entities.",
+      "Anchor": "#get-articles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getCampgrounds",
+      "Name": "Get campgrounds",
+      "Description": "Retrieve data about National Park Service campgrounds including addresses, contacts, description, hours of operation, etc.",
+      "Anchor": "#get-campgrounds",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getEvents",
+      "Name": "Get events",
+      "Description": "Retrieve events created by national parks and other NPS entities.",
+      "Anchor": "#get-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getLessonPlans",
+      "Name": "Get lesson plans",
+      "Description": "Retrieve lesson plans created by national parks and other NPS entities.",
+      "Anchor": "#get-lesson-plans",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getNewsReleases",
+      "Name": "Get news releases",
+      "Description": "Retrieve news releases created by national parks and other NPS entities.",
+      "Anchor": "#get-news-releases",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getPark",
+      "Name": "Get parks",
+      "Description": "Retrieve data about national parks (addresses, contacts, description, hours of operation, etc.).",
+      "Anchor": "#get-parks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getPassportstamplocations",
+      "Name": "Get passport stamp locations",
+      "Description": "Retrieve locations that have national park passport stamps.",
+      "Anchor": "#get-passport-stamp-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getPeople",
+      "Name": "Get people",
+      "Description": "Retrieve articles providing a synopsis of specific people related to national parks.",
+      "Anchor": "#get-people",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getPlaces",
+      "Name": "Get places",
+      "Description": "Retrieve articles providing a synopsis of specific places related to national parks.",
+      "Anchor": "#get-places",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getThingstodo",
+      "Name": "Get things to do",
+      "Description": "Retrieve suggested things to do recommended by and for specific national parks.",
+      "Anchor": "#get-things-to-do",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getTopics",
+      "Name": "Get topics",
+      "Description": "Retrieve categories of topics (American revolution, music, women's history, etc.) relating to national parks.",
+      "Anchor": "#get-topics",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getTopicsParks",
+      "Name": "Get parks by topic",
+      "Description": "Retrieve national parks that are related to particular categories of topics (American revolution, music, women's history, etc.).",
+      "Anchor": "#get-parks-by-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getTours",
+      "Name": "Get tours",
+      "Description": "Retrieve tours with stops at the special places, campgrounds, and visitor centers found within national parks.",
+      "Anchor": "#get-tours",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getVisitorCenters",
+      "Name": "Get visitor centers",
+      "Description": "Retrieve data about National Park Service visitor centers including addresses, contacts, description, hours of operation, etc.",
+      "Anchor": "#get-visitor-centers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getWebcams",
+      "Name": "Get webcams",
+      "Description": "Retrieve metadata about National Park Service streaming and non-streaming web cams.",
+      "Anchor": "#get-webcams",
+      "IsDeprecated": false
+    }
+  ]
+}

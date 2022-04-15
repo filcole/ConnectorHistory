@@ -1,0 +1,13 @@
+{
+  "UniqueName": "michaelscottquotesip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../michaelscottquotesip/",
+  "Actions": [
+    {
+      "OperationId": "Quote",
+      "Name": "Get a quote",
+      "Description": "Returns a random Michael Scott quote.",
+      "Anchor": "#get-a-quote",
+      "IsDeprecated": false
+    }
+  ]
+}

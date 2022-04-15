@@ -4,9 +4,16 @@
   "Actions": [
     {
       "OperationId": "ASITE_TRIGGER_EVENT",
-      "Name": "When an Asite workflow event is triggered",
-      "Description": "Triggers a workflow event to upload a file to the project folder.",
-      "Anchor": "#when-an-asite-workflow-event-is-triggered",
+      "Name": "When a workflow is triggered on file(s)",
+      "Description": "This operation triggers a flow when a file is uploaded/updated on the project. The trigger is fired to include sub-folders based on the workflow configuration.",
+      "Anchor": "#when-a-workflow-is-triggered-on-file(s)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ASITE_TRIGGER_EVENT_APP_FORM",
+      "Name": "When a workflow is triggered on App(s)",
+      "Description": "This operation triggers a flow when a form is created/updated on the project. Configure separate flows for each App.",
+      "Anchor": "#when-a-workflow-is-triggered-on-app(s)",
       "IsDeprecated": false
     },
     {

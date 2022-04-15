@@ -1,0 +1,202 @@
+{
+  "UniqueName": "urlbaeip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../urlbaeip/",
+  "Actions": [
+    {
+      "OperationId": "AccountGet",
+      "Name": "Get account",
+      "Description": "To get information on the account, you can send a request to this endpoint and it will return data on the account.",
+      "Anchor": "#get-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AccountUpdate",
+      "Name": "Update account",
+      "Description": "To update information on the account, you can send a request to this endpoint and it will update data on the account.",
+      "Anchor": "#update-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CTAList",
+      "Name": "List all CTA overlays",
+      "Description": "To get call-to-action overlays via the API, you can use this endpoint",
+      "Anchor": "#list-all-cta-overlays",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DomainCreate",
+      "Name": "Create a branded domain",
+      "Description": "A domain can be added using this endpoint. You need to send the pixel type and the tag.",
+      "Anchor": "#create-a-branded-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DomainDelete",
+      "Name": "Delete domain",
+      "Description": "To delete a domain, you need to send a request to this endpoint.",
+      "Anchor": "#delete-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DomainList",
+      "Name": "List all branded domains",
+      "Description": "To get your branded domains codes via the API, you can use this endpoint.",
+      "Anchor": "#list-all-branded-domains",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DomainUpdate",
+      "Name": "Update a domain",
+      "Description": "A branded domain can be updated using this endpoint.",
+      "Anchor": "#update-a-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LinkDelete",
+      "Name": "Delete a link",
+      "Description": "To delete a link, you can use this endpoint.",
+      "Anchor": "#delete-a-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LinkGet",
+      "Name": "Get a single link",
+      "Description": "To get details for a single link via the API, you can use this endpoint.",
+      "Anchor": "#get-a-single-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LinkList",
+      "Name": "List all links",
+      "Description": "To get your links via the API, you can use this endpoint.",
+      "Anchor": "#list-all-links",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LinkShorten",
+      "Name": "Shorten a link",
+      "Description": "To shorten a single link via the API, you can use this endpoint.",
+      "Anchor": "#shorten-a-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LinkUpdate",
+      "Name": "Update a link",
+      "Description": "To update a link via the API, you can use this endpoint.",
+      "Anchor": "#update-a-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PixelCreate",
+      "Name": "Create a pixel",
+      "Description": "A pixel can be created using this endpoint. You need to send the pixel type and the tag.",
+      "Anchor": "#create-a-pixel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PixelDelete",
+      "Name": "Delete pixel",
+      "Description": "To delete a pixel via the API, you can use this endpoint.",
+      "Anchor": "#delete-pixel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PixelList",
+      "Name": "List all pixels",
+      "Description": "To get your pixels codes via the API, you can use this endpoint.",
+      "Anchor": "#list-all-pixels",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PixelUpdate",
+      "Name": "Update a pixel",
+      "Description": "To update a pixel via the API, you can use this endpoint.",
+      "Anchor": "#update-a-pixel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PlanList",
+      "Name": "List all plans",
+      "Description": "Get a list of all plans on the platform. This endpoint is only accessible by users with admin privileges.",
+      "Anchor": "#list-all-plans",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PlanSubscribe",
+      "Name": "Subscribe a user to a plan",
+      "Description": "To subscribe a user to plan, send a PUT request to this endpoint with the plan id and user id. The type of subscription and the expiration date will need to be specified. If the expiration date is not specified, the date will be adjusted according to the type.",
+      "Anchor": "#subscribe-a-user-to-a-plan",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QRCreate",
+      "Name": "Create a QR code",
+      "Description": "To get create a single QR code via the API, you can use this endpoint.",
+      "Anchor": "#create-a-qr-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QRDelete",
+      "Name": "Delete a QR code",
+      "Description": "To delete a single QR code via the API, you can use this endpoint.",
+      "Anchor": "#delete-a-qr-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QRGet",
+      "Name": "Get a single QR code",
+      "Description": "To get details for a single QR code via the API, you can use this endpoint.",
+      "Anchor": "#get-a-single-qr-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QRList",
+      "Name": "List all QR codes",
+      "Description": "To get your QR codes via the API, you can use this endpoint.",
+      "Anchor": "#list-all-qr-codes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QRUpdate",
+      "Name": "Update a QR code",
+      "Description": "To update a single QR code via the API, you can use this endpoint.",
+      "Anchor": "#update-a-qr-code",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplashList",
+      "Name": "List all custom splash",
+      "Description": "To get custom splash pages via the API, you can use this endpoint.",
+      "Anchor": "#list-all-custom-splash",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserCreate",
+      "Name": "Create a user",
+      "Description": "To create a user, use this endpoint.",
+      "Anchor": "#create-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserDelete",
+      "Name": "Delete a user",
+      "Description": "To delete a user, use this endpoint.",
+      "Anchor": "#delete-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserGet",
+      "Name": "Get a single user",
+      "Description": "Get data for a single user.",
+      "Anchor": "#get-a-single-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserList",
+      "Name": "List all users",
+      "Description": "Get a list of all users on the platform. This endpoint is only accessible by users with admin privileges.",
+      "Anchor": "#list-all-users",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -4226,9 +4226,16 @@
     "Actions": [
       {
         "OperationId": "ASITE_TRIGGER_EVENT",
-        "Name": "When an Asite workflow event is triggered",
-        "Description": "Triggers a workflow event to upload a file to the project folder.",
-        "Anchor": "#when-an-asite-workflow-event-is-triggered",
+        "Name": "When a workflow is triggered on file(s)",
+        "Description": "This operation triggers a flow when a file is uploaded/updated on the project. The trigger is fired to include sub-folders based on the workflow configuration.",
+        "Anchor": "#when-a-workflow-is-triggered-on-file(s)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ASITE_TRIGGER_EVENT_APP_FORM",
+        "Name": "When a workflow is triggered on App(s)",
+        "Description": "This operation triggers a flow when a form is created/updated on the project. Configure separate flows for each App.",
+        "Anchor": "#when-a-workflow-is-triggered-on-app(s)",
         "IsDeprecated": false
       },
       {
@@ -4260,9 +4267,16 @@
     "Actions": [
       {
         "OperationId": "ASITE_TRIGGER_EVENT",
-        "Name": "When an Asite workflow event is triggered",
-        "Description": "Triggers a workflow event to upload a file to the project folder.",
-        "Anchor": "#when-an-asite-workflow-event-is-triggered",
+        "Name": "When a workflow is triggered on file(s)",
+        "Description": "This operation triggers a flow when a file is uploaded/updated on the project. The trigger is fired to include sub-folders based on the workflow configuration.",
+        "Anchor": "#when-a-workflow-is-triggered-on-file(s)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ASITE_TRIGGER_EVENT_APP_FORM",
+        "Name": "When a workflow is triggered on App(s)",
+        "Description": "This operation triggers a flow when a form is created/updated on the project. Configure separate flows for each App.",
+        "Anchor": "#when-a-workflow-is-triggered-on-app(s)",
         "IsDeprecated": false
       },
       {
@@ -7195,6 +7209,33 @@
         "Name": "Receipts Process",
         "Description": "Process the receipts/bills to extract only the useful details like vendor name, total, date, etc., categorize the bill into different categories like food, travel, etc. based on the line items in the receipts and detects the currency from the bill.",
         "Anchor": "#receipts-process",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "binanceusip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../binanceusip/",
+    "Actions": [
+      {
+        "OperationId": "GetExchangeInformation",
+        "Name": "Get Exchange Information",
+        "Description": "Current exchange trading rules and symbol information.",
+        "Anchor": "#get-exchange-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLiveTickerPrice",
+        "Name": "Get Live Ticker Price",
+        "Description": "Latest price for a symbol or symbols. If the symbol is not sent, prices for all symbols will be returned in an array.",
+        "Anchor": "#get-live-ticker-price",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRecentTrades",
+        "Name": "Get Recent Trades",
+        "Description": "Get recent trades (up to last 1000).",
+        "Anchor": "#get-recent-trades",
         "IsDeprecated": false
       }
     ]
@@ -15635,6 +15676,19 @@
     ]
   },
   {
+    "UniqueName": "corporatebuzzwordip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../corporatebuzzwordip/",
+    "Actions": [
+      {
+        "OperationId": "Phrase",
+        "Name": "Get a phrase",
+        "Description": "Returns a randomly generated phrase.",
+        "Anchor": "#get-a-phrase",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "cosmobot",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cosmobot/",
     "Actions": [
@@ -16420,6 +16474,40 @@
     ]
   },
   {
+    "UniqueName": "decentralandip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../decentralandip/",
+    "Actions": [
+      {
+        "OperationId": "GetDistricts",
+        "Name": "Get Districts",
+        "Description": "A listing of districts in Decentraland",
+        "Anchor": "#get-districts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetId",
+        "Name": "Get Id",
+        "Description": "A blockchain Id of a parcel in Decentraland",
+        "Anchor": "#get-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetParcelDetails",
+        "Name": "Get Parcel Details",
+        "Description": "The details of a specific parcel in Decentraland",
+        "Anchor": "#get-parcel-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetParcelMap",
+        "Name": "Get Parcel Map",
+        "Description": "A map of parcels in Decentraland",
+        "Anchor": "#get-parcel-map",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "cloudappsecurity",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudappsecurity/",
     "Actions": [
@@ -16767,6 +16855,68 @@
         "Name": "Get EGVs",
         "Description": "Estimated Glucose Value (EGV) Request from Dexcom",
         "Anchor": "#get-egvs",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "digitalhumaniip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../digitalhumaniip/",
+    "Actions": [
+      {
+        "OperationId": "EnterpriseGet",
+        "Name": "Get enterprise by ID",
+        "Description": "This method allows you to retrieve the details of your enterprise.",
+        "Anchor": "#get-enterprise-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectGet",
+        "Name": "Get list of all projects",
+        "Description": "This method retrieves all the reforestation projects available.",
+        "Anchor": "#get-list-of-all-projects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectGetA",
+        "Name": "Get project by ID",
+        "Description": "This method allows you to retrieve the details of a single reforestation project.",
+        "Anchor": "#get-project-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TreeCount",
+        "Name": "Count trees for a user",
+        "Description": "This method allows you to retrieve the number of trees planted by a specific user.",
+        "Anchor": "#count-trees-for-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TreeCountDates",
+        "Name": "Count trees for an enterprise for any range of date",
+        "Description": "This method allows you to retrieve the number of trees planted by an enterprise for any range of date.",
+        "Anchor": "#count-trees-for-an-enterprise-for-any-range-of-date",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TreeCountMonth",
+        "Name": "Count trees for an enterprise by month",
+        "Description": "This method allows you to retrieve the number of trees planted by an enterprise for a specific month.",
+        "Anchor": "#count-trees-for-an-enterprise-by-month",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TreeDetails",
+        "Name": "Get details of a single request to plant one or many trees",
+        "Description": "This method allows you to retrieve the details of a single request to plant trees.",
+        "Anchor": "#get-details-of-a-single-request-to-plant-one-or-many-trees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TreePlant",
+        "Name": "Plant one or many trees",
+        "Description": "This method sends the request to plant one or many trees.",
+        "Anchor": "#plant-one-or-many-trees",
         "IsDeprecated": false
       }
     ]
@@ -25838,6 +25988,194 @@
     ]
   },
   {
+    "UniqueName": "geodbip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../geodbip/",
+    "Actions": [
+      {
+        "OperationId": "FindAdminDivisionsUsingGET",
+        "Name": "Find administrative divisions",
+        "Description": "Find administrative divisions, filtering by optional criteria. If no criteria are set, you will get back all known divisions.",
+        "Anchor": "#find-administrative-divisions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindCitiesNearAdminDivisionUsingGET",
+        "Name": "Find cities near division",
+        "Description": "Find cities near the given administrative division, filtering by optional criteria. If no criteria are set, you will get back all known cities.",
+        "Anchor": "#find-cities-near-division",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindCitiesNearCityUsingGET",
+        "Name": "Find cities near city",
+        "Description": "Find cities near the given origin city, filtering by optional criteria. If no criteria are set, you will get back all known cities.",
+        "Anchor": "#find-cities-near-city",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindCitiesNearLocationUsingGET",
+        "Name": "Find cities near location",
+        "Description": "Find cities near the given location, filtering by optional criteria. If no criteria are set, you will get back all known cities.",
+        "Anchor": "#find-cities-near-location",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindCitiesUsingGET",
+        "Name": "Find cities",
+        "Description": "Find cities, filtering by optional criteria. If no criteria are set, you will get back all known cities.",
+        "Anchor": "#find-cities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindDivisionsNearAdminDivisionUsingGET",
+        "Name": "Find divisions near division",
+        "Description": "Find administrative divisions near the given origin division, filtering by optional criteria. If no criteria are set, you will get back all known divisions.",
+        "Anchor": "#find-divisions-near-division",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindDivisionsNearLocationUsingGET",
+        "Name": "Find divisions near location",
+        "Description": "Find administrative divisions near the given location, filtering by optional criteria. If no criteria are set, you will get back all known divisions.",
+        "Anchor": "#find-divisions-near-location",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindRegionCitiesUsingGET",
+        "Name": "Find country region cities",
+        "Description": "Get the cities in a specific country region. The country and region info is omitted in the response. .",
+        "Anchor": "#find-country-region-cities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindRegionDivisionsUsingGET",
+        "Name": "Find country region administrative divisions",
+        "Description": "Get the administrative divisions in a specific country region. The country and region info is omitted in the response. .",
+        "Anchor": "#find-country-region-administrative-divisions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAdminDivisionUsingGET",
+        "Name": "Get administrative division details",
+        "Description": "Get the details for a specific administrative division, including location coordinates, population, and elevation above sea-level (if available).",
+        "Anchor": "#get-administrative-division-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCityDateTimeUsingGET",
+        "Name": "Get city date-time",
+        "Description": "Get city date-time.",
+        "Anchor": "#get-city-date-time",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCityDistanceUsingGET",
+        "Name": "Get city distance",
+        "Description": "Get distance from the given city.",
+        "Anchor": "#get-city-distance",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCityLocatedInUsingGET",
+        "Name": "Get city admin region",
+        "Description": "Get the details for the containing populated place (e.g., its county or other administrative division), including location coordinates, population, and elevation above sea-level (if available).",
+        "Anchor": "#get-city-admin-region",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCityTimeUsingGET",
+        "Name": "Get city time",
+        "Description": "Get city time.",
+        "Anchor": "#get-city-time",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCityUsingGET",
+        "Name": "Get city details",
+        "Description": "Get the details for a specific city, including location coordinates, population, and elevation above sea-level (if available).",
+        "Anchor": "#get-city-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCountriesUsingGET",
+        "Name": "Find countries",
+        "Description": "Find countries, filtering by optional criteria. If no criteria are set, you will get back all known countries.",
+        "Anchor": "#find-countries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCountryUsingGET",
+        "Name": "Get country details",
+        "Description": "Get the details for a specific country, including number of regions.",
+        "Anchor": "#get-country-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCurrenciesUsingGET",
+        "Name": "Find currencies",
+        "Description": "Find currencies, filtering by optional criteria. If no criteria are set, you will get back all known currencies.",
+        "Anchor": "#find-currencies",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLanguagesUsingGET",
+        "Name": "Get languages",
+        "Description": "Get all supported languages.",
+        "Anchor": "#get-languages",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLocalesUsingGET",
+        "Name": "Get locales",
+        "Description": "Get all known locales.",
+        "Anchor": "#get-locales",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRegionsUsingGET",
+        "Name": "Find country regions",
+        "Description": "Get all regions in a specific country. These could be states, provinces, districts, or otherwise major political divisions.",
+        "Anchor": "#find-country-regions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRegionUsingGET",
+        "Name": "Get region details",
+        "Description": "Get the details of a specific country region, including number of cities.",
+        "Anchor": "#get-region-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTimeZoneDateTimeUsingGET",
+        "Name": "Get time-zone date-time",
+        "Description": "Get time-zone date-time.",
+        "Anchor": "#get-time-zone-date-time",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTimezonesUsingGET",
+        "Name": "Get time-zones",
+        "Description": "Get all known time-zones.",
+        "Anchor": "#get-time-zones",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTimeZoneTimeUsingGET",
+        "Name": "Get time-zone time",
+        "Description": "Get time-zone time.",
+        "Anchor": "#get-time-zone-time",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTimeZoneUsingGET",
+        "Name": "Get time-zone",
+        "Description": "Get time-zone.",
+        "Anchor": "#get-time-zone",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "getaccept",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../getaccept/",
     "Actions": [
@@ -26173,6 +26511,75 @@
         "Name": "When a pull request is created or modified (Preview)",
         "Description": "Creates a GitHub Webhook for Pull Requests",
         "Anchor": "#when-a-pull-request-is-created-or-modified-(preview)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "gitlabip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../gitlabip/",
+    "Actions": [
+      {
+        "OperationId": "compareRepo",
+        "Name": "compareRepo",
+        "Description": "Compare a branch, tag, or commit.",
+        "Anchor": "#comparerepo",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "createBranch",
+        "Name": "createBranch",
+        "Description": "Create a new branch.",
+        "Anchor": "#createbranch",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "createCommit",
+        "Name": "createCommit",
+        "Description": "Create a new commit.",
+        "Anchor": "#createcommit",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "createProject",
+        "Name": "createProject",
+        "Description": "Create a new project.",
+        "Anchor": "#createproject",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "forkProject",
+        "Name": "forkProject",
+        "Description": "Fork a project.",
+        "Anchor": "#forkproject",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getFile",
+        "Name": "getFile",
+        "Description": "Get a File from a Repository.",
+        "Anchor": "#getfile",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getVersion",
+        "Name": "getVersion",
+        "Description": "Retrieve version information for this GitLab instance.",
+        "Anchor": "#getversion",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "mergeMergeRequest",
+        "Name": "mergeMergeRequest",
+        "Description": "Merge a merge request.",
+        "Anchor": "#mergemergerequest",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "mergeRequest",
+        "Name": "mergeRequest",
+        "Description": "Create a merge request.",
+        "Anchor": "#mergerequest",
         "IsDeprecated": false
       }
     ]
@@ -33932,6 +34339,54 @@
     ]
   },
   {
+    "UniqueName": "iceandfiregotip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iceandfiregotip/",
+    "Actions": [
+      {
+        "OperationId": "BookGet",
+        "Name": "List books",
+        "Description": "Returns a list of books.",
+        "Anchor": "#list-books",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BookGetA",
+        "Name": "Get book",
+        "Description": "Returns a specific book.",
+        "Anchor": "#get-book",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CharacterGet",
+        "Name": "List characters",
+        "Description": "Returns a list of characters.",
+        "Anchor": "#list-characters",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CharacterGetA",
+        "Name": "Get a character",
+        "Description": "Returns a specific character.",
+        "Anchor": "#get-a-character",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "HouseGet",
+        "Name": "List houses",
+        "Description": "Returns a list of houses.",
+        "Anchor": "#list-houses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "HouseGetA",
+        "Name": "Get a house",
+        "Description": "Returns a specific house.",
+        "Anchor": "#get-a-house",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "iconhorseip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iconhorseip/",
     "Actions": [
@@ -40101,6 +40556,19 @@
     ]
   },
   {
+    "UniqueName": "michaelscottquotesip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../michaelscottquotesip/",
+    "Actions": [
+      {
+        "OperationId": "Quote",
+        "Name": "Get a quote",
+        "Description": "Returns a random Michael Scott quote.",
+        "Anchor": "#get-a-quote",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "microsoft365compliance",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../microsoft365compliance/",
     "Actions": [
@@ -42300,6 +42768,193 @@
     ]
   },
   {
+    "UniqueName": "nationalparkserviceip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nationalparkserviceip/",
+    "Actions": [
+      {
+        "OperationId": "getActivities",
+        "Name": "Get activities",
+        "Description": "Retrieve categories of activities (astronomy, hiking, wildlife watching, etc.) possible in national parks.",
+        "Anchor": "#get-activities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getActvitiesParks",
+        "Name": "Get park activities",
+        "Description": "Returns activites parks information.",
+        "Anchor": "#get-park-activities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getAlerts",
+        "Name": "Get alerts",
+        "Description": "Retrieve alerts (danger, closure, caution, and information) posted by parks.",
+        "Anchor": "#get-alerts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getAmenities",
+        "Name": "Get amenities",
+        "Description": "Retrieve the amenity types (accessible restrooms, fire pit, picnic area, etc.) available in national parks.",
+        "Anchor": "#get-amenities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getAmenitiesParksplaces",
+        "Name": "Get park amenities",
+        "Description": "Retrieve places within national parks that have different amenities.",
+        "Anchor": "#get-park-amenities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getAmenitiesParksvisitorcenters",
+        "Name": "Get visitor center amenities",
+        "Description": "Retrieve visitor centers within national parks that have different amenities.",
+        "Anchor": "#get-visitor-center-amenities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getArticles",
+        "Name": "Get articles",
+        "Description": "Retrieve articles created by national parks and other NPS entities.",
+        "Anchor": "#get-articles",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getCampgrounds",
+        "Name": "Get campgrounds",
+        "Description": "Retrieve data about National Park Service campgrounds including addresses, contacts, description, hours of operation, etc.",
+        "Anchor": "#get-campgrounds",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getEvents",
+        "Name": "Get events",
+        "Description": "Retrieve events created by national parks and other NPS entities.",
+        "Anchor": "#get-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getLessonPlans",
+        "Name": "Get lesson plans",
+        "Description": "Retrieve lesson plans created by national parks and other NPS entities.",
+        "Anchor": "#get-lesson-plans",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getNewsReleases",
+        "Name": "Get news releases",
+        "Description": "Retrieve news releases created by national parks and other NPS entities.",
+        "Anchor": "#get-news-releases",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getPark",
+        "Name": "Get parks",
+        "Description": "Retrieve data about national parks (addresses, contacts, description, hours of operation, etc.).",
+        "Anchor": "#get-parks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getPassportstamplocations",
+        "Name": "Get passport stamp locations",
+        "Description": "Retrieve locations that have national park passport stamps.",
+        "Anchor": "#get-passport-stamp-locations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getPeople",
+        "Name": "Get people",
+        "Description": "Retrieve articles providing a synopsis of specific people related to national parks.",
+        "Anchor": "#get-people",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getPlaces",
+        "Name": "Get places",
+        "Description": "Retrieve articles providing a synopsis of specific places related to national parks.",
+        "Anchor": "#get-places",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getThingstodo",
+        "Name": "Get things to do",
+        "Description": "Retrieve suggested things to do recommended by and for specific national parks.",
+        "Anchor": "#get-things-to-do",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getTopics",
+        "Name": "Get topics",
+        "Description": "Retrieve categories of topics (American revolution, music, women's history, etc.) relating to national parks.",
+        "Anchor": "#get-topics",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getTopicsParks",
+        "Name": "Get parks by topic",
+        "Description": "Retrieve national parks that are related to particular categories of topics (American revolution, music, women's history, etc.).",
+        "Anchor": "#get-parks-by-topic",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getTours",
+        "Name": "Get tours",
+        "Description": "Retrieve tours with stops at the special places, campgrounds, and visitor centers found within national parks.",
+        "Anchor": "#get-tours",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getVisitorCenters",
+        "Name": "Get visitor centers",
+        "Description": "Retrieve data about National Park Service visitor centers including addresses, contacts, description, hours of operation, etc.",
+        "Anchor": "#get-visitor-centers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getWebcams",
+        "Name": "Get webcams",
+        "Description": "Retrieve metadata about National Park Service streaming and non-streaming web cams.",
+        "Anchor": "#get-webcams",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "nederlandsespoorweip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nederlandsespoorweip/",
+    "Actions": [
+      {
+        "OperationId": "GetArrivals",
+        "Name": "Arrivals",
+        "Description": "List of arrivals for a specific station.",
+        "Anchor": "#arrivals",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDepartures",
+        "Name": "Departures",
+        "Description": "List of departures for a specific station.",
+        "Anchor": "#departures",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationDisruptions",
+        "Name": "Station Disruptions",
+        "Description": "List of disruptions relevant for a station.",
+        "Anchor": "#station-disruptions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStations",
+        "Name": "Stations",
+        "Description": "List of stations.",
+        "Anchor": "#stations",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "netdocuments",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../netdocuments/",
     "Actions": [
@@ -42830,6 +43485,26 @@
         "Name": "Add pipeline",
         "Description": "Create a new pipeline opportunity on a given Contact ID.",
         "Anchor": "#add-pipeline",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "niftygatewayip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../niftygatewayip/",
+    "Actions": [
+      {
+        "OperationId": "NiftiesforCreator",
+        "Name": "Nifties for Creator",
+        "Description": "Returns ownership information for all nifties created by the given creator and currently stored on Nifty Gateway.",
+        "Anchor": "#nifties-for-creator",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NiftiesforUser",
+        "Name": "Nifties for User",
+        "Description": "Returns information about all nifties owned by the given user.",
+        "Anchor": "#nifties-for-user",
         "IsDeprecated": false
       }
     ]
@@ -53401,6 +54076,33 @@
     ]
   },
   {
+    "UniqueName": "ronswansonquotesip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ronswansonquotesip/",
+    "Actions": [
+      {
+        "OperationId": "QuoteGet",
+        "Name": "Get a quote",
+        "Description": "Returns an array with one quote.",
+        "Anchor": "#get-a-quote",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Quotes",
+        "Name": "Get a number of quotes",
+        "Description": "Returns an array with a count of quotes.",
+        "Anchor": "#get-a-number-of-quotes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Search",
+        "Name": "Search for a term",
+        "Description": "Returns an array of quotes matching term without case sensitivity.",
+        "Anchor": "#search-for-a-term",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "rss",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rss/",
     "Actions": [
@@ -58877,6 +59579,82 @@
     ]
   },
   {
+    "UniqueName": "studioghibliip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../studioghibliip/",
+    "Actions": [
+      {
+        "OperationId": "GetASpecies",
+        "Name": "Get species by ID",
+        "Description": "Returns an individual species.",
+        "Anchor": "#get-species-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFilm",
+        "Name": "Get film by ID",
+        "Description": "Returns a film based on a single ID.",
+        "Anchor": "#get-film-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFilms",
+        "Name": "Gets all films",
+        "Description": "The Films endpoint returns information about all of the Studio Ghibli films.",
+        "Anchor": "#gets-all-films",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLocation",
+        "Name": "Get location by ID",
+        "Description": "Returns an individual location.",
+        "Anchor": "#get-location-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLocations",
+        "Name": "Get all locations",
+        "Description": "The Locations endpoint returns information about all of the Studio Ghibli locations. This broadly includes lands, countries, and places.",
+        "Anchor": "#get-all-locations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPeople",
+        "Name": "Get all people",
+        "Description": "The People endpoint returns information about all of the Studio Ghibli people. This broadly includes all Ghibli characters, human and non-.",
+        "Anchor": "#get-all-people",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPerson",
+        "Name": "Get person by ID",
+        "Description": "Returns a person based on a single ID.",
+        "Anchor": "#get-person-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSpecies",
+        "Name": "Get all species",
+        "Description": "The Species endpoint returns information about all of the Studio Ghibli species. This includes humans, animals, and spirits et al.",
+        "Anchor": "#get-all-species",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVehicle",
+        "Name": "Get vehicle by ID",
+        "Description": "An individual vehicle.",
+        "Anchor": "#get-vehicle-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVehicles",
+        "Name": "Get all vehicles",
+        "Description": "The Vehicles endpoint returns information about all of the Studio Ghibli vehicles. This includes cars, ships, and planes.",
+        "Anchor": "#get-all-vehicles",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "survey123",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../survey123/",
     "Actions": [
@@ -59443,6 +60221,103 @@
         "Name": "Get sub entities updates",
         "Description": "Search for recently updated sub entities in the registry",
         "Anchor": "#get-sub-entities-updates",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "thelordoftheringsip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../thelordoftheringsip/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Request a character's quotes",
+        "Description": "Request all movie quotes of one specific character",
+        "Anchor": "#request-a-character's-quotes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BookGet",
+        "Name": "Request a book",
+        "Description": "Request one specific book.",
+        "Anchor": "#request-a-book",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BookGetChapters",
+        "Name": "Request chapters",
+        "Description": "Request all chapters of one specific book.",
+        "Anchor": "#request-chapters",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BookList",
+        "Name": "List books",
+        "Description": "The list of all &quot;The Lord of the Rings&quot; books.",
+        "Anchor": "#list-books",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ChapterGet",
+        "Name": "Request a chapter",
+        "Description": "Request one specific book chapter.",
+        "Anchor": "#request-a-chapter",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ChapterList",
+        "Name": "List chapters",
+        "Description": "List of all book chapters",
+        "Anchor": "#list-chapters",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CharacterGet",
+        "Name": "Request a character",
+        "Description": "Request one specific character.",
+        "Anchor": "#request-a-character",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CharacterList",
+        "Name": "Get characters",
+        "Description": "List of characters including metadata like name, gender, realm, race and more.",
+        "Anchor": "#get-characters",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MovieGet",
+        "Name": "Request a movie",
+        "Description": "Request one specific movie.",
+        "Anchor": "#request-a-movie",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MovieGetQuote",
+        "Name": "Request quotes from a movie",
+        "Description": "Request all movie quotes for one specific movie (only working for the LotR trilogy).",
+        "Anchor": "#request-quotes-from-a-movie",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MovieList",
+        "Name": "List movies",
+        "Description": "List of all movies, including the &quot;The Lord of the Rings&quot; and the &quot;The Hobbit&quot; trilogies.",
+        "Anchor": "#list-movies",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QuoteGet",
+        "Name": "Request a quote",
+        "Description": "Request one specific movie quote.",
+        "Anchor": "#request-a-quote",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QuoteList",
+        "Name": "List quotes",
+        "Description": "List of all movie quotes.",
+        "Anchor": "#list-quotes",
         "IsDeprecated": false
       }
     ]
@@ -61253,6 +62128,208 @@
         "Name": "Get photos from a search",
         "Description": "Get a single page from a photo search. Optionally limit your search to a set of categories by supplying the category ID's.",
         "Anchor": "#get-photos-from-a-search",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "urlbaeip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../urlbaeip/",
+    "Actions": [
+      {
+        "OperationId": "AccountGet",
+        "Name": "Get account",
+        "Description": "To get information on the account, you can send a request to this endpoint and it will return data on the account.",
+        "Anchor": "#get-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AccountUpdate",
+        "Name": "Update account",
+        "Description": "To update information on the account, you can send a request to this endpoint and it will update data on the account.",
+        "Anchor": "#update-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CTAList",
+        "Name": "List all CTA overlays",
+        "Description": "To get call-to-action overlays via the API, you can use this endpoint",
+        "Anchor": "#list-all-cta-overlays",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DomainCreate",
+        "Name": "Create a branded domain",
+        "Description": "A domain can be added using this endpoint. You need to send the pixel type and the tag.",
+        "Anchor": "#create-a-branded-domain",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DomainDelete",
+        "Name": "Delete domain",
+        "Description": "To delete a domain, you need to send a request to this endpoint.",
+        "Anchor": "#delete-domain",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DomainList",
+        "Name": "List all branded domains",
+        "Description": "To get your branded domains codes via the API, you can use this endpoint.",
+        "Anchor": "#list-all-branded-domains",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DomainUpdate",
+        "Name": "Update a domain",
+        "Description": "A branded domain can be updated using this endpoint.",
+        "Anchor": "#update-a-domain",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LinkDelete",
+        "Name": "Delete a link",
+        "Description": "To delete a link, you can use this endpoint.",
+        "Anchor": "#delete-a-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LinkGet",
+        "Name": "Get a single link",
+        "Description": "To get details for a single link via the API, you can use this endpoint.",
+        "Anchor": "#get-a-single-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LinkList",
+        "Name": "List all links",
+        "Description": "To get your links via the API, you can use this endpoint.",
+        "Anchor": "#list-all-links",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LinkShorten",
+        "Name": "Shorten a link",
+        "Description": "To shorten a single link via the API, you can use this endpoint.",
+        "Anchor": "#shorten-a-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LinkUpdate",
+        "Name": "Update a link",
+        "Description": "To update a link via the API, you can use this endpoint.",
+        "Anchor": "#update-a-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PixelCreate",
+        "Name": "Create a pixel",
+        "Description": "A pixel can be created using this endpoint. You need to send the pixel type and the tag.",
+        "Anchor": "#create-a-pixel",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PixelDelete",
+        "Name": "Delete pixel",
+        "Description": "To delete a pixel via the API, you can use this endpoint.",
+        "Anchor": "#delete-pixel",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PixelList",
+        "Name": "List all pixels",
+        "Description": "To get your pixels codes via the API, you can use this endpoint.",
+        "Anchor": "#list-all-pixels",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PixelUpdate",
+        "Name": "Update a pixel",
+        "Description": "To update a pixel via the API, you can use this endpoint.",
+        "Anchor": "#update-a-pixel",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PlanList",
+        "Name": "List all plans",
+        "Description": "Get a list of all plans on the platform. This endpoint is only accessible by users with admin privileges.",
+        "Anchor": "#list-all-plans",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PlanSubscribe",
+        "Name": "Subscribe a user to a plan",
+        "Description": "To subscribe a user to plan, send a PUT request to this endpoint with the plan id and user id. The type of subscription and the expiration date will need to be specified. If the expiration date is not specified, the date will be adjusted according to the type.",
+        "Anchor": "#subscribe-a-user-to-a-plan",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QRCreate",
+        "Name": "Create a QR code",
+        "Description": "To get create a single QR code via the API, you can use this endpoint.",
+        "Anchor": "#create-a-qr-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QRDelete",
+        "Name": "Delete a QR code",
+        "Description": "To delete a single QR code via the API, you can use this endpoint.",
+        "Anchor": "#delete-a-qr-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QRGet",
+        "Name": "Get a single QR code",
+        "Description": "To get details for a single QR code via the API, you can use this endpoint.",
+        "Anchor": "#get-a-single-qr-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QRList",
+        "Name": "List all QR codes",
+        "Description": "To get your QR codes via the API, you can use this endpoint.",
+        "Anchor": "#list-all-qr-codes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "QRUpdate",
+        "Name": "Update a QR code",
+        "Description": "To update a single QR code via the API, you can use this endpoint.",
+        "Anchor": "#update-a-qr-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SplashList",
+        "Name": "List all custom splash",
+        "Description": "To get custom splash pages via the API, you can use this endpoint.",
+        "Anchor": "#list-all-custom-splash",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserCreate",
+        "Name": "Create a user",
+        "Description": "To create a user, use this endpoint.",
+        "Anchor": "#create-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserDelete",
+        "Name": "Delete a user",
+        "Description": "To delete a user, use this endpoint.",
+        "Anchor": "#delete-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserGet",
+        "Name": "Get a single user",
+        "Description": "Get data for a single user.",
+        "Anchor": "#get-a-single-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserList",
+        "Name": "List all users",
+        "Description": "Get a list of all users on the platform. This endpoint is only accessible by users with admin privileges.",
+        "Anchor": "#list-all-users",
         "IsDeprecated": false
       }
     ]
@@ -63082,6 +64159,33 @@
         "Name": "Get Execution Status",
         "Description": "Get the status of an execution.",
         "Anchor": "#get-execution-status",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "yakchat",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../yakchat/",
+    "Actions": [
+      {
+        "OperationId": "InboundMessage",
+        "Name": "When a message is received",
+        "Description": "This operation triggers when a message is received in a YakChat inbox",
+        "Anchor": "#when-a-message-is-received",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OutboundMessage",
+        "Name": "When a message is sent",
+        "Description": "This operation triggers when a message is sent from a YakChat inbox",
+        "Anchor": "#when-a-message-is-sent",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendMessage",
+        "Name": "Send an SMS",
+        "Description": "Send an SMS message using YakChat",
+        "Anchor": "#send-an-sms",
         "IsDeprecated": false
       }
     ]

@@ -1,0 +1,13 @@
+{
+  "UniqueName": "corporatebuzzwordip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../corporatebuzzwordip/",
+  "Actions": [
+    {
+      "OperationId": "Phrase",
+      "Name": "Get a phrase",
+      "Description": "Returns a randomly generated phrase.",
+      "Anchor": "#get-a-phrase",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "UniqueName": "decentralandip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../decentralandip/",
+  "Actions": [
+    {
+      "OperationId": "GetDistricts",
+      "Name": "Get Districts",
+      "Description": "A listing of districts in Decentraland",
+      "Anchor": "#get-districts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetId",
+      "Name": "Get Id",
+      "Description": "A blockchain Id of a parcel in Decentraland",
+      "Anchor": "#get-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetParcelDetails",
+      "Name": "Get Parcel Details",
+      "Description": "The details of a specific parcel in Decentraland",
+      "Anchor": "#get-parcel-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetParcelMap",
+      "Name": "Get Parcel Map",
+      "Description": "A map of parcels in Decentraland",
+      "Anchor": "#get-parcel-map",
+      "IsDeprecated": false
+    }
+  ]
+}

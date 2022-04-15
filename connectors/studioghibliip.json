@@ -1,0 +1,76 @@
+{
+  "UniqueName": "studioghibliip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../studioghibliip/",
+  "Actions": [
+    {
+      "OperationId": "GetASpecies",
+      "Name": "Get species by ID",
+      "Description": "Returns an individual species.",
+      "Anchor": "#get-species-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFilm",
+      "Name": "Get film by ID",
+      "Description": "Returns a film based on a single ID.",
+      "Anchor": "#get-film-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFilms",
+      "Name": "Gets all films",
+      "Description": "The Films endpoint returns information about all of the Studio Ghibli films.",
+      "Anchor": "#gets-all-films",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLocation",
+      "Name": "Get location by ID",
+      "Description": "Returns an individual location.",
+      "Anchor": "#get-location-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLocations",
+      "Name": "Get all locations",
+      "Description": "The Locations endpoint returns information about all of the Studio Ghibli locations. This broadly includes lands, countries, and places.",
+      "Anchor": "#get-all-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPeople",
+      "Name": "Get all people",
+      "Description": "The People endpoint returns information about all of the Studio Ghibli people. This broadly includes all Ghibli characters, human and non-.",
+      "Anchor": "#get-all-people",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPerson",
+      "Name": "Get person by ID",
+      "Description": "Returns a person based on a single ID.",
+      "Anchor": "#get-person-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSpecies",
+      "Name": "Get all species",
+      "Description": "The Species endpoint returns information about all of the Studio Ghibli species. This includes humans, animals, and spirits et al.",
+      "Anchor": "#get-all-species",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVehicle",
+      "Name": "Get vehicle by ID",
+      "Description": "An individual vehicle.",
+      "Anchor": "#get-vehicle-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVehicles",
+      "Name": "Get all vehicles",
+      "Description": "The Vehicles endpoint returns information about all of the Studio Ghibli vehicles. This includes cars, ships, and planes.",
+      "Anchor": "#get-all-vehicles",
+      "IsDeprecated": false
+    }
+  ]
+}

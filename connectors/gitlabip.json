@@ -1,0 +1,69 @@
+{
+  "UniqueName": "gitlabip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../gitlabip/",
+  "Actions": [
+    {
+      "OperationId": "compareRepo",
+      "Name": "compareRepo",
+      "Description": "Compare a branch, tag, or commit.",
+      "Anchor": "#comparerepo",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createBranch",
+      "Name": "createBranch",
+      "Description": "Create a new branch.",
+      "Anchor": "#createbranch",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createCommit",
+      "Name": "createCommit",
+      "Description": "Create a new commit.",
+      "Anchor": "#createcommit",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "createProject",
+      "Name": "createProject",
+      "Description": "Create a new project.",
+      "Anchor": "#createproject",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "forkProject",
+      "Name": "forkProject",
+      "Description": "Fork a project.",
+      "Anchor": "#forkproject",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getFile",
+      "Name": "getFile",
+      "Description": "Get a File from a Repository.",
+      "Anchor": "#getfile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getVersion",
+      "Name": "getVersion",
+      "Description": "Retrieve version information for this GitLab instance.",
+      "Anchor": "#getversion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "mergeMergeRequest",
+      "Name": "mergeMergeRequest",
+      "Description": "Merge a merge request.",
+      "Anchor": "#mergemergerequest",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "mergeRequest",
+      "Name": "mergeRequest",
+      "Description": "Create a merge request.",
+      "Anchor": "#mergerequest",
+      "IsDeprecated": false
+    }
+  ]
+}

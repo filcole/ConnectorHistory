@@ -1,0 +1,48 @@
+{
+  "UniqueName": "iceandfiregotip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iceandfiregotip/",
+  "Actions": [
+    {
+      "OperationId": "BookGet",
+      "Name": "List books",
+      "Description": "Returns a list of books.",
+      "Anchor": "#list-books",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BookGetA",
+      "Name": "Get book",
+      "Description": "Returns a specific book.",
+      "Anchor": "#get-book",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CharacterGet",
+      "Name": "List characters",
+      "Description": "Returns a list of characters.",
+      "Anchor": "#list-characters",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CharacterGetA",
+      "Name": "Get a character",
+      "Description": "Returns a specific character.",
+      "Anchor": "#get-a-character",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HouseGet",
+      "Name": "List houses",
+      "Description": "Returns a list of houses.",
+      "Anchor": "#list-houses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HouseGetA",
+      "Name": "Get a house",
+      "Description": "Returns a specific house.",
+      "Anchor": "#get-a-house",
+      "IsDeprecated": false
+    }
+  ]
+}

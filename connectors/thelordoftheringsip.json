@@ -1,0 +1,97 @@
+{
+  "UniqueName": "thelordoftheringsip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../thelordoftheringsip/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Request a character's quotes",
+      "Description": "Request all movie quotes of one specific character",
+      "Anchor": "#request-a-character's-quotes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BookGet",
+      "Name": "Request a book",
+      "Description": "Request one specific book.",
+      "Anchor": "#request-a-book",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BookGetChapters",
+      "Name": "Request chapters",
+      "Description": "Request all chapters of one specific book.",
+      "Anchor": "#request-chapters",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BookList",
+      "Name": "List books",
+      "Description": "The list of all &quot;The Lord of the Rings&quot; books.",
+      "Anchor": "#list-books",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChapterGet",
+      "Name": "Request a chapter",
+      "Description": "Request one specific book chapter.",
+      "Anchor": "#request-a-chapter",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChapterList",
+      "Name": "List chapters",
+      "Description": "List of all book chapters",
+      "Anchor": "#list-chapters",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CharacterGet",
+      "Name": "Request a character",
+      "Description": "Request one specific character.",
+      "Anchor": "#request-a-character",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CharacterList",
+      "Name": "Get characters",
+      "Description": "List of characters including metadata like name, gender, realm, race and more.",
+      "Anchor": "#get-characters",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MovieGet",
+      "Name": "Request a movie",
+      "Description": "Request one specific movie.",
+      "Anchor": "#request-a-movie",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MovieGetQuote",
+      "Name": "Request quotes from a movie",
+      "Description": "Request all movie quotes for one specific movie (only working for the LotR trilogy).",
+      "Anchor": "#request-quotes-from-a-movie",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MovieList",
+      "Name": "List movies",
+      "Description": "List of all movies, including the &quot;The Lord of the Rings&quot; and the &quot;The Hobbit&quot; trilogies.",
+      "Anchor": "#list-movies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuoteGet",
+      "Name": "Request a quote",
+      "Description": "Request one specific movie quote.",
+      "Anchor": "#request-a-quote",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "QuoteList",
+      "Name": "List quotes",
+      "Description": "List of all movie quotes.",
+      "Anchor": "#list-quotes",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "UniqueName": "binanceusip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../binanceusip/",
+  "Actions": [
+    {
+      "OperationId": "GetExchangeInformation",
+      "Name": "Get Exchange Information",
+      "Description": "Current exchange trading rules and symbol information.",
+      "Anchor": "#get-exchange-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLiveTickerPrice",
+      "Name": "Get Live Ticker Price",
+      "Description": "Latest price for a symbol or symbols. If the symbol is not sent, prices for all symbols will be returned in an array.",
+      "Anchor": "#get-live-ticker-price",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRecentTrades",
+      "Name": "Get Recent Trades",
+      "Description": "Get recent trades (up to last 1000).",
+      "Anchor": "#get-recent-trades",
+      "IsDeprecated": false
+    }
+  ]
+}

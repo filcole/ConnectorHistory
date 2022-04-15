@@ -1,0 +1,27 @@
+{
+  "UniqueName": "yakchat",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../yakchat/",
+  "Actions": [
+    {
+      "OperationId": "InboundMessage",
+      "Name": "When a message is received",
+      "Description": "This operation triggers when a message is received in a YakChat inbox",
+      "Anchor": "#when-a-message-is-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OutboundMessage",
+      "Name": "When a message is sent",
+      "Description": "This operation triggers when a message is sent from a YakChat inbox",
+      "Anchor": "#when-a-message-is-sent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "Send an SMS",
+      "Description": "Send an SMS message using YakChat",
+      "Anchor": "#send-an-sms",
+      "IsDeprecated": false
+    }
+  ]
+}

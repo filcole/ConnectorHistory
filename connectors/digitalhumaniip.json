@@ -1,0 +1,62 @@
+{
+  "UniqueName": "digitalhumaniip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../digitalhumaniip/",
+  "Actions": [
+    {
+      "OperationId": "EnterpriseGet",
+      "Name": "Get enterprise by ID",
+      "Description": "This method allows you to retrieve the details of your enterprise.",
+      "Anchor": "#get-enterprise-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectGet",
+      "Name": "Get list of all projects",
+      "Description": "This method retrieves all the reforestation projects available.",
+      "Anchor": "#get-list-of-all-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectGetA",
+      "Name": "Get project by ID",
+      "Description": "This method allows you to retrieve the details of a single reforestation project.",
+      "Anchor": "#get-project-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TreeCount",
+      "Name": "Count trees for a user",
+      "Description": "This method allows you to retrieve the number of trees planted by a specific user.",
+      "Anchor": "#count-trees-for-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TreeCountDates",
+      "Name": "Count trees for an enterprise for any range of date",
+      "Description": "This method allows you to retrieve the number of trees planted by an enterprise for any range of date.",
+      "Anchor": "#count-trees-for-an-enterprise-for-any-range-of-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TreeCountMonth",
+      "Name": "Count trees for an enterprise by month",
+      "Description": "This method allows you to retrieve the number of trees planted by an enterprise for a specific month.",
+      "Anchor": "#count-trees-for-an-enterprise-by-month",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TreeDetails",
+      "Name": "Get details of a single request to plant one or many trees",
+      "Description": "This method allows you to retrieve the details of a single request to plant trees.",
+      "Anchor": "#get-details-of-a-single-request-to-plant-one-or-many-trees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TreePlant",
+      "Name": "Plant one or many trees",
+      "Description": "This method sends the request to plant one or many trees.",
+      "Anchor": "#plant-one-or-many-trees",
+      "IsDeprecated": false
+    }
+  ]
+}

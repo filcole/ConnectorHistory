@@ -1,0 +1,34 @@
+{
+  "UniqueName": "nederlandsespoorweip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nederlandsespoorweip/",
+  "Actions": [
+    {
+      "OperationId": "GetArrivals",
+      "Name": "Arrivals",
+      "Description": "List of arrivals for a specific station.",
+      "Anchor": "#arrivals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDepartures",
+      "Name": "Departures",
+      "Description": "List of departures for a specific station.",
+      "Anchor": "#departures",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationDisruptions",
+      "Name": "Station Disruptions",
+      "Description": "List of disruptions relevant for a station.",
+      "Anchor": "#station-disruptions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStations",
+      "Name": "Stations",
+      "Description": "List of stations.",
+      "Anchor": "#stations",
+      "IsDeprecated": false
+    }
+  ]
+}
