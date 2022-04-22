@@ -1,0 +1,27 @@
+{
+  "UniqueName": "finnishrailwaytrafip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../finnishrailwaytrafip/",
+  "Actions": [
+    {
+      "OperationId": "GetArrivalsAndDepartures",
+      "Name": "Get arrivals and departures",
+      "Description": "Finnish railway traffic - Get station arrivals and departures",
+      "Anchor": "#get-arrivals-and-departures",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSchedules",
+      "Name": "Get schedules",
+      "Description": "Finnish railway traffic - Get schedules",
+      "Anchor": "#get-schedules",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStations",
+      "Name": "Get stations",
+      "Description": "Finnish Railways - Get stations",
+      "Anchor": "#get-stations",
+      "IsDeprecated": false
+    }
+  ]
+}

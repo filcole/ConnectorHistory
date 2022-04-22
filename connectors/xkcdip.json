@@ -1,0 +1,20 @@
+{
+  "UniqueName": "xkcdip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../xkcdip/",
+  "Actions": [
+    {
+      "OperationId": "ComicGet",
+      "Name": "Get current comic",
+      "Description": "Get the current comic. xkcd is updated every Monday, Wednesday, and Friday.",
+      "Anchor": "#get-current-comic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ComicGetA",
+      "Name": "Get a specific comic",
+      "Description": "Returns a specific comic by comic number.",
+      "Anchor": "#get-a-specific-comic",
+      "IsDeprecated": false
+    }
+  ]
+}

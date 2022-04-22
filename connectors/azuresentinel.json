@@ -122,6 +122,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetDNS",
+      "Name": "Entities - Get DNS",
+      "Description": "Returns list of DNS records associated with the alert",
+      "Anchor": "#entities---get-dns",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetFileHashes",
       "Name": "Entities - Get FileHashes",
       "Description": "Returns list of File Hashes associated with the alert",
@@ -186,9 +193,9 @@
     },
     {
       "OperationId": "Watchlist_Create",
-      "Name": "Watchlists - Create a new watchlist with data",
-      "Description": "Watchlists - Create a new watchlist with data",
-      "Anchor": "#watchlists---create-a-new-watchlist-with-data",
+      "Name": "Watchlists - Create a new watchlist with data (Raw Content)",
+      "Description": "Watchlists - Create a new watchlist with data  (Raw Content)",
+      "Anchor": "#watchlists---create-a-new-watchlist-with-data-(raw-content)",
       "IsDeprecated": false
     },
     {
@@ -203,6 +210,13 @@
       "Name": "Watchlists - Get a watchlist by alias",
       "Description": "Watchlists - Get a watchlist by alias",
       "Anchor": "#watchlists---get-a-watchlist-by-alias",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Watchlist_Large_Create",
+      "Name": "Watchlists - Create a large watchlist using a Sas Uri",
+      "Description": "Watchlists - Create a large watchlist using a Sas Uri",
+      "Anchor": "#watchlists---create-a-large-watchlist-using-a-sas-uri",
       "IsDeprecated": false
     },
     {
@@ -221,9 +235,9 @@
     },
     {
       "OperationId": "WatchlistItems_Get",
-      "Name": "Watchlists - Get a watchlist item",
+      "Name": "Watchlists - Get a watchlist item by ID (guid)",
       "Description": "Watchlists - Get a watchlist item",
-      "Anchor": "#watchlists---get-a-watchlist-item",
+      "Anchor": "#watchlists---get-a-watchlist-item-by-id-(guid)",
       "IsDeprecated": false
     },
     {

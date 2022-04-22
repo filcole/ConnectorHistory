@@ -1,0 +1,20 @@
+{
+  "UniqueName": "finnishbisip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../finnishbisip/",
+  "Actions": [
+    {
+      "OperationId": "CompanyByBISCode",
+      "Name": "Get company information",
+      "Description": "Finnish BIS - Get company information",
+      "Anchor": "#get-company-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CompanySearch",
+      "Name": "Search for companies",
+      "Description": "Finnish BIS - Search Company",
+      "Anchor": "#search-for-companies",
+      "IsDeprecated": false
+    }
+  ]
+}

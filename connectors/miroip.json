@@ -38,6 +38,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetBoards",
+      "Name": "Get boards",
+      "Description": "Get all boards available to the user.",
+      "Anchor": "#get-boards",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetWidget",
       "Name": "Get a widget",
       "Description": "Get a specific single widget by its unique identifier.",
@@ -49,6 +56,13 @@
       "Name": "Get widgets",
       "Description": "Get all widgets.",
       "Anchor": "#get-widgets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ShareBoard",
+      "Name": "Share a board",
+      "Description": "Share an existing board with users.",
+      "Anchor": "#share-a-board",
       "IsDeprecated": false
     },
     {

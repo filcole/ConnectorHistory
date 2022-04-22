@@ -3,6 +3,13 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../icanhazdadjokeip/",
   "Actions": [
     {
+      "OperationId": "FetchaDadJoke",
+      "Name": "Fetch a dad joke",
+      "Description": "Fetch a dad joke by Joke ID",
+      "Anchor": "#fetch-a-dad-joke",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "FetchRandomJoke",
       "Name": "Fetch a random dad joke",
       "Description": "Fetch a random dad joke from icanhazdadjoke.com",

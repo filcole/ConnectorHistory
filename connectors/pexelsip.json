@@ -1,0 +1,48 @@
+{
+  "UniqueName": "pexelsip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pexelsip/",
+  "Actions": [
+    {
+      "OperationId": "GetPhoto",
+      "Name": "Get Photo",
+      "Description": "Retrieve a specific Photo from its id.",
+      "Anchor": "#get-photo",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVideo",
+      "Name": "Get Video",
+      "Description": "Retrieve a specific Video from its id.",
+      "Anchor": "#get-video",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCuratedPhotos",
+      "Name": "List Curated Photos",
+      "Description": "Retrieves a list of real-time photos curated by the Pexels team.",
+      "Anchor": "#list-curated-photos",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListPopularVideos",
+      "Name": "List Popular Videos",
+      "Description": "Retrieves a list of the current popular videos.",
+      "Anchor": "#list-popular-videos",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchPhotos",
+      "Name": "Search for Photos",
+      "Description": "Search Pexels for any photos that you would like. For example your query could be something broad like Nature, Tigers, People. Or it could be something specific like Group of people working.",
+      "Anchor": "#search-for-photos",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchVideos",
+      "Name": "Search for Videos",
+      "Description": "Search Pexels for any videos that you would like. For example your query could be something broad like Nature, Tigers, People. Or it could be something specific like Group of people working.",
+      "Anchor": "#search-for-videos",
+      "IsDeprecated": false
+    }
+  ]
+}

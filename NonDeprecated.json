@@ -25097,6 +25097,53 @@
     ]
   },
   {
+    "UniqueName": "finnishbisip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../finnishbisip/",
+    "Actions": [
+      {
+        "OperationId": "CompanyByBISCode",
+        "Name": "Get company information",
+        "Description": "Finnish BIS - Get company information",
+        "Anchor": "#get-company-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CompanySearch",
+        "Name": "Search for companies",
+        "Description": "Finnish BIS - Search Company",
+        "Anchor": "#search-for-companies",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "finnishrailwaytrafip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../finnishrailwaytrafip/",
+    "Actions": [
+      {
+        "OperationId": "GetArrivalsAndDepartures",
+        "Name": "Get arrivals and departures",
+        "Description": "Finnish railway traffic - Get station arrivals and departures",
+        "Anchor": "#get-arrivals-and-departures",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSchedules",
+        "Name": "Get schedules",
+        "Description": "Finnish railway traffic - Get schedules",
+        "Anchor": "#get-schedules",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStations",
+        "Name": "Get stations",
+        "Description": "Finnish Railways - Get stations",
+        "Anchor": "#get-stations",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "firetext",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../firetext/",
     "Actions": [
@@ -34323,6 +34370,13 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../icanhazdadjokeip/",
     "Actions": [
       {
+        "OperationId": "FetchaDadJoke",
+        "Name": "Fetch a dad joke",
+        "Description": "Fetch a dad joke by Joke ID",
+        "Anchor": "#fetch-a-dad-joke",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "FetchRandomJoke",
         "Name": "Fetch a random dad joke",
         "Description": "Fetch a random dad joke from icanhazdadjoke.com",
@@ -41585,6 +41639,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetDNS",
+        "Name": "Entities - Get DNS",
+        "Description": "Returns list of DNS records associated with the alert",
+        "Anchor": "#entities---get-dns",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetFileHashes",
         "Name": "Entities - Get FileHashes",
         "Description": "Returns list of File Hashes associated with the alert",
@@ -41642,9 +41703,9 @@
       },
       {
         "OperationId": "Watchlist_Create",
-        "Name": "Watchlists - Create a new watchlist with data",
-        "Description": "Watchlists - Create a new watchlist with data",
-        "Anchor": "#watchlists---create-a-new-watchlist-with-data",
+        "Name": "Watchlists - Create a new watchlist with data (Raw Content)",
+        "Description": "Watchlists - Create a new watchlist with data  (Raw Content)",
+        "Anchor": "#watchlists---create-a-new-watchlist-with-data-(raw-content)",
         "IsDeprecated": false
       },
       {
@@ -41659,6 +41720,13 @@
         "Name": "Watchlists - Get a watchlist by alias",
         "Description": "Watchlists - Get a watchlist by alias",
         "Anchor": "#watchlists---get-a-watchlist-by-alias",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Watchlist_Large_Create",
+        "Name": "Watchlists - Create a large watchlist using a Sas Uri",
+        "Description": "Watchlists - Create a large watchlist using a Sas Uri",
+        "Anchor": "#watchlists---create-a-large-watchlist-using-a-sas-uri",
         "IsDeprecated": false
       },
       {
@@ -41677,9 +41745,9 @@
       },
       {
         "OperationId": "WatchlistItems_Get",
-        "Name": "Watchlists - Get a watchlist item",
+        "Name": "Watchlists - Get a watchlist item by ID (guid)",
         "Description": "Watchlists - Get a watchlist item",
-        "Anchor": "#watchlists---get-a-watchlist-item",
+        "Anchor": "#watchlists---get-a-watchlist-item-by-id-(guid)",
         "IsDeprecated": false
       },
       {
@@ -42071,6 +42139,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetBoards",
+        "Name": "Get boards",
+        "Description": "Get all boards available to the user.",
+        "Anchor": "#get-boards",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetWidget",
         "Name": "Get a widget",
         "Description": "Get a specific single widget by its unique identifier.",
@@ -42082,6 +42157,13 @@
         "Name": "Get widgets",
         "Description": "Get all widgets.",
         "Anchor": "#get-widgets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ShareBoard",
+        "Name": "Share a board",
+        "Description": "Share an existing board with users.",
+        "Anchor": "#share-a-board",
         "IsDeprecated": false
       },
       {
@@ -47493,6 +47575,54 @@
         "Name": "Call Peltarion API",
         "Description": "This function calls your model deployed on the Peltarion Platform.",
         "Anchor": "#call-peltarion-api",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "pexelsip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pexelsip/",
+    "Actions": [
+      {
+        "OperationId": "GetPhoto",
+        "Name": "Get Photo",
+        "Description": "Retrieve a specific Photo from its id.",
+        "Anchor": "#get-photo",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVideo",
+        "Name": "Get Video",
+        "Description": "Retrieve a specific Video from its id.",
+        "Anchor": "#get-video",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListCuratedPhotos",
+        "Name": "List Curated Photos",
+        "Description": "Retrieves a list of real-time photos curated by the Pexels team.",
+        "Anchor": "#list-curated-photos",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListPopularVideos",
+        "Name": "List Popular Videos",
+        "Description": "Retrieves a list of the current popular videos.",
+        "Anchor": "#list-popular-videos",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchPhotos",
+        "Name": "Search for Photos",
+        "Description": "Search Pexels for any photos that you would like. For example your query could be something broad like Nature, Tigers, People. Or it could be something specific like Group of people working.",
+        "Anchor": "#search-for-photos",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchVideos",
+        "Name": "Search for Videos",
+        "Description": "Search Pexels for any videos that you would like. For example your query could be something broad like Nature, Tigers, People. Or it could be something specific like Group of people working.",
+        "Anchor": "#search-for-videos",
         "IsDeprecated": false
       }
     ]
@@ -54036,6 +54166,19 @@
     ]
   },
   {
+    "UniqueName": "robohaship",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../robohaship/",
+    "Actions": [
+      {
+        "OperationId": "ImageGet",
+        "Name": "Generate image from text",
+        "Description": "Returns a unique image from the entered text.",
+        "Anchor": "#generate-image-from-text",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "robolytix",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../robolytix/",
     "Actions": [
@@ -56670,6 +56813,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetDocumentGroup",
+        "Name": "Get Document Group",
+        "Description": "Retrieve a list of user's document groups",
+        "Anchor": "#get-document-group",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetListDoc",
         "Name": "Get Document List",
         "Description": "Retrieve a list of user's documents",
@@ -56688,6 +56838,13 @@
         "Name": "Prefill Smart Field Values",
         "Description": "Prefill Smart Field values for the specified document",
         "Anchor": "#prefill-smart-field-values",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendGroupInvite",
+        "Name": "Invite to sign the Document Group",
+        "Description": "Invite others to fill out and sign the document group",
+        "Anchor": "#invite-to-sign-the-document-group",
         "IsDeprecated": false
       },
       {
@@ -56723,6 +56880,13 @@
         "Name": "Prefill Document Group Field Values",
         "Description": "Automatically populate fillable fields in the documents with specific values",
         "Anchor": "#prefill-document-group-field-values",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateGroupSmartFieldValues",
+        "Name": "Prefill Document Group Smart Field Values",
+        "Description": "Automatically populate smart fields in the documents with specific values",
+        "Anchor": "#prefill-document-group-smart-field-values",
         "IsDeprecated": false
       },
       {
@@ -64050,6 +64214,26 @@
         "Name": "Convert to PDF",
         "Description": "Convert a document to PDF - https://xbridger.com/docs/getting-started/convert-to-pdf/",
         "Anchor": "#convert-to-pdf",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "xkcdip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../xkcdip/",
+    "Actions": [
+      {
+        "OperationId": "ComicGet",
+        "Name": "Get current comic",
+        "Description": "Get the current comic. xkcd is updated every Monday, Wednesday, and Friday.",
+        "Anchor": "#get-current-comic",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ComicGetA",
+        "Name": "Get a specific comic",
+        "Description": "Returns a specific comic by comic number.",
+        "Anchor": "#get-a-specific-comic",
         "IsDeprecated": false
       }
     ]

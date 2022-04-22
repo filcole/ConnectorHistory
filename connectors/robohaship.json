@@ -1,0 +1,13 @@
+{
+  "UniqueName": "robohaship",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../robohaship/",
+  "Actions": [
+    {
+      "OperationId": "ImageGet",
+      "Name": "Generate image from text",
+      "Description": "Returns a unique image from the entered text.",
+      "Anchor": "#generate-image-from-text",
+      "IsDeprecated": false
+    }
+  ]
+}
