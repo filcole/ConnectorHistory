@@ -1,0 +1,41 @@
+{
+  "UniqueName": "autodeskforgedataexc",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../autodeskforgedataexc/",
+  "Actions": [
+    {
+      "OperationId": "GetAllPropertiesCodeBehind",
+      "Name": "Get properties of a Data Exchange",
+      "Description": "This operation gets the properties of a Data Exchange. You can specify to get all the properties or only the latest properties.",
+      "Anchor": "#get-properties-of-a-data-exchange",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAssetInfo",
+      "Name": "Get details of a Data Exchange property",
+      "Description": "This operation gets details of a property associated with a Data Exchange.",
+      "Anchor": "#get-details-of-a-data-exchange-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetExchanges",
+      "Name": "Get details about a Data Exchange",
+      "Description": "This operation gets details about a Data Exchange such as its Autodesk Docs project name, author of the file, and the last modified time, etc.",
+      "Anchor": "#get-details-about-a-data-exchange",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RegisterWebhookExchangeAdded",
+      "Name": "When a Data Exchange is created",
+      "Description": "This operation triggers a flow when a Data Exchange is created.",
+      "Anchor": "#when-a-data-exchange-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RegisterWebhookExchangeModified",
+      "Name": "When a Data Exchange is updated",
+      "Description": "This operation triggers a flow when a Data Exchange is updated.",
+      "Anchor": "#when-a-data-exchange-is-updated",
+      "IsDeprecated": false
+    }
+  ]
+}

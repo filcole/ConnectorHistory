@@ -1,0 +1,20 @@
+{
+  "UniqueName": "ameeopenbusinessip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ameeopenbusinessip/",
+  "Actions": [
+    {
+      "OperationId": "GetCompanies",
+      "Name": "Get Companies",
+      "Description": "Returns a set of companies",
+      "Anchor": "#get-companies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCompany",
+      "Name": "Get Company",
+      "Description": "Returns a company based on ID. The ID defaults to an AMEE company id, but you can also search via a CRO number by setting the 'type' parameter.",
+      "Anchor": "#get-company",
+      "IsDeprecated": false
+    }
+  ]
+}

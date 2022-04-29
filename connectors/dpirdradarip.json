@@ -1,0 +1,48 @@
+{
+  "UniqueName": "dpirdradarip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dpirdradarip/",
+  "Actions": [
+    {
+      "OperationId": "GetNearbyRadar",
+      "Name": "Get Nearby Radar",
+      "Description": "Get nearest radar points to a latitude and longitude",
+      "Anchor": "#get-nearby-radar",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRadar",
+      "Name": "Get Radar",
+      "Description": "Get metadata for a specific radar",
+      "Anchor": "#get-radar",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRadarDailySummaries",
+      "Name": "Get Radar Daily Summaries",
+      "Description": "Get the daily summaries for a latitude and longitude based on the closest radar point",
+      "Anchor": "#get-radar-daily-summaries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRadarMonthlySummaries",
+      "Name": "Get Radar Monthly Summaries",
+      "Description": "Get the monthly summaries for a latitude and longitude based on the closest radar point",
+      "Anchor": "#get-radar-monthly-summaries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRadarRainfall",
+      "Name": "Get Radar Rainfall",
+      "Description": "Get the rainfall for specific radars",
+      "Anchor": "#get-radar-rainfall",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRadars",
+      "Name": "Get Radars",
+      "Description": "Returns a list of radars and their metadata.",
+      "Anchor": "#get-radars",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "UniqueName": "nistnvdip",
-  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nistnvdip/",
+  "UniqueName": "nistnationalvulnerip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nistnationalvulnerip/",
   "Actions": [
     {
       "OperationId": "GetCPECollection",
       "Name": "Retrieve CPE information",
-      "Description": "Retrieve CPE information",
+      "Description": "Retrieve Common Platform Enumeration information",
       "Anchor": "#retrieve-cpe-information",
       "IsDeprecated": false
     },

@@ -1,0 +1,153 @@
+{
+  "UniqueName": "ambeeip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ambeeip/",
+  "Actions": [
+    {
+      "OperationId": "AirQualityCity",
+      "Name": "Get current air quality by city search",
+      "Description": "Ambee Air Quality API helps you to get real-time, hyper local air quality data for any city by passing the name of the city.",
+      "Anchor": "#get-current-air-quality-by-city-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirQualityCountry",
+      "Name": "Get current air quality by country search",
+      "Description": "Ambee Air Quality API helps you to get real-time, hyper local air quality data for any country by passing the ISO country code.",
+      "Anchor": "#get-current-air-quality-by-country-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirQualityGeo",
+      "Name": "Get current air quality current by geospatial search",
+      "Description": "Ambee Air Quality API helps you to get real-time, hyper local air quality data for any location by passing the geographic coordinates.",
+      "Anchor": "#get-current-air-quality-current-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirQualityGeoHistory",
+      "Name": "Get historical air quality by geospatial search",
+      "Description": "Ambee Air Quality API helps you to get historical hyper local air quality data for any for any location by passing the geographic coordinates along with period for which the data is required.",
+      "Anchor": "#get-historical-air-quality-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirQualityLeastPolluted",
+      "Name": "Get least polluted places by air quality",
+      "Description": "Ambee Air Quality API helps you to get least polluted places calculated from among various countries. The API also provides location information about the postal code passed like country code, division, latitude, longitude, placename, state, city, etc.",
+      "Anchor": "#get-least-polluted-places-by-air-quality",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirQualityMostPolluted",
+      "Name": "Get most polluted places by air quality",
+      "Description": "Ambee Air Quality API helps you to get most polluted places calculated from among various countries. The API also provides location information about the postal code passed like country code, division, latitude, longitude, placename, state, city, etc.",
+      "Anchor": "#get-most-polluted-places-by-air-quality",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirQualityPostal",
+      "Name": "Get current air quality by postal code search",
+      "Description": "Ambee Air Quality API helps you to get real-time, hyper local air quality data for any location by passing the postal code of the respective area.",
+      "Anchor": "#get-current-air-quality-by-postal-code-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirQualityPostalHistory",
+      "Name": "Get historical air quality by postal code search",
+      "Description": "Ambee Air Quality API helps you to get historical hyper local air quality data for any for any location by passing the geographic coordinates along with period for which the data is required.",
+      "Anchor": "#get-historical-air-quality-by-postal-code-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FireCurrent",
+      "Name": "Get current fires by geospatial search",
+      "Description": "Ambee’s Fire API gives access to real-time local active fires data by latitude and longitude for any location in the world.",
+      "Anchor": "#get-current-fires-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PollenHistoryGeo",
+      "Name": "Get historical pollen by geospatial search",
+      "Description": "Ambee Pollen API gives access to get historical pollen count - tree, grass and weed, by passing the geographic coordinates along with period for which the data is required.",
+      "Anchor": "#get-historical-pollen-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PollenHistoryPlace",
+      "Name": "Get historical pollen by place search",
+      "Description": "Ambee Pollen API gives access to get historical pollen count - tree, grass and weed, by passing the place name along with period for which the data is required.",
+      "Anchor": "#get-historical-pollen-by-place-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PollenLatestGeo",
+      "Name": "Get latest pollen by geospatial search",
+      "Description": "Ambee Pollen API gives access to real-time pollen count - tree, grass and weed, by latitude and longitude.",
+      "Anchor": "#get-latest-pollen-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PollenLatestPlace",
+      "Name": "Get latest pollen by place search",
+      "Description": "Ambee Pollen API gives access to get realtime pollen count - tree, grass and weed, by passing the place name along with period for which the data is required.",
+      "Anchor": "#get-latest-pollen-by-place-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PollForecastGeo",
+      "Name": "Get pollen forecast by geospatial search",
+      "Description": "Ambee Pollen API gives access to get forecast of pollen count - tree, grass and weed, by passing the geographic coordinates.",
+      "Anchor": "#get-pollen-forecast-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SoilCurrent",
+      "Name": "Get current soil by geospatial search",
+      "Description": "Ambee Soil API gives access to real-time soil moisture and soil temperature levels of any given location in the world by latitude and longitude.",
+      "Anchor": "#get-current-soil-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SoilHistory",
+      "Name": "Get historical soil by geospatial search",
+      "Description": "Ambee Soil API gives access to historical soil moisture and soil temperature levels of any given location in the world by latitude and longitude.",
+      "Anchor": "#get-historical-soil-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WaterVaporCurrent",
+      "Name": "Get current water vapor by geospatial search",
+      "Description": "Ambee Water Vapor API gives access to real-time water vapor level of any given location in the world by latitude and longitude.",
+      "Anchor": "#get-current-water-vapor-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WaterVaporGeo",
+      "Name": "Get historical water vapor by geospatial search",
+      "Description": "Ambee Water Vapor API gives access to historical water vapor level of any given location in the world by latitude and longitude.",
+      "Anchor": "#get-historical-water-vapor-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WeatherCurrent",
+      "Name": "Get current weather by geospatial search",
+      "Description": "Ambee Weather API gives access to real-time local weather updates for temperature, pressure, humidity, wind, cloud coverage, visibility, and dew point of any location in the world by latitude and longitude.",
+      "Anchor": "#get-current-weather-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WeatherForecast",
+      "Name": "Get weather forecast by geospatial search",
+      "Description": "Ambee Weather API gives access to daily, hourly and even minutely forecasts for temperature, pressure, humidity, wind, cloud coverage, visibility, and dew point of any location in the world by latitude and longitude.",
+      "Anchor": "#get-weather-forecast-by-geospatial-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WeatherHistory",
+      "Name": "Get historical weather by geospatial search",
+      "Description": "Ambee Weather API gives access to historical data for temperature, pressure, humidity, wind, cloud coverage, visibility, and dew point of any location in the world by latitude and longitude.",
+      "Anchor": "#get-historical-weather-by-geospatial-search",
+      "IsDeprecated": false
+    }
+  ]
+}

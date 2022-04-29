@@ -1397,6 +1397,26 @@
     ]
   },
   {
+    "UniqueName": "advancedscraperip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../advancedscraperip/",
+    "Actions": [
+      {
+        "OperationId": "Scrape",
+        "Name": "Scrape a remote URL",
+        "Description": "Scrape a remote URL, with optional request from country, render, CSS selector, and timeout.",
+        "Anchor": "#scrape-a-remote-url",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ScrapeForm",
+        "Name": "Scrape a form page",
+        "Description": "Scrape a remote page containing a HTML form.",
+        "Anchor": "#scrape-a-form-page",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "africastalkingairtime",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../africastalkingairtime/",
     "Actions": [
@@ -2814,6 +2834,179 @@
         "Name": "Sends a message to the SQS queue",
         "Description": "Sends a message to the SQS queue.",
         "Anchor": "#sends-a-message-to-the-sqs-queue",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "ambeeip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ambeeip/",
+    "Actions": [
+      {
+        "OperationId": "AirQualityCity",
+        "Name": "Get current air quality by city search",
+        "Description": "Ambee Air Quality API helps you to get real-time, hyper local air quality data for any city by passing the name of the city.",
+        "Anchor": "#get-current-air-quality-by-city-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirQualityCountry",
+        "Name": "Get current air quality by country search",
+        "Description": "Ambee Air Quality API helps you to get real-time, hyper local air quality data for any country by passing the ISO country code.",
+        "Anchor": "#get-current-air-quality-by-country-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirQualityGeo",
+        "Name": "Get current air quality current by geospatial search",
+        "Description": "Ambee Air Quality API helps you to get real-time, hyper local air quality data for any location by passing the geographic coordinates.",
+        "Anchor": "#get-current-air-quality-current-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirQualityGeoHistory",
+        "Name": "Get historical air quality by geospatial search",
+        "Description": "Ambee Air Quality API helps you to get historical hyper local air quality data for any for any location by passing the geographic coordinates along with period for which the data is required.",
+        "Anchor": "#get-historical-air-quality-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirQualityLeastPolluted",
+        "Name": "Get least polluted places by air quality",
+        "Description": "Ambee Air Quality API helps you to get least polluted places calculated from among various countries. The API also provides location information about the postal code passed like country code, division, latitude, longitude, placename, state, city, etc.",
+        "Anchor": "#get-least-polluted-places-by-air-quality",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirQualityMostPolluted",
+        "Name": "Get most polluted places by air quality",
+        "Description": "Ambee Air Quality API helps you to get most polluted places calculated from among various countries. The API also provides location information about the postal code passed like country code, division, latitude, longitude, placename, state, city, etc.",
+        "Anchor": "#get-most-polluted-places-by-air-quality",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirQualityPostal",
+        "Name": "Get current air quality by postal code search",
+        "Description": "Ambee Air Quality API helps you to get real-time, hyper local air quality data for any location by passing the postal code of the respective area.",
+        "Anchor": "#get-current-air-quality-by-postal-code-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirQualityPostalHistory",
+        "Name": "Get historical air quality by postal code search",
+        "Description": "Ambee Air Quality API helps you to get historical hyper local air quality data for any for any location by passing the geographic coordinates along with period for which the data is required.",
+        "Anchor": "#get-historical-air-quality-by-postal-code-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FireCurrent",
+        "Name": "Get current fires by geospatial search",
+        "Description": "Ambee’s Fire API gives access to real-time local active fires data by latitude and longitude for any location in the world.",
+        "Anchor": "#get-current-fires-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PollenHistoryGeo",
+        "Name": "Get historical pollen by geospatial search",
+        "Description": "Ambee Pollen API gives access to get historical pollen count - tree, grass and weed, by passing the geographic coordinates along with period for which the data is required.",
+        "Anchor": "#get-historical-pollen-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PollenHistoryPlace",
+        "Name": "Get historical pollen by place search",
+        "Description": "Ambee Pollen API gives access to get historical pollen count - tree, grass and weed, by passing the place name along with period for which the data is required.",
+        "Anchor": "#get-historical-pollen-by-place-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PollenLatestGeo",
+        "Name": "Get latest pollen by geospatial search",
+        "Description": "Ambee Pollen API gives access to real-time pollen count - tree, grass and weed, by latitude and longitude.",
+        "Anchor": "#get-latest-pollen-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PollenLatestPlace",
+        "Name": "Get latest pollen by place search",
+        "Description": "Ambee Pollen API gives access to get realtime pollen count - tree, grass and weed, by passing the place name along with period for which the data is required.",
+        "Anchor": "#get-latest-pollen-by-place-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PollForecastGeo",
+        "Name": "Get pollen forecast by geospatial search",
+        "Description": "Ambee Pollen API gives access to get forecast of pollen count - tree, grass and weed, by passing the geographic coordinates.",
+        "Anchor": "#get-pollen-forecast-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SoilCurrent",
+        "Name": "Get current soil by geospatial search",
+        "Description": "Ambee Soil API gives access to real-time soil moisture and soil temperature levels of any given location in the world by latitude and longitude.",
+        "Anchor": "#get-current-soil-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SoilHistory",
+        "Name": "Get historical soil by geospatial search",
+        "Description": "Ambee Soil API gives access to historical soil moisture and soil temperature levels of any given location in the world by latitude and longitude.",
+        "Anchor": "#get-historical-soil-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WaterVaporCurrent",
+        "Name": "Get current water vapor by geospatial search",
+        "Description": "Ambee Water Vapor API gives access to real-time water vapor level of any given location in the world by latitude and longitude.",
+        "Anchor": "#get-current-water-vapor-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WaterVaporGeo",
+        "Name": "Get historical water vapor by geospatial search",
+        "Description": "Ambee Water Vapor API gives access to historical water vapor level of any given location in the world by latitude and longitude.",
+        "Anchor": "#get-historical-water-vapor-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WeatherCurrent",
+        "Name": "Get current weather by geospatial search",
+        "Description": "Ambee Weather API gives access to real-time local weather updates for temperature, pressure, humidity, wind, cloud coverage, visibility, and dew point of any location in the world by latitude and longitude.",
+        "Anchor": "#get-current-weather-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WeatherForecast",
+        "Name": "Get weather forecast by geospatial search",
+        "Description": "Ambee Weather API gives access to daily, hourly and even minutely forecasts for temperature, pressure, humidity, wind, cloud coverage, visibility, and dew point of any location in the world by latitude and longitude.",
+        "Anchor": "#get-weather-forecast-by-geospatial-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WeatherHistory",
+        "Name": "Get historical weather by geospatial search",
+        "Description": "Ambee Weather API gives access to historical data for temperature, pressure, humidity, wind, cloud coverage, visibility, and dew point of any location in the world by latitude and longitude.",
+        "Anchor": "#get-historical-weather-by-geospatial-search",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "ameeopenbusinessip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ameeopenbusinessip/",
+    "Actions": [
+      {
+        "OperationId": "GetCompanies",
+        "Name": "Get Companies",
+        "Description": "Returns a set of companies",
+        "Anchor": "#get-companies",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCompany",
+        "Name": "Get Company",
+        "Description": "Returns a company based on ID. The ID defaults to an AMEE company id, but you can also search via a CRO number by setting the 'type' parameter.",
+        "Anchor": "#get-company",
         "IsDeprecated": false
       }
     ]
@@ -4624,6 +4817,47 @@
         "Name": "When an intent vector is recognized",
         "Description": "This operation triggers when the given LUIS intent vector is recognized by the bot.",
         "Anchor": "#when-an-intent-vector-is-recognized",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "autodeskforgedataexc",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../autodeskforgedataexc/",
+    "Actions": [
+      {
+        "OperationId": "GetAllPropertiesCodeBehind",
+        "Name": "Get properties of a Data Exchange",
+        "Description": "This operation gets the properties of a Data Exchange. You can specify to get all the properties or only the latest properties.",
+        "Anchor": "#get-properties-of-a-data-exchange",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAssetInfo",
+        "Name": "Get details of a Data Exchange property",
+        "Description": "This operation gets details of a property associated with a Data Exchange.",
+        "Anchor": "#get-details-of-a-data-exchange-property",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetExchanges",
+        "Name": "Get details about a Data Exchange",
+        "Description": "This operation gets details about a Data Exchange such as its Autodesk Docs project name, author of the file, and the last modified time, etc.",
+        "Anchor": "#get-details-about-a-data-exchange",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RegisterWebhookExchangeAdded",
+        "Name": "When a Data Exchange is created",
+        "Description": "This operation triggers a flow when a Data Exchange is created.",
+        "Anchor": "#when-a-data-exchange-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RegisterWebhookExchangeModified",
+        "Name": "When a Data Exchange is updated",
+        "Description": "This operation triggers a flow when a Data Exchange is updated.",
+        "Anchor": "#when-a-data-exchange-is-updated",
         "IsDeprecated": false
       }
     ]
@@ -12264,6 +12498,47 @@
     ]
   },
   {
+    "UniqueName": "clockifyip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../clockifyip/",
+    "Actions": [
+      {
+        "OperationId": "GetAllUsers",
+        "Name": "List All Users in Workspace",
+        "Description": "Retreives All Users in Workspace returns all the active users in the selected Clockify workspace.",
+        "Anchor": "#list-all-users-in-workspace",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetClients",
+        "Name": "List Clients",
+        "Description": "List Clients",
+        "Anchor": "#list-clients",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetProjects",
+        "Name": "List Projects",
+        "Description": "List Projects",
+        "Anchor": "#list-projects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTimeEntriesForUser",
+        "Name": "List User Time Entries",
+        "Description": "List User Time Entries",
+        "Anchor": "#list-user-time-entries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWorkspaces",
+        "Name": "List Workspaces",
+        "Description": "Retrieves all the workspaces visible in your Clockify account using the api key provided.",
+        "Anchor": "#list-workspaces",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "cloudbot",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudbot/",
     "Actions": [
@@ -16249,6 +16524,19 @@
     ]
   },
   {
+    "UniqueName": "cyberproof",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cyberproof/",
+    "Actions": [
+      {
+        "OperationId": "CPCreateExecution",
+        "Name": "CyberProof Action",
+        "Description": "CyberProof Action.",
+        "Anchor": "#cyberproof-action",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "dvelop",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dvelop/",
     "Actions": [
@@ -17046,6 +17334,26 @@
     ]
   },
   {
+    "UniqueName": "donotcallreportcallsip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../donotcallreportcallsip/",
+    "Actions": [
+      {
+        "OperationId": "ComplaintID",
+        "Name": "Get a single DNC complaint",
+        "Description": "Returns a single unverified complaint by ID.",
+        "Anchor": "#get-a-single-dnc-complaint",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ComplaintsAll",
+        "Name": "List all DNC complaints",
+        "Description": "Returns a list of unverified complaints based on the filter parameters.",
+        "Anchor": "#list-all-dnc-complaints",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "docfusion365",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../docfusion365/",
     "Actions": [
@@ -17730,6 +18038,339 @@
         "Name": "dox42 Service Call",
         "Description": "Call to the dox42 service",
         "Anchor": "#dox42-service-call",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "dpirdradarip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dpirdradarip/",
+    "Actions": [
+      {
+        "OperationId": "GetNearbyRadar",
+        "Name": "Get Nearby Radar",
+        "Description": "Get nearest radar points to a latitude and longitude",
+        "Anchor": "#get-nearby-radar",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRadar",
+        "Name": "Get Radar",
+        "Description": "Get metadata for a specific radar",
+        "Anchor": "#get-radar",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRadarDailySummaries",
+        "Name": "Get Radar Daily Summaries",
+        "Description": "Get the daily summaries for a latitude and longitude based on the closest radar point",
+        "Anchor": "#get-radar-daily-summaries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRadarMonthlySummaries",
+        "Name": "Get Radar Monthly Summaries",
+        "Description": "Get the monthly summaries for a latitude and longitude based on the closest radar point",
+        "Anchor": "#get-radar-monthly-summaries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRadarRainfall",
+        "Name": "Get Radar Rainfall",
+        "Description": "Get the rainfall for specific radars",
+        "Anchor": "#get-radar-rainfall",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRadars",
+        "Name": "Get Radars",
+        "Description": "Returns a list of radars and their metadata.",
+        "Anchor": "#get-radars",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "dpirdscienceip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dpirdscienceip/",
+    "Actions": [
+      {
+        "OperationId": "GetNearbyWeatherStations",
+        "Name": "Get Stations Nearby",
+        "Description": "Returns a list of nearby stations, sorted by distance. Use paging to control the number of stations returned. Returns 5 stations by default. Sorted by distance from location ascending.",
+        "Anchor": "#get-stations-nearby",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPotentialYield",
+        "Name": "Get Potential Yield",
+        "Description": "Get Potential Yield",
+        "Anchor": "#get-potential-yield",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSoilWater",
+        "Name": "Get Soil Water",
+        "Description": "Returns the amount of water in the soil depending on the rainfall received and the type of soil.",
+        "Anchor": "#get-soil-water",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStation",
+        "Name": "Get Single Station",
+        "Description": "Get the metadata for a specific station",
+        "Anchor": "#get-single-station",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationRainfall",
+        "Name": "Get Single Station Rainfall",
+        "Description": "Returns the rainfall to date, historical rainfall data, and projected rainfall data, depending on already received rainfall",
+        "Anchor": "#get-single-station-rainfall",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStations",
+        "Name": "Get Stations",
+        "Description": "Returns a list of stations that can be used with the Science API.",
+        "Anchor": "#get-stations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetYellowSpot",
+        "Name": "Get Yellow Spot",
+        "Description": "Run the Moin or Chris Yellow Spot model.",
+        "Anchor": "#get-yellow-spot",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "dpirdweatherip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dpirdweatherip/",
+    "Actions": [
+      {
+        "OperationId": "GetNearbyWeatherStations",
+        "Name": "Get Weather Stations Nearby",
+        "Description": "Returns a list of nearby stations, sorted by distance. Use paging to control the number of stations returned. Returns 5 stations by default. Sorted by distance from location ascending.",
+        "Anchor": "#get-weather-stations-nearby",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStation",
+        "Name": "Get Single Weather Station",
+        "Description": "Get the metadata for a specific station",
+        "Anchor": "#get-single-weather-station",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStation15minSummary",
+        "Name": "Get Single Weather Station 15min Summary",
+        "Description": "Returns a set of quarter-hourly summaries for a specific station. Note that the 30min summary is only available from the beginning of the previous year to the current date.",
+        "Anchor": "#get-single-weather-station-15min-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStation30minSummary",
+        "Name": "Get Single Weather Station 30min Summary",
+        "Description": "Returns a set of half-hourly summaries for a specific station. Note that the 15min summary is only available from the beginning of the previous year to the current date.",
+        "Anchor": "#get-single-weather-station-30min-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationBulletins",
+        "Name": "Get Single Weather Station Bulletins",
+        "Description": "Returns daily 9am bulletins for a station. The daily 9am bulletin is a summary where every field has been summarized over the 24 hour period to 9am.",
+        "Anchor": "#get-single-weather-station-bulletins",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationDailySummary",
+        "Name": "Get Single Weather Station Daily Summary",
+        "Description": "Returns a set of daily summaries for a specific station. The 24 hour period each field is summarized over varies between 24 hours to 9am (eg rainfall, minimum temperature), 24 hours from 9am (eg maximum temperature) and 24 hours from 12am (eg wind, solar).",
+        "Anchor": "#get-single-weather-station-daily-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationHourlySummary",
+        "Name": "Get Single Weather Station Hourly Summary",
+        "Description": "Returns a set of hourly summaries for a specific station.",
+        "Anchor": "#get-single-weather-station-hourly-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationLatestData",
+        "Name": "Get Single Weather Station Latest Data",
+        "Description": "Get the latest data for a station.",
+        "Anchor": "#get-single-weather-station-latest-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationMinuteData",
+        "Name": "Get Single Weather Station Minute Data",
+        "Description": "Returns minute recordings for a station over a maximum 24 hour period.",
+        "Anchor": "#get-single-weather-station-minute-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationMonthlySummary",
+        "Name": "Get Single Weather Station Monthly Summary",
+        "Description": "Returns a set of monthly summaries for a specific station. The monthly period each field is summarized over is a monthly composite of the same 24 hour period used by the field in the daily summary. For example, rainfall, which uses the 24 hours to 9am daily period starts at 9am on the last day of the previous month and concludes at 9am on the last day of the month.",
+        "Anchor": "#get-single-weather-station-monthly-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStations",
+        "Name": "Get Weather Stations",
+        "Description": "Returns a list of stations and their metadata.",
+        "Anchor": "#get-weather-stations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStations15minSummary",
+        "Name": "Get Weather Stations 15min Summary",
+        "Description": "Returns a set of quarter-hourly summaries for a list of stations. Note that the 15min summary is only available from the beginning of the previous year to the current date.",
+        "Anchor": "#get-weather-stations-15min-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStations15minSummaryTimeSeries",
+        "Name": "Get Weather Stations 15min Summary Timeseries",
+        "Description": "Returns a set of quarter-hourly time-series summaries for a list of stations. Useful for charts. Note that the 15min summary is only available from the beginning of the previous year to the current date.",
+        "Anchor": "#get-weather-stations-15min-summary-timeseries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStations30minSummary",
+        "Name": "Get Weather Stations 30min Summary",
+        "Description": "Returns a set of half-hourly summaries for a list of stations. Note that the 30min summary is only available from the beginning of the previous year to the current date.",
+        "Anchor": "#get-weather-stations-30min-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStations30minSummaryTimeSeries",
+        "Name": "Get Weather Stations 30min Summary Timeseries",
+        "Description": "Returns a set of half-hourly time-series summaries for a list of stations. Useful for charts.",
+        "Anchor": "#get-weather-stations-30min-summary-timeseries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsAvailability",
+        "Name": "Get Weather Stations Availability",
+        "Description": "Gets the availability metadata for weather stations",
+        "Anchor": "#get-weather-stations-availability",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsBulletins",
+        "Name": "Get Weather Stations Bulletins",
+        "Description": "Returns daily 9am bulletins for a list of stations. The daily 9am bulletin is a summary where every field has been summarized over the 24 hour period to 9am.",
+        "Anchor": "#get-weather-stations-bulletins",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsDailySummary",
+        "Name": "Get Weather Stations Daily Summary",
+        "Description": "Returns a set of daily summaries for a list of stations. The 24 hour period each field is summarized over varies between 24 hours to 9am (eg rainfall, minimum temperature), 24 hours from 9am (eg maximum temperature) and 24 hours from 12am (eg wind, solar)",
+        "Anchor": "#get-weather-stations-daily-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsDailySummaryTimeSeries",
+        "Name": "Get Weather Stations Daily Summary Timeseries",
+        "Description": "Returns a set of daily time-series summaries for a list of stations. Useful for charts.",
+        "Anchor": "#get-weather-stations-daily-summary-timeseries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsExtremeConditions",
+        "Name": "Get Weather Stations Extreme Conditions",
+        "Description": "Get the amount of time weather stations have had extreme conditions for, over various time periods. The extreme conditions indicated are: frost conditions - where temperature is less than or equal to 2°C; heat conditions - where temperature is greater than or equal to 30°C; and erosion conditions - where wind is greater than or equal to 28.8km/h.",
+        "Anchor": "#get-weather-stations-extreme-conditions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsExtremeEvents",
+        "Name": "Get Weather Stations Extreme Events",
+        "Description": "Find extreme values for weather stations.",
+        "Anchor": "#get-weather-stations-extreme-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsHourlySummary",
+        "Name": "Get Weather Stations Hourly Summary",
+        "Description": "Returns a set of hourly summaries for a list of stations.",
+        "Anchor": "#get-weather-stations-hourly-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsHourlySummaryTimeSeries",
+        "Name": "Get Weather Stations Hourly Summary Timeseries",
+        "Description": "Returns a set of hourly time-series summaries for a list of stations. Useful for charts.",
+        "Anchor": "#get-weather-stations-hourly-summary-timeseries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsLatestData",
+        "Name": "Get Weather Stations Latest Data",
+        "Description": "Get the latest data for a series of stations. Returns all active stations by default.",
+        "Anchor": "#get-weather-stations-latest-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsMonthlySummary",
+        "Name": "Get Weather Stations Monthly Summary",
+        "Description": "Returns a set of monthly summaries for a list of stations. The monthly period each field is summarized over is a monthly composite of the same 24 hour period used by the field in the daily summary. For example, rainfall, which uses the 24 hours to 9am daily period starts at 9am on the last day of the previous month and concludes at 9am on the last day of the month.",
+        "Anchor": "#get-weather-stations-monthly-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsMonthlySummaryTimeSeries",
+        "Name": "Get Weather Stations Monthly Summary Timeseries",
+        "Description": "Returns a set of monthly time-series summaries for a list of stations. Useful for charts.",
+        "Anchor": "#get-weather-stations-monthly-summary-timeseries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsYearlySummary",
+        "Name": "Get Weather Stations Yearly Summary",
+        "Description": "Returns a set of annual summaries for a list of stations. The yearly period each field is summarized over is a yearly composite of the same 24 hour period used by the field in the daily summary. For example, rainfall, which uses the 24 hours to 9am daily period starts at 9am on the last day of the previous year and concludes at 9am on the last day of the year.",
+        "Anchor": "#get-weather-stations-yearly-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationsYearlySummaryTimeSeries",
+        "Name": "Get Weather Stations Yearly Summary Timeseries",
+        "Description": "Returns a set of yearly time-series summaries for a list of stations. Useful for charts.",
+        "Anchor": "#get-weather-stations-yearly-summary-timeseries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStationYearlySummary",
+        "Name": "Get Single Weather Station Yearly Summary",
+        "Description": "Returns a set of yearly summaries for a specific station. The yearly period each field is summarized over is a yearly composite of the same 24 hour period used by the field in the daily summary. For example, rainfall, which uses the 24 hours to 9am daily period starts at 9am on the last day of the previous year and concludes at 9am on the last day of the year.",
+        "Anchor": "#get-single-weather-station-yearly-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWeatherStationAvailability",
+        "Name": "Get Single Weather Station Availability",
+        "Description": "Get Single Weather Station Availability",
+        "Anchor": "#get-single-weather-station-availability",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWeatherStationRainfall",
+        "Name": "Get Single Weather Station Rainfall",
+        "Description": "Get the rainfall weather station has received over various time periods up to the current time.",
+        "Anchor": "#get-single-weather-station-rainfall",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWeatherStationsRainfall",
+        "Name": "Get Weather Stations Rainfall",
+        "Description": "Get the rainfall weather stations have received over various time periods up to the current time.",
+        "Anchor": "#get-weather-stations-rainfall",
         "IsDeprecated": false
       }
     ]
@@ -26627,6 +27268,250 @@
         "Name": "mergeRequest",
         "Description": "Create a merge request.",
         "Anchor": "#mergerequest",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "globalgivingprojectip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../globalgivingprojectip/",
+    "Actions": [
+      {
+        "OperationId": "AccessTokenGet",
+        "Name": "Get access token",
+        "Description": "Access tokens are similar to session tokens and allow entering of credentials once per session. Once authenticated, a user is provided with an access token that is submitted with every secure request (those containing '/secure/' in the URL path, e.g. submitting a donation) instead of always submitting a username and password. Access tokens are short-lived and can expire so users need to re-GET a token at the start of each session or if their current access token expires. Note that access token timeouts are individually set for each API user as a database configuration and by default are set to 10 hours.",
+        "Anchor": "#get-access-token",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CampaignProjectGet",
+        "Name": "Get all projects for a campaign",
+        "Description": "This action retrieves information for all projects in specific Campaign. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+        "Anchor": "#get-all-projects-for-a-campaign",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CampaignSummaryProject",
+        "Name": "Get all projects for a campaign summary",
+        "Description": "This action retrieves a subset of the full project information for all projects in a specific campaign. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+        "Anchor": "#get-all-projects-for-a-campaign-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DonationSubmit",
+        "Name": "Submit a donation",
+        "Description": "This action allows a user to submit a donation request.",
+        "Anchor": "#submit-a-donation",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GiftCardDesigns",
+        "Name": "Get gift card designs",
+        "Description": "When sending out email gift cards a gift card design must be specified. This action retrieves all the available GlobalGiving gift card designs to select from.",
+        "Anchor": "#get-gift-card-designs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GiftCardSend",
+        "Name": "Send a gift card",
+        "Description": "This action allows a user to send a gift card.",
+        "Anchor": "#send-a-gift-card",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GiftCertificateDetails",
+        "Name": "Get gift certificate details",
+        "Description": "This action allows a user to query the validity and details of a gift certificate.",
+        "Anchor": "#get-gift-certificate-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GiftCertificateOrder",
+        "Name": "Order a gift certificate",
+        "Description": "This action allows a user to submit an order for a gift certificate without submitting payment details. This allows GlobalGiving the ability to immediately generate gift certificates with the understanding that reconciliation of the order will take place at a later date.",
+        "Anchor": "#order-a-gift-certificate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ImageGallery",
+        "Name": "Get image gallery",
+        "Description": "This action retrieves any extra images for a specific project. When requesting full  information, the  indicates the number of images available. If this number is greater than zero you can access the extra images using This action.",
+        "Anchor": "#get-image-gallery",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InvoiceOutstanding",
+        "Name": "Get outstanding invoices",
+        "Description": "This action retrieves all outstanding invoices not yet reconciled. This is a secure request therefore, an access token (authentication) is required.",
+        "Anchor": "#get-outstanding-invoices",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrganizationGet",
+        "Name": "Get organization",
+        "Description": "This action retrieves information for a specific organization.",
+        "Anchor": "#get-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrganizationGetAll",
+        "Name": "Get all organizations",
+        "Description": "This action retrieves information for all available organizations. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next organization id to include in the query string to retrieve the next set of results.",
+        "Anchor": "#get-all-organizations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectCountryGet",
+        "Name": "Get all projects for a country or region",
+        "Description": "This action retrieves information for all projects in a specific country or region. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+        "Anchor": "#get-all-projects-for-a-country-or-region",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectFeatured",
+        "Name": "Get featured projects",
+        "Description": "This action retrieves information for featured projects. The result set will always return 10 results. The featured projects are rotated hourly based on GlobalGiving ranking, and a &quot;randomization&quot; algorithm.",
+        "Anchor": "#get-featured-projects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectFeaturedSummary",
+        "Name": "Get featured projects summary",
+        "Description": "This action retrieves summary information for featured projects. The result set will always return 10 results. The featured projects are rotated hourly based on GlobalGiving ranking, and a &quot;randomization&quot; algorithm.",
+        "Anchor": "#get-featured-projects-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectGet",
+        "Name": "Get all projects",
+        "Description": "This action retrieves information for all projects. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+        "Anchor": "#get-all-projects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectGetA",
+        "Name": "Get specific project",
+        "Description": "This action displays information for a specific project.",
+        "Anchor": "#get-specific-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectIDs",
+        "Name": "Get all projects IDs",
+        "Description": "This action retrieves all the available project IDs.",
+        "Anchor": "#get-all-projects-ids",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectInformationGet",
+        "Name": "Get all project information for a set of project IDs",
+        "Description": "This action retrieves information for projects filtered by a list of comma separated project ids. The result set is limited to a maximum of 10 results for a request.",
+        "Anchor": "#get-all-project-information-for-a-set-of-project-ids",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectInformationSetIDs",
+        "Name": "Get all project summary information for set of project IDs",
+        "Description": "This action retrieves a subset of the full project information for projects filtered by a list of comma separated project ids. The result set is limited to a maximum of 10 results for a request.",
+        "Anchor": "#get-all-project-summary-information-for-set-of-project-ids",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectOrganization",
+        "Name": "Get all projects for an organization",
+        "Description": "This action retrieves the full project information for all projects belonging to a specific organization. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+        "Anchor": "#get-all-projects-for-an-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectOrganizationSummary",
+        "Name": "Get all projects for an organization summary",
+        "Description": "This action retrieves the full project information for all projects belonging to a specific organization. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+        "Anchor": "#get-all-projects-for-an-organization-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectRegionCount",
+        "Name": "Get region project counts for a specific region",
+        "Description": "This action retrieves project counts for a specific region.",
+        "Anchor": "#get-region-project-counts-for-a-specific-region",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectSearch",
+        "Name": "Search projects",
+        "Description": "This action allows searching for projects using keywords.",
+        "Anchor": "#search-projects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectSummary",
+        "Name": "Get specific project summary",
+        "Description": "This action displays a subset of the full project information for a specific project.",
+        "Anchor": "#get-specific-project-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectSummaryCountry",
+        "Name": "Get all projects for a country or region summary",
+        "Description": "This action retrieves a subset of the full project information for all projects in a specific country or region. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+        "Anchor": "#get-all-projects-for-a-country-or-region-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectSummaryGet",
+        "Name": "Get all projects summary",
+        "Description": "This action retrieves a subset of the full project information, for all projects. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+        "Anchor": "#get-all-projects-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectTheme",
+        "Name": "Get all projects for a theme",
+        "Description": "This action retrieves information for all projects in a specific theme. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+        "Anchor": "#get-all-projects-for-a-theme",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectThemeSummary",
+        "Name": "Get all projects for a theme summary",
+        "Description": "This action retrieves a subset of the full project information for all projects in a specific theme. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+        "Anchor": "#get-all-projects-for-a-theme-summary",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RegionGet",
+        "Name": "Get regions",
+        "Description": "This action retrieves all regions.",
+        "Anchor": "#get-regions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RegionProjectCount",
+        "Name": "Get region project counts",
+        "Description": "This action retrieves all regions and countries with their associated project counts.",
+        "Anchor": "#get-region-project-counts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ThemeProject",
+        "Name": "Get themes with project IDs",
+        "Description": "This action retrieves all GlobalGiving themes with their associated project IDs.",
+        "Anchor": "#get-themes-with-project-ids",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Themes",
+        "Name": "Get GlobalGiving themes",
+        "Description": "This action retrieves all GlobalGiving themes.",
+        "Anchor": "#get-globalgiving-themes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ThirdPartyMax",
+        "Name": "Get max third party ID",
+        "Description": "This action retrieves the max (greatest alphabetically) third party transaction id associated with this API key. This is a secure request therefore, an access token (authentication) is required.",
+        "Anchor": "#get-max-third-party-id",
         "IsDeprecated": false
       }
     ]
@@ -41876,6 +42761,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "OnComposeMessageV2",
+        "Name": "From the compose box (V2)",
+        "Description": "This trigger allows you to start a flow from the compose message box in Microsoft Teams. (Available only for Power Automate.)",
+        "Anchor": "#from-the-compose-box-(v2)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "OnGroupMembershipAdd",
         "Name": "When a new team member is added",
         "Description": "This operation triggers when a member is added to the given team.",
@@ -41964,6 +42856,13 @@
         "Name": "When someone responds to an adaptive card",
         "Description": "This trigger allows you to handle responses for an adaptive card posted in Microsoft Teams. (Available only for Power Automate.)",
         "Anchor": "#when-someone-responds-to-an-adaptive-card",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WebhookChatMessageTrigger",
+        "Name": "When a new chat message is added",
+        "Description": "This operation triggers when a new message is posted in any chat the user is a part of.",
+        "Anchor": "#when-a-new-chat-message-is-added",
         "IsDeprecated": false
       },
       {
@@ -42095,6 +42994,33 @@
         "Name": "Translate text",
         "Description": "Translates text to a specified language using Microsoft Translator.",
         "Anchor": "#translate-text",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "mintlifyip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mintlifyip/",
+    "Actions": [
+      {
+        "OperationId": "DocGen",
+        "Name": "Generate documentation",
+        "Description": "Returns a documentation string based on the code submitted.",
+        "Anchor": "#generate-documentation",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DocList",
+        "Name": "List documentation formats",
+        "Description": "Retrieve a list of documentation formats supported.",
+        "Anchor": "#list-documentation-formats",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LanguageList",
+        "Name": "List languages",
+        "Description": "Retrieve a list of languages supported.",
+        "Anchor": "#list-languages",
         "IsDeprecated": false
       }
     ]
@@ -43592,13 +44518,13 @@
     ]
   },
   {
-    "UniqueName": "nistnvdip",
-    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nistnvdip/",
+    "UniqueName": "nistnationalvulnerip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nistnationalvulnerip/",
     "Actions": [
       {
         "OperationId": "GetCPECollection",
         "Name": "Retrieve CPE information",
-        "Description": "Retrieve CPE information",
+        "Description": "Retrieve Common Platform Enumeration information",
         "Anchor": "#retrieve-cpe-information",
         "IsDeprecated": false
       },
@@ -52179,6 +53105,68 @@
     ]
   },
   {
+    "UniqueName": "rebrandlyip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rebrandlyip/",
+    "Actions": [
+      {
+        "OperationId": "CreateLink",
+        "Name": "Create Link",
+        "Description": "Creates a new link",
+        "Anchor": "#create-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteLink",
+        "Name": "Delete link",
+        "Description": "Deletes a link",
+        "Anchor": "#delete-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAccountDetails",
+        "Name": "Get Account Details",
+        "Description": "Retrieves your Account Details",
+        "Anchor": "#get-account-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLink",
+        "Name": "Get Link",
+        "Description": "Gets details of a link",
+        "Anchor": "#get-link",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListDomains",
+        "Name": "List Domains",
+        "Description": "Retrieves a list of Domains",
+        "Anchor": "#list-domains",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListLinks",
+        "Name": "List Links",
+        "Description": "Get a list of links",
+        "Anchor": "#list-links",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListWorkspaces",
+        "Name": "List Workspaces",
+        "Description": "Get all workspaces you either own or participate into as a member",
+        "Anchor": "#list-workspaces",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateLink",
+        "Name": "Update Link",
+        "Description": "Updates an existing link",
+        "Anchor": "#update-link",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "recordedfuture",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../recordedfuture/",
     "Actions": [
@@ -59843,6 +60831,20 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../surveymonkey/",
     "Actions": [
       {
+        "OperationId": "GetResponseDetails",
+        "Name": "Get Response Details in CSV Format",
+        "Description": "Export detailed response and survey data in CSV format. This premium feature is currently open to certain SurveyMonkey plans for a limited time.",
+        "Anchor": "#get-response-details-in-csv-format",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetResponseDetailsNoPages",
+        "Name": "Get Response Details in JSON Format",
+        "Description": "Export detailed response and survey data in JSON format. This premium feature is currently open to certain SurveyMonkey plans for a limited time.",
+        "Anchor": "#get-response-details-in-json-format",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetSurvey",
         "Name": "Get a survey",
         "Description": "Get details of a specific survey.",
@@ -59861,6 +60863,13 @@
         "Name": "When a new survey response is added",
         "Description": "Triggers a new flow when a survey response is added (paid account only).",
         "Anchor": "#when-a-new-survey-response-is-added",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OnNewResponseToQuestionAdded",
+        "Name": "When a new survey response to a question is added",
+        "Description": "Triggers a new flow when a response to a question is added (paid account only).",
+        "Anchor": "#when-a-new-survey-response-to-a-question-is-added",
         "IsDeprecated": false
       },
       {
@@ -60137,6 +61146,47 @@
         "Name": "When a user is created",
         "Description": "This operation triggers when a new user is created.",
         "Anchor": "#when-a-user-is-created",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "telegrambotip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../telegrambotip/",
+    "Actions": [
+      {
+        "OperationId": "GetChat",
+        "Name": "Get Chat",
+        "Description": "Use this method to get up to date information about the chat",
+        "Anchor": "#get-chat",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMe",
+        "Name": "Get Me",
+        "Description": "Returns basic information about the bot in form of a User object. A simple method for testing your bot's auth token.",
+        "Anchor": "#get-me",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUpdates",
+        "Name": "Get Updates",
+        "Description": "Use this method to receive incoming updates using long polling",
+        "Anchor": "#get-updates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendMessage",
+        "Name": "Send Message",
+        "Description": "Use this method to send text messages",
+        "Anchor": "#send-message",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendPhoto",
+        "Name": "Send Photo",
+        "Description": "Use this method to send photos.",
+        "Anchor": "#send-photo",
         "IsDeprecated": false
       }
     ]
@@ -61833,6 +62883,89 @@
     ]
   },
   {
+    "UniqueName": "truedialogsms",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../truedialogsms/",
+    "Actions": [
+      {
+        "OperationId": "Account_Get_Info",
+        "Name": "Get Account Info",
+        "Description": "Get information about account",
+        "Anchor": "#get-account-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Campaign_Push",
+        "Name": "Send SMS",
+        "Description": "Send SMS to a single or multiple recipients",
+        "Anchor": "#send-sms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Contact_Create",
+        "Name": "Contact Create",
+        "Description": "Create a contact record in TrueDialog",
+        "Anchor": "#contact-create",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Contact_Search",
+        "Name": "Contact Search",
+        "Description": "Searches for a contact via a phone number or email address.",
+        "Anchor": "#contact-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Contact_Update",
+        "Name": "Contact Update",
+        "Description": "Update contact",
+        "Anchor": "#contact-update",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delivery_Notice_received",
+        "Name": "Delivery Notice Received",
+        "Description": "This operation triggers a flow for each delivery notice receipt",
+        "Anchor": "#delivery-notice-received",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Incoming_SMS_Received",
+        "Name": "Incoming Message Received",
+        "Description": "This operation triggers a flow whenever end user texts in",
+        "Anchor": "#incoming-message-received",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Invalid_Targets",
+        "Name": "Invalid Targets",
+        "Description": "This operation triggers a flow if targets have been filtered out during sending SMS",
+        "Anchor": "#invalid-targets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Keyword_received",
+        "Name": "Keyword Received",
+        "Description": "This operation triggers a flow whenever end user texts in a keyword",
+        "Anchor": "#keyword-received",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Stop_received",
+        "Name": "Stop Message Received",
+        "Description": "This operation triggers a flow whenever end user texts in STOP or synonym",
+        "Anchor": "#stop-message-received",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "User_Get_Self_Info",
+        "Name": "Get Current User Info",
+        "Description": "Get information about User, whose credentials were used in Connection",
+        "Anchor": "#get-current-user-info",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "trustual",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../trustual/",
     "Actions": [
@@ -62203,6 +63336,26 @@
         "Name": "All holidays for all kingdoms",
         "Description": "All bank holidays for all kingdoms as defined by the Government.",
         "Anchor": "#all-holidays-for-all-kingdoms",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "ukgovtcheckvatip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ukgovtcheckvatip/",
+    "Actions": [
+      {
+        "OperationId": "GetVatRegistration",
+        "Name": "Get VAT registration",
+        "Description": "Allows retrieval of name and address of a UK VAT registered company",
+        "Anchor": "#get-vat-registration",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVatRegistrationWithReference",
+        "Name": "Get VAT registration with reference",
+        "Description": "Retrieves the name and address of a UK VAT-registered business with a reference number to prove you performed validation",
+        "Anchor": "#get-vat-registration-with-reference",
         "IsDeprecated": false
       }
     ]

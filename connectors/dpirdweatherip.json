@@ -1,0 +1,230 @@
+{
+  "UniqueName": "dpirdweatherip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dpirdweatherip/",
+  "Actions": [
+    {
+      "OperationId": "GetNearbyWeatherStations",
+      "Name": "Get Weather Stations Nearby",
+      "Description": "Returns a list of nearby stations, sorted by distance. Use paging to control the number of stations returned. Returns 5 stations by default. Sorted by distance from location ascending.",
+      "Anchor": "#get-weather-stations-nearby",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStation",
+      "Name": "Get Single Weather Station",
+      "Description": "Get the metadata for a specific station",
+      "Anchor": "#get-single-weather-station",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStation15minSummary",
+      "Name": "Get Single Weather Station 15min Summary",
+      "Description": "Returns a set of quarter-hourly summaries for a specific station. Note that the 30min summary is only available from the beginning of the previous year to the current date.",
+      "Anchor": "#get-single-weather-station-15min-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStation30minSummary",
+      "Name": "Get Single Weather Station 30min Summary",
+      "Description": "Returns a set of half-hourly summaries for a specific station. Note that the 15min summary is only available from the beginning of the previous year to the current date.",
+      "Anchor": "#get-single-weather-station-30min-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationBulletins",
+      "Name": "Get Single Weather Station Bulletins",
+      "Description": "Returns daily 9am bulletins for a station. The daily 9am bulletin is a summary where every field has been summarized over the 24 hour period to 9am.",
+      "Anchor": "#get-single-weather-station-bulletins",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationDailySummary",
+      "Name": "Get Single Weather Station Daily Summary",
+      "Description": "Returns a set of daily summaries for a specific station. The 24 hour period each field is summarized over varies between 24 hours to 9am (eg rainfall, minimum temperature), 24 hours from 9am (eg maximum temperature) and 24 hours from 12am (eg wind, solar).",
+      "Anchor": "#get-single-weather-station-daily-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationHourlySummary",
+      "Name": "Get Single Weather Station Hourly Summary",
+      "Description": "Returns a set of hourly summaries for a specific station.",
+      "Anchor": "#get-single-weather-station-hourly-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationLatestData",
+      "Name": "Get Single Weather Station Latest Data",
+      "Description": "Get the latest data for a station.",
+      "Anchor": "#get-single-weather-station-latest-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationMinuteData",
+      "Name": "Get Single Weather Station Minute Data",
+      "Description": "Returns minute recordings for a station over a maximum 24 hour period.",
+      "Anchor": "#get-single-weather-station-minute-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationMonthlySummary",
+      "Name": "Get Single Weather Station Monthly Summary",
+      "Description": "Returns a set of monthly summaries for a specific station. The monthly period each field is summarized over is a monthly composite of the same 24 hour period used by the field in the daily summary. For example, rainfall, which uses the 24 hours to 9am daily period starts at 9am on the last day of the previous month and concludes at 9am on the last day of the month.",
+      "Anchor": "#get-single-weather-station-monthly-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStations",
+      "Name": "Get Weather Stations",
+      "Description": "Returns a list of stations and their metadata.",
+      "Anchor": "#get-weather-stations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStations15minSummary",
+      "Name": "Get Weather Stations 15min Summary",
+      "Description": "Returns a set of quarter-hourly summaries for a list of stations. Note that the 15min summary is only available from the beginning of the previous year to the current date.",
+      "Anchor": "#get-weather-stations-15min-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStations15minSummaryTimeSeries",
+      "Name": "Get Weather Stations 15min Summary Timeseries",
+      "Description": "Returns a set of quarter-hourly time-series summaries for a list of stations. Useful for charts. Note that the 15min summary is only available from the beginning of the previous year to the current date.",
+      "Anchor": "#get-weather-stations-15min-summary-timeseries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStations30minSummary",
+      "Name": "Get Weather Stations 30min Summary",
+      "Description": "Returns a set of half-hourly summaries for a list of stations. Note that the 30min summary is only available from the beginning of the previous year to the current date.",
+      "Anchor": "#get-weather-stations-30min-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStations30minSummaryTimeSeries",
+      "Name": "Get Weather Stations 30min Summary Timeseries",
+      "Description": "Returns a set of half-hourly time-series summaries for a list of stations. Useful for charts.",
+      "Anchor": "#get-weather-stations-30min-summary-timeseries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsAvailability",
+      "Name": "Get Weather Stations Availability",
+      "Description": "Gets the availability metadata for weather stations",
+      "Anchor": "#get-weather-stations-availability",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsBulletins",
+      "Name": "Get Weather Stations Bulletins",
+      "Description": "Returns daily 9am bulletins for a list of stations. The daily 9am bulletin is a summary where every field has been summarized over the 24 hour period to 9am.",
+      "Anchor": "#get-weather-stations-bulletins",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsDailySummary",
+      "Name": "Get Weather Stations Daily Summary",
+      "Description": "Returns a set of daily summaries for a list of stations. The 24 hour period each field is summarized over varies between 24 hours to 9am (eg rainfall, minimum temperature), 24 hours from 9am (eg maximum temperature) and 24 hours from 12am (eg wind, solar)",
+      "Anchor": "#get-weather-stations-daily-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsDailySummaryTimeSeries",
+      "Name": "Get Weather Stations Daily Summary Timeseries",
+      "Description": "Returns a set of daily time-series summaries for a list of stations. Useful for charts.",
+      "Anchor": "#get-weather-stations-daily-summary-timeseries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsExtremeConditions",
+      "Name": "Get Weather Stations Extreme Conditions",
+      "Description": "Get the amount of time weather stations have had extreme conditions for, over various time periods. The extreme conditions indicated are: frost conditions - where temperature is less than or equal to 2°C; heat conditions - where temperature is greater than or equal to 30°C; and erosion conditions - where wind is greater than or equal to 28.8km/h.",
+      "Anchor": "#get-weather-stations-extreme-conditions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsExtremeEvents",
+      "Name": "Get Weather Stations Extreme Events",
+      "Description": "Find extreme values for weather stations.",
+      "Anchor": "#get-weather-stations-extreme-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsHourlySummary",
+      "Name": "Get Weather Stations Hourly Summary",
+      "Description": "Returns a set of hourly summaries for a list of stations.",
+      "Anchor": "#get-weather-stations-hourly-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsHourlySummaryTimeSeries",
+      "Name": "Get Weather Stations Hourly Summary Timeseries",
+      "Description": "Returns a set of hourly time-series summaries for a list of stations. Useful for charts.",
+      "Anchor": "#get-weather-stations-hourly-summary-timeseries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsLatestData",
+      "Name": "Get Weather Stations Latest Data",
+      "Description": "Get the latest data for a series of stations. Returns all active stations by default.",
+      "Anchor": "#get-weather-stations-latest-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsMonthlySummary",
+      "Name": "Get Weather Stations Monthly Summary",
+      "Description": "Returns a set of monthly summaries for a list of stations. The monthly period each field is summarized over is a monthly composite of the same 24 hour period used by the field in the daily summary. For example, rainfall, which uses the 24 hours to 9am daily period starts at 9am on the last day of the previous month and concludes at 9am on the last day of the month.",
+      "Anchor": "#get-weather-stations-monthly-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsMonthlySummaryTimeSeries",
+      "Name": "Get Weather Stations Monthly Summary Timeseries",
+      "Description": "Returns a set of monthly time-series summaries for a list of stations. Useful for charts.",
+      "Anchor": "#get-weather-stations-monthly-summary-timeseries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsYearlySummary",
+      "Name": "Get Weather Stations Yearly Summary",
+      "Description": "Returns a set of annual summaries for a list of stations. The yearly period each field is summarized over is a yearly composite of the same 24 hour period used by the field in the daily summary. For example, rainfall, which uses the 24 hours to 9am daily period starts at 9am on the last day of the previous year and concludes at 9am on the last day of the year.",
+      "Anchor": "#get-weather-stations-yearly-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationsYearlySummaryTimeSeries",
+      "Name": "Get Weather Stations Yearly Summary Timeseries",
+      "Description": "Returns a set of yearly time-series summaries for a list of stations. Useful for charts.",
+      "Anchor": "#get-weather-stations-yearly-summary-timeseries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationYearlySummary",
+      "Name": "Get Single Weather Station Yearly Summary",
+      "Description": "Returns a set of yearly summaries for a specific station. The yearly period each field is summarized over is a yearly composite of the same 24 hour period used by the field in the daily summary. For example, rainfall, which uses the 24 hours to 9am daily period starts at 9am on the last day of the previous year and concludes at 9am on the last day of the year.",
+      "Anchor": "#get-single-weather-station-yearly-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWeatherStationAvailability",
+      "Name": "Get Single Weather Station Availability",
+      "Description": "Get Single Weather Station Availability",
+      "Anchor": "#get-single-weather-station-availability",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWeatherStationRainfall",
+      "Name": "Get Single Weather Station Rainfall",
+      "Description": "Get the rainfall weather station has received over various time periods up to the current time.",
+      "Anchor": "#get-single-weather-station-rainfall",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWeatherStationsRainfall",
+      "Name": "Get Weather Stations Rainfall",
+      "Description": "Get the rainfall weather stations have received over various time periods up to the current time.",
+      "Anchor": "#get-weather-stations-rainfall",
+      "IsDeprecated": false
+    }
+  ]
+}

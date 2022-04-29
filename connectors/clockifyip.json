@@ -1,0 +1,41 @@
+{
+  "UniqueName": "clockifyip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../clockifyip/",
+  "Actions": [
+    {
+      "OperationId": "GetAllUsers",
+      "Name": "List All Users in Workspace",
+      "Description": "Retreives All Users in Workspace returns all the active users in the selected Clockify workspace.",
+      "Anchor": "#list-all-users-in-workspace",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetClients",
+      "Name": "List Clients",
+      "Description": "List Clients",
+      "Anchor": "#list-clients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProjects",
+      "Name": "List Projects",
+      "Description": "List Projects",
+      "Anchor": "#list-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTimeEntriesForUser",
+      "Name": "List User Time Entries",
+      "Description": "List User Time Entries",
+      "Anchor": "#list-user-time-entries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetWorkspaces",
+      "Name": "List Workspaces",
+      "Description": "Retrieves all the workspaces visible in your Clockify account using the api key provided.",
+      "Anchor": "#list-workspaces",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "UniqueName": "dpirdscienceip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dpirdscienceip/",
+  "Actions": [
+    {
+      "OperationId": "GetNearbyWeatherStations",
+      "Name": "Get Stations Nearby",
+      "Description": "Returns a list of nearby stations, sorted by distance. Use paging to control the number of stations returned. Returns 5 stations by default. Sorted by distance from location ascending.",
+      "Anchor": "#get-stations-nearby",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPotentialYield",
+      "Name": "Get Potential Yield",
+      "Description": "Get Potential Yield",
+      "Anchor": "#get-potential-yield",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSoilWater",
+      "Name": "Get Soil Water",
+      "Description": "Returns the amount of water in the soil depending on the rainfall received and the type of soil.",
+      "Anchor": "#get-soil-water",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStation",
+      "Name": "Get Single Station",
+      "Description": "Get the metadata for a specific station",
+      "Anchor": "#get-single-station",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStationRainfall",
+      "Name": "Get Single Station Rainfall",
+      "Description": "Returns the rainfall to date, historical rainfall data, and projected rainfall data, depending on already received rainfall",
+      "Anchor": "#get-single-station-rainfall",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStations",
+      "Name": "Get Stations",
+      "Description": "Returns a list of stations that can be used with the Science API.",
+      "Anchor": "#get-stations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetYellowSpot",
+      "Name": "Get Yellow Spot",
+      "Description": "Run the Moin or Chris Yellow Spot model.",
+      "Anchor": "#get-yellow-spot",
+      "IsDeprecated": false
+    }
+  ]
+}

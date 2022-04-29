@@ -1,0 +1,20 @@
+{
+  "UniqueName": "ukgovtcheckvatip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ukgovtcheckvatip/",
+  "Actions": [
+    {
+      "OperationId": "GetVatRegistration",
+      "Name": "Get VAT registration",
+      "Description": "Allows retrieval of name and address of a UK VAT registered company",
+      "Anchor": "#get-vat-registration",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVatRegistrationWithReference",
+      "Name": "Get VAT registration with reference",
+      "Description": "Retrieves the name and address of a UK VAT-registered business with a reference number to prove you performed validation",
+      "Anchor": "#get-vat-registration-with-reference",
+      "IsDeprecated": false
+    }
+  ]
+}

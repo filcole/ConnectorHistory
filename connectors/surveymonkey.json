@@ -3,6 +3,20 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../surveymonkey/",
   "Actions": [
     {
+      "OperationId": "GetResponseDetails",
+      "Name": "Get Response Details in CSV Format",
+      "Description": "Export detailed response and survey data in CSV format. This premium feature is currently open to certain SurveyMonkey plans for a limited time.",
+      "Anchor": "#get-response-details-in-csv-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetResponseDetailsNoPages",
+      "Name": "Get Response Details in JSON Format",
+      "Description": "Export detailed response and survey data in JSON format. This premium feature is currently open to certain SurveyMonkey plans for a limited time.",
+      "Anchor": "#get-response-details-in-json-format",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetSurvey",
       "Name": "Get a survey",
       "Description": "Get details of a specific survey.",
@@ -21,6 +35,13 @@
       "Name": "When a new survey response is added",
       "Description": "Triggers a new flow when a survey response is added (paid account only).",
       "Anchor": "#when-a-new-survey-response-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OnNewResponseToQuestionAdded",
+      "Name": "When a new survey response to a question is added",
+      "Description": "Triggers a new flow when a response to a question is added (paid account only).",
+      "Anchor": "#when-a-new-survey-response-to-a-question-is-added",
       "IsDeprecated": false
     },
     {

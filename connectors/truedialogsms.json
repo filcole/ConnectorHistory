@@ -1,0 +1,83 @@
+{
+  "UniqueName": "truedialogsms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../truedialogsms/",
+  "Actions": [
+    {
+      "OperationId": "Account_Get_Info",
+      "Name": "Get Account Info",
+      "Description": "Get information about account",
+      "Anchor": "#get-account-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Campaign_Push",
+      "Name": "Send SMS",
+      "Description": "Send SMS to a single or multiple recipients",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contact_Create",
+      "Name": "Contact Create",
+      "Description": "Create a contact record in TrueDialog",
+      "Anchor": "#contact-create",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contact_Search",
+      "Name": "Contact Search",
+      "Description": "Searches for a contact via a phone number or email address.",
+      "Anchor": "#contact-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Contact_Update",
+      "Name": "Contact Update",
+      "Description": "Update contact",
+      "Anchor": "#contact-update",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delivery_Notice_received",
+      "Name": "Delivery Notice Received",
+      "Description": "This operation triggers a flow for each delivery notice receipt",
+      "Anchor": "#delivery-notice-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Incoming_SMS_Received",
+      "Name": "Incoming Message Received",
+      "Description": "This operation triggers a flow whenever end user texts in",
+      "Anchor": "#incoming-message-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Invalid_Targets",
+      "Name": "Invalid Targets",
+      "Description": "This operation triggers a flow if targets have been filtered out during sending SMS",
+      "Anchor": "#invalid-targets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Keyword_received",
+      "Name": "Keyword Received",
+      "Description": "This operation triggers a flow whenever end user texts in a keyword",
+      "Anchor": "#keyword-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Stop_received",
+      "Name": "Stop Message Received",
+      "Description": "This operation triggers a flow whenever end user texts in STOP or synonym",
+      "Anchor": "#stop-message-received",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "User_Get_Self_Info",
+      "Name": "Get Current User Info",
+      "Description": "Get information about User, whose credentials were used in Connection",
+      "Anchor": "#get-current-user-info",
+      "IsDeprecated": false
+    }
+  ]
+}

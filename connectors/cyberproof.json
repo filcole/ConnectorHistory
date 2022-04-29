@@ -1,0 +1,13 @@
+{
+  "UniqueName": "cyberproof",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cyberproof/",
+  "Actions": [
+    {
+      "OperationId": "CPCreateExecution",
+      "Name": "CyberProof Action",
+      "Description": "CyberProof Action.",
+      "Anchor": "#cyberproof-action",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UniqueName": "rebrandlyip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rebrandlyip/",
+  "Actions": [
+    {
+      "OperationId": "CreateLink",
+      "Name": "Create Link",
+      "Description": "Creates a new link",
+      "Anchor": "#create-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteLink",
+      "Name": "Delete link",
+      "Description": "Deletes a link",
+      "Anchor": "#delete-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAccountDetails",
+      "Name": "Get Account Details",
+      "Description": "Retrieves your Account Details",
+      "Anchor": "#get-account-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLink",
+      "Name": "Get Link",
+      "Description": "Gets details of a link",
+      "Anchor": "#get-link",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListDomains",
+      "Name": "List Domains",
+      "Description": "Retrieves a list of Domains",
+      "Anchor": "#list-domains",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListLinks",
+      "Name": "List Links",
+      "Description": "Get a list of links",
+      "Anchor": "#list-links",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListWorkspaces",
+      "Name": "List Workspaces",
+      "Description": "Get all workspaces you either own or participate into as a member",
+      "Anchor": "#list-workspaces",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateLink",
+      "Name": "Update Link",
+      "Description": "Updates an existing link",
+      "Anchor": "#update-link",
+      "IsDeprecated": false
+    }
+  ]
+}

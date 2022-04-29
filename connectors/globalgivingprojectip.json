@@ -1,0 +1,244 @@
+{
+  "UniqueName": "globalgivingprojectip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../globalgivingprojectip/",
+  "Actions": [
+    {
+      "OperationId": "AccessTokenGet",
+      "Name": "Get access token",
+      "Description": "Access tokens are similar to session tokens and allow entering of credentials once per session. Once authenticated, a user is provided with an access token that is submitted with every secure request (those containing '/secure/' in the URL path, e.g. submitting a donation) instead of always submitting a username and password. Access tokens are short-lived and can expire so users need to re-GET a token at the start of each session or if their current access token expires. Note that access token timeouts are individually set for each API user as a database configuration and by default are set to 10 hours.",
+      "Anchor": "#get-access-token",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CampaignProjectGet",
+      "Name": "Get all projects for a campaign",
+      "Description": "This action retrieves information for all projects in specific Campaign. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+      "Anchor": "#get-all-projects-for-a-campaign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CampaignSummaryProject",
+      "Name": "Get all projects for a campaign summary",
+      "Description": "This action retrieves a subset of the full project information for all projects in a specific campaign. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+      "Anchor": "#get-all-projects-for-a-campaign-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DonationSubmit",
+      "Name": "Submit a donation",
+      "Description": "This action allows a user to submit a donation request.",
+      "Anchor": "#submit-a-donation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftCardDesigns",
+      "Name": "Get gift card designs",
+      "Description": "When sending out email gift cards a gift card design must be specified. This action retrieves all the available GlobalGiving gift card designs to select from.",
+      "Anchor": "#get-gift-card-designs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftCardSend",
+      "Name": "Send a gift card",
+      "Description": "This action allows a user to send a gift card.",
+      "Anchor": "#send-a-gift-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftCertificateDetails",
+      "Name": "Get gift certificate details",
+      "Description": "This action allows a user to query the validity and details of a gift certificate.",
+      "Anchor": "#get-gift-certificate-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GiftCertificateOrder",
+      "Name": "Order a gift certificate",
+      "Description": "This action allows a user to submit an order for a gift certificate without submitting payment details. This allows GlobalGiving the ability to immediately generate gift certificates with the understanding that reconciliation of the order will take place at a later date.",
+      "Anchor": "#order-a-gift-certificate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImageGallery",
+      "Name": "Get image gallery",
+      "Description": "This action retrieves any extra images for a specific project. When requesting full  information, the  indicates the number of images available. If this number is greater than zero you can access the extra images using This action.",
+      "Anchor": "#get-image-gallery",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InvoiceOutstanding",
+      "Name": "Get outstanding invoices",
+      "Description": "This action retrieves all outstanding invoices not yet reconciled. This is a secure request therefore, an access token (authentication) is required.",
+      "Anchor": "#get-outstanding-invoices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrganizationGet",
+      "Name": "Get organization",
+      "Description": "This action retrieves information for a specific organization.",
+      "Anchor": "#get-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrganizationGetAll",
+      "Name": "Get all organizations",
+      "Description": "This action retrieves information for all available organizations. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next organization id to include in the query string to retrieve the next set of results.",
+      "Anchor": "#get-all-organizations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectCountryGet",
+      "Name": "Get all projects for a country or region",
+      "Description": "This action retrieves information for all projects in a specific country or region. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+      "Anchor": "#get-all-projects-for-a-country-or-region",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectFeatured",
+      "Name": "Get featured projects",
+      "Description": "This action retrieves information for featured projects. The result set will always return 10 results. The featured projects are rotated hourly based on GlobalGiving ranking, and a &quot;randomization&quot; algorithm.",
+      "Anchor": "#get-featured-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectFeaturedSummary",
+      "Name": "Get featured projects summary",
+      "Description": "This action retrieves summary information for featured projects. The result set will always return 10 results. The featured projects are rotated hourly based on GlobalGiving ranking, and a &quot;randomization&quot; algorithm.",
+      "Anchor": "#get-featured-projects-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectGet",
+      "Name": "Get all projects",
+      "Description": "This action retrieves information for all projects. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+      "Anchor": "#get-all-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectGetA",
+      "Name": "Get specific project",
+      "Description": "This action displays information for a specific project.",
+      "Anchor": "#get-specific-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectIDs",
+      "Name": "Get all projects IDs",
+      "Description": "This action retrieves all the available project IDs.",
+      "Anchor": "#get-all-projects-ids",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectInformationGet",
+      "Name": "Get all project information for a set of project IDs",
+      "Description": "This action retrieves information for projects filtered by a list of comma separated project ids. The result set is limited to a maximum of 10 results for a request.",
+      "Anchor": "#get-all-project-information-for-a-set-of-project-ids",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectInformationSetIDs",
+      "Name": "Get all project summary information for set of project IDs",
+      "Description": "This action retrieves a subset of the full project information for projects filtered by a list of comma separated project ids. The result set is limited to a maximum of 10 results for a request.",
+      "Anchor": "#get-all-project-summary-information-for-set-of-project-ids",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectOrganization",
+      "Name": "Get all projects for an organization",
+      "Description": "This action retrieves the full project information for all projects belonging to a specific organization. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+      "Anchor": "#get-all-projects-for-an-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectOrganizationSummary",
+      "Name": "Get all projects for an organization summary",
+      "Description": "This action retrieves the full project information for all projects belonging to a specific organization. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+      "Anchor": "#get-all-projects-for-an-organization-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectRegionCount",
+      "Name": "Get region project counts for a specific region",
+      "Description": "This action retrieves project counts for a specific region.",
+      "Anchor": "#get-region-project-counts-for-a-specific-region",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectSearch",
+      "Name": "Search projects",
+      "Description": "This action allows searching for projects using keywords.",
+      "Anchor": "#search-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectSummary",
+      "Name": "Get specific project summary",
+      "Description": "This action displays a subset of the full project information for a specific project.",
+      "Anchor": "#get-specific-project-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectSummaryCountry",
+      "Name": "Get all projects for a country or region summary",
+      "Description": "This action retrieves a subset of the full project information for all projects in a specific country or region. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+      "Anchor": "#get-all-projects-for-a-country-or-region-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectSummaryGet",
+      "Name": "Get all projects summary",
+      "Description": "This action retrieves a subset of the full project information, for all projects. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+      "Anchor": "#get-all-projects-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectTheme",
+      "Name": "Get all projects for a theme",
+      "Description": "This action retrieves information for all projects in a specific theme. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+      "Anchor": "#get-all-projects-for-a-theme",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectThemeSummary",
+      "Name": "Get all projects for a theme summary",
+      "Description": "This action retrieves a subset of the full project information for all projects in a specific theme. The result set, however, is limited to a maximum of 10 results for every request. If there are more results available, the response will return two extra elements  and . Note that these two elements are not present if there are no more available results. The  element indicates whether there are more results available and the  element indicates the next project id to include in the query string to retrieve the next set of results.",
+      "Anchor": "#get-all-projects-for-a-theme-summary",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RegionGet",
+      "Name": "Get regions",
+      "Description": "This action retrieves all regions.",
+      "Anchor": "#get-regions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RegionProjectCount",
+      "Name": "Get region project counts",
+      "Description": "This action retrieves all regions and countries with their associated project counts.",
+      "Anchor": "#get-region-project-counts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ThemeProject",
+      "Name": "Get themes with project IDs",
+      "Description": "This action retrieves all GlobalGiving themes with their associated project IDs.",
+      "Anchor": "#get-themes-with-project-ids",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Themes",
+      "Name": "Get GlobalGiving themes",
+      "Description": "This action retrieves all GlobalGiving themes.",
+      "Anchor": "#get-globalgiving-themes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ThirdPartyMax",
+      "Name": "Get max third party ID",
+      "Description": "This action retrieves the max (greatest alphabetically) third party transaction id associated with this API key. This is a secure request therefore, an access token (authentication) is required.",
+      "Anchor": "#get-max-third-party-id",
+      "IsDeprecated": false
+    }
+  ]
+}

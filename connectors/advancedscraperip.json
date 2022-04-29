@@ -1,0 +1,20 @@
+{
+  "UniqueName": "advancedscraperip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../advancedscraperip/",
+  "Actions": [
+    {
+      "OperationId": "Scrape",
+      "Name": "Scrape a remote URL",
+      "Description": "Scrape a remote URL, with optional request from country, render, CSS selector, and timeout.",
+      "Anchor": "#scrape-a-remote-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ScrapeForm",
+      "Name": "Scrape a form page",
+      "Description": "Scrape a remote page containing a HTML form.",
+      "Anchor": "#scrape-a-form-page",
+      "IsDeprecated": false
+    }
+  ]
+}

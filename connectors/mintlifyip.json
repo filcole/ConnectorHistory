@@ -1,0 +1,27 @@
+{
+  "UniqueName": "mintlifyip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mintlifyip/",
+  "Actions": [
+    {
+      "OperationId": "DocGen",
+      "Name": "Generate documentation",
+      "Description": "Returns a documentation string based on the code submitted.",
+      "Anchor": "#generate-documentation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DocList",
+      "Name": "List documentation formats",
+      "Description": "Retrieve a list of documentation formats supported.",
+      "Anchor": "#list-documentation-formats",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LanguageList",
+      "Name": "List languages",
+      "Description": "Retrieve a list of languages supported.",
+      "Anchor": "#list-languages",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "UniqueName": "donotcallreportcallsip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../donotcallreportcallsip/",
+  "Actions": [
+    {
+      "OperationId": "ComplaintID",
+      "Name": "Get a single DNC complaint",
+      "Description": "Returns a single unverified complaint by ID.",
+      "Anchor": "#get-a-single-dnc-complaint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ComplaintsAll",
+      "Name": "List all DNC complaints",
+      "Description": "Returns a list of unverified complaints based on the filter parameters.",
+      "Anchor": "#list-all-dnc-complaints",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "UniqueName": "telegrambotip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../telegrambotip/",
+  "Actions": [
+    {
+      "OperationId": "GetChat",
+      "Name": "Get Chat",
+      "Description": "Use this method to get up to date information about the chat",
+      "Anchor": "#get-chat",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMe",
+      "Name": "Get Me",
+      "Description": "Returns basic information about the bot in form of a User object. A simple method for testing your bot's auth token.",
+      "Anchor": "#get-me",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUpdates",
+      "Name": "Get Updates",
+      "Description": "Use this method to receive incoming updates using long polling",
+      "Anchor": "#get-updates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendMessage",
+      "Name": "Send Message",
+      "Description": "Use this method to send text messages",
+      "Anchor": "#send-message",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendPhoto",
+      "Name": "Send Photo",
+      "Description": "Use this method to send photos.",
+      "Anchor": "#send-photo",
+      "IsDeprecated": false
+    }
+  ]
+}
