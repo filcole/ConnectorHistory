@@ -131,7 +131,7 @@
     {
       "OperationId": "GetField",
       "Name": "Get field",
-      "Description": "Gets the properties of an individual field, based on field id.\nProperties present on all field types are returned at the top level. Properties unique to a specific type of field are returned under the 'properties' attribute. Please see Field types page for more details on the properties for each field type.",
+      "Description": "Gets the properties of an individual field, based on field id.\nProperties present on all field types are returned at the top level. Properties unique to a specific type of field are returned under the 'properties' attribute.",
       "Anchor": "#get-field",
       "IsDeprecated": false
     },
@@ -187,7 +187,7 @@
     {
       "OperationId": "GetTempTokenDBID",
       "Name": "Get a temporary token for a DBID",
-      "Description": "Use this endpoint to get a temporary authorization token, scoped to either an app or a table. You can then use this token to make other API calls (see authorization).  This token expires in 5 minutes.",
+      "Description": "Use this endpoint to get a temporary authorization token, scoped to either an app or a table. You can then use this token to make other API calls. This token expires in 5 minutes.",
       "Anchor": "#get-a-temporary-token-for-a-dbid",
       "IsDeprecated": false
     },
@@ -243,7 +243,7 @@
     {
       "OperationId": "UpsertRecords",
       "Name": "Insert andor update records",
-      "Description": "Insert and/or update record(s) in a table. In this single API call, inserts and updates can be submitted. Update can use the key field on the table, or any other supported unique field. Refer to the Field types page for more information about how each field type should be formatted. This operation allows for incremental processing of successful records, even when some of the records fail.\nNote: This endpoint supports a maximum payload size of 10MB.",
+      "Description": "Insert and/or update record(s) in a table. In this single API call, inserts and updates can be submitted. Update can use the key field on the table, or any other supported unique field. This operation allows for incremental processing of successful records, even when some of the records fail.\nNote: This endpoint supports a maximum payload size of 10MB.",
       "Anchor": "#insert-andor-update-records",
       "IsDeprecated": false
     }

@@ -47,7 +47,7 @@
     {
       "OperationId": "WatermarkPdfCustom",
       "Name": "Watermark PDF (Custom)",
-      "Description": "Add a custom watermark to the PDF document. https://integrable.net/microsoft-flow/watermark-pdf-custom",
+      "Description": "Add a custom watermark to the PDF document.",
       "Anchor": "#watermark-pdf-(custom)",
       "IsDeprecated": false
     },
