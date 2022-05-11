@@ -1,0 +1,13 @@
+{
+  "UniqueName": "bincheckerip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bincheckerip/",
+  "Actions": [
+    {
+      "OperationId": "Seach",
+      "Name": "Search for BIN code",
+      "Description": "Search for the provided BIN code.",
+      "Anchor": "#search-for-bin-code",
+      "IsDeprecated": false
+    }
+  ]
+}

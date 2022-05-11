@@ -1,0 +1,13 @@
+{
+  "UniqueName": "xsoarip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../xsoarip/",
+  "Actions": [
+    {
+      "OperationId": "SendToXSOAR",
+      "Name": "Send to XSOAR",
+      "Description": "Send JSON data to XSOAR.",
+      "Anchor": "#send-to-xsoar",
+      "IsDeprecated": false
+    }
+  ]
+}

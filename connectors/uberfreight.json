@@ -1,0 +1,27 @@
+{
+  "UniqueName": "uberfreight",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../uberfreight/",
+  "Actions": [
+    {
+      "OperationId": "CancelTender",
+      "Name": "Cancel a Tender",
+      "Description": "Cancel a Tender.",
+      "Anchor": "#cancel-a-tender",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTender",
+      "Name": "Tender an Uber Freight load",
+      "Description": "Tender an Uber Freight load.",
+      "Anchor": "#tender-an-uber-freight-load",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GenerateQuote",
+      "Name": "Generate a price quote for an Uber Freight load",
+      "Description": "Generate a price quote for an Uber Freight load.",
+      "Anchor": "#generate-a-price-quote-for-an-uber-freight-load",
+      "IsDeprecated": false
+    }
+  ]
+}

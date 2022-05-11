@@ -1,0 +1,20 @@
+{
+  "UniqueName": "sessionizeip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sessionizeip/",
+  "Actions": [
+    {
+      "OperationId": "GetSessions",
+      "Name": "Get Sessions",
+      "Description": "Returns list of sessions for your conference",
+      "Anchor": "#get-sessions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSpeakers",
+      "Name": "Get Speakers",
+      "Description": "Returns list of speakers for your conference",
+      "Anchor": "#get-speakers",
+      "IsDeprecated": false
+    }
+  ]
+}

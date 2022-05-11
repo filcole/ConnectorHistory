@@ -4013,6 +4013,26 @@
     ]
   },
   {
+    "UniqueName": "smartdialog",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../smartdialog/",
+    "Actions": [
+      {
+        "OperationId": "WhatsAppOptIn",
+        "Name": "WhatsApp Opt In (deprecated) [DEPRECATED]",
+        "Description": "WhatsApp Opt In for sender and recipient. (deprecated)",
+        "Anchor": "#whatsapp-opt-in-(deprecated)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "WhatsAppOptOut",
+        "Name": "WhatsApp Opt Out (deprecated) [DEPRECATED]",
+        "Description": "WhatsApp Opt Out for sender and recipient. (deprecated)",
+        "Anchor": "#whatsapp-opt-out-(deprecated)-[deprecated]",
+        "IsDeprecated": true
+      }
+    ]
+  },
+  {
     "UniqueName": "smtp",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../smtp/",
     "Actions": [

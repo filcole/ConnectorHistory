@@ -46,17 +46,17 @@
     },
     {
       "OperationId": "WhatsAppOptIn",
-      "Name": "WhatsApp Opt In",
-      "Description": "WhatsApp Opt In for sender and recipient.",
-      "Anchor": "#whatsapp-opt-in",
-      "IsDeprecated": false
+      "Name": "WhatsApp Opt In (deprecated) [DEPRECATED]",
+      "Description": "WhatsApp Opt In for sender and recipient. (deprecated)",
+      "Anchor": "#whatsapp-opt-in-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     },
     {
       "OperationId": "WhatsAppOptOut",
-      "Name": "WhatsApp Opt Out",
-      "Description": "WhatsApp Opt Out for sender and recipient.",
-      "Anchor": "#whatsapp-opt-out",
-      "IsDeprecated": false
+      "Name": "WhatsApp Opt Out (deprecated) [DEPRECATED]",
+      "Description": "WhatsApp Opt Out for sender and recipient. (deprecated)",
+      "Anchor": "#whatsapp-opt-out-(deprecated)-[deprecated]",
+      "IsDeprecated": true
     }
   ]
 }

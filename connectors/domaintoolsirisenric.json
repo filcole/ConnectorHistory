@@ -1,0 +1,20 @@
+{
+  "UniqueName": "domaintoolsirisenric",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../domaintoolsirisenric/",
+  "Actions": [
+    {
+      "OperationId": "Account_Information",
+      "Name": "Retrieve Account Information",
+      "Description": "Information of the active API endpoints, rate limits and usage for an account.",
+      "Anchor": "#retrieve-account-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Enrich_Domain",
+      "Name": "Enrich Domain",
+      "Description": "Retrieves the infrastructure and whois data associated with a domain or comma-separated list of up to 100 domains.",
+      "Anchor": "#enrich-domain",
+      "IsDeprecated": false
+    }
+  ]
+}

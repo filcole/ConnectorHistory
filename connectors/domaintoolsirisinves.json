@@ -1,0 +1,118 @@
+{
+  "UniqueName": "domaintoolsirisinves",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../domaintoolsirisinves/",
+  "Actions": [
+    {
+      "OperationId": "Account_Information",
+      "Name": "Retrieve Account Information",
+      "Description": "Information of the active API endpoints, rate limits and usage for an account.",
+      "Anchor": "#retrieve-account-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Investigate_Domain",
+      "Name": "Investigate Domain",
+      "Description": "Retrieves the infrastructure and whois data associated with a domain or comma-separated list of up to 100 domains.",
+      "Anchor": "#investigate-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Load_Search_Hash",
+      "Name": "Return Domains from Search Hash",
+      "Description": "Import up to 500 domains from Iris Investigate into the Sentinel platform. Export your investigation by search hash (Iris Investigate -&gt; Search -&gt; Export). Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#return-domains-from-search-hash",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pivot_MX_Host",
+      "Name": "Pivot MX Host",
+      "Description": "Returns up to 500 domains with a mail server on a provided domain name. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#pivot-mx-host",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pivot_MX_IP",
+      "Name": "Pivot by MX IP",
+      "Description": "Returns up to 500 domains served by a given mail server IP. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#pivot-by-mx-ip",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pivot_Nameserver_Host",
+      "Name": "Pivot Nameserver Host",
+      "Description": "Returns up to 500 domains served by a provided nameserver host. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#pivot-nameserver-host",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pivot_Nameserver_IP",
+      "Name": "Pivot by Nameserver IP Address",
+      "Description": "Returns up to 500 domains served by a provided nameserver IP. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#pivot-by-nameserver-ip-address",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pivot_Registrant_Name",
+      "Name": "Pivot by Registrant Name",
+      "Description": "Returns up to 500 domains exactly matching the provided Whois registrant field. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#pivot-by-registrant-name",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pivot_Registrant_Org",
+      "Name": "Pivot by Registrant Org",
+      "Description": "Returns up to 500 domains exactly matching the provided Whois registrant organization field. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#pivot-by-registrant-org",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pivot_SSL_Email",
+      "Name": "Pivot SSL Email",
+      "Description": "Returns up to 500 domains with a given email address on the SSL certificate. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#pivot-ssl-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Pivot_SSL_Hash",
+      "Name": "Pivot by SSL Hash",
+      "Description": "Returns up to 500 domains with a SSL certificate matching a provided SHA-1 hash. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#pivot-by-ssl-hash",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Return_Tagged_All",
+      "Name": "Return Tagged With All",
+      "Description": "Retrieve up to 500 domains tagged within the Iris Investigate UI. Given a comma-separated list of tags, returns domains that are tagged with ALL of the tags. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#return-tagged-with-all",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Return_Tagged_Any",
+      "Name": "Return Tagged With Any",
+      "Description": "Retrieve up to 500 domains tagged within the Iris Investigate UI. Given a comma-separated list of tags, returns domains that are tagged with ANY of the tags. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#return-tagged-with-any",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Reverse_Email",
+      "Name": "Reverse Email",
+      "Description": "Returns up to 500 domains with an email address on the most recently available Whois record, DNS SOA record or SSL certificate. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#reverse-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Reverse_Email_Domain",
+      "Name": "Reverse Email Domain",
+      "Description": "Returns up to 500 domains with the domain portion of an email address on the most recently available Whois or DNS SOA record. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#reverse-email-domain",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Reverse_IP",
+      "Name": "Reverse IP",
+      "Description": "Returns up to 500 domains that last resolved to a given IPv4 address an active DNS check. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+      "Anchor": "#reverse-ip",
+      "IsDeprecated": false
+    }
+  ]
+}

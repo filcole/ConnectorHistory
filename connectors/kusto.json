@@ -4,37 +4,37 @@
   "Actions": [
     {
       "OperationId": "listKustoResultsPost",
-      "Name": "Run query and list results",
-      "Description": "Runs the query and returns the result as a set of rows which can be iterated over in the following connectors.",
-      "Anchor": "#run-query-and-list-results",
+      "Name": "Run KQL query",
+      "Description": "Runs the KQL query and returns the result as a set of rows which can be iterated over in the following connectors e.g TableName | take 10.",
+      "Anchor": "#run-kql-query",
       "IsDeprecated": false
     },
     {
       "OperationId": "listKustoShowCommandResultsPost",
-      "Name": "Run control show command and list results",
-      "Description": "Runs the show control command and returns the result as a set of rows which can be iterated over in the following connectors.",
-      "Anchor": "#run-control-show-command-and-list-results",
+      "Name": "Run show control command",
+      "Description": "Runs the show control command and returns the result as a set of rows which can be iterated over in the following connectors e.g .show table TableName policy caching.",
+      "Anchor": "#run-show-control-command",
       "IsDeprecated": false
     },
     {
       "OperationId": "runAsyncControlCommandAndWait",
-      "Name": "Run async control command and wait until it is completed",
-      "Description": "Runs control command in async mode and returns its ID, state and status on completion. Command can run for maximum 1 hour.",
-      "Anchor": "#run-async-control-command-and-wait-until-it-is-completed",
+      "Name": "Run async control command",
+      "Description": "Runs control command in async mode and returns its ID, state and status on completion. Command can run for maximum 1 hour. The 'async' keyword is mandatory e.g .set-or-append async TargetTable &lt;| SourceTable.",
+      "Anchor": "#run-async-control-command",
       "IsDeprecated": false
     },
     {
       "OperationId": "runKustoCommandAndVisualizeResultsPost",
-      "Name": "Run control command and visualize results",
-      "Description": "Returns the Kusto control command result as a chart of your choice.",
-      "Anchor": "#run-control-command-and-visualize-results",
+      "Name": "Run control command and render a chart",
+      "Description": "Runs the control command and returns the result as a chart of your choice e.g .clear table TableName data.",
+      "Anchor": "#run-control-command-and-render-a-chart",
       "IsDeprecated": false
     },
     {
       "OperationId": "runKustoQueryAndVisualizeResultsPost",
-      "Name": "Run query and visualize results",
-      "Description": "Returns the Kusto query result as a chart of your choice.",
-      "Anchor": "#run-query-and-visualize-results",
+      "Name": "Run KQL query and render a chart",
+      "Description": "Runs the KQL query and returns result as a chart of your choice e.g TableName | where Timestamp &gt; ago(1h) | project timestamp, value.",
+      "Anchor": "#run-kql-query-and-render-a-chart",
       "IsDeprecated": false
     }
   ]

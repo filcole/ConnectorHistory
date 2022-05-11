@@ -1,0 +1,20 @@
+{
+  "UniqueName": "litipsumip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../litipsumip/",
+  "Actions": [
+    {
+      "OperationId": "TextRandom",
+      "Name": "Get a page of random text",
+      "Description": "Returns text from a random source.",
+      "Anchor": "#get-a-page-of-random-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TextTitle",
+      "Name": "Get page from a specific title",
+      "Description": "Returns text from a title.",
+      "Anchor": "#get-page-from-a-specific-title",
+      "IsDeprecated": false
+    }
+  ]
+}

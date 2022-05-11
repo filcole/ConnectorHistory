@@ -1047,205 +1047,205 @@
     "Actions": [
       {
         "OperationId": "CombinePDF",
-        "Name": "Merge PDFs (Preview)",
+        "Name": "Merge PDFs",
         "Description": "Merge PDF files into a single file. Only files with .pdf extension are supported.",
-        "Anchor": "#merge-pdfs-(preview)",
+        "Anchor": "#merge-pdfs",
         "IsDeprecated": false
       },
       {
         "OperationId": "CompressPDF",
-        "Name": "Compress PDF (Preview)",
+        "Name": "Compress PDF",
         "Description": "Compress a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#compress-pdf-(preview)",
+        "Anchor": "#compress-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromDynamicHtml",
-        "Name": "Convert Dynamic HTML to PDF (Preview)",
+        "Name": "Convert Dynamic HTML to PDF",
         "Description": "Convert a Dynamic HTML file to PDF format. Since HTML/web pages typically contain external assets, the input file must be a zip file containing an index.html at the top level of the archive, as well as any dependencies such as images, css files, and so on. Only files with .zip extension are supported.",
-        "Anchor": "#convert-dynamic-html-to-pdf-(preview)",
+        "Anchor": "#convert-dynamic-html-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromExcel",
-        "Name": "Convert Excel to PDF (Preview)",
+        "Name": "Convert Excel to PDF",
         "Description": "Convert an Excel file to PDF format. Only files with .xls or .xlsx extension are supported.",
-        "Anchor": "#convert-excel-to-pdf-(preview)",
+        "Anchor": "#convert-excel-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromImage",
-        "Name": "Convert Image to PDF (Preview)",
+        "Name": "Convert Image to PDF",
         "Description": "Convert an image file to PDF format. Only files with .png, .jpeg, .jpg, .tiff, .tif or .gif extension are supported.",
-        "Anchor": "#convert-image-to-pdf-(preview)",
+        "Anchor": "#convert-image-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromPPT",
-        "Name": "Convert PPT to PDF (Preview)",
+        "Name": "Convert PPT to PDF",
         "Description": "Convert a PPT file to PDF format. Only files with .ppt or .pptx extension are supported.",
-        "Anchor": "#convert-ppt-to-pdf-(preview)",
+        "Anchor": "#convert-ppt-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromStaticHtml",
-        "Name": "Convert Static HTML to PDF (Preview)",
+        "Name": "Convert Static HTML to PDF",
         "Description": "Convert a static HTML file to PDF format. Since HTML/web pages typically contain external assets, the input file must be a zip file containing an index.html at the top level of the archive, as well as any dependencies such as images, css files, and so on. Only files with .zip extension are supported.",
-        "Anchor": "#convert-static-html-to-pdf-(preview)",
+        "Anchor": "#convert-static-html-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromWord",
-        "Name": "Convert Word to PDF (Preview)",
+        "Name": "Convert Word to PDF",
         "Description": "Convert a Word file to PDF format. Only files with .doc or .docx extension are supported.",
-        "Anchor": "#convert-word-to-pdf-(preview)",
+        "Anchor": "#convert-word-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFGeneric",
-        "Name": "Convert document to PDF (Preview)",
+        "Name": "Convert document to PDF",
         "Description": "Convert a file to PDF format. Only files with .doc, .docx, .ppt, .pptx, .xls, .xlsx, .bmp, .gif, .jpeg, .jpg, .png, .rtf, .tif, .tiff or .txt extension are supported.",
-        "Anchor": "#convert-document-to-pdf-(preview)",
+        "Anchor": "#convert-document-to-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "DocGen",
-        "Name": "Generate document from Word template (Preview)",
+        "Name": "Generate document from Word template",
         "Description": "Replaces merge fields in a DOCX template document with specified JSON data. The keys in data object should be the same as names of merge fields in document. Template documents can be authored using Adobe Document Generation Word Add-in. Find the add-in and Word templates at: https://adobe.com/go/dcdocgen_home",
-        "Anchor": "#generate-document-from-word-template-(preview)",
+        "Anchor": "#generate-document-from-word-template",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFGeneric",
-        "Name": "Export PDF (Preview)",
+        "Name": "Export PDF",
         "Description": "Convert a PDF file to various formats. The supported output formats are .doc, .docx, .jpeg, .png, .pptx, .rtf and .xlsx.",
-        "Anchor": "#export-pdf-(preview)",
+        "Anchor": "#export-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToExcel",
-        "Name": "Convert PDF to Excel (Preview)",
+        "Name": "Convert PDF to Excel",
         "Description": "Convert a PDF file to an Excel file. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-excel-(preview)",
+        "Anchor": "#convert-pdf-to-excel",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToImage",
-        "Name": "Convert PDF to Image (Preview)",
+        "Name": "Convert PDF to Image",
         "Description": "Convert a PDF file to a zip of images. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-image-(preview)",
+        "Anchor": "#convert-pdf-to-image",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToImageList",
-        "Name": "Convert PDF to List Of Images (Preview)",
+        "Name": "Convert PDF to List Of Images",
         "Description": "Convert a PDF file to a list of images. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-list-of-images-(preview)",
+        "Anchor": "#convert-pdf-to-list-of-images",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToPPT",
-        "Name": "Convert PDF to PPT (Preview)",
+        "Name": "Convert PDF to PPT",
         "Description": "Convert a PDF file to PPT. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-ppt-(preview)",
+        "Anchor": "#convert-pdf-to-ppt",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToWord",
-        "Name": "Convert PDF to Word (Preview)",
+        "Name": "Convert PDF to Word",
         "Description": "Convert a PDF file to a Word file. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-word-(preview)",
+        "Anchor": "#convert-pdf-to-word",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractImagesFromPDF",
-        "Name": "Extract Images From PDF (Preview)",
+        "Name": "Extract Images From PDF",
         "Description": "Extracts Images from a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-images-from-pdf-(preview)",
+        "Anchor": "#extract-images-from-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONAndImagesAndTablesFromPDF",
-        "Name": "Extract PDF Structure, Tables and Images from a PDF (Preview)",
+        "Name": "Extract PDF Structure, Tables and Images from a PDF",
         "Description": "Extract PDF structure and content elements, incl. Tables and Images, from PDF Document.  Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf-(preview)",
+        "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONFileFromPDF",
-        "Name": "Extract PDF Structure in a JSON File (Preview)",
+        "Name": "Extract PDF Structure in a JSON File",
         "Description": "Extract PDF Structure in a JSON File. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure-in-a-json-file-(preview)",
+        "Anchor": "#extract-pdf-structure-in-a-json-file",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONObjectFromPDF",
-        "Name": "Extract PDF Structure in a JSON Object (Preview)",
+        "Name": "Extract PDF Structure in a JSON Object",
         "Description": "Extract PDF Structure in a JSON Object. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure-in-a-json-object-(preview)",
+        "Anchor": "#extract-pdf-structure-in-a-json-object",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractTablesFromPDF",
-        "Name": "Extract Tables from PDF (Preview)",
+        "Name": "Extract Tables from PDF",
         "Description": "Extracts Tables in .xlsx format from a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-tables-from-pdf-(preview)",
+        "Anchor": "#extract-tables-from-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "LinearizePDF",
-        "Name": "Linearize PDF (Preview)",
+        "Name": "Linearize PDF",
         "Description": "Linearize a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#linearize-pdf-(preview)",
+        "Anchor": "#linearize-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "OcrPDF",
-        "Name": "Create Searchable PDF using OCR (Preview)",
+        "Name": "Create Searchable PDF using OCR",
         "Description": "OCR a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#create-searchable-pdf-using-ocr-(preview)",
+        "Anchor": "#create-searchable-pdf-using-ocr",
         "IsDeprecated": false
       },
       {
         "OperationId": "PDFProperties",
-        "Name": "Get PDF Properties (Preview)",
+        "Name": "Get PDF Properties",
         "Description": "Get Properties of a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#get-pdf-properties-(preview)",
+        "Anchor": "#get-pdf-properties",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectGenericPDF",
-        "Name": "Protect PDF with Access Permissions (Preview)",
+        "Name": "Protect PDF with Access Permissions",
         "Description": "Protect a PDF document from Viewing and other Accesses like Editing, Copying and Printing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-with-access-permissions-(preview)",
+        "Anchor": "#protect-pdf-with-access-permissions",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectOwnerPDF",
-        "Name": "Protect PDF from Copying, Editing and Printing (Preview)",
+        "Name": "Protect PDF from Copying, Editing and Printing",
         "Description": "Protect a PDF document from copying, editing &amp; printing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-from-copying,-editing-and-printing-(preview)",
+        "Anchor": "#protect-pdf-from-copying,-editing-and-printing",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectUserPDF",
-        "Name": "Protect PDF from Viewing (Preview)",
+        "Name": "Protect PDF from Viewing",
         "Description": "Protect a PDF document from viewing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-from-viewing-(preview)",
+        "Anchor": "#protect-pdf-from-viewing",
         "IsDeprecated": false
       },
       {
         "OperationId": "RemovePassword",
-        "Name": "Remove Protection from PDF (Preview)",
+        "Name": "Remove Protection from PDF",
         "Description": "Remove password and security &amp; permissions from the protected document. Only files with .pdf extension are supported.",
-        "Anchor": "#remove-protection-from-pdf-(preview)",
+        "Anchor": "#remove-protection-from-pdf",
         "IsDeprecated": false
       },
       {
         "OperationId": "SplitPDF",
-        "Name": "Split PDF (Preview)",
+        "Name": "Split PDF",
         "Description": "Split a PDF Document into multiple PDF Documents. Only files with .pdf extension are supported.",
-        "Anchor": "#split-pdf-(preview)",
+        "Anchor": "#split-pdf",
         "IsDeprecated": false
       }
     ]
@@ -4205,6 +4205,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateItemInFeatureLayer",
+        "Name": "Create a record in a feature layer",
+        "Description": "This action adds a new record to a feature layer.",
+        "Anchor": "#create-a-record-in-a-feature-layer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteItemInFeatureLayer",
+        "Name": "Delete a record from feature layer",
+        "Description": "This action deletes one or many records from a feature layer using IDs.",
+        "Anchor": "#delete-a-record-from-feature-layer",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "FindAddressCandidates",
         "Name": "Find address candidate",
         "Description": "Locate a single address using a geocode service resource. This resource provides information about candidates, including the address, location, and match score.  The result of this operation is a list of address candidates.",
@@ -4244,6 +4258,41 @@
         "Name": "Point to point routing",
         "Description": "Create point-to-point routes. Points in a route can visited in the order you specify or in the order that minimizes overall travel time or distance. Routes represent the quickest or shortest path along roads to visit stops or point locations.",
         "Anchor": "#point-to-point-routing",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateItemInFeatureLayer",
+        "Name": "Update a record in a feature layer",
+        "Description": "This action updates an existing record in a feature layer.",
+        "Anchor": "#update-a-record-in-a-feature-layer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WebhookFLCreated",
+        "Name": "When a record is created in a feature layer",
+        "Description": "This action triggers a flow when a record is created in your feature layer.",
+        "Anchor": "#when-a-record-is-created-in-a-feature-layer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WebhookFLDeleted",
+        "Name": "When a record is deleted from a feature layer",
+        "Description": "This action triggers a flow when a record is deleted in a feature layer.",
+        "Anchor": "#when-a-record-is-deleted-from-a-feature-layer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WebhookFLEdited",
+        "Name": "When a record is updated in a feature layer",
+        "Description": "This action triggers a flow when a record is updated in a feature layer.",
+        "Anchor": "#when-a-record-is-updated-in-a-feature-layer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WebhookGet",
+        "Name": "Fetch updates, changes, or deletions from feature layer",
+        "Description": "Fetch the updates, changes, or deletions that were made to your selected feature layer. This action is used in conjunction with the trigger on your feature service.",
+        "Anchor": "#fetch-updates,-changes,-or-deletions-from-feature-layer",
         "IsDeprecated": false
       }
     ]
@@ -5011,6 +5060,68 @@
         "Name": "Manage a workspace",
         "Description": "Manage an AvePoint Cloud Governance managed workspace.",
         "Anchor": "#manage-a-workspace",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "aviationstackip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aviationstackip/",
+    "Actions": [
+      {
+        "OperationId": "AircraftGet",
+        "Name": "Get aircraft types",
+        "Description": "This action returns data about different aircraft types.",
+        "Anchor": "#get-aircraft-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirlineGet",
+        "Name": "Get airlines",
+        "Description": "This action returns data about global airlines.",
+        "Anchor": "#get-airlines",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirplaneGet",
+        "Name": "Get airplanes",
+        "Description": "This action returns data about different airplanes and aircraft.",
+        "Anchor": "#get-airplanes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AirportGet",
+        "Name": "Get airports",
+        "Description": "This action returns data about global airports.",
+        "Anchor": "#get-airports",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CityGet",
+        "Name": "Get cities",
+        "Description": "This action returns data about destination cities.",
+        "Anchor": "#get-cities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CountryGet",
+        "Name": "Get countries",
+        "Description": "This action returns data about destination countries.",
+        "Anchor": "#get-countries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FlightGet",
+        "Name": "Get flights",
+        "Description": "This action tracking flights and retrieving flight status information in real-time.",
+        "Anchor": "#get-flights",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TaxesGet",
+        "Name": "Get aviation taxes",
+        "Description": "This action returns data about aviation taxes.",
+        "Anchor": "#get-aviation-taxes",
         "IsDeprecated": false
       }
     ]
@@ -5800,37 +5911,37 @@
     "Actions": [
       {
         "OperationId": "listKustoResultsPost",
-        "Name": "Run query and list results",
-        "Description": "Runs the query and returns the result as a set of rows which can be iterated over in the following connectors.",
-        "Anchor": "#run-query-and-list-results",
+        "Name": "Run KQL query",
+        "Description": "Runs the KQL query and returns the result as a set of rows which can be iterated over in the following connectors e.g TableName | take 10.",
+        "Anchor": "#run-kql-query",
         "IsDeprecated": false
       },
       {
         "OperationId": "listKustoShowCommandResultsPost",
-        "Name": "Run control show command and list results",
-        "Description": "Runs the show control command and returns the result as a set of rows which can be iterated over in the following connectors.",
-        "Anchor": "#run-control-show-command-and-list-results",
+        "Name": "Run show control command",
+        "Description": "Runs the show control command and returns the result as a set of rows which can be iterated over in the following connectors e.g .show table TableName policy caching.",
+        "Anchor": "#run-show-control-command",
         "IsDeprecated": false
       },
       {
         "OperationId": "runAsyncControlCommandAndWait",
-        "Name": "Run async control command and wait until it is completed",
-        "Description": "Runs control command in async mode and returns its ID, state and status on completion. Command can run for maximum 1 hour.",
-        "Anchor": "#run-async-control-command-and-wait-until-it-is-completed",
+        "Name": "Run async control command",
+        "Description": "Runs control command in async mode and returns its ID, state and status on completion. Command can run for maximum 1 hour. The 'async' keyword is mandatory e.g .set-or-append async TargetTable &lt;| SourceTable.",
+        "Anchor": "#run-async-control-command",
         "IsDeprecated": false
       },
       {
         "OperationId": "runKustoCommandAndVisualizeResultsPost",
-        "Name": "Run control command and visualize results",
-        "Description": "Returns the Kusto control command result as a chart of your choice.",
-        "Anchor": "#run-control-command-and-visualize-results",
+        "Name": "Run control command and render a chart",
+        "Description": "Runs the control command and returns the result as a chart of your choice e.g .clear table TableName data.",
+        "Anchor": "#run-control-command-and-render-a-chart",
         "IsDeprecated": false
       },
       {
         "OperationId": "runKustoQueryAndVisualizeResultsPost",
-        "Name": "Run query and visualize results",
-        "Description": "Returns the Kusto query result as a chart of your choice.",
-        "Anchor": "#run-query-and-visualize-results",
+        "Name": "Run KQL query and render a chart",
+        "Description": "Runs the KQL query and returns result as a chart of your choice e.g TableName | where Timestamp &gt; ago(1h) | project timestamp, value.",
+        "Anchor": "#run-kql-query-and-render-a-chart",
         "IsDeprecated": false
       }
     ]
@@ -7443,6 +7554,19 @@
         "Name": "Receipts Process",
         "Description": "Process the receipts/bills to extract only the useful details like vendor name, total, date, etc., categorize the bill into different categories like food, travel, etc. based on the line items in the receipts and detects the currency from the bill.",
         "Anchor": "#receipts-process",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "bincheckerip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bincheckerip/",
+    "Actions": [
+      {
+        "OperationId": "Seach",
+        "Name": "Search for BIN code",
+        "Description": "Search for the provided BIN code.",
+        "Anchor": "#search-for-bin-code",
         "IsDeprecated": false
       }
     ]
@@ -18030,6 +18154,144 @@
     ]
   },
   {
+    "UniqueName": "domaintoolsirisenric",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../domaintoolsirisenric/",
+    "Actions": [
+      {
+        "OperationId": "Account_Information",
+        "Name": "Retrieve Account Information",
+        "Description": "Information of the active API endpoints, rate limits and usage for an account.",
+        "Anchor": "#retrieve-account-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Enrich_Domain",
+        "Name": "Enrich Domain",
+        "Description": "Retrieves the infrastructure and whois data associated with a domain or comma-separated list of up to 100 domains.",
+        "Anchor": "#enrich-domain",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "domaintoolsirisinves",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../domaintoolsirisinves/",
+    "Actions": [
+      {
+        "OperationId": "Account_Information",
+        "Name": "Retrieve Account Information",
+        "Description": "Information of the active API endpoints, rate limits and usage for an account.",
+        "Anchor": "#retrieve-account-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Investigate_Domain",
+        "Name": "Investigate Domain",
+        "Description": "Retrieves the infrastructure and whois data associated with a domain or comma-separated list of up to 100 domains.",
+        "Anchor": "#investigate-domain",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Load_Search_Hash",
+        "Name": "Return Domains from Search Hash",
+        "Description": "Import up to 500 domains from Iris Investigate into the Sentinel platform. Export your investigation by search hash (Iris Investigate -&gt; Search -&gt; Export). Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#return-domains-from-search-hash",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Pivot_MX_Host",
+        "Name": "Pivot MX Host",
+        "Description": "Returns up to 500 domains with a mail server on a provided domain name. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#pivot-mx-host",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Pivot_MX_IP",
+        "Name": "Pivot by MX IP",
+        "Description": "Returns up to 500 domains served by a given mail server IP. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#pivot-by-mx-ip",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Pivot_Nameserver_Host",
+        "Name": "Pivot Nameserver Host",
+        "Description": "Returns up to 500 domains served by a provided nameserver host. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#pivot-nameserver-host",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Pivot_Nameserver_IP",
+        "Name": "Pivot by Nameserver IP Address",
+        "Description": "Returns up to 500 domains served by a provided nameserver IP. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#pivot-by-nameserver-ip-address",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Pivot_Registrant_Name",
+        "Name": "Pivot by Registrant Name",
+        "Description": "Returns up to 500 domains exactly matching the provided Whois registrant field. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#pivot-by-registrant-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Pivot_Registrant_Org",
+        "Name": "Pivot by Registrant Org",
+        "Description": "Returns up to 500 domains exactly matching the provided Whois registrant organization field. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#pivot-by-registrant-org",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Pivot_SSL_Email",
+        "Name": "Pivot SSL Email",
+        "Description": "Returns up to 500 domains with a given email address on the SSL certificate. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#pivot-ssl-email",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Pivot_SSL_Hash",
+        "Name": "Pivot by SSL Hash",
+        "Description": "Returns up to 500 domains with a SSL certificate matching a provided SHA-1 hash. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#pivot-by-ssl-hash",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Return_Tagged_All",
+        "Name": "Return Tagged With All",
+        "Description": "Retrieve up to 500 domains tagged within the Iris Investigate UI. Given a comma-separated list of tags, returns domains that are tagged with ALL of the tags. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#return-tagged-with-all",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Return_Tagged_Any",
+        "Name": "Return Tagged With Any",
+        "Description": "Retrieve up to 500 domains tagged within the Iris Investigate UI. Given a comma-separated list of tags, returns domains that are tagged with ANY of the tags. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#return-tagged-with-any",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Reverse_Email",
+        "Name": "Reverse Email",
+        "Description": "Returns up to 500 domains with an email address on the most recently available Whois record, DNS SOA record or SSL certificate. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#reverse-email",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Reverse_Email_Domain",
+        "Name": "Reverse Email Domain",
+        "Description": "Returns up to 500 domains with the domain portion of an email address on the most recently available Whois or DNS SOA record. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#reverse-email-domain",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Reverse_IP",
+        "Name": "Reverse IP",
+        "Description": "Returns up to 500 domains that last resolved to a given IPv4 address an active DNS check. Use the optional 'active' and 'date updated after' parameters to pre-filter the result set.",
+        "Anchor": "#reverse-ip",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "dox42",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dox42/",
     "Actions": [
@@ -23491,6 +23753,61 @@
         "Name": "Start process",
         "Description": "Start a new process instance",
         "Anchor": "#start-process",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "exasol",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../exasol/",
+    "Actions": [
+      {
+        "OperationId": "DeleteRows",
+        "Name": "Delete rows from a table based on a condition",
+        "Description": "Delete zero or more rows from a table providing a WHERE condition",
+        "Anchor": "#delete-rows-from-a-table-based-on-a-condition",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExecuteNonQuery",
+        "Name": "Execute a statement on the Exasol database",
+        "Description": "Execute a statement without a result set",
+        "Anchor": "#execute-a-statement-on-the-exasol-database",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExecuteQuery",
+        "Name": "Query the Exasol database",
+        "Description": "Provide a query and get a result set",
+        "Anchor": "#query-the-exasol-database",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRows",
+        "Name": "Get rows from a table based on a condition",
+        "Description": "Get zero or more rows from a table providing a WHERE condition",
+        "Anchor": "#get-rows-from-a-table-based-on-a-condition",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTables",
+        "Name": "Get tables that are available for the user",
+        "Description": "Get a list of all available tables",
+        "Anchor": "#get-tables-that-are-available-for-the-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InsertRow",
+        "Name": "Insert row to a table",
+        "Description": "Insert a single row into an Exasol table",
+        "Anchor": "#insert-row-to-a-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateRows",
+        "Name": "Update rows in a table based on a condition",
+        "Description": "Update zero or more row in a table based on a condition",
+        "Anchor": "#update-rows-in-a-table-based-on-a-condition",
         "IsDeprecated": false
       }
     ]
@@ -37539,7 +37856,7 @@
       {
         "OperationId": "WatermarkPdfCustom",
         "Name": "Watermark PDF (Custom)",
-        "Description": "Add a custom watermark to the PDF document.",
+        "Description": "Add a custom watermark to the PDF document. https://integrable.net/microsoft-flow/watermark-pdf-custom",
         "Anchor": "#watermark-pdf-(custom)",
         "IsDeprecated": false
       },
@@ -40162,6 +40479,26 @@
     ]
   },
   {
+    "UniqueName": "litipsumip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../litipsumip/",
+    "Actions": [
+      {
+        "OperationId": "TextRandom",
+        "Name": "Get a page of random text",
+        "Description": "Returns text from a random source.",
+        "Anchor": "#get-a-page-of-random-text",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TextTitle",
+        "Name": "Get page from a specific title",
+        "Description": "Returns text from a title.",
+        "Anchor": "#get-page-from-a-specific-title",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "livechat",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../livechat/",
     "Actions": [
@@ -41678,9 +42015,9 @@
       },
       {
         "OperationId": "BusinessEventsTrigger",
-        "Name": "When an action is performed (preview)",
+        "Name": "When an action is performed",
         "Description": "Triggers when a Microsoft Dataverse action has completed.",
-        "Anchor": "#when-an-action-is-performed-(preview)",
+        "Anchor": "#when-an-action-is-performed",
         "IsDeprecated": false
       },
       {
@@ -42663,6 +43000,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "AddMemberToTag",
+        "Name": "Add a member to a tag",
+        "Description": "This operation adds a user to a tags.",
+        "Anchor": "#add-a-member-to-a-tag",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "AddMemberToTeam",
         "Name": "Add a member to a team",
         "Description": "This operation adds a member to a team.",
@@ -42705,10 +43049,31 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateTag",
+        "Name": "Create a tag for a team",
+        "Description": "This operation creates a tag.",
+        "Anchor": "#create-a-tag-for-a-team",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateTeamsMeeting",
         "Name": "Create a Teams meeting",
         "Description": "Create a meeting with a link at the bottom of the invite to join the meeting online on Teams",
         "Anchor": "#create-a-teams-meeting",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteTag",
+        "Name": "Delete a tag",
+        "Description": "This operation deletes a tag.",
+        "Anchor": "#delete-a-tag",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteTagMember",
+        "Name": "Delete a member from a tag",
+        "Description": "This operation deletes a member from a tag.",
+        "Anchor": "#delete-a-member-from-a-tag",
         "IsDeprecated": false
       },
       {
@@ -42744,6 +43109,13 @@
         "Name": "Get messages",
         "Description": "This operation is used to get messages from a channel in a specific Team.",
         "Anchor": "#get-messages",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTagMembers",
+        "Name": "List the members for a tag",
+        "Description": "This operation lists the members for a tag.",
+        "Anchor": "#list-the-members-for-a-tag",
         "IsDeprecated": false
       },
       {
@@ -43613,6 +43985,334 @@
         "Name": "Add text watermark",
         "Description": "Add a plain-text watermark to a PDF file.",
         "Anchor": "#add-text-watermark",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "myacclaro",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../myacclaro/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Get an order's comments",
+        "Description": "Returns information comments.",
+        "Anchor": "#get-an-order's-comments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get an order's file information",
+        "Description": "Returns information about all files in the order.",
+        "Anchor": "#get-an-order's-file-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddACallbackForFileUpdates",
+        "Name": "Add a callback for file updates",
+        "Description": "Request that Acclaro invoke the supplied URL when the file changes in any way.",
+        "Anchor": "#add-a-callback-for-file-updates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddACallbackForOrderStringUpdates",
+        "Name": "Add a callback for order string updates",
+        "Description": "Request that Acclaro invoke the supplied URL when the order string changes in any way. The callback will include a string_id query parameter, which can be used to fetch string details.",
+        "Anchor": "#add-a-callback-for-order-string-updates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddACallbackForOrderUpdates",
+        "Name": "Add a callback for order updates",
+        "Description": "Request that Acclaro invoke the supplied URL when the order changes in any way. If your code is  only concerned with certain changes, such as the status going to “complete”, you must retrieve the order  information and check for that.",
+        "Anchor": "#add-a-callback-for-order-updates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddACommentForAFile",
+        "Name": "Add a comment for a file",
+        "Description": "Adds a comment to file. New comments are appended.",
+        "Anchor": "#add-a-comment-for-a-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddACommentToOrder",
+        "Name": "Add a comment to order",
+        "Description": "Adds a comment to an order. New comments are appended. If an order ever needs to be cancelled  after it's been submitted, ‘CANCEL ORDER’ can be submitted as a comment.",
+        "Anchor": "#add-a-comment-to-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddALanguageToOrder",
+        "Name": "Add a language to order",
+        "Description": "Adds an additional target language to an order without adding any new source files. The new  target language will be applied to each source file previously submitted. There is no API call to delete  an order language. If language deletion is needed, please contact your project manager who can perform  this function with administrative access.",
+        "Anchor": "#add-a-language-to-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddAReviewUrlForAFile",
+        "Name": "Add a review URL for a file",
+        "Description": "Adds a URL to a file so it may be referenced for in context review on the web. This assumes the  URL is publically available or the translator has private access credentials to view the content. For  source files this URL may assist translators in understanding the initial context and layout  restrictions of the content. For target files, this URL may assist translators, editors and testers with  verification workflows to ensure translated content appears as expected on the destination web pages.",
+        "Anchor": "#add-a-review-url-for-a-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddATagToOrder",
+        "Name": "Add a tag to order",
+        "Description": "Adds a tag or multiple tags to an order. Unique tags added to orders should be separated by  commas. Tags can be used for grouping selections of orders.",
+        "Anchor": "#add-a-tag-to-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddSourceAndTargetLanguageToTheOrder",
+        "Name": "Add source and target language to the order",
+        "Description": "For orders with 0 source files at time of submission, this call can be used to tell the system  which languages are required for this order. Can only be used on new orders that have not been submitted  or have not received quotes. Requests of already known languages will be ignored.",
+        "Anchor": "#add-source-and-target-language-to-the-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AddStrings",
+        "Name": "Add strings",
+        "Description": "Add strings to a string order type.",
+        "Anchor": "#add-strings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ApproveAQuote",
+        "Name": "Approve a quote",
+        "Description": "This may only be performed on an order with status “needs approval“. Immediately updates the order status to “in preparation“ and instructs the project manager to get started on the order.  Customer agrees to pay for the work performed. The order status will change to “in progress“ once work commences. Any additional comments for the order may be added with the quote approval.",
+        "Anchor": "#approve-a-quote",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateAnOrder",
+        "Name": "Create an order",
+        "Description": "Creates an order for the current user with the given name. * The status of the order will be “new”.",
+        "Anchor": "#create-an-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeclineAQuote",
+        "Name": "Decline a quote",
+        "Description": "This may only be performed on an order with status “needs approva“. Decline the quote on this order. The order status will move back to “getting quote“. The project manager will see the comments, and either issue a revised quote or cancel the order. It is also recommended the client contact their project manager to discuss next steps.",
+        "Anchor": "#decline-a-quote",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteACallbackAddedToOrder",
+        "Name": "Delete a callback added to order",
+        "Description": "Request that Acclaro no longer invoke the supplied URL when the order  changes in any way.",
+        "Anchor": "#delete-a-callback-added-to-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteACallbackAddedToTheFile7",
+        "Name": "Delete a callback added to the file",
+        "Description": "Request that Acclaro no longer invokes the supplied URL when the file changes in any way.",
+        "Anchor": "#delete-a-callback-added-to-the-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteACallbackAddedToTheFile7",
+        "Name": "Delete a callback added to the file",
+        "Description": "Request that Acclaro no longer email the supplied address when the file changes in any way.",
+        "Anchor": "#delete-a-callback-added-to-the-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteAFileFromTheOrder",
+        "Name": "Delete a file from the order",
+        "Description": "Deletes the given file from the order, prior to an order being submitted. If a source file ever needs to be cancelled after it’s been submitted as part of an order, ‘CANCELL FILE’ can be submitted as a comment in /orders/{orderid}/files/{fileid}/comment. We also request that you separately contact your Acclaro project manager with the source file cancellation request.",
+        "Anchor": "#delete-a-file-from-the-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteAnOrder",
+        "Name": "Delete an order",
+        "Description": "Deletes an order for the current user with the given ID, if the order is status ‘new’ and the  current user has proper account privileges.",
+        "Anchor": "#delete-an-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteATagFromOrder",
+        "Name": "Delete a tag from order",
+        "Description": "Deletes tags associated with orders.  Tags can only be deleted one at a time.",
+        "Anchor": "#delete-a-tag-from-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditACommentOnTheOrder",
+        "Name": "Edit a comment on the order",
+        "Description": "Update a comment on the order.",
+        "Anchor": "#edit-a-comment-on-the-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditAnOrder",
+        "Name": "Edit an order",
+        "Description": "Updates an order, returns the new record. After an order has been create  and is of status ‘new’, function can be used to modify name and delivery attributes  only. Arguments are the same as described in create order(/orders). Although duedate,  delivery, estwordcount, and type are optional, care should be taken to submit the previous values of these  if you do not wish to change them, otherwise they will be reset to default values.",
+        "Anchor": "#edit-an-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAccountInformation",
+        "Name": "Get account information",
+        "Description": "Returns profile information about the API user account in use.",
+        "Anchor": "#get-account-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAFile",
+        "Name": "Get a file",
+        "Description": "Returns the contents of a previously sent file. This is one of the few operations that does not  return JSON data, instead directly returning the file contents.  If an error occurs while processing the  request, then the response will be JSON data, so the type of the response should always be checked.",
+        "Anchor": "#get-a-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllOrders",
+        "Name": "Get all orders",
+        "Description": "Returns all orders assigned to the current user, as an array of Order records. Note that older completed orders may be archived and removed from the active system . Can be filtered using status.",
+        "Anchor": "#get-all-orders",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllSupportedOrderTypes",
+        "Name": "Get all supported order types",
+        "Description": "Returns all order types available for the account as an array of Order Types, each order type consisting of a name and a flag “default” which will be zero or one, indicating which order type will be set when none is specified.",
+        "Anchor": "#get-all-supported-order-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAnOrder",
+        "Name": "Get an order",
+        "Description": "Returns order information based on the given id.",
+        "Anchor": "#get-an-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAQuoteDocument",
+        "Name": "Get a quote document",
+        "Description": "This is expected to be performed on an order with status “needs approval“, but will succeed on an order which has been through the quote process. Returns the quote, as a PDF, Word file, or RTF file. The Content-type header of the response will indicate the file type. This is one of the few operations that does not return JSON data, instead directly returning the file contents. If an error occurs while processing the request, then the response will be JSON data, so the type of the response should always be checked.",
+        "Anchor": "#get-a-quote-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFileInformation",
+        "Name": "Get file information",
+        "Description": "Retrieves information about the given file.",
+        "Anchor": "#get-file-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLanguagePairs",
+        "Name": "Get language pairs",
+        "Description": "Returns a list of source/target pairs that may be used for translations.",
+        "Anchor": "#get-language-pairs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetOrderStringById",
+        "Name": "Get order string by id",
+        "Description": "Get string for an order along with status and translated values if completed or preview  ready.",
+        "Anchor": "#get-order-string-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetOrderStrings",
+        "Name": "Get order strings",
+        "Description": "Get all strings for an order along with their status and translated values if completed.",
+        "Anchor": "#get-order-strings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetQuoteDetails",
+        "Name": "Get quote details",
+        "Description": "This is expected to be performed on an order with status “needs approval“,  but will succeed on an order which has been through the quote process. Returns the quote value and line  item details.",
+        "Anchor": "#get-quote-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSupportedLanguages",
+        "Name": "Get supported languages",
+        "Description": "Returns a list of supported languages.",
+        "Anchor": "#get-supported-languages",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSystemInformation",
+        "Name": "Get system information",
+        "Description": "Returns a variety of helpful system information including version of API source code in use, service endpoint and last date of database synchronization.",
+        "Anchor": "#get-system-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RateAFile",
+        "Name": "Rate a file",
+        "Description": "Submits rating information about files. Rating scale is 1-5 with 1 being poor quality and 5 being perfect quality. Review text strings are optional and can be included to explain the reasoning for the rating such as identified errors or areas of translation improvement classifications.",
+        "Anchor": "#rate-a-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RateAnOrder",
+        "Name": "Rate an order",
+        "Description": "Submits rating information about completed orders. Rating scale is 1-5 with 1 being poor  quality and 5 being excellent quality.",
+        "Anchor": "#rate-an-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveACommentFromOrder",
+        "Name": "Remove a comment from order",
+        "Description": "Removes a comment from the order.",
+        "Anchor": "#remove-a-comment-from-order",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RequestAnEmailOnFileChanges",
+        "Name": "Request an email on file changes",
+        "Description": "Request that Acclaro send an email message to the provided address when the file changes in any  way.  For customer-friendly email messages, see the delivery options in the My Acclaro portal.  This  email is a simple message geared towards developers.",
+        "Anchor": "#request-an-email-on-file-changes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RequestAnEmailOnOrderChanges",
+        "Name": "Request an email on order changes",
+        "Description": "Request that Acclaro send an email message to the provided address when the order changes in  any way. For customer-friendly email messages, see the delivery options in the My Acclaro portal. This  email is a simple message geared towards developers.",
+        "Anchor": "#request-an-email-on-order-changes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RequestAQuote",
+        "Name": "Request a quote",
+        "Description": "This may only be performed on an order with status “new“. Immediately updates the order status to “getting quote” and returns the updated record. The assigned project manager will be sent the quote request. When a quote is generated, the order status will change to “needs approval“.  At that time, the record returned from get order(/orders/{orderid} will include a “quoteprice“ and both /orders/{orderid}/quote-document and /orders/{orderid}/quote-details may be used.",
+        "Anchor": "#request-a-quote",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendAReferenceFile",
+        "Name": "Send a reference file",
+        "Description": "Adds a reference file to an order. Reference files are glossaries, style guides, or other supporting materials for the translator. The sourcelang is optional, and if supplied should be one of the language codes obtained from /info/languages. Targetlang is also optional, and if supplied should be one of the language codes obtained from /info/languages. Encoding is optional, and defaults to “UTF-8” if not specified. The filename and mime-type are taken from the file metadata. If a filename is supplied that duplicates the name of another file in this order, the system will make it unique by adding additional characters (i.e. “documentation.docx” may become “documentation2 .docx”). Returned file metadata includes both the originally supplied filename and the possibly-modified name that Acclaro will use. Individual file size is limited to 100MB maximum. In-progress orders may have new additional files added to them as long as the source and target languages match the original order’s files.",
+        "Anchor": "#send-a-reference-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendASourceFile",
+        "Name": "Send a source file",
+        "Description": "Adds a file to an order, taking the filename and mime-type from the file metadata. If no orderid is provided, a new order is automatically created. The sourcelang should be one of the language codes obtained from /info/languages. Targetlangs can be a single language code or several language codes in a comma-separated list. Encoding is optional, and defaults to “UTF-8” if not specified. ClientRef is an optional value meaningful to the API user typically used for Purchase Order numbers but can be used for any relevant information; if supplied when the file is loaded, it will be returned in all future calls about this file. If a filename is supplied that duplicates the name of another file in this order, the system will make it unique by adding additional characters (i.e. “documentation.docx” may become “documentation-2.docx”). Returned file metadata includes both the originally supplied filename and the possibly modified name that Acclaro will use. Individual file size is limited to 100MB maximum . The API is file agnostic, as there are no file type limitations. XLIFF files are a common translation industry standard and are fully supported. In-progress orders may have new additional files added to them as long as the source and target languages match the original order’s files.\nFor continuous programmatic orders, it is recommended that the /orders/{orderid}/files be used to build orders up with source files before submission via the SubmitOrder call, as this is the most efficient path for Acclaro translation services to receive orders with multiple files and then return subsequent translation files.\nIf clients wish to maintain specific folder and file structures for their source files, they can upload zip files which will be returned with translations in desired folder and file structures within target delivery zip files.",
+        "Anchor": "#send-a-source-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "StopAnEmailFromReceivingOrderChanges",
+        "Name": "Stop an email from receiving order changes",
+        "Description": "Request that Acclaro no longer email the supplied address when the order  changes in any way.",
+        "Anchor": "#stop-an-email-from-receiving-order-changes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SubmitsTheOrderForPreparation",
+        "Name": "Submits the order for preparation",
+        "Description": "Immediately updates the order status to “in preparation”, returns the updated record. Order  status will soon change to ‘in progress’ once the Acclaro system confirms receipt of all order details and files.",
+        "Anchor": "#submits-the-order-for-preparation",
         "IsDeprecated": false
       }
     ]
@@ -52092,6 +52792,340 @@
     ]
   },
   {
+    "UniqueName": "propublicacongressip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../propublicacongressip/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Compare two members' bill sponsorships",
+        "Description": "This action compares bill sponsorship between two members who served in the same Congress and chamber.",
+        "Anchor": "#compare-two-members'-bill-sponsorships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get a specific member's vote positions",
+        "Description": "This action gets the most recent vote positions for a specific member of the House of Representatives or Senate.",
+        "Anchor": "#get-a-specific-member's-vote-positions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BillAmendments",
+        "Name": "Get amendments for a specific bill",
+        "Description": "This action gets Library of Congress-assigned subjects about a particular bill. This request returns the 20 most recent results and supports paginated requests.",
+        "Anchor": "#get-amendments-for-a-specific-bill",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BillCosponsor",
+        "Name": "Get cosponsors for a specific bill",
+        "Description": "This action gets information about the cosponsors of a particular bill.",
+        "Anchor": "#get-cosponsors-for-a-specific-bill",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BillGet",
+        "Name": "Get a specific bill",
+        "Description": "This action gets details about a particular bill, including actions taken and votes. The attributes house_passage_vote and senate_passage_vote are populated (with the date of passage) only upon successful passage of the bill.",
+        "Anchor": "#get-a-specific-bill",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BillRecent",
+        "Name": "Get recent bills",
+        "Description": "This action gets summaries of the 20 most recent bills by type. For the current Congress, recent bills can be one of four types (see the descriptions below). For previous Congresses, recent bills means the last 20 bills of that Congress.",
+        "Anchor": "#get-recent-bills",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BillRecentMember",
+        "Name": "Get recent bills by a specific member",
+        "Description": "This action gets the 20 bills most recently introduced or updated by a particular member.",
+        "Anchor": "#get-recent-bills-by-a-specific-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BillRecentSubject",
+        "Name": "Get recent bills by a specific subject",
+        "Description": "This action gets the 20 most recently updated bills for a specific legislative subject. Results can include more than one Congress.",
+        "Anchor": "#get-recent-bills-by-a-specific-subject",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BillRelated",
+        "Name": "Get related bills for a specific bill",
+        "Description": "This action gets Library of Congress-identified related bills for a particular bill. This request returns the 20 most recent results and supports paginated requests.",
+        "Anchor": "#get-related-bills-for-a-specific-bill",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BillSearch",
+        "Name": "Search bills",
+        "Description": "This action searches the title and full text of legislation by keyword to get the 20 most recent bills. Searches cover House and Senate bills from the 113th Congress through the current Congress (117th). If multiple words are given (e.g. query=health care) the search is treated as multiple keywords using the OR operator. Quoting the words (e.g. query=&quot;health care&quot;) makes it a phrase search. Search results can be sorted by date (the default) or by relevance, and in ascending or descending order.",
+        "Anchor": "#search-bills",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BillSubject",
+        "Name": "Get subjects for a specific bill",
+        "Description": "This action gets Library of Congress-assigned subjects about a particular bill. This request returns the 20 most recent results and supports paginated requests.",
+        "Anchor": "#get-subjects-for-a-specific-bill",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BillUpcoming",
+        "Name": "Get upcoming bills",
+        "Description": "This action gets details on bills that may be considered by the House or Senate in the near future, based on scheduled published or announced by congressional leadership. The bills and their potential consideration are taken from the House Majority Leader and floor updates from Senate Republicans.",
+        "Anchor": "#get-upcoming-bills",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommitteeGet",
+        "Name": "Get list of committees",
+        "Description": "This action gets a list of Senate, House or joint committees, including their subcommittees.",
+        "Anchor": "#get-list-of-committees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommitteeGetA",
+        "Name": "Get a specific committee",
+        "Description": "This action gets information about a single Senate or House committee, including the members of that committee.",
+        "Anchor": "#get-a-specific-committee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommitteeHearingA",
+        "Name": "Get hearings for a specific committee",
+        "Description": "This actions gets a list of hearings for a specific Senate or House committee.",
+        "Anchor": "#get-hearings-for-a-specific-committee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommitteeHearingRecent",
+        "Name": "Get recent committee hearings",
+        "Description": "This action gets a list of 20 upcoming Senate or House committee meetings.",
+        "Anchor": "#get-recent-committee-hearings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommunicationDate",
+        "Name": "Get recent official communications by date",
+        "Description": "This action gets lists of official communications to Congress on a specific date.",
+        "Anchor": "#get-recent-official-communications-by-date",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommunicationRecent",
+        "Name": "Get recent official communications",
+        "Description": "This action gets lists of official communications to Congress from the president, executive branch agencies and state legislatures to congressional committees.",
+        "Anchor": "#get-recent-official-communications",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommunicationRecentCategory",
+        "Name": "Get recent official communications by category",
+        "Description": "This action gets lists of official communications to Congress in a specific category. It returns the 20 most recent results for the specified type: ec (Executive Communication), pm (Presidential Message) or pom (Petition or Memorial).",
+        "Anchor": "#get-recent-official-communications-by-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExplanationRecent",
+        "Name": "Get recent personal explanations",
+        "Description": "This actions gets lists of personal explanations. Lawmakers, mostly in the House but also in the Senate, can make personal explanations for missed or mistaken votes in the Congressional Record. These explanations can refer to a single vote or to multiple votes.",
+        "Anchor": "#get-recent-personal-explanations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExplanationRecentGet",
+        "Name": "Get recent personal explanations by a specific member",
+        "Description": "This action gets recent personal explanations by a specific member.",
+        "Anchor": "#get-recent-personal-explanations-by-a-specific-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FloorAction",
+        "Name": "Get recent House and Senate floor actions",
+        "Description": "This action gets the latest actions from the House or Senate floor.",
+        "Anchor": "#get-recent-house-and-senate-floor-actions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FloorActionDate",
+        "Name": "Get House and Senate floor actions by date",
+        "Description": "This action gets actions from the House or Senate floor on a particular date.",
+        "Anchor": "#get-house-and-senate-floor-actions-by-date",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "HouseOfficeCategory",
+        "Name": "Get quarterly office expenses by category for a specific house member",
+        "Description": "The House of Representatives publishes quarterly reports detailing official office expenses by lawmakers. The Congress API has data beginning in the third quarter of 2009. This action gets the amount a given lawmaker spent during a specified year and quarter in a specified category.",
+        "Anchor": "#get-quarterly-office-expenses-by-category-for-a-specific-house-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "HouseOfficeExpense",
+        "Name": "Get quarterly office expenses by a specific house member",
+        "Description": "The House of Representatives publishes quarterly reports detailing official office expenses by lawmakers. The Congress API has data beginning in the third quarter of 2009. The most recent quarter may not be available until several months after it ends.",
+        "Anchor": "#get-quarterly-office-expenses-by-a-specific-house-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "HouseOfficeQuarterCategory",
+        "Name": "Get quarterly office expenses for a specific category",
+        "Description": "This action gets the amount spent by individual lawmakers in a specified category during a specified year and quarter by category.",
+        "Anchor": "#get-quarterly-office-expenses-for-a-specific-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Lobbying",
+        "Name": "Get recent lobbying representation filings",
+        "Description": "This action gets the most recent lobbying representation filings.",
+        "Anchor": "#get-recent-lobbying-representation-filings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LobbyingGetA",
+        "Name": "Get a specific lobbying representation filing",
+        "Description": "This action gets a specific lobbying representation filing.",
+        "Anchor": "#get-a-specific-lobbying-representation-filing",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LobbyingSearch",
+        "Name": "Search lobbying representation filings",
+        "Description": "This actions gets the 20 most recent lobbying representation filings for a given search term.",
+        "Anchor": "#search-lobbying-representation-filings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemberGet",
+        "Name": "Get a list of members",
+        "Description": "To get a list of members of a particular chamber in a particular Congress, use the following URI structure. The results include all members who have served in that congress and chamber, including members who are no longer in office. To filter the list to only active members (or to see members who have left), use the in office attribute.",
+        "Anchor": "#get-a-list-of-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemberGetA",
+        "Name": "Get a specific member",
+        "Description": "This action gets biographical and Congressional role information for a particular member of Congress.",
+        "Anchor": "#get-a-specific-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemberGetLeaving",
+        "Name": "Get members leaving office",
+        "Description": "This action gets a list of members who have left the Senate or House or have announced plans to do so.",
+        "Anchor": "#get-members-leaving-office",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemberGetNew",
+        "Name": "Get new members",
+        "Description": "This action gets a list of the most recent new members of the current Congress.",
+        "Anchor": "#get-new-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemberGetState",
+        "Name": "Get current members by state or district",
+        "Description": "This action gets biographical and Congressional role information for a particular member of Congress.",
+        "Anchor": "#get-current-members-by-state-or-district",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemberGetVotePositions",
+        "Name": "Compare two members vote positions",
+        "Description": "This action compares two members' vote positions in a particular Congress and chamber. Responses include four calculated values, showing the number and percentage of votes in which the members took the same position or opposing positions.",
+        "Anchor": "#compare-two-members-vote-positions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "NominationGet",
+        "Name": "Get a specific nomination",
+        "Description": "This action gets details about a particular presidential civilian nomination.",
+        "Anchor": "#get-a-specific-nomination",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SubcommitteeGet",
+        "Name": "Get a specific subcommittee",
+        "Description": "This action gets information about a single Senate or House subcommittee, including the members of that subcommittee.",
+        "Anchor": "#get-a-specific-subcommittee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TripPrivateGet",
+        "Name": "Get recent privately funded trips",
+        "Description": "This action gets a list of privately funded trips reported by all House members and staff in a particular Congress.",
+        "Anchor": "#get-recent-privately-funded-trips",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TripPrivateGetA",
+        "Name": "Get recent privately funded trips by a specific house member",
+        "Description": "This action gets a list of privately funded trips reported by a specific House member, including staff travel, in a particular Congress.",
+        "Anchor": "#get-recent-privately-funded-trips-by-a-specific-house-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VoteDate",
+        "Name": "Get votes by date",
+        "Description": "This action gets all votes in a particular date range (fewer than 30 days).",
+        "Anchor": "#get-votes-by-date",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VoteNomination",
+        "Name": "Get Senate nomination votes",
+        "Description": "This action gets Senate votes on presidential nominations. This request returns the 20 most recent results and supports paginated requests.",
+        "Anchor": "#get-senate-nomination-votes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VoteRecent",
+        "Name": "Get recent votes",
+        "Description": "This action returns recent votes from the House, Senate or both chambers. It returns the 20 most recent results, sorted by date and roll call number, and you can paginate through votes using the offset query string parameter that accepts multiples of 20.",
+        "Anchor": "#get-recent-votes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VoteRollCall",
+        "Name": "Get a specific roll call vote",
+        "Description": "This action gets a specific roll-call vote, including a complete list of member positions.",
+        "Anchor": "#get-a-specific-roll-call-vote",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VoteType",
+        "Name": "Get votes by type",
+        "Description": "This action returns vote information in four categories: missed votes, party votes, lone no votes and perfect votes.",
+        "Anchor": "#get-votes-by-type",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "propublicanonprofiip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../propublicanonprofiip/",
+    "Actions": [
+      {
+        "OperationId": "NonprofitGet",
+        "Name": "Get nonprofit info",
+        "Description": "Returns all available data for a given organization, by the organization's integer EIN.",
+        "Anchor": "#get-nonprofit-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Search",
+        "Name": "Search nonprofits",
+        "Description": "Returns a list of organizations matching the given search terms.",
+        "Anchor": "#search-nonprofits",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "public360",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../public360/",
     "Actions": [
@@ -52415,7 +53449,7 @@
       {
         "OperationId": "GetField",
         "Name": "Get field",
-        "Description": "Gets the properties of an individual field, based on field id.\nProperties present on all field types are returned at the top level. Properties unique to a specific type of field are returned under the 'properties' attribute.",
+        "Description": "Gets the properties of an individual field, based on field id.\nProperties present on all field types are returned at the top level. Properties unique to a specific type of field are returned under the 'properties' attribute. Please see Field types page for more details on the properties for each field type.",
         "Anchor": "#get-field",
         "IsDeprecated": false
       },
@@ -52471,7 +53505,7 @@
       {
         "OperationId": "GetTempTokenDBID",
         "Name": "Get a temporary token for a DBID",
-        "Description": "Use this endpoint to get a temporary authorization token, scoped to either an app or a table. You can then use this token to make other API calls. This token expires in 5 minutes.",
+        "Description": "Use this endpoint to get a temporary authorization token, scoped to either an app or a table. You can then use this token to make other API calls (see authorization).  This token expires in 5 minutes.",
         "Anchor": "#get-a-temporary-token-for-a-dbid",
         "IsDeprecated": false
       },
@@ -52527,7 +53561,7 @@
       {
         "OperationId": "UpsertRecords",
         "Name": "Insert andor update records",
-        "Description": "Insert and/or update record(s) in a table. In this single API call, inserts and updates can be submitted. Update can use the key field on the table, or any other supported unique field. This operation allows for incremental processing of successful records, even when some of the records fail.\nNote: This endpoint supports a maximum payload size of 10MB.",
+        "Description": "Insert and/or update record(s) in a table. In this single API call, inserts and updates can be submitted. Update can use the key field on the table, or any other supported unique field. Refer to the Field types page for more information about how each field type should be formatted. This operation allows for incremental processing of successful records, even when some of the records fail.\nNote: This endpoint supports a maximum payload size of 10MB.",
         "Anchor": "#insert-andor-update-records",
         "IsDeprecated": false
       }
@@ -53100,6 +54134,19 @@
         "Name": "Update stock of the order by order hash",
         "Description": "Update stock of the order by order hash",
         "Anchor": "#update-stock-of-the-order-by-order-hash",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "reachabilityip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../reachabilityip/",
+    "Actions": [
+      {
+        "OperationId": "Reach",
+        "Name": "Check reachability of a URL",
+        "Description": "Returns details about request. If no country is entered as a parameter, a random country will be used.",
+        "Anchor": "#check-reachability-of-a-url",
         "IsDeprecated": false
       }
     ]
@@ -56685,6 +57732,26 @@
     ]
   },
   {
+    "UniqueName": "sessionizeip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sessionizeip/",
+    "Actions": [
+      {
+        "OperationId": "GetSessions",
+        "Name": "Get Sessions",
+        "Description": "Returns list of sessions for your conference",
+        "Anchor": "#get-sessions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSpeakers",
+        "Name": "Get Speakers",
+        "Description": "Returns list of speakers for your conference",
+        "Anchor": "#get-speakers",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "sftpwithssh",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../sftpwithssh/",
     "Actions": [
@@ -58093,20 +59160,6 @@
         "Name": "Send WhatsApp Message",
         "Description": "Send WhatsApp template message.",
         "Anchor": "#send-whatsapp-message",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "WhatsAppOptIn",
-        "Name": "WhatsApp Opt In",
-        "Description": "WhatsApp Opt In for sender and recipient.",
-        "Anchor": "#whatsapp-opt-in",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "WhatsAppOptOut",
-        "Name": "WhatsApp Opt Out",
-        "Description": "WhatsApp Opt Out for sender and recipient.",
-        "Anchor": "#whatsapp-opt-out",
         "IsDeprecated": false
       }
     ]
@@ -60607,6 +61660,75 @@
     ]
   },
   {
+    "UniqueName": "stormglassip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../stormglassip/",
+    "Actions": [
+      {
+        "OperationId": "AstronomyPointRequest",
+        "Name": "Astronomy Point Request",
+        "Description": "Retrieve sunrise, sunset, moonrise, moonset and moon phase for a single coordinate.",
+        "Anchor": "#astronomy-point-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BioPointRequest",
+        "Name": "BIO Data Point Request",
+        "Description": "The bio request is used to fetch bio related data for a point.",
+        "Anchor": "#bio-data-point-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ElevationPointRequest",
+        "Name": "Elevation Point Request",
+        "Description": "The elevation request is used to fetch elevation data (bathymetry for oceans and topography for land) for a point. The Storm Glass API provides elevation data globally.",
+        "Anchor": "#elevation-point-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTideStations",
+        "Name": "Get Tide Stations",
+        "Description": "The Tide Stations List Requests is used to list all available stations.",
+        "Anchor": "#get-tide-stations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTideStationsArea",
+        "Name": "Get Tide Stations for Area",
+        "Description": "The Tide Stations Area Request will list all available tide stations within a defined geographic area.",
+        "Anchor": "#get-tide-stations-for-area",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SolarPointRequest",
+        "Name": "Solar Point Request",
+        "Description": "The solar request is used to fetch solar related data for a point.",
+        "Anchor": "#solar-point-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TimeExtremesPointRequest",
+        "Name": "Tide Extremes Point Request",
+        "Description": "Retrieve information about high and low tide for a single coordinate. If nothing is specified, the returned values will be in relative to Mean Sea Level - MSL.",
+        "Anchor": "#tide-extremes-point-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TimeSealLevelPointRequest",
+        "Name": "Tide Sea Level Point Request",
+        "Description": "Retrieve the sea level given in meters hour by hour for a single coordinate. If nothing is specified the returned values will be in relative to Mean Sea Level - MSL.",
+        "Anchor": "#tide-sea-level-point-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WeatherPointRequest",
+        "Name": "Weather Point Request",
+        "Description": "Point Requests are used to retrieve data for a single coordinate.",
+        "Anchor": "#weather-point-request",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "stormboard",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../stormboard/",
     "Actions": [
@@ -62870,6 +63992,117 @@
     ]
   },
   {
+    "UniqueName": "tribal",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tribal/",
+    "Actions": [
+      {
+        "OperationId": "CreateChildEntity",
+        "Name": "Create a child entity",
+        "Description": "Create a child entity",
+        "Anchor": "#create-a-child-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreatedEvents",
+        "Name": "When an entity is created",
+        "Description": "When an entity is created",
+        "Anchor": "#when-an-entity-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateEntity",
+        "Name": "Create an entity",
+        "Description": "Create an entity",
+        "Anchor": "#create-an-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CustomEvents",
+        "Name": "When an event is triggered on an entity",
+        "Description": "When an event is triggered on an entity",
+        "Anchor": "#when-an-event-is-triggered-on-an-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteChildEntity",
+        "Name": "Delete a child entity",
+        "Description": "Delete a child entity",
+        "Anchor": "#delete-a-child-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeletedEvents",
+        "Name": "When an entity is deleted",
+        "Description": "When an entity is deleted",
+        "Anchor": "#when-an-entity-is-deleted",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteEntity",
+        "Name": "Delete an entity",
+        "Description": "Delete an entity",
+        "Anchor": "#delete-an-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LongRunningEvents",
+        "Name": "When a long running operation is performed on an entity",
+        "Description": "When a long running operation is performed on an entity",
+        "Anchor": "#when-a-long-running-operation-is-performed-on-an-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReadChildEntities",
+        "Name": "Read child entity collection",
+        "Description": "Read child entity collection",
+        "Anchor": "#read-child-entity-collection",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReadChildEntity",
+        "Name": "Read a child entity",
+        "Description": "Read a child entity",
+        "Anchor": "#read-a-child-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReadEntities",
+        "Name": "Read entity collection",
+        "Description": "Read entity collection",
+        "Anchor": "#read-entity-collection",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReadEntity",
+        "Name": "Read an entity",
+        "Description": "Read an entity",
+        "Anchor": "#read-an-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateChildEntity",
+        "Name": "Update a child entity",
+        "Description": "Update a child entity",
+        "Anchor": "#update-a-child-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdatedEvents",
+        "Name": "When an entity is updated",
+        "Description": "When an entity is updated",
+        "Anchor": "#when-an-entity-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateEntity",
+        "Name": "Update an entity",
+        "Description": "Update an entity",
+        "Anchor": "#update-an-entity",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "triggercmd",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../triggercmd/",
     "Actions": [
@@ -63323,6 +64556,67 @@
         "Name": "Status Check",
         "Description": "Check for status of your message",
         "Anchor": "#status-check",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "uberfreight",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../uberfreight/",
+    "Actions": [
+      {
+        "OperationId": "CancelTender",
+        "Name": "Cancel a Tender",
+        "Description": "Cancel a Tender.",
+        "Anchor": "#cancel-a-tender",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateTender",
+        "Name": "Tender an Uber Freight load",
+        "Description": "Tender an Uber Freight load.",
+        "Anchor": "#tender-an-uber-freight-load",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GenerateQuote",
+        "Name": "Generate a price quote for an Uber Freight load",
+        "Description": "Generate a price quote for an Uber Freight load.",
+        "Anchor": "#generate-a-price-quote-for-an-uber-freight-load",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "udemyip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../udemyip/",
+    "Actions": [
+      {
+        "OperationId": "GetCourseDetails",
+        "Name": "Get Course Details",
+        "Description": "Returns course with specified pk.",
+        "Anchor": "#get-course-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCourseReviews",
+        "Name": "Get Course Reviews",
+        "Description": "Returns list of course reviews",
+        "Anchor": "#get-course-reviews",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCourses",
+        "Name": "Get Courses",
+        "Description": "Returns list of courses",
+        "Anchor": "#get-courses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPublicCurriculumItems",
+        "Name": "Get Public Curriculum Items",
+        "Description": "Returns list of curriculum items.",
+        "Anchor": "#get-public-curriculum-items",
         "IsDeprecated": false
       }
     ]
@@ -65241,6 +66535,47 @@
     ]
   },
   {
+    "UniqueName": "worldtimeip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../worldtimeip/",
+    "Actions": [
+      {
+        "OperationId": "GetAreaTimezones",
+        "Name": "Get timezones of area",
+        "Description": "Request a list of valid timezones for an area.",
+        "Anchor": "#get-timezones-of-area",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCurrentTimeBasedOnIp",
+        "Name": "Get current time based on IP",
+        "Description": "Request the current time based on an IP. This is a &quot;best guess&quot; obtained from open-source data.",
+        "Anchor": "#get-current-time-based-on-ip",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLocationTimezone",
+        "Name": "Get timezone of location",
+        "Description": "Request details of timezone for a location.",
+        "Anchor": "#get-timezone-of-location",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRegionTimezone",
+        "Name": "Get timezone of region",
+        "Description": "Request details of timezone for a region.",
+        "Anchor": "#get-timezone-of-region",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTimezones",
+        "Name": "Get all timezones",
+        "Description": "Request a list of valid timezones.",
+        "Anchor": "#get-all-timezones",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "x12",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../x12/",
     "Actions": [
@@ -65496,6 +66831,19 @@
         "Name": "Get Execution Status",
         "Description": "Get the status of an execution.",
         "Anchor": "#get-execution-status",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "xsoarip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../xsoarip/",
+    "Actions": [
+      {
+        "OperationId": "SendToXSOAR",
+        "Name": "Send to XSOAR",
+        "Description": "Send JSON data to XSOAR.",
+        "Anchor": "#send-to-xsoar",
         "IsDeprecated": false
       }
     ]

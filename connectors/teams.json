@@ -17,6 +17,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "AddMemberToTag",
+      "Name": "Add a member to a tag",
+      "Description": "This operation adds a user to a tags.",
+      "Anchor": "#add-a-member-to-a-tag",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "AddMemberToTeam",
       "Name": "Add a member to a team",
       "Description": "This operation adds a member to a team.",
@@ -66,6 +73,13 @@
       "IsDeprecated": true
     },
     {
+      "OperationId": "CreateTag",
+      "Name": "Create a tag for a team",
+      "Description": "This operation creates a tag.",
+      "Anchor": "#create-a-tag-for-a-team",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateTeamsMeeting",
       "Name": "Create a Teams meeting",
       "Description": "Create a meeting with a link at the bottom of the invite to join the meeting online on Teams",
@@ -85,6 +99,20 @@
       "Description": "This action has been deprecated. Please use Delete a Shift instead.\nThis operation deletes a shift using the shift's unique ID.",
       "Anchor": "#shifts:-delete-a-shift-[deprecated]",
       "IsDeprecated": true
+    },
+    {
+      "OperationId": "DeleteTag",
+      "Name": "Delete a tag",
+      "Description": "This operation deletes a tag.",
+      "Anchor": "#delete-a-tag",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTagMember",
+      "Name": "Delete a member from a tag",
+      "Description": "This operation deletes a member from a tag.",
+      "Anchor": "#delete-a-member-from-a-tag",
+      "IsDeprecated": false
     },
     {
       "OperationId": "GetAllTeams",
@@ -141,6 +169,13 @@
       "Description": "This action has been deprecated. Please use Get a Shift instead.\nThis operation returns details for a shift using the shift's unique ID.",
       "Anchor": "#shifts:-get-a-shift-[deprecated]",
       "IsDeprecated": true
+    },
+    {
+      "OperationId": "GetTagMembers",
+      "Name": "List the members for a tag",
+      "Description": "This operation lists the members for a tag.",
+      "Anchor": "#list-the-members-for-a-tag",
+      "IsDeprecated": false
     },
     {
       "OperationId": "GetTags",

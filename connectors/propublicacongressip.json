@@ -1,0 +1,314 @@
+{
+  "UniqueName": "propublicacongressip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../propublicacongressip/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Compare two members' bill sponsorships",
+      "Description": "This action compares bill sponsorship between two members who served in the same Congress and chamber.",
+      "Anchor": "#compare-two-members'-bill-sponsorships",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a specific member's vote positions",
+      "Description": "This action gets the most recent vote positions for a specific member of the House of Representatives or Senate.",
+      "Anchor": "#get-a-specific-member's-vote-positions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BillAmendments",
+      "Name": "Get amendments for a specific bill",
+      "Description": "This action gets Library of Congress-assigned subjects about a particular bill. This request returns the 20 most recent results and supports paginated requests.",
+      "Anchor": "#get-amendments-for-a-specific-bill",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BillCosponsor",
+      "Name": "Get cosponsors for a specific bill",
+      "Description": "This action gets information about the cosponsors of a particular bill.",
+      "Anchor": "#get-cosponsors-for-a-specific-bill",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BillGet",
+      "Name": "Get a specific bill",
+      "Description": "This action gets details about a particular bill, including actions taken and votes. The attributes house_passage_vote and senate_passage_vote are populated (with the date of passage) only upon successful passage of the bill.",
+      "Anchor": "#get-a-specific-bill",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BillRecent",
+      "Name": "Get recent bills",
+      "Description": "This action gets summaries of the 20 most recent bills by type. For the current Congress, recent bills can be one of four types (see the descriptions below). For previous Congresses, recent bills means the last 20 bills of that Congress.",
+      "Anchor": "#get-recent-bills",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BillRecentMember",
+      "Name": "Get recent bills by a specific member",
+      "Description": "This action gets the 20 bills most recently introduced or updated by a particular member.",
+      "Anchor": "#get-recent-bills-by-a-specific-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BillRecentSubject",
+      "Name": "Get recent bills by a specific subject",
+      "Description": "This action gets the 20 most recently updated bills for a specific legislative subject. Results can include more than one Congress.",
+      "Anchor": "#get-recent-bills-by-a-specific-subject",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BillRelated",
+      "Name": "Get related bills for a specific bill",
+      "Description": "This action gets Library of Congress-identified related bills for a particular bill. This request returns the 20 most recent results and supports paginated requests.",
+      "Anchor": "#get-related-bills-for-a-specific-bill",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BillSearch",
+      "Name": "Search bills",
+      "Description": "This action searches the title and full text of legislation by keyword to get the 20 most recent bills. Searches cover House and Senate bills from the 113th Congress through the current Congress (117th). If multiple words are given (e.g. query=health care) the search is treated as multiple keywords using the OR operator. Quoting the words (e.g. query=&quot;health care&quot;) makes it a phrase search. Search results can be sorted by date (the default) or by relevance, and in ascending or descending order.",
+      "Anchor": "#search-bills",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BillSubject",
+      "Name": "Get subjects for a specific bill",
+      "Description": "This action gets Library of Congress-assigned subjects about a particular bill. This request returns the 20 most recent results and supports paginated requests.",
+      "Anchor": "#get-subjects-for-a-specific-bill",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BillUpcoming",
+      "Name": "Get upcoming bills",
+      "Description": "This action gets details on bills that may be considered by the House or Senate in the near future, based on scheduled published or announced by congressional leadership. The bills and their potential consideration are taken from the House Majority Leader and floor updates from Senate Republicans.",
+      "Anchor": "#get-upcoming-bills",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitteeGet",
+      "Name": "Get list of committees",
+      "Description": "This action gets a list of Senate, House or joint committees, including their subcommittees.",
+      "Anchor": "#get-list-of-committees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitteeGetA",
+      "Name": "Get a specific committee",
+      "Description": "This action gets information about a single Senate or House committee, including the members of that committee.",
+      "Anchor": "#get-a-specific-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitteeHearingA",
+      "Name": "Get hearings for a specific committee",
+      "Description": "This actions gets a list of hearings for a specific Senate or House committee.",
+      "Anchor": "#get-hearings-for-a-specific-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitteeHearingRecent",
+      "Name": "Get recent committee hearings",
+      "Description": "This action gets a list of 20 upcoming Senate or House committee meetings.",
+      "Anchor": "#get-recent-committee-hearings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommunicationDate",
+      "Name": "Get recent official communications by date",
+      "Description": "This action gets lists of official communications to Congress on a specific date.",
+      "Anchor": "#get-recent-official-communications-by-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommunicationRecent",
+      "Name": "Get recent official communications",
+      "Description": "This action gets lists of official communications to Congress from the president, executive branch agencies and state legislatures to congressional committees.",
+      "Anchor": "#get-recent-official-communications",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommunicationRecentCategory",
+      "Name": "Get recent official communications by category",
+      "Description": "This action gets lists of official communications to Congress in a specific category. It returns the 20 most recent results for the specified type: ec (Executive Communication), pm (Presidential Message) or pom (Petition or Memorial).",
+      "Anchor": "#get-recent-official-communications-by-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExplanationRecent",
+      "Name": "Get recent personal explanations",
+      "Description": "This actions gets lists of personal explanations. Lawmakers, mostly in the House but also in the Senate, can make personal explanations for missed or mistaken votes in the Congressional Record. These explanations can refer to a single vote or to multiple votes.",
+      "Anchor": "#get-recent-personal-explanations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExplanationRecentGet",
+      "Name": "Get recent personal explanations by a specific member",
+      "Description": "This action gets recent personal explanations by a specific member.",
+      "Anchor": "#get-recent-personal-explanations-by-a-specific-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FloorAction",
+      "Name": "Get recent House and Senate floor actions",
+      "Description": "This action gets the latest actions from the House or Senate floor.",
+      "Anchor": "#get-recent-house-and-senate-floor-actions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FloorActionDate",
+      "Name": "Get House and Senate floor actions by date",
+      "Description": "This action gets actions from the House or Senate floor on a particular date.",
+      "Anchor": "#get-house-and-senate-floor-actions-by-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HouseOfficeCategory",
+      "Name": "Get quarterly office expenses by category for a specific house member",
+      "Description": "The House of Representatives publishes quarterly reports detailing official office expenses by lawmakers. The Congress API has data beginning in the third quarter of 2009. This action gets the amount a given lawmaker spent during a specified year and quarter in a specified category.",
+      "Anchor": "#get-quarterly-office-expenses-by-category-for-a-specific-house-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HouseOfficeExpense",
+      "Name": "Get quarterly office expenses by a specific house member",
+      "Description": "The House of Representatives publishes quarterly reports detailing official office expenses by lawmakers. The Congress API has data beginning in the third quarter of 2009. The most recent quarter may not be available until several months after it ends.",
+      "Anchor": "#get-quarterly-office-expenses-by-a-specific-house-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "HouseOfficeQuarterCategory",
+      "Name": "Get quarterly office expenses for a specific category",
+      "Description": "This action gets the amount spent by individual lawmakers in a specified category during a specified year and quarter by category.",
+      "Anchor": "#get-quarterly-office-expenses-for-a-specific-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Lobbying",
+      "Name": "Get recent lobbying representation filings",
+      "Description": "This action gets the most recent lobbying representation filings.",
+      "Anchor": "#get-recent-lobbying-representation-filings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LobbyingGetA",
+      "Name": "Get a specific lobbying representation filing",
+      "Description": "This action gets a specific lobbying representation filing.",
+      "Anchor": "#get-a-specific-lobbying-representation-filing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LobbyingSearch",
+      "Name": "Search lobbying representation filings",
+      "Description": "This actions gets the 20 most recent lobbying representation filings for a given search term.",
+      "Anchor": "#search-lobbying-representation-filings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberGet",
+      "Name": "Get a list of members",
+      "Description": "To get a list of members of a particular chamber in a particular Congress, use the following URI structure. The results include all members who have served in that congress and chamber, including members who are no longer in office. To filter the list to only active members (or to see members who have left), use the in office attribute.",
+      "Anchor": "#get-a-list-of-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberGetA",
+      "Name": "Get a specific member",
+      "Description": "This action gets biographical and Congressional role information for a particular member of Congress.",
+      "Anchor": "#get-a-specific-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberGetLeaving",
+      "Name": "Get members leaving office",
+      "Description": "This action gets a list of members who have left the Senate or House or have announced plans to do so.",
+      "Anchor": "#get-members-leaving-office",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberGetNew",
+      "Name": "Get new members",
+      "Description": "This action gets a list of the most recent new members of the current Congress.",
+      "Anchor": "#get-new-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberGetState",
+      "Name": "Get current members by state or district",
+      "Description": "This action gets biographical and Congressional role information for a particular member of Congress.",
+      "Anchor": "#get-current-members-by-state-or-district",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberGetVotePositions",
+      "Name": "Compare two members vote positions",
+      "Description": "This action compares two members' vote positions in a particular Congress and chamber. Responses include four calculated values, showing the number and percentage of votes in which the members took the same position or opposing positions.",
+      "Anchor": "#compare-two-members-vote-positions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "NominationGet",
+      "Name": "Get a specific nomination",
+      "Description": "This action gets details about a particular presidential civilian nomination.",
+      "Anchor": "#get-a-specific-nomination",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubcommitteeGet",
+      "Name": "Get a specific subcommittee",
+      "Description": "This action gets information about a single Senate or House subcommittee, including the members of that subcommittee.",
+      "Anchor": "#get-a-specific-subcommittee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TripPrivateGet",
+      "Name": "Get recent privately funded trips",
+      "Description": "This action gets a list of privately funded trips reported by all House members and staff in a particular Congress.",
+      "Anchor": "#get-recent-privately-funded-trips",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TripPrivateGetA",
+      "Name": "Get recent privately funded trips by a specific house member",
+      "Description": "This action gets a list of privately funded trips reported by a specific House member, including staff travel, in a particular Congress.",
+      "Anchor": "#get-recent-privately-funded-trips-by-a-specific-house-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VoteDate",
+      "Name": "Get votes by date",
+      "Description": "This action gets all votes in a particular date range (fewer than 30 days).",
+      "Anchor": "#get-votes-by-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VoteNomination",
+      "Name": "Get Senate nomination votes",
+      "Description": "This action gets Senate votes on presidential nominations. This request returns the 20 most recent results and supports paginated requests.",
+      "Anchor": "#get-senate-nomination-votes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VoteRecent",
+      "Name": "Get recent votes",
+      "Description": "This action returns recent votes from the House, Senate or both chambers. It returns the 20 most recent results, sorted by date and roll call number, and you can paginate through votes using the offset query string parameter that accepts multiples of 20.",
+      "Anchor": "#get-recent-votes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VoteRollCall",
+      "Name": "Get a specific roll call vote",
+      "Description": "This action gets a specific roll-call vote, including a complete list of member positions.",
+      "Anchor": "#get-a-specific-roll-call-vote",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VoteType",
+      "Name": "Get votes by type",
+      "Description": "This action returns vote information in four categories: missed votes, party votes, lone no votes and perfect votes.",
+      "Anchor": "#get-votes-by-type",
+      "IsDeprecated": false
+    }
+  ]
+}

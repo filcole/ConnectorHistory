@@ -1,0 +1,13 @@
+{
+  "UniqueName": "reachabilityip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../reachabilityip/",
+  "Actions": [
+    {
+      "OperationId": "Reach",
+      "Name": "Check reachability of a URL",
+      "Description": "Returns details about request. If no country is entered as a parameter, a random country will be used.",
+      "Anchor": "#check-reachability-of-a-url",
+      "IsDeprecated": false
+    }
+  ]
+}

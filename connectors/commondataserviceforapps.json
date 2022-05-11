@@ -11,9 +11,9 @@
     },
     {
       "OperationId": "BusinessEventsTrigger",
-      "Name": "When an action is performed (preview)",
+      "Name": "When an action is performed",
       "Description": "Triggers when a Microsoft Dataverse action has completed.",
-      "Anchor": "#when-an-action-is-performed-(preview)",
+      "Anchor": "#when-an-action-is-performed",
       "IsDeprecated": false
     },
     {

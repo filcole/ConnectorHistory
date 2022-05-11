@@ -10,6 +10,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateItemInFeatureLayer",
+      "Name": "Create a record in a feature layer",
+      "Description": "This action adds a new record to a feature layer.",
+      "Anchor": "#create-a-record-in-a-feature-layer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteItemInFeatureLayer",
+      "Name": "Delete a record from feature layer",
+      "Description": "This action deletes one or many records from a feature layer using IDs.",
+      "Anchor": "#delete-a-record-from-feature-layer",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "FindAddressCandidates",
       "Name": "Find address candidate",
       "Description": "Locate a single address using a geocode service resource. This resource provides information about candidates, including the address, location, and match score.  The result of this operation is a list of address candidates.",
@@ -49,6 +63,41 @@
       "Name": "Point to point routing",
       "Description": "Create point-to-point routes. Points in a route can visited in the order you specify or in the order that minimizes overall travel time or distance. Routes represent the quickest or shortest path along roads to visit stops or point locations.",
       "Anchor": "#point-to-point-routing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateItemInFeatureLayer",
+      "Name": "Update a record in a feature layer",
+      "Description": "This action updates an existing record in a feature layer.",
+      "Anchor": "#update-a-record-in-a-feature-layer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookFLCreated",
+      "Name": "When a record is created in a feature layer",
+      "Description": "This action triggers a flow when a record is created in your feature layer.",
+      "Anchor": "#when-a-record-is-created-in-a-feature-layer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookFLDeleted",
+      "Name": "When a record is deleted from a feature layer",
+      "Description": "This action triggers a flow when a record is deleted in a feature layer.",
+      "Anchor": "#when-a-record-is-deleted-from-a-feature-layer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookFLEdited",
+      "Name": "When a record is updated in a feature layer",
+      "Description": "This action triggers a flow when a record is updated in a feature layer.",
+      "Anchor": "#when-a-record-is-updated-in-a-feature-layer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookGet",
+      "Name": "Fetch updates, changes, or deletions from feature layer",
+      "Description": "Fetch the updates, changes, or deletions that were made to your selected feature layer. This action is used in conjunction with the trigger on your feature service.",
+      "Anchor": "#fetch-updates,-changes,-or-deletions-from-feature-layer",
       "IsDeprecated": false
     }
   ]

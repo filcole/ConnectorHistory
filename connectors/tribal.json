@@ -1,0 +1,111 @@
+{
+  "UniqueName": "tribal",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tribal/",
+  "Actions": [
+    {
+      "OperationId": "CreateChildEntity",
+      "Name": "Create a child entity",
+      "Description": "Create a child entity",
+      "Anchor": "#create-a-child-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreatedEvents",
+      "Name": "When an entity is created",
+      "Description": "When an entity is created",
+      "Anchor": "#when-an-entity-is-created",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateEntity",
+      "Name": "Create an entity",
+      "Description": "Create an entity",
+      "Anchor": "#create-an-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CustomEvents",
+      "Name": "When an event is triggered on an entity",
+      "Description": "When an event is triggered on an entity",
+      "Anchor": "#when-an-event-is-triggered-on-an-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteChildEntity",
+      "Name": "Delete a child entity",
+      "Description": "Delete a child entity",
+      "Anchor": "#delete-a-child-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeletedEvents",
+      "Name": "When an entity is deleted",
+      "Description": "When an entity is deleted",
+      "Anchor": "#when-an-entity-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteEntity",
+      "Name": "Delete an entity",
+      "Description": "Delete an entity",
+      "Anchor": "#delete-an-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LongRunningEvents",
+      "Name": "When a long running operation is performed on an entity",
+      "Description": "When a long running operation is performed on an entity",
+      "Anchor": "#when-a-long-running-operation-is-performed-on-an-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadChildEntities",
+      "Name": "Read child entity collection",
+      "Description": "Read child entity collection",
+      "Anchor": "#read-child-entity-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadChildEntity",
+      "Name": "Read a child entity",
+      "Description": "Read a child entity",
+      "Anchor": "#read-a-child-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadEntities",
+      "Name": "Read entity collection",
+      "Description": "Read entity collection",
+      "Anchor": "#read-entity-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadEntity",
+      "Name": "Read an entity",
+      "Description": "Read an entity",
+      "Anchor": "#read-an-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateChildEntity",
+      "Name": "Update a child entity",
+      "Description": "Update a child entity",
+      "Anchor": "#update-a-child-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdatedEvents",
+      "Name": "When an entity is updated",
+      "Description": "When an entity is updated",
+      "Anchor": "#when-an-entity-is-updated",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEntity",
+      "Name": "Update an entity",
+      "Description": "Update an entity",
+      "Anchor": "#update-an-entity",
+      "IsDeprecated": false
+    }
+  ]
+}

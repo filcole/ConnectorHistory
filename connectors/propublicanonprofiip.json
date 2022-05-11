@@ -1,0 +1,20 @@
+{
+  "UniqueName": "propublicanonprofiip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../propublicanonprofiip/",
+  "Actions": [
+    {
+      "OperationId": "NonprofitGet",
+      "Name": "Get nonprofit info",
+      "Description": "Returns all available data for a given organization, by the organization's integer EIN.",
+      "Anchor": "#get-nonprofit-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Search",
+      "Name": "Search nonprofits",
+      "Description": "Returns a list of organizations matching the given search terms.",
+      "Anchor": "#search-nonprofits",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "UniqueName": "exasol",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../exasol/",
+  "Actions": [
+    {
+      "OperationId": "DeleteRows",
+      "Name": "Delete rows from a table based on a condition",
+      "Description": "Delete zero or more rows from a table providing a WHERE condition",
+      "Anchor": "#delete-rows-from-a-table-based-on-a-condition",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteNonQuery",
+      "Name": "Execute a statement on the Exasol database",
+      "Description": "Execute a statement without a result set",
+      "Anchor": "#execute-a-statement-on-the-exasol-database",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteQuery",
+      "Name": "Query the Exasol database",
+      "Description": "Provide a query and get a result set",
+      "Anchor": "#query-the-exasol-database",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRows",
+      "Name": "Get rows from a table based on a condition",
+      "Description": "Get zero or more rows from a table providing a WHERE condition",
+      "Anchor": "#get-rows-from-a-table-based-on-a-condition",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables",
+      "Name": "Get tables that are available for the user",
+      "Description": "Get a list of all available tables",
+      "Anchor": "#get-tables-that-are-available-for-the-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InsertRow",
+      "Name": "Insert row to a table",
+      "Description": "Insert a single row into an Exasol table",
+      "Anchor": "#insert-row-to-a-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateRows",
+      "Name": "Update rows in a table based on a condition",
+      "Description": "Update zero or more row in a table based on a condition",
+      "Anchor": "#update-rows-in-a-table-based-on-a-condition",
+      "IsDeprecated": false
+    }
+  ]
+}

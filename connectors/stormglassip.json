@@ -1,0 +1,69 @@
+{
+  "UniqueName": "stormglassip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../stormglassip/",
+  "Actions": [
+    {
+      "OperationId": "AstronomyPointRequest",
+      "Name": "Astronomy Point Request",
+      "Description": "Retrieve sunrise, sunset, moonrise, moonset and moon phase for a single coordinate.",
+      "Anchor": "#astronomy-point-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BioPointRequest",
+      "Name": "BIO Data Point Request",
+      "Description": "The bio request is used to fetch bio related data for a point.",
+      "Anchor": "#bio-data-point-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ElevationPointRequest",
+      "Name": "Elevation Point Request",
+      "Description": "The elevation request is used to fetch elevation data (bathymetry for oceans and topography for land) for a point. The Storm Glass API provides elevation data globally.",
+      "Anchor": "#elevation-point-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTideStations",
+      "Name": "Get Tide Stations",
+      "Description": "The Tide Stations List Requests is used to list all available stations.",
+      "Anchor": "#get-tide-stations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTideStationsArea",
+      "Name": "Get Tide Stations for Area",
+      "Description": "The Tide Stations Area Request will list all available tide stations within a defined geographic area.",
+      "Anchor": "#get-tide-stations-for-area",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SolarPointRequest",
+      "Name": "Solar Point Request",
+      "Description": "The solar request is used to fetch solar related data for a point.",
+      "Anchor": "#solar-point-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimeExtremesPointRequest",
+      "Name": "Tide Extremes Point Request",
+      "Description": "Retrieve information about high and low tide for a single coordinate. If nothing is specified, the returned values will be in relative to Mean Sea Level - MSL.",
+      "Anchor": "#tide-extremes-point-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimeSealLevelPointRequest",
+      "Name": "Tide Sea Level Point Request",
+      "Description": "Retrieve the sea level given in meters hour by hour for a single coordinate. If nothing is specified the returned values will be in relative to Mean Sea Level - MSL.",
+      "Anchor": "#tide-sea-level-point-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WeatherPointRequest",
+      "Name": "Weather Point Request",
+      "Description": "Point Requests are used to retrieve data for a single coordinate.",
+      "Anchor": "#weather-point-request",
+      "IsDeprecated": false
+    }
+  ]
+}

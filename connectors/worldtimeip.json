@@ -1,0 +1,41 @@
+{
+  "UniqueName": "worldtimeip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../worldtimeip/",
+  "Actions": [
+    {
+      "OperationId": "GetAreaTimezones",
+      "Name": "Get timezones of area",
+      "Description": "Request a list of valid timezones for an area.",
+      "Anchor": "#get-timezones-of-area",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCurrentTimeBasedOnIp",
+      "Name": "Get current time based on IP",
+      "Description": "Request the current time based on an IP. This is a &quot;best guess&quot; obtained from open-source data.",
+      "Anchor": "#get-current-time-based-on-ip",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLocationTimezone",
+      "Name": "Get timezone of location",
+      "Description": "Request details of timezone for a location.",
+      "Anchor": "#get-timezone-of-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRegionTimezone",
+      "Name": "Get timezone of region",
+      "Description": "Request details of timezone for a region.",
+      "Anchor": "#get-timezone-of-region",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTimezones",
+      "Name": "Get all timezones",
+      "Description": "Request a list of valid timezones.",
+      "Anchor": "#get-all-timezones",
+      "IsDeprecated": false
+    }
+  ]
+}

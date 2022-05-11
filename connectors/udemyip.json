@@ -1,0 +1,34 @@
+{
+  "UniqueName": "udemyip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../udemyip/",
+  "Actions": [
+    {
+      "OperationId": "GetCourseDetails",
+      "Name": "Get Course Details",
+      "Description": "Returns course with specified pk.",
+      "Anchor": "#get-course-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCourseReviews",
+      "Name": "Get Course Reviews",
+      "Description": "Returns list of course reviews",
+      "Anchor": "#get-course-reviews",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCourses",
+      "Name": "Get Courses",
+      "Description": "Returns list of courses",
+      "Anchor": "#get-courses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetPublicCurriculumItems",
+      "Name": "Get Public Curriculum Items",
+      "Description": "Returns list of curriculum items.",
+      "Anchor": "#get-public-curriculum-items",
+      "IsDeprecated": false
+    }
+  ]
+}

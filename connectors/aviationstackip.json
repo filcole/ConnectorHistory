@@ -1,0 +1,62 @@
+{
+  "UniqueName": "aviationstackip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aviationstackip/",
+  "Actions": [
+    {
+      "OperationId": "AircraftGet",
+      "Name": "Get aircraft types",
+      "Description": "This action returns data about different aircraft types.",
+      "Anchor": "#get-aircraft-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirlineGet",
+      "Name": "Get airlines",
+      "Description": "This action returns data about global airlines.",
+      "Anchor": "#get-airlines",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirplaneGet",
+      "Name": "Get airplanes",
+      "Description": "This action returns data about different airplanes and aircraft.",
+      "Anchor": "#get-airplanes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AirportGet",
+      "Name": "Get airports",
+      "Description": "This action returns data about global airports.",
+      "Anchor": "#get-airports",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CityGet",
+      "Name": "Get cities",
+      "Description": "This action returns data about destination cities.",
+      "Anchor": "#get-cities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CountryGet",
+      "Name": "Get countries",
+      "Description": "This action returns data about destination countries.",
+      "Anchor": "#get-countries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FlightGet",
+      "Name": "Get flights",
+      "Description": "This action tracking flights and retrieving flight status information in real-time.",
+      "Anchor": "#get-flights",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TaxesGet",
+      "Name": "Get aviation taxes",
+      "Description": "This action returns data about aviation taxes.",
+      "Anchor": "#get-aviation-taxes",
+      "IsDeprecated": false
+    }
+  ]
+}
