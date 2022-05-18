@@ -10,6 +10,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "AddMasterDeliverable",
+      "Name": "Add Master Deliverable",
+      "Description": "Add Master Deliverable",
+      "Anchor": "#add-master-deliverable",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CopyDocument",
       "Name": "Copy Document",
       "Description": "Copies the documents",
@@ -38,10 +45,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateWorkflow",
+      "Name": "Create Workflow",
+      "Description": "Create Workflow",
+      "Anchor": "#create-workflow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteMasterDeliverable",
+      "Name": "Delete Master Deliverable",
+      "Description": "Delete Master Deliverable",
+      "Anchor": "#delete-master-deliverable",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "DeleteUser",
       "Name": "Delete User",
       "Description": "Delete GoFileRoom and ClientFlow users from the System",
       "Anchor": "#delete-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteWorkflows",
+      "Name": "Delete Workflows",
+      "Description": "Delete Workflows",
+      "Anchor": "#delete-workflows",
       "IsDeprecated": false
     },
     {
@@ -63,6 +91,20 @@
       "Name": "Document Search",
       "Description": "Loads all the documents the user has access to in the specified drawer.",
       "Anchor": "#document-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditMasterDeliverable",
+      "Name": "Edit Master Deliverable",
+      "Description": "Edit Master Deliverable",
+      "Anchor": "#edit-master-deliverable",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditWorkflow",
+      "Name": "Edit WorkFlow",
+      "Description": "Edit WorkFlow",
+      "Anchor": "#edit-workflow",
       "IsDeprecated": false
     },
     {
@@ -178,6 +220,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetMasterDeliverable",
+      "Name": "Get Master Deliverable",
+      "Description": "Get Master Deliverable",
+      "Anchor": "#get-master-deliverable",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetPasswordPolicy",
       "Name": "Get Password Policy",
       "Description": "Fetches the Password policy for the firm",
@@ -203,6 +252,13 @@
       "Name": "Get User Info",
       "Description": "Fetches the GFR User Information",
       "Anchor": "#get-user-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUserInfoV2",
+      "Name": "Get User Info V2",
+      "Description": "Gets the User infromation",
+      "Anchor": "#get-user-info-v2",
       "IsDeprecated": false
     },
     {
@@ -262,6 +318,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "RouteWorkflowV2",
+      "Name": "Route Workflow V2",
+      "Description": "Route Workflow V2",
+      "Anchor": "#route-workflow-v2",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "SetGroupDocSecurity",
       "Name": "Set Group Document Security",
       "Description": "Assigns document security to a group",
@@ -294,6 +357,20 @@
       "Name": "Taxsort Document",
       "Description": "Taxsort PDF document",
       "Anchor": "#taxsort-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrackingReportByDeliverableV2",
+      "Name": "Tracking Report By Deliverable V2",
+      "Description": "Tracking Report by DeliverableV2",
+      "Anchor": "#tracking-report-by-deliverable-v2",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TrackingReportByWorkflow",
+      "Name": "Tracking Report By Workflow",
+      "Description": "Tracking Report by Workflow",
+      "Anchor": "#tracking-report-by-workflow",
       "IsDeprecated": false
     },
     {

@@ -17,6 +17,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GenerateDocument",
+      "Name": "Generate document",
+      "Description": "Generate document using a template ID that must be uploaded previously using this action. Enter the document data in JSON format",
+      "Anchor": "#generate-document",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetTermByKeyValue",
       "Name": "Get terms by key value",
       "Description": "Get terms by key value",
@@ -28,6 +35,13 @@
       "Name": "Get terms by label",
       "Description": "Get terms by label name",
       "Anchor": "#get-terms-by-label",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadTemplate",
+      "Name": "Upload document template",
+      "Description": "Uploads a document template that can be used for 24 hours to generate documents.",
+      "Anchor": "#upload-document-template",
       "IsDeprecated": false
     }
   ]

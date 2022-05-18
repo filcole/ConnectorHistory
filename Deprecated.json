@@ -97,6 +97,19 @@
     ]
   },
   {
+    "UniqueName": "aletheia",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aletheia/",
+    "Actions": [
+      {
+        "OperationId": "StockData",
+        "Name": "Get Stock Data [DEPRECATED]",
+        "Description": "This action has been deprecated. Please use Get Stock Data (V2) instead.\nAccess stock data for any US-based publicly traded equity security (deprecated)",
+        "Anchor": "#get-stock-data-[deprecated]",
+        "IsDeprecated": true
+      }
+    ]
+  },
+  {
     "UniqueName": "approvals",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../approvals/",
     "Actions": [

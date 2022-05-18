@@ -31,13 +31,6 @@
       "IsDeprecated": false
     },
     {
-      "OperationId": "",
-      "Name": "Update Individual's Custom Field Value",
-      "Description": "Update Individual's Custom Field Value.",
-      "Anchor": "#update-individual's-custom-field-value",
-      "IsDeprecated": false
-    },
-    {
       "OperationId": "Add-Activity",
       "Name": "Add Activity",
       "Description": "Add Activity.",
@@ -49,6 +42,13 @@
       "Name": "Add Activity to Organization",
       "Description": "Add Activity to Organization",
       "Anchor": "#add-activity-to-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Activity-to-Sales-Opportunity",
+      "Name": "Add Activity to Sales Opportunity",
+      "Description": "Add Activity to Sales Opportunity",
+      "Anchor": "#add-activity-to-sales-opportunity",
       "IsDeprecated": false
     },
     {
@@ -73,6 +73,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Add-Categories-for-an-Organization",
+      "Name": "Add Categories for an Organization",
+      "Description": "Add Categories for an Organization",
+      "Anchor": "#add-categories-for-an-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Customer-Request",
+      "Name": "Add Customer Request",
+      "Description": "Add Customer Request",
+      "Anchor": "#add-customer-request",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Add-Email-to-Individual",
       "Name": "Add Email to Individual",
       "Description": "Add Email to Individual",
@@ -87,10 +101,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Add-Exam-Scores",
+      "Name": "Add Exam Scores",
+      "Description": "Add Exam Scores",
+      "Anchor": "#add-exam-scores",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Add-Individual",
       "Name": "Add Individual",
       "Description": "Adds an Individual.",
       "Anchor": "#add-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Nominee",
+      "Name": "Add Nominee",
+      "Description": "Add Nominee",
+      "Anchor": "#add-nominee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-Note-to-Sales-Opportunity",
+      "Name": "Add Note to Sales Opportunity",
+      "Description": "Add Note to Sales Opportunity",
+      "Anchor": "#add-note-to-sales-opportunity",
       "IsDeprecated": false
     },
     {
@@ -126,6 +161,13 @@
       "Name": "Add or Update a List of Custom Fields Per Individual",
       "Description": "Add or Update a List of Custom Fields Per Individual",
       "Anchor": "#add-or-update-a-list-of-custom-fields-per-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Add-or-Update-a-List-of-Custom-Fields-Per-Organization",
+      "Name": "Add or Update a List of Custom Fields Per Organization",
+      "Description": "Add or Update a List of Custom Fields Per Organization",
+      "Anchor": "#add-or-update-a-list-of-custom-fields-per-organization",
       "IsDeprecated": false
     },
     {
@@ -213,6 +255,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Delete-a-Category-for-an-Organization",
+      "Name": "Delete a Category for an Organization",
+      "Description": "Delete a Category for an Organization",
+      "Anchor": "#delete-a-category-for-an-organization",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Delete-an-Individual-Web-Link",
       "Name": "Delete an Individual Web Link",
       "Description": "Delete an Individual Web Link",
@@ -245,6 +294,13 @@
       "Name": "Find Individual by Id or Email or Record Number",
       "Description": "Find Individual by Id or Email.",
       "Anchor": "#find-individual-by-id-or-email-or-record-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Find-Members-by-Name",
+      "Name": "Find Members by Name",
+      "Description": "Find Members by Name",
+      "Anchor": "#find-members-by-name",
       "IsDeprecated": false
     },
     {
@@ -311,6 +367,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Get-All-Open-Orders-for-an-Individual",
+      "Name": "Get All Open Orders for an Individual",
+      "Description": "Get All Open Orders for an Individual",
+      "Anchor": "#get-all-open-orders-for-an-individual",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-All-States-by-Country",
+      "Name": "Get All States by Country",
+      "Description": "Get All States by Country",
+      "Anchor": "#get-all-states-by-country",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Get-Committee-Information-for-an-Individual",
       "Name": "Get Committee Information for an Individual",
       "Description": "Get Committee Information for an Individual",
@@ -325,10 +395,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Get-Course-Attendees",
+      "Name": "Get Course Attendees",
+      "Description": "Get Course Attendees",
+      "Anchor": "#get-course-attendees",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Get-Individual-Active-Memberships",
       "Name": "Get Individual Active Memberships",
       "Description": "Get Individual Active Memberships",
       "Anchor": "#get-individual-active-memberships",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-Individual-Custom-Field-Values",
+      "Name": "Get Individual Custom Field Values",
+      "Description": "Get Individual Custom Field Values",
+      "Anchor": "#get-individual-custom-field-values",
       "IsDeprecated": false
     },
     {
@@ -388,6 +472,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Get-Purchases-for-an-Individual",
+      "Name": "Get Purchases for an Individual",
+      "Description": "Get Purchases for an Individual",
+      "Anchor": "#get-purchases-for-an-individual",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Get-Sub-Committees",
       "Name": "Get Sub-Committees",
       "Description": "Get Sub-Committees",
@@ -430,6 +521,34 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "List-All-Countries",
+      "Name": "List All Countries",
+      "Description": "List All Countries",
+      "Anchor": "#list-all-countries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-All-Event-Cancellations-by-Event",
+      "Name": "List All Event Cancellations by Event",
+      "Description": "List All Event Cancellations by Event",
+      "Anchor": "#list-all-event-cancellations-by-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-All-Exhibitors",
+      "Name": "List All Exhibitors",
+      "Description": "List All Exhibitors",
+      "Anchor": "#list-all-exhibitors",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-All-Exhibits",
+      "Name": "List All Exhibits",
+      "Description": "List All Exhibits",
+      "Anchor": "#list-all-exhibits",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "List-all-Individuals",
       "Name": "List all Individuals",
       "Description": "List all Individuals",
@@ -444,6 +563,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "List-Completed-User-Tasks-by-User-ID-or-Email",
+      "Name": "List Completed User Tasks by User ID or Email",
+      "Description": "List Completed User Tasks by User ID or Email",
+      "Anchor": "#list-completed-user-tasks-by-user-id-or-email",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "List-of-All-Individual-Members",
       "Name": "List of All Individual Members",
       "Description": "List of All Individual Members",
@@ -455,6 +581,27 @@
       "Name": "List of Customer Relationships",
       "Description": "List of Customer Relationships",
       "Anchor": "#list-of-customer-relationships",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-of-Exams",
+      "Name": "List of Exams",
+      "Description": "List of Exams",
+      "Anchor": "#list-of-exams",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-Pending-User-Tasks-by-User-ID-or-Email",
+      "Name": "List Pending User Tasks by User ID or Email",
+      "Description": "List Pending User Tasks by User ID or Email",
+      "Anchor": "#list-pending-user-tasks-by-user-id-or-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-Registrants",
+      "Name": "List Registrants",
+      "Description": "List Registrants",
+      "Anchor": "#list-registrants",
       "IsDeprecated": false
     },
     {
@@ -514,6 +661,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Update-Customer-Request",
+      "Name": "Update Customer Request",
+      "Description": "Update Customer Request",
+      "Anchor": "#update-customer-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-custom-field-value",
+      "Name": "Update Individual Custom Field Values",
+      "Description": "Update Individual Custom Field Values.",
+      "Anchor": "#update-individual-custom-field-values",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Update-Organization",
       "Name": "Update Organization",
       "Description": "Update Organization.",
@@ -532,6 +693,13 @@
       "Name": "Update Phone for an Organization",
       "Description": "Update Phone for an Organization",
       "Anchor": "#update-phone-for-an-organization",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-Task-by-Task-Number",
+      "Name": "Update Task by Task Number",
+      "Description": "Update Task by Task Number",
+      "Anchor": "#update-task-by-task-number",
       "IsDeprecated": false
     },
     {

@@ -1,0 +1,104 @@
+{
+  "UniqueName": "cdccontentservicesip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cdccontentservicesip/",
+  "Actions": [
+    {
+      "OperationId": "Audiences",
+      "Name": "Get audiences",
+      "Description": "Retrieves a list of the available audiences.",
+      "Anchor": "#get-audiences",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Language",
+      "Name": "Get languages",
+      "Description": "Returns a list of the available languages.",
+      "Anchor": "#get-languages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MediaGet",
+      "Name": "Get media by ID",
+      "Description": "Retrieves the details of a media that can be syndicated.",
+      "Anchor": "#get-media-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MediaSearch",
+      "Name": "Get a list of media",
+      "Description": "Retrieve media available in the Content Services system.",
+      "Anchor": "#get-a-list-of-media",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MediaTag",
+      "Name": "Get media by tag ID",
+      "Description": "Retrieves media objects using a tag ID.",
+      "Anchor": "#get-media-by-tag-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MediaTypes",
+      "Name": "Get media types",
+      "Description": "Retrieves a list of the available media types.",
+      "Anchor": "#get-media-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Organization",
+      "Name": "Get organizations",
+      "Description": "Returns a list of the available organizations.",
+      "Anchor": "#get-organizations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OrganizationType",
+      "Name": "Get organization types",
+      "Description": "Returns a list of the available organization types.",
+      "Anchor": "#get-organization-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Source",
+      "Name": "Get sources",
+      "Description": "Returns a list of the available sources.",
+      "Anchor": "#get-sources",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TagGet",
+      "Name": "Retrieve tag by ID",
+      "Description": "Retrieves a tag object using its ID.",
+      "Anchor": "#retrieve-tag-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TagRelated",
+      "Name": "Get related tags",
+      "Description": "Retrieves tag objects related to another tag.",
+      "Anchor": "#get-related-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tags",
+      "Name": "Get tags",
+      "Description": "Retrieves a list of available tags.",
+      "Anchor": "#get-tags",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TagTypes",
+      "Name": "Get tag types",
+      "Description": "Returns a list of the available tag types.",
+      "Anchor": "#get-tag-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Topics",
+      "Name": "Get topics",
+      "Description": "Retrieves a list of the available topics.",
+      "Anchor": "#get-topics",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "UniqueName": "openaiip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../openaiip/",
+  "Actions": [
+    {
+      "OperationId": "Completion",
+      "Name": "GPT3 Completes your prompt",
+      "Description": "GPT3 Completes your prompt",
+      "Anchor": "#gpt3-completes-your-prompt",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "UniqueName": "inqubajourney",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../inqubajourney/",
+  "Actions": [
+    {
+      "OperationId": "AcquireAccessToken",
+      "Name": "Acquire Access Token",
+      "Description": "Authenticate with the inQuba API and receive an authorization token that will be used for all API interactions.",
+      "Anchor": "#acquire-access-token",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublishEvent",
+      "Name": "Create Event",
+      "Description": "Publish an event record to the inQuba API. A bearer token is required to interact with the API.",
+      "Anchor": "#create-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublishTransaction",
+      "Name": "Create Transaction",
+      "Description": "Publish a transaction to the inQuba Journey API. A bearer token is required to interact with the API.",
+      "Anchor": "#create-transaction",
+      "IsDeprecated": false
+    }
+  ]
+}

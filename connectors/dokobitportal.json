@@ -12,7 +12,7 @@
     {
       "OperationId": "Portal-CreateSigning",
       "Name": "Portal - Create Signing",
-      "Description": "Create a PDF file for signing.",
+      "Description": "Create a PDF or ASIC file for signing.",
       "Anchor": "#portal---create-signing",
       "IsDeprecated": false
     },
@@ -45,6 +45,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "Portal-Remind",
+      "Name": "Portal - Send Reminder",
+      "Description": "Allows to send a reminder e-mail for participant, only if person has not signed document yet.",
+      "Anchor": "#portal---send-reminder",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Portal-SealSigning",
       "Name": "Portal - Seal signing",
       "Description": "Document will be sealed with your organizations' electronic seal. Please contact our support at developers@dokobit.com to get a qualified certificate for e-sealing.",
@@ -54,7 +61,7 @@
     {
       "OperationId": "Portal-SignerDelete",
       "Name": "Portal - Delete participant from signing",
-      "Description": "Access to the document will be revoked for the indicated participant.\n.",
+      "Description": "Access to the document will be revoked for the indicated participant.",
       "Anchor": "#portal---delete-participant-from-signing",
       "IsDeprecated": false
     },

@@ -2416,10 +2416,10 @@
         "IsDeprecated": false
       },
       {
-        "OperationId": "StockData",
-        "Name": "Get Stock Data",
+        "OperationId": "StockDataV2",
+        "Name": "Get Stock Data (V2)",
         "Description": "Access stock data for any US-based publicly traded equity security",
-        "Anchor": "#get-stock-data",
+        "Anchor": "#get-stock-data-(v2)",
         "IsDeprecated": false
       }
     ]
@@ -12214,6 +12214,110 @@
     ]
   },
   {
+    "UniqueName": "cdccontentservicesip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cdccontentservicesip/",
+    "Actions": [
+      {
+        "OperationId": "Audiences",
+        "Name": "Get audiences",
+        "Description": "Retrieves a list of the available audiences.",
+        "Anchor": "#get-audiences",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Language",
+        "Name": "Get languages",
+        "Description": "Returns a list of the available languages.",
+        "Anchor": "#get-languages",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MediaGet",
+        "Name": "Get media by ID",
+        "Description": "Retrieves the details of a media that can be syndicated.",
+        "Anchor": "#get-media-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MediaSearch",
+        "Name": "Get a list of media",
+        "Description": "Retrieve media available in the Content Services system.",
+        "Anchor": "#get-a-list-of-media",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MediaTag",
+        "Name": "Get media by tag ID",
+        "Description": "Retrieves media objects using a tag ID.",
+        "Anchor": "#get-media-by-tag-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MediaTypes",
+        "Name": "Get media types",
+        "Description": "Retrieves a list of the available media types.",
+        "Anchor": "#get-media-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Organization",
+        "Name": "Get organizations",
+        "Description": "Returns a list of the available organizations.",
+        "Anchor": "#get-organizations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OrganizationType",
+        "Name": "Get organization types",
+        "Description": "Returns a list of the available organization types.",
+        "Anchor": "#get-organization-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Source",
+        "Name": "Get sources",
+        "Description": "Returns a list of the available sources.",
+        "Anchor": "#get-sources",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TagGet",
+        "Name": "Retrieve tag by ID",
+        "Description": "Retrieves a tag object using its ID.",
+        "Anchor": "#retrieve-tag-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TagRelated",
+        "Name": "Get related tags",
+        "Description": "Retrieves tag objects related to another tag.",
+        "Anchor": "#get-related-tags",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Tags",
+        "Name": "Get tags",
+        "Description": "Retrieves a list of available tags.",
+        "Anchor": "#get-tags",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TagTypes",
+        "Name": "Get tag types",
+        "Description": "Returns a list of the available tag types.",
+        "Anchor": "#get-tag-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Topics",
+        "Name": "Get topics",
+        "Description": "Retrieves a list of the available topics.",
+        "Anchor": "#get-topics",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "cdkdrivecustomer",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cdkdrivecustomer/",
     "Actions": [
@@ -18098,7 +18202,7 @@
       {
         "OperationId": "Portal-CreateSigning",
         "Name": "Portal - Create Signing",
-        "Description": "Create a PDF file for signing.",
+        "Description": "Create a PDF or ASIC file for signing.",
         "Anchor": "#portal---create-signing",
         "IsDeprecated": false
       },
@@ -18131,6 +18235,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Portal-Remind",
+        "Name": "Portal - Send Reminder",
+        "Description": "Allows to send a reminder e-mail for participant, only if person has not signed document yet.",
+        "Anchor": "#portal---send-reminder",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Portal-SealSigning",
         "Name": "Portal - Seal signing",
         "Description": "Document will be sealed with your organizations' electronic seal. Please contact our support at developers@dokobit.com to get a qualified certificate for e-sealing.",
@@ -18140,7 +18251,7 @@
       {
         "OperationId": "Portal-SignerDelete",
         "Name": "Portal - Delete participant from signing",
-        "Description": "Access to the document will be revoked for the indicated participant.\n.",
+        "Description": "Access to the document will be revoked for the indicated participant.",
         "Anchor": "#portal---delete-participant-from-signing",
         "IsDeprecated": false
       },
@@ -27893,6 +28004,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "AddMasterDeliverable",
+        "Name": "Add Master Deliverable",
+        "Description": "Add Master Deliverable",
+        "Anchor": "#add-master-deliverable",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CopyDocument",
         "Name": "Copy Document",
         "Description": "Copies the documents",
@@ -27921,10 +28039,31 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateWorkflow",
+        "Name": "Create Workflow",
+        "Description": "Create Workflow",
+        "Anchor": "#create-workflow",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteMasterDeliverable",
+        "Name": "Delete Master Deliverable",
+        "Description": "Delete Master Deliverable",
+        "Anchor": "#delete-master-deliverable",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "DeleteUser",
         "Name": "Delete User",
         "Description": "Delete GoFileRoom and ClientFlow users from the System",
         "Anchor": "#delete-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteWorkflows",
+        "Name": "Delete Workflows",
+        "Description": "Delete Workflows",
+        "Anchor": "#delete-workflows",
         "IsDeprecated": false
       },
       {
@@ -27946,6 +28085,20 @@
         "Name": "Document Search",
         "Description": "Loads all the documents the user has access to in the specified drawer.",
         "Anchor": "#document-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditMasterDeliverable",
+        "Name": "Edit Master Deliverable",
+        "Description": "Edit Master Deliverable",
+        "Anchor": "#edit-master-deliverable",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditWorkflow",
+        "Name": "Edit WorkFlow",
+        "Description": "Edit WorkFlow",
+        "Anchor": "#edit-workflow",
         "IsDeprecated": false
       },
       {
@@ -28061,6 +28214,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetMasterDeliverable",
+        "Name": "Get Master Deliverable",
+        "Description": "Get Master Deliverable",
+        "Anchor": "#get-master-deliverable",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetPasswordPolicy",
         "Name": "Get Password Policy",
         "Description": "Fetches the Password policy for the firm",
@@ -28086,6 +28246,13 @@
         "Name": "Get User Info",
         "Description": "Fetches the GFR User Information",
         "Anchor": "#get-user-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUserInfoV2",
+        "Name": "Get User Info V2",
+        "Description": "Gets the User infromation",
+        "Anchor": "#get-user-info-v2",
         "IsDeprecated": false
       },
       {
@@ -28145,6 +28312,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "RouteWorkflowV2",
+        "Name": "Route Workflow V2",
+        "Description": "Route Workflow V2",
+        "Anchor": "#route-workflow-v2",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "SetGroupDocSecurity",
         "Name": "Set Group Document Security",
         "Description": "Assigns document security to a group",
@@ -28177,6 +28351,20 @@
         "Name": "Taxsort Document",
         "Description": "Taxsort PDF document",
         "Anchor": "#taxsort-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrackingReportByDeliverableV2",
+        "Name": "Tracking Report By Deliverable V2",
+        "Description": "Tracking Report by DeliverableV2",
+        "Anchor": "#tracking-report-by-deliverable-v2",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TrackingReportByWorkflow",
+        "Name": "Tracking Report By Workflow",
+        "Description": "Tracking Report by Workflow",
+        "Anchor": "#tracking-report-by-workflow",
         "IsDeprecated": false
       },
       {
@@ -29105,7 +29293,7 @@
       {
         "OperationId": "AllBreaches",
         "Name": "Getting all breached sites in the system",
-        "Description": "A breach is an instance of a system having been compromised by an attacker and the data disclosed. For example, Adobe was a breach, Gawker was a breach etc. It is possible to return the details of each of breach in the system.",
+        "Description": "A breach is an instance of a system having been compromised by an attacker and the data disclosed.",
         "Anchor": "#getting-all-breached-sites-in-the-system",
         "IsDeprecated": false
       },
@@ -35889,13 +36077,6 @@
         "IsDeprecated": false
       },
       {
-        "OperationId": "",
-        "Name": "Update Individual's Custom Field Value",
-        "Description": "Update Individual's Custom Field Value.",
-        "Anchor": "#update-individual's-custom-field-value",
-        "IsDeprecated": false
-      },
-      {
         "OperationId": "Add-Activity",
         "Name": "Add Activity",
         "Description": "Add Activity.",
@@ -35907,6 +36088,13 @@
         "Name": "Add Activity to Organization",
         "Description": "Add Activity to Organization",
         "Anchor": "#add-activity-to-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Activity-to-Sales-Opportunity",
+        "Name": "Add Activity to Sales Opportunity",
+        "Description": "Add Activity to Sales Opportunity",
+        "Anchor": "#add-activity-to-sales-opportunity",
         "IsDeprecated": false
       },
       {
@@ -35931,6 +36119,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Add-Categories-for-an-Organization",
+        "Name": "Add Categories for an Organization",
+        "Description": "Add Categories for an Organization",
+        "Anchor": "#add-categories-for-an-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Customer-Request",
+        "Name": "Add Customer Request",
+        "Description": "Add Customer Request",
+        "Anchor": "#add-customer-request",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Add-Email-to-Individual",
         "Name": "Add Email to Individual",
         "Description": "Add Email to Individual",
@@ -35945,10 +36147,31 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Add-Exam-Scores",
+        "Name": "Add Exam Scores",
+        "Description": "Add Exam Scores",
+        "Anchor": "#add-exam-scores",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Add-Individual",
         "Name": "Add Individual",
         "Description": "Adds an Individual.",
         "Anchor": "#add-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Nominee",
+        "Name": "Add Nominee",
+        "Description": "Add Nominee",
+        "Anchor": "#add-nominee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-Note-to-Sales-Opportunity",
+        "Name": "Add Note to Sales Opportunity",
+        "Description": "Add Note to Sales Opportunity",
+        "Anchor": "#add-note-to-sales-opportunity",
         "IsDeprecated": false
       },
       {
@@ -35984,6 +36207,13 @@
         "Name": "Add or Update a List of Custom Fields Per Individual",
         "Description": "Add or Update a List of Custom Fields Per Individual",
         "Anchor": "#add-or-update-a-list-of-custom-fields-per-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Add-or-Update-a-List-of-Custom-Fields-Per-Organization",
+        "Name": "Add or Update a List of Custom Fields Per Organization",
+        "Description": "Add or Update a List of Custom Fields Per Organization",
+        "Anchor": "#add-or-update-a-list-of-custom-fields-per-organization",
         "IsDeprecated": false
       },
       {
@@ -36071,6 +36301,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Delete-a-Category-for-an-Organization",
+        "Name": "Delete a Category for an Organization",
+        "Description": "Delete a Category for an Organization",
+        "Anchor": "#delete-a-category-for-an-organization",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Delete-an-Individual-Web-Link",
         "Name": "Delete an Individual Web Link",
         "Description": "Delete an Individual Web Link",
@@ -36103,6 +36340,13 @@
         "Name": "Find Individual by Id or Email or Record Number",
         "Description": "Find Individual by Id or Email.",
         "Anchor": "#find-individual-by-id-or-email-or-record-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Find-Members-by-Name",
+        "Name": "Find Members by Name",
+        "Description": "Find Members by Name",
+        "Anchor": "#find-members-by-name",
         "IsDeprecated": false
       },
       {
@@ -36169,6 +36413,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Get-All-Open-Orders-for-an-Individual",
+        "Name": "Get All Open Orders for an Individual",
+        "Description": "Get All Open Orders for an Individual",
+        "Anchor": "#get-all-open-orders-for-an-individual",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-All-States-by-Country",
+        "Name": "Get All States by Country",
+        "Description": "Get All States by Country",
+        "Anchor": "#get-all-states-by-country",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Get-Committee-Information-for-an-Individual",
         "Name": "Get Committee Information for an Individual",
         "Description": "Get Committee Information for an Individual",
@@ -36183,10 +36441,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Get-Course-Attendees",
+        "Name": "Get Course Attendees",
+        "Description": "Get Course Attendees",
+        "Anchor": "#get-course-attendees",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Get-Individual-Active-Memberships",
         "Name": "Get Individual Active Memberships",
         "Description": "Get Individual Active Memberships",
         "Anchor": "#get-individual-active-memberships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-Individual-Custom-Field-Values",
+        "Name": "Get Individual Custom Field Values",
+        "Description": "Get Individual Custom Field Values",
+        "Anchor": "#get-individual-custom-field-values",
         "IsDeprecated": false
       },
       {
@@ -36246,6 +36518,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Get-Purchases-for-an-Individual",
+        "Name": "Get Purchases for an Individual",
+        "Description": "Get Purchases for an Individual",
+        "Anchor": "#get-purchases-for-an-individual",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Get-Sub-Committees",
         "Name": "Get Sub-Committees",
         "Description": "Get Sub-Committees",
@@ -36288,6 +36567,34 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "List-All-Countries",
+        "Name": "List All Countries",
+        "Description": "List All Countries",
+        "Anchor": "#list-all-countries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-All-Event-Cancellations-by-Event",
+        "Name": "List All Event Cancellations by Event",
+        "Description": "List All Event Cancellations by Event",
+        "Anchor": "#list-all-event-cancellations-by-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-All-Exhibitors",
+        "Name": "List All Exhibitors",
+        "Description": "List All Exhibitors",
+        "Anchor": "#list-all-exhibitors",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-All-Exhibits",
+        "Name": "List All Exhibits",
+        "Description": "List All Exhibits",
+        "Anchor": "#list-all-exhibits",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "List-all-Individuals",
         "Name": "List all Individuals",
         "Description": "List all Individuals",
@@ -36302,6 +36609,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "List-Completed-User-Tasks-by-User-ID-or-Email",
+        "Name": "List Completed User Tasks by User ID or Email",
+        "Description": "List Completed User Tasks by User ID or Email",
+        "Anchor": "#list-completed-user-tasks-by-user-id-or-email",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "List-of-All-Individual-Members",
         "Name": "List of All Individual Members",
         "Description": "List of All Individual Members",
@@ -36313,6 +36627,27 @@
         "Name": "List of Customer Relationships",
         "Description": "List of Customer Relationships",
         "Anchor": "#list-of-customer-relationships",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-of-Exams",
+        "Name": "List of Exams",
+        "Description": "List of Exams",
+        "Anchor": "#list-of-exams",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-Pending-User-Tasks-by-User-ID-or-Email",
+        "Name": "List Pending User Tasks by User ID or Email",
+        "Description": "List Pending User Tasks by User ID or Email",
+        "Anchor": "#list-pending-user-tasks-by-user-id-or-email",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-Registrants",
+        "Name": "List Registrants",
+        "Description": "List Registrants",
+        "Anchor": "#list-registrants",
         "IsDeprecated": false
       },
       {
@@ -36372,6 +36707,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "Update-Customer-Request",
+        "Name": "Update Customer Request",
+        "Description": "Update Customer Request",
+        "Anchor": "#update-customer-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-custom-field-value",
+        "Name": "Update Individual Custom Field Values",
+        "Description": "Update Individual Custom Field Values.",
+        "Anchor": "#update-individual-custom-field-values",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Update-Organization",
         "Name": "Update Organization",
         "Description": "Update Organization.",
@@ -36390,6 +36739,13 @@
         "Name": "Update Phone for an Organization",
         "Description": "Update Phone for an Organization",
         "Anchor": "#update-phone-for-an-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-Task-by-Task-Number",
+        "Name": "Update Task by Task Number",
+        "Description": "Update Task by Task Number",
+        "Anchor": "#update-task-by-task-number",
         "IsDeprecated": false
       },
       {
@@ -37427,6 +37783,33 @@
         "Name": "Unsubscribe subscription",
         "Description": "Unsubscribe from a subscription.",
         "Anchor": "#unsubscribe-subscription",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "inqubajourney",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../inqubajourney/",
+    "Actions": [
+      {
+        "OperationId": "AcquireAccessToken",
+        "Name": "Acquire Access Token",
+        "Description": "Authenticate with the inQuba API and receive an authorization token that will be used for all API interactions.",
+        "Anchor": "#acquire-access-token",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PublishEvent",
+        "Name": "Create Event",
+        "Description": "Publish an event record to the inQuba API. A bearer token is required to interact with the API.",
+        "Anchor": "#create-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PublishTransaction",
+        "Name": "Create Transaction",
+        "Description": "Publish a transaction to the inQuba Journey API. A bearer token is required to interact with the API.",
+        "Anchor": "#create-transaction",
         "IsDeprecated": false
       }
     ]
@@ -42828,7 +43211,7 @@
       {
         "OperationId": "ASI_incident_trigger_subscribe",
         "Name": "Microsoft Sentinel incident",
-        "Description": "When a response to an Microsoft Sentinel incident is triggered. This playbook is triggered by an automation rule when a new incident is created. Playbook receives the Microsoft Sentinel incident as its input, including alerts and entities.",
+        "Description": "When a response to an Microsoft Sentinel incident is triggered. This playbook is triggered by an automation rule when a new incident is created or updated. Playbook receives the Microsoft Sentinel incident as its input, including alerts and entities.",
         "Anchor": "#microsoft-sentinel-incident",
         "IsDeprecated": false
       },
@@ -46713,6 +47096,19 @@
         "Name": "Create new project",
         "Description": "Creates new project in Open Experience for selected services",
         "Anchor": "#create-new-project",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "openaiip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../openaiip/",
+    "Actions": [
+      {
+        "OperationId": "Completion",
+        "Name": "GPT3 Completes your prompt",
+        "Description": "GPT3 Completes your prompt",
+        "Anchor": "#gpt3-completes-your-prompt",
         "IsDeprecated": false
       }
     ]
@@ -57881,6 +58277,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GenerateDocument",
+        "Name": "Generate document",
+        "Description": "Generate document using a template ID that must be uploaded previously using this action. Enter the document data in JSON format",
+        "Anchor": "#generate-document",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetTermByKeyValue",
         "Name": "Get terms by key value",
         "Description": "Get terms by key value",
@@ -57892,6 +58295,13 @@
         "Name": "Get terms by label",
         "Description": "Get terms by label name",
         "Anchor": "#get-terms-by-label",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UploadTemplate",
+        "Name": "Upload document template",
+        "Description": "Uploads a document template that can be used for 24 hours to generate documents.",
+        "Anchor": "#upload-document-template",
         "IsDeprecated": false
       }
     ]
@@ -64214,6 +64624,19 @@
         "Name": "Certify hash",
         "Description": "Certifies the existence and integrity of a file given its hash.",
         "Anchor": "#certify-hash",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "tuxmailer",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tuxmailer/",
+    "Actions": [
+      {
+        "OperationId": "ValidateEmail",
+        "Name": "Validate an Email Address",
+        "Description": "Validate an email address whenever email is added in lists",
+        "Anchor": "#validate-an-email-address",
         "IsDeprecated": false
       }
     ]

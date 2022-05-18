@@ -1,0 +1,13 @@
+{
+  "UniqueName": "tuxmailer",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../tuxmailer/",
+  "Actions": [
+    {
+      "OperationId": "ValidateEmail",
+      "Name": "Validate an Email Address",
+      "Description": "Validate an email address whenever email is added in lists",
+      "Anchor": "#validate-an-email-address",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -33,7 +33,7 @@
     {
       "OperationId": "ASI_incident_trigger_subscribe",
       "Name": "Microsoft Sentinel incident",
-      "Description": "When a response to an Microsoft Sentinel incident is triggered. This playbook is triggered by an automation rule when a new incident is created. Playbook receives the Microsoft Sentinel incident as its input, including alerts and entities.",
+      "Description": "When a response to an Microsoft Sentinel incident is triggered. This playbook is triggered by an automation rule when a new incident is created or updated. Playbook receives the Microsoft Sentinel incident as its input, including alerts and entities.",
       "Anchor": "#microsoft-sentinel-incident",
       "IsDeprecated": false
     },
