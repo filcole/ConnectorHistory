@@ -1136,100 +1136,100 @@
     "Actions": [
       {
         "OperationId": "DeleteItem",
-        "Name": "Delete a record (deprecated)",
+        "Name": "Delete a record (deprecated) [DEPRECATED]",
         "Description": "This operation deletes a record from an entity collection",
-        "Anchor": "#delete-a-record-(deprecated)",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "GetItem",
-        "Name": "Get record (deprecated)",
-        "Description": "This operation retrieves the specified record for an entity",
-        "Anchor": "#get-record-(deprecated)",
+        "Anchor": "#delete-a-record-(deprecated)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "GetItem_V2",
-        "Name": "Get record (deprecated) (Preview)",
-        "Description": "This operation retrieves the specified record for an entity (with option sets exposed as strings)",
-        "Anchor": "#get-record-(deprecated)-(preview)",
+        "Name": "Get record (deprecated) [DEPRECATED]",
+        "Description": "This operation retrieves the specified record for an entity",
+        "Anchor": "#get-record-(deprecated)-[deprecated]",
         "IsDeprecated": true
       },
       {
-        "OperationId": "GetItems",
-        "Name": "List records (deprecated)",
-        "Description": "This operation gets records for an entity",
-        "Anchor": "#list-records-(deprecated)",
+        "OperationId": "GetItem_V2",
+        "Name": "Get record (deprecated) [DEPRECATED]",
+        "Description": "This operation retrieves the specified record for an entity (with option sets exposed as strings)",
+        "Anchor": "#get-record-(deprecated)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "GetItems_V2",
-        "Name": "List records (deprecated) (Preview)",
+        "Name": "List records (deprecated) [DEPRECATED]",
+        "Description": "This operation gets records for an entity",
+        "Anchor": "#list-records-(deprecated)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "GetItems_V2",
+        "Name": "List records (deprecated) [DEPRECATED]",
         "Description": "This operation gets records for an entity (with option sets exposed as strings)",
-        "Anchor": "#list-records-(deprecated)-(preview)",
+        "Anchor": "#list-records-(deprecated)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "GetOnDeletedItems",
-        "Name": "When a record is deleted (deprecated)",
+        "Name": "When a record is deleted (deprecated) [DEPRECATED]",
         "Description": "Triggers a flow when an object is deleted in Dynamics 365",
-        "Anchor": "#when-a-record-is-deleted-(deprecated)",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "GetOnNewItems",
-        "Name": "When a record is created (deprecated)",
-        "Description": "Triggers a flow when an object is created in Dynamics 365",
-        "Anchor": "#when-a-record-is-created-(deprecated)",
+        "Anchor": "#when-a-record-is-deleted-(deprecated)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "GetOnNewItems_V2",
-        "Name": "When a record is created (deprecated) (Preview)",
+        "Name": "When a record is created (deprecated) [DEPRECATED]",
+        "Description": "Triggers a flow when an object is created in Dynamics 365",
+        "Anchor": "#when-a-record-is-created-(deprecated)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "GetOnNewItems_V2",
+        "Name": "When a record is created (deprecated) [DEPRECATED]",
         "Description": "Triggers a flow when an object is created in Dynamics 365 (with option sets exposed as strings)",
-        "Anchor": "#when-a-record-is-created-(deprecated)-(preview)",
+        "Anchor": "#when-a-record-is-created-(deprecated)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "GetOnUpdatedItems",
-        "Name": "When a record is updated (deprecated)",
+        "Name": "When a record is updated (deprecated) [DEPRECATED]",
         "Description": "Triggers a flow when an object is modified in Dynamics 365",
-        "Anchor": "#when-a-record-is-updated-(deprecated)",
+        "Anchor": "#when-a-record-is-updated-(deprecated)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "GetOnUpdatedItems_V2",
-        "Name": "When a record is created or updated (deprecated) (Preview)",
+        "Name": "When a record is created or updated (deprecated) [DEPRECATED]",
         "Description": "Triggers a flow when an object is created or modified in Dynamics 365 (with option sets exposed as strings)",
-        "Anchor": "#when-a-record-is-created-or-updated-(deprecated)-(preview)",
-        "IsDeprecated": true
-      },
-      {
-        "OperationId": "PatchItem",
-        "Name": "Update a record (deprecated)",
-        "Description": "This operation updates an existing record for an entity",
-        "Anchor": "#update-a-record-(deprecated)",
+        "Anchor": "#when-a-record-is-created-or-updated-(deprecated)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "PatchItem_V2",
-        "Name": "Update a record (deprecated) (Preview)",
-        "Description": "This operation updates an existing record for an entity (with option sets exposed as strings)",
-        "Anchor": "#update-a-record-(deprecated)-(preview)",
+        "Name": "Update a record (deprecated) [DEPRECATED]",
+        "Description": "This operation updates an existing record for an entity",
+        "Anchor": "#update-a-record-(deprecated)-[deprecated]",
         "IsDeprecated": true
       },
       {
-        "OperationId": "PostItem",
-        "Name": "Create a new record (deprecated)",
-        "Description": "This operation creates a new record of an entity",
-        "Anchor": "#create-a-new-record-(deprecated)",
+        "OperationId": "PatchItem_V2",
+        "Name": "Update a record (deprecated) [DEPRECATED]",
+        "Description": "This operation updates an existing record for an entity (with option sets exposed as strings)",
+        "Anchor": "#update-a-record-(deprecated)-[deprecated]",
         "IsDeprecated": true
       },
       {
         "OperationId": "PostItem_V2",
-        "Name": "Create a new record (deprecated) (Preview)",
+        "Name": "Create a new record (deprecated) [DEPRECATED]",
+        "Description": "This operation creates a new record of an entity",
+        "Anchor": "#create-a-new-record-(deprecated)-[deprecated]",
+        "IsDeprecated": true
+      },
+      {
+        "OperationId": "PostItem_V2",
+        "Name": "Create a new record (deprecated) [DEPRECATED]",
         "Description": "This operation creates a new record of an entity (with option sets exposed as strings)",
-        "Anchor": "#create-a-new-record-(deprecated)-(preview)",
+        "Anchor": "#create-a-new-record-(deprecated)-[deprecated]",
         "IsDeprecated": true
       }
     ]

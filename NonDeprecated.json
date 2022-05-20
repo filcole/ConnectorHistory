@@ -52187,6 +52187,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ExecuteDatasetQueriesJson",
+        "Name": "Run a json query against a dataset",
+        "Description": "Use the Power BI REST API to run a query in json format.",
+        "Anchor": "#run-a-json-query-against-a-dataset",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExecuteDatasetQuery",
+        "Name": "Run a query against a dataset",
+        "Description": "Use the Power BI REST API to run a query.",
+        "Anchor": "#run-a-query-against-a-dataset",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetGoal",
         "Name": "Get a goal (Preview)",
         "Description": "Gets the specified Power BI goal on a scorecard.",
