@@ -1,0 +1,104 @@
+{
+  "UniqueName": "alkymi",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../alkymi/",
+  "Actions": [
+    {
+      "OperationId": "datasets_list",
+      "Name": "List All Datasets",
+      "Description": "Lists all of the datasets available on the tenant.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/6VcSt63koHgyePk72r0pR",
+      "Anchor": "#list-all-datasets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "datasets_retrieve",
+      "Name": "Get Dataset Information",
+      "Description": "Retrieve a specific dataset instance. The returned dataset record may require additional parsing before using downstream in the workflow.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/dowMAn1aXoA6vyOj24fOr",
+      "Anchor": "#get-dataset-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "documents_create",
+      "Name": "Upload Document File",
+      "Description": "Uploads a file to a Data Inbox tenant for processing.",
+      "Anchor": "#upload-document-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "documents_download_original_retrieve",
+      "Name": "Get Document File (Original Format)",
+      "Description": "Downloads a copy of the document file posted to Data Inbox in its original format.",
+      "Anchor": "#get-document-file-(original-format)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "documents_download_pdf_retrieve",
+      "Name": "Get Document File (PDF Format)",
+      "Description": "Downloads a copy of the document file posted to Data Inbox in a converted PDF format.",
+      "Anchor": "#get-document-file-(pdf-format)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "documents_list",
+      "Name": "List All Documents",
+      "Description": "Lists all of the documents available on the tenant.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/7DOwvq52yx9eVF2KFpkQH",
+      "Anchor": "#list-all-documents",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "documents_retrieve",
+      "Name": "Get Document Information",
+      "Description": "Retrieve a specific document instance.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/IEdTOtMaW23SQFRPhkDXh",
+      "Anchor": "#get-document-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "event_listener",
+      "Name": "When An Alkymi Event Triggers",
+      "Description": "This trigger is executed when any of the selected Alkymi events occur.",
+      "Anchor": "#when-an-alkymi-event-triggers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "executions_list",
+      "Name": "List All Executions",
+      "Description": "Lists all of the executions available on the tenant.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/7qd1-PJ-P40RFf7ocIK5g",
+      "Anchor": "#list-all-executions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "executions_retrieve",
+      "Name": "Get Execution Information",
+      "Description": "Retrieve a specific execution instance.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/sugkRPXlX9jwR3dDbmrdX",
+      "Anchor": "#get-execution-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pipelines_list",
+      "Name": "List All Patterns",
+      "Description": "List all of the patterns available on the tenant.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/O_NVlCnEFDOAQPWev_rdb",
+      "Anchor": "#list-all-patterns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "pipelines_retrieve",
+      "Name": "Get Pattern Information",
+      "Description": "Retrieve a specific pattern instance. The returned pattern record may require additional parsing before using downstream in the workflow.",
+      "Anchor": "#get-pattern-information",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "records_list",
+      "Name": "List All Records",
+      "Description": "Lists all of the records available on the tenant. For example, you can return all records for a specific pattern if the tenant is configured with multiple patterns.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/AxGvA5pWxls9DWOMUE1qs",
+      "Anchor": "#list-all-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "records_retrieve",
+      "Name": "Get Record Information",
+      "Description": "Retrieve a specific record instance. The returned record object may require additional parsing before using downstream in the workflow.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/HEVS5cHZTtViD4_F6BLlM",
+      "Anchor": "#get-record-information",
+      "IsDeprecated": false
+    }
+  ]
+}

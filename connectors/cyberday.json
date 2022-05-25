@@ -1,0 +1,20 @@
+{
+  "UniqueName": "cyberday",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cyberday/",
+  "Actions": [
+    {
+      "OperationId": "AddSystem",
+      "Name": "Create a System",
+      "Description": "Create a System in your Cyberday account.",
+      "Anchor": "#create-a-system",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSystems",
+      "Name": "List Systems",
+      "Description": "Retrieve a list of systems from your Cyberday account.",
+      "Anchor": "#list-systems",
+      "IsDeprecated": false
+    }
+  ]
+}

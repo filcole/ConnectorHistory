@@ -1,0 +1,41 @@
+{
+  "UniqueName": "asiteksa",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../asiteksa/",
+  "Actions": [
+    {
+      "OperationId": "ASITE_TRIGGER_EVENT",
+      "Name": "When a workflow is triggered on file(s)",
+      "Description": "This operation triggers a flow when a file is uploaded/updated on the project. The trigger is fired to include sub-folders based on the workflow configuration.",
+      "Anchor": "#when-a-workflow-is-triggered-on-file(s)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ASITE_TRIGGER_EVENT_APP_FORM",
+      "Name": "When a workflow is triggered on App(s)",
+      "Description": "This operation triggers a flow when a form is created/updated on the project. Configure separate flows for each App.",
+      "Anchor": "#when-a-workflow-is-triggered-on-app(s)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FILE_DOWNLOAD_BY_URL",
+      "Name": "Get file content",
+      "Description": "Retrieves the file content from Asite.",
+      "Anchor": "#get-file-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SET_FILE_METADATA",
+      "Name": "Set file metadata",
+      "Description": "Retrieves the defined file meta-data and sets the values during the file upload process. Note: it is mandatory to set this action before the Create file action is triggered.",
+      "Anchor": "#set-file-metadata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UPLOAD_BINARY_FILE",
+      "Name": "Create file",
+      "Description": "Upload a file in Asite project folder.",
+      "Anchor": "#create-file",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "UniqueName": "propublicacampaignip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../propublicacampaignip/",
+  "Actions": [
+    {
+      "OperationId": "BundlerCommittee",
+      "Name": "Get lobbyist bundlers for a specific committee",
+      "Description": "Retrieves the most recent lobbyist bundlers reported by a specific committee.",
+      "Anchor": "#get-lobbyist-bundlers-for-a-specific-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CandidateGet",
+      "Name": "Get a candidate",
+      "Description": "Retrieves a specific candidate.",
+      "Anchor": "#get-a-candidate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CandidateRecent",
+      "Name": "Get recently added candidates",
+      "Description": "Retrieves the 20 most recently added candidates.",
+      "Anchor": "#get-recently-added-candidates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CandidateSearch",
+      "Name": "Search for candidates",
+      "Description": "Retrieves candidates by first or last name.",
+      "Anchor": "#search-for-candidates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CandidateState",
+      "Name": "Get candidates from a state",
+      "Description": "Retrieves an array of FEC candidates for a given state (and optional chamber and district).",
+      "Anchor": "#get-candidates-from-a-state",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CandidateTopFinancial",
+      "Name": "Get top 20 candidates in specific financial category",
+      "Description": "Retrieves the top 20 candidates within a given financial category for a given campaign cycle.",
+      "Anchor": "#get-top-20-candidates-in-specific-financial-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitteeFiling",
+      "Name": "Get committee filings",
+      "Description": "Retrieves the 20 most recent FEC filings from the specified committee.",
+      "Anchor": "#get-committee-filings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitteeGet",
+      "Name": "Get a specific committee",
+      "Description": "Retrieves a specific FEC committee for a given campaign cycle.",
+      "Anchor": "#get-a-specific-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitteeLeadership",
+      "Name": "Get leadership committees",
+      "Description": "Retrieves committees designated as leadership PACs by the FEC.",
+      "Anchor": "#get-leadership-committees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitteeRecent",
+      "Name": "Get recently added committees",
+      "Description": "Retrieves the 20 most recently added FEC committees.",
+      "Anchor": "#get-recently-added-committees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitteeRecentPACs",
+      "Name": "Get recently added independent expenditure-only committees",
+      "Description": "Retrieves the 20 most recently added FEC independent expenditure-only committees, known as super PACs.",
+      "Anchor": "#get-recently-added-independent-expenditure-only-committees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommitteeSearch",
+      "Name": "Search for committees",
+      "Description": "Retrieves a list of committees.",
+      "Anchor": "#search-for-committees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommunicationCommittee",
+      "Name": "Get electioneering communications by specific committee",
+      "Description": "Retrieves the most recent broadcast advertisements by a specific committee that identify one or more federal candidates (and have aired 30 days before a primary election and 60 days before the general election).",
+      "Anchor": "#get-electioneering-communications-by-specific-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommunicationDate",
+      "Name": "Get electioneering communications by date",
+      "Description": "Retrieves all broadcast advertisements that identify one or more federal candidates (and have aired 30 days before a primary election and 60 days before the general election) from a specific date.",
+      "Anchor": "#get-electioneering-communications-by-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CommunicationRecent",
+      "Name": "Get recent electioneering communications",
+      "Description": "Retrieves the 20 most recent broadcast advertisements that identify one or more federal candidates (and have aired 30 days before a primary election and 60 days before the general election).",
+      "Anchor": "#get-recent-electioneering-communications",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContributionLateCandidate",
+      "Name": "Get recent late contributions to a candidate",
+      "Description": "Retrieves the most recent late contributions to a specific candidate.",
+      "Anchor": "#get-recent-late-contributions-to-a-candidate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContributionLateCommittee",
+      "Name": "Get recent late contributions to a committee",
+      "Description": "Retrieves the most recent late contributions to a specific committee.",
+      "Anchor": "#get-recent-late-contributions-to-a-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContributionLateDate",
+      "Name": "Get recent late contributions by date",
+      "Description": "Retrieves late contributions from a specific date.",
+      "Anchor": "#get-recent-late-contributions-by-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContributionLateRecent",
+      "Name": "Get recent late contributions",
+      "Description": "During the last 20 days before a primary or general election, candidate committees must file reports of any contributions of $1,000 or more within 48 hours of receipt. This retrieves the most recent late contributions to candidates.",
+      "Anchor": "#get-recent-late-contributions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExpenditureCandidate",
+      "Name": "Get independent expenditures that support or oppose a specific candidate",
+      "Description": "Retrieves the 200 most recent independent expenditures in support of or opposition to a given candidate.",
+      "Anchor": "#get-independent-expenditures-that-support-or-oppose-a-specific-candidate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExpenditureCommittee",
+      "Name": "Get independent expenditures by specific committee",
+      "Description": "Retrieves the 20 most recent independent expenditures by a given committee.",
+      "Anchor": "#get-independent-expenditures-by-specific-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExpenditureDate",
+      "Name": "Get independent expenditures by date",
+      "Description": "Retrieves all independent expenditures on a specific date (the date of activity, not the date filed with the FEC).",
+      "Anchor": "#get-independent-expenditures-by-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExpenditureOffice",
+      "Name": "Get independent expenditures office totals",
+      "Description": "Retrieves the amount of money spent in independent expenditures for a given office (either House, Senate or President).",
+      "Anchor": "#get-independent-expenditures-office-totals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExpenditurePres",
+      "Name": "Get independent expenditures that support or oppose presidential candidates",
+      "Description": "Retrieves the 200 most recent independent expenditures in support of or opposition to any presidential candidate.",
+      "Anchor": "#get-independent-expenditures-that-support-or-oppose-presidential-candidates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExpenditureRaceCommittee",
+      "Name": "Get independent expenditures race totals for a specific committee",
+      "Description": "Retrieves the total amounts of money that a given committee has spent on individual races (consisting of a state, office and district) during a cycle.",
+      "Anchor": "#get-independent-expenditures-race-totals-for-a-specific-committee",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExpenditureRecent",
+      "Name": "Get recent independent expenditures",
+      "Description": "Retrieves the 200 most recent independent expenditures and optionally can be offset by multiples of 20.",
+      "Anchor": "#get-recent-independent-expenditures",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilingDate",
+      "Name": "Get electronic filings by date",
+      "Description": "Retrieves information about FEC reports filed electronically on a specific date.",
+      "Anchor": "#get-electronic-filings-by-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilingFormType",
+      "Name": "Get electronic filing form types",
+      "Description": "Retrieves a list of available form types for FEC electronic filings.",
+      "Anchor": "#get-electronic-filing-form-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilingSearch",
+      "Name": "Search for electronic filings",
+      "Description": "Retrieves information about FEC reports filed electronically by a committee.",
+      "Anchor": "#search-for-electronic-filings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilingSummary",
+      "Name": "Get summary for a specific presidential electronic filing",
+      "Description": "Retrieves summary figures from a specific FEC electronic filing (Form 3 filings by presidential candidates only).",
+      "Anchor": "#get-summary-for-a-specific-presidential-electronic-filing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilingType",
+      "Name": "Get electronic filings by type",
+      "Description": "Retrieves the most recent electronic filings by form type.",
+      "Anchor": "#get-electronic-filings-by-type",
+      "IsDeprecated": false
+    }
+  ]
+}

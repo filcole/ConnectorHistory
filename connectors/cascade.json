@@ -1,0 +1,146 @@
+{
+  "UniqueName": "cascade",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cascade/",
+  "Actions": [
+    {
+      "OperationId": "Create-goal",
+      "Name": "Create a Goal",
+      "Description": "Creates a new Goal within an instance.",
+      "Anchor": "#create-a-goal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Create-risk",
+      "Name": "Create a Risk",
+      "Description": "Creates a new Risk on an existing Cascade Goal.",
+      "Anchor": "#create-a-risk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Create-task",
+      "Name": "Create a Task",
+      "Description": "Creates a new Task on an existing Cascade Goal.",
+      "Anchor": "#create-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Create-update",
+      "Name": "Create an Update",
+      "Description": "Creates a new Update on an existing Cascade Goal.",
+      "Anchor": "#create-an-update",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-goal",
+      "Name": "Delete Goal",
+      "Description": "Deletes a Goal based off of its Goal ID.",
+      "Anchor": "#delete-goal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-risk",
+      "Name": "Delete Risk",
+      "Description": "Deletes a Risk based off of its Risk ID.",
+      "Anchor": "#delete-risk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-task",
+      "Name": "Delete Task",
+      "Description": "Deletes a Task based off of its Task ID.",
+      "Anchor": "#delete-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-update",
+      "Name": "Delete Update",
+      "Description": "Deletes an Update based off of its Update ID.",
+      "Anchor": "#delete-update",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-all-goals",
+      "Name": "Get all Goals",
+      "Description": "Returns all Goals within an instance.",
+      "Anchor": "#get-all-goals",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-all-risks",
+      "Name": "Get all Risks",
+      "Description": "Returns all Risks within an instance.",
+      "Anchor": "#get-all-risks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-all-tasks",
+      "Name": "Get all Tasks",
+      "Description": "Returns all Tasks within an instance.",
+      "Anchor": "#get-all-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-all-updates",
+      "Name": "Get all Updates",
+      "Description": "Returns all Updates within an instance.",
+      "Anchor": "#get-all-updates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-single-goal",
+      "Name": "Get single Goal",
+      "Description": "Returns a single Goal based off of its Goal ID.",
+      "Anchor": "#get-single-goal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-single-risk",
+      "Name": "Get single Risk",
+      "Description": "Returns a single Risk based off of its Risk ID.",
+      "Anchor": "#get-single-risk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-single-task",
+      "Name": "Get single Task",
+      "Description": "Returns a single Task based off of its Task ID.",
+      "Anchor": "#get-single-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-single-update",
+      "Name": "Get single Update",
+      "Description": "Returns a single Update based off of its Update ID.",
+      "Anchor": "#get-single-update",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-goal",
+      "Name": "Update a Goal",
+      "Description": "Updates an existing Goal's details based off of its Goal ID.",
+      "Anchor": "#update-a-goal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-risk",
+      "Name": "Update Risk",
+      "Description": "Updates an existing Risk's details based off of its Risk ID.",
+      "Anchor": "#update-risk",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-task",
+      "Name": "Update Task",
+      "Description": "Updates an existing Task's details based off of its Task ID.",
+      "Anchor": "#update-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-update",
+      "Name": "Update an Update",
+      "Description": "Revises an existing Update's details based off of its Update ID.",
+      "Anchor": "#update-an-update",
+      "IsDeprecated": false
+    }
+  ]
+}

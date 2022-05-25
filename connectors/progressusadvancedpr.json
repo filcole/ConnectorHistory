@@ -1,0 +1,13 @@
+{
+  "UniqueName": "progressusadvancedpr",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../progressusadvancedpr/",
+  "Actions": [
+    {
+      "OperationId": "Get",
+      "Name": "Get Records",
+      "Description": "Retrieve records",
+      "Anchor": "#get-records",
+      "IsDeprecated": false
+    }
+  ]
+}

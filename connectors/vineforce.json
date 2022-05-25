@@ -1,0 +1,20 @@
+{
+  "UniqueName": "vineforce",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../vineforce/",
+  "Actions": [
+    {
+      "OperationId": "Alert",
+      "Name": "Alert a user",
+      "Description": "This operation is used to alert user.",
+      "Anchor": "#alert-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTask",
+      "Name": "Create Task",
+      "Description": "This operation is used to create a new task.",
+      "Anchor": "#create-task",
+      "IsDeprecated": false
+    }
+  ]
+}

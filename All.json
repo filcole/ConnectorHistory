@@ -2523,6 +2523,110 @@
     ]
   },
   {
+    "UniqueName": "alkymi",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../alkymi/",
+    "Actions": [
+      {
+        "OperationId": "datasets_list",
+        "Name": "List All Datasets",
+        "Description": "Lists all of the datasets available on the tenant.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/6VcSt63koHgyePk72r0pR",
+        "Anchor": "#list-all-datasets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "datasets_retrieve",
+        "Name": "Get Dataset Information",
+        "Description": "Retrieve a specific dataset instance. The returned dataset record may require additional parsing before using downstream in the workflow.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/dowMAn1aXoA6vyOj24fOr",
+        "Anchor": "#get-dataset-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "documents_create",
+        "Name": "Upload Document File",
+        "Description": "Uploads a file to a Data Inbox tenant for processing.",
+        "Anchor": "#upload-document-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "documents_download_original_retrieve",
+        "Name": "Get Document File (Original Format)",
+        "Description": "Downloads a copy of the document file posted to Data Inbox in its original format.",
+        "Anchor": "#get-document-file-(original-format)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "documents_download_pdf_retrieve",
+        "Name": "Get Document File (PDF Format)",
+        "Description": "Downloads a copy of the document file posted to Data Inbox in a converted PDF format.",
+        "Anchor": "#get-document-file-(pdf-format)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "documents_list",
+        "Name": "List All Documents",
+        "Description": "Lists all of the documents available on the tenant.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/7DOwvq52yx9eVF2KFpkQH",
+        "Anchor": "#list-all-documents",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "documents_retrieve",
+        "Name": "Get Document Information",
+        "Description": "Retrieve a specific document instance.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/IEdTOtMaW23SQFRPhkDXh",
+        "Anchor": "#get-document-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "event_listener",
+        "Name": "When An Alkymi Event Triggers",
+        "Description": "This trigger is executed when any of the selected Alkymi events occur.",
+        "Anchor": "#when-an-alkymi-event-triggers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "executions_list",
+        "Name": "List All Executions",
+        "Description": "Lists all of the executions available on the tenant.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/7qd1-PJ-P40RFf7ocIK5g",
+        "Anchor": "#list-all-executions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "executions_retrieve",
+        "Name": "Get Execution Information",
+        "Description": "Retrieve a specific execution instance.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/sugkRPXlX9jwR3dDbmrdX",
+        "Anchor": "#get-execution-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "pipelines_list",
+        "Name": "List All Patterns",
+        "Description": "List all of the patterns available on the tenant.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/O_NVlCnEFDOAQPWev_rdb",
+        "Anchor": "#list-all-patterns",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "pipelines_retrieve",
+        "Name": "Get Pattern Information",
+        "Description": "Retrieve a specific pattern instance. The returned pattern record may require additional parsing before using downstream in the workflow.",
+        "Anchor": "#get-pattern-information",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "records_list",
+        "Name": "List All Records",
+        "Description": "Lists all of the records available on the tenant. For example, you can return all records for a specific pattern if the tenant is configured with multiple patterns.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/AxGvA5pWxls9DWOMUE1qs",
+        "Anchor": "#list-all-records",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "records_retrieve",
+        "Name": "Get Record Information",
+        "Description": "Retrieve a specific record instance. The returned record object may require additional parsing before using downstream in the workflow.\nhttps://app.archbee.io/docs/RHl7SG2eUFckQNrUgXcGp/HEVS5cHZTtViD4_F6BLlM",
+        "Anchor": "#get-record-information",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "allgeo",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../allgeo/",
     "Actions": [
@@ -4661,6 +4765,88 @@
   {
     "UniqueName": "asite",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../asite/",
+    "Actions": [
+      {
+        "OperationId": "ASITE_TRIGGER_EVENT",
+        "Name": "When a workflow is triggered on file(s)",
+        "Description": "This operation triggers a flow when a file is uploaded/updated on the project. The trigger is fired to include sub-folders based on the workflow configuration.",
+        "Anchor": "#when-a-workflow-is-triggered-on-file(s)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ASITE_TRIGGER_EVENT_APP_FORM",
+        "Name": "When a workflow is triggered on App(s)",
+        "Description": "This operation triggers a flow when a form is created/updated on the project. Configure separate flows for each App.",
+        "Anchor": "#when-a-workflow-is-triggered-on-app(s)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FILE_DOWNLOAD_BY_URL",
+        "Name": "Get file content",
+        "Description": "Retrieves the file content from Asite.",
+        "Anchor": "#get-file-content",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SET_FILE_METADATA",
+        "Name": "Set file metadata",
+        "Description": "Retrieves the defined file meta-data and sets the values during the file upload process. Note: it is mandatory to set this action before the Create file action is triggered.",
+        "Anchor": "#set-file-metadata",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UPLOAD_BINARY_FILE",
+        "Name": "Create file",
+        "Description": "Upload a file in Asite project folder.",
+        "Anchor": "#create-file",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "asiteksa",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../asiteksa/",
+    "Actions": [
+      {
+        "OperationId": "ASITE_TRIGGER_EVENT",
+        "Name": "When a workflow is triggered on file(s)",
+        "Description": "This operation triggers a flow when a file is uploaded/updated on the project. The trigger is fired to include sub-folders based on the workflow configuration.",
+        "Anchor": "#when-a-workflow-is-triggered-on-file(s)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ASITE_TRIGGER_EVENT_APP_FORM",
+        "Name": "When a workflow is triggered on App(s)",
+        "Description": "This operation triggers a flow when a form is created/updated on the project. Configure separate flows for each App.",
+        "Anchor": "#when-a-workflow-is-triggered-on-app(s)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FILE_DOWNLOAD_BY_URL",
+        "Name": "Get file content",
+        "Description": "Retrieves the file content from Asite.",
+        "Anchor": "#get-file-content",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SET_FILE_METADATA",
+        "Name": "Set file metadata",
+        "Description": "Retrieves the defined file meta-data and sets the values during the file upload process. Note: it is mandatory to set this action before the Create file action is triggered.",
+        "Anchor": "#set-file-metadata",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UPLOAD_BINARY_FILE",
+        "Name": "Create file",
+        "Description": "Upload a file in Asite project folder.",
+        "Anchor": "#create-file",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "asiteuae",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../asiteuae/",
     "Actions": [
       {
         "OperationId": "ASITE_TRIGGER_EVENT",
@@ -12917,6 +13103,152 @@
     ]
   },
   {
+    "UniqueName": "cascade",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cascade/",
+    "Actions": [
+      {
+        "OperationId": "Create-goal",
+        "Name": "Create a Goal",
+        "Description": "Creates a new Goal within an instance.",
+        "Anchor": "#create-a-goal",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Create-risk",
+        "Name": "Create a Risk",
+        "Description": "Creates a new Risk on an existing Cascade Goal.",
+        "Anchor": "#create-a-risk",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Create-task",
+        "Name": "Create a Task",
+        "Description": "Creates a new Task on an existing Cascade Goal.",
+        "Anchor": "#create-a-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Create-update",
+        "Name": "Create an Update",
+        "Description": "Creates a new Update on an existing Cascade Goal.",
+        "Anchor": "#create-an-update",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delete-goal",
+        "Name": "Delete Goal",
+        "Description": "Deletes a Goal based off of its Goal ID.",
+        "Anchor": "#delete-goal",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delete-risk",
+        "Name": "Delete Risk",
+        "Description": "Deletes a Risk based off of its Risk ID.",
+        "Anchor": "#delete-risk",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delete-task",
+        "Name": "Delete Task",
+        "Description": "Deletes a Task based off of its Task ID.",
+        "Anchor": "#delete-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delete-update",
+        "Name": "Delete Update",
+        "Description": "Deletes an Update based off of its Update ID.",
+        "Anchor": "#delete-update",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-all-goals",
+        "Name": "Get all Goals",
+        "Description": "Returns all Goals within an instance.",
+        "Anchor": "#get-all-goals",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-all-risks",
+        "Name": "Get all Risks",
+        "Description": "Returns all Risks within an instance.",
+        "Anchor": "#get-all-risks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-all-tasks",
+        "Name": "Get all Tasks",
+        "Description": "Returns all Tasks within an instance.",
+        "Anchor": "#get-all-tasks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-all-updates",
+        "Name": "Get all Updates",
+        "Description": "Returns all Updates within an instance.",
+        "Anchor": "#get-all-updates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-single-goal",
+        "Name": "Get single Goal",
+        "Description": "Returns a single Goal based off of its Goal ID.",
+        "Anchor": "#get-single-goal",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-single-risk",
+        "Name": "Get single Risk",
+        "Description": "Returns a single Risk based off of its Risk ID.",
+        "Anchor": "#get-single-risk",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-single-task",
+        "Name": "Get single Task",
+        "Description": "Returns a single Task based off of its Task ID.",
+        "Anchor": "#get-single-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-single-update",
+        "Name": "Get single Update",
+        "Description": "Returns a single Update based off of its Update ID.",
+        "Anchor": "#get-single-update",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-goal",
+        "Name": "Update a Goal",
+        "Description": "Updates an existing Goal's details based off of its Goal ID.",
+        "Anchor": "#update-a-goal",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-risk",
+        "Name": "Update Risk",
+        "Description": "Updates an existing Risk's details based off of its Risk ID.",
+        "Anchor": "#update-risk",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-task",
+        "Name": "Update Task",
+        "Description": "Updates an existing Task's details based off of its Task ID.",
+        "Anchor": "#update-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-update",
+        "Name": "Update an Update",
+        "Description": "Revises an existing Update's details based off of its Update ID.",
+        "Anchor": "#update-an-update",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "casper365",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../casper365/",
     "Actions": [
@@ -17733,6 +18065,26 @@
         "Description": "Predict the tags for an image located at the specified URL.",
         "Anchor": "#predict-tags-from-image-url-[deprecated]",
         "IsDeprecated": true
+      }
+    ]
+  },
+  {
+    "UniqueName": "cyberday",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cyberday/",
+    "Actions": [
+      {
+        "OperationId": "AddSystem",
+        "Name": "Create a System",
+        "Description": "Create a System in your Cyberday account.",
+        "Anchor": "#create-a-system",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSystems",
+        "Name": "List Systems",
+        "Description": "Retrieve a list of systems from your Cyberday account.",
+        "Anchor": "#list-systems",
+        "IsDeprecated": false
       }
     ]
   },
@@ -47850,6 +48202,124 @@
     ]
   },
   {
+    "UniqueName": "nhtsavpicip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nhtsavpicip/",
+    "Actions": [
+      {
+        "OperationId": "Decode",
+        "Name": "Decode VIN",
+        "Description": "This action returns the decoded VIN.",
+        "Anchor": "#decode-vin",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DecodeWMI",
+        "Name": "Decode WMI",
+        "Description": "This action returns the decoded World Manufacturer Identifier (WMI). WMIs may be put in as either 3 characters representing VIN position 1-3 or 6 characters representing VIN positions 1-3 &amp; 12-14. Example &quot;JTD&quot;, &quot;1T9131&quot;.",
+        "Anchor": "#decode-wmi",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EquipmentPlant",
+        "Name": "Get equipment plant codes",
+        "Description": "Retrieves assigned equipment plant codes.",
+        "Anchor": "#get-equipment-plant-codes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Make",
+        "Name": "Get all makes",
+        "Description": "Retrieves a list of all the makes available in vPIC Dataset.",
+        "Anchor": "#get-all-makes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MakeModel",
+        "Name": "Get models for make",
+        "Description": "Retrieves the models in the vPIC dataset for a specified make whose name is LIKE the make in vPIC Dataset. Make can be a partial, or a full for more specificity (e.g., &quot;Harley&quot;, &quot;Harley Davidson&quot;, etc.).",
+        "Anchor": "#get-models-for-make",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MakeModelYearType",
+        "Name": "Get models for make a combination of year and vehicle type",
+        "Description": "Retrieves the models in the vPIC dataset for a specified year and make whose name is LIKE the make in vPIC Dataset. Make can be a partial, or a full for more specificity (e.g., &quot;Harley&quot;, &quot;Harley Davidson&quot;, etc.) Model year is integer (greater than 1995). Vehicle Ttpe name can be a partial name, or a full name for more specificity (e.g., &quot;Vehicle&quot;, &quot;Moto&quot;, &quot;Low Speed Vehicle&quot;, etc.)",
+        "Anchor": "#get-models-for-make-a-combination-of-year-and-vehicle-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MakeType",
+        "Name": "Get makes by vehicle type name",
+        "Description": "Retrieves all the Makes in the vPIC dataset for a specified vehicle type whose name is LIKE the vehicle type name in vPIC Dataset. Vehicle Type name can be a partial name, or a full name for more specificity (e.g., &quot;Vehicle&quot;, &quot;Moto&quot;, &quot;Low Speed Vehicle&quot;, etc.).",
+        "Anchor": "#get-makes-by-vehicle-type-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MakeVehicleType",
+        "Name": "Get vehicle types for make",
+        "Description": "Retrieves all the Vehicle Types in the vPIC dataset for a specified Make whose name is LIKE the make name in vPIC Dataset. Make can be a ID, partial name, or a full name for more specificity (e.g., &quot;Merc&quot;, &quot;Mercedes Benz&quot;, etc.).",
+        "Anchor": "#get-vehicle-types-for-make",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Manufacturer",
+        "Name": "Get all manufacturers",
+        "Description": "Retrieves a list of all the Manufacturers available in vPIC Dataset. Parameter &quot;Manufacturer Type&quot; allows to filter the list based on manufacturer type (Incomplete Vehicles, Completed Vehicle Manufacturer, Incomplete Vehicle Manufacturer, Intermediate Manufacturer, Final-Stage Manufacturer, Alterer, Replica Vehicle Manufacturer, or any part of it). Results are provided in pages of 100 items.",
+        "Anchor": "#get-all-manufacturers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ManufacturerDetail",
+        "Name": "Get manufacturer details",
+        "Description": "Retrieves the details for a specific manufacturer that is requested. If query is a number - method will do exact match on Manufacturer's Id. If query is a string - it will look for manufacturers whose name is LIKE the provided name (it accepts a partial manufacturer name as an input). Multiple results are returned in case of multiple matches.",
+        "Anchor": "#get-manufacturer-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ManufacturerName",
+        "Name": "Get makes for manufacturer by manufacturer name",
+        "Description": "Retrieves all the Makes in the vPIC dataset for a specified manufacturer that is requested. If query is a number - method will do exact match on Manufacturer's Id. If query is a string - it will look for manufacturers whose name is LIKE the provided name (it accepts a partial manufacturer name as an input). Multiple results are returned in case of multiple matches. Manufacturer name can be a partial name, or a full name for more specificity (e.g., &quot;988&quot;, &quot;HONDA&quot;, &quot;HONDA OF CANADA MFG., INC.&quot;, etc.)",
+        "Anchor": "#get-makes-for-manufacturer-by-manufacturer-name",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ManufacturerNameYear",
+        "Name": "Get makes for manufacturer by manufacturer name and year",
+        "Description": "Retrieves all the Makes in the vPIC dataset for a specified manufacturer and whose Year From and Year To range cover the specified year If supplied parameter is a number - method will do exact match on Manufacturer's Id. If supplied parameter is a string - it will look for manufacturers whose name is LIKE the provided name (it accepts a partial manufacturer name as an input). Multiple results are returned in case of multiple matches. Manufacturer can be idenfitied by Id, a partial name, or a full name (e.g., &quot;988&quot;, &quot;HONDA&quot;, &quot;HONDA OF CANADA MFG., INC.&quot;, etc.).",
+        "Anchor": "#get-makes-for-manufacturer-by-manufacturer-name-and-year",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Part",
+        "Name": "Get parts",
+        "Description": "Get a list of parts with letter date. Up to 1000 results will be returned at a time.",
+        "Anchor": "#get-parts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VehicleVariable",
+        "Name": "Get vehicle variables",
+        "Description": "Retrieves a list of all the vehicle related variables that are in vPIC dataset. Information on the name, description and the type of the variable is provided.",
+        "Anchor": "#get-vehicle-variables",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VehicleVariableValue",
+        "Name": "Get vehicle variable values",
+        "Description": "Retrieves a list of all the accepted values for a given variable that are stored in vPIC dataset. Search parameter can either be a Variable Name (&quot;battery type&quot; in first example, please use full name, not just part of it), or Variable ID (&quot;2&quot; in second example). This applies to only &quot;Look up&quot; type of variables.",
+        "Anchor": "#get-vehicle-variable-values",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WMIGet",
+        "Name": "Get WMIs for Manufacturer",
+        "Description": "Provides information on the all World Manufacturer Identifier (WMI) for a specified Manufacturer. Only WMI registered in vPICList are displayed. If Query is a number - method will do exact match on Manufacturer's Id. If Query is a string - it will look for manufacturers whose name is LIKE the provided name (it accepts a partial manufacturer name as an input). Multiple results are returned in case of multiple matches. If Vehicle Type is a number - method will do exact match on Vehicle Type's Id. If Vehicle Type is a string - it will look for Vehicle Type whose name is LIKE the provided name (it accepts a partial Vehicle Type name as an input). Multiple results are returned in case of multiple matches. Both parameters are optional but at least one must be provided.",
+        "Anchor": "#get-wmis-for-manufacturer",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "niftygatewayip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../niftygatewayip/",
     "Actions": [
@@ -56125,6 +56595,19 @@
     ]
   },
   {
+    "UniqueName": "progressusadvancedpr",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../progressusadvancedpr/",
+    "Actions": [
+      {
+        "OperationId": "Get",
+        "Name": "Get Records",
+        "Description": "Retrieve records",
+        "Anchor": "#get-records",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "projectonline",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../projectonline/",
     "Actions": [
@@ -56682,6 +57165,229 @@
         "Description": "When a folder moved to Recycle Bin",
         "Anchor": "#when-a-folder-is-moved-to-recycle-bin-[deprecated]",
         "IsDeprecated": true
+      }
+    ]
+  },
+  {
+    "UniqueName": "propublicacampaignip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../propublicacampaignip/",
+    "Actions": [
+      {
+        "OperationId": "BundlerCommittee",
+        "Name": "Get lobbyist bundlers for a specific committee",
+        "Description": "Retrieves the most recent lobbyist bundlers reported by a specific committee.",
+        "Anchor": "#get-lobbyist-bundlers-for-a-specific-committee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CandidateGet",
+        "Name": "Get a candidate",
+        "Description": "Retrieves a specific candidate.",
+        "Anchor": "#get-a-candidate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CandidateRecent",
+        "Name": "Get recently added candidates",
+        "Description": "Retrieves the 20 most recently added candidates.",
+        "Anchor": "#get-recently-added-candidates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CandidateSearch",
+        "Name": "Search for candidates",
+        "Description": "Retrieves candidates by first or last name.",
+        "Anchor": "#search-for-candidates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CandidateState",
+        "Name": "Get candidates from a state",
+        "Description": "Retrieves an array of FEC candidates for a given state (and optional chamber and district).",
+        "Anchor": "#get-candidates-from-a-state",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CandidateTopFinancial",
+        "Name": "Get top 20 candidates in specific financial category",
+        "Description": "Retrieves the top 20 candidates within a given financial category for a given campaign cycle.",
+        "Anchor": "#get-top-20-candidates-in-specific-financial-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommitteeFiling",
+        "Name": "Get committee filings",
+        "Description": "Retrieves the 20 most recent FEC filings from the specified committee.",
+        "Anchor": "#get-committee-filings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommitteeGet",
+        "Name": "Get a specific committee",
+        "Description": "Retrieves a specific FEC committee for a given campaign cycle.",
+        "Anchor": "#get-a-specific-committee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommitteeLeadership",
+        "Name": "Get leadership committees",
+        "Description": "Retrieves committees designated as leadership PACs by the FEC.",
+        "Anchor": "#get-leadership-committees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommitteeRecent",
+        "Name": "Get recently added committees",
+        "Description": "Retrieves the 20 most recently added FEC committees.",
+        "Anchor": "#get-recently-added-committees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommitteeRecentPACs",
+        "Name": "Get recently added independent expenditure-only committees",
+        "Description": "Retrieves the 20 most recently added FEC independent expenditure-only committees, known as super PACs.",
+        "Anchor": "#get-recently-added-independent-expenditure-only-committees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommitteeSearch",
+        "Name": "Search for committees",
+        "Description": "Retrieves a list of committees.",
+        "Anchor": "#search-for-committees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommunicationCommittee",
+        "Name": "Get electioneering communications by specific committee",
+        "Description": "Retrieves the most recent broadcast advertisements by a specific committee that identify one or more federal candidates (and have aired 30 days before a primary election and 60 days before the general election).",
+        "Anchor": "#get-electioneering-communications-by-specific-committee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommunicationDate",
+        "Name": "Get electioneering communications by date",
+        "Description": "Retrieves all broadcast advertisements that identify one or more federal candidates (and have aired 30 days before a primary election and 60 days before the general election) from a specific date.",
+        "Anchor": "#get-electioneering-communications-by-date",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CommunicationRecent",
+        "Name": "Get recent electioneering communications",
+        "Description": "Retrieves the 20 most recent broadcast advertisements that identify one or more federal candidates (and have aired 30 days before a primary election and 60 days before the general election).",
+        "Anchor": "#get-recent-electioneering-communications",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContributionLateCandidate",
+        "Name": "Get recent late contributions to a candidate",
+        "Description": "Retrieves the most recent late contributions to a specific candidate.",
+        "Anchor": "#get-recent-late-contributions-to-a-candidate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContributionLateCommittee",
+        "Name": "Get recent late contributions to a committee",
+        "Description": "Retrieves the most recent late contributions to a specific committee.",
+        "Anchor": "#get-recent-late-contributions-to-a-committee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContributionLateDate",
+        "Name": "Get recent late contributions by date",
+        "Description": "Retrieves late contributions from a specific date.",
+        "Anchor": "#get-recent-late-contributions-by-date",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContributionLateRecent",
+        "Name": "Get recent late contributions",
+        "Description": "During the last 20 days before a primary or general election, candidate committees must file reports of any contributions of $1,000 or more within 48 hours of receipt. This retrieves the most recent late contributions to candidates.",
+        "Anchor": "#get-recent-late-contributions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExpenditureCandidate",
+        "Name": "Get independent expenditures that support or oppose a specific candidate",
+        "Description": "Retrieves the 200 most recent independent expenditures in support of or opposition to a given candidate.",
+        "Anchor": "#get-independent-expenditures-that-support-or-oppose-a-specific-candidate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExpenditureCommittee",
+        "Name": "Get independent expenditures by specific committee",
+        "Description": "Retrieves the 20 most recent independent expenditures by a given committee.",
+        "Anchor": "#get-independent-expenditures-by-specific-committee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExpenditureDate",
+        "Name": "Get independent expenditures by date",
+        "Description": "Retrieves all independent expenditures on a specific date (the date of activity, not the date filed with the FEC).",
+        "Anchor": "#get-independent-expenditures-by-date",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExpenditureOffice",
+        "Name": "Get independent expenditures office totals",
+        "Description": "Retrieves the amount of money spent in independent expenditures for a given office (either House, Senate or President).",
+        "Anchor": "#get-independent-expenditures-office-totals",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExpenditurePres",
+        "Name": "Get independent expenditures that support or oppose presidential candidates",
+        "Description": "Retrieves the 200 most recent independent expenditures in support of or opposition to any presidential candidate.",
+        "Anchor": "#get-independent-expenditures-that-support-or-oppose-presidential-candidates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExpenditureRaceCommittee",
+        "Name": "Get independent expenditures race totals for a specific committee",
+        "Description": "Retrieves the total amounts of money that a given committee has spent on individual races (consisting of a state, office and district) during a cycle.",
+        "Anchor": "#get-independent-expenditures-race-totals-for-a-specific-committee",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExpenditureRecent",
+        "Name": "Get recent independent expenditures",
+        "Description": "Retrieves the 200 most recent independent expenditures and optionally can be offset by multiples of 20.",
+        "Anchor": "#get-recent-independent-expenditures",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilingDate",
+        "Name": "Get electronic filings by date",
+        "Description": "Retrieves information about FEC reports filed electronically on a specific date.",
+        "Anchor": "#get-electronic-filings-by-date",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilingFormType",
+        "Name": "Get electronic filing form types",
+        "Description": "Retrieves a list of available form types for FEC electronic filings.",
+        "Anchor": "#get-electronic-filing-form-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilingSearch",
+        "Name": "Search for electronic filings",
+        "Description": "Retrieves information about FEC reports filed electronically by a committee.",
+        "Anchor": "#search-for-electronic-filings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilingSummary",
+        "Name": "Get summary for a specific presidential electronic filing",
+        "Description": "Retrieves summary figures from a specific FEC electronic filing (Form 3 filings by presidential candidates only).",
+        "Anchor": "#get-summary-for-a-specific-presidential-electronic-filing",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilingType",
+        "Name": "Get electronic filings by type",
+        "Description": "Retrieves the most recent electronic filings by form type.",
+        "Anchor": "#get-electronic-filings-by-type",
+        "IsDeprecated": false
       }
     ]
   },
@@ -69878,6 +70584,26 @@
     "UniqueName": "vimeo",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../vimeo/",
     "Actions": []
+  },
+  {
+    "UniqueName": "vineforce",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../vineforce/",
+    "Actions": [
+      {
+        "OperationId": "Alert",
+        "Name": "Alert a user",
+        "Description": "This operation is used to alert user.",
+        "Anchor": "#alert-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateTask",
+        "Name": "Create Task",
+        "Description": "This operation is used to create a new task.",
+        "Anchor": "#create-task",
+        "IsDeprecated": false
+      }
+    ]
   },
   {
     "UniqueName": "virustotal",
