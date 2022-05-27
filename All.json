@@ -12010,6 +12010,11 @@
     ]
   },
   {
+    "UniqueName": "bttnone",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bttnone/",
+    "Actions": []
+  },
+  {
     "UniqueName": "buffer",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../buffer/",
     "Actions": [
@@ -32145,6 +32150,47 @@
     ]
   },
   {
+    "UniqueName": "hunterip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hunterip/",
+    "Actions": [
+      {
+        "OperationId": "Author",
+        "Name": "Search for author",
+        "Description": "Retrieves an author from an article URL, and their most likely email address on the given domain name.",
+        "Anchor": "#search-for-author",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Domain",
+        "Name": "Search domain",
+        "Description": "Retrieves all the email addresses corresponding to one website. Each response will return up to 100 emails. The number of sources is limited to 20 for each email address. You must send at least the domain name or the company name, or both.",
+        "Anchor": "#search-domain",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Email",
+        "Name": "Search for email address",
+        "Description": "Retrieves the most likely email address from a domain name and name. You must send at least the domain name or the company name, or both.",
+        "Anchor": "#search-for-email-address",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EmailCount",
+        "Name": "Get email count",
+        "Description": "Retrieves how many email addresses we have for one domain or for one company.",
+        "Anchor": "#get-email-count",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EmailVerify",
+        "Name": "Verify email address",
+        "Description": "Retrieves the deliverability of an email address. Hunter focuses on B2B, therefore, webmails are not verified.",
+        "Anchor": "#verify-email-address",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "hyasinsight",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../hyasinsight/",
     "Actions": [
@@ -45230,6 +45276,34 @@
         "Description": "Unsubscribe",
         "Anchor": "#asi-trigger-unsubscribe-[deprecated]",
         "IsDeprecated": true
+      },
+      {
+        "OperationId": "Bookmarks_CreateOrUpdate",
+        "Name": "Bookmarks - Creates or updates a bookmark",
+        "Description": "Bookmarks - Creates or updates a bookmark",
+        "Anchor": "#bookmarks---creates-or-updates-a-bookmark",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Bookmarks_Delete",
+        "Name": "Bookmarks - Delete a bookmark",
+        "Description": "Bookmarks - Delete a bookmark",
+        "Anchor": "#bookmarks---delete-a-bookmark",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Bookmarks_Get",
+        "Name": "Bookmarks - Get a bookmark",
+        "Description": "Bookmarks - Get a bookmarks by Id",
+        "Anchor": "#bookmarks---get-a-bookmark",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Bookmarks_List",
+        "Name": "Bookmarks - Get all bookmarks",
+        "Description": "Bookmarks - Get all bookmarks for a given workspace",
+        "Anchor": "#bookmarks---get-all-bookmarks",
+        "IsDeprecated": false
       },
       {
         "OperationId": "ChangeIncidentDescription",

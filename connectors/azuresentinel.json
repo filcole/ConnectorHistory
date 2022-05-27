@@ -59,6 +59,34 @@
       "IsDeprecated": true
     },
     {
+      "OperationId": "Bookmarks_CreateOrUpdate",
+      "Name": "Bookmarks - Creates or updates a bookmark",
+      "Description": "Bookmarks - Creates or updates a bookmark",
+      "Anchor": "#bookmarks---creates-or-updates-a-bookmark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Bookmarks_Delete",
+      "Name": "Bookmarks - Delete a bookmark",
+      "Description": "Bookmarks - Delete a bookmark",
+      "Anchor": "#bookmarks---delete-a-bookmark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Bookmarks_Get",
+      "Name": "Bookmarks - Get a bookmark",
+      "Description": "Bookmarks - Get a bookmarks by Id",
+      "Anchor": "#bookmarks---get-a-bookmark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Bookmarks_List",
+      "Name": "Bookmarks - Get all bookmarks",
+      "Description": "Bookmarks - Get all bookmarks for a given workspace",
+      "Anchor": "#bookmarks---get-all-bookmarks",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ChangeIncidentDescription",
       "Name": "Change incident description [DEPRECATED]",
       "Description": "changes description to selected incident",
