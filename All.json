@@ -44260,21 +44260,21 @@
       {
         "OperationId": "OnCCItemSelected",
         "Name": "For a selected communication compliance item",
-        "Description": "This trigger allows you to start a flow when a Communication Compliance item is selected in Microsoft 365 compliance center (Available only for Power Automate.)",
+        "Description": "This trigger allows you to start a flow when a Communication Compliance item is selected in Microsoft Purview compliance portal (Available only for Power Automate.)",
         "Anchor": "#for-a-selected-communication-compliance-item",
         "IsDeprecated": false
       },
       {
         "OperationId": "OnIRMCaseSelected",
         "Name": "For a selected insider risk management case",
-        "Description": "This trigger allows you to start a flow when an insider risk management case is selected in Microsoft 365 compliance center (Available only for Power Automate.)",
+        "Description": "This trigger allows you to start a flow when an insider risk management case is selected in Microsoft Purview compliance portal (Available only for Power Automate.)",
         "Anchor": "#for-a-selected-insider-risk-management-case",
         "IsDeprecated": false
       },
       {
         "OperationId": "OnIRMRiskyUserSelected",
         "Name": "For a selected insider risk management user",
-        "Description": "This trigger allows you to start a flow when an insider risk management user is selected in Microsoft 365 compliance center (Available only for Power Automate.)",
+        "Description": "This trigger allows you to start a flow when an insider risk management user is selected in Microsoft Purview compliance portal (Available only for Power Automate.)",
         "Anchor": "#for-a-selected-insider-risk-management-user",
         "IsDeprecated": false
       },
