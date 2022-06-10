@@ -1,0 +1,104 @@
+{
+  "UniqueName": "stravaip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../stravaip/",
+  "Actions": [
+    {
+      "OperationId": "GetActivity",
+      "Name": "Get Activity",
+      "Description": "Returns the given activity that is owned by the authenticated athlete. Requires activity:read for Everyone and Followers activities. Requires activity:read_all for Only Me activities.",
+      "Anchor": "#get-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAthleteStats",
+      "Name": "Get Athlete Stats",
+      "Description": "Returns the activity stats of an athlete. Only includes data from activities set to Everyone visibility.",
+      "Anchor": "#get-athlete-stats",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAuthenticatedAthlete",
+      "Name": "Get Authenticated Athlete",
+      "Description": "Returns the currently authenticated athlete. Tokens with profile:read_all scope will receive a detailed athlete representation; all others will receive a summary representation.",
+      "Anchor": "#get-authenticated-athlete",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetClub",
+      "Name": "Get Club",
+      "Description": "Returns a given club using its identifier.",
+      "Anchor": "#get-club",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetSegment",
+      "Name": "Get Segment",
+      "Description": "Returns the specified segment. read_all scope required in order to retrieve athlete-specific segment information, or to retrieve private segments.",
+      "Anchor": "#get-segment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListActivityComments",
+      "Name": "List Activity Comments",
+      "Description": "Returns the comments on the given activity. Requires activity:read for Everyone and Followers activities. Requires activity:read_all for Only Me activities.",
+      "Anchor": "#list-activity-comments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListActivityKudoers",
+      "Name": "List Activity Kudoers",
+      "Description": "Returns the athletes who kudoed an activity identified by an identifier. Requires activity:read for Everyone and Followers activities. Requires activity:read_all for Only Me activities.",
+      "Anchor": "#list-activity-kudoers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListActivityLaps",
+      "Name": "List Activity Laps",
+      "Description": "Returns the laps of an activity identified by an identifier. Requires activity:read for Everyone and Followers activities. Requires activity:read_all for Only Me activities.",
+      "Anchor": "#list-activity-laps",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAthleteActivities",
+      "Name": "List Athlete Activities",
+      "Description": "Returns the activities of an athlete for a specific identifier. Requires activity:read. Only Me activities will be filtered out unless requested by a token with activity:read_all.",
+      "Anchor": "#list-athlete-activities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAthleteClubs",
+      "Name": "List Athlete Clubs",
+      "Description": "Returns a list of the clubs whose membership includes the authenticated athlete.",
+      "Anchor": "#list-athlete-clubs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListClubActivities",
+      "Name": "List Club Activities",
+      "Description": "Retrieve recent activities from members of a specific club. The authenticated athlete must belong to the requested club in order to hit this endpoint. Pagination is supported. Athlete profile visibility is respected for all activities.",
+      "Anchor": "#list-club-activities",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListClubAdministrators",
+      "Name": "List Club Administrators",
+      "Description": "Returns a list of the administrators of a given club.",
+      "Anchor": "#list-club-administrators",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListClubMembers",
+      "Name": "List Club Members",
+      "Description": "Returns a list of the athletes who are members of a given club.",
+      "Anchor": "#list-club-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListStarredSegments",
+      "Name": "List Starred Segments",
+      "Description": "List of the authenticated athlete's starred segments. Private segments are filtered out unless requested by a token with read_all scope.",
+      "Anchor": "#list-starred-segments",
+      "IsDeprecated": false
+    }
+  ]
+}

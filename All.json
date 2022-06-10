@@ -8166,6 +8166,299 @@
     ]
   },
   {
+    "UniqueName": "badgrip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../badgrip/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Create an Issuer's BadgeClass",
+        "Description": "Create a new BadgeClass associated with an Issuer. Authenticated user must have owner, editor, or staff status on the Issuer.",
+        "Anchor": "#create-an-issuer's-badgeclass",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get a BadgeUser's profile",
+        "Description": "Get a single BadgeUser profile. Use the entityId 'self' to retrieve the authenticated user's profile.",
+        "Anchor": "#get-a-badgeuser's-profile",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get Assertions in a user's backpack",
+        "Description": "Get a list of Assertions in authenticated user's backpack.",
+        "Anchor": "#get-assertions-in-a-user's-backpack",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get BadgeClass's Assertions",
+        "Description": "Get a list of Assertions for a single BadgeClass.",
+        "Anchor": "#get-badgeclass's-assertions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get Issuer's BadgeClasses",
+        "Description": "Get a list of BadgeClasses for a single Issuer. Authenticated user must have owner, editor, or staff status on the Issuer.",
+        "Anchor": "#get-issuer's-badgeclasses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get user's access tokens",
+        "Description": "Get a list of access tokens for authenticated user.",
+        "Anchor": "#get-user's-access-tokens",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "",
+        "Name": "Get user's BadgeClasses",
+        "Description": "Get a list of BadgeClasses for authenticated user.",
+        "Anchor": "#get-user's-badgeclasses",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AccountRecover",
+        "Name": "Recover an account",
+        "Description": "Recover an account and set a new password.",
+        "Anchor": "#recover-an-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AccountRequestRecovery",
+        "Name": "Request an account recovery email",
+        "Description": "Request an account recovery email for a user.",
+        "Anchor": "#request-an-account-recovery-email",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssertionGet",
+        "Name": "Get Assertions",
+        "Description": "Get a list of Assertions for a single Issuer.",
+        "Anchor": "#get-assertions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssertionGetA",
+        "Name": "Get a single Assertion",
+        "Description": "Get an Assertion",
+        "Anchor": "#get-a-single-assertion",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssertionRevoke",
+        "Name": "Revoke an Assertion",
+        "Description": "Revoke an Assertion.",
+        "Anchor": "#revoke-an-assertion",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssertionRevokeBulk",
+        "Name": "Revoke multiple Assertions",
+        "Description": "Revoke multiple Assertions for multiple recipients.",
+        "Anchor": "#revoke-multiple-assertions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "AssertionUpdate",
+        "Name": "Update an Assertion",
+        "Description": "Update an Assertion.",
+        "Anchor": "#update-an-assertion",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BackpackGetAssertionDetails",
+        "Name": "Get Backpack Assertion details",
+        "Description": "Get details on an Assertion in a user's Backpack.",
+        "Anchor": "#get-backpack-assertion-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BackpackImportAssertion",
+        "Name": "Import a Assertion to backpack",
+        "Description": "Import a new Assertion to a user's backpack.",
+        "Anchor": "#import-a-assertion-to-backpack",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BackpackRemoteAssertion",
+        "Name": "Remove an assertion from backpack",
+        "Description": "Remove an assertion from a user's backpack.",
+        "Anchor": "#remove-an-assertion-from-backpack",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BackpackUpdateAcceptance",
+        "Name": "Update Assertion acceptance in Backpack",
+        "Description": "Update acceptance of an Assertion in a user's Backpack.",
+        "Anchor": "#update-assertion-acceptance-in-backpack",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BackpackUploadAssertion",
+        "Name": "Upload a Assertion to backpack",
+        "Description": "Upload a new Assertion to a user's backpack.",
+        "Anchor": "#upload-a-assertion-to-backpack",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClassCreate",
+        "Name": "Create a BadgeClass",
+        "Description": "Create a new BadgeClass.",
+        "Anchor": "#create-a-badgeclass",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClassDelete",
+        "Name": "Delete a BadgeClass",
+        "Description": "Delete a BadgeClass. Restricted to owners or editors (not staff) of the corresponding Issuer.",
+        "Anchor": "#delete-a-badgeclass",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClassGet",
+        "Name": "Get a BadgeClass",
+        "Description": "Get a single BadgeClass.",
+        "Anchor": "#get-a-badgeclass",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClassIssueAssertion",
+        "Name": "Issue an Assertion",
+        "Description": "Issue a new Assertion to a recipient.",
+        "Anchor": "#issue-an-assertion",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClassIssueAssertion",
+        "Name": "Issue an Assertion",
+        "Description": "Issue an Assertion to a single recipient.",
+        "Anchor": "#issue-an-assertion",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClassIssueBulk",
+        "Name": "Issue multiple BadgeClass",
+        "Description": "Issue multiple copies of the same BadgeClass to multiple recipients.",
+        "Anchor": "#issue-multiple-badgeclass",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ClassUpdate",
+        "Name": "Update a BadgeClass",
+        "Description": "Update an existing BadgeClass. Previously issued BadgeInstances will not be updated.",
+        "Anchor": "#update-a-badgeclass",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CollectionCreate",
+        "Name": "Create a Collection",
+        "Description": "Create a new Collection.",
+        "Anchor": "#create-a-collection",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CollectionDelete",
+        "Name": "Delete a collection",
+        "Description": "Delete a collection from a backpack.",
+        "Anchor": "#delete-a-collection",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CollectionGet",
+        "Name": "Get Collections",
+        "Description": "Get a list of Collections.",
+        "Anchor": "#get-collections",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CollectionGetA",
+        "Name": "Get a Collection",
+        "Description": "Get a single Collection.",
+        "Anchor": "#get-a-collection",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CollectionUpdate",
+        "Name": "Update a Collection",
+        "Description": "Update a Collection in a backpack.",
+        "Anchor": "#update-a-collection",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IssuerCreate",
+        "Name": "Create a Issuer",
+        "Description": "Create a new Issuer.",
+        "Anchor": "#create-a-issuer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IssuerDelete",
+        "Name": "Delete an Issuer",
+        "Description": "Delete a single Issuer.",
+        "Anchor": "#delete-an-issuer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IssuerGet",
+        "Name": "Get Issuers",
+        "Description": "Get a list of Issuers for authenticated user.",
+        "Anchor": "#get-issuers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IssuerGetA",
+        "Name": "Get an Issuer",
+        "Description": "Get a single Issuer.",
+        "Anchor": "#get-an-issuer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IssuerUpdate",
+        "Name": "Update an Issuer",
+        "Description": "Update a single Issuer.",
+        "Anchor": "#update-an-issuer",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TokenGetA",
+        "Name": "Get an AccessToken",
+        "Description": "Get a single AccessToken.",
+        "Anchor": "#get-an-accesstoken",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TokenRetrieve",
+        "Name": "Retrieve issuer tokens",
+        "Description": "Retrieve issuer tokens.",
+        "Anchor": "#retrieve-issuer-tokens",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TokenRevoke",
+        "Name": "Revoke an AccessToken",
+        "Description": "Revoke a user's AccessToken.",
+        "Anchor": "#revoke-an-accesstoken",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserCreate",
+        "Name": "Create a BadgeUser account",
+        "Description": "Make a BadgeUser account and profile.",
+        "Anchor": "#create-a-badgeuser-account",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserUpdate",
+        "Name": "Update a BadgeUser",
+        "Description": "Update a BadgeUser's account. Use the entityId 'self' to update the authenticated user's profile",
+        "Anchor": "#update-a-badgeuser",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "basecamp2",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../basecamp2/",
     "Actions": [
@@ -10711,6 +11004,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateConstituentTribute",
+        "Name": "Create a constituent tribute",
+        "Description": "Creates a new constituent tribute.",
+        "Anchor": "#create-a-constituent-tribute",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateFundraiserAssignment",
         "Name": "Create a fundraiser assignment",
         "Description": "Creates a new fundraiser assignment.",
@@ -10743,6 +11043,13 @@
         "Name": "Create an organization relationship",
         "Description": "Creates a new organization relationship.  If the relationship is with another constituent, a reciprocal relationship is created for that constituent.",
         "Anchor": "#create-an-organization-relationship",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateTributeAcknowledgee",
+        "Name": "Create a tribute acknowledgee",
+        "Description": "Creates a new tribute acknowledgee.",
+        "Anchor": "#create-a-tribute-acknowledgee",
         "IsDeprecated": false
       },
       {
@@ -10872,6 +11179,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetConstituentIdFromLookupId",
+        "Name": "Get a constituent by lookup ID",
+        "Description": "Returns a constituent's system record ID from the specified lookup ID.",
+        "Anchor": "#get-a-constituent-by-lookup-id",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetConstituentNameFormatSummary",
         "Name": "Get constituent name format summary",
         "Description": "Returns the name format summary for a constituent.",
@@ -10883,6 +11197,13 @@
         "Name": "Get a constituent profile picture",
         "Description": "Returns the current profile picture for a constituent.",
         "Anchor": "#get-a-constituent-profile-picture",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetConstituentTribute",
+        "Name": "Get a constituent tribute",
+        "Description": "Returns details about a constituent tribute.",
+        "Anchor": "#get-a-constituent-tribute",
         "IsDeprecated": false
       },
       {
@@ -10998,6 +11319,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ListConstituentTributes",
+        "Name": "List constituent tributes",
+        "Description": "Lists the tributes for a constituent.",
+        "Anchor": "#list-constituent-tributes",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ListFundraiserAssignments",
         "Name": "List fundraiser assignments",
         "Description": "List the assignments for a fundraiser.",
@@ -11005,10 +11333,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ListTributeAcknowledgees",
+        "Name": "List tribute acknowledgees",
+        "Description": "Lists the acknowledgees for a tribute.",
+        "Anchor": "#list-tribute-acknowledgees",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "SearchConstituent",
         "Name": "Search for a constituent",
         "Description": "Performs a constituent search based on the provided search text. Supports first name, last name, preferred name, former name, alias, email address, phone number, address, or lookup ID. Name combinations such as first name and last name or preferred name and last name are valid, but otherwise search only supports one parameter at a time. By default, searches include results that sound similar to your criteria. For example, searches for &quot;Smith&quot; include matches for &quot;Smyth&quot; and other alternative spellings. This search does not support wildcard characters such as * or ?. Search results are limited to 500 records.",
         "Anchor": "#search-for-a-constituent",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SearchConstituentEnhanced",
+        "Name": "Search for a constituent (enhanced)",
+        "Description": "Searches for constituent records using the given filter criteria.",
+        "Anchor": "#search-for-a-constituent-(enhanced)",
         "IsDeprecated": false
       }
     ]
@@ -11184,6 +11526,13 @@
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudfundraising/",
     "Actions": [
       {
+        "OperationId": "CreateAppeal",
+        "Name": "Create an appeal",
+        "Description": "Creates a new appeal.",
+        "Anchor": "#create-an-appeal",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateAppealAttachment",
         "Name": "Create an appeal attachment",
         "Description": "Creates a new appeal attachment.",
@@ -11195,6 +11544,13 @@
         "Name": "Create an appeal custom field",
         "Description": "Creates a new appeal custom field.",
         "Anchor": "#create-an-appeal-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateCampaign",
+        "Name": "Create a campaign",
+        "Description": "Creates a new campaign.",
+        "Anchor": "#create-a-campaign",
         "IsDeprecated": false
       },
       {
@@ -11212,6 +11568,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateConstituentAppeal",
+        "Name": "Create a constituent appeal",
+        "Description": "Creates a new constituent appeal.",
+        "Anchor": "#create-a-constituent-appeal",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateFund",
+        "Name": "Create a fund",
+        "Description": "Creates a new fund.",
+        "Anchor": "#create-a-fund",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateFundAttachment",
         "Name": "Create a fund attachment",
         "Description": "Creates a new fund attachment.",
@@ -11223,6 +11593,13 @@
         "Name": "Create a fund custom field",
         "Description": "Creates a new fund custom field.",
         "Anchor": "#create-a-fund-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditAppeal",
+        "Name": "Update an appeal",
+        "Description": "Updates an appeal.",
+        "Anchor": "#update-an-appeal",
         "IsDeprecated": false
       },
       {
@@ -11240,6 +11617,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "EditCampaign",
+        "Name": "Update a campaign",
+        "Description": "Updates a campaign.",
+        "Anchor": "#update-a-campaign",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "EditCampaignAttachment",
         "Name": "Update a campaign attachment",
         "Description": "Updates a campaign attachment.",
@@ -11251,6 +11635,20 @@
         "Name": "Update a campaign custom field",
         "Description": "Updates a campaign custom field.",
         "Anchor": "#update-a-campaign-custom-field",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditConstituentAppeal",
+        "Name": "Update a constituent appeal",
+        "Description": "Updates a constituent appeal.",
+        "Anchor": "#update-a-constituent-appeal",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditFund",
+        "Name": "Update a fund",
+        "Description": "Updates a fund.",
+        "Anchor": "#update-a-fund",
         "IsDeprecated": false
       },
       {
@@ -11345,10 +11743,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ListConstituentFundRelationships",
+        "Name": "List constituent fund relationships",
+        "Description": "Lists the fund relationships for a constituent.",
+        "Anchor": "#list-constituent-fund-relationships",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ListFundAttachments",
         "Name": "List fund attachments",
         "Description": "Lists the attachments for a fund.",
         "Anchor": "#list-fund-attachments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListFundConstituentRelationships",
+        "Name": "List fund constituent relationships",
+        "Description": "Lists the constituent relationships for a fund.",
+        "Anchor": "#list-fund-constituent-relationships",
         "IsDeprecated": false
       },
       {
@@ -11414,6 +11826,20 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateGiftNote",
+        "Name": "Create a gift note",
+        "Description": "Creates a new gift note.",
+        "Anchor": "#create-a-gift-note",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateGiftTribute",
+        "Name": "Create a gift tribute",
+        "Description": "Creates a new gift tribute.",
+        "Anchor": "#create-a-gift-tribute",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "EditGiftAcknowledgement",
         "Name": "Update gift acknowledgement details",
         "Description": "Updates the acknowledgement details for a gift.",
@@ -11435,10 +11861,31 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "EditGiftNote",
+        "Name": "Update a gift note",
+        "Description": "Updates a gift note.",
+        "Anchor": "#update-a-gift-note",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "EditGiftReceipt",
         "Name": "Update gift receipt details",
         "Description": "Updates the receipt details for a gift.",
         "Anchor": "#update-gift-receipt-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditGiftTribute",
+        "Name": "Update a gift tribute",
+        "Description": "Updates a gift tribute.",
+        "Anchor": "#update-a-gift-tribute",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EditGiftTributeAcknowledgee",
+        "Name": "Update a gift tribute acknowledgee",
+        "Description": "Updates a gift tribute acknowledgee.",
+        "Anchor": "#update-a-gift-tribute-acknowledgee",
         "IsDeprecated": false
       },
       {
@@ -11477,6 +11924,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetGiftIdFromLookupId",
+        "Name": "Get a gift by lookup ID",
+        "Description": "Returns a gift's system record ID from the specified lookup ID.",
+        "Anchor": "#get-a-gift-by-lookup-id",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ListGiftAttachments",
         "Name": "List gift attachments",
         "Description": "Lists the attachments for a gift.",
@@ -11498,10 +11952,31 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ListGiftNotes",
+        "Name": "List gift notes",
+        "Description": "Lists the notes for a gift.",
+        "Anchor": "#list-gift-notes",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ListGifts",
         "Name": "List gifts",
         "Description": "Returns a list of gifts.",
         "Anchor": "#list-gifts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListGiftTributeAcknowledgees",
+        "Name": "List gift tribute acknowledgees",
+        "Description": "List the acknowledgees for a gift tribute.",
+        "Anchor": "#list-gift-tribute-acknowledgees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListGiftTributes",
+        "Name": "List gift tributes",
+        "Description": "Lists the tributes for a gift.",
+        "Anchor": "#list-gift-tributes",
         "IsDeprecated": false
       }
     ]
@@ -19590,7 +20065,7 @@
       {
         "OperationId": "Portal-CreateSigning",
         "Name": "Portal - Create Signing",
-        "Description": "Create a PDF or ASIC file for signing.",
+        "Description": "Create a PDF, ASIC or ADOC file for signing.",
         "Anchor": "#portal---create-signing",
         "IsDeprecated": false
       },
@@ -27986,6 +28461,1082 @@
         "Name": "Create a FlowForma form",
         "Description": "Creates a FlowForma form.",
         "Anchor": "#create-a-flowforma-form",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "flowformav2",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../flowformav2/",
+    "Actions": [
+      {
+        "OperationId": "CreateForm",
+        "Name": "Create a new form",
+        "Description": "Create a new form",
+        "Anchor": "#create-a-new-form",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateForm",
+        "Name": "Update a form",
+        "Description": "Update a form",
+        "Anchor": "#update-a-form",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "fluidkinnectorzforpr",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../fluidkinnectorzforpr/",
+    "Actions": [
+      {
+        "OperationId": "Bid-GetBidType",
+        "Name": "Get Bid Type",
+        "Description": "Get Bid Type Details",
+        "Anchor": "#get-bid-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CalendarEvents-GetCalendarEvents",
+        "Name": "Calendar Events - Get Calendar Events",
+        "Description": "Get all Calendar Events",
+        "Anchor": "#calendar-events---get-calendar-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Companies-GetCompanies",
+        "Name": "Companies - Get Companies",
+        "Description": "Get list of Companies visible to the User.",
+        "Anchor": "#companies---get-companies",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-DeleteBidType",
+        "Name": "Delete Bid Type",
+        "Description": "Delete Bid Type",
+        "Anchor": "#delete-bid-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-DeleteProjectOwnerTypes",
+        "Name": "Delete Project Owner Type",
+        "Description": "Delete Project Owner Type",
+        "Anchor": "#delete-project-owner-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-DeleteProjectRegion",
+        "Name": "Delete Project Region",
+        "Description": "Delete Project Region",
+        "Anchor": "#delete-project-region",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-DeleteProjectStage",
+        "Name": "Delete Project Stage",
+        "Description": "Delete Project Stage",
+        "Anchor": "#delete-project-stage",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-DeleteProjectType",
+        "Name": "Delete Project Type",
+        "Description": "Delete Project Type",
+        "Anchor": "#delete-project-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetBidTypes",
+        "Name": "Get Bid Types",
+        "Description": "Get Bid Types",
+        "Anchor": "#get-bid-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetCurrentUser",
+        "Name": "Get Company Current User",
+        "Description": "Get Company Current User",
+        "Anchor": "#get-company-current-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetInactiveUsers",
+        "Name": "Get Company Inactive Users",
+        "Description": "Get In-Active Company Users",
+        "Anchor": "#get-company-inactive-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetPermissionTemplates",
+        "Name": "Get Company Permission Templates",
+        "Description": "Get Company Permission Templates",
+        "Anchor": "#get-company-permission-templates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetProjectOwnerType",
+        "Name": "Get Project Owner Type",
+        "Description": "Get Project Owner Type Details",
+        "Anchor": "#get-project-owner-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetProjectOwnerTypes",
+        "Name": "Get Project Owner Types",
+        "Description": "Get Project Owner Types",
+        "Anchor": "#get-project-owner-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetProjectRegion",
+        "Name": "Get Project Region",
+        "Description": "Get Project Region Details",
+        "Anchor": "#get-project-region",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetProjectRegions",
+        "Name": "Get Project Regions",
+        "Description": "Get Project Regions",
+        "Anchor": "#get-project-regions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetProjectStage",
+        "Name": "Get Project Stage",
+        "Description": "Get Project Stage Details",
+        "Anchor": "#get-project-stage",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetProjectStages",
+        "Name": "Get Project Stages",
+        "Description": "Get Project Stages",
+        "Anchor": "#get-project-stages",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetProjectTypes",
+        "Name": "Get Project Types",
+        "Description": "Get Project Types",
+        "Anchor": "#get-project-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetUser",
+        "Name": "Get Company User",
+        "Description": "Show detail on a specified User",
+        "Anchor": "#get-company-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-GetUsers",
+        "Name": "Get Company Users",
+        "Description": "Get Company Users",
+        "Anchor": "#get-company-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-SendUserInvite",
+        "Name": "Send User Invite",
+        "Description": "Send User Invite",
+        "Anchor": "#send-user-invite",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-SyncUsers",
+        "Name": "Sync Company Users",
+        "Description": "Sync Company Users",
+        "Anchor": "#sync-company-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-UpdateProjectLocation",
+        "Name": "Company: Update Project Location",
+        "Description": "Update Project Location",
+        "Anchor": "#company:-update-project-location",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-UpdateProjectOwnerType",
+        "Name": "Update Project Owner Type",
+        "Description": "Update Project Owner Type",
+        "Anchor": "#update-project-owner-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-UpdateProjectRegion",
+        "Name": "Update Project Region",
+        "Description": "Update Project Region",
+        "Anchor": "#update-project-region",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-UpdateProjectStage",
+        "Name": "Update Project Stage",
+        "Description": "Update Project Stage",
+        "Anchor": "#update-project-stage",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Company-UpdateUser",
+        "Name": "Update Company User",
+        "Description": "Update Company User",
+        "Anchor": "#update-company-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssue-Export",
+        "Name": "Coordination Issue Export - Download Project Coordination Issues",
+        "Description": "Downloads coordination issues to a file specified by the export format.",
+        "Anchor": "#coordination-issue-export---download-project-coordination-issues",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssueFile-GetCoordinationIssueFile",
+        "Name": "Coordination Issue File - Show Coordination Issue File",
+        "Description": "Get a single Coordination Issue File item",
+        "Anchor": "#coordination-issue-file---show-coordination-issue-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssue-GetChangeHistory",
+        "Name": "Coordination Issue Change History - Get Change History",
+        "Description": "This endpoint returns the change history for the specified Coordination Issue. The change history is sorted by most recent first.",
+        "Anchor": "#coordination-issue-change-history---get-change-history",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssue-GetIssueCounts",
+        "Name": "Coordination Issue Counts - Show Grouped Coordination Issue Counts",
+        "Description": "Get the status counts for Coordination Issues in a project. The counts provide information about how the issues are distributed by location and assignee company.",
+        "Anchor": "#coordination-issue-counts---show-grouped-coordination-issue-counts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssue-GetPotentialAssignees",
+        "Name": "Coordination Issue Potential Assignees - Get Potential Assignees",
+        "Description": "Lists potential assignees for Coordination Issues. Users who are admin or standard users can be assigned to a Coordination Issue",
+        "Anchor": "#coordination-issue-potential-assignees---get-potential-assignees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssue-GetStatusTotals",
+        "Name": "Coordination Issue Status Totals-Show Total Status Count For Coordination Issue",
+        "Description": "Get the status counts for Coordination Issues in a project.",
+        "Anchor": "#coordination-issue-status-totals-show-total-status-count-for-coordination-issue",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssueRecycleBin-GetCoordinateIssueRecycleBin",
+        "Name": "Get Coordinate Issues in Recycle Bin",
+        "Description": "Lists all deleted Coordination Issues in the specified project",
+        "Anchor": "#get-coordinate-issues-in-recycle-bin",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssueRecycleBin-ShowCoordinationIssueInRecycleBin",
+        "Name": "Coordination Issue Recycle Bin - Show Coordination Issue In Recycle Bin",
+        "Description": "Lists all deleted Coordination Issues in the specified project",
+        "Anchor": "#coordination-issue-recycle-bin---show-coordination-issue-in-recycle-bin",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssues-DeleteAssociation",
+        "Name": "Coordination Issues - Delete association",
+        "Description": "Delete the association between Coordination Issue and Procore item",
+        "Anchor": "#coordination-issues---delete-association",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssues-DeleteCoordinationIssue",
+        "Name": "Coordination Issues - Delete Coordination Issue",
+        "Description": "Delete a Coordination Issue from the system",
+        "Anchor": "#coordination-issues---delete-coordination-issue",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssues-GetCoordinationIssues",
+        "Name": "Coordination Issues - Get Coordination Issues",
+        "Description": "Lists Coordination Issues associated with the specified Project.",
+        "Anchor": "#coordination-issues---get-coordination-issues",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssues-ShowCoordinationIssue",
+        "Name": "Coordination Issues - Show Coordination Issue",
+        "Description": "Return a single Coordination Issue item.",
+        "Anchor": "#coordination-issues---show-coordination-issue",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CoordinationIssueSync-SyncActionForCoordinateIssues",
+        "Name": "Coordination Issue Sync - Sync Action For Coordinate Issues",
+        "Description": "This endpoint is used to create and update a batch of CoordinationIssues. See Using Sync Actions for additional information.",
+        "Anchor": "#coordination-issue-sync---sync-action-for-coordinate-issues",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delete-Department",
+        "Name": "Delete Department",
+        "Description": "Delete Department",
+        "Anchor": "#delete-department",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Drawings-DeleteDrawingSet",
+        "Name": "Drawings - Delete Drawing Set",
+        "Description": "Delete a specified Drawing Set.",
+        "Anchor": "#drawings---delete-drawing-set",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Drawings-DeleteDrawingUpload",
+        "Name": "Drawings - Delete Drawing Upload",
+        "Description": "Delete an unreviewed Drawing Upload.",
+        "Anchor": "#drawings---delete-drawing-upload",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Drawings-GetDrawingAreas",
+        "Name": "Drawings - Get Drawing Areas",
+        "Description": "Get all Drawing Areas",
+        "Anchor": "#drawings---get-drawing-areas",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Drawings-GetDrawings",
+        "Name": "Drawings - GetDrawings",
+        "Description": "Get all drawings for a specified drawing area.",
+        "Anchor": "#drawings---getdrawings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Drawings-ListDrawingRevisions",
+        "Name": "Drawings - List Drawing Revisions",
+        "Description": "Get list of all Drawing Revisions in the specified Project.",
+        "Anchor": "#drawings---list-drawing-revisions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Drawings-ListDrawingSets",
+        "Name": "Drawings - List Drawing Sets",
+        "Description": "Get Drawing Sets in the specified Project.",
+        "Anchor": "#drawings---list-drawing-sets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Drawings-ListDrawingTiles",
+        "Name": "Drawings - List Drawing Tiles",
+        "Description": "Lists the Drawing Tiles in the specified Drawing Revision along with the maximum Zoom Level and Tile Size.",
+        "Anchor": "#drawings---list-drawing-tiles",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Drawings-ListDrawingUploads",
+        "Name": "Drawings - List Drawing Uploads",
+        "Description": "Get list of all Drawing Uploads in the specified Project.",
+        "Anchor": "#drawings---list-drawing-uploads",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Drawings-UpdateDrawing",
+        "Name": "Drawings - Update Drawing",
+        "Description": "Update specified Drawing",
+        "Anchor": "#drawings---update-drawing",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Drawings-UpdateDrawingSet",
+        "Name": "Drawings-Update Drawing Set",
+        "Description": "Update an existing Drawing Set in the specified Project.",
+        "Anchor": "#drawings-update-drawing-set",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterOptions-GetFilterOptions",
+        "Name": "Filter Options - Get Filter Options",
+        "Description": "Get list of filter fields and options for RFIs on a specified Project",
+        "Anchor": "#filter-options---get-filter-options",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterOptions-ListAvailableRFIAssigned_idFilterOptions",
+        "Name": "Filter Options - List Available RFI Assigned_id Filter Options",
+        "Description": "Get a list of assigned_id filter fields and options for RFIs on a specified Project",
+        "Anchor": "#filter-options---list-available-rfi-assigned_id-filter-options",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterOptions-ListAvailableRFIBallInCourtFilterOptions",
+        "Name": "Filter Options - List Available RFI Ball In Court Filter Options",
+        "Description": "Get a list of available RFI ball in court filter fields and options for RFIs on a specified Project",
+        "Anchor": "#filter-options---list-available-rfi-ball-in-court-filter-options",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterOptions-ListAvailableRFICostCodeOptions",
+        "Name": "Filter Options - List Available RFI Cost Code Options",
+        "Description": "Get a list of RFI cost code options for a specified Project",
+        "Anchor": "#filter-options---list-available-rfi-cost-code-options",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterOptions-ListAvailableRFIManagerFilterOptions",
+        "Name": "Filter Options - List Available RFI Manager Filter Options",
+        "Description": "Get a list of available RFI Manager filter fields and options for RFIs on a specified Project",
+        "Anchor": "#filter-options---list-available-rfi-manager-filter-options",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterOptions-ListAvailableRFIReceivedFromFilterOptions",
+        "Name": "Filter Options - List Available RFI Received From Filter Options",
+        "Description": "Get a list of received from filter options for RFIs on a specified Project",
+        "Anchor": "#filter-options---list-available-rfi-received-from-filter-options",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterOptions-ListAvailableRFIResponsibleContractorFilterOptions",
+        "Name": "Filter Options - List Available RFI Responsible Contractor Filter Options",
+        "Description": "Get a list of responsible contractor filter fields and options for RFIs on a specified Project",
+        "Anchor": "#filter-options---list-available-rfi-responsible-contractor-filter-options",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterOptions-ListAvailableRFIsLocations",
+        "Name": "Filter Options - List Available RFIs Locations",
+        "Description": "Get a list of RFI locations for a specified Project",
+        "Anchor": "#filter-options---list-available-rfis-locations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FilterOptions-ListAvailableRFIStatusFilterOptions",
+        "Name": "Filter Options - List Available RFI Status Filter Options",
+        "Description": "Get a list of status filter fields and options for RFIs on a specified Project",
+        "Anchor": "#filter-options---list-available-rfi-status-filter-options",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDepartmentById",
+        "Name": "Get Department by Id",
+        "Description": "Get Department by Id",
+        "Anchor": "#get-department-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDepartments",
+        "Name": "Get Departments",
+        "Description": "Get Departments",
+        "Anchor": "#get-departments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetFileContentByUrl",
+        "Name": "Get FileContent By Url",
+        "Description": "Get FileContent for a given URL",
+        "Anchor": "#get-filecontent-by-url",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMyProfile",
+        "Name": "Get My Profile",
+        "Description": "Get Current User Info",
+        "Anchor": "#get-my-profile",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ImageCategories-DeleteImageCategory",
+        "Name": "Image Categories - Delete Image Category",
+        "Description": "Delete a Photo Album (Image Category) from a specified Project.",
+        "Anchor": "#image-categories---delete-image-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ImageCategories-GetImageCategories",
+        "Name": "Image Categories - Get Image Categories",
+        "Description": "Return a list of all Photo Albums (Image Categories) in a specified project",
+        "Anchor": "#image-categories---get-image-categories",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ImageCategories-ListImageCategoryIDsThatContainImages",
+        "Name": "Image Categories - List Image Category IDs That Contain Images",
+        "Description": "Return an array of Image Category IDs for a specified Project that contain Images",
+        "Anchor": "#image-categories---list-image-category-ids-that-contain-images",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ImageCategories-ShowImageCategory",
+        "Name": "Image Categories - Show Image Category",
+        "Description": "Return detail information about the specified Photo Album (Image Category).",
+        "Anchor": "#image-categories---show-image-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ImageCategories-UpdateImageCategory",
+        "Name": "Image Categories - Update Image Category",
+        "Description": "Update a Photo Album (Image Category) in a specified Project.",
+        "Anchor": "#image-categories---update-image-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Images-DeleteImage",
+        "Name": "Images - Delete Image",
+        "Description": "Remove an Image from a Project.",
+        "Anchor": "#images---delete-image",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Images-GetImages",
+        "Name": "Images - Get Images",
+        "Description": "Return a list of all Images from a Project's Photo Album (Image Category).",
+        "Anchor": "#images---get-images",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Images-ShowImage",
+        "Name": "Images - Show Image",
+        "Description": "Show detailed information for a specified Image in a Project's Photo Album (Image Category).",
+        "Anchor": "#images---show-image",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Images-UpdateImage",
+        "Name": "Images - Update Image",
+        "Description": "Update Image",
+        "Anchor": "#images---update-image",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Instructions-DeleteInstruction",
+        "Name": "Instructions - Delete Instruction",
+        "Description": "Delete the specified Instruction.",
+        "Anchor": "#instructions---delete-instruction",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Instructions-GetInstructions",
+        "Name": "Instructions - Get Instructions",
+        "Description": "Return a list of all Instructions from a specified Project.",
+        "Anchor": "#instructions---get-instructions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Instructions-ShowInstruction",
+        "Name": "Instructions - Show Instruction",
+        "Description": "Get detailed information on the specified Instruction.",
+        "Anchor": "#instructions---show-instruction",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Instructions-UpdateInstruction",
+        "Name": "Instructions - Update Instruction",
+        "Description": "Update the specified Instruction.",
+        "Anchor": "#instructions---update-instruction",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Meeting-DeleteMeeting",
+        "Name": "Meetings - Delete Meeting",
+        "Description": "Delete a specified meeting from the system",
+        "Anchor": "#meetings---delete-meeting",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Meeting-DeleteMeetingAttendeeRecord",
+        "Name": "Meetings - Delete Meeting Attendee Record",
+        "Description": "Delete a specified meeting attendee record, disassociating a given user from a meeting",
+        "Anchor": "#meetings---delete-meeting-attendee-record",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Meeting-GetMeetings",
+        "Name": "Meetings - Get Meetings",
+        "Description": "Get list of all Meetings for a specified Project.",
+        "Anchor": "#meetings---get-meetings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Meeting-ListEcrionXmlAndTemplateForMeetings",
+        "Name": "Meetings - List Ecrion Xml And Template For Meetings",
+        "Description": "Returns Ecrion Xml and Template for all Meetings on the Project.",
+        "Anchor": "#meetings---list-ecrion-xml-and-template-for-meetings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Meeting-ListMeetingCategories",
+        "Name": "Meetings - List Meeting Categories",
+        "Description": "Get all Meeting Categories for a given Meeting.",
+        "Anchor": "#meetings---list-meeting-categories",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Meeting-ShowMeeting",
+        "Name": "Meetings - Show Meeting",
+        "Description": "Returns detailed information about a Meeting in a specified Project.",
+        "Anchor": "#meetings---show-meeting",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Meeting-UpdateMeeting",
+        "Name": "Meetings - Update Meeting",
+        "Description": "Update a Meeting.",
+        "Anchor": "#meetings---update-meeting",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Meeting-UpdateMeetingAttendeeRecord",
+        "Name": "Meetings - Update Meeting Attendee Record",
+        "Description": "Update a Meeting Attendee record.",
+        "Anchor": "#meetings---update-meeting-attendee-record",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Meeting-UpdateMeetingCategory",
+        "Name": "Meetings - Update Meeting Category",
+        "Description": "Update a Meeting Category.",
+        "Anchor": "#meetings---update-meeting-category",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Meeting-UpdateMeetingTopic",
+        "Name": "Meetings - Update Meeting Topic",
+        "Description": "Update an existing Meeting Topic.",
+        "Anchor": "#meetings---update-meeting-topic",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Programs-GetPrograms",
+        "Name": "Programs - Get Programs",
+        "Description": "Return a list of Programs associated to the specified Company.",
+        "Anchor": "#programs---get-programs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-DeleteFile",
+        "Name": "Delete Project File",
+        "Description": "Delete Project File",
+        "Anchor": "#delete-project-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-DeleteFolder",
+        "Name": "Delete Project Folder",
+        "Description": "Delete Project Folder",
+        "Anchor": "#delete-project-folder",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-DeleteInstructionType",
+        "Name": "Instruction Types - Delete Instruction Type",
+        "Description": "Delete the specified Instruction Type.",
+        "Anchor": "#instruction-types---delete-instruction-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-DeleteLocation",
+        "Name": "Project: Delete Project Location",
+        "Description": "Delete Project Location",
+        "Anchor": "#project:-delete-project-location",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-DeleteProjectUser",
+        "Name": "Delete Project User",
+        "Description": "Delete Project User",
+        "Anchor": "#delete-project-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectFoldersAndFiles-GetFilesandFolders",
+        "Name": "Project Folders And Files - Get Folders and Files",
+        "Description": "Get list of Folders and Files for a specified Project.",
+        "Anchor": "#project-folders-and-files---get-folders-and-files",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetDistributionMembers",
+        "Name": "Get Distribution Members",
+        "Description": "Get Distribution Members",
+        "Anchor": "#get-distribution-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetFile",
+        "Name": "Get Project File",
+        "Description": "Get Project File",
+        "Anchor": "#get-project-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetFiles",
+        "Name": "Get Project Files",
+        "Description": "Get Project Files",
+        "Anchor": "#get-project-files",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetFileVersionById",
+        "Name": "Get a Specific Version of a File",
+        "Description": "Get a Specific Version of a File",
+        "Anchor": "#get-a-specific-version-of-a-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetInactiveUsers",
+        "Name": "Get Project Inactive Users",
+        "Description": "Get In-Active Project Users",
+        "Anchor": "#get-project-inactive-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetInstructionTypes",
+        "Name": "Instruction Types - Get Instruction Types",
+        "Description": "Return a list of all Instruction Types from a specified Project.",
+        "Anchor": "#instruction-types---get-instruction-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetLocation",
+        "Name": "Project: Get Location",
+        "Description": "Get Project Location Details",
+        "Anchor": "#project:-get-location",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetLocations",
+        "Name": "Project: Get Locations",
+        "Description": "Get Project Locations",
+        "Anchor": "#project:-get-locations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetPermissionTemplates",
+        "Name": "Get Project Permission Template",
+        "Description": "Get Project Permission Templates",
+        "Anchor": "#get-project-permission-template",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetProjectEquipment",
+        "Name": "Project Admin Equipment - GetProjectEquipment",
+        "Description": "Return a list of all Project Equipment.",
+        "Anchor": "#project-admin-equipment---getprojectequipment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetProjectType",
+        "Name": "Get Project Type",
+        "Description": "Get Project Type Details",
+        "Anchor": "#get-project-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetProjectUser",
+        "Name": "Get Project User",
+        "Description": "Get Project User Info",
+        "Anchor": "#get-project-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-GetRFIDistributionList",
+        "Name": "Get RFI Distribution List",
+        "Description": "Get RFI Distribution List",
+        "Anchor": "#get-rfi-distribution-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-ListAllRootFolders",
+        "Name": "Project Root Folders",
+        "Description": "Get Root Folders",
+        "Anchor": "#project-root-folders",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-ListFolder",
+        "Name": "List files in folder by Project Id",
+        "Description": "List files in a Procore Project folder",
+        "Anchor": "#list-files-in-folder-by-project-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Projects-GetProjects",
+        "Name": "Projects - Get Projects",
+        "Description": "Return a list of active Projects.",
+        "Anchor": "#projects---get-projects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Projects-GetProjectUsers",
+        "Name": "Get Project Users",
+        "Description": "Get Project Users",
+        "Anchor": "#get-project-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-ShowInstructionType",
+        "Name": "Instruction Types - Show Instruction Type",
+        "Description": "Get detailed information on the specified Instruction Type.",
+        "Anchor": "#instruction-types---show-instruction-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Projects-ShowProject",
+        "Name": "Projects - Show Project",
+        "Description": "Show details of the specified Project in Procore.",
+        "Anchor": "#projects---show-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Projects-SyncProjects",
+        "Name": "Projects - Sync Projects",
+        "Description": "Create or update a batch of Projects.",
+        "Anchor": "#projects---sync-projects",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Projects-UpdateProject",
+        "Name": "Projects - Update Project",
+        "Description": "Update an existing Project's information.",
+        "Anchor": "#projects---update-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-UpdateFile",
+        "Name": "Update Project File",
+        "Description": "Update Project File",
+        "Anchor": "#update-project-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-UpdateFolder",
+        "Name": "Update Project Folder",
+        "Description": "Update Project Folder",
+        "Anchor": "#update-project-folder",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-UpdateInstructionType",
+        "Name": "Instruction Types - Update Instruction Type",
+        "Description": "Update the specified Instruction Type.",
+        "Anchor": "#instruction-types---update-instruction-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-UpdateProjectType",
+        "Name": "Update Project Type",
+        "Description": "Update Project Type",
+        "Anchor": "#update-project-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Project-UpdateProjectUser",
+        "Name": "Update Project User",
+        "Description": "Update Project User",
+        "Anchor": "#update-project-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Replies-DeleteAnRFIResponse",
+        "Name": "Replies - Delete An RFI Response",
+        "Description": "Deletes a specified response associated with a specified RFI and specified Project",
+        "Anchor": "#replies---delete-an-rfi-response",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Replies-GetReplies",
+        "Name": "Replies - Get Replies",
+        "Description": "Get list of replies for a specified RFI",
+        "Anchor": "#replies---get-replies",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Replies-ShowRFIReply",
+        "Name": "Replies - Show RFI Reply",
+        "Description": "Get detailed information on a specified RFI reply",
+        "Anchor": "#replies---show-rfi-reply",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Replies-UpdateRFIReply",
+        "Name": "Replies - Update RFI Reply",
+        "Description": "Updates a specified RFI reply",
+        "Anchor": "#replies---update-rfi-reply",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Resources-DeleteResource",
+        "Name": "Resources - Delete Resource",
+        "Description": "Delete the specified Resource. Note that when a resource is deleted, any assignments to tasks will also be removed.",
+        "Anchor": "#resources---delete-resource",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Resources-GetResources",
+        "Name": "Resources - Get Resources",
+        "Description": "Get list of all resources in a specified Project",
+        "Anchor": "#resources---get-resources",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Resources-ShowResource",
+        "Name": "Resources - Show Resource",
+        "Description": "Show detail on the specified Resource.",
+        "Anchor": "#resources---show-resource",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Resources-UpdateResource",
+        "Name": "Resources - Update Resource",
+        "Description": "Update the specified Resource.",
+        "Anchor": "#resources---update-resource",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RFI-GetPotentialAssignees",
+        "Name": "RFI - List Of Possible Assignees",
+        "Description": "Get all potential Assignees for an RFI",
+        "Anchor": "#rfi---list-of-possible-assignees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RFI-GetPotentialManagers",
+        "Name": "Potential Managers - List Of Possible Managers",
+        "Description": "Get all potential Managers for an RFI.",
+        "Anchor": "#potential-managers---list-of-possible-managers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RFIs-GetRFIs",
+        "Name": "RFIs - Get RFIs",
+        "Description": "Get all RFIs in a specified Project.",
+        "Anchor": "#rfis---get-rfis",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RFIs-ListRecycledRFIs",
+        "Name": "RFIs - List Recycled RFIs",
+        "Description": "Get all deleted RFIs in a specified Project",
+        "Anchor": "#rfis---list-recycled-rfis",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RFIs-RecycleRFI",
+        "Name": "RFIs - Recycle RFI",
+        "Description": "Send a specified RFI to the Recycle Bin.",
+        "Anchor": "#rfis---recycle-rfi",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RFIs-RetrieveRecycledRFI",
+        "Name": "RFIs - Retrieve Recycled RFI",
+        "Description": "Get a specified RFI from the Recycle Bin.",
+        "Anchor": "#rfis---retrieve-recycled-rfi",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RFIs-ShowRFI",
+        "Name": "RFIs - Show RFI",
+        "Description": "Get detailed information about a specified RFI in a specified Project.",
+        "Anchor": "#rfis---show-rfi",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RFIs-UpdateRFI",
+        "Name": "RFIs - Update RFI",
+        "Description": "Updates a specified RFI in a specified Project.",
+        "Anchor": "#rfis---update-rfi",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Schedule-GetRequestedChanges",
+        "Name": "Schedule - Get Requested Changes",
+        "Description": "Get all Requested Changes of a Task.",
+        "Anchor": "#schedule---get-requested-changes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TaskItems-GetTasksItems",
+        "Name": "Task Items - Get Tasks Items",
+        "Description": "Get Tasks Items",
+        "Anchor": "#task-items---get-tasks-items",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Tasks-DeleteTask",
+        "Name": "Tasks - Delete Task",
+        "Description": "Delete the specified Task.",
+        "Anchor": "#tasks---delete-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Tasks-ListTasks",
+        "Name": "Tasks - List Tasks",
+        "Description": "List existing tasks for the specified Project.",
+        "Anchor": "#tasks---list-tasks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Tasks-SyncTasks",
+        "Name": "Tasks - Sync Tasks",
+        "Description": "This endpoint creates or updates a batch of tasks.",
+        "Anchor": "#tasks---sync-tasks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TimeCard-DeleteTimecardEntry",
+        "Name": "Timecard Entries - Delete Timecard Entry",
+        "Description": "Delete a specified Timecard Entry.",
+        "Anchor": "#timecard-entries---delete-timecard-entry",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TimeCard-GetTimeCardEntries",
+        "Name": "Timecard Entries - Get Timecard Entries",
+        "Description": "Get all Time Card Entries",
+        "Anchor": "#timecard-entries---get-timecard-entries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ToDos-DeleteTodo",
+        "Name": "ToDos - Delete Todo",
+        "Description": "Delete a specific ToDo Item in a specified Project.",
+        "Anchor": "#todos---delete-todo",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ToDos-ShowTodo",
+        "Name": "ToDos - Show Todo",
+        "Description": "Return detailed information about a ToDo Item in a specified Project.",
+        "Anchor": "#todos---show-todo",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ToDos-UpdateTodo",
+        "Name": "ToDos - Update Todo",
+        "Description": "Update a ToDo item for a specified Project.",
+        "Anchor": "#todos---update-todo",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Trigger-SubscribeForEvents",
+        "Name": "Procore Webhook Trigger for any Events",
+        "Description": "Event Trigger - Triggers a callback notification based on the configured event",
+        "Anchor": "#procore-webhook-trigger-for-any-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Trigger-SubscribeForEventsByCompany",
+        "Name": "Procore Webhook Trigger for any Company wide Events",
+        "Description": "Event Trigger - Triggers a callback notification based on the configured event",
+        "Anchor": "#procore-webhook-trigger-for-any-company-wide-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-Department",
+        "Name": "Update Department",
+        "Description": "Update Department",
+        "Anchor": "#update-department",
         "IsDeprecated": false
       }
     ]
@@ -39257,6 +40808,103 @@
     ]
   },
   {
+    "UniqueName": "ineight",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ineight/",
+    "Actions": [
+      {
+        "OperationId": "Crafts_Import",
+        "Name": "Import Crafts",
+        "Description": "Crafts Integration allows InEight customers to provide a list of crafts for their organization. Within the application, Crafts records are found in the Account level menu options under  &quot;Master data libraries &gt; Operational resources&quot; or from within the Project level menu under  &quot;Assigned operational resources&quot;.",
+        "Anchor": "#import-crafts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DailyPlan_Get",
+        "Name": "Get complete Daily Plan details",
+        "Description": "The Daily Plan integration allows customers to provide time keeping information for employees and equipment as recorded in InEight Plan. This integration includes summary information about the daily plan, from employee hours to cost items, equipment hours to cost items, payroll indicators, and notes. The Daily Plan integration can also be used to track and provide plan status in systems outside of InEight cloud platform. When a daily plan is used for this purpose, an optional response message can be used to trigger a status change in the daily plan to indicate the change has been successfully received by the external system.",
+        "Anchor": "#get-complete-daily-plan-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DailyPlanStatus_Import",
+        "Name": "Confirm status of Daily Plans",
+        "Description": "If approved daily plans are sent to an external system, the external system can optionally process the daily plan data and return a message informing the InEight cloud platform that the status should be updated to Final Processing Complete.",
+        "Anchor": "#confirm-status-of-daily-plans",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Employees_Import",
+        "Name": "Import Employees",
+        "Description": "The Employees Integration allows InEight customers to provide a list of all employee resources  for their entire organization, and to maintain the list as employees are hired, terminated, or  details of their employment change. Within the application, Employee records are  found in the Account level menu options under ''Master data libraries'' &gt; ''Operational resources''.",
+        "Anchor": "#import-employees",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EquipmentCategories_Import",
+        "Name": "Import Equipment Categories",
+        "Description": "The EquipmentCategories Integration allows InEight customers to provide and maintain a  complete list of EquipmentCategories that can be used on any equipment. Within  the application, Equipment Catgory records are found in the Account level menu options under  ''Master data libraries'' &gt; ''Operational resources''.",
+        "Anchor": "#import-equipment-categories",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Equipments_Import",
+        "Name": "Import Equipments",
+        "Description": "The Equipment Integration allows InEight customers to provide and maintain a  complete list of equipment that can be used on any given project. In this integration,  it is expected that ''Equipment'' refers to items that are mobile, have an estimated  usage rate, and can be tracked by hours of usage. Equipment can include cranes,  backhoes, generators, trucks used for transportation, and any other tracked resource.  This integration includes specific details about the equipment such as manufacturer,  model, serial number, and whether the equipment is owned or rented. Within  the application, Equipment records are found in the Account level menu options under  ''Master data libraries'' &gt; ''Operational resources''.",
+        "Anchor": "#import-equipments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EquipmentTypes_Import",
+        "Name": "Import Equipment Types",
+        "Description": "The Equipment Types Integration allows an external system to maintain a master list of Equipment Types in InEight.",
+        "Anchor": "#import-equipment-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Roles_Import",
+        "Name": "Import Roles",
+        "Description": "This integration allows customers to create their master list of Roles that may be used for various business functions within several InEight cloud applications.",
+        "Anchor": "#import-roles",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TimeCard_Get",
+        "Name": "Get complete Time Card details",
+        "Description": "The Time Card integration provides payroll or pre-payroll processing systems with a detailed breakdown of hours for employees along with the type of work performed and custom-defined that are applied for blocks of hours or for the entire day. This integration is available if Time Center has been enabled within the customer environment. Time Center is an application within InEight Plan that generates time cards of individual employees or equipment for each combination that is entered on a daily plan. The application allows an administrator to review the hours before sending it to an ERP for further processing of actual hours for other business processes such as payroll. All time cards, when required, can be sent through the Time Card integration to an ERP or other system for further business process workflows.",
+        "Anchor": "#get-complete-time-card-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TimeCardConfirmation_Import",
+        "Name": "Confirm the status of Time Cards",
+        "Description": "The Time Card Confirmation integration allows external systems to report on the success or failure to process time cards obtained from Time Center and update a status to support a business workflow.",
+        "Anchor": "#confirm-the-status-of-time-cards",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Trades_Import",
+        "Name": "Import Trades",
+        "Description": "Trades Integration allows InEight customers to provide a list of trades for their organization. Within the application, Trades records are found in the Account level menu options under  &quot;Master data libraries &gt; Operational resources&quot; or from within the Project level menu under &quot;Assigned operational resources&quot;.",
+        "Anchor": "#import-trades",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UserRoles_Import",
+        "Name": "Import User Roles",
+        "Description": "UserRoles Integration allows InEight customers to import a list of users and roles mapping at the intended project or organization level. Within the application, user role assignments are found in the Account level menu options under &quot;Suite Administration &gt; User management &gt; Edit user&quot;.",
+        "Anchor": "#import-user-roles",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Users_Import",
+        "Name": "Import Users",
+        "Description": "Users Integration allows InEight customers to provide a list of all user resources for their entire organization and to maintain the list as users are added or removed. Within the application, user records are found in the Account level menu options under &quot;Suite Administration&quot;",
+        "Anchor": "#import-users",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "infobip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../infobip/",
     "Actions": [
@@ -44260,21 +45908,21 @@
       {
         "OperationId": "OnCCItemSelected",
         "Name": "For a selected communication compliance item",
-        "Description": "This trigger allows you to start a flow when a Communication Compliance item is selected in Microsoft Purview compliance portal (Available only for Power Automate.)",
+        "Description": "This trigger allows you to start a flow when a Communication Compliance item is selected in Microsoft 365 compliance center (Available only for Power Automate.)",
         "Anchor": "#for-a-selected-communication-compliance-item",
         "IsDeprecated": false
       },
       {
         "OperationId": "OnIRMCaseSelected",
         "Name": "For a selected insider risk management case",
-        "Description": "This trigger allows you to start a flow when an insider risk management case is selected in Microsoft Purview compliance portal (Available only for Power Automate.)",
+        "Description": "This trigger allows you to start a flow when an insider risk management case is selected in Microsoft 365 compliance center (Available only for Power Automate.)",
         "Anchor": "#for-a-selected-insider-risk-management-case",
         "IsDeprecated": false
       },
       {
         "OperationId": "OnIRMRiskyUserSelected",
         "Name": "For a selected insider risk management user",
-        "Description": "This trigger allows you to start a flow when an insider risk management user is selected in Microsoft Purview compliance portal (Available only for Power Automate.)",
+        "Description": "This trigger allows you to start a flow when an insider risk management user is selected in Microsoft 365 compliance center (Available only for Power Automate.)",
         "Anchor": "#for-a-selected-insider-risk-management-user",
         "IsDeprecated": false
       },
@@ -45349,16 +46997,16 @@
       },
       {
         "OperationId": "CreateIncidentRelation",
-        "Name": "Add alert to incident (Private Preview)",
+        "Name": "Add alert to incident",
         "Description": "Add an alert to an existing incident. The alert joins the incident as any other alert and will be shown in portal.",
-        "Anchor": "#add-alert-to-incident-(private-preview)",
+        "Anchor": "#add-alert-to-incident",
         "IsDeprecated": false
       },
       {
         "OperationId": "DeleteIncidentRelation",
-        "Name": "Remove alert from incident (Private Preview)",
+        "Name": "Remove alert from incident",
         "Description": "Remove an alert from an existing incident.",
-        "Anchor": "#remove-alert-from-incident-(private-preview)",
+        "Anchor": "#remove-alert-from-incident",
         "IsDeprecated": false
       },
       {
@@ -46156,6 +47804,13 @@
         "Description": "This action has been deprecated. Please use Decline a Time Off request instead.\nThis operation allows managers to decline a time off request.",
         "Anchor": "#shifts:-decline-a-time-off-request-[deprecated]",
         "IsDeprecated": true
+      },
+      {
+        "OperationId": "UpdateCardInConversation",
+        "Name": "Update an adaptive card in a chat or channel",
+        "Description": "This operation updates an existing adaptive card.",
+        "Anchor": "#update-an-adaptive-card-in-a-chat-or-channel",
+        "IsDeprecated": false
       },
       {
         "OperationId": "UpdateOpenShift",
@@ -53232,6 +54887,82 @@
         "Name": "Search for Videos",
         "Description": "Search Pexels for any videos that you would like. For example your query could be something broad like Nature, Tigers, People. Or it could be something specific like Group of people working.",
         "Anchor": "#search-for-videos",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "philipshueip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../philipshueip/",
+    "Actions": [
+      {
+        "OperationId": "DeleteScene",
+        "Name": "Delete scene",
+        "Description": "Delete specific scene.",
+        "Anchor": "#delete-scene",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExecuteDevice",
+        "Name": "Execute device",
+        "Description": "Execute a specific device.",
+        "Anchor": "#execute-device",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExecuteLight",
+        "Name": "Execute light",
+        "Description": "Execute device having lightning capabilities.",
+        "Anchor": "#execute-light",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDevice",
+        "Name": "Get device",
+        "Description": "Get details of a specific device.",
+        "Anchor": "#get-device",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDevices",
+        "Name": "Get devices",
+        "Description": "Get list of all your devices.",
+        "Anchor": "#get-devices",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLight",
+        "Name": "Get light",
+        "Description": "Get details of a specific device having lightning capabilities.",
+        "Anchor": "#get-light",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLights",
+        "Name": "Get lights",
+        "Description": "Get list of your devices having lightning capabilities.",
+        "Anchor": "#get-lights",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRooms",
+        "Name": "Get rooms",
+        "Description": "Get list of rooms (groups).",
+        "Anchor": "#get-rooms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetScene",
+        "Name": "Get scene",
+        "Description": "Get details of a specific scene.",
+        "Anchor": "#get-scene",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetScenes",
+        "Name": "Get scenes",
+        "Description": "Get a list of all scenes. Scenes are used to store and recall settings for a group of lights.",
+        "Anchor": "#get-scenes",
         "IsDeprecated": false
       }
     ]
@@ -66867,6 +68598,110 @@
     ]
   },
   {
+    "UniqueName": "stravaip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../stravaip/",
+    "Actions": [
+      {
+        "OperationId": "GetActivity",
+        "Name": "Get Activity",
+        "Description": "Returns the given activity that is owned by the authenticated athlete. Requires activity:read for Everyone and Followers activities. Requires activity:read_all for Only Me activities.",
+        "Anchor": "#get-activity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAthleteStats",
+        "Name": "Get Athlete Stats",
+        "Description": "Returns the activity stats of an athlete. Only includes data from activities set to Everyone visibility.",
+        "Anchor": "#get-athlete-stats",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAuthenticatedAthlete",
+        "Name": "Get Authenticated Athlete",
+        "Description": "Returns the currently authenticated athlete. Tokens with profile:read_all scope will receive a detailed athlete representation; all others will receive a summary representation.",
+        "Anchor": "#get-authenticated-athlete",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetClub",
+        "Name": "Get Club",
+        "Description": "Returns a given club using its identifier.",
+        "Anchor": "#get-club",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSegment",
+        "Name": "Get Segment",
+        "Description": "Returns the specified segment. read_all scope required in order to retrieve athlete-specific segment information, or to retrieve private segments.",
+        "Anchor": "#get-segment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListActivityComments",
+        "Name": "List Activity Comments",
+        "Description": "Returns the comments on the given activity. Requires activity:read for Everyone and Followers activities. Requires activity:read_all for Only Me activities.",
+        "Anchor": "#list-activity-comments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListActivityKudoers",
+        "Name": "List Activity Kudoers",
+        "Description": "Returns the athletes who kudoed an activity identified by an identifier. Requires activity:read for Everyone and Followers activities. Requires activity:read_all for Only Me activities.",
+        "Anchor": "#list-activity-kudoers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListActivityLaps",
+        "Name": "List Activity Laps",
+        "Description": "Returns the laps of an activity identified by an identifier. Requires activity:read for Everyone and Followers activities. Requires activity:read_all for Only Me activities.",
+        "Anchor": "#list-activity-laps",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListAthleteActivities",
+        "Name": "List Athlete Activities",
+        "Description": "Returns the activities of an athlete for a specific identifier. Requires activity:read. Only Me activities will be filtered out unless requested by a token with activity:read_all.",
+        "Anchor": "#list-athlete-activities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListAthleteClubs",
+        "Name": "List Athlete Clubs",
+        "Description": "Returns a list of the clubs whose membership includes the authenticated athlete.",
+        "Anchor": "#list-athlete-clubs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListClubActivities",
+        "Name": "List Club Activities",
+        "Description": "Retrieve recent activities from members of a specific club. The authenticated athlete must belong to the requested club in order to hit this endpoint. Pagination is supported. Athlete profile visibility is respected for all activities.",
+        "Anchor": "#list-club-activities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListClubAdministrators",
+        "Name": "List Club Administrators",
+        "Description": "Returns a list of the administrators of a given club.",
+        "Anchor": "#list-club-administrators",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListClubMembers",
+        "Name": "List Club Members",
+        "Description": "Returns a list of the athletes who are members of a given club.",
+        "Anchor": "#list-club-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListStarredSegments",
+        "Name": "List Starred Segments",
+        "Description": "List of the authenticated athlete's starred segments. Private segments are filtered out unless requested by a token with read_all scope.",
+        "Anchor": "#list-starred-segments",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "stripe",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../stripe/",
     "Actions": [
@@ -71373,6 +73208,61 @@
         "Name": "When the chatbot understand",
         "Description": "When the chatbot understand",
         "Anchor": "#when-the-chatbot-understand",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "woocommerce",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../woocommerce/",
+    "Actions": [
+      {
+        "OperationId": "BatchResource",
+        "Name": "Perform a batch operation",
+        "Description": "Completes an operation on a number of WooCommerce items",
+        "Anchor": "#perform-a-batch-operation",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateResource",
+        "Name": "Create a new item of the specified type",
+        "Description": "Creates an item using specified parameters",
+        "Anchor": "#create-a-new-item-of-the-specified-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateWebhook",
+        "Name": "When a WooCommerce event happens",
+        "Description": "Select events across Coupons, Customers, Orders, Order Notes, Products, Subscriptions and more",
+        "Anchor": "#when-a-woocommerce-event-happens",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteResource",
+        "Name": "Delete an item of the specified type",
+        "Description": "Deletes an item of the specified type and id",
+        "Anchor": "#delete-an-item-of-the-specified-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetItemsByResource",
+        "Name": "Find a list of the selected item type",
+        "Description": "Gets a list of items of the selected type from the store",
+        "Anchor": "#find-a-list-of-the-selected-item-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetResourceById",
+        "Name": "Get a single item of the selected type",
+        "Description": "Fetchs an item of the selected type from the store",
+        "Anchor": "#get-a-single-item-of-the-selected-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateResource",
+        "Name": "Update an item of the specified type",
+        "Description": "Updates an item using specified parameters",
+        "Anchor": "#update-an-item-of-the-specified-type",
         "IsDeprecated": false
       }
     ]

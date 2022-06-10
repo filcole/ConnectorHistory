@@ -1,0 +1,97 @@
+{
+  "UniqueName": "ineight",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ineight/",
+  "Actions": [
+    {
+      "OperationId": "Crafts_Import",
+      "Name": "Import Crafts",
+      "Description": "Crafts Integration allows InEight customers to provide a list of crafts for their organization. Within the application, Crafts records are found in the Account level menu options under  &quot;Master data libraries &gt; Operational resources&quot; or from within the Project level menu under  &quot;Assigned operational resources&quot;.",
+      "Anchor": "#import-crafts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DailyPlan_Get",
+      "Name": "Get complete Daily Plan details",
+      "Description": "The Daily Plan integration allows customers to provide time keeping information for employees and equipment as recorded in InEight Plan. This integration includes summary information about the daily plan, from employee hours to cost items, equipment hours to cost items, payroll indicators, and notes. The Daily Plan integration can also be used to track and provide plan status in systems outside of InEight cloud platform. When a daily plan is used for this purpose, an optional response message can be used to trigger a status change in the daily plan to indicate the change has been successfully received by the external system.",
+      "Anchor": "#get-complete-daily-plan-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DailyPlanStatus_Import",
+      "Name": "Confirm status of Daily Plans",
+      "Description": "If approved daily plans are sent to an external system, the external system can optionally process the daily plan data and return a message informing the InEight cloud platform that the status should be updated to Final Processing Complete.",
+      "Anchor": "#confirm-status-of-daily-plans",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Employees_Import",
+      "Name": "Import Employees",
+      "Description": "The Employees Integration allows InEight customers to provide a list of all employee resources  for their entire organization, and to maintain the list as employees are hired, terminated, or  details of their employment change. Within the application, Employee records are  found in the Account level menu options under ''Master data libraries'' &gt; ''Operational resources''.",
+      "Anchor": "#import-employees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EquipmentCategories_Import",
+      "Name": "Import Equipment Categories",
+      "Description": "The EquipmentCategories Integration allows InEight customers to provide and maintain a  complete list of EquipmentCategories that can be used on any equipment. Within  the application, Equipment Catgory records are found in the Account level menu options under  ''Master data libraries'' &gt; ''Operational resources''.",
+      "Anchor": "#import-equipment-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Equipments_Import",
+      "Name": "Import Equipments",
+      "Description": "The Equipment Integration allows InEight customers to provide and maintain a  complete list of equipment that can be used on any given project. In this integration,  it is expected that ''Equipment'' refers to items that are mobile, have an estimated  usage rate, and can be tracked by hours of usage. Equipment can include cranes,  backhoes, generators, trucks used for transportation, and any other tracked resource.  This integration includes specific details about the equipment such as manufacturer,  model, serial number, and whether the equipment is owned or rented. Within  the application, Equipment records are found in the Account level menu options under  ''Master data libraries'' &gt; ''Operational resources''.",
+      "Anchor": "#import-equipments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EquipmentTypes_Import",
+      "Name": "Import Equipment Types",
+      "Description": "The Equipment Types Integration allows an external system to maintain a master list of Equipment Types in InEight.",
+      "Anchor": "#import-equipment-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Roles_Import",
+      "Name": "Import Roles",
+      "Description": "This integration allows customers to create their master list of Roles that may be used for various business functions within several InEight cloud applications.",
+      "Anchor": "#import-roles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimeCard_Get",
+      "Name": "Get complete Time Card details",
+      "Description": "The Time Card integration provides payroll or pre-payroll processing systems with a detailed breakdown of hours for employees along with the type of work performed and custom-defined that are applied for blocks of hours or for the entire day. This integration is available if Time Center has been enabled within the customer environment. Time Center is an application within InEight Plan that generates time cards of individual employees or equipment for each combination that is entered on a daily plan. The application allows an administrator to review the hours before sending it to an ERP for further processing of actual hours for other business processes such as payroll. All time cards, when required, can be sent through the Time Card integration to an ERP or other system for further business process workflows.",
+      "Anchor": "#get-complete-time-card-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimeCardConfirmation_Import",
+      "Name": "Confirm the status of Time Cards",
+      "Description": "The Time Card Confirmation integration allows external systems to report on the success or failure to process time cards obtained from Time Center and update a status to support a business workflow.",
+      "Anchor": "#confirm-the-status-of-time-cards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Trades_Import",
+      "Name": "Import Trades",
+      "Description": "Trades Integration allows InEight customers to provide a list of trades for their organization. Within the application, Trades records are found in the Account level menu options under  &quot;Master data libraries &gt; Operational resources&quot; or from within the Project level menu under &quot;Assigned operational resources&quot;.",
+      "Anchor": "#import-trades",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserRoles_Import",
+      "Name": "Import User Roles",
+      "Description": "UserRoles Integration allows InEight customers to import a list of users and roles mapping at the intended project or organization level. Within the application, user role assignments are found in the Account level menu options under &quot;Suite Administration &gt; User management &gt; Edit user&quot;.",
+      "Anchor": "#import-user-roles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Users_Import",
+      "Name": "Import Users",
+      "Description": "Users Integration allows InEight customers to provide a list of all user resources for their entire organization and to maintain the list as users are added or removed. Within the application, user records are found in the Account level menu options under &quot;Suite Administration&quot;",
+      "Anchor": "#import-users",
+      "IsDeprecated": false
+    }
+  ]
+}

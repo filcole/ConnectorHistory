@@ -1,0 +1,20 @@
+{
+  "UniqueName": "flowformav2",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../flowformav2/",
+  "Actions": [
+    {
+      "OperationId": "CreateForm",
+      "Name": "Create a new form",
+      "Description": "Create a new form",
+      "Anchor": "#create-a-new-form",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateForm",
+      "Name": "Update a form",
+      "Description": "Update a form",
+      "Anchor": "#update-a-form",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -3,6 +3,13 @@
   "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../blackbaudfundraising/",
   "Actions": [
     {
+      "OperationId": "CreateAppeal",
+      "Name": "Create an appeal",
+      "Description": "Creates a new appeal.",
+      "Anchor": "#create-an-appeal",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateAppealAttachment",
       "Name": "Create an appeal attachment",
       "Description": "Creates a new appeal attachment.",
@@ -14,6 +21,13 @@
       "Name": "Create an appeal custom field",
       "Description": "Creates a new appeal custom field.",
       "Anchor": "#create-an-appeal-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCampaign",
+      "Name": "Create a campaign",
+      "Description": "Creates a new campaign.",
+      "Anchor": "#create-a-campaign",
       "IsDeprecated": false
     },
     {
@@ -31,6 +45,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateConstituentAppeal",
+      "Name": "Create a constituent appeal",
+      "Description": "Creates a new constituent appeal.",
+      "Anchor": "#create-a-constituent-appeal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateFund",
+      "Name": "Create a fund",
+      "Description": "Creates a new fund.",
+      "Anchor": "#create-a-fund",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateFundAttachment",
       "Name": "Create a fund attachment",
       "Description": "Creates a new fund attachment.",
@@ -42,6 +70,13 @@
       "Name": "Create a fund custom field",
       "Description": "Creates a new fund custom field.",
       "Anchor": "#create-a-fund-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditAppeal",
+      "Name": "Update an appeal",
+      "Description": "Updates an appeal.",
+      "Anchor": "#update-an-appeal",
       "IsDeprecated": false
     },
     {
@@ -59,6 +94,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "EditCampaign",
+      "Name": "Update a campaign",
+      "Description": "Updates a campaign.",
+      "Anchor": "#update-a-campaign",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "EditCampaignAttachment",
       "Name": "Update a campaign attachment",
       "Description": "Updates a campaign attachment.",
@@ -70,6 +112,20 @@
       "Name": "Update a campaign custom field",
       "Description": "Updates a campaign custom field.",
       "Anchor": "#update-a-campaign-custom-field",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditConstituentAppeal",
+      "Name": "Update a constituent appeal",
+      "Description": "Updates a constituent appeal.",
+      "Anchor": "#update-a-constituent-appeal",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditFund",
+      "Name": "Update a fund",
+      "Description": "Updates a fund.",
+      "Anchor": "#update-a-fund",
       "IsDeprecated": false
     },
     {
@@ -164,10 +220,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ListConstituentFundRelationships",
+      "Name": "List constituent fund relationships",
+      "Description": "Lists the fund relationships for a constituent.",
+      "Anchor": "#list-constituent-fund-relationships",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ListFundAttachments",
       "Name": "List fund attachments",
       "Description": "Lists the attachments for a fund.",
       "Anchor": "#list-fund-attachments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFundConstituentRelationships",
+      "Name": "List fund constituent relationships",
+      "Description": "Lists the constituent relationships for a fund.",
+      "Anchor": "#list-fund-constituent-relationships",
       "IsDeprecated": false
     },
     {

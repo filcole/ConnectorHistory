@@ -108,6 +108,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateConstituentTribute",
+      "Name": "Create a constituent tribute",
+      "Description": "Creates a new constituent tribute.",
+      "Anchor": "#create-a-constituent-tribute",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateFundraiserAssignment",
       "Name": "Create a fundraiser assignment",
       "Description": "Creates a new fundraiser assignment.",
@@ -140,6 +147,13 @@
       "Name": "Create an organization relationship",
       "Description": "Creates a new organization relationship.  If the relationship is with another constituent, a reciprocal relationship is created for that constituent.",
       "Anchor": "#create-an-organization-relationship",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTributeAcknowledgee",
+      "Name": "Create a tribute acknowledgee",
+      "Description": "Creates a new tribute acknowledgee.",
+      "Anchor": "#create-a-tribute-acknowledgee",
       "IsDeprecated": false
     },
     {
@@ -269,6 +283,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetConstituentIdFromLookupId",
+      "Name": "Get a constituent by lookup ID",
+      "Description": "Returns a constituent's system record ID from the specified lookup ID.",
+      "Anchor": "#get-a-constituent-by-lookup-id",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetConstituentNameFormatSummary",
       "Name": "Get constituent name format summary",
       "Description": "Returns the name format summary for a constituent.",
@@ -280,6 +301,13 @@
       "Name": "Get a constituent profile picture",
       "Description": "Returns the current profile picture for a constituent.",
       "Anchor": "#get-a-constituent-profile-picture",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetConstituentTribute",
+      "Name": "Get a constituent tribute",
+      "Description": "Returns details about a constituent tribute.",
+      "Anchor": "#get-a-constituent-tribute",
       "IsDeprecated": false
     },
     {
@@ -395,6 +423,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ListConstituentTributes",
+      "Name": "List constituent tributes",
+      "Description": "Lists the tributes for a constituent.",
+      "Anchor": "#list-constituent-tributes",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ListFundraiserAssignments",
       "Name": "List fundraiser assignments",
       "Description": "List the assignments for a fundraiser.",
@@ -402,10 +437,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ListTributeAcknowledgees",
+      "Name": "List tribute acknowledgees",
+      "Description": "Lists the acknowledgees for a tribute.",
+      "Anchor": "#list-tribute-acknowledgees",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "SearchConstituent",
       "Name": "Search for a constituent",
       "Description": "Performs a constituent search based on the provided search text. Supports first name, last name, preferred name, former name, alias, email address, phone number, address, or lookup ID. Name combinations such as first name and last name or preferred name and last name are valid, but otherwise search only supports one parameter at a time. By default, searches include results that sound similar to your criteria. For example, searches for &quot;Smith&quot; include matches for &quot;Smyth&quot; and other alternative spellings. This search does not support wildcard characters such as * or ?. Search results are limited to 500 records.",
       "Anchor": "#search-for-a-constituent",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SearchConstituentEnhanced",
+      "Name": "Search for a constituent (enhanced)",
+      "Description": "Searches for constituent records using the given filter criteria.",
+      "Anchor": "#search-for-a-constituent-(enhanced)",
       "IsDeprecated": false
     }
   ]

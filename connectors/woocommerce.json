@@ -1,0 +1,55 @@
+{
+  "UniqueName": "woocommerce",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../woocommerce/",
+  "Actions": [
+    {
+      "OperationId": "BatchResource",
+      "Name": "Perform a batch operation",
+      "Description": "Completes an operation on a number of WooCommerce items",
+      "Anchor": "#perform-a-batch-operation",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateResource",
+      "Name": "Create a new item of the specified type",
+      "Description": "Creates an item using specified parameters",
+      "Anchor": "#create-a-new-item-of-the-specified-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWebhook",
+      "Name": "When a WooCommerce event happens",
+      "Description": "Select events across Coupons, Customers, Orders, Order Notes, Products, Subscriptions and more",
+      "Anchor": "#when-a-woocommerce-event-happens",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteResource",
+      "Name": "Delete an item of the specified type",
+      "Description": "Deletes an item of the specified type and id",
+      "Anchor": "#delete-an-item-of-the-specified-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItemsByResource",
+      "Name": "Find a list of the selected item type",
+      "Description": "Gets a list of items of the selected type from the store",
+      "Anchor": "#find-a-list-of-the-selected-item-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetResourceById",
+      "Name": "Get a single item of the selected type",
+      "Description": "Fetchs an item of the selected type from the store",
+      "Anchor": "#get-a-single-item-of-the-selected-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateResource",
+      "Name": "Update an item of the specified type",
+      "Description": "Updates an item using specified parameters",
+      "Anchor": "#update-an-item-of-the-specified-type",
+      "IsDeprecated": false
+    }
+  ]
+}

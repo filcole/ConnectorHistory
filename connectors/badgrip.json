@@ -1,0 +1,293 @@
+{
+  "UniqueName": "badgrip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../badgrip/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Create an Issuer's BadgeClass",
+      "Description": "Create a new BadgeClass associated with an Issuer. Authenticated user must have owner, editor, or staff status on the Issuer.",
+      "Anchor": "#create-an-issuer's-badgeclass",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get a BadgeUser's profile",
+      "Description": "Get a single BadgeUser profile. Use the entityId 'self' to retrieve the authenticated user's profile.",
+      "Anchor": "#get-a-badgeuser's-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get Assertions in a user's backpack",
+      "Description": "Get a list of Assertions in authenticated user's backpack.",
+      "Anchor": "#get-assertions-in-a-user's-backpack",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get BadgeClass's Assertions",
+      "Description": "Get a list of Assertions for a single BadgeClass.",
+      "Anchor": "#get-badgeclass's-assertions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get Issuer's BadgeClasses",
+      "Description": "Get a list of BadgeClasses for a single Issuer. Authenticated user must have owner, editor, or staff status on the Issuer.",
+      "Anchor": "#get-issuer's-badgeclasses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get user's access tokens",
+      "Description": "Get a list of access tokens for authenticated user.",
+      "Anchor": "#get-user's-access-tokens",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "",
+      "Name": "Get user's BadgeClasses",
+      "Description": "Get a list of BadgeClasses for authenticated user.",
+      "Anchor": "#get-user's-badgeclasses",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AccountRecover",
+      "Name": "Recover an account",
+      "Description": "Recover an account and set a new password.",
+      "Anchor": "#recover-an-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AccountRequestRecovery",
+      "Name": "Request an account recovery email",
+      "Description": "Request an account recovery email for a user.",
+      "Anchor": "#request-an-account-recovery-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssertionGet",
+      "Name": "Get Assertions",
+      "Description": "Get a list of Assertions for a single Issuer.",
+      "Anchor": "#get-assertions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssertionGetA",
+      "Name": "Get a single Assertion",
+      "Description": "Get an Assertion",
+      "Anchor": "#get-a-single-assertion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssertionRevoke",
+      "Name": "Revoke an Assertion",
+      "Description": "Revoke an Assertion.",
+      "Anchor": "#revoke-an-assertion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssertionRevokeBulk",
+      "Name": "Revoke multiple Assertions",
+      "Description": "Revoke multiple Assertions for multiple recipients.",
+      "Anchor": "#revoke-multiple-assertions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "AssertionUpdate",
+      "Name": "Update an Assertion",
+      "Description": "Update an Assertion.",
+      "Anchor": "#update-an-assertion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BackpackGetAssertionDetails",
+      "Name": "Get Backpack Assertion details",
+      "Description": "Get details on an Assertion in a user's Backpack.",
+      "Anchor": "#get-backpack-assertion-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BackpackImportAssertion",
+      "Name": "Import a Assertion to backpack",
+      "Description": "Import a new Assertion to a user's backpack.",
+      "Anchor": "#import-a-assertion-to-backpack",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BackpackRemoteAssertion",
+      "Name": "Remove an assertion from backpack",
+      "Description": "Remove an assertion from a user's backpack.",
+      "Anchor": "#remove-an-assertion-from-backpack",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BackpackUpdateAcceptance",
+      "Name": "Update Assertion acceptance in Backpack",
+      "Description": "Update acceptance of an Assertion in a user's Backpack.",
+      "Anchor": "#update-assertion-acceptance-in-backpack",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "BackpackUploadAssertion",
+      "Name": "Upload a Assertion to backpack",
+      "Description": "Upload a new Assertion to a user's backpack.",
+      "Anchor": "#upload-a-assertion-to-backpack",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClassCreate",
+      "Name": "Create a BadgeClass",
+      "Description": "Create a new BadgeClass.",
+      "Anchor": "#create-a-badgeclass",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClassDelete",
+      "Name": "Delete a BadgeClass",
+      "Description": "Delete a BadgeClass. Restricted to owners or editors (not staff) of the corresponding Issuer.",
+      "Anchor": "#delete-a-badgeclass",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClassGet",
+      "Name": "Get a BadgeClass",
+      "Description": "Get a single BadgeClass.",
+      "Anchor": "#get-a-badgeclass",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClassIssueAssertion",
+      "Name": "Issue an Assertion",
+      "Description": "Issue a new Assertion to a recipient.",
+      "Anchor": "#issue-an-assertion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClassIssueAssertion",
+      "Name": "Issue an Assertion",
+      "Description": "Issue an Assertion to a single recipient.",
+      "Anchor": "#issue-an-assertion",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClassIssueBulk",
+      "Name": "Issue multiple BadgeClass",
+      "Description": "Issue multiple copies of the same BadgeClass to multiple recipients.",
+      "Anchor": "#issue-multiple-badgeclass",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ClassUpdate",
+      "Name": "Update a BadgeClass",
+      "Description": "Update an existing BadgeClass. Previously issued BadgeInstances will not be updated.",
+      "Anchor": "#update-a-badgeclass",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectionCreate",
+      "Name": "Create a Collection",
+      "Description": "Create a new Collection.",
+      "Anchor": "#create-a-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectionDelete",
+      "Name": "Delete a collection",
+      "Description": "Delete a collection from a backpack.",
+      "Anchor": "#delete-a-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectionGet",
+      "Name": "Get Collections",
+      "Description": "Get a list of Collections.",
+      "Anchor": "#get-collections",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectionGetA",
+      "Name": "Get a Collection",
+      "Description": "Get a single Collection.",
+      "Anchor": "#get-a-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CollectionUpdate",
+      "Name": "Update a Collection",
+      "Description": "Update a Collection in a backpack.",
+      "Anchor": "#update-a-collection",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IssuerCreate",
+      "Name": "Create a Issuer",
+      "Description": "Create a new Issuer.",
+      "Anchor": "#create-a-issuer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IssuerDelete",
+      "Name": "Delete an Issuer",
+      "Description": "Delete a single Issuer.",
+      "Anchor": "#delete-an-issuer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IssuerGet",
+      "Name": "Get Issuers",
+      "Description": "Get a list of Issuers for authenticated user.",
+      "Anchor": "#get-issuers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IssuerGetA",
+      "Name": "Get an Issuer",
+      "Description": "Get a single Issuer.",
+      "Anchor": "#get-an-issuer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IssuerUpdate",
+      "Name": "Update an Issuer",
+      "Description": "Update a single Issuer.",
+      "Anchor": "#update-an-issuer",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TokenGetA",
+      "Name": "Get an AccessToken",
+      "Description": "Get a single AccessToken.",
+      "Anchor": "#get-an-accesstoken",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TokenRetrieve",
+      "Name": "Retrieve issuer tokens",
+      "Description": "Retrieve issuer tokens.",
+      "Anchor": "#retrieve-issuer-tokens",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TokenRevoke",
+      "Name": "Revoke an AccessToken",
+      "Description": "Revoke a user's AccessToken.",
+      "Anchor": "#revoke-an-accesstoken",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserCreate",
+      "Name": "Create a BadgeUser account",
+      "Description": "Make a BadgeUser account and profile.",
+      "Anchor": "#create-a-badgeuser-account",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UserUpdate",
+      "Name": "Update a BadgeUser",
+      "Description": "Update a BadgeUser's account. Use the entityId 'self' to update the authenticated user's profile",
+      "Anchor": "#update-a-badgeuser",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "UniqueName": "philipshueip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../philipshueip/",
+  "Actions": [
+    {
+      "OperationId": "DeleteScene",
+      "Name": "Delete scene",
+      "Description": "Delete specific scene.",
+      "Anchor": "#delete-scene",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteDevice",
+      "Name": "Execute device",
+      "Description": "Execute a specific device.",
+      "Anchor": "#execute-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExecuteLight",
+      "Name": "Execute light",
+      "Description": "Execute device having lightning capabilities.",
+      "Anchor": "#execute-light",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDevice",
+      "Name": "Get device",
+      "Description": "Get details of a specific device.",
+      "Anchor": "#get-device",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDevices",
+      "Name": "Get devices",
+      "Description": "Get list of all your devices.",
+      "Anchor": "#get-devices",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLight",
+      "Name": "Get light",
+      "Description": "Get details of a specific device having lightning capabilities.",
+      "Anchor": "#get-light",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLights",
+      "Name": "Get lights",
+      "Description": "Get list of your devices having lightning capabilities.",
+      "Anchor": "#get-lights",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRooms",
+      "Name": "Get rooms",
+      "Description": "Get list of rooms (groups).",
+      "Anchor": "#get-rooms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetScene",
+      "Name": "Get scene",
+      "Description": "Get details of a specific scene.",
+      "Anchor": "#get-scene",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetScenes",
+      "Name": "Get scenes",
+      "Description": "Get a list of all scenes. Scenes are used to store and recall settings for a group of lights.",
+      "Anchor": "#get-scenes",
+      "IsDeprecated": false
+    }
+  ]
+}

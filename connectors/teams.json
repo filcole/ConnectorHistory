@@ -479,6 +479,13 @@
       "IsDeprecated": true
     },
     {
+      "OperationId": "UpdateCardInConversation",
+      "Name": "Update an adaptive card in a chat or channel",
+      "Description": "This operation updates an existing adaptive card.",
+      "Anchor": "#update-an-adaptive-card-in-a-chat-or-channel",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "UpdateOpenShift",
       "Name": "Shifts: Update an Open Shift [DEPRECATED]",
       "Description": "This action has been deprecated. Please use Update an Open Shift instead.\nUpdate an open shift in a schedule.",

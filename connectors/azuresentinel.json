@@ -130,16 +130,16 @@
     },
     {
       "OperationId": "CreateIncidentRelation",
-      "Name": "Add alert to incident (Private Preview)",
+      "Name": "Add alert to incident",
       "Description": "Add an alert to an existing incident. The alert joins the incident as any other alert and will be shown in portal.",
-      "Anchor": "#add-alert-to-incident-(private-preview)",
+      "Anchor": "#add-alert-to-incident",
       "IsDeprecated": false
     },
     {
       "OperationId": "DeleteIncidentRelation",
-      "Name": "Remove alert from incident (Private Preview)",
+      "Name": "Remove alert from incident",
       "Description": "Remove an alert from an existing incident.",
-      "Anchor": "#remove-alert-from-incident-(private-preview)",
+      "Anchor": "#remove-alert-from-incident",
       "IsDeprecated": false
     },
     {

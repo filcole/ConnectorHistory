@@ -1,0 +1,1056 @@
+{
+  "UniqueName": "fluidkinnectorzforpr",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../fluidkinnectorzforpr/",
+  "Actions": [
+    {
+      "OperationId": "Bid-GetBidType",
+      "Name": "Get Bid Type",
+      "Description": "Get Bid Type Details",
+      "Anchor": "#get-bid-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CalendarEvents-GetCalendarEvents",
+      "Name": "Calendar Events - Get Calendar Events",
+      "Description": "Get all Calendar Events",
+      "Anchor": "#calendar-events---get-calendar-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Companies-GetCompanies",
+      "Name": "Companies - Get Companies",
+      "Description": "Get list of Companies visible to the User.",
+      "Anchor": "#companies---get-companies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-DeleteBidType",
+      "Name": "Delete Bid Type",
+      "Description": "Delete Bid Type",
+      "Anchor": "#delete-bid-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-DeleteProjectOwnerTypes",
+      "Name": "Delete Project Owner Type",
+      "Description": "Delete Project Owner Type",
+      "Anchor": "#delete-project-owner-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-DeleteProjectRegion",
+      "Name": "Delete Project Region",
+      "Description": "Delete Project Region",
+      "Anchor": "#delete-project-region",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-DeleteProjectStage",
+      "Name": "Delete Project Stage",
+      "Description": "Delete Project Stage",
+      "Anchor": "#delete-project-stage",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-DeleteProjectType",
+      "Name": "Delete Project Type",
+      "Description": "Delete Project Type",
+      "Anchor": "#delete-project-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetBidTypes",
+      "Name": "Get Bid Types",
+      "Description": "Get Bid Types",
+      "Anchor": "#get-bid-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetCurrentUser",
+      "Name": "Get Company Current User",
+      "Description": "Get Company Current User",
+      "Anchor": "#get-company-current-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetInactiveUsers",
+      "Name": "Get Company Inactive Users",
+      "Description": "Get In-Active Company Users",
+      "Anchor": "#get-company-inactive-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetPermissionTemplates",
+      "Name": "Get Company Permission Templates",
+      "Description": "Get Company Permission Templates",
+      "Anchor": "#get-company-permission-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetProjectOwnerType",
+      "Name": "Get Project Owner Type",
+      "Description": "Get Project Owner Type Details",
+      "Anchor": "#get-project-owner-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetProjectOwnerTypes",
+      "Name": "Get Project Owner Types",
+      "Description": "Get Project Owner Types",
+      "Anchor": "#get-project-owner-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetProjectRegion",
+      "Name": "Get Project Region",
+      "Description": "Get Project Region Details",
+      "Anchor": "#get-project-region",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetProjectRegions",
+      "Name": "Get Project Regions",
+      "Description": "Get Project Regions",
+      "Anchor": "#get-project-regions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetProjectStage",
+      "Name": "Get Project Stage",
+      "Description": "Get Project Stage Details",
+      "Anchor": "#get-project-stage",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetProjectStages",
+      "Name": "Get Project Stages",
+      "Description": "Get Project Stages",
+      "Anchor": "#get-project-stages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetProjectTypes",
+      "Name": "Get Project Types",
+      "Description": "Get Project Types",
+      "Anchor": "#get-project-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetUser",
+      "Name": "Get Company User",
+      "Description": "Show detail on a specified User",
+      "Anchor": "#get-company-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-GetUsers",
+      "Name": "Get Company Users",
+      "Description": "Get Company Users",
+      "Anchor": "#get-company-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-SendUserInvite",
+      "Name": "Send User Invite",
+      "Description": "Send User Invite",
+      "Anchor": "#send-user-invite",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-SyncUsers",
+      "Name": "Sync Company Users",
+      "Description": "Sync Company Users",
+      "Anchor": "#sync-company-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-UpdateProjectLocation",
+      "Name": "Company: Update Project Location",
+      "Description": "Update Project Location",
+      "Anchor": "#company:-update-project-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-UpdateProjectOwnerType",
+      "Name": "Update Project Owner Type",
+      "Description": "Update Project Owner Type",
+      "Anchor": "#update-project-owner-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-UpdateProjectRegion",
+      "Name": "Update Project Region",
+      "Description": "Update Project Region",
+      "Anchor": "#update-project-region",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-UpdateProjectStage",
+      "Name": "Update Project Stage",
+      "Description": "Update Project Stage",
+      "Anchor": "#update-project-stage",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Company-UpdateUser",
+      "Name": "Update Company User",
+      "Description": "Update Company User",
+      "Anchor": "#update-company-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssue-Export",
+      "Name": "Coordination Issue Export - Download Project Coordination Issues",
+      "Description": "Downloads coordination issues to a file specified by the export format.",
+      "Anchor": "#coordination-issue-export---download-project-coordination-issues",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssueFile-GetCoordinationIssueFile",
+      "Name": "Coordination Issue File - Show Coordination Issue File",
+      "Description": "Get a single Coordination Issue File item",
+      "Anchor": "#coordination-issue-file---show-coordination-issue-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssue-GetChangeHistory",
+      "Name": "Coordination Issue Change History - Get Change History",
+      "Description": "This endpoint returns the change history for the specified Coordination Issue. The change history is sorted by most recent first.",
+      "Anchor": "#coordination-issue-change-history---get-change-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssue-GetIssueCounts",
+      "Name": "Coordination Issue Counts - Show Grouped Coordination Issue Counts",
+      "Description": "Get the status counts for Coordination Issues in a project. The counts provide information about how the issues are distributed by location and assignee company.",
+      "Anchor": "#coordination-issue-counts---show-grouped-coordination-issue-counts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssue-GetPotentialAssignees",
+      "Name": "Coordination Issue Potential Assignees - Get Potential Assignees",
+      "Description": "Lists potential assignees for Coordination Issues. Users who are admin or standard users can be assigned to a Coordination Issue",
+      "Anchor": "#coordination-issue-potential-assignees---get-potential-assignees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssue-GetStatusTotals",
+      "Name": "Coordination Issue Status Totals-Show Total Status Count For Coordination Issue",
+      "Description": "Get the status counts for Coordination Issues in a project.",
+      "Anchor": "#coordination-issue-status-totals-show-total-status-count-for-coordination-issue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssueRecycleBin-GetCoordinateIssueRecycleBin",
+      "Name": "Get Coordinate Issues in Recycle Bin",
+      "Description": "Lists all deleted Coordination Issues in the specified project",
+      "Anchor": "#get-coordinate-issues-in-recycle-bin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssueRecycleBin-ShowCoordinationIssueInRecycleBin",
+      "Name": "Coordination Issue Recycle Bin - Show Coordination Issue In Recycle Bin",
+      "Description": "Lists all deleted Coordination Issues in the specified project",
+      "Anchor": "#coordination-issue-recycle-bin---show-coordination-issue-in-recycle-bin",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssues-DeleteAssociation",
+      "Name": "Coordination Issues - Delete association",
+      "Description": "Delete the association between Coordination Issue and Procore item",
+      "Anchor": "#coordination-issues---delete-association",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssues-DeleteCoordinationIssue",
+      "Name": "Coordination Issues - Delete Coordination Issue",
+      "Description": "Delete a Coordination Issue from the system",
+      "Anchor": "#coordination-issues---delete-coordination-issue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssues-GetCoordinationIssues",
+      "Name": "Coordination Issues - Get Coordination Issues",
+      "Description": "Lists Coordination Issues associated with the specified Project.",
+      "Anchor": "#coordination-issues---get-coordination-issues",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssues-ShowCoordinationIssue",
+      "Name": "Coordination Issues - Show Coordination Issue",
+      "Description": "Return a single Coordination Issue item.",
+      "Anchor": "#coordination-issues---show-coordination-issue",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CoordinationIssueSync-SyncActionForCoordinateIssues",
+      "Name": "Coordination Issue Sync - Sync Action For Coordinate Issues",
+      "Description": "This endpoint is used to create and update a batch of CoordinationIssues. See Using Sync Actions for additional information.",
+      "Anchor": "#coordination-issue-sync---sync-action-for-coordinate-issues",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-Department",
+      "Name": "Delete Department",
+      "Description": "Delete Department",
+      "Anchor": "#delete-department",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Drawings-DeleteDrawingSet",
+      "Name": "Drawings - Delete Drawing Set",
+      "Description": "Delete a specified Drawing Set.",
+      "Anchor": "#drawings---delete-drawing-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Drawings-DeleteDrawingUpload",
+      "Name": "Drawings - Delete Drawing Upload",
+      "Description": "Delete an unreviewed Drawing Upload.",
+      "Anchor": "#drawings---delete-drawing-upload",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Drawings-GetDrawingAreas",
+      "Name": "Drawings - Get Drawing Areas",
+      "Description": "Get all Drawing Areas",
+      "Anchor": "#drawings---get-drawing-areas",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Drawings-GetDrawings",
+      "Name": "Drawings - GetDrawings",
+      "Description": "Get all drawings for a specified drawing area.",
+      "Anchor": "#drawings---getdrawings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Drawings-ListDrawingRevisions",
+      "Name": "Drawings - List Drawing Revisions",
+      "Description": "Get list of all Drawing Revisions in the specified Project.",
+      "Anchor": "#drawings---list-drawing-revisions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Drawings-ListDrawingSets",
+      "Name": "Drawings - List Drawing Sets",
+      "Description": "Get Drawing Sets in the specified Project.",
+      "Anchor": "#drawings---list-drawing-sets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Drawings-ListDrawingTiles",
+      "Name": "Drawings - List Drawing Tiles",
+      "Description": "Lists the Drawing Tiles in the specified Drawing Revision along with the maximum Zoom Level and Tile Size.",
+      "Anchor": "#drawings---list-drawing-tiles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Drawings-ListDrawingUploads",
+      "Name": "Drawings - List Drawing Uploads",
+      "Description": "Get list of all Drawing Uploads in the specified Project.",
+      "Anchor": "#drawings---list-drawing-uploads",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Drawings-UpdateDrawing",
+      "Name": "Drawings - Update Drawing",
+      "Description": "Update specified Drawing",
+      "Anchor": "#drawings---update-drawing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Drawings-UpdateDrawingSet",
+      "Name": "Drawings-Update Drawing Set",
+      "Description": "Update an existing Drawing Set in the specified Project.",
+      "Anchor": "#drawings-update-drawing-set",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterOptions-GetFilterOptions",
+      "Name": "Filter Options - Get Filter Options",
+      "Description": "Get list of filter fields and options for RFIs on a specified Project",
+      "Anchor": "#filter-options---get-filter-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterOptions-ListAvailableRFIAssigned_idFilterOptions",
+      "Name": "Filter Options - List Available RFI Assigned_id Filter Options",
+      "Description": "Get a list of assigned_id filter fields and options for RFIs on a specified Project",
+      "Anchor": "#filter-options---list-available-rfi-assigned_id-filter-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterOptions-ListAvailableRFIBallInCourtFilterOptions",
+      "Name": "Filter Options - List Available RFI Ball In Court Filter Options",
+      "Description": "Get a list of available RFI ball in court filter fields and options for RFIs on a specified Project",
+      "Anchor": "#filter-options---list-available-rfi-ball-in-court-filter-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterOptions-ListAvailableRFICostCodeOptions",
+      "Name": "Filter Options - List Available RFI Cost Code Options",
+      "Description": "Get a list of RFI cost code options for a specified Project",
+      "Anchor": "#filter-options---list-available-rfi-cost-code-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterOptions-ListAvailableRFIManagerFilterOptions",
+      "Name": "Filter Options - List Available RFI Manager Filter Options",
+      "Description": "Get a list of available RFI Manager filter fields and options for RFIs on a specified Project",
+      "Anchor": "#filter-options---list-available-rfi-manager-filter-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterOptions-ListAvailableRFIReceivedFromFilterOptions",
+      "Name": "Filter Options - List Available RFI Received From Filter Options",
+      "Description": "Get a list of received from filter options for RFIs on a specified Project",
+      "Anchor": "#filter-options---list-available-rfi-received-from-filter-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterOptions-ListAvailableRFIResponsibleContractorFilterOptions",
+      "Name": "Filter Options - List Available RFI Responsible Contractor Filter Options",
+      "Description": "Get a list of responsible contractor filter fields and options for RFIs on a specified Project",
+      "Anchor": "#filter-options---list-available-rfi-responsible-contractor-filter-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterOptions-ListAvailableRFIsLocations",
+      "Name": "Filter Options - List Available RFIs Locations",
+      "Description": "Get a list of RFI locations for a specified Project",
+      "Anchor": "#filter-options---list-available-rfis-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FilterOptions-ListAvailableRFIStatusFilterOptions",
+      "Name": "Filter Options - List Available RFI Status Filter Options",
+      "Description": "Get a list of status filter fields and options for RFIs on a specified Project",
+      "Anchor": "#filter-options---list-available-rfi-status-filter-options",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDepartmentById",
+      "Name": "Get Department by Id",
+      "Description": "Get Department by Id",
+      "Anchor": "#get-department-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetDepartments",
+      "Name": "Get Departments",
+      "Description": "Get Departments",
+      "Anchor": "#get-departments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetFileContentByUrl",
+      "Name": "Get FileContent By Url",
+      "Description": "Get FileContent for a given URL",
+      "Anchor": "#get-filecontent-by-url",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMyProfile",
+      "Name": "Get My Profile",
+      "Description": "Get Current User Info",
+      "Anchor": "#get-my-profile",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImageCategories-DeleteImageCategory",
+      "Name": "Image Categories - Delete Image Category",
+      "Description": "Delete a Photo Album (Image Category) from a specified Project.",
+      "Anchor": "#image-categories---delete-image-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImageCategories-GetImageCategories",
+      "Name": "Image Categories - Get Image Categories",
+      "Description": "Return a list of all Photo Albums (Image Categories) in a specified project",
+      "Anchor": "#image-categories---get-image-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImageCategories-ListImageCategoryIDsThatContainImages",
+      "Name": "Image Categories - List Image Category IDs That Contain Images",
+      "Description": "Return an array of Image Category IDs for a specified Project that contain Images",
+      "Anchor": "#image-categories---list-image-category-ids-that-contain-images",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImageCategories-ShowImageCategory",
+      "Name": "Image Categories - Show Image Category",
+      "Description": "Return detail information about the specified Photo Album (Image Category).",
+      "Anchor": "#image-categories---show-image-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ImageCategories-UpdateImageCategory",
+      "Name": "Image Categories - Update Image Category",
+      "Description": "Update a Photo Album (Image Category) in a specified Project.",
+      "Anchor": "#image-categories---update-image-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Images-DeleteImage",
+      "Name": "Images - Delete Image",
+      "Description": "Remove an Image from a Project.",
+      "Anchor": "#images---delete-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Images-GetImages",
+      "Name": "Images - Get Images",
+      "Description": "Return a list of all Images from a Project's Photo Album (Image Category).",
+      "Anchor": "#images---get-images",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Images-ShowImage",
+      "Name": "Images - Show Image",
+      "Description": "Show detailed information for a specified Image in a Project's Photo Album (Image Category).",
+      "Anchor": "#images---show-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Images-UpdateImage",
+      "Name": "Images - Update Image",
+      "Description": "Update Image",
+      "Anchor": "#images---update-image",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Instructions-DeleteInstruction",
+      "Name": "Instructions - Delete Instruction",
+      "Description": "Delete the specified Instruction.",
+      "Anchor": "#instructions---delete-instruction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Instructions-GetInstructions",
+      "Name": "Instructions - Get Instructions",
+      "Description": "Return a list of all Instructions from a specified Project.",
+      "Anchor": "#instructions---get-instructions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Instructions-ShowInstruction",
+      "Name": "Instructions - Show Instruction",
+      "Description": "Get detailed information on the specified Instruction.",
+      "Anchor": "#instructions---show-instruction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Instructions-UpdateInstruction",
+      "Name": "Instructions - Update Instruction",
+      "Description": "Update the specified Instruction.",
+      "Anchor": "#instructions---update-instruction",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Meeting-DeleteMeeting",
+      "Name": "Meetings - Delete Meeting",
+      "Description": "Delete a specified meeting from the system",
+      "Anchor": "#meetings---delete-meeting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Meeting-DeleteMeetingAttendeeRecord",
+      "Name": "Meetings - Delete Meeting Attendee Record",
+      "Description": "Delete a specified meeting attendee record, disassociating a given user from a meeting",
+      "Anchor": "#meetings---delete-meeting-attendee-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Meeting-GetMeetings",
+      "Name": "Meetings - Get Meetings",
+      "Description": "Get list of all Meetings for a specified Project.",
+      "Anchor": "#meetings---get-meetings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Meeting-ListEcrionXmlAndTemplateForMeetings",
+      "Name": "Meetings - List Ecrion Xml And Template For Meetings",
+      "Description": "Returns Ecrion Xml and Template for all Meetings on the Project.",
+      "Anchor": "#meetings---list-ecrion-xml-and-template-for-meetings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Meeting-ListMeetingCategories",
+      "Name": "Meetings - List Meeting Categories",
+      "Description": "Get all Meeting Categories for a given Meeting.",
+      "Anchor": "#meetings---list-meeting-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Meeting-ShowMeeting",
+      "Name": "Meetings - Show Meeting",
+      "Description": "Returns detailed information about a Meeting in a specified Project.",
+      "Anchor": "#meetings---show-meeting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Meeting-UpdateMeeting",
+      "Name": "Meetings - Update Meeting",
+      "Description": "Update a Meeting.",
+      "Anchor": "#meetings---update-meeting",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Meeting-UpdateMeetingAttendeeRecord",
+      "Name": "Meetings - Update Meeting Attendee Record",
+      "Description": "Update a Meeting Attendee record.",
+      "Anchor": "#meetings---update-meeting-attendee-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Meeting-UpdateMeetingCategory",
+      "Name": "Meetings - Update Meeting Category",
+      "Description": "Update a Meeting Category.",
+      "Anchor": "#meetings---update-meeting-category",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Meeting-UpdateMeetingTopic",
+      "Name": "Meetings - Update Meeting Topic",
+      "Description": "Update an existing Meeting Topic.",
+      "Anchor": "#meetings---update-meeting-topic",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Programs-GetPrograms",
+      "Name": "Programs - Get Programs",
+      "Description": "Return a list of Programs associated to the specified Company.",
+      "Anchor": "#programs---get-programs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-DeleteFile",
+      "Name": "Delete Project File",
+      "Description": "Delete Project File",
+      "Anchor": "#delete-project-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-DeleteFolder",
+      "Name": "Delete Project Folder",
+      "Description": "Delete Project Folder",
+      "Anchor": "#delete-project-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-DeleteInstructionType",
+      "Name": "Instruction Types - Delete Instruction Type",
+      "Description": "Delete the specified Instruction Type.",
+      "Anchor": "#instruction-types---delete-instruction-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-DeleteLocation",
+      "Name": "Project: Delete Project Location",
+      "Description": "Delete Project Location",
+      "Anchor": "#project:-delete-project-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-DeleteProjectUser",
+      "Name": "Delete Project User",
+      "Description": "Delete Project User",
+      "Anchor": "#delete-project-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectFoldersAndFiles-GetFilesandFolders",
+      "Name": "Project Folders And Files - Get Folders and Files",
+      "Description": "Get list of Folders and Files for a specified Project.",
+      "Anchor": "#project-folders-and-files---get-folders-and-files",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetDistributionMembers",
+      "Name": "Get Distribution Members",
+      "Description": "Get Distribution Members",
+      "Anchor": "#get-distribution-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetFile",
+      "Name": "Get Project File",
+      "Description": "Get Project File",
+      "Anchor": "#get-project-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetFiles",
+      "Name": "Get Project Files",
+      "Description": "Get Project Files",
+      "Anchor": "#get-project-files",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetFileVersionById",
+      "Name": "Get a Specific Version of a File",
+      "Description": "Get a Specific Version of a File",
+      "Anchor": "#get-a-specific-version-of-a-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetInactiveUsers",
+      "Name": "Get Project Inactive Users",
+      "Description": "Get In-Active Project Users",
+      "Anchor": "#get-project-inactive-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetInstructionTypes",
+      "Name": "Instruction Types - Get Instruction Types",
+      "Description": "Return a list of all Instruction Types from a specified Project.",
+      "Anchor": "#instruction-types---get-instruction-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetLocation",
+      "Name": "Project: Get Location",
+      "Description": "Get Project Location Details",
+      "Anchor": "#project:-get-location",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetLocations",
+      "Name": "Project: Get Locations",
+      "Description": "Get Project Locations",
+      "Anchor": "#project:-get-locations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetPermissionTemplates",
+      "Name": "Get Project Permission Template",
+      "Description": "Get Project Permission Templates",
+      "Anchor": "#get-project-permission-template",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetProjectEquipment",
+      "Name": "Project Admin Equipment - GetProjectEquipment",
+      "Description": "Return a list of all Project Equipment.",
+      "Anchor": "#project-admin-equipment---getprojectequipment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetProjectType",
+      "Name": "Get Project Type",
+      "Description": "Get Project Type Details",
+      "Anchor": "#get-project-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetProjectUser",
+      "Name": "Get Project User",
+      "Description": "Get Project User Info",
+      "Anchor": "#get-project-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-GetRFIDistributionList",
+      "Name": "Get RFI Distribution List",
+      "Description": "Get RFI Distribution List",
+      "Anchor": "#get-rfi-distribution-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-ListAllRootFolders",
+      "Name": "Project Root Folders",
+      "Description": "Get Root Folders",
+      "Anchor": "#project-root-folders",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-ListFolder",
+      "Name": "List files in folder by Project Id",
+      "Description": "List files in a Procore Project folder",
+      "Anchor": "#list-files-in-folder-by-project-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Projects-GetProjects",
+      "Name": "Projects - Get Projects",
+      "Description": "Return a list of active Projects.",
+      "Anchor": "#projects---get-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Projects-GetProjectUsers",
+      "Name": "Get Project Users",
+      "Description": "Get Project Users",
+      "Anchor": "#get-project-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-ShowInstructionType",
+      "Name": "Instruction Types - Show Instruction Type",
+      "Description": "Get detailed information on the specified Instruction Type.",
+      "Anchor": "#instruction-types---show-instruction-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Projects-ShowProject",
+      "Name": "Projects - Show Project",
+      "Description": "Show details of the specified Project in Procore.",
+      "Anchor": "#projects---show-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Projects-SyncProjects",
+      "Name": "Projects - Sync Projects",
+      "Description": "Create or update a batch of Projects.",
+      "Anchor": "#projects---sync-projects",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Projects-UpdateProject",
+      "Name": "Projects - Update Project",
+      "Description": "Update an existing Project's information.",
+      "Anchor": "#projects---update-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-UpdateFile",
+      "Name": "Update Project File",
+      "Description": "Update Project File",
+      "Anchor": "#update-project-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-UpdateFolder",
+      "Name": "Update Project Folder",
+      "Description": "Update Project Folder",
+      "Anchor": "#update-project-folder",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-UpdateInstructionType",
+      "Name": "Instruction Types - Update Instruction Type",
+      "Description": "Update the specified Instruction Type.",
+      "Anchor": "#instruction-types---update-instruction-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-UpdateProjectType",
+      "Name": "Update Project Type",
+      "Description": "Update Project Type",
+      "Anchor": "#update-project-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Project-UpdateProjectUser",
+      "Name": "Update Project User",
+      "Description": "Update Project User",
+      "Anchor": "#update-project-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Replies-DeleteAnRFIResponse",
+      "Name": "Replies - Delete An RFI Response",
+      "Description": "Deletes a specified response associated with a specified RFI and specified Project",
+      "Anchor": "#replies---delete-an-rfi-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Replies-GetReplies",
+      "Name": "Replies - Get Replies",
+      "Description": "Get list of replies for a specified RFI",
+      "Anchor": "#replies---get-replies",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Replies-ShowRFIReply",
+      "Name": "Replies - Show RFI Reply",
+      "Description": "Get detailed information on a specified RFI reply",
+      "Anchor": "#replies---show-rfi-reply",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Replies-UpdateRFIReply",
+      "Name": "Replies - Update RFI Reply",
+      "Description": "Updates a specified RFI reply",
+      "Anchor": "#replies---update-rfi-reply",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Resources-DeleteResource",
+      "Name": "Resources - Delete Resource",
+      "Description": "Delete the specified Resource. Note that when a resource is deleted, any assignments to tasks will also be removed.",
+      "Anchor": "#resources---delete-resource",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Resources-GetResources",
+      "Name": "Resources - Get Resources",
+      "Description": "Get list of all resources in a specified Project",
+      "Anchor": "#resources---get-resources",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Resources-ShowResource",
+      "Name": "Resources - Show Resource",
+      "Description": "Show detail on the specified Resource.",
+      "Anchor": "#resources---show-resource",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Resources-UpdateResource",
+      "Name": "Resources - Update Resource",
+      "Description": "Update the specified Resource.",
+      "Anchor": "#resources---update-resource",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RFI-GetPotentialAssignees",
+      "Name": "RFI - List Of Possible Assignees",
+      "Description": "Get all potential Assignees for an RFI",
+      "Anchor": "#rfi---list-of-possible-assignees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RFI-GetPotentialManagers",
+      "Name": "Potential Managers - List Of Possible Managers",
+      "Description": "Get all potential Managers for an RFI.",
+      "Anchor": "#potential-managers---list-of-possible-managers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RFIs-GetRFIs",
+      "Name": "RFIs - Get RFIs",
+      "Description": "Get all RFIs in a specified Project.",
+      "Anchor": "#rfis---get-rfis",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RFIs-ListRecycledRFIs",
+      "Name": "RFIs - List Recycled RFIs",
+      "Description": "Get all deleted RFIs in a specified Project",
+      "Anchor": "#rfis---list-recycled-rfis",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RFIs-RecycleRFI",
+      "Name": "RFIs - Recycle RFI",
+      "Description": "Send a specified RFI to the Recycle Bin.",
+      "Anchor": "#rfis---recycle-rfi",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RFIs-RetrieveRecycledRFI",
+      "Name": "RFIs - Retrieve Recycled RFI",
+      "Description": "Get a specified RFI from the Recycle Bin.",
+      "Anchor": "#rfis---retrieve-recycled-rfi",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RFIs-ShowRFI",
+      "Name": "RFIs - Show RFI",
+      "Description": "Get detailed information about a specified RFI in a specified Project.",
+      "Anchor": "#rfis---show-rfi",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RFIs-UpdateRFI",
+      "Name": "RFIs - Update RFI",
+      "Description": "Updates a specified RFI in a specified Project.",
+      "Anchor": "#rfis---update-rfi",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Schedule-GetRequestedChanges",
+      "Name": "Schedule - Get Requested Changes",
+      "Description": "Get all Requested Changes of a Task.",
+      "Anchor": "#schedule---get-requested-changes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TaskItems-GetTasksItems",
+      "Name": "Task Items - Get Tasks Items",
+      "Description": "Get Tasks Items",
+      "Anchor": "#task-items---get-tasks-items",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks-DeleteTask",
+      "Name": "Tasks - Delete Task",
+      "Description": "Delete the specified Task.",
+      "Anchor": "#tasks---delete-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks-ListTasks",
+      "Name": "Tasks - List Tasks",
+      "Description": "List existing tasks for the specified Project.",
+      "Anchor": "#tasks---list-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Tasks-SyncTasks",
+      "Name": "Tasks - Sync Tasks",
+      "Description": "This endpoint creates or updates a batch of tasks.",
+      "Anchor": "#tasks---sync-tasks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimeCard-DeleteTimecardEntry",
+      "Name": "Timecard Entries - Delete Timecard Entry",
+      "Description": "Delete a specified Timecard Entry.",
+      "Anchor": "#timecard-entries---delete-timecard-entry",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TimeCard-GetTimeCardEntries",
+      "Name": "Timecard Entries - Get Timecard Entries",
+      "Description": "Get all Time Card Entries",
+      "Anchor": "#timecard-entries---get-timecard-entries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ToDos-DeleteTodo",
+      "Name": "ToDos - Delete Todo",
+      "Description": "Delete a specific ToDo Item in a specified Project.",
+      "Anchor": "#todos---delete-todo",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ToDos-ShowTodo",
+      "Name": "ToDos - Show Todo",
+      "Description": "Return detailed information about a ToDo Item in a specified Project.",
+      "Anchor": "#todos---show-todo",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ToDos-UpdateTodo",
+      "Name": "ToDos - Update Todo",
+      "Description": "Update a ToDo item for a specified Project.",
+      "Anchor": "#todos---update-todo",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Trigger-SubscribeForEvents",
+      "Name": "Procore Webhook Trigger for any Events",
+      "Description": "Event Trigger - Triggers a callback notification based on the configured event",
+      "Anchor": "#procore-webhook-trigger-for-any-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Trigger-SubscribeForEventsByCompany",
+      "Name": "Procore Webhook Trigger for any Company wide Events",
+      "Description": "Event Trigger - Triggers a callback notification based on the configured event",
+      "Anchor": "#procore-webhook-trigger-for-any-company-wide-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-Department",
+      "Name": "Update Department",
+      "Description": "Update Department",
+      "Anchor": "#update-department",
+      "IsDeprecated": false
+    }
+  ]
+}

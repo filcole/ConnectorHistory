@@ -12,7 +12,7 @@
     {
       "OperationId": "Portal-CreateSigning",
       "Name": "Portal - Create Signing",
-      "Description": "Create a PDF or ASIC file for signing.",
+      "Description": "Create a PDF, ASIC or ADOC file for signing.",
       "Anchor": "#portal---create-signing",
       "IsDeprecated": false
     },

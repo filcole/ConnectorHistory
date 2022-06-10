@@ -38,6 +38,20 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateGiftNote",
+      "Name": "Create a gift note",
+      "Description": "Creates a new gift note.",
+      "Anchor": "#create-a-gift-note",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateGiftTribute",
+      "Name": "Create a gift tribute",
+      "Description": "Creates a new gift tribute.",
+      "Anchor": "#create-a-gift-tribute",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "EditGiftAcknowledgement",
       "Name": "Update gift acknowledgement details",
       "Description": "Updates the acknowledgement details for a gift.",
@@ -59,10 +73,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "EditGiftNote",
+      "Name": "Update a gift note",
+      "Description": "Updates a gift note.",
+      "Anchor": "#update-a-gift-note",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "EditGiftReceipt",
       "Name": "Update gift receipt details",
       "Description": "Updates the receipt details for a gift.",
       "Anchor": "#update-gift-receipt-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditGiftTribute",
+      "Name": "Update a gift tribute",
+      "Description": "Updates a gift tribute.",
+      "Anchor": "#update-a-gift-tribute",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EditGiftTributeAcknowledgee",
+      "Name": "Update a gift tribute acknowledgee",
+      "Description": "Updates a gift tribute acknowledgee.",
+      "Anchor": "#update-a-gift-tribute-acknowledgee",
       "IsDeprecated": false
     },
     {
@@ -101,6 +136,13 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetGiftIdFromLookupId",
+      "Name": "Get a gift by lookup ID",
+      "Description": "Returns a gift's system record ID from the specified lookup ID.",
+      "Anchor": "#get-a-gift-by-lookup-id",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ListGiftAttachments",
       "Name": "List gift attachments",
       "Description": "Lists the attachments for a gift.",
@@ -122,10 +164,31 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "ListGiftNotes",
+      "Name": "List gift notes",
+      "Description": "Lists the notes for a gift.",
+      "Anchor": "#list-gift-notes",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ListGifts",
       "Name": "List gifts",
       "Description": "Returns a list of gifts.",
       "Anchor": "#list-gifts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGiftTributeAcknowledgees",
+      "Name": "List gift tribute acknowledgees",
+      "Description": "List the acknowledgees for a gift tribute.",
+      "Anchor": "#list-gift-tribute-acknowledgees",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGiftTributes",
+      "Name": "List gift tributes",
+      "Description": "Lists the tributes for a gift.",
+      "Anchor": "#list-gift-tributes",
       "IsDeprecated": false
     }
   ]
