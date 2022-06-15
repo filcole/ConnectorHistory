@@ -1,0 +1,20 @@
+{
+  "UniqueName": "rijksoverheidip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rijksoverheidip/",
+  "Actions": [
+    {
+      "OperationId": "SchoolHolidays",
+      "Name": "List all School Holidays",
+      "Description": "List all School Holidays",
+      "Anchor": "#list-all-school-holidays",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SchoolHolidaysPerSchoolYear",
+      "Name": "School Holidays for a School Year",
+      "Description": "School Holidays for a School Year",
+      "Anchor": "#school-holidays-for-a-school-year",
+      "IsDeprecated": false
+    }
+  ]
+}

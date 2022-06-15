@@ -1,0 +1,20 @@
+{
+  "UniqueName": "memeip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../memeip/",
+  "Actions": [
+    {
+      "OperationId": "MemeRandom",
+      "Name": "Get random meme",
+      "Description": "Retrieves a random meme scraped from reddit.",
+      "Anchor": "#get-random-meme",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemeSubreddit",
+      "Name": "Get random meme scraped from a subreddit",
+      "Description": "Retrieves a random meme from a specific subreddit.",
+      "Anchor": "#get-random-meme-scraped-from-a-subreddit",
+      "IsDeprecated": false
+    }
+  ]
+}

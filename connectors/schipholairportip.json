@@ -1,0 +1,55 @@
+{
+  "UniqueName": "schipholairportip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../schipholairportip/",
+  "Actions": [
+    {
+      "OperationId": "RetrieveAirlineUsingGET",
+      "Name": "Retrieve Airline by IATA or ICAO",
+      "Description": "Retrieve airline based on IATA code or ICAO code.",
+      "Anchor": "#retrieve-airline-by-iata-or-icao",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrieveAllAircraftTypesUsingGET",
+      "Name": "Retrieve Aircraft Types",
+      "Description": "Retrieves list of aircraft types. If there are more hits then allowed on one page response headers will contain the URLs where other pages of the results can be reached.",
+      "Anchor": "#retrieve-aircraft-types",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrieveAllAirlinesUsingGET",
+      "Name": "Retrieve Airlines",
+      "Description": "Retrieves a list of airlines.If there are more hits then allowed on one page response headers will contain the URLs where other pages of the results can be reached.",
+      "Anchor": "#retrieve-airlines",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrieveAllDestinationsUsingGET",
+      "Name": "Retrieve Destinations",
+      "Description": "Retrieves list of destinations. If there are more pages of the result, header will contain custom String field - Link, which will contain URLs where other pages of the results can be reached.",
+      "Anchor": "#retrieve-destinations",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrieveDestinationUsingGET",
+      "Name": "Retrieve Destination by IATA",
+      "Description": "Retrieves destination based on IATA code",
+      "Anchor": "#retrieve-destination-by-iata",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrieveFlightsForDateOrPeriodUsingGET",
+      "Name": "Retrieve Flights",
+      "Description": "Retrieves flights for a specific date. If scheduleDate is provided as query parameter, it will retrieve flights for that date. If not provided it is defaulted to today.",
+      "Anchor": "#retrieve-flights",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RetrieveFlightUsingGET",
+      "Name": "Retrieve Flight by Id",
+      "Description": "Retrieve Flight by Id",
+      "Anchor": "#retrieve-flight-by-id",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UniqueName": "regexmatchingip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../regexmatchingip/",
+  "Actions": [
+    {
+      "OperationId": "ContainsDigit",
+      "Name": "Check whether text contains digit",
+      "Description": "This action checks whether entered text contains a digit anywhere",
+      "Anchor": "#check-whether-text-contains-digit",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "EndsWith",
+      "Name": "Check whether text ends with a specified character",
+      "Description": "This action checks whether entered text ends with a specified character",
+      "Anchor": "#check-whether-text-ends-with-a-specified-character",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RegexPattern",
+      "Name": "Check whether text matches the specified pattern",
+      "Description": "This action checks whether entered text matches the specified pattern",
+      "Anchor": "#check-whether-text-matches-the-specified-pattern",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StartsWith",
+      "Name": "Check whether text starts with a specified character",
+      "Description": "This action checks whether entered text starts with a specified character",
+      "Anchor": "#check-whether-text-starts-with-a-specified-character",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidCreditCard",
+      "Name": "Check whether text is a valid credit card number",
+      "Description": "This action checks whether input text is a valid credit card number",
+      "Anchor": "#check-whether-text-is-a-valid-credit-card-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidEmail",
+      "Name": "Check for valid email format",
+      "Description": "This action checks whether entered text is in a valid email format",
+      "Anchor": "#check-for-valid-email-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidGUID",
+      "Name": "Check for valid GUID format",
+      "Description": "This action checks whether entered text is in a valid GUID format",
+      "Anchor": "#check-for-valid-guid-format",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidSSN",
+      "Name": "Check whether text is in valid US Social Security Number format",
+      "Description": "This action checks whether entered text matches the US Social Security Number format",
+      "Anchor": "#check-whether-text-is-in-valid-us-social-security-number-format",
+      "IsDeprecated": false
+    }
+  ]
+}

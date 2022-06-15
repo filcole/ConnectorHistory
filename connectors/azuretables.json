@@ -10,10 +10,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "CreateEntity_V2",
+      "Name": "Insert Entity (V2) (Preview)",
+      "Description": "Operation to add an entity to a table.",
+      "Anchor": "#insert-entity-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "CreateTable",
       "Name": "Create table",
       "Description": "This operation adds a table to the storage account.",
       "Anchor": "#create-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateTable_V2",
+      "Name": "Create table (V2) (Preview)",
+      "Description": "This operation adds a table to the storage account.",
+      "Anchor": "#create-table-(v2)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -24,10 +38,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "DeleteEntity_V2",
+      "Name": "Delete Entity (V2) (Preview)",
+      "Description": "Operation to delete an entity.",
+      "Anchor": "#delete-entity-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "DeleteTable",
       "Name": "Delete a table",
       "Description": "Delete a table.",
       "Anchor": "#delete-a-table",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteTable_V2",
+      "Name": "Delete a table (V2) (Preview)",
+      "Description": "Delete a table.",
+      "Anchor": "#delete-a-table-(v2)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -38,10 +66,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetEntities_V2",
+      "Name": "Get entities (V2) (Preview)",
+      "Description": "This operation queries the entities in a table.",
+      "Anchor": "#get-entities-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetEntity",
       "Name": "Get entity",
       "Description": "This operation gets the entity in a table based on the partition and row key.",
       "Anchor": "#get-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEntity_V2",
+      "Name": "Get entity (V2) (Preview)",
+      "Description": "This operation gets the entity in a table based on the partition and row key.",
+      "Anchor": "#get-entity-(v2)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -52,10 +94,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "GetTable_V2",
+      "Name": "Get a table (V2) (Preview)",
+      "Description": "This operation gets the metadata of a table.",
+      "Anchor": "#get-a-table-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "GetTables",
       "Name": "List tables",
       "Description": "This operation lists the tables in the account.",
       "Anchor": "#list-tables",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTables_V2",
+      "Name": "List tables (V2) (Preview)",
+      "Description": "List all the tables for your storage account.",
+      "Anchor": "#list-tables-(v2)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -66,10 +122,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "InsertMergeEntity_V2",
+      "Name": "Insert or Merge Entity (V2) (Preview)",
+      "Description": "Operation to merge data with an entity in a table, creating a new entity if needed.",
+      "Anchor": "#insert-or-merge-entity-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "InsertReplaceEntity",
       "Name": "Insert or Replace Entity",
       "Description": "Operation to replace an entity in a table, creating a new entity if needed.",
       "Anchor": "#insert-or-replace-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "InsertReplaceEntity_V2",
+      "Name": "Insert or Replace Entity (V2) (Preview)",
+      "Description": "Operation to replace an entity in a table, creating a new entity if needed.",
+      "Anchor": "#insert-or-replace-entity-(v2)-(preview)",
       "IsDeprecated": false
     },
     {
@@ -80,10 +150,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "MergeEntity_V2",
+      "Name": "Merge Entity (V2) (Preview)",
+      "Description": "Operation to merge data with an entity in a table.",
+      "Anchor": "#merge-entity-(v2)-(preview)",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "ReplaceEntity",
       "Name": "Replace Entity",
       "Description": "Operation to replace an entity in a table.",
       "Anchor": "#replace-entity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReplaceEntity_V2",
+      "Name": "Replace Entity (V2) (Preview)",
+      "Description": "Operation to replace an entity in a table.",
+      "Anchor": "#replace-entity-(v2)-(preview)",
       "IsDeprecated": false
     }
   ]

@@ -1,0 +1,83 @@
+{
+  "UniqueName": "unofficialnetflixsip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../unofficialnetflixsip/",
+  "Actions": [
+    {
+      "OperationId": "Countries",
+      "Name": "Get countries",
+      "Description": "Retrieves a list of supported countries.",
+      "Anchor": "#get-countries",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeletedSearch",
+      "Name": "Search deleted titles",
+      "Description": "Retrieves deleted titles by title name or country.",
+      "Anchor": "#search-deleted-titles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Genres",
+      "Name": "Get genres",
+      "Description": "Retrieves a list of genres. Updated daily.",
+      "Anchor": "#get-genres",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PeopleSearch",
+      "Name": "Search people",
+      "Description": "Retrieves people by title name, person name, or Netflix ID.",
+      "Anchor": "#search-people",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TitleCountry",
+      "Name": "Get title country",
+      "Description": "Retrieves the country and language information associated with a title.",
+      "Anchor": "#get-title-country",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TitleDetail",
+      "Name": "Get title details",
+      "Description": "Retrieves the details associated with a title.",
+      "Anchor": "#get-title-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TitleEpisode",
+      "Name": "Get title episodes",
+      "Description": "Retrieves all episodes associated with a title",
+      "Anchor": "#get-title-episodes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TitleExpiring",
+      "Name": "Get expiring titles",
+      "Description": "Retrieves a list of expiring titles.",
+      "Anchor": "#get-expiring-titles",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TitleGenre",
+      "Name": "Get title genres",
+      "Description": "Retrieves all genres associated with a title",
+      "Anchor": "#get-title-genres",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TitleImage",
+      "Name": "Get title images",
+      "Description": "Retrieves all images associated with a title.",
+      "Anchor": "#get-title-images",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TitleSearch",
+      "Name": "Search titles",
+      "Description": "Retrieves titles added during dates provided.",
+      "Anchor": "#search-titles",
+      "IsDeprecated": false
+    }
+  ]
+}

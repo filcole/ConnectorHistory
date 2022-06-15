@@ -1,0 +1,27 @@
+{
+  "UniqueName": "shipstationip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../shipstationip/",
+  "Actions": [
+    {
+      "OperationId": "Stores-Get",
+      "Name": "List Stores",
+      "Description": "Retrieve the list of installed stores on the account.",
+      "Anchor": "#list-stores",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Stores-Marketplaces-Get",
+      "Name": "List Marketplaces",
+      "Description": "Lists the marketplaces that can be integrated with ShipStation.",
+      "Anchor": "#list-marketplaces",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Stores-RefreshStore-Post",
+      "Name": "Refresh Store",
+      "Description": "Initiates a store refresh.",
+      "Anchor": "#refresh-store",
+      "IsDeprecated": false
+    }
+  ]
+}

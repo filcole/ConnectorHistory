@@ -7983,10 +7983,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "CreateEntity_V2",
+        "Name": "Insert Entity (V2) (Preview)",
+        "Description": "Operation to add an entity to a table.",
+        "Anchor": "#insert-entity-(v2)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "CreateTable",
         "Name": "Create table",
         "Description": "This operation adds a table to the storage account.",
         "Anchor": "#create-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateTable_V2",
+        "Name": "Create table (V2) (Preview)",
+        "Description": "This operation adds a table to the storage account.",
+        "Anchor": "#create-table-(v2)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -7997,10 +8011,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "DeleteEntity_V2",
+        "Name": "Delete Entity (V2) (Preview)",
+        "Description": "Operation to delete an entity.",
+        "Anchor": "#delete-entity-(v2)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "DeleteTable",
         "Name": "Delete a table",
         "Description": "Delete a table.",
         "Anchor": "#delete-a-table",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteTable_V2",
+        "Name": "Delete a table (V2) (Preview)",
+        "Description": "Delete a table.",
+        "Anchor": "#delete-a-table-(v2)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -8011,10 +8039,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetEntities_V2",
+        "Name": "Get entities (V2) (Preview)",
+        "Description": "This operation queries the entities in a table.",
+        "Anchor": "#get-entities-(v2)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetEntity",
         "Name": "Get entity",
         "Description": "This operation gets the entity in a table based on the partition and row key.",
         "Anchor": "#get-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEntity_V2",
+        "Name": "Get entity (V2) (Preview)",
+        "Description": "This operation gets the entity in a table based on the partition and row key.",
+        "Anchor": "#get-entity-(v2)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -8025,10 +8067,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "GetTable_V2",
+        "Name": "Get a table (V2) (Preview)",
+        "Description": "This operation gets the metadata of a table.",
+        "Anchor": "#get-a-table-(v2)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "GetTables",
         "Name": "List tables",
         "Description": "This operation lists the tables in the account.",
         "Anchor": "#list-tables",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTables_V2",
+        "Name": "List tables (V2) (Preview)",
+        "Description": "List all the tables for your storage account.",
+        "Anchor": "#list-tables-(v2)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -8039,10 +8095,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "InsertMergeEntity_V2",
+        "Name": "Insert or Merge Entity (V2) (Preview)",
+        "Description": "Operation to merge data with an entity in a table, creating a new entity if needed.",
+        "Anchor": "#insert-or-merge-entity-(v2)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "InsertReplaceEntity",
         "Name": "Insert or Replace Entity",
         "Description": "Operation to replace an entity in a table, creating a new entity if needed.",
         "Anchor": "#insert-or-replace-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "InsertReplaceEntity_V2",
+        "Name": "Insert or Replace Entity (V2) (Preview)",
+        "Description": "Operation to replace an entity in a table, creating a new entity if needed.",
+        "Anchor": "#insert-or-replace-entity-(v2)-(preview)",
         "IsDeprecated": false
       },
       {
@@ -8053,10 +8123,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "MergeEntity_V2",
+        "Name": "Merge Entity (V2) (Preview)",
+        "Description": "Operation to merge data with an entity in a table.",
+        "Anchor": "#merge-entity-(v2)-(preview)",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ReplaceEntity",
         "Name": "Replace Entity",
         "Description": "Operation to replace an entity in a table.",
         "Anchor": "#replace-entity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReplaceEntity_V2",
+        "Name": "Replace Entity (V2) (Preview)",
+        "Description": "Operation to replace an entity in a table.",
+        "Anchor": "#replace-entity-(v2)-(preview)",
         "IsDeprecated": false
       }
     ]
@@ -23535,9 +23619,9 @@
     "Actions": [
       {
         "OperationId": "AddHtmlHeaderFooter",
-        "Name": "Add HTML Header or Footer",
+        "Name": "Add HTML Header or Footer to PDF",
         "Description": "Add a HTML header, footer or both to the specified PDF document - https://support.encodian.com/hc/en-gb/articles/360013808614-Add-HTML-Header-or-Footer",
-        "Anchor": "#add-html-header-or-footer",
+        "Anchor": "#add-html-header-or-footer-to-pdf",
         "IsDeprecated": false
       },
       {
@@ -23632,6 +23716,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ConvertCad",
+        "Name": "Convert CAD",
+        "Description": "Convert CAD files to another document format - https://support.encodian.com/hc/en-gb/articles/4542607350417",
+        "Anchor": "#convert-cad",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "ConvertExcel",
         "Name": "Convert Excel",
         "Description": "Convert Microsoft Excel documents to another document format - https://support.encodian.com/hc/en-gb/articles/360011804178-Convert-Excel",
@@ -23643,6 +23734,20 @@
         "Name": "Convert Email Message",
         "Description": "Convert an email to PDF - https://support.encodian.com/hc/en-gb/articles/360011566298-Convert-Mail-Message",
         "Anchor": "#convert-email-message",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ConvertPdfToImages",
+        "Name": "Convert PDF to Images",
+        "Description": "Convert a PDF document into an array of images (PNG or JPG) - https://support.encodian.com/hc/en-gb/articles/4418101623441",
+        "Anchor": "#convert-pdf-to-images",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ConvertPdfToTiff",
+        "Name": "Convert PDF to TIFF",
+        "Description": "Convert a PDF document to TIFF (tiff) format - https://support.encodian.com/hc/en-gb/articles/4418024925457",
+        "Anchor": "#convert-pdf-to-tiff",
         "IsDeprecated": false
       },
       {
@@ -23664,6 +23769,13 @@
         "Name": "Convert PDF to PDFA",
         "Description": "Convert a PDF document to PDF/A format - https://support.encodian.com/hc/en-gb/articles/360010578413-Convert-PDF-to-PDFA",
         "Anchor": "#convert-pdf-to-pdfa",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ConvertVisio",
+        "Name": "Convert Visio",
+        "Description": "Convert Microsoft Visio documents to another document format - https://support.encodian.com/hc/en-gb/articles/5306216347665",
+        "Anchor": "#convert-visio",
         "IsDeprecated": false
       },
       {
@@ -23727,6 +23839,20 @@
         "Name": "Fill a PDF Form",
         "Description": "Fill the PDF Form provided with the JSON data provided - https://support.encodian.com/hc/en-gb/articles/360008556077-Fill-a-PDF-Form",
         "Anchor": "#fill-a-pdf-form",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FlattenPdf",
+        "Name": "Flatten PDF",
+        "Description": "Flatten a PDF Document or PDF Form - https://support.encodian.com/hc/en-gb/articles/4416473033105",
+        "Anchor": "#flatten-pdf",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetImageInfo",
+        "Name": "Get Image Information",
+        "Description": "Get Image Information (Height, Width, Resolution, Format, File Size + more) - https://support.encodian.com/hc/en-gb/articles/4431662425489",
+        "Anchor": "#get-image-information",
         "IsDeprecated": false
       },
       {
@@ -23800,6 +23926,13 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "ImageRemoveExifTags",
+        "Name": "Remove EXIF Tags from Image",
+        "Description": "Remove EXIF tags from the specified image - https://support.encodian.com/hc/en-gb/articles/4415700524817",
+        "Anchor": "#remove-exif-tags-from-image",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "InsertHtmlToPdf",
         "Name": "Insert HTML to PDF",
         "Description": "Insert the HTML provided into a PDF document - https://support.encodian.com/hc/en-gb/articles/360011784354-Insert-HTML-to-PDF",
@@ -23821,10 +23954,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "MergeArrayOfExcelDocuments",
+        "Name": "Merge Excel Files",
+        "Description": "Merge an array of Microsoft Excel files to a single file (multiple formats) - https://support.encodian.com/hc/en-gb/articles/4469865776529",
+        "Anchor": "#merge-excel-files",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "MergeDocumentsToPdf",
         "Name": "Merge documents to PDF",
         "Description": "Convert and merge the documents provided to a single PDF document - https://support.encodian.com/hc/en-gb/articles/360011886173-Merge-documents-to-PDF",
         "Anchor": "#merge-documents-to-pdf",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MergePresentations",
+        "Name": "Merge Presentations",
+        "Description": "Merge an array of presentations to a single presentation - https://support.encodian.com/hc/en-gb/articles/4425652063761",
+        "Anchor": "#merge-presentations",
         "IsDeprecated": false
       },
       {
@@ -23888,6 +24035,13 @@
         "Name": "Search Text - Regex",
         "Description": "Search the text provided to find matches using the regex provided - https://support.encodian.com/hc/en-gb/articles/360006764638-Search-Text-Regex",
         "Anchor": "#search-text---regex",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RepairPdf",
+        "Name": "Repair PDF",
+        "Description": "Repair a PDF File - https://support.encodian.com/hc/en-gb/articles/4418809972753",
+        "Anchor": "#repair-pdf",
         "IsDeprecated": false
       },
       {
@@ -45754,6 +45908,26 @@
     ]
   },
   {
+    "UniqueName": "memeip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../memeip/",
+    "Actions": [
+      {
+        "OperationId": "MemeRandom",
+        "Name": "Get random meme",
+        "Description": "Retrieves a random meme scraped from reddit.",
+        "Anchor": "#get-random-meme",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemeSubreddit",
+        "Name": "Get random meme scraped from a subreddit",
+        "Description": "Retrieves a random meme from a specific subreddit.",
+        "Anchor": "#get-random-meme-scraped-from-a-subreddit",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "mensagiaip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mensagiaip/",
     "Actions": [
@@ -60896,6 +61070,68 @@
     ]
   },
   {
+    "UniqueName": "regexmatchingip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../regexmatchingip/",
+    "Actions": [
+      {
+        "OperationId": "ContainsDigit",
+        "Name": "Check whether text contains digit",
+        "Description": "This action checks whether entered text contains a digit anywhere",
+        "Anchor": "#check-whether-text-contains-digit",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "EndsWith",
+        "Name": "Check whether text ends with a specified character",
+        "Description": "This action checks whether entered text ends with a specified character",
+        "Anchor": "#check-whether-text-ends-with-a-specified-character",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RegexPattern",
+        "Name": "Check whether text matches the specified pattern",
+        "Description": "This action checks whether entered text matches the specified pattern",
+        "Anchor": "#check-whether-text-matches-the-specified-pattern",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "StartsWith",
+        "Name": "Check whether text starts with a specified character",
+        "Description": "This action checks whether entered text starts with a specified character",
+        "Anchor": "#check-whether-text-starts-with-a-specified-character",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ValidCreditCard",
+        "Name": "Check whether text is a valid credit card number",
+        "Description": "This action checks whether input text is a valid credit card number",
+        "Anchor": "#check-whether-text-is-a-valid-credit-card-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ValidEmail",
+        "Name": "Check for valid email format",
+        "Description": "This action checks whether entered text is in a valid email format",
+        "Anchor": "#check-for-valid-email-format",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ValidGUID",
+        "Name": "Check for valid GUID format",
+        "Description": "This action checks whether entered text is in a valid GUID format",
+        "Anchor": "#check-for-valid-guid-format",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ValidSSN",
+        "Name": "Check whether text is in valid US Social Security Number format",
+        "Description": "This action checks whether entered text matches the US Social Security Number format",
+        "Anchor": "#check-whether-text-is-in-valid-us-social-security-number-format",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "regolink",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../regolink/",
     "Actions": [
@@ -61603,6 +61839,26 @@
         "Name": "Update a subscriber",
         "Description": "Update a subscriber on your list.",
         "Anchor": "#update-a-subscriber",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "rijksoverheidip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../rijksoverheidip/",
+    "Actions": [
+      {
+        "OperationId": "SchoolHolidays",
+        "Name": "List all School Holidays",
+        "Description": "List all School Holidays",
+        "Anchor": "#list-all-school-holidays",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SchoolHolidaysPerSchoolYear",
+        "Name": "School Holidays for a School Year",
+        "Description": "School Holidays for a School Year",
+        "Anchor": "#school-holidays-for-a-school-year",
         "IsDeprecated": false
       }
     ]
@@ -63096,6 +63352,61 @@
         "Name": "Run step",
         "Description": "Executes the step with the specified input values. The outputs variable in the reply contains the output of the execution.",
         "Anchor": "#run-step",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "schipholairportip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../schipholairportip/",
+    "Actions": [
+      {
+        "OperationId": "RetrieveAirlineUsingGET",
+        "Name": "Retrieve Airline by IATA or ICAO",
+        "Description": "Retrieve airline based on IATA code or ICAO code.",
+        "Anchor": "#retrieve-airline-by-iata-or-icao",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrieveAllAircraftTypesUsingGET",
+        "Name": "Retrieve Aircraft Types",
+        "Description": "Retrieves list of aircraft types. If there are more hits then allowed on one page response headers will contain the URLs where other pages of the results can be reached.",
+        "Anchor": "#retrieve-aircraft-types",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrieveAllAirlinesUsingGET",
+        "Name": "Retrieve Airlines",
+        "Description": "Retrieves a list of airlines.If there are more hits then allowed on one page response headers will contain the URLs where other pages of the results can be reached.",
+        "Anchor": "#retrieve-airlines",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrieveAllDestinationsUsingGET",
+        "Name": "Retrieve Destinations",
+        "Description": "Retrieves list of destinations. If there are more pages of the result, header will contain custom String field - Link, which will contain URLs where other pages of the results can be reached.",
+        "Anchor": "#retrieve-destinations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrieveDestinationUsingGET",
+        "Name": "Retrieve Destination by IATA",
+        "Description": "Retrieves destination based on IATA code",
+        "Anchor": "#retrieve-destination-by-iata",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrieveFlightsForDateOrPeriodUsingGET",
+        "Name": "Retrieve Flights",
+        "Description": "Retrieves flights for a specific date. If scheduleDate is provided as query parameter, it will retrieve flights for that date. If not provided it is defaulted to today.",
+        "Anchor": "#retrieve-flights",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RetrieveFlightUsingGET",
+        "Name": "Retrieve Flight by Id",
+        "Description": "Retrieve Flight by Id",
+        "Anchor": "#retrieve-flight-by-id",
         "IsDeprecated": false
       }
     ]
@@ -65210,6 +65521,33 @@
         "Name": "Update an Open Shift",
         "Description": "Update an Open Shift in a Schedule.",
         "Anchor": "#update-an-open-shift",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "shipstationip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../shipstationip/",
+    "Actions": [
+      {
+        "OperationId": "Stores-Get",
+        "Name": "List Stores",
+        "Description": "Retrieve the list of installed stores on the account.",
+        "Anchor": "#list-stores",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Stores-Marketplaces-Get",
+        "Name": "List Marketplaces",
+        "Description": "Lists the marketplaces that can be integrated with ShipStation.",
+        "Anchor": "#list-marketplaces",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Stores-RefreshStore-Post",
+        "Name": "Refresh Store",
+        "Description": "Initiates a store refresh.",
+        "Anchor": "#refresh-store",
         "IsDeprecated": false
       }
     ]
@@ -71737,6 +72075,89 @@
         "Name": "Unix Timestamp to UTC DateTime",
         "Description": "Converts Unix timestamp to UTC datetime (yyyy-MM-dd HH:mm:ss).",
         "Anchor": "#unix-timestamp-to-utc-datetime",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "unofficialnetflixsip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../unofficialnetflixsip/",
+    "Actions": [
+      {
+        "OperationId": "Countries",
+        "Name": "Get countries",
+        "Description": "Retrieves a list of supported countries.",
+        "Anchor": "#get-countries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeletedSearch",
+        "Name": "Search deleted titles",
+        "Description": "Retrieves deleted titles by title name or country.",
+        "Anchor": "#search-deleted-titles",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Genres",
+        "Name": "Get genres",
+        "Description": "Retrieves a list of genres. Updated daily.",
+        "Anchor": "#get-genres",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PeopleSearch",
+        "Name": "Search people",
+        "Description": "Retrieves people by title name, person name, or Netflix ID.",
+        "Anchor": "#search-people",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TitleCountry",
+        "Name": "Get title country",
+        "Description": "Retrieves the country and language information associated with a title.",
+        "Anchor": "#get-title-country",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TitleDetail",
+        "Name": "Get title details",
+        "Description": "Retrieves the details associated with a title.",
+        "Anchor": "#get-title-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TitleEpisode",
+        "Name": "Get title episodes",
+        "Description": "Retrieves all episodes associated with a title",
+        "Anchor": "#get-title-episodes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TitleExpiring",
+        "Name": "Get expiring titles",
+        "Description": "Retrieves a list of expiring titles.",
+        "Anchor": "#get-expiring-titles",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TitleGenre",
+        "Name": "Get title genres",
+        "Description": "Retrieves all genres associated with a title",
+        "Anchor": "#get-title-genres",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TitleImage",
+        "Name": "Get title images",
+        "Description": "Retrieves all images associated with a title.",
+        "Anchor": "#get-title-images",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TitleSearch",
+        "Name": "Search titles",
+        "Description": "Retrieves titles added during dates provided.",
+        "Anchor": "#search-titles",
         "IsDeprecated": false
       }
     ]
