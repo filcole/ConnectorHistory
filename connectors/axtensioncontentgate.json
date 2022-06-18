@@ -4,93 +4,135 @@
   "Actions": [
     {
       "OperationId": "Create-Content-Entity-Requirements",
-      "Name": "Create Content Entity Requirements",
-      "Description": "Creates content entity requirements based on a template group.",
-      "Anchor": "#create-content-entity-requirements",
+      "Name": "Create content item requirements",
+      "Description": "Creates content item requirements based on a template group.",
+      "Anchor": "#create-content-item-requirements",
       "IsDeprecated": false
     },
     {
       "OperationId": "Execute-Query",
-      "Name": "Execute Query",
+      "Name": "Execute query",
       "Description": "Executes a query on an AXtension Content Gate environment.",
       "Anchor": "#execute-query",
       "IsDeprecated": false
     },
     {
       "OperationId": "Get-Content",
-      "Name": "Get Content",
+      "Name": "Get content",
       "Description": "Downloads a content item.",
       "Anchor": "#get-content",
       "IsDeprecated": false
     },
     {
+      "OperationId": "Get-Linked-Business-Entities",
+      "Name": "Get linked business entities",
+      "Description": "Gets all the linked business entities attached to a content item.",
+      "Anchor": "#get-linked-business-entities",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "Get-Shared-Content-Link",
-      "Name": "Get Shared Content Link",
+      "Name": "Get shared content link",
       "Description": "Gets the shared content link",
       "Anchor": "#get-shared-content-link",
       "IsDeprecated": false
     },
     {
       "OperationId": "List-Business-Entity-Connectors",
-      "Name": "List Business Entity Connectors",
-      "Description": "Lists all configured Business Entity Connectors.",
+      "Name": "List business entity connectors",
+      "Description": "Lists all configured business entity connectors.",
       "Anchor": "#list-business-entity-connectors",
       "IsDeprecated": false
     },
     {
       "OperationId": "List-Business-Entity-Types",
-      "Name": "List Business Entity Types",
+      "Name": "List business entity types",
       "Description": "Lists all business entity types that are defined in the model.",
       "Anchor": "#list-business-entity-types",
       "IsDeprecated": false
     },
     {
       "OperationId": "List-Content-Categories",
-      "Name": "List Content Categories",
+      "Name": "List content categories",
       "Description": "Lists all configured content categories.",
       "Anchor": "#list-content-categories",
       "IsDeprecated": false
     },
     {
       "OperationId": "List-Content-Entity-Requirements",
-      "Name": "List Content Entity Requirements",
-      "Description": "Lists the Content Entity Requirements",
-      "Anchor": "#list-content-entity-requirements",
+      "Name": "List content item requirements",
+      "Description": "Lists the content item requirements",
+      "Anchor": "#list-content-item-requirements",
       "IsDeprecated": false
     },
     {
       "OperationId": "List-Content-Entity-Template-Groups",
-      "Name": "List Content Entity Template Groups",
-      "Description": "Lists the template groups for a content entity.",
-      "Anchor": "#list-content-entity-template-groups",
+      "Name": "List content item template groups",
+      "Description": "Lists the template groups for a content item.",
+      "Anchor": "#list-content-item-template-groups",
       "IsDeprecated": false
     },
     {
       "OperationId": "List-Content-Entity-Templates",
-      "Name": "List Content Entity Templates",
-      "Description": "Lists the templates for a content entity.",
-      "Anchor": "#list-content-entity-templates",
+      "Name": "List content item templates",
+      "Description": "Lists the templates for a content item.",
+      "Anchor": "#list-content-item-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "List-Content-Entity-User-Properties",
+      "Name": "List all the user properties of a content item",
+      "Description": "List all the user properties of a content item.",
+      "Anchor": "#list-all-the-user-properties-of-a-content-item",
       "IsDeprecated": false
     },
     {
       "OperationId": "List-Storage-Connectors",
-      "Name": "List Storage Connectors",
+      "Name": "List storage connectors",
       "Description": "Lists all configured storage connectors.",
       "Anchor": "#list-storage-connectors",
       "IsDeprecated": false
     },
     {
       "OperationId": "List-Views",
-      "Name": "List Views",
+      "Name": "List views",
       "Description": "Lists all views that are usable from Power Platform",
       "Anchor": "#list-views",
       "IsDeprecated": false
     },
     {
       "OperationId": "Store-Content",
-      "Name": "Store Content",
+      "Name": "Store content",
       "Description": "Adds new content to an AXtension Content Gate environment.",
       "Anchor": "#store-content",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Update-Content-Entity-User-Property",
+      "Name": "Updates the content item user property",
+      "Description": "Update a user property of a content item.",
+      "Anchor": "#updates-the-content-item-user-property",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Content-Added",
+      "Name": "When content is added",
+      "Description": "Trigger that is fired when content is added to a business entity.",
+      "Anchor": "#when-content-is-added",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Content-Deleted",
+      "Name": "When content is deleted",
+      "Description": "Trigger that is fired when content is deleted.",
+      "Anchor": "#when-content-is-deleted",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "When-Content-Updated",
+      "Name": "When content is updated",
+      "Description": "Trigger that is fired when content is updated. This can be either an update of the contents of a file or an update of the content item properties.",
+      "Anchor": "#when-content-is-updated",
       "IsDeprecated": false
     }
   ]

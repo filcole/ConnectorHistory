@@ -5541,93 +5541,135 @@
     "Actions": [
       {
         "OperationId": "Create-Content-Entity-Requirements",
-        "Name": "Create Content Entity Requirements",
-        "Description": "Creates content entity requirements based on a template group.",
-        "Anchor": "#create-content-entity-requirements",
+        "Name": "Create content item requirements",
+        "Description": "Creates content item requirements based on a template group.",
+        "Anchor": "#create-content-item-requirements",
         "IsDeprecated": false
       },
       {
         "OperationId": "Execute-Query",
-        "Name": "Execute Query",
+        "Name": "Execute query",
         "Description": "Executes a query on an AXtension Content Gate environment.",
         "Anchor": "#execute-query",
         "IsDeprecated": false
       },
       {
         "OperationId": "Get-Content",
-        "Name": "Get Content",
+        "Name": "Get content",
         "Description": "Downloads a content item.",
         "Anchor": "#get-content",
         "IsDeprecated": false
       },
       {
+        "OperationId": "Get-Linked-Business-Entities",
+        "Name": "Get linked business entities",
+        "Description": "Gets all the linked business entities attached to a content item.",
+        "Anchor": "#get-linked-business-entities",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "Get-Shared-Content-Link",
-        "Name": "Get Shared Content Link",
+        "Name": "Get shared content link",
         "Description": "Gets the shared content link",
         "Anchor": "#get-shared-content-link",
         "IsDeprecated": false
       },
       {
         "OperationId": "List-Business-Entity-Connectors",
-        "Name": "List Business Entity Connectors",
-        "Description": "Lists all configured Business Entity Connectors.",
+        "Name": "List business entity connectors",
+        "Description": "Lists all configured business entity connectors.",
         "Anchor": "#list-business-entity-connectors",
         "IsDeprecated": false
       },
       {
         "OperationId": "List-Business-Entity-Types",
-        "Name": "List Business Entity Types",
+        "Name": "List business entity types",
         "Description": "Lists all business entity types that are defined in the model.",
         "Anchor": "#list-business-entity-types",
         "IsDeprecated": false
       },
       {
         "OperationId": "List-Content-Categories",
-        "Name": "List Content Categories",
+        "Name": "List content categories",
         "Description": "Lists all configured content categories.",
         "Anchor": "#list-content-categories",
         "IsDeprecated": false
       },
       {
         "OperationId": "List-Content-Entity-Requirements",
-        "Name": "List Content Entity Requirements",
-        "Description": "Lists the Content Entity Requirements",
-        "Anchor": "#list-content-entity-requirements",
+        "Name": "List content item requirements",
+        "Description": "Lists the content item requirements",
+        "Anchor": "#list-content-item-requirements",
         "IsDeprecated": false
       },
       {
         "OperationId": "List-Content-Entity-Template-Groups",
-        "Name": "List Content Entity Template Groups",
-        "Description": "Lists the template groups for a content entity.",
-        "Anchor": "#list-content-entity-template-groups",
+        "Name": "List content item template groups",
+        "Description": "Lists the template groups for a content item.",
+        "Anchor": "#list-content-item-template-groups",
         "IsDeprecated": false
       },
       {
         "OperationId": "List-Content-Entity-Templates",
-        "Name": "List Content Entity Templates",
-        "Description": "Lists the templates for a content entity.",
-        "Anchor": "#list-content-entity-templates",
+        "Name": "List content item templates",
+        "Description": "Lists the templates for a content item.",
+        "Anchor": "#list-content-item-templates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "List-Content-Entity-User-Properties",
+        "Name": "List all the user properties of a content item",
+        "Description": "List all the user properties of a content item.",
+        "Anchor": "#list-all-the-user-properties-of-a-content-item",
         "IsDeprecated": false
       },
       {
         "OperationId": "List-Storage-Connectors",
-        "Name": "List Storage Connectors",
+        "Name": "List storage connectors",
         "Description": "Lists all configured storage connectors.",
         "Anchor": "#list-storage-connectors",
         "IsDeprecated": false
       },
       {
         "OperationId": "List-Views",
-        "Name": "List Views",
+        "Name": "List views",
         "Description": "Lists all views that are usable from Power Platform",
         "Anchor": "#list-views",
         "IsDeprecated": false
       },
       {
         "OperationId": "Store-Content",
-        "Name": "Store Content",
+        "Name": "Store content",
         "Description": "Adds new content to an AXtension Content Gate environment.",
         "Anchor": "#store-content",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Update-Content-Entity-User-Property",
+        "Name": "Updates the content item user property",
+        "Description": "Update a user property of a content item.",
+        "Anchor": "#updates-the-content-item-user-property",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "When-Content-Added",
+        "Name": "When content is added",
+        "Description": "Trigger that is fired when content is added to a business entity.",
+        "Anchor": "#when-content-is-added",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "When-Content-Deleted",
+        "Name": "When content is deleted",
+        "Description": "Trigger that is fired when content is deleted.",
+        "Anchor": "#when-content-is-deleted",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "When-Content-Updated",
+        "Name": "When content is updated",
+        "Description": "Trigger that is fired when content is updated. This can be either an update of the contents of a file or an update of the content item properties.",
+        "Anchor": "#when-content-is-updated",
         "IsDeprecated": false
       }
     ]
@@ -9067,6 +9109,425 @@
         "Name": "When a Bitlink is created (V2) (Preview)",
         "Description": "When a Bitlink is created.",
         "Anchor": "#when-a-bitlink-is-created-(v2)-(preview)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "bitlyip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../bitlyip/",
+    "Actions": [
+      {
+        "OperationId": "AddCustomBitlink",
+        "Name": "Add custom Bitlink",
+        "Description": "Add a keyword (or custom back-half) to a Bitlink with a Custom Domain. This endpoint can also be used for initial redirects to a link.",
+        "Anchor": "#add-custom-bitlink",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "BulkAdd",
+        "Name": "Bulk add Bitlinks to channels",
+        "Description": "Bulk add Bitlinks to multiple campaign channels",
+        "Anchor": "#bulk-add-bitlinks-to-channels",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateBitlink",
+        "Name": "Create Bitlink",
+        "Description": "Converts a long URL to a Bitlink.",
+        "Anchor": "#create-bitlink",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateCampaign",
+        "Name": "Create campaign",
+        "Description": "Creates a new campaign.",
+        "Anchor": "#create-campaign",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateChannel",
+        "Name": "Create channel",
+        "Description": "Creates a new channel.",
+        "Anchor": "#create-channel",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateFullBitlink",
+        "Name": "Create full Bitlink",
+        "Description": "Converts a long URL to a Bitlink and sets additional parameters.",
+        "Anchor": "#create-full-bitlink",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateWebhook",
+        "Name": "Create webhook",
+        "Description": "Creates a webhook.",
+        "Anchor": "#create-webhook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteWebhook",
+        "Name": "Delete webhook",
+        "Description": "Deletes a webhook.",
+        "Anchor": "#delete-webhook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExpandBitlink",
+        "Name": "Expand Bitlink",
+        "Description": "Returns the short link and long URL for the specified link.",
+        "Anchor": "#expand-bitlink",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetBitlink",
+        "Name": "Get Bitlink",
+        "Description": "Returns information for the specified link.",
+        "Anchor": "#get-bitlink",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetBitlinkQRCode",
+        "Name": "Get Bitlink QR code",
+        "Description": "Generates a QR code for a Bitlink.",
+        "Anchor": "#get-bitlink-qr-code",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetBitlinksByGroup",
+        "Name": "Get Bitlinks by group",
+        "Description": "Returns a paginated collection of Bitlinks for a group.",
+        "Anchor": "#get-bitlinks-by-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetBSDs",
+        "Name": "Get BSDs",
+        "Description": "Fetch all Branded Short Domains.",
+        "Anchor": "#get-bsds",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCampaign",
+        "Name": "Get campaign",
+        "Description": "Returns details for a campaign.",
+        "Anchor": "#get-campaign",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCampaigns",
+        "Name": "Get campaigns",
+        "Description": "Returns the campaigns for the current authenticated user.",
+        "Anchor": "#get-campaigns",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetChannel",
+        "Name": "Get channel",
+        "Description": "Returns a channel's details.",
+        "Anchor": "#get-channel",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetChannels",
+        "Name": "Get channels",
+        "Description": "Returns the channels available to a user.",
+        "Anchor": "#get-channels",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetClicksForBitlink",
+        "Name": "Get clicks for Bitlink",
+        "Description": "Returns the click counts for the specified link in an array based on a date.",
+        "Anchor": "#get-clicks-for-bitlink",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetClicksForCustomBitlink",
+        "Name": "Get clicks for custom Bitlink",
+        "Description": "Returns the click counts for the specified link. This returns an array with clicks based on a date.",
+        "Anchor": "#get-clicks-for-custom-bitlink",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetClicksSummaryForBitlink",
+        "Name": "Get clicks summary for Bitlink",
+        "Description": "Returns the click counts for the specified link rolled up into a single field.",
+        "Anchor": "#get-clicks-summary-for-bitlink",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCustomBitlink",
+        "Name": "Get custom Bitlink",
+        "Description": "Returns the details and history of the specified link.",
+        "Anchor": "#get-custom-bitlink",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCustomBitlinkMetricsByDestination",
+        "Name": "Get custom Bitlink metrics by destination",
+        "Description": "Returns click metrics for the specified link by its historical destinations.",
+        "Anchor": "#get-custom-bitlink-metrics-by-destination",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCustomBitlinksForBSDs",
+        "Name": "Get custom Bitlinks for BSDs",
+        "Description": "Gets custom Bitlinks for an organization filtered by BSD(s).",
+        "Anchor": "#get-custom-bitlinks-for-bsds",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroup",
+        "Name": "Get group",
+        "Description": "Returns details for a group.",
+        "Anchor": "#get-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroupClicks",
+        "Name": "Get group clicks",
+        "Description": "Get number of clicks on Bitlinks in a group.",
+        "Anchor": "#get-group-clicks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroupMetricsByCities",
+        "Name": "Get group metrics by cities",
+        "Description": "Returns the geographic origins of click traffic by city for the specified group.",
+        "Anchor": "#get-group-metrics-by-cities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroupMetricsByCountries",
+        "Name": "Get group metrics by countries",
+        "Description": "Returns the geographic origins of click traffic by country for the specified group.",
+        "Anchor": "#get-group-metrics-by-countries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroupMetricsByDevices",
+        "Name": "Get group metrics by devices",
+        "Description": "Returns the device types generating click traffic to the specified group's links.",
+        "Anchor": "#get-group-metrics-by-devices",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroupMetricsByReferringNetworks",
+        "Name": "Get group metrics by referring networks",
+        "Description": "Returns metrics by referring networks for the specified group's links.",
+        "Anchor": "#get-group-metrics-by-referring-networks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroupPreferences",
+        "Name": "Get group preferences",
+        "Description": "Returns preferences for the specified group.",
+        "Anchor": "#get-group-preferences",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroups",
+        "Name": "Get groups",
+        "Description": "Returns a list of groups in the organization.",
+        "Anchor": "#get-groups",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroupShortenCounts",
+        "Name": "Get group shorten counts",
+        "Description": "Returns all the shorten counts for a group.",
+        "Anchor": "#get-group-shorten-counts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroupTags",
+        "Name": "Get group tags",
+        "Description": "Returns the tags currently used in the specified group. Maximum 1000.",
+        "Anchor": "#get-group-tags",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMetricsForBitlinkByCities",
+        "Name": "Get metrics for Bitlink by cities",
+        "Description": "Returns the city origins of click traffic for the specified link.",
+        "Anchor": "#get-metrics-for-bitlink-by-cities",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMetricsForBitlinkByCountries",
+        "Name": "Get metrics for Bitlink by countries",
+        "Description": "Returns the country origins of click traffic for the specified link.",
+        "Anchor": "#get-metrics-for-bitlink-by-countries",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMetricsForBitlinkByDevices",
+        "Name": "Get metrics for Bitlink by devices",
+        "Description": "Returns the device types generating click traffic to the specified link.",
+        "Anchor": "#get-metrics-for-bitlink-by-devices",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMetricsForBitlinkByReferrers",
+        "Name": "Get metrics for Bitlink by referrers",
+        "Description": "Returns referrer click counts for the specified link.",
+        "Anchor": "#get-metrics-for-bitlink-by-referrers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMetricsForBitlinkByReferrersByDomains",
+        "Name": "Get metrics for Bitlink by referrers by domains",
+        "Description": "Returns click metrics grouped by referrers for the specified link.",
+        "Anchor": "#get-metrics-for-bitlink-by-referrers-by-domains",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMetricsForBitlinkByReferringDomains",
+        "Name": "Get metrics for Bitlink by referring domains",
+        "Description": "Returns the referring domain click counts for the specified link.",
+        "Anchor": "#get-metrics-for-bitlink-by-referring-domains",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetOAuthApp",
+        "Name": "Get OAuth App",
+        "Description": "Retrieve the details for the provided OAuth App client ID.",
+        "Anchor": "#get-oauth-app",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetOrganization",
+        "Name": "Get organization",
+        "Description": "Retrieve details for the specified organization.",
+        "Anchor": "#get-organization",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetOrganizations",
+        "Name": "Get organizations",
+        "Description": "Retrieve a list of organizations.",
+        "Anchor": "#get-organizations",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetOrganizationShortenCounts",
+        "Name": "Get organization shorten counts",
+        "Description": "Returns the shorten counts for a specific organization over a specified time period.",
+        "Anchor": "#get-organization-shorten-counts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPlanLimits",
+        "Name": "Get plan limits",
+        "Description": "Returns all plan limits and counts available for an organization.",
+        "Anchor": "#get-plan-limits",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetPlatformLimits",
+        "Name": "Get platform limits",
+        "Description": "Fetch all platform limits and counts available for an organization",
+        "Anchor": "#get-platform-limits",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetSortedBitlinks",
+        "Name": "Get sorted Bitlinks",
+        "Description": "Returns a list of Bitlinks sorted by group.",
+        "Anchor": "#get-sorted-bitlinks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUser",
+        "Name": "Get user",
+        "Description": "Returns information for the current authenticated user.",
+        "Anchor": "#get-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWebhook",
+        "Name": "Get webhook",
+        "Description": "Returns a webhook.",
+        "Anchor": "#get-webhook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetWebhooks",
+        "Name": "Get webhooks",
+        "Description": "Fetch all webhooks available for an Organization",
+        "Anchor": "#get-webhooks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateBitlink",
+        "Name": "Update Bitlink",
+        "Description": "Updates fields in the specified link.",
+        "Anchor": "#update-bitlink",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateBitlinksByGroup",
+        "Name": "Update Bitlinks by group",
+        "Description": "Bulk update can add or remove tags or archive up to 100 links at a time; The response includes a a list of Bitlink ids that were updated.",
+        "Anchor": "#update-bitlinks-by-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateCampaign",
+        "Name": "Update campaign",
+        "Description": "Updates a campaign's details.",
+        "Anchor": "#update-campaign",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateChannel",
+        "Name": "Update channel",
+        "Description": "Updates an existing channel.",
+        "Anchor": "#update-channel",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateCustomBitlink",
+        "Name": "Update custom Bitlink",
+        "Description": "Move a keyword (or custom back-half) to a different Bitlink.",
+        "Anchor": "#update-custom-bitlink",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateGroup",
+        "Name": "Update group",
+        "Description": "Updates the details of a group.",
+        "Anchor": "#update-group",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateGroupPreferences",
+        "Name": "Update group preferences",
+        "Description": "Updates preferences for a group.",
+        "Anchor": "#update-group-preferences",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateUser",
+        "Name": "Update user",
+        "Description": "Update fields in the user",
+        "Anchor": "#update-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateWebhook",
+        "Name": "Update webhook",
+        "Description": "Update a webhook",
+        "Anchor": "#update-webhook",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VerifyWebhook",
+        "Name": "Verify webhook",
+        "Description": "Sends ping event to test webhook configuration.",
+        "Anchor": "#verify-webhook",
         "IsDeprecated": false
       }
     ]
@@ -43493,6 +43954,33 @@
     ]
   },
   {
+    "UniqueName": "languagequestionansw",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../languagequestionansw/",
+    "Actions": [
+      {
+        "OperationId": "GenerateAnswer",
+        "Name": "Generate answer from Project",
+        "Description": "This action helps in answering the specified question using your knowledge base in your project.",
+        "Anchor": "#generate-answer-from-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAnswersFromText",
+        "Name": "Generate answer from provided text",
+        "Description": "This action helps in answering the specified question using the provided text.",
+        "Anchor": "#generate-answer-from-provided-text",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetProjectDetails",
+        "Name": "Get Project Metadata",
+        "Description": "This action helps in getting all the metadata of your project.",
+        "Anchor": "#get-project-metadata",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "lansweeperappforsent",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../lansweeperappforsent/",
     "Actions": [
@@ -60913,6 +61401,26 @@
         "Name": "Vulnerability Extension Enrichment",
         "Description": "Vulnerability Enrichment with Recorded Future Extension Partner data",
         "Anchor": "#vulnerability-extension-enrichment",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "recordedfutureidenti",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../recordedfutureidenti/",
+    "Actions": [
+      {
+        "OperationId": "Credential_Lookup",
+        "Name": "Credential Lookup - Look up credential data for one or more users",
+        "Description": "Look up exposed credential data for a specific set of subjects",
+        "Anchor": "#credential-lookup---look-up-credential-data-for-one-or-more-users",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Credential_Search",
+        "Name": "Credential Search - Search credential data for one or more domains",
+        "Description": "Search credential data exposed in data dumps and through malware logs",
+        "Anchor": "#credential-search---search-credential-data-for-one-or-more-domains",
         "IsDeprecated": false
       }
     ]

@@ -1,0 +1,20 @@
+{
+  "UniqueName": "recordedfutureidenti",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../recordedfutureidenti/",
+  "Actions": [
+    {
+      "OperationId": "Credential_Lookup",
+      "Name": "Credential Lookup - Look up credential data for one or more users",
+      "Description": "Look up exposed credential data for a specific set of subjects",
+      "Anchor": "#credential-lookup---look-up-credential-data-for-one-or-more-users",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Credential_Search",
+      "Name": "Credential Search - Search credential data for one or more domains",
+      "Description": "Search credential data exposed in data dumps and through malware logs",
+      "Anchor": "#credential-search---search-credential-data-for-one-or-more-domains",
+      "IsDeprecated": false
+    }
+  ]
+}

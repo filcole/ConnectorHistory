@@ -1,0 +1,27 @@
+{
+  "UniqueName": "languagequestionansw",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../languagequestionansw/",
+  "Actions": [
+    {
+      "OperationId": "GenerateAnswer",
+      "Name": "Generate answer from Project",
+      "Description": "This action helps in answering the specified question using your knowledge base in your project.",
+      "Anchor": "#generate-answer-from-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAnswersFromText",
+      "Name": "Generate answer from provided text",
+      "Description": "This action helps in answering the specified question using the provided text.",
+      "Anchor": "#generate-answer-from-provided-text",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProjectDetails",
+      "Name": "Get Project Metadata",
+      "Description": "This action helps in getting all the metadata of your project.",
+      "Anchor": "#get-project-metadata",
+      "IsDeprecated": false
+    }
+  ]
+}
