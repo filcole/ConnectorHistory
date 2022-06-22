@@ -1,0 +1,13 @@
+{
+  "UniqueName": "nationalizeioip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nationalizeioip/",
+  "Actions": [
+    {
+      "OperationId": "CheckNamesNationality",
+      "Name": "Check name(s) nationality",
+      "Description": "Check nationality of a single name or multiple names. For multiple names - separate them with comma.",
+      "Anchor": "#check-name(s)-nationality",
+      "IsDeprecated": false
+    }
+  ]
+}

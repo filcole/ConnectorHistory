@@ -13299,264 +13299,6 @@
     ]
   },
   {
-    "UniqueName": "dynamicssmbsaas",
-    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamicssmbsaas/",
-    "Actions": [
-      {
-        "OperationId": "CreateCustomerApprovalWebHookV2",
-        "Name": "When a customer approval is requested (V2)",
-        "Description": "Triggers a flow when a customer approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-customer-approval-is-requested-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateCustomerApprovalWebHookV3",
-        "Name": "When a customer approval is requested (V3)",
-        "Description": "Triggers a flow when a customer approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-customer-approval-is-requested-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateGeneralJournalBatchApprovalWebHookV2",
-        "Name": "When a general journal batch approval is requested (V2)",
-        "Description": "Triggers a flow when a general journal batch approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-general-journal-batch-approval-is-requested-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateGeneralJournalBatchApprovalWebHookV3",
-        "Name": "When a general journal batch approval is requested (V3)",
-        "Description": "Triggers a flow when a general journal batch approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-general-journal-batch-approval-is-requested-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateGeneralJournalLineApprovalWebHookV2",
-        "Name": "When a general journal line approval is requested (V2)",
-        "Description": "Triggers a flow when a general journal line approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-general-journal-line-approval-is-requested-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateGeneralJournalLineApprovalWebHookV3",
-        "Name": "When a general journal line approval is requested (V3)",
-        "Description": "Triggers a flow when a general journal line approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-general-journal-line-approval-is-requested-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateItemApprovalWebHookV2",
-        "Name": "When an item approval is requested (V2)",
-        "Description": "Triggers a flow when an item approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-an-item-approval-is-requested-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateItemApprovalWebHookV3",
-        "Name": "When an item approval is requested (V3)",
-        "Description": "Triggers a flow when an item approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-an-item-approval-is-requested-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateOnChangedItemsSubscriptionV2",
-        "Name": "When a record is changed (V2)",
-        "Description": "Triggers a flow when a record is changed in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-changed-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateOnChangedItemsSubscriptionV3",
-        "Name": "When a record is changed (V3)",
-        "Description": "Triggers a flow when a record is created, modified or deleted in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-changed-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateOnDeletedItemsSubscriptionV2",
-        "Name": "When a record is deleted (V2)",
-        "Description": "Triggers a flow when a record is deleted in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-deleted-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateOnDeletedItemsSubscriptionV3",
-        "Name": "When a record is deleted (V3)",
-        "Description": "Triggers a flow when a record is deleted in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-deleted-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateOnNewItemsSubscriptionV2",
-        "Name": "When a record is created (V2)",
-        "Description": "Triggers a flow when a record is created in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-created-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateOnNewItemsSubscriptionV3",
-        "Name": "When a record is created (V3)",
-        "Description": "Triggers a flow when a record is created in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-created-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateOnUpdatedItemsSubscriptionV2",
-        "Name": "When a record is modified (V2)",
-        "Description": "Triggers a flow when a record is modified in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-modified-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateOnUpdatedItemsSubscriptionV3",
-        "Name": "When a record is modified (V3)",
-        "Description": "Triggers a flow when a record is modified in Dynamics 365 Business Central",
-        "Anchor": "#when-a-record-is-modified-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreatePurchaseDocumentApprovalWebHookV2",
-        "Name": "When a purchase document approval is requested (V2)",
-        "Description": "Triggers a flow when a purchase document approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-purchase-document-approval-is-requested-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreatePurchaseDocumentApprovalWebHookV3",
-        "Name": "When a purchase document approval is requested (V3)",
-        "Description": "Triggers a flow when a purchase document approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-purchase-document-approval-is-requested-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateSalesDocumentApprovalWebHookV2",
-        "Name": "When a sales document approval is requested (V2)",
-        "Description": "Triggers a flow when a sales document approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-sales-document-approval-is-requested-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateSalesDocumentApprovalWebHookV3",
-        "Name": "When a sales document approval is requested (V3)",
-        "Description": "Triggers a flow when a sales document approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-sales-document-approval-is-requested-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateVendorApprovalWebHookV2",
-        "Name": "When a vendor approval is requested (V2)",
-        "Description": "Triggers a flow when a vendor approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-vendor-approval-is-requested-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "CreateVendorApprovalWebHookV3",
-        "Name": "When a vendor approval is requested (V3)",
-        "Description": "Triggers a flow when a vendor approval request occurs in Dynamics 365 Business Central.",
-        "Anchor": "#when-a-vendor-approval-is-requested-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "DeleteItemV2",
-        "Name": "Delete record (V2)",
-        "Description": "Deletes a Dynamics 365 Business Central record",
-        "Anchor": "#delete-record-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "DeleteItemV3",
-        "Name": "Delete record (V3)",
-        "Description": "Deletes a Dynamics 365 Business Central record",
-        "Anchor": "#delete-record-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "ExecuteProcedureV2",
-        "Name": "Execute action (V2)",
-        "Description": "Executes a Dynamics 365 Business Central action.",
-        "Anchor": "#execute-action-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "ExecuteProcedureV3",
-        "Name": "Execute action (V3)",
-        "Description": "Executes a Dynamics 365 Business Central action.",
-        "Anchor": "#execute-action-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "ForASelectedRecordV3",
-        "Name": "For a selected record (V3)",
-        "Description": "Triggers a flow for a selected Dynamics 365 Business Central record. (Available only for Power Automate.)",
-        "Anchor": "#for-a-selected-record-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetItemsV3",
-        "Name": "Find records (V3)",
-        "Description": "Retrieves Dynamics 365 Business Central records of a certain type (for example, customers or items)",
-        "Anchor": "#find-records-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetItemV2",
-        "Name": "Get record (V2)",
-        "Description": "Retrieves a Dynamics 365 Business Central record",
-        "Anchor": "#get-record-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetItemV3",
-        "Name": "Get record (V3)",
-        "Description": "Retrieves a Dynamics 365 Business Central record",
-        "Anchor": "#get-record-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetTablesV2",
-        "Name": "Get record types (V2)",
-        "Description": "Retrieves Dynamics 365 Business Central record types",
-        "Anchor": "#get-record-types-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "GetTablesV3",
-        "Name": "Get record types (V3)",
-        "Description": "Retrieves Dynamics 365 Business Central record types",
-        "Anchor": "#get-record-types-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "PatchItemV2",
-        "Name": "Update record (V2)",
-        "Description": "Updates an existing Dynamics 365 Business Central record",
-        "Anchor": "#update-record-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "PatchItemV3",
-        "Name": "Update record (V3)",
-        "Description": "Updates an existing Dynamics 365 Business Central record",
-        "Anchor": "#update-record-(v3)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "PostItemV2",
-        "Name": "Create record (V2)",
-        "Description": "Creates a Dynamics 365 Business Central record",
-        "Anchor": "#create-record-(v2)",
-        "IsDeprecated": false
-      },
-      {
-        "OperationId": "PostItemV3",
-        "Name": "Create record (V3)",
-        "Description": "Creates a Dynamics 365 Business Central record",
-        "Anchor": "#create-record-(v3)",
-        "IsDeprecated": false
-      }
-    ]
-  },
-  {
     "UniqueName": "dynamicssmbonprem",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamicssmbonprem/",
     "Actions": [
@@ -19123,6 +18865,20 @@
         "Description": "CyberProof Action.",
         "Anchor": "#cyberproof-action",
         "IsDeprecated": false
+      },
+      {
+        "OperationId": "CPCreateWebhookExecution",
+        "Name": "CyberProof User Action",
+        "Description": "CyberProof User Action.",
+        "Anchor": "#cyberproof-user-action",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CPTrigger",
+        "Name": "CyberProof Webhook Trigger",
+        "Description": "CyberProof Webhook Trigger",
+        "Anchor": "#cyberproof-webhook-trigger",
+        "IsDeprecated": false
       }
     ]
   },
@@ -21479,6 +21235,264 @@
         "Description": "This operation creates a new record of an entity (with option sets exposed as strings)",
         "Anchor": "#create-a-new-record-(deprecated)-[deprecated]",
         "IsDeprecated": true
+      }
+    ]
+  },
+  {
+    "UniqueName": "dynamicssmbsaas",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynamicssmbsaas/",
+    "Actions": [
+      {
+        "OperationId": "CreateCustomerApprovalWebHookV2",
+        "Name": "When a customer approval is requested (V2)",
+        "Description": "Triggers a flow when a customer approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-customer-approval-is-requested-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateCustomerApprovalWebHookV3",
+        "Name": "When a customer approval is requested (V3)",
+        "Description": "Triggers a flow when a customer approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-customer-approval-is-requested-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateGeneralJournalBatchApprovalWebHookV2",
+        "Name": "When a general journal batch approval is requested (V2)",
+        "Description": "Triggers a flow when a general journal batch approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-general-journal-batch-approval-is-requested-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateGeneralJournalBatchApprovalWebHookV3",
+        "Name": "When a general journal batch approval is requested (V3)",
+        "Description": "Triggers a flow when a general journal batch approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-general-journal-batch-approval-is-requested-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateGeneralJournalLineApprovalWebHookV2",
+        "Name": "When a general journal line approval is requested (V2)",
+        "Description": "Triggers a flow when a general journal line approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-general-journal-line-approval-is-requested-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateGeneralJournalLineApprovalWebHookV3",
+        "Name": "When a general journal line approval is requested (V3)",
+        "Description": "Triggers a flow when a general journal line approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-general-journal-line-approval-is-requested-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateItemApprovalWebHookV2",
+        "Name": "When an item approval is requested (V2)",
+        "Description": "Triggers a flow when an item approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-an-item-approval-is-requested-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateItemApprovalWebHookV3",
+        "Name": "When an item approval is requested (V3)",
+        "Description": "Triggers a flow when an item approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-an-item-approval-is-requested-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOnChangedItemsSubscriptionV2",
+        "Name": "When a record is changed (V2)",
+        "Description": "Triggers a flow when a record is changed in Dynamics 365 Business Central",
+        "Anchor": "#when-a-record-is-changed-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOnChangedItemsSubscriptionV3",
+        "Name": "When a record is changed (V3)",
+        "Description": "Triggers a flow when a record is created, modified or deleted in Dynamics 365 Business Central",
+        "Anchor": "#when-a-record-is-changed-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOnDeletedItemsSubscriptionV2",
+        "Name": "When a record is deleted (V2)",
+        "Description": "Triggers a flow when a record is deleted in Dynamics 365 Business Central",
+        "Anchor": "#when-a-record-is-deleted-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOnDeletedItemsSubscriptionV3",
+        "Name": "When a record is deleted (V3)",
+        "Description": "Triggers a flow when a record is deleted in Dynamics 365 Business Central",
+        "Anchor": "#when-a-record-is-deleted-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOnNewItemsSubscriptionV2",
+        "Name": "When a record is created (V2)",
+        "Description": "Triggers a flow when a record is created in Dynamics 365 Business Central",
+        "Anchor": "#when-a-record-is-created-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOnNewItemsSubscriptionV3",
+        "Name": "When a record is created (V3)",
+        "Description": "Triggers a flow when a record is created in Dynamics 365 Business Central",
+        "Anchor": "#when-a-record-is-created-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOnUpdatedItemsSubscriptionV2",
+        "Name": "When a record is modified (V2)",
+        "Description": "Triggers a flow when a record is modified in Dynamics 365 Business Central",
+        "Anchor": "#when-a-record-is-modified-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateOnUpdatedItemsSubscriptionV3",
+        "Name": "When a record is modified (V3)",
+        "Description": "Triggers a flow when a record is modified in Dynamics 365 Business Central",
+        "Anchor": "#when-a-record-is-modified-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreatePurchaseDocumentApprovalWebHookV2",
+        "Name": "When a purchase document approval is requested (V2)",
+        "Description": "Triggers a flow when a purchase document approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-purchase-document-approval-is-requested-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreatePurchaseDocumentApprovalWebHookV3",
+        "Name": "When a purchase document approval is requested (V3)",
+        "Description": "Triggers a flow when a purchase document approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-purchase-document-approval-is-requested-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateSalesDocumentApprovalWebHookV2",
+        "Name": "When a sales document approval is requested (V2)",
+        "Description": "Triggers a flow when a sales document approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-sales-document-approval-is-requested-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateSalesDocumentApprovalWebHookV3",
+        "Name": "When a sales document approval is requested (V3)",
+        "Description": "Triggers a flow when a sales document approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-sales-document-approval-is-requested-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateVendorApprovalWebHookV2",
+        "Name": "When a vendor approval is requested (V2)",
+        "Description": "Triggers a flow when a vendor approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-vendor-approval-is-requested-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateVendorApprovalWebHookV3",
+        "Name": "When a vendor approval is requested (V3)",
+        "Description": "Triggers a flow when a vendor approval request occurs in Dynamics 365 Business Central.",
+        "Anchor": "#when-a-vendor-approval-is-requested-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteItemV2",
+        "Name": "Delete record (V2)",
+        "Description": "Deletes a Dynamics 365 Business Central record",
+        "Anchor": "#delete-record-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteItemV3",
+        "Name": "Delete record (V3)",
+        "Description": "Deletes a Dynamics 365 Business Central record",
+        "Anchor": "#delete-record-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExecuteProcedureV2",
+        "Name": "Execute action (V2)",
+        "Description": "Executes a Dynamics 365 Business Central action.",
+        "Anchor": "#execute-action-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExecuteProcedureV3",
+        "Name": "Execute action (V3)",
+        "Description": "Executes a Dynamics 365 Business Central action.",
+        "Anchor": "#execute-action-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ForASelectedRecordV3",
+        "Name": "For a selected record (V3)",
+        "Description": "Triggers a flow for a selected Dynamics 365 Business Central record. (Available only for Power Automate.)",
+        "Anchor": "#for-a-selected-record-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetItemsV3",
+        "Name": "Find records (V3)",
+        "Description": "Retrieves Dynamics 365 Business Central records of a certain type (for example, customers or items)",
+        "Anchor": "#find-records-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetItemV2",
+        "Name": "Get record (V2)",
+        "Description": "Retrieves a Dynamics 365 Business Central record",
+        "Anchor": "#get-record-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetItemV3",
+        "Name": "Get record (V3)",
+        "Description": "Retrieves a Dynamics 365 Business Central record",
+        "Anchor": "#get-record-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTablesV2",
+        "Name": "Get record types (V2)",
+        "Description": "Retrieves Dynamics 365 Business Central record types",
+        "Anchor": "#get-record-types-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTablesV3",
+        "Name": "Get record types (V3)",
+        "Description": "Retrieves Dynamics 365 Business Central record types",
+        "Anchor": "#get-record-types-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PatchItemV2",
+        "Name": "Update record (V2)",
+        "Description": "Updates an existing Dynamics 365 Business Central record",
+        "Anchor": "#update-record-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PatchItemV3",
+        "Name": "Update record (V3)",
+        "Description": "Updates an existing Dynamics 365 Business Central record",
+        "Anchor": "#update-record-(v3)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostItemV2",
+        "Name": "Create record (V2)",
+        "Description": "Creates a Dynamics 365 Business Central record",
+        "Anchor": "#create-record-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PostItemV3",
+        "Name": "Create record (V3)",
+        "Description": "Creates a Dynamics 365 Business Central record",
+        "Anchor": "#create-record-(v3)",
+        "IsDeprecated": false
       }
     ]
   },
@@ -50024,6 +50038,19 @@
     ]
   },
   {
+    "UniqueName": "nationalizeioip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nationalizeioip/",
+    "Actions": [
+      {
+        "OperationId": "CheckNamesNationality",
+        "Name": "Check name(s) nationality",
+        "Description": "Check nationality of a single name or multiple names. For multiple names - separate them with comma.",
+        "Anchor": "#check-name(s)-nationality",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "nederlandsespoorweip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../nederlandsespoorweip/",
     "Actions": [
@@ -70266,6 +70293,33 @@
         "Name": "Insert row",
         "Description": "This operation inserts a new row into a table.",
         "Anchor": "#insert-row",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "maqtextanalytics",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../maqtextanalytics/",
+    "Actions": [
+      {
+        "OperationId": "KeyPhraseExtractor",
+        "Name": "Key Phrase Extractor",
+        "Description": "Extract Key Phrases from your text data",
+        "Anchor": "#key-phrase-extractor",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PIIScrubber",
+        "Name": "Scrub PII Data",
+        "Description": "Scrub PII data from your text based on configured entities",
+        "Anchor": "#scrub-pii-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SentimentClassifier",
+        "Name": "Sentiment Classifier",
+        "Description": "Perform Sentiment Analysis of your text data",
+        "Anchor": "#sentiment-classifier",
         "IsDeprecated": false
       }
     ]

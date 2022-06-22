@@ -8,6 +8,20 @@
       "Description": "CyberProof Action.",
       "Anchor": "#cyberproof-action",
       "IsDeprecated": false
+    },
+    {
+      "OperationId": "CPCreateWebhookExecution",
+      "Name": "CyberProof User Action",
+      "Description": "CyberProof User Action.",
+      "Anchor": "#cyberproof-user-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CPTrigger",
+      "Name": "CyberProof Webhook Trigger",
+      "Description": "CyberProof Webhook Trigger",
+      "Anchor": "#cyberproof-webhook-trigger",
+      "IsDeprecated": false
     }
   ]
 }

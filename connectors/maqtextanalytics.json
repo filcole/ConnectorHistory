@@ -1,0 +1,27 @@
+{
+  "UniqueName": "maqtextanalytics",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../maqtextanalytics/",
+  "Actions": [
+    {
+      "OperationId": "KeyPhraseExtractor",
+      "Name": "Key Phrase Extractor",
+      "Description": "Extract Key Phrases from your text data",
+      "Anchor": "#key-phrase-extractor",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PIIScrubber",
+      "Name": "Scrub PII Data",
+      "Description": "Scrub PII data from your text based on configured entities",
+      "Anchor": "#scrub-pii-data",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SentimentClassifier",
+      "Name": "Sentiment Classifier",
+      "Description": "Perform Sentiment Analysis of your text data",
+      "Anchor": "#sentiment-classifier",
+      "IsDeprecated": false
+    }
+  ]
+}
