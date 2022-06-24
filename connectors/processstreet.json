@@ -1,0 +1,69 @@
+{
+  "UniqueName": "processstreet",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../processstreet/",
+  "Actions": [
+    {
+      "OperationId": "CreateTaskStateChangedTrigger",
+      "Name": "When a task is checked, unchecked or ready",
+      "Description": "A trigger that will fire each time a task is completed, uncompleted or both, or becomes ready in Process Street",
+      "Anchor": "#when-a-task-is-checked,-unchecked-or-ready",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkflowRun",
+      "Name": "Run a workflow",
+      "Description": "Starts a workflow run based on a workflow",
+      "Anchor": "#run-a-workflow",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkflowRunCompletedTrigger",
+      "Name": "When a workflow run is completed",
+      "Description": "Triggers when a workflow run is completed",
+      "Anchor": "#when-a-workflow-run-is-completed",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateWorkflowRunCreatedTrigger",
+      "Name": "When a workflow is run",
+      "Description": "Triggers when a workflow is run",
+      "Anchor": "#when-a-workflow-is-run",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FindWorkflowRuns",
+      "Name": "Find workflow runs",
+      "Description": "Retrieves the most recent 200 active workflow runs that match the query",
+      "Anchor": "#find-workflow-runs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetUser",
+      "Name": "Get a user",
+      "Description": "Retrieves a user",
+      "Anchor": "#get-a-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListFormFieldValues",
+      "Name": "Get workflow run form fields",
+      "Description": "Retrieves all the form fields of workflow run",
+      "Anchor": "#get-workflow-run-form-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateFormFieldValuesWithWorkflowId",
+      "Name": "Update workflow run form fields",
+      "Description": "Updates the workflow run form fields.\nA value may be a string, an array, or accept multiple properties.\nSee the examples for a complete reference on setting workflow run form fields.",
+      "Anchor": "#update-workflow-run-form-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateWorkflowRun",
+      "Name": "Update a workflow run",
+      "Description": "Updates a workflow run",
+      "Anchor": "#update-a-workflow-run",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "UniqueName": "pdfcross",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pdfcross/",
+  "Actions": [
+    {
+      "OperationId": "addPassword",
+      "Name": "Protect your PDF with a password",
+      "Description": "You can protect the file by prompting for a password when you open the PDF file. This is useful for highly confidential files.",
+      "Anchor": "#protect-your-pdf-with-a-password",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "addWatermarkText",
+      "Name": "Add text watermark",
+      "Description": "By inserting a watermark such as [Confidential] on each page of the PDF, you can make the viewer understand the characteristics of the material.",
+      "Anchor": "#add-text-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "mergePDF",
+      "Name": "Merge multiple PDF files into one PDF",
+      "Description": "This is effective when you want to combine PDFs from multiple departments into one pdf file as meeting materials.",
+      "Anchor": "#merge-multiple-pdf-files-into-one-pdf",
+      "IsDeprecated": false
+    }
+  ]
+}

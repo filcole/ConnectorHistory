@@ -1,0 +1,27 @@
+{
+  "UniqueName": "googlecloudtranslaip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../googlecloudtranslaip/",
+  "Actions": [
+    {
+      "OperationId": "LanguageDetect",
+      "Name": "Detect language",
+      "Description": "Detects the language of text within a request.",
+      "Anchor": "#detect-language",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LanguageGet",
+      "Name": "Get language list",
+      "Description": "Returns a list of supported languages for translation.",
+      "Anchor": "#get-language-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TextTranslate",
+      "Name": "Translate text",
+      "Description": "Translates input text, returning translated text.",
+      "Anchor": "#translate-text",
+      "IsDeprecated": false
+    }
+  ]
+}

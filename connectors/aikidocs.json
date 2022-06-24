@@ -1,0 +1,90 @@
+{
+  "UniqueName": "aikidocs",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aikidocs/",
+  "Actions": [
+    {
+      "OperationId": "ExcelGetCell",
+      "Name": "Excel - Get Cell Value or Formula",
+      "Description": "Excel - Get Cell Value or Formula",
+      "Anchor": "#excel---get-cell-value-or-formula",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExcelGetCells",
+      "Name": "Excel - Get Cells Value or Formula",
+      "Description": "Excel - Get Cells Value or Formula",
+      "Anchor": "#excel---get-cells-value-or-formula",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExcelSetCell",
+      "Name": "Excel - Set Cell Value or Formula",
+      "Description": "Excel - Set Cell Value or Formula",
+      "Anchor": "#excel---set-cell-value-or-formula",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExcelSetCells",
+      "Name": "Excel - Set Cells Value or Formula",
+      "Description": "Excel - Set Cells Value or Formula",
+      "Anchor": "#excel---set-cells-value-or-formula",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateConnectBadService",
+      "Name": "Validate the connection and API Key are working but with a failure response",
+      "Description": "Validate the connection and API Key are working but with a failure response",
+      "Anchor": "#validate-the-connection-and-api-key-are-working-but-with-a-failure-response",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ValidateConnectGoodService",
+      "Name": "Validate the connection and API Key are working",
+      "Description": "Validate the connection and API Key are working",
+      "Anchor": "#validate-the-connection-and-api-key-are-working",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WordAppendDocuments",
+      "Name": "Word - Append Multiple Word Documents Together",
+      "Description": "Word - Append multiple Word documents together returning a single document which represents all the documents appended together",
+      "Anchor": "#word---append-multiple-word-documents-together",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WordApplyStyleToDocument",
+      "Name": "Word - Apply the style to a document from a source document",
+      "Description": "Word - Apply the style to a document from a source document",
+      "Anchor": "#word---apply-the-style-to-a-document-from-a-source-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WordExtractContentByBookmarks",
+      "Name": "Word - Extract Content By Bookmarks",
+      "Description": "Word - Extract Content By Bookmarks",
+      "Anchor": "#word---extract-content-by-bookmarks",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WordExtractContentByHeading",
+      "Name": "Word - Extract Content By Heading",
+      "Description": "Word - Extract Content By Heading",
+      "Anchor": "#word---extract-content-by-heading",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WordExtractContentByTitle",
+      "Name": "Word - Extract Content By Title",
+      "Description": "Word - Extract Content By Title",
+      "Anchor": "#word---extract-content-by-title",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WordInsertDocuments",
+      "Name": "Word - Insert Documents into a document at bookmark",
+      "Description": "Word - Insert Documents into a document at bookmark",
+      "Anchor": "#word---insert-documents-into-a-document-at-bookmark",
+      "IsDeprecated": false
+    }
+  ]
+}

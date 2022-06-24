@@ -2053,6 +2053,96 @@
     ]
   },
   {
+    "UniqueName": "aikidocs",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aikidocs/",
+    "Actions": [
+      {
+        "OperationId": "ExcelGetCell",
+        "Name": "Excel - Get Cell Value or Formula",
+        "Description": "Excel - Get Cell Value or Formula",
+        "Anchor": "#excel---get-cell-value-or-formula",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExcelGetCells",
+        "Name": "Excel - Get Cells Value or Formula",
+        "Description": "Excel - Get Cells Value or Formula",
+        "Anchor": "#excel---get-cells-value-or-formula",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExcelSetCell",
+        "Name": "Excel - Set Cell Value or Formula",
+        "Description": "Excel - Set Cell Value or Formula",
+        "Anchor": "#excel---set-cell-value-or-formula",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExcelSetCells",
+        "Name": "Excel - Set Cells Value or Formula",
+        "Description": "Excel - Set Cells Value or Formula",
+        "Anchor": "#excel---set-cells-value-or-formula",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ValidateConnectBadService",
+        "Name": "Validate the connection and API Key are working but with a failure response",
+        "Description": "Validate the connection and API Key are working but with a failure response",
+        "Anchor": "#validate-the-connection-and-api-key-are-working-but-with-a-failure-response",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ValidateConnectGoodService",
+        "Name": "Validate the connection and API Key are working",
+        "Description": "Validate the connection and API Key are working",
+        "Anchor": "#validate-the-connection-and-api-key-are-working",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WordAppendDocuments",
+        "Name": "Word - Append Multiple Word Documents Together",
+        "Description": "Word - Append multiple Word documents together returning a single document which represents all the documents appended together",
+        "Anchor": "#word---append-multiple-word-documents-together",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WordApplyStyleToDocument",
+        "Name": "Word - Apply the style to a document from a source document",
+        "Description": "Word - Apply the style to a document from a source document",
+        "Anchor": "#word---apply-the-style-to-a-document-from-a-source-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WordExtractContentByBookmarks",
+        "Name": "Word - Extract Content By Bookmarks",
+        "Description": "Word - Extract Content By Bookmarks",
+        "Anchor": "#word---extract-content-by-bookmarks",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WordExtractContentByHeading",
+        "Name": "Word - Extract Content By Heading",
+        "Description": "Word - Extract Content By Heading",
+        "Anchor": "#word---extract-content-by-heading",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WordExtractContentByTitle",
+        "Name": "Word - Extract Content By Title",
+        "Description": "Word - Extract Content By Title",
+        "Anchor": "#word---extract-content-by-title",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WordInsertDocuments",
+        "Name": "Word - Insert Documents into a document at bookmark",
+        "Description": "Word - Insert Documents into a document at bookmark",
+        "Anchor": "#word---insert-documents-into-a-document-at-bookmark",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "airlyip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../airlyip/",
     "Actions": [
@@ -13005,6 +13095,75 @@
         "Name": "Get Carbon Intensity for Wales",
         "Description": "Get Carbon Intensity data for current half hour for Wales. All times provided in UTC (+00:00).",
         "Anchor": "#get-carbon-intensity-for-wales",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "carbonfootprintip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../carbonfootprintip/",
+    "Actions": [
+      {
+        "OperationId": "AirQualityHealthIndex",
+        "Name": "Get air quality health index",
+        "Description": "Return the official air quality health index (1 to 10) bases on key parameters. The national AQHI is based on three-hour average concentrations of ground-level ozone (O3), nitrogen dioxide (NO2), and fine particulate matter (PM2.5). O3 and NO2 are measured in parts per billion.",
+        "Anchor": "#get-air-quality-health-index",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CarbonFootprintFromCarTravel",
+        "Name": "Get carbon footprint from car travel",
+        "Description": "Returns the CO2e in Kg from a travel by car.",
+        "Anchor": "#get-carbon-footprint-from-car-travel",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CarbonFootprintFromFlight",
+        "Name": "Get carbon footprint from flight",
+        "Description": "Calculate CO2e in Kg from a travel by air.",
+        "Anchor": "#get-carbon-footprint-from-flight",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CarbonFootprintFromMotorBike",
+        "Name": "Get carbon footprint from motor bike",
+        "Description": "Returns the CO2e in Kg from a motorbike travel.",
+        "Anchor": "#get-carbon-footprint-from-motor-bike",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CarbonFootprintFromPublicTransit",
+        "Name": "Get carbon footprint from public transit",
+        "Description": "Return CO2e in Kg from the use of public transportation.",
+        "Anchor": "#get-carbon-footprint-from-public-transit",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CleanHydroToCarbonFootprint",
+        "Name": "Get clean hydro to carbon footprint",
+        "Description": "Return the CO2e in Kg from the consumption of clean hydro energy.",
+        "Anchor": "#get-clean-hydro-to-carbon-footprint",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FuelToCO2e",
+        "Name": "Get fuel to carbon footprint",
+        "Description": "Return the CO2e in Kg from liters of diesel, petrol or LPG.",
+        "Anchor": "#get-fuel-to-carbon-footprint",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TraditionalHydroToCarbonFootprint",
+        "Name": "Get traditional hydro to carbon footprint",
+        "Description": "Calculate CO2e from the use of traditional hydro provider.",
+        "Anchor": "#get-traditional-hydro-to-carbon-footprint",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TreeEquivalent",
+        "Name": "Get tree equivalent",
+        "Description": "Calculate how many trees it took to create paper.",
+        "Anchor": "#get-tree-equivalent",
         "IsDeprecated": false
       }
     ]
@@ -30999,6 +31158,33 @@
     ]
   },
   {
+    "UniqueName": "googlecloudtranslaip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../googlecloudtranslaip/",
+    "Actions": [
+      {
+        "OperationId": "LanguageDetect",
+        "Name": "Detect language",
+        "Description": "Detects the language of text within a request.",
+        "Anchor": "#detect-language",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LanguageGet",
+        "Name": "Get language list",
+        "Description": "Returns a list of supported languages for translation.",
+        "Anchor": "#get-language-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TextTranslate",
+        "Name": "Translate text",
+        "Description": "Translates input text, returning translated text.",
+        "Anchor": "#translate-text",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "googlecontacts",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../googlecontacts/",
     "Actions": [
@@ -31245,9 +31431,9 @@
     "Actions": [
       {
         "OperationId": "Create",
-        "Name": "Create QRCode with a specific size",
-        "Description": "Get the QR Code with specific size",
-        "Anchor": "#create-qrcode-with-a-specific-size",
+        "Name": "Create QR Code",
+        "Description": "Creates an QR code",
+        "Anchor": "#create-qr-code",
         "IsDeprecated": false
       }
     ]
@@ -46282,10 +46468,10 @@
         "IsDeprecated": false
       },
       {
-        "OperationId": "OnMessageSelected",
-        "Name": "For a selected message",
+        "OperationId": "OnMessageSelectedV2",
+        "Name": "For a selected message (V2)",
         "Description": "This trigger allows you to start a flow for a selected message in Microsoft Teams. (Available only for Power Automate.)",
-        "Anchor": "#for-a-selected-message",
+        "Anchor": "#for-a-selected-message-(v2)",
         "IsDeprecated": false
       },
       {
@@ -49881,6 +50067,75 @@
     ]
   },
   {
+    "UniqueName": "oneflow",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../oneflow/",
+    "Actions": [
+      {
+        "OperationId": "CreateAContract",
+        "Name": "Create a contract",
+        "Description": "Create a new contract based on the selected template.",
+        "Anchor": "#create-a-contract",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteAContractById",
+        "Name": "Delete a contract",
+        "Description": "Delete a specific contract by its ID.",
+        "Anchor": "#delete-a-contract",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAContractFileById",
+        "Name": "Download a contract file",
+        "Description": "Retrieve a specific contract file by its ID.",
+        "Anchor": "#download-a-contract-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetContract",
+        "Name": "Get contract details",
+        "Description": "Retrieve the details of a contract by its ID.",
+        "Anchor": "#get-contract-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetContractStatus",
+        "Name": "Get the status of a contract",
+        "Description": "Retrieve the status of a specific contract by its ID.",
+        "Anchor": "#get-the-status-of-a-contract",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PartyCreate",
+        "Name": "Add Participant",
+        "Description": "Add participant to the contract",
+        "Anchor": "#add-participant",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Ping",
+        "Name": "Ping",
+        "Description": "Use this endpoint to check if the Oneflow API is available.",
+        "Anchor": "#ping",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PublishContract",
+        "Name": "Publish a contract",
+        "Description": "Sends contract to participants for signing.",
+        "Anchor": "#publish-a-contract",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UploadAttachments",
+        "Name": "Upload attachments",
+        "Description": "Add attachment or a  PDF document to a contract.",
+        "Anchor": "#upload-attachments",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "onenote",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../onenote/",
     "Actions": [
@@ -52467,6 +52722,33 @@
         "Name": "Split Document by SwissQR Code (Preview)",
         "Description": "Split the PDF document by barcode types and filters. https://developer.pdf4me.com/docs/api/microsoft-flow/split-by-barcode-flow-connector/",
         "Anchor": "#split-document-by-swissqr-code-(preview)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "pdfcross",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pdfcross/",
+    "Actions": [
+      {
+        "OperationId": "addPassword",
+        "Name": "Protect your PDF with a password",
+        "Description": "You can protect the file by prompting for a password when you open the PDF file. This is useful for highly confidential files.",
+        "Anchor": "#protect-your-pdf-with-a-password",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "addWatermarkText",
+        "Name": "Add text watermark",
+        "Description": "By inserting a watermark such as [Confidential] on each page of the PDF, you can make the viewer understand the characteristics of the material.",
+        "Anchor": "#add-text-watermark",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "mergePDF",
+        "Name": "Merge multiple PDF files into one PDF",
+        "Description": "This is effective when you want to combine PDFs from multiple departments into one pdf file as meeting materials.",
+        "Anchor": "#merge-multiple-pdf-files-into-one-pdf",
         "IsDeprecated": false
       }
     ]
@@ -55685,6 +55967,75 @@
         "Name": "Updates a Project",
         "Description": "Updates a Project",
         "Anchor": "#updates-a-project",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "processstreet",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../processstreet/",
+    "Actions": [
+      {
+        "OperationId": "CreateTaskStateChangedTrigger",
+        "Name": "When a task is checked, unchecked or ready",
+        "Description": "A trigger that will fire each time a task is completed, uncompleted or both, or becomes ready in Process Street",
+        "Anchor": "#when-a-task-is-checked,-unchecked-or-ready",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateWorkflowRun",
+        "Name": "Run a workflow",
+        "Description": "Starts a workflow run based on a workflow",
+        "Anchor": "#run-a-workflow",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateWorkflowRunCompletedTrigger",
+        "Name": "When a workflow run is completed",
+        "Description": "Triggers when a workflow run is completed",
+        "Anchor": "#when-a-workflow-run-is-completed",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateWorkflowRunCreatedTrigger",
+        "Name": "When a workflow is run",
+        "Description": "Triggers when a workflow is run",
+        "Anchor": "#when-a-workflow-is-run",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FindWorkflowRuns",
+        "Name": "Find workflow runs",
+        "Description": "Retrieves the most recent 200 active workflow runs that match the query",
+        "Anchor": "#find-workflow-runs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetUser",
+        "Name": "Get a user",
+        "Description": "Retrieves a user",
+        "Anchor": "#get-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListFormFieldValues",
+        "Name": "Get workflow run form fields",
+        "Description": "Retrieves all the form fields of workflow run",
+        "Anchor": "#get-workflow-run-form-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateFormFieldValuesWithWorkflowId",
+        "Name": "Update workflow run form fields",
+        "Description": "Updates the workflow run form fields.\nA value may be a string, an array, or accept multiple properties.\nSee the examples for a complete reference on setting workflow run form fields.",
+        "Anchor": "#update-workflow-run-form-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateWorkflowRun",
+        "Name": "Update a workflow run",
+        "Description": "Updates a workflow run",
+        "Anchor": "#update-a-workflow-run",
         "IsDeprecated": false
       }
     ]
@@ -69046,6 +69397,54 @@
         "Name": "Generate Bar Code",
         "Description": "Encode data in a graphical format using a 1D or 2D bar code",
         "Anchor": "#generate-bar-code",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "varuna",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../varuna/",
+    "Actions": [
+      {
+        "OperationId": "CreateADocument",
+        "Name": "Create a Document",
+        "Description": "Create a document with document type and related body parameters",
+        "Anchor": "#create-a-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteADocument",
+        "Name": "Delete a Document",
+        "Description": "Delete a specific document with document type and document Id",
+        "Anchor": "#delete-a-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetADocument",
+        "Name": "Get a document with Id and type",
+        "Description": "Get a specific document via a document type and a document Id",
+        "Anchor": "#get-a-document-with-id-and-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllDocumentsByType",
+        "Name": "Get All Documents for a Document Type",
+        "Description": "Get All Documents for a document type",
+        "Anchor": "#get-all-documents-for-a-document-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SubscribeTrigger",
+        "Name": "Send notification when an event occurs",
+        "Description": "Create a subscription to get notification for a specific document and event (Create, Delete, Update)",
+        "Anchor": "#send-notification-when-an-event-occurs",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateADocument",
+        "Name": "Update a Document",
+        "Description": "Update a document with document type and document Id",
+        "Anchor": "#update-a-document",
         "IsDeprecated": false
       }
     ]

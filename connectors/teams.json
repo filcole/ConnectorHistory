@@ -283,10 +283,10 @@
       "IsDeprecated": false
     },
     {
-      "OperationId": "OnMessageSelected",
-      "Name": "For a selected message",
+      "OperationId": "OnMessageSelectedV2",
+      "Name": "For a selected message (V2)",
       "Description": "This trigger allows you to start a flow for a selected message in Microsoft Teams. (Available only for Power Automate.)",
-      "Anchor": "#for-a-selected-message",
+      "Anchor": "#for-a-selected-message-(v2)",
       "IsDeprecated": false
     },
     {

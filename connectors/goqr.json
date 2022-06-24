@@ -4,9 +4,9 @@
   "Actions": [
     {
       "OperationId": "Create",
-      "Name": "Create QRCode with a specific size",
-      "Description": "Get the QR Code with specific size",
-      "Anchor": "#create-qrcode-with-a-specific-size",
+      "Name": "Create QR Code",
+      "Description": "Creates an QR code",
+      "Anchor": "#create-qr-code",
       "IsDeprecated": false
     }
   ]

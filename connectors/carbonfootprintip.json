@@ -1,0 +1,69 @@
+{
+  "UniqueName": "carbonfootprintip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../carbonfootprintip/",
+  "Actions": [
+    {
+      "OperationId": "AirQualityHealthIndex",
+      "Name": "Get air quality health index",
+      "Description": "Return the official air quality health index (1 to 10) bases on key parameters. The national AQHI is based on three-hour average concentrations of ground-level ozone (O3), nitrogen dioxide (NO2), and fine particulate matter (PM2.5). O3 and NO2 are measured in parts per billion.",
+      "Anchor": "#get-air-quality-health-index",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CarbonFootprintFromCarTravel",
+      "Name": "Get carbon footprint from car travel",
+      "Description": "Returns the CO2e in Kg from a travel by car.",
+      "Anchor": "#get-carbon-footprint-from-car-travel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CarbonFootprintFromFlight",
+      "Name": "Get carbon footprint from flight",
+      "Description": "Calculate CO2e in Kg from a travel by air.",
+      "Anchor": "#get-carbon-footprint-from-flight",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CarbonFootprintFromMotorBike",
+      "Name": "Get carbon footprint from motor bike",
+      "Description": "Returns the CO2e in Kg from a motorbike travel.",
+      "Anchor": "#get-carbon-footprint-from-motor-bike",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CarbonFootprintFromPublicTransit",
+      "Name": "Get carbon footprint from public transit",
+      "Description": "Return CO2e in Kg from the use of public transportation.",
+      "Anchor": "#get-carbon-footprint-from-public-transit",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CleanHydroToCarbonFootprint",
+      "Name": "Get clean hydro to carbon footprint",
+      "Description": "Return the CO2e in Kg from the consumption of clean hydro energy.",
+      "Anchor": "#get-clean-hydro-to-carbon-footprint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FuelToCO2e",
+      "Name": "Get fuel to carbon footprint",
+      "Description": "Return the CO2e in Kg from liters of diesel, petrol or LPG.",
+      "Anchor": "#get-fuel-to-carbon-footprint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TraditionalHydroToCarbonFootprint",
+      "Name": "Get traditional hydro to carbon footprint",
+      "Description": "Calculate CO2e from the use of traditional hydro provider.",
+      "Anchor": "#get-traditional-hydro-to-carbon-footprint",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TreeEquivalent",
+      "Name": "Get tree equivalent",
+      "Description": "Calculate how many trees it took to create paper.",
+      "Anchor": "#get-tree-equivalent",
+      "IsDeprecated": false
+    }
+  ]
+}

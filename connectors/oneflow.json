@@ -1,0 +1,69 @@
+{
+  "UniqueName": "oneflow",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../oneflow/",
+  "Actions": [
+    {
+      "OperationId": "CreateAContract",
+      "Name": "Create a contract",
+      "Description": "Create a new contract based on the selected template.",
+      "Anchor": "#create-a-contract",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteAContractById",
+      "Name": "Delete a contract",
+      "Description": "Delete a specific contract by its ID.",
+      "Anchor": "#delete-a-contract",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAContractFileById",
+      "Name": "Download a contract file",
+      "Description": "Retrieve a specific contract file by its ID.",
+      "Anchor": "#download-a-contract-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContract",
+      "Name": "Get contract details",
+      "Description": "Retrieve the details of a contract by its ID.",
+      "Anchor": "#get-contract-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContractStatus",
+      "Name": "Get the status of a contract",
+      "Description": "Retrieve the status of a specific contract by its ID.",
+      "Anchor": "#get-the-status-of-a-contract",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PartyCreate",
+      "Name": "Add Participant",
+      "Description": "Add participant to the contract",
+      "Anchor": "#add-participant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Ping",
+      "Name": "Ping",
+      "Description": "Use this endpoint to check if the Oneflow API is available.",
+      "Anchor": "#ping",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PublishContract",
+      "Name": "Publish a contract",
+      "Description": "Sends contract to participants for signing.",
+      "Anchor": "#publish-a-contract",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UploadAttachments",
+      "Name": "Upload attachments",
+      "Description": "Add attachment or a  PDF document to a contract.",
+      "Anchor": "#upload-attachments",
+      "IsDeprecated": false
+    }
+  ]
+}

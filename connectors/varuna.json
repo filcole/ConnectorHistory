@@ -1,0 +1,48 @@
+{
+  "UniqueName": "varuna",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../varuna/",
+  "Actions": [
+    {
+      "OperationId": "CreateADocument",
+      "Name": "Create a Document",
+      "Description": "Create a document with document type and related body parameters",
+      "Anchor": "#create-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteADocument",
+      "Name": "Delete a Document",
+      "Description": "Delete a specific document with document type and document Id",
+      "Anchor": "#delete-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetADocument",
+      "Name": "Get a document with Id and type",
+      "Description": "Get a specific document via a document type and a document Id",
+      "Anchor": "#get-a-document-with-id-and-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllDocumentsByType",
+      "Name": "Get All Documents for a Document Type",
+      "Description": "Get All Documents for a document type",
+      "Anchor": "#get-all-documents-for-a-document-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SubscribeTrigger",
+      "Name": "Send notification when an event occurs",
+      "Description": "Create a subscription to get notification for a specific document and event (Create, Delete, Update)",
+      "Anchor": "#send-notification-when-an-event-occurs",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateADocument",
+      "Name": "Update a Document",
+      "Description": "Update a document with document type and document Id",
+      "Anchor": "#update-a-document",
+      "IsDeprecated": false
+    }
+  ]
+}
