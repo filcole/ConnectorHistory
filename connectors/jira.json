@@ -54,7 +54,7 @@
     {
       "OperationId": "EditIssue",
       "Name": "Edit Issue",
-      "Description": "Edits an issue. A transition may be applied and issue properties updated as part of the edit.",
+      "Description": "Edits an issue. A transition may be applied and issue properties updated as part of the edit. The edits to the issue's fields are defined using update and fields.",
       "Anchor": "#edit-issue",
       "IsDeprecated": false
     },

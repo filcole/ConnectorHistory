@@ -1,0 +1,76 @@
+{
+  "UniqueName": "cognizantautomationc",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cognizantautomationc/",
+  "Actions": [
+    {
+      "OperationId": "ActivityActionStatus",
+      "Name": "Get Action Status",
+      "Description": "Get the executed action status using activity action id.",
+      "Anchor": "#get-action-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateaActivityLog",
+      "Name": "Create Activity Log",
+      "Description": "Create Activity Log.",
+      "Anchor": "#create-activity-log",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateActivity",
+      "Name": "Create Generic Activity",
+      "Description": "Create Technology or Application Activity.",
+      "Anchor": "#create-generic-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FetchISExecutionStatus",
+      "Name": "Get IS Execution Status",
+      "Description": "Get IS execution status based on activity id.",
+      "Anchor": "#get-is-execution-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LinkAsChildActivity",
+      "Name": "Add activity as child",
+      "Description": "Link as Child Activity.",
+      "Anchor": "#add-activity-as-child",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ReadActivityAttribute",
+      "Name": "Read Activity Attribute",
+      "Description": "Read Attributes using activity Id and return in output in JSON format.",
+      "Anchor": "#read-activity-attribute",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SetActivityAdditionalAttribute",
+      "Name": "Create Activity Additional Attribute",
+      "Description": "Create or update additional attribute of an activity.",
+      "Anchor": "#create-activity-additional-attribute",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerAction",
+      "Name": "Trigger Derived Action",
+      "Description": "Trigger Automation Center Derived Action.",
+      "Anchor": "#trigger-derived-action",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TriggerIS",
+      "Name": "Trigger IS",
+      "Description": "Trigger IS in activity based on SkillId.",
+      "Anchor": "#trigger-is",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateActionOutput",
+      "Name": "Update Action Output",
+      "Description": "Update action output based on activity action id.",
+      "Anchor": "#update-action-output",
+      "IsDeprecated": false
+    }
+  ]
+}

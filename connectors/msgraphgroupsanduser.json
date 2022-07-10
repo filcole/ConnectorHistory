@@ -1,0 +1,55 @@
+{
+  "UniqueName": "msgraphgroupsanduser",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../msgraphgroupsanduser/",
+  "Actions": [
+    {
+      "OperationId": "GetGroupProperties",
+      "Name": "Get Group Properties",
+      "Description": "Retrieve properties and relationships of an AAD group",
+      "Anchor": "#get-group-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMemberGroups",
+      "Name": "Get Member Groups",
+      "Description": "Group memberships for a user (member)",
+      "Anchor": "#get-member-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetMemberLicenseDetails",
+      "Name": "Get Member License Details",
+      "Description": "Retrieve group member(user)'s license details",
+      "Anchor": "#get-member-license-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListDirectGroupMembers",
+      "Name": "List Direct Group Members",
+      "Description": "Retrieve direct members of a group with count",
+      "Anchor": "#list-direct-group-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListGroupsByDisplayNameSearch",
+      "Name": "List Groups By Display Name Search",
+      "Description": "Retrieve groups by searching group's display name",
+      "Anchor": "#list-groups-by-display-name-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListSubscribedSkus",
+      "Name": "List Subscribed Skus",
+      "Description": "Details of organization's subscribed license plan SKUs",
+      "Anchor": "#list-subscribed-skus",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListUsers",
+      "Name": "List Users",
+      "Description": "Retrieve all users in the organization (AAD Tenant)",
+      "Anchor": "#list-users",
+      "IsDeprecated": false
+    }
+  ]
+}

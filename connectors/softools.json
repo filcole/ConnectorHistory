@@ -1,0 +1,69 @@
+{
+  "UniqueName": "softools",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../softools/",
+  "Actions": [
+    {
+      "OperationId": "Archive-record",
+      "Name": "Archive a record",
+      "Description": "Archive a record. Call this before delete.",
+      "Anchor": "#archive-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Delete-record",
+      "Name": "Delete a record",
+      "Description": "Delete a record. To delete a record you need to archive first.",
+      "Anchor": "#delete-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-all-records",
+      "Name": "Get all records",
+      "Description": "Gets a list of all records from app.\nCan iterate using $top and $skip",
+      "Anchor": "#get-all-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-basic-field-info",
+      "Name": "Get basic field info",
+      "Description": "Get basic field data for an app",
+      "Anchor": "#get-basic-field-info",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-record",
+      "Name": "Get a Record",
+      "Description": "Gets a record",
+      "Anchor": "#get-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get-report-records",
+      "Name": "Get report records",
+      "Description": "Gets a list of records from report, limited to 250 records per request.\nOnly returns report field data.\nCan iterate using $top and $skip",
+      "Anchor": "#get-report-records",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Patch-a-record",
+      "Name": "Patch a Record",
+      "Description": "The Softools Api caters for Delta updates, meaning you can send only the changes which are relevant and not the entire document per PATCH request.",
+      "Anchor": "#patch-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Post-a-record",
+      "Name": "Create a record",
+      "Description": "Send all field values including defaults when adding a new record to an App",
+      "Anchor": "#create-a-record",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Unarchived-record",
+      "Name": "Unarchive a record",
+      "Description": "Unarchive a record.",
+      "Anchor": "#unarchive-a-record",
+      "IsDeprecated": false
+    }
+  ]
+}

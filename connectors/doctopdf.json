@@ -1,0 +1,13 @@
+{
+  "UniqueName": "doctopdf",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../doctopdf/",
+  "Actions": [
+    {
+      "OperationId": "DocToPDF",
+      "Name": "Doc to Pdf",
+      "Description": "Convert library word document file to pdf format file",
+      "Anchor": "#doc-to-pdf",
+      "IsDeprecated": false
+    }
+  ]
+}

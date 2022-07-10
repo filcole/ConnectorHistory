@@ -17,10 +17,66 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "convert_cad",
+      "Name": "Convert CAD drawing to PDF",
+      "Description": "Convert a CAD drawing file to PDF or other format.",
+      "Anchor": "#convert-cad-drawing-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "convert_email",
+      "Name": "Convert email to PDF",
+      "Description": "Convert an email file to PDF or other format.",
+      "Anchor": "#convert-email-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "convert_excel",
+      "Name": "Convert Excel document",
+      "Description": "Convert an Excel document to PDF or other format.",
+      "Anchor": "#convert-excel-document",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "convert_html",
       "Name": "Convert HTML to PDF",
       "Description": "Convert URLs or HTML to PDF.",
       "Anchor": "#convert-html-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "convert_infopath",
+      "Name": "Convert InfoPath document",
+      "Description": "Convert a InfoPath file to PDF or other format.",
+      "Anchor": "#convert-infopath-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "convert_pdfa",
+      "Name": "Convert document to PDF-A",
+      "Description": "Convert a document to PDF-A.",
+      "Anchor": "#convert-document-to-pdf-a",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "convert_powerpoint",
+      "Name": "Convert PowerPoint document",
+      "Description": "Convert a PowerPoint document to PDF or other format.",
+      "Anchor": "#convert-powerpoint-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "convert_visio",
+      "Name": "Convert Visio document",
+      "Description": "Convert a Visio document to PDF or XPS.",
+      "Anchor": "#convert-visio-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "convert_word",
+      "Name": "Convert Word document",
+      "Description": "Convert a Word document to PDF or other format.",
+      "Anchor": "#convert-word-document",
       "IsDeprecated": false
     },
     {
@@ -38,10 +94,24 @@
       "IsDeprecated": false
     },
     {
+      "OperationId": "export_form_data",
+      "Name": "Export PDF Forms Data",
+      "Description": "Convert data from a PDF Form to XML, FDF or XFDF.",
+      "Anchor": "#export-pdf-forms-data",
+      "IsDeprecated": false
+    },
+    {
       "OperationId": "image_watermark",
       "Name": "Add image watermark",
       "Description": "Add an image based watermark to a PDF file.",
       "Anchor": "#add-image-watermark",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "import_form_data",
+      "Name": "Import PDF Forms data",
+      "Description": "Import PDF Forms data.",
+      "Anchor": "#import-pdf-forms-data",
       "IsDeprecated": false
     },
     {

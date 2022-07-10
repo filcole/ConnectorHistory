@@ -1,0 +1,41 @@
+{
+  "UniqueName": "pdfco",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pdfco/",
+  "Actions": [
+    {
+      "OperationId": "HtmlToPdf",
+      "Name": "HTML to PDF",
+      "Description": "Convert HTML code snippet into full featured PDF.",
+      "Anchor": "#html-to-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MergePdf",
+      "Name": "Merge PDF",
+      "Description": "Merge multiple documents into one new single PDF. Supports many file formats. For example, pdf, doc, docx, xls, jpg, png, etc.",
+      "Anchor": "#merge-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PdfFiller",
+      "Name": "PDF Filler",
+      "Description": "Add text, images, signatures to pdf. Fill PDF form fields and create new pdf from templates",
+      "Anchor": "#pdf-filler",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SplitPdf",
+      "Name": "Split PDF",
+      "Description": "Splits pages from PDF document into multiple new PDF files using page numbers and page ranges",
+      "Anchor": "#split-pdf",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UrlToPdf",
+      "Name": "URL to PDF",
+      "Description": "Create PDF from URL",
+      "Anchor": "#url-to-pdf",
+      "IsDeprecated": false
+    }
+  ]
+}

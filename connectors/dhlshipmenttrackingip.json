@@ -1,0 +1,13 @@
+{
+  "UniqueName": "dhlshipmenttrackingip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dhlshipmenttrackingip/",
+  "Actions": [
+    {
+      "OperationId": "ShipmentTracking",
+      "Name": "Get shipment tracking",
+      "Description": "Get shipment tracking",
+      "Anchor": "#get-shipment-tracking",
+      "IsDeprecated": false
+    }
+  ]
+}

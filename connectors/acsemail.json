@@ -1,0 +1,20 @@
+{
+  "UniqueName": "acsemail",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../acsemail/",
+  "Actions": [
+    {
+      "OperationId": "GetMessageStatus",
+      "Name": "Get email message status (Preview)",
+      "Description": "Gets the status of an email message sent previously.",
+      "Anchor": "#get-email-message-status-(preview)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendEmail",
+      "Name": "Send email (Preview)",
+      "Description": "Sends an email message to one or more recipients.",
+      "Anchor": "#send-email-(preview)",
+      "IsDeprecated": false
+    }
+  ]
+}

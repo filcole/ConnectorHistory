@@ -1,0 +1,27 @@
+{
+  "UniqueName": "cloudconvert",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudconvert/",
+  "Actions": [
+    {
+      "OperationId": "CaptureWebsite",
+      "Name": "Create Website Screenshot",
+      "Description": "Create a website screenshot as PDF, PNG or JPG",
+      "Anchor": "#create-website-screenshot",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertFile",
+      "Name": "Convert File",
+      "Description": "Convert a file to another format",
+      "Anchor": "#convert-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "OptimizeFile",
+      "Name": "Compress File",
+      "Description": "Compress a PDF, PNG or JPG file",
+      "Anchor": "#compress-file",
+      "IsDeprecated": false
+    }
+  ]
+}

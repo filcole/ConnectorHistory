@@ -1,0 +1,41 @@
+{
+  "UniqueName": "calendarpro",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../calendarpro/",
+  "Actions": [
+    {
+      "OperationId": "CreateNewEvent",
+      "Name": "Create a new event",
+      "Description": "Create a new event",
+      "Anchor": "#create-a-new-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteEvent",
+      "Name": "Delete an event",
+      "Description": "Delete an event",
+      "Anchor": "#delete-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllEvents",
+      "Name": "Get all events",
+      "Description": "Get all events of a calendar by it's unique identifier",
+      "Anchor": "#get-all-events",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetEvent",
+      "Name": "Get an event",
+      "Description": "Get an event by it's unique identifier",
+      "Anchor": "#get-an-event",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateEvent",
+      "Name": "Update an event",
+      "Description": "Update an event",
+      "Anchor": "#update-an-event",
+      "IsDeprecated": false
+    }
+  ]
+}

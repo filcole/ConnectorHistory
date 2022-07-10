@@ -1,0 +1,13 @@
+{
+  "UniqueName": "itautomate",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../itautomate/",
+  "Actions": [
+    {
+      "OperationId": "RunCommand",
+      "Name": "Issue PowerShell Command",
+      "Description": "Issue a saved ITautomate PowerShell command to remote device(s)",
+      "Anchor": "#issue-powershell-command",
+      "IsDeprecated": false
+    }
+  ]
+}

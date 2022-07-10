@@ -1,0 +1,34 @@
+{
+  "UniqueName": "dynatrace",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynatrace/",
+  "Actions": [
+    {
+      "OperationId": "GetProblemById",
+      "Name": "Get Problem by ID",
+      "Description": "Gets the properties of the specified problem.",
+      "Anchor": "#get-problem-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProblemCommentByProblemIdAndCommentId",
+      "Name": "Get Problem Comment by Problem ID and Comment ID",
+      "Description": "Gets the specified comment on a problem.",
+      "Anchor": "#get-problem-comment-by-problem-id-and-comment-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProblemCommentsByProblemId",
+      "Name": "Get Problem Comments By Problem ID",
+      "Description": "Gets all comments on the specified problem.",
+      "Anchor": "#get-problem-comments-by-problem-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetProblems",
+      "Name": "Get Problems",
+      "Description": "Lists problems observed within the specified timeframe.",
+      "Anchor": "#get-problems",
+      "IsDeprecated": false
+    }
+  ]
+}

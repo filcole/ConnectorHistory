@@ -1,0 +1,13 @@
+{
+  "UniqueName": "viesip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../viesip/",
+  "Actions": [
+    {
+      "OperationId": "CheckVATValidity",
+      "Name": "Check VAT validity",
+      "Description": "Provide country ISO code and VAT number to check its validity.",
+      "Anchor": "#check-vat-validity",
+      "IsDeprecated": false
+    }
+  ]
+}

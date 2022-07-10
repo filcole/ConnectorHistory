@@ -1,0 +1,20 @@
+{
+  "UniqueName": "viafirma",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../viafirma/",
+  "Actions": [
+    {
+      "OperationId": "CreateSignRequest",
+      "Name": "Create signature requests",
+      "Description": "Create signature requests and get the permanent link.",
+      "Anchor": "#create-signature-requests",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSignRequest",
+      "Name": "Send signature requests via email",
+      "Description": "Create and send signature requests via email.",
+      "Anchor": "#send-signature-requests-via-email",
+      "IsDeprecated": false
+    }
+  ]
+}

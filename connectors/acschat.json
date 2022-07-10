@@ -1,0 +1,62 @@
+{
+  "UniqueName": "acschat",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../acschat/",
+  "Actions": [
+    {
+      "OperationId": "AddParticipants",
+      "Name": "Add chat thread participants",
+      "Description": "Add participants to chat thread.",
+      "Anchor": "#add-chat-thread-participants",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateChat",
+      "Name": "Create chat thread",
+      "Description": "Create a chat thread.",
+      "Anchor": "#create-chat-thread",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetThreadProperties",
+      "Name": "Get chat thread properties",
+      "Description": "Get the properties of the chat thread.",
+      "Anchor": "#get-chat-thread-properties",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListChatThreads",
+      "Name": "List chat threads",
+      "Description": "List chat threads.",
+      "Anchor": "#list-chat-threads",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListMessages",
+      "Name": "List chat thread messages",
+      "Description": "List messages From chat thread.",
+      "Anchor": "#list-chat-thread-messages",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListParticipants",
+      "Name": "List chat thread participants",
+      "Description": "List participants in chat thread.",
+      "Anchor": "#list-chat-thread-participants",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RemoveParticipant",
+      "Name": "Remove chat thread participant",
+      "Description": "Remove participant from chat thread.",
+      "Anchor": "#remove-chat-thread-participant",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendChat",
+      "Name": "Send message to chat thread",
+      "Description": "Send message to chat thread.",
+      "Anchor": "#send-message-to-chat-thread",
+      "IsDeprecated": false
+    }
+  ]
+}

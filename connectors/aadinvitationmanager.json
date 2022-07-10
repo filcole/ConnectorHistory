@@ -1,0 +1,13 @@
+{
+  "UniqueName": "aadinvitationmanager",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aadinvitationmanager/",
+  "Actions": [
+    {
+      "OperationId": "CreateInvitation",
+      "Name": "Create invitation",
+      "Description": "Create an invitation for an external user.",
+      "Anchor": "#create-invitation",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "UniqueName": "mural",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mural/",
+  "Actions": [
+    {
+      "OperationId": "CreateNewMural",
+      "Name": "Create a Mural",
+      "Description": "This action for creating a new Mural",
+      "Anchor": "#create-a-mural",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateNewStickyNote",
+      "Name": "Create a new Sticky-note",
+      "Description": "The action for creating a new Sticky-note",
+      "Anchor": "#create-a-new-sticky-note",
+      "IsDeprecated": false
+    }
+  ]
+}

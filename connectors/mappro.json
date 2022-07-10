@@ -1,0 +1,41 @@
+{
+  "UniqueName": "mappro",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mappro/",
+  "Actions": [
+    {
+      "OperationId": "createNewPlace",
+      "Name": "Create a new place",
+      "Description": "Create a new place",
+      "Anchor": "#create-a-new-place",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "deletePlace",
+      "Name": "Delete a place",
+      "Description": "Delete a place",
+      "Anchor": "#delete-a-place",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getMapPlacesById",
+      "Name": "Get all places",
+      "Description": "Get all places of a map by it's unique identifier",
+      "Anchor": "#get-all-places",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "getPlaceById",
+      "Name": "Get a place",
+      "Description": "Get a place by it's unique identifier",
+      "Anchor": "#get-a-place",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "updatePlace",
+      "Name": "Update a place",
+      "Description": "Update an existing place",
+      "Anchor": "#update-a-place",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "UniqueName": "easyshipip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../easyshipip/",
+  "Actions": [
+    {
+      "OperationId": "BuyAShipmentLabel",
+      "Name": "Buy a shipment label (V1)",
+      "Description": "Buy and retrieve information about a shipping label.",
+      "Anchor": "#buy-a-shipment-label-(v1)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateAShipment",
+      "Name": "Create a shipment",
+      "Description": "Creates and retrieves the information about a shipment.",
+      "Anchor": "#create-a-shipment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteAShipment",
+      "Name": "Delete a shipment (V1)",
+      "Description": "Delete and receive confirmation of a shipment deletion.",
+      "Anchor": "#delete-a-shipment-(v1)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAShipment",
+      "Name": "Get a shipment",
+      "Description": "Get the details of a shipment.",
+      "Anchor": "#get-a-shipment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAvailablePickupSlots",
+      "Name": "Get available pickup slots (V1)",
+      "Description": "Available pickup slots will be calculated for a specific courier, in local time and for the coming 7 days. A pickup can then be requested using the &quot;Request pickup&quot; action.",
+      "Anchor": "#get-available-pickup-slots-(v1)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCheckpoints",
+      "Name": "Get checkpoints",
+      "Description": "Retrieves details of shipment checkpoints.",
+      "Anchor": "#get-checkpoints",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetItemCategories",
+      "Name": "Get item categories",
+      "Description": "Retrieves a list of shipment categories and the slug to use the category.",
+      "Anchor": "#get-item-categories",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetRatesTaxes",
+      "Name": "Get rates and taxes",
+      "Description": "Retrieve a list of shipping quotes for a prospective shipment.",
+      "Anchor": "#get-rates-and-taxes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetStatus",
+      "Name": "Get tracking status",
+      "Description": "Retrieves the tracking status of a shipment.",
+      "Anchor": "#get-tracking-status",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAllBoxes",
+      "Name": "List all boxes",
+      "Description": "Retrieves a list of all available courier boxes.",
+      "Anchor": "#list-all-boxes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListAllShipments",
+      "Name": "List all shipments",
+      "Description": "Retrieves a list of all shipments.",
+      "Anchor": "#list-all-shipments",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "RequestAPickup",
+      "Name": "Request a pickup (V1)",
+      "Description": "When a pickup is created, a pickup request will be made directly to the courier, which will return a reference number. The reference number may be used when contacting the customer service of the courier. A pickup slot must be chosen; upcoming pickup slots may be found using the &quot;Get available pickup slots&quot; action.",
+      "Anchor": "#request-a-pickup-(v1)",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateAShipment",
+      "Name": "Update a shipment",
+      "Description": "Update a shipment details.",
+      "Anchor": "#update-a-shipment",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateWarehouseState",
+      "Name": "Update warehouse state",
+      "Description": "Update a shipment's warehouse state. Only available for shipments fulfilled at one of the Easyship integrated warehouses.",
+      "Anchor": "#update-warehouse-state",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "UniqueName": "givebutterip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../givebutterip/",
+  "Actions": [
+    {
+      "OperationId": "CampaignDelete",
+      "Name": "Delete a campaign",
+      "Description": "Deletes a specific campaign",
+      "Anchor": "#delete-a-campaign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CampaignGet",
+      "Name": "Get campaigns",
+      "Description": "Retrieves a list of your campaigns.",
+      "Anchor": "#get-campaigns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CampaignGetA",
+      "Name": "Get a campaign",
+      "Description": "Retrieves a specific campaign.",
+      "Anchor": "#get-a-campaign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CampaignPatch",
+      "Name": "Update a campaign",
+      "Description": "Updates an existing campaign.",
+      "Anchor": "#update-a-campaign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CampaignPost",
+      "Name": "Create a campaign",
+      "Description": "Creates a new campaign.",
+      "Anchor": "#create-a-campaign",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactDelete",
+      "Name": "Archive a contact",
+      "Description": "Deletes a contact.",
+      "Anchor": "#archive-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactGet",
+      "Name": "Get contacts",
+      "Description": "Retrieves a list of contacts.",
+      "Anchor": "#get-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactGetA",
+      "Name": "Get a contact",
+      "Description": "Retrieves a specific contact.",
+      "Anchor": "#get-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactPatch",
+      "Name": "Update a contact",
+      "Description": "Updates a specific contact.",
+      "Anchor": "#update-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactPost",
+      "Name": "Create a contact",
+      "Description": "Creates a new contact.",
+      "Anchor": "#create-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ContactRestore",
+      "Name": "Restore a contact",
+      "Description": "Restores a deleted contact",
+      "Anchor": "#restore-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FundDelete",
+      "Name": "Delete a fund",
+      "Description": "Deletes a specific fund.",
+      "Anchor": "#delete-a-fund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FundGet",
+      "Name": "Get funds",
+      "Description": "Retrieves a list of funds.",
+      "Anchor": "#get-funds",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FundGetA",
+      "Name": "Get a fund",
+      "Description": "Retrieves a specific fund.",
+      "Anchor": "#get-a-fund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FundPatch",
+      "Name": "Update a fund",
+      "Description": "Updates a specific fund.",
+      "Anchor": "#update-a-fund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FundPost",
+      "Name": "Create a fund",
+      "Description": "Creates a new fund.",
+      "Anchor": "#create-a-fund",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberDelete",
+      "Name": "Delete a member",
+      "Description": "Deletes a member from a campaign.",
+      "Anchor": "#delete-a-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberGet",
+      "Name": "Get members",
+      "Description": "Retrieves a list of the members of a specific campaign.",
+      "Anchor": "#get-members",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MemberGetA",
+      "Name": "Get a member",
+      "Description": "Retrieves a specific member.",
+      "Anchor": "#get-a-member",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PayoutGet",
+      "Name": "Get payouts",
+      "Description": "Retrieves a list of payouts",
+      "Anchor": "#get-payouts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PayoutGetA",
+      "Name": "Get a payout",
+      "Description": "Retrieves a specific payout",
+      "Anchor": "#get-a-payout",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PlanGet",
+      "Name": "Get plans",
+      "Description": "Retrieves a list of plans",
+      "Anchor": "#get-plans",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "PlanGetA",
+      "Name": "Get a plan",
+      "Description": "Retrieves a specific plan.",
+      "Anchor": "#get-a-plan",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamGet",
+      "Name": "Get teams",
+      "Description": "Retrieves a list of the teams under a specific campaign.",
+      "Anchor": "#get-teams",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TeamGetA",
+      "Name": "Get a team",
+      "Description": "Retrieves a specific team.",
+      "Anchor": "#get-a-team",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketGet",
+      "Name": "Get tickets",
+      "Description": "Retrieve a list of your tickets.",
+      "Anchor": "#get-tickets",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TicketGetA",
+      "Name": "Get a ticket",
+      "Description": "Retrieves a specific ticket.",
+      "Anchor": "#get-a-ticket",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TransactionGet",
+      "Name": "Get transactions",
+      "Description": "Retrieves a list of transactions",
+      "Anchor": "#get-transactions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "TransactionGetA",
+      "Name": "Get a transaction",
+      "Description": "Retrieves a specific transaction.",
+      "Anchor": "#get-a-transaction",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UniqueName": "mensagia",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mensagia/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Get 2 Way SMS's numbers",
+      "Description": "Get a list of 2 Way SMS's numbers through your Mensagia account.",
+      "Anchor": "#get-2-way-sms's-numbers",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateContact",
+      "Name": "Create a Contact",
+      "Description": "Create a contact inside your Mensagia's account.",
+      "Anchor": "#create-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Get2WaySmsMessages",
+      "Name": "Get 2 Way SMS",
+      "Description": "Get a list of 2 Way SMS through your Mensagia account.",
+      "Anchor": "#get-2-way-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Send2WaySms",
+      "Name": "Send 2 Way SMS",
+      "Description": "Send a 2 Way SMS to your contacts through your Mensagia account.",
+      "Anchor": "#send-2-way-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSms",
+      "Name": "Send SMS",
+      "Description": "Send SMS's to your contacts through your Mensagia account.",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSmsCampaigns",
+      "Name": "Send SMS Campaigns",
+      "Description": "Send SMS Campaigns to your contacts through your Mensagia account.",
+      "Anchor": "#send-sms-campaigns",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendTransactionalEmail",
+      "Name": "Send Transactional Email",
+      "Description": "Send a Transactional email to your contacts using your custom templates from Mensagia.",
+      "Anchor": "#send-transactional-email",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendVoiceMessage",
+      "Name": "Send Voice Message",
+      "Description": "This method allows you to carry out Voice campaigns to telephone numbers in Spain. The recipients of the voice campaign can be: agendas, agendas and telephone numbers, or telephone numbers.",
+      "Anchor": "#send-voice-message",
+      "IsDeprecated": false
+    }
+  ]
+}

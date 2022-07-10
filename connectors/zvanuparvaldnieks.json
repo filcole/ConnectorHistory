@@ -1,0 +1,202 @@
+{
+  "UniqueName": "zvanuparvaldnieks",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zvanuparvaldnieks/",
+  "Actions": [
+    {
+      "OperationId": "CallCompleted",
+      "Name": "CallCompleted webhook callback",
+      "Description": "Provides event with data payload about the call when event CallCompletedEvent is received during a moment when the call has ended.",
+      "Anchor": "#callcompleted-webhook-callback",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CallConnected",
+      "Name": "CallConnected webhook callback",
+      "Description": "Provides event with data payload about the call when event CallConnectedEvent is received during a moment when the call is answered.",
+      "Anchor": "#callconnected-webhook-callback",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CallRecorded",
+      "Name": "CallRecorded webhook callback",
+      "Description": "Provides event with data payload about the call when CallRecorded event is received during a moment when call recording gets created.",
+      "Anchor": "#callrecorded-webhook-callback",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CallStarted",
+      "Name": "CallStarted webhook callback",
+      "Description": "Provides event with data payload about the call when event CallStarted event is received during the start of the call.",
+      "Anchor": "#callstarted-webhook-callback",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CallTransfered",
+      "Name": "CallTransfered webhook callback",
+      "Description": "Provides event with data payload about the call when CallTransfered event is received during a moment when the call gets transferred to a third party either by a blind transfer of attended transfer.",
+      "Anchor": "#calltransfered-webhook-callback",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Dial",
+      "Name": "Dial",
+      "Description": "Request the start of new call by sending a request to a device.",
+      "Anchor": "#dial",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAudioPromptByID",
+      "Name": "Get Audio Prompt By ID",
+      "Description": "Retrieve a single audio prompt object by providing an ID.",
+      "Anchor": "#get-audio-prompt-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAudioPrompts",
+      "Name": "Get Audio Prompts",
+      "Description": "Retrieve audio prompt entries.",
+      "Anchor": "#get-audio-prompts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCallHistory",
+      "Name": "Get call History",
+      "Description": "Retrieve Call history entries. Additionally API consumer may filter the returned records based on a specific number or employee involved in the call (source, destination, or contact_id), as well as direction to filter out only incoming or outgoing calls or only calls made within a specified date range (date_range).",
+      "Anchor": "#get-call-history",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCallHistoryItemByID",
+      "Name": "Get Call History Item By ID",
+      "Description": "Retrieve a single call history entry by providing an ID.",
+      "Anchor": "#get-call-history-item-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCallRecordingByID",
+      "Name": "Get Call Recording by ID",
+      "Description": "Retrieve a single call recording by providing an ID.",
+      "Anchor": "#get-call-recording-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetCallRecordings",
+      "Name": "Get Call Recordings",
+      "Description": "Retrieve Call recordings. Additionally API consumer may filter the returned records based on a specific number or employee involved in the call (source, destination, or contact_id), as well as direction to filter out only incoming or outgoing calls or only calls made within a specified date range (date_range).",
+      "Anchor": "#get-call-recordings",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContacts",
+      "Name": "Get Contacts",
+      "Description": "Triggers when a new employee is created",
+      "Anchor": "#get-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContactsByID",
+      "Name": "Get Contacts by ID",
+      "Description": "Retrieve a single employee object by providing an ID.",
+      "Anchor": "#get-contacts-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroupByID",
+      "Name": "Get Group By ID",
+      "Description": "Retrieve a single employee group object by providing an ID.",
+      "Anchor": "#get-group-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetGroups",
+      "Name": "Get Groups",
+      "Description": "Retrieve Employee groups data. Additionally API consumer may filter the returned records based on contact_id, to limit the result to only those groups, which have a particular Employee as a member.",
+      "Anchor": "#get-groups",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetLostCalls",
+      "Name": "Get lost calls",
+      "Description": "Retrieve all lost call records from call history that have not been answered, have been called back or the caller has not reached the employee in repeated attempts within the same day.",
+      "Anchor": "#get-lost-calls",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVoicemailBoxByID",
+      "Name": "Get Voicemail Box By ID",
+      "Description": "Retrieve a single voicemail box object by providing an ID.",
+      "Anchor": "#get-voicemail-box-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVoicemailBoxes",
+      "Name": "Get Voicemail Boxes",
+      "Description": "Retrieve a list of created voicemail boxes.",
+      "Anchor": "#get-voicemail-boxes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVoicemailByID",
+      "Name": "Get Voicemail By ID",
+      "Description": "Retrieve a single voicemail object by providing an ID.",
+      "Anchor": "#get-voicemail-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVoicemails",
+      "Name": "Get voicemails",
+      "Description": "Retrieve Voicemail messages. Additionally API consumer may filter the returned records based on contact_id, source, box_id, or date_range to limit the result to only those messages that are left for a specific employee, voicemail box, from a specific number, or within a requested date range.",
+      "Anchor": "#get-voicemails",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVoipEndpointByID",
+      "Name": "Get VoIP Endpoint By ID",
+      "Description": "Retrieve a single VoIP endpoint object by providing an ID.",
+      "Anchor": "#get-voip-endpoint-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetVoipEndpoints",
+      "Name": "Get VoIP Endpoints",
+      "Description": "Retrieve VoIP endpoint entries.",
+      "Anchor": "#get-voip-endpoints",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LostCallerAdded",
+      "Name": "LostCallerAdded webhook callback",
+      "Description": "Provides event with data payload data about the call when LostCallerCreated event is received during a moment when the call does not get answered and gets registered as lost.",
+      "Anchor": "#lostcalleradded-webhook-callback",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LostCallerRemoved",
+      "Name": "LostCallerRemoved webhook callback",
+      "Description": "Provides event with data payload about the call when LostCallerDeleted event event is received during a moment when lost call gets called back from employee or gets answered later in repeated call from the same caller.",
+      "Anchor": "#lostcallerremoved-webhook-callback",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "LostCallerUpdated",
+      "Name": "LostCallerUpdated webhook callback",
+      "Description": "Provides event with data payload data about the call when LostCallerUpdated event is received during a moment when another unsuccessful call attempt is received from the same number, so lost call record attempts and last_contact fields get updated with a new number and timestamp.",
+      "Anchor": "#lostcallerupdated-webhook-callback",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VoicemailCreated",
+      "Name": "VoicemailCreated webhook callback",
+      "Description": "Provides event with data payload about the voicemail when VoicemailCreated event is received during a moment when a caller has left a voicemail.",
+      "Anchor": "#voicemailcreated-webhook-callback",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VoicemailDeleted",
+      "Name": "VoicemailDeleted webhook callback",
+      "Description": "Provides event with data payload about the voicemail when VoicemailDeleted event is received during a moment when a user has deleted a voicemail message.",
+      "Anchor": "#voicemaildeleted-webhook-callback",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "UniqueName": "leadloader",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../leadloader/",
+  "Actions": [
+    {
+      "OperationId": "UploadLeadsV3",
+      "Name": "Upload leads and create an opportunity",
+      "Description": "Upload leads and create an opportunity",
+      "Anchor": "#upload-leads-and-create-an-opportunity",
+      "IsDeprecated": false
+    }
+  ]
+}

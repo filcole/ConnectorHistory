@@ -1,0 +1,41 @@
+{
+  "UniqueName": "converterbypower2apps",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../converterbypower2apps/",
+  "Actions": [
+    {
+      "OperationId": "ConvertCsvdataToExcel",
+      "Name": "Convert CSV to Excel",
+      "Description": "Convert CSV data to Excel file",
+      "Anchor": "#convert-csv-to-excel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertCsvdataToJson",
+      "Name": "Convert CSV to JSON",
+      "Description": "Convert CSV data to JSON",
+      "Anchor": "#convert-csv-to-json",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertJsonToCsvdata",
+      "Name": "Convert JSON to CSV",
+      "Description": "Convert JSON to CSV data",
+      "Anchor": "#convert-json-to-csv",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ConvertSharePointSearchResults",
+      "Name": "Convert SharePoint search results to list",
+      "Description": "Convert SharePoint search results to a simple list",
+      "Anchor": "#convert-sharepoint-search-results-to-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ExtractWordBookmarks",
+      "Name": "Extract Word (docx) bookmarks",
+      "Description": "Extract all Word (docx) bookmarks",
+      "Anchor": "#extract-word-(docx)-bookmarks",
+      "IsDeprecated": false
+    }
+  ]
+}

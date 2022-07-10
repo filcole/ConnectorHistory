@@ -1,0 +1,41 @@
+{
+  "UniqueName": "contactspro",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../contactspro/",
+  "Actions": [
+    {
+      "OperationId": "CreateContact",
+      "Name": "Create a new contact",
+      "Description": "Create a new contact",
+      "Anchor": "#create-a-new-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "DeleteContact",
+      "Name": "Delete a contact",
+      "Description": "Delete a contact",
+      "Anchor": "#delete-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetAllContacts",
+      "Name": "Get all contacts",
+      "Description": "Get the list of all contacts",
+      "Anchor": "#get-all-contacts",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetContact",
+      "Name": "Get a contact",
+      "Description": "Get a contact",
+      "Anchor": "#get-a-contact",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateContact",
+      "Name": "Update a contact",
+      "Description": "Update a contact",
+      "Anchor": "#update-a-contact",
+      "IsDeprecated": false
+    }
+  ]
+}

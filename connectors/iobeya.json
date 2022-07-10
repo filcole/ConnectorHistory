@@ -1,0 +1,48 @@
+{
+  "UniqueName": "iobeya",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iobeya/",
+  "Actions": [
+    {
+      "OperationId": "",
+      "Name": "Compute QCD Letter's Indicator",
+      "Description": "Compute a QCD Letter's Indicator object",
+      "Anchor": "#compute-qcd-letter's-indicator",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "CreateCard",
+      "Name": "Create Card",
+      "Description": "Create a new Card",
+      "Anchor": "#create-card",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListBoards",
+      "Name": "List of Boards",
+      "Description": "Retrieve list of Boards",
+      "Anchor": "#list-of-boards",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListCardsActivity",
+      "Name": "List Cards Activity",
+      "Description": "List Cards Activity between two dates",
+      "Anchor": "#list-cards-activity",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ListRooms",
+      "Name": "List of Rooms",
+      "Description": "Retrieve list of Rooms",
+      "Anchor": "#list-of-rooms",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateQCDIndicatorsValue",
+      "Name": "Update QCD Indicators",
+      "Description": "Bulk Update of QCD Indicators Values",
+      "Anchor": "#update-qcd-indicators",
+      "IsDeprecated": false
+    }
+  ]
+}

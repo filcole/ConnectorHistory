@@ -1,0 +1,13 @@
+{
+  "UniqueName": "azureadapplications",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azureadapplications/",
+  "Actions": [
+    {
+      "OperationId": "ListApplications",
+      "Name": "List Applications and Owners",
+      "Description": "Get the list of applications registered in AAD in this organization",
+      "Anchor": "#list-applications-and-owners",
+      "IsDeprecated": false
+    }
+  ]
+}

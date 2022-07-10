@@ -1,0 +1,104 @@
+{
+  "UniqueName": "zohosign",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zohosign/",
+  "Actions": [
+    {
+      "OperationId": "Create-Document",
+      "Name": "Create a document for signing",
+      "Description": "An action to create a document for signing by uploading a file.",
+      "Anchor": "#create-a-document-for-signing",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "delete-document",
+      "Name": "Delete Document",
+      "Description": "Delete a particular document",
+      "Anchor": "#delete-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "download-completion-certificate",
+      "Name": "Download Completion Certificate",
+      "Description": "Download the completion certificate",
+      "Anchor": "#download-completion-certificate",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "download-document",
+      "Name": "Download Document",
+      "Description": "Download the selected document",
+      "Anchor": "#download-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "download-file",
+      "Name": "Download File",
+      "Description": "Downloads the particular document that is selected.",
+      "Anchor": "#download-file",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "get-document",
+      "Name": "Get a document",
+      "Description": "Get details of a particular document",
+      "Anchor": "#get-a-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "get-form-data",
+      "Name": "Get data of completed request",
+      "Description": "Get data of completed request",
+      "Anchor": "#get-data-of-completed-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "get-template-details",
+      "Name": "Get particular template details",
+      "Description": "Get particular template details",
+      "Anchor": "#get-particular-template-details",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GetTemplates",
+      "Name": "Get list of templates",
+      "Description": "List of Templates",
+      "Anchor": "#get-list-of-templates",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "recall-document",
+      "Name": "Recall a particular document",
+      "Description": "Recall a particular document",
+      "Anchor": "#recall-a-particular-document",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "remind-document-recipients",
+      "Name": "Reminder for recipients",
+      "Description": "Send a reminder to recipients of a particular document.",
+      "Anchor": "#reminder-for-recipients",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendSignRequest",
+      "Name": "SendSignRequest",
+      "Description": "Send the uploaded document out for signature",
+      "Anchor": "#sendsignrequest",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "UpdateDocument",
+      "Name": "Update the properties of a created request",
+      "Description": "Update the properties of a created request",
+      "Anchor": "#update-the-properties-of-a-created-request",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "zoho-sign-triggers",
+      "Name": "Zoho Sign Triggers",
+      "Description": "Register a callback for a particular event",
+      "Anchor": "#zoho-sign-triggers",
+      "IsDeprecated": false
+    }
+  ]
+}

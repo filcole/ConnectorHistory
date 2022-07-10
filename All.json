@@ -1047,205 +1047,205 @@
     "Actions": [
       {
         "OperationId": "CombinePDF",
-        "Name": "Merge PDFs",
+        "Name": "Merge PDFs (Preview)",
         "Description": "Merge PDF files into a single file. Only files with .pdf extension are supported.",
-        "Anchor": "#merge-pdfs",
+        "Anchor": "#merge-pdfs-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CompressPDF",
-        "Name": "Compress PDF",
+        "Name": "Compress PDF (Preview)",
         "Description": "Compress a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#compress-pdf",
+        "Anchor": "#compress-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromDynamicHtml",
-        "Name": "Convert Dynamic HTML to PDF",
+        "Name": "Convert Dynamic HTML to PDF (Preview)",
         "Description": "Convert a Dynamic HTML file to PDF format. Since HTML/web pages typically contain external assets, the input file must be a zip file containing an index.html at the top level of the archive, as well as any dependencies such as images, css files, and so on. Only files with .zip extension are supported.",
-        "Anchor": "#convert-dynamic-html-to-pdf",
+        "Anchor": "#convert-dynamic-html-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromExcel",
-        "Name": "Convert Excel to PDF",
+        "Name": "Convert Excel to PDF (Preview)",
         "Description": "Convert an Excel file to PDF format. Only files with .xls or .xlsx extension are supported.",
-        "Anchor": "#convert-excel-to-pdf",
+        "Anchor": "#convert-excel-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromImage",
-        "Name": "Convert Image to PDF",
+        "Name": "Convert Image to PDF (Preview)",
         "Description": "Convert an image file to PDF format. Only files with .png, .jpeg, .jpg, .tiff, .tif or .gif extension are supported.",
-        "Anchor": "#convert-image-to-pdf",
+        "Anchor": "#convert-image-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromPPT",
-        "Name": "Convert PPT to PDF",
+        "Name": "Convert PPT to PDF (Preview)",
         "Description": "Convert a PPT file to PDF format. Only files with .ppt or .pptx extension are supported.",
-        "Anchor": "#convert-ppt-to-pdf",
+        "Anchor": "#convert-ppt-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromStaticHtml",
-        "Name": "Convert Static HTML to PDF",
+        "Name": "Convert Static HTML to PDF (Preview)",
         "Description": "Convert a static HTML file to PDF format. Since HTML/web pages typically contain external assets, the input file must be a zip file containing an index.html at the top level of the archive, as well as any dependencies such as images, css files, and so on. Only files with .zip extension are supported.",
-        "Anchor": "#convert-static-html-to-pdf",
+        "Anchor": "#convert-static-html-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFFromWord",
-        "Name": "Convert Word to PDF",
+        "Name": "Convert Word to PDF (Preview)",
         "Description": "Convert a Word file to PDF format. Only files with .doc or .docx extension are supported.",
-        "Anchor": "#convert-word-to-pdf",
+        "Anchor": "#convert-word-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "CreatePDFGeneric",
-        "Name": "Convert document to PDF",
+        "Name": "Convert document to PDF (Preview)",
         "Description": "Convert a file to PDF format. Only files with .doc, .docx, .ppt, .pptx, .xls, .xlsx, .bmp, .gif, .jpeg, .jpg, .png, .rtf, .tif, .tiff or .txt extension are supported.",
-        "Anchor": "#convert-document-to-pdf",
+        "Anchor": "#convert-document-to-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "DocGen",
-        "Name": "Generate document from Word template",
-        "Description": "Replaces merge fields in a DOCX template document with specified JSON data. The keys in data object should be the same as names of merge fields in document. Template documents can be authored using Adobe Document Generation Word Add-in. Find the add-in and Word templates at: https://adobe.com/go/dcdocgen_home",
-        "Anchor": "#generate-document-from-word-template",
+        "Name": "Generate document from Word template (Preview)",
+        "Description": "Replaces merge fields in a DOCX template document with specified JSON data. The keys in data object should be the same as names of merge fields in document. Template documents can be authored using Adobe Document Generation Word Add-in. Find the add-in and Word templates at: https://adobe.com/go/dcdocgen_home. Detailed documentation for the Document Generation API can be found at: https://adobe.com/go/dcdocgen_overview_doc",
+        "Anchor": "#generate-document-from-word-template-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFGeneric",
-        "Name": "Export PDF",
+        "Name": "Export PDF (Preview)",
         "Description": "Convert a PDF file to various formats. The supported output formats are .doc, .docx, .jpeg, .png, .pptx, .rtf and .xlsx.",
-        "Anchor": "#export-pdf",
+        "Anchor": "#export-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToExcel",
-        "Name": "Convert PDF to Excel",
+        "Name": "Convert PDF to Excel (Preview)",
         "Description": "Convert a PDF file to an Excel file. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-excel",
+        "Anchor": "#convert-pdf-to-excel-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToImage",
-        "Name": "Convert PDF to Image",
+        "Name": "Convert PDF to Image (Preview)",
         "Description": "Convert a PDF file to a zip of images. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-image",
+        "Anchor": "#convert-pdf-to-image-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToImageList",
-        "Name": "Convert PDF to List Of Images",
+        "Name": "Convert PDF to List Of Images (Preview)",
         "Description": "Convert a PDF file to a list of images. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-list-of-images",
+        "Anchor": "#convert-pdf-to-list-of-images-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToPPT",
-        "Name": "Convert PDF to PPT",
+        "Name": "Convert PDF to PPT (Preview)",
         "Description": "Convert a PDF file to PPT. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-ppt",
+        "Anchor": "#convert-pdf-to-ppt-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExportPDFToWord",
-        "Name": "Convert PDF to Word",
+        "Name": "Convert PDF to Word (Preview)",
         "Description": "Convert a PDF file to a Word file. Only files with .pdf extension are supported.",
-        "Anchor": "#convert-pdf-to-word",
+        "Anchor": "#convert-pdf-to-word-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractImagesFromPDF",
-        "Name": "Extract Images From PDF",
+        "Name": "Extract Images From PDF (Preview)",
         "Description": "Extracts Images from a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-images-from-pdf",
+        "Anchor": "#extract-images-from-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONAndImagesAndTablesFromPDF",
-        "Name": "Extract PDF Structure, Tables and Images from a PDF",
+        "Name": "Extract PDF Structure, Tables and Images from a PDF (Preview)",
         "Description": "Extract PDF structure and content elements, incl. Tables and Images, from PDF Document.  Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf",
+        "Anchor": "#extract-pdf-structure,-tables-and-images-from-a-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONFileFromPDF",
-        "Name": "Extract PDF Structure in a JSON File",
+        "Name": "Extract PDF Structure in a JSON File (Preview)",
         "Description": "Extract PDF Structure in a JSON File. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure-in-a-json-file",
+        "Anchor": "#extract-pdf-structure-in-a-json-file-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractJSONObjectFromPDF",
-        "Name": "Extract PDF Structure in a JSON Object",
+        "Name": "Extract PDF Structure in a JSON Object (Preview)",
         "Description": "Extract PDF Structure in a JSON Object. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-pdf-structure-in-a-json-object",
+        "Anchor": "#extract-pdf-structure-in-a-json-object-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ExtractTablesFromPDF",
-        "Name": "Extract Tables from PDF",
+        "Name": "Extract Tables from PDF (Preview)",
         "Description": "Extracts Tables in .xlsx format from a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#extract-tables-from-pdf",
+        "Anchor": "#extract-tables-from-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "LinearizePDF",
-        "Name": "Linearize PDF",
+        "Name": "Linearize PDF (Preview)",
         "Description": "Linearize a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#linearize-pdf",
+        "Anchor": "#linearize-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "OcrPDF",
-        "Name": "Create Searchable PDF using OCR",
+        "Name": "Create Searchable PDF using OCR (Preview)",
         "Description": "OCR a PDF file. Only files with .pdf extension are supported.",
-        "Anchor": "#create-searchable-pdf-using-ocr",
+        "Anchor": "#create-searchable-pdf-using-ocr-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "PDFProperties",
-        "Name": "Get PDF Properties",
+        "Name": "Get PDF Properties (Preview)",
         "Description": "Get Properties of a PDF Document. Only files with .pdf extension are supported.",
-        "Anchor": "#get-pdf-properties",
+        "Anchor": "#get-pdf-properties-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectGenericPDF",
-        "Name": "Protect PDF with Access Permissions",
+        "Name": "Protect PDF with Access Permissions (Preview)",
         "Description": "Protect a PDF document from Viewing and other Accesses like Editing, Copying and Printing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-with-access-permissions",
+        "Anchor": "#protect-pdf-with-access-permissions-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectOwnerPDF",
-        "Name": "Protect PDF from Copying, Editing and Printing",
+        "Name": "Protect PDF from Copying, Editing and Printing (Preview)",
         "Description": "Protect a PDF document from copying, editing &amp; printing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-from-copying,-editing-and-printing",
+        "Anchor": "#protect-pdf-from-copying,-editing-and-printing-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "ProtectUserPDF",
-        "Name": "Protect PDF from Viewing",
+        "Name": "Protect PDF from Viewing (Preview)",
         "Description": "Protect a PDF document from viewing. Only files with .pdf extension are supported.",
-        "Anchor": "#protect-pdf-from-viewing",
+        "Anchor": "#protect-pdf-from-viewing-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "RemovePassword",
-        "Name": "Remove Protection from PDF",
+        "Name": "Remove Protection from PDF (Preview)",
         "Description": "Remove password and security &amp; permissions from the protected document. Only files with .pdf extension are supported.",
-        "Anchor": "#remove-protection-from-pdf",
+        "Anchor": "#remove-protection-from-pdf-(preview)",
         "IsDeprecated": false
       },
       {
         "OperationId": "SplitPDF",
-        "Name": "Split PDF",
+        "Name": "Split PDF (Preview)",
         "Description": "Split a PDF Document into multiple PDF Documents. Only files with .pdf extension are supported.",
-        "Anchor": "#split-pdf",
+        "Anchor": "#split-pdf-(preview)",
         "IsDeprecated": false
       }
     ]
@@ -5883,6 +5883,32 @@
     ]
   },
   {
+    "UniqueName": "azureadapplications",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azureadapplications/",
+    "Actions": [
+      {
+        "OperationId": "ListApplications",
+        "Name": "List Applications and Owners",
+        "Description": "Get the list of applications registered in AAD in this organization",
+        "Anchor": "#list-applications-and-owners",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "aadinvitationmanager",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../aadinvitationmanager/",
+    "Actions": [
+      {
+        "OperationId": "CreateInvitation",
+        "Name": "Create invitation",
+        "Description": "Create an invitation for an external user.",
+        "Anchor": "#create-invitation",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "azureadip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../azureadip/",
     "Actions": [
@@ -6425,6 +6451,122 @@
         "Name": "Sentiment (V4) (Preview)",
         "Description": "The API returns a detailed sentiment analysis for the input text. The analysis is done in multiple levels of granularity, start from the a document level, down to sentence and key terms (targets and assessments).",
         "Anchor": "#sentiment-(v4)-(preview)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "acschat",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../acschat/",
+    "Actions": [
+      {
+        "OperationId": "AddParticipants",
+        "Name": "Add chat thread participants",
+        "Description": "Add participants to chat thread.",
+        "Anchor": "#add-chat-thread-participants",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateChat",
+        "Name": "Create chat thread",
+        "Description": "Create a chat thread.",
+        "Anchor": "#create-chat-thread",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetThreadProperties",
+        "Name": "Get chat thread properties",
+        "Description": "Get the properties of the chat thread.",
+        "Anchor": "#get-chat-thread-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListChatThreads",
+        "Name": "List chat threads",
+        "Description": "List chat threads.",
+        "Anchor": "#list-chat-threads",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListMessages",
+        "Name": "List chat thread messages",
+        "Description": "List messages From chat thread.",
+        "Anchor": "#list-chat-thread-messages",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListParticipants",
+        "Name": "List chat thread participants",
+        "Description": "List participants in chat thread.",
+        "Anchor": "#list-chat-thread-participants",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RemoveParticipant",
+        "Name": "Remove chat thread participant",
+        "Description": "Remove participant from chat thread.",
+        "Anchor": "#remove-chat-thread-participant",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendChat",
+        "Name": "Send message to chat thread",
+        "Description": "Send message to chat thread.",
+        "Anchor": "#send-message-to-chat-thread",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "acsemail",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../acsemail/",
+    "Actions": [
+      {
+        "OperationId": "GetMessageStatus",
+        "Name": "Get email message status (Preview)",
+        "Description": "Gets the status of an email message sent previously.",
+        "Anchor": "#get-email-message-status-(preview)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendEmail",
+        "Name": "Send email (Preview)",
+        "Description": "Sends an email message to one or more recipients.",
+        "Anchor": "#send-email-(preview)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "acsidentity",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../acsidentity/",
+    "Actions": [
+      {
+        "OperationId": "CreateCommunicationIdentity",
+        "Name": "Create a user",
+        "Description": "Create a new user, and optionally, an access token.",
+        "Anchor": "#create-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteCommunicationIdentity",
+        "Name": "Delete a user",
+        "Description": "Delete the user, revoke all access tokens for the user and delete all associated data.",
+        "Anchor": "#delete-a-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IssueIdentityAccessToken",
+        "Name": "Issue a user access token",
+        "Description": "Issue a new access token for the user.",
+        "Anchor": "#issue-a-user-access-token",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RevokeIdentityAccessTokens",
+        "Name": "Revoke user access tokens",
+        "Description": "Revoke all access tokens for the user.",
+        "Anchor": "#revoke-user-access-tokens",
         "IsDeprecated": false
       }
     ]
@@ -13478,6 +13620,47 @@
     ]
   },
   {
+    "UniqueName": "calendarpro",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../calendarpro/",
+    "Actions": [
+      {
+        "OperationId": "CreateNewEvent",
+        "Name": "Create a new event",
+        "Description": "Create a new event",
+        "Anchor": "#create-a-new-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteEvent",
+        "Name": "Delete an event",
+        "Description": "Delete an event",
+        "Anchor": "#delete-an-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllEvents",
+        "Name": "Get all events",
+        "Description": "Get all events of a calendar by it's unique identifier",
+        "Anchor": "#get-all-events",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetEvent",
+        "Name": "Get an event",
+        "Description": "Get an event by it's unique identifier",
+        "Anchor": "#get-an-event",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateEvent",
+        "Name": "Update an event",
+        "Description": "Update an event",
+        "Anchor": "#update-an-event",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "calendly",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../calendly/",
     "Actions": []
@@ -15144,6 +15327,33 @@
         "Name": "Update Template",
         "Description": "Change the status or metadata of a Template",
         "Anchor": "#update-template",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "cloudconvert",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cloudconvert/",
+    "Actions": [
+      {
+        "OperationId": "CaptureWebsite",
+        "Name": "Create Website Screenshot",
+        "Description": "Create a website screenshot as PDF, PNG or JPG",
+        "Anchor": "#create-website-screenshot",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ConvertFile",
+        "Name": "Convert File",
+        "Description": "Convert a file to another format",
+        "Anchor": "#convert-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "OptimizeFile",
+        "Name": "Compress File",
+        "Description": "Compress a PDF, PNG or JPG file",
+        "Anchor": "#compress-file",
         "IsDeprecated": false
       }
     ]
@@ -17396,6 +17606,82 @@
     ]
   },
   {
+    "UniqueName": "cognizantautomationc",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../cognizantautomationc/",
+    "Actions": [
+      {
+        "OperationId": "ActivityActionStatus",
+        "Name": "Get Action Status",
+        "Description": "Get the executed action status using activity action id.",
+        "Anchor": "#get-action-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateaActivityLog",
+        "Name": "Create Activity Log",
+        "Description": "Create Activity Log.",
+        "Anchor": "#create-activity-log",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateActivity",
+        "Name": "Create Generic Activity",
+        "Description": "Create Technology or Application Activity.",
+        "Anchor": "#create-generic-activity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FetchISExecutionStatus",
+        "Name": "Get IS Execution Status",
+        "Description": "Get IS execution status based on activity id.",
+        "Anchor": "#get-is-execution-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LinkAsChildActivity",
+        "Name": "Add activity as child",
+        "Description": "Link as Child Activity.",
+        "Anchor": "#add-activity-as-child",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ReadActivityAttribute",
+        "Name": "Read Activity Attribute",
+        "Description": "Read Attributes using activity Id and return in output in JSON format.",
+        "Anchor": "#read-activity-attribute",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SetActivityAdditionalAttribute",
+        "Name": "Create Activity Additional Attribute",
+        "Description": "Create or update additional attribute of an activity.",
+        "Anchor": "#create-activity-additional-attribute",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TriggerAction",
+        "Name": "Trigger Derived Action",
+        "Description": "Trigger Automation Center Derived Action.",
+        "Anchor": "#trigger-derived-action",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TriggerIS",
+        "Name": "Trigger IS",
+        "Description": "Trigger IS in activity based on SkillId.",
+        "Anchor": "#trigger-is",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateActionOutput",
+        "Name": "Update Action Output",
+        "Description": "Update action output based on activity action id.",
+        "Anchor": "#update-action-output",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "coinbaseip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../coinbaseip/",
     "Actions": [
@@ -18086,6 +18372,215 @@
         "Description": "Update a record in Business Central for a specific table",
         "Anchor": "#update-data-complex",
         "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpsertData",
+        "Name": "Upsert Data",
+        "Description": "Upsert data into a specific Business Central table",
+        "Anchor": "#upsert-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpsertDataBulk",
+        "Name": "Upsert Data (Bulk)",
+        "Description": "Upsert multiple records into Business Central",
+        "Anchor": "#upsert-data-(bulk)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpsertDataComplex",
+        "Name": "Upsert Data (Complex)",
+        "Description": "Upsert data into a specific Business Central table",
+        "Anchor": "#upsert-data-(complex)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "connect2allonpremises",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../connect2allonpremises/",
+    "Actions": [
+      {
+        "OperationId": "ClearMedia",
+        "Name": "Delete Media",
+        "Description": "Deletes the media attached to a field in Business Central",
+        "Anchor": "#delete-media",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateData",
+        "Name": "Insert Data",
+        "Description": "Insert data into a specific Business Central table",
+        "Anchor": "#insert-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateDataBulk",
+        "Name": "Insert Data Bulk",
+        "Description": "Insert multiple records into Business Central",
+        "Anchor": "#insert-data-bulk",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateDataComplex",
+        "Name": "Insert Data (Complex)",
+        "Description": "Insert data into a specific Business Central table",
+        "Anchor": "#insert-data-(complex)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteData",
+        "Name": "Delete Data",
+        "Description": "Delete data from Business Central by it's unique id",
+        "Anchor": "#delete-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteDataBulk",
+        "Name": "Delete Data Bulk",
+        "Description": "Delete multiple records in Business Central",
+        "Anchor": "#delete-data-bulk",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetData",
+        "Name": "Get Data",
+        "Description": "Get data from Business Central for specific tables",
+        "Anchor": "#get-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDataById",
+        "Name": "Get Data by Id",
+        "Description": "Get data from Business Central for a specific table and record",
+        "Anchor": "#get-data-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDataInBulk",
+        "Name": "Get Data in bulk format",
+        "Description": "Get data from Business Central for a table in bulk format.",
+        "Anchor": "#get-data-in-bulk-format",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetDataRaw",
+        "Name": "Get Data (Complex)",
+        "Description": "Get data from Business Central with a raw JSON request",
+        "Anchor": "#get-data-(complex)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMedia",
+        "Name": "Get Media",
+        "Description": "Retrieves a file from Business Central by it's Id",
+        "Anchor": "#get-media",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetReport",
+        "Name": "Get Report",
+        "Description": "Gets a report from Business Central on a report ID or a record",
+        "Anchor": "#get-report",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PatchMedia",
+        "Name": "Update Media",
+        "Description": "Updates a file in Business Central by it's Id",
+        "Anchor": "#update-media",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PerformAction",
+        "Name": "Perform an action",
+        "Description": "Schedule to perform an action in Business Central",
+        "Anchor": "#perform-an-action",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RecordCreated",
+        "Name": "Triggers when a record is created",
+        "Description": "A record is created in Business Central",
+        "Anchor": "#triggers-when-a-record-is-created",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RecordCreatedV2",
+        "Name": "Triggers when a record is created (V2)",
+        "Description": "A record is created in Business Central",
+        "Anchor": "#triggers-when-a-record-is-created-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RecordDeleted",
+        "Name": "Triggers when a record is deleted",
+        "Description": "A record is deleted in Business Central",
+        "Anchor": "#triggers-when-a-record-is-deleted",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RecordDeletedV2",
+        "Name": "Triggers when a record is deleted (V2)",
+        "Description": "A record is deleted in Business Central",
+        "Anchor": "#triggers-when-a-record-is-deleted-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RecordUpdated",
+        "Name": "Triggers when a record is updated",
+        "Description": "A record is updated in Business Central",
+        "Anchor": "#triggers-when-a-record-is-updated",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RecordUpdatedV2",
+        "Name": "Triggers when a record is updated (V2)",
+        "Description": "A record is updated in Business Central",
+        "Anchor": "#triggers-when-a-record-is-updated-(v2)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateData",
+        "Name": "Update Data",
+        "Description": "Update a record in Business Central for a specific table",
+        "Anchor": "#update-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateDataBulk",
+        "Name": "Update Data Bulk",
+        "Description": "Update multiple records in Business Central",
+        "Anchor": "#update-data-bulk",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateDataComplex",
+        "Name": "Update Data Complex",
+        "Description": "Update a record in Business Central for a specific table",
+        "Anchor": "#update-data-complex",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpsertData",
+        "Name": "Upsert Data",
+        "Description": "Upsert data into a specific Business Central table",
+        "Anchor": "#upsert-data",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpsertDataBulk",
+        "Name": "Upsert Data (Bulk)",
+        "Description": "Upsert multiple records into Business Central",
+        "Anchor": "#upsert-data-(bulk)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpsertDataComplex",
+        "Name": "Upsert Data (Complex)",
+        "Description": "Upsert data into a specific Business Central table",
+        "Anchor": "#upsert-data-(complex)",
+        "IsDeprecated": false
       }
     ]
   },
@@ -18229,6 +18724,47 @@
     ]
   },
   {
+    "UniqueName": "contactspro",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../contactspro/",
+    "Actions": [
+      {
+        "OperationId": "CreateContact",
+        "Name": "Create a new contact",
+        "Description": "Create a new contact",
+        "Anchor": "#create-a-new-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteContact",
+        "Name": "Delete a contact",
+        "Description": "Delete a contact",
+        "Anchor": "#delete-a-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAllContacts",
+        "Name": "Get all contacts",
+        "Description": "Get the list of all contacts",
+        "Anchor": "#get-all-contacts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetContact",
+        "Name": "Get a contact",
+        "Description": "Get a contact",
+        "Anchor": "#get-a-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateContact",
+        "Name": "Update a contact",
+        "Description": "Update a contact",
+        "Anchor": "#update-a-contact",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "conversionservice",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../conversionservice/",
     "Actions": [
@@ -18299,6 +18835,47 @@
         "Name": "Detect profanity and match against custom and shared block lists",
         "Description": "Detects profanity in more than 100 languages and match against custom and shared block lists.",
         "Anchor": "#detect-profanity-and-match-against-custom-and-shared-block-lists",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "converterbypower2apps",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../converterbypower2apps/",
+    "Actions": [
+      {
+        "OperationId": "ConvertCsvdataToExcel",
+        "Name": "Convert CSV to Excel",
+        "Description": "Convert CSV data to Excel file",
+        "Anchor": "#convert-csv-to-excel",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ConvertCsvdataToJson",
+        "Name": "Convert CSV to JSON",
+        "Description": "Convert CSV data to JSON",
+        "Anchor": "#convert-csv-to-json",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ConvertJsonToCsvdata",
+        "Name": "Convert JSON to CSV",
+        "Description": "Convert JSON to CSV data",
+        "Anchor": "#convert-json-to-csv",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ConvertSharePointSearchResults",
+        "Name": "Convert SharePoint search results to list",
+        "Description": "Convert SharePoint search results to a simple list",
+        "Anchor": "#convert-sharepoint-search-results-to-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ExtractWordBookmarks",
+        "Name": "Extract Word (docx) bookmarks",
+        "Description": "Extract all Word (docx) bookmarks",
+        "Anchor": "#extract-word-(docx)-bookmarks",
         "IsDeprecated": false
       }
     ]
@@ -19109,6 +19686,40 @@
     ]
   },
   {
+    "UniqueName": "dadjokesioip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dadjokesioip/",
+    "Actions": [
+      {
+        "OperationId": "JokeID",
+        "Name": "Get a joke by ID",
+        "Description": "Retrieves a Dad joke by ID.",
+        "Anchor": "#get-a-joke-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JokeSearch",
+        "Name": "Search jokes",
+        "Description": "Search for jokes contacting the search term.",
+        "Anchor": "#search-jokes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "JokeType",
+        "Name": "Get joke(s) by type",
+        "Description": "Retrieves joke(s) by a specific type.",
+        "Anchor": "#get-joke(s)-by-type",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Random",
+        "Name": "Get a random joke",
+        "Description": "Retrieves a random Dad joke.",
+        "Anchor": "#get-a-random-joke",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "data8",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../data8/",
     "Actions": [
@@ -19194,6 +19805,47 @@
         "Name": "PredictiveAddress (Search)",
         "Description": "Searching with the Data8 PredictiveAddress API - Search for a partial address in our many data sources",
         "Anchor": "#predictiveaddress-(search)",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "datablend",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../datablend/",
+    "Actions": [
+      {
+        "OperationId": "GetQueryExecutionById",
+        "Name": "Get Query Execution by ID",
+        "Description": "Get Query Execution by ID",
+        "Anchor": "#get-query-execution-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GroupsSearch",
+        "Name": "Groups Search",
+        "Description": "Groups Search",
+        "Anchor": "#groups-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WorkflowExecutions",
+        "Name": "Workflow Executions",
+        "Description": "Workflow Executions",
+        "Anchor": "#workflow-executions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WorkflowExecutionsSearch",
+        "Name": "Workflow Executions Search",
+        "Description": "Workflow Executions Search",
+        "Anchor": "#workflow-executions-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WorkflowsSearch",
+        "Name": "Workflows Search",
+        "Description": "Workflows Search",
+        "Anchor": "#workflows-search",
         "IsDeprecated": false
       }
     ]
@@ -19699,6 +20351,19 @@
     ]
   },
   {
+    "UniqueName": "dhlshipmenttrackingip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dhlshipmenttrackingip/",
+    "Actions": [
+      {
+        "OperationId": "ShipmentTracking",
+        "Name": "Get shipment tracking",
+        "Description": "Get shipment tracking",
+        "Anchor": "#get-shipment-tracking",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "digitalhumaniip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../digitalhumaniip/",
     "Actions": [
@@ -19900,6 +20565,19 @@
         "Name": "List all DNC complaints",
         "Description": "Returns a list of unverified complaints based on the filter parameters.",
         "Anchor": "#list-all-dnc-complaints",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "doctopdf",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../doctopdf/",
+    "Actions": [
+      {
+        "OperationId": "DocToPDF",
+        "Name": "Doc to Pdf",
+        "Description": "Convert library word document file to pdf format file",
+        "Anchor": "#doc-to-pdf",
         "IsDeprecated": false
       }
     ]
@@ -22111,6 +22789,40 @@
     ]
   },
   {
+    "UniqueName": "dynatrace",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dynatrace/",
+    "Actions": [
+      {
+        "OperationId": "GetProblemById",
+        "Name": "Get Problem by ID",
+        "Description": "Gets the properties of the specified problem.",
+        "Anchor": "#get-problem-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetProblemCommentByProblemIdAndCommentId",
+        "Name": "Get Problem Comment by Problem ID and Comment ID",
+        "Description": "Gets the specified comment on a problem.",
+        "Anchor": "#get-problem-comment-by-problem-id-and-comment-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetProblemCommentsByProblemId",
+        "Name": "Get Problem Comments By Problem ID",
+        "Description": "Gets all comments on the specified problem.",
+        "Anchor": "#get-problem-comments-by-problem-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetProblems",
+        "Name": "Get Problems",
+        "Description": "Lists problems observed within the specified timeframe.",
+        "Anchor": "#get-problems",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "easyredmine",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../easyredmine/",
     "Actions": [
@@ -22182,6 +22894,110 @@
         "Name": "Update a task",
         "Description": "Update a task",
         "Anchor": "#update-a-task",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "easyshipip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../easyshipip/",
+    "Actions": [
+      {
+        "OperationId": "BuyAShipmentLabel",
+        "Name": "Buy a shipment label (V1)",
+        "Description": "Buy and retrieve information about a shipping label.",
+        "Anchor": "#buy-a-shipment-label-(v1)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateAShipment",
+        "Name": "Create a shipment",
+        "Description": "Creates and retrieves the information about a shipment.",
+        "Anchor": "#create-a-shipment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "DeleteAShipment",
+        "Name": "Delete a shipment (V1)",
+        "Description": "Delete and receive confirmation of a shipment deletion.",
+        "Anchor": "#delete-a-shipment-(v1)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAShipment",
+        "Name": "Get a shipment",
+        "Description": "Get the details of a shipment.",
+        "Anchor": "#get-a-shipment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAvailablePickupSlots",
+        "Name": "Get available pickup slots (V1)",
+        "Description": "Available pickup slots will be calculated for a specific courier, in local time and for the coming 7 days. A pickup can then be requested using the &quot;Request pickup&quot; action.",
+        "Anchor": "#get-available-pickup-slots-(v1)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCheckpoints",
+        "Name": "Get checkpoints",
+        "Description": "Retrieves details of shipment checkpoints.",
+        "Anchor": "#get-checkpoints",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetItemCategories",
+        "Name": "Get item categories",
+        "Description": "Retrieves a list of shipment categories and the slug to use the category.",
+        "Anchor": "#get-item-categories",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetRatesTaxes",
+        "Name": "Get rates and taxes",
+        "Description": "Retrieve a list of shipping quotes for a prospective shipment.",
+        "Anchor": "#get-rates-and-taxes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetStatus",
+        "Name": "Get tracking status",
+        "Description": "Retrieves the tracking status of a shipment.",
+        "Anchor": "#get-tracking-status",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListAllBoxes",
+        "Name": "List all boxes",
+        "Description": "Retrieves a list of all available courier boxes.",
+        "Anchor": "#list-all-boxes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListAllShipments",
+        "Name": "List all shipments",
+        "Description": "Retrieves a list of all shipments.",
+        "Anchor": "#list-all-shipments",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "RequestAPickup",
+        "Name": "Request a pickup (V1)",
+        "Description": "When a pickup is created, a pickup request will be made directly to the courier, which will return a reference number. The reference number may be used when contacting the customer service of the courier. A pickup slot must be chosen; upcoming pickup slots may be found using the &quot;Get available pickup slots&quot; action.",
+        "Anchor": "#request-a-pickup-(v1)",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateAShipment",
+        "Name": "Update a shipment",
+        "Description": "Update a shipment details.",
+        "Anchor": "#update-a-shipment",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateWarehouseState",
+        "Name": "Update warehouse state",
+        "Description": "Update a shipment's warehouse state. Only available for shipments fulfilled at one of the Easyship integrated warehouses.",
+        "Anchor": "#update-warehouse-state",
         "IsDeprecated": false
       }
     ]
@@ -31774,6 +32590,215 @@
         "Name": "mergeRequest",
         "Description": "Create a merge request.",
         "Anchor": "#mergerequest",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "givebutterip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../givebutterip/",
+    "Actions": [
+      {
+        "OperationId": "CampaignDelete",
+        "Name": "Delete a campaign",
+        "Description": "Deletes a specific campaign",
+        "Anchor": "#delete-a-campaign",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CampaignGet",
+        "Name": "Get campaigns",
+        "Description": "Retrieves a list of your campaigns.",
+        "Anchor": "#get-campaigns",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CampaignGetA",
+        "Name": "Get a campaign",
+        "Description": "Retrieves a specific campaign.",
+        "Anchor": "#get-a-campaign",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CampaignPatch",
+        "Name": "Update a campaign",
+        "Description": "Updates an existing campaign.",
+        "Anchor": "#update-a-campaign",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CampaignPost",
+        "Name": "Create a campaign",
+        "Description": "Creates a new campaign.",
+        "Anchor": "#create-a-campaign",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContactDelete",
+        "Name": "Archive a contact",
+        "Description": "Deletes a contact.",
+        "Anchor": "#archive-a-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContactGet",
+        "Name": "Get contacts",
+        "Description": "Retrieves a list of contacts.",
+        "Anchor": "#get-contacts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContactGetA",
+        "Name": "Get a contact",
+        "Description": "Retrieves a specific contact.",
+        "Anchor": "#get-a-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContactPatch",
+        "Name": "Update a contact",
+        "Description": "Updates a specific contact.",
+        "Anchor": "#update-a-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContactPost",
+        "Name": "Create a contact",
+        "Description": "Creates a new contact.",
+        "Anchor": "#create-a-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ContactRestore",
+        "Name": "Restore a contact",
+        "Description": "Restores a deleted contact",
+        "Anchor": "#restore-a-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FundDelete",
+        "Name": "Delete a fund",
+        "Description": "Deletes a specific fund.",
+        "Anchor": "#delete-a-fund",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FundGet",
+        "Name": "Get funds",
+        "Description": "Retrieves a list of funds.",
+        "Anchor": "#get-funds",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FundGetA",
+        "Name": "Get a fund",
+        "Description": "Retrieves a specific fund.",
+        "Anchor": "#get-a-fund",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FundPatch",
+        "Name": "Update a fund",
+        "Description": "Updates a specific fund.",
+        "Anchor": "#update-a-fund",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FundPost",
+        "Name": "Create a fund",
+        "Description": "Creates a new fund.",
+        "Anchor": "#create-a-fund",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemberDelete",
+        "Name": "Delete a member",
+        "Description": "Deletes a member from a campaign.",
+        "Anchor": "#delete-a-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemberGet",
+        "Name": "Get members",
+        "Description": "Retrieves a list of the members of a specific campaign.",
+        "Anchor": "#get-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MemberGetA",
+        "Name": "Get a member",
+        "Description": "Retrieves a specific member.",
+        "Anchor": "#get-a-member",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PayoutGet",
+        "Name": "Get payouts",
+        "Description": "Retrieves a list of payouts",
+        "Anchor": "#get-payouts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PayoutGetA",
+        "Name": "Get a payout",
+        "Description": "Retrieves a specific payout",
+        "Anchor": "#get-a-payout",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PlanGet",
+        "Name": "Get plans",
+        "Description": "Retrieves a list of plans",
+        "Anchor": "#get-plans",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PlanGetA",
+        "Name": "Get a plan",
+        "Description": "Retrieves a specific plan.",
+        "Anchor": "#get-a-plan",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamGet",
+        "Name": "Get teams",
+        "Description": "Retrieves a list of the teams under a specific campaign.",
+        "Anchor": "#get-teams",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TeamGetA",
+        "Name": "Get a team",
+        "Description": "Retrieves a specific team.",
+        "Anchor": "#get-a-team",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TicketGet",
+        "Name": "Get tickets",
+        "Description": "Retrieve a list of your tickets.",
+        "Anchor": "#get-tickets",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TicketGetA",
+        "Name": "Get a ticket",
+        "Description": "Retrieves a specific ticket.",
+        "Anchor": "#get-a-ticket",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TransactionGet",
+        "Name": "Get transactions",
+        "Description": "Retrieves a list of transactions",
+        "Anchor": "#get-transactions",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "TransactionGetA",
+        "Name": "Get a transaction",
+        "Description": "Retrieves a specific transaction.",
+        "Anchor": "#get-a-transaction",
         "IsDeprecated": false
       }
     ]
@@ -43065,6 +44090,54 @@
     ]
   },
   {
+    "UniqueName": "iobeya",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../iobeya/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Compute QCD Letter's Indicator",
+        "Description": "Compute a QCD Letter's Indicator object",
+        "Anchor": "#compute-qcd-letter's-indicator",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateCard",
+        "Name": "Create Card",
+        "Description": "Create a new Card",
+        "Anchor": "#create-card",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListBoards",
+        "Name": "List of Boards",
+        "Description": "Retrieve list of Boards",
+        "Anchor": "#list-of-boards",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListCardsActivity",
+        "Name": "List Cards Activity",
+        "Description": "List Cards Activity between two dates",
+        "Anchor": "#list-cards-activity",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListRooms",
+        "Name": "List of Rooms",
+        "Description": "Retrieve list of Rooms",
+        "Anchor": "#list-of-rooms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateQCDIndicatorsValue",
+        "Name": "Update QCD Indicators",
+        "Description": "Bulk Update of QCD Indicators Values",
+        "Anchor": "#update-qcd-indicators",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "ipqsfraudandriskscor",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ipqsfraudandriskscor/",
     "Actions": [
@@ -43094,6 +44167,19 @@
         "Name": "Retrieve URL (or) Domain reputation data",
         "Description": "Scans links and domains in real-time to detect suspicious URLs using trusted machine learning models. These machine learning models can accurately identify phishing links, malware URLs, viruses, parked domains, and suspicious URLs with real-time risk scores. In addition, the machine learning models can confidently classify poor reputation domains, suspicious links, and phishing URLs with a real-time API integration. Features such as parking domain detection, domain spam scores, reputation checks, and domain age, elevates URL intelligence to a whole new level.",
         "Anchor": "#retrieve-url-(or)-domain-reputation-data",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "itautomate",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../itautomate/",
+    "Actions": [
+      {
+        "OperationId": "RunCommand",
+        "Name": "Issue PowerShell Command",
+        "Description": "Issue a saved ITautomate PowerShell command to remote device(s)",
+        "Anchor": "#issue-powershell-command",
         "IsDeprecated": false
       }
     ]
@@ -43516,7 +44602,7 @@
       {
         "OperationId": "EditIssue",
         "Name": "Edit Issue",
-        "Description": "Edits an issue. A transition may be applied and issue properties updated as part of the edit.",
+        "Description": "Edits an issue. A transition may be applied and issue properties updated as part of the edit. The edits to the issue's fields are defined using update and fields.",
         "Anchor": "#edit-issue",
         "IsDeprecated": false
       },
@@ -44901,6 +45987,19 @@
     "Actions": []
   },
   {
+    "UniqueName": "leadloader",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../leadloader/",
+    "Actions": [
+      {
+        "OperationId": "UploadLeadsV3",
+        "Name": "Upload leads and create an opportunity",
+        "Description": "Upload leads and create an opportunity",
+        "Anchor": "#upload-leads-and-create-an-opportunity",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "leaddesk",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../leaddesk/",
     "Actions": [
@@ -46007,6 +47106,47 @@
     ]
   },
   {
+    "UniqueName": "mappro",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mappro/",
+    "Actions": [
+      {
+        "OperationId": "createNewPlace",
+        "Name": "Create a new place",
+        "Description": "Create a new place",
+        "Anchor": "#create-a-new-place",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "deletePlace",
+        "Name": "Delete a place",
+        "Description": "Delete a place",
+        "Anchor": "#delete-a-place",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getMapPlacesById",
+        "Name": "Get all places",
+        "Description": "Get all places of a map by it's unique identifier",
+        "Anchor": "#get-all-places",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "getPlaceById",
+        "Name": "Get a place",
+        "Description": "Get a place by it's unique identifier",
+        "Anchor": "#get-a-place",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "updatePlace",
+        "Name": "Update a place",
+        "Description": "Update an existing place",
+        "Anchor": "#update-a-place",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "marketingcontenthub",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../marketingcontenthub/",
     "Actions": [
@@ -46611,6 +47751,68 @@
         "Name": "Get random meme scraped from a subreddit",
         "Description": "Retrieves a random meme from a specific subreddit.",
         "Anchor": "#get-random-meme-scraped-from-a-subreddit",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "mensagia",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mensagia/",
+    "Actions": [
+      {
+        "OperationId": "",
+        "Name": "Get 2 Way SMS's numbers",
+        "Description": "Get a list of 2 Way SMS's numbers through your Mensagia account.",
+        "Anchor": "#get-2-way-sms's-numbers",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateContact",
+        "Name": "Create a Contact",
+        "Description": "Create a contact inside your Mensagia's account.",
+        "Anchor": "#create-a-contact",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get2WaySmsMessages",
+        "Name": "Get 2 Way SMS",
+        "Description": "Get a list of 2 Way SMS through your Mensagia account.",
+        "Anchor": "#get-2-way-sms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Send2WaySms",
+        "Name": "Send 2 Way SMS",
+        "Description": "Send a 2 Way SMS to your contacts through your Mensagia account.",
+        "Anchor": "#send-2-way-sms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendSms",
+        "Name": "Send SMS",
+        "Description": "Send SMS's to your contacts through your Mensagia account.",
+        "Anchor": "#send-sms",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendSmsCampaigns",
+        "Name": "Send SMS Campaigns",
+        "Description": "Send SMS Campaigns to your contacts through your Mensagia account.",
+        "Anchor": "#send-sms-campaigns",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendTransactionalEmail",
+        "Name": "Send Transactional Email",
+        "Description": "Send a Transactional email to your contacts using your custom templates from Mensagia.",
+        "Anchor": "#send-transactional-email",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendVoiceMessage",
+        "Name": "Send Voice Message",
+        "Description": "This method allows you to carry out Voice campaigns to telephone numbers in Spain. The recipients of the voice campaign can be: agendas, agendas and telephone numbers, or telephone numbers.",
+        "Anchor": "#send-voice-message",
         "IsDeprecated": false
       }
     ]
@@ -49104,6 +50306,19 @@
     ]
   },
   {
+    "UniqueName": "mobsimsendsms",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mobsimsendsms/",
+    "Actions": [
+      {
+        "OperationId": "SMS",
+        "Name": "Send SMS",
+        "Description": "Send SMS messages through your MOBSIM account",
+        "Anchor": "#send-sms",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "moduleq",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../moduleq/",
     "Actions": []
@@ -49399,6 +50614,61 @@
     ]
   },
   {
+    "UniqueName": "msgraphgroupsanduser",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../msgraphgroupsanduser/",
+    "Actions": [
+      {
+        "OperationId": "GetGroupProperties",
+        "Name": "Get Group Properties",
+        "Description": "Retrieve properties and relationships of an AAD group",
+        "Anchor": "#get-group-properties",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMemberGroups",
+        "Name": "Get Member Groups",
+        "Description": "Group memberships for a user (member)",
+        "Anchor": "#get-member-groups",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetMemberLicenseDetails",
+        "Name": "Get Member License Details",
+        "Description": "Retrieve group member(user)'s license details",
+        "Anchor": "#get-member-license-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListDirectGroupMembers",
+        "Name": "List Direct Group Members",
+        "Description": "Retrieve direct members of a group with count",
+        "Anchor": "#list-direct-group-members",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListGroupsByDisplayNameSearch",
+        "Name": "List Groups By Display Name Search",
+        "Description": "Retrieve groups by searching group's display name",
+        "Anchor": "#list-groups-by-display-name-search",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListSubscribedSkus",
+        "Name": "List Subscribed Skus",
+        "Description": "Details of organization's subscribed license plan SKUs",
+        "Anchor": "#list-subscribed-skus",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ListUsers",
+        "Name": "List Users",
+        "Description": "Retrieve all users in the organization (AAD Tenant)",
+        "Anchor": "#list-users",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "msnweather",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../msnweather/",
     "Actions": [
@@ -49471,10 +50741,66 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "convert_cad",
+        "Name": "Convert CAD drawing to PDF",
+        "Description": "Convert a CAD drawing file to PDF or other format.",
+        "Anchor": "#convert-cad-drawing-to-pdf",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "convert_email",
+        "Name": "Convert email to PDF",
+        "Description": "Convert an email file to PDF or other format.",
+        "Anchor": "#convert-email-to-pdf",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "convert_excel",
+        "Name": "Convert Excel document",
+        "Description": "Convert an Excel document to PDF or other format.",
+        "Anchor": "#convert-excel-document",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "convert_html",
         "Name": "Convert HTML to PDF",
         "Description": "Convert URLs or HTML to PDF.",
         "Anchor": "#convert-html-to-pdf",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "convert_infopath",
+        "Name": "Convert InfoPath document",
+        "Description": "Convert a InfoPath file to PDF or other format.",
+        "Anchor": "#convert-infopath-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "convert_pdfa",
+        "Name": "Convert document to PDF-A",
+        "Description": "Convert a document to PDF-A.",
+        "Anchor": "#convert-document-to-pdf-a",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "convert_powerpoint",
+        "Name": "Convert PowerPoint document",
+        "Description": "Convert a PowerPoint document to PDF or other format.",
+        "Anchor": "#convert-powerpoint-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "convert_visio",
+        "Name": "Convert Visio document",
+        "Description": "Convert a Visio document to PDF or XPS.",
+        "Anchor": "#convert-visio-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "convert_word",
+        "Name": "Convert Word document",
+        "Description": "Convert a Word document to PDF or other format.",
+        "Anchor": "#convert-word-document",
         "IsDeprecated": false
       },
       {
@@ -49492,10 +50818,24 @@
         "IsDeprecated": false
       },
       {
+        "OperationId": "export_form_data",
+        "Name": "Export PDF Forms Data",
+        "Description": "Convert data from a PDF Form to XML, FDF or XFDF.",
+        "Anchor": "#export-pdf-forms-data",
+        "IsDeprecated": false
+      },
+      {
         "OperationId": "image_watermark",
         "Name": "Add image watermark",
         "Description": "Add an image based watermark to a PDF file.",
         "Anchor": "#add-image-watermark",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "import_form_data",
+        "Name": "Import PDF Forms data",
+        "Description": "Import PDF Forms data.",
+        "Anchor": "#import-pdf-forms-data",
         "IsDeprecated": false
       },
       {
@@ -49580,6 +50920,26 @@
         "Name": "Add text watermark",
         "Description": "Add a plain-text watermark to a PDF file.",
         "Anchor": "#add-text-watermark",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "mural",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mural/",
+    "Actions": [
+      {
+        "OperationId": "CreateNewMural",
+        "Name": "Create a Mural",
+        "Description": "This action for creating a new Mural",
+        "Anchor": "#create-a-mural",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CreateNewStickyNote",
+        "Name": "Create a new Sticky-note",
+        "Description": "The action for creating a new Sticky-note",
+        "Anchor": "#create-a-new-sticky-note",
         "IsDeprecated": false
       }
     ]
@@ -55775,6 +57135,47 @@
     ]
   },
   {
+    "UniqueName": "pdfco",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pdfco/",
+    "Actions": [
+      {
+        "OperationId": "HtmlToPdf",
+        "Name": "HTML to PDF",
+        "Description": "Convert HTML code snippet into full featured PDF.",
+        "Anchor": "#html-to-pdf",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MergePdf",
+        "Name": "Merge PDF",
+        "Description": "Merge multiple documents into one new single PDF. Supports many file formats. For example, pdf, doc, docx, xls, jpg, png, etc.",
+        "Anchor": "#merge-pdf",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "PdfFiller",
+        "Name": "PDF Filler",
+        "Description": "Add text, images, signatures to pdf. Fill PDF form fields and create new pdf from templates",
+        "Anchor": "#pdf-filler",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SplitPdf",
+        "Name": "Split PDF",
+        "Description": "Splits pages from PDF document into multiple new PDF files using page numbers and page ranges",
+        "Anchor": "#split-pdf",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UrlToPdf",
+        "Name": "URL to PDF",
+        "Description": "Create PDF from URL",
+        "Anchor": "#url-to-pdf",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "pdfcross",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../pdfcross/",
     "Actions": [
@@ -59258,6 +60659,208 @@
     "UniqueName": "powervirtualagents",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../powervirtualagents/",
     "Actions": []
+  },
+  {
+    "UniqueName": "ppmexpress",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ppmexpress/",
+    "Actions": [
+      {
+        "OperationId": "ChallengesCreate",
+        "Name": "Create a Challenge",
+        "Description": "Creates new Challenge",
+        "Anchor": "#create-a-challenge",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ChallengesGet",
+        "Name": "Get a Challenge",
+        "Description": "Gets an existing Challenge by Id",
+        "Anchor": "#get-a-challenge",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ChallengesGetAll",
+        "Name": "Get Challenges List",
+        "Description": "Gets all Challenges",
+        "Anchor": "#get-challenges-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ChallengesUpdate",
+        "Name": "Update a Challenge",
+        "Description": "Updates an existing Challenge",
+        "Anchor": "#update-a-challenge",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "FieldsGet",
+        "Name": "Get fields",
+        "Description": "Gets fields information for specified entity(e.g. Project, Idea, Resource etc)",
+        "Anchor": "#get-fields",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IdeasChangeStage",
+        "Name": "Update an Idea Stage",
+        "Description": "Updates an Idea Stage",
+        "Anchor": "#update-an-idea-stage",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IdeasCreate",
+        "Name": "Create an Idea",
+        "Description": "Creates a new Idea for the specified challenge",
+        "Anchor": "#create-an-idea",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IdeasGet",
+        "Name": "Get an Idea",
+        "Description": "Gets an existing Idea by Id",
+        "Anchor": "#get-an-idea",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IdeasGetAll",
+        "Name": "Get Ideas List",
+        "Description": "Gets All Ideas or for the specified challenge",
+        "Anchor": "#get-ideas-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "IdeasUpdate",
+        "Name": "Update an Idea",
+        "Description": "Updates an existing Idea",
+        "Anchor": "#update-an-idea",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "MeGet",
+        "Name": "Get current user",
+        "Description": "Gets current user and token information",
+        "Anchor": "#get-current-user",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsCreate",
+        "Name": "Create a Project",
+        "Description": "Creates a new Project",
+        "Anchor": "#create-a-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsGet",
+        "Name": "Get a Project",
+        "Description": "Gets a Project Info by Id",
+        "Anchor": "#get-a-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsGetAll",
+        "Name": "Get Projects List",
+        "Description": "Gets list of all projects",
+        "Anchor": "#get-projects-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsKeyDatesCreate",
+        "Name": "Create a Key Date",
+        "Description": "Creates a new Key Date",
+        "Anchor": "#create-a-key-date",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsKeyDatesGet",
+        "Name": "Get a Key Date",
+        "Description": "Gets a Key Date Info by Id",
+        "Anchor": "#get-a-key-date",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsKeyDatesGetAll",
+        "Name": "Get Key Dates List",
+        "Description": "Gets List of all Key Dates for the specified project",
+        "Anchor": "#get-key-dates-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsKeyDatesUpdate",
+        "Name": "Update a Key Date",
+        "Description": "Updates a Key Date",
+        "Anchor": "#update-a-key-date",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsTasksCreate",
+        "Name": "Create a Task",
+        "Description": "Creates a Task for the specified Project",
+        "Anchor": "#create-a-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsTasksGetAll",
+        "Name": "Get Tasks List",
+        "Description": "Gets List of all Tasks for the specified Project",
+        "Anchor": "#get-tasks-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsTasksGetTask",
+        "Name": "Get a Task",
+        "Description": "Gets a Task by Id and by Project",
+        "Anchor": "#get-a-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsTasksUpdate",
+        "Name": "Update a Task",
+        "Description": "Updates a Task",
+        "Anchor": "#update-a-task",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ProjectsUpdate",
+        "Name": "Update a Project",
+        "Description": "Updates the specified Project fields",
+        "Anchor": "#update-a-project",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ResourcesCreate",
+        "Name": "Create a Resource",
+        "Description": "Creates a Resource",
+        "Anchor": "#create-a-resource",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ResourcesGet",
+        "Name": "Get a Resource",
+        "Description": "Gets a Resource by Id",
+        "Anchor": "#get-a-resource",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ResourcesGetAll",
+        "Name": "Get Resources List",
+        "Description": "Gets List of all Resources",
+        "Anchor": "#get-resources-list",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "ResourcesUpdate",
+        "Name": "Update a Resource",
+        "Description": "Updates a Resource",
+        "Anchor": "#update-a-resource",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "WebhookTrigger",
+        "Name": "Webhook Trigger",
+        "Description": "When an operation is performed on an entity in PPM Express",
+        "Anchor": "#webhook-trigger",
+        "IsDeprecated": false
+      }
+    ]
   },
   {
     "UniqueName": "prioritymatrix",
@@ -67756,6 +69359,75 @@
     ]
   },
   {
+    "UniqueName": "softools",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../softools/",
+    "Actions": [
+      {
+        "OperationId": "Archive-record",
+        "Name": "Archive a record",
+        "Description": "Archive a record. Call this before delete.",
+        "Anchor": "#archive-a-record",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Delete-record",
+        "Name": "Delete a record",
+        "Description": "Delete a record. To delete a record you need to archive first.",
+        "Anchor": "#delete-a-record",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-all-records",
+        "Name": "Get all records",
+        "Description": "Gets a list of all records from app.\nCan iterate using $top and $skip",
+        "Anchor": "#get-all-records",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-basic-field-info",
+        "Name": "Get basic field info",
+        "Description": "Get basic field data for an app",
+        "Anchor": "#get-basic-field-info",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-record",
+        "Name": "Get a Record",
+        "Description": "Gets a record",
+        "Anchor": "#get-a-record",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Get-report-records",
+        "Name": "Get report records",
+        "Description": "Gets a list of records from report, limited to 250 records per request.\nOnly returns report field data.\nCan iterate using $top and $skip",
+        "Anchor": "#get-report-records",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Patch-a-record",
+        "Name": "Patch a Record",
+        "Description": "The Softools Api caters for Delta updates, meaning you can send only the changes which are relevant and not the entire document per PATCH request.",
+        "Anchor": "#patch-a-record",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Post-a-record",
+        "Name": "Create a record",
+        "Description": "Send all field values including defaults when adding a new record to an App",
+        "Anchor": "#create-a-record",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Unarchived-record",
+        "Name": "Unarchive a record",
+        "Description": "Unarchive a record.",
+        "Anchor": "#unarchive-a-record",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "solyp",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../solyp/",
     "Actions": [
@@ -73761,6 +75433,26 @@
     ]
   },
   {
+    "UniqueName": "viafirma",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../viafirma/",
+    "Actions": [
+      {
+        "OperationId": "CreateSignRequest",
+        "Name": "Create signature requests",
+        "Description": "Create signature requests and get the permanent link.",
+        "Anchor": "#create-signature-requests",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendSignRequest",
+        "Name": "Send signature requests via email",
+        "Description": "Create and send signature requests via email.",
+        "Anchor": "#send-signature-requests-via-email",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "videoindexer-v2",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../videoindexer-v2/",
     "Actions": [
@@ -73872,6 +75564,19 @@
     ]
   },
   {
+    "UniqueName": "viesip",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../viesip/",
+    "Actions": [
+      {
+        "OperationId": "CheckVATValidity",
+        "Name": "Check VAT validity",
+        "Description": "Provide country ISO code and VAT number to check its validity.",
+        "Anchor": "#check-vat-validity",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "vimeo",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../vimeo/",
     "Actions": []
@@ -73968,6 +75673,47 @@
         "Name": "Get file report",
         "Description": "Retrieve information about a file.",
         "Anchor": "#get-file-report",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "vonage",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../vonage/",
+    "Actions": [
+      {
+        "OperationId": "BasicNumberInsight",
+        "Name": "Provides basic number insight information about a number",
+        "Description": "Provides basic number insight information about a number",
+        "Anchor": "#provides-basic-number-insight-information-about-a-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendAMessageToTheGivenChannel",
+        "Name": "Send a message to the given channel",
+        "Description": "Send a Message",
+        "Anchor": "#send-a-message-to-the-given-channel",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "StandardNumberInsight",
+        "Name": "Provides standard number insight information about a number",
+        "Description": "Provides standard number insight information about a number",
+        "Anchor": "#provides-standard-number-insight-information-about-a-number",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VerifyCheck",
+        "Name": "Verify check",
+        "Description": "Confirms the PIN you received from your user matches the Verify request",
+        "Anchor": "#verify-check",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VerifyRequest",
+        "Name": "Request a verification",
+        "Description": "Use Verify request to generate and send a PIN to your user",
+        "Anchor": "#request-a-verification",
         "IsDeprecated": false
       }
     ]
@@ -76080,6 +77826,110 @@
     ]
   },
   {
+    "UniqueName": "zohosign",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zohosign/",
+    "Actions": [
+      {
+        "OperationId": "Create-Document",
+        "Name": "Create a document for signing",
+        "Description": "An action to create a document for signing by uploading a file.",
+        "Anchor": "#create-a-document-for-signing",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "delete-document",
+        "Name": "Delete Document",
+        "Description": "Delete a particular document",
+        "Anchor": "#delete-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "download-completion-certificate",
+        "Name": "Download Completion Certificate",
+        "Description": "Download the completion certificate",
+        "Anchor": "#download-completion-certificate",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "download-document",
+        "Name": "Download Document",
+        "Description": "Download the selected document",
+        "Anchor": "#download-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "download-file",
+        "Name": "Download File",
+        "Description": "Downloads the particular document that is selected.",
+        "Anchor": "#download-file",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "get-document",
+        "Name": "Get a document",
+        "Description": "Get details of a particular document",
+        "Anchor": "#get-a-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "get-form-data",
+        "Name": "Get data of completed request",
+        "Description": "Get data of completed request",
+        "Anchor": "#get-data-of-completed-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "get-template-details",
+        "Name": "Get particular template details",
+        "Description": "Get particular template details",
+        "Anchor": "#get-particular-template-details",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetTemplates",
+        "Name": "Get list of templates",
+        "Description": "List of Templates",
+        "Anchor": "#get-list-of-templates",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "recall-document",
+        "Name": "Recall a particular document",
+        "Description": "Recall a particular document",
+        "Anchor": "#recall-a-particular-document",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "remind-document-recipients",
+        "Name": "Reminder for recipients",
+        "Description": "Send a reminder to recipients of a particular document.",
+        "Anchor": "#reminder-for-recipients",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "SendSignRequest",
+        "Name": "SendSignRequest",
+        "Description": "Send the uploaded document out for signature",
+        "Anchor": "#sendsignrequest",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "UpdateDocument",
+        "Name": "Update the properties of a created request",
+        "Description": "Update the properties of a created request",
+        "Anchor": "#update-the-properties-of-a-created-request",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "zoho-sign-triggers",
+        "Name": "Zoho Sign Triggers",
+        "Description": "Register a callback for a particular event",
+        "Anchor": "#zoho-sign-triggers",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
     "UniqueName": "zoommeetingsip",
     "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zoommeetingsip/",
     "Actions": [
@@ -76136,6 +77986,208 @@
         "Name": "Upload delivery or invoice document",
         "Description": "Upload delivery or invoice document.",
         "Anchor": "#upload-delivery-or-invoice-document",
+        "IsDeprecated": false
+      }
+    ]
+  },
+  {
+    "UniqueName": "zvanuparvaldnieks",
+    "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../zvanuparvaldnieks/",
+    "Actions": [
+      {
+        "OperationId": "CallCompleted",
+        "Name": "CallCompleted webhook callback",
+        "Description": "Provides event with data payload about the call when event CallCompletedEvent is received during a moment when the call has ended.",
+        "Anchor": "#callcompleted-webhook-callback",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CallConnected",
+        "Name": "CallConnected webhook callback",
+        "Description": "Provides event with data payload about the call when event CallConnectedEvent is received during a moment when the call is answered.",
+        "Anchor": "#callconnected-webhook-callback",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CallRecorded",
+        "Name": "CallRecorded webhook callback",
+        "Description": "Provides event with data payload about the call when CallRecorded event is received during a moment when call recording gets created.",
+        "Anchor": "#callrecorded-webhook-callback",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CallStarted",
+        "Name": "CallStarted webhook callback",
+        "Description": "Provides event with data payload about the call when event CallStarted event is received during the start of the call.",
+        "Anchor": "#callstarted-webhook-callback",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "CallTransfered",
+        "Name": "CallTransfered webhook callback",
+        "Description": "Provides event with data payload about the call when CallTransfered event is received during a moment when the call gets transferred to a third party either by a blind transfer of attended transfer.",
+        "Anchor": "#calltransfered-webhook-callback",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "Dial",
+        "Name": "Dial",
+        "Description": "Request the start of new call by sending a request to a device.",
+        "Anchor": "#dial",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAudioPromptByID",
+        "Name": "Get Audio Prompt By ID",
+        "Description": "Retrieve a single audio prompt object by providing an ID.",
+        "Anchor": "#get-audio-prompt-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetAudioPrompts",
+        "Name": "Get Audio Prompts",
+        "Description": "Retrieve audio prompt entries.",
+        "Anchor": "#get-audio-prompts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCallHistory",
+        "Name": "Get call History",
+        "Description": "Retrieve Call history entries. Additionally API consumer may filter the returned records based on a specific number or employee involved in the call (source, destination, or contact_id), as well as direction to filter out only incoming or outgoing calls or only calls made within a specified date range (date_range).",
+        "Anchor": "#get-call-history",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCallHistoryItemByID",
+        "Name": "Get Call History Item By ID",
+        "Description": "Retrieve a single call history entry by providing an ID.",
+        "Anchor": "#get-call-history-item-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCallRecordingByID",
+        "Name": "Get Call Recording by ID",
+        "Description": "Retrieve a single call recording by providing an ID.",
+        "Anchor": "#get-call-recording-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetCallRecordings",
+        "Name": "Get Call Recordings",
+        "Description": "Retrieve Call recordings. Additionally API consumer may filter the returned records based on a specific number or employee involved in the call (source, destination, or contact_id), as well as direction to filter out only incoming or outgoing calls or only calls made within a specified date range (date_range).",
+        "Anchor": "#get-call-recordings",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetContacts",
+        "Name": "Get Contacts",
+        "Description": "Triggers when a new employee is created",
+        "Anchor": "#get-contacts",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetContactsByID",
+        "Name": "Get Contacts by ID",
+        "Description": "Retrieve a single employee object by providing an ID.",
+        "Anchor": "#get-contacts-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroupByID",
+        "Name": "Get Group By ID",
+        "Description": "Retrieve a single employee group object by providing an ID.",
+        "Anchor": "#get-group-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetGroups",
+        "Name": "Get Groups",
+        "Description": "Retrieve Employee groups data. Additionally API consumer may filter the returned records based on contact_id, to limit the result to only those groups, which have a particular Employee as a member.",
+        "Anchor": "#get-groups",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetLostCalls",
+        "Name": "Get lost calls",
+        "Description": "Retrieve all lost call records from call history that have not been answered, have been called back or the caller has not reached the employee in repeated attempts within the same day.",
+        "Anchor": "#get-lost-calls",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVoicemailBoxByID",
+        "Name": "Get Voicemail Box By ID",
+        "Description": "Retrieve a single voicemail box object by providing an ID.",
+        "Anchor": "#get-voicemail-box-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVoicemailBoxes",
+        "Name": "Get Voicemail Boxes",
+        "Description": "Retrieve a list of created voicemail boxes.",
+        "Anchor": "#get-voicemail-boxes",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVoicemailByID",
+        "Name": "Get Voicemail By ID",
+        "Description": "Retrieve a single voicemail object by providing an ID.",
+        "Anchor": "#get-voicemail-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVoicemails",
+        "Name": "Get voicemails",
+        "Description": "Retrieve Voicemail messages. Additionally API consumer may filter the returned records based on contact_id, source, box_id, or date_range to limit the result to only those messages that are left for a specific employee, voicemail box, from a specific number, or within a requested date range.",
+        "Anchor": "#get-voicemails",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVoipEndpointByID",
+        "Name": "Get VoIP Endpoint By ID",
+        "Description": "Retrieve a single VoIP endpoint object by providing an ID.",
+        "Anchor": "#get-voip-endpoint-by-id",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "GetVoipEndpoints",
+        "Name": "Get VoIP Endpoints",
+        "Description": "Retrieve VoIP endpoint entries.",
+        "Anchor": "#get-voip-endpoints",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LostCallerAdded",
+        "Name": "LostCallerAdded webhook callback",
+        "Description": "Provides event with data payload data about the call when LostCallerCreated event is received during a moment when the call does not get answered and gets registered as lost.",
+        "Anchor": "#lostcalleradded-webhook-callback",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LostCallerRemoved",
+        "Name": "LostCallerRemoved webhook callback",
+        "Description": "Provides event with data payload about the call when LostCallerDeleted event event is received during a moment when lost call gets called back from employee or gets answered later in repeated call from the same caller.",
+        "Anchor": "#lostcallerremoved-webhook-callback",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "LostCallerUpdated",
+        "Name": "LostCallerUpdated webhook callback",
+        "Description": "Provides event with data payload data about the call when LostCallerUpdated event is received during a moment when another unsuccessful call attempt is received from the same number, so lost call record attempts and last_contact fields get updated with a new number and timestamp.",
+        "Anchor": "#lostcallerupdated-webhook-callback",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VoicemailCreated",
+        "Name": "VoicemailCreated webhook callback",
+        "Description": "Provides event with data payload about the voicemail when VoicemailCreated event is received during a moment when a caller has left a voicemail.",
+        "Anchor": "#voicemailcreated-webhook-callback",
+        "IsDeprecated": false
+      },
+      {
+        "OperationId": "VoicemailDeleted",
+        "Name": "VoicemailDeleted webhook callback",
+        "Description": "Provides event with data payload about the voicemail when VoicemailDeleted event is received during a moment when a user has deleted a voicemail message.",
+        "Anchor": "#voicemaildeleted-webhook-callback",
         "IsDeprecated": false
       }
     ]

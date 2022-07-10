@@ -1,0 +1,202 @@
+{
+  "UniqueName": "ppmexpress",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../ppmexpress/",
+  "Actions": [
+    {
+      "OperationId": "ChallengesCreate",
+      "Name": "Create a Challenge",
+      "Description": "Creates new Challenge",
+      "Anchor": "#create-a-challenge",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChallengesGet",
+      "Name": "Get a Challenge",
+      "Description": "Gets an existing Challenge by Id",
+      "Anchor": "#get-a-challenge",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChallengesGetAll",
+      "Name": "Get Challenges List",
+      "Description": "Gets all Challenges",
+      "Anchor": "#get-challenges-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ChallengesUpdate",
+      "Name": "Update a Challenge",
+      "Description": "Updates an existing Challenge",
+      "Anchor": "#update-a-challenge",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "FieldsGet",
+      "Name": "Get fields",
+      "Description": "Gets fields information for specified entity(e.g. Project, Idea, Resource etc)",
+      "Anchor": "#get-fields",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IdeasChangeStage",
+      "Name": "Update an Idea Stage",
+      "Description": "Updates an Idea Stage",
+      "Anchor": "#update-an-idea-stage",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IdeasCreate",
+      "Name": "Create an Idea",
+      "Description": "Creates a new Idea for the specified challenge",
+      "Anchor": "#create-an-idea",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IdeasGet",
+      "Name": "Get an Idea",
+      "Description": "Gets an existing Idea by Id",
+      "Anchor": "#get-an-idea",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IdeasGetAll",
+      "Name": "Get Ideas List",
+      "Description": "Gets All Ideas or for the specified challenge",
+      "Anchor": "#get-ideas-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "IdeasUpdate",
+      "Name": "Update an Idea",
+      "Description": "Updates an existing Idea",
+      "Anchor": "#update-an-idea",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "MeGet",
+      "Name": "Get current user",
+      "Description": "Gets current user and token information",
+      "Anchor": "#get-current-user",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsCreate",
+      "Name": "Create a Project",
+      "Description": "Creates a new Project",
+      "Anchor": "#create-a-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsGet",
+      "Name": "Get a Project",
+      "Description": "Gets a Project Info by Id",
+      "Anchor": "#get-a-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsGetAll",
+      "Name": "Get Projects List",
+      "Description": "Gets list of all projects",
+      "Anchor": "#get-projects-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsKeyDatesCreate",
+      "Name": "Create a Key Date",
+      "Description": "Creates a new Key Date",
+      "Anchor": "#create-a-key-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsKeyDatesGet",
+      "Name": "Get a Key Date",
+      "Description": "Gets a Key Date Info by Id",
+      "Anchor": "#get-a-key-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsKeyDatesGetAll",
+      "Name": "Get Key Dates List",
+      "Description": "Gets List of all Key Dates for the specified project",
+      "Anchor": "#get-key-dates-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsKeyDatesUpdate",
+      "Name": "Update a Key Date",
+      "Description": "Updates a Key Date",
+      "Anchor": "#update-a-key-date",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsTasksCreate",
+      "Name": "Create a Task",
+      "Description": "Creates a Task for the specified Project",
+      "Anchor": "#create-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsTasksGetAll",
+      "Name": "Get Tasks List",
+      "Description": "Gets List of all Tasks for the specified Project",
+      "Anchor": "#get-tasks-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsTasksGetTask",
+      "Name": "Get a Task",
+      "Description": "Gets a Task by Id and by Project",
+      "Anchor": "#get-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsTasksUpdate",
+      "Name": "Update a Task",
+      "Description": "Updates a Task",
+      "Anchor": "#update-a-task",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ProjectsUpdate",
+      "Name": "Update a Project",
+      "Description": "Updates the specified Project fields",
+      "Anchor": "#update-a-project",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesCreate",
+      "Name": "Create a Resource",
+      "Description": "Creates a Resource",
+      "Anchor": "#create-a-resource",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesGet",
+      "Name": "Get a Resource",
+      "Description": "Gets a Resource by Id",
+      "Anchor": "#get-a-resource",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesGetAll",
+      "Name": "Get Resources List",
+      "Description": "Gets List of all Resources",
+      "Anchor": "#get-resources-list",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "ResourcesUpdate",
+      "Name": "Update a Resource",
+      "Description": "Updates a Resource",
+      "Anchor": "#update-a-resource",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WebhookTrigger",
+      "Name": "Webhook Trigger",
+      "Description": "When an operation is performed on an entity in PPM Express",
+      "Anchor": "#webhook-trigger",
+      "IsDeprecated": false
+    }
+  ]
+}

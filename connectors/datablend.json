@@ -1,0 +1,41 @@
+{
+  "UniqueName": "datablend",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../datablend/",
+  "Actions": [
+    {
+      "OperationId": "GetQueryExecutionById",
+      "Name": "Get Query Execution by ID",
+      "Description": "Get Query Execution by ID",
+      "Anchor": "#get-query-execution-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "GroupsSearch",
+      "Name": "Groups Search",
+      "Description": "Groups Search",
+      "Anchor": "#groups-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkflowExecutions",
+      "Name": "Workflow Executions",
+      "Description": "Workflow Executions",
+      "Anchor": "#workflow-executions",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkflowExecutionsSearch",
+      "Name": "Workflow Executions Search",
+      "Description": "Workflow Executions Search",
+      "Anchor": "#workflow-executions-search",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "WorkflowsSearch",
+      "Name": "Workflows Search",
+      "Description": "Workflows Search",
+      "Anchor": "#workflows-search",
+      "IsDeprecated": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "UniqueName": "mobsimsendsms",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../mobsimsendsms/",
+  "Actions": [
+    {
+      "OperationId": "SMS",
+      "Name": "Send SMS",
+      "Description": "Send SMS messages through your MOBSIM account",
+      "Anchor": "#send-sms",
+      "IsDeprecated": false
+    }
+  ]
+}

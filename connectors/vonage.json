@@ -1,0 +1,41 @@
+{
+  "UniqueName": "vonage",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../vonage/",
+  "Actions": [
+    {
+      "OperationId": "BasicNumberInsight",
+      "Name": "Provides basic number insight information about a number",
+      "Description": "Provides basic number insight information about a number",
+      "Anchor": "#provides-basic-number-insight-information-about-a-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "SendAMessageToTheGivenChannel",
+      "Name": "Send a message to the given channel",
+      "Description": "Send a Message",
+      "Anchor": "#send-a-message-to-the-given-channel",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "StandardNumberInsight",
+      "Name": "Provides standard number insight information about a number",
+      "Description": "Provides standard number insight information about a number",
+      "Anchor": "#provides-standard-number-insight-information-about-a-number",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VerifyCheck",
+      "Name": "Verify check",
+      "Description": "Confirms the PIN you received from your user matches the Verify request",
+      "Anchor": "#verify-check",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "VerifyRequest",
+      "Name": "Request a verification",
+      "Description": "Use Verify request to generate and send a PIN to your user",
+      "Anchor": "#request-a-verification",
+      "IsDeprecated": false
+    }
+  ]
+}

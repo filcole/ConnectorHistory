@@ -1,0 +1,34 @@
+{
+  "UniqueName": "dadjokesioip",
+  "DocumentationUrl": "https://docs.microsoft.com/en-us/connectors/connector-reference/../dadjokesioip/",
+  "Actions": [
+    {
+      "OperationId": "JokeID",
+      "Name": "Get a joke by ID",
+      "Description": "Retrieves a Dad joke by ID.",
+      "Anchor": "#get-a-joke-by-id",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "JokeSearch",
+      "Name": "Search jokes",
+      "Description": "Search for jokes contacting the search term.",
+      "Anchor": "#search-jokes",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "JokeType",
+      "Name": "Get joke(s) by type",
+      "Description": "Retrieves joke(s) by a specific type.",
+      "Anchor": "#get-joke(s)-by-type",
+      "IsDeprecated": false
+    },
+    {
+      "OperationId": "Random",
+      "Name": "Get a random joke",
+      "Description": "Retrieves a random Dad joke.",
+      "Anchor": "#get-a-random-joke",
+      "IsDeprecated": false
+    }
+  ]
+}
